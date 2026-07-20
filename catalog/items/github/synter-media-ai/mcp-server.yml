@@ -28,6 +28,8 @@ metadata:
     forks: 3
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-01-29T18:38:29Z"
     pushed_at: "2026-04-23T18:12:12Z"
     description: MCP server for AI agents to manage ad campaigns across Google, Meta, LinkedIn, Microsoft, Reddit, TikTok, and more
@@ -72,9 +74,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:31:14.969Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

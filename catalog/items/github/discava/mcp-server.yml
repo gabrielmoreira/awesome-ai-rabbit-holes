@@ -28,14 +28,16 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: discava/mcp-server
+    html_url: https://github.com/discava/mcp-server
     created_at: "2026-03-22T12:11:35Z"
     pushed_at: "2026-03-23T22:38:42Z"
     description: discava - The Business Directory for AI - mcp server
     homepage: null
     topics: []
-    last_checked_at: "2026-07-09T05:29:45.809Z"
+    last_checked_at: "2026-07-20T15:10:51.902Z"
     readme:
-      fetched_at: "2026-07-09T05:29:45.809Z"
+      fetched_at: "2026-07-20T15:10:51.902Z"
       bytes: 1126
 insights:
   summary: An MCP server that exposes local business search, details, rankings, and autocomplete via the Discava API for AI agents.
@@ -67,17 +69,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T05:17:33.650Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for discava/mcp-server
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T22:52:48.025Z"
+    updated_at: "2026-07-20T15:10:51.902Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.716Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

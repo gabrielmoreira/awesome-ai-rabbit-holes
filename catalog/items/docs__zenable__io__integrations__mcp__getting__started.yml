@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation page for the Zenable MCP Server, which allows AI coding assistants to automatically check code against organization-defined requirements and guardrails.
-  why_it_matters: It brings governance, compliance, and policy-as-code checks directly into the agent workflow, letting teams enforce standards without leaving their IDE.
-  mental_damage: You can now automate the exact moment your AI assistant breaks a rule you didn’t even know you had, and still blame the model when it does.
+  summary: A governance platform and MCP server that automatically checks and improves code against organizational requirements and policies.
+  why_it_matters: It provides an automated way to enforce compliance and security guardrails directly within AI coding sessions via MCP.
+  mental_damage: Nothing says 'eamless AI workflow' like a governance layer standing between you and your next commit.
   tags:
     - mcp
     - governance
-    - ide-integration
-    - policy-as-code
+    - compliance
+    - security
+    - code-quality
   confidence: high
 curation:
-  status: excluded
-  reason: This is an auxiliary documentation page for a commercial MCP server, not a standalone product, tool, or list, and the catalog does not index docs pages.
+  status: included
+  reason: The product's primary identity is the Zenable MCP server which facilitates automated code checking via the Model Context Protocol.
   evidence:
-    - URL points to a documentation page (docs.zenable.io/integrations/mcp/getting-started), not a product repo or tool.
-    - Content is an installation guide for the Zenable MCP Server rather than a standalone developer tool or registry.
-    - No repo description, stars, or product identity present; only a how-to page for an underlying SaaS platform.
+    - Claims to be an MCP Server for IDEs via automated installer
+    - Purpose is to enable AI coding assistants to check code against requirements
+    - Found in awesome-mcp-servers as an Official Server
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:44.063Z"
+    updated_at: "2026-07-20T15:42:17.651Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7b0f0f857c3eacb4f3268dd9e77a38fd5977e97c4469cebb7fcae8b21e470a13
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's primary identity is the Zenable MCP server which facilitates automated code checking via the Model Context Protocol.
+      decision_evidence:
+        - Claims to be an MCP Server for IDEs via automated installer
+        - Purpose is to enable AI coding assistants to check code against requirements
+        - Found in awesome-mcp-servers as an Official Server
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary interface for the developer is the MCP server protocol itself rather than a standalone extension UI.
+      review_reason: null
+      review_resume_lifecycle: null

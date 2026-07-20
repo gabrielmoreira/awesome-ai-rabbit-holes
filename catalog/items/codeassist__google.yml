@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Google's official AI coding assistant offering code completion and generation across multiple IDEs and development environments.
-  why_it_matters: Developers get tightly integrated AI code completion backed by Google's models directly within their existing IDE workflows.
-  mental_damage: Yet another well-funded giant enters the code completion arena to ensure we never again have to type a semicolon without second-guessing ourselves.
+  summary: Google's enterprise-grade AI coding assistance service integrated within Google Cloud and IDEs.
+  why_it_matters: It brings Gemini's large context window and deep integration with Google Cloud infrastructure directly into the development workflow.
+  mental_damage: Because deciding between three different cloud provider AI assistants is the peak of modern developer existential dread.
   tags:
-    - code-completion
-    - ide-integration
-    - google
-    - ai-assistant
+    - google-cloud
+    - gemini
+    - enterprise-ai
+    - cloud-ide
   confidence: medium
 curation:
   status: included
-  reason: It is a primary coding assistant focused on code completion within IDEs, fitting the IDE-Native Assistants section of coding-agents.
+  reason: It is a primary coding assistant that integrates with the developer's environment to assist with code completion and cloud-integrated tasks.
   evidence:
-    - Listed in awesome-ai-coding-tools under the section 'Code Completion'
-    - URL is codeassist.google, indicating an official Google product
-    - Product identity is an AI coding assistant, not an extension or framework
+    - Source list placement in 'Code Completion' section of awesome-ai-coding-tools
+    - Product is an AI-powered coding assistant service
 placement:
   primary_category: coding-agents
   section: IDE-Native Assistants
@@ -68,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:12.652Z"
+    updated_at: "2026-07-20T15:31:12.763Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4c57d9f19dd5eca7a8b02ea4499f1b2d2fa0ffc813a5f32c86c1c6b094a27e3c
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a primary coding assistant that integrates with the developer's environment to assist with code completion and cloud-integrated tasks.
+      decision_evidence:
+        - Source list placement in 'Code Completion' section of awesome-ai-coding-tools
+        - Product is an AI-powered coding assistant service
+      category_candidates:
+        - coding-agents
+        - ai-ides-editors
+      contrastive_reason: Choose coding-agents over ai-ides-editors because the product acts as an intelligent assistant serving code completion rather than being a full standalone IDE surface.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-03-19T02:50:46Z"
     pushed_at: "2026-03-19T03:49:49Z"
     description: null
@@ -38,26 +40,25 @@ metadata:
       fetched_at: "2026-07-20T05:16:50.850Z"
       bytes: 4701
 insights:
-  summary: A minimal MCP server that gives AI assistants local image and video processing tools like resize, convert, compress, and metadata stripping with no API keys or configuration.
-  why_it_matters: Developers can delegate routine media tasks directly to their coding assistant instead of leaving the IDE to run ImageMagick or FFmpeg by hand.
-  mental_damage: We have successfully reached the point where your AI needs its own ffmpeg wrapper so you don't have to remember what a pixel is.
+  summary: An MCP server providing tools for image and video processing, including resizing, converting, and compressing media.
+  why_it_matters: It allows AI assistants to perform complex media manipulation tasks directly through the Model Context Protocol without requiring manual API setups.
+  mental_damage: Because apparently, your LLM's next logical step is performing forensic-level EXIF stripping and ffmpeg transformations.
   tags:
     - mcp
     - media-processing
-    - local-tools
-    - image
-    - video
+    - image-tools
+    - video-tools
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: a lightweight, zero-config MCP server purpose-built to expose media processing tools to any MCP-compatible client."
+  reason: The project is explicitly an MCP server designed to provide media manipulation capabilities to MCP-compatible clients.
   evidence:
-    - README explicitly brands itself as 'MCP server for image & video processing' with MCP-native setup instructions.
-    - Supports Claude Desktop, Claude Code, Cursor, VS Code, Windsurf via standard MCP config and uvx launch.
-    - Included in awesome-mcp-servers under Server Implementations > Developer Tools, reinforcing its MCP server identity.
+    - README defines it as an 'MCP server for image & video processing'
+    - Provides specific tools for image/video manipulation via Model Context Protocol
+    - Compatible with Claude Desktop, Cursor, and Windsurf via MCP config
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -74,9 +75,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:42.574Z"
+    updated_at: "2026-07-20T15:58:35.911Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:721ecc22c611b15f5d7925435e09c97dacd4d9bdf88e01a034b6676250ef3fec
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server designed to provide media manipulation capabilities to MCP-compatible clients.
+      decision_evidence:
+        - README defines it as an 'MCP server for image & video processing'
+        - Provides specific tools for image/video manipulation via Model Context Protocol
+        - Compatible with Claude Desktop, Cursor, and Windsurf via MCP config
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because its primary identity and distribution method is as an MCP server implementation rather than a plugin for a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null

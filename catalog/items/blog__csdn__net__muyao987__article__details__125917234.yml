@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,24 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language blog post on CSDN summarizing general tips and resources for using Large Language Models.
-  why_it_matters: It aggregates pointers for developers navigating the rapidly expanding ecosystem of LLM tools, spanning coding assistance, training, and inference.
-  mental_damage: Yet another reminder that the most valuable currency in the AI gold rush is not a better model, but a curated list of other people's work.
+  summary: A curated collection of LLM resources including multimodal generation, agents, coding assistance, and MCP insights.
+  why_it_matters: It provides a high-density starting point for developers navigating the rapidly evolving landscape of LLM capabilities and agentic workflows.
+  mental_damage: A single bookmark that promises to keep you updated on everything from o1 models to MCP, ensuring you never feel truly caught up.
   tags:
     - llm-resources
-    - blog-post
-    - tips
-  confidence: high
+    - agents
+    - coding-assistance
+    - mcp
+    - multimodal
+  confidence: medium
 curation:
-  status: excluded
-  reason: This is a single auxiliary blog post on a publishing platform, not a standalone developer tool, framework, or directory, and therefore falls outside the catalog's scope of productized tooling.
+  status: included
+  reason: The content is a curated summary of diverse LLM resources rather than a standalone tool or framework.
   evidence:
-    - The URL resolves to a blog.csdn.net article (https://blog.csdn.net/muyao987/article/details/125917234), not a repository or product.
-    - Source-list context identifies it as a 'Tips' (技巧) entry within a broader resource summary, not a standalone tool.
-    - No repository metadata (stars, description, README) is available to suggest a product identity.
+    - Listed in source-list context as a summary of the world's best LLM resources
+    - Covers a broad range of topics like Agent, MCP, and Coding Assistance
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
@@ -67,9 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:41.350Z"
+    updated_at: "2026-07-20T15:26:27.900Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0b170b99eb79f59d06ee3f028207d90c1987330abd7d96788c279b949014a21e
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The content is a curated summary of diverse LLM resources rather than a standalone tool or framework.
+      decision_evidence:
+        - Listed in source-list context as a summary of the world's best LLM resources
+        - Covers a broad range of topics like Agent, MCP, and Coding Assistance
+      category_candidates:
+        - awesome-awesomes
+        - skills
+      contrastive_reason: Choose awesome-awesomes over skills because the resource is a collection of diverse topics and information rather than a specific, portable pack of reusable agent instructions.
+      review_reason: null
+      review_resume_lifecycle: null

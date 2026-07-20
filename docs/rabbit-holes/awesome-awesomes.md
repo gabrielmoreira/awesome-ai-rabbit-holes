@@ -50,7 +50,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `agents` `directory` `awesome-list` `ecosystem`
   </details>
 
-- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 27.1k` `updated ≤1y` A curated, actively maintained list of LLM papers, training frameworks, deployment tools, tutorials, and model checkpoints. <details><summary>More about</summary>
+- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 27.2k` `updated ≤1y` A curated, actively maintained list of LLM papers, training frameworks, deployment tools, tutorials, and model checkpoints. <details><summary>More about</summary>
 
   It serves as a centralized map for developers trying to navigate the fragmented ecosystem of models, inference stacks, and training tooling.
 
@@ -104,7 +104,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `claude` `skills` `directory` `prompt-engineering`
   </details>
 
-- **[awesome-langchain](https://github.com/kyrolabs/awesome-langchain)** `⭐ 9.4k` `updated ≤90d` A curated, community-maintained awesome list of tools, projects, ports, templates, and learning resources built around the LangChain framework. <details><summary>More about</summary>
+- **[awesome-langchain](https://github.com/kyrolabs/awesome-langchain)** `⭐ 9.5k` `updated ≤90d` A curated, community-maintained awesome list of tools, projects, ports, templates, and learning resources built around the LangChain framework. <details><summary>More about</summary>
 
   It serves as a centralized ecosystem map for developers looking to discover LangChain-compatible libraries, agents, and deployment tools across multiple languages.
 
@@ -239,13 +239,13 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `local-ai` `awesome-list` `inference` `self-hosted` `directory`
   </details>
 
-- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.9k` `updated ≤90d` A curated awesome list cataloging AI-powered coding tools, editors, agents, and related infrastructure for developers. <details><summary>More about</summary>
+- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.9k` `updated ≤90d` A curated directory of AI-powered coding tools including editors, agents, and productivity utilities. <details><summary>More about</summary>
 
-  It provides a structured map of the rapidly expanding AI coding ecosystem, organized by tool type to help developers discover relevant assistants and infrastructure.
+  It provides a central navigation point to discover the rapidly evolving ecosystem of AI-native development tools.
 
-  _Another navigation aid for the paradox of choice, ensuring you can spend three hours researching tools instead of actually writing code with them._
+  _It's a map of a territory that changes shape faster than you can finish reading the legend._
 
-  `awesome-list` `directory` `ai-tools` `curation`
+  `curated-list` `directory` `ai-coding` `developer-tools`
   </details>
 
 - **[awesome-LangGraph](https://github.com/von-development/awesome-langgraph)** `⭐ 1.8k` `updated ≤90d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps. <details><summary>More about</summary>
@@ -347,13 +347,13 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `cli` `coding-agents` `directory` `terminal` `awesome-list`
   </details>
 
-- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 789` `updated ≤30d` A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows. <details><summary>More about</summary>
+- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 789` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
 
-  It serves as a centralized discovery map for developers looking to navigate the rapidly expanding ecosystem of prompt-driven builders, editors, and AI dev tools.
+  It provides a centralized directory for the emerging 'vibe coding' workflow, gathering high-level builders and IDEs focused on prompt-driven development.
 
-  _Because what the world definitely needed was a formalized taxonomy for 'I have no idea what I'm doing but the LLM seems to be writing payroll software.'._
+  _It formalizes the existential dread of wondering if you're actually a software engineer or just a professional prompt stylist._
 
-  `awesome-list` `vibe-coding` `directory` `ai-tools` `discovery`
+  `vibe-coding` `curated-list` `ai-builders` `ai-editors`
   </details>
 
 - **[awesome-local-llms](https://github.com/vince-lam/awesome-local-llms)** `⭐ 751` `updated ≤1y` awesome-local-llms is a curated comparison table of open-source local LLM inference projects ranked by GitHub metrics like stars and recent activity. <details><summary>More about</summary>
@@ -540,58 +540,58 @@ _These are new or low-traffic entries being watched._
   `llm` `resources` `directory` `multimodal` `training`
   </details>
 
-- **[AI Dev Jobs MCP](https://aidevboard.com/mcp)** A directory page on the AI Dev Board that lists MCP servers and directories relevant to AI coding workflows. <details><summary>More about</summary>
+- **[《Generative AI Handbook: A Roadmap for Learning Resources》](https://genai-handbook.github.io)** A curated learning roadmap and resource guide for understanding the fundamentals of generative AI and large language models. <details><summary>More about</summary>
 
-  Provides developers with a centralized map of MCP-compatible tooling to navigate the rapidly expanding Model Context Protocol ecosystem.
+  It provides a structured path through the chaotic landscape of AI research and tutorials to help developers build a solid theoretical foundation.
 
-  _Because nothing says 'streamlined developer experience' like needing a directory just to find the directory that helps you find the server that connects your tool to your tool._
+  _Just enough reading material to ensure you feel sufficiently unprepared for the next paradigm shift happening next Tuesday._
 
-  `mcp` `directory` `tooling` `discovery`
+  `learning-resources` `llm-fundamentals` `roadmap` `ai-education`
   </details>
 
-- **[AI For Developers](https://aifordevelopers.org)** A curated directory and discovery site listing AI coding tools, agents, and developer resources organized by category. <details><summary>More about</summary>
+- **[1xt2IsFPGYMEQdoJFNgWNAjWGxa60VXdV](https://colab.research.google.com/drive/1xt2IsFPGYMEQdoJFNgWNAjWGxa60VXdV)** A Google Colab notebook containing implementation examples and tutorials for the LangChain framework. <details><summary>More about</summary>
 
-  It provides a centralized, filterable map of the AI dev tooling landscape to help developers cut through the noise and find relevant tools.
+  Provides hands-on, executable code patterns for learning how to build LLM-powered applications using LangChain.
 
-  _Yet another beautiful confirmation that we now need dedicated directories just to navigate the directories of AI tools that are supposed to simplify our workflow._
+  _Nothing quite like jumping into a notebook only to realize you're one API key away from a $50 bill and a broken dependency tree._
 
-  `directory` `discovery` `ai-tools` `curation`
+  `langchain` `notebook` `tutorials` `llm-orchestration`
   </details>
 
-- **[All skills →](https://awesome-copilot.github.com/skills)** A community-maintained directory of reusable instructions, agents, skills, and configurations designed to extend GitHub Copilot. <details><summary>More about</summary>
+- **[AGI-Eval](https://agi-eval.cn/mvp/home)** A resource directory providing curated collections of LLM materials, including multi-modal generation, agents, and evaluation frameworks. <details><summary>More about</summary>
 
-  It provides a centralized place to find and share portable skill packs that customize how Copilot behaves in your workflow.
+  It serves as a centralized starting point for navigating the massive influx of LLM-related research and tooling.
 
-  _Because clearly the missing piece in our AI-assisted development loop was yet another layer of crowd-sourced prompt files to audit and maintain._
+  _Because why spend ten minutes searching GitHub when you can spend three hours browsing an endless list of links that also lead to GitHub?_
 
-  `copilot` `skills` `awesome-list` `extensions`
+  `llm-resources` `curated-list` `ai-research` `agent-resources` `evaluations`
   </details>
 
-- **[Altern](https://altern.ai)** A curated directory and discovery platform listing AI tools across categories like coding agents, IDE assistants, and app builders. <details><summary>More about</summary>
+- **[AI For Developers](https://aifordevelopers.org)** A curated directory of AI coding tools, agents, and developer-focused infrastructure. <details><summary>More about</summary>
 
-  It provides a centralized map for developers to navigate the exploding ecosystem of AI coding assistants and related infrastructure.
+  It helps developers cut through the noise of the exploding AI ecosystem to find practical, task-specific tooling.
 
-  _Just what the overwhelmed developer needs: another layer of navigation on top of the 50 tools they already bookmarked but never configured._
+  _Nothing cures terminal decision paralysis quite like scrolling through an endless list of tools that all claim to replace your entire workflow._
 
-  `directory` `discovery` `ai-tools` `navigation`
+  `curated-list` `ai-tools` `developer-resources` `directory`
   </details>
 
-- **[AutoGPT](https://agpt.co)** agpt.co is a web hub serving as a directory for AI autonomous agents, most notably associated with the AutoGPT ecosystem. <details><summary>More about</summary>
+- **[Altern](https://altern.ai)** A curated directory of AI tools, agents, and SDKs. <details><summary>More about</summary>
 
-  Developers evaluating multi-agent architectures can use this as a navigation point to understand the landscape of autonomous agent implementations.
+  It acts as a discovery layer for developers trying to navigate the rapidly shifting landscape of AI-powered development utilities.
 
-  _Yet another map to the maze, ensuring you can efficiently lose yourself in autonomous agents without ever actually deploying one to production._
+  _Because choosing between 100 different 'top' tools is a much more efficient way to procrastinate than actually writing code._
 
-  `agents` `directory` `autogpt` `navigation`
+  `directory` `curation` `discovery`
   </details>
 
-- **[Awesome GitHub Copilot](https://awesome-copilot.github.com)** A community-curated directory of reusable agents, instructions, skills, hooks, workflows, and plugins specifically designed to customize and extend GitHub Copilot. <details><summary>More about</summary>
+- **[Awesome GitHub Copilot](https://awesome-copilot.github.com)** A community-curated repository of agents, instructions, skills, and plugins to enhance the GitHub Copilot experience. <details><summary>More about</summary>
 
-  Developers can quickly discover and install specialized configurations and task-specific agents to tailor Copilot's behavior to their team's coding standards and workflows.
+  It provides a centralized repository of reusable prompts and specialized skills to make a standard coding assistant more effective for specific workflows.
 
-  _We now have a dedicated directory for the directories of rules that tell your AI to stop writing code like it's 2023._
+  _Another layer of abstraction between you and your code, because clearly, you weren't getting enough 'agic' from your IDE already._
 
-  `copilot` `skills` `directory` `awesome-list` `extensions`
+  `copilot` `instructions` `skills` `extensions`
   </details>
 
 - **[Claude MCP Servers](https://www.claudemcp.com/servers)** A directory page listing available MCP servers for use with Claude and other Model Context Protocol-compatible clients. <details><summary>More about</summary>
@@ -612,22 +612,22 @@ _These are new or low-traffic entries being watched._
   `mcp` `directory` `clients`
   </details>
 
-- **[CLIRank](https://clirank.dev)** A directory and discovery hub for Model Context Protocol (MCP) servers and tools. <details><summary>More about</summary>
+- **[CLIRank](https://clirank.dev)** An aggregator of MCP servers designed to facilitate discovery of Model Context Protocol implementations. <details><summary>More about</summary>
 
-  It serves as a navigation layer for developers trying to find the right MCP integrations to extend their AI coding assistants.
+  It helps developers navigate the growing ecosystem of MCP servers to extend their AI assistants with new tools and data sources.
 
-  _Another meticulously organized map of the rabbit hole we've voluntarily jumped into, ensuring we spend more time browsing MCP servers than actually writing code._
+  _Because apparently, finding the right tool for your LLM is now a full-time job in catalog management._
 
-  `mcp` `directory` `discovery` `tooling`
+  `mcp` `discovery` `aggregator` `ai-ecosystem`
   </details>
 
-- **[CodeCosts](https://codecosts.pages.dev)** A directory and cost calculator for comparing AI coding assistants by price, features, supported IDEs, and model capabilities. <details><summary>More about</summary>
+- **[CodeCosts](https://codecosts.pages.dev)** A comparison and cost calculation platform for AI coding assistants and IDEs. <details><summary>More about</summary>
 
-  Developers can quickly estimate team costs and filter tools by role or language instead of manually parsing fragmented pricing pages.
+  Helps developers and engineering managers navigate the shifting pricing tiers and feature sets of the rapidly evolving AI coding tool landscape.
 
-  _We now need a dedicated decision support system just to figure out which AI tool we cannot afford this month._
+  _Because nothing says 'developer productivity' like spending three hours calculating the ROI of a $20/month subscription._
 
-  `pricing` `directory` `comparison` `ai-tools`
+  `comparison` `pricing` `productivity` `ide` `ai-tools`
   </details>
 
 - **[Cursor MCP Directory](https://cursor.directory/mcp)** A Cursor-hosted directory page listing Model Context Protocol (MCP) servers and tools for extending AI coding assistants. <details><summary>More about</summary>
@@ -637,42 +637,6 @@ _These are new or low-traffic entries being watched._
   _Just when you thought keeping up with the AI tooling ecosystem was hard, we now have directories of directories built to index the adapters that help your adapters talk to other adapters._
 
   `mcp` `directory` `cursor` `discovery`
-  </details>
-
-- **[CursorDirectory](https://cursor.directory)** A directory of configuration files and rules designed to enhance the Cursor AI editor experience. <details><summary>More about</summary>
-
-  It provides a centralized collection of community-vetted .cursorrules files, allowing developers to quickly bootstrap specific coding behaviors and project contexts.
-
-  _Because clearly the missing variable in modern development wasn't better models, but a thousand-line text file defining how an AI should feel about your semicolons._
-
-  `cursor` `rules` `directory` `configuration`
-  </details>
-
-- **[CursorList](https://cursorlist.com)** A directory and viewer for .cursorrules files and SOPs used to customize behavior in the Cursor AI editor. <details><summary>More about</summary>
-
-  It gives Cursor users a searchable library of community-contributed rule sets that shape how the assistant writes, refactors, and reasons across different tech stacks.
-
-  _Because nothing says 'I have my workflow under control' like scrolling a gallery of prompt files to find out you still haven't solved the original bug._
-
-  `cursor` `rules` `directory` `prompt-engineering`
-  </details>
-
-- **[DevTools Directory](https://devtools.directory)** A directory of over 28 curated developer tools spanning categories like monitoring, design, cloud platforms, and testing, with reviews and pricing details. <details><summary>More about</summary>
-
-  It provides a centralized map for developers to navigate the overwhelming ecosystem of dev tools, including the AI subset.
-
-  _Just when you thought you had a handle on the AI tool stack, you realize you now need a tool just to manage the directory of tools you're browsing._
-
-  `directory` `discovery` `ecosystem` `curated-list`
-  </details>
-
-- **[DropBin](https://dropbin.org/mcp)** A directory-style page listing community Model Context Protocol (MCP) servers for discovery and reference. <details><summary>More about</summary>
-
-  It provides a jumping-off point for developers looking to find available MCP servers to extend their AI coding assistants.
-
-  _Because nothing says 'streamlined developer workflow' like needing a dedicated directory just to navigate the ever-expanding universe of protocol adapters._
-
-  `mcp` `directory` `servers` `discovery`
   </details>
 
 - **[https://mcp.1mcpserver.com/mcp/](https://mcp.1mcpserver.com/mcp)** A web directory for discovering Model Context Protocol (MCP) servers. <details><summary>More about</summary>
@@ -693,6 +657,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `directory` `servers` `discovery`
   </details>
 
+- **[LangChain <> Wolfram Alpha](https://colab.research.google.com/drive/1AAyEdTz-Z6ShKvewbt1ZHUICqak0MiwR)** A Google Colab notebook for learning the LangChain framework. <details><summary>More about</summary>
+
+  Provides a managed, zero-setup execution environment for experimenting with LangChain's orchestration patterns.
+
+  _Nothing says 'I'm serious about AI development' like running a tutorial in a web-based notebook instead of a local IDE._
+
+  `notebooks` `tutorials` `langchain` `learning`
+  </details>
+
 - **[llama-police.html](https://huyenchip.com/llama-police.html)** A curated, auto-updating directory of open source LLM tools and developers, now hosted at GoodAIList.com. <details><summary>More about</summary>
 
   Developers can quickly discover trending local AI repositories and look up tool creators by geography when evaluating self-hosted options.
@@ -711,13 +684,13 @@ _These are new or low-traffic entries being watched._
   `directory` `llm` `resources` `learning`
   </details>
 
-- **[llms.txt](https://awesome-copilot.github.com/llms.txt)** A community-driven directory and learning hub for GitHub Copilot custom agents, skills, instructions, and configuration packs. <details><summary>More about</summary>
+- **[llms.txt](https://awesome-copilot.github.com/llms.txt)** A community-driven collection of custom agents, instructions, and skills designed to extend GitHub Copilot's capabilities. <details><summary>More about</summary>
 
-  It gives developers a ready-made library of reusable Copilot behaviors and governance patterns instead of prompting them to reinvent domain-specific assistants from scratch.
+  It provides a centralized way to discover specialized personas and domain-specific automation patterns for the GitHub Copilot ecosystem.
 
-  _We have now reached the point where we need a curated list of curated instruction files just to keep our AI assistants from forgetting which cloud provider we are using this sprint._
+  _Because apparently, even with a trillion-parameter model, we still need a crowdsourced manual to figure out how to make it act like a senior architect._
 
-  `copilot` `skills` `directory` `agents` `github`
+  `github-copilot` `custom-agents` `skills` `instructions` `productivity`
   </details>
 
 - **[LLM训练-pretrain](https://zhuanlan.zhihu.com/p/718354385)** A Zhihu article summarizing LLM resources, tips, and techniques for developers. <details><summary>More about</summary>
@@ -819,6 +792,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `directory` `discovery`
   </details>
 
+- **[on Discord](https://discord.com/invite/35NF4Y8WSE)** The official Discord community for E2B, a runtime sandbox designed for executing code within AI applications. <details><summary>More about</summary>
+
+  It provides a direct line to the developer community building sandboxed execution environments for LLM agents.
+
+  _Another community to join in the frantic race to figure out how to safely let an LLM run `rm -rf` on your infrastructure._
+
+  `community` `runtime` `sandboxing` `agent-infrastructure`
+  </details>
+
 - **[PoplarML](https://www.poplarml.com)** A website and directory entry for local AI tools listed in the awesome-local-ai repository. <details><summary>More about</summary>
 
   It serves as a landing page and navigation aid for developers looking to run AI models locally.
@@ -844,6 +826,15 @@ _These are new or low-traffic entries being watched._
   _Because what every overworked developer really needs is another list of lists to consult before deciding which tool might actually help them ship._
 
   `llmops` `directory` `devops` `navigation`
+  </details>
+
+- **[Query the YouTube video transcripts](https://colab.research.google.com/drive/1sKSTjt9cPstl_WMZ86JsgEqFG-aSAwkn)** A Google Colab notebook serving as a tutorial or reference for the LangChain framework. <details><summary>More about</summary>
+
+  It provides a sandboxed, executable environment for learning LangChain's orchestration capabilities without local setup overhead.
+
+  _Another notebook to clone, run, and eventually abandon when the API versioning shifts again._
+
+  `langchain` `notebooks` `tutorials` `orchestration` `learning`
   </details>
 
 - **[sharemcp.cn](https://sharemcp.cn)** A Chinese-language directory and resource hub for discovering and sharing Model Context Protocol (MCP) servers and tools. <details><summary>More about</summary>
@@ -907,4 +898,31 @@ _These are new or low-traffic entries being watched._
   _Just when you thought you had a handle on your tooling stack, you now need a dedicated directory just to track the protocol adapters that talk to your tools._
 
   `mcp` `directory` `discovery` `ecosystem`
+  </details>
+
+- **[X4JWnZnxPb](https://discord.com/invite/X4JWnZnxPb)** The community Discord server for CrewAI, a framework designed for orchestrating role-playing, autonomous AI agents. <details><summary>More about</summary>
+
+  It provides a space for developers to discuss implementation details and community support while building multi-agent orchestration workflows.
+
+  _Another community to join while you wait for your multi-agent swarm to figure out how to write a simple Python script._
+
+  `community` `crewai` `multi-agent` `orchestration` `discord`
+  </details>
+
+- **[动手学大模型应用开发](https://datawhalechina.github.io/llm-universe)** A curated collection of LLM resources covering multi-modal generation, agents, programming assistance, and model training. <details><summary>More about</summary>
+
+  It serves as a centralized map for navigating the massive influx of new LLM papers, tools, and tutorials.
+
+  _A perfect way to feel productive by reading about the tools you'll definitely use once you've finished reading about the tools you're currently reading about._
+
+  `llm` `resources` `tutorials` `agents`
+  </details>
+
+- **[基于 transformers 的 generate() 方法实现多样化文本生成：参数含义和算法原理解读](https://blog.csdn.net/muyao987/article/details/125917234)** A curated collection of LLM resources including multimodal generation, agents, coding assistance, and MCP insights. <details><summary>More about</summary>
+
+  It provides a high-density starting point for developers navigating the rapidly evolving landscape of LLM capabilities and agentic workflows.
+
+  _A single bookmark that promises to keep you updated on everything from o1 models to MCP, ensuring you never feel truly caught up._
+
+  `llm-resources` `agents` `coding-assistance` `mcp` `multimodal`
   </details>

@@ -1,11 +1,26 @@
 id: github__xllm-ai__xllm
 kind: github-repo
-name: xllm
+name: xLLM
 canonical_url: https://github.com/xllm-ai/xllm
 identity:
   github_repo: xllm-ai/xllm
 provenance:
   discoveries:
+    - id: discovery__github__jd-opensource__xllm__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: xLLM
+        extracted_url: https://github.com/jd-opensource/xllm
+        surrounding_text: "53. [xLLM](https://github.com/jd-opensource/xllm): A high-performance inference engine for LLMs, optimized for diverse AI accelerators."
+        confidence: high
     - id: discovery__github__xllm-ai__xllm__awesome-list__wangrongsheng__awesome-llm-resources
       discovered_at: "2026-07-09T05:28:44.887Z"
       source:
@@ -23,47 +38,70 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1478
+    forks: 264
+    license: Apache-2.0
+    archived: false
+    full_name: xLLM-AI/xllm
+    html_url: https://github.com/xLLM-AI/xllm
+    created_at: "2025-08-12T13:16:07Z"
+    pushed_at: "2026-07-20T13:22:17Z"
+    description: A high-performance inference engine for LLM, VLM, DiT and REC models, optimized for diverse AI accelerators. It is hosted in OpenAtom Foundation.
+    homepage: https://xllm-ai.com/
+    topics:
+      - deepseek
+      - glm
+      - inference
+      - inference-engine
+      - large-language-models
+      - llm-inference
+      - qwen
+    last_checked_at: "2026-07-20T15:11:22.523Z"
+    readme:
+      fetched_at: "2026-07-20T15:11:22.523Z"
+      bytes: 7351
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: xLLM is a high-performance inference engine optimized for Chinese AI accelerators, supporting LLM, VLM, and DiT models like DeepSeek and Qwen.
+  why_it_matters: It provides enterprise-grade, cost-efficient deployment specifically tuned for diverse AI hardware, enabling developers to run large models on non-NVIDIA infrastructure.
+  mental_damage: "Just what the ecosystem needed: another ultra-optimized inference engine to help you benchmark your GPU collection while questioning why your cloud bill still costs more than a junior developer's salary."
+  tags:
+    - accelerators
+    - deployment
+    - engine
+    - inference
+    - llm
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a model inference runtime and serving framework for hardware accelerators, which falls outside the scope of developer-facing coding tools, agents, or workflow products.
+  evidence:
+    - Repo description explicitly defines it as 'A high-performance inference engine for LLM, VLM, DiT and REC models'.
+    - README states the framework is 'optimized for Chinese AI accelerators' and used for 'enterprise-grade deployment' at JD.com.
+    - Listed in awesome-LLM-resources under '推理 Inference', indicating it is a backend infrastructure resource rather than a developer tool.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1257) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
   discover:
     status: done
     updated_at: "2026-07-09T05:28:44.888Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T15:11:22.523Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T05:17:35.691Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

@@ -27,6 +27,8 @@ metadata:
     forks: 0
     license: NOASSERTION
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-01-19T21:01:50Z"
     pushed_at: "2026-06-22T06:34:40Z"
     description: AI agent CLI for spec-driven feature loops with Claude Code and Codex. Scans your stack, generates specs, and runs autonomous implement-test-fix cycles.
@@ -88,10 +90,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:55:40.212Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.716Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

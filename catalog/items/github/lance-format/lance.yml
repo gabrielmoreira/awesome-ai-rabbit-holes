@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6782
-    forks: 752
+    stars: 6825
+    forks: 768
     license: Apache-2.0
     archived: false
+    full_name: lance-format/lance
+    html_url: https://github.com/lance-format/lance
     created_at: "2022-07-07T22:29:29Z"
-    pushed_at: "2026-07-13T05:01:20Z"
+    pushed_at: "2026-07-20T14:55:07Z"
     description: Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..
     homepage: https://lance.org
     topics:
@@ -49,10 +51,10 @@ metadata:
       - mlops
       - python
       - rust
-    last_checked_at: "2026-07-13T05:13:24.703Z"
+    last_checked_at: "2026-07-20T15:11:44.840Z"
     readme:
-      fetched_at: "2026-07-13T05:13:24.703Z"
-      bytes: 8428
+      fetched_at: "2026-07-20T15:11:44.840Z"
+      bytes: 9595
 insights:
   summary: Lance is an open lakehouse format and file format for multimodal AI that provides high-performance vector search, full-text search, and random access on object storage, compatible with Pandas, DuckDB, Polars, and PyTorch.
   why_it_matters: It gives developers a single columnar format for storing embeddings, images, audio, and structured data with versioning and hybrid search without rebuilding their ML data stack.
@@ -85,14 +87,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:24.703Z"
+    updated_at: "2026-07-20T15:11:44.840Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:08:22.960Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

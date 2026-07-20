@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Firecrawl is a web scraping and data extraction platform that transforms websites into clean, LLM-ready markdown or structured data via API and no-code interfaces.
-  why_it_matters: It provides developers with a reliable pipeline to turn messy web content into structured inputs for AI workflows, eliminating the need to build custom scrapers.
-  mental_damage: Because nothing says 'I am a serious AI engineer' quite like adding a paid web scraping API to your stack just to avoid parsing HTML like a peasant.
+  summary: Firecrawl is a web scraping and crawler engine designed to turn entire websites into clean, LLM-ready markdown or structured data.
+  why_it_matters: It solves the tedious problem of preprocessing messy HTML into high-quality context for RAG pipelines and agentic workflows.
+  mental_damage: Another layer of abstraction between you and the chaos of the open web, ensuring your LLM sees the world in perfectly formatted markdown.
   tags:
     - web-scraping
+    - llm-context
     - data-extraction
-    - llm-ready
-    - api
-  confidence: medium
+    - crawler
+    - markdown
+  confidence: high
 curation:
-  status: excluded
-  reason: Firecrawl is primarily a general-purpose web scraping and data extraction SaaS, lacking a direct developer-tooling angle like IDE integration, coding agents, or local AI infrastructure.
+  status: included
+  reason: The core utility of Firecrawl is converting raw web content into structured, optimized context for LLMs, which is a classic context engineering problem.
   evidence:
-    - Seen in awesome-mcp-servers, but the URL points to the commercial product firecrawl.dev rather than a primary MCP server implementation.
-    - The product description focuses on turning websites into LLM-ready markdown/data, which is a general data pipeline task rather than a developer-facing coding tool.
-    - No GitHub repo description, README, or code-first SDK evidence was provided to suggest it functions as a library, framework, or direct coding assistant.
+    - Product focus is converting websites to LLM-ready markdown
+    - Included in awesome-mcp-servers as an official server
+    - Provides specialized infrastructure for data retrieval for AI models
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:10.861Z"
+    updated_at: "2026-07-20T15:45:14.960Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b34bcd40a654c19eb2f16a651c7938d74ccb50df8dc2e55a1750aae450afdba9
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core utility of Firecrawl is converting raw web content into structured, optimized context for LLMs, which is a classic context engineering problem.
+      decision_evidence:
+        - Product focus is converting websites to LLM-ready markdown
+        - Included in awesome-mcp-servers as an official server
+        - Provides specialized infrastructure for data retrieval for AI models
+      category_candidates:
+        - context-engineering
+        - ai-frameworks
+      contrastive_reason: Choose context-engineering over ai-frameworks because its primary value is the transformation of unstructured web data into high-quality context rather than providing a general-purpose coding library.
+      review_reason: null
+      review_resume_lifecycle: null

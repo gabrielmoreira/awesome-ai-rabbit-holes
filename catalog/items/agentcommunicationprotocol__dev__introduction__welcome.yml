@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,22 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Agent Communication Protocol (ACP) is an open, REST-based protocol for standardizing interoperability and communication between AI agents across different frameworks and infrastructures.
-  why_it_matters: It provides a standardized bridge for developers to connect disparate agents—built with LangChain, CrewAI, or custom code—into coordinated multi-agent workflows without bespoke integrations.
-  mental_damage: "Just what we needed: another open standard to solve the fragmentation caused by everyone building their own open standards."
+  summary: Agent Communication Protocol (ACP) is an open, REST-based interoperability standard for connecting AI agents across frameworks, now part of the Linux Foundation’s A2A protocol.
+  why_it_matters: Developers building multi-agent systems need connectivity standards to avoid brittle point-to-point integrations, though ACP itself has been superseded by A2A.
+  mental_damage: A protocol that published its own quickstart only to announce it is now part of a bigger protocol is the most honest tutorial in agent interoperability you can ask for.
   tags:
-    - agent-interop
     - protocol
+    - agent-interoperability
     - multi-agent
-    - linux-foundation
+    - documentation
+    - a2a
   confidence: high
 curation:
   status: excluded
-  reason: This is documentation and an auxiliary resource page for a protocol specification, not a standalone developer tool, SDK, or product that fits our catalog scope.
+  reason: This is a documentation landing page for a protocol specification, not a standalone developer tool, SDK, or platform, and the catalog excludes auxiliary documentation links.
   evidence:
-    - The URL points to a documentation welcome page (agentcommunicationprotocol.dev/introduction/welcome) rather than a tool or repo.
-    - The content describes a protocol standard and its concepts rather than providing a consumable tool, framework, or server.
-    - Source-list context shows it appearing in awesome-mcp-servers only as a related communication protocol link, not as an MCP server itself.
+    - URL points to /introduction/welcome on the documentation site, not a repo or product surface.
+    - No GitHub repo, stars, or release artifacts are provided; the only inputs are a protocol spec and docs index.
+    - Source-list placement under awesome-mcp-servers is incidental—ACP is a separate interoperability protocol with an MCP adapter, not an MCP server itself.
 placement:
   primary_category: null
   section: null
@@ -71,9 +74,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:17.830Z"
+    updated_at: "2026-07-20T15:15:40.397Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c085df6db2b4eee4f02dbc792fdafb04ea24978aef50b5ee1f6a7d4938b7905f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation landing page for a protocol specification, not a standalone developer tool, SDK, or platform, and the catalog excludes auxiliary documentation links.
+      decision_evidence:
+        - URL points to /introduction/welcome on the documentation site, not a repo or product surface.
+        - No GitHub repo, stars, or release artifacts are provided; the only inputs are a protocol spec and docs index.
+        - Source-list placement under awesome-mcp-servers is incidental—ACP is a separate interoperability protocol with an MCP adapter, not an MCP server itself.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

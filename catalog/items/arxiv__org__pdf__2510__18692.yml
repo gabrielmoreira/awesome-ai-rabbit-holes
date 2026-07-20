@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,20 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An arXiv research paper (2510.18692) about LLM-related topics, linked as a PDF rather than a usable developer tool.
-  why_it_matters: It aggregates LLM resources that may inform tool choices, but only if you enjoy reading academic PDFs instead of shipping code.
-  mental_damage: Nothing says 'productive sprint' like adding a PDF link to your backlog and pretending it counts as integrating AI tooling.
+  summary: An academic paper hosted on arXiv regarding Large Language Models.
+  why_it_matters: Research papers can signal upcoming shifts in agentic reasoning or model architecture before they hit production.
+  mental_damage: It is just one more PDF to add to the pile of things you will definitely read once you've finished your current sprint.
   tags:
-    - research-paper
-    - llm-resources
+    - research
+    - paper
+    - llm
   confidence: high
 curation:
   status: excluded
-  reason: This is a research paper PDF, not a usable developer tool, agent, framework, or directory, and therefore falls outside the catalog's scope of practical AI tooling.
+  reason: This is a research paper on arXiv, not a developer tool, product, or curated directory.
   evidence:
-    - URL points to https://arxiv.org/pdf/2510.18692, which is a static PDF of an academic paper
-    - No repo description, README, stars, or code artifacts are provided to indicate a usable product
-    - Source-list context shows it is listed in awesome-LLM-resources as a video or model resource, not as a standalone developer tool
+    - URL points to arxiv.org (research repository)
+    - No repo description, stars, or product substance provided
 placement:
   primary_category: null
   section: null
@@ -67,9 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:10.317Z"
+    updated_at: "2026-07-20T15:23:07.765Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ab4e166c050760a487b1dceffb60dfabebe36f8ed6f17db5aeab7c0a564c3563
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a research paper on arXiv, not a developer tool, product, or curated directory.
+      decision_evidence:
+        - URL points to arxiv.org (research repository)
+        - No repo description, stars, or product substance provided
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

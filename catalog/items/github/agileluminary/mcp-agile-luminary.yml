@@ -27,6 +27,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-06-22T00:55:33Z"
     pushed_at: "2025-07-23T22:17:14Z"
     description: An MCP server for connecting with Agile Luminary Project Management Application
@@ -44,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:53.646Z"
       bytes: 4569
 insights:
-  summary: An MCP server that connects AI clients like Cursor and Claude Desktop to the Agile Luminary project management API to fetch tasks, documentation, and past work.
-  why_it_matters: It lets developers query their project management system and surface current or historical work context directly inside their AI coding assistant without leaving the editor.
-  mental_damage: Your agent can now debate your sprint velocity with you while you are trying to figure out why the authentication logic you wrote last Tuesday never actually worked.
+  summary: An MCP server that connects AI clients like Cursor and Claude Desktop to the Agile Luminary project management system via its REST API.
+  why_it_matters: It allows developers to pull real-time project context, such as assigned tasks and historical documentation, directly into their AI coding environment.
+  mental_damage: Now your AI can judge your progress against your sprint backlog in real-time.
   tags:
-    - mcp
+    - mcp-server
     - project-management
     - cursor
-    - claude-code
-    - nodejs
-  confidence: medium
+    - claude-desktop
+    - agile-development
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing domain-specific tools for Agile Luminary, making MCP infrastructure its clear primary identity rather than a generic extension or framework.
+  reason: The tool's entire product identity is an MCP server acting as a bridge between a specific domain (Agile Luminary) and AI clients.
   evidence:
-    - "Repo description explicitly states: 'An MCP server for connecting with Agile Luminary Project Management Application'"
-    - README architecture shows 'AI Client (Cursor/Claude) → Local MCP Server → Agile Luminary API' as the core design
-    - Source list context confirms placement in awesome-mcp-servers under 'Official Servers'
+    - Repo description explicitly identifies it as an MCP server
+    - README details tools for retrieving project-specific data (tasks, docs) via MCP
+    - Included in awesome-mcp-servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -80,9 +82,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:22.740Z"
+    updated_at: "2026-07-20T16:05:12.259Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5115eeccd038772cc0435d6dc0c4cec29f322a82ce8bb5fa52adb9317d44fd20
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's entire product identity is an MCP server acting as a bridge between a specific domain (Agile Luminary) and AI clients.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server
+        - README details tools for retrieving project-specific data (tasks, docs) via MCP
+        - Included in awesome-mcp-servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server infrastructure itself rather than a general IDE augmentation.
+      review_reason: null
+      review_resume_lifecycle: null

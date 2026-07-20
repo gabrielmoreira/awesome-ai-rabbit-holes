@@ -27,6 +27,8 @@ metadata:
     forks: 24
     license: MIT
     archived: false
+    full_name: needle-ai/needle-mcp
+    html_url: https://github.com/needle-ai/needle-mcp
     created_at: "2024-12-15T14:25:13Z"
     pushed_at: "2025-07-27T13:34:24Z"
     description: Needle MCP Server for easy RAG.Long-term memory for LLMs.
@@ -37,9 +39,9 @@ metadata:
       - modelcontextprotocol
       - rag
       - semantic-search
-    last_checked_at: "2026-07-13T05:13:31.766Z"
+    last_checked_at: "2026-07-20T15:12:01.474Z"
     readme:
-      fetched_at: "2026-07-13T05:13:31.766Z"
+      fetched_at: "2026-07-20T15:12:01.474Z"
       bytes: 7076
 insights:
   summary: An MCP server that lets Claude Desktop and Cursor expose Needle's document storage and semantic search capabilities as tools for RAG-style workflows.
@@ -73,14 +75,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:31.766Z"
+    updated_at: "2026-07-20T15:12:01.474Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:16:50.228Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -41,6 +41,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -49,25 +51,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based web UI for assembling, configuring, and deploying autonomous AI agents that pursue user-defined goals.
-  why_it_matters: Lets developers prototype and run autonomous agent loops directly in the browser without setting up local infrastructure or writing orchestration code.
-  mental_damage: Yet another playground that makes spawning autonomous agents feel effortless, until you remember you still have to figure out why they confidently stopped after three thoughts.
+  summary: A browser-based platform for assembling and deploying autonomous AI agents to complete general tasks such as research reports, travel planning, and study schedules.
+  why_it_matters: One of the early web interfaces for goal-based autonomous agents, but it targets end-user automation rather than software engineering workflows.
+  mental_damage: You get five free runs and your agent immediately spends them planning a Hawaiian vacation while your production backlog quietly festers.
   tags:
-    - agents
-    - browser
-    - autonomous
-    - no-code
-  confidence: medium
+    - autonomous-agents
+    - browser-based
+    - task-automation
+    - reworkd
+  confidence: high
 curation:
-  status: included
-  reason: The product is a browser-based workbench for creating and running autonomous agent goals, which aligns with multi-agent coordination and workbench surfaces rather than a coding-focused assistant.
+  status: excluded
+  reason: The product is a consumer-facing autonomous agent web interface (travel, research, study planning) with no demonstrated developer-tooling identity or code-centric workflow, so it falls outside this catalog's scope.
   evidence:
-    - "Scraped site title and description state: 'Assemble, configure, and deploy autonomous AI Agents in your browser.'"
-    - Source lists include it under 'awesome-ai-agents' and 'awesome-local-ai' in the Agents section.
-    - Examples show goal-driven agents like ResearchGPT and TravelGPT rather than repo editing or code workflows.
+    - Scraped site showcases TravelGPT, ResearchGPT, and StudyGPT—general consumer tasks with no coding or repo interaction.
+    - Description frames the product as 'autonomous AI in your browser' for assembling agents, not as a coding assistant, orchestration platform, or developer framework.
+    - No repository metadata or code-first surface is provided to suggest a developer toolkit or SDK.
 placement:
-  primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -83,9 +85,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:24.407Z"
+    updated_at: "2026-07-20T15:17:40.648Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:214883f7cb4336d47687c085821fc23ea6577ad5d14c8c1b4def9d80cd9d96d5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a consumer-facing autonomous agent web interface (travel, research, study planning) with no demonstrated developer-tooling identity or code-centric workflow, so it falls outside this catalog's scope.
+      decision_evidence:
+        - Scraped site showcases TravelGPT, ResearchGPT, and StudyGPT—general consumer tasks with no coding or repo interaction.
+        - Description frames the product as 'autonomous AI in your browser' for assembling agents, not as a coding assistant, orchestration platform, or developer framework.
+        - No repository metadata or code-first surface is provided to suggest a developer toolkit or SDK.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

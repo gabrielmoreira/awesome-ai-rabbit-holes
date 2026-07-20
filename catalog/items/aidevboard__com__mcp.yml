@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,14 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory page on the AI Dev Board that lists MCP servers and directories relevant to AI coding workflows.
-  why_it_matters: Provides developers with a centralized map of MCP-compatible tooling to navigate the rapidly expanding Model Context Protocol ecosystem.
-  mental_damage: Because nothing says 'streamlined developer experience' like needing a directory just to find the directory that helps you find the server that connects your tool to your tool.
+  summary: A directory and collection of Model Context Protocol (MCP) servers.
+  why_it_matters: It helps developers find pre-built connectors to give AI agents access to external data and tools via the MCP standard.
+  mental_damage: Just another layer of abstraction to manage in your quest to give an LLM a keyboard and a browser.
   tags:
     - mcp
-    - directory
+    - ai-agents
     - tooling
-    - discovery
+    - connectivity
   confidence: high
 curation:
   status: included
@@ -52,10 +54,10 @@ curation:
     - No code repository or product execution surface exists; it is a discovery resource.
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -68,9 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:40.808Z"
+    updated_at: "2026-07-20T15:20:00.757Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b788456fb367c27c2ca5ac7e037465a031121f37784fccb2c40b3809e8f2ecd9
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The tool is explicitly a directory of MCP servers, making it a registry for the Model Context Protocol.
+      decision_evidence:
+        - URL points to a dedicated MCP directory
+        - Included in awesome-ai-coding-tools under 'MCP Servers and Directories'
+      category_candidates:
+        - mcp
+        - awesome-awesomes
+      contrastive_reason: Choose mcp over awesome-awesomes because its primary identity is a specialized registry for the MCP protocol rather than a general-purpose AI tooling directory.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      review_resume_lifecycle: null

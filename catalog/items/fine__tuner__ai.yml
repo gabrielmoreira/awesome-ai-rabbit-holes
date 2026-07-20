@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A no-code platform for creating custom AI phone call agents integrated with Synthflow, requiring no coding or technical skills.
-  why_it_matters: It allows non-developers to build voice automation workflows, but offers no direct utility for developers looking to write, review, or automate code.
-  mental_damage: We have finally reached the singularity where 'AI agents' are marketed entirely to people who do not know what a git push is.
+  summary: A no-code platform for creating custom AI-powered phone call agents using provided data.
+  why_it_matters: It allows developers or non-technical users to automate voice-based business workflows without writing integration logic.
+  mental_damage: Because the last thing your workflow needed was more automated voices calling you to ask if you're interested in their services.
   tags:
-    - voice-agents
+    - voice-ai
     - no-code
-    - synthetic-voice
+    - automation
+    - agents
   confidence: high
 curation:
   status: excluded
-  reason: This is a no-code SaaS platform for non-technical users to build phone call agents, which falls outside the catalog's scope of developer-facing tooling.
+  reason: The tool is a consumer-facing SaaS for business automation rather than a developer-centric coding agent, framework, or infrastructure tool.
   evidence:
-    - Scraped site description explicitly states 'No coding or tech skills needed'.
-    - Source list context identifies it as a tool for creating phone call agents, not coding assistants.
-    - The product is Synthflow-based, targeting business automation rather than developer workflows.
+    - Scraped site context describes it as a 'no coding or tech skills needed' system
+    - Primary use case is phone call automation rather than software development workflows
 placement:
   primary_category: null
   section: null
@@ -67,9 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:06.797Z"
+    updated_at: "2026-07-20T15:45:15.558Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:649df871b0b8a8978dde2eaed96fe8bea963e6b0a7cffafebbe18f4c52315b9f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a consumer-facing SaaS for business automation rather than a developer-centric coding agent, framework, or infrastructure tool.
+      decision_evidence:
+        - Scraped site context describes it as a 'no coding or tech skills needed' system
+        - Primary use case is phone call automation rather than software development workflows
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

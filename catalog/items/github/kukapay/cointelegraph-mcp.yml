@@ -28,14 +28,16 @@ metadata:
     forks: 7
     license: MIT
     archived: false
+    full_name: kukapay/cointelegraph-mcp
+    html_url: https://github.com/kukapay/cointelegraph-mcp
     created_at: "2025-04-11T11:29:25Z"
     pushed_at: "2025-04-11T11:29:42Z"
     description: An MCP server that provides real-time access to the latest news from Cointelegraph.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:21.497Z"
+    last_checked_at: "2026-07-20T15:11:39.132Z"
     readme:
-      fetched_at: "2026-07-13T05:13:21.497Z"
+      fetched_at: "2026-07-20T15:11:39.132Z"
       bytes: 4023
 insights:
   summary: An MCP server that exposes 17 Cointelegraph RSS feeds as tools for AI assistants to query real-time cryptocurrency news.
@@ -68,14 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:21.497Z"
+    updated_at: "2026-07-20T15:11:39.132Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:07:04.818Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

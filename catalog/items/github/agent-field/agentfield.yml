@@ -57,6 +57,8 @@ metadata:
     forks: 381
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-11-05T02:04:44Z"
     pushed_at: "2026-07-19T17:39:10Z"
     description: Build, run and scale AI agents like API and microservices
@@ -87,26 +89,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:51.483Z"
       bytes: 35669
 insights:
-  summary: An open-source control plane and SDK for deploying, routing, and auditing AI agents as callable API endpoints with cryptographic identity and human-in-the-loop support.
-  why_it_matters: It gives teams a production-grade runtime to turn agent logic into observable, identity-aware services that can be called by other agents, frontends, or cron jobs.
-  mental_damage: "Just what every backend needs: another YAML-shaped reason to pretend your Python script is now a cryptographically auditable microservice architecture."
+  summary: An open-source control plane for building, running, and scaling AI agents as scalable microservices via APIs.
+  why_it_matters: It moves agent development from messy local scripts to production-ready infrastructure with built-in routing, retries, and observability.
+  mental_damage: Because managing local Python scripts is easy, but managing ten thousand distributed agentic microservices is the new standard.
   tags:
-    - agent
+    - agent-infrastructure
+    - orchestration
+    - scalable-ai
+    - backend
     - control-plane
-    - observability
-    - multiagent
-    - go
   confidence: high
 curation:
   status: included
-  reason: AgentField is an operated runtime and control plane for coordinating and running multiple agents as services, not a code-first framework or single coding assistant.
+  reason: The product acts as a control plane and runtime platform for managing agent workflows and scaling them as microservices.
   evidence:
-    - README states it is 'an open-source control plane that makes AI agents callable by any service in your stack' with routing, coordination, and audit trails.
-    - SDKs and REST API surface show it is deployed and operated as a platform rather than only imported as a library.
-    - Created 2025-11-05 and pushed 2026-05-06, active with 1632 stars and Apache-2.0 license.
+    - README defines it as an 'open-source control plane' for routing, coordination, and async execution.
+    - Claims to scale from one agent on a laptop to ten thousand via the control plane.
+    - Provides SDKs (Python, Go, TypeScript) and a REST API for agent interaction.
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (1632) exceeded threshold (150)
@@ -123,9 +125,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:54.183Z"
+    updated_at: "2026-07-20T16:00:26.127Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9c1c7e817336e435b257ad1e4e65ebdcf8673a46a89e185c8b15b7134a5519e6
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product acts as a control plane and runtime platform for managing agent workflows and scaling them as microservices.
+      decision_evidence:
+        - README defines it as an 'open-source control plane' for routing, coordination, and async execution.
+        - Claims to scale from one agent on a laptop to ten thousand via the control plane.
+        - Provides SDKs (Python, Go, TypeScript) and a REST API for agent interaction.
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product focuses on the operated control plane and scaling runtime infrastructure rather than being a code-first library for building single agents.
+      review_reason: null
+      review_resume_lifecycle: null

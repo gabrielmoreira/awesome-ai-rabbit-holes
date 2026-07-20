@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory and cost calculator for comparing AI coding assistants by price, features, supported IDEs, and model capabilities.
-  why_it_matters: Developers can quickly estimate team costs and filter tools by role or language instead of manually parsing fragmented pricing pages.
-  mental_damage: We now need a dedicated decision support system just to figure out which AI tool we cannot afford this month.
+  summary: A comparison and cost calculation platform for AI coding assistants and IDEs.
+  why_it_matters: Helps developers and engineering managers navigate the shifting pricing tiers and feature sets of the rapidly evolving AI coding tool landscape.
+  mental_damage: Because nothing says 'developer productivity' like spending three hours calculating the ROI of a $20/month subscription.
   tags:
-    - pricing
-    - directory
     - comparison
+    - pricing
+    - productivity
+    - ide
     - ai-tools
   confidence: high
 curation:
   status: included
-  reason: The site is a curated directory and comparison matrix for AI coding tools, making it a navigation and discovery aid rather than a standalone coding product.
+  reason: It is a curated directory/map designed to help users navigate the AI coding ecosystem, which fits the definition of an awesome list/index.
   evidence:
-    - Site title and description define it as a comparison and cost calculator for AI coding assistants.
-    - It publishes structured pricing data as JSON/TypeScript under CC-BY-4.0 and provides a free API for integration.
-    - Already listed in awesome-ai-coding-tools under Developer Productivity Tools as a comparison resource.
+    - Provides side-by-side comparisons of major AI tools like Copilot, Cursor, and Windsurf
+    - Includes a cost calculator for team-wide deployment
+    - Offers structured JSON data for tool pricing
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -70,9 +73,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:14.722Z"
+    updated_at: "2026-07-20T15:31:28.110Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dc30fdbdfe529a523cbffa5b8de2d1d3bbf95742aaf205d425ba8c1fba9a13d0
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: It is a curated directory/map designed to help users navigate the AI coding ecosystem, which fits the definition of an awesome list/index.
+      decision_evidence:
+        - Provides side-by-side comparisons of major AI tools like Copilot, Cursor, and Windsurf
+        - Includes a cost calculator for team-wide deployment
+        - Offers structured JSON data for tool pricing
+      category_candidates:
+        - awesome-awesomes
+        - evals
+      contrastive_reason: Choose awesome-awesomes over evals because the tool's primary value is ecosystem navigation and comparison rather than the technical measurement of model/agent behavior.
+      review_reason: null
+      review_resume_lifecycle: null

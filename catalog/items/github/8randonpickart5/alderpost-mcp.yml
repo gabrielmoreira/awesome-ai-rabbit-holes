@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-04-08T14:38:41Z"
     pushed_at: "2026-04-21T20:23:36Z"
     description: null
@@ -38,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.986Z"
       bytes: 2124
 insights:
-  summary: An MCP server that exposes eight Alderpost Intelligence API endpoints for domain security, company profiling, threat analysis, compliance checks, sales intelligence, sports data, property intel, and health signals.
-  why_it_matters: It lets developers plug premium data lookups like VirusTotal and People Data Labs directly into Claude Desktop or Cursor via a single MCP config, replacing several manual API integrations.
-  mental_damage: Another Tuesday, another npm package that promises to turn your AI assistant into a one-stop shop for domain shielding, sports betting odds, and drug interaction checks—all paid in USDC on Base, naturally.
+  summary: An MCP server providing access to Alderpost Intelligence API endpoints for domain, company, and threat intelligence.
+  why_it_matters: It enables LLM assistants to perform complex data lookups (like security scans and company profiling) through a single, pay-per-call interface.
+  mental_damage: Your coding assistant can now research a company's revenue and malware status while you're still trying to figure out why your local environment is broken.
   tags:
     - mcp
     - intelligence-api
     - security
-    - x402
-    - npx
-  confidence: medium
+    - data-enrichment
+  confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server exposing external API endpoints to AI assistants, making MCP its core product identity rather than an adapter or side feature.
+  reason: The tool is explicitly an MCP server designed to provide specific domain-driven intelligence tools to an MCP host.
   evidence:
-    - GitHub repo name is 'alderpost-mcp' and README explicitly describes it as 'MCP server for Alderpost Intelligence API'
-    - Includes MCP config instructions for Claude Desktop / Cursor with command 'npx -y alderpost-mcp'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators', confirming its MCP-server identity
+    - README identifies it as 'MCP server for Alderpost Intelligence API'
+    - Provides specific intelligence endpoints like domain_shield and company_xray
+    - Compatible with Claude Desktop and Cursor via MCP config
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,9 +75,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:57.114Z"
+    updated_at: "2026-07-20T15:51:55.465Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6f06c1971f1efb11147ed32a610c907dfbba2088adb6c42ecf78e65017cadc72
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is explicitly an MCP server designed to provide specific domain-driven intelligence tools to an MCP host.
+      decision_evidence:
+        - README identifies it as 'MCP server for Alderpost Intelligence API'
+        - Provides specific intelligence endpoints like domain_shield and company_xray
+        - Compatible with Claude Desktop and Cursor via MCP config
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is an MCP server implementation rather than a generic integration for another editor.
+      review_reason: null
+      review_resume_lifecycle: null

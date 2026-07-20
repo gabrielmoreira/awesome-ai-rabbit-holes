@@ -27,6 +27,8 @@ metadata:
     forks: 5
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-04-12T15:45:04Z"
     pushed_at: "2026-02-21T14:49:11Z"
     description: null
@@ -37,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:54.162Z"
       bytes: 10489
 insights:
-  summary: A minimal MCP server that exposes Canvas LMS data—courses, assignments, grades, and calendar events—to AI assistants like Cursor and Claude.
-  why_it_matters: It lets developers query their academic work directly from their coding assistant instead of context-switching to a learning management system.
-  mental_damage: Now your AI can attend virtual school and stress about your assignment deadlines right alongside you.
+  summary: An MCP server that provides AI assistants access to Canvas LMS data like courses, assignments, and grades.
+  why_it_matters: It allows developers or educators to use AI models to query educational data, track assignments, and manage course information via standard protocols.
+  mental_damage: Now your LLM can haunt your academic performance by summarizing exactly how many assignments you've missed.
   tags:
     - mcp
-    - canvas-lms
+    - lms
     - education
-    - integration
-  confidence: medium
+    - canvas
+    - ai-integration
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server built specifically to bridge AI systems with Canvas LMS, making it a clear fit for the MCP Servers & Tooling category.
+  reason: The project's identity is explicitly an MCP server designed to bridge a specific domain (Canvas LMS) to AI clients.
   evidence:
-    - README states it is 'A minimal Canvas LMS MCP (Machine Conversation Protocol) server' and provides a bridge between AI systems and Canvas.
-    - Listed in awesome-mcp-servers under the 'Community Servers' section.
-    - Active development with a pushed_at date of 2026-02-21 and not archived.
+    - README explicitly defines it as a 'Canvas LMS MCP Server'
+    - Provides specific data access for courses, assignments, and grades via MCP
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -72,9 +74,26 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:30.229Z"
+    updated_at: "2026-07-20T16:06:46.477Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e0e03cd818c9a7fe050d1f7160f651d28ea0912e6821b226046a63efb4f110fa
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's identity is explicitly an MCP server designed to bridge a specific domain (Canvas LMS) to AI clients.
+      decision_evidence:
+        - README explicitly defines it as a 'Canvas LMS MCP Server'
+        - Provides specific data access for courses, assignments, and grades via MCP
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is a specialized MCP server rather than a generic IDE integration.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -122,7 +122,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `self-hosted` `desktop-app` `api`
   </details>
 
-- **[Jan](https://github.com/janhq/jan)** `⭐ 43.5k` `updated ≤30d` Jan is an open-source, desktop-based alternative to ChatGPT that runs local LLMs entirely offline on your computer. <details><summary>More about</summary>
+- **[Jan](https://github.com/janhq/jan)** `⭐ 43.6k` `updated ≤30d` Jan is an open-source, desktop-based alternative to ChatGPT that runs local LLMs entirely offline on your computer. <details><summary>More about</summary>
 
   Developers can run, test, and integrate local models via an OpenAI-compatible API and MCP support without sending code or data to the cloud.
 
@@ -203,7 +203,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `rag` `private` `documents` `ollama`
   </details>
 
-- **[ktransformers](https://github.com/kvcache-ai/ktransformers)** `⭐ 17.4k` `updated ≤30d` A flexible framework for optimizing large language model inference and fine-tuning through CPU-GPU heterogeneous computing. <details><summary>More about</summary>
+- **[ktransformers](https://github.com/kvcache-ai/ktransformers)** `⭐ 18.6k` `updated ≤30d` A flexible framework for optimizing large language model inference and fine-tuning through CPU-GPU heterogeneous computing. <details><summary>More about</summary>
 
   It enables running and fine-tuning cutting-edge models like DeepSeek-V3 and Kimi-K2 on consumer-grade hardware by drastically reducing VRAM requirements.
 
@@ -239,7 +239,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm-serving` `openai-compatible` `self-hosted`
   </details>
 
-- **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 11k` `updated ≤30d` A self-contained executable that runs GGUF and GGML models locally with an integrated web UI, supporting text, image, video, and audio generation with multiple API compatibility layers. <details><summary>More about</summary>
+- **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 11.1k` `updated ≤30d` A self-contained executable that runs GGUF and GGML models locally with an integrated web UI, supporting text, image, video, and audio generation with multiple API compatibility layers. <details><summary>More about</summary>
 
   It provides a zero-install, cross-platform way for developers to run local LLMs and multimodal models with OpenAI-compatible APIs for testing and integration.
 
@@ -257,13 +257,13 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `chat-ui` `local-ai` `sveltekit` `self-hosted` `llm-interface`
   </details>
 
-- **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)** `⭐ 10.5k` `updated ≤30d` Python bindings for llama.cpp that provide low-level C API access, a high-level Python API for text completion, and an OpenAI-compatible local web server. <details><summary>More about</summary>
+- **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)** `⭐ 10.5k` `updated ≤30d` Python bindings for the llama.cpp library providing high-level and low-level access to local LLM inference. <details><summary>More about</summary>
 
-  It lets developers run GGUF models locally with hardware acceleration and drop-in OpenAI API compatibility for building offline-capable AI workflows.
+  It allows developers to integrate high-performance, quantized local LLM inference directly into Python applications and workflows.
 
-  _You will spend three hours tuning CMake flags for the perfect BLAS backend so you can run a 7B model locally and feel productive while avoiding actual code review._
+  _Nothing says 'I'm building a local-first agent' like wrestling with CMAKE_ARGS just to get CUDA acceleration working._
 
-  `local-ai` `python` `llama-cpp` `inference` `bindings`
+  `local-llm` `python` `inference` `llama-cpp` `quantization`
   </details>
 
 - **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.3k` `updated >1y` Petals is a PyTorch-based distributed system that runs large language model inference and fine-tuning by splitting model layers across a BitTorrent-style volunteer swarm of GPUs. <details><summary>More about</summary>
@@ -300,15 +300,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _Finally, a way to feel productive while running 7B parameter models on your iPad and wondering why your battery is draining while your laptop fans are screaming in the other room._
 
   `local-ai` `ollama` `ios` `macos` `swift`
-  </details>
-
-- **[LLocalSearch](https://github.com/nilsherzig/llocalsearch)** `⭐ 6k` `updated ≤180d` LLocalSearch is a self-hosted, local-first search assistant that chains local LLMs with web search tools to answer questions without external API keys. <details><summary>More about</summary>
-
-  It lets developers run a privacy-respecting, ad-free research agent entirely on local hardware, avoiding cloud API dependencies and manipulated search rankings.
-
-  _Another locally hosted agent you'll spend three hours setting up, only to realize you still have to chaperone it while it recursively searches the internet on a 300€ GPU._
-
-  `local-ai` `search-agent` `self-hosted` `privacy`
   </details>
 
 - **[Shimmy](https://github.com/michael-a-kuykendall/shimmy)** `⭐ 5.6k` `updated ≤30d` A single-binary, OpenAI API-compatible local inference server written in Rust that runs GGUF and SafeTensors models with hot-swapping and auto-discovery. <details><summary>More about</summary>
@@ -428,6 +419,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `apple-silicon` `mlx` `openai-api` `tool-calling`
   </details>
 
+- **[TokenSpeed](https://github.com/lightseekorg/tokenspeed)** `⭐ 1.6k` `updated ≤30d` TokenSpeed is a TensorRT-LLM-level performance LLM inference engine with vLLM-like usability, targeting agentic workloads via a local-SPMD design and static compiler. <details><summary>More about</summary>
+
+  It offers high-throughput inference optimized for agentic workloads, reducing latency and cost for developers running LLM agents in production.
+
+  _Another 'speed-of-light' inference engine promising to finally make your agents not feel like they're wading through molasses._
+
+  `llm-inference` `agentic-workloads` `performance`
+  </details>
+
 - **[HunyuanOCR](https://github.com/tencent-hunyuan/hunyuanocr)** `⭐ 1.6k` `updated ≤180d` HunyuanOCR is a 1B parameter vision-language model from Tencent for end-to-end OCR, supporting document parsing, multilingual text extraction, and image-to-text translation. <details><summary>More about</summary>
 
   Developers can self-host a lightweight, state-of-the-art OCR model that handles complex documents and over 100 languages with a single inference call via vLLM.
@@ -444,15 +444,6 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   _Now you can run a model that writes code slower than you do, but at least it’s failing privately on your own hardware._
 
   `local-ai` `apple-silicon` `mlx` `chat-ui` `privacy`
-  </details>
-
-- **[TokenSpeed](https://github.com/lightseekorg/tokenspeed)** `⭐ 1.6k` `updated ≤30d` TokenSpeed is a TensorRT-LLM-level performance LLM inference engine with vLLM-like usability, targeting agentic workloads via a local-SPMD design and static compiler. <details><summary>More about</summary>
-
-  It offers high-throughput inference optimized for agentic workloads, reducing latency and cost for developers running LLM agents in production.
-
-  _Another 'speed-of-light' inference engine promising to finally make your agents not feel like they're wading through molasses._
-
-  `llm-inference` `agentic-workloads` `performance`
   </details>
 
 - **[LlamaChat](https://github.com/alexrozanski/llamachat)** `⭐ 1.5k` `updated ≤90d` LlamaChat is a native macOS desktop app for chatting with locally running LLaMA, Alpaca, and GPT4All models via llama.cpp. <details><summary>More about</summary>
@@ -527,7 +518,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `performance` `cuda` `optimization`
   </details>
 
-- **[llmcord](https://github.com/jakobdylanc/llmcord)** `⭐ 813` `updated ≤30d` A lightweight Python Discord bot that turns Discord into a shared frontend for any OpenAI-compatible LLM, supporting remote APIs and local runtimes like Ollama with reply-based branching conversations. <details><summary>More about</summary>
+- **[llmcord](https://github.com/jakobdylanc/llmcord)** `⭐ 817` `updated ≤30d` A lightweight Python Discord bot that turns Discord into a shared frontend for any OpenAI-compatible LLM, supporting remote APIs and local runtimes like Ollama with reply-based branching conversations. <details><summary>More about</summary>
 
   It gives teams a zero-friction way to collaborate around LLMs directly inside Discord, with easy model switching and support for both cloud and local inference.
 
@@ -536,7 +527,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `discord` `llm-frontend` `local-ai` `chatbot` `openai-compatible`
   </details>
 
-- **[aikit](https://github.com/kaito-project/aikit)** `⭐ 533` `updated ≤30d` AIKit is a Docker-first platform for running, fine-tuning, and packaging open-source LLMs as OCI artifacts with an OpenAI-compatible API. <details><summary>More about</summary>
+- **[aikit](https://github.com/kaito-project/aikit)** `⭐ 534` `updated ≤30d` AIKit is a Docker-first platform for running, fine-tuning, and packaging open-source LLMs as OCI artifacts with an OpenAI-compatible API. <details><summary>More about</summary>
 
   It lets developers self-host and ship local LLM inference and fine-tuning workloads using familiar container workflows and Kubernetes, without relying on external API providers.
 
@@ -648,13 +639,13 @@ _These are new or low-traffic entries being watched._
   `local-ai` `inference` `desktop`
   </details>
 
-- **[GPT4All](https://www.nomic.ai/gpt4all)** A desktop application and runtime for running open-source large language models locally on Windows, macOS, and Linux with support for local document chat. <details><summary>More about</summary>
+- **[GPT4All](https://nomic.ai/gpt4all)** A desktop application and runtime for running open-source large language models locally on Windows, macOS, and Linux with support for local document chat. <details><summary>More about</summary>
 
   Developers can run, test, and build against LLMs entirely on their own hardware without cloud dependencies or data privacy trade-offs.
 
   _You can now host a full AI stack on your laptop, provided you enjoy the familiar ritual of waiting for open-source models to tokenize at the speed of a caffeinated snail._
 
-  `local-ai` `llm` `offline` `desktop` `privacy`
+  `desktop` `llm` `local-ai` `offline` `privacy`
   </details>
 
 - **[HammerAI](https://www.hammerai.com/desktop)** A desktop application for Windows, macOS, and Linux that runs AI character chats locally using bundled Ollama and Llama.cpp with no configuration required. <details><summary>More about</summary>

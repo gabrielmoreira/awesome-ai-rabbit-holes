@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 268
-    forks: 49
+    stars: 296
+    forks: 56
     license: MIT
     archived: false
+    full_name: nickgnd/tmux-mcp
+    html_url: https://github.com/nickgnd/tmux-mcp
     created_at: "2025-03-13T22:28:43Z"
     pushed_at: "2026-02-14T07:24:57Z"
     description: A MCP server for our beloved terminal multiplexer tmux.
@@ -35,9 +37,9 @@ metadata:
       - mcp
       - mcp-server
       - tmux
-    last_checked_at: "2026-05-06T22:45:32.485Z"
+    last_checked_at: "2026-07-20T15:12:03.628Z"
     readme:
-      fetched_at: "2026-05-06T22:45:32.485Z"
+      fetched_at: "2026-07-20T15:12:03.628Z"
       bytes: 2271
 insights:
   summary: A Model Context Protocol server that lets AI assistants like Claude Desktop read from, control, and interact with live tmux terminal sessions.
@@ -69,17 +71,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-13T05:13:33.111Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nickgnd/tmux-mcp
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T23:17:16.880Z"
+    updated_at: "2026-07-20T15:12:03.628Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

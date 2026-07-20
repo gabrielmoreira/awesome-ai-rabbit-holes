@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: DeepSource is an AI-powered code review platform that automates pull request analysis, catching security issues and code quality problems using a hybrid of static analysis and AI agents.
-  why_it_matters: It integrates directly into CI/CD workflows to automate code review, helping teams catch bugs, security vulnerabilities, and anti-patterns before merging.
-  mental_damage: Just when you thought AI generated enough code to review, now you need a separate AI platform to clean up the mess left by the first AI.
+  summary: An AI-powered code review platform that combines static analysis with AI agents to automate security, quality, and complexity checks.
+  why_it_matters: It automates the heavy lifting of pull request reviews by providing high-signal feedback and automated patches for security vulnerabilities and bugs.
+  mental_damage: Nothing says 'production-ready' like a bot telling you that your security architecture is essentially a series of open doors.
   tags:
     - code-review
     - static-analysis
     - security
-    - ci-cd
     - automation
+    - saas
   confidence: high
 curation:
   status: included
-  reason: The product is an AI agent that reviews code, detects vulnerabilities, and provides structured feedback on pull requests, fitting the 'Review, Testing & Repair Agents' section of Coding Agents.
+  reason: DeepSource acts as an automated reviewer that directly inspects code to plan, detect, and repair bugs and security flaws.
   evidence:
-    - Scraped site title identifies it as 'The AI Code Review Platform' with a state-of-the-art AI review agent.
-    - It performs inline review on pull requests, catching bugs, anti-patterns, and security vulnerabilities using 5,000+ rules plus AI.
-    - Included in awesome-ai-coding-tools under the 'Code Review and Refactoring' section.
+    - Claims to use AI agents for deep code review and automated fixes (Autofix™)
+    - Provides structured feedback on security, reliability, and complexity during pull requests
+    - Found in awesome-ai-coding-tools under Code Review and Refactoring
 placement:
   primary_category: coding-agents
   section: Review, Testing & Repair Agents
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:00.894Z"
+    updated_at: "2026-07-20T15:37:00.990Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:296c0bf63493ecf4f23c9ef9679eeb2cfa6e99aaec0435660f5baada3bd027ef
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: DeepSource acts as an automated reviewer that directly inspects code to plan, detect, and repair bugs and security flaws.
+      decision_evidence:
+        - Claims to use AI agents for deep code review and automated fixes (Autofix™)
+        - Provides structured feedback on security, reliability, and complexity during pull requests
+        - Found in awesome-ai-coding-tools under Code Review and Refactoring
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product functions as a standalone automated review agent rather than just a thin plugin for an IDE.
+      review_reason: null
+      review_resume_lifecycle: null

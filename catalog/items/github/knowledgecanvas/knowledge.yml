@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1458
+    stars: 1459
     forks: 109
     license: Apache-2.0
     archived: true
+    full_name: KnowledgeCanvas/knowledge
+    html_url: https://github.com/KnowledgeCanvas/knowledge
     created_at: "2021-07-10T18:57:38Z"
     pushed_at: "2025-11-27T19:20:05Z"
     description: Knowledge is a tool for saving, searching, accessing, exploring and chatting with all of your favorite websites, documents and files.
@@ -40,9 +42,9 @@ metadata:
       - learning
       - llm
       - research
-    last_checked_at: "2026-07-13T05:13:19.866Z"
+    last_checked_at: "2026-07-20T15:11:36.311Z"
     readme:
-      fetched_at: "2026-07-13T05:13:19.866Z"
+      fetched_at: "2026-07-20T15:11:36.311Z"
       bytes: 3543
 insights:
   summary: Knowledge is a desktop knowledge management tool that lets users save, search, and chat with websites, documents, and files using LLMs, built on Chromium with a graph-based organization system.
@@ -75,14 +77,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:19.866Z"
+    updated_at: "2026-07-20T15:11:36.311Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:06:27.224Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

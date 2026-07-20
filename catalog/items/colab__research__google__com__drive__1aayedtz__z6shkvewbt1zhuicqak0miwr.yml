@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,25 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Google Colab notebook linked from the awesome-langchain list, likely functioning as an educational resource or tutorial.
-  why_it_matters: It serves as a learning resource for developers exploring how to use the LangChain framework through interactive notebooks.
-  mental_damage: Another reminder that our 'cutting-edge AI developer toolkit' sometimes consists of clicking a link to a hosted Jupyter notebook and hoping the runtime doesn't kernel panic.
+  summary: A Google Colab notebook for learning the LangChain framework.
+  why_it_matters: Provides a managed, zero-setup execution environment for experimenting with LangChain's orchestration patterns.
+  mental_damage: Nothing says 'I'm serious about AI development' like running a tutorial in a web-based notebook instead of a local IDE.
   tags:
+    - notebooks
+    - tutorials
     - langchain
-    - notebook
-    - tutorial
-    - colab
-  confidence: medium
+    - learning
+  confidence: high
 curation:
-  status: excluded
-  reason: This is an auxiliary resource link (a Colab notebook) acting as documentation or a tutorial, not a standalone product, tool, or directory.
+  status: included
+  reason: This is a curated educational resource (notebook) within a larger framework ecosystem, making it a navigation aid rather than a standalone tool.
   evidence:
-    - URL points to a Google Colab notebook (drive/1AAyEdTz...) rather than a software repository or product.
-    - Listed in awesome-langchain under 'Learn > Notebooks', indicating an educational resource rather than a tool.
-    - Scraped site context shows only a sign-in page, confirming no standalone product surface exists.
+    - Found in awesome-langchain source list
+    - Listed under 'Learn > Notebooks' section
+    - Host is Google Colab, a notebook environment
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:26.022Z"
+    updated_at: "2026-07-20T15:33:11.484Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2716b1e1b2a26fcc613118f0c21cdabca9d1caef57f3946cf0451ec9e1037d73
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated educational resource (notebook) within a larger framework ecosystem, making it a navigation aid rather than a standalone tool.
+      decision_evidence:
+        - Found in awesome-langchain source list
+        - Listed under 'Learn > Notebooks' section
+        - Host is Google Colab, a notebook environment
+      category_candidates:
+        - awesome-awesomes
+        - ai-frameworks
+      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the artifact is a tutorial notebook hosted on Colab rather than a library or SDK meant for importation into code.
+      review_reason: null
+      review_resume_lifecycle: null

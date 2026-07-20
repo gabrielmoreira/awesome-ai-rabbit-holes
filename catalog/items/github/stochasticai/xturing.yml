@@ -27,6 +27,8 @@ metadata:
     forks: 212
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-03-19T15:59:38Z"
     pushed_at: "2026-03-04T23:07:06Z"
     description: "Build, personalize and control your own LLMs. From data pre-processing to fine-tuning, xTuring provides an easy way to personalize open-source LLMs. Join our discord community: https://discord.gg/TgHXuSJEk6"
@@ -88,9 +90,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:30:30.607Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

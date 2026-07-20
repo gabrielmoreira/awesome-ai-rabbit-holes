@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Google Antigravity is an AI-first IDE built on a modified Visual Studio Code fork that uses autonomous agents to plan, write, and test code across a multi-agent 'Mission Control' interface.
-  why_it_matters: It moves beyond sidebar chatbots by letting developers dispatch up to five parallel agents to handle tasks like refactoring and UI building while providing structured progress artifacts.
-  mental_damage: We've successfully evolved from 'accepting a tab completion' to 'project managing five autonomous agents while praying the rate limits hold'.
+  summary: Antigravity is an AI-native IDE built on a VS Code fork that uses autonomous agents to plan, write, execute, and test code.
+  why_it_matters: It introduces a 'Mission Control' architecture that allows developers to manage multiple parallel agents for different tasks like refactoring or UI building.
+  mental_damage: Nothing says 'oftware engineering' like managing a workforce of five autonomous agents while praying they don't enter a recursive loop of terminal commands.
   tags:
     - ide
-    - coding-agents
+    - ai-agent
     - multi-agent
-    - google
+    - autonomous-coding
     - vscode-fork
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The primary product surface is the AI-native IDE environment itself (a modified VS Code fork), which acts as the container for the coding agents, fitting the IDE category better than a standalone terminal agent.
+  reason: The product is a standalone development environment (a VS Code fork) rather than a plugin or a terminal-only agent.
   evidence:
-    - Described as a 'modified fork of Visual Studio Code' and an 'Agent-First IDE'.
-    - Features a 'Manager View' (Mission Control) to dispatch up to five agents within the editor environment.
-    - Listed under 'Code Editors and Assistants' in the awesome-ai-coding-tools directory.
+    - Product is described as an 'AI-powered integrated development environment'
+    - Built on a modified fork of Visual Studio Code
+    - Features a 'two-view architecture' including an Editor View and a Manager View
 placement:
   primary_category: ai-ides-editors
   section: Full IDEs & Editors
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:46.656Z"
+    updated_at: "2026-07-20T15:20:15.886Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bde86c3aa0021d64129dc1cd51cc547ee60cbb8eb567c49ac4e5f7cab1d32aee
+      proposed_primary_category: ai-ides-editors
+      disagreement: false
+      decision_reason: The product is a standalone development environment (a VS Code fork) rather than a plugin or a terminal-only agent.
+      decision_evidence:
+        - Product is described as an 'AI-powered integrated development environment'
+        - Built on a modified fork of Visual Studio Code
+        - Features a 'two-view architecture' including an Editor View and a Manager View
+      category_candidates:
+        - ai-ides-editors
+        - coding-agents
+      contrastive_reason: Choose ai-ides-editors over coding-agents because the product identity is a complete development environment/editor surface rather than just an agentic assistant.
+      review_reason: null
+      review_resume_lifecycle: null

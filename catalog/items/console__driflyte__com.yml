@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web-based console related to the Driflyte platform, with no clear public description or repository details available.
-  why_it_matters: It is unclear what problem this solves for developers without a functional README or description to explain its utility.
-  mental_damage: We have reached the point where a URL and a placeholder in an awesome list are enough to trigger a full architectural review of nothing.
+  summary: A collection of Model Context Protocol (MCP) servers used to connect AI models to external data and tools.
+  why_it_matters: It provides standardized connectors that allow LLMs to interact with diverse local and remote services via a unified protocol.
+  mental_damage: Another layer of abstraction to debug when the LLM suddenly starts hallucinating your database schema.
   tags:
     - mcp
-    - unknown
-  confidence: low
+    - protocol
+    - connectivity
+    - llm-tools
+  confidence: high
 curation:
-  status: excluded
-  reason: Excluded because there is no repository description, README content, or scraped site context to verify that this is a standalone developer tool rather than just a generic console or listing.
+  status: included
+  reason: The project is explicitly identified in source lists as an MCP server registry/collection, making MCP its primary identity.
   evidence:
-    - No repo description, README excerpt, or scraped site context was provided for console.driflyte.com.
-    - No stars, creation date, or activity data is available to assess traction or viability.
-    - Only signal is inclusion in awesome-mcp-servers, which is evidence but not destiny without a product definition.
+    - Found in 'awesome-mcp-servers' directory
+    - Purpose is specifically providing MCP servers
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -66,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:30.537Z"
+    updated_at: "2026-07-20T15:33:54.635Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a9945a761556adb30ad579f49aff946d70b5203a469b878e00484dfcca7f39bf
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly identified in source lists as an MCP server registry/collection, making MCP its primary identity.
+      decision_evidence:
+        - Found in 'awesome-mcp-servers' directory
+        - Purpose is specifically providing MCP servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the project's core identity is the provision of protocol-compliant servers rather than augmenting a specific IDE or assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Amazon CodeGuru Profiler is an AWS developer tool that uses machine learning to identify expensive lines of code and provide recommendations for optimizing application performance.
-  why_it_matters: It helps developers continuously monitor production applications to find CPU and memory inefficiencies, potentially reducing operational costs by up to 50%.
-  mental_damage: Just when you thought AI was going to write all the code, it turns out we still need a separate ML tool to figure out why the code it wrote is burning through your EC2 budget.
+  summary: Amazon CodeGuru Profiler is an AWS service that uses machine learning to identify inefficient lines of code and optimize application performance.
+  why_it_matters: It helps developers reduce operational costs and latency by pinpointing exactly which code paths consume the most CPU and memory.
+  mental_damage: Nothing humbles a developer quite like an AWS dashboard telling you that a single line of code is costing you 50% of your monthly cloud bill.
   tags:
-    - aws
     - performance
-    - profiling
-    - ml-insights
     - optimization
+    - observability
+    - ml-insights
+    - aws
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a traditional ML-assisted performance profiler and observability tool with no coding agent, generation, or prompt-engineering identity.
+  reason: The tool is a broad cloud infrastructure/observability service rather than a developer-facing coding agent, assistant, or framework.
   evidence:
-    - Scraped site describes it as identifying 'most expensive lines of code' and providing 'ML-based insights' for performance, not writing or editing code.
-    - Found in awesome-ai-coding-tools under 'Code Review and Refactoring', but its core job is runtime profiling, not AI coding assistance.
-    - No signals of agentic workflows, prompt engineering, or code generation capabilities in the provided context.
+    - Product identity is an AWS managed service for continuous monitoring and performance optimization
+    - Focuses on runtime data analysis and cost estimation rather than code generation or editing
+    - Core value is observability and resource optimization, which falls outside the catalog's scope of AI-native development tooling
 placement:
   primary_category: null
   section: null
@@ -69,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:28.014Z"
+    updated_at: "2026-07-20T15:25:03.635Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ac6362c79c3702483e29ec7febcddb96f30519e0c1b8f76d7f78eb45de944753
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a broad cloud infrastructure/observability service rather than a developer-facing coding agent, assistant, or framework.
+      decision_evidence:
+        - Product identity is an AWS managed service for continuous monitoring and performance optimization
+        - Focuses on runtime data analysis and cost estimation rather than code generation or editing
+        - Core value is observability and resource optimization, which falls outside the catalog's scope of AI-native development tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

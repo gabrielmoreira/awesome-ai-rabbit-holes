@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation site for GritQL, a declarative query language for searching and modifying source code across multiple languages.
-  why_it_matters: It provides the syntax and guides needed to automate large-scale code migrations, custom linting, and dependency upgrades using pattern-based transformations.
-  mental_damage: Another declarative language to learn so you can finally automate the refactoring you’ll still manually review out of spite.
+  summary: Grit is a declarative query language (GritQL) and CLI for searching and transforming source code across large repositories.
+  why_it_matters: It enables large-scale, programmatic code migrations and automated refactoring that goes beyond simple text search by using a structured query language.
+  mental_damage: Finally, a way to automate the migrations you've been dreading for the last three years.
   tags:
-    - gritql
-    - code-transformation
-    - static-analysis
-    - docs
+    - refactoring
+    - codemod
     - cli
+    - query-language
+    - automation
   confidence: high
 curation:
-  status: excluded
-  reason: This is a documentation site for GritQL, not a standalone product, agent, or developer tool; it serves as auxiliary reference material rather than a usable tool.
+  status: included
+  reason: It acts as a specialized agentic tool for code repair and transformation via its declarative language and CLI.
   evidence:
-    - URL is docs.grit.io, which is a documentation site, not a product repo or tool.
-    - "Scraped content is entirely documentation sections: CLI Quickstart, Pattern Library, Language Reference, Guides."
-    - No standalone tool, CLI binary, IDE extension, or agent product is presented; it supports the GritQL language.
+    - Claims ability to scale to millions of lines using Rust
+    - Provides GritQL for searching and modifying source code
+    - Includes auto-fix capabilities for remediation
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:31.414Z"
+    updated_at: "2026-07-20T15:40:36.451Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:285a4e950c461884c4f896e546d558081b109e398b8d11ae949ffddb7f0587b9
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It acts as a specialized agentic tool for code repair and transformation via its declarative language and CLI.
+      decision_evidence:
+        - Claims ability to scale to millions of lines using Rust
+        - Provides GritQL for searching and modifying source code
+        - Includes auto-fix capabilities for remediation
+      category_candidates:
+        - coding-agents
+        - ai-frameworks
+      contrastive_reason: Choose coding-agents over ai-frameworks because the product is presented as a functional tool for automating code transformations and repairs rather than just a library to build with.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A consumer-facing Q&A web app promising personalized feeds and knowledge discovery without any visible developer tooling surface.
-  why_it_matters: It doesn't — despite appearing in an AI agents list, the product itself is a generic 'ask anything' knowledge platform rather than a coding assistant.
-  mental_damage: We have officially reached the point where a website that says 'Sign Up' and 'Discover new content' qualifies as an autonomous AI agent in a curated developer directory.
+  summary: An AI-powered search and discovery platform designed to provide answers and curated content.
+  why_it_matters: It aims to streamline information discovery and knowledge retrieval through a natural language interface.
+  mental_damage: Another tool to add to the growing pile of 'answer engines' competing for your limited cognitive bandwidth.
   tags:
-    - qa
-    - knowledge-base
-    - consumer-app
+    - search
+    - discovery
+    - knowledge-retrieval
   confidence: high
 curation:
   status: excluded
-  reason: The product is a consumer Q&A and content discovery platform with no developer-facing tooling, coding capabilities, or repo-editing workflow.
+  reason: The tool is a general-purpose search and discovery platform rather than a developer-centric engineering or coding tool.
   evidence:
-    - Scraped site excerpt shows only 'Sign Up Log In', 'Search for answers', and 'Discover new content curated for you' with no developer or coding features.
-    - Primary page title and description are 'Pandi - Accurate Answers, Endless Wonder' and 'Ask Anything', indicating a generic consumer knowledge product.
-    - Listed in awesome-ai-agents only as 'Ask Anything' with no indication of coding, agent orchestration, or developer workflow integration.
+    - Scraped site context describes it as a tool for searching answers and discovering content
+    - No developer-specific functionality or integration mentioned in provided context
+    - Primary identity is a general information platform, not a coding assistant or infra
 placement:
   primary_category: null
   section: null
@@ -67,9 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:11.952Z"
+    updated_at: "2026-07-20T15:23:27.286Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:be33965be99232799d2533c08fa2fa063fdfe07ad628b259f97fe4146d46eba1
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a general-purpose search and discovery platform rather than a developer-centric engineering or coding tool.
+      decision_evidence:
+        - Scraped site context describes it as a tool for searching answers and discovering content
+        - No developer-specific functionality or integration mentioned in provided context
+        - Primary identity is a general information platform, not a coding assistant or infra
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -28,6 +28,8 @@ metadata:
     forks: 3
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-09-18T17:31:32Z"
     pushed_at: "2026-06-18T12:23:58Z"
     description: "FinBrain MCP server: expose FinBrain datasets to AI agents (Claude, VSCode etc.) via SDK-first tools. Runs locally with each user's own FinBrain API key."
@@ -38,25 +40,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:54.082Z"
       bytes: 12353
 insights:
-  summary: A local MCP server that exposes FinBrain financial datasets, including price predictions, sentiment analysis, and alternative data, to AI clients like Claude Desktop and VS Code.
-  why_it_matters: Developers building finance-focused agents can integrate comprehensive market data and predictions directly into their AI workflow without building custom API wrappers.
-  mental_damage: We have successfully abstracted the abstractors, creating a specialized MCP server so your AI can tell you why Reddit hates your portfolio in real-time.
+  summary: An MCP server that exposes FinBrain's financial datasets, including price predictions and market sentiment, to AI clients like Claude Desktop and VS Code.
+  why_it_matters: It provides LLMs with direct, structured access to real-time financial data and alternative metrics like insider trading and social sentiment for financial analysis.
+  mental_damage: Because now your coding assistant can confidently hallucinate a stock tip based on Reddit sentiment and SEC filings.
   tags:
     - mcp
     - finance
-    - data
-    - local-server
+    - fintech
+    - data-integration
+    - ai-tools
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server designed to expose a specific domain's data (finance) to AI agents, fitting the Domain Servers section perfectly.
+  reason: The project's primary identity is an MCP server providing domain-specific data to other AI clients.
   evidence:
-    - Repo description confirms it is a 'FinBrain MCP server' exposing datasets to AI agents.
-    - README lists specific MCP tools like `predictions_by_ticker` and `reddit_mentions_by_ticker`.
-    - Found in the 'awesome-mcp-servers' list under the Finance & Fintech section.
+    - "Repo description specifies 'FinBrain MCP server: expose FinBrain datasets to AI agents'"
+    - README states it is an MCP server that exposes tools to AI clients like Claude Desktop and VS Code
+    - The core functionality is acting as a server/provider via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -73,9 +76,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:28.977Z"
+    updated_at: "2026-07-20T16:05:48.949Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3b995043ca96bfc8478d1450c44466ae66327387f7db41f5ac722a065d52ab06
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server providing domain-specific data to other AI clients.
+      decision_evidence:
+        - "Repo description specifies 'FinBrain MCP server: expose FinBrain datasets to AI agents'"
+        - README states it is an MCP server that exposes tools to AI clients like Claude Desktop and VS Code
+        - The core functionality is acting as a server/provider via the Model Context Protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is explicitly an implementation of the Model Context Protocol used to provide tools to external hosts.
+      review_reason: null
+      review_resume_lifecycle: null

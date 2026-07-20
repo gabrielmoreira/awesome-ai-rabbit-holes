@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web-based platform for chatting with and comparing multiple AI models side-by-side, featuring crowdsourced benchmarks and leaderboards.
-  why_it_matters: It provides developers with a centralized interface to quickly evaluate and contrast model responses across providers like ChatGPT, Claude, and Gemini without juggling multiple tabs.
-  mental_damage: Yet another web wrapper promising to solve the 'which model should I use for this task' paralysis, ensuring you spend more time comparing outputs than actually shipping code.
+  summary: An interactive platform for chatting with, comparing, and voting on various AI models.
+  why_it_matters: It provides real-world comparative data to help developers decide which models are actually effective for specific tasks like coding or image generation.
+  mental_damage: Nothing fuels the existential dread of an architecture review quite like watching a community vote on which model's hallucination is the most aesthetically pleasing.
   tags:
-    - model-comparison
     - benchmarking
-    - llm-eval
-    - chat-interface
-  confidence: high
+    - model-comparison
+    - leaderboard
+    - llm-evaluation
+  confidence: medium
 curation:
   status: included
-  reason: The core product is a platform for comparing and benchmarking LLM performance via chat and leaderboards, which aligns with the Evals category's focus on measuring and comparing model behavior.
+  reason: The platform's core identity is providing human-in-the-loop evaluation and rankings for LLM performance.
   evidence:
-    - Scraped site title and description define it as 'Benchmark & Compare the Best AI Models' with side-by-side chat.
-    - Source list context identifies it as a tool for comparing LLMs and accessing crowdsourced benchmarks and leaderboards.
-    - The interface focuses on 'Battle Mode' and leaderboards rather than being a coding assistant or IDE.
+    - Site title is 'The Official AI Ranking & LLM Leaderboard'
+    - Core functionality involves chatting, comparing, and voting on models
+    - Source-list context identifies it as a tool for real-world evaluation
 placement:
   primary_category: evals
   section: Agent Benchmarks
@@ -68,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:08.618Z"
+    updated_at: "2026-07-20T15:23:00.261Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ca513e1f5ce3da322ed8d2129357dd243947fffafd80c0dab7c5adcab87b1b07
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The platform's core identity is providing human-in-the-loop evaluation and rankings for LLM performance.
+      decision_evidence:
+        - Site title is 'The Official AI Ranking & LLM Leaderboard'
+        - Core functionality involves chatting, comparing, and voting on models
+        - Source-list context identifies it as a tool for real-world evaluation
+      category_candidates:
+        - evals
+        - awesome-awesomes
+      contrastive_reason: Choose evals over awesome-awesomes because the product is a functional evaluation platform rather than just a static directory of links.
+      review_reason: null
+      review_resume_lifecycle: null

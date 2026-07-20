@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: nakulben/whatsapp-mcp
+    html_url: https://github.com/nakulben/whatsapp-mcp
     created_at: "2026-04-04T08:08:53Z"
     pushed_at: "2026-04-04T14:18:31Z"
     description: WhatsApp MCP Server — Manage templates & send messages via Claude, Cursor, or any MCP client. Meta Cloud API.
@@ -38,9 +40,9 @@ metadata:
       - meta-cloud-api
       - whatsapp
       - whatsapp-business-api
-    last_checked_at: "2026-07-06T05:30:41.304Z"
+    last_checked_at: "2026-07-20T15:11:59.225Z"
     readme:
-      fetched_at: "2026-07-06T05:30:41.304Z"
+      fetched_at: "2026-07-20T15:11:59.225Z"
       bytes: 12102
 insights:
   summary: An MCP server that lets Claude, Cursor, or any MCP-compatible client manage WhatsApp Business templates and send messages via the Meta Cloud API.
@@ -73,17 +75,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-16T05:05:30.387Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nakulben/whatsapp-mcp
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T23:16:29.821Z"
+    updated_at: "2026-07-20T15:11:59.225Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

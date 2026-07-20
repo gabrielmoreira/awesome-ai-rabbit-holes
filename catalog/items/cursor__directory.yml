@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,14 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory of configuration files and rules designed to enhance the Cursor AI editor experience.
-  why_it_matters: It provides a centralized collection of community-vetted .cursorrules files, allowing developers to quickly bootstrap specific coding behaviors and project contexts.
-  mental_damage: Because clearly the missing variable in modern development wasn't better models, but a thousand-line text file defining how an AI should feel about your semicolons.
+  summary: A curated directory of custom rules and configuration files designed to enhance the Cursor AI editor experience.
+  why_it_matters: It provides ready-made instruction sets to tune Cursor's behavior and coding style to specific frameworks or project requirements.
+  mental_damage: Another layer of configuration to manage in an attempt to make your AI assistant behave like a competent senior engineer.
   tags:
     - cursor
     - rules
-    - directory
     - configuration
+    - ai-editor
   confidence: high
 curation:
   status: included
@@ -51,10 +53,10 @@ curation:
     - The URL 'cursor.directory' and context indicate a directory-style product for editor rules.
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'skills'"
 processing:
   discover:
     status: done
@@ -67,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:49.681Z"
+    updated_at: "2026-07-20T15:35:50.810Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:50a98d7702e1775b0d37586cc0957db8622ad9c241e9f93520e8cab34f2cd620
+      proposed_primary_category: skills
+      disagreement: true
+      decision_reason: The project is a collection of reusable rules/instructions intended to augment an existing editor's intelligence.
+      decision_evidence:
+        - "Source-list context: identified as 'Configuration files that enhance Cursor AI editor experience with custom rules and behaviors'"
+        - Primary artifact is a directory of configuration packs rather than a standalone tool
+      category_candidates:
+        - skills
+        - awesome-awesomes
+      contrastive_reason: Choose skills over awesome-awesomes because the primary value is the distribution of specific, portable rules and instruction packs rather than a general ecosystem map.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'skills'"
+      review_resume_lifecycle: null

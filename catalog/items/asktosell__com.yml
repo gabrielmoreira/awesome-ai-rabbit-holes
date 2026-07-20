@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AskToSell is a sales-focused AI agent platform for automating sales conversations and deal execution.
-  why_it_matters: It represents the growing trend of vertical, autonomous agents, though it targets sales teams rather than software developers.
-  mental_damage: Yet another autonomous agent enters the arena, proving that while we can automate selling, we still haven't automated the decision of what to build.
+  summary: An autonomous AI agent designed for sales and business automation tasks.
+  why_it_matters: It aims to automate the entire sales funnel, from lead generation to closing, using autonomous agent workflows.
+  mental_damage: Another agent that might eventually replace your entire sales department, or at least your ability to ignore LinkedIn notifications.
   tags:
-    - sales-ai
-    - autonomous-agent
-    - vertical-agent
+    - autonomous-agents
+    - sales-automation
+    - ai-agents
   confidence: high
 curation:
   status: excluded
-  reason: The product is a sales automation platform with no developer-facing tooling, IDE integration, or coding workflow relevance.
+  reason: The project is a domain-specific sales agent rather than a developer-focused coding tool or infrastructure.
   evidence:
-    - Name and URL (asktosell.com) indicate a sales-focused commercial product
-    - Listed in awesome-ai-agents under a sales-specific context, not developer tooling
-    - No repo description, README, or site context suggesting coding, IDE, or developer infrastructure utility
+    - Listed in awesome-ai-agents for autonomous agent purposes
+    - Product identity is sales/business automation rather than developer workflow/code generation
 placement:
   primary_category: null
   section: null
@@ -67,9 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:13.611Z"
+    updated_at: "2026-07-20T15:23:25.435Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:74f79154f767efdb1cfd40733d8474b2b2ab74970c966aa450ce10c9935bbd86
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a domain-specific sales agent rather than a developer-focused coding tool or infrastructure.
+      decision_evidence:
+        - Listed in awesome-ai-agents for autonomous agent purposes
+        - Product identity is sales/business automation rather than developer workflow/code generation
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

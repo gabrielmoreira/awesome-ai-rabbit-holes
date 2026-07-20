@@ -23,18 +23,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 11916
-    forks: 1640
+    stars: 11935
+    forks: 1646
     license: Apache-2.0
     archived: false
+    full_name: jd-opensource/joyagent-jdgenie
+    html_url: https://github.com/jd-opensource/joyagent-jdgenie
     created_at: "2025-07-16T02:59:53Z"
     pushed_at: "2026-02-12T06:33:00Z"
     description: 开源的端到端产品级通用智能体
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:11.851Z"
+    last_checked_at: "2026-07-20T15:11:22.028Z"
     readme:
-      fetched_at: "2026-07-13T05:13:11.851Z"
+      fetched_at: "2026-07-20T15:11:22.028Z"
       bytes: 21104
 insights:
   summary: JoyAgent-JDGenie is a self-hosted, end-to-end multi-agent product from JD.com that handles complex tasks like report generation, data analysis, and PPT creation out of the box.
@@ -68,14 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:11.851Z"
+    updated_at: "2026-07-20T15:11:22.028Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:03:57.440Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

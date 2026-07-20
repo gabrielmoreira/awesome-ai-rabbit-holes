@@ -42,6 +42,8 @@ metadata:
     forks: 11
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-11-27T13:54:32Z"
     pushed_at: "2024-12-13T12:52:50Z"
     description: A Model Context Protocol server implementation for Kagi's API
@@ -54,26 +56,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:49.852Z"
       bytes: 3331
 insights:
-  summary: A TypeScript-based MCP server that gives AI assistants like Claude Desktop access to Kagi's web search API.
-  why_it_matters: It allows developers to swap generic search backends for Kagi's premium search results directly within their MCP-compatible coding workflows.
-  mental_damage: We have successfully abstracted the act of searching the web behind three layers of indirection, proving that no API is safe from becoming a tool for a tool.
+  summary: An MCP server implementation that integrates the Kagi Search API for use with MCP-compliant AI clients.
+  why_it_matters: It enables AI assistants to perform high-quality web searches through Kagi's API, bypassing the standard web browsing limitations of general models.
+  mental_damage: "Just what we needed: another protocol layer between your brain and the internet."
   tags:
     - mcp
     - kagi
     - search
+    - mcp-server
     - typescript
-    - integration
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly a Model Context Protocol server implementation for a specific API, fitting the MCP Servers & Tooling category.
+  reason: The project's core identity is an MCP server implementation for a specific API.
   evidence:
-    - "Repo description states: 'A Model Context Protocol server implementation for Kagi's API'."
-    - README confirms it is a 'TypeScript-based MCP server that integrates the Kagi Search API'.
-    - Listed in awesome-mcp-servers under 'Community Servers'.
+    - Repo description explicitly identifies as an MCP server implementation
+    - README describes the primary function as providing Kagi API tools to MCP clients
+    - Implementation is a TypeScript-based MCP server
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -90,9 +92,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:28.241Z"
+    updated_at: "2026-07-20T15:56:36.870Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e363c03a1a17b82ea93a5538f09f2a8fbe8ef4e2aa227b04bbc03b8171004d1c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's core identity is an MCP server implementation for a specific API.
+      decision_evidence:
+        - Repo description explicitly identifies as an MCP server implementation
+        - README describes the primary function as providing Kagi API tools to MCP clients
+        - Implementation is a TypeScript-based MCP server
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself rather than a general-purpose extension for a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null

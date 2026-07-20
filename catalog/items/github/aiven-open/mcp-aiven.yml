@@ -43,6 +43,8 @@ metadata:
     forks: 19
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-03-13T07:34:49Z"
     pushed_at: "2026-07-19T09:04:41Z"
     description: Model Context Protocol server for Aiven
@@ -53,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:55.633Z"
       bytes: 10541
 insights:
-  summary: An official MCP server that lets AI assistants like Claude, Cursor, and VS Code Copilot directly manage Aiven cloud services such as PostgreSQL and Kafka.
-  why_it_matters: It allows developers to provision, modify, and query cloud data infrastructure through natural language prompts inside their existing coding environments.
-  mental_damage: We have successfully abstracted away the cloud console so your AI agent can drop your production Kafka cluster while you are busy debugging a CSS margin.
+  summary: An MCP server that allows AI assistants to manage Aiven cloud data platform services like PostgreSQL and Apache Kafka.
+  why_it_matters: It enables developers to manage cloud infrastructure and databases directly through conversational interfaces in tools like Claude Code or Cursor.
+  mental_damage: One accidental prompt away from dropping a production PostgreSQL instance while you're busy debugging a Python script.
   tags:
     - mcp
-    - cloud
-    - devops
-    - aiven
     - infrastructure
+    - databases
+    - aiven
+    - cloud-management
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for a specific cloud domain (Aiven), making it a textbook fit for the MCP Servers & Tooling category.
+  reason: The tool's identity is a specialized MCP server designed to provide specific domain capabilities to host AI assistants.
   evidence:
-    - "Repo description states: 'Model Context Protocol server for Aiven'."
-    - README identifies it as 'A Model Context Protocol (MCP) server for the Aiven cloud data platform'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases' and 'Official Servers'.
+    - Repo description identifies it as an 'MCP server for Aiven'
+    - README describes providing tools for PostgreSQL and Kafka to Claude, Cursor, and VS Code
+    - The product's primary function is acting as a middleware/adapter between an AI client and Aiven APIs
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,9 +91,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:56.543Z"
+    updated_at: "2026-07-20T16:10:39.768Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a6fd418185966503ee67e77b416088679da19c4ed7b883ed8be1e4f37f1b6c86
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's identity is a specialized MCP server designed to provide specific domain capabilities to host AI assistants.
+      decision_evidence:
+        - Repo description identifies it as an 'MCP server for Aiven'
+        - README describes providing tools for PostgreSQL and Kafka to Claude, Cursor, and VS Code
+        - The product's primary function is acting as a middleware/adapter between an AI client and Aiven APIs
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a dedicated MCP server implementation rather than a direct plugin for a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null

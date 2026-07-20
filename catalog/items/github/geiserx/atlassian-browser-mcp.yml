@@ -28,6 +28,8 @@ metadata:
     forks: 2
     license: GPL-3.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-04-06T12:02:55Z"
     pushed_at: "2026-07-11T10:48:40Z"
     description: Browser-backed MCP server wrapping mcp-atlassian with Playwright SSO auth for Atlassian Server/Data Center
@@ -93,10 +95,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:57:08.039Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

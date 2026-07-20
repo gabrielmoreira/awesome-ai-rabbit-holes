@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 31234
-    forks: 3759
+    stars: 31241
+    forks: 3764
     license: Apache-2.0
     archived: false
+    full_name: Lightning-AI/pytorch-lightning
+    html_url: https://github.com/Lightning-AI/pytorch-lightning
     created_at: "2019-03-31T00:45:57Z"
-    pushed_at: "2026-07-10T11:42:59Z"
+    pushed_at: "2026-07-20T12:18:30Z"
     description: Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes.
     homepage: https://lightning.ai/pytorch-lightning/?utm_source=ptl_readme&utm_medium=referral&utm_campaign=ptl_readme
     topics:
@@ -40,9 +42,9 @@ metadata:
       - machine-learning
       - python
       - pytorch
-    last_checked_at: "2026-07-13T05:13:27.445Z"
+    last_checked_at: "2026-07-20T15:11:49.839Z"
     readme:
-      fetched_at: "2026-07-13T05:13:27.445Z"
+      fetched_at: "2026-07-20T15:11:49.839Z"
       bytes: 28557
 insights:
   summary: A deep learning framework that organizes PyTorch code to automate training infrastructure, enabling pretraining and finetuning of AI models at scale from 1 to 10,000+ GPUs.
@@ -76,14 +78,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:27.445Z"
+    updated_at: "2026-07-20T15:11:49.839Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:09:27.020Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

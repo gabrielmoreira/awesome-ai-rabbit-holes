@@ -27,6 +27,8 @@ metadata:
     forks: 1283
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-02-27T02:30:30Z"
     pushed_at: "2026-07-07T14:01:32Z"
     description: "FinRobot: An Open-Source AI Agent Platform for Financial Analysis using LLMs 🚀 🚀 🚀 "
@@ -45,15 +47,15 @@ metadata:
       fetched_at: "2026-07-20T05:16:54.673Z"
       bytes: 21116
 insights:
-  summary: An open-source AI agent platform for financial analysis that uses multiple LLMs and specialized agents to automate equity research, algorithmic trading, and risk assessment.
-  why_it_matters: Developers building fintech or quant tools can leverage a pre-built multi-agent stack with financial data integrations instead of wiring together their own analysis pipelines.
-  mental_damage: Yet another reminder that while you are debugging a CSS grid, there is an open-source agent somewhere writing an 18-page equity research report on NVIDIA entirely without you.
+  summary: An open-source multi-agent platform designed for automating financial analysis, investment research, and quantitative modeling.
+  why_it_matters: It provides a specialized orchestration layer that combines LLM reasoning with deterministic financial computation to automate complex research workflows.
+  mental_damage: Nothing says 'developer productivity' like trusting an agentic loop to perform Monte Carlo simulations while you watch the consensus debate itself.
   tags:
+    - ai-agents
     - finance
     - multi-agent
-    - langchain
-    - research
-    - trading
+    - quant-finance
+    - automation
   confidence: high
 curation:
   status: included
@@ -64,10 +66,10 @@ curation:
     - The README shows a strong code-first workflow with pip install, config files, and Python scripts for running analysis.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (6877) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -81,9 +83,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:43.191Z"
+    updated_at: "2026-07-20T16:09:10.670Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6ad55e03b55901a7b681fb9fd6af9fcfdf10a8da3d2e10812381385f3c22d769
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: The product is an operated multi-agent runtime/platform that coordinates specialized roles (data, analysis, modeling, etc.) to execute a complete workflow.
+      decision_evidence:
+        - README claims a production-grade multi-agent architecture with a Lead Agent orchestrating sub-agents
+        - Uses PydanticAI and FastAPI to coordinate research, modeling, and synthesis
+        - Provides a native desktop interface (FinRobot Desktop) for executing the agentic workflow
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is presented as an operated research platform/workbench rather than just a library to be imported into existing code.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

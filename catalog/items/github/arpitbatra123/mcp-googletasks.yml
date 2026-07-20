@@ -43,6 +43,8 @@ metadata:
     forks: 20
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-03-18T17:22:05Z"
     pushed_at: "2026-04-22T17:04:54Z"
     description: This Model Context Protocol (MCP) server provides a bridge between LLMs and Google Tasks, allowing you to manage your task lists and tasks directly through Claude.
@@ -87,10 +89,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:22:22.322Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.713Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
-    next_retry_at: null
+    next_retry_at: "2026-07-20T17:12:09.713Z"

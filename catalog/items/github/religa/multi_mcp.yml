@@ -28,6 +28,8 @@ metadata:
     forks: 6
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-11-29T16:45:57Z"
     pushed_at: "2026-04-01T05:05:33Z"
     description: Multi-Model chat, code review and analysis MCP Server for Claude Code
@@ -93,9 +95,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:25:23.078Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

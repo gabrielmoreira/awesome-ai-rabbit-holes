@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Discord community server for enthusiasts of the Model Context Protocol with 12,341 members.
-  why_it_matters: It serves as a central gathering point for developers building and adopting MCP servers, clients, and tooling to stay current on the protocol ecosystem.
-  mental_damage: Yet another Discord invite to juggle while trying to figure out if the MCP server you installed last Tuesday is obsolete yet.
+  summary: A community Discord server for enthusiasts of the Model Context Protocol.
+  why_it_matters: Provides a central discussion hub for developers building and using MCP servers and clients.
+  mental_damage: One more community to join before the protocol itself is inevitably deprecated or absorbed.
   tags:
     - mcp
     - community
-    - discord
     - protocol
+    - discord
   confidence: high
 curation:
   status: excluded
-  reason: This is a Discord community invite and auxiliary resource link, not a standalone developer tool, server, or product that fits the catalog's scope.
+  reason: The link is for a community Discord server, which serves as a discussion forum rather than a standalone developer tool or resource.
   evidence:
-    - URL points to discord.com/invite for the Model Context Protocol server
-    - Scraped site context confirms it is a community server with 12,341 members, not a product
-    - Seen in awesome-mcp-servers under 'Community' as a community link, not a server or tool
+    - Scraped site context identifies it as a 'Community for MCP enthusiasts'
+    - URL points to a Discord invite rather than a tool or documentation site
 placement:
   primary_category: null
   section: null
@@ -68,9 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:13.490Z"
+    updated_at: "2026-07-20T15:38:31.877Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:47104c99c77bff731f076bd71fae2cd3541f2649d528bb13eaf92c8d107eeffb
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The link is for a community Discord server, which serves as a discussion forum rather than a standalone developer tool or resource.
+      decision_evidence:
+        - Scraped site context identifies it as a 'Community for MCP enthusiasts'
+        - URL points to a Discord invite rather than a tool or documentation site
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

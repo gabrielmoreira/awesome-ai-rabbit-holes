@@ -25,17 +25,19 @@ provenance:
 metadata:
   github:
     stars: 36
-    forks: 14
+    forks: 15
     license: MIT
     archived: false
+    full_name: laukikk/alpaca-mcp
+    html_url: https://github.com/laukikk/alpaca-mcp
     created_at: "2025-04-02T00:56:42Z"
     pushed_at: "2025-07-14T01:20:02Z"
     description: MCP for the Alpaca trading API to manage stock and crypto portfolios, place trades, and access market data
     homepage: ""
     topics: []
-    last_checked_at: "2026-07-13T05:13:25.904Z"
+    last_checked_at: "2026-07-20T15:11:47.089Z"
     readme:
-      fetched_at: "2026-07-13T05:13:25.904Z"
+      fetched_at: "2026-07-20T15:11:47.089Z"
       bytes: 3616
 insights:
   summary: An MCP server that exposes the Alpaca trading API as tools and resources for placing trades, managing portfolios, and accessing market data within MCP-compatible clients like Claude Desktop.
@@ -69,14 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:25.904Z"
+    updated_at: "2026-07-20T15:11:47.089Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:08:50.456Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

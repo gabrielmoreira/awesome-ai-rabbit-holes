@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 507
-    forks: 35
+    stars: 512
+    forks: 36
     license: MIT
     archived: false
+    full_name: neurocult/agency
+    html_url: https://github.com/neurocult/agency
     created_at: "2023-11-13T19:49:03Z"
     pushed_at: "2025-01-08T06:11:11Z"
     description: 🕵️‍♂️ Library designed for developers eager to explore the potential of Large Language Models (LLMs) and other generative AI through a clean, effective, and Go-idiomatic approach.
@@ -52,9 +54,9 @@ metadata:
       - openai
       - rag
       - vector-database
-    last_checked_at: "2026-05-06T22:45:31.326Z"
+    last_checked_at: "2026-07-20T15:12:02.529Z"
     readme:
-      fetched_at: "2026-05-06T22:45:31.326Z"
+      fetched_at: "2026-07-20T15:12:02.529Z"
       bytes: 3704
 insights:
   summary: A Go-native library for building generative AI applications and autonomous agents using an idiomatic, provider-agnostic approach.
@@ -87,17 +89,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-13T05:13:32.422Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for neurocult/agency
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T23:17:04.515Z"
+    updated_at: "2026-07-20T15:12:02.529Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

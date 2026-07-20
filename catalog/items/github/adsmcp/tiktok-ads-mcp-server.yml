@@ -28,6 +28,8 @@ metadata:
     forks: 17
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-09-16T14:35:44Z"
     pushed_at: "2026-07-04T17:31:02Z"
     description: TikTok Ads MCP Server – Model Context Protocol Server for TikTok Ads Marketing API Integration
@@ -40,22 +42,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:51.030Z"
       bytes: 13642
 insights:
-  summary: A Model Context Protocol server that connects AI assistants like Claude to the TikTok Ads Marketing API for campaign management, analytics, and creative control.
-  why_it_matters: It allows developers to automate and query TikTok ad operations directly from their AI coding workflows without building custom API wrappers.
-  mental_damage: "We have finally achieved the singularity: an AI agent that can drain your ad budget on TikTok faster than you can debug the MCP config."
+  summary: A local Model Context Protocol (MCP) server that integrates the TikTok Ads Marketing API with MCP-compatible clients like Claude Desktop.
+  why_it_matters: It enables developers and marketers to interact with TikTok advertising data using natural language via LLMs, automating complex API queries for campaign and performance metrics.
+  mental_damage: Another layer of abstraction between you and your ad spend, ensuring you can now gaslight your LLM into explaining why your ROAS is tanking.
   tags:
     - mcp
     - tiktok-ads
     - marketing-api
-    - ai-automation
+    - automation
+    - llm-integration
   confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server for a specific domain (TikTok Ads), fitting the MCP Servers & Tooling category.
+  reason: The project's identity is strictly an MCP server providing domain-specific tools for the TikTok Ads API.
   evidence:
-    - Repo description identifies it as 'TikTok Ads MCP Server – Model Context Protocol Server'.
-    - Listed in awesome-mcp-servers within the 'Marketing' section.
-    - README details tools for campaign management, performance analytics, and OAuth via MCP client configuration.
+    - Repo description specifically identifies it as an 'MCP Server'
+    - README describes it as a tool to connect MCP clients to the TikTok Ads API
+    - Primary functionality is providing read-only tools via the Model Context Protocol
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,9 +78,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:47.197Z"
+    updated_at: "2026-07-20T15:58:54.084Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1bef2dfb5756eb1d1f97f8657e75f3367d735fcf1e2325429e5a0e3cce3cd8cf
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's identity is strictly an MCP server providing domain-specific tools for the TikTok Ads API.
+      decision_evidence:
+        - Repo description specifically identifies it as an 'MCP Server'
+        - README describes it as a tool to connect MCP clients to the TikTok Ads API
+        - Primary functionality is providing read-only tools via the Model Context Protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is defined by the protocol implementation itself rather than being a general workflow augmentation for a host editor.
+      review_reason: null
+      review_resume_lifecycle: null

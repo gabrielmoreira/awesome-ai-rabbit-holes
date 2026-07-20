@@ -54,18 +54,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 18
+    stars: 19
     forks: 9
     license: MIT
     archived: false
+    full_name: iplocate/mcp-server-iplocate
+    html_url: https://github.com/iplocate/mcp-server-iplocate
     created_at: "2025-06-29T20:19:07Z"
     pushed_at: "2025-06-29T22:21:13Z"
     description: MCP server for looking up IP address geolocation (IP to country, IP to city), network information, proxy and VPN detection, abuse contacts, and more - using the IPLocate.io API.
     homepage: ""
     topics: []
-    last_checked_at: "2026-07-13T05:13:07.684Z"
+    last_checked_at: "2026-07-20T15:11:14.797Z"
     readme:
-      fetched_at: "2026-07-13T05:13:07.684Z"
+      fetched_at: "2026-07-20T15:11:14.797Z"
       bytes: 9463
 insights:
   summary: An MCP server that exposes IP address geolocation, network information, privacy detection, and abuse contact lookups via the IPLocate.io API to compatible MCP clients like Cursor and Claude Desktop.
@@ -99,14 +101,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:07.684Z"
+    updated_at: "2026-07-20T15:11:14.797Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:02:34.167Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

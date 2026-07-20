@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Buildkite product page redirected from / to /home with no recoverable description, README, or functional context.
-  why_it_matters: Buildkite is a CI/CD platform, but without a valid landing page or project description, there is no usable developer-facing AI tooling to evaluate here.
-  mental_damage: We have reached the point where even the redirects in the AI tooling ecosystem are dead ends, yet the awesome lists keep linking to them like digital archaeology.
+  summary: A high-scale CI/CD platform designed for automated build pipelines, testing, and orchestration.
+  why_it_matters: It provides the specialized infrastructure and agentic workflow components needed to scale complex CI pipelines for AI-driven development cycles.
+  mental_damage: Because nothing says 'peace of mind' like watching 40 million minutes of CI builds and hoping the agent doesn't loop your cloud bill into the stratosphere.
   tags:
-    - buildkite
-    - mcp
-    - redirect-rot
+    - ci-cd
+    - orchestration
+    - automation
+    - mlops
+    - workflow-automation
   confidence: high
 curation:
   status: excluded
-  reason: The page is a non-functional redirect with no project description, README, or usable context, making it impossible to verify developer-tooling relevance.
+  reason: Buildkite is a general-purpose CI/CD platform and infrastructure service, not a specialized AI developer tool, agent, or engineering framework.
   evidence:
-    - Scraped site context shows only 'Redirecting from / to /home' with no description or excerpt.
-    - No repo description, stars, topics, or creation/push dates are available.
-    - Appears in awesome-mcp-servers but the linked page is non-functional, overriding source-list placement.
+    - Primary product is a CI/CD platform for pipelines and testing
+    - AI features are described as 'building blocks' or 'agentic components' within a much larger DevOps suite
+    - Appears in awesome-mcp-servers merely as a source of data via an MCP server, not as an MCP-first product
 placement:
   primary_category: null
   section: null
@@ -67,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:49.004Z"
+    updated_at: "2026-07-20T15:28:09.563Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1f98c805b36559975f31e54412f5f8074451adb36b23d47afdfd36c3fba1505a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Buildkite is a general-purpose CI/CD platform and infrastructure service, not a specialized AI developer tool, agent, or engineering framework.
+      decision_evidence:
+        - Primary product is a CI/CD platform for pipelines and testing
+        - AI features are described as 'building blocks' or 'agentic components' within a much larger DevOps suite
+        - Appears in awesome-mcp-servers merely as a source of data via an MCP server, not as an MCP-first product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

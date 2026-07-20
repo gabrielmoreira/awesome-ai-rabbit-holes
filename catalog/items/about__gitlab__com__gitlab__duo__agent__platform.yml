@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -68,10 +70,29 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:13:11.165Z"
-    cause: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-07-20T15:14:17.583Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for about__gitlab__com__gitlab__duo__agent__platform: ```json
+        {
+          "summary": "GitLab Duo Agent Platform is an enterprise AI orchestration layer for DevSecOps that deploys specialized agents and customizable event-driven flows across planning, coding, security, and deployment.",
+          "why_it_matters": "It lets teams chain multiple AI agents into governed, repeatable workflows inside the same GitLab instance where their code, issues, and CI/CD pipelines already live.",
+          "mental_damage": "Because software development was clearly missing an enterprise org chart for algorithms, complete with role-based access controls and pooled credit billing for the committee of agents now assigned to your backlog.",
+          "tags": ["devsecops", "agent-orchestration", "multi-agent", "enterprise", "software-lifecycle"],
+          "should_include": true,
+          "primary_category": "agent-orchestration",
+          "section": "Vertical Orchestration Platforms",
+          "decision_reason": "It fits as a vertical orchestration platform because GitLab Duo is a control plane that coordinates multiple specialized agents across the SDLC with flows, governance, and an AI catalog rather than acting as a primary coding assistant.",
+          "decision_evidence": [
+            "Scraped page positions the product as 'The intelligent orchestration platform for DevSecOps' with specialized agents for planning, coding, security, and deployment.",
+            "Multi-agent flows chain agents into guided sequences triggered by GitLab events, supported by an AI Catalog and policy-driven governance.",
+            "Source-list context from awesome-ai-agents categorizes it under GitLab Duo for custom AI workflow automation across the software lifecycle."
+          ],
+          "category_candidates": ["agent-orchestration", "coding-agents"],
+          "contrastive_reason": "Choose agent-orchestration over coding-agents because the product is a control plane for coordinating multiple specialized agents across planning, security,
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
     next_retry_at: null

@@ -39,12 +39,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 23
+    stars: 24
     forks: 22
     license: MIT
     archived: false
+    full_name: growthbook/growthbook-mcp
+    html_url: https://github.com/growthbook/growthbook-mcp
     created_at: "2025-05-01T16:35:36Z"
-    pushed_at: "2026-06-04T19:26:34Z"
+    pushed_at: "2026-07-15T14:43:36Z"
     description: Official GrowthBook MCP server for creating flags, getting experiments, and more.
     homepage: https://docs.growthbook.io/integrations/mcp
     topics:
@@ -52,9 +54,9 @@ metadata:
       - feature-flags
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-13T05:12:57.282Z"
+    last_checked_at: "2026-07-20T15:10:56.062Z"
     readme:
-      fetched_at: "2026-07-13T05:12:57.282Z"
+      fetched_at: "2026-07-20T15:10:56.062Z"
       bytes: 1853
 insights:
   summary: Official GrowthBook MCP server that lets developers create feature flags, view experiments, and manage A/B tests directly from LLM clients.
@@ -87,14 +89,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:12:57.282Z"
+    updated_at: "2026-07-20T15:10:56.062Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:59:07.314Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

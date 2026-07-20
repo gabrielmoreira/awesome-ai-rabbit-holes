@@ -27,6 +27,8 @@ metadata:
     forks: 50
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-12-04T04:10:53Z"
     pushed_at: "2026-02-19T18:33:41Z"
     description: A Model Context Protocol (MCP) server providing access to Google Search Console
@@ -37,23 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:54.224Z"
       bytes: 5033
 insights:
-  summary: An MCP server that provides AI assistants with comprehensive access to Google Search Console performance data and analytics.
-  why_it_matters: Developers can let their coding agents directly query SEO performance, detect optimization opportunities, and analyze search trends without leaving the chat interface.
-  mental_damage: We have finally achieved the future where your AI assistant can analyze your failing search rankings in real-time while you wonder why you are debugging SEO instead of shipping code.
+  summary: An MCP server that provides access to Google Search Console data for AI models.
+  why_it_matters: It allows AI assistants to perform advanced SEO analytics and detect search performance 'quick wins' directly through the Model Context Protocol.
+  mental_damage: Because your LLM doesn't just need to write your code, it also needs to perform your marketing audits.
   tags:
     - mcp
-    - google-search-console
     - seo
+    - google-search-console
     - analytics
-    - extension
+    - ai-agents
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing domain-specific access to Google Search Console, fitting directly into the MCP Servers & Tooling category.
+  reason: The tool's primary identity is an MCP server providing domain-specific data to host assistants.
   evidence:
-    - "Repo description states: 'A Model Context Protocol (MCP) server providing access to Google Search Console'"
-    - README shows configuration examples for Claude Desktop, confirming MCP server identity
-    - Listed in awesome-mcp-servers under 'Community Servers' section
+    - Repo description explicitly defines it as an MCP server
+    - README details specific tools for search analytics via MCP protocol
+    - Provides specialized connectivity for Google Search Console
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,9 +75,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:35.460Z"
+    updated_at: "2026-07-20T16:07:03.345Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1c223f0de82ed821048abd9a8fb62227fc5fa6aca5e3b941e25e70a9b4959c26
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is an MCP server providing domain-specific data to host assistants.
+      decision_evidence:
+        - Repo description explicitly defines it as an MCP server
+        - README details specific tools for search analytics via MCP protocol
+        - Provides specialized connectivity for Google Search Console
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is fundamentally defined by the protocol it implements rather than being a generic integration for an existing IDE.
+      review_reason: null
+      review_resume_lifecycle: null

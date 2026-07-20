@@ -27,6 +27,8 @@ metadata:
     forks: 35
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-05-10T10:17:00Z"
     pushed_at: "2025-12-13T04:58:45Z"
     description: 一个面向多模态大模型训练的智能数据集构建与评估平台
@@ -45,26 +47,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.814Z"
       bytes: 8501
 insights:
-  summary: DatasetLoom is a self-hosted platform for building and evaluating multimodal training datasets, supporting SFT/DPO dataset generation, image annotation, RAG-based dialogue generation, and multi-model output scoring.
-  why_it_matters: It gives AI engineers a structured pipeline to turn raw documents and images into clean, exportable training data for fine-tuning and preference alignment.
-  mental_damage: Because nothing says ‘accelerating AI research’ like carefully curating a pristine multimodal dataset to fine-tune a model that will ultimately hallucinate the same two facts about your domain.
+  summary: An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and RAG-enhanced data generation.
+  why_it_matters: It automates the complex pipeline of transforming unstructured documents and images into high-quality, structured datasets for fine-tuning multimodal models.
+  mental_damage: Nothing says 'caling your LLM' like spending your afternoon debugging a RAG-driven data pipeline just to get a semi-decent DPO dataset.
   tags:
     - multimodal
     - dataset-generation
-    - fine-tuning
-    - self-hosted
+    - sft
+    - dpo
     - rag
   confidence: high
 curation:
-  status: excluded
-  reason: The project is a data preparation and model-training platform for ML engineers rather than a developer-facing coding tool, IDE, agent, or infrastructure component.
+  status: included
+  reason: The core utility focuses on the automated creation, scoring, and evaluation of model outputs and datasets, fitting the evaluation and data quality profile.
   evidence:
-    - Repo description explicitly states it is a platform for multimodal LLM training dataset construction and evaluation.
-    - README positions the tool for AI engineers and researchers building SFT/DPO datasets, not for developers building software.
-    - Only appears in awesome-LLM-resources under a data section, not in developer tooling or coding-agent lists.
+    - Claims ability to perform 'AI automatic scoring' and model output comparison
+    - Supports SFT and DPO dataset construction pipelines
+    - Integrates RAG to generate verifiable, professional dialogue datasets
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: promotion_candidate
   reason: Stars (285) exceeded threshold (150)
@@ -81,9 +83,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:47.833Z"
+    updated_at: "2026-07-20T15:50:34.257Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d02e970bf6cfd35ecacfae519866a288821b7e4f77f3a83a9cb837553cda9517
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The core utility focuses on the automated creation, scoring, and evaluation of model outputs and datasets, fitting the evaluation and data quality profile.
+      decision_evidence:
+        - Claims ability to perform 'AI automatic scoring' and model output comparison
+        - Supports SFT and DPO dataset construction pipelines
+        - Integrates RAG to generate verifiable, professional dialogue datasets
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the primary value proposition is the evaluation of output quality and the automated construction of training benchmarks rather than a code-first SDK.
+      review_reason: null
+      review_resume_lifecycle: null

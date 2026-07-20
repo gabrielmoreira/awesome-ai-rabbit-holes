@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ELEMENT.FM is a podcast hosting platform offering unlimited shows, episodes, and AI-generated transcripts and show notes for $5/month.
-  why_it_matters: It offers a flat-rate, self-hostable podcast stack with built-in AI features for creators who want automation without per-minute fees.
-  mental_damage: We have successfully reached the point where even podcast hosting bills itself as AI-powered, just in case you were worried your RSS feed wasn't smart enough.
+  summary: An all-inclusive podcast hosting platform featuring AI-powered show notes and transcription.
+  why_it_matters: It provides automated content generation and distribution for creators looking to leverage AI for podcast production.
+  mental_damage: Because your podcast was already a full-time job, now it just has automated transcription to document the exhaustion.
   tags:
     - podcast-hosting
-    - ai-transcripts
-    - self-hosted
+    - content-creation
+    - ai-automation
   confidence: high
 curation:
   status: excluded
-  reason: ELEMENT.FM is a creator-facing podcast hosting SaaS with no meaningful developer-tooling, coding-agent, or AI-infrastructure angle.
+  reason: The product is a consumer-facing podcasting SaaS, not a developer-focused AI tool or workflow.
   evidence:
-    - Site title and description explicitly define it as 'the ultimate podcast hosting platform'.
-    - Feature list focuses on podcasting 2.0, V4V monetization, transcripts, and show notes, not developer workflows.
-    - Listed in awesome-mcp-servers as 'Official Servers', but the product itself is a podcast host, not MCP infrastructure.
+    - Scraped site content describes it as an 'ultimate podcast hosting platform'
+    - Primary value proposition is hosting, transcription, and show note generation for creators
+    - Appears in an MCP list likely due to an incorrect or non-functional server implementation
 placement:
   primary_category: null
   section: null
@@ -67,9 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:52.299Z"
+    updated_at: "2026-07-20T15:42:50.629Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f58d5636b463facfabe4b1daa1cd5143226dabc3fe260cef82838a38fd2d820e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a consumer-facing podcasting SaaS, not a developer-focused AI tool or workflow.
+      decision_evidence:
+        - Scraped site content describes it as an 'ultimate podcast hosting platform'
+        - Primary value proposition is hosting, transcription, and show note generation for creators
+        - Appears in an MCP list likely due to an incorrect or non-functional server implementation
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

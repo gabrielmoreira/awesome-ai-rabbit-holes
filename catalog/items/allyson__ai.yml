@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,24 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Allyson.ai is an MCP server listed in the official servers section of the awesome-mcp-servers directory.
-  why_it_matters: It represents a building block for developers wiring Model Context Protocol capabilities into their local AI workflows.
-  mental_damage: We are now curating curated lists of things that mostly consist of a click-through landing page and a dream.
+  summary: An MCP server for allyson.ai.
+  why_it_matters: It provides a standardized way to integrate allyson.ai's capabilities into MCP-compatible AI assistants.
+  mental_damage: Another protocol to learn just to keep your agents from hallucinating about your workspace.
   tags:
     - mcp
-    - server
-    - protocol
-  confidence: low
+    - integration
+    - ai-connectivity
+  confidence: high
 curation:
-  status: excluded
-  reason: The site provides no description, README, or usable product surface beyond a click-through landing page, making it impossible to verify developer-tooling substance.
+  status: included
+  reason: The project is explicitly listed as an MCP server in the awesome-mcp-servers directory, making it core MCP infrastructure.
   evidence:
-    - Primary page excerpt contains only 'Click here to enter' with no product description.
-    - No repo description, stars, license, or creation date available to assess traction or intent.
-    - Only evidence of existence is inclusion in awesome-mcp-servers as an 'Official Server'.
+    - Listed in awesome-mcp-servers under Official Servers
+    - URL identifies as allyson.ai MCP integration
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -67,9 +68,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:54.115Z"
+    updated_at: "2026-07-20T15:21:12.356Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5904690fa94984b9a5d89f31c44f740b07ee2064faf2ce66b3f148ecf8acf5f4
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly listed as an MCP server in the awesome-mcp-servers directory, making it core MCP infrastructure.
+      decision_evidence:
+        - Listed in awesome-mcp-servers under Official Servers
+        - URL identifies as allyson.ai MCP integration
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is being an MCP server rather than an extension for a specific IDE.
+      review_reason: null
+      review_resume_lifecycle: null

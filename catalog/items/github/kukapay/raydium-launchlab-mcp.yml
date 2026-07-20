@@ -28,14 +28,16 @@ metadata:
     forks: 6
     license: MIT
     archived: false
+    full_name: kukapay/raydium-launchlab-mcp
+    html_url: https://github.com/kukapay/raydium-launchlab-mcp
     created_at: "2025-05-21T06:21:00Z"
     pushed_at: "2025-05-21T06:22:24Z"
     description: An MCP server that enables AI agents to launch, buy, and sell tokens on the Raydium Launchpad(aka LaunchLab).
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:22.996Z"
+    last_checked_at: "2026-07-20T15:11:41.855Z"
     readme:
-      fetched_at: "2026-07-13T05:13:22.996Z"
+      fetched_at: "2026-07-20T15:11:41.855Z"
       bytes: 4490
 insights:
   summary: An MCP server that enables AI agents to create, buy, and sell tokens on the Raydium Launchpad using Solana and IPFS for metadata storage.
@@ -69,14 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:22.997Z"
+    updated_at: "2026-07-20T15:11:41.855Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:07:42.010Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

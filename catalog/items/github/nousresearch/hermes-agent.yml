@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 135819
-    forks: 20806
+    stars: 217619
+    forks: 41022
     license: MIT
     archived: false
+    full_name: NousResearch/hermes-agent
+    html_url: https://github.com/NousResearch/hermes-agent
     created_at: "2025-07-22T22:22:28Z"
-    pushed_at: "2026-05-06T22:43:55Z"
+    pushed_at: "2026-07-20T15:02:46Z"
     description: The agent that grows with you
     homepage: https://hermes-agent.nousresearch.com
     topics:
@@ -49,10 +51,10 @@ metadata:
       - nous-research
       - openai
       - openclaw
-    last_checked_at: "2026-05-06T22:45:34.204Z"
+    last_checked_at: "2026-07-20T15:12:06.241Z"
     readme:
-      fetched_at: "2026-05-06T22:45:34.204Z"
-      bytes: 11430
+      fetched_at: "2026-07-20T15:12:06.241Z"
+      bytes: 17670
 insights:
   summary: A self-improving terminal-native AI agent by Nous Research that creates and refines its own skills, supports multi-platform messaging gateways, and runs on diverse infrastructure from $5 VPS to GPU clusters.
   why_it_matters: Developers can delegate coding and operational tasks to an agent that learns from its own execution history and persists knowledge across sessions, while choosing from dozens of model providers without code changes.
@@ -85,14 +87,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:34.204Z"
+    updated_at: "2026-07-20T15:12:06.241Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:17:40.745Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

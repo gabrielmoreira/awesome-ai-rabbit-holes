@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,28 +36,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated hub of articles, walkthroughs, and reference materials for mastering GitHub Copilot customization, including agents, skills, and instructions.
-  why_it_matters: It provides a structured learning path and cookbook for developers looking to move beyond default Copilot usage into custom agents and complex workflows.
-  mental_damage: Just when you thought the code was writing itself, you now need a dedicated study guide to teach the AI how to read the manual you haven't finished writing.
+  summary: A curated collection of articles, walkthroughs, and reference materials for mastering GitHub Copilot.
+  why_it_matters: It provides structured learning paths for using Copilot's advanced features like agents, skills, and canvas extensions.
+  mental_damage: Nothing makes you feel more like a legacy developer than reading a tutorial on how to use an AI agent to write the code you used to write yourself.
   tags:
-    - copilot
-    - learning
-    - docs
-    - skills
+    - github-copilot
+    - documentation
+    - learning-resources
+    - ai-workflows
   confidence: high
 curation:
-  status: excluded
-  reason: This is purely documentation and a learning resource hub, not a standalone developer tool, extension, or product.
+  status: included
+  reason: This is a curated directory of resources for navigating the GitHub Copilot ecosystem.
   evidence:
-    - Primary page excerpt describes 'Curated articles, walkthroughs, and reference material' rather than executable tooling.
-    - Source list context confirms it is a 'Community-contributed instructions, agents, skills' hub, effectively a documentation site.
-    - No code, CLI, SDK, or runnable product identity is present in the inputs.
+    - README describes it as 'Curated articles, walkthroughs, and reference material'
+    - Part of the awesome-copilot directory
+    - The site functions as a navigation aid for Copilot features
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): publications-and-feeds"
 processing:
   discover:
     status: done
@@ -68,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:23.273Z"
+    updated_at: "2026-07-20T15:24:22.961Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3238b2240334eab8a936cf2409890efbb11ccd219c07952598b1b9020f7672a8
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of resources for navigating the GitHub Copilot ecosystem.
+      decision_evidence:
+        - README describes it as 'Curated articles, walkthroughs, and reference material'
+        - Part of the awesome-copilot directory
+        - The site functions as a navigation aid for Copilot features
+      category_candidates:
+        - awesome-awesomes
+        - publications-and-feeds
+      contrastive_reason: Choose awesome-awesomes over publications-and-feeds because the site is a structured directory of resources rather than a recurring news publication.
+      review_reason: "Categorization review required: unknown category candidate(s): publications-and-feeds"
+      review_resume_lifecycle: null

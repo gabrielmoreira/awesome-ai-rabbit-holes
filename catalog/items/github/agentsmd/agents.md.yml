@@ -27,6 +27,8 @@ metadata:
     forks: 1716
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-08-19T17:22:54Z"
     pushed_at: "2026-03-12T14:26:14Z"
     description: AGENTS.md — a simple, open format for guiding coding agents
@@ -37,25 +39,25 @@ metadata:
       fetched_at: "2026-07-20T05:16:53.393Z"
       bytes: 2015
 insights:
-  summary: AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository.
-  why_it_matters: It standardizes how developers provide project-specific instructions to AI agents, acting as a README specifically designed for automated coding workflows.
-  mental_damage: We have officially reached the point where our AI agents require their own standardized documentation format just to navigate the chaotic instructions we wrote for ourselves.
+  summary: AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository.
+  why_it_matters: It attempts to standardize how developers communicate environment tips, testing requirements, and PR guidelines directly to autonomous agents.
+  mental_damage: Because nothing says 'future-proofing' like writing a README specifically for a non-human reader.
   tags:
-    - agents
-    - spec
-    - context
+    - coding-agents
+    - spec-driven
+    - context-engineering
     - standards
   confidence: high
 curation:
   status: included
-  reason: The project defines a structured specification format (AGENTS.md) intended to drive agent behavior, fitting the spec-first environment definition.
+  reason: The project proposes a structured, spec-first artifact (AGENTS.md) meant to govern and guide agent execution loops.
   evidence:
-    - Repo description states it is 'a simple, open format for guiding coding agents'.
-    - README describes it as 'a README for agents' to provide context and instructions.
-    - Listed in 'awesome-spec-driven-development' under the 'Standards' section.
+    - README defines it as a 'imple, open format for guiding coding agents'
+    - Includes explicit instructions for testing, dev environment, and PR protocols
+    - Indexed in awesome-spec-driven-development
 placement:
   primary_category: spec-driven-development
-  section: Spec-First Environments
+  section: Planning / Task Decomposition
 lifecycle:
   status: promotion_candidate
   reason: Stars (21036) exceeded threshold (150)
@@ -72,9 +74,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:16.847Z"
+    updated_at: "2026-07-20T16:04:26.867Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bc03f59db52f9e4f0c7688c4353989254f1d423b6ac2ceb60e57d2ad6fa5e900
+      proposed_primary_category: spec-driven-development
+      disagreement: false
+      decision_reason: The project proposes a structured, spec-first artifact (AGENTS.md) meant to govern and guide agent execution loops.
+      decision_evidence:
+        - README defines it as a 'imple, open format for guiding coding agents'
+        - Includes explicit instructions for testing, dev environment, and PR protocols
+        - Indexed in awesome-spec-driven-development
+      category_candidates:
+        - spec-driven-development
+        - skills
+      contrastive_reason: Choose spec-driven-development over skills because the project aims to establish a governing standard/spec for agent behavior rather than just being a collection of reusable prompt snippets.
+      review_reason: null
+      review_resume_lifecycle: null

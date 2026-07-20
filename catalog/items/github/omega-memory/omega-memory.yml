@@ -43,6 +43,8 @@ metadata:
     forks: 21
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-02-13T03:28:56Z"
     pushed_at: "2026-05-01T12:04:51Z"
     description: Persistent memory for AI coding agents
@@ -105,9 +107,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:18:44.885Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

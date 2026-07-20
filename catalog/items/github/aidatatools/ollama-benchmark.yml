@@ -27,6 +27,8 @@ metadata:
     forks: 44
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-01-18T06:24:37Z"
     pushed_at: "2026-01-17T23:29:36Z"
     description: LLM Benchmark for Throughput via Ollama (Local LLMs)
@@ -42,23 +44,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:54.874Z"
       bytes: 3916
 insights:
-  summary: A cross-platform CLI tool that benchmarks local LLM throughput via Ollama, measuring tokens-per-second performance across different models.
-  why_it_matters: Developers running local models can quickly understand their hardware's actual inference performance before integrating them into workflows.
-  mental_damage: Yet another tool to help you realize that your expensive laptop can only generate tokens slightly faster than you can type.
+  summary: A CLI tool for benchmarking the throughput and tokens-per-second performance of local LLMs running via Ollama.
+  why_it_matters: It allows developers to quantitatively measure the hardware performance and inference speed of local models across different RAM configurations.
+  mental_damage: Nothing personal like watching your precious GPU cycles turn into a measurable sequence of tokens-per-second.
   tags:
-    - benchmark
-    - local-llm
     - ollama
-    - cli
+    - benchmarking
+    - local-llm
     - performance
+    - cli
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring and benchmarking local LLM throughput performance, which fits the evals category focused on measuring model behavior.
+  reason: The tool's core function is measuring performance metrics (throughput/tokens per second), which falls directly under evaluation and benchmarking.
   evidence:
-    - "Repo description states: 'LLM Benchmark for Throughput via Ollama (Local LLMs)'"
-    - "README excerpt: 'Measure how fast your local LLMs really are—with a simple, cross-platform CLI tool that tells you the tokens-per-second truth.'"
-    - "Seen in awesome-LLM-resources under section: '评估 Evaluation'"
+    - README claims to 'Measure how fast your local LLMs really are'
+    - Focuses on throughput and tokens-per-second truth
+    - Includes custom benchmark model configuration via YAML
 placement:
   primary_category: evals
   section: Agent Benchmarks
@@ -78,9 +80,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:48.285Z"
+    updated_at: "2026-07-20T16:09:29.220Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:13906df162392e58caf4c1ec827920cee2a83f2e91697f8cc9db12c67dbbaebc
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's core function is measuring performance metrics (throughput/tokens per second), which falls directly under evaluation and benchmarking.
+      decision_evidence:
+        - README claims to 'Measure how fast your local LLMs really are'
+        - Focuses on throughput and tokens-per-second truth
+        - Includes custom benchmark model configuration via YAML
+      category_candidates:
+        - evals
+        - local-ai
+      contrastive_reason: Choose evals over local-ai because the primary utility is measuring model behavior and performance rather than providing a runtime or chat interface.
+      review_reason: null
+      review_resume_lifecycle: null

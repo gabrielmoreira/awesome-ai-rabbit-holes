@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Google Colab notebook linked from the awesome-langchain list, appearing to be an educational resource or tutorial rather than a standalone tool.
-  why_it_matters: It represents a learning resource for the LangChain framework, indexed by a popular community directory for developer reference.
-  mental_damage: Yet another link in the infinite recursion of 'awesome' lists pointing to ephemeral notebook URLs that require a Google sign-in to even see if they still exist.
+  summary: A Google Colab notebook for learning the LangChain framework.
+  why_it_matters: Provides a zero-setup, browser-based environment to experiment with LangChain's orchestration patterns and components.
+  mental_damage: One more interactive notebook to add to the endless pile of 'copy-paste-and-pray' tutorials.
   tags:
     - langchain
-    - notebook
-    - tutorial
+    - notebooks
+    - learning
+    - colab
   confidence: high
 curation:
   status: excluded
-  reason: This is a link to a Google Colab notebook requiring sign-in, serving as auxiliary documentation or a tutorial rather than a standalone developer product or tool.
+  reason: This is a single educational notebook/resource rather than a standalone developer tool or product.
   evidence:
-    - "URL points to a Google Colab notebook (require sign-in, excerpt: 'Sign in')."
-    - Source list context indicates it is a 'Notebook' listed under 'Learn > Notebooks' in awesome-langchain.
-    - No repo description, stars, or code artifacts available; lacks standalone product identity.
+    - "Source-list context: listed in awesome-langchain under Learn > Notebooks"
+    - "URL: Points to a Google Colab instance, not a software product"
 placement:
   primary_category: null
   section: null
@@ -68,9 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:25.121Z"
+    updated_at: "2026-07-20T15:33:02.127Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:86965140305e1bf5c22dcc812b1f89e2e3d06031880fb1377627e029f1d6498a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a single educational notebook/resource rather than a standalone developer tool or product.
+      decision_evidence:
+        - "Source-list context: listed in awesome-langchain under Learn > Notebooks"
+        - "URL: Points to a Google Colab instance, not a software product"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

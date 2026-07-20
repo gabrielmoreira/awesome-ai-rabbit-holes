@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated directory and discovery site listing AI coding tools, agents, and developer resources organized by category.
-  why_it_matters: It provides a centralized, filterable map of the AI dev tooling landscape to help developers cut through the noise and find relevant tools.
-  mental_damage: Yet another beautiful confirmation that we now need dedicated directories just to navigate the directories of AI tools that are supposed to simplify our workflow.
+  summary: A curated directory of AI coding tools, agents, and developer-focused infrastructure.
+  why_it_matters: It helps developers cut through the noise of the exploding AI ecosystem to find practical, task-specific tooling.
+  mental_damage: Nothing cures terminal decision paralysis quite like scrolling through an endless list of tools that all claim to replace your entire workflow.
   tags:
-    - directory
-    - discovery
+    - curated-list
     - ai-tools
-    - curation
+    - developer-resources
+    - directory
   confidence: high
 curation:
   status: included
-  reason: The site's primary value is ecosystem discovery and navigation via a curated, categorized list of tools, fitting the Lists & Directories scope.
+  reason: It is a curated directory designed for navigating the AI developer ecosystem.
   evidence:
-    - Homepage title and excerpt explicitly call it 'a curated list of the best AI coding tools for developers'.
-    - The primary page surface is a filterable 'List of AI devtools' with categories like Coding Agents, IDE, and App Builders.
-    - Listed in the 'awesome-ai-coding-tools' awesome list as a curated directory of coding tools.
+    - Scraped site context describes it as a 'curated list of AI coding tools'
+    - Main value proposition is discovery and navigation of AI tools and resources
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -68,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:46.914Z"
+    updated_at: "2026-07-20T15:20:16.939Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:73206c2deabf44bde195f0e9558a745bdf19bb0eb9f9dd24d27ec3a6a88a9f12
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: It is a curated directory designed for navigating the AI developer ecosystem.
+      decision_evidence:
+        - Scraped site context describes it as a 'curated list of AI coding tools'
+        - Main value proposition is discovery and navigation of AI tools and resources
+      category_candidates:
+        - awesome-awesomes
+        - newsletters-and-feeds
+      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because the site functions primarily as a categorized index/directory of tools rather than a recurring media publication.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -27,6 +27,8 @@ metadata:
     forks: 10
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-05-20T15:05:51Z"
     pushed_at: "2023-05-24T22:59:04Z"
     description: Friday is a developer assistant can make whole nodejs project for you with unlimited prompts
@@ -72,10 +74,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:21:04.810Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.713Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
-    next_retry_at: null
+    next_retry_at: "2026-07-20T17:12:09.713Z"

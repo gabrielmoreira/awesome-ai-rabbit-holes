@@ -24,17 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: nikhilnt1234/TokenBurnRate
+    html_url: https://github.com/nikhilnt1234/TokenBurnRate
+    created_at: "2026-06-03T19:31:21Z"
+    pushed_at: "2026-06-03T19:35:44Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-07-20T15:12:04.024Z"
+    readme:
+      fetched_at: "2026-07-20T15:12:04.024Z"
+      bytes: 4480
 insights:
   summary: null
   why_it_matters: null
@@ -58,15 +62,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-13T05:13:33.336Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nikhilnt1234/tokenburnrate
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T05:17:35.691Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-20T15:12:04.024Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+    attempts: 0

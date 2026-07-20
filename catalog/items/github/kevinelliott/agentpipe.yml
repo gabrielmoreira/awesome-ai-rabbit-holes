@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 143
+    stars: 145
     forks: 25
     license: MIT
     archived: false
+    full_name: kevinelliott/agentpipe
+    html_url: https://github.com/kevinelliott/agentpipe
     created_at: "2025-09-12T02:56:38Z"
     pushed_at: "2026-06-27T20:51:52Z"
     description: A CLI/TUI app that orchestrates multi-agent conversations by enabling different AI CLI tools (Claude Code, Gemini, Qwen, etc.) to communicate in shared rooms.
@@ -45,9 +47,9 @@ metadata:
       - grok
       - qwen-code
       - tui-app
-    last_checked_at: "2026-07-13T05:13:18.485Z"
+    last_checked_at: "2026-07-20T15:11:33.984Z"
     readme:
-      fetched_at: "2026-07-13T05:13:18.485Z"
+      fetched_at: "2026-07-20T15:11:33.984Z"
       bytes: 65788
 insights:
   summary: A CLI and TUI application that orchestrates multi-agent conversations by enabling different AI CLI tools like Claude Code, Gemini, and Qwen to communicate in shared rooms.
@@ -81,14 +83,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:18.485Z"
+    updated_at: "2026-07-20T15:11:33.984Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:05:59.705Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

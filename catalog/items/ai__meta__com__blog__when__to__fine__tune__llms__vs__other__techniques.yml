@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Meta AI blog post outlining when developers should fine-tune LLMs versus using in-context learning or RAG.
-  why_it_matters: It provides a decision framework for developers adapting open-source models to domain data, covering cost, accuracy, and architectural trade-offs.
-  mental_damage: Reading this will inevitably lead to three days of benchmarking QLoRA on a GPU you barely understand, followed by a return to prompt engineering.
+  summary: A Meta AI research blog post discussing the strategic decision of when to use fine-tuning versus other techniques like RAG or in-context learning.
+  why_it_matters: It provides a framework for developers to decide if they should invest in expensive model training or stick to prompt engineering and retrieval.
+  mental_damage: Another guide to help you agonize over whether your RAG pipeline is failing because of bad retrieval or because you should have just fine-tuned a 7B model instead.
   tags:
+    - llm-adaptation
     - fine-tuning
-    - llm-guide
-    - meta-ai
     - rag
+    - meta-ai
+    - model-optimization
   confidence: high
 curation:
   status: excluded
-  reason: This is a static editorial article from Meta, not a developer tool, framework, or product, and therefore falls outside the catalog's scope of AI tooling.
+  reason: This is a single research blog post/educational article rather than a standalone developer tool or library.
   evidence:
-    - The URL points to a Meta AI blog post (ai.meta.com/blog/...), not a tool or repository.
-    - Source-list context identifies it as a resource tip in awesome-LLM-resources, not a software project.
-    - The excerpt is educational content discussing fine-tuning strategies, lacking any software artifact to install or use.
+    - Content is a research article/blog post from Meta AI
+    - Primary purpose is educational/theoretical discussion rather than a tool, SDK, or framework
+    - Does not provide executable code, infrastructure, or a software interface
 placement:
   primary_category: null
   section: null
@@ -68,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:32.051Z"
+    updated_at: "2026-07-20T15:19:02.177Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:db1c3c533a7f02291dfd92b1c64e8229e3cb3416a2ee7963e49f551ac43d7d1a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a single research blog post/educational article rather than a standalone developer tool or library.
+      decision_evidence:
+        - Content is a research article/blog post from Meta AI
+        - Primary purpose is educational/theoretical discussion rather than a tool, SDK, or framework
+        - Does not provide executable code, infrastructure, or a software interface
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

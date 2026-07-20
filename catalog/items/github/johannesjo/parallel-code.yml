@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 836
-    forks: 110
+    stars: 879
+    forks: 117
     license: MIT
     archived: false
+    full_name: johannesjo/parallel-code
+    html_url: https://github.com/johannesjo/parallel-code
     created_at: "2026-02-18T09:53:27Z"
-    pushed_at: "2026-07-10T11:59:17Z"
+    pushed_at: "2026-07-17T17:49:03Z"
     description: Run Claude Code, Codex, and Gemini side by side — each in      its own git worktree
     homepage: https://parallelcode.app
     topics:
@@ -43,9 +45,9 @@ metadata:
       - gemini-cli
       - git-worktree
       - terminal
-    last_checked_at: "2026-07-13T05:13:14.073Z"
+    last_checked_at: "2026-07-20T15:11:25.814Z"
     readme:
-      fetched_at: "2026-07-13T05:13:14.073Z"
+      fetched_at: "2026-07-20T15:11:25.814Z"
       bytes: 9290
 insights:
   summary: A desktop workbench that dispatches Claude Code, Codex, and Gemini CLI in parallel across isolated git worktrees, with a GUI for diff review and merge management.
@@ -79,14 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:14.073Z"
+    updated_at: "2026-07-20T15:11:25.814Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:04:37.061Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

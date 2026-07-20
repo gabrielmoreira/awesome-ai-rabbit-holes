@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An Apify-hosted MCP server that exposes the Career Site Job Listing API, allowing AI agents and MCP clients to search and retrieve job postings from over 175,000 company career sites.
-  why_it_matters: Developers building AI recruiting tools, job market agents, or career platforms can wire live job data directly into their MCP-compatible workflows without writing custom scrapers.
-  mental_damage: We have officially reached the point where scraping job boards is considered a core primitive of the AI agent stack.
+  summary: An MCP server that provides AI agents access to the Apify Career Site Job Listing API.
+  why_it_matters: It enables AI agents to programmatically query real-time job postings across hundreds of company career sites and ATS platforms.
+  mental_damage: Now your agent can autonomously hunt for jobs while you're still busy writing the code to fix the job search scraper.
   tags:
     - mcp
-    - jobs
-    - apify
-    - scraping
+    - job-search
     - api
+    - scraping
+    - automation
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server exposing a specific domain API (job listings), fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
+  reason: The product identity is specifically an MCP server designed to expose a specialized API to LLM clients.
   evidence:
-    - Scraped site context shows the product is explicitly an MCP server configuration for the Career Site Job Listing API.
-    - Included in the awesome-mcp-servers list under the 'Community Servers' section.
-    - The primary artifact is an MCP endpoint at mcp.apify.com configured with a specific Actor for job listings.
+    - Scraped site context confirms it is an 'MCP server' for the Career Site Job Listing API
+    - README provides specific JSON configuration for MCP clients
+    - Listed in 'awesome-mcp-servers' as a community server
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:03.312Z"
+    updated_at: "2026-07-20T15:22:19.296Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e4579ed1e60cfc5c718568d67c5b9803c36cf5afd7cf1c6af69bbb6a7d8a810c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is specifically an MCP server designed to expose a specialized API to LLM clients.
+      decision_evidence:
+        - Scraped site context confirms it is an 'MCP server' for the Career Site Job Listing API
+        - README provides specific JSON configuration for MCP clients
+        - Listed in 'awesome-mcp-servers' as a community server
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is the implementation of the Model Context Protocol rather than a general workflow extension.
+      review_reason: null
+      review_resume_lifecycle: null

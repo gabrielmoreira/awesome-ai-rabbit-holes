@@ -28,6 +28,8 @@ metadata:
     forks: 1
     license: MIT
     archived: false
+    full_name: janaraj/tnl
+    html_url: https://github.com/janaraj/tnl
     created_at: "2026-04-22T19:34:00Z"
     pushed_at: "2026-04-26T12:30:51Z"
     description: Structured English contracts for AI coding agents — proposed by the agent, approved by you, saved on disk, read by every future session.
@@ -45,9 +47,9 @@ metadata:
       - mcp-server
       - specification
       - typed-natural-language
-    last_checked_at: "2026-07-13T05:13:10.453Z"
+    last_checked_at: "2026-07-20T15:11:19.545Z"
     readme:
-      fetched_at: "2026-07-13T05:13:10.453Z"
+      fetched_at: "2026-07-20T15:11:19.545Z"
       bytes: 15090
 insights:
   summary: TNL (Typed Natural Language) is a spec-first workflow tool that uses structured English contracts with fixed schemas to plan, approve, and persist feature scope for AI coding agents across sessions.
@@ -80,14 +82,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:10.453Z"
+    updated_at: "2026-07-20T15:11:19.545Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:03:30.172Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

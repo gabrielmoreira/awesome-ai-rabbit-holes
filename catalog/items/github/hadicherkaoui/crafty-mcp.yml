@@ -24,18 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1
-    forks: 1
+    stars: 2
+    forks: 2
     license: GPL-3.0
     archived: false
+    full_name: HadiCherkaoui/crafty-mcp
+    html_url: https://github.com/HadiCherkaoui/crafty-mcp
     created_at: "2026-03-23T08:00:24Z"
     pushed_at: "2026-03-23T10:44:19Z"
     description: Crafty Controller MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:12:57.962Z"
+    last_checked_at: "2026-07-20T15:10:57.447Z"
     readme:
-      fetched_at: "2026-07-13T05:12:57.962Z"
+      fetched_at: "2026-07-20T15:10:57.447Z"
       bytes: 7719
 insights:
   summary: An MCP server that exposes the full Crafty Controller 4 API as tools, allowing AI assistants to manage Minecraft servers via natural language.
@@ -68,14 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:12:57.962Z"
+    updated_at: "2026-07-20T15:10:57.447Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:59:19.775Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -43,6 +43,8 @@ metadata:
     forks: 39
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-12-15T03:37:27Z"
     pushed_at: "2025-03-14T14:35:31Z"
     description: A Model Context Protocol (MCP) server for interacting with Twitter.
@@ -56,22 +58,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:50.755Z"
       bytes: 4978
 insights:
-  summary: An MCP server that lets coding assistants search Twitter, read timelines, and analyze tweet sentiment via the Twikit library.
-  why_it_matters: It gives LLM-powered dev tools live access to Twitter data without custom glue code, enabling quick social sentiment or brand-monitoring workflows.
-  mental_damage: "We have finally closed the loop: an AI agent can now read your timeline and tell you exactly why your internet provider is terrible, in case the outage wasn't obvious enough."
+  summary: An MCP server that enables AI models to interact with Twitter data via the Model Context Protocol.
+  why_it_matters: It allows developers to build agents capable of performing real-time social media sentiment analysis, timeline monitoring, and trend discovery through standardized tool calls.
+  mental_damage: Because nothing says 'productive developer workflow' like letting an LLM scrape Twitter to explain why everyone is mad at your latest deployment.
   tags:
     - mcp
     - twitter
-    - integration
-    - llm-tooling
+    - social-media
+    - agent-tool
+    - sentiment-analysis
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for Twitter, and it is listed in multiple MCP server directories, making it a clear fit for MCP Servers & Tooling.
+  reason: The project's identity is explicitly an MCP server, providing a specific domain capability to a host protocol.
   evidence:
-    - "Repo description states: 'A Model Context Protocol (MCP) server for interacting with Twitter.'"
-    - Included in awesome-mcp-list and awesome-mcp-servers under Communication sections.
-    - Installation instructions and examples use Smithery and MCP server config blocks.
+    - Repo description identifies it as an 'MCP server for interacting with Twitter'
+    - README details installation via MCP clients like Claude Desktop
+    - Functionality is centered on providing tool calls like search_twitter and get_timeline to an LLM
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -91,9 +94,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:41.813Z"
+    updated_at: "2026-07-20T15:58:17.592Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:74c47d83a7d2108aec32f0c5d4090865e3197a4b4d38f3573c502502cc792a4b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's identity is explicitly an MCP server, providing a specific domain capability to a host protocol.
+      decision_evidence:
+        - Repo description identifies it as an 'MCP server for interacting with Twitter'
+        - README details installation via MCP clients like Claude Desktop
+        - Functionality is centered on providing tool calls like search_twitter and get_timeline to an LLM
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity and delivery mechanism is a Model Context Protocol server, not a general IDE extension.
+      review_reason: null
+      review_resume_lifecycle: null

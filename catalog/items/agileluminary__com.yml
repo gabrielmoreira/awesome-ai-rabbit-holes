@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Agile Luminary is an AI-native enterprise agile project management platform that uses LLMs to generate epics, features, and user stories, with an MCP server connector for syncing AI assistants to project data.
-  why_it_matters: It offers developers a way to automate backlog grooming and documentation while connecting existing coding agents directly to live project management contexts via MCP.
-  mental_damage: Another brave attempt to solve the 'agile coaching' problem by feeding Jira tickets into an LLM, ensuring your AI assistant can now argue with product owners about INVEST principles at 2x speed.
+  summary: An AI-native project management platform designed to automate user story creation and agile documentation.
+  why_it_matters: It attempts to bridge the gap between high-level product requirements and technical execution by using LLMs to transform raw data into INVEST-compliant user stories and release notes.
+  mental_damage: Because if we don't automate the creation of user stories, we might accidentally have to talk to our product managers instead of just prompting them.
   tags:
-    - agile
     - project-management
-    - mcp
-    - backlog
-    - rag
+    - agile
+    - ai-native
+    - agile-automation
   confidence: high
 curation:
   status: excluded
-  reason: This is primarily an end-user enterprise SaaS project management platform, not a developer-facing tool, framework, or coding assistant.
+  reason: The product is a specialized SaaS for project management and agile workflows rather than a developer-facing coding tool or agent.
   evidence:
-    - Scraped site describes it as 'Enterprise agile project management, product backlog software' with pricing tiers for teams.
-    - Features center on Kanban boards, sprint planning, and story creation rather than code editing or repo work.
-    - MCP is listed only as a compatibility feature ('MCP server connectivity') rather than the product identity.
+    - Focuses on generating epics, features, and user stories from documents/images
+    - Provides Kanban boards and sprint planning tools
+    - Main identity is a project management application, not a coding assistant or IDE extension
 placement:
   primary_category: null
   section: null
@@ -69,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:31.806Z"
+    updated_at: "2026-07-20T15:18:50.398Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b3d6f659eb699a434204d628e3e1e4aca0706cb76015eed9d457a37bcf840262
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a specialized SaaS for project management and agile workflows rather than a developer-facing coding tool or agent.
+      decision_evidence:
+        - Focuses on generating epics, features, and user stories from documents/images
+        - Provides Kanban boards and sprint planning tools
+        - Main identity is a project management application, not a coding assistant or IDE extension
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

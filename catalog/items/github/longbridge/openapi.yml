@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 444
+    stars: 447
     forks: 67
     license: Apache-2.0
     archived: false
+    full_name: longbridge/openapi
+    html_url: https://github.com/longbridge/openapi
     created_at: "2022-05-09T13:50:58Z"
-    pushed_at: "2026-07-13T02:47:45Z"
+    pushed_at: "2026-07-20T09:21:37Z"
     description: Longbridge OpenAPI SDK Base.
     homepage: https://open.longbridge.com
     topics:
@@ -38,9 +40,9 @@ metadata:
       - pyo3
       - rust
       - sdk
-    last_checked_at: "2026-07-13T05:13:29.983Z"
+    last_checked_at: "2026-07-20T15:11:54.375Z"
     readme:
-      fetched_at: "2026-07-13T05:13:29.983Z"
+      fetched_at: "2026-07-20T15:11:54.375Z"
       bytes: 6763
 insights:
   summary: Longbridge OpenAPI SDK provides multi-language (Rust, Python, Node.js, Java, C, C++) bindings and an MCP server implementation for programmatic trading, quotes, and portfolio data on the Longbridge platform.
@@ -74,14 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:29.983Z"
+    updated_at: "2026-07-20T15:11:54.375Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:10:26.056Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

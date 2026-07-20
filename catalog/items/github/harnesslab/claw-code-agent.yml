@@ -24,18 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 528
+    stars: 533
     forks: 217
     license: null
     archived: false
+    full_name: HarnessLab/claw-code-agent
+    html_url: https://github.com/HarnessLab/claw-code-agent
     created_at: "2026-04-01T19:41:37Z"
     pushed_at: "2026-06-22T20:36:48Z"
     description: " Claw Code No Rust No TypeScript Only Python. Easy to work with. Fast to iterate. 🔥 Zero external dependencies 🔥"
     homepage: ""
     topics: []
-    last_checked_at: "2026-07-13T05:12:58.955Z"
+    last_checked_at: "2026-07-20T15:10:59.168Z"
     readme:
-      fetched_at: "2026-07-13T05:12:58.955Z"
+      fetched_at: "2026-07-20T15:10:59.168Z"
       bytes: 48278
 insights:
   summary: A Python-based reimplementation of the Claude Code agent architecture that runs locally with zero external dependencies and supports local models via vLLM or Ollama.
@@ -69,14 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:12:58.955Z"
+    updated_at: "2026-07-20T15:10:59.168Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:59:39.254Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

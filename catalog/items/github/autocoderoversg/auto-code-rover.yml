@@ -28,6 +28,8 @@ metadata:
     forks: 334
     license: NOASSERTION
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-04-08T05:34:14Z"
     pushed_at: "2025-04-24T07:58:24Z"
     description: A project structure aware autonomous software engineer aiming for autonomous program improvement. Resolved 37.3% tasks (pass@1) in SWE-bench lite and 46.2% tasks (pass@1) in SWE-bench verified with each task costs less than $0.7.
@@ -72,10 +74,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:22:47.911Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.714Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
-    next_retry_at: null
+    next_retry_at: "2026-07-20T17:12:09.713Z"

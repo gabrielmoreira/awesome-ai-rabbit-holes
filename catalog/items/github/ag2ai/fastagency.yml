@@ -42,6 +42,8 @@ metadata:
     forks: 63
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-07-17T04:34:02Z"
     pushed_at: "2026-02-23T00:49:21Z"
     description: The fastest way to bring multi-agent workflows to production.
@@ -56,15 +58,15 @@ metadata:
       fetched_at: "2026-07-20T05:16:51.271Z"
       bytes: 17315
 insights:
-  summary: FastAgency is an open-source Python framework that provides a unified programming interface for deploying AG2 (formerly AutoGen) multi-agent workflows into production web chat applications or REST API services.
-  why_it_matters: It allows developers to scale Jupyter notebook prototypes of multi-agent systems into distributed, production-ready applications with minimal code changes.
-  mental_damage: Just when you thought your AutoGen notebook was safe as a prototype, someone built a framework to drag it kicking and screaming into a distributed production environment.
+  summary: An open-source framework for deploying and scaling multi-agent workflows from prototypes to production environments.
+  why_it_matters: It provides a unified interface to transition AG2 (AutoGen) prototypes into distributed, production-ready REST APIs and web applications.
+  mental_damage: Because nothing says 'peace of mind' like moving your Jupyter notebook prototypes into a distributed system with a few lines of code.
   tags:
     - multi-agent
+    - deployment
+    - distributed-systems
     - ag2
-    - autogen
-    - production
-    - python
+    - workflow-orchestration
   confidence: high
 curation:
   status: included
@@ -75,10 +77,10 @@ curation:
     - Licensed as Apache-2.0 with recent activity (pushed 2026-02-23) and listed in awesome-ai-agents under framework contexts.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (538) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -92,9 +94,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:48.377Z"
+    updated_at: "2026-07-20T15:59:07.815Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7417c0c063b47b25cba8966d37b62ebdeeff78c9396c1b753c86145af3fb1592
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: The tool acts as a runtime and deployment platform for coordinating multiple agents, moving them from local scripts to distributed systems.
+      decision_evidence:
+        - README claims it scales Jupyter notebook prototypes into production-ready applications
+        - Focuses on deploying distributed multi-agent workflows using message brokers
+        - Explicitly designed for the AG2 (AutoGen) agentic framework
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product's core novelty is the deployment and runtime management of multi-agent workflows rather than being a code-first library for building individual agents.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

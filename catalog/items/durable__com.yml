@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -66,10 +68,12 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:16:50.796Z"
-    cause: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-07-20T15:42:46.962Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for durable__com: Invalid AI response structure: Excluded responses must use an empty category_candidates list"
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
     next_retry_at: null

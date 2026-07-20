@@ -23,38 +23,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 420
-    forks: 66
+    stars: 428
+    forks: 68
     license: Apache-2.0
     archived: false
+    full_name: juyterman1000/entroly
+    html_url: https://github.com/juyterman1000/entroly
     created_at: "2026-03-07T23:03:02Z"
-    pushed_at: "2026-07-13T03:21:58Z"
-    description: "Local context-control plane for AI coding agents: select evidence, compress recoverably, keep caches hot, and verify answers. MCP/proxy/SDK for Cursor, Claude Code, Codex, and Aider."
-    homepage: https://juyterman1000.github.io/entroly/docs/dashboard.html
+    pushed_at: "2026-07-20T14:53:18Z"
+    description: "Auditable context engineering for AI agents: context optimization, recoverable context compression, receipts, answer verification, and MCP for Claude Code, Codex, OpenClaw."
+    homepage: https://juyterman1000.github.io/entroly/docs/index.html
     topics:
-      - ai
+      - agent-memory
       - ai-agents
-      - ai-hallucination
-      - anthropic
-      - chatgpt
-      - claude
+      - ai-coding-agents
       - claude-code
+      - codex
       - context-compression
+      - context-engineering
+      - context-management
+      - context-optimization
+      - context-window
       - cursor
+      - github-copilot
       - hallucination-detection
       - llm
-      - llm-grounding
       - mcp
       - mcp-server
-      - open-source
-      - productivity
-      - rag
-      - rust
+      - model-context-protocol
+      - openclaw
+      - prompt-compression
       - token-optimization
-    last_checked_at: "2026-07-13T05:13:16.358Z"
+    last_checked_at: "2026-07-20T15:11:29.860Z"
     readme:
-      fetched_at: "2026-07-13T05:13:16.358Z"
-      bytes: 32222
+      fetched_at: "2026-07-20T15:11:29.860Z"
+      bytes: 57450
 insights:
   summary: A local proxy and context control plane that compresses context, optimizes provider cache hits, and verifies LLM outputs to reduce AI coding costs.
   why_it_matters: It allows developers to slash API bills by 70-95% while improving context relevance and adding a layer of hallucination detection to existing coding assistants.
@@ -87,7 +90,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:16.358Z"
+    updated_at: "2026-07-20T15:11:29.860Z"
     cause: null
     next_retry_at: null
   categorize:

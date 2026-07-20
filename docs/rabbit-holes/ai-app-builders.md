@@ -5,13 +5,13 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
 
 ## Tools & Resources
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 73.4k` `updated ≤30d` A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude. <details><summary>More about</summary>
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 73.4k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
 
-  It lets developers skip the tedious translation from visual design to boilerplate UI code by generating working frontend scaffolds directly from static images or screen recordings.
+  It accelerates the prototyping phase by turning visual designs directly into structured HTML, Tailwind, React, or Vue code.
 
-  _Now you can spend your afternoon painstakingly cropping the perfect screenshot instead of the usual painstakingly writing the Tailwind classes yourself._
+  _It makes the distance between a napkin sketch and a deployed frontend so short it might actually trigger a crisis of purpose for UI designers._
 
-  `prompt-to-code` `frontend` `screenshot` `ui-scaffolding`
+  `prompt-to-app` `frontend` `react` `tailwind` `prototyping`
   </details>
 
 - **[dyad](https://github.com/dyad-sh/dyad)** `⭐ 21k` `updated ≤30d` Dyad is a local, open-source AI app builder that runs on your machine to generate applications from prompts, serving as a self-hosted alternative to v0, Lovable, and Bolt. <details><summary>More about</summary>
@@ -135,13 +135,13 @@ _These are new or low-traffic entries being watched._
   `cloud-architecture` `iac` `devops` `cli`
   </details>
 
-- **[10Web](https://10web.io)** 10Web is an AI-powered website builder that generates WordPress sites, ecommerce stores, and landing pages from prompts, Figma designs, or URLs, coupled with managed hosting. <details><summary>More about</summary>
+- **[10Web](https://10web.io)** 10Web is an AI agentic website builder that generates, edits, and deploys production-ready WordPress sites from prompts and Figma imports, including ecommerce and managed hosting. <details><summary>More about</summary>
 
-  It lets developers and agencies spin up production-ready WordPress sites with AI-generated layouts and content, then deploy instantly on managed hosting with built-in SEO and speed optimization.
+  It gives developers and agencies a prompt-to-production scaffold for client sites and storefronts on managed WordPress infrastructure, cutting frontend boilerplate.
 
-  _Another 'vibe coding' frontend that promises you can describe any idea and get animations and interactions, right before you resign yourself to manually fixing the generated WordPress theme anyway._
+  _You vibe-code a gorgeous frontend in chat, then realize you're still managing PHP containers and a WooCommerce plugin stack._
 
-  `ai-website-builder` `wordpress` `prompt-to-site` `hosting`
+  `website-builder` `wordpress` `prompt-to-site` `ai-agents` `ecommerce`
   </details>
 
 - **[base44](https://base44.com)** Base44 is a no-code AI app builder that generates full-stack applications from natural language prompts. <details><summary>More about</summary>
@@ -153,13 +153,13 @@ _These are new or low-traffic entries being watched._
   `ai-platform` `app-builder` `internal-tools` `no-code` `prompt-to-app` `scaffolding`
   </details>
 
-- **[bldbl.dev](https://bldbl.dev)** A SaaS platform that uses AI to generate project plans, scaffold private repositories with CI/CD, and stream implementation tasks to any MCP-compatible AI assistant via its own MCP server. <details><summary>More about</summary>
+- **[bldbl.dev](https://bldbl.dev)** An AI task engine that plans project backlogs, scaffolds repositories, and streams implementation tasks via the Model Context Protocol (MCP). <details><summary>More about</summary>
 
-  It shifts the developer's role from writing initial boilerplate and managing backlogs to reviewing and guiding AI-executed tasks within their existing editor.
+  It automates the transition from high-level idea to actionable Git tasks by connecting project management directly to an AI assistant via MCP.
 
-  _We have finally achieved the dream of paying a monthly subscription to watch a Kanban board auto-update while wondering if the 'AI Task Engine' is actually just a very polite middle manager._
+  _Finally, an AI that can turn your vague architectural dreams into a Jira-style backlog before you have a chance to realize you don't actually want to build it._
 
-  `mcp` `scaffolding` `saas` `task-management` `planning`
+  `mcp` `scaffolding` `task-management` `saas-generation`
   </details>
 
 - **[Bolt.new](https://bolt.new)** A browser-based prompt-to-app builder that generates full-stack websites and applications from natural language, integrating design systems, hosting, and databases into a single visual interface. <details><summary>More about</summary>
@@ -189,13 +189,13 @@ _These are new or low-traffic entries being watched._
   `no-code` `site-generator` `prompt-to-site` `hosting`
   </details>
 
-- **[Capacity](https://capacity.so)** Capacity is a prompt-to-app builder that generates full-stack React, TypeScript, and React Native applications with Express backends from natural language descriptions, handling deployment to Vercel or AWS. <details><summary>More about</summary>
+- **[Capacity](https://capacity.so)** An AI-powered platform that generates full-stack web and mobile applications from natural language descriptions. <details><summary>More about</summary>
 
-  It allows developers and non-technical founders to generate production-ready codebases with real infrastructure (SQLite, Express) and export them to GitHub, bridging the gap between idea and shipped product.
+  It streamlines the path from idea to deployment by automating the generation of React, TypeScript, and backend infrastructure.
 
-  _Yet another 'no coding required' platform that generates a full-stack TypeScript monolith, ensuring you still need to know how to debug TypeScript when the AI co-founder inevitably misses an edge case._
+  _It brings us one step closer to the era where 'building an app' is just a fancy way of saying 'typing a very long paragraph'._
 
-  `prompt-to-app` `full-stack` `react` `no-code` `codegen`
+  `prompt-to-app` `full-stack` `react` `typescript` `no-code`
   </details>
 
 - **[CodeWP](https://telex.automattic.ai)** An AI-assisted authoring environment that transforms ideas into fully functional WordPress projects. <details><summary>More about</summary>
@@ -225,13 +225,13 @@ _These are new or low-traffic entries being watched._
   `prompt-to-app` `ai-agent` `scaffolding` `prototyping`
   </details>
 
-- **[Deepsite](https://deepsite.hf.co)** DeepSite is a web development tool that uses AI to generate, deploy, and host multi-page websites from prompts, featuring free hosting and open-source models. <details><summary>More about</summary>
+- **[Deepsite](https://deepsite.hf.co)** An AI-powered web development platform that generates and deploys multi-page websites from text prompts. <details><summary>More about</summary>
 
-  It allows developers and non-developers to scaffold and ship websites instantly without configuring CI/CD or managing hosting infrastructure.
+  It accelerates the prototyping and deployment phase by converting natural language descriptions directly into live, hosted web applications.
 
-  _Yet another 'no code required' AI builder, ensuring you can ship a landing page in minutes but will eventually spend hours debugging why the AI thought a carousel was a valid substitute for a database._
+  _The gap between 'prompting a landing page' and 'aintaining a production codebase' is about to get much, much wider._
 
-  `web-dev` `ai-builder` `site-generator` `hosting` `prompt-to-site`
+  `ai-web-builder` `no-code` `deployment` `deployment-automation`
   </details>
 
 - **[DiffBlue Cover](https://www.diffblue.com)** Diffblue Testing Agent is an enterprise platform that orchestrates existing AI coding tools to autonomously generate, verify, and fix unit tests across large Java and Python codebases. <details><summary>More about</summary>
@@ -252,22 +252,13 @@ _These are new or low-traffic entries being watched._
   `flutter` `low-code` `app-builder` `visual-development` `cross-platform`
   </details>
 
-- **[Forge](https://forge-web.rebaselabs.online)** A web-based tool listed as an AI-powered app builder for generating applications from prompts. <details><summary>More about</summary>
+- **[Framer AI](https://framer.com/ai)** Framer AI is a design-to-site platform that uses generative AI to build and deploy websites from text prompts. <details><summary>More about</summary>
 
-  It aims to let developers and non-developers spin up functional apps via prompts without manually scaffolding a project.
+  It enables rapid prototyping and deployment of production-ready web interfaces through natural language, bypassing traditional layout manual labor.
 
-  _Yet another magical prompt-to-app wizard that will confidently generate a fully structured TODO app while your actual production monolith quietly decays._
+  _It turns the 'I'll just quickly fix this div' workflow into 'I'll just prompt a whole new layout and pray it doesn't break the CMS'._
 
-  `app-builder` `prompt-to-app` `web-tool`
-  </details>
-
-- **[Framer AI](https://framer.com/ai)** Framer AI is a feature within the Framer web design platform that generates websites and UI layouts from text prompts. <details><summary>More about</summary>
-
-  It allows developers and designers to scaffold marketing sites and UI prototypes directly from natural language, cutting down on boilerplate CSS and layout work.
-
-  _Yet another reminder that while AI can ship your landing page in seconds, it still can't decide if your z-index hell is a feature or a bug._
-
-  `app-builder` `prompt-to-site` `web-design` `framer`
+  `app-builders` `no-code` `design-to-site` `web-generation`
   </details>
 
 - **[Glide](https://www.glideapps.com)** Glide is a no-code platform that turns spreadsheets and data sources into AI-powered internal business apps and automated workflows without writing code. <details><summary>More about</summary>
@@ -342,13 +333,13 @@ _These are new or low-traffic entries being watched._
   `prompt-to-app` `no-code` `business-systems` `api-integration`
   </details>
 
-- **[MGX](https://atoms.dev)** Atoms is a no-code, multi-agent platform that turns natural language prompts into full-stack web apps and sites using a team of specialized AI 'employees' for research, architecture, and engineering. <details><summary>More about</summary>
+- **[MGX](https://atoms.dev)** An AI-powered development platform that uses a multi-agent team to research, plan, build, and deploy full-stack web applications. <details><summary>More about</summary>
 
-  It allows developers and non-technical founders to scaffold and deploy full-stack SaaS products, internal tools, and dashboards with built-in backends, Stripe payments, and SEO automation in minutes.
+  It enables rapid prototyping and deployment by handling the entire lifecycle from idea validation to hosting via autonomous agents like engineers and product managers.
 
-  _Now you can watch a 'Team Leader' agent request approval to deploy the 'Engineer' agent's unvetted code, ensuring you feel managerially productive while the AI handles the actual work._
+  _The ultimate destination for the 'vibe coding' workflow where you spend more time managing AI employees than actually writing logic._
 
-  `prompt-to-app` `multi-agent` `no-code` `full-stack`
+  `app-builder` `multi-agent` `no-code` `full-stack` `deployment`
   </details>
 
 - **[Microsoft Power Apps](https://www.microsoft.com/en-us/power-platform/products/power-apps)** Microsoft Power Apps is a low-code app builder with AI assistance for creating business applications. <details><summary>More about</summary>
@@ -441,13 +432,13 @@ _These are new or low-traffic entries being watched._
   `ui-generation` `design-ideation` `google-ai` `frontend`
   </details>
 
-- **[Taskade](https://www.taskade.com)** Taskade Genesis is an AI-powered platform that turns natural language prompts into full-stack, hosted applications complete with databases, multi-agent workflows, and 100+ integrations. <details><summary>More about</summary>
+- **[Taskade](https://taskade.com)** Taskade Genesis is an AI-powered platform that turns natural language prompts into full-stack, hosted applications complete with databases, multi-agent workflows, and 100+ integrations. <details><summary>More about</summary>
 
   It allows developers and non-technical founders to prototype and ship functional internal tools, dashboards, and portals instantly without wiring up separate backends or agent runtimes.
 
   _Another 'operating system' promising that one prompt will finally absolve you of the career-limiting burden of understanding how databases actually work._
 
-  `app-builder` `multi-agent` `no-code` `vibe-coding` `mcp`
+  `app-builder` `mcp` `multi-agent` `no-code` `vibe-coding`
   </details>
 
 - **[TeleportHQ](https://teleporthq.io)** TeleportHQ is a low-code front-end platform that uses AI to generate static websites and UI components from prompts, with visual editing and one-click deployment. <details><summary>More about</summary>
@@ -511,4 +502,13 @@ _These are new or low-traffic entries being watched._
   _Now you can watch a generative model slowly replace the hand-crafted CSS you spent three years perfecting, while the marketing team celebrates 'faster time to creativity.'._
 
   `app-builder` `prompt-to-site` `webflow` `cms`
+  </details>
+
+- **[Wren](https://getwren.ai)** Wren AI is an open-source GenBI platform that converts natural language into governed text-to-SQL and structured insights across multiple data sources. <details><summary>More about</summary>
+
+  It allows developers to build agentic data interfaces that bridge the gap between raw databases and human-readable analytics with built-in governance.
+
+  _Now you have to decide whether to trust your agent's SQL query or spend the afternoon auditing its semantic model._
+
+  `genbi` `text-to-sql` `data-engineering` `agentic-analytics` `governance`
   </details>

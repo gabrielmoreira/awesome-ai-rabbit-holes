@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Official Visual Studio Code documentation page explaining how to modify User and Workspace Settings.
-  why_it_matters: It is the canonical reference for configuring VS Code, including settings relevant to Copilot and AI tooling integrations.
-  mental_damage: The only thing more endless than tweaking your AI assistant's system prompt is the recursive rabbit hole of digging through IDE settings docs to figure out which JSON key controls it.
+  summary: Official documentation for configuring user and workspace settings in Visual Studio Code.
+  why_it_matters: It provides the granular control needed to customize editor behavior, language-specific rules, and workspace-specific configurations.
+  mental_damage: Spending your afternoon debugging a nested JSON hierarchy just to make sure your editor ignores certain file types.
   tags:
+    - ide-config
+    - editor-settings
     - vscode
-    - settings
-    - documentation
-    - configuration
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page for VS Code settings, not a standalone product, tool, or developer-facing AI tooling, and therefore does not belong in the catalog.
+  reason: This is documentation for an existing editor feature rather than a standalone AI tool, framework, or integration.
   evidence:
-    - The URL points to a documentation page on code.visualstudio.com, not a tool or product repo.
-    - The page excerpt is entirely reference material for modifying VS Code User and Workspace Settings.
-    - It appears in awesome-copilot only as a linked resource, not as a standalone tool or integration.
+    - Scraped content is purely technical documentation for VS Code settings
+    - The product identity is the VS Code editor itself, not an AI-native tool
+    - Does not offer new AI capabilities, but rather manages existing editor behavior
 placement:
   primary_category: null
   section: null
@@ -68,9 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:09.097Z"
+    updated_at: "2026-07-20T15:30:38.670Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ef6742c690d8581e9dfdd4bb1a643aeb36007c1ff907fdeb9d1e8e940fe8b781
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is documentation for an existing editor feature rather than a standalone AI tool, framework, or integration.
+      decision_evidence:
+        - Scraped content is purely technical documentation for VS Code settings
+        - The product identity is the VS Code editor itself, not an AI-native tool
+        - Does not offer new AI capabilities, but rather manages existing editor behavior
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,17 +39,29 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3166
+    forks: 388
+    license: MIT
+    archived: false
+    full_name: nowork-studio/NotFair
+    html_url: https://github.com/nowork-studio/NotFair
+    created_at: "2026-03-27T06:39:58Z"
+    pushed_at: "2026-07-20T03:32:32Z"
+    description: Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads
+    homepage: https://notfair.co/
+    topics:
+      - claude-code-plugin
+      - claude-skills
+      - geo
+      - googleads
+      - googleadsmcp
+      - mcp
+      - metaads
+      - seo
+    last_checked_at: "2026-07-20T15:12:06.461Z"
+    readme:
+      fetched_at: "2026-07-20T15:12:06.461Z"
+      bytes: 20828
 insights:
   summary: null
   why_it_matters: null
@@ -64,8 +76,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (3166) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -73,13 +85,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T15:12:06.461Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T05:17:35.691Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+    attempts: 0

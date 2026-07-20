@@ -27,6 +27,8 @@ metadata:
     forks: 488
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-08-06T14:51:05Z"
     pushed_at: "2026-07-02T16:05:37Z"
     description: All-in-One Sandbox for AI Agents that combines Browser, Shell, File, MCP and VSCode Server in a single Docker container.
@@ -44,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:51.606Z"
       bytes: 16609
 insights:
-  summary: An all-in-one Docker sandbox combining browser, shell, file system, MCP servers, and VSCode Server for secure AI agent execution.
-  why_it_matters: It provides a unified, pre-configured environment so agents can coordinate browser sessions, code edits, and shell commands without the usual container orchestration glue code.
-  mental_damage: We have successfully containerized the entire development environment so your agent can now segfault, hang, and exhaust memory inside a neat Docker container instead of directly on your laptop.
+  summary: An all-in-one sandbox environment for AI agents that provides a single Docker container with a browser, shell, filesystem, VSCode server, and MCP support.
+  why_it_matters: It solves the complex orchestration problem of giving AI agents a unified, secure workspace where file sharing and tool usage across browser and terminal are seamless.
+  mental_damage: Another layer of abstraction to debug when your agent starts hallucinating terminal commands that it thinks it's running in a real browser.
   tags:
-    - sandbox
-    - agent-infra
-    - mcp
+    - sandboxing
+    - agent-infrastructure
     - docker
-    - agent-runtime
+    - mcp
+    - execution-environments
   confidence: high
 curation:
   status: included
-  reason: The project is primarily a code-first SDK and runtime environment that developers import and script against to give agents secure, multi-interface execution capabilities.
+  reason: The project provides a code-first SDK (Python, TS, Go) to programmatically interact with a sandbox, making it an infrastructure component for building agents.
   evidence:
-    - README provides SDK installation and code examples for Python, TypeScript, and Go clients.
-    - Repo description and README define it as a unified sandbox environment combining Browser, Shell, File, MCP, and VSCode Server.
-    - Active development with recent push date (2026-04-10) and 4545 stars, plus SDK packages on PyPI and npm.
+    - README explicitly provides SDK installation via pip, npm, and go get
+    - Core value proposition is providing a unified execution environment for agent development
+    - High star count (5438) and recent activity indicate a significant, active tool
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -80,9 +82,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:55.372Z"
+    updated_at: "2026-07-20T16:00:32.804Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:51dcfef57ff2f4c3d45147021c192d87a901da1217cb3946f065ff3ce246b4f1
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The project provides a code-first SDK (Python, TS, Go) to programmatically interact with a sandbox, making it an infrastructure component for building agents.
+      decision_evidence:
+        - README explicitly provides SDK installation via pip, npm, and go get
+        - Core value proposition is providing a unified execution environment for agent development
+        - High star count (5438) and recent activity indicate a significant, active tool
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary developer interface is a code-first SDK used to build and program agents rather than a managed control plane for coordinating them.
+      review_reason: null
+      review_resume_lifecycle: null

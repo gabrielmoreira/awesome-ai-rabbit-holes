@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 21858
+    stars: 21860
     forks: 2242
     license: Apache-2.0
     archived: false
+    full_name: jina-ai/serve
+    html_url: https://github.com/jina-ai/serve
     created_at: "2020-02-13T17:04:44Z"
     pushed_at: "2025-03-24T13:59:54Z"
     description: ☁️ Build multimodal AI applications with cloud-native stack
@@ -53,9 +55,9 @@ metadata:
       - orchestration
       - pipeline
       - prometheus
-    last_checked_at: "2026-07-13T05:13:13.046Z"
+    last_checked_at: "2026-07-20T15:11:24.211Z"
     readme:
-      fetched_at: "2026-07-13T05:13:13.046Z"
+      fetched_at: "2026-07-20T15:11:24.211Z"
       bytes: 6643
 insights:
   summary: Jina-Serve is a cloud-native Python framework for building, scaling, and deploying multimodal AI services and LLM pipelines using gRPC, HTTP, and Kubernetes.
@@ -90,14 +92,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:13.046Z"
+    updated_at: "2026-07-20T15:11:24.211Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:04:19.805Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

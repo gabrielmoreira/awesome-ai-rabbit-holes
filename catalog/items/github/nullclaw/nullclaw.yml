@@ -28,6 +28,8 @@ metadata:
     forks: 860
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-02-16T21:17:27Z"
     pushed_at: "2026-05-05T01:15:15Z"
     description: Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig
@@ -72,14 +74,18 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:45:34.790Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T15:12:07.492Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for nullclaw/nullclaw
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:17:48.413Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

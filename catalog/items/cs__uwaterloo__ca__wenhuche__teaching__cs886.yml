@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A University of Waterloo course page for CS 886 covering recent advances in foundation models, including lectures and readings on transformers, LLMs, multimodal models, and augmentation techniques.
-  why_it_matters: It provides a structured, academic-grade curriculum and paper list for developers who want deep theoretical context behind the tools they are shipping.
-  mental_damage: Because nothing complements shipping half-baked AI features quite like a 24-lecture syllabus on why foundation models are both miraculous and risky.
+  summary: An academic course syllabus from the University of Waterloo covering recent advances in foundation models, including transformer architectures, scaling laws, and multimodal learning.
+  why_it_matters: Provides a structured theoretical foundation for developers looking to move beyond API calls and understand the underlying mechanics of LLMs and diffusion models.
+  mental_damage: Nothing humbles a prompt engineer quite like realizing the transformer architecture they rely on is actually just a complex sequence of matrix multiplications.
   tags:
-    - courses
+    - course
     - foundation-models
-    - llm-research
+    - curriculum
+    - transformer-architecture
   confidence: high
 curation:
   status: excluded
-  reason: This is a university course homepage and syllabus, not a developer-facing tool, agent, framework, or product, and belongs in educational resources rather than a practical AI tooling catalog.
+  reason: It is an academic course syllabus/educational resource, which falls outside the scope of practical developer tooling.
   evidence:
-    - "The page is the home page for CS 886: Recent Advances on Foundation Models at the University of Waterloo."
-    - Content consists of lecture topics, schedules, and reading lists rather than usable software or tooling.
-    - It is listed in awesome-LLM-resources under a '课程 Course' (Course) section, confirming its educational nature.
+    - "Syllabus for CS 886: Recent Advances on Foundation Models"
+    - Content consists of lectures, reading notes, and project requirements
+    - Academic curriculum rather than a standalone developer product or tool
 placement:
   primary_category: null
   section: null
@@ -67,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:43.054Z"
+    updated_at: "2026-07-20T15:35:13.815Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b1dce12b614ccaad7c71aefddd03b6f07a5c6c3d912adcf0c0959709740a0919
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: It is an academic course syllabus/educational resource, which falls outside the scope of practical developer tooling.
+      decision_evidence:
+        - "Syllabus for CS 886: Recent Advances on Foundation Models"
+        - Content consists of lectures, reading notes, and project requirements
+        - Academic curriculum rather than a standalone developer product or tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

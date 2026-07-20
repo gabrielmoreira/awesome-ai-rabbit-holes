@@ -42,6 +42,8 @@ metadata:
     forks: 3225
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-01-12T03:41:59Z"
     pushed_at: "2026-07-20T03:20:16Z"
     description: Build and run agents you can see, understand and trust.
@@ -61,23 +63,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:53.070Z"
       bytes: 10819
 insights:
-  summary: AgentScope is a production-ready Python framework for building, running, and deploying single and multi-agent systems with built-in support for ReAct agents, memory, planning, MCP integration, and cloud or Kubernetes serving.
-  why_it_matters: It gives developers a code-first SDK to assemble observable, scalable agent workflows and serve them locally or in production without wrestling with opinionated orchestration constraints.
-  mental_damage: Another pristine agent framework joins the pile, graciously promising you can build, see, and trust your agents right before you spend three days deciding which framework to rebuild them in.
+  summary: AgentScope is a production-ready multi-agent framework with built-in support for event systems, permission management, and sandboxed workspaces.
+  why_it_matters: It provides the essential infrastructure—like multi-tenancy and isolated execution environments—needed to move agentic workflows from experimental scripts to stable services.
+  mental_damage: Nothing says 'production-ready' like adding a whole new orchestration layer to your stack just to manage the chaos of autonomous agents.
   tags:
-    - agent-framework
     - multi-agent
-    - mcp
-    - python
-    - llm
+    - orchestration
+    - sandbox
+    - infrastructure
+    - multi-tenancy
   confidence: high
 curation:
   status: included
-  reason: This is a code-first SDK and library used by developers to build agentic systems programmatically, fitting cleanly as an agent framework rather than a control plane or standalone coding assistant.
+  reason: It is primarily a code-first SDK and framework that developers import to build complex agentic systems rather than an operated workbench.
   evidence:
-    - "Repo description: 'Build and run agents you can see, understand and trust.'"
-    - README states it is a 'production-ready, easy-to-use agent framework' with built-in ReAct agent, tools, memory, and cloud/K8s deployment.
-    - Topics include agent, llm-agent, multi-agent, mcp; listed in awesome-langchain under 'Other LLM Frameworks'.
+    - Python-based SDK with PyPI installation
+    - Provides core building blocks like event and permission systems
+    - Framework-first architecture for building and running agents
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -97,9 +99,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:10.944Z"
+    updated_at: "2026-07-20T16:03:34.573Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:154669cface2e0f2e491fd4bf8b8b111cc6d8ddc20a725ff161763ee3e093cc1
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is primarily a code-first SDK and framework that developers import to build complex agentic systems rather than an operated workbench.
+      decision_evidence:
+        - Python-based SDK with PyPI installation
+        - Provides core building blocks like event and permission systems
+        - Framework-first architecture for building and running agents
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is primarily distributed as a library/SDK for developers to script against rather than an operated control plane or workbench.
+      review_reason: null
+      review_resume_lifecycle: null

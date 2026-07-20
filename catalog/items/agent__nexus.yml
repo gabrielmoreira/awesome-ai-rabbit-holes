@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Nexus is an enterprise platform for building and deploying AI agents across sales, support, and operations, operated via a no-code SaaS surface.
-  why_it_matters: It positions itself as a way for non-engineers to build production agents quickly, with examples of telecom teams shipping automations in weeks rather than quarters.
-  mental_damage: Another reminder that the hardest part of your AI stack is apparently not the technology, but the 90% organizational change management you were hoping to skip.
+  summary: agent.nexus is an enterprise no-code platform that lets business teams build autonomous AI agents on top of existing business systems and models.
+  why_it_matters: Relevant to enterprise business operations and IT procurement rather than software engineering workflows or repo-level developer tooling.
+  mental_damage: Positioned as 'not another AI tool' that sits above the patchwork, which is exactly where enterprise procurement budgets go to forget they already bought five other layers.
   tags:
-    - agents
     - enterprise
     - no-code
-    - platform
+    - business-automation
+    - ai-platform
   confidence: high
 curation:
   status: excluded
-  reason: The product is an enterprise SaaS platform for non-engineers to build operational agents and is not a developer-facing coding tool, IDE, framework, or infrastructure component.
+  reason: Primarily an enterprise business-automation platform for non-technical teams; it lacks a software-developer tooling angle and targets business users instead of developers.
   evidence:
-    - Site positions the product as a platform where 'agents [are] built by non-engineers' with 'zero code changes'.
-    - Primary use cases are sales, support, and operations automation rather than repo work, coding assistance, or developer infrastructure.
-    - Appears in awesome-ai-agents as a horizontal agent platform, not as a developer tool, extension, or SDK.
+    - Site copy repeatedly targets 'business teams' and 'non-engineer' users rather than developers
+    - Case studies focus on sales onboarding, consulting lifecycle efficiency, and telecom revenue ops, not software engineering
+    - Product compares itself to Workato and Dust as an enterprise orchestration layer, not a coding assistant, IDE, extension, or developer framework
 placement:
   primary_category: null
   section: null
@@ -68,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:17.709Z"
+    updated_at: "2026-07-20T15:15:13.740Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cea0c9c7d5764590805b68dd3d9bb99954cf0818016546b2181b51b864fb6c75
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Primarily an enterprise business-automation platform for non-technical teams; it lacks a software-developer tooling angle and targets business users instead of developers.
+      decision_evidence:
+        - Site copy repeatedly targets 'business teams' and 'non-engineer' users rather than developers
+        - Case studies focus on sales onboarding, consulting lifecycle efficiency, and telecom revenue ops, not software engineering
+        - Product compares itself to Workato and Dust as an enterprise orchestration layer, not a coding assistant, IDE, extension, or developer framework
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

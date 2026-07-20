@@ -28,6 +28,8 @@ metadata:
     forks: 4
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-04-24T22:37:39Z"
     pushed_at: "2026-06-06T17:56:45Z"
     description: Local-first CLI portfolio tracker for overseas investors, with built-in MCP server for Claude
@@ -78,16 +80,18 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T05:17:34.120Z"
+    status: failed
+    updated_at: "2026-07-20T15:10:53.132Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for evan-moon/firma
+      type: github_repo_missing
+      message: "GitHub repository not found: evan-moon/firma"
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:55:03.672Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

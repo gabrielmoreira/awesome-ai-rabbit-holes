@@ -27,6 +27,8 @@ metadata:
     forks: 1
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-12-16T20:06:59Z"
     pushed_at: "2026-04-12T20:05:25Z"
     description: Smart code context extractor for AI assistants
@@ -56,26 +58,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.107Z"
       bytes: 16110
 insights:
-  summary: A Go-based CLI tool that analyzes a codebase, ranks files by relevance, and packages them into token-efficient formats for pasting into LLM chat interfaces.
-  why_it_matters: It automates the tedious manual selection of files and handles token budgeting, allowing developers to feed optimized project context into AI assistants without hitting context limits.
-  mental_damage: Because clearly the missing piece in our workflow wasn't better code, but a specialized compiler that translates your entire repo into a dialect of markdown only a transformer can love.
+  summary: A CLI tool that extracts and optimizes codebase context into token-efficient formats for LLMs.
+  why_it_matters: It solves the tedious process of manually selecting relevant files and managing token budgets when feeding large repositories into AI assistants.
+  mental_damage: Finally, a way to precisely calculate exactly how much money you're wasting on context windows before you hit 'end'.
   tags:
     - cli
-    - context-compression
-    - go
-    - token-budget
-    - prompt-engineering
+    - context-management
+    - token-optimization
+    - codebase-analysis
+    - golang
   confidence: high
 curation:
   status: included
-  reason: The core novelty is context packing, relevance scoring, and token compression to optimize what gets sent to the model, which aligns perfectly with Prompt & Context Engineering.
+  reason: The tool's core novelty is the intelligent compression and token-optimized packaging of code context to improve LLM performance.
   evidence:
-    - Repo description explicitly states 'Smart code context extractor for AI assistants'.
-    - README claims 'token-efficient tool that transforms your code into optimized context' with '25-60% token reduction'.
-    - Features include automatic relevance scoring, enforced token budgets via tiktoken, and specialized output formats (PTX, TOON).
+    - README claims 25-60% token reduction via custom formats like PTX
+    - Focuses on relevance scoring and budget-aware context packing
+    - Transforms codebase into optimized context for LLMs
 placement:
   primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -92,9 +94,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:31.478Z"
+    updated_at: "2026-07-20T15:48:09.527Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a76397da938c32db553326bcb2bb93cb5ab27667c3e0be8a38fbc18a356144ca
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The tool's core novelty is the intelligent compression and token-optimized packaging of code context to improve LLM performance.
+      decision_evidence:
+        - README claims 25-60% token reduction via custom formats like PTX
+        - Focuses on relevance scoring and budget-aware context packing
+        - Transforms codebase into optimized context for LLMs
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because its core value proposition is the compression and management of context/tokens rather than serving as a host integration layer.
+      review_reason: null
+      review_resume_lifecycle: null

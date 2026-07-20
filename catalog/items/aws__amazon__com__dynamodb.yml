@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,21 +37,22 @@ metadata:
     readme: null
 insights:
   summary: Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed for high-performance applications at any scale.
-  why_it_matters: Developers building AI applications often need low-latency, scalable storage for session state, chat history, and vector metadata, which DynamoDB provides out of the box.
-  mental_damage: It remains the de facto choice for engineers who enjoy explaining eventual consistency over drinks while their AI agents churn through terabytes of context.
+  why_it_matters: It provides a highly scalable, zero-maintenance data storage layer that simplifies infrastructure management for high-concurrency workloads.
+  mental_damage: It's a reliable way to ensure you'll never have to manage a database server, but you'll spend your life worrying about partition keys and throughput provisioning.
   tags:
+    - nosql
+    - serverless
     - database
     - aws
-    - serverless
-    - nosql
+    - key-value
   confidence: high
 curation:
   status: excluded
-  reason: DynamoDB is a foundational cloud database service, not a developer-facing AI tool, agent, framework, or coding workflow product.
+  reason: DynamoDB is a general-purpose cloud database service, not a developer-facing AI tool, agent, or workflow utility.
   evidence:
-    - Primary page excerpt describes a managed NoSQL database service with no AI-driven coding, agent, or context-engineering features.
-    - Seen in awesome-mcp-servers only as a target database, not as an MCP server or AI tool itself.
-    - No repo description, stars, or code artifacts provided; the item is a cloud infrastructure product, not an AI developer tool.
+    - Primary product is a managed NoSQL database
+    - Does not perform AI tasks, coding assistance, or agentic orchestration
+    - The provided context describes it as a data storage and infrastructure service
 placement:
   primary_category: null
   section: null
@@ -68,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:31.249Z"
+    updated_at: "2026-07-20T15:25:14.459Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5c5470ccc614690b564993a4df6d9d0a6c22e6592a420e7f62bd7e83acb99a0a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: DynamoDB is a general-purpose cloud database service, not a developer-facing AI tool, agent, or workflow utility.
+      decision_evidence:
+        - Primary product is a managed NoSQL database
+        - Does not perform AI tasks, coding assistance, or agentic orchestration
+        - The provided context describes it as a data storage and infrastructure service
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

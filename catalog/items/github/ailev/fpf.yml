@@ -27,6 +27,8 @@ metadata:
     forks: 83
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-12-01T12:47:55Z"
     pushed_at: "2026-07-18T18:58:43Z"
     description: "First Principles Framework (FPF): Pattern language and core specification for admissible action in problematic engineering, research, and mixed human/AI work."
@@ -49,26 +51,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:55.316Z"
       bytes: 43104
 insights:
-  summary: First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams.
-  why_it_matters: It provides a disciplined, spec-driven vocabulary and pattern set for teams that need auditable decision records, bounded contexts, and stable shared reasoning across specialists and AI agents.
-  mental_damage: Just when you thought your stack was modern enough, you now need a full operating system for thought just to justify why you chose Postgres over Mongo.
+  summary: A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work.
+  why_it_matters: It provides a formal framework to prevent complex multi-agent or human-AI projects from devolving into incoherent, unreviewable conversational loops.
+  mental_damage: Because apparently, even our AI agents need a formal ontology and a set of rigorous semantic rules to keep them from hallucinating a whole new physics.
   tags:
     - spec-driven
-    - decision-records
-    - human-ai-collab
-    - auditability
-    - systems-engineering
+    - system-engineering
+    - multi-agent
+    - governance
+    - reasoning
   confidence: high
 curation:
   status: included
-  reason: The repository is a normative conceptual specification and pattern system for spec-driven, auditable reasoning, aligning directly with the Spec-Driven Development category.
+  reason: The tool is explicitly a normative specification and pattern language used to govern reasoning and maintain coherence across complex workflows.
   evidence:
-    - Repo description explicitly calls it an 'operating system for open-ended thought' focused on bounded contexts, auditable reasoning, and decision records.
-    - README positions FPF as a spec-first system for stabilizing vocabulary, alternatives, evidence gaps, and durable outputs like DRRs and UTS documents.
-    - Listed in the awesome-spec-driven-development directory under the 'Standards' section, reinforcing its spec-driven identity.
+    - Repo description identifies it as a 'core specification for admissible action'.
+    - README describes it as a 'tandards-style pattern language' to make work 'explicit, reviewable, [and] improvable'.
+    - Directly cited in 'awesome-spec-driven-development' under Standards.
 placement:
   primary_category: spec-driven-development
-  section: Spec-First Environments
+  section: Governance / Validation
 lifecycle:
   status: promotion_candidate
   reason: Stars (347) exceeded threshold (150)
@@ -85,9 +87,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:56.095Z"
+    updated_at: "2026-07-20T16:10:29.191Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0a30616d76e09d6833cd2b68c49cada2155c0dee64be4c008145d16b8a6f5ec3
+      proposed_primary_category: spec-driven-development
+      disagreement: false
+      decision_reason: The tool is explicitly a normative specification and pattern language used to govern reasoning and maintain coherence across complex workflows.
+      decision_evidence:
+        - Repo description identifies it as a 'core specification for admissible action'.
+        - README describes it as a 'tandards-style pattern language' to make work 'explicit, reviewable, [and] improvable'.
+        - Directly cited in 'awesome-spec-driven-development' under Standards.
+      category_candidates:
+        - spec-driven-development
+        - agent-orchestration
+      contrastive_reason: Choose spec-driven-development over agent-orchestration because the project's core novelty is the formal specification and governance model rather than an operated runtime or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

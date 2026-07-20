@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Context7 is an Upstash service that pulls up-to-date, version-specific documentation and code examples for libraries directly into AI coding tools like Cursor, Claude Code, and Windsurf.
-  why_it_matters: It solves the common problem of LLMs hallucinating deprecated APIs by grounding coding assistants in current, version-specific documentation at prompt time.
-  mental_damage: Yet another layer of infrastructure dedicated to fixing the fact that our AI assistants know as much about modern libraries as a tutorial written in 2021.
+  summary: A service that provides up-to-date, version-specific library documentation and code examples to AI coding tools like Cursor and Claude Code.
+  why_it_matters: It solves the hallucination problem in AI coding by injecting fresh, version-correct documentation directly into the LLM's context window.
+  mental_damage: Another layer of abstraction to manage just to ensure your AI doesn't hallucinate a method that was deprecated eighteen months ago.
   tags:
-    - context-engineering
-    - docs
-    - retrieval
-    - coding-assistants
+    - context-retrieval
+    - documentation
+    - ai-productivity
+    - cursor-extension
+    - llm-context
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a retrieval and fresh-doc lookup system designed to improve the context fed into coding models, fitting the Prompt & Context Engineering category.
+  reason: The tool's core value is retrieving and shaping fresh documentation context for LLMs rather than being a standalone assistant or a simple UI extension.
   evidence:
-    - Scraped site description states it 'Pull[s] up-to-date, version-specific documentation and code examples for any library directly into... AI coding tools.'
-    - Primary value is improving what goes into the model (fresh docs) rather than being the primary coding assistant.
-    - Seen in awesome-ai-coding-tools under 'Developer Productivity Tools' specifically for its doc-fetching capability.
+    - "Scraped site title: 'Up-to-date documentation for LLMs and AI code editors'"
+    - Primary function is injecting version-specific documentation into AI tools
+    - Claims to provide documentation directly into Cursor and Claude Code
 placement:
   primary_category: context-engineering
   section: Context Retrieval & Fresh Docs
@@ -68,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:36.079Z"
+    updated_at: "2026-07-20T15:34:10.453Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:05a3533ab8dc09f74edbdd433703519b84b2a50f2e3fc3f2a7f84d9adc8f2b5d
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The tool's core value is retrieving and shaping fresh documentation context for LLMs rather than being a standalone assistant or a simple UI extension.
+      decision_evidence:
+        - "Scraped site title: 'Up-to-date documentation for LLMs and AI code editors'"
+        - Primary function is injecting version-specific documentation into AI tools
+        - Claims to provide documentation directly into Cursor and Claude Code
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is the retrieval and freshness of the documentation context provided to the host, not the integration layer itself.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -27,6 +27,8 @@ metadata:
     forks: 3010
     license: GPL-3.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-09-14T02:05:12Z"
     pushed_at: "2026-07-20T03:15:27Z"
     description: 🔥 MaxKB is an open-source platform for building enterprise-grade agents.  强大易用的开源企业级智能体平台。
@@ -51,26 +53,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.204Z"
       bytes: 4896
 insights:
-  summary: MaxKB is an open-source, self-hosted platform for building enterprise-grade AI agents with integrated RAG pipelines, workflow orchestration, and MCP tool-use capabilities.
-  why_it_matters: It provides developers with a ready-to-deploy, model-agnostic control plane to spin up internal knowledge bases and agentic workflows without building the plumbing from scratch.
-  mental_damage: At 20k stars, it tempts you to self-host yet another 'enterprise-grade' Django app just to answer questions your team could have found in a Notion doc.
+  summary: An open-source platform for building enterprise-grade agents with integrated RAG pipelines and workflow orchestration.
+  why_it_matters: It provides a structured way to connect private knowledge bases to LLMs using RAG and agentic workflows via a visual or programmable interface.
+  mental_damage: Because clearly, the only thing missing from your enterprise architecture was one more abstraction layer between your data and your LLM.
   tags:
-    - agents
     - rag
-    - self-hosted
-    - mcp
-    - enterprise
+    - agent-orchestration
+    - open-source
+    - workflow-engine
+    - enterprise-ai
   confidence: high
 curation:
   status: included
-  reason: The product is a self-hosted control plane and workbench for orchestrating agents, RAG pipelines, and MCP tools, aligning with the Agent Orchestration category's definition of a runtime platform over a code-first library.
+  reason: MaxKB acts as an operated workbench and control plane for orchestrating agents and RAG pipelines rather than being a simple library or a single coding assistant.
   evidence:
-    - Repo description explicitly calls it an 'open-source platform for building enterprise-grade agents'.
-    - README highlights a 'powerful workflow engine' and 'MCP tool-use' for orchestrating AI processes.
-    - Stack includes a Django backend and Vue.js frontend, confirming it is an operated platform rather than a code-first SDK.
+    - README claims it is an 'open-source platform for building enterprise-grade agents'
+    - Includes a workflow engine and function library for orchestrating AI processes
+    - High star count (22k+) and active maintenance indicated by recent pushes
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
   reason: Stars (20884) exceeded threshold (150)
@@ -87,9 +89,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:38.612Z"
+    updated_at: "2026-07-20T15:48:50.026Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5212f9b9a18db6436d36a3f35b760e9614b15420dcc0ff795acad536508f3b4e
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: MaxKB acts as an operated workbench and control plane for orchestrating agents and RAG pipelines rather than being a simple library or a single coding assistant.
+      decision_evidence:
+        - README claims it is an 'open-source platform for building enterprise-grade agents'
+        - Includes a workflow engine and function library for orchestrating AI processes
+        - High star count (22k+) and active maintenance indicated by recent pushes
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated workbench/platform for end-users and enterprises rather than a code-first library meant for programmatic import.
+      review_reason: null
+      review_resume_lifecycle: null

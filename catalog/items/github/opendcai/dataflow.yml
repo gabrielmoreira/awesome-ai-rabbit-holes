@@ -27,6 +27,8 @@ metadata:
     forks: 321
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-10-13T14:45:45Z"
     pushed_at: "2026-04-15T15:46:28Z"
     description: Easy Data Preparation with latest LLMs-based Operators and Pipelines.
@@ -84,9 +86,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:19:37.338Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

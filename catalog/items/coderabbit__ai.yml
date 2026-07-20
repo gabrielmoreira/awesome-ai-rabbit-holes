@@ -42,6 +42,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -50,23 +52,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-first pull request reviewer that provides context-aware feedback, line-by-line code suggestions, and real-time chat across PRs, IDEs, and CLI environments.
-  why_it_matters: It automates the heavy lifting of code reviews by catching edge cases, generating tests and docstrings, and enforcing custom coding guidelines via a configurable YAML workflow.
-  mental_damage: We've successfully automated the part of code review where a senior engineer sighs and explains your off-by-one error, so now you can feel judged by an AI that learned your style guide instead.
+  summary: An AI-powered pull request reviewer that provides context-aware feedback, line-by-line suggestions, and automated summaries of code changes.
+  why_it_matters: It automates the tedious parts of code review by spotting edge cases, security flaws, and style violations before human reviewers even open the PR.
+  mental_damage: Now you can finally spend your entire workday arguing with a bot in a PR comment thread instead of just with your senior engineer.
   tags:
     - code-review
-    - ai-reviewer
-    - pr-automation
-    - cli
-    - ide-integration
+    - ai-agent
+    - pull-request
+    - automation
+    - quality-assurance
   confidence: high
 curation:
   status: included
-  reason: CodeRabbit is a developer-facing coding assistant focused specifically on reviewing, testing, and repairing code across PRs, IDEs, and CLI, fitting the 'Review, Testing & Repair Agents' section of coding-agents.
+  reason: CodeRabbit acts as a standalone agent that reviews diffs and interacts with developers via comments, fitting the 'Review, Testing & Repair Agents' profile.
   evidence:
-    - Scraped site describes it as an 'AI-first pull request reviewer with context-aware feedback, line-by-line code suggestions, and real-time chat.'
-    - Source list (awesome-ai-coding-tools) includes it under 'Code Review and Refactoring' as an AI-powered review tool.
-    - Features include unit test generation, docstring generation, and customizable pre-merge checks via a YAML configuration.
+    - Claims to be an 'AI-first pull request reviewer'
+    - Provides line-by-line suggestions and conversational feedback via bot comments
+    - Integrates with Git, IDEs, and CLI as a review layer
 placement:
   primary_category: coding-agents
   section: Review, Testing & Repair Agents
@@ -85,9 +87,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:18.122Z"
+    updated_at: "2026-07-20T15:31:49.901Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6537f6065c5905be26d6f6dfe3f8ccbdd238e277705d8ab757193059b97af587
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: CodeRabbit acts as a standalone agent that reviews diffs and interacts with developers via comments, fitting the 'Review, Testing & Repair Agents' profile.
+      decision_evidence:
+        - Claims to be an 'AI-first pull request reviewer'
+        - Provides line-by-line suggestions and conversational feedback via bot comments
+        - Integrates with Git, IDEs, and CLI as a review layer
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because CodeRabbit operates as a primary review agent that initiates context-aware feedback and conversation rather than just being a thin plugin for an editor.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A simple web tool that converts plain English scheduling descriptions into standard cron expressions for use in crontab, GitHub Actions, and Kubernetes CronJobs.
-  why_it_matters: It removes the friction of manually calculating 5-field cron syntax, allowing developers to describe schedules in natural language and copy the output directly into their configs.
-  mental_damage: We have reached the point where developers need a large language model to configure a timer that has been documented since 1979.
+  summary: A web-based utility that converts natural language descriptions into valid cron expressions.
+  why_it_matters: It eliminates the cognitive load of memorizing complex cron syntax for scheduling automated tasks in Linux, GitHub Actions, or Kubernetes.
+  mental_damage: Because even for senior engineers, debugging a failed cron job caused by a misplaced asterisk is a specialized form of torture.
   tags:
-    - cron
-    - scheduling
-    - utilities
-    - natural-language
+    - productivity
+    - dev-tools
+    - automation
+    - utility
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose utility for generating cron strings, not a developer-facing AI coding tool, agent, or infrastructure component.
+  reason: This is a single-purpose utility web app rather than a developer-facing AI product, framework, or workflow tool.
   evidence:
-    - The site describes itself as a 'Free Cron Expression Generator' for converting English to cron syntax.
-    - The tool targets any cron-compatible system (Linux, AWS, Kubernetes) rather than a specific coding workflow or IDE.
-    - It lacks the identity of a coding assistant, framework, or agent orchestration platform.
+    - README claims it is a 'Free Cron Expression Generator'
+    - Core functionality is simple text-to-syntax conversion without developer-centric context or integration
+    - Does not fall into the scope of coding agents, extensions, or infrastructure
 placement:
   primary_category: null
   section: null
@@ -68,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:42.395Z"
+    updated_at: "2026-07-20T15:34:49.622Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fbd20dfce217419fe92c1cd0004066e9d1f7b2d6007c925f47e61a157fc76476
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a single-purpose utility web app rather than a developer-facing AI product, framework, or workflow tool.
+      decision_evidence:
+        - README claims it is a 'Free Cron Expression Generator'
+        - Core functionality is simple text-to-syntax conversion without developer-centric context or integration
+        - Does not fall into the scope of coding agents, extensions, or infrastructure
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

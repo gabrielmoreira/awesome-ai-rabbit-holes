@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 37
+    stars: 38
     forks: 2
     license: MIT
     archived: false
+    full_name: Hybirdss/smartest-tv
+    html_url: https://github.com/Hybirdss/smartest-tv
     created_at: "2026-04-02T18:35:00Z"
     pushed_at: "2026-05-26T05:51:20Z"
     description: "📺 Control any smart TV with natural language. Play Netflix by name from your terminal. PyPI: stv · MCP server · LG/Samsung/Roku/Android"
@@ -48,9 +50,9 @@ metadata:
       - smart-tv
       - spotify
       - youtube
-    last_checked_at: "2026-07-13T05:13:03.839Z"
+    last_checked_at: "2026-07-20T15:11:08.138Z"
     readme:
-      fetched_at: "2026-07-13T05:13:03.839Z"
+      fetched_at: "2026-07-20T15:11:08.138Z"
       bytes: 16470
 insights:
   summary: A Python CLI and MCP server that lets developers control smart TVs, stream media by name, and manage multi-room setups using natural language commands.
@@ -84,14 +86,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:03.839Z"
+    updated_at: "2026-07-20T15:11:08.138Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:01:24.034Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

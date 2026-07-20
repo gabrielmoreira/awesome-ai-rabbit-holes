@@ -27,6 +27,8 @@ metadata:
     forks: 11
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-04-03T14:05:38Z"
     pushed_at: "2025-06-16T09:08:07Z"
     description: Agentset MCP Server - Build RAG with Agentic superpowers
@@ -37,26 +39,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:53.250Z"
       bytes: 2099
 insights:
-  summary: An MCP server that exposes Agentset RAG namespaces as tools for AI assistants like Claude, enabling document-based retrieval within chat workflows.
-  why_it_matters: It lets developers plug retrieval-augmented generation into MCP-compatible assistants without building custom vector-store integrations from scratch.
-  mental_damage: Yet another adapter ensuring your coding agent can now confidently hallucinate from your own documents instead of just the public internet.
+  summary: An MCP server that enables agents to interact with the Agentset RAG platform.
+  why_it_matters: It allows AI assistants like Claude to perform document-based retrieval and reasoning using your custom RAG namespaces.
+  mental_damage: Another layer of abstraction to debug when your agent's memory suddenly develops amnesia.
   tags:
     - mcp
     - rag
     - retrieval
     - agentset
-    - npm
-  confidence: medium
+    - integration
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server for the Agentset RAG platform, making MCP its primary identity and fitting cleanly into Domain Servers.
+  reason: The product identity is an MCP server designed to bridge the Agentset RAG platform to MCP-compatible hosts.
   evidence:
-    - "Repo description states: 'Agentset MCP Server - Build RAG with Agentic superpowers'"
-    - README shows configuration examples for adding the server to Claude via mcpServers JSON
-    - Included in awesome-mcp-servers under Community Servers, reinforcing its MCP identity
+    - README states it is an 'MCP server for Agentset'
+    - Provides installation instructions specifically for 'Adding to Claude' via mcpServers config
+    - Core functionality is providing RAG capabilities via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -73,9 +75,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:16.556Z"
+    updated_at: "2026-07-20T16:04:06.267Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f3056cd62df48c82ebb3285d3f1234d074e1df433be9bfee9008c56ba93f936a
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is an MCP server designed to bridge the Agentset RAG platform to MCP-compatible hosts.
+      decision_evidence:
+        - README states it is an 'MCP server for Agentset'
+        - Provides installation instructions specifically for 'Adding to Claude' via mcpServers config
+        - Core functionality is providing RAG capabilities via the Model Context Protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is the implementation of the Model Context Protocol itself.
+      review_reason: null
+      review_resume_lifecycle: null

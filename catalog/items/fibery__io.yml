@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Fibery is a work management platform that recently added an official MCP server to allow AI assistants to interact with its databases and workflows.
-  why_it_matters: Developers can connect coding agents directly to their product management workspace, letting AI read specs and update roadmaps without context-switching.
-  mental_damage: We have successfully bridged the gap between your Jira-compatible workspace and your terminal, ensuring your AI can now argue with product managers on your behalf.
+  summary: Fibery is a low-code work management platform that combines project management, CRM, and knowledge management into a single integrated workspace.
+  why_it_matters: It allows teams to build custom relational data structures and automated workflows to manage complex development processes without writing custom internal tools.
+  mental_damage: The sheer flexibility of mapping every single dependency in your life will eventually lead to a crisis of architectural over-engineering.
   tags:
-    - mcp
+    - work-management
+    - low-code
     - project-management
-    - integration
-  confidence: medium
+    - no-code
+    - productivity
+  confidence: high
 curation:
-  status: included
-  reason: Fibery is included because it provides an official MCP server, fitting the MCP Servers & Tooling category where the protocol implementation is the primary developer-facing artifact.
+  status: excluded
+  reason: The tool is a general-purpose low-code work management platform rather than a developer-focused AI tool, agent, or coding infrastructure.
   evidence:
-    - Listed in the 'awesome-mcp-servers' directory under the section 'Official Servers'.
-    - The product (Fibery.io) is a work management platform, but the developer-facing entry point here is the MCP server implementation.
+    - Product is a general SaaS work management/low-code platform
+    - No clear AI-native developer tooling or agentic workflow identity in the context
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -66,9 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:03.535Z"
+    updated_at: "2026-07-20T15:44:36.961Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:35030aa4c09ea604181af96455951e0e90c1319017ecc7dd8df88b2ebfd2e6f9
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a general-purpose low-code work management platform rather than a developer-focused AI tool, agent, or coding infrastructure.
+      decision_evidence:
+        - Product is a general SaaS work management/low-code platform
+        - No clear AI-native developer tooling or agentic workflow identity in the context
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

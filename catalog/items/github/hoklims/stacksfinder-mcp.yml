@@ -28,14 +28,16 @@ metadata:
     forks: 3
     license: MIT
     archived: false
+    full_name: hoklims/stacksfinder-mcp
+    html_url: https://github.com/hoklims/stacksfinder-mcp
     created_at: "2025-12-31T17:49:26Z"
     pushed_at: "2026-01-29T05:14:01Z"
     description: MCP server for StacksFinder - deterministic tech stack recommendations for LLM clients
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:01.470Z"
+    last_checked_at: "2026-07-20T15:11:03.716Z"
     readme:
-      fetched_at: "2026-07-13T05:13:01.470Z"
+      fetched_at: "2026-07-20T15:11:03.716Z"
       bytes: 15406
 insights:
   summary: An MCP server that provides deterministic tech stack recommendations to LLM clients like Claude, Cursor, and Windsurf via the Model Context Protocol.
@@ -68,14 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:01.470Z"
+    updated_at: "2026-07-20T15:11:03.716Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:31.989Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

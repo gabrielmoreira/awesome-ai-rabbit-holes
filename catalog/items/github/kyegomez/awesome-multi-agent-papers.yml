@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1603
-    forks: 153
+    stars: 1617
+    forks: 155
     license: NOASSERTION
     archived: false
+    full_name: kyegomez/awesome-multi-agent-papers
+    html_url: https://github.com/kyegomez/awesome-multi-agent-papers
     created_at: "2024-02-21T19:45:57Z"
     pushed_at: "2026-07-04T23:01:12Z"
     description: A compilation of the best multi-agent papers
@@ -47,9 +49,9 @@ metadata:
       - swarms-of-agents
       - transformers
       - transformers-models
-    last_checked_at: "2026-07-13T05:13:24.104Z"
+    last_checked_at: "2026-07-20T15:11:43.788Z"
     readme:
-      fetched_at: "2026-07-13T05:13:24.104Z"
+      fetched_at: "2026-07-20T15:11:43.788Z"
       bytes: 38638
 insights:
   summary: A curated list of academic research papers focused on multi-agent systems, LLM collaboration, and swarm intelligence.
@@ -82,14 +84,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:24.104Z"
+    updated_at: "2026-07-20T15:11:43.788Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:08:07.670Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

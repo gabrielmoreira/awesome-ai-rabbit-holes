@@ -28,6 +28,8 @@ metadata:
     forks: 2
     license: MIT
     archived: true
+    full_name: null
+    html_url: null
     created_at: "2025-10-30T04:44:32Z"
     pushed_at: "2026-04-02T05:40:16Z"
     description: A Model Context Protocol server for character-level index-based string manipulation
@@ -38,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:51.538Z"
       bytes: 7440
 insights:
-  summary: An archived Model Context Protocol server providing character-level index-based string manipulation tools for precise text handling in LLM-driven workflows.
-  why_it_matters: It gives coding agents precise character counting and indexing capabilities that LLMs natively struggle with, improving test generation and string parsing tasks.
-  mental_damage: We have now reached the point where we need dedicated MCP servers to help our AI overlords count characters correctly.
+  summary: An archived Model Context Protocol (MCP) server for character-level index-based string manipulation.
+  why_it_matters: It provides LLMs with the precise string indexing capabilities they naturally lack, which is crucial for generating accurate test code and validating character positions.
+  mental_damage: Finally, a tool to help your LLM count characters correctly, so you can spend less time fixing off-by-one errors and more time debugging the errors it missed.
   tags:
     - mcp
     - string-manipulation
-    - developer-tools
-    - archived
+    - llm-tooling
+    - testing-utilities
+    - python
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived with a banner directing users to a new repository, signaling it is no longer the live project.
+  reason: The repository is explicitly archived and the README states the project has moved to a new repository.
   evidence:
-    - "Repository has 'archived: yes' flag and README opens with 'This repository is archived' banner"
-    - README states 'This project has moved to char-index-skill' with future updates in the new repository
-    - Only 2 stars and created in late 2025, showing minimal ecosystem traction before archival
+    - "Archived: yes"
+    - "README contains a prominent warning: 'This repository is archived.'"
+    - "README states: 'This project has moved to char-index-skill' for continued support."
 placement:
   primary_category: null
   section: null
@@ -73,9 +76,25 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:53.451Z"
+    updated_at: "2026-07-20T16:00:04.379Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d02edb27b9af53c6a2fc8bd3fbe46b422744c621c04b4579534dbd06000859aa
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is explicitly archived and the README states the project has moved to a new repository.
+      decision_evidence:
+        - "Archived: yes"
+        - "README contains a prominent warning: 'This repository is archived.'"
+        - "README states: 'This project has moved to char-index-skill' for continued support."
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

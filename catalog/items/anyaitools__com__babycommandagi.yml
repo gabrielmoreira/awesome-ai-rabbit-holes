@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,27 +37,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: BabyCommandAGI is an entry listed in the awesome-ai-agents directory describing an autonomous AI agent.
-  why_it_matters: It represents an early experiment in autonomous agent loops that helps developers track the evolution of agentic workflows.
-  mental_damage: Yet another recursively named autonomous agent that promises to replace your job while you spend three hours debugging its infinite loop.
+  summary: An autonomous AI agent capable of performing complex tasks.
+  why_it_matters: It provides an entry point into the ecosystem of autonomous agents that can act independently to solve problems.
+  mental_damage: Another autonomous agent to add to the growing pile of things that might eventually replace your weekend.
   tags:
-    - agents
-    - autonomous
-    - experimental
+    - ai-agents
+    - autonomy
+    - automation
   confidence: low
 curation:
-  status: excluded
-  reason: The entry is only a listing in an awesome list with no repository, description, README, or scraped site content to verify it is a usable developer tool.
+  status: included
+  reason: The tool is identified in an 'awesome-ai-agents' list as an autonomous agent, fitting the coding-agent profile of a tool that plans and executes tasks.
   evidence:
-    - No repo description, README, or scraped site context provided.
-    - Only signal is an entry in awesome-ai-agents with a description field but no functional detail.
-    - No stars, creation date, or activity signals to confirm it is actively maintained or usable.
+    - Listed in awesome-ai-agents directory
+    - Identified as an autonomous agent
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -68,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:55.824Z"
+    updated_at: "2026-07-20T15:21:22.718Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b360befd89ff1ef570b2773ea968aa7a30b4a9343de9ff9648921f296c6b13f0
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The tool is identified in an 'awesome-ai-agents' list as an autonomous agent, fitting the coding-agent profile of a tool that plans and executes tasks.
+      decision_evidence:
+        - Listed in awesome-ai-agents directory
+        - Identified as an autonomous agent
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the input describes an individual autonomous agent rather than a platform for coordinating multiple agents.
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

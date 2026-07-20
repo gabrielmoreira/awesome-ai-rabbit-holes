@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: APIDNA is an enterprise platform that delivers vertically-trained AI agents designed to automate complex, cross-system workflows like reconciliation, compliance, and document processing.
-  why_it_matters: It offers developers a model-agnostic execution layer for deploying domain-specific agents that integrate natively with ERPs, legacy systems, and strict regulatory environments.
-  mental_damage: Another platform promising to turn your spaghetti legacy systems into autonomous agent workflows, ensuring you can watch the reconciliation fail in real-time with 99.98% match accuracy.
+  summary: An enterprise agent execution platform that automates complex, domain-specific workflows across APIs, databases, and legacy systems.
+  why_it_matters: It targets the gap between chat-based AI demos and reliable, auditable production operations by using vertically-trained agents rather than general-purpose prompts.
+  mental_damage: Because apparently, 'it worked in my playground' is no longer a valid excuse for why the reconciliation agent just hallucinated an entire financial quarter.
   tags:
     - agent-orchestration
-    - enterprise
+    - enterprise-automation
     - workflow-automation
-    - vertical-agents
-  confidence: medium
+    - multi-agent-systems
+    - compliance-tech
+  confidence: high
 curation:
   status: included
-  reason: The product is a control plane and runtime platform for coordinating multiple specialized agents (Reconciliation, Compliance, Knowledge) across enterprise systems, fitting the vertical orchestration profile.
+  reason: APIDNA is an operated execution platform that coordinates multiple specialized agents to perform complex, multi-step business workflows.
   evidence:
-    - Site describes 'vertically-trained agentic systems' executing workflows across APIs, ERPs, and legacy infrastructure.
-    - Capabilities include 'Agent orchestration' to deploy and coordinate multiple specialized agents on a dedicated execution layer.
-    - Listed in awesome-ai-agents under the section for 'Vertically-trained agentic systems' for enterprise environments.
+    - Claims to provide an 'execution layer' and 'agent orchestration' for real-world operational workflows.
+    - Focuses on multi-agent coordination with state management and human-in-the-loop escalation.
+    - Provides specialized agents (Reconciliation, Compliance, etc.) working in parallel.
 placement:
   primary_category: agent-orchestration
   section: Vertical Orchestration Platforms
@@ -68,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:05.011Z"
+    updated_at: "2026-07-20T15:22:38.422Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2c49a6456351e6f2a0a6c50f3638a427549ba741886a346318dd91796c36435b
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: APIDNA is an operated execution platform that coordinates multiple specialized agents to perform complex, multi-step business workflows.
+      decision_evidence:
+        - Claims to provide an 'execution layer' and 'agent orchestration' for real-world operational workflows.
+        - Focuses on multi-agent coordination with state management and human-in-the-loop escalation.
+        - Provides specialized agents (Reconciliation, Compliance, etc.) working in parallel.
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is presented as an operated platform and control plane for coordinating agents rather than a library for developers to import.
+      review_reason: null
+      review_resume_lifecycle: null

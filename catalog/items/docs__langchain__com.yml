@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The official documentation portal for the LangChain ecosystem, covering LangSmith, LangGraph, and related agent-building frameworks.
-  why_it_matters: It serves as the centralized reference for developers implementing agent orchestration, prompt engineering, and evaluation using LangChain's suite of tools.
-  mental_damage: Yet another reminder that mastering the documentation is now a prerequisite for understanding why your agent chose to loop indefinitely.
+  summary: The official documentation for the LangChain ecosystem, covering LangChain, LangGraph, and LangSmith.
+  why_it_matters: It serves as the primary reference for the most widely used framework for building LLM-powered applications and agents.
+  mental_damage: Trying to keep up with its rapid API changes is a full-time job that no one actually signed up for.
   tags:
     - langchain
-    - documentation
-    - agents
-    - reference
+    - llm-frameworks
+    - agent-engineering
+    - llmops
+    - langgraph
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation portal and auxiliary resource page, not a standalone product, framework, or tool that fits the catalog's scope.
+  reason: This is the official documentation website for a framework, not a standalone product or developer tool itself.
   evidence:
-    - The URL resolves to docs.langchain.com, identified as 'Home - Docs by LangChain'.
-    - The page excerpt describes LangSmith, LangGraph, and Fleet features but is a documentation index, not a runnable tool.
-    - Seen in awesome-langchain lists only as a linked documentation page, not as a standalone library or product.
+    - URL leads to a documentation index
+    - Content is a collection of guides and tutorials for the LangChain ecosystem
+    - Primary identity is an auxiliary resource/documentation hub
 placement:
   primary_category: null
   section: null
@@ -68,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:36.894Z"
+    updated_at: "2026-07-20T15:41:14.905Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e5624cc5fecde15ee16bf51d427d239c6b747c9f8747f96b6a8907ad8cc37839
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is the official documentation website for a framework, not a standalone product or developer tool itself.
+      decision_evidence:
+        - URL leads to a documentation index
+        - Content is a collection of guides and tutorials for the LangChain ecosystem
+        - Primary identity is an auxiliary resource/documentation hub
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

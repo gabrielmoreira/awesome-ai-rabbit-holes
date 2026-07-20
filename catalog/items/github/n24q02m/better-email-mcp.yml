@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 24
-    forks: 10
+    stars: 26
+    forks: 12
     license: MIT
     archived: false
+    full_name: n24q02m/better-email-mcp
+    html_url: https://github.com/n24q02m/better-email-mcp
     created_at: "2026-02-24T03:22:43Z"
-    pushed_at: "2026-07-05T21:47:30Z"
+    pushed_at: "2026-07-20T02:48:35Z"
     description: IMAP/SMTP email for AI agents -- read, send, organize folders, and manage attachments across multiple accounts, with auto-discovery.
     homepage: https://mcp.n24q02m.com/servers/better-email-mcp/
     topics:
@@ -47,10 +49,10 @@ metadata:
       - open-source
       - smtp
       - typescript
-    last_checked_at: "2026-07-06T05:30:41.009Z"
+    last_checked_at: "2026-07-20T15:11:58.871Z"
     readme:
-      fetched_at: "2026-07-06T05:30:41.009Z"
-      bytes: 18643
+      fetched_at: "2026-07-20T15:11:58.871Z"
+      bytes: 20914
 insights:
   summary: An MCP server that provides composite email tools (IMAP/SMTP) with multi-account support and token optimization for AI agents.
   why_it_matters: It lets coding agents and assistants handle email tasks like searching, reading, and sending messages directly within their workflow without OAuth2 friction.
@@ -81,17 +83,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-16T05:05:30.022Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for n24q02m/better-email-mcp
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T23:16:25.306Z"
+    updated_at: "2026-07-20T15:11:58.871Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

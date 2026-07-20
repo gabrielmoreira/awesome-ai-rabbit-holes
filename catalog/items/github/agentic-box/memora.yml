@@ -28,6 +28,8 @@ metadata:
     forks: 52
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-09-19T09:44:12Z"
     pushed_at: "2026-07-13T15:18:42Z"
     description: Give your AI agents persistent memory.
@@ -54,15 +56,15 @@ metadata:
       fetched_at: "2026-07-20T05:16:52.176Z"
       bytes: 20079
 insights:
-  summary: A lightweight MCP server that gives AI agents persistent memory through semantic search, knowledge graphs, and cross-session context storage.
-  why_it_matters: Developers can plug memory into Claude Code and other assistants so agents remember decisions, code context, and task history across sessions.
-  mental_damage: Your agent still can't fix a null pointer, but now it will vividly remember every time you asked it to.
+  summary: An MCP-based memory layer for AI agents providing structured storage, semantic retrieval, and knowledge graph capabilities.
+  why_it_matters: It enables AI agents to maintain long-term, cross-session context and relationships rather than resetting to zero after every interaction.
+  mental_damage: Now your agents can remember the exact mistake you made in a previous session, making their critiques even more personal.
   tags:
     - mcp
-    - memory
-    - semantic-search
+    - agent-memory
+    - rag
     - knowledge-graph
-    - context
+    - sqlite
   confidence: high
 curation:
   status: included
@@ -73,10 +75,10 @@ curation:
     - Listed in awesome-mcp-servers under Knowledge & Memory, with topics including mcp and mcp-server.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (400) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
 processing:
   discover:
     status: done
@@ -90,9 +92,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:01.624Z"
+    updated_at: "2026-07-20T16:01:36.712Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0e1016f61d3afd42f113afd343d7852b961bc50756e6339a307eb569b3de85d7
+      proposed_primary_category: context-engineering
+      disagreement: true
+      decision_reason: The core novelty is the memory and retrieval infrastructure used to shape context for other agents via MCP.
+      decision_evidence:
+        - README identifies it as an 'MCP memory layer for agents'
+        - Features include semantic search, graph relations, and LLM-powered deduplication
+        - Provides structured storage for long-term, cross-session context
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the product's identity is the memory/retrieval logic itself, while MCP is simply the transport protocol used to deliver it.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      review_resume_lifecycle: null

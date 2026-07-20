@@ -28,6 +28,8 @@ metadata:
     forks: 11
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-11-06T12:17:55Z"
     pushed_at: "2025-11-20T08:36:40Z"
     description: A Rust library for browser automation via Chrome DevTools Protocol with built-in AI integration through Model Context Protocol (MCP)
@@ -75,10 +77,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:23:46.040Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.714Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
-    next_retry_at: null
+    next_retry_at: "2026-07-20T17:12:09.713Z"

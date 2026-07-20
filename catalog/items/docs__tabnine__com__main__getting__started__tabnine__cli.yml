@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,22 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Tabnine CLI is a terminal-based AI coding assistant that helps developers search large codebases, review code, and apply coding best practices via a command-line interface.
-  why_it_matters: It allows developers to delegate repo-wide coding tasks directly from the terminal without switching to an IDE or separate chat interface.
-  mental_damage: Yet another terminal-based companion promising to write your code, provided your admin has already enabled the prerequisite Agents in the Admin Console.
+  summary: An AI-powered coding assistant that operates directly within the terminal.
+  why_it_matters: It enables developers to perform codebase searches, code reviews, and task execution through a command-line interface without switching contexts from their terminal.
+  mental_damage: Another layer of abstraction between your hands and your shell, ensuring you never have to actually leave your terminal to feel productive.
   tags:
     - cli
-    - coding-agent
     - terminal
-    - tabnine
+    - coding-assistant
+    - code-review
+    - code-search
   confidence: high
 curation:
   status: included
-  reason: Tabnine CLI is a standalone terminal-native coding assistant that directly plans, reviews, and assists with code tasks, fitting the Coding Agents category.
+  reason: It is a standalone terminal-native coding assistant that plans, reviews, and searches codebases.
   evidence:
-    - "Documentation states: 'Tabnine CLI is your AI-powered coding assistant in the terminal.'"
-    - Lists common tasks like searching large codebases, applying coding best practices, and reviewing code.
-    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'.
+    - README explicitly identifies it as 'your AI-powered coding assistant in the terminal'
+    - Provides direct capabilities like 'Search large codebases', 'Review my code', and 'Troubleshoot issues'
+    - Functions as a primary interface for developer tasks within the CLI environment
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -69,9 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:41.077Z"
+    updated_at: "2026-07-20T15:41:37.583Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b33d9d83210b74a9f87a4967b5563bc8af72148830268ebed6bf692e7e5f896c
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a standalone terminal-native coding assistant that plans, reviews, and searches codebases.
+      decision_evidence:
+        - README explicitly identifies it as 'your AI-powered coding assistant in the terminal'
+        - Provides direct capabilities like 'Search large codebases', 'Review my code', and 'Troubleshoot issues'
+        - Functions as a primary interface for developer tasks within the CLI environment
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the CLI acts as the primary interface for interacting with the codebase rather than merely augmenting an existing editor or assistant.
+      review_reason: null
+      review_resume_lifecycle: null

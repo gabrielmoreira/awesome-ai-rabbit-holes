@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,14 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cognosys is a web-based autonomous AI agent platform designed to perform complex tasks and workflows across the internet.
-  why_it_matters: It offers developers a no-setup, browser-accessible agent to delegate multi-step research and execution tasks without local configuration.
-  mental_damage: Yet another reminder that while we automate the work, we still have to manually keep track of which autonomous agent UI is currently eating our API budget.
+  summary: Cognosys is an autonomous AI agent designed to research, plan, and execute complex tasks across various domains.
+  why_it_matters: It attempts to move beyond simple chat interfaces toward autonomous agents that can handle multi-step workflows without constant human intervention.
+  mental_damage: Another autonomous agent to delegate your life to, assuming it doesn't decide your codebase is actually a giant hallucination.
   tags:
     - autonomous-agents
-    - web-platform
-    - multi-step-tasks
-  confidence: medium
+    - ai-research
+    - workflow-automation
+  confidence: low
 curation:
   status: included
   reason: It is listed in awesome-ai-agents as an autonomous agent and presents itself as a platform for executing tasks, fitting the 'Browser/Desktop/Computer-Use' section of coding agents.
@@ -50,10 +52,10 @@ curation:
     - Described as an 'AI autonomous agent' capable of performing tasks.
 placement:
   primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence; placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -66,9 +68,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:23.048Z"
+    updated_at: "2026-07-20T15:32:33.133Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d35fa33b2dafff35a2fa5dfc8aa52e8fd0c8049a4a79d5e7d2c48c35389355e9
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: It is an operated agent platform focused on task orchestration rather than a library for developers to import into their own code.
+      decision_evidence:
+        - Seen in awesome-ai-agents directory
+        - Claimed focus on autonomous task execution
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because the product is presented as an autonomous agent platform for general tasks rather than a specialized tool for editing existing codebases.
+      review_reason: "Categorization review required: low confidence; placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

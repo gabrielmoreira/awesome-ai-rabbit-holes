@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GitFluence is a web-based AI tool that translates natural language descriptions of git tasks into the corresponding command-line instructions.
-  why_it_matters: It reduces the friction of remembering obscure git syntax, allowing developers to describe what they want to accomplish and immediately receive the executable command.
-  mental_damage: We have reached the point where developers need a generative model to translate human intent into a 1980s version control system, because reading the man page became too immersive.
+  summary: An AI-driven web application that generates specific Git commands based on natural language descriptions.
+  why_it_matters: It helps developers quickly translate complex Git intentions into actionable CLI commands without memorizing every flag.
+  mental_damage: It automates the exact part of your job that was previously just a frantic, high-stakes session of reading Stack Overflow.
   tags:
     - git
     - cli
-    - utility
-    - web-tool
+    - command-generator
+    - productivity
   confidence: high
 curation:
   status: excluded
-  reason: This is a consumer-facing web utility for translating text to git commands, not a developer tool, agent, framework, or infrastructure component that fits the catalog's scope.
+  reason: The tool is a niche web utility rather than a developer-focused workflow tool, agent, or infrastructure component.
   evidence:
-    - "The scraped site describes a web app flow: 'Describe the command', 'Receive suggestions', 'Copy the command' into a terminal."
-    - The product is a 'Git Command Generator' rather than an IDE integration, CLI agent, or programmable library.
-    - It lacks a repo, code artifacts, or extension identity; it is a standalone SaaS helper.
+    - Website describes it as a 'Git Command Generator' for finding specific commands.
+    - The product is a simple web-based lookup tool, not an extension or agent that interacts with a codebase.
+    - Lacks the depth of an IDE integration or a coding agent that actually performs repo work.
 placement:
   primary_category: null
   section: null
@@ -68,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:24.883Z"
+    updated_at: "2026-07-20T15:47:18.185Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a5eb25fd04558c74dc61d4aced76fd4f5188f54bf13668ca6fa2f2ab1b41bb00
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a niche web utility rather than a developer-focused workflow tool, agent, or infrastructure component.
+      decision_evidence:
+        - Website describes it as a 'Git Command Generator' for finding specific commands.
+        - The product is a simple web-based lookup tool, not an extension or agent that interacts with a codebase.
+        - Lacks the depth of an IDE integration or a coding agent that actually performs repo work.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

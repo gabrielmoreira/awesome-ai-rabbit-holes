@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: StackSpot AI is a developer tool designed to accelerate the entire software development cycle using artificial intelligence.
-  why_it_matters: It positions itself as a comprehensive assistant aimed at speeding up coding workflows from start to finish.
-  mental_damage: Yet another 'accelerate your cycle' AI tool to evaluate while your actual development cycle slows down to a crawl.
+  summary: StackSpot AI is an AI-powered development lifecycle acceleration platform.
+  why_it_matters: It aims to accelerate the entire development cycle by integrating AI into existing workflows.
+  mental_damage: Another platform promising to optimize the very cycle you're currently spending all your time managing.
   tags:
-    - ai-coding
-    - development-cycle
-    - assistant
+    - ai-development
+    - workflow-optimization
+    - sdlc
   confidence: low
 curation:
-  status: included
-  reason: The tool is described as a developer-facing assistant aimed at accelerating the coding cycle, fitting the 'Code Editors and Assistants' profile found in source lists.
+  status: excluded
+  reason: The project provides insufficient technical substance or product clarity to determine a specific developer-tooling fit.
   evidence:
-    - "Description states: 'Acelere todo o seu ciclo de desenvolvimento' (Accelerate your entire development cycle)."
-    - Listed in awesome-ai-coding-tools under the section 'Code Editors and Assistants'.
-    - Title and URL identify it as 'StackSpot AI', indicating a branded AI product rather than a framework or extension.
+    - Website landing page is essentially a loading screen with no functional features visible.
+    - No repo description or README content provided to define actual tool functionality.
+    - High-level marketing claims ('Acelere todo o seu ciclo de desenvolvimento') without technical specifics.
 placement:
-  primary_category: coding-agents
-  section: IDE-Native Assistants
+  primary_category: null
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -67,9 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:38.249Z"
+    updated_at: "2026-07-20T15:19:33.254Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8d15bb72af8188f0a996f57238f37181c5fab82fd11dd03540c34b6cae1645d1
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project provides insufficient technical substance or product clarity to determine a specific developer-tooling fit.
+      decision_evidence:
+        - Website landing page is essentially a loading screen with no functional features visible.
+        - No repo description or README content provided to define actual tool functionality.
+        - High-level marketing claims ('Acelere todo o seu ciclo de desenvolvimento') without technical specifics.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

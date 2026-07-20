@@ -27,6 +27,8 @@ metadata:
     forks: 0
     license: null
     archived: false
+    full_name: isgudtek/mycrab-mcp
+    html_url: https://github.com/isgudtek/mycrab-mcp
     created_at: "2026-02-24T03:35:20Z"
     pushed_at: "2026-02-28T00:04:18Z"
     description: MCP server for mycrab.space — instant Cloudflare tunnels for AI agents
@@ -42,9 +44,9 @@ metadata:
       - solana
       - tunnel
       - x402
-    last_checked_at: "2026-07-13T05:13:08.504Z"
+    last_checked_at: "2026-07-20T15:11:16.014Z"
     readme:
-      fetched_at: "2026-07-13T05:13:08.504Z"
+      fetched_at: "2026-07-20T15:11:16.014Z"
       bytes: 1409
 insights:
   summary: An MCP server that gives AI agents the ability to create instant public HTTPS tunnels via Cloudflare using mycrab.space, with optional permanent subdomains paid for in Solana.
@@ -78,14 +80,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:08.504Z"
+    updated_at: "2026-07-20T15:11:16.014Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:02:47.820Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 154
+    stars: 156
     forks: 19
     license: null
     archived: false
+    full_name: horw/esp-mcp
+    html_url: https://github.com/horw/esp-mcp
     created_at: "2025-03-24T04:07:19Z"
     pushed_at: "2025-12-27T01:32:27Z"
     description: Centralize ESP32 related commands and simplify getting started with seamless, LLM-driven interaction and help.
@@ -37,9 +39,9 @@ metadata:
       - esp32
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-13T05:13:01.826Z"
+    last_checked_at: "2026-07-20T15:11:04.528Z"
     readme:
-      fetched_at: "2026-07-13T05:13:01.826Z"
+      fetched_at: "2026-07-20T15:11:04.528Z"
       bytes: 5962
 insights:
   summary: An MCP server that centralizes ESP-IDF commands (build, flash, test) so LLM agents can interact with ESP32 embedded development workflows.
@@ -72,14 +74,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:01.826Z"
+    updated_at: "2026-07-20T15:11:04.528Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:40.267Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -28,6 +28,8 @@ metadata:
     forks: 76
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-04-07T05:36:32Z"
     pushed_at: "2024-07-06T06:21:57Z"
     description: The web framework for building LLM microservices [deprecated]
@@ -44,26 +46,25 @@ metadata:
       fetched_at: "2026-07-20T05:16:55.876Z"
       bytes: 4419
 insights:
-  summary: A Python web framework built on FastAPI for building LLM microservices with built-in streaming support over HTTP and WebSockets.
-  why_it_matters: It gives developers a lightweight, vendor-neutral way to wrap LLM logic into streamable API endpoints without starting from scratch with plain FastAPI.
-  mental_damage: Yet another 'built specifically for LLM developers' framework that turns your simple API wrapper into a framework decision you’ll regret once the maintainer moves on to other priorities.
+  summary: A Python web framework for building LLM-powered microservices based on FastAPI.
+  why_it_matters: It provides specialized abstractions for streaming and LLM resource management to simplify the deployment of model-driven APIs.
+  mental_damage: Because building a basic chat endpoint shouldn't feel like re-engineering the entire networking stack.
   tags:
     - python
     - fastapi
     - llmops
     - microservices
-    - streaming
-  confidence: medium
+  confidence: high
 curation:
-  status: included
-  reason: It is a code-first Python framework and library that developers import and script against to build LLM microservices, fitting cleanly as a provider/runtime abstraction rather than an agent, platform, or extension.
+  status: excluded
+  reason: The project is explicitly in maintenance mode and the author has ceased active development.
   evidence:
-    - "Repo description states: 'The web framework for building LLM microservices [deprecated]'"
-    - README shows developers import Lanarky, define routes, and return ChatCompletionResource in Python code
-    - Listed in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving'
+    - Repo description explicitly states '[deprecated]'
+    - README contains a disclaimer that the project is in maintenance mode and active development has ceased
+    - No new features or active maintenance promised
 placement:
-  primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  primary_category: null
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (992) exceeded threshold (150)
@@ -80,9 +81,25 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:20:05.958Z"
+    updated_at: "2026-07-20T16:12:09.712Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e9f6e8fe9aacdd3c5ef14a86276fed78abc034b37ff10404a07b5c89f90a206e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is explicitly in maintenance mode and the author has ceased active development.
+      decision_evidence:
+        - Repo description explicitly states '[deprecated]'
+        - README contains a disclaimer that the project is in maintenance mode and active development has ceased
+        - No new features or active maintenance promised
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

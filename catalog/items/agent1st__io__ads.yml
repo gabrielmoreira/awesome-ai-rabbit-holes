@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Agent Ads is a paid SaaS product that acts as an autonomous MCP agent for creating, monitoring, and optimizing paid ad campaigns on Meta and TikTok.
-  why_it_matters: It demonstrates a vertical SaaS use case for MCP, allowing developers to plug autonomous ad-buying capabilities into their existing AI agent stacks.
-  mental_damage: We have finally reached the singularity where autonomous agents can now burn through your ad budget on TikTok without the need for a human media buyer, eliminating the middleman so you can mismanage your ROAS entirely via API.
+  summary: An autonomous AI agent that creates, monitors, and optimizes paid advertising campaigns on Meta and TikTok, offered as a tiered SaaS subscription.
+  why_it_matters: It automates media-buying workflows for businesses, though it sits outside software-development tooling.
+  mental_damage: Your coding agent ships the app, your ad agent buys the traffic, and your finance agent files for bankruptcy—all without human intervention.
   tags:
+    - advertising-agent
+    - marketing-automation
     - mcp
-    - marketing
-    - agent
-    - saas
-    - vertical-orchestration
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because, despite being listed in awesome-mcp-servers, its primary identity is a vertical marketing SaaS for paid ads rather than a developer tool, framework, or infrastructure component.
+  reason: The product is a vertical SaaS agent for business advertising operations on Meta and TikTok, not a developer-facing tool for building, editing, or orchestrating software.
   evidence:
-    - Product is described as an 'autonomous MCP agent that creates, monitors, and optimizes paid ad campaigns on Meta and TikTok'.
-    - The service is a tiered SaaS product ($29-$399/mo) targeting businesses, not a developer tool for building software.
-    - Listed in awesome-mcp-servers under 'Marketing', which highlights a domain-specific application rather than core dev tooling.
+    - Site title and excerpt frame the product as an autonomous agent for paid Meta and TikTok advertising campaigns.
+    - Pricing and feature set (campaign creation, ROAS tracking, audience targeting) target media buyers and businesses, not software developers.
+    - MCP is mentioned only as a protocol plug-in to an existing AI agent stack, not as the product's core identity.
 placement:
   primary_category: null
   section: null
@@ -70,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:20.390Z"
+    updated_at: "2026-07-20T15:16:23.200Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:78e48cd8d7fa7c648d02e6553d12b0148e2770cef28af5b721a37184aa1d1e56
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a vertical SaaS agent for business advertising operations on Meta and TikTok, not a developer-facing tool for building, editing, or orchestrating software.
+      decision_evidence:
+        - Site title and excerpt frame the product as an autonomous agent for paid Meta and TikTok advertising campaigns.
+        - Pricing and feature set (campaign creation, ROAS tracking, audience targeting) target media buyers and businesses, not software developers.
+        - MCP is mentioned only as a protocol plug-in to an existing AI agent stack, not as the product's core identity.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

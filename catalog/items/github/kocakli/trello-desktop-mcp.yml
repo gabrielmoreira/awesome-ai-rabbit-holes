@@ -27,6 +27,8 @@ metadata:
     forks: 19
     license: MIT
     archived: false
+    full_name: kocakli/Trello-Desktop-MCP
+    html_url: https://github.com/kocakli/Trello-Desktop-MCP
     created_at: "2025-06-12T09:59:40Z"
     pushed_at: "2026-03-03T07:50:52Z"
     description: Trello integration for Claude Desktop via Model Context Protocol (MCP) - 19 tools for comprehensive board, card, and list management
@@ -39,9 +41,9 @@ metadata:
       - openai
       - trello
       - typescript
-    last_checked_at: "2026-07-13T05:13:19.956Z"
+    last_checked_at: "2026-07-20T15:11:36.454Z"
     readme:
-      fetched_at: "2026-07-13T05:13:19.956Z"
+      fetched_at: "2026-07-20T15:11:36.454Z"
       bytes: 9438
 insights:
   summary: A Model Context Protocol (MCP) server that provides 19 tools for managing Trello boards, cards, and lists from MCP-compatible clients like Claude Desktop and Gemini CLI.
@@ -74,14 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:19.956Z"
+    updated_at: "2026-07-20T15:11:36.454Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:06:28.458Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

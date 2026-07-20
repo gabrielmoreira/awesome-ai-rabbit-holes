@@ -27,6 +27,8 @@ metadata:
     forks: 53
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-09-07T21:06:33Z"
     pushed_at: "2025-02-06T11:42:40Z"
     description: Universal AI Agent Frontend. Build your backend we handle the rest.
@@ -41,26 +43,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:52.433Z"
       bytes: 4815
 insights:
-  summary: AgentLabs is an open-source, self-hostable frontend platform that provides chat UIs, authentication, and analytics for developers to expose their backend AI agents to end users.
-  why_it_matters: It lets developers ship AI agents as interactive products without building the standard boilerplate of user management, streaming UIs, and payment integration.
-  mental_damage: Another layer of infrastructure to argue about while we perfect the art of wrapping a LangChain script in a login page and calling it a SaaS.
+  summary: An open-source frontend and SDK for managing AI agent authentication, chat interfaces, and analytics.
+  why_it_matters: It offloads the heavy lifting of user management, real-time streaming, and billing so developers can focus purely on agent logic.
+  mental_damage: Because why build a simple chat interface when you can spend your afternoon debugging a bidirectional streaming SDK?
   tags:
-    - agent-frontend
-    - self-hosted
-    - sdk
-    - chat-ui
+    - ai-agents
+    - frontend
     - analytics
+    - auth
+    - sdk
   confidence: high
 curation:
   status: included
-  reason: The product is a control plane and runtime surface for serving and managing AI agents to end-users, fitting the vertical orchestration platform definition.
+  reason: It acts as an operated control plane providing the UI and management layers needed to deploy and monitor agents.
   evidence:
-    - "Repo description states: 'Universal AI Agent Frontend. Build your backend we handle the rest.'"
-    - README describes it as a platform providing 'Authentication Portal, a neat Chat Frontend interface as well as the Analytics and Payment features'.
-    - Includes Backoffice, Agent UI, and SDKs as components, acting as a full hosting and management layer.
+    - Claims to be a 'Universal AI Agent Frontend' with authentication and analytics
+    - Provides an SDK for handling real-time request/response streaming from a backend
+    - Offers both cloud hosting and self-hosted docker-compose options
 placement:
   primary_category: agent-orchestration
-  section: Vertical Orchestration Platforms
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (547) exceeded threshold (150)
@@ -77,9 +79,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:03.903Z"
+    updated_at: "2026-07-20T16:02:23.659Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:77a6a2180c0ab71ee0243aa8906defb07127cff85311fb22e727065c480c4592
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: It acts as an operated control plane providing the UI and management layers needed to deploy and monitor agents.
+      decision_evidence:
+        - Claims to be a 'Universal AI Agent Frontend' with authentication and analytics
+        - Provides an SDK for handling real-time request/response streaming from a backend
+        - Offers both cloud hosting and self-hosted docker-compose options
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product provides an operated workbench and control plane for managing users and agent sessions rather than just being a code-first library.
+      review_reason: null
+      review_resume_lifecycle: null

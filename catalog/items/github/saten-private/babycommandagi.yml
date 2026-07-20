@@ -27,6 +27,8 @@ metadata:
     forks: 6
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-05-16T20:15:32Z"
     pushed_at: "2025-06-11T15:37:12Z"
     description: BabyCommandAGI is designed to test what happens when you combine CLI and LLM, which are older computer interfaces than GUI. Based on BabyAGI, and using Latest LLM API. Imagine LLM and CLI having a conversation. It's exciting to think about what could happen. I hope you will all try it out.
@@ -82,9 +84,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:27:15.007Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

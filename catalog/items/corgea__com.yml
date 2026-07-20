@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,16 +36,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Corgea is an application security platform that uses AI to find, prioritize, and automatically fix vulnerabilities across application code, infrastructure as code, containers, and software dependencies.
-  why_it_matters: It integrates directly into SCM and IDE workflows to autonomously generate fixes for security flaws, aiming to reduce the manual triage burden for engineering teams.
-  mental_damage: Another platform promising to 'actually fix the work' so you can go back to pretending your CI pipeline isn't just a glorified game of Whac-A-Mole with AI-generated patches.
+  summary: An AI-native application security platform that automates the detection and remediation of vulnerabilities in code, dependencies, infrastructure, and containers.
+  why_it_matters: It aims to reduce the 'ecurity tax' on developers by providing high-precision, automated fixes rather than just noisy alerts.
+  mental_damage: Another tool to ensure your 'quick fix' doesn't accidentally introduce a massive security regression.
   tags:
-    - security
-    - sast
+    - appsec
+    - saas
+    - vulnerability-remediation
+    - ai-sast
     - devsecops
-    - ai-fixes
-    - vulnerability
-  confidence: high
+  confidence: medium
 curation:
   status: included
   reason: Corgea is an end-to-end security platform and SaaS product that integrates with IDEs and SCM; it acts as a specialized workflow add-on for security rather than a primary coding agent or framework.
@@ -53,10 +55,10 @@ curation:
     - Core value includes AI SAST, IaC scanning, and MCP integrations to extend secure coding workflows.
 placement:
   primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'coding-agents'"
 processing:
   discover:
     status: done
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:37.081Z"
+    updated_at: "2026-07-20T15:34:31.410Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:235ae30f9d3c6059180c06e44964154d6b6820ee2c5b0ebba4785886b17848a6
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: While it is a security platform, its core value proposition is the autonomous detection and automated fixing of code-level vulnerabilities, placing it in the review and repair agent space.
+      decision_evidence:
+        - Claims to provide 'AI-native' automated fixes for code and infrastructure
+        - Specifically targets 'business logic flaws' that traditional scanners miss
+        - Integrates with IDEs like Cursor and VS Code to deliver developer-ready fixes
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product acts as an autonomous agent that plans and executes fixes, rather than just being a thin plugin for an existing editor.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'coding-agents'"
+      review_resume_lifecycle: null

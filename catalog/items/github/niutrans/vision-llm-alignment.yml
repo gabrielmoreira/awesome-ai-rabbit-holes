@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 121
+    stars: 122
     forks: 9
     license: null
     archived: false
+    full_name: NiuTrans/Vision-LLM-Alignment
+    html_url: https://github.com/NiuTrans/Vision-LLM-Alignment
     created_at: "2024-06-29T14:53:25Z"
     pushed_at: "2025-06-18T04:14:31Z"
     description: This repository contains the code for SFT, RLHF, and DPO, designed for vision-based LLMs, including the LLaVA models and the LLaMA-3.2-vision models.
@@ -44,9 +46,9 @@ metadata:
       - rlhf
       - sft
       - vision
-    last_checked_at: "2026-05-06T22:45:33.321Z"
+    last_checked_at: "2026-07-20T15:12:05.174Z"
     readme:
-      fetched_at: "2026-05-06T22:45:33.321Z"
+      fetched_at: "2026-07-20T15:12:05.174Z"
       bytes: 7025
 insights:
   summary: A training repository providing scripts and tooling for alignment training of vision-language models, including supervised fine-tuning (SFT), reward model training, and preference optimization (PPO/DPO) for LLaVA and LLaMA-3.2-Vision.
@@ -80,14 +82,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:33.321Z"
+    updated_at: "2026-07-20T15:12:05.174Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:17:31.490Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

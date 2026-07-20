@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,22 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: BlogBurst is a SaaS marketing platform that uses AI to map buyer intent, generate evidence-backed content, and attribute signups and revenue back to specific content experiments.
-  why_it_matters: It targets indie developers and early-stage SaaS founders who need to close the loop between content generation and revenue without manually managing marketing channels.
-  mental_damage: The same developer who automated their build, test, and deployment pipelines can now pay $49/month to avoid learning why anyone would actually buy their product.
+  summary: An AI-powered marketing automation engine designed to find buyer intent and generate evidence-backed content for social and blog channels.
+  why_it_matters: It automates the loop of identifying customer questions on platforms like Reddit and X and converting them into attributable marketing content.
+  mental_damage: Now you can outsource the guilt of having an unread blog to an autonomous engine that tracks exactly how much revenue it's missing.
   tags:
-    - marketing
-    - saas
+    - marketing-automation
     - content-generation
-    - attribution
+    - growth-engine
+    - seo-automation
   confidence: high
 curation:
   status: excluded
-  reason: This is a marketing and sales growth engine for SaaS products, not a developer-facing coding tool, agent, framework, or infrastructure component.
+  reason: The tool is a general-purpose SaaS marketing automation platform rather than a developer-facing coding, infra, or workflow tool.
   evidence:
-    - The site describes itself as an 'AI sales growth engine for founders' focused on revenue targets and content shipping.
-    - Primary use case is marketing automation (SEO, GEO, social media) rather than code editing, agent orchestration, or developer infrastructure.
-    - Listed in awesome-mcp-servers under 'Marketing', but the product itself is a closed-loop marketing SaaS, not an MCP server or developer tool.
+    - Product identity is a 'ales growth engine' for founders
+    - Focuses on content distribution (WordPress, X, Reddit) and revenue targets
+    - No functionality related to code generation, IDE augmentation, or software development workflows
 placement:
   primary_category: null
   section: null
@@ -69,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:41.808Z"
+    updated_at: "2026-07-20T15:26:52.605Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fe61c0739b0e16e89d76162cbf0d22656ad558d4cdc984bcf288f741364e458b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a general-purpose SaaS marketing automation platform rather than a developer-facing coding, infra, or workflow tool.
+      decision_evidence:
+        - Product identity is a 'ales growth engine' for founders
+        - Focuses on content distribution (WordPress, X, Reddit) and revenue targets
+        - No functionality related to code generation, IDE augmentation, or software development workflows
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

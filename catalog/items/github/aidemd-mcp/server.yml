@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-04-09T18:55:29Z"
     pushed_at: "2026-05-22T01:27:44Z"
     description: MCP server that teaches any AI agent the AIDE spec methodology — progressive   disclosure specs alongside code
@@ -46,15 +48,16 @@ metadata:
       fetched_at: "2026-07-20T05:16:54.894Z"
       bytes: 12870
 insights:
-  summary: An MCP server that enables AI agents to discover, validate, and scaffold intent-driven .aide specification files alongside existing codebases.
-  why_it_matters: It gives coding agents a structured spec-first workflow, letting teams govern implementation and QA through progressive-disclosure methodology files rather than ad-hoc prompts.
-  mental_damage: We’ve successfully reached the point where your AI agent now needs its own methodology server to tell it how to read the methodology files you wrote for it.
+  summary: An MCP server that implements the AIDE methodology for intent-driven development using progressive disclosure specs.
+  why_it_matters: It provides a structured way to manage architectural intent and design documentation directly within an AI agent's context via MCP.
+  mental_damage: Nothing says 'peak productivity' like adding a whole new layer of spec-driven configuration files to your project's root directory.
   tags:
     - mcp
+    - ai-coding
     - spec-driven
-    - context-engineering
-    - developer-tools
-  confidence: medium
+    - intent-driven
+    - workflow
+  confidence: high
 curation:
   status: included
   reason: The core product is a spec-first environment centered on .aide methodology files that drive planning, validation, and agent behavior, delivered as an MCP server.
@@ -64,10 +67,10 @@ curation:
     - Features include spec discovery, scaffolding, validation, and upgrade drift detection centered on the AIDE spec methodology.
 placement:
   primary_category: spec-driven-development
-  section: Spec-First Environments
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'spec-driven-development', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -81,9 +84,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:49.321Z"
+    updated_at: "2026-07-20T16:09:41.526Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:90b04ab50a1e35c5daf41bd99cf0a18f5595c925d876b7a795fbaae250efb635
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The product is explicitly an MCP server whose primary identity is providing a protocol-based interface for the AIDE methodology.
+      decision_evidence:
+        - Repo description identifies it as an 'MCP server that teaches any AI agent the AIDE spec methodology'
+        - README focuses on MCP server installation for Claude Code and Claude Desktop
+        - Primary functionality involves providing tools (aide_init, aide_validate) via the MCP protocol
+      category_candidates:
+        - mcp
+        - spec-driven-development
+      contrastive_reason: Choose mcp over spec-driven-development because the product's primary delivery mechanism and identity is an MCP server implementation rather than a standalone spec-first environment.
+      review_reason: "Categorization review required: placement disagreement: retained 'spec-driven-development', proposed 'mcp'"
+      review_resume_lifecycle: null

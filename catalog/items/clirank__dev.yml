@@ -42,6 +42,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -50,22 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory and discovery hub for Model Context Protocol (MCP) servers and tools.
-  why_it_matters: It serves as a navigation layer for developers trying to find the right MCP integrations to extend their AI coding assistants.
-  mental_damage: Another meticulously organized map of the rabbit hole we've voluntarily jumped into, ensuring we spend more time browsing MCP servers than actually writing code.
+  summary: An aggregator of MCP servers designed to facilitate discovery of Model Context Protocol implementations.
+  why_it_matters: It helps developers navigate the growing ecosystem of MCP servers to extend their AI assistants with new tools and data sources.
+  mental_damage: Because apparently, finding the right tool for your LLM is now a full-time job in catalog management.
   tags:
     - mcp
-    - directory
     - discovery
-    - tooling
+    - aggregator
+    - ai-ecosystem
   confidence: high
 curation:
   status: included
-  reason: The site functions as a discovery layer and directory for MCP tooling, fitting the 'Lists & Directories' category better than a specific protocol tool.
+  reason: The tool is primarily a directory/aggregator of MCP servers, making it a discovery resource rather than a standalone MCP server.
   evidence:
-    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'.
-    - The URL clirank.dev and context suggest a ranking/discovery site rather than a standalone server or client.
+    - Seen in awesome-mcp-servers as an aggregator
+    - Seen in awesome-ai-coding-tools as an MCP aggregator
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -84,9 +85,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:04.706Z"
+    updated_at: "2026-07-20T15:30:12.615Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e164c9bef71d1ac447d300a95b33b56f65f2868515c8d3193b46674f270648d2
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The tool is primarily a directory/aggregator of MCP servers, making it a discovery resource rather than a standalone MCP server.
+      decision_evidence:
+        - Seen in awesome-mcp-servers as an aggregator
+        - Seen in awesome-ai-coding-tools as an MCP aggregator
+      category_candidates:
+        - awesome-awesomes
+        - mcp
+      contrastive_reason: Choose awesome-awesomes over mcp because the project's identity is a collection of existing servers rather than a server implementation itself.
+      review_reason: null
+      review_resume_lifecycle: null

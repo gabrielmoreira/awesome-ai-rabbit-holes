@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 165
-    forks: 62
+    stars: 169
+    forks: 63
     license: MIT
     archived: false
+    full_name: narumiruna/yfinance-mcp
+    html_url: https://github.com/narumiruna/yfinance-mcp
     created_at: "2025-03-30T11:35:19Z"
-    pushed_at: "2026-07-04T14:51:57Z"
+    pushed_at: "2026-07-19T14:36:47Z"
     description: null
     homepage: ""
     topics:
@@ -38,9 +40,9 @@ metadata:
       - mcp-server
       - python
       - yahoo-finance
-    last_checked_at: "2026-07-06T05:30:41.837Z"
+    last_checked_at: "2026-07-20T15:12:00.280Z"
     readme:
-      fetched_at: "2026-07-06T05:30:41.837Z"
+      fetched_at: "2026-07-20T15:12:00.280Z"
       bytes: 13916
 insights:
   summary: A Model Context Protocol server that exposes Yahoo Finance stock data, financial statements, news, and chart generation tools to AI assistants via yfinance.
@@ -74,14 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-06T05:30:41.837Z"
+    updated_at: "2026-07-20T15:12:00.280Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:16:36.629Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,25 +37,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation page explaining how to install and authenticate the BrainGrid MCP server across Claude Code, Cursor, Windsurf, and other AI coding tools.
-  why_it_matters: It provides the configuration steps developers need to plug BrainGrid's requirements and task management capabilities into their existing MCP-compatible coding assistants.
-  mental_damage: Yet another afternoon sacrificed to JSON configs and auth loops so your agent can politely ask a remote server to manage your todo list.
+  summary: An MCP server implementation that integrates BrainGrid's capabilities into AI assistants like Claude Code, Cursor, and Windsurf.
+  why_it_matters: It provides AI coding assistants with specialized ability to create and manage requirements and tasks via the Model Context Protocol.
+  mental_damage: Another layer of authentication to manage just so your IDE can finally understand your project's requirements.
   tags:
     - mcp
-    - installation
-    - docs
-    - brain-grid
+    - mcp-server
+    - task-management
+    - workflow-automation
+    - ai-integration
   confidence: high
 curation:
-  status: excluded
-  reason: This is a documentation/installation page for an MCP server, not a standalone product, server repo, or reusable tool itself, and therefore does not belong as a catalog entry.
+  status: included
+  reason: The product identity is specifically an MCP server designed to bridge BrainGrid's task management with existing AI editors.
   evidence:
-    - The URL points to a documentation page titled 'Installing BrainGrid MCP', not a standalone product or repo.
-    - The excerpt is entirely step-by-step configuration and auth instructions for multiple editors, with no independent tool identity.
-    - No repo description, stars, or code-level artifact is provided; it is an auxiliary resource page rather than a shippable MCP server or toolkit.
+    - Documentation focuses exclusively on installing the BrainGrid MCP server
+    - Provides specific configuration blocks for MCP-enabled hosts like Claude Code, Cursor, and Windsurf
+    - Identified as an MCP server implementation in awesome-mcp-servers
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:22.339Z"
+    updated_at: "2026-07-20T15:39:31.807Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:35ad81b725f75690789f7430d39a8640edda8f790cd477c79ba35fb2dc7b014c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is specifically an MCP server designed to bridge BrainGrid's task management with existing AI editors.
+      decision_evidence:
+        - Documentation focuses exclusively on installing the BrainGrid MCP server
+        - Provides specific configuration blocks for MCP-enabled hosts like Claude Code, Cursor, and Windsurf
+        - Identified as an MCP server implementation in awesome-mcp-servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is defined by its role as an MCP server rather than a general IDE integration.
+      review_reason: null
+      review_resume_lifecycle: null

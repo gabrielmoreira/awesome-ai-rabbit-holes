@@ -54,10 +54,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1045
+    stars: 1044
     forks: 128
     license: MIT
     archived: false
+    full_name: kreneskyp/ix
+    html_url: https://github.com/kreneskyp/ix
     created_at: "2023-04-05T03:05:22Z"
     pushed_at: "2026-01-01T05:38:33Z"
     description: Autonomous GPT-4 agent platform
@@ -67,9 +69,9 @@ metadata:
       - gpt-4
       - openai
       - python
-    last_checked_at: "2026-07-13T05:13:20.280Z"
+    last_checked_at: "2026-07-20T15:11:37.020Z"
     readme:
-      fetched_at: "2026-07-13T05:13:20.280Z"
+      fetched_at: "2026-07-20T15:11:37.019Z"
       bytes: 9549
 insights:
   summary: IX is a self-hosted platform for designing, deploying, and coordinating autonomous and semi-autonomous LLM-powered agents and workflows using a no-code graph editor and multi-agent chat interface.
@@ -103,14 +105,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:20.280Z"
+    updated_at: "2026-07-20T15:11:37.020Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:06:35.878Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

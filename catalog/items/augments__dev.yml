@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server that provides Claude Code with type signatures, prose documentation, and code examples from any package in the npm registry.
-  why_it_matters: It allows coding agents to resolve API usage and examples against live npm metadata and TypeScript types instead of relying on potentially outdated training data.
-  mental_damage: We have successfully rebuilt the experience of reading documentation, but routed through a protocol server so an AI can do it slightly faster than you could have by pressing F12.
+  summary: An MCP server that provides type signatures, prose documentation, and code examples for any npm package.
+  why_it_matters: It allows coding assistants like Claude Code to access up-to-date, intent-aware documentation for any npm package instead of relying on outdated training data.
+  mental_damage: Nothing says 'developer productivity' like adding another layer of abstraction between you and the actual documentation you used to read yourself.
   tags:
     - mcp
     - npm
-    - claude-code
-    - docs
+    - documentation
+    - context-retrieval
     - typescript
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server providing npm documentation and types to Claude Code, fitting the MCP Servers & Tooling category.
+  reason: The product's core identity is an MCP server designed to provide external context to an LLM host.
   evidence:
-    - "The scraped site explicitly states: 'An MCP server that gives Claude Code types, docs, and examples from npm.'"
-    - Listed in awesome-mcp-servers under the 'Official Servers' section.
-    - Installation command is 'claude mcp add', confirming it is an MCP integration.
+    - Claims to be an MCP server in README and site context
+    - Provides type signatures and prose docs for npm packages
+    - Found in awesome-mcp-servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:17.726Z"
+    updated_at: "2026-07-20T15:24:02.272Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:283abd7fa37f5e69eb4c90e24079b30a8af97d18f1e080aed1462735ab7bd724
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server designed to provide external context to an LLM host.
+      decision_evidence:
+        - Claims to be an MCP server in README and site context
+        - Provides type signatures and prose docs for npm packages
+        - Found in awesome-mcp-servers
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product is specifically an MCP server designed to be consumed by an MCP host.
+      review_reason: null
+      review_resume_lifecycle: null

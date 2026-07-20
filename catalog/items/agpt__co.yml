@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,15 +36,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: agpt.co is a web hub serving as a directory for AI autonomous agents, most notably associated with the AutoGPT ecosystem.
-  why_it_matters: Developers evaluating multi-agent architectures can use this as a navigation point to understand the landscape of autonomous agent implementations.
-  mental_damage: Yet another map to the maze, ensuring you can efficiently lose yourself in autonomous agents without ever actually deploying one to production.
+  summary: An AI agent platform that enables users to build, deploy, and manage automated digital workflows through a chat interface and visual builder.
+  why_it_matters: It shifts the developer workflow from writing bespoke automation scripts to overseeing high-level agentic processes that execute end-to-end tasks.
+  mental_damage: Finally, a way to outsource your entire existence to a fleet of agents that might or might not be running in the background while you sleep.
   tags:
-    - agents
-    - directory
-    - autogpt
-    - navigation
-  confidence: medium
+    - ai-agents
+    - automation
+    - no-code
+    - orchestration
+    - workflow
+  confidence: high
 curation:
   status: included
   reason: The site functions as a directory and hub for AI autonomous agents (specifically AutoGPT), fitting the 'Lists & Directories' category for ecosystem navigation.
@@ -51,10 +54,10 @@ curation:
     - The URL agpt.co and context suggest a hub for the AutoGPT ecosystem rather than a standalone coding tool.
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -67,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:31.701Z"
+    updated_at: "2026-07-20T15:18:35.079Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3c52be921b4c71b186b75517e3d1d9c53a316e5f74ce85399f4636a1cc7bcb1e
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: It is an operated platform for coordinating multiple agents and complex workflows rather than a code-first library or a single coding assistant.
+      decision_evidence:
+        - Provides a visual canvas for composing complex flows with branching and looping
+        - Offers a central dashboard for managing, monitoring, and inspecting agent runs
+        - Includes a marketplace of pre-built agents for various job functions
+      category_candidates:
+        - agent-orchestration
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because the platform focuses on long-running, autonomous agent workflows and mission control rather than just scaffolding new applications.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

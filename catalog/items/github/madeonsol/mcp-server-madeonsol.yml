@@ -6,6 +6,22 @@ identity:
   github_repo: madeonsol/mcp-server-madeonsol
 provenance:
   discoveries:
+    - id: discovery__github__lambopoewert__mcp-server-madeonsol__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: LamboPoewert/mcp-server-madeonsol
+        extracted_url: https://github.com/lambopoewert/mcp-server-madeonsol
+        surrounding_text: "- [LamboPoewert/mcp-server-madeonsol](https://github.com/LamboPoewert/mcp-server-madeonsol) [![LamboPoewert/mcp-server-madeonsol MCP server](https://glama.ai/mcp/servers/LamboPoewert/mcp-server-madeonsol/badges/score.svg)](https://glama.ai/mcp/servers/LamboPoewert/mcp-server-madeonsol) 📇 ☁️ - Real-time Solana memecoin intelligence — 51 tools across KOL wallet tracking (1,000+ wallets, sub-3s latency), Pump.fun deployer scoring (6,700+ scored), multi-KOL coordination signals, alpha-wallet intel (47k+ scored early buyers), first-touch scout signal (backtested ≥3 follow-on KOLs ~50% of the time vs 14% baseline), copy-trade rules, and the all-DEX trade firehose. Free tier 200 req/day; also supports x402 micropayments. Install: `npx -y smithery mcp add madeonsol/solana-kol-intelligence`."
+        confidence: high
     - id: discovery__github__madeonsol__mcp-server-madeonsol__awesome-list__punkpeye__awesome-mcp-servers
       discovered_at: "2026-07-06T05:29:57.556Z"
       source:
@@ -28,6 +44,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: MadeOnSol/mcp-server-madeonsol
+    html_url: https://github.com/MadeOnSol/mcp-server-madeonsol
     created_at: "2026-04-02T17:57:16Z"
     pushed_at: "2026-07-13T19:03:41Z"
     description: MCP server for MadeOnSol Solana KOL intelligence — use from Claude, Cursor, or any MCP client
@@ -46,25 +64,30 @@ metadata:
       - solana-api
       - trading-bot
       - webhooks
-    last_checked_at: "2026-07-16T05:05:14.466Z"
+    last_checked_at: "2026-07-20T15:11:44.992Z"
     readme:
-      fetched_at: "2026-07-16T05:05:14.466Z"
+      fetched_at: "2026-07-20T15:11:44.992Z"
       bytes: 31088
 insights:
-  summary: MCP server providing real-time Solana KOL intelligence and trading signals for use with Claude, Cursor, or any MCP client.
-  why_it_matters: Enables developers to access low-latency Solana blockchain analytics directly within their coding workflow via MCP-compatible tools.
-  mental_damage: Yet another attempt to turn insider crypto trading signals into a developer productivity tool, because nothing says 'clean code' like alpha from wallet trackers.
+  summary: An MCP server that provides real-time Solana KOL intelligence and on-chain trading data to LLM clients.
+  why_it_matters: It allows developers to bridge real-time crypto market signals and KOL movements directly into their AI coding or trading workflows via MCP.
+  mental_damage: Now you can watch your portfolio volatility and your LLM context window collapse simultaneously.
   tags:
+    - agent-tools
+    - crypto
+    - intelligence
+    - kol-intelligence
     - mcp
     - solana
-    - crypto
     - trading
-    - kol-intelligence
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose primary identity and value lie in exposing Solana KOL intelligence via the Model Context Protocol, making it a domain-specific MCP server rather than a general-purpose tool.
+  reason: The project's identity is explicitly an MCP server designed to provide external domain data (Solana/KOL intelligence) to MCP-compatible clients.
   evidence:
+    - "Repo description: 'MCP server for MadeOnSol Solana KOL intelligence'"
+    - README specifies use with Claude Desktop and Cursor via MCP
+    - Product identity is the MCP interface for the MadeOnSol API
     - "Repo description: 'MCP server for MadeOnSol Solana KOL intelligence — use from Claude, Cursor, or any MCP client'"
     - "README: Explicitly states it is an MCP server for the MadeOnSol Solana KOL intelligence API"
     - "Source-list context: Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation"
@@ -75,16 +98,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-07-06T05:29:57.558Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-07-16T05:05:14.466Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-07-09T05:34:28.395Z"
@@ -93,3 +106,13 @@ processing:
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
+  discover:
+    status: done
+    updated_at: "2026-07-06T05:29:57.558Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-20T15:11:44.992Z"
+    cause: null
+    next_retry_at: null

@@ -27,6 +27,8 @@ metadata:
     forks: 7
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-04-09T01:23:35Z"
     pushed_at: "2025-04-23T10:48:01Z"
     description: Create a new MCP server in TypeScript, batteries included.
@@ -72,9 +74,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:30:25.717Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

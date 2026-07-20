@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Substack newsletter and curated hub delivering weekly updates on AI tools, frameworks, APIs, and tips for developers building with AI.
-  why_it_matters: It helps developers cut through the noise by surfacing relevant AI coding tools, frameworks, and workflows in a weekly digest format.
-  mental_damage: Yet another weekly promise that this time you’ll finally master the AI toolchain, right before three new ones drop and render your stack obsolete.
+  summary: A Substack newsletter providing commentary and updates on AI developments specifically for software developers.
+  why_it_matters: It filters the overwhelming noise of general AI news into actionable insights and technical trends relevant to engineering workflows.
+  mental_damage: Another subscription to manage in a world where the delta between 'tate of the art' and 'obsolete' is measured in weeks.
   tags:
     - newsletter
-    - ai-tools
-    - developer-resources
+    - developer-education
+    - ai-trends
   confidence: high
 curation:
   status: included
-  reason: The product is a recurring media publication providing updates and curation for developers, which fits squarely into Publications & Feeds.
+  reason: It is a media resource providing ongoing commentary and educational updates for developers, fitting the definition of a newsletter.
   evidence:
-    - Official Substack newsletter described as 'weekly updates on the best tools, frameworks, APIs, and tips'
-    - Source list awesome-ai-coding-tools lists it as a newsletter and curated hub for developers building with AI
-    - Primary excerpt shows recurring posts and digests rather than a standalone product or tool
+    - URL is a Substack domain
+    - In 'awesome-ai-coding-tools' as a source list entry
+    - Matches 'Publications & Feeds' description
 placement:
   primary_category: newsletters-and-feeds
   section: null
@@ -67,9 +69,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:47.347Z"
+    updated_at: "2026-07-20T15:20:36.305Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:32ed987af2c2d6ac364eef2f268c4a94c2ccdd232ad8595bf3338fffcd5d4847
+      proposed_primary_category: newsletters-and-feeds
+      disagreement: false
+      decision_reason: It is a media resource providing ongoing commentary and educational updates for developers, fitting the definition of a newsletter.
+      decision_evidence:
+        - URL is a Substack domain
+        - In 'awesome-ai-coding-tools' as a source list entry
+        - Matches 'Publications & Feeds' description
+      category_candidates:
+        - newsletters-and-feeds
+        - awesome-awesomes
+      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because its primary value is recurring commentary and educational media rather than being a static directory or map.
+      review_reason: null
+      review_resume_lifecycle: null

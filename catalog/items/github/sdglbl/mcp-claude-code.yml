@@ -43,6 +43,8 @@ metadata:
     forks: 37
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-03-18T10:55:31Z"
     pushed_at: "2025-08-29T13:41:08Z"
     description: MCP implementation of Claude Code capabilities and more
@@ -92,9 +94,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:27:34.740Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

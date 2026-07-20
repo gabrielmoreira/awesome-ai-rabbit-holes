@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 13241
-    forks: 5691
+    stars: 13249
+    forks: 5699
     license: BSD-3-Clause
     archived: false
+    full_name: jupyter/notebook
+    html_url: https://github.com/jupyter/notebook
     created_at: "2015-04-09T06:58:03Z"
-    pushed_at: "2026-07-10T18:02:14Z"
+    pushed_at: "2026-07-15T05:34:13Z"
     description: Jupyter Interactive Notebook
     homepage: https://jupyter-notebook.readthedocs.io/
     topics:
@@ -37,9 +39,9 @@ metadata:
       - jupyter
       - jupyter-notebook
       - notebook
-    last_checked_at: "2026-07-13T05:13:15.920Z"
+    last_checked_at: "2026-07-20T15:11:29.056Z"
     readme:
-      fetched_at: "2026-07-13T05:13:15.920Z"
+      fetched_at: "2026-07-20T15:11:29.056Z"
       bytes: 5950
 insights:
   summary: Jupyter Notebook is a web-based interactive computing environment for creating and sharing documents containing live code, equations, visualizations, and narrative text.
@@ -72,14 +74,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:15.920Z"
+    updated_at: "2026-07-20T15:11:29.056Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:05:07.644Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A cloud-orchestrated platform for running autonomous coding sessions with advanced reasoning capabilities.
-  why_it_matters: It positions itself as an 'infinite' agent loop for developers looking to delegate long-running, autonomous coding tasks to the cloud rather than a local terminal.
-  mental_damage: Just when you thought the CI pipeline was the only thing endlessly running, here comes the 'infinite' coding agent to remind you that your job is now managing a session that may outlive the repo it's editing.
+  summary: An autonomous coding agent platform that provides advanced reasoning, AI art generation, and cloud orchestration.
+  why_it_matters: It aims to automate entire coding sessions and cloud deployment through a high-level reasoning engine.
+  mental_damage: The promise of 'infinite' coding sessions is a bold way to describe the inevitable loop of debugging an agent that is currently debugging itself.
   tags:
-    - coding-agent
-    - autonomous
-    - cloud
-    - orchestration
+    - autonomous-agents
+    - cloud-orchestration
+    - coding-assistant
+    - ai-art
   confidence: medium
 curation:
   status: included
-  reason: The product presents itself as a primary coding assistant platform ('The infinite coding agent platform') designed to run autonomous coding sessions, fitting the definition of a coding agent.
+  reason: The product is positioned as a standalone platform for running autonomous coding sessions rather than an integration for an existing editor.
   evidence:
-    - Described as 'The infinite coding agent platform' on the scraped site and in source-list context.
-    - States functionality as running 'autonomous coding sessions with advanced reasoning'.
-    - Included in awesome-ai-coding-tools under the 'Coding Agents' section.
+    - Claims to be an 'infinite coding agent platform'
+    - Features advanced reasoning and cloud orchestration
+    - Found in awesome-ai-coding-tools as a Coding Agent
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:19.298Z"
+    updated_at: "2026-07-20T15:32:18.028Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:df78068d48bed25ad81637bc91098ec617c918a5d3aa0ec1f5fde13b53e8978f
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The product is positioned as a standalone platform for running autonomous coding sessions rather than an integration for an existing editor.
+      decision_evidence:
+        - Claims to be an 'infinite coding agent platform'
+        - Features advanced reasoning and cloud orchestration
+        - Found in awesome-ai-coding-tools as a Coding Agent
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the primary value proposition is performing autonomous coding work rather than managing a multi-agent workflow.
+      review_reason: null
+      review_resume_lifecycle: null

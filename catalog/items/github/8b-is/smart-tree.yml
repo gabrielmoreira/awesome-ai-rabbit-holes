@@ -28,6 +28,8 @@ metadata:
     forks: 26
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-06-19T05:50:03Z"
     pushed_at: "2026-07-11T05:18:22Z"
     description: "Smart Tree: not just a tree, a philosophy. A context-aware, AI-crafted replacement for 20+ tools with MEM8 quantum compression, semantic search, AST-smart editing, and partnership memory. Crafted with care by human + AI—accept no knock-offs."
@@ -56,15 +58,15 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.974Z"
       bytes: 31074
 insights:
-  summary: A blazingly fast, Rust-based directory visualization and MCP server providing AI-friendly context compression, semantic search, and persistent memory tools for coding assistants.
-  why_it_matters: It drastically reduces token usage for AI assistants by compressing codebase context and offering 30+ MCP tools for filesystem understanding and memory anchoring.
-  mental_damage: Now your file tree isn't just a list of directories, it's a 'cyber-botanical dashboard' with 'MEM8 quantum compression' and a philosophical stance on your filesystem.
+  summary: A high-performance, AI-optimized directory visualization tool built in Rust that includes security scanning for AI integrations and an MCP server implementation.
+  why_it_matters: It provides AI assistants with compressed, semantic, and AST-aware codebase overviews to reduce token usage and improve contextual understanding.
+  mental_damage: Nothing says "modern workflow" like running a specialized security scan to ensure your AI assistant isn't secretly being hijacked by a malicious MCP server.
   tags:
+    - rust
     - mcp
     - context-compression
+    - security
     - cli
-    - rust
-    - memory
   confidence: high
 curation:
   status: included
@@ -75,10 +77,10 @@ curation:
     - Description explicitly mentions 'context-aware' and 'quantum compression' as primary features over standard tree utilities.
 placement:
   primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (242) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -92,9 +94,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:50.299Z"
+    updated_at: "2026-07-20T15:51:02.983Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cdca3802a235439817e85045441ed6cb3d8ea3b11674fcb14de9665139bf3419
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The tool's core value proposition is providing 30+ MCP tools and a specialized MCP server to give assistants structured filesystem access.
+      decision_evidence:
+        - README explicitly highlights '30+ MCP tools' and 'MCP Server' as core features
+        - Includes security scanning specifically for MCP integrations and supply chain attacks
+        - Provides context-shaping features like '80% Token Reduction' via compression
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the tool's primary interface for users is through MCP server capabilities and tools rather than a standalone compression library.
+      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+      review_resume_lifecycle: null

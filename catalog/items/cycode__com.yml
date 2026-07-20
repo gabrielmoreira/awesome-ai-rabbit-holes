@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cycode is an enterprise application security platform that secures the software development lifecycle from code to runtime, featuring AI-native scanning, governance, and an MCP server for integrating security into AI coding workflows.
-  why_it_matters: It provides the governance, guardrails, and vulnerability remediation needed to safely use AI coding assistants at scale without blowing up your attack surface.
-  mental_damage: Now your security team can finally keep up with your 10x AI-generated code velocity, provided they finish configuring the 100+ connectors before the next prompt-to-prod deploy.
+  summary: Cycode is an AI-native application security platform that integrates security scanning, governance, and automated remediation into the software development lifecycle.
+  why_it_matters: It attempts to bridge the gap between rapid AI-driven development and security by providing automated risk detection and remediation directly within developer workflows.
+  mental_damage: Because nothing says 'productive workflow' like having an automated security agent constantly auditing your AI-generated chaos.
   tags:
-    - security
-    - aspm
-    - mcp
+    - appsec
+    - ai-security
+    - saas
     - devsecops
-    - agentic
-  confidence: medium
+  confidence: high
 curation:
-  status: included
-  reason: While primarily an Application Security platform, it explicitly offers a dedicated MCP Server to secure AI vibe coding workflows, making it a fit for the MCP Domain Servers section.
+  status: excluded
+  reason: The project is a broad enterprise SaaS platform for application security (ASPM) rather than a developer-centric coding tool, extension, or framework.
   evidence:
-    - Source list context identifies it in 'awesome-mcp-servers' under 'Official Servers'.
-    - "Scraped site context highlights 'Introducing Cycode’s MCP Server: Secure AI Vibe Coding Workflows, Built-In'."
-    - The platform provides AI governance and guardrails specifically for AI coding assistants and the ADLC.
+    - Product identity is an 'Agentic Development Security Platform'
+    - Core features are enterprise security concerns like SAST, SCA, and compliance
+    - Focuses on organizational risk posture and security team workflows
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:52.718Z"
+    updated_at: "2026-07-20T15:36:08.956Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d2fc775a7088067b8a1b278880fca74665b929375c3446a39968d003082a1152
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a broad enterprise SaaS platform for application security (ASPM) rather than a developer-centric coding tool, extension, or framework.
+      decision_evidence:
+        - Product identity is an 'Agentic Development Security Platform'
+        - Core features are enterprise security concerns like SAST, SCA, and compliance
+        - Focuses on organizational risk posture and security team workflows
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

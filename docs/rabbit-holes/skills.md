@@ -50,7 +50,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `awesome-list` `agent-skills` `openclaw`
   </details>
 
-- **[scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills)** `⭐ 30.8k` `updated ≤30d` A library of 148 reusable scientific skills and 100+ databases designed to extend the research capabilities of AI agents. <details><summary>More about</summary>
+- **[scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills)** `⭐ 31.3k` `updated ≤30d` A library of 148 reusable scientific skills and 100+ databases designed to extend the research capabilities of AI agents. <details><summary>More about</summary>
 
   It allows general-purpose coding agents to perform specialized scientific workflows like drug discovery, genomics, and molecular dynamics.
 
@@ -216,15 +216,6 @@ _These are new or low-traffic entries being watched._
   `skills` `devops` `kubernetes` `agent-skills` `qovery`
   </details>
 
-- **[integrations](https://github.com/aidesignblueprint/integrations)** `⭐ 3` `updated ≤30d` Official integrations and installable doctrine for AI Design Blueprint, providing MCP server configs, IDE rules, prompt files, and agent runtime assets for Cursor, Windsurf, GitHub Copilot, and Gemini. <details><summary>More about</summary>
-
-  Developers can drop ready-made doctrine, rules, and MCP configs into their repos and editors to align multiple AI coding tools around a shared design framework.
-
-  _We have now reached the point where we need a standardized doctrine and governance badges just to keep our AI assistants from inventing their own architectural opinions._
-
-  `mcp` `ide-rules` `prompt-files` `agent-runtimes` `doctrine`
-  </details>
-
 - **[Relay](https://github.com/momobits/relay)** `⭐ 2` `updated ≤90d` Relay is a structured workflow system that adds persistent memory, issue tracking, and phased planning as reusable skills for Claude Code, OpenAI Codex CLI, and Google Gemini CLI. <details><summary>More about</summary>
 
   It captures decisions, context, and progress in a `.relay/` directory so multi-session AI-assisted development doesn't reset every time you switch models or open a new terminal.
@@ -243,13 +234,13 @@ _These are new or low-traffic entries being watched._
   `agent-skills` `google-docs` `memyard`
   </details>
 
-- **[Agent Skill](https://agentskill.sh)** A marketplace and CLI for discovering and installing 107,000+ reusable skills targeting Claude Code, Cursor, Copilot, Windsurf, Zed, and over 20 other AI coding tools. <details><summary>More about</summary>
+- **[Agent Skill](https://agentskill.sh)** An AI agent skills directory and marketplace for installing pre-configured capabilities into tools like Claude Code, Cursor, and Windsurf. <details><summary>More about</summary>
 
-  Developers can one-click install specialized agent behaviors across their entire AI toolchain instead of manually crafting prompts or context for every workflow.
+  It provides a centralized marketplace of ready-to-use agentic behaviors, reducing the time spent on manual prompt engineering and tool configuration.
 
-  _We have officially solved the problem of having too many AI assistants by creating a sprawling app store for their personalities, ensuring maximum choice paralysis before you even write a line of code._
+  _Because why write your own logic when you can install a 288,000-skill bundle and hope the registry is up to date?_
 
-  `skills` `cli` `marketplace` `agent-extensions`
+  `agent-skills` `marketplace` `productivity` `agentic-workflows`
   </details>
 
 - **[cocoloop hub](https://hub.cocoloop.cn)** hub.cocoloop.cn is a Chinese-language skills marketplace offering downloadable AI agent skills packs for automation workflows. <details><summary>More about</summary>

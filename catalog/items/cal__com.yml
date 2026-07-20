@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cal.com is an open-source scheduling platform and calendar infrastructure for managing bookings and availability.
-  why_it_matters: It provides developers with a self-hostable, API-driven scheduling stack that can be embedded into products or used as a replacement for enterprise calendar tools.
-  mental_damage: "Just what the ecosystem needed: another excuse to spin up a local instance, debug a calendar stack, and wonder why your AI agent just booked a standup for 3 AM."
+  summary: Cal.com is an open-source scheduling infrastructure and API designed to handle complex booking workflows.
+  why_it_matters: It provides a developer-centric, extensible framework for integrating scheduling into apps, making it a likely target for MCP server implementation.
+  mental_damage: Another API to integrate, ensuring you'll spend more time handling webhook edge cases than actually scheduling your lunch.
   tags:
     - scheduling
-    - calendar
-    - self-hosted
+    - open-source
+    - api
     - infrastructure
+    - mcp-server
   confidence: high
 curation:
-  status: excluded
-  reason: Excluded because Cal.com is a general-purpose scheduling and calendar infrastructure product with no meaningful AI-native developer-tooling angle, despite appearing in an MCP servers list.
+  status: included
+  reason: The tool is included because it is listed in 'awesome-mcp-servers' as a community server, making MCP its primary relevant identity within this catalog.
   evidence:
-    - No repo description, README, or site context provided that indicates AI, coding-agent, or developer-tooling functionality.
-    - Seen in awesome-mcp-servers, but MCP compatibility alone does not override the absence of an AI developer tool identity.
-    - Primary product is a scheduling/calendar platform, not a coding assistant, extension, framework, or AI workflow tool.
+    - Found in awesome-mcp-servers directory
+    - Purpose is to provide MCP server functionality for scheduling
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:55.101Z"
+    updated_at: "2026-07-20T15:28:39.780Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f3a27a1524a71c2c7baf1b1940d271923a6b34245b4514b930fa8dba98317649
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is included because it is listed in 'awesome-mcp-servers' as a community server, making MCP its primary relevant identity within this catalog.
+      decision_evidence:
+        - Found in awesome-mcp-servers directory
+        - Purpose is to provide MCP server functionality for scheduling
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is explicitly curated as an MCP server for model access rather than a general workflow integration for a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4059
-    forks: 1366
+    stars: 4077
+    forks: 1370
     license: Apache-2.0
     archived: false
+    full_name: huggingface/course
+    html_url: https://github.com/huggingface/course
     created_at: "2021-08-13T14:41:45Z"
     pushed_at: "2026-07-06T10:02:48Z"
     description: The Hugging Face course on Transformers
@@ -36,9 +38,9 @@ metadata:
       - hacktoberfest
       - nlp
       - transformers
-    last_checked_at: "2026-07-13T05:13:02.609Z"
+    last_checked_at: "2026-07-20T15:11:06.082Z"
     readme:
-      fetched_at: "2026-07-13T05:13:02.609Z"
+      fetched_at: "2026-07-20T15:11:06.082Z"
       bytes: 22286
 insights:
   summary: The Hugging Face course repository hosts the content for a free, open-source curriculum teaching developers how to apply Transformers and use the Hugging Face ecosystem for NLP and model training.
@@ -72,14 +74,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:02.609Z"
+    updated_at: "2026-07-20T15:11:06.082Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:57.246Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

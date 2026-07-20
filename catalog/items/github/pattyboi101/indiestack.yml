@@ -27,6 +27,8 @@ metadata:
     forks: 1
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-02-22T15:12:12Z"
     pushed_at: "2026-05-06T17:10:14Z"
     description: Dependency guardrail for AI coding agents — validates packages, catches hallucinations, 6,500+ developer tools. MCP server + CLI + web.
@@ -72,9 +74,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:21:08.315Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -24,17 +24,31 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 8
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: neul-labs/grite
+    html_url: https://github.com/neul-labs/grite
+    created_at: "2026-01-13T23:28:03Z"
+    pushed_at: "2026-07-02T11:47:07Z"
+    description: The issue tracker that lives in your repo. Built for AI agents. Works for humans.
+    homepage: https://grite.neullabs.com
+    topics:
+      - agentic-ai
+      - ai-agents
+      - developer-tools
+      - git
+      - issue-tracker
+      - neul-labs
+      - rust
+      - self-hosted
+      - task-decomposition
+      - version-control
+    last_checked_at: "2026-07-20T15:12:02.577Z"
+    readme:
+      fetched_at: "2026-07-20T15:12:02.577Z"
+      bytes: 23839
 insights:
   summary: null
   why_it_matters: null
@@ -58,15 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-13T05:13:32.438Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for neul-labs/grite
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T05:17:35.691Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-20T15:12:02.577Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+    attempts: 0

@@ -28,6 +28,8 @@ metadata:
     forks: 573
     license: BSD-3-Clause
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2011-03-04T14:59:50Z"
     pushed_at: "2026-07-18T12:47:21Z"
     description: An Open Source Implementation of the Actor Model in C++
@@ -43,22 +45,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:50.429Z"
       bytes: 6696
 insights:
-  summary: An open source C++ framework providing a native actor model runtime for building concurrent, distributed, and scalable applications.
-  why_it_matters: It gives developers a high-abstraction, high-performance environment for concurrent systems without forcing them into a specific AI workflow or vendor lock-in.
-  mental_damage: You’ll spend three days debating message-passing semantics only to realize your biggest concurrency bottleneck is still waiting for Claude to finish a code review.
+  summary: An open-source C++ implementation of the Actor Model for building scalable, high-performance distributed applications.
+  why_it_matters: It provides a high-level abstraction for managing concurrency and distribution in performance-critical C++ systems.
+  mental_damage: Nothing says 'production-grade reliability' like manually managing actor lifecycles and message patterns in C++ instead of just praying the async runtime holds.
   tags:
     - cpp
     - actor-model
-    - concurrency
     - distributed-systems
+    - concurrency
+    - async
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose C++ concurrency framework with no AI, agent, or LLM-facing developer-tooling identity, despite a passing mention in an AI agents list.
+  reason: This is a general-purpose systems programming library for C++ and does not contain AI-specific functionality or developer-facing AI tooling.
   evidence:
-    - Repo description explicitly states 'An Open Source Implementation of the Actor Model in C++' with no AI or LLM references.
-    - README describes CAF as a programming environment for concurrent/distributed apps, HTTP/WebSocket support, and performance—no mention of AI workflows or agents.
-    - Topics include actor-model, actors, async, caf, pattern-matching—none related to AI tooling, prompts, or agents.
+    - Repo description defines it as a 'C++ Implementation of the Actor Model'
+    - README focuses on high-performance computation and distributed systems rather than AI workflows
+    - Does not claim to solve any AI-specific developer pain points
 placement:
   primary_category: null
   section: null
@@ -78,9 +81,25 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:35.348Z"
+    updated_at: "2026-07-20T15:57:35.891Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:27f7ccdec6b19c47b82ac4cb19cbb7e298c0fffea4a527487592c72af168a857
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a general-purpose systems programming library for C++ and does not contain AI-specific functionality or developer-facing AI tooling.
+      decision_evidence:
+        - Repo description defines it as a 'C++ Implementation of the Actor Model'
+        - README focuses on high-performance computation and distributed systems rather than AI workflows
+        - Does not claim to solve any AI-specific developer pain points
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

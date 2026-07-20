@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-01-16T18:29:24Z"
     pushed_at: "2026-03-19T01:59:14Z"
     description: MCP server for Brazil Central Bank (BCB) data — Selic, IPCA, exchange rates, GDP for AI agents
@@ -93,9 +95,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:28:38.568Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

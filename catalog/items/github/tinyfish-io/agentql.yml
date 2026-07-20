@@ -27,6 +27,8 @@ metadata:
     forks: 154
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-02-20T19:56:33Z"
     pushed_at: "2026-05-06T02:18:36Z"
     description: AgentQL is a suite of tools for connecting your AI to the web. Featuring a query language and Playwright integrations for interacting with elements and extracting data quickly, precisely, and at scale. Includes REST API, Python and JavaScript SDKs, browser debugger.
@@ -88,9 +90,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:33:30.030Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.655Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

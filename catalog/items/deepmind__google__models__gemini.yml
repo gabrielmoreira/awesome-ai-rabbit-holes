@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Gemini is Google DeepMind's family of multimodal AI models offered via Google AI Studio, the Gemini API, and Vertex AI for building generative AI applications.
-  why_it_matters: Developers can use Gemini's long context window, advanced reasoning, and tool-use capabilities as the underlying model for coding agents, IDE integrations, and agentic workflows.
-  mental_damage: Yet another state-of-the-art foundation model launch, ensuring you can now spend your afternoon benchmarking whether 3.1 Pro Thinking (High) actually writes better React components than the model you just migrated to last week.
+  summary: Google's multimodal frontier intelligence family of models, including Gemini 3.5 Flash and Pro.
+  why_it_matters: These models power high-performance agentic workflows, long-context reasoning, and multimodal task execution across various developer tools.
+  mental_damage: It's another massive model family to benchmark before the next one drops in six months.
   tags:
-    - llm
     - multimodal
-    - api
-    - reasoning
-    - google
+    - agentic-workflows
+    - long-context
+    - frontier-models
   confidence: high
 curation:
-  status: excluded
-  reason: Gemini is a foundational AI model and API platform, not a standalone developer tool, coding agent, IDE, or workflow product that fits the curated scope of this catalog.
+  status: included
+  reason: Gemini is a foundational model family used as the underlying engine for developers building agents and applications.
   evidence:
-    - The page presents Gemini as a family of AI models ('Our most intelligent AI model that brings any idea to life'), not a developer tool or coding assistant.
-    - Primary surfaces are Google AI Studio, Gemini API, and Vertex AI, which are hosted model platforms rather than developer-facing tooling.
-    - Seen in awesome-ai-coding-tools under 'Code Models', which identifies it as a model, not a coding tool or agent product.
+    - Scraped context describes it as 'Frontier intelligence with action'
+    - README excerpt emphasizes building 'intelligent agents' and 'agentic workflows'
+    - Includes specialized models like Gemini 3.5 Flash for agentic coding and reasoning
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:57.654Z"
+    updated_at: "2026-07-20T15:36:43.331Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3901e67a3ecc19827a501e5a7a6f8d4b72dd6a9dbe8f3d748331ab0653058820
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: Gemini is a foundational model family used as the underlying engine for developers building agents and applications.
+      decision_evidence:
+        - Scraped context describes it as 'Frontier intelligence with action'
+        - README excerpt emphasizes building 'intelligent agents' and 'agentic workflows'
+        - Includes specialized models like Gemini 3.5 Flash for agentic coding and reasoning
+      category_candidates:
+        - ai-frameworks
+        - coding-agents
+      contrastive_reason: Choose ai-frameworks over coding-agents because Gemini is a provider of model capabilities used by other tools rather than being a standalone coding assistant itself.
+      review_reason: null
+      review_resume_lifecycle: null

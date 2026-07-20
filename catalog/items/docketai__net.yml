@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Docket AI is a hosted platform for creating and managing autonomous AI agents.
-  why_it_matters: It provides a web-based environment for developers to deploy and coordinate autonomous agents without building the orchestration layer from scratch.
-  mental_damage: Yet another control plane promising to wrangle your agents, just in case the four other platforms you signed up for this week didn't quite capture the chaos.
+  summary: An autonomous AI agent designed to handle complex tasks and workflows.
+  why_it_matters: It offers an automated way to manage multi-step processes that would otherwise require manual coordination.
+  mental_damage: Another agent to delegate your actual job to while you watch a terminal window spin in circles.
   tags:
-    - agents
-    - autonomous
-    - platform
-    - orchestration
-  confidence: medium
+    - autonomous-agents
+    - ai-automation
+    - workflow-automation
+  confidence: low
 curation:
-  status: included
-  reason: The product is listed in awesome-ai-agents as a platform for autonomous agents, fitting the definition of a control plane for coordinating agent workflows.
+  status: excluded
+  reason: Insufficient information to determine the product's specific developer-tooling utility or core identity.
   evidence:
-    - Listed in the awesome-ai-agents directory under the section 'Docket AI'.
-    - Described as a platform for 'AI autonomous agents' rather than a specific coding assistant or library.
+    - No repo description or README provided
+    - No stars or activity metrics available
+    - Only source-list context provided via 'awesome-ai-agents' which is a generic directory reference
 placement:
-  primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  primary_category: null
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -67,9 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:17.703Z"
+    updated_at: "2026-07-20T15:39:04.520Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fbbfb28afa87e25f169a8f5c78f3cccc7b1108cc99a7877ef94028f792caab03
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Insufficient information to determine the product's specific developer-tooling utility or core identity.
+      decision_evidence:
+        - No repo description or README provided
+        - No stars or activity metrics available
+        - Only source-list context provided via 'awesome-ai-agents' which is a generic directory reference
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

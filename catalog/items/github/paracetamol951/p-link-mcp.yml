@@ -28,6 +28,8 @@ metadata:
     forks: 2
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-11-05T05:49:41Z"
     pushed_at: "2026-03-25T10:26:01Z"
     description: "x402 client implementation (x402-fetch), HTTP 402 server implementation and Model Context Protocol (MCP) for P-Link.io : pay, send and receive money with agents"
@@ -85,9 +87,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:20:50.386Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

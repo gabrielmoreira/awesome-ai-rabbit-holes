@@ -28,6 +28,8 @@ metadata:
     forks: 212
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-12-10T23:55:34Z"
     pushed_at: "2026-01-30T16:24:40Z"
     description: Develop software autonomously.
@@ -41,23 +43,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:54.433Z"
       bytes: 26955
 insights:
-  summary: RA.Aid is a terminal-native, autonomous coding agent built on LangGraph that plans, researches, and implements multi-step software development tasks via a CLI.
-  why_it_matters: It offers a three-stage 'research, plan, implement' loop that attempts to break down and execute complex refactoring or feature work with minimal human guidance.
-  mental_damage: We have now reached the point where the agent demonstrates its value by adding features to itself, effectively rendering your future code reviews a conversation between two bots.
+  summary: An autonomous coding agent built on LangGraph that performs research, planning, and implementation for multi-step development tasks.
+  why_it_matters: It automates the entire software development lifecycle—from research to execution—rather than just offering single-shot code completions.
+  mental_damage: The '--cowboy-mode' flag is a polite way of saying 'let the agent destroy your repo while you grab coffee.'
   tags:
-    - autonomous-agents
-    - cli
+    - agents
+    - autonomous-coding
     - langgraph
-    - multi-step-planning
+    - cli-agent
+    - software-engineering
   confidence: high
 curation:
   status: included
-  reason: The primary product identity is a standalone CLI coding assistant that developers delegate repo work to, fitting the 'Terminal & CLI Agents' section of the coding-agents category.
+  reason: RA.Aid is a standalone agent that performs research, planning, and implementation, making it a primary coding assistant rather than an extension.
   evidence:
-    - Repo description states 'Develop software autonomously', aligning with the coding agent identity.
-    - README describes a 'Three-Stage Architecture' (Research, Planning, Implementation) executed by a standalone CLI agent.
-    - Included in the 'awesome-cli-coding-agents' list under 'Terminal-native coding agents > Open Source'.
-    - Active development visible with a pushed_at date of 2026-01-30.
+    - README claims 'near-fully-autonomous software development'
+    - Uses a three-stage architecture (Research, Planning, Implementation)
+    - Provides a standalone CLI for executing complex, multi-step tasks
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -77,9 +79,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:36.517Z"
+    updated_at: "2026-07-20T16:07:44.846Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e50e544b692633c7cb5a72e0ab568626ad2769edcbe05496a10de1a075b408a6
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: RA.Aid is a standalone agent that performs research, planning, and implementation, making it a primary coding assistant rather than an extension.
+      decision_evidence:
+        - README claims 'near-fully-autonomous software development'
+        - Uses a three-stage architecture (Research, Planning, Implementation)
+        - Provides a standalone CLI for executing complex, multi-step tasks
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the primary user experience is a developer delegating repo work to a single assistant rather than managing a multi-agent control plane.
+      review_reason: null
+      review_resume_lifecycle: null

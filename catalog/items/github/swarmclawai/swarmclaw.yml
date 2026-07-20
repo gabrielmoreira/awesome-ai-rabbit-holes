@@ -42,6 +42,8 @@ metadata:
     forks: 89
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-02-18T22:21:42Z"
     pushed_at: "2026-05-06T19:50:12Z"
     description: Open-source self-hosted AI agent runtime and multi-agent framework for autonomous agent swarms. Agent memory, MCP tools, schedules, delegation, and 23+ LLM providers (Claude, GPT, Gemini, OpenRouter, Ollama). A practical Claude Code and LangChain alternative.
@@ -106,9 +108,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:31:02.396Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Datature is a no-code computer vision platform for enterprises and developers to label datasets, train vision models, and deploy them to edge or cloud environments.
-  why_it_matters: It provides a managed pipeline for developers building vision-specific AI products, centralizing annotation, training, and deployment without writing model code.
-  mental_damage: Because what your stack really needed was yet another specialized SaaS platform to abstract away the one part of AI that was actually fun to tinker with.
+  summary: An end-to-end computer vision platform for data labeling, model training, and deployment.
+  why_it_matters: It streamlines the full machine learning lifecycle for visual data, from manual annotation to production-ready API deployment.
+  mental_damage: Because nothing says 'production-ready' like spending half your week debugging why a bounding box didn't trigger a callback.
   tags:
     - computer-vision
-    - no-code
+    - data-labeling
+    - mlops
+    - vision-ai
     - model-training
-    - enterprise-ai
   confidence: high
 curation:
   status: excluded
-  reason: Datature is a vertical computer vision SaaS platform for enterprise ML workflows, not a developer-facing AI coding tool, agent, or infrastructure component.
+  reason: The product is a specialized vertical AI SaaS platform for computer vision rather than a general-purpose developer tooling or coding assistance product.
   evidence:
-    - Product is described as an 'end-to-end platform for data labeling, model training, and deployment' for Vision AI.
-    - Primary workflows are annotation, model training without code, and deployment to edge/cloud, not coding assistance or dev tooling.
-    - Seen in awesome-local-ai under 'Developer tools', but the tool itself is a hosted CV platform, not local AI or a coding utility.
+    - Platform focuses on data labeling, training, and deployment of vision models
+    - Targeted at specific industries like medical, retail, and agriculture
+    - Offers managed services and specialized vision AI workflows
 placement:
   primary_category: null
   section: null
@@ -68,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:52.818Z"
+    updated_at: "2026-07-20T15:36:28.063Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ff9dbe0ca39177a0b640f71d1ac151463a5380a72e3eaad14283c6d5d1c0330b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a specialized vertical AI SaaS platform for computer vision rather than a general-purpose developer tooling or coding assistance product.
+      decision_evidence:
+        - Platform focuses on data labeling, training, and deployment of vision models
+        - Targeted at specific industries like medical, retail, and agriculture
+        - Offers managed services and specialized vision AI workflows
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

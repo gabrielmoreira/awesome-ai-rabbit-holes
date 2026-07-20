@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5937
-    forks: 624
+    stars: 5971
+    forks: 630
     license: Apache-2.0
     archived: false
+    full_name: Helicone/helicone
+    html_url: https://github.com/Helicone/helicone
     created_at: "2023-01-31T22:34:44Z"
     pushed_at: "2026-07-05T05:55:34Z"
     description: 🧊 Open source LLM observability platform. One line of code to monitor, evaluate, and experiment. YC W23 🍓
@@ -52,9 +54,9 @@ metadata:
       - prompt-engineering
       - prompt-management
       - ycombinator
-    last_checked_at: "2026-07-13T05:12:59.829Z"
+    last_checked_at: "2026-07-20T15:11:00.785Z"
     readme:
-      fetched_at: "2026-07-13T05:12:59.829Z"
+      fetched_at: "2026-07-20T15:11:00.785Z"
       bytes: 15453
 insights:
   summary: Helicone is an open-source AI gateway and LLM observability platform that proxies model requests to track cost, latency, and prompt performance while offering a unified API for 100+ models.
@@ -88,14 +90,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:12:59.829Z"
+    updated_at: "2026-07-20T15:11:00.785Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:59:49.191Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

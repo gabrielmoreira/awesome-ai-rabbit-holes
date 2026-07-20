@@ -58,6 +58,8 @@ metadata:
     forks: 405
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-02-19T13:17:50Z"
     pushed_at: "2026-02-17T04:50:55Z"
     description: It's like v0 but in your Cursor/WindSurf/Cline. 21st dev Magic MCP server for working with your frontend like Magic
@@ -68,26 +70,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.293Z"
       bytes: 7999
 insights:
-  summary: An MCP server that integrates 21st.dev's AI-driven UI component generation directly into Cursor, Windsurf, VSCode, and Cline via natural language commands like `/ui`.
-  why_it_matters: Developers can describe and scaffold modern UI components using 21st.dev's component library directly inside their existing AI-assisted editor workflows without switching contexts.
-  mental_damage: Another layer in the stacking doll of AI tools where you now need an MCP server to let your IDE's AI agent talk to a UI library's AI so you can describe a navbar instead of writing it.
+  summary: An MCP server that allows AI agents in IDEs like Cursor and Windsurf to generate and insert UI components via natural language.
+  why_it_matters: It streamlines frontend development by bridging the gap between high-level UI descriptions and ready-to-use TypeScript components within your existing coding workflow.
+  mental_damage: Because why write CSS yourself when you can spend twenty minutes debugging the AI's interpretation of 'odern and sleek'?
   tags:
     - mcp
     - ui-generation
-    - ide-integration
     - frontend
-    - component-library
+    - cursor
+    - typescript
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server that gives editors access to 21st.dev's UI generation capabilities, fitting cleanly into MCP infrastructure rather than being a standalone coding agent or generic extension.
+  reason: The product's core identity is an MCP server designed to provide external capability (UI generation) to host IDEs.
   evidence:
-    - Repo description explicitly states '21st dev Magic MCP server for working with your frontend'.
-    - README shows installation via MCP configs for Cursor, Windsurf, Cline, and Claude, and usage via `/ui` commands in the agent chat.
-    - Listed in awesome-mcp-list and awesome-mcp-servers directories under developer tools and server implementations.
+    - Explicitly describes itself as an 'MCP server' in the README
+    - Provides installation instructions for MCP config files in Cursor, Windsurf, and Cline
+    - Functionality is defined by adding a new tool/capability to existing assistants
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (4838) exceeded threshold (150)
@@ -104,9 +106,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:39.917Z"
+    updated_at: "2026-07-20T15:49:03.633Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c4178d3debba7cf2725684b6f2c6219ba967af6c5f575cc6c29f931e75e118e1
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server designed to provide external capability (UI generation) to host IDEs.
+      decision_evidence:
+        - Explicitly describes itself as an 'MCP server' in the README
+        - Provides installation instructions for MCP config files in Cursor, Windsurf, and Cline
+        - Functionality is defined by adding a new tool/capability to existing assistants
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is explicitly built and distributed as an MCP server to provide capability via the protocol.
+      review_reason: null
+      review_resume_lifecycle: null

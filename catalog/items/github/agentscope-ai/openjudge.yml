@@ -27,6 +27,8 @@ metadata:
     forks: 59
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-07-08T06:17:01Z"
     pushed_at: "2026-07-09T04:28:29Z"
     description: "OpenJudge: A Unified Framework for Holistic Evaluation and Quality Rewards"
@@ -49,23 +51,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:53.164Z"
       bytes: 22573
 insights:
-  summary: OpenJudge is an open-source evaluation framework for AI applications that provides ready-to-use graders and converts grading results into reward signals for fine-tuning optimization.
-  why_it_matters: It gives developers a structured workflow to measure agent quality, generate scenario-specific rubrics, and iterate on application performance using reward signals for fine-tuning.
-  mental_damage: Yet another framework promising to solve the 'is my agent actually good' problem, slotting neatly between your fine-tuning pipeline and the existential dread of evaluating subjective quality at scale.
+  summary: OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated graders and rubrics.
+  why_it_matters: It provides a structured way to move from 'vibes-based' testing to reproducible evaluation, allowing developers to turn grading results into reward signals for fine-tuning.
+  mental_damage: Nothing says professional development like moving from 'it feels like it works' to 'the automated grader says it's 72% compliant.'
   tags:
     - evaluation
+    - benchmarking
+    - agent-evaluation
     - reward-modeling
-    - fine-tuning
-    - llm-graders
-    - agent-quality
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, scoring, and generating reward signals for AI application quality rather than acting as a coding assistant, orchestrator, or framework.
+  reason: The tool's core identity is providing graders, benchmarks, and measurement loops for AI agent performance.
   evidence:
-    - Repo description explicitly states it is 'A Unified Framework for Holistic Evaluation and Quality Rewards'
-    - "README emphasizes evaluation workflow: 'Collect test data → Define graders → Run evaluation at scale → Analyze weaknesses → Iterate quickly'"
-    - Recently active (pushed 2026-05-06) with built-in graders for AI Agent Skill packages and reward signal generation for fine-tuning
+    - README describes it as an 'open-source evaluation framework'
+    - Claims to support generating scenario-specific rubrics and converting results to reward signals
+    - Includes specific benchmarks like 'PawBench' for agentic AI
 placement:
   primary_category: evals
   section: Agent Benchmarks
@@ -85,9 +86,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:14.724Z"
+    updated_at: "2026-07-20T16:03:49.734Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:69ea13c5e9c62af81ba21273a7b0d225400007c6b5e11ccd36d9d5fb0e041ad9
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's core identity is providing graders, benchmarks, and measurement loops for AI agent performance.
+      decision_evidence:
+        - README describes it as an 'open-source evaluation framework'
+        - Claims to support generating scenario-specific rubrics and converting results to reward signals
+        - Includes specific benchmarks like 'PawBench' for agentic AI
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the primary value proposition is measurement and scoring rather than providing general-purpose building blocks for application logic.
+      review_reason: null
+      review_resume_lifecycle: null

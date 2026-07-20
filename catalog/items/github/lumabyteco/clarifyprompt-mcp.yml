@@ -28,15 +28,17 @@ metadata:
     forks: 2
     license: Apache-2.0
     archived: false
+    full_name: LumabyteCo/clarifyprompt-mcp
+    html_url: https://github.com/LumabyteCo/clarifyprompt-mcp
     created_at: "2026-02-26T15:24:37Z"
-    pushed_at: "2026-07-08T20:51:36Z"
+    pushed_at: "2026-07-14T17:07:39Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:30.977Z"
+    last_checked_at: "2026-07-20T15:11:56.315Z"
     readme:
-      fetched_at: "2026-07-13T05:13:30.977Z"
-      bytes: 100453
+      fetched_at: "2026-07-20T15:11:56.315Z"
+      bytes: 108867
 insights:
   summary: An MCP server that rewrites vague prompts into platform-optimized versions for 58+ AI tools by pulling context from workspace files like CLAUDE.md and .cursorrules.
   why_it_matters: It sits between you and your AI tools to automatically inject the right syntax, parameters, and project context so you don't have to memorize platform-specific prompt dialects.
@@ -68,14 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:30.977Z"
+    updated_at: "2026-07-20T15:11:56.315Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:10:53.377Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

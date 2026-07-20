@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 67
-    forks: 7
+    stars: 94
+    forks: 13
     license: MIT
     archived: false
+    full_name: nikolai-vysotskyi/trace-mcp
+    html_url: https://github.com/nikolai-vysotskyi/trace-mcp
     created_at: "2026-04-03T09:54:03Z"
-    pushed_at: "2026-05-04T14:18:06Z"
+    pushed_at: "2026-07-20T06:12:11Z"
     description: MCP server for Claude Code and Codex. One tool call replaces ~42 minutes of agent exploration
     homepage: https://trace-mcp.com
     topics:
@@ -53,10 +55,10 @@ metadata:
       - token
       - token-savings
       - tokens
-    last_checked_at: "2026-05-06T22:45:32.879Z"
+    last_checked_at: "2026-07-20T15:12:04.355Z"
     readme:
-      fetched_at: "2026-05-06T22:45:32.879Z"
-      bytes: 37740
+      fetched_at: "2026-07-20T15:12:04.355Z"
+      bytes: 38049
 insights:
   summary: An MCP server that builds a framework-aware graph of a codebase once and serves it to AI agents to reduce token usage and redundant context exploration.
   why_it_matters: It replaces dozens of sequential file reads and grep calls with a single tool call, cutting token costs and latency by precomputing code structure instead of forcing agents to brute-force repo traversal.
@@ -89,14 +91,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:32.879Z"
+    updated_at: "2026-07-20T15:12:04.355Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:17:24.065Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -32,13 +32,13 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `ai-agents` `agile` `workflow`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.1k` `updated ≤180d` AGENTS.md is a simple, open format defining a predictable file for providing context and instructions to coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.1k` `updated ≤180d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
 
-  It standardizes how developers provide project-specific instructions to AI agents, acting as a README specifically designed for automated coding workflows.
+  It attempts to standardize how developers communicate environment tips, testing requirements, and PR guidelines directly to autonomous agents.
 
-  _We have officially reached the point where our AI agents require their own standardized documentation format just to navigate the chaotic instructions we wrote for ourselves._
+  _Because nothing says 'future-proofing' like writing a README specifically for a non-human reader._
 
-  `agents` `spec` `context` `standards`
+  `coding-agents` `spec-driven` `context-engineering` `standards`
   </details>
 
 - **[cc-sdd](https://github.com/gotalab/cc-sdd)** `⭐ 3.6k` `updated ≤90d` A spec-driven development harness that installs portable Agent Skills into Claude Code, Cursor, Copilot, and other AI coding agents to turn approved specs into long-running autonomous implementation. <details><summary>More about</summary>
@@ -104,13 +104,13 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `codebase-indexing` `prd` `multi-agent`
   </details>
 
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 436` `updated ≤30d` First Principles Framework (FPF) is a conceptual specification and methodology for structuring, documenting, and auditing complex reasoning processes in mixed human/AI engineering and research teams. <details><summary>More about</summary>
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 436` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
 
-  It provides a disciplined, spec-driven vocabulary and pattern set for teams that need auditable decision records, bounded contexts, and stable shared reasoning across specialists and AI agents.
+  It provides a formal framework to prevent complex multi-agent or human-AI projects from devolving into incoherent, unreviewable conversational loops.
 
-  _Just when you thought your stack was modern enough, you now need a full operating system for thought just to justify why you chose Postgres over Mongo._
+  _Because apparently, even our AI agents need a formal ontology and a set of rigorous semantic rules to keep them from hallucinating a whole new physics._
 
-  `spec-driven` `decision-records` `human-ai-collab` `auditability` `systems-engineering`
+  `spec-driven` `system-engineering` `multi-agent` `governance` `reasoning`
   </details>
 
 - **[mcp-server-spec-driven-development](https://github.com/formulahendry/mcp-server-spec-driven-development)** `⭐ 432` `updated ≤1y` An MCP server that provides structured prompts to guide developers through a spec-driven workflow of generating EARS-format requirements, design documents, and implementation code. <details><summary>More about</summary>
@@ -180,13 +180,13 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `tdd` `gherkin` `cli` `multi-agent`
   </details>
 
-- **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 50` `updated ≤1y` MetaSpec is a meta-specification framework that generates domain-specific, spec-driven development toolkits (speckits) with built-in CLI, validation, and AI agent support. <details><summary>More about</summary>
+- **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 50` `updated ≤1y` A meta-specification framework designed to automatically generate spec-driven toolkits (speckits) for AI agents. <details><summary>More about</summary>
 
-  It provides a structured way to define specifications that drive entire development workflows, explicitly optimizing token usage by up to 99% for AI agents.
+  It automates the creation of structured, specification-heavy development environments that use precision-guided navigation to drastically reduce LLM token consumption.
 
-  _Just what we needed: another meta-layer to manage the meta-layers, ensuring our agents can now efficiently parse the very specs we wrote to stop them from rewriting our codebase._
+  _Because if you aren't building a meta-framework to generate your development specifications, are you even actually engineering anymore?_
 
-  `spec-driven` `meta-specification` `cli` `token-optimization` `ai-agents`
+  `spec-driven` `agent-toolkits` `token-optimization` `meta-programming`
   </details>
 
 - **[spec-driver](https://github.com/davidlee/spec-driver)** `⭐ 26` `updated ≤90d` A CLI and TUI toolkit that drives Claude Code or Codex using evergreen markdown and YAML specifications to manage the lifecycle of code changes. <details><summary>More about</summary>
@@ -268,15 +268,6 @@ _These are new or low-traffic entries being watched._
   _We have now achieved version control for the hallucinations that build our apps, ensuring we can forever reproduce exactly how we lost three days to a misunderstood requirements prompt._
 
   `cli` `prompt-engineering` `version-control` `mcp`
-  </details>
-
-- **[aidemd-mcp/server](https://github.com/aidemd-mcp/server)** `⭐ 3` `updated ≤90d` An MCP server that enables AI agents to discover, validate, and scaffold intent-driven .aide specification files alongside existing codebases. <details><summary>More about</summary>
-
-  It gives coding agents a structured spec-first workflow, letting teams govern implementation and QA through progressive-disclosure methodology files rather than ad-hoc prompts.
-
-  _We’ve successfully reached the point where your AI agent now needs its own methodology server to tell it how to read the methodology files you wrote for it._
-
-  `mcp` `spec-driven` `context-engineering` `developer-tools`
   </details>
 
 - **[patchwarden](https://github.com/jiezeng2004-design/patchwarden)** `⭐ 2` `updated ≤30d` A local-first MCP bridge that provides a safety and verification layer for AI coding agents through workspace confinement and command allowlisting. <details><summary>More about</summary>

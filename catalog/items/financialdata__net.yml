@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,25 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A financial data API providing real-time and historical stock market data, company fundamentals, and alternative data via REST endpoints, with an MCP server for AI tool integration.
-  why_it_matters: Developers building AI agents or financial tools can use the MCP server to give their models direct access to institutional-grade market data for analysis and trading workflows.
-  mental_damage: Yet another data vendor pivoting to MCP so your agent can panic-sell NVDA based on a hallucinated earnings report.
+  summary: A REST API providing real-time and historical financial market data, including stocks, ETFs, and crypto.
+  why_it_matters: Provides a structured data source for developers building fintech applications or trading bots.
+  mental_damage: Because nothing says 'developer productivity' like debugging a complex candlestick charting component for three hours.
   tags:
     - financial-data
-    - mcp
-    - api
-    - stocks
-  confidence: medium
+    - stock-api
+    - fintech
+    - real-time-data
+  confidence: high
 curation:
-  status: included
-  reason: The product markets itself as a financial data API but explicitly lists MCP as a core feature on its homepage, making it a domain-specific MCP server for finance rather than just a generic data provider.
+  status: excluded
+  reason: The product is a generic data provider/SaaS rather than a developer-facing AI tool or infrastructure component.
   evidence:
-    - Homepage navigation includes a dedicated 'MCP' link alongside Documentation and API access.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
-    - Provides market data (stocks, ETFs, crypto) specifically structured for agent consumption via MCP.
+    - Provides real-time and historical stock, ETF, and crypto data via REST API
+    - Main value proposition is data coverage and reliability, not AI-driven development
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:05.324Z"
+    updated_at: "2026-07-20T15:44:52.254Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:196a2ff4a2201ed0e40c96196170a2f6573cfea3c14781e025bc48ac07ab4714
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a generic data provider/SaaS rather than a developer-facing AI tool or infrastructure component.
+      decision_evidence:
+        - Provides real-time and historical stock, ETF, and crypto data via REST API
+        - Main value proposition is data coverage and reliability, not AI-driven development
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

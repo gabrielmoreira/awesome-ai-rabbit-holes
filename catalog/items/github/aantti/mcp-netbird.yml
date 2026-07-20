@@ -27,6 +27,8 @@ metadata:
     forks: 8
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-03-24T19:21:55Z"
     pushed_at: "2025-04-16T13:27:19Z"
     description: MCP Server for Netbird
@@ -37,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:48.658Z"
       bytes: 6408
 insights:
-  summary: An MCP server that exposes read-only Netbird network resources—peers, groups, policies, and posture checks—to LLMs via the Model Context Protocol.
-  why_it_matters: It lets coding assistants and agents query live VPN/network state so they can reason about connectivity, access policies, and peer configurations without leaving the chat.
-  mental_damage: Yet another single-purpose MCP adapter that turns a perfectly good API into a tool so your agent can ask your networking layer why Dave’s laptop can’t reach staging.
+  summary: An MCP server that provides LLMs with access to Netbird network resources via its API.
+  why_it_matters: It allows AI assistants to query and inspect network peers, groups, and security policies directly through the Model Context Protocol.
+  mental_damage: Because nothing says 'odern infrastructure' like asking a chatbot to audit your zero-trust network policies.
   tags:
     - mcp
     - netbird
     - networking
-    - infrastructure
+    - automation
   confidence: high
 curation:
   status: included
-  reason: The product’s primary identity is an MCP server for a specific domain (Netbird networking), which matches the MCP Servers & Tooling category and its Domain Servers section.
+  reason: The project is explicitly defined as an MCP server providing specific domain-related tools for Netbird.
   evidence:
-    - Repo description explicitly states 'MCP Server for Netbird'.
-    - README frames the project as an MCP server mapping Netbird API resources to LLM tools.
-    - Listed in awesome-mcp-servers under Community Servers, reinforcing MCP-first identity.
+    - Repo description specifies 'MCP Server for Netbird'
+    - README defines a set of tools mapping Netbird API resources to MCP tools
+    - Provides read-only access to peers, groups, and policies via MCP
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -72,9 +74,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:05.393Z"
+    updated_at: "2026-07-20T15:53:06.873Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0e73ad88be6403e5f0ce6ecb8ee9c88e0e47a2cefb44a592ad8cd18e50eb8faf
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly defined as an MCP server providing specific domain-related tools for Netbird.
+      decision_evidence:
+        - Repo description specifies 'MCP Server for Netbird'
+        - README defines a set of tools mapping Netbird API resources to MCP tools
+        - Provides read-only access to peers, groups, and policies via MCP
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol server rather than a tool augmenting a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null

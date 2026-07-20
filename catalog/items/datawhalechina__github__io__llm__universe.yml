@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language tutorial series and handbook for hands-on large language model application development.
-  why_it_matters: Provides a structured learning path for developers looking to build practical LLM applications, covering everything from model training to MCP integration.
-  mental_damage: Yet another curated universe to make you realize just how much of the LLM ecosystem you've politely ignored while debugging your Cursor config.
+  summary: A curated collection of LLM resources covering multi-modal generation, agents, programming assistance, and model training.
+  why_it_matters: It serves as a centralized map for navigating the massive influx of new LLM papers, tools, and tutorials.
+  mental_damage: A perfect way to feel productive by reading about the tools you'll definitely use once you've finished reading about the tools you're currently reading about.
   tags:
-    - tutorial
     - llm
-    - learning-resource
-    - chinese
+    - resources
+    - tutorials
+    - agents
   confidence: high
 curation:
-  status: excluded
-  reason: Excluded because the project is an educational tutorial and resource list rather than a developer-facing tool, agent, or infrastructure product.
+  status: included
+  reason: It is a curated directory of resources meant to help developers navigate the expanding LLM ecosystem.
   evidence:
-    - Listed in source list 'awesome-LLM-resources' under section '教程 Tutorial' (Tutorial).
-    - Scraped site title is '动手学大模型应用开发' (Hands-on Big Model Application Development).
-    - No code, CLI, IDE, or infrastructure product identity found in the inputs.
+    - Source-list context identifies it as a 'Summary of the world's best LLM resources'
+    - Scraped title '动手学大模型应用开发' implies educational/tutorial content
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:55.632Z"
+    updated_at: "2026-07-20T15:36:34.484Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7d65cba6cd8071aa9468d8f8ee926459856a02cf546ef9da6d341efd43603ffa
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: It is a curated directory of resources meant to help developers navigate the expanding LLM ecosystem.
+      decision_evidence:
+        - Source-list context identifies it as a 'Summary of the world's best LLM resources'
+        - Scraped title '动手学大模型应用开发' implies educational/tutorial content
+      category_candidates:
+        - awesome-awesomes
+        - newsletters-and-feeds
+      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because it is a structured directory of resources rather than a recurring commentary or publication.
+      review_reason: null
+      review_resume_lifecycle: null

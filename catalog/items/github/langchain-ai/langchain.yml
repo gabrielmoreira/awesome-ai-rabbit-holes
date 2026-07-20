@@ -84,12 +84,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 141622
-    forks: 23546
+    stars: 142165
+    forks: 23644
     license: MIT
     archived: false
+    full_name: langchain-ai/langchain
+    html_url: https://github.com/langchain-ai/langchain
     created_at: "2022-10-17T02:58:36Z"
-    pushed_at: "2026-07-12T21:59:21Z"
+    pushed_at: "2026-07-20T13:52:32Z"
     description: The agent engineering platform.
     homepage: https://docs.langchain.com/langchain/
     topics:
@@ -113,9 +115,9 @@ metadata:
       - python
       - rag
       - typescript
-    last_checked_at: "2026-07-13T05:13:25.012Z"
+    last_checked_at: "2026-07-20T15:11:45.424Z"
     readme:
-      fetched_at: "2026-07-13T05:13:25.012Z"
+      fetched_at: "2026-07-20T15:11:45.424Z"
       bytes: 5932
 insights:
   summary: LangChain is a Python and TypeScript framework providing standard abstractions and interoperable components for building LLM-powered applications and agents.
@@ -149,14 +151,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:25.012Z"
+    updated_at: "2026-07-20T15:11:45.424Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:08:30.423Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

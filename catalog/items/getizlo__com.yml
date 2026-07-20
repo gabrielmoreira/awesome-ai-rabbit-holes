@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Izlo is a team prompt management platform that provides version control, testing, and API deployment tools for organizing and iterating on prompts stored across codebases, documents, and spreadsheets.
-  why_it_matters: It gives engineering teams a centralized workspace to version, collaborate on, and regression-test prompts with CI-style automation before syncing them to production via API.
-  mental_damage: Because the hottest new engineering bottleneck isn't deploying code, it's realizing your team's secret sauce is a brittle string buried in a spreadsheet somewhere.
+  summary: Izlo is a prompt management platform that provides version control, collaboration, and testing workflows for team-based AI prompts.
+  why_it_matters: It enables developers to manage prompts as structured assets with versioning and APIs, rather than letting them remain hardcoded or scattered across documentation.
+  mental_damage: Finally, a way to version control the chaotic string literals that are currently holding your production application together.
   tags:
     - prompt-management
-    - promptops
+    - prompt-ops
+    - collaboration
+    - version-control
     - testing
-    - team-collaboration
-    - api
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The core value proposition is prompt asset management, versioning, testing, and deployment, which aligns with the PromptOps / Prompt Management section of context-engineering rather than coding assistance or framework usage.
+  reason: The core identity of the product is prompt management and versioning, which falls directly under the prompt-shaping and management definition of context engineering.
   evidence:
-    - "Site claims: 'Store, improve, test, and deploy your prompts in one unified workspace' with version control, remixes, and a testing suite."
-    - API functionality focuses on retrieving and running stored prompts ('Get the latest template of your prompt') rather than generic AI orchestration.
-    - Featured in Awesome-LLMOps under 'LLMOps' for providing 'prompting tools for teams' to manage prompts trapped in code and documents.
+    - Claimed core functionality is storing, improving, and deploying prompts in a unified workspace
+    - Provides version control, testing suites, and API access for prompt retrieval
+    - Addresses the pain point of prompts being 'trapped' in code and spreadsheets
 placement:
   primary_category: context-engineering
   section: PromptOps / Prompt Management
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:22.038Z"
+    updated_at: "2026-07-20T15:46:35.457Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4c92a5707b60c95b4fc827a2dd76fff04c735fb6d8d116f524d0b49b8aa8d58c
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core identity of the product is prompt management and versioning, which falls directly under the prompt-shaping and management definition of context engineering.
+      decision_evidence:
+        - Claimed core functionality is storing, improving, and deploying prompts in a unified workspace
+        - Provides version control, testing suites, and API access for prompt retrieval
+        - Addresses the pain point of prompts being 'trapped' in code and spreadsheets
+      category_candidates:
+        - context-engineering
+        - evals
+      contrastive_reason: Choose context-engineering over evals because the product's primary identity is the management and storage of prompt assets, whereas testing/evaluation is a secondary feature set.
+      review_reason: null
+      review_resume_lifecycle: null

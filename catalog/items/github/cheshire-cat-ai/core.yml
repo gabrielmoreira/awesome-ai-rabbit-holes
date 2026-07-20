@@ -43,6 +43,8 @@ metadata:
     forks: 413
     license: GPL-3.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-02-08T23:41:18Z"
     pushed_at: "2026-07-17T14:29:22Z"
     description: AI agent microservice
@@ -103,10 +105,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:48:55.511Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.716Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

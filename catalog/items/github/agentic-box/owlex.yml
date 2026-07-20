@@ -28,6 +28,8 @@ metadata:
     forks: 16
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-10-27T11:51:15Z"
     pushed_at: "2026-03-15T03:37:28Z"
     description: null
@@ -38,13 +40,14 @@ metadata:
       fetched_at: "2026-07-20T05:16:52.224Z"
       bytes: 6558
 insights:
-  summary: An MCP server that runs multi-model council deliberations and individual sessions for Codex, Gemini, OpenCode, and others directly from Claude Code.
-  why_it_matters: It lets developers cross-check architecture decisions, debugging, and tricky design questions across multiple AI models without leaving their existing Claude Code workflow.
-  mental_damage: You can now spend three times as long deliberating with four different hallucinations before synthesizing them into one confidently wrong answer.
+  summary: An MCP server that enables multi-model deliberation and consensus-building within Claude Code.
+  why_it_matters: It allows developers to mitigate model hallucination and blind spots by running structured 'councils' where multiple LLMs review and debate code decisions.
+  mental_damage: Because apparently, trusting a single state-of-the-art model wasn't enough to satisfy our need for algorithmic consensus.
   tags:
     - mcp
+    - multi-agent
+    - consensus
     - claude-code
-    - multi-model
     - deliberation
   confidence: high
 curation:
@@ -56,10 +59,10 @@ curation:
     - Includes slash commands like /council and /gemini designed to be invoked from within Claude Code.
 placement:
   primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -73,9 +76,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:02.792Z"
+    updated_at: "2026-07-20T16:02:01.045Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cf921b315e144e13899a8df8e5dc31e4e5e1da525f813e2892d004d422a53eff
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The product identity is an MCP server designed to provide specialized multi-model capabilities to a host assistant.
+      decision_evidence:
+        - Installs via 'owlex-server' command
+        - Requires adding to '.mcp.json' configuration
+        - Primary mechanism is an MCP server for Claude Code
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the tool's primary distribution and integration pattern is an MCP server meant to be used via a host client.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'mcp'"
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The official Model Context Protocol (MCP) documentation page hosted by Visual Studio Code, explaining how to connect MCP servers to the editor.
-  why_it_matters: Developers need this reference to understand how VS Code surfaces MCP tool discovery, configuration, and server lifecycle inside the editor they already use.
-  mental_damage: We now have a protocol for connecting protocols to editors, because apparently adding a server to your IDE required its own standards body.
+  summary: A centralized GitHub registry for discovering and integrating Model Context Protocol (MCP) servers.
+  why_it_matters: It provides a searchable directory of community-built tools that allow AI assistants to connect to external APIs, databases, and local filesystems.
+  mental_damage: Prepare to spend your afternoon installing twenty different servers just to give your LLM a slightly better sense of reality.
   tags:
     - mcp
-    - vscode
-    - docs
-    - protocol
+    - registry
+    - discovery
+    - integrations
+    - ai-tooling
   confidence: high
 curation:
-  status: excluded
-  reason: This is a documentation page, not a standalone product, server, client, registry, or toolkit, so it is excluded rather than forced into MCP Servers & Tooling.
+  status: included
+  reason: The product is an operational registry specifically designed for the discovery and integration of MCP servers.
   evidence:
-    - URL is code.visualstudio.com/mcp, which is a documentation page rather than a repo or product.
-    - No repo description, stars, or code artifacts are present to indicate a shippable tool.
-    - Seen in awesome-ai-coding-tools under MCP Servers and Directories, but source-list placement does not override the fact that this is auxiliary documentation.
+    - Scraped site title is 'MCP Registry'
+    - Explicitly describes itself as a 'centralized MCP registry' for discovery and integration
+    - Content consists of a searchable list of MCP servers from various providers
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:11.812Z"
+    updated_at: "2026-07-20T15:31:14.357Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:10b6ab5ba2bd517f835764f3fcad6f495d65b463f9efc282153c35fa853ad472
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an operational registry specifically designed for the discovery and integration of MCP servers.
+      decision_evidence:
+        - Scraped site title is 'MCP Registry'
+        - Explicitly describes itself as a 'centralized MCP registry' for discovery and integration
+        - Content consists of a searchable list of MCP servers from various providers
+      category_candidates:
+        - mcp
+        - awesome-awesomes
+      contrastive_reason: Choose mcp over awesome-awesomes because the product is an operational registry for protocol tooling rather than a static curated list.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Atoms is a no-code, multi-agent platform that turns natural language prompts into full-stack web apps and sites using a team of specialized AI 'employees' for research, architecture, and engineering.
-  why_it_matters: It allows developers and non-technical founders to scaffold and deploy full-stack SaaS products, internal tools, and dashboards with built-in backends, Stripe payments, and SEO automation in minutes.
-  mental_damage: Now you can watch a 'Team Leader' agent request approval to deploy the 'Engineer' agent's unvetted code, ensuring you feel managerially productive while the AI handles the actual work.
+  summary: An AI-powered development platform that uses a multi-agent team to research, plan, build, and deploy full-stack web applications.
+  why_it_matters: It enables rapid prototyping and deployment by handling the entire lifecycle from idea validation to hosting via autonomous agents like engineers and product managers.
+  mental_damage: The ultimate destination for the 'vibe coding' workflow where you spend more time managing AI employees than actually writing logic.
   tags:
-    - prompt-to-app
+    - app-builder
     - multi-agent
     - no-code
     - full-stack
+    - deployment
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is turning prompts into deployable apps and sites via a multi-agent team, fitting the app-builder profile rather than a repo-editing coding agent.
+  reason: The product's core value is generating and deploying complete, usable web applications from natural language prompts.
   evidence:
-    - "Scraped site title and description state: 'Build websites & apps with AI, no code needed' and 'Turn ideas into products that sell'."
-    - The FAQ explicitly defines the product as an 'AI-powered development platform that turns your idea into working products' via a multi-agent workflow.
-    - Listed use cases focus on generating SaaS, E-commerce, and Internal Tools from prompts rather than editing existing codebases.
+    - README claims it turns ideas into products in minutes 'without coding'
+    - Offers full-stack capabilities including hosting, Stripe payments, and database management
+    - Features specialized agents like 'Alex (Engineer)' and 'Bob (Architect)' to build products from scratch
 placement:
   primary_category: app-builders
   section: Prompt-to-App Builders
@@ -70,9 +73,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:17.532Z"
+    updated_at: "2026-07-20T15:23:50.072Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:458a9bb70bfc82e41a07ca2691ec5d46f5a16e088a79e4679fa746274426c0d5
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product's core value is generating and deploying complete, usable web applications from natural language prompts.
+      decision_evidence:
+        - README claims it turns ideas into products in minutes 'without coding'
+        - Offers full-stack capabilities including hosting, Stripe payments, and database management
+        - Features specialized agents like 'Alex (Engineer)' and 'Bob (Architect)' to build products from scratch
+      category_candidates:
+        - app-builders
+        - agent-orchestration
+      contrastive_reason: Choose app-builders over agent-orchestration because the primary output is a deployed, functional application rather than a general-purpose multi-agent coordination workbench.
+      review_reason: null
+      review_resume_lifecycle: null

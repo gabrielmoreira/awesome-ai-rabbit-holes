@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AITV.GG is a platform for creating and monetizing AI-powered livestream avatars (streamers) that interact with audiences and operate across platforms like Twitch, YouTube, and TikTok.
-  why_it_matters: It provides a turnkey pipeline for deploying autonomous AI agents into live media environments with integrated on-chain monetization.
-  mental_damage: We have reached the point where developers are building tokenized, 24/7 AI girlfriend simulators that 'stream' while you sleep, just in case the crypto-native creator economy needed more latency.
+  summary: A platform for creating and monetizing autonomous AI streamers for live streaming platforms.
+  why_it_matters: It explores the intersection of AI agency and the creator economy through autonomous, interactive digital personalities.
+  mental_damage: Because why stop at coding agents when you can deploy an infinite army of unblinking digital influencers to farm engagement tokens?
   tags:
     - ai-agents
-    - livestreaming
-    - crypto
     - creator-economy
+    - livestreaming
+    - autonomous-agents
   confidence: high
 curation:
   status: excluded
-  reason: This is a consumer-facing media and monetization platform for AI streamers, lacking any developer tooling, SDK, or workflow integration relevant to the catalog's scope.
+  reason: The project is an end-user consumer/creator platform for AI personalities rather than a developer-facing tool, framework, or infrastructure.
   evidence:
-    - Scraped site describes the product as a 'AI streamer factory' for creators, brands, and communities, not developers.
-    - Core features are livestreaming avatars, 'aura rewards', and token staking ($AITV) rather than code editing or infrastructure.
-    - Seen in awesome-ai-agents under a 'evo.ninja' section, but the tool itself is a media platform, not an autonomous coding agent.
+    - Focuses on 'launching AI streamers' and 'onetizing every moment'
+    - Targeted at creators, brands, and communities for entertainment
+    - Does not provide developer primitives like SDKs, APIs, or coding assistance
 placement:
   primary_category: null
   section: null
@@ -68,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:49.766Z"
+    updated_at: "2026-07-20T15:20:59.584Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3e562c4069461e04c97390990e571bde428eea94e6a145ef67a82100d34bd581
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is an end-user consumer/creator platform for AI personalities rather than a developer-facing tool, framework, or infrastructure.
+      decision_evidence:
+        - Focuses on 'launching AI streamers' and 'onetizing every moment'
+        - Targeted at creators, brands, and communities for entertainment
+        - Does not provide developer primitives like SDKs, APIs, or coding assistance
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

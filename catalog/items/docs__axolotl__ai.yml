@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Axolotl is an open-source CLI and configuration framework for fine-tuning, post-training, and evaluating large language models across multiple GPUs and hardware setups.
-  why_it_matters: It gives developers a single YAML-driven pipeline to fine-tune or RL-tune models like LLaMA, Mistral, and GPT-OSS without wiring together disparate training scripts.
-  mental_damage: Yet another reason to believe that with the right YAML file and three GPUs, you too can solve AGI before dinner, provided you don't spend the entire evening debugging NCCL errors.
+  summary: The official documentation for Axolotl, a library for easy fine-tuning of various LLMs.
+  why_it_matters: It provides the necessary instructions for developers looking to perform supervised fine-tuning (SFT), LoRA, or QLoRA on large language models.
+  mental_damage: Now you have one more highly optimized configuration file to debug when your loss curves decide to go rogue.
   tags:
     - fine-tuning
     - llm-training
-    - cli
-    - yaml-config
-    - multimodal
+    - lora
+    - qlora
+    - llm-infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: Although Axolotl is a genuine developer tool, it is a model-training framework rather than a coding assistant, agent orchestrator, or AI developer workflow product, placing it outside the catalog's scope.
+  reason: The input is a link to documentation for a training library, rather than a standalone developer tool or framework product.
   evidence:
-    - Primary page excerpt describes Axolotl as 'a free and open-source tool designed to streamline post-training and fine-tuning for the latest large language models (LLMs).'
-    - Documentation focuses on training methods (LoRA, QLoRA, RLHF, GRPO), dataset handling, and multi-GPU optimizations rather than coding assistance or agent workflows.
-    - Listed in awesome-LLM-resources under the '微调 Fine-Tuning' section, confirming its identity as a model-training resource rather than a developer AI tool.
+    - URL points specifically to 'docs.axolotl.ai'
+    - Source-list context classifies it under 'Fine-Tuning' documentation/resources
 placement:
   primary_category: null
   section: null
@@ -71,9 +72,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:23.556Z"
+    updated_at: "2026-07-20T15:39:27.551Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fc5a928eb247a056c229319dc1a7e16f8c0ad7478afdcea803165dafb83f5b05
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a link to documentation for a training library, rather than a standalone developer tool or framework product.
+      decision_evidence:
+        - URL points specifically to 'docs.axolotl.ai'
+        - Source-list context classifies it under 'Fine-Tuning' documentation/resources
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

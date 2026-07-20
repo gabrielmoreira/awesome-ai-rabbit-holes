@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A marketplace and CLI for discovering and installing 107,000+ reusable skills targeting Claude Code, Cursor, Copilot, Windsurf, Zed, and over 20 other AI coding tools.
-  why_it_matters: Developers can one-click install specialized agent behaviors across their entire AI toolchain instead of manually crafting prompts or context for every workflow.
-  mental_damage: We have officially solved the problem of having too many AI assistants by creating a sprawling app store for their personalities, ensuring maximum choice paralysis before you even write a line of code.
+  summary: An AI agent skills directory and marketplace for installing pre-configured capabilities into tools like Claude Code, Cursor, and Windsurf.
+  why_it_matters: It provides a centralized marketplace of ready-to-use agentic behaviors, reducing the time spent on manual prompt engineering and tool configuration.
+  mental_damage: Because why write your own logic when you can install a 288,000-skill bundle and hope the registry is up to date?
   tags:
-    - skills
-    - cli
+    - agent-skills
     - marketplace
-    - agent-extensions
+    - productivity
+    - agentic-workflows
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a registry and directory of reusable skill packs for multiple coding assistants, fitting the Agent Skills category.
+  reason: The product is primarily a registry/marketplace for reusable agent skills, which aligns perfectly with the 'Agent Skills' category.
   evidence:
-    - Site title and description explicitly label it 'AI Agent Skills Directory & Marketplace' with 107,000+ skills.
-    - Source list context identifies it as a 'marketplace for Claude Code, Cursor, Copilot... One command to install' under a Skills section.
-    - The CLI command 'npx @agentskill.sh/cli@latest setup' confirms it is a distribution mechanism for skill packs, not a standalone assistant.
+    - Scraped site context explicitly calls it an 'AI Agent Skills Directory & Marketplace'
+    - Claims to provide skills for Claude Code, Cursor, Copilot, Windsurf, and Zed
+    - Source-list context categorizes it under 'Skills'
 placement:
   primary_category: skills
   section: Skill Registries & Directories
@@ -68,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:25.477Z"
+    updated_at: "2026-07-20T15:18:03.062Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:21be4210561e382e07efa926a2cb0a88e4298fb5412ae22e66ae2264c733df69
+      proposed_primary_category: skills
+      disagreement: false
+      decision_reason: The product is primarily a registry/marketplace for reusable agent skills, which aligns perfectly with the 'Agent Skills' category.
+      decision_evidence:
+        - Scraped site context explicitly calls it an 'AI Agent Skills Directory & Marketplace'
+        - Claims to provide skills for Claude Code, Cursor, Copilot, Windsurf, and Zed
+        - Source-list context categorizes it under 'Skills'
+      category_candidates:
+        - skills
+        - ai-dev-extensions
+      contrastive_reason: Choose skills over ai-dev-extensions because the core identity is the distribution of portable, reusable skill content rather than a host integration layer.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OLMo3 is a research blog post and announcement from the Allen Institute for AI (Ai2) detailing their latest open language model release.
-  why_it_matters: It provides developers with insights into the training methodology and capabilities of a significant open-weight model alternative to closed-source frontier models.
-  mental_damage: Yet another reminder that while you're debugging a CSS margin, a research institute just open-sourced a model that reportedly outperforms your current favorite proprietary assistant.
+  summary: A family of open-source large language models developed by the Allen Institute for AI (AI2).
+  why_it_matters: It provides developers with high-performance, transparently trained alternative models for local deployment and research.
+  mental_damage: Just one more model checkpoint to download and benchmark against your existing weights.
   tags:
     - llm
-    - research
-    - open-weights
+    - open-source
+    - foundation-models
+    - ai2
   confidence: high
 curation:
   status: excluded
-  reason: This is a blog post and research announcement rather than a developer tool, agent, or infrastructure component.
+  reason: This is a fundamental research model release rather than a developer-facing tool, framework, or workflow product.
   evidence:
-    - The source URL is a blog post (allenai.org/blog/olmo3), not a tool repo or product.
-    - Seen in 'awesome-LLM-resources' under a '论文 Paper' (Paper) section, indicating it is treated as a research resource.
-    - No repository description, code, or tooling identity was provided in the inputs.
+    - URL refers to a research blog post about model releases
+    - Source list context places it in a 'Paper' section
+    - Identified as a model family rather than a tool/SDK/agent
 placement:
   primary_category: null
   section: null
@@ -67,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:53.836Z"
+    updated_at: "2026-07-20T15:20:53.363Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:73658c7a039bf4b7ffc68bb358b9cde19b352c509db809864ad5a11bbd55309b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a fundamental research model release rather than a developer-facing tool, framework, or workflow product.
+      decision_evidence:
+        - URL refers to a research blog post about model releases
+        - Source list context places it in a 'Paper' section
+        - Identified as a model family rather than a tool/SDK/agent
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

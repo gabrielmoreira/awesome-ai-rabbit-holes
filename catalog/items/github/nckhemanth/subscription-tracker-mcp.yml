@@ -22,52 +22,90 @@ provenance:
         extracted_url: https://github.com/nckhemanth0/subscription-tracker-mcp
         surrounding_text: "- [nckhemanth0/subscription-tracker-mcp](https://github.com/nckhemanth0/subscription-tracker-mcp) 🐍 ☁️ 🏠 - MCP server for intelligent subscription management with Gmail + MySQL integration."
         confidence: high
+    - id: discovery__github__nckhemanth0__subscription-tracker-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: nckhemanth0/subscription-tracker-mcp
+        extracted_url: https://github.com/nckhemanth0/subscription-tracker-mcp
+        surrounding_text: "- [nckhemanth0/subscription-tracker-mcp](https://github.com/nckhemanth0/subscription-tracker-mcp) 🐍 ☁️ 🏠 - MCP server for intelligent subscription management with Gmail + MySQL integration."
+        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: nckhemanth/subscription-tracker-mcp
+    html_url: https://github.com/nckhemanth/subscription-tracker-mcp
+    created_at: "2026-01-22T17:07:22Z"
+    pushed_at: "2026-01-23T19:47:21Z"
+    description: MCP server that automatically extracts and structures subscription and billing data from email with 90%+ accuracy.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - ai-agents
+      - automation
+      - claude
+      - data-extraction
+      - gmail-api
+      - llm
+      - mcp
+      - model-context-protocol
+      - python
+    last_checked_at: "2026-07-20T15:12:01.091Z"
+    readme:
+      fetched_at: "2026-07-20T15:12:01.091Z"
+      bytes: 1945
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A personal MCP server that connects Gmail and MySQL to Claude Desktop to track subscriptions, detect billing anomalies, and surface renewal alerts.
+  why_it_matters: It gives developers a practical template for wiring everyday personal data sources into Claude Desktop via MCP tools and persistent storage.
+  mental_damage: Nothing says peak engineering leverage like building a database-backed server, OAuth flow, and AI pipeline just to remember you’re still paying for Netflix.
+  tags:
+    - claude-desktop
+    - finance
+    - gmail
+    - mcp
+    - personal-automation
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product’s primary identity is an MCP server exposing 16 tools to Claude Desktop, with MCP configuration front and center in the README and placement in awesome-mcp-servers.
+  evidence:
+    - README centers on configuring Claude Desktop via mcpServers and running an MCP server (src/mcp_server.py).
+    - README explicitly describes '16 MCP Tools' and positions the project as a 'Professional MCP server'.
+    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
   discover:
     status: done
     updated_at: "2026-06-11T05:37:56.130Z"
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-07-13T05:13:31.629Z"
-    cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: nckhemanth/subscription-tracker-mcp"
-    next_retry_at: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T05:17:35.691Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-20T15:12:01.091Z"
+    cause: null
     next_retry_at: null

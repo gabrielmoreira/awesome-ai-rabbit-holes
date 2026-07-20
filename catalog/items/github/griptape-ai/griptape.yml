@@ -23,12 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2557
-    forks: 251
+    stars: 2559
+    forks: 253
     license: Apache-2.0
     archived: false
+    full_name: griptape-ai/griptape
+    html_url: https://github.com/griptape-ai/griptape
     created_at: "2023-01-14T18:02:16Z"
-    pushed_at: "2026-07-06T17:46:42Z"
+    pushed_at: "2026-07-17T16:43:25Z"
     description: "Modular Python framework for AI agents and workflows with chain-of-thought reasoning, tools, and memory. "
     homepage: https://www.griptape.ai
     topics:
@@ -40,9 +42,9 @@ metadata:
       - llm
       - openai
       - python
-    last_checked_at: "2026-07-13T05:12:57.141Z"
+    last_checked_at: "2026-07-20T15:10:56.045Z"
     readme:
-      fetched_at: "2026-07-13T05:12:57.141Z"
+      fetched_at: "2026-07-20T15:10:56.045Z"
       bytes: 10173
 insights:
   summary: Griptape is a modular Python framework for building generative AI applications, offering abstractions for agents, pipelines, workflows, memory, tools, and RAG.
@@ -76,14 +78,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:12:57.141Z"
+    updated_at: "2026-07-20T15:10:56.045Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:59:03.718Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

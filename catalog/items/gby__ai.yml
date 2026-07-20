@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A personal Chinese-language blog and content hub covering AIGC trends, agent implementation, prompt engineering, and LLM news.
-  why_it_matters: It aggregates tutorials and practical notes on agents and prompt applications, serving as a navigation point for Chinese-speaking developers exploring AI tooling.
-  mental_damage: Yet another reminder that keeping up with the AI ecosystem now requires fluency in both English and Chinese blogosphere deep cuts.
+  summary: A curated blog and resource hub covering AIGC developments, agent implementation, and prompt engineering applications.
+  why_it_matters: Provides qualitative insights and deep dives into agentic workflows and practical prompt applications that abstract high-level concepts into actionable knowledge.
+  mental_damage: A constant reminder that you're likely three tutorials behind on the latest LLM paradigm shift.
   tags:
-    - aigc
-    - llm-resources
-    - blog
-    - chinese
+    - ai-tutorials
+    - agent-insights
+    - prompt-engineering
+    - aigc-resources
   confidence: high
 curation:
   status: excluded
-  reason: The site is a personal publication and tutorial hub rather than a standalone developer tool, and it mainly provides educational content and news rather than direct tooling.
+  reason: The project is a personal blog/media site focused on tutorials and commentary rather than a standalone developer tool or utility.
   evidence:
-    - Scraped site context shows a personal blog with articles, series, and tutorials rather than a product.
-    - Source-list context places it in a tutorial/resource list, not a tooling or product directory.
-    - No repo description, stars, or product artifacts indicate a developer tool rather than a publication.
+    - Website structure consists of articles, series, and tutorials (e.g., 'AIPM skills tree', 'LLM paper reading')
+    - Content focuses on learning/understanding rather than providing a functional tool/SDK/extension
+    - Scraped site context identifies it as a collection of articles and guides
 placement:
   primary_category: null
   section: null
@@ -68,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:17.691Z"
+    updated_at: "2026-07-20T15:46:22.491Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:34a6763af92b6223b74641949569bf7a3ee462e2c54749a603df817cdb9a7f28
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a personal blog/media site focused on tutorials and commentary rather than a standalone developer tool or utility.
+      decision_evidence:
+        - Website structure consists of articles, series, and tutorials (e.g., 'AIPM skills tree', 'LLM paper reading')
+        - Content focuses on learning/understanding rather than providing a functional tool/SDK/extension
+        - Scraped site context identifies it as a collection of articles and guides
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

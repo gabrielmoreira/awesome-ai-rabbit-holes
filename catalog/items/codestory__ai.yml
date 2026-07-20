@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Codestory.ai is an AI coding assistant that reads repositories, plans changes, and edits code, listed in the awesome-ai-agents directory as 'Aide'.
-  why_it_matters: It offers developers a repo-level autonomous agent that can be delegated to handle planning and implementation tasks across a codebase.
-  mental_damage: Another autonomous agent enters the arena, ready to refactor your repository while you wonder if you still need to understand the code it just rewrote.
+  summary: Codestory.ai appears to be an autonomous AI agent designed for developer workflows.
+  why_it_matters: It aims to automate complex programming tasks by acting as a self-directed agent.
+  mental_damage: Another agent to manage while you pretend you aren't just babysitting a stochastic parrot through your terminal.
   tags:
-    - coding-agent
-    - repo-agent
-    - autonomous
-  confidence: medium
+    - ai-agents
+    - autonomous-agents
+    - coding-automation
+  confidence: low
 curation:
-  status: included
-  reason: The product is listed as 'Aide by Codestory' in the awesome-ai-agents list, identifying it as a standalone coding assistant that autonomously handles repo work.
+  status: excluded
+  reason: The project lacks sufficient technical substance or documentation in the provided input to determine its actual functionality or category fit.
   evidence:
-    - Seen in awesome-ai-agents list under the section for 'Aide by Codestory'
-    - Listed under a directory specifically for 'AI autonomous agents' that plan and execute code changes
+    - No repository description provided
+    - No README excerpt provided
+    - No site context or feature details provided
+    - Source list only indicates it is an 'Aide by Codestory' in an agent list
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: null
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -66,9 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:18.866Z"
+    updated_at: "2026-07-20T15:32:08.501Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d1f1f7862b69bbfe0f71f7cb47253dd50601b227ebe9c127daa03d090ffb291b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks sufficient technical substance or documentation in the provided input to determine its actual functionality or category fit.
+      decision_evidence:
+        - No repository description provided
+        - No README excerpt provided
+        - No site context or feature details provided
+        - Source list only indicates it is an 'Aide by Codestory' in an agent list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

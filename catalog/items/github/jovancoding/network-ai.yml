@@ -40,12 +40,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 67
-    forks: 11
+    stars: 68
+    forks: 12
     license: MIT
     archived: false
+    full_name: Jovancoding/Network-AI
+    html_url: https://github.com/Jovancoding/Network-AI
     created_at: "2026-02-04T14:37:22Z"
-    pushed_at: "2026-07-06T23:06:01Z"
+    pushed_at: "2026-07-13T21:35:08Z"
     description: Traffic light for AI Agents and TypeScript/Node multi-agent orchestrator with shared state, guardrails, and adapters for 29 AI frameworks
     homepage: https://network-ai.org/
     topics:
@@ -69,9 +71,9 @@ metadata:
       - rlm
       - typescript
       - workflow-engine
-    last_checked_at: "2026-07-13T05:13:15.196Z"
+    last_checked_at: "2026-07-20T15:11:27.862Z"
     readme:
-      fetched_at: "2026-07-13T05:13:15.196Z"
+      fetched_at: "2026-07-20T15:11:27.862Z"
       bytes: 44377
 insights:
   summary: A TypeScript/Node.js multi-agent orchestrator providing shared state, guardrails, and cross-framework adapters for 29 AI agent frameworks.
@@ -105,14 +107,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:15.196Z"
+    updated_at: "2026-07-20T15:11:27.862Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:04:56.227Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

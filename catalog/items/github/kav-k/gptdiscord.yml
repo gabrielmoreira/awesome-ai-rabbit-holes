@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1849
+    stars: 1850
     forks: 292
     license: MIT
     archived: false
+    full_name: Kav-K/GPTDiscord
+    html_url: https://github.com/Kav-K/GPTDiscord
     created_at: "2022-12-08T08:06:26Z"
     pushed_at: "2026-02-06T23:33:50Z"
     description: A robust, all-in-one GPT interface for Discord. ChatGPT-style conversations, image generation, AI-moderation, custom indexes/knowledgebase, youtube summarizer, and more!
@@ -52,9 +54,9 @@ metadata:
       - openai-api
       - pinecone
       - python
-    last_checked_at: "2026-07-13T05:13:17.701Z"
+    last_checked_at: "2026-07-20T15:11:32.294Z"
     readme:
-      fetched_at: "2026-07-13T05:13:17.701Z"
+      fetched_at: "2026-07-20T15:11:32.294Z"
       bytes: 11592
 insights:
   summary: A self-hosted Discord bot that provides a ChatGPT-style interface inside Discord, supporting multi-modal chat, code interpretation via E2B, document Q&A, image generation, and AI moderation.
@@ -88,14 +90,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:17.701Z"
+    updated_at: "2026-07-20T15:11:32.294Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:05:43.462Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

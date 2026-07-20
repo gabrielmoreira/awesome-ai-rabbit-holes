@@ -28,6 +28,8 @@ metadata:
     forks: 5
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-04-09T20:08:46Z"
     pushed_at: "2025-04-10T19:18:36Z"
     description: A NestJS library for implementing Google's Agent-to-Agent (A2A) protocol.
@@ -72,9 +74,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:32:56.979Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.655Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

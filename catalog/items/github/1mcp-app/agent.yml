@@ -28,6 +28,8 @@ metadata:
     forks: 53
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-03-16T14:05:08Z"
     pushed_at: "2026-07-17T12:30:27Z"
     description: A unified Model Context Protocol server implementation that aggregates multiple MCP servers into one.
@@ -44,22 +46,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.152Z"
       bytes: 7778
 insights:
-  summary: A unified MCP runtime that aggregates multiple MCP servers into a single managed surface and provides a CLI workflow for progressive tool discovery by agents like Codex and Claude.
-  why_it_matters: It reduces configuration sprawl by centralizing MCP server wiring and keeps agent context lean by letting AI loops discover and run tools one at a time instead of loading every schema upfront.
-  mental_damage: We have successfully invented infrastructure to manage the infrastructure that manages the agents that manage the code, and yes, you now need a proxy server to configure your proxy servers.
+  summary: A unified Model Context Protocol (MCP) server implementation that aggregates multiple MCP servers into a single runtime.
+  why_it_matters: It solves MCP configuration sprawl and prevents agent context exhaustion by allowing agents to progressively discover tools through a single gateway.
+  mental_damage: Because managing a hundred individual JSON configurations for every single agent session is a special kind of developer hell.
   tags:
     - mcp
+    - mcp-server
+    - aggregation
     - cli
-    - agent-runtime
-    - context-management
+    - runtime
   confidence: high
 curation:
   status: included
-  reason: "The product identity is MCP infrastructure itself: a unified runtime, aggregator, and CLI purpose-built for the Model Context Protocol, aligning directly with the MCP Servers & Tooling category."
+  reason: The product's core identity is an MCP middleware/aggregator that manages server lifecycles and tool discovery.
   evidence:
-    - Repo description explicitly calls it 'a unified Model Context Protocol server implementation that aggregates multiple MCP servers into one.'
-    - Topics include mcp, mcp-gateway, mcp-proxy, and mcp-server, confirming MCP as the product identity.
-    - Already curated in awesome-mcp-servers under 'Aggregators', reinforcing its role as MCP infrastructure.
+    - Repo description defines it as a unified MCP server implementation
+    - README describes '1mcp serve' as an aggregated runtime for multiple upstream servers
+    - Provides a CLI mode specifically for managing tool discovery (inspect/run) for agents
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -79,9 +82,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:34.855Z"
+    updated_at: "2026-07-20T15:48:31.504Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d6bca941b6b55b5278c705363ed2d181ad7559a4cfcc47be6661fdb3dfdd3a0f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP middleware/aggregator that manages server lifecycles and tool discovery.
+      decision_evidence:
+        - Repo description defines it as a unified MCP server implementation
+        - README describes '1mcp serve' as an aggregated runtime for multiple upstream servers
+        - Provides a CLI mode specifically for managing tool discovery (inspect/run) for agents
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the product's primary identity is a protocol middleware/gateway rather than a multi-agent coordination platform.
+      review_reason: null
+      review_resume_lifecycle: null

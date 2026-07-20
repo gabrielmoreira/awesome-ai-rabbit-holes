@@ -27,6 +27,8 @@ metadata:
     forks: 12
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-08-16T17:11:54Z"
     pushed_at: "2024-09-06T01:28:30Z"
     description: 训练一个对中文支持更好的LLaVA模型，并开源训练代码和数据。
@@ -37,22 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:54.683Z"
       bytes: 5024
 insights:
-  summary: A tutorial-style project that trains a Chinese-optimized vision-language model by combining Qwen-VL's image encoder with Qwen2-0.5B-Instruct from scratch.
-  why_it_matters: It provides a reproducible, multi-stage training pipeline and dataset format for developers building or fine-tuning multilingual multimodal models.
-  mental_damage: Yet another reminder that even after cloning, swapping, and retraining, you may still end up with a model that replies like it's half-asleep in stage three.
+  summary: An open-source training implementation for a LLaVA-style multimodal model with improved Chinese language support.
+  why_it_matters: Provides a blueprint and dataset for fine-tuning vision-language models to better understand and respond to Chinese-specific visual contexts.
+  mental_damage: Now you can spend forty hours fine-tuning a model only to realize it's just a slightly better way to describe a picture of a beach in Mandarin.
   tags:
-    - multimodal
-    - vision-language
-    - model-training
+    - vision-language-models
+    - llava
     - chinese-nlp
+    - multimodal
+    - model-training
   confidence: high
 curation:
   status: excluded
-  reason: This is a model-training tutorial and checkpoint repo, not a developer-facing AI tool, agent, framework, or workflow product; it belongs in ML research and educational resources rather than a curated developer-tooling catalog.
+  reason: This is a research/training implementation for a specific model architecture rather than a developer tool, framework, or workflow product.
   evidence:
-    - Repo description states it trains a Chinese-friendly LLaVA-style model and open-sources training code and data.
-    - README is a step-by-step training guide with environment setup, data prep, and loss charts, not a tool or product.
-    - Seen in awesome-LLM-resources under 'Tips', which is a general ML/LLM learning list, not a developer-tooling directory.
+    - README describes a multi-stage training process for a multimodal model
+    - Focus is on model training/weights rather than developer-facing software/tooling
+    - Project is a specific implementation of a model architecture (Qwen-VL + LLaVA structure)
 placement:
   primary_category: null
   section: null
@@ -72,9 +75,25 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:43.073Z"
+    updated_at: "2026-07-20T16:09:08.660Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c9b0ae6aa5073c6b47862a36b13624366212cd9c74fb4943d5e41f0922826cff
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a research/training implementation for a specific model architecture rather than a developer tool, framework, or workflow product.
+      decision_evidence:
+        - README describes a multi-stage training process for a multimodal model
+        - Focus is on model training/weights rather than developer-facing software/tooling
+        - Project is a specific implementation of a model architecture (Qwen-VL + LLaVA structure)
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

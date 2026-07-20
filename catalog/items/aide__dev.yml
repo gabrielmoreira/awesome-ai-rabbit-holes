@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A developer tools lab building AI agents for software engineering that scale performance at inference time, achieving SOTA results on SWE-bench benchmarks.
-  why_it_matters: It demonstrates how test-time compute scaling can push automated issue resolution rates above 60%, offering a research-backed path toward more capable coding agents.
-  mental_damage: Yet another lab proving that throwing massive inference compute at your bugs is the new 'paying down technical debt'.
+  summary: Aide is an AI-native developer tools lab focused on using inference-time scaling and agentic systems to automate software engineering tasks.
+  why_it_matters: It attempts to solve complex engineering problems by scaling computation during inference to achieve higher accuracy on benchmarks like SWE-bench.
+  mental_damage: Because apparently, the only way to fix your code is to give the model significantly more time to think about how much it messed up.
   tags:
-    - coding-agents
-    - inference-scaling
-    - swe-bench
-    - research
-  confidence: medium
+    - ai-agents
+    - software-engineering
+    - inference-time-scaling
+    - agentic-systems
+  confidence: high
 curation:
   status: included
-  reason: The site presents itself as building AI agents for software engineering that resolve real repo issues, fitting the core coding agent identity.
+  reason: The tool is described as an agentic system for writing, debugging, and maintaining code, making it a direct coding agent.
   evidence:
-    - "Scraped site title and description: 'Aide — AI-Native Developer Tools' and 'AI agents for software engineering, scaled at inference time.'"
-    - "Homepage excerpt states: 'Aide is a developer tools lab exploring how inference-time scaling and agentic systems can reshape the way software is written, debugged, and maintained.'"
-    - Source list placement in awesome-ai-coding-tools under 'Code Editors and Assistants' supports coding agent classification.
+    - Claims to resolve 62.2% of issues on swe-bench-verified
+    - Focuses on 'how agentic systems can reshape the way software is written, debugged, and maintained'
+    - Uses scaling test-time inference with Sonnet 3.5
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:40.541Z"
+    updated_at: "2026-07-20T15:19:56.735Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5ea2e258e50b3b45c9213f1a678fc0b3d2d5f668f9f2a4ee10a95dc391aa5e9e
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The tool is described as an agentic system for writing, debugging, and maintaining code, making it a direct coding agent.
+      decision_evidence:
+        - Claims to resolve 62.2% of issues on swe-bench-verified
+        - Focuses on 'how agentic systems can reshape the way software is written, debugged, and maintained'
+        - Uses scaling test-time inference with Sonnet 3.5
+      category_candidates:
+        - coding-agents
+        - spec-driven-development
+      contrastive_reason: Choose coding-agents over spec-driven-development because the core value proposition is the agentic resolution of engineering issues rather than a spec-first development loop.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -28,6 +28,8 @@ metadata:
     forks: 3
     license: NOASSERTION
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-01-05T10:31:53Z"
     pushed_at: "2026-05-20T23:29:26Z"
     description: MCP Server for Agent Skill Ninja - Search, Install, and Manage Agent Skills
@@ -38,25 +40,25 @@ metadata:
       fetched_at: "2026-07-20T05:16:56.051Z"
       bytes: 5086
 insights:
-  summary: An MCP server for searching, installing, and managing reusable AI agent skills within MCP-compatible clients like Claude Desktop and Cursor.
-  why_it_matters: It turns skill management into a protocol-native operation, letting agents discover and install new capabilities without leaving the workflow.
-  mental_damage: We have now successfully abstracted the process of acquiring the abstractions that help us avoid writing code.
+  summary: An MCP server for searching, installing, and managing AI agent skills.
+  why_it_matters: It provides a standardized way to discover and inject reusable capabilities into MCP-compatible clients like Claude Desktop and Cursor.
+  mental_damage: Another layer of abstraction to manage in your pursuit of the perfect, self-augmenting agent workflow.
   tags:
     - mcp
-    - skills
-    - agent-extensions
-    - developer-tools
-  confidence: medium
+    - agent-skills
+    - discovery
+    - automation
+  confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server specifically built to manage agent skills, fitting the MCP Servers & Tooling category where protocol identity is primary.
+  reason: The tool's core identity is providing infrastructure for the Model Context Protocol to discover and manage skills.
   evidence:
-    - "Repo description explicitly states: 'MCP Server for Agent Skill Ninja - Search, Install, and Manage Agent Skills'."
-    - README confirms it is 'An MCP (Model Context Protocol) server' designed for MCP-compatible clients.
-    - Found in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states 'MCP Server for Agent Skill Ninja'
+    - README focuses on MCP-compatible clients (Claude Desktop, Cursor, VS Code)
+    - Functionality is centered on searching, installing, and managing skills via MCP tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
@@ -73,9 +75,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:20:06.986Z"
+    updated_at: "2026-07-20T16:12:09.417Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ff27cb1b92eedbe6f2fc74e6e2ad484569c7aec58e9bbcb2721c8d222aaef083
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's core identity is providing infrastructure for the Model Context Protocol to discover and manage skills.
+      decision_evidence:
+        - Repo description explicitly states 'MCP Server for Agent Skill Ninja'
+        - README focuses on MCP-compatible clients (Claude Desktop, Cursor, VS Code)
+        - Functionality is centered on searching, installing, and managing skills via MCP tools
+      category_candidates:
+        - mcp
+        - skills
+      contrastive_reason: Choose mcp over skills because the product is the server/infrastructure that enables the skill management, rather than the skill packs themselves.
+      review_reason: null
+      review_resume_lifecycle: null

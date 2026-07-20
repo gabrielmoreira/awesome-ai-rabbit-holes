@@ -28,6 +28,8 @@ metadata:
     forks: 3
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-01-31T17:11:53Z"
     pushed_at: "2026-04-06T14:44:12Z"
     description: A local MCP server for generating image assets using Google Gemini AI (Nano Banana 2 / Pro). Enable transparency and resize.
@@ -81,9 +83,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:31:34.291Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

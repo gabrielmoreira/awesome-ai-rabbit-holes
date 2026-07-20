@@ -43,6 +43,8 @@ metadata:
     forks: 26
     license: GPL-3.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-03-24T02:06:22Z"
     pushed_at: "2025-05-11T02:46:12Z"
     description: A server that helps people access and query data in databases using the Legion Query Runner with Model Context Protocol (MCP) in Python.
@@ -93,9 +95,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:32:55.695Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.655Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

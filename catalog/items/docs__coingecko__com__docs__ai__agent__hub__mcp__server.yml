@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The CoinGecko MCP Server is an official Model Context Protocol server that exposes 76+ cryptocurrency market data tools to AI agents and LLMs via HTTP streaming or SSE endpoints.
-  why_it_matters: It lets developers wire real-time crypto pricing, onchain DEX data, and historical market metrics directly into Claude, Cursor, and other MCP-compatible clients without writing custom API wrappers.
-  mental_damage: Now your AI agent can panic about a 3% Bitcoin dip as fast as you can, but with much better JSON formatting.
+  summary: An official Model Context Protocol (MCP) server that provides real-time cryptocurrency market data from CoinGecko to LLMs and AI agents.
+  why_it_matters: It allows developers to bridge the gap between static LLM knowledge and live financial data by enabling agents to query prices, market caps, and trending assets via a standardized protocol.
+  mental_damage: Finally, you can let an autonomous agent blow your entire hypothetical portfolio while you watch the execution trace in real-time.
   tags:
     - mcp
     - crypto
     - market-data
-    - agent-tools
-    - api-integration
+    - llm-integration
+    - ai-agents
   confidence: high
 curation:
   status: included
-  reason: This is a first-party MCP server shipping domain-specific tools for crypto market data, fitting cleanly as a domain server in the MCP category.
+  reason: The product is explicitly marketed as an MCP server designed to provide a specific domain of data (crypto) to MCP-compliant clients.
   evidence:
-    - Listed in awesome-mcp-servers under 'Official Servers' as the CoinGecko MCP Server for crypto price and market data.
-    - Documentation states it exposes 76+ MCP tools including real-time prices, onchain DEX data, and historical performance to MCP-compatible clients like Claude and Cursor.
-    - Provides hosted remote endpoints (keyless and authenticated) as well as a local npm package (@coingecko/coingecko-mcp) for self-hosted use.
+    - "Title: CoinGecko MCP Server"
+    - "README explicitly states: 'The official CoinGecko MCP Server is now live'"
+    - Provides tools for LLMs to fetch real-time market data via MCP
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:25.964Z"
+    updated_at: "2026-07-20T15:40:09.106Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b2f277d897f2b0132a592175beae109f19ced5ac5605067dd8cbb4b646a22512
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly marketed as an MCP server designed to provide a specific domain of data (crypto) to MCP-compliant clients.
+      decision_evidence:
+        - "Title: CoinGecko MCP Server"
+        - "README explicitly states: 'The official CoinGecko MCP Server is now live'"
+        - Provides tools for LLMs to fetch real-time market data via MCP
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a protocol-based server rather than an integration meant to augment a specific IDE or editor.
+      review_reason: null
+      review_resume_lifecycle: null

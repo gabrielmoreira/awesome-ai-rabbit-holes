@@ -27,6 +27,8 @@ metadata:
     forks: 275
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-08-29T02:40:53Z"
     pushed_at: "2026-07-17T14:03:58Z"
     description: "ReMe: Memory Management Kit for Agents - Remember Me, Refine Me."
@@ -43,23 +45,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:53.140Z"
       bytes: 16870
 insights:
-  summary: ReMe is a Python memory management framework for AI agents that provides file-based and vector-based systems to persist context, compress long conversations, and recall relevant information across sessions.
-  why_it_matters: It solves the stateless-session and context-window limits that break long-running coding assistants by giving agents persistent, searchable memory.
-  mental_damage: Because nothing says 'the future of autonomous engineering' like bolting an external hippocampus onto your agent so it can pretend it remembers what you asked three prompts ago.
+  summary: A local-first memory management layer that transforms agent conversations and resources into searchable, editable Markdown files.
+  why_it_matters: It provides a persistent, human-readable knowledge base that allows AI agents to retain context, project decisions, and workflow experience across sessions.
+  mental_damage: Now you have to manage your agent's long-term memory like you're organizing a chaotic personal wiki.
   tags:
-    - memory
-    - agents
-    - context
-    - python
+    - agent-memory
+    - markdown
     - rag
+    - local-first
+    - knowledge-base
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory and context management system for agents, which clearly maps to Prompt & Context Engineering rather than a coding agent or extension.
+  reason: The core novelty is the management, retrieval, and structure of memory/context for agents.
   evidence:
-    - "Repo description: 'Memory Management Kit for Agents - Remember Me, Refine Me.'"
-    - "README: 'core problems of agent memory: limited context window and stateless sessions... ReMe gives agents real memory.'"
-    - Topics include memory, rag, and agent, and it is a PyPI package (reme-ai), fitting a code-first infrastructure role.
+    - README defines it as an 'agent memory layer'
+    - Uses hybrid search (BM25, embeddings, wikilinks) for context retrieval
+    - Turns conversations into file-based long-term memory
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -79,9 +81,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:15.398Z"
+    updated_at: "2026-07-20T16:03:49.567Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:37ddda05245ef285286e326729ad223928e14305eeff937d50ad4285e8d8ca9e
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core novelty is the management, retrieval, and structure of memory/context for agents.
+      decision_evidence:
+        - README defines it as an 'agent memory layer'
+        - Uses hybrid search (BM25, embeddings, wikilinks) for context retrieval
+        - Turns conversations into file-based long-term memory
+      category_candidates:
+        - context-engineering
+        - ai-frameworks
+      contrastive_reason: Choose context-engineering over ai-frameworks because the primary value proposition is the memory and retrieval mechanism rather than a general-purpose programming SDK.
+      review_reason: null
+      review_resume_lifecycle: null

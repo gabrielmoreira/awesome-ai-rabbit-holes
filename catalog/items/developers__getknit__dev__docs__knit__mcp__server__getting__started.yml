@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation page for Knit's MCP Hub, a hosted platform for creating and deploying MCP servers that expose third-party SaaS tools to AI agents in IDEs and CLIs.
-  why_it_matters: It lets developers quickly package dozens of SaaS integrations—from HRIS and ATS to CRM and GitHub—into a single MCP server endpoint consumable by Claude, Cursor, Windsurf, or custom clients.
-  mental_damage: Because clearly the missing piece in modern development wasn't better abstractions or fewer tools, but yet another unified abstraction layer wrapping every SaaS API into a protocol wrapper so your AI agent can politely ask Greenhouse for candidates.
+  summary: A managed service that provides hosted Model Context Protocol (MCP) servers for connecting AI agents to various SaaS applications.
+  why_it_matters: It allows developers to quickly grant AI agents access to a vast array of enterprise tools like Salesforce, HubSpot, and Jira without writing custom integration code for each one.
+  mental_damage: Now you have to manage a centralized hub of third-party connectors just to keep your agents from being trapped in a context-less vacuum.
   tags:
     - mcp
-    - saas-integration
-    - agent-tooling
-    - knit
-  confidence: medium
+    - saas-integrations
+    - ai-agents
+    - connectivity
+  confidence: high
 curation:
   status: included
-  reason: The item is documentation for Knit's MCP Hub, which is an MCP-first platform for creating and deploying MCP servers, making it a clear fit for MCP Servers & Tooling.
+  reason: The product's core identity is serving as a managed hub of MCP servers to facilitate agent-to-SaaS connectivity.
   evidence:
-    - "Listed in awesome-mcp-servers under 'Official Servers' with purpose: 'A curated list of Model Context Protocol (MCP) servers'."
-    - Page title and excerpt explicitly describe 'Getting Started with Knit MCP Hub for AI Agents' and 'setting up and operating SaaS MCP servers managed by Knit'.
-    - Step-by-step docs show creating an MCP server, selecting tools, and deploying to Claude, Cursor, Windsurf, or custom clients.
+    - Directly describes itself as an 'MCP Hub for AI Agents'
+    - Provides a marketplace-style selection of tools (CRM, Accounting, HRIS) to package into an MCP server
+    - Supports deployment to Claude, Cursor, and Windsurf via MCP
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -68,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:04.210Z"
+    updated_at: "2026-07-20T15:37:16.220Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:759760c27a0034ebbea556102a79ac82d9648993a12b867f6ac280b15745d693
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is serving as a managed hub of MCP servers to facilitate agent-to-SaaS connectivity.
+      decision_evidence:
+        - Directly describes itself as an 'MCP Hub for AI Agents'
+        - Provides a marketplace-style selection of tools (CRM, Accounting, HRIS) to package into an MCP server
+        - Supports deployment to Claude, Cursor, and Windsurf via MCP
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the primary product identity is the provision of MCP-compliant servers and middleware rather than an operated multi-agent workbench.
+      review_reason: null
+      review_resume_lifecycle: null

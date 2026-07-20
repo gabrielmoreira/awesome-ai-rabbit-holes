@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 122
+    stars: 126
     forks: 14
     license: MIT
     archived: false
+    full_name: dmae97/omk
+    html_url: https://github.com/dmae97/omk
     created_at: "2026-04-30T01:41:12Z"
-    pushed_at: "2026-07-11T01:27:19Z"
+    pushed_at: "2026-07-20T02:39:03Z"
     description: Evidence-gated runner for Codex, Claude Code, OpenCode, and local coding agents. Routes tasks into scoped DAG lanes with replayable artifacts.
     homepage: ""
     topics:
@@ -53,10 +55,10 @@ metadata:
       - software-engineering
       - typescript
       - workflow-automation
-    last_checked_at: "2026-07-13T05:12:54.988Z"
+    last_checked_at: "2026-07-20T15:10:51.986Z"
     readme:
-      fetched_at: "2026-07-13T05:12:54.988Z"
-      bytes: 11755
+      fetched_at: "2026-07-20T15:10:51.986Z"
+      bytes: 13022
 insights:
   summary: A multi-agent control plane and harness designed to route, verify, and manage coding tasks across various LLMs and agents.
   why_it_matters: It provides a centralized runtime and TUI for orchestrating complex, multi-step coding workflows and verifying agent outputs via evidence gates.
@@ -88,11 +90,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T05:17:33.883Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for dmae97/omk
+    status: done
+    updated_at: "2026-07-20T15:10:51.986Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done

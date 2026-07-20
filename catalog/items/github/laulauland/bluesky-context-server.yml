@@ -58,14 +58,16 @@ metadata:
     forks: 11
     license: MIT
     archived: false
+    full_name: laulauland/bluesky-context-server
+    html_url: https://github.com/laulauland/bluesky-context-server
     created_at: "2024-11-29T22:30:53Z"
     pushed_at: "2025-08-10T13:26:48Z"
     description: Bluesky MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:25.958Z"
+    last_checked_at: "2026-07-20T15:11:47.129Z"
     readme:
-      fetched_at: "2026-07-13T05:13:25.958Z"
+      fetched_at: "2026-07-20T15:11:47.129Z"
       bytes: 5897
 insights:
   summary: An MCP server that lets AI assistants like Claude Desktop query Bluesky profiles, timelines, and search posts via the Model Context Protocol.
@@ -98,14 +100,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:25.958Z"
+    updated_at: "2026-07-20T15:11:47.129Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:08:53.244Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

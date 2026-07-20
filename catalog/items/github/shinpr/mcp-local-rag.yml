@@ -28,6 +28,8 @@ metadata:
     forks: 47
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-10-31T11:44:14Z"
     pushed_at: "2026-04-23T09:49:30Z"
     description: Local-first RAG server for developers. Semantic + keyword search for code and technical docs. Works with MCP or CLI. Fully private, zero setup.
@@ -85,9 +87,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:28:19.584Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

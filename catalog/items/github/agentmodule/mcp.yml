@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-03-15T00:56:38Z"
     pushed_at: "2026-04-04T02:42:50Z"
     description: Agent Module MCP Server — deterministic knowledge retrieval for autonomous agents
@@ -38,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:52.893Z"
       bytes: 12640
 insights:
-  summary: An MCP server providing deterministic EU AI Act compliance logic, runtime benchmarks, and semantic telemetry for autonomous agents.
-  why_it_matters: It lets agents fetch structured, citation-backed compliance rules and build auditable chains of provenance without probabilistic guesswork.
-  mental_damage: Your agent can now fail gracefully with a binary logic gate and a timestamped audit trail, right before the regulator asks why your model thought GDPR was optional.
+  summary: An MCP server providing deterministic knowledge retrieval for EU AI Act compliance logic.
+  why_it_matters: It allows autonomous agents to fetch structured, non-probabilistic compliance rules to ensure agent actions align with regulatory requirements during runtime.
+  mental_damage: Finally, a way to ensure your agent's hallucinations are at least legally compliant with the EU AI Act.
   tags:
     - mcp
     - compliance
-    - eu-ai-act
-    - knowledge-retrieval
+    - ai-regulations
     - agent-infrastructure
-  confidence: medium
+    - deterministic-logic
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that exposes EU AI Act compliance logic as a Streamable HTTP endpoint, making MCP infrastructure its primary identity.
+  reason: The product's identity is an MCP server providing specific domain-knowledge (AI compliance) to host agents.
   evidence:
-    - "Repo description: 'Agent Module MCP Server — deterministic knowledge retrieval for autonomous agents'"
-    - README shows MCP endpoint https://api.agent-module.dev/mcp with Streamable HTTP transport and protocol version 2025-06-18
-    - Included in awesome-mcp-servers under 'Knowledge & Memory' server implementations
+    - README explicitly identifies as an 'MCP Server'
+    - Product provides structured JSON-RPC logic via MCP transport
+    - Designed to be integrated into Claude Desktop, Claude Code, and Cursor via mcpServers config
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,9 +76,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:10.174Z"
+    updated_at: "2026-07-20T16:02:37.498Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:affeca840df8170bbfbdf6f4a2ad99c234d9f7d1d9c2bb01324c8cc3709d4c41
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's identity is an MCP server providing specific domain-knowledge (AI compliance) to host agents.
+      decision_evidence:
+        - README explicitly identifies as an 'MCP Server'
+        - Product provides structured JSON-RPC logic via MCP transport
+        - Designed to be integrated into Claude Desktop, Claude Code, and Cursor via mcpServers config
+      category_candidates:
+        - mcp
+        - skills
+      contrastive_reason: Choose mcp over skills because the core identity is the implementation of the Model Context Protocol to deliver these rules, rather than just being a portable pack of prompts.
+      review_reason: null
+      review_resume_lifecycle: null

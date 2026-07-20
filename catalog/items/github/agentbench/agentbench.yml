@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-02-21T18:52:02Z"
     pushed_at: "2026-02-27T16:29:02Z"
     description: null
@@ -38,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:51.995Z"
       bytes: 4678
 insights:
-  summary: A benchmark tool that runs 40 rule-based tasks across 7 domains to measure and score AI agent setup quality, configuration, and behavior rather than model intelligence.
-  why_it_matters: Developers can objectively compare how different prompt strategies, tool configurations, and agent setups perform before committing to production workflows.
-  mental_damage: Finally, quantitative proof that your overengineered agent stack scores 30 points lower than the same model with a cleaner config.
+  summary: A benchmarking framework designed to evaluate AI agent configurations across 40 real-world tasks and 7 domains using rule-based scoring.
+  why_it_matters: It shifts the focus from evaluating raw model intelligence to measuring the effectiveness of specific agentic setups, prompts, and tool configurations.
+  mental_damage: Nothing induces existential dread quite like discovering your expensive agent configuration is scoring 30 points lower than your colleague's simply because of a slight difference in prompt engineering.
   tags:
-    - benchmark
-    - agent-eval
-    - rule-based-scoring
-    - tracing
+    - benchmarking
+    - agent-evaluation
+    - instrumentation
+    - ai-agents
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, scoring, and tracing agent behavior across structured tasks using pure rule-based checks, which aligns directly with the Evals & Benchmarks category.
+  reason: The project's core identity is centered on measuring and scoring agent behavior through rule-based checks rather than providing the agent itself.
   evidence:
-    - "README states: 'Benchmark your AI agent setup — not the model' with '100% rule-based — no LLM judges'."
-    - Source list places it under 'Tools & Infrastructure > Evaluation & Benchmarking'.
-    - Includes trace.jsonl and scored reports designed for regression-testing agent configurations.
+    - README claims to 'Benchmark your AI agent setup — not the model'
+    - Uses a 3-layer scoring system (structural, metrics, behavioral) to evaluate performance
+    - Offers comparison of runs and per-tool-call tracing
 placement:
   primary_category: evals
   section: Agent Benchmarks
@@ -73,9 +75,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:00.856Z"
+    updated_at: "2026-07-20T16:01:19.662Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6ecd447798a9d658579a7a21fce384e0e9f81a1315a76de1244cbaa559cb7c0c
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The project's core identity is centered on measuring and scoring agent behavior through rule-based checks rather than providing the agent itself.
+      decision_evidence:
+        - README claims to 'Benchmark your AI agent setup — not the model'
+        - Uses a 3-layer scoring system (structural, metrics, behavioral) to evaluate performance
+        - Offers comparison of runs and per-tool-call tracing
+      category_candidates:
+        - evals
+        - agent-orchestration
+      contrastive_reason: Choose evals over agent-orchestration because the primary utility is measuring agent performance and behavior via scoring and tracing rather than coordinating multiple agents.
+      review_reason: null
+      review_resume_lifecycle: null

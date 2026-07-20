@@ -28,6 +28,8 @@ metadata:
     forks: 1
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-02-26T22:21:53Z"
     pushed_at: "2026-03-17T11:11:40Z"
     description: AgentBase MCP server — search and retrieve agent instruction files via MCP tools
@@ -46,25 +48,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:51.786Z"
       bytes: 2192
 insights:
-  summary: An MCP server that wraps the AgentBase instruction registry, exposing tools to search and retrieve system prompts, skills, and workflows for MCP-compatible AI agents.
-  why_it_matters: It lets agents and coding workflows pull reusable instruction files, safety filters, and domain packs from a shared registry at runtime instead of hardcoding them.
-  mental_damage: We have now built a protocol to let your AI borrow someone else's AI's personality, one HTTP request at a time.
+  summary: An MCP server that provides AI agents with tools to search and retrieve instruction files from the AgentBase registry.
+  why_it_matters: It allows AI agents to dynamically load domain-specific system prompts, skills, and workflows via the Model Context Protocol.
+  mental_damage: Because nothing says 'efficient development' like offloading the management of your system prompts to a registry for your agents to scrape.
   tags:
     - mcp
     - agent-instructions
-    - prompt-management
-    - registry
-  confidence: medium
+    - ai-agents
+    - mcp-server
+    - llm-tools
+  confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose primary identity is exposing AgentBase's instruction registry via MCP tools, making it a textbook fit for MCP Servers & Tooling.
+  reason: The product's identity is explicitly an MCP server that acts as a discovery/registry layer for agent instructions.
   evidence:
-    - "Repo description states: 'AgentBase MCP server — search and retrieve agent instruction files via MCP tools'."
-    - "README says: 'MCP server for the AgentBase agent instruction registry... exposes them as structured MCP tools'."
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' as a server implementation.
+    - README describes it as an 'MCP server for the AgentBase agent instruction registry'
+    - Provides tools like search_registry and get_file specifically via MCP
+    - Primary function is exposing a registry of skills/prompts as MCP tools
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
@@ -81,9 +84,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:57.385Z"
+    updated_at: "2026-07-20T16:01:39.373Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3a950d2309eb5b9e5d0e3bf614d2fcc342e6a3fe86625cb3cfe1bf758361d804
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's identity is explicitly an MCP server that acts as a discovery/registry layer for agent instructions.
+      decision_evidence:
+        - README describes it as an 'MCP server for the AgentBase agent instruction registry'
+        - Provides tools like search_registry and get_file specifically via MCP
+        - Primary function is exposing a registry of skills/prompts as MCP tools
+      category_candidates:
+        - mcp
+        - skills
+      contrastive_reason: Choose mcp over skills because the core novelty is the protocol implementation that enables discovery via MCP, rather than being the portable skill pack itself.
+      review_reason: null
+      review_resume_lifecycle: null

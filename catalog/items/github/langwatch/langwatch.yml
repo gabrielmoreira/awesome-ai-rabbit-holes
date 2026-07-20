@@ -39,12 +39,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3361
-    forks: 329
+    stars: 3403
+    forks: 337
     license: Apache-2.0
     archived: false
+    full_name: langwatch/langwatch
+    html_url: https://github.com/langwatch/langwatch
     created_at: "2023-09-09T11:33:18Z"
-    pushed_at: "2026-07-13T00:42:35Z"
+    pushed_at: "2026-07-20T15:00:36Z"
     description: The platform for LLM evaluations and AI agent testing
     homepage: https://langwatch.ai
     topics:
@@ -61,9 +63,9 @@ metadata:
       - observability
       - openai
       - prompt-engineering
-    last_checked_at: "2026-07-13T05:13:25.563Z"
+    last_checked_at: "2026-07-20T15:11:46.394Z"
     readme:
-      fetched_at: "2026-07-13T05:13:25.563Z"
+      fetched_at: "2026-07-20T15:11:46.394Z"
       bytes: 11024
 insights:
   summary: LangWatch is a platform for end-to-end LLM evaluations, AI agent testing, and production observability, supporting OpenTelemetry-native tracing, simulations, and prompt optimization loops.
@@ -97,14 +99,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:25.563Z"
+    updated_at: "2026-07-20T15:11:46.394Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:08:47.492Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

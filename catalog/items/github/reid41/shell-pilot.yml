@@ -27,6 +27,8 @@ metadata:
     forks: 15
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-04-14T08:01:42Z"
     pushed_at: "2025-01-28T01:52:46Z"
     description: A simple, lightweight shell script to interact with OpenAI or Ollama or Mistral AI or LocalAI or ZhipuAI from the terminal, and enhancing intelligent system management without any dependencies(pure shell).
@@ -86,9 +88,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:25:22.810Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

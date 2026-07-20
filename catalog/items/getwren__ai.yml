@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Wren AI is a generative BI platform that converts natural language questions into SQL queries, charts, and insights using a unified semantic layer.
-  why_it_matters: It allows developers and data teams to embed conversational analytics into products and workflows without writing manual SQL or building custom dashboard scaffolding.
-  mental_damage: We have successfully abstracted away the pain of learning SQL, only to replace it with the new, exciting pain of debugging why the AI thinks your revenue column is actually 'user_count'.
+  summary: Wren AI is an open-source GenBI platform that converts natural language into governed text-to-SQL and structured insights across multiple data sources.
+  why_it_matters: It allows developers to build agentic data interfaces that bridge the gap between raw databases and human-readable analytics with built-in governance.
+  mental_damage: Now you have to decide whether to trust your agent's SQL query or spend the afternoon auditing its semantic model.
   tags:
-    - bi
-    - sql
-    - analytics
-    - semantic-layer
-    - data
+    - genbi
+    - text-to-sql
+    - data-engineering
+    - agentic-analytics
+    - governance
   confidence: high
 curation:
-  status: excluded
-  reason: This is a business intelligence and analytics platform for end-users and data teams, not a developer tool for writing, debugging, or orchestrating code.
+  status: included
+  reason: The product is primarily an end-user platform for generating dashboards and interactive data tools from prompts.
   evidence:
-    - Scraped site describes 'Generative BI' focused on 'governed SQL, charts, and insights' for executives and data teams.
-    - Use cases are vertical business domains like Retail, Media, and Manufacturing rather than software development workflows.
-    - Listed in awesome-ai-agents, but its primary identity is a BI SaaS/product, not a coding agent or dev infrastructure.
+    - Claims to build 'eal-time dashboards' in one prompt
+    - Provides embedded UI components for developers to ship conversational analytics
+    - Focuses on generating GenBI apps and structured insights
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Internal Tools & Dashboards
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:23.200Z"
+    updated_at: "2026-07-20T15:47:15.808Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:84b35f7c024524af63b56e5260969b35d244c495d8bf2a2e87e0c01610c53ddd
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product is primarily an end-user platform for generating dashboards and interactive data tools from prompts.
+      decision_evidence:
+        - Claims to build 'eal-time dashboards' in one prompt
+        - Provides embedded UI components for developers to ship conversational analytics
+        - Focuses on generating GenBI apps and structured insights
+      category_candidates:
+        - app-builders
+        - ai-frameworks
+      contrastive_reason: Choose app-builders over ai-frameworks because the primary user experience is centered on creating interactive dashboards and internal tools via natural language rather than importing a library.
+      review_reason: null
+      review_resume_lifecycle: null

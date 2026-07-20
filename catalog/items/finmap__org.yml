@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,21 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A global stock market visualization and news reader site covering major exchanges with treemaps and histograms.
-  why_it_matters: It provides a quick visual reference for market cap and trading data across multiple exchanges, which might be useful context for fintech-related development work.
-  mental_damage: Yet another reminder that we will happily bookmark any data visualization site that promises to make us feel like we understand the economy while our own stock options vest.
+  summary: A global stock market visualization tool featuring treemaps and histograms for major exchanges.
+  why_it_matters: Provides visual market data and news tracking for financial analysis.
+  mental_damage: Another dashboard to check while pretending you aren't actually coding.
   tags:
     - finance
     - visualization
-    - market-data
+    - stock-market
+    - data-viz
   confidence: high
 curation:
   status: excluded
-  reason: This is a consumer-facing financial data visualization website, not a developer tool, agent, extension, or infrastructure component.
+  reason: The tool is a general-purpose financial visualization platform and does not relate to software development, AI workflows, or coding infrastructure.
   evidence:
-    - Primary page excerpt shows a treemap/histogram market visualization interface with no developer API or integration surface.
-    - Source-list context lists it as a 'Global stock market visualisation tool' under finance/fintech, not as a coding tool.
-    - No repo description, stars, or code presence; the product is a standalone site, not developer-facing infrastructure.
+    - Site content focuses on stock market visualization (NASDAQ, NYSE, LSE)
+    - Functionality is centered on market capitalization and news feeds
+    - No connection to developer tooling, AI agents, or programming workflows
 placement:
   primary_category: null
   section: null
@@ -68,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:11.977Z"
+    updated_at: "2026-07-20T15:45:34.352Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:800fb05a45996a86363c84e72b62e2862df1e0300788d5896fc16f0dfde6eb34
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a general-purpose financial visualization platform and does not relate to software development, AI workflows, or coding infrastructure.
+      decision_evidence:
+        - Site content focuses on stock market visualization (NASDAQ, NYSE, LSE)
+        - Functionality is centered on market capitalization and news feeds
+        - No connection to developer tooling, AI agents, or programming workflows
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

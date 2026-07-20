@@ -28,6 +28,8 @@ metadata:
     forks: 5
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-04-25T16:39:34Z"
     pushed_at: "2026-02-26T23:25:59Z"
     description: MCP server with tools for interacting with RuneScape (RS) and Old School RuneScape (OSRS) data
@@ -75,9 +77,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:30:26.768Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -27,6 +27,8 @@ metadata:
     forks: 12
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-03-19T14:22:05Z"
     pushed_at: "2025-03-20T14:09:47Z"
     description: "A Model Context Protocol Server for connecting with Adfin APIs "
@@ -37,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:50.730Z"
       bytes: 1809
 insights:
-  summary: A Model Context Protocol server that lets Claude Desktop connect to Adfin APIs for credit control, invoicing, and document upload tasks.
-  why_it_matters: It enables developers using Claude Desktop to interact with Adfin's financial APIs through natural language instead of writing custom integration code.
-  mental_damage: We have reached the point where 'connects to a very specific B2B API' is a standalone MCP server you need to configure, install, and maintain.
+  summary: An MCP server that enables AI assistants to interact with Adfin APIs for invoice management and credit control.
+  why_it_matters: It allows developers to use natural language to automate specific business logic tasks like creating invoices or checking credit status via Claude Desktop.
+  mental_damage: Another layer of abstraction to debug when your AI assistant suddenly starts hallucinating invoice totals.
   tags:
     - mcp
-    - adfin
+    - automation
     - api-integration
-    - claude-desktop
+    - fintech
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server enabling Claude Desktop to access Adfin's financial APIs, fitting cleanly into the MCP Servers & Tooling category.
+  reason: The tool's sole purpose is acting as an MCP server to bridge a specific API to an LLM host.
   evidence:
-    - "Repo description states: 'A Model Context Protocol Server for connecting with Adfin APIs'"
-    - README details configuration for Claude Desktop via mcpServers in claude_desktop_config.json
-    - Listed in awesome-mcp-servers under the 'Official Servers' section
+    - Repo description explicitly defines it as an MCP Server
+    - README describes configuration for Claude Desktop via mcpServers
+    - Core functionality is providing domain-specific tools (invoices, credit control) via MCP
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -72,9 +74,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:41.494Z"
+    updated_at: "2026-07-20T15:58:14.131Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:732e5b5adeccd951c984b0082b6c7dbc534e3477c965554700f8b12f7d508fab
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's sole purpose is acting as an MCP server to bridge a specific API to an LLM host.
+      decision_evidence:
+        - Repo description explicitly defines it as an MCP Server
+        - README describes configuration for Claude Desktop via mcpServers
+        - Core functionality is providing domain-specific tools (invoices, credit control) via MCP
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity and distribution method is the Model Context Protocol.
+      review_reason: null
+      review_resume_lifecycle: null

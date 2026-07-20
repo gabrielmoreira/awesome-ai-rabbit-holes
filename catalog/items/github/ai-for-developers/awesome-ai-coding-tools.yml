@@ -27,6 +27,8 @@ metadata:
     forks: 543
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-06-27T13:08:36Z"
     pushed_at: "2026-04-25T10:30:08Z"
     description: A curated list of AI-powered coding tools
@@ -57,22 +59,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:54.474Z"
       bytes: 39452
 insights:
-  summary: A curated awesome list cataloging AI-powered coding tools, editors, agents, and related infrastructure for developers.
-  why_it_matters: It provides a structured map of the rapidly expanding AI coding ecosystem, organized by tool type to help developers discover relevant assistants and infrastructure.
-  mental_damage: Another navigation aid for the paradox of choice, ensuring you can spend three hours researching tools instead of actually writing code with them.
+  summary: A curated directory of AI-powered coding tools including editors, agents, and productivity utilities.
+  why_it_matters: It provides a central navigation point to discover the rapidly evolving ecosystem of AI-native development tools.
+  mental_damage: It's a map of a territory that changes shape faster than you can finish reading the legend.
   tags:
-    - awesome-list
+    - curated-list
     - directory
-    - ai-tools
-    - curation
+    - ai-coding
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: This is a curation and discovery resource, not a standalone product, fitting the Lists & Directories category perfectly.
+  reason: The project is a curated directory of AI tools, which is the definition of the awesome-awesomes category.
   evidence:
-    - Repo description explicitly states 'A curated list of AI-powered coding tools'.
-    - README organizes tools into sections like 'Code Editors', 'Coding Agents', and 'MCP Servers'.
-    - Marked as a 'Direct awesome list source' with the sindresorhus/awesome badge.
+    - Repo description explicitly states it is a 'curated list of AI-powered coding tools'
+    - README structure consists of various lists/directories rather than a standalone tool
+    - 1908 stars indicates significant ecosystem traction as a discovery resource
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -92,9 +94,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:41.821Z"
+    updated_at: "2026-07-20T16:07:58.395Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:473c74ae28c15e4f4bcea5daa2078653edc325635e3f00dc00a9922ebde1d119
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The project is a curated directory of AI tools, which is the definition of the awesome-awesomes category.
+      decision_evidence:
+        - Repo description explicitly states it is a 'curated list of AI-powered coding tools'
+        - README structure consists of various lists/directories rather than a standalone tool
+        - 1908 stars indicates significant ecosystem traction as a discovery resource
+      category_candidates:
+        - awesome-awesomes
+        - coding-agents
+      contrastive_reason: Choose awesome-awesomes over coding-agents because the project is a directory for discovering tools rather than a standalone coding assistant itself.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Checksum is a continuous AI testing platform that automatically generates, runs, and maintains Playwright end-to-end, API, and unit tests by simulating production environments.
-  why_it_matters: It offloads the low-leverage work of writing and fixing tests as codebases evolve, aiming to keep coverage high without slowing down teams using coding agents.
-  mental_damage: We have successfully automated the maintenance of the tests we let AI write to validate the code that other AI wrote, completing the ouroboros of synthetic confidence.
+  summary: An AI-powered testing platform that automatically generates, executes, and self-heals Playwright end-to-end and API tests.
+  why_it_matters: It aims to eliminate the manual toil of writing and maintaining brittle E2E test suites by using agents to fix broken tests autonomously.
+  mental_damage: Now you don't have to spend your weekends fixing flaky selectors; you can spend them reviewing the PRs where the AI fixed them.
   tags:
-    - testing
-    - qa
-    - e2e
-    - agents
+    - e2e-testing
     - playwright
+    - automated-qa
+    - self-healing-tests
+    - ci-cd
   confidence: high
 curation:
   status: included
-  reason: The product is an autonomous agent that reads code, generates tests, executes them against real environments, and repairs failures automatically, fitting the definition of a coding agent focused on testing and repair.
+  reason: The product is a specialized agentic system designed to autonomously repair and maintain test code, fitting the 'Repair Agents' definition.
   evidence:
-    - Scraped site states Checksum 'generates, runs, and maintains end-to-end tests automatically' with agents for E2E, CI, and API.
-    - Included in the awesome-ai-coding-tools list under the 'Testing and QA' section.
-    - Product description highlights autonomous resolution of 70% of test failures without engineer intervention.
+    - Claims to resolve 70% of failures autonomously without engineer intervention
+    - Provides specialized E2E, CI, and API agents
+    - Generates and heals Playwright tests automatically
 placement:
   primary_category: coding-agents
   section: Review, Testing & Repair Agents
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:03.155Z"
+    updated_at: "2026-07-20T15:29:36.214Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d4aafda578caca9822e56312c009a4e8848c8c1f425b61b7ec424db373bdfb18
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The product is a specialized agentic system designed to autonomously repair and maintain test code, fitting the 'Repair Agents' definition.
+      decision_evidence:
+        - Claims to resolve 70% of failures autonomously without engineer intervention
+        - Provides specialized E2E, CI, and API agents
+        - Generates and heals Playwright tests automatically
+      category_candidates:
+        - coding-agents
+        - evals
+      contrastive_reason: Choose coding-agents over evals because the tool's primary function is the active repair and generation of test code rather than just the scoring or measurement of it.
+      review_reason: null
+      review_resume_lifecycle: null

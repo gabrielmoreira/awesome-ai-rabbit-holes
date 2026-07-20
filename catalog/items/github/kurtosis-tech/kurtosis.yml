@@ -28,8 +28,10 @@ metadata:
     forks: 96
     license: Apache-2.0
     archived: false
+    full_name: kurtosis-tech/kurtosis
+    html_url: https://github.com/kurtosis-tech/kurtosis
     created_at: "2023-02-14T15:44:55Z"
-    pushed_at: "2026-07-01T08:41:57Z"
+    pushed_at: "2026-07-16T02:59:19Z"
     description: A platform for packaging and launching blockchain infra. Think docker compose for blockchain
     homepage: https://docs.kurtosistech.com/
     topics:
@@ -47,9 +49,9 @@ metadata:
       - kubernetes
       - networks
       - prototyping
-    last_checked_at: "2026-07-13T05:13:23.761Z"
+    last_checked_at: "2026-07-20T15:11:43.178Z"
     readme:
-      fetched_at: "2026-07-13T05:13:23.761Z"
+      fetched_at: "2026-07-20T15:11:43.178Z"
       bytes: 24511
 insights:
   summary: Kurtosis is a container orchestration platform for packaging and launching ephemeral backend stacks on Docker or Kubernetes, with a dedicated skills pack teaching Claude Code how to manage its environments.
@@ -83,14 +85,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:23.761Z"
+    updated_at: "2026-07-20T15:11:43.178Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:08:02.327Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

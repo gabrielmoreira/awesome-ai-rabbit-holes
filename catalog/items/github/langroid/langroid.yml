@@ -54,10 +54,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4067
-    forks: 386
+    stars: 4077
+    forks: 387
     license: MIT
     archived: false
+    full_name: langroid/langroid
+    html_url: https://github.com/langroid/langroid
     created_at: "2023-04-16T20:47:28Z"
     pushed_at: "2026-07-12T20:27:58Z"
     description: Harness LLMs with Multi-Agent Programming
@@ -81,9 +83,9 @@ metadata:
       - openai-api
       - rag
       - retrieval-augmented-generation
-    last_checked_at: "2026-07-13T05:13:25.442Z"
+    last_checked_at: "2026-07-20T15:11:46.503Z"
     readme:
-      fetched_at: "2026-07-13T05:13:25.442Z"
+      fetched_at: "2026-07-20T15:11:46.503Z"
       bytes: 59068
 insights:
   summary: Langroid is a Python framework for building LLM-powered applications using a multi-agent architecture where developers define agents, equip them with tools and vector stores, and orchestrate message-passing to solve tasks.
@@ -117,14 +119,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:25.442Z"
+    updated_at: "2026-07-20T15:11:46.503Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:08:43.067Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -39,10 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 15
+    stars: 16
     forks: 7
     license: Apache-2.0
     archived: false
+    full_name: iunera/druid-mcp-server
+    html_url: https://github.com/iunera/druid-mcp-server
     created_at: "2025-06-27T15:02:26Z"
     pushed_at: "2026-06-30T10:04:42Z"
     description: A comprehensive Model Context Protocol (MCP) server for Apache Druid that provides extensive tools, resources, and AI-assisted prompts for managing and analyzing Druid clusters. Built with Spring Boot and Spring AI, this server enables seamless integration between AI assistants and Apache Druid through standardized MCP protocol.
@@ -54,9 +56,9 @@ metadata:
       - mcp-server
       - model-context-protocol
       - spring-ai
-    last_checked_at: "2026-07-13T05:13:08.736Z"
+    last_checked_at: "2026-07-20T15:11:16.552Z"
     readme:
-      fetched_at: "2026-07-13T05:13:08.736Z"
+      fetched_at: "2026-07-20T15:11:16.552Z"
       bytes: 36213
 insights:
   summary: A Spring Boot and Spring AI-based MCP server that exposes Apache Druid cluster management, ingestion, and analytics capabilities as tools, resources, and prompts for AI assistants.
@@ -90,14 +92,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:08.736Z"
+    updated_at: "2026-07-20T15:11:16.552Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:02:54.448Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

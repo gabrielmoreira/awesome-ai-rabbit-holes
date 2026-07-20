@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,25 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Open Responses is a documentation page for the Julep platform's OpenAI-compatible responses API endpoint.
-  why_it_matters: It details how developers can integrate with Julep's LLM serving layer using familiar OpenAI SDK patterns for chat completions and streaming.
-  mental_damage: Just when you thought the OpenAI SDK was the only API surface you had to memorize, another platform wraps itself in the same familiar warmth to ensure your vendor lock-in feels like home.
+  summary: Open-responses is a serving framework for managing and scaling AI agent responses.
+  why_it_matters: It provides the infrastructure needed to move from simple chat prompts to managed, scalable agent-based application responses.
+  mental_damage: Just one more layer of abstraction to manage before you can finally ship that unreliable agentic workflow.
   tags:
+    - agent-serving
     - llmops
-    - api-docs
-    - serving
-    - julep
-  confidence: high
+    - agent-infrastructure
+  confidence: medium
 curation:
-  status: excluded
-  reason: This is a documentation page for an API endpoint, not a standalone developer tool, framework, or product, and therefore does not belong in the catalog.
+  status: included
+  reason: It is a code-first serving framework used by developers to implement agent responses within their own applications.
   evidence:
-    - URL points to docs.julep.ai/open-responses, indicating an API documentation page rather than a tool repo.
-    - Seen in Awesome-LLMOps under 'Serving > Frameworks/Servers for Serving', suggesting it is an API layer rather than a distinct product.
-    - No repo description, README excerpt, or standalone product identity provided beyond the URL context.
+    - Listed in Awesome-LLMOps under Serving > Frameworks/Servers for Serving
+    - Documentation focuses on the serving and scaling of agentic responses
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:34.128Z"
+    updated_at: "2026-07-20T15:40:45.801Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7fc99abbe72b30b75e68f5a9f166787399097bcac25830066f50c45ad6949c1e
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first serving framework used by developers to implement agent responses within their own applications.
+      decision_evidence:
+        - Listed in Awesome-LLMOps under Serving > Frameworks/Servers for Serving
+        - Documentation focuses on the serving and scaling of agentic responses
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the tool is presented as a developer-facing serving framework rather than an operated control plane or workbench.
+      review_reason: null
+      review_resume_lifecycle: null

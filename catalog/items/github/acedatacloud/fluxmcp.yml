@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-03-08T20:38:55Z"
     pushed_at: "2026-07-12T08:53:14Z"
     description: MCP server for Flux AI image generation and editing via Ace Data Cloud.
@@ -44,25 +46,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:50.062Z"
       bytes: 12170
 insights:
-  summary: An MCP server that exposes Flux AI image generation and editing capabilities to Claude, Cursor, and other MCP-compatible developer tools via the Ace Data Cloud API.
-  why_it_matters: Developers can invoke image generation and editing directly from their coding assistants without leaving the IDE or wiring custom API integrations.
-  mental_damage: Your coding agent can now generate mood boards and concept art, ensuring that even the most straightforward backend ticket spirals into a multi-hour sidebar about typography and Midjourney alternatives.
+  summary: An MCP server that provides image generation and editing capabilities using Flux models via the Ace Data Cloud platform.
+  why_it_matters: It enables developers to generate and edit high-quality AI images directly within MCP-compatible environments like Claude Desktop, Cursor, and VS Code.
+  mental_damage: Because why context-switch to a browser for image generation when you can just ask your IDE to hallucinate a picture for you?
   tags:
-    - mcp
+    - mcp-server
     - image-generation
     - flux
     - developer-tools
+    - ace-data-cloud
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: a dedicated server that gives developer tools access to a specific domain (AI image generation) via the Model Context Protocol."
+  reason: The tool's primary identity is a Model Context Protocol (MCP) server designed to expose Flux AI capabilities to other host applications.
   evidence:
-    - Repo description explicitly states 'MCP server for Flux AI image generation and editing'.
-    - README positions the tool as an MCP server for Claude, Cursor, Cline, and other MCP-compatible clients.
-    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture.
+    - Repo description explicitly states it is an 'MCP server for Flux AI'
+    - README provides configuration for MCP-compatible clients like Claude, Cursor, and Windsurf
+    - Product identity is the server/interface layer, not the model itself
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -79,9 +82,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:28.673Z"
+    updated_at: "2026-07-20T15:56:53.339Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4283d3125137c69b3c7349f57edf50fe666ba11d598bab2731a809ec6cad36d8
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is a Model Context Protocol (MCP) server designed to expose Flux AI capabilities to other host applications.
+      decision_evidence:
+        - Repo description explicitly states it is an 'MCP server for Flux AI'
+        - README provides configuration for MCP-compatible clients like Claude, Cursor, and Windsurf
+        - Product identity is the server/interface layer, not the model itself
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity is as a protocol-standard server rather than a specific IDE-bound plugin.
+      review_reason: null
+      review_resume_lifecycle: null

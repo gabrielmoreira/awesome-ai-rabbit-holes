@@ -58,6 +58,8 @@ metadata:
     forks: 17
     license: Apache-2.0
     archived: true
+    full_name: null
+    html_url: null
     created_at: "2024-11-27T10:07:15Z"
     pushed_at: "2025-09-01T09:00:40Z"
     description: null
@@ -102,9 +104,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:33:24.498Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.655Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

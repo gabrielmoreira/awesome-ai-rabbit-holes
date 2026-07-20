@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Framer AI is a feature within the Framer web design platform that generates websites and UI layouts from text prompts.
-  why_it_matters: It allows developers and designers to scaffold marketing sites and UI prototypes directly from natural language, cutting down on boilerplate CSS and layout work.
-  mental_damage: Yet another reminder that while AI can ship your landing page in seconds, it still can't decide if your z-index hell is a feature or a bug.
+  summary: Framer AI is a design-to-site platform that uses generative AI to build and deploy websites from text prompts.
+  why_it_matters: It enables rapid prototyping and deployment of production-ready web interfaces through natural language, bypassing traditional layout manual labor.
+  mental_damage: It turns the 'I'll just quickly fix this div' workflow into 'I'll just prompt a whole new layout and pray it doesn't break the CMS'.
   tags:
-    - app-builder
-    - prompt-to-site
-    - web-design
-    - framer
-  confidence: medium
+    - app-builders
+    - no-code
+    - design-to-site
+    - web-generation
+  confidence: high
 curation:
   status: included
-  reason: The tool is a prompt-to-site builder integrated into the Framer platform, focused on generating new web layouts rather than editing existing codebases.
+  reason: The product's core identity is turning prompts into deployed websites, which matches the 'App Builders' definition perfectly.
   evidence:
-    - URL is framer.com/ai, indicating an AI feature within the Framer web design ecosystem.
-    - Included in awesome-ai-coding-tools under the 'App Builders' section.
-    - Product identity aligns with prompt-to-site generation rather than repo editing or coding agents.
+    - Source-list context identifies it in 'awesome-ai-coding-tools' under 'App Builders'
+    - Product identity is prompt-to-site generation
 placement:
   primary_category: app-builders
   section: Prompt-to-Site Builders
@@ -68,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:14.343Z"
+    updated_at: "2026-07-20T15:45:47.477Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:72a859da767cfa4c24430aa3504a0c314d45b4df3c2ad9f9c8dbec48faa4cdfa
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product's core identity is turning prompts into deployed websites, which matches the 'App Builders' definition perfectly.
+      decision_evidence:
+        - Source-list context identifies it in 'awesome-ai-coding-tools' under 'App Builders'
+        - Product identity is prompt-to-site generation
+      category_candidates:
+        - app-builders
+        - ai-ides-editors
+      contrastive_reason: Choose app-builders over ai-ides-editors because the product generates a complete deployed site from prompts rather than acting as a developer's primary coding environment.
+      review_reason: null
+      review_resume_lifecycle: null

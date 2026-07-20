@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ContextQA is an enterprise QA automation platform that auto-generates and heals UI, API, and backend tests, with specialized tooling for validating AI agent behavior and MCP integrations for Cursor and Claude Code.
-  why_it_matters: It lets teams generate end-to-end test suites from flows, auto-heal broken selectors, and run adversarial scenarios against AI agents without manual scripting or code instrumentation.
-  mental_damage: You can now outsource your regression anxiety to an agent that patches its own broken selectors, while you debug why your Cursor MCP integration still thinks a button is where it was three deploys ago.
+  summary: An AI-native testing platform that automates end-to-end QA for enterprise applications and AI agents through self-healing tests and MCP integration.
+  why_it_matters: It helps developers validate non-deterministic AI agents and complex enterprise workflows by automatically catching hallucinations and selector drift.
+  mental_damage: Finally, a way to watch your AI agent hallucinate in a controlled, automated environment before it does it to your customers.
   tags:
-    - qa
-    - testing
-    - ai-agents
+    - ai-testing
+    - qa-automation
     - mcp
-    - enterprise
+    - enterprise-software
+    - agent-validation
   confidence: high
 curation:
   status: included
-  reason: Its core job is measuring, scoring, and regression-testing AI agent behavior with adversarial scenarios and AI judgment, which maps directly to the evals category rather than being a general coding assistant or platform.
+  reason: The product's core value is measuring, scoring, and regression-testing the behavior and quality of AI agents and enterprise apps.
   evidence:
-    - "Site states it 'generates hundreds of adversarial and functional scenarios: hallucination traps, edge cases, multi-turn conversations, and policy violations' for AI agents."
-    - Scoring is done via 'configurable criteria using AI judgment and deterministic checks' with confidence scores, not just functional test execution.
-    - Includes continuous regression testing that 're-runs your full scenario suite against each new version and surfaces behavioral drift', a classic eval workflow.
+    - Claims to catch hallucinations and drift in AI agents
+    - Uses AI judgment and deterministic checks to score response quality
+    - Provides automated regression testing for model versions
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:35.750Z"
+    updated_at: "2026-07-20T15:34:05.761Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6d23962da26244a5f33a03e8dc1f0b7839f728b8991a663fb0af0f4121775d29
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The product's core value is measuring, scoring, and regression-testing the behavior and quality of AI agents and enterprise apps.
+      decision_evidence:
+        - Claims to catch hallucinations and drift in AI agents
+        - Uses AI judgment and deterministic checks to score response quality
+        - Provides automated regression testing for model versions
+      category_candidates:
+        - evals
+        - ai-dev-extensions
+      contrastive_reason: Choose evals over ai-dev-extensions because the primary job of the tool is measuring agent behavior and quality rather than merely acting as an integration layer for an editor.
+      review_reason: null
+      review_resume_lifecycle: null

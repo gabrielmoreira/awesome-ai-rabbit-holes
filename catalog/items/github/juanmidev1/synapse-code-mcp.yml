@@ -6,6 +6,22 @@ identity:
   github_repo: juanmidev1/synapse-code-mcp
 provenance:
   discoveries:
+    - id: discovery__github__eltortilla1__synapse-code-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-29T05:38:18.519Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Eltortilla1/synapse-code-mcp
+        extracted_url: https://github.com/eltortilla1/synapse-code-mcp
+        surrounding_text: "- [Eltortilla1/synapse-code-mcp](https://github.com/Eltortilla1/synapse-code-mcp) 📇 🏠 🍎 🪟 🐧 - Structural code context server for AI agents — compressed symbol indexes, dependency graphs, and git diffs via TypeScript AST analysis. Zero external dependencies, no vector database or embedding API required."
+        confidence: high
     - id: discovery__github__juanmidev1__synapse-code-mcp__awesome-list__punkpeye__awesome-mcp-servers
       discovered_at: "2026-07-13T05:12:52.223Z"
       source:
@@ -28,39 +44,54 @@ metadata:
     forks: 1
     license: MIT
     archived: false
+    full_name: Juanmidev1/synapse-code-mcp
+    html_url: https://github.com/Juanmidev1/synapse-code-mcp
     created_at: "2026-06-21T12:28:53Z"
-    pushed_at: "2026-07-12T15:42:26Z"
+    pushed_at: "2026-07-16T10:49:27Z"
     description: Model Context Protocol server for code intelligence. Lets AI assistants explore your codebase on demand — semantic context with dependency graphs, compressed symbol indexes for TypeScript/JavaScript, plus git diffs and ripgrep-powered search across any language.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:15.515Z"
+    last_checked_at: "2026-07-20T15:11:28.462Z"
     readme:
-      fetched_at: "2026-07-13T05:13:15.515Z"
+      fetched_at: "2026-07-20T15:11:28.462Z"
       bytes: 15829
 insights:
-  summary: An MCP server that provides structural code context including dependency graphs, symbol indexes, and git diffs to AI assistants.
-  why_it_matters: It provides high-density structural context to LLMs without the overhead of external vector databases or embedding costs.
-  mental_damage: Because why use expensive embeddings when you can just compress your entire codebase into a single, optimized prompt header?
+  summary: An MCP server that provides structural code context, dependency graphs, and symbol indexes to AI assistants.
+  why_it_matters: It allows AI assistants to explore large codebases with high precision and minimal context waste without requiring a vector database or embedding API.
+  mental_damage: Another way to ensure your AI assistant can hallucinate about your architecture with significantly more structural confidence.
   tags:
-    - mcp
-    - context-engineering
     - code-intelligence
+    - context-engineering
     - local-ai
+    - mcp
   confidence: high
 curation:
-  status: included
-  reason: The project's primary identity is an MCP server designed to provide context to other assistants.
+  status: pending
+  reason: Conflicting duplicate curation or placement requires review.
   evidence:
+    - Repo description and README identify it primarily as a Model Context Protocol server.
+    - The tool provides specific domain intelligence including dependency graphs and symbol indexes.
+    - It is designed to be used as an MCP-based bridge between an assistant and a local repository.
+    - "included: The product is explicitly an MCP server designed to provide domain-specific code intelligence to connected assistants."
     - Repo description specifically identifies it as a 'Model Context Protocol server'
     - README defines the product architecture as AI Assistant ──MCP──► Synapse MCP
     - Core value prop is providing structural context via the MCP protocol
+    - "included: The project's primary identity is an MCP server designed to provide context to other assistants."
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+    attempts: 0
   discover:
     status: done
     updated_at: "2026-07-13T05:12:52.225Z"
@@ -68,14 +99,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:15.515Z"
+    updated_at: "2026-07-20T15:11:28.462Z"
     cause: null
-    next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-07-13T05:22:27.512Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
     next_retry_at: null

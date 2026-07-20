@@ -27,6 +27,8 @@ metadata:
     forks: 1
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-04-19T13:18:24Z"
     pushed_at: "2026-05-06T13:42:04Z"
     description: AI agent skills for deploying applications to Kubernetes with Qovery. Works with OpenCode, Claude Code, and any agent supporting SKILL.md.
@@ -82,9 +84,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:23:47.836Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

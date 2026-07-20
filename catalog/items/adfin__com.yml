@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Adfin is a payments and credit-control platform that uses agentic AI to automate invoicing, chase late payments, and reconcile transactions for businesses and accountants.
-  why_it_matters: It offers an API-driven finance automation layer that developers can integrate into platforms to handle the tedious parts of getting paid.
-  mental_damage: We now have autonomous agents chasing invoices, so the only thing left for developers to debug is why the AI is better at collecting money than we are at writing error-free code.
+  summary: Adfin is a business payments platform that automates payment collection, reconciliation, and credit control for finance teams, accountants, and small-to-large businesses.
+  why_it_matters: It uses agentic AI to chase invoices, but the product is squarely aimed at finance operations rather than software developers.
+  mental_damage: Your accountant now has an AI agent to chase late payments, while you're still writing regex by hand.
   tags:
     - payments
-    - finance
+    - credit-control
+    - business-saas
     - agentic-ai
-    - automation
-    - integrations
+    - mcp-server
   confidence: high
 curation:
   status: excluded
-  reason: Adfin is a vertical SaaS product for business payments and credit control rather than a developer-facing AI tool, agent, or infrastructure component.
+  reason: The product is a business payments and credit-control platform aimed at finance teams; it is not a developer-facing AI tool, coding assistant, or infrastructure product.
   evidence:
-    - Site description focuses on getting paid, credit control, and payment reconciliation for businesses and accountants.
-    - No repo description, stars, or developer-tooling artifacts provided; it is a commercial finance platform.
-    - Only listed in awesome-mcp-servers as a server type, not as MCP infrastructure or a developer tool.
+    - Site title and description frame the product as 'Just Get Paid' and 'automate payment collection end-to-end', targeting accountants, bookkeepers, and MSPs.
+    - The mention of 'agentic AI' appears only in the credit-control section for automating payment reminders and follow-ups, not for code generation, debugging, or developer orchestration.
+    - No repository description, stars, or developer-focused README is provided; the only source-list placement is under awesome-mcp-servers as an Official Server, indicating an integration adapter rather than a developer tool.
 placement:
   primary_category: null
   section: null
@@ -69,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:16.548Z"
+    updated_at: "2026-07-20T15:14:54.039Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6e3bba2c116290f8226daeae269aeb28aa5df8607758399029b32c8bfccc2345
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a business payments and credit-control platform aimed at finance teams; it is not a developer-facing AI tool, coding assistant, or infrastructure product.
+      decision_evidence:
+        - Site title and description frame the product as 'Just Get Paid' and 'automate payment collection end-to-end', targeting accountants, bookkeepers, and MSPs.
+        - The mention of 'agentic AI' appears only in the credit-control section for automating payment reminders and follow-ups, not for code generation, debugging, or developer orchestration.
+        - No repository description, stars, or developer-focused README is provided; the only source-list placement is under awesome-mcp-servers as an Official Server, indicating an integration adapter rather than a developer tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

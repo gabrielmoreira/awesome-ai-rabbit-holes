@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A TypeScript toolkit from Vercel providing a unified SDK for generating text, structured objects, and tool calls across 100+ LLM models with built-in streaming and provider fallbacks.
-  why_it_matters: It lets developers build AI-powered applications and agents using a single API that abstracts away provider differences, streaming, and multi-model routing.
-  mental_damage: We have reached the point where the primary innovation is a polite abstraction layer that lets you pretend Anthropic, OpenAI, and Google are the same API, right before they all change their schemas again.
+  summary: A unified TypeScript SDK from Vercel for building AI-powered applications with support for streaming, fallbacks, and multiple model providers.
+  why_it_matters: It provides a standardized, framework-agnostic abstraction layer that simplifies complex tasks like streaming responses and tool-calling across different LLM providers.
+  mental_damage: Just when you thought you'd mastered one LLM provider's API, another unified abstraction arrives to render your custom wrapper code obsolete.
   tags:
     - typescript
     - sdk
+    - streaming
     - multi-model
     - vercel
-    - agents
   confidence: high
 curation:
   status: included
-  reason: The product is a code-first SDK and provider abstraction layer used by developers to build AI apps and agents, fitting cleanly into Frameworks & SDKs.
+  reason: It is a code-first SDK designed to be imported and scripted into applications rather than being an operated platform or assistant.
   evidence:
-    - "Scraped description: 'A unified TypeScript SDK for building AI apps with modern streaming, fallbacks, and multi-model support—powered by Vercel'."
-    - Source list awesome-ai-coding-tools places it in 'AI Frameworks and SDKs'.
-    - "Docs show code-first usage: 'import { generateText } from ai' and 11.9M weekly downloads."
+    - Claims to be a 'unified TypeScript SDK for building AI apps'
+    - Provides specific primitives like 'generateText' and 'treamText'
+    - Found in awesome-ai-coding-tools under 'AI Frameworks and SDKs'
 placement:
   primary_category: ai-frameworks
   section: Provider / Model Abstractions
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:34.059Z"
+    updated_at: "2026-07-20T15:19:17.096Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:baec60a268276a29d6aa1ef8da2490327bcac6ad1fb0b1bb9f2e4991e0128bc0
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first SDK designed to be imported and scripted into applications rather than being an operated platform or assistant.
+      decision_evidence:
+        - Claims to be a 'unified TypeScript SDK for building AI apps'
+        - Provides specific primitives like 'generateText' and 'treamText'
+        - Found in awesome-ai-coding-tools under 'AI Frameworks and SDKs'
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary usage pattern is importing the SDK into a codebase as a library rather than using a managed workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

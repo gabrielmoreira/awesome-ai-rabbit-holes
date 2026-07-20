@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The official Visual Studio Code documentation page for GitHub Copilot Chat, describing how to access chat surfaces, add context, choose models, and review AI-generated code changes within the IDE.
-  why_it_matters: It is the canonical reference for the chat interface that thousands of developers now treat as their primary coding assistant inside VS Code.
-  mental_damage: Yet another reminder that the modern developer workflow now involves reading documentation about how to talk to an AI about code you might have written yourself.
+  summary: The conversational interface for GitHub Copilot within the Visual Studio Code editor.
+  why_it_matters: It provides multiple interaction surfaces—inline, sidebar, and an dedicated agents window—to perform natural language coding tasks, refactoring, and debugging directly in the IDE.
+  mental_damage: It turns your IDE into a conversation where you spend more time negotiating with a side panel than actually typing code.
   tags:
     - copilot
     - vscode
-    - chat
-    - documentation
+    - chat-interface
+    - ai-assistance
   confidence: high
 curation:
-  status: excluded
-  reason: This is a documentation page for an IDE feature, not a standalone product, framework, extension, or directory that belongs in a curated catalog of AI tools.
+  status: included
+  reason: Copilot Chat is an extension that augments the VS Code editor with conversational capabilities rather than being a standalone IDE or the primary coding agent itself.
   evidence:
-    - The URL points to a Visual Studio Code documentation page, not a standalone tool or repository.
-    - The excerpt is a standard docs navigation and overview for Copilot Chat features inside VS Code.
-    - It appears in awesome-copilot as an 'Additional Resource', which confirms it is reference material rather than a tool.
+    - The tool provides chat surfaces (Inline Chat, Chat View) that live within VS Code.
+    - "It augments the editor with features like context mentions (#file, #codebase) and code review overlays."
+    - The documentation describes it as a way to interact with agents within the existing VS Code environment.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -70,9 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:10.114Z"
+    updated_at: "2026-07-20T15:30:59.781Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ac8e7b04b03d5827a8c96c371446418224ce55729a6c373eaddf25bc0086b7ae
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: Copilot Chat is an extension that augments the VS Code editor with conversational capabilities rather than being a standalone IDE or the primary coding agent itself.
+      decision_evidence:
+        - The tool provides chat surfaces (Inline Chat, Chat View) that live within VS Code.
+        - "It augments the editor with features like context mentions (#file, #codebase) and code review overlays."
+        - The documentation describes it as a way to interact with agents within the existing VS Code environment.
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because the tool's primary identity is a host integration that augments the VS Code editor rather than being a standalone coding assistant.
+      review_reason: null
+      review_resume_lifecycle: null

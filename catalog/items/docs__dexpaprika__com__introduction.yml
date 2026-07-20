@@ -42,6 +42,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -50,23 +52,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: DexPaprika provides a REST and streaming API for real-time DEX and on-chain crypto data, including liquidity pools, swaps, and token metrics across 33 blockchain networks.
-  why_it_matters: Developers building crypto tools can integrate this API directly into AI workflows via its hosted MCP server, CLI, and SDKs for TypeScript, Go, Python, and PHP.
-  mental_damage: Yet another API that lets your AI agent confidently hallucinate about token prices while you still can't automate away your own poor trading decisions.
+  summary: DexPaprika is a developer API providing real-time on-chain cryptocurrency data, including liquidity, swaps, and token metrics across 36+ blockchain networks.
+  why_it_matters: It provides the structured, real-time data streams needed to build finance-aware agents and automated trading analytics.
+  mental_damage: Another API to integrate means another set of rate limits and documentation tabs to manage while you're debugging your agent's logic.
   tags:
-    - crypto
-    - api
-    - mcp
-    - defi
-    - blockchain
+    - crypto-api
+    - on-chain-data
+    - real-time-streaming
+    - fintech
+    - dex-data
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose data API and documentation site for cryptocurrency analytics, not a developer-facing AI tool, agent, or AI infrastructure product.
+  reason: The product is a data provider/SaaS API, not a developer-facing AI tool, agent, or development framework.
   evidence:
-    - The page is developer documentation for the DexPaprika API focused on liquidity pools, swaps, token prices, and on-chain analytics.
-    - While it mentions MCP, a Claude Code plugin, and SDKs, the core product is a crypto data API, not an AI coding tool or AI infrastructure.
-    - Appears in awesome-mcp-servers lists as a domain-specific server, but the product itself lacks a primary AI tooling identity for developers.
+    - Core offering is a REST and SSE streaming API for DEX and on-chain data
+    - Product identity is a data service for developers, not a tool for building AI workflows
+    - Presence in MCP lists is as a server implementation for a specific data domain, not as a general-purpose AI tool
 placement:
   primary_category: null
   section: null
@@ -85,9 +87,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:29.550Z"
+    updated_at: "2026-07-20T15:40:28.122Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6afd6d46336cd7294671d826fcfc93f2757b1aeac04df3f7f4c3f478eabbbfde
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a data provider/SaaS API, not a developer-facing AI tool, agent, or development framework.
+      decision_evidence:
+        - Core offering is a REST and SSE streaming API for DEX and on-chain data
+        - Product identity is a data service for developers, not a tool for building AI workflows
+        - Presence in MCP lists is as a server implementation for a specific data domain, not as a general-purpose AI tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

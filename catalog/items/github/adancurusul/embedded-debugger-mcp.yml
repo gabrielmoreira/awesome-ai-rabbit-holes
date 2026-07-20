@@ -28,6 +28,8 @@ metadata:
     forks: 20
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-08-05T11:44:40Z"
     pushed_at: "2026-07-16T12:50:13Z"
     description: MCP server + CLI + Codex/Claude skill for embedded debugging via probe-rs or OpenOCD — ARM Cortex-M, RISC-V, and Xtensa (ESP32), with AI crash diagnosis
@@ -58,23 +60,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:50.540Z"
       bytes: 11408
 insights:
-  summary: An MCP server that integrates probe-rs with AI assistants to enable real hardware debugging of ARM Cortex-M and RISC-V microcontrollers via J-Link, ST-Link, and other debug probes.
-  why_it_matters: It gives AI coding agents direct access to hardware breakpoints, flash programming, and RTT communication, so you can debug embedded firmware without manually running GDB commands.
-  mental_damage: We have finally automated the part of embedded development where you stare at a blinking LED and wonder if the bug is in your code or the witchcraft required to configure OpenOCD.
+  summary: An MCP server and CLI tool that enables AI assistants to perform embedded debugging for ARM Cortex-M, RISC-V, and Xtensa targets via probe-rs or OpenOCD.
+  why_it_matters: It bridges the gap between high-level AI reasoning and low-level hardware debugging, allowing agents to diagnose hardware crashes and manage debug probes directly.
+  mental_damage: Because nothing says 'odern workflow' quite like having an LLM try to unwind a stack trace on a physical ESP32.
   tags:
     - mcp
-    - embedded
+    - embedded-systems
     - debugging
-    - hardware
-    - probe-rs
+    - rust
+    - arm-cortex-m
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing embedded hardware debugging capabilities, which fits perfectly as a domain-specific MCP server rather than a general extension or framework.
+  reason: The project's identity is centered on being a Model Context Protocol (MCP) server that provides specific hardware debugging capabilities to an AI host.
   evidence:
-    - Repo description explicitly states 'A Model Context Protocol server for embedded debugging with probe-rs'
-    - README shows 22 MCP tools for debug control, memory operations, breakpoints, flash, and RTT communication
-    - Listed in awesome-mcp-servers under 'Embedded System' section, confirming MCP server identity
+    - Repo description explicitly identifies as an 'MCP server + CLI + Codex/Claude skill'
+    - Architecture diagram shows the product as a middle layer between an MCP client and debug backends
+    - Includes specialized MCP tools for probe discovery, memory access, and crash diagnosis
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -94,9 +96,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:38.127Z"
+    updated_at: "2026-07-20T15:57:50.385Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0c9e902e7484663cceee9a922d7d3afcd37ea9c12176fd54e8ccdab382f9f641
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's identity is centered on being a Model Context Protocol (MCP) server that provides specific hardware debugging capabilities to an AI host.
+      decision_evidence:
+        - Repo description explicitly identifies as an 'MCP server + CLI + Codex/Claude skill'
+        - Architecture diagram shows the product as a middle layer between an MCP client and debug backends
+        - Includes specialized MCP tools for probe discovery, memory access, and crash diagnosis
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary architectural purpose is to serve as an MCP implementation to expose hardware capabilities to an assistant.
+      review_reason: null
+      review_resume_lifecycle: null

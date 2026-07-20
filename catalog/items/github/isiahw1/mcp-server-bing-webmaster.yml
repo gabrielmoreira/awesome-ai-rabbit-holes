@@ -23,18 +23,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 16
-    forks: 6
+    stars: 17
+    forks: 8
     license: MIT
     archived: false
+    full_name: isiahw1/mcp-server-bing-webmaster
+    html_url: https://github.com/isiahw1/mcp-server-bing-webmaster
     created_at: "2025-07-06T07:32:55Z"
     pushed_at: "2026-02-10T01:42:33Z"
     description: MCP server providing access to Bing Webmaster Tools API endpoints for SEO management and analytics
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:08.568Z"
+    last_checked_at: "2026-07-20T15:11:16.100Z"
     readme:
-      fetched_at: "2026-07-13T05:13:08.568Z"
+      fetched_at: "2026-07-20T15:11:16.100Z"
       bytes: 12620
 insights:
   summary: An MCP server that exposes Bing Webmaster Tools API endpoints—such as site management, traffic analytics, and sitemap control—to Claude and other MCP-compatible AI assistants.
@@ -67,14 +69,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:08.568Z"
+    updated_at: "2026-07-20T15:11:16.100Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:02:48.643Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

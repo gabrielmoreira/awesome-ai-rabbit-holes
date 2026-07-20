@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web-based tool listed as an AI-powered app builder for generating applications from prompts.
-  why_it_matters: It aims to let developers and non-developers spin up functional apps via prompts without manually scaffolding a project.
-  mental_damage: Yet another magical prompt-to-app wizard that will confidently generate a fully structured TODO app while your actual production monolith quietly decays.
+  summary: An AI-powered application builder for generating web-based applications from prompts.
+  why_it_matters: It accelerates the path from idea to functional web scaffold by automating the initial generation and deployment of site structures.
+  mental_damage: Another way to generate a functional frontend in thirty seconds, ensuring you spend the rest of your afternoon debugging the logic the AI hallucinated.
   tags:
-    - app-builder
+    - app-builders
     - prompt-to-app
-    - web-tool
+    - web-generation
+    - low-code
   confidence: low
 curation:
   status: included
-  reason: The tool is explicitly listed under App Builders in awesome-ai-coding-tools and its domain implies a prompt-driven app generation workflow rather than repo editing.
+  reason: The project's presence in an awesome list under 'App Builders' and its URL structure suggest it is a platform for turning prompts into deployed web apps.
   evidence:
-    - "Listed in awesome-ai-coding-tools under the section: App Builders"
-    - URL (forge-web.rebaselabs.online) implies a web-based app generation surface
+    - Included in awesome-ai-coding-tools under 'App Builders' section
+    - URL indicates a hosted web application for generating content/apps
 placement:
   primary_category: app-builders
   section: Prompt-to-App Builders
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -66,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:12.693Z"
+    updated_at: "2026-07-20T15:45:56.110Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:62e652e0c7e84195b6c6f8a89965282c294f4d9cf21d66f75f27909d62294b8b
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The project's presence in an awesome list under 'App Builders' and its URL structure suggest it is a platform for turning prompts into deployed web apps.
+      decision_evidence:
+        - Included in awesome-ai-coding-tools under 'App Builders' section
+        - URL indicates a hosted web application for generating content/apps
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the tool is categorized as a platform for creating new apps from prompts rather than an assistant for editing existing codebases.
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

@@ -45,13 +45,13 @@ _These are new or low-traffic entries being watched._
   `ai-ide` `code-generation` `self-hosted` `live-preview` `nextjs`
   </details>
 
-- **[Cursor](https://cursor.com)** Cursor is an AI-native code editor and development environment that integrates context-aware code completion, multi-model assistance, and autonomous coding agents directly into the IDE workflow. <details><summary>More about</summary>
+- **[Cursor](https://cursor.com)** An AI-native code editor designed for building software through agentic assistance and deep codebase understanding. <details><summary>More about</summary>
 
-  It provides a unified surface where developers can switch between fast inline completions, targeted edits, and fully autonomous agents while maintaining deep codebase understanding.
+  It shifts the developer workflow from manual editing to high-level orchestration using integrated agents and composer modes.
 
-  _You now have three different ways to ask an AI to write your code, and you will still spend forty minutes debating which autonomy slider setting makes you a real engineer._
+  _You'll spend more time deciding which level of autonomy to grant the agent than actually typing code._
 
-  `ai-editor` `coding-agent` `ide` `multi-model` `autonomous`
+  `ide` `ai-editor` `coding-agent` `composer`
   </details>
 
 - **[JetBrains AI](https://www.jetbrains.com/ai)** JetBrains AI is a suite of integrated AI-powered coding assistance and services embedded within JetBrains IDEs. <details><summary>More about</summary>
@@ -72,13 +72,13 @@ _These are new or low-traffic entries being watched._
   `ai-editor` `ide` `coding-assistant`
   </details>
 
-- **[Review](https://aifordevelopers.org/tool/antigravity)** Google Antigravity is an AI-first IDE built on a modified Visual Studio Code fork that uses autonomous agents to plan, write, and test code across a multi-agent 'Mission Control' interface. <details><summary>More about</summary>
+- **[Review](https://aifordevelopers.org/tool/antigravity)** Antigravity is an AI-native IDE built on a VS Code fork that uses autonomous agents to plan, write, execute, and test code. <details><summary>More about</summary>
 
-  It moves beyond sidebar chatbots by letting developers dispatch up to five parallel agents to handle tasks like refactoring and UI building while providing structured progress artifacts.
+  It introduces a 'Mission Control' architecture that allows developers to manage multiple parallel agents for different tasks like refactoring or UI building.
 
-  _We've successfully evolved from 'accepting a tab completion' to 'project managing five autonomous agents while praying the rate limits hold'._
+  _Nothing says 'oftware engineering' like managing a workforce of five autonomous agents while praying they don't enter a recursive loop of terminal commands._
 
-  `ide` `coding-agents` `multi-agent` `google` `vscode-fork`
+  `ide` `ai-agent` `multi-agent` `autonomous-coding` `vscode-fork`
   </details>
 
 - **[Supermaven](https://supermaven.com)** Supermaven is a code completion and chat tool that integrates with VS Code, JetBrains, and Neovim, offering large context windows for suggestions and model-based chat for applying code changes. <details><summary>More about</summary>
@@ -90,13 +90,13 @@ _These are new or low-traffic entries being watched._
   `code-completion` `ide-extension` `chat` `copilot-alternative`
   </details>
 
-- **[Trae](https://www.trae.ai)** TRAE is an AI-native IDE that integrates assistant capabilities directly into the development environment, with a 'SOLO' mode that handles coding tasks from definition to completion. <details><summary>More about</summary>
+- **[Trae](https://trae.ai)** TRAE is an AI-native IDE that integrates assistant capabilities directly into the development environment, with a 'SOLO' mode that handles coding tasks from definition to completion. <details><summary>More about</summary>
 
   It positions itself as a task-oriented environment where developers define intent and review results, reducing the loop between planning and implementation.
 
   _Yet another AI IDE promising you can 'define the task, review the results, and AI handles the rest'—because what this ecosystem really needs is more ways to feel like a project manager of a very fast, very confident ghost._
 
-  `ide` `ai-assistant` `task-driven` `desktop-app`
+  `ai-assistant` `desktop-app` `ide` `task-driven`
   </details>
 
 - **[Visual Studio IntelliCode](https://visualstudio.microsoft.com/services/intellicode)** Visual Studio IntelliCode is an AI-assisted code completion and automation tool that provides whole-line suggestions, context-aware IntelliSense ranking, and repetitive edit detection within Visual Studio and VS Code. <details><summary>More about</summary>

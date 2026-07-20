@@ -28,14 +28,16 @@ metadata:
     forks: 9
     license: MIT
     archived: false
+    full_name: kukapay/crypto-orderbook-mcp
+    html_url: https://github.com/kukapay/crypto-orderbook-mcp
     created_at: "2025-05-07T10:18:41Z"
     pushed_at: "2025-05-07T10:18:58Z"
     description: An MCP server that analyzes order book depth and imbalance across major crypto exchanges.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:21.700Z"
+    last_checked_at: "2026-07-20T15:11:39.651Z"
     readme:
-      fetched_at: "2026-07-13T05:13:21.700Z"
+      fetched_at: "2026-07-20T15:11:39.651Z"
       bytes: 2600
 insights:
   summary: An MCP server that fetches and analyzes order book depth and imbalance metrics across major cryptocurrency exchanges like Binance, Kraken, and Coinbase.
@@ -69,14 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:21.700Z"
+    updated_at: "2026-07-20T15:11:39.651Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:07:09.185Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

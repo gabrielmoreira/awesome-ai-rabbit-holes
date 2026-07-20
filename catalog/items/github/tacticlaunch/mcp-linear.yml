@@ -27,6 +27,8 @@ metadata:
     forks: 31
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-03-23T15:27:19Z"
     pushed_at: "2026-05-03T22:15:14Z"
     description: MCP server that enables AI assistants to interact with Linear project management system through natural language, allowing users to retrieve, create, and update issues, projects, and teams.
@@ -75,9 +77,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:31:21.849Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

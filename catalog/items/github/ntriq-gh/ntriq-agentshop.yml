@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-04-07T22:47:22Z"
     pushed_at: "2026-04-14T20:33:08Z"
     description: AI agent data market — 6 analysis APIs via x402 micropayments (USDC on Base). Pay-per-use document intelligence, invoice extraction, PII detection, sentiment analysis. No API keys needed.
@@ -68,14 +70,18 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:45:34.729Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T15:12:07.041Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for ntriq-gh/ntriq-agentshop
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:17:47.837Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

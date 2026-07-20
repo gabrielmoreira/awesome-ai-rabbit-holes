@@ -28,6 +28,8 @@ metadata:
     forks: 59
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-03-24T12:18:56Z"
     pushed_at: "2026-03-06T07:29:48Z"
     description: Node.js/TypeScript MCP server for Atlassian Bitbucket. Enables AI systems (LLMs) to interact with workspaces, repositories, and pull requests via tools (list, get, comment, search). Connects AI directly to version control workflows through the standard MCP interface.
@@ -57,23 +59,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:48.909Z"
       bytes: 25314
 insights:
-  summary: A Node.js/TypeScript MCP server that exposes Atlassian Bitbucket workspaces, repositories, and pull requests as tools for AI assistants like Claude and Cursor via the Model Context Protocol.
-  why_it_matters: Developers can point AI assistants directly at their Bitbucket repos to review PRs, search code, and manage version control workflows using natural language.
-  mental_damage: Finally, your AI can argue about your pull request formatting without you needing to grant it access to your browser or your dignity.
+  summary: An MCP server that allows LLMs to interact with Atlassian Bitbucket workspaces, repositories, and pull requests.
+  why_it_matters: It enables AI assistants to perform version control tasks like searching code, checking PR status, and managing pull requests via natural language.
+  mental_damage: Because why manually review code when you can let a model argue with you in a Bitbucket comment thread?
   tags:
     - mcp
     - bitbucket
+    - atlassian
     - version-control
-    - typescript
     - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product's identity is a purpose-built MCP server for Bitbucket, directly matching the MCP Servers & Tooling category by exposing version control tools to LLMs.
+  reason: The project's core identity is an implementation of the Model Context Protocol to expose Bitbucket functionality to AI models.
   evidence:
-    - Repo description explicitly defines it as a 'Node.js/TypeScript MCP server for Atlassian Bitbucket'.
-    - README positions it as connecting Claude, Cursor AI, and other AI assistants to Bitbucket via the 'standard MCP interface'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description identifies it explicitly as an 'MCP server for Atlassian Bitbucket'
+    - README details how it provides tools for LLMs to interact with repositories and PRs
+    - Includes active development and pushed updates in March 2026
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -93,9 +95,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:09.775Z"
+    updated_at: "2026-07-20T15:53:42.257Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:508158fbeabf1aa54d56c1bcdb416ba9089b6b23c3685c42ec9c71fc755d9a34
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's core identity is an implementation of the Model Context Protocol to expose Bitbucket functionality to AI models.
+      decision_evidence:
+        - Repo description identifies it explicitly as an 'MCP server for Atlassian Bitbucket'
+        - README details how it provides tools for LLMs to interact with repositories and PRs
+        - Includes active development and pushed updates in March 2026
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is explicitly an MCP server implementation rather than a plugin for a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null

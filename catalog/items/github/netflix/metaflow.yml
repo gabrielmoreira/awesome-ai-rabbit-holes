@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 10077
-    forks: 1268
+    stars: 10188
+    forks: 1313
     license: Apache-2.0
     archived: false
+    full_name: Netflix/metaflow
+    html_url: https://github.com/Netflix/metaflow
     created_at: "2019-09-17T17:48:25Z"
-    pushed_at: "2026-05-06T22:38:42Z"
+    pushed_at: "2026-07-20T06:38:15Z"
     description: Build, Manage and Deploy AI/ML Systems
     homepage: https://metaflow.org
     topics:
@@ -53,9 +55,9 @@ metadata:
       - mlops
       - model-management
       - python
-    last_checked_at: "2026-05-06T22:45:30.967Z"
+    last_checked_at: "2026-07-20T15:12:02.241Z"
     readme:
-      fetched_at: "2026-05-06T22:45:30.967Z"
+      fetched_at: "2026-07-20T15:12:02.240Z"
       bytes: 5267
 insights:
   summary: Metaflow is a Python framework for building and managing real-life AI/ML systems, from rapid local prototyping in notebooks to scalable production deployments on cloud infrastructure.
@@ -88,17 +90,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-13T05:13:32.237Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for netflix/metaflow
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T23:17:00.539Z"
+    updated_at: "2026-07-20T15:12:02.241Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

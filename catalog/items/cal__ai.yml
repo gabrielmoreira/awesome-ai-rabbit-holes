@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cal.ai is a scheduling assistant that uses AI to manage calendars and book meetings via natural language.
-  why_it_matters: It aims to offload the back-and-forth of scheduling to an autonomous agent, though it targets end-users rather than developer workflows.
-  mental_damage: Another autonomous agent enters the ring, this time tasked with the heroic mission of finding a Tuesday that works for everyone.
+  summary: An AI agent integrated into the Cal.com scheduling platform to automate meeting coordination.
+  why_it_matters: It attempts to reduce the friction of scheduling by allowing an agent to handle the coordination and booking logic via natural language.
+  mental_damage: Because one more autonomous agent has been added to the mental load of managing your calendar.
   tags:
     - scheduling
-    - autonomous-agent
-    - calendar
+    - ai-agents
+    - productivity
+    - automation
   confidence: high
 curation:
   status: excluded
-  reason: Cal.ai is a general-purpose scheduling assistant for end-users, lacking a developer-tooling angle or code-editing capability required for this catalog.
+  reason: The tool is a consumer-facing productivity feature (scheduling) rather than a developer-facing tool for building, managing, or coding software.
   evidence:
-    - Seen in awesome-ai-agents under a 'scheduling assistant' context, not a coding tool.
-    - No repo description, README, or site context indicating it helps developers write, review, or debug code.
-    - URL points to a product page (cal.ai) rather than a developer tool or framework.
+    - "Found in 'awesome-ai-agents' under purpose: A list of AI autonomous agents"
+    - Product identity is a scheduling automation feature for Cal.com
 placement:
   primary_category: null
   section: null
@@ -67,9 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:48.870Z"
+    updated_at: "2026-07-20T15:27:45.654Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:065f9ad6d103c70175fa4d6e9d9b521b976e383780b172a0a787b92b533ffab2
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a consumer-facing productivity feature (scheduling) rather than a developer-facing tool for building, managing, or coding software.
+      decision_evidence:
+        - "Found in 'awesome-ai-agents' under purpose: A list of AI autonomous agents"
+        - Product identity is a scheduling automation feature for Cal.com
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

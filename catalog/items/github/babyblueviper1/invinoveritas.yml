@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-05-15T16:56:15Z"
     pushed_at: "2026-07-16T13:45:37Z"
     description: "The verification layer for autonomous agents — an independent, capital-aware verdict before an irreversible action (/review), a cryptographically signed proof after, and a public on-chain track record, losses included. Free EdgeProof backtest validation. Underneath: memory, sandboxed execution, marketplace. Pay in sats, USDC (x402), or card."
@@ -92,10 +94,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:23:25.578Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.714Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
-    next_retry_at: null
+    next_retry_at: "2026-07-20T17:12:09.713Z"

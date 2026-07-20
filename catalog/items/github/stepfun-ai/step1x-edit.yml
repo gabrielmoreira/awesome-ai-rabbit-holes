@@ -28,6 +28,8 @@ metadata:
     forks: 96
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-04-23T09:53:08Z"
     pushed_at: "2026-04-29T14:31:44Z"
     description: A SOTA open-source image editing model, which aims to provide comparable performance against the closed-source models like GPT-4o and Gemini 2 Flash.
@@ -75,9 +77,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:30:19.056Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

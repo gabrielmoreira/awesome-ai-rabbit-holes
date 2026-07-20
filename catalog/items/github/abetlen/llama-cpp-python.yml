@@ -27,6 +27,8 @@ metadata:
     forks: 1435
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-03-23T09:30:33Z"
     pushed_at: "2026-07-12T07:47:28Z"
     description: Python bindings for llama.cpp
@@ -37,23 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:49.440Z"
       bytes: 33426
 insights:
-  summary: Python bindings for llama.cpp that provide low-level C API access, a high-level Python API for text completion, and an OpenAI-compatible local web server.
-  why_it_matters: It lets developers run GGUF models locally with hardware acceleration and drop-in OpenAI API compatibility for building offline-capable AI workflows.
-  mental_damage: You will spend three hours tuning CMake flags for the perfect BLAS backend so you can run a 7B model locally and feel productive while avoiding actual code review.
+  summary: Python bindings for the llama.cpp library providing high-level and low-level access to local LLM inference.
+  why_it_matters: It allows developers to integrate high-performance, quantized local LLM inference directly into Python applications and workflows.
+  mental_damage: Nothing says 'I'm building a local-first agent' like wrestling with CMAKE_ARGS just to get CUDA acceleration working.
   tags:
-    - local-ai
+    - local-llm
     - python
-    - llama-cpp
     - inference
-    - bindings
+    - llama-cpp
+    - quantization
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing toolkit for running local inference with an OpenAI-compatible serving layer, fitting the Local AI category.
+  reason: The project is a core runtime/binding for executing models on local hardware, making it a foundational local AI tool.
   evidence:
-    - Repo description states 'Python bindings for llama.cpp'.
-    - README highlights an OpenAI-compatible web server and LangChain/LlamaIndex compatibility.
-    - Seen in awesome-local-ai under Inference Engine with 10,271 stars and active development (pushed 2026-05-04).
+    - Provides Python bindings for llama.cpp
+    - Supports local hardware acceleration (CUDA, Metal, OpenBLAS)
+    - Includes an OpenAI-compatible web server for local inference
 placement:
   primary_category: local-ai
   section: Local Serving / APIs
@@ -73,9 +75,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:21.652Z"
+    updated_at: "2026-07-20T15:55:13.330Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3ebd4ac0db00b95b37d2d4885ae7e0e89c0dc39cdd8dd57e84d6d201e4d9e0a3
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: The project is a core runtime/binding for executing models on local hardware, making it a foundational local AI tool.
+      decision_evidence:
+        - Provides Python bindings for llama.cpp
+        - Supports local hardware acceleration (CUDA, Metal, OpenBLAS)
+        - Includes an OpenAI-compatible web server for local inference
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because its primary identity is enabling local execution on user hardware rather than being a general-purpose abstraction library.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Codegen is an AI coding assistant that automates the full development workflow from ticket to pull request, marketed as the 'operating system for code agents'.
-  why_it_matters: It aims to replace manual boilerplate by handling planning, coding, and code review directly within a team's existing repo and project management tools like Linear.
-  mental_damage: Just when you thought your ticket queue was safe, an 'operating system for code agents' now wants to turn your carefully crafted Linear tickets into production PRs while you wonder if 'shipping' still counts if you didn't touch the keyboard.
+  summary: An AI-powered development platform that automates workflows from ticket creation to pull request completion.
+  why_it_matters: It aims to bridge the gap between project management and code execution by treating the development lifecycle as an automated pipeline.
+  mental_damage: The sound of your Linear backlog turning itself into pull requests is exactly how I imagined the end of the junior developer.
   tags:
-    - coding-agent
-    - repo-automation
-    - pr-workflow
-    - codegen
-  confidence: medium
+    - ai-coding
+    - workflow-automation
+    - agentic-workflows
+    - devops
+  confidence: high
 curation:
   status: included
-  reason: The product identity is a primary coding assistant that automates the workflow from ticket to PR, fitting the definition of a repo-level coding agent.
+  reason: Codegen acts as a standalone agentic platform that automates the full development lifecycle from tickets to PRs.
   evidence:
-    - Blog states 'The operating system for AI coding agents. Built for engineering teams that ship.'
-    - "Product features include 'Codegen + Linear: Where Tickets Become Code' and 'Codegen Weekly Diff'."
-    - Listed in awesome-ai-agents under the 'Codegen' section as an autonomous agent.
+    - Claims to automate the full development workflow from ticket to pull request
+    - Describes itself as 'The operating system for AI coding agents'
+    - Recently acquired by ClickUp, integrating with project management/tasking
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:17.506Z"
+    updated_at: "2026-07-20T15:31:52.590Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d83a541512b4a51bfad2bddbf155711881512b16889df288564b5c6d2c66aac4
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Codegen acts as a standalone agentic platform that automates the full development lifecycle from tickets to PRs.
+      decision_evidence:
+        - Claims to automate the full development workflow from ticket to pull request
+        - Describes itself as 'The operating system for AI coding agents'
+        - Recently acquired by ClickUp, integrating with project management/tasking
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the product focuses on executing specific coding tasks and PR creation rather than just acting as a general-purpose coordination workbench.
+      review_reason: null
+      review_resume_lifecycle: null

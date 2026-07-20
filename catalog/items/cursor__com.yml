@@ -71,6 +71,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -79,23 +81,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cursor is an AI-native code editor and development environment that integrates context-aware code completion, multi-model assistance, and autonomous coding agents directly into the IDE workflow.
-  why_it_matters: It provides a unified surface where developers can switch between fast inline completions, targeted edits, and fully autonomous agents while maintaining deep codebase understanding.
-  mental_damage: You now have three different ways to ask an AI to write your code, and you will still spend forty minutes debating which autonomy slider setting makes you a real engineer.
+  summary: An AI-native code editor designed for building software through agentic assistance and deep codebase understanding.
+  why_it_matters: It shifts the developer workflow from manual editing to high-level orchestration using integrated agents and composer modes.
+  mental_damage: You'll spend more time deciding which level of autonomy to grant the agent than actually typing code.
   tags:
+    - ide
     - ai-editor
     - coding-agent
-    - ide
-    - multi-model
-    - autonomous
+    - composer
   confidence: high
 curation:
   status: included
-  reason: Cursor's primary product identity is the AI-native editor and IDE surface itself, not a plugin, terminal agent, or extension layer on another tool.
+  reason: Cursor is an AI-native development environment where the AI is integrated directly into the editor surface rather than being a plugin or extension.
   evidence:
-    - Multiple mentions of 'Cursor Desktop' and 'IDE' throughout the scraped site context as the main product surface.
-    - Canonical positive example for ai-ides-editors category explicitly lists Cursor as the lead exemplar.
-    - Broad product surface includes Tab completions, Composer 2 agents, CLI, and cloud agents all unified under the editor brand.
+    - Primary product surface is the Cursor Desktop IDE
+    - Features include integrated Composer, Agent, and codebase indexing
+    - Marketed as an 'AI coding agent' that replaces/augments the standard editing experience
 placement:
   primary_category: ai-ides-editors
   section: Full IDEs & Editors
@@ -114,9 +115,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:45.576Z"
+    updated_at: "2026-07-20T15:35:26.047Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a97e1028ec5802b8a9e720de0d8dcf6995baf728869bc442196999f82b20f9bf
+      proposed_primary_category: ai-ides-editors
+      disagreement: false
+      decision_reason: Cursor is an AI-native development environment where the AI is integrated directly into the editor surface rather than being a plugin or extension.
+      decision_evidence:
+        - Primary product surface is the Cursor Desktop IDE
+        - Features include integrated Composer, Agent, and codebase indexing
+        - Marketed as an 'AI coding agent' that replaces/augments the standard editing experience
+      category_candidates:
+        - ai-ides-editors
+        - coding-agents
+      contrastive_reason: Choose ai-ides-editors over coding-agents because the product is a standalone development environment (IDE) rather than a terminal-based or plugin-based assistant.
+      review_reason: null
+      review_resume_lifecycle: null

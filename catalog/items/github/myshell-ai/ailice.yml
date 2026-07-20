@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1409
+    stars: 1411
     forks: 205
     license: MIT
     archived: false
+    full_name: myshell-ai/AIlice
+    html_url: https://github.com/myshell-ai/AIlice
     created_at: "2023-10-16T01:51:14Z"
     pushed_at: "2025-08-18T03:24:03Z"
     description: AIlice is a fully autonomous, general-purpose AI agent.
@@ -36,9 +38,9 @@ metadata:
       - ai
       - llm
       - llm-agent
-    last_checked_at: "2026-07-06T05:30:40.921Z"
+    last_checked_at: "2026-07-20T15:11:58.661Z"
     readme:
-      fetched_at: "2026-07-06T05:30:40.921Z"
+      fetched_at: "2026-07-20T15:11:58.661Z"
       bytes: 60870
 insights:
   summary: AIlice is a fully autonomous, general-purpose AI agent built on open-source LLMs that uses an Interactive Agents Call Tree architecture to handle complex tasks like themed research, coding, and system management.
@@ -71,17 +73,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-16T05:05:29.953Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for myshell-ai/ailice
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T23:16:23.029Z"
+    updated_at: "2026-07-20T15:11:58.661Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

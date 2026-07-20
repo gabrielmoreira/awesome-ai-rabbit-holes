@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-03-10T21:50:20Z"
     pushed_at: "2026-03-23T16:06:03Z"
     description: Strategy competition for AI agents. MCP server + CLI for conviction.fm
@@ -46,26 +48,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:49.393Z"
       bytes: 3261
 insights:
-  summary: An MCP server and CLI that lets AI agents participate in daily strategy competitions by analyzing live crypto market data and entering conviction-weighted positions on conviction.fm.
-  why_it_matters: It gives developers a concrete, gamified surface for wiring autonomous agents into live market data, pools, and payout logic via MCP-compatible clients like Claude Code and Cursor.
-  mental_damage: You can now pit your Claude Code and Cursor agents against each other in a daily Solana token deathmatch, because apparently your agent ecosystem needed its own prediction market.
+  summary: A strategy competition platform for AI agents that provides an MCP server and CLI to execute market-based strategy decisions.
+  why_it_matters: It allows developers to test and deploy agentic decision-making logic in a live, competitive financial environment via MCP or CLI.
+  mental_damage: Finally, a way to automate your financial ruin using the same agents you use to debug your broken React hooks.
   tags:
-    - mcp
-    - ai-agents
+    - mcp-server
     - cli
-    - crypto
+    - ai-agents
+    - fintech
     - strategy
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server and CLI for a specific domain (crypto strategy competitions), making it a textbook domain MCP server rather than a standalone coding assistant or generic framework.
+  reason: The product identity is centered on providing MCP connectivity and a CLI to allow agents to interact with a specific financial protocol.
   evidence:
-    - Repo description explicitly states 'MCP server + CLI for conviction.fm'.
-    - README positions conviction-mcp as an MCP server that works with Claude Code, Cursor, Cline, Windsurf, and any MCP-compatible client.
-    - Listed in awesome-mcp-servers under Finance & Fintech, aligning with the domain-server identity.
+    - Repo description identifies it as an 'MCP server + CLI'
+    - README highlights an MCP server for integration with Claude Code, Cursor, and Cline
+    - Product purpose is an agentic competition platform requiring structured tool access
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -82,9 +84,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:21.460Z"
+    updated_at: "2026-07-20T15:54:50.703Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5b056c6f1173e928c735a92e7070940b5e9b7da6be4a855f546e24a9f00a1b81
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is centered on providing MCP connectivity and a CLI to allow agents to interact with a specific financial protocol.
+      decision_evidence:
+        - Repo description identifies it as an 'MCP server + CLI'
+        - README highlights an MCP server for integration with Claude Code, Cursor, and Cline
+        - Product purpose is an agentic competition platform requiring structured tool access
+      category_candidates:
+        - mcp
+        - coding-agents
+      contrastive_reason: Choose mcp over coding-agents because the core value proposition is providing a protocol-compliant interface for existing agents rather than acting as a standalone coding assistant.
+      review_reason: null
+      review_resume_lifecycle: null

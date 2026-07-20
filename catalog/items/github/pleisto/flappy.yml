@@ -57,6 +57,8 @@ metadata:
     forks: 24
     license: Apache-2.0
     archived: true
+    full_name: null
+    html_url: null
     created_at: "2023-09-15T18:09:15Z"
     pushed_at: "2024-04-19T20:02:28Z"
     description: Production-Ready LLM Agent SDK for Every Developer
@@ -109,9 +111,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:22:19.918Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

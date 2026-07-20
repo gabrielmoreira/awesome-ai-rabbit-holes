@@ -73,6 +73,8 @@ metadata:
     forks: 7095
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-06-20T08:58:36Z"
     pushed_at: "2026-07-16T02:05:34Z"
     description: Universal memory layer for AI Agents
@@ -132,10 +134,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:12:56.702Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

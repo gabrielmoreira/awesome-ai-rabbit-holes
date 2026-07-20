@@ -28,8 +28,10 @@ metadata:
     forks: 23
     license: Apache-2.0
     archived: false
+    full_name: JetXu-LLM/llama-github
+    html_url: https://github.com/JetXu-LLM/llama-github
     created_at: "2024-05-16T08:47:28Z"
-    pushed_at: "2026-07-11T16:36:35Z"
+    pushed_at: "2026-07-19T21:28:17Z"
     description: Llama-github is an open-source Python library that empowers LLM Chatbots, AI Agents, and Auto-dev Solutions to conduct Agentic RAG from actively selected GitHub public projects. It Augments through LLMs and Generates context for any coding question, in order to streamline the development of sophisticated AI-driven applications.
     homepage: https://pypi.org/project/llama-github/
     topics:
@@ -45,10 +47,10 @@ metadata:
       - llm
       - python-library
       - retrieval-augmented-generation
-    last_checked_at: "2026-07-13T05:13:12.410Z"
+    last_checked_at: "2026-07-20T15:11:23.008Z"
     readme:
-      fetched_at: "2026-07-13T05:13:12.410Z"
-      bytes: 8126
+      fetched_at: "2026-07-20T15:11:23.008Z"
+      bytes: 8576
 insights:
   summary: A Python library that performs Agentic RAG to retrieve and synthesize relevant code snippets, issues, and repository context from GitHub for use by LLM chatbots and AI agents.
   why_it_matters: It provides the retrieval infrastructure needed to ground coding agents in real-world GitHub examples, reducing hallucinations and improving code generation quality.
@@ -81,14 +83,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:12.410Z"
+    updated_at: "2026-07-20T15:11:23.008Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:04:06.492Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

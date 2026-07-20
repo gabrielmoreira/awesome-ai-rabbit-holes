@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2020-10-26T16:35:19Z"
     pushed_at: "2026-06-08T04:50:25Z"
     description: 🐝 Boost productivity by coordinating AI agents that learn and adapt, breaking down tasks for efficient, parallel execution.
@@ -86,16 +88,18 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T05:17:34.297Z"
+    status: failed
+    updated_at: "2026-07-20T15:10:53.202Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for felipedaza7/swarm-tools
+      type: github_repo_missing
+      message: "GitHub repository not found: felipedaza7/swarm-tools"
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:55:43.533Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

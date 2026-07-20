@@ -54,19 +54,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 617
-    forks: 115
+    stars: 618
+    forks: 117
     license: MIT
     archived: false
+    full_name: neondatabase/mcp-server-neon
+    html_url: https://github.com/neondatabase/mcp-server-neon
     created_at: "2024-11-29T19:08:55Z"
-    pushed_at: "2026-07-06T02:07:33Z"
+    pushed_at: "2026-07-20T02:08:30Z"
     description: MCP server for interacting with Neon Management API and databases
     homepage: https://mcp-server-neon-jet.vercel.app
     topics: []
-    last_checked_at: "2026-07-13T05:13:32.063Z"
+    last_checked_at: "2026-07-20T15:12:01.895Z"
     readme:
-      fetched_at: "2026-07-13T05:13:32.063Z"
-      bytes: 21671
+      fetched_at: "2026-07-20T15:12:01.895Z"
+      bytes: 21662
 insights:
   summary: An MCP server that bridges natural language requests to the Neon Management API and Postgres databases for creating projects, running queries, and handling migrations.
   why_it_matters: It lets developers manage Neon databases and schema changes conversationally through any MCP-compatible client instead of writing SQL or using the Neon API directly.
@@ -99,14 +101,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:32.063Z"
+    updated_at: "2026-07-20T15:12:01.895Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:16:54.171Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -27,6 +27,8 @@ metadata:
     forks: 0
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-02-26T12:11:35Z"
     pushed_at: "2026-03-05T15:20:31Z"
     description: "MCP server for DeFi & crypto: token prices, wallet balances, gas prices, DEX swap quotes. Works with Claude Desktop, Cursor, Continue.dev."
@@ -86,9 +88,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:25:53.431Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,20 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Devon.ai is an AI-powered coding agent designed to assist developers by planning and executing code changes across repositories.
-  why_it_matters: It positions itself as a primary coding assistant capable of handling repo-level tasks, fitting directly into the delegation workflow many developers are adopting.
-  mental_damage: "Just what we needed: another autonomous agent ready to refactor your entire codebase while you wonder if 'review the PR' now means arguing with a bot about architectural philosophy."
+  summary: Devon is an AI-powered software engineer designed to automate complex development tasks and manage full software lifecycles.
+  why_it_matters: It aims to move beyond simple autocomplete by acting as a high-level agent capable of planning and executing entire engineering workflows.
+  mental_damage: One more autonomous agent to convince you that your job is safe, right before it hallucinates a critical bug in production.
   tags:
     - coding-agent
-    - cli
+    - software-engineering
     - automation
   confidence: medium
 curation:
   status: included
-  reason: The product is listed in awesome-ai-coding-tools specifically as a 'Coding Agent' and its identity is a standalone assistant for repo work rather than an extension or framework.
+  reason: The tool is positioned as a standalone AI software engineer that plans and executes work, rather than just an extension for an existing editor.
   evidence:
-    - Listed in awesome-ai-coding-tools under the section 'Coding Agents'
-    - URL implies a standalone product identity (devon.ai) rather than a plugin or extension
+    - Included in 'awesome-ai-coding-tools' under Coding Agents
+    - Marketed as an AI engineer rather than a simple plugin
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -66,9 +68,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:06.862Z"
+    updated_at: "2026-07-20T15:37:49.281Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f0f241e781028e28d836a11327c8e737dbfbf6535b6d5b283e777a5e80fd1071
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The tool is positioned as a standalone AI software engineer that plans and executes work, rather than just an extension for an existing editor.
+      decision_evidence:
+        - Included in 'awesome-ai-coding-tools' under Coding Agents
+        - Marketed as an AI engineer rather than a simple plugin
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because it presents itself as a primary engineering agent rather than a tool meant to augment a specific IDE.
+      review_reason: null
+      review_resume_lifecycle: null

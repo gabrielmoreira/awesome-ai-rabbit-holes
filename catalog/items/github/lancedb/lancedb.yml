@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 10877
-    forks: 947
+    stars: 10938
+    forks: 961
     license: Apache-2.0
     archived: false
+    full_name: lancedb/lancedb
+    html_url: https://github.com/lancedb/lancedb
     created_at: "2023-02-28T01:15:17Z"
-    pushed_at: "2026-07-11T15:04:47Z"
+    pushed_at: "2026-07-20T14:22:10Z"
     description: Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
     homepage: https://lancedb.com/docs
     topics:
@@ -41,9 +43,9 @@ metadata:
       - semantic-search
       - similarity-search
       - vector-database
-    last_checked_at: "2026-07-13T05:13:24.753Z"
+    last_checked_at: "2026-07-20T15:11:44.958Z"
     readme:
-      fetched_at: "2026-07-13T05:13:24.753Z"
+      fetched_at: "2026-07-20T15:11:44.958Z"
       bytes: 5801
 insights:
   summary: LanceDB is an open-source, embedded vector database built on the Lance columnar format for fast multimodal vector, full-text, and SQL search.
@@ -77,14 +79,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:24.754Z"
+    updated_at: "2026-07-20T15:11:44.958Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:08:24.128Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

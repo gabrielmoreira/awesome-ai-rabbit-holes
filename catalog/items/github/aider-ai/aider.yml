@@ -58,6 +58,8 @@ metadata:
     forks: 4744
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-05-09T18:57:49Z"
     pushed_at: "2026-05-22T14:02:20Z"
     description: aider is AI pair programming in your terminal
@@ -81,23 +83,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:55.066Z"
       bytes: 12406
 insights:
-  summary: Aider is a terminal-based AI pair programming tool that connects to various LLMs to read, edit, and manage codebases with automatic git integration.
-  why_it_matters: It allows developers to delegate multi-file code changes, testing, and linting to an LLM directly from the command line while maintaining sensible git diffs.
-  mental_damage: You can now argue with your terminal about edge cases at 2 AM, and unlike your colleagues, the terminal will actually commit the fixes with a sensible message.
+  summary: A terminal-based AI pair programmer that can edit code, manage git commits, and run tests.
+  why_it_matters: It allows developers to stay within their command-line workflow while delegating complex refactors, bug fixes, and feature implementations to LLMs.
+  mental_damage: You'll spend less time typing and more time staring at a terminal waiting for a massive diff to finish generating.
   tags:
     - cli
-    - pair-programming
+    - coding-assistant
     - git-integration
-    - multi-model
-    - terminal-agent
+    - pair-programming
   confidence: high
 curation:
   status: included
-  reason: Aider is a standalone coding assistant that developers use as the primary interface for repo work via the CLI, fitting the core definition of a coding agent.
+  reason: Aider is a standalone coding assistant that performs high-level reasoning, file editing, and git management from the terminal.
   evidence:
-    - "Repo description states: 'aider is AI pair programming in your terminal.'"
-    - "README highlights direct capabilities: editing files, mapping the codebase, running linters/tests, and automatic git commits."
-    - Featured in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source' with 44k stars and active development.
+    - 47,522 stars on GitHub
+    - README describes it as AI pair programming in your terminal
+    - Directly modifies files and manages git commits automatically
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -117,9 +118,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:49.552Z"
+    updated_at: "2026-07-20T16:09:51.716Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:054c7eec62071846b28bcc57f3633dd747271a3b8905d78760044343a50f80bb
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Aider is a standalone coding assistant that performs high-level reasoning, file editing, and git management from the terminal.
+      decision_evidence:
+        - 47,522 stars on GitHub
+        - README describes it as AI pair programming in your terminal
+        - Directly modifies files and manages git commits automatically
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Aider acts as the primary agent driving development tasks rather than just a feature-adder for an existing editor.
+      review_reason: null
+      review_resume_lifecycle: null

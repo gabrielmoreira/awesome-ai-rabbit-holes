@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Appears to be a broken or hijacked link pointing to a gambling platform instead of the expected AutoGen Studio AI tooling site.
-  why_it_matters: Developers looking for agent orchestration tooling will find only booking forms and slot-machine prompts instead of a coding environment.
-  mental_damage: We have reached peak AI ecosystem rot where a URL for a Microsoft-backed agent framework now books you a hotel room and a sports bet.
+  summary: An online gaming and slot platform featuring various digital games and promotional offers.
+  why_it_matters: It does not matter to software developers; it is a gambling site.
+  mental_damage: Another reminder that the internet is mostly just an endless sequence of shiny, high-stakes distractions.
   tags:
-    - broken-link
-    - scam
-    - off-topic
+    - gambling
+    - gaming
+    - slot-online
   confidence: high
 curation:
   status: excluded
-  reason: The URL resolves to an unrelated gambling and hotel booking site (BMW4D), not a developer tool, and the source-list context is clearly corrupted with spam links.
+  reason: The site is a gambling and online gaming platform with no relevance to developer tooling or AI development workflows.
   evidence:
-    - Scraped site title is 'BMW4D | Platform Resmi Game Online Ikonik Dengan Fitur Canggih', a gambling/hotel platform.
-    - Page excerpt contains hotel booking forms, 'slot' links, and '334.342 Pemain Maxwin Hari Ini' — no AI tooling content.
-    - Source-list entry links autogen-studio.com to the same spam gambling domain rather than Microsoft's AutoGen Studio.
+    - Scraped site content describes a 'Platform Resmi Game Online' (Official Online Game Platform)
+    - Content focuses on 'SLOT ONLINE' and 'BANDAR SLOT' (gambling terms)
+    - No mention of AI, software development, or developer workflows
 placement:
   primary_category: null
   section: null
@@ -67,9 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:20.322Z"
+    updated_at: "2026-07-20T15:24:11.457Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2b6f682aa232e081ea807555e3c8fbf08c8adcb368fcf197564b88a515c9f598
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The site is a gambling and online gaming platform with no relevance to developer tooling or AI development workflows.
+      decision_evidence:
+        - Scraped site content describes a 'Platform Resmi Game Online' (Official Online Game Platform)
+        - Content focuses on 'SLOT ONLINE' and 'BANDAR SLOT' (gambling terms)
+        - No mention of AI, software development, or developer workflows
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

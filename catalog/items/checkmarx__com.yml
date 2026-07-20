@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,16 +36,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Checkmarx One is an enterprise application security platform that uses agentic AI to scan, prioritize, and remediate vulnerabilities across SAST, SCA, IaC, and cloud environments directly within the developer's IDE.
-  why_it_matters: It attempts to reduce security alert fatigue by using AI to correlate findings and provide in-context remediation guidance so developers can fix exploitable risks without leaving their workflow.
-  mental_damage: Just when you thought the AI agent was finally writing clean code, another agent arrives specifically to scold it for the vulnerabilities the first agent introduced.
+  summary: An agentic application security platform that uses AI-powered agents and hybrid scanning to detect, prioritize, and remediate vulnerabilities across the SDLC.
+  why_it_matters: It aims to bridge the gap between high-speed AI code generation and the security requirements of enterprise software through automated triage and remediation.
+  mental_damage: Because nothing says 'odern development' like needing an autonomous security agent to police the code written by your first autonomous coding agent.
   tags:
-    - security
-    - sast
-    - agentic-ai
-    - ide-integration
-    - enterprise
-  confidence: high
+    - application-security
+    - appsec
+    - devsecops
+    - ai-security
+    - vulnerability-remediation
+  confidence: medium
 curation:
   status: included
   reason: The product is primarily an enterprise security platform that integrates into the developer workflow as an add-on layer (IDE integration) rather than a standalone coding agent that plans and writes code.
@@ -53,10 +55,10 @@ curation:
     - Included in 'awesome-ai-coding-tools' under the 'Security' section, confirming its role as a security extension rather than a primary coding assistant.
 placement:
   primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'coding-agents'"
 processing:
   discover:
     status: done
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:03.258Z"
+    updated_at: "2026-07-20T15:29:55.725Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:59322cd9f7d9bdb08d2dfefcb85e5c1b546f9b03362f41d9b123a6431b1dfd33
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: The platform functions as an autonomous security agent that interacts with the development workflow to triage, prioritize, and propose fixes for vulnerabilities.
+      decision_evidence:
+        - Claims to provide 'Agentic Application Security' with 'Triage & Remediation Assist Agents'
+        - Focuses on automated detection and automated fixes at the point of code creation
+        - Offers specialized tools like 'Checkmarx Assist' and 'Developer Assist Agent'
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool acts as a proactive agent capable of autonomous triage and remediation rather than just a passive integration layer.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'coding-agents'"
+      review_resume_lifecycle: null

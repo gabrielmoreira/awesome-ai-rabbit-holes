@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A community-driven directory and learning hub for GitHub Copilot custom agents, skills, instructions, and configuration packs.
-  why_it_matters: It gives developers a ready-made library of reusable Copilot behaviors and governance patterns instead of prompting them to reinvent domain-specific assistants from scratch.
-  mental_damage: We have now reached the point where we need a curated list of curated instruction files just to keep our AI assistants from forgetting which cloud provider we are using this sprint.
+  summary: A community-driven collection of custom agents, instructions, and skills designed to extend GitHub Copilot's capabilities.
+  why_it_matters: It provides a centralized way to discover specialized personas and domain-specific automation patterns for the GitHub Copilot ecosystem.
+  mental_damage: Because apparently, even with a trillion-parameter model, we still need a crowdsourced manual to figure out how to make it act like a senior architect.
   tags:
-    - copilot
+    - github-copilot
+    - custom-agents
     - skills
-    - directory
-    - agents
-    - github
+    - instructions
+    - productivity
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory and learning hub for Copilot customization assets, which fits the navigation/discovery role of the awesome-awesomes category.
+  reason: The project is a curated directory of community-contributed resources rather than a standalone tool or software product.
   evidence:
-    - Source lists classify it under awesome-copilot as a collection of instructions, agents, and skills.
-    - README describes it explicitly as 'a community-driven collection of custom agents, instructions, and skills'.
-    - The site surfaces a Learning Hub and categorized agent/skill listings rather than a standalone product.
+    - README identifies as a 'community-driven collection'
+    - Content consists of various 'Agents', 'Instructions', and 'Skills'
+    - Source-list context from awesome-copilot confirms it is a collection of resources
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:26.309Z"
+    updated_at: "2026-07-20T15:24:49.360Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9022d1017508a67c9d6e147b4105d6ef79db92842b89c68cf5f2deb24cd8b95c
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The project is a curated directory of community-contributed resources rather than a standalone tool or software product.
+      decision_evidence:
+        - README identifies as a 'community-driven collection'
+        - Content consists of various 'Agents', 'Instructions', and 'Skills'
+        - Source-list context from awesome-copilot confirms it is a collection of resources
+      category_candidates:
+        - awesome-awesomes
+        - skills
+      contrastive_reason: Choose awesome-awesomes over skills because the project is a directory and discovery resource for skills rather than the skills themselves.
+      review_reason: null
+      review_resume_lifecycle: null

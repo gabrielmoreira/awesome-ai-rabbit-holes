@@ -43,6 +43,8 @@ metadata:
     forks: 7
     license: MIT
     archived: false
+    full_name: hive-intel/hive-sdk
+    html_url: https://github.com/hive-intel/hive-sdk
     created_at: "2025-08-24T07:33:09Z"
     pushed_at: "2026-07-12T19:04:12Z"
     description: "Public SDK, CLI, and docs for Hive Intelligence: crypto MCP access for AI agents."
@@ -68,9 +70,9 @@ metadata:
       - prediction-markets
       - wallet
       - web3
-    last_checked_at: "2026-07-13T05:13:00.910Z"
+    last_checked_at: "2026-07-20T15:11:02.733Z"
     readme:
-      fetched_at: "2026-07-13T05:13:00.910Z"
+      fetched_at: "2026-07-20T15:11:02.733Z"
       bytes: 17116
 insights:
   summary: An MCP server and CLI that normalizes 376+ crypto market data tools from nine providers into a single agent-ready surface for AI assistants like Claude and Cursor.
@@ -103,14 +105,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:00.910Z"
+    updated_at: "2026-07-20T15:11:02.733Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:15.960Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

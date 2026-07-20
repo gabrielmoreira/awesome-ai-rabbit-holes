@@ -24,13 +24,15 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 73
+    stars: 77
     forks: 12
     license: MIT
     archived: false
+    full_name: NameetP/pdfmux
+    html_url: https://github.com/NameetP/pdfmux
     created_at: "2026-03-03T16:32:24Z"
-    pushed_at: "2026-06-29T08:42:54Z"
-    description: "PDF extraction that checks its own work. #2 reading order accuracy — zero AI, zero GPU, zero cost."
+    pushed_at: "2026-07-20T07:50:09Z"
+    description: "Self-healing PDF extraction that flags what it can't read instead of dropping it — and now certifies any extractor's output, catching silently-dropped pages. #2 of all tools, #1 free on opendataloader-bench (0.903). 7-tool MCP. MIT, free."
     homepage: https://pdfmux.com
     topics:
       - ai-agent
@@ -48,10 +50,10 @@ metadata:
       - rag
       - self-healing
       - structured-extraction
-    last_checked_at: "2026-07-06T05:30:41.395Z"
+    last_checked_at: "2026-07-20T15:11:59.540Z"
     readme:
-      fetched_at: "2026-07-06T05:30:41.395Z"
-      bytes: 27539
+      fetched_at: "2026-07-20T15:11:59.540Z"
+      bytes: 33308
 insights:
   summary: A self-healing PDF extraction CLI and Python library that routes pages through multiple backends and audits output quality, with optional LLM fallbacks and an MCP server for Claude Desktop.
   why_it_matters: It gives developers a single pipeline to get clean Markdown or JSON out of messy PDFs for RAG and LLM workflows, with confidence scoring and automatic re-extraction.
@@ -83,17 +85,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-16T05:05:30.479Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nameetp/pdfmux
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T23:16:33.716Z"
+    updated_at: "2026-07-20T15:11:59.540Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

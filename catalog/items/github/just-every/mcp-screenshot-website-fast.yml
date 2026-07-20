@@ -27,6 +27,8 @@ metadata:
     forks: 10
     license: MIT
     archived: false
+    full_name: just-every/mcp-screenshot-website-fast
+    html_url: https://github.com/just-every/mcp-screenshot-website-fast
     created_at: "2025-06-11T16:27:17Z"
     pushed_at: "2026-06-20T21:18:34Z"
     description: Quickly screenshots webpages and converts to an LLM friendly size
@@ -38,9 +40,9 @@ metadata:
       - mcp
       - mcp-server
       - screenshot
-    last_checked_at: "2026-07-13T05:13:16.309Z"
+    last_checked_at: "2026-07-20T15:11:29.545Z"
     readme:
-      fetched_at: "2026-07-13T05:13:16.309Z"
+      fetched_at: "2026-07-20T15:11:29.545Z"
       bytes: 10219
 insights:
   summary: An MCP server that captures web page screenshots using Puppeteer and tiles them into 1072x1072 chunks optimized for AI vision processing.
@@ -74,14 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:16.309Z"
+    updated_at: "2026-07-20T15:11:29.545Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:05:16.919Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

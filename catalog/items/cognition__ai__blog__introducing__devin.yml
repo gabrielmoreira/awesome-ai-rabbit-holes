@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Devin is a fully autonomous AI software engineer designed to plan, execute, and debug complex engineering tasks independently within a sandboxed environment.
-  why_it_matters: It demonstrated a step-function increase in autonomous coding capability on SWE-bench, setting a new bar for what 'agentic' repair looks like in production repositories.
-  mental_damage: We have officially reached the point where the 'teammate' introduction email comes with a higher SWE-bench score than your last intern.
+  summary: Devin is an autonomous AI software engineer capable of planning, executing complex engineering tasks, and using developer tools like shells and browsers.
+  why_it_matters: It shifts the developer role from active coder to high-level reviewer by autonomously handling end-to-end tasks like debugging, feature implementation, and deployment.
+  mental_damage: The existential dread of watching a sandboxed shell execute itself while you realize your primary job might just be approving its PRs.
   tags:
-    - coding-agent
-    - autonomous
-    - swe-bench
+    - autonomous-agents
+    - ai-engineer
+    - software-engineering
     - devin
+    - cognition-ai
   confidence: high
 curation:
   status: included
-  reason: The product is positioned as a primary, autonomous coding assistant that handles repo work, debugging, and deployment independently, fitting the Coding Agents definition.
+  reason: Devin is a standalone, autonomous agent that performs the core duties of a software engineer (planning, coding, testing, debugging) rather than just augmenting an existing IDE.
   evidence:
-    - Blog describes Devin as 'the world’s first fully autonomous AI software engineer'.
-    - Claims capability to 'plan and execute complex engineering tasks requiring thousands of decisions' and fix bugs in mature repos like sympy.
-    - Featured in awesome-ai-agents list specifically for setting the state of the art on SWE-bench.
+    - Claims to be the 'first fully autonomous AI software engineer'
+    - Capable of independent planning, executing tasks in a sandboxed environment, and fixing bugs autonomously
+    - Evaluated on SWE-bench for resolving real-world GitHub issues
 placement:
   primary_category: coding-agents
   section: Browser/Desktop/Computer-Use Agents
@@ -68,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:22.027Z"
+    updated_at: "2026-07-20T15:32:28.737Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:26609c465427d0a95acb5c8ac1149951cf5e77806b34cbfa10e6f5c8962e911f
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Devin is a standalone, autonomous agent that performs the core duties of a software engineer (planning, coding, testing, debugging) rather than just augmenting an existing IDE.
+      decision_evidence:
+        - Claims to be the 'first fully autonomous AI software engineer'
+        - Capable of independent planning, executing tasks in a sandboxed environment, and fixing bugs autonomously
+        - Evaluated on SWE-bench for resolving real-world GitHub issues
+      category_candidates:
+        - coding-agents
+        - app-builders
+      contrastive_reason: Choose coding-agents over app-builders because its primary identity is an autonomous agent designed to manage and edit existing codebases and resolve issues, rather than just scaffolding new applications.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,14 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory and viewer for .cursorrules files and SOPs used to customize behavior in the Cursor AI editor.
-  why_it_matters: It gives Cursor users a searchable library of community-contributed rule sets that shape how the assistant writes, refactors, and reasons across different tech stacks.
-  mental_damage: Because nothing says 'I have my workflow under control' like scrolling a gallery of prompt files to find out you still haven't solved the original bug.
+  summary: A curated directory of.cursorrules configuration files and SOPs for the Cursor AI editor.
+  why_it_matters: It provides ready-made instruction sets to standardize AI behavior across specific tech stacks like Angular, Solidity, and SvelteKit.
+  mental_damage: Because once you realize your AI can be better, you'll spend the next four hours fine-tuning rules instead of actually writing code.
   tags:
     - cursor
-    - rules
-    - directory
+    - cursorrules
     - prompt-engineering
+    - directory
   confidence: high
 curation:
   status: included
@@ -52,10 +54,10 @@ curation:
     - Excerpt shows a filterable, browsable list of tagged .cursorrules examples for stacks like Next.js, Angular, Solidity, and SvelteKit
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'skills'"
 processing:
   discover:
     status: done
@@ -70,9 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:51.220Z"
+    updated_at: "2026-07-20T15:35:57.004Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d9d18211985966e635447fdb2c66631c569108e1027c829ee7aa0a9227854302
+      proposed_primary_category: skills
+      disagreement: true
+      decision_reason: The project is a directory of reusable rule packs and instructions designed to govern AI behavior within an editor.
+      decision_evidence:
+        - "Scraped title: '.cursorrule files and more for Cursor AI'"
+        - Content consists of specific technology-based instructions (e.g., Solidity, Angular, SvelteKit)
+        - Listed in awesome-cursorrules as a directory for configuration files
+      category_candidates:
+        - skills
+        - awesome-awesomes
+      contrastive_reason: Choose skills over awesome-awesomes because the primary value is the portable, reusable rule content itself rather than just a general ecosystem map.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'skills'"
+      review_resume_lifecycle: null

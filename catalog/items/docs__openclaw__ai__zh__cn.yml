@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: This is the Simplified Chinese translation of the OpenClaw documentation.
-  why_it_matters: It lowers the barrier to entry for Chinese-speaking developers who want to use the OpenClaw AI assistant.
-  mental_damage: We now have a sprawling ecosystem of AI tools so vast that keeping the documentation mirrored in every human language has become a necessary infrastructure overhead.
+  summary: A self-hosted AI agent gateway that connects messaging channels like Discord, Slack, and WhatsApp to AI coding agents.
+  why_it_matters: It enables developers to interact with their coding agents through their existing communication tools, bridging the gap between chat apps and development workflows.
+  mental_damage: Because having your coding agent respond to a WhatsApp message is exactly how you accidentally deploy buggy code from a coffee shop.
   tags:
-    - documentation
-    - localization
-    - openclaw
-    - chinese
+    - ai-agent
+    - gateway
+    - messaging-integration
+    - self-hosted
+    - automation
   confidence: high
 curation:
-  status: excluded
-  reason: Excluded because this is a documentation translation page, not a standalone developer tool, agent, or infrastructure product.
+  status: included
+  reason: It acts as a host integration layer that augments existing messaging platforms with agentic capabilities rather than being the primary coding assistant itself.
   evidence:
-    - URL points to a language-specific documentation path (docs.openclaw.ai/zh-CN), not a product repo or tool.
-    - No repo description, README, or code artifacts provided; only a localized docs page exists.
-    - Source list context classifies it under 'Skills' in a general LLM resource list, which is a navigation signal, not a product fit.
+    - README describes it as a 'Gateway' connecting messaging channels to AI coding agents
+    - Primary value is routing messages from Discord, Slack, etc., to an agent
+    - Provides mobile nodes for iOS/Android to interface with the gateway
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:37.671Z"
+    updated_at: "2026-07-20T15:41:11.316Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bbb231868a2c2ad15faec217a7a1d4504e3f048659e3c026c7502be7b809345c
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: It acts as a host integration layer that augments existing messaging platforms with agentic capabilities rather than being the primary coding assistant itself.
+      decision_evidence:
+        - README describes it as a 'Gateway' connecting messaging channels to AI coding agents
+        - Primary value is routing messages from Discord, Slack, etc., to an agent
+        - Provides mobile nodes for iOS/Android to interface with the gateway
+      category_candidates:
+        - ai-dev-extensions
+        - agent-orchestration
+      contrastive_reason: Choose ai-dev-extensions over agent-orchestration because the core product identity is a connectivity layer (Gateway) that augments existing communication hosts.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -42,6 +42,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -50,15 +52,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Currents is a Playwright-focused dashboard, reporter, and test orchestrator that provides debugging, monitoring, and CI optimization for test suites, with an MCP server to feed test health data to AI agents.
-  why_it_matters: It centralizes flaky test detection, CI orchestration, and historical test data while offering an MCP interface so AI agents can directly reason about test failures and suite health.
-  mental_damage: You can now over-engineer your CI pipeline with AI agents that automate the debugging of the flaky tests that your other AI agents helped you write.
+  summary: A Playwright-focused dashboard, reporter, and test orchestrator designed to debug and monitor complex CI test suites.
+  why_it_matters: It helps developers reduce CI costs and debugging time through automated flaky test detection, real-time streaming, and smart test orchestration.
+  mental_damage: Nothing cures the fear of a broken CI pipeline quite like an AI agent being handed a dashboard of your most frequent, un-flakable failures.
   tags:
     - playwright
     - testing
-    - mcp
+    - observability
     - ci-cd
-    - orchestration
+    - qa
   confidence: high
 curation:
   status: included
@@ -69,10 +71,10 @@ curation:
     - Product description highlights empowering AI agents with historical test results and health metrics via its MCP server.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -85,9 +87,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:45.358Z"
+    updated_at: "2026-07-20T15:35:27.808Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8f343d3e5e8e000f32cb7bfeff1aad2f98c8cb9e25253c1572b91e2513221746
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: Currents is a specialized testing and observability platform that includes an MCP server to augment AI agents with testing context.
+      decision_evidence:
+        - Claims to be a Playwright-focused reporter, dashboard and test orchestrator
+        - Offers an MCP server to provide 'better context for AI agents' regarding test results
+        - Provides smart orchestration to speed up CI pipelines
+      category_candidates:
+        - ai-dev-extensions
+        - evals
+      contrastive_reason: Choose ai-dev-extensions over evals because the product's core identity is a management and orchestration dashboard that extends agent capabilities, rather than a pure benchmarking/evaluation framework.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

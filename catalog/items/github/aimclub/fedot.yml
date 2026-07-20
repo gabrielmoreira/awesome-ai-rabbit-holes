@@ -27,6 +27,8 @@ metadata:
     forks: 93
     license: BSD-3-Clause
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2020-01-13T12:48:37Z"
     pushed_at: "2026-07-17T10:06:55Z"
     description: Automated modeling and machine learning framework FEDOT
@@ -48,26 +50,25 @@ metadata:
       fetched_at: "2026-07-20T05:16:55.355Z"
       bytes: 17507
 insights:
-  summary: FEDOT is an open-source AutoML framework that uses evolutionary algorithms to automatically design and optimize machine learning pipelines for classification, regression, clustering, and time series tasks.
-  why_it_matters: It allows developers to automate complex ML pipeline design and hyperparameter tuning with a simple fit/predict API, integrating with popular libraries like Scikit-learn, CatBoost, and XGBoost.
-  mental_damage: Just when you thought your job was safe from AI assistants editing code, this framework arrives to prove that evolutionary algorithms can automate the modeling part too, leaving you to wonder if hyperparameter tuning was the only thing keeping you relevant.
+  summary: An open-source AutoML framework for the automated design and optimization of machine learning pipelines.
+  why_it_matters: It automates the complex process of building, tuning, and managing predictive models for classification, regression, and time-series tasks.
+  mental_damage: Because why spend weeks manually tuning hyperparameters when an evolutionary algorithm can do it while you contemplate your career choices?
   tags:
     - automl
-    - ml-pipelines
-    - evolutionary-algorithms
     - machine-learning
-    - optimization
+    - evolutionary-algorithms
+    - pipeline-automation
   confidence: high
 curation:
-  status: excluded
-  reason: FEDOT is a traditional automated machine learning framework for building data models, lacking the developer-facing coding assistance, agent orchestration, or AI-infrastructure focus required for this catalog.
+  status: included
+  reason: It is a code-first SDK and framework used by developers to programmatically construct and optimize ML pipelines.
   evidence:
-    - Repo description explicitly identifies it as an 'Automated modeling and machine learning framework', not a coding tool.
-    - README details a fit/predict API for classification, regression, and time series, with no mention of code editing, IDE integration, or LLM workflows.
-    - Source list placement is in 'AutoML' under an LLMOps list, indicating it is ML infrastructure rather than a developer productivity tool.
+    - Repo description identifies it as a machine learning framework
+    - README describes it as a Python package installed via pip
+    - Core functionality involves constructing and optimizing complex pipelines via a high-level API
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Workflow / Graph Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (704) exceeded threshold (150)
@@ -84,9 +85,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:56.672Z"
+    updated_at: "2026-07-20T16:10:53.283Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9fbbdfead59b4d10f349a89b1d05c5ffbd5056cfd9ceb43dcf801ff43aa9ff1b
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first SDK and framework used by developers to programmatically construct and optimize ML pipelines.
+      decision_evidence:
+        - Repo description identifies it as a machine learning framework
+        - README describes it as a Python package installed via pip
+        - Core functionality involves constructing and optimizing complex pipelines via a high-level API
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the tool is primarily used as a code-first SDK and library rather than an operated control plane for multi-agent workflows.
+      review_reason: null
+      review_resume_lifecycle: null

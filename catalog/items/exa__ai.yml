@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,14 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Exa is a web search API designed for AI applications, providing high-quality, low-latency search results with structured outputs and token-efficient content highlights.
-  why_it_matters: It gives coding agents and LLM-powered workflows grounded, real-time web context while reducing token consumption through content highlights and structured data extraction.
-  mental_damage: Finally, your agent can hallucinate about the current state of the world with the confidence of a 180ms latency benchmark.
+  summary: A web search API designed specifically to provide high-quality, token-efficient search results and structured data for AI agents.
+  why_it_matters: It reduces token consumption and hallucination by providing agents with highly relevant, compressed web excerpts instead of raw HTML.
+  mental_damage: It turns the infinite chaos of the internet into a structured, predictable JSON object for your agent to confidently misinterpret.
   tags:
     - search-api
+    - agentic-workflows
     - retrieval
-    - agent-infra
-    - mcp
+    - structured-data
+    - developer-tools
   confidence: high
 curation:
   status: included
@@ -52,10 +55,10 @@ curation:
     - Core product is a search API for AI, specifically highlighting 'Powers their coding agents with Exa's low-latency web search'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
@@ -68,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:59.872Z"
+    updated_at: "2026-07-20T15:44:02.429Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cb8eb8a18a8506ab17c977ed35e1996663e026c1790bfecdbd91c426e61e3aca
+      proposed_primary_category: ai-frameworks
+      disagreement: true
+      decision_reason: Exa is a provider-style API used by developers to build agents, acting as core retrieval infrastructure.
+      decision_evidence:
+        - Claims to provide 'One API for search, crawling, and research agents'
+        - Features specialized models to extract relevant excerpts for token efficiency
+        - Used by teams like Cognition (Devin) to power agentic workflows
+      category_candidates:
+        - ai-frameworks
+        - context-engineering
+      contrastive_reason: Choose ai-frameworks over context-engineering because it is primarily consumed as a service/API to be integrated into existing codebases rather than a standalone management system for prompts.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+      review_resume_lifecycle: null

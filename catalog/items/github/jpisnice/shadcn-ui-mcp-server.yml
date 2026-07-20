@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2859
-    forks: 297
+    stars: 2876
+    forks: 300
     license: MIT
     archived: false
+    full_name: Jpisnice/shadcn-ui-mcp-server
+    html_url: https://github.com/Jpisnice/shadcn-ui-mcp-server
     created_at: "2025-04-07T13:10:12Z"
     pushed_at: "2026-05-16T13:09:07Z"
     description: A mcp server to allow LLMS gain context about shadcn ui component structure,usage and installation,compaitable with react,svelte 5,vue & React Native
@@ -52,9 +54,9 @@ metadata:
       - vue
       - vuejs
       - webdev
-    last_checked_at: "2026-07-13T05:13:15.361Z"
+    last_checked_at: "2026-07-20T15:11:27.991Z"
     readme:
-      fetched_at: "2026-07-13T05:13:15.361Z"
+      fetched_at: "2026-07-20T15:11:27.991Z"
       bytes: 10659
 insights:
   summary: An MCP server that provides AI assistants with structured access to shadcn/ui v4 component source code, blocks, and metadata across React, Svelte, Vue, and React Native.
@@ -88,14 +90,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:15.361Z"
+    updated_at: "2026-07-20T15:11:27.991Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:04:58.944Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

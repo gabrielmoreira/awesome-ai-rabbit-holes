@@ -24,28 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1
+    stars: 2
     forks: 0
     license: MIT
     archived: false
+    full_name: noblabs/lit-forge-mcp
+    html_url: https://github.com/noblabs/lit-forge-mcp
     created_at: "2026-04-25T01:36:14Z"
-    pushed_at: "2026-05-03T20:18:30Z"
-    description: "MCP server: NISA/iDeCo simulation, retirement planning, daily market snapshot, economic events. 12 tools, 28 indicators. Companion to lit-forge.com."
+    pushed_at: "2026-06-01T22:42:34Z"
+    description: "MCP server (18 tools): NISA/iDeCo/retirement simulation, 28-indicator market snapshot, individual stock fundamentals (dividend/analyst), economic release calendars from 6 official sources (BEA/NY Fed/FRB/BLS/Cabinet Office/BOJ), latest BLS macro values (7 series), and geopolitical calendar + pulse."
     homepage: https://www.npmjs.com/package/lit-forge-mcp
     topics:
+      - analyst
+      - bls
       - claude
       - compound-interest
-      - cursor
+      - dividend
+      - economic-calendar
       - finance
+      - forex
+      - geopolitical
       - ideco
+      - investment
+      - japan
+      - macro
+      - market-data
       - mcp
       - model-context-protocol
       - nisa
+      - retirement
       - retirement-planning
-    last_checked_at: "2026-05-06T22:45:33.831Z"
+      - stock-quote
+    last_checked_at: "2026-07-20T15:12:05.555Z"
     readme:
-      fetched_at: "2026-05-06T22:45:33.831Z"
-      bytes: 6489
+      fetched_at: "2026-07-20T15:12:05.555Z"
+      bytes: 16477
 insights:
   summary: An MCP server that exposes personal finance and market data tools—including NISA/iDeCo simulation, daily market snapshots, and economic event calendars—to AI clients like Claude and Cursor.
   why_it_matters: Developers building or using AI-assisted financial workflows can plug retirement planning and market analysis directly into their coding assistants via a standardized protocol.
@@ -78,14 +91,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:33.831Z"
+    updated_at: "2026-07-20T15:12:05.555Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:17:33.032Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Official VS Code documentation page describing how to customize GitHub Copilot using custom instructions, prompt files, custom agents, and MCP servers.
-  why_it_matters: It documents the built-in mechanisms for aligning Copilot's behavior with team coding practices directly inside the editor.
-  mental_damage: Nothing says 'ship it' like spending an afternoon tuning YAML so your AI assistant can learn to ignore half your codebase with corporate-approved consistency.
+  summary: Microsoft documentation for customizing GitHub Copilot within Visual Studio Code using custom instructions, agents, and MCP servers.
+  why_it_matters: It enables developers to tailor the Copilot experience to specific coding standards, workflows, and external toolsets like MCP.
+  mental_damage: "Just what every developer needs: another layer of configuration to ensure the AI actually follows the team's specific brand of insanity."
   tags:
-    - copilot
-    - vscode
-    - customization
-    - docs
+    - visual-studio-code
+    - github-copilot
+    - mcp
+    - ai-customization
   confidence: high
 curation:
   status: excluded
-  reason: This is documentation and auxiliary resource content, not a standalone product, tool, or directory, so it is excluded rather than forced into a product category.
+  reason: The input is a documentation page for an existing product feature rather than a standalone tool, framework, or resource.
   evidence:
-    - URL is a VS Code documentation page (code.visualstudio.com/docs/copilot/customization/overview), not a product or tool repo.
-    - Scraped content is entirely documentation navigation and reference material for Copilot customization features.
-    - Source-list context shows it is linked as a resource from awesome-copilot, not as a standalone tool itself.
+    - URL points to vscode.com documentation
+    - Content is a feature overview/guide for existing Copilot customization
+    - Not a standalone product, repository, or curated directory
 placement:
   primary_category: null
   section: null
@@ -68,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:10.216Z"
+    updated_at: "2026-07-20T15:30:59.216Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ed87839c9fe779c6ce1f1d7b21a5f16ad1e5b3d41e38076e38be0c67b428b40b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a documentation page for an existing product feature rather than a standalone tool, framework, or resource.
+      decision_evidence:
+        - URL points to vscode.com documentation
+        - Content is a feature overview/guide for existing Copilot customization
+        - Not a standalone product, repository, or curated directory
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

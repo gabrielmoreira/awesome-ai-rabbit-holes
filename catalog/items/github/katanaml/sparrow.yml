@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5178
-    forks: 518
+    stars: 5182
+    forks: 519
     license: GPL-3.0
     archived: false
+    full_name: katanaml/sparrow
+    html_url: https://github.com/katanaml/sparrow
     created_at: "2022-01-08T08:45:44Z"
     pushed_at: "2026-06-30T08:55:30Z"
     description: Structured data extraction, instruction calling and agentic workflows with ML, LLM and Vision LLM
@@ -39,9 +41,9 @@ metadata:
       - llm
       - machinelearning
       - vllm
-    last_checked_at: "2026-07-13T05:13:17.532Z"
+    last_checked_at: "2026-07-20T15:11:32.089Z"
     readme:
-      fetched_at: "2026-07-13T05:13:17.532Z"
+      fetched_at: "2026-07-20T15:11:32.089Z"
       bytes: 30257
 insights:
   summary: Sparrow is a production-oriented platform for extracting structured data from documents and images using ML, LLMs, and Vision LLMs, featuring a pluggable architecture and API-first design.
@@ -75,14 +77,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:17.532Z"
+    updated_at: "2026-07-20T15:11:32.089Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:05:39.702Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

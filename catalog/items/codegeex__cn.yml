@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: CodeGeeX is an AI coding assistant that provides code completion, generation, translation, and comment writing across more than 20 programming languages using a 13-billion parameter multilingual model.
-  why_it_matters: It offers developers a multilingual autocomplete and translation layer that can reduce boilerplate and bridge syntax gaps across diverse language stacks.
-  mental_damage: Yet another reminder that even your autocomplete now comes with a model size in the billions and a quiet suggestion that you might not actually need to remember syntax anymore.
+  summary: CodeGeeX is an AI-powered coding assistant that provides code completion, translation, and comment generation across more than 20 programming languages.
+  why_it_matters: It offers a multilingual, large-scale model-driven alternative for automated code generation and documentation within development workflows.
+  mental_damage: Because apparently, supporting twenty different languages isn't enough to satisfy the existential dread of manual boilerplate writing.
   tags:
     - code-completion
+    - ai-assistant
     - multilingual
-    - code-generation
-    - ide-assistant
+    - productivity
   confidence: medium
 curation:
   status: included
-  reason: The product is described as a standalone AI coding assistant focused on inline suggestions, generation, and translation, fitting the identity of a primary coding assistant rather than an extension or integration.
+  reason: It is a standalone coding assistant providing direct code generation and translation capabilities.
   evidence:
-    - Source-list context describes CodeGeeX as 'an AI-based coding assistant' with code completion, generation, translation, and comment writing.
-    - Scraped site context confirms it is powered by a 13-billion parameter multilingual model covering 20+ programming languages.
-    - It is listed under 'Code Completion' in awesome-ai-coding-tools, reinforcing its role as a developer-facing coding assistant.
+    - Source-list describes it as an AI-based coding assistant for code suggestion.
+    - README excerpt claims support for 20+ programming languages and features like auto-commenting.
 placement:
   primary_category: coding-agents
   section: IDE-Native Assistants
@@ -68,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:16.446Z"
+    updated_at: "2026-07-20T15:31:30.138Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:472742d4fb5f053d73d2f0cecd95e10f8bf0aa82acac11143731f282d392ef91
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a standalone coding assistant providing direct code generation and translation capabilities.
+      decision_evidence:
+        - Source-list describes it as an AI-based coding assistant for code suggestion.
+        - README excerpt claims support for 20+ programming languages and features like auto-commenting.
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because its primary identity is as an assistant providing core generation and translation logic rather than just a thin integration layer for another editor.
+      review_reason: null
+      review_resume_lifecycle: null

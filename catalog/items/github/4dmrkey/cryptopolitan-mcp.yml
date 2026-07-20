@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-04-06T08:04:20Z"
     pushed_at: "2026-04-12T12:38:11Z"
     description: Cryptopolitan MCP Server — Real-time crypto news, analysis, and price predictions for AI agents via Model Context Protocol
@@ -38,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.726Z"
       bytes: 3149
 insights:
-  summary: An MCP server that exposes Cryptopolitan's crypto news, analysis, and price predictions as tools for AI agents via SSE and Streamable HTTP transports.
-  why_it_matters: It lets coding agents and MCP-compatible editors pull real-time, attributed crypto content directly into their context without custom scraping or API glue code.
-  mental_damage: Your agent can now hallucinate with live cryptocurrency articles instead of relying solely on its training data.
+  summary: An MCP server providing real-time cryptocurrency news, analysis, and price predictions for AI agents.
+  why_it_matters: It enables AI assistants in IDEs like Cursor or Claude Code to access live financial data and market news through the Model Context Protocol.
+  mental_damage: Another way to ensure your coding assistant can accurately explain why your crypto portfolio is currently cratering.
   tags:
     - mcp
     - crypto
-    - news
     - finance
-    - domain-server
+    - real-time-data
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing domain-specific crypto news and analysis tools, fitting cleanly as a domain server in the MCP category.
+  reason: The product identity is a dedicated MCP server designed to provide domain-specific financial data to existing AI hosts.
   evidence:
-    - Repo description explicitly states 'Cryptopolitan MCP Server — Real-time crypto news... via Model Context Protocol'
-    - README documents SSE and Streamable HTTP endpoints with tool definitions like crypto_get_articles and crypto_search_articles
-    - Listed in awesome-mcp-servers under Finance & Fintech with purpose 'A collection of MCP servers'
+    - Repo description explicitly defines it as an 'MCP Server'
+    - README provides setup instructions for Claude Code, Cursor, and Windsurf via MCP configuration
+    - Provides specific tool definitions like 'crypto_get_articles' for agent consumption
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,9 +75,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:46.532Z"
+    updated_at: "2026-07-20T15:49:58.748Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:889ee324330a8c4a755e2579a5e3efa4de7017e01ad20492a2d46489e57c8638
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is a dedicated MCP server designed to provide domain-specific financial data to existing AI hosts.
+      decision_evidence:
+        - Repo description explicitly defines it as an 'MCP Server'
+        - README provides setup instructions for Claude Code, Cursor, and Windsurf via MCP configuration
+        - Provides specific tool definitions like 'crypto_get_articles' for agent consumption
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is the server itself rather than a plugin or integration layer for a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null

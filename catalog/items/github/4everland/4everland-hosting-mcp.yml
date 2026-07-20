@@ -43,6 +43,8 @@ metadata:
     forks: 6
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-06-12T06:47:30Z"
     pushed_at: "2025-06-19T06:39:56Z"
     description: null
@@ -53,26 +55,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.787Z"
       bytes: 4316
 insights:
-  summary: An MCP server that lets AI coding assistants deploy generated code to decentralized hosting platforms like IPFS, Arweave, and Greenfield.
-  why_it_matters: It closes the loop between AI code generation and live deployment on decentralized storage, allowing agents to ship directly to a hosted URL.
-  mental_damage: "We have successfully abstracted away the developer's last remaining job: opening a browser and clicking 'Deploy'."
+  summary: An MCP server that enables AI models to deploy code instantly to decentralized storage networks like Greenfield, IPFS, and Arweave via 4EVERLAND.
+  why_it_matters: It bridges the gap between LLM-generated code and live, decentralized web deployment through a single tool call.
+  mental_damage: Because why host on a centralized server when you can let an LLM push your experimental code directly into the decentralized void?
   tags:
     - mcp
-    - decentralized-hosting
+    - decentralized-storage
     - deployment
     - ipfs
-    - cursor-integration
+    - greenfield
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server implementation designed to give coding assistants hosting capabilities via the Model Context Protocol.
+  reason: The product identity is an MCP server designed specifically to provide deployment capabilities to an AI host.
   evidence:
-    - README explicitly titles the project 'A Model Context Protocol (MCP) server implementation for 4EVERLAND Hosting'.
-    - Includes integration instructions for Cursor and Claude Desktop via standard MCP server configuration.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Cloud Platforms'.
+    - README explicitly defines it as an 'MCP server implementation'
+    - Primary functionality is providing a 'deploy_site' tool via Model Context Protocol
+    - Integrations provided for Cursor and Claude Desktop via MCP configuration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -89,9 +91,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:46.881Z"
+    updated_at: "2026-07-20T15:50:15.642Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1bbd6552e050007e0bb699443b8ecc4bc0e33801970568b9b76580129a80b232
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is an MCP server designed specifically to provide deployment capabilities to an AI host.
+      decision_evidence:
+        - README explicitly defines it as an 'MCP server implementation'
+        - Primary functionality is providing a 'deploy_site' tool via Model Context Protocol
+        - Integrations provided for Cursor and Claude Desktop via MCP configuration
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a standalone MCP server implementation rather than a plugin for a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null

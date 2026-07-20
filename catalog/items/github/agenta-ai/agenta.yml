@@ -43,6 +43,8 @@ metadata:
     forks: 574
     license: NOASSERTION
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-04-26T09:54:28Z"
     pushed_at: "2026-07-20T01:56:22Z"
     description: The open-source workspace for building and running AI agents. Build agents through chat, share them with your team, and run background agents on schedules or app events.
@@ -72,14 +74,14 @@ metadata:
       fetched_at: "2026-07-20T05:16:51.724Z"
       bytes: 37274
 insights:
-  summary: An open-source LLMOps platform providing a prompt playground, prompt management, LLM evaluation, and observability tooling for engineering and product teams building LLM applications.
-  why_it_matters: It gives developers a single control plane to version prompts, run evaluations, and trace LLM behavior instead of stitching together ad-hoc scripts and manual tests.
-  mental_damage: Yet another dashboard promising to wrangle your prompts, because apparently the hardest part of shipping AI features is admitting you have no idea why your temperature 0.7 completion went rogue.
+  summary: An open-source workspace for building, testing, and deploying AI agents with built-in observability and background task scheduling.
+  why_it_matters: It provides a centralized control plane to manage agent lifecycle, from chat-based prototyping and team collaboration to scheduled background execution.
+  mental_damage: Because nothing says 'productivity' like spending your afternoon debugging the orchestration logic of an agent that was supposed to automate your afternoon.
   tags:
-    - llmops
-    - prompt-management
-    - evals
+    - agent-orchestration
+    - llm-ops
     - observability
+    - open-source
   confidence: high
 curation:
   status: included
@@ -90,10 +92,10 @@ curation:
     - GitHub topics include llm-evaluation, llm-observability, prompt-management, and llmoreps, reinforcing the eval/ops identity.
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (4101) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -107,9 +109,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:56.484Z"
+    updated_at: "2026-07-20T16:00:53.619Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7aa9f71e7175f4ea86208fa3925ecf4dfbc84ee55ef192b259dfc85c8cee604f
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: The product acts as an operated workbench and control plane for managing the lifecycle and execution of multiple agents.
+      decision_evidence:
+        - README describes it as a 'workspace for building and running agents'
+        - Features include background agents on schedules, team access, and tracing
+        - Includes agent version history and management of model/tool calls
+      category_candidates:
+        - agent-orchestration
+        - evals
+      contrastive_reason: Choose agent-orchestration over evals because the primary identity is a workspace for building and running agents, while observability is a secondary feature for making them reliable.
+      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

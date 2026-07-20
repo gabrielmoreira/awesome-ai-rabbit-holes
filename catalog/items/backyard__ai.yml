@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Backyard AI is a desktop and mobile app for creating and chatting with customizable AI characters using local models, featuring tools like Lorebooks and custom grammars for storytelling.
-  why_it_matters: It provides developers with a local-first runtime and UI for experimenting with character-level prompt engineering, context injection via Lorebooks, and response structuring via grammars.
-  mental_damage: "Just what the ecosystem needed: yet another local chat UI to distract you from your IDE while you perfect the 'suspicious elf guard' persona instead of fixing that P0 bug."
+  summary: Backyard AI is a desktop application for creating immersive AI-powered characters for roleplay and text-based storytelling.
+  why_it_matters: It provides a local interface for running specialized LLM configurations, including custom grammars and lorebooks, for creative storytelling.
+  mental_damage: Because why spend time debugging production code when you could be fine-tuning the emotional nuances of a fantasy elf guard?
   tags:
     - local-ai
-    - character-chat
-    - prompt-engineering
-    - storytelling
+    - roleplay
+    - text-generation
+    - desktop-app
+    - creative-writing
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the product is a consumer-facing character roleplay app with no meaningful developer tooling workflow, IDE integration, or coding utility.
+  reason: The tool is an end-user entertainment product for creative roleplay rather than a developer-facing tool for software engineering workflows.
   evidence:
-    - Scraped site description explicitly targets 'Fictional Text & Voice Chats' and 'Immersive AI-Powered Characters', not developer workflows.
-    - Feature set focuses on Lorebooks, Author's Notes, and Grammars for storytelling, with no code editing, repo management, or dev infrastructure.
-    - Source list context places it under 'Inference UI' specifically for 'Fictional Text & Voice Chats', confirming its identity as a creative/chat tool.
+    - Scraped site context focuses on fictional text and voice chats
+    - README/Site content describes immersive character creation and lorebooks
+    - Product identity is a consumer entertainment platform, not developer infrastructure
 placement:
   primary_category: null
   section: null
@@ -68,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:34.150Z"
+    updated_at: "2026-07-20T15:25:41.701Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ea0c1f2cebf316ca5972e3acc319ac3ac07d000d9488c8242c667bd31a847ea4
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is an end-user entertainment product for creative roleplay rather than a developer-facing tool for software engineering workflows.
+      decision_evidence:
+        - Scraped site context focuses on fictional text and voice chats
+        - README/Site content describes immersive character creation and lorebooks
+        - Product identity is a consumer entertainment platform, not developer infrastructure
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -28,6 +28,8 @@ metadata:
     forks: 2
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-04-08T14:25:53Z"
     pushed_at: "2026-07-11T00:18:45Z"
     description: MCP Server for Arknights PRTS Wiki and local game data
@@ -49,22 +51,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.535Z"
       bytes: 15692
 insights:
-  summary: An MCP server that gives MCP-compatible clients like Claude Desktop and Claude Code live access to Arknights PRTS Wiki articles, operator archives, voicelines, and story data.
-  why_it_matters: It lets developers building Arknights fan creation agents skip scraping and wiring game data sources by exposing lore and operator data as ready-to-use MCP tools.
-  mental_damage: The MCP ecosystem is now so mature that you can install a server to argue with an LLM about gacha game lore instead of fixing your CI pipeline.
+  summary: An MCP server providing live access to Arknights Wiki lore, operator data, and game assets for AI agents.
+  why_it_matters: It enables LLM-based agents to reason about specific game mechanics, character lore, and story events via the Model Context Protocol.
+  mental_damage: Finally, an efficient way to feed 50,000 lines of mobile game documentation into your context window.
   tags:
-    - mcp
+    - mcp-server
     - game-data
+    - llm-context
     - arknights
-    - fan-creation
+    - mcp
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server exposing Arknights game and wiki data, which fits cleanly as a domain-specific MCP server rather than a general framework or extension.
+  reason: The tool's primary identity is a domain-specific MCP server providing external data access to LLM clients.
   evidence:
-    - "Repo description states: 'MCP Server for Arknights PRTS Wiki and local game data'"
-    - README says it 'gives any MCP-compatible client — Claude Desktop, Claude Code, Chatbox, and more — live access to lore, operator archives, and voice lines'
-    - Listed in awesome-mcp-servers under Server Implementations > Gaming
+    - Repo description explicitly identifies it as an 'MCP Server for Arknights'
+    - Implements a specific toolset for wiki and game data retrieval
+    - Supports both Python and TypeScript implementations for MCP transport
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -84,9 +87,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:40.737Z"
+    updated_at: "2026-07-20T15:49:17.582Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bd48993a1c9a673a00f016c0aabb021071fb99b9b82940f389562cc79dcb6db9
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is a domain-specific MCP server providing external data access to LLM clients.
+      decision_evidence:
+        - Repo description explicitly identifies it as an 'MCP Server for Arknights'
+        - Implements a specific toolset for wiki and game data retrieval
+        - Supports both Python and TypeScript implementations for MCP transport
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product identity is defined by the protocol and its server implementation rather than just the retrieval logic.
+      review_reason: null
+      review_resume_lifecycle: null

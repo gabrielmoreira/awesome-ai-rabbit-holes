@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 44
-    forks: 8
+    stars: 50
+    forks: 11
     license: GPL-3.0
     archived: false
+    full_name: nihalxkumar/arch-mcp
+    html_url: https://github.com/nihalxkumar/arch-mcp
     created_at: "2025-10-23T10:39:38Z"
     pushed_at: "2026-03-10T14:13:54Z"
     description: Arch Linux MCP (Model Context Protocol) Server
@@ -40,9 +42,9 @@ metadata:
       - mcp-server
       - mcp-servers
       - modelcontextprotocol
-    last_checked_at: "2026-05-06T22:45:32.569Z"
+    last_checked_at: "2026-07-20T15:12:04.111Z"
     readme:
-      fetched_at: "2026-05-06T22:45:32.569Z"
+      fetched_at: "2026-07-20T15:12:04.111Z"
       bytes: 15424
 insights:
   summary: An MCP server that exposes Arch Linux ecosystem data—including the Arch Wiki, AUR, official repos, and system pacman status—to AI assistants via resources and tools.
@@ -74,17 +76,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-13T05:13:33.290Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nihalxkumar/arch-mcp
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T23:17:19.193Z"
+    updated_at: "2026-07-20T15:12:04.111Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

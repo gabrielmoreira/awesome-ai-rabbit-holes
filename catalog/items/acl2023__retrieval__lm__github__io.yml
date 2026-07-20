@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An ACL 2023 tutorial website covering retrieval-based language models, including architecture, training, and applications like RAG.
-  why_it_matters: It curates the foundational reading list and concepts behind retrieval-augmented generation, which underpins most modern context-engineering and AI developer tools.
-  mental_damage: Yet another reminder that the 'breakthrough' everyone shipped last month was already a solved problem in a Princeton lecture hall two years ago.
+  summary: ACL 2023 tutorial page providing a comprehensive overview of retrieval-based language models, covering architectures, training approaches, and applications.
+  why_it_matters: It compiles foundational research on retrieval-augmented generation that informs current RAG implementations, but it is educational material rather than a developer tool.
+  mental_damage: Discovering that every RAG startup pitch deck is secretly just these ACL 2023 slides with the university logos swapped for YC hexagons.
   tags:
-    - rag
-    - retrieval
+    - retrieval-augmented-generation
+    - academic-tutorial
+    - conference-slides
     - nlp
-    - acl2023
-    - tutorial
   confidence: high
 curation:
   status: excluded
-  reason: This is an academic tutorial page and reading list for a conference, not a developer tool, framework, or product.
+  reason: This is an academic conference tutorial page, not a practical developer tool, framework, or infrastructure product; it lacks a developer-tooling workflow or standalone product identity.
   evidence:
-    - The site is an ACL 2023 tutorial page for 'Retrieval-based Language Models and Applications' by university researchers.
-    - The content is a schedule, slides, and reading list (bibliography) rather than an importable library or operated tool.
-    - It was seen in awesome-LLM-resources under a 'Course' section, which aligns with educational media rather than tooling.
+    - Content is an ACL 2023 tutorial schedule with slides and a reading list on retrieval-based language models, not a tool.
+    - No code repository, API, or developer workflow is provided; identity is purely academic/educational.
+    - Source-list categorizes it under 'Course', confirming its role as learning material rather than developer infrastructure.
 placement:
   primary_category: null
   section: null
@@ -69,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:10.437Z"
+    updated_at: "2026-07-20T15:13:18.714Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dfac00c3516a4fff7b47732644e70bea202443ba70a56318fb37c26c3dc30c3d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an academic conference tutorial page, not a practical developer tool, framework, or infrastructure product; it lacks a developer-tooling workflow or standalone product identity.
+      decision_evidence:
+        - Content is an ACL 2023 tutorial schedule with slides and a reading list on retrieval-based language models, not a tool.
+        - No code repository, API, or developer workflow is provided; identity is purely academic/educational.
+        - Source-list categorizes it under 'Course', confirming its role as learning material rather than developer infrastructure.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

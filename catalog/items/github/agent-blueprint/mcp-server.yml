@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-03-01T22:07:17Z"
     pushed_at: "2026-07-10T01:46:54Z"
     description: MCP server for Agent Blueprint — connect AI agents to your blueprints, business cases, and implementation plans
@@ -45,22 +47,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:51.468Z"
       bytes: 6286
 insights:
-  summary: An MCP server and CLI that connects AI agents to Agent Blueprint, providing 23 tools to generate business profiles, use cases, blueprints, and downloadable Agent Skills directories.
-  why_it_matters: It lets coding agents consume structured, vendor-agnostic implementation plans and business cases directly from their MCP client instead of parsing unstructured docs.
-  mental_damage: We have successfully abstracted the abstraction by wrapping a business-case generator in an MCP server so your agent can file its own Jira tickets with perfect ROI projections.
+  summary: An MCP server and CLI for Agent Blueprint that enables AI agents to access structured business profiles, use cases, and implementation plans.
+  why_it_matters: It bridges the gap between high-level business requirements and technical execution by providing agents with a structured, machine-readable context of project blueprints.
+  mental_damage: Because clearly, the only thing missing from our coding workflows was a structured way to feed business logic into the black box.
   tags:
     - mcp
     - agent-blueprint
     - cli
-    - agent-skills
+    - business-logic
+    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server and CLI that exposes Agent Blueprint data via the Model Context Protocol, explicitly designed to be added to Claude Code and other MCP client configs.
+  reason: The tool's primary identity is providing a specialized set of tools via the Model Context Protocol to bridge business data and agent context.
   evidence:
-    - "Repo description states: 'MCP server for Agent Blueprint — connect AI agents to your blueprints, business cases, and implementation plans'"
-    - README instructs users to add it as an MCP server in Claude Code config via `.claude/settings.json` with `npx @agentblueprint/mcp-server`
-    - Provides 23 MCP tools and MCP resources like `agentblueprint://blueprints/{id}` for agent consumption
+    - Explicitly identifies as an 'MCP server' in the README
+    - Provides 23 specialized MCP tools for blueprint management
+    - Focuses on protocol-based access to external business artifacts
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -80,9 +83,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:51.256Z"
+    updated_at: "2026-07-20T15:59:55.044Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1f8a2018882298776fe111be05beb17fe56ca601145eb410c1450e0aa7af2032
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is providing a specialized set of tools via the Model Context Protocol to bridge business data and agent context.
+      decision_evidence:
+        - Explicitly identifies as an 'MCP server' in the README
+        - Provides 23 specialized MCP tools for blueprint management
+        - Focuses on protocol-based access to external business artifacts
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product is explicitly an MCP implementation designed to serve external business data to a host.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -27,6 +27,8 @@ metadata:
     forks: 2
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-10-20T03:07:39Z"
     pushed_at: "2025-11-22T15:11:51Z"
     description: Meta-specification framework for AI Agents to generate  Spec-driven X toolkits automatically.
@@ -41,23 +43,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:50.310Z"
       bytes: 19969
 insights:
-  summary: MetaSpec is a meta-specification framework that generates domain-specific, spec-driven development toolkits (speckits) with built-in CLI, validation, and AI agent support.
-  why_it_matters: It provides a structured way to define specifications that drive entire development workflows, explicitly optimizing token usage by up to 99% for AI agents.
-  mental_damage: "Just what we needed: another meta-layer to manage the meta-layers, ensuring our agents can now efficiently parse the very specs we wrote to stop them from rewriting our codebase."
+  summary: A meta-specification framework designed to automatically generate spec-driven toolkits (speckits) for AI agents.
+  why_it_matters: It automates the creation of structured, specification-heavy development environments that use precision-guided navigation to drastically reduce LLM token consumption.
+  mental_damage: Because if you aren't building a meta-framework to generate your development specifications, are you even actually engineering anymore?
   tags:
     - spec-driven
-    - meta-specification
-    - cli
+    - agent-toolkits
     - token-optimization
-    - ai-agents
+    - meta-programming
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is a framework for creating spec-driven toolkits, aligning perfectly with the 'specs as primary artifact' definition of the Spec-Driven Development category.
+  reason: The tool's core identity is centered on defining structured specifications to drive the lifecycle of agent toolkits and workflows.
   evidence:
-    - Repo description identifies it as a 'Meta-specification framework for AI Agents to generate Spec-driven X toolkits'.
-    - README highlights 'precision-guided navigation' that reduces token usage by 84-99% for AI agents.
-    - Explicitly listed in the 'awesome-spec-driven-development' list under the 'Specification Tools' section.
+    - Repo description explicitly defines it as a 'Meta-specification framework'
+    - README focuses on SD-X (Spec-Driven X) architectures and specs as core assets
+    - Includes precision-guided navigation for spec-driven file reading
 placement:
   primary_category: spec-driven-development
   section: Spec-First Environments
@@ -77,9 +78,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:35.177Z"
+    updated_at: "2026-07-20T15:57:25.253Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:59e575a029da68fe151239aeb962745473bd93335b2da7ed03b4d418fe543931
+      proposed_primary_category: spec-driven-development
+      disagreement: false
+      decision_reason: The tool's core identity is centered on defining structured specifications to drive the lifecycle of agent toolkits and workflows.
+      decision_evidence:
+        - Repo description explicitly defines it as a 'Meta-specification framework'
+        - README focuses on SD-X (Spec-Driven X) architectures and specs as core assets
+        - Includes precision-guided navigation for spec-driven file reading
+      category_candidates:
+        - spec-driven-development
+        - ai-frameworks
+      contrastive_reason: Choose spec-driven-development over ai-frameworks because the product's primary novelty is the specification-first lifecycle and validation loop rather than being a general-purpose SDK for developers to import.
+      review_reason: null
+      review_resume_lifecycle: null

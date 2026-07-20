@@ -28,14 +28,16 @@ metadata:
     forks: 7
     license: MIT
     archived: false
+    full_name: kukapay/blocknative-mcp
+    html_url: https://github.com/kukapay/blocknative-mcp
     created_at: "2025-04-30T04:40:33Z"
     pushed_at: "2025-04-30T13:13:39Z"
     description: An MCP server that provides real-time gas price predictions across multiple blockchains.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:21.199Z"
+    last_checked_at: "2026-07-20T15:11:38.725Z"
     readme:
-      fetched_at: "2026-07-13T05:13:21.199Z"
+      fetched_at: "2026-07-20T15:11:38.725Z"
       bytes: 4917
 insights:
   summary: An MCP server that provides real-time gas price predictions and transaction cost estimates across multiple blockchains using Blocknative's API.
@@ -69,14 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:21.199Z"
+    updated_at: "2026-07-20T15:11:38.725Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:06:56.077Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

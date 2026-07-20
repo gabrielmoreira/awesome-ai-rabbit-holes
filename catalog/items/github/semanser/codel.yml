@@ -43,6 +43,8 @@ metadata:
     forks: 204
     license: AGPL-3.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-03-18T17:21:32Z"
     pushed_at: "2024-04-29T17:53:58Z"
     description: ✨ Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.
@@ -97,9 +99,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:27:50.780Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

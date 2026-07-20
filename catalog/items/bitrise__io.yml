@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,23 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bitrise is a mobile DevOps platform providing CI/CD, build caching, release management, and AI-assisted build fixes for iOS and Android development teams.
-  why_it_matters: It centralizes mobile build pipelines on dedicated Apple silicon infrastructure while offering context-aware AI tools that can fix failed builds and review PRs directly from an IDE via MCP.
-  mental_damage: Now your CI pipeline can apologize for failing and attempt a fix before you even finish writing the commit message that broke it.
+  summary: A mobile-focused DevOps platform providing CI/CD, build automation, and release management for iOS and Android.
+  why_it_matters: It automates complex mobile-specific workflows like macOS builds and code signing that generic CI tools struggle with, and now offers AI-driven build fixes.
+  mental_damage: Because nothing says modern development like having an AI agent try to debug your mobile build pipeline while you watch your macOS runners burn.
   tags:
-    - ci-cd
     - mobile-devops
-    - mcp
-    - ai-fixes
-    - bitrise
+    - ci-cd
+    - ios-android
+    - automations
+    - build-infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: Bitrise is a mature Mobile DevOps CI/CD platform for iOS and Android; it is infrastructure automation rather than the coding agents, agent orchestration, or developer-facing AI tooling that this catalog curates.
+  reason: The product is a broad mobile DevOps/CI/CD SaaS platform, not a developer-facing AI agent, assistant, or engineering framework.
   evidence:
-    - Described as 'The Mobile DevOps platform that helps you build, test, and deploy your apps quickly and reliably.'
-    - Primary surface is a CI/CD SaaS with build caching, release management, and insights, not a coding assistant or agent framework.
-    - MCP is mentioned only as an IDE connectivity feature for Bitrise AI, not as the product identity.
+    - Core product is a Mobile DevOps platform for CI/CD
+    - AI features are secondary 'intelligent fixes' within a broader DevOps context
+    - Primary value is infrastructure and release management, not agentic coding
 placement:
   primary_category: null
   section: null
@@ -70,9 +72,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:41.238Z"
+    updated_at: "2026-07-20T15:26:08.281Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:335bfd873003dad17c93a522550b81a0a6da58ebbc34199718870512867c52a4
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a broad mobile DevOps/CI/CD SaaS platform, not a developer-facing AI agent, assistant, or engineering framework.
+      decision_evidence:
+        - Core product is a Mobile DevOps platform for CI/CD
+        - AI features are secondary 'intelligent fixes' within a broader DevOps context
+        - Primary value is infrastructure and release management, not agentic coding
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

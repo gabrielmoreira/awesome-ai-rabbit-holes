@@ -27,6 +27,8 @@ metadata:
     forks: 233
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-09-29T04:09:29Z"
     pushed_at: "2026-07-18T04:51:51Z"
     description: The Agentic Commerce Protocol (ACP) is an interaction model and open standard for connecting buyers, their AI agents, and businesses to complete purchases seamlessly. The specification is currently maintained by OpenAI and Stripe.
@@ -72,7 +74,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-08T12:19:18.244Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+    attempts: 0

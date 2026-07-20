@@ -43,6 +43,8 @@ metadata:
     forks: 4
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-06-08T16:21:45Z"
     pushed_at: "2025-06-09T13:56:11Z"
     description: Model Context Protocol (MCP) server for TrackMage API integration, with support for 1600+ carriers worldwide. Enables AI assistants to track shipments, manage logistics, create orders, and monitor package delivery   statuses. Features OAuth authentication, carrier detection, and real-time tracking updates.
@@ -95,9 +97,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:34:00.136Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.655Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

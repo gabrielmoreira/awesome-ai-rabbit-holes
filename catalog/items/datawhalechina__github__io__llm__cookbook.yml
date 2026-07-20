@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language introductory tutorial and resource hub for developers learning to use Large Language Models.
-  why_it_matters: It aggregates the world's best LLM resources, covering everything from model training to辅助编程 (assisted programming) for developers entering the ecosystem.
-  mental_damage: Another shining beacon assuring developers that if they just read one more curated guide, they will finally understand the rapidly shifting ground beneath their feet.
+  summary: An introductory tutorial for developers on using Large Language Models.
+  why_it_matters: Provides a structured learning path for developers looking to transition into LLM-based development and agentic workflows.
+  mental_damage: Another reminder that the half-life of your current AI knowledge is approximately three business days.
   tags:
-    - llm
     - tutorial
-    - resources
-    - chinese
-    - education
+    - llm
+    - learning
+    - development
   confidence: high
 curation:
   status: excluded
-  reason: The project is an educational tutorial and resource list for learning LLMs, not a developer-facing tool, agent, or infrastructure product.
+  reason: The project is an educational tutorial/documentation resource rather than a standalone developer tool or product.
   evidence:
-    - Title explicitly states '面向开发者的LLM入门教程' (Introduction to LLM for Developers).
-    - Source list context identifies it as a '资料总结' (resource summary/tutorial) rather than a software tool.
-    - Lacks repo description, code artifacts, or a product identity suitable for a tooling catalog.
+    - Site title translates to 'LLM introductory tutorial for developers'
+    - The project is presented as a learning resource/guide rather than an SDK, framework, or agent
 placement:
   primary_category: null
   section: null
@@ -69,9 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:52.177Z"
+    updated_at: "2026-07-20T15:36:13.336Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:151d93c7438b45ae89a688b27637e22cafeceddcf57d70bba97f217b9f01122c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is an educational tutorial/documentation resource rather than a standalone developer tool or product.
+      decision_evidence:
+        - Site title translates to 'LLM introductory tutorial for developers'
+        - The project is presented as a learning resource/guide rather than an SDK, framework, or agent
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -28,6 +28,8 @@ metadata:
     forks: 1
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-03-22T09:28:41Z"
     pushed_at: "2026-04-29T14:55:51Z"
     description: Read and write Apple Notes, with Apple Notes native formatting support
@@ -47,23 +49,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:55.300Z"
       bytes: 5735
 insights:
-  summary: An MCP server that reads and writes Apple Notes with native formatting by leveraging Notes.app's Markdown import capability on macOS.
-  why_it_matters: It lets developers wire their personal Apple Notes directly into AI assistants like Claude Desktop and Claude Code as a first-class, formatted knowledge source.
-  mental_damage: "We have finally achieved the singularity: a protocol bridge that makes your grocery list and meeting agenda equally accessible to your coding agent, provided you grant node full disk access and accessibility permissions."
+  summary: An MCP server that enables AI clients to read and write Apple Notes with native formatting support.
+  why_it_matters: It bridges the gap between LLMs and the walled-garden Apple Notes app, allowing AI to create structured, natively formatted notes rather than just plain text.
+  mental_damage: Nothing says 'odern developer workflow' quite like granting Full Disk Access to a Node.js process just so Claude can organize your grocery list.
   tags:
     - mcp
-    - apple-notes
     - macos
-    - knowledge-base
-    - cli
+    - apple-notes
+    - automation
+    - productivity
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that gives AI clients native-formatted access to Apple Notes, making it a textbook fit for the MCP Servers & Tooling category.
+  reason: The project is explicitly an MCP server designed to provide a specific domain (Apple Notes) to AI clients.
   evidence:
-    - Repo description and README explicitly define it as an MCP server for reading/writing Apple Notes with native formatting.
-    - Setup instructions target Claude Desktop and Claude Code as MCP clients, reinforcing MCP as the core product identity.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory', aligning with its domain-specific MCP server role.
+    - README identifies it as an 'Apple Notes MCP Server'
+    - Provides specific MCP implementation details for Claude Desktop and Claude Code
+    - Core identity is the MCP protocol interface for Notes.app
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -83,9 +85,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:55.221Z"
+    updated_at: "2026-07-20T16:10:21.191Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7e1ce86fbd12c3bd1878d2aacf6e13a38bc2653b17bb0a7445bd99fcbe70ee9f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server designed to provide a specific domain (Apple Notes) to AI clients.
+      decision_evidence:
+        - README identifies it as an 'Apple Notes MCP Server'
+        - Provides specific MCP implementation details for Claude Desktop and Claude Code
+        - Core identity is the MCP protocol interface for Notes.app
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity and delivery mechanism is a Model Context Protocol server.
+      review_reason: null
+      review_resume_lifecycle: null

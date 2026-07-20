@@ -28,6 +28,8 @@ metadata:
     forks: 135
     license: CC-BY-4.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-08-08T05:25:16Z"
     pushed_at: "2025-01-12T04:58:38Z"
     description: Developer AI Persona Search Agent
@@ -81,10 +83,18 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:19:37.127Z"
-    cause: null
-    attempts: 1
+    status: deferred
+    updated_at: "2026-07-20T16:08:38.824Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__ai-citizen__solidgpt: ```json
+        {
+          "summary": "An AI-powered semantic search assistant for querying codebases and workspace documentation like Notion.",
+          "why_it_matters": "It reduces context-switching by allowing developers to ask natural language questions across local code and remote project documentation.",
+          "mental_damage": "Because nothing says productivity like trusting a vector database to explain why a specific method was written three years ago.",
+          "tags":
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
     next_retry_at: null

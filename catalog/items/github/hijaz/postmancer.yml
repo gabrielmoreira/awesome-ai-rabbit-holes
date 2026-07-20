@@ -28,6 +28,8 @@ metadata:
     forks: 6
     license: MIT
     archived: false
+    full_name: hijaz/postmancer
+    html_url: https://github.com/hijaz/postmancer
     created_at: "2025-03-30T04:50:05Z"
     pushed_at: "2025-08-19T00:45:47Z"
     description: An experimental MCP server Rest Client intended to be a replacement of tools postman & insomnia
@@ -37,9 +39,9 @@ metadata:
       - mcp
       - postman
       - rest-client
-    last_checked_at: "2026-07-13T05:13:00.749Z"
+    last_checked_at: "2026-07-20T15:11:02.435Z"
     readme:
-      fetched_at: "2026-07-13T05:13:00.749Z"
+      fetched_at: "2026-07-20T15:11:02.435Z"
       bytes: 2770
 insights:
   summary: An MCP server that lets AI assistants make HTTP requests, manage API collections, and test REST endpoints as a Postman/Insomnia replacement.
@@ -73,14 +75,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:00.749Z"
+    updated_at: "2026-07-20T15:11:02.435Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:12.137Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

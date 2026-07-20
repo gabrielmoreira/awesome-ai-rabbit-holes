@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web-based chat interface for comparing responses from different large language models side-by-side.
-  why_it_matters: Developers use it to quickly benchmark and qualitatively evaluate which LLM performs best for specific coding or reasoning tasks before integrating a model.
-  mental_damage: Yet another arena where we manually A/B test stochastic parrots to convince ourselves we are making data-driven architectural decisions.
+  summary: A benchmarking platform for evaluating large language models through human-side comparisons.
+  why_it_matters: It provides a standardized way for developers to see how different models perform on specific prompts via side-by-side voting.
+  mental_damage: Nothing quite prepares you for the existential dread of seeing a $0.00 model beat a $15.00 model in a blind taste test.
   tags:
-    - llm
     - benchmarking
-    - chat-interface
-    - model-comparison
+    - llm-leaderboard
+    - model-evaluation
+    - comparative-testing
   confidence: high
 curation:
-  status: excluded
-  reason: This is a general-purpose consumer chat interface and model leaderboard, lacking the developer-tooling or coding-agent focus required for the catalog.
+  status: included
+  reason: The tool's core function is measuring and comparing model behavior through side-by-side evaluation.
   evidence:
-    - URL is chat.lmsys.org, a general web chatbot and leaderboard, not a developer tool.
-    - Seen in awesome-local-ai under 'LLM Leaderboard', indicating a benchmarking/eval space rather than a coding workflow tool.
-    - No repo description, README, or context provided to suggest IDE integration, coding agency, or local inference tooling.
+    - Directly included in awesome-local-ai under LLM Leaderboard
+    - Platform focuses on comparative model ranking/evaluation
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Agent Benchmarks
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:55.738Z"
+    updated_at: "2026-07-20T15:29:03.321Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:faafef7d440865c051732920fee6dd0e92dd9f644e54278574f5819ccb194737
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's core function is measuring and comparing model behavior through side-by-side evaluation.
+      decision_evidence:
+        - Directly included in awesome-local-ai under LLM Leaderboard
+        - Platform focuses on comparative model ranking/evaluation
+      category_candidates:
+        - evals
+        - awesome-awesomes
+      contrastive_reason: Choose evals over awesome-awesomes because the tool is a functional benchmarking platform rather than just a curated list of links.
+      review_reason: null
+      review_resume_lifecycle: null

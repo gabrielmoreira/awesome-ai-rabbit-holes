@@ -27,6 +27,8 @@ metadata:
     forks: 3685
     license: NOASSERTION
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-06-10T09:10:45Z"
     pushed_at: "2026-07-19T21:00:13Z"
     description: Agent Zero AI framework
@@ -43,26 +45,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:51.660Z"
       bytes: 19781
 insights:
-  summary: Agent Zero is a dynamic, extensible AI agentic framework that runs in a full Linux environment, allowing agents to write code, execute commands, browse the web, and create custom tools to solve complex tasks.
-  why_it_matters: It provides developers with a transparent, inspectable agent environment that can semi-autonomously handle system-level tasks, file operations, and even document creation via LibreOffice integration.
-  mental_damage: "Just what we needed: an autonomous agent with root access to a Kali Linux box and the ability to install its own dependencies until the heat death of the universe."
+  summary: An open agent framework that provides a Dockerized Linux desktop environment and browser for autonomous task execution.
+  why_it_matters: It allows agents to move beyond simple chat by giving them a full GUI, terminal, and browser with DOM annotation to interact with real software.
+  mental_damage: There is nothing quite like the existential dread of watching an autonomous agent struggle to click a button in a virtual XFCE desktop.
   tags:
-    - agents
-    - linux
-    - framework
-    - autonomous
-    - browser-automation
+    - agent-framework
+    - linux-desktop
+    - docker
+    - autonomous-agents
+    - computer-use
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone, developer-facing agent framework designed to execute code, manage files, and perform complex tasks directly via a terminal and web UI, fitting the 'assistant' mold rather than just a library.
+  reason: The tool functions as a standalone, high-capability agent that operates via a desktop/browser environment rather than just augmenting an existing editor.
   evidence:
-    - Repo description explicitly calls it an 'Agent Zero AI framework' with topics including agent, autonomous, and assistant.
-    - README states it is a 'dynamic, organic agentic framework' where the agent can 'write code, browse the web, cooperate with other agents, and keep learning'.
-    - Installation is provided via a curl/bash script and Docker run command, targeting a CLI/Terminal operational mode.
+    - Claims to 'Give your agent a full Linux computer' via Dockerized XFCE
+    - Features browser DOM annotation and live document cowork
+    - Offers multi-agent cooperation and project memory
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (17565) exceeded threshold (150)
@@ -79,9 +81,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:56.212Z"
+    updated_at: "2026-07-20T16:00:47.875Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e1af00a7976a3f7ce745d441eb05129537b3083fcbe2b9503630ad8c549dd340
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The tool functions as a standalone, high-capability agent that operates via a desktop/browser environment rather than just augmenting an existing editor.
+      decision_evidence:
+        - Claims to 'Give your agent a full Linux computer' via Dockerized XFCE
+        - Features browser DOM annotation and live document cowork
+        - Offers multi-agent cooperation and project memory
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the primary user experience is an autonomous agent interface capable of executing complex, multi-step developer tasks in a desktop environment.
+      review_reason: null
+      review_resume_lifecycle: null

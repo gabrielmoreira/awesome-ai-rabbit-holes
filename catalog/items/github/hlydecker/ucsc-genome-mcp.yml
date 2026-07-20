@@ -28,6 +28,8 @@ metadata:
     forks: 4
     license: MIT
     archived: false
+    full_name: hlydecker/ucsc-genome-mcp
+    html_url: https://github.com/hlydecker/ucsc-genome-mcp
     created_at: "2025-11-13T03:09:05Z"
     pushed_at: "2025-11-13T04:06:30Z"
     description: An MCP server to interact with the UCSC Genome Browser API
@@ -37,9 +39,9 @@ metadata:
       - genetics
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-13T05:13:01.451Z"
+    last_checked_at: "2026-07-20T15:11:03.734Z"
     readme:
-      fetched_at: "2026-07-13T05:13:01.451Z"
+      fetched_at: "2026-07-20T15:11:03.734Z"
       bytes: 6902
 insights:
   summary: An MCP server that exposes the UCSC Genome Browser API to LLM applications, enabling queries for genomic data, sequences, tracks, and metadata.
@@ -72,14 +74,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:01.451Z"
+    updated_at: "2026-07-20T15:11:03.734Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:27.230Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

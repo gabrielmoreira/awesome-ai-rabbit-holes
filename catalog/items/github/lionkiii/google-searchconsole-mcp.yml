@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3
-    forks: 2
+    stars: 4
+    forks: 3
     license: MIT
     archived: false
+    full_name: lionkiii/google-searchconsole-mcp
+    html_url: https://github.com/lionkiii/google-searchconsole-mcp
     created_at: "2026-03-03T05:47:25Z"
     pushed_at: "2026-04-03T05:46:16Z"
     description: MCP server for Google Search Console — query search analytics, inspect URLs, find keyword opportunities, track SEO performance. Works with Claude Desktop, Cursor, Windsurf.
@@ -45,9 +47,9 @@ metadata:
       - search-analytics
       - seo
       - webmaster-tools
-    last_checked_at: "2026-07-13T05:13:28.426Z"
+    last_checked_at: "2026-07-20T15:11:51.852Z"
     readme:
-      fetched_at: "2026-07-13T05:13:28.426Z"
+      fetched_at: "2026-07-20T15:11:51.852Z"
       bytes: 8102
 insights:
   summary: An MCP server that connects Google Search Console to AI assistants like Claude Desktop and Cursor, exposing 13 SEO tools for querying analytics, inspecting URLs, and discovering keyword opportunities via natural language.
@@ -80,14 +82,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:28.426Z"
+    updated_at: "2026-07-20T15:11:51.852Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:09:51.586Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

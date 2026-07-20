@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 12497
-    forks: 1464
+    stars: 12536
+    forks: 1478
     license: Apache-2.0
     archived: false
+    full_name: nearai/ironclaw
+    html_url: https://github.com/nearai/ironclaw
     created_at: "2026-02-03T06:57:10Z"
-    pushed_at: "2026-07-06T05:08:18Z"
+    pushed_at: "2026-07-20T15:10:14Z"
     description: IronClaw is an Agent OS focused on privacy, security and extensibility
     homepage: https://www.ironclaw.com
     topics:
@@ -38,10 +40,10 @@ metadata:
       - rlm
       - rust
       - wasm
-    last_checked_at: "2026-07-06T05:30:42.550Z"
+    last_checked_at: "2026-07-20T15:12:01.125Z"
     readme:
-      fetched_at: "2026-07-06T05:30:42.550Z"
-      bytes: 29184
+      fetched_at: "2026-07-20T15:12:01.125Z"
+      bytes: 14603
 insights:
   summary: IronClaw is an open-source, Rust-based personal AI agent OS that runs locally with WASM sandboxing, persistent memory, and multi-channel interfaces for secure task automation.
   why_it_matters: It offers developers a self-hosted alternative to cloud-bound assistants with strong security guarantees, dynamic tool building, and local data control.
@@ -74,14 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-06T05:30:42.550Z"
+    updated_at: "2026-07-20T15:12:01.125Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:16:46.206Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

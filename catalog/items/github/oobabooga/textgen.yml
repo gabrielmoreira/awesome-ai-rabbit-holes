@@ -42,6 +42,8 @@ metadata:
     forks: 5972
     license: AGPL-3.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2022-12-21T04:17:37Z"
     pushed_at: "2026-05-06T18:31:08Z"
     description: Open-source desktop app for local LLMs. Text, vision, tool-calling, OpenAI/Anthropic-compatible API.
@@ -87,9 +89,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:18:54.477Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

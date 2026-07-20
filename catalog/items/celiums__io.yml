@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,27 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Celiums.io is a knowledge and memory server implementation for the Model Context Protocol (MCP).
-  why_it_matters: It provides developers with a standardized way to give MCP-compatible coding agents persistent memory and knowledge retrieval capabilities.
-  mental_damage: "Just what we needed: another layer of abstraction so your agent can pretend it remembers that variable naming convention you agreed on three prompts ago."
+  summary: celiums.io is a web presence for an unidentifiable product.
+  why_it_matters: It currently offers no information to help a developer determine its utility or integration potential.
+  mental_damage: Another URL to bookmark and eventually ignore because we lacked the basic decency to provide a README.
   tags:
-    - mcp
-    - memory
-    - knowledge-base
-    - context
-  confidence: medium
+    - unknown
+  confidence: low
 curation:
-  status: included
-  reason: The project is explicitly listed in the awesome-mcp-servers directory under Knowledge & Memory, confirming its identity as an MCP server implementation.
+  status: excluded
+  reason: The project provides no descriptive content, README, or functional information to determine if it fits the catalog's scope.
   evidence:
-    - Listed in awesome-mcp-servers under 'Server Implementations > Knowledge & Memory'.
-    - URL resolves to celiums.io, indicating a product or service identity rather than just a code snippet.
+    - No repo description provided
+    - No README excerpt available
+    - No site context or content accessible via URL
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -68,9 +68,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:55.326Z"
+    updated_at: "2026-07-20T15:28:54.989Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a742b1ad003887937d4404559ddebb9b9bb463114d9f76e71a1ab5411a8d57d0
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project provides no descriptive content, README, or functional information to determine if it fits the catalog's scope.
+      decision_evidence:
+        - No repo description provided
+        - No README excerpt available
+        - No site context or content accessible via URL
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

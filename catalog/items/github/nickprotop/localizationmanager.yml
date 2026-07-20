@@ -23,12 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 46
-    forks: 1
+    stars: 50
+    forks: 0
     license: MIT
     archived: false
+    full_name: nickprotop/LocalizationManager
+    html_url: https://github.com/nickprotop/LocalizationManager
     created_at: "2025-11-09T06:16:45Z"
-    pushed_at: "2026-04-18T01:36:37Z"
+    pushed_at: "2026-07-10T08:20:43Z"
     description: CLI tool and TUI editor for managing .NET .resx localization files. Validate translations, import/export CSV, add/remove languages, and edit interactively.
     homepage: ""
     topics:
@@ -46,10 +48,10 @@ metadata:
       - translation
       - translation-management
       - tui
-    last_checked_at: "2026-05-06T22:45:32.466Z"
+    last_checked_at: "2026-07-20T15:12:03.872Z"
     readme:
-      fetched_at: "2026-05-06T22:45:32.466Z"
-      bytes: 28681
+      fetched_at: "2026-07-20T15:12:03.872Z"
+      bytes: 28773
 insights:
   summary: A CLI and TUI tool for managing .NET and multi-format localization files with validation, import/export, and optional AI-powered translation via Ollama and other providers.
   why_it_matters: It replaces manual XML/JSON editing and Windows-only tooling with a cross-platform workflow that can automate translation using local LLMs.
@@ -81,17 +83,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-13T05:13:33.148Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nickprotop/localizationmanager
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T23:17:17.804Z"
+    updated_at: "2026-07-20T15:12:03.872Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

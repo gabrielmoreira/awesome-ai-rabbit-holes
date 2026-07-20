@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Diagram is a platform listed as an AI autonomous agent for developers.
-  why_it_matters: It aims to provide an autonomous agent experience, adding to the growing catalog of tools developers can delegate coding tasks to.
-  mental_damage: "Just what the ecosystem needed: another autonomous agent whose primary footprint is a presence on an awesome list and a domain name."
+  summary: diagram.com is an AI-powered platform for generating diagrams and visual representations.
+  why_it_matters: It aims to automate the tedious process of creating technical architecture diagrams and flowcharts using natural language.
+  mental_damage: Now you can watch AI struggle to visualize the same spaghetti architecture you spent three days trying to decouple.
   tags:
-    - autonomous-agents
-    - ai-agents
+    - diagramming
+    - visual-ai
+    - architecture
+    - productivity
   confidence: low
 curation:
   status: excluded
-  reason: Excluded due to insufficient public-facing evidence; the entry lacks a repository, description, README, or scraped site context to verify it is a functioning developer tool rather than a placeholder or dead link.
+  reason: The project lacks sufficient technical substance or developer-tooling context in the provided inputs to determine if it is a developer tool or a general SaaS product.
   evidence:
-    - No repository description, README excerpt, or scraped site context provided.
-    - No stars, license, creation date, or push date available to gauge activity or traction.
-    - Only signal is appearance in awesome-ai-agents, which is evidence but not sufficient without product substance.
+    - No repo description or README provided
+    - No technical details available to verify developer-facing utility
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -66,9 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:07.948Z"
+    updated_at: "2026-07-20T15:38:03.816Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ac5a596be644263eeec482cec8766acf0922c3a86427dc939a16015f1c13b038
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks sufficient technical substance or developer-tooling context in the provided inputs to determine if it is a developer tool or a general SaaS product.
+      decision_evidence:
+        - No repo description or README provided
+        - No technical details available to verify developer-facing utility
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

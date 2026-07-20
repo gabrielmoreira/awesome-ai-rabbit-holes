@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 29
-    forks: 11
+    stars: 33
+    forks: 13
     license: MIT
     archived: false
+    full_name: nonatofabio/local_faiss_mcp
+    html_url: https://github.com/nonatofabio/local_faiss_mcp
     created_at: "2025-11-27T06:32:21Z"
     pushed_at: "2026-04-24T21:21:39Z"
     description: Local FAISS vector store as an MCP server – Agent Memory, drop-in local semantic search for Claude / Copilot / Agents.
@@ -44,9 +46,9 @@ metadata:
       - rag
       - semantic-search
       - vector-database
-    last_checked_at: "2026-05-06T22:45:33.982Z"
+    last_checked_at: "2026-07-20T15:12:05.954Z"
     readme:
-      fetched_at: "2026-05-06T22:45:33.982Z"
+      fetched_at: "2026-07-20T15:12:05.954Z"
       bytes: 13314
 insights:
   summary: A local MCP server that wraps FAISS to provide private, on-device vector storage and semantic search for RAG workflows in Claude, Copilot, and other MCP-compatible agents.
@@ -80,14 +82,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:33.982Z"
+    updated_at: "2026-07-20T15:12:05.954Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:17:38.976Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

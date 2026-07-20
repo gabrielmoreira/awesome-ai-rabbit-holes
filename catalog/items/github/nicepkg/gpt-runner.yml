@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 381
-    forks: 47
+    stars: 383
+    forks: 46
     license: MIT
     archived: false
+    full_name: nicepkg/gpt-runner
+    html_url: https://github.com/nicepkg/gpt-runner
     created_at: "2023-05-14T08:06:03Z"
     pushed_at: "2023-09-11T13:14:48Z"
     description: Conversations with your files! Manage and run your AI presets!
@@ -40,9 +42,9 @@ metadata:
       - openai
       - prompt
       - promptengineering
-    last_checked_at: "2026-05-06T22:45:32.199Z"
+    last_checked_at: "2026-07-20T15:12:03.564Z"
     readme:
-      fetched_at: "2026-05-06T22:45:32.199Z"
+      fetched_at: "2026-07-20T15:12:03.564Z"
       bytes: 8003
 insights:
   summary: A local CLI, web UI, and VSCode extension for managing AI presets and chatting with selected code files using OpenAI or Anthropic models.
@@ -74,17 +76,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-13T05:13:32.961Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nicepkg/gpt-runner
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T23:17:13.010Z"
+    updated_at: "2026-07-20T15:12:03.564Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

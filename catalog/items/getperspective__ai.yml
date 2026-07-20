@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,26 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Perspective AI is a hosted SaaS platform that replaces static web forms with adaptive AI conversations to capture structured data and trigger automations.
-  why_it_matters: It provides an MCP server for developers who want to integrate conversational, schema-aligned data capture into their own applications or agent workflows.
-  mental_damage: We have successfully abstracted away the burden of filling out forms, only to requisition an entire LLM to ask us the same questions in a slightly more polite tone.
+  summary: An AI-powered conversational interface designed to replace static forms with adaptive, structured data capture.
+  why_it_matters: It enables developers to build intelligent intake workflows that extract structured, schema-aligned data from unstructured natural language conversations.
+  mental_damage: Now you can finally replace those depressing, soul-crushing web forms with a conversation that's slightly more polite but just as likely to fail your edge cases.
   tags:
-    - mcp
-    - forms
-    - conversational-ai
-    - saas
+    - ai-forms
     - structured-data
-  confidence: medium
+    - conversational-ui
+    - automation-trigger
+  confidence: high
 curation:
-  status: included
-  reason: The product is primarily a business-facing SaaS for replacing forms, but it explicitly offers an MCP Server, which is the relevant developer-tooling artifact for this catalog.
+  status: excluded
+  reason: The tool is a vertical SaaS product for business operations (lead qualification, intake, onboarding) rather than a developer-focused coding or infrastructure tool.
   evidence:
-    - Scraped site context confirms the product is an 'AI concierge' that replaces static forms with conversational data capture.
-    - Source-list context shows inclusion in awesome-mcp-servers under 'Conversational AI' due to its MCP Server offering.
-    - The site footer lists 'MCP Server' as a distinct product feature alongside SDK and Documentation.
+    - README describes it as an 'AI concierge' to replace static forms for business use cases like insurance and claims intake
+    - Product focus is on business workflows (CRM enrichment, underwriting, compliance) rather than developer workflows
+    - No developer-centric utility like code generation, IDE integration, or infrastructure management is mentioned
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -70,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:23.026Z"
+    updated_at: "2026-07-20T15:47:01.463Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:01f1dedc1825f50b0f74a6d43b41ef12b70b78585e01b598324fb79d31cb6373
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a vertical SaaS product for business operations (lead qualification, intake, onboarding) rather than a developer-focused coding or infrastructure tool.
+      decision_evidence:
+        - README describes it as an 'AI concierge' to replace static forms for business use cases like insurance and claims intake
+        - Product focus is on business workflows (CRM enrichment, underwriting, compliance) rather than developer workflows
+        - No developer-centric utility like code generation, IDE integration, or infrastructure management is mentioned
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

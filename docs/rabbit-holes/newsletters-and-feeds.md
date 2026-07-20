@@ -7,22 +7,22 @@ Newsletters, podcasts, and feeds for staying current with AI.
 
 _These are new or low-traffic entries being watched._
 
-- **[aifordevelopers.substack.com](https://aifordevelopers.substack.com)** A Substack newsletter and curated hub delivering weekly updates on AI tools, frameworks, APIs, and tips for developers building with AI. <details><summary>More about</summary>
+- **[aifordevelopers.substack.com](https://aifordevelopers.substack.com)** A Substack newsletter providing commentary and updates on AI developments specifically for software developers. <details><summary>More about</summary>
 
-  It helps developers cut through the noise by surfacing relevant AI coding tools, frameworks, and workflows in a weekly digest format.
+  It filters the overwhelming noise of general AI news into actionable insights and technical trends relevant to engineering workflows.
 
-  _Yet another weekly promise that this time you’ll finally master the AI toolchain, right before three new ones drop and render your stack obsolete._
+  _Another subscription to manage in a world where the delta between 'tate of the art' and 'obsolete' is measured in weeks._
 
-  `newsletter` `ai-tools` `developer-resources`
+  `newsletter` `developer-education` `ai-trends`
   </details>
 
-- **[awesomeagents.substack.com](https://awesomeagents.substack.com)** A Substack newsletter delivering weekly updates, project spotlights, and releases from the LangChain and AI agent ecosystem. <details><summary>More about</summary>
+- **[awesomeagents.substack.com](https://awesomeagents.substack.com)** A Substack newsletter dedicated to tracking and analyzing the emerging landscape of AI agents. <details><summary>More about</summary>
 
-  It provides a recurring digest to help developers track the rapid proliferation of agent frameworks, tools, and community releases without manually monitoring every repo.
+  It provides a curated feed of updates and insights to help developers navigate the rapidly shifting agentic ecosystem.
 
-  _Subscribing to yet another AI newsletter to feel productive while your agent stack quietly accumulates three new incompatible orchestration frameworks by morning._
+  _Another subscription to manage in a world where the agentic frontier moves faster than your ability to unread it._
 
-  `newsletter` `agents` `langchain` `digest`
+  `newsletter` `ai-agents` `curation` `agentic-workflows`
   </details>
 
 - **[awesomelangchain.substack.com](https://awesomelangchain.substack.com)** awesomelangchain.substack.com is a Substack newsletter focused on LangChain-related tools, tutorials, and updates. <details><summary>More about</summary>
@@ -59,4 +59,13 @@ _These are new or low-traffic entries being watched._
   _Another daily AI digest promising to keep you current, ensuring you can feel behind on agent frameworks, context windows, and Claude.md trivia before your first coffee._
 
   `newsletter` `agents` `llm-apps` `tutorials` `digest`
+  </details>
+
+- **[张驰: A Year Inside ByteDance's AI Lab](https://changche.substack.com/p/a-year-inside-bytedances-ai-lab)** A Substack publication detailing ByteDance's AI laboratory operations and research insights over a one-year period. <details><summary>More about</summary>
+
+  Provides high-signal technical context on how a major AI lab approaches model training, agents, and infra in production.
+
+  _Another long-form essay to read while your local LLM is busy hallucinating a semi-working implementation of the very research described._
+
+  `insights` `research` `ai-lab` `case-study`
   </details>

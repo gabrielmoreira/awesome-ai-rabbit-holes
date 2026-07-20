@@ -24,17 +24,33 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1278
+    forks: 173
+    license: MIT
+    archived: false
+    full_name: nimbalyst/nimbalyst
+    html_url: https://github.com/nimbalyst/nimbalyst
+    created_at: "2025-10-30T21:28:59Z"
+    pushed_at: "2026-07-19T21:25:36Z"
+    description: Nimbalyst - The open-source visual workspace for Claude Code, Codex, and OpenCode. Run multiple coding agents in parallel, edit their work visually in markdown, mockups, and diagrams, and track tasks. Free, MIT-licensed desktop app for macOS, Windows, Linux, with mobile companion for iOS and Android.
+    homepage: https://nimbalyst.com/
+    topics:
+      - agentic-ai
+      - ai-agents
+      - claude-code
+      - codex
+      - coding-agent
+      - developer-tools
+      - ide
+      - markdown-editor
+      - mcp
+      - multi-agent-systems
+      - opencode
+      - wysiwyg-editor
+    last_checked_at: "2026-07-20T15:12:04.653Z"
+    readme:
+      fetched_at: "2026-07-20T15:12:04.653Z"
+      bytes: 8846
 insights:
   summary: null
   why_it_matters: null
@@ -49,8 +65,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1278) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -58,13 +74,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T15:12:04.653Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T05:17:35.691Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+    attempts: 0

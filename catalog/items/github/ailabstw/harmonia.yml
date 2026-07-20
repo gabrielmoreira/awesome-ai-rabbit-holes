@@ -27,6 +27,8 @@ metadata:
     forks: 14
     license: MPL-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2020-06-04T03:20:25Z"
     pushed_at: "2020-09-21T08:16:29Z"
     description: Federated Learning Made Easy
@@ -37,22 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:55.203Z"
       bytes: 2166
 insights:
-  summary: Harmonia is an open-source system and SDK for simplifying the adoption of federated learning via container-based architecture and GitOps-style automation.
-  why_it_matters: It allows developers and researchers to plug existing ML workflows into a federated architecture using operators and gRPC-based application containers without rebuilding training pipelines.
-  mental_damage: Just when you thought orchestrating agents was complex enough, we’ve decided to distribute the training data too, turning your GitOps pipeline into a federated learning coordinator.
+  summary: An open-source infrastructure and SDK designed to simplify the implementation of federated learning for research and production.
+  why_it_matters: It provides a GitOps-inspired architecture to coordinate distributed model training and privacy mechanisms across multiple participants.
+  mental_damage: Because nothing says 'peace of mind' like managing distributed model states via GitOps in a federated environment.
   tags:
     - federated-learning
     - mlops
-    - gitops
     - sdk
+    - distributed-training
+    - privacy
   confidence: high
 curation:
   status: excluded
-  reason: The project is focused on federated learning infrastructure and ML model training rather than AI-powered developer tooling, coding agents, or prompt engineering.
+  reason: The project is a specialized ML infrastructure/research tool for federated learning rather than a developer-facing AI coding tool.
   evidence:
-    - Repo description explicitly states 'Federated Learning Made Easy', targeting ML researchers rather than developers building software.
-    - README describes a system for collaborative ML model building using operators, gRPC, and GitOps, with no mention of coding assistance or developer workflows.
-    - Last push was in September 2020, indicating the project is inactive and focused on traditional ML rather than modern AI developer tooling.
+    - Focuses on federated learning (FL) and differential privacy
+    - Provides an SDK and operator for distributed training workflows
+    - Last pushed update was in 2020
 placement:
   primary_category: null
   section: null
@@ -72,9 +75,25 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:49.883Z"
+    updated_at: "2026-07-20T16:10:06.682Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0deed193ce1680df16069b979246d348a6094b03809893f580c1888bdab32d8f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a specialized ML infrastructure/research tool for federated learning rather than a developer-facing AI coding tool.
+      decision_evidence:
+        - Focuses on federated learning (FL) and differential privacy
+        - Provides an SDK and operator for distributed training workflows
+        - Last pushed update was in 2020
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: ndjordjevic/pinrag
+    html_url: https://github.com/ndjordjevic/pinrag
     created_at: "2026-01-26T08:53:11Z"
     pushed_at: "2026-04-10T14:24:01Z"
     description: A powerful RAG (Retrieval-Augmented Generation) system built with LangChain, designed as an MCP server for Cursor, VS Code, and other AI assistants
@@ -47,9 +49,9 @@ metadata:
       - rag
       - vscode
       - youtube
-    last_checked_at: "2026-07-06T05:30:42.318Z"
+    last_checked_at: "2026-07-20T15:12:01.137Z"
     readme:
-      fetched_at: "2026-07-06T05:30:42.318Z"
+      fetched_at: "2026-07-20T15:12:01.137Z"
       bytes: 34088
 insights:
   summary: A RAG system built with LangChain that exposes multi-format document indexing and citation-based querying as an MCP server for Cursor, VS Code, and other AI assistants.
@@ -83,14 +85,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-06T05:30:42.318Z"
+    updated_at: "2026-07-20T15:12:01.137Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:16:43.446Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -28,14 +28,16 @@ metadata:
     forks: 4
     license: MIT
     archived: false
+    full_name: kukapay/crypto-portfolio-mcp
+    html_url: https://github.com/kukapay/crypto-portfolio-mcp
     created_at: "2025-04-05T04:08:57Z"
     pushed_at: "2025-04-05T04:11:28Z"
     description: An MCP server for tracking and managing cryptocurrency portfolio allocations.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:21.775Z"
+    last_checked_at: "2026-07-20T15:11:39.784Z"
     readme:
-      fetched_at: "2026-07-13T05:13:21.775Z"
+      fetched_at: "2026-07-20T15:11:39.784Z"
       bytes: 3587
 insights:
   summary: An MCP server for tracking cryptocurrency portfolio allocations, fetching real-time prices from Binance, and generating value history charts via SQLite storage.
@@ -69,14 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:21.775Z"
+    updated_at: "2026-07-20T15:11:39.784Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:07:11.080Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Discord community invite for Jan, an open-source project building local AI tooling described as 'Open Superintelligence' in an easy-to-use product.
-  why_it_matters: It serves as the entry point to the Jan community, where users discuss running open-source AI models locally.
-  mental_damage: Yet another portal into the 'Open Superintelligence' hype cycle that definitely won't require a 40GB download and a GPU you don't have.
+  summary: A Discord community for Jan, an open-source local AI desktop application designed to provide an easy-to-use interface for running large language models locally.
+  why_it_matters: It provides a community space for developers using local Runtimes to discuss privacy-focused, self-hosted AI workflows.
+  mental_damage: Another community to join while you wait for your local GPU to finish loading a 70B model.
   tags:
-    - community
     - local-ai
-    - discord
-    - jan
+    - open-source
+    - community
   confidence: high
 curation:
   status: excluded
-  reason: This is a Discord server invite link and a community hub pointer, not a standalone developer tool, runtime, or local AI product itself.
+  reason: This is a community Discord link for a project, rather than a standalone developer tool, framework, or piece of infrastructure.
   evidence:
-    - URL points to discord.com/invite/WWjdgYw9Fa, which is a community invite, not a tool repo or product page.
-    - Scraped context confirms this is the 'Join the Jan Discord Server!' page with 18,830 members.
-    - No repository code, CLI, IDE plugin, or standalone product artifact is present to review.
+    - URL is a Discord invite link
+    - Content is community/social interaction rather than a functional software component
+    - Scraped context describes it as a Discord server for Jan
 placement:
   primary_category: null
   section: null
@@ -68,9 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:15.004Z"
+    updated_at: "2026-07-20T15:38:54.516Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:da38d38ceba098f75e2d48ca095215d8f5636eebf7800f33773915b7ff0db5db
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a community Discord link for a project, rather than a standalone developer tool, framework, or piece of infrastructure.
+      decision_evidence:
+        - URL is a Discord invite link
+        - Content is community/social interaction rather than a functional software component
+        - Scraped context describes it as a Discord server for Jan
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

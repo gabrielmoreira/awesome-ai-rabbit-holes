@@ -28,6 +28,8 @@ metadata:
     forks: 10
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-02-01T03:40:30Z"
     pushed_at: "2026-02-27T13:26:24Z"
     description: Persistent memory system for AI coding assistants via MCP. Works with Claude Code, Cursor, Copilot, Windsurf, Cline.
@@ -38,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:55.576Z"
       bytes: 28122
 insights:
-  summary: A persistent, local-first memory system that exposes session context, decisions, and code patterns to AI coding assistants via an MCP server.
-  why_it_matters: It lets developers carry learned context, error solutions, and code patterns across sessions in Claude Code, Cursor, Copilot, Windsurf, and Cline without cloud dependencies.
-  mental_damage: We have successfully built infrastructure to remember why we did things, so we can now recreate the same architectural mistakes with perfect historical consistency.
+  summary: A persistent, local memory system for AI coding assistants implemented as an MCP server.
+  why_it_matters: It allows coding assistants like Claude Code and Cursor to retain context, decisions, and patterns across different coding sessions.
+  mental_damage: Because apparently, we've reached a point where our primary struggle is that our AI partners have the long-term memory of a goldfish.
   tags:
-    - memory
     - mcp
-    - context
-    - local-first
+    - local-ai
+    - memory
+    - coding-assistants
     - sqlite
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory, retrieval, and context-shaping system designed to persist and inject past session context into models via MCP, which aligns with Prompt & Context Engineering.
+  reason: The core novelty is a memory and retrieval system designed to manage context for other assistants.
   evidence:
-    - Repo description explicitly states 'Persistent memory system for AI coding assistants via MCP.'
-    - README emphasizes memory, vector search, 3-layer search to save ~87% tokens, and lifecycle compression of old sessions.
-    - Seen in awesome-mcp-servers under 'Knowledge & Memory', reinforcing the memory-system identity.
+    - README claims it 'fixes' the issue of AI assistants forgetting everything between sessions.
+    - Uses SQLite/sqlite-vec for local persistence and semantic search.
+    - Implemented as an MCP server to inject context into various coding tools.
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -74,9 +76,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:56.437Z"
+    updated_at: "2026-07-20T16:11:06.026Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:99143e5ecac1571f97e5a41b5dd668dfc0faf4a43dc7819be8dc4e6bc4c25894
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core novelty is a memory and retrieval system designed to manage context for other assistants.
+      decision_evidence:
+        - README claims it 'fixes' the issue of AI assistants forgetting everything between sessions.
+        - Uses SQLite/sqlite-vec for local persistence and semantic search.
+        - Implemented as an MCP server to inject context into various coding tools.
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the fundamental value proposition is solving the long-term memory and context problem, even though it uses MCP as the delivery mechanism.
+      review_reason: null
+      review_resume_lifecycle: null

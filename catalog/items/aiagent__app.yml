@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,28 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A no-code SaaS platform for building and managing teams of general-purpose AI agents to automate business tasks like marketing, sales, and content generation.
-  why_it_matters: It offers a configured environment for multi-agent workflows, though it targets business operations rather than repository editing or software development.
-  mental_damage: Yet another 'agent' platform promising to multiply your teammates, just in case the 400 other wrappers weren't quite enterprise-ready enough.
+  summary: An AI agent platform for building and deploying autonomous agents.
+  why_it_matters: It aims to simplify the transition from a prompt to a functional, deployed autonomous agent.
+  mental_damage: "Just what we needed: another way to deploy an agent that might accidentally rewrite your entire production database while trying to 'help'."
   tags:
-    - agents
-    - no-code
+    - ai-agents
+    - agent-deployment
     - automation
-    - saas
-  confidence: high
+  confidence: low
 curation:
   status: excluded
-  reason: The product is a general-purpose business automation SaaS with no meaningful developer-tooling angle, IDE integration, or code-editing capabilities.
+  reason: Insufficient information provided to determine if this is a developer tool, a framework, or a consumer-facing app builder.
   evidence:
-    - Site content focuses entirely on business use cases like 'Marketing', 'Sales', and 'Content' with 'No Code Needed'.
-    - The platform is described as a tool for 'task automation and workflow optimization' for end-users, not developers editing repos.
-    - Appears in awesome-local-ai lists, but source-list context is evidence, not destiny; the product itself is not a local tool or dev utility.
+    - No repo description or README provided
+    - No star count or activity signals available
+    - Website exists but no detailed technical substance is available in the input
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -68,9 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:39.318Z"
+    updated_at: "2026-07-20T15:19:50.179Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fd19f2156197ad8722fabbec6d957b61b7a6b72ccebb6e9ad0dc8717a89ae386
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Insufficient information provided to determine if this is a developer tool, a framework, or a consumer-facing app builder.
+      decision_evidence:
+        - No repo description or README provided
+        - No star count or activity signals available
+        - Website exists but no detailed technical substance is available in the input
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

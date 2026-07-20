@@ -43,15 +43,17 @@ metadata:
     forks: 8
     license: Apache-2.0
     archived: false
+    full_name: hydrolix/mcp-hydrolix
+    html_url: https://github.com/hydrolix/mcp-hydrolix
     created_at: "2025-04-08T00:12:00Z"
-    pushed_at: "2026-07-09T17:52:03Z"
+    pushed_at: "2026-07-16T16:36:02Z"
     description: An MCP server for Hydrolix
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:03.984Z"
+    last_checked_at: "2026-07-20T15:11:08.316Z"
     readme:
-      fetched_at: "2026-07-13T05:13:03.984Z"
-      bytes: 22264
+      fetched_at: "2026-07-20T15:11:08.316Z"
+      bytes: 16905
 insights:
   summary: An MCP server that exposes Hydrolix database operations—such as running SQL queries, listing databases, and inspecting table schemas—to MCP-compatible AI assistants like Claude Desktop and Claude Code.
   why_it_matters: It lets developers query and inspect their Hydrolix data warehouses directly from their AI coding assistant instead of switching to a separate database client.
@@ -83,14 +85,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:03.984Z"
+    updated_at: "2026-07-20T15:11:08.316Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:01:22.657Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

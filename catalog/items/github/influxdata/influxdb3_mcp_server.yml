@@ -24,18 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 35
+    stars: 36
     forks: 14
     license: NOASSERTION
     archived: false
+    full_name: influxdata/influxdb3_mcp_server
+    html_url: https://github.com/influxdata/influxdb3_mcp_server
     created_at: "2025-05-23T20:42:11Z"
-    pushed_at: "2026-07-08T10:35:34Z"
+    pushed_at: "2026-07-13T18:24:02Z"
     description: MCP Server for InfluxDB 3
     homepage: ""
     topics: []
-    last_checked_at: "2026-07-13T05:13:06.135Z"
+    last_checked_at: "2026-07-20T15:11:12.209Z"
     readme:
-      fetched_at: "2026-07-13T05:13:06.135Z"
+      fetched_at: "2026-07-20T15:11:12.209Z"
       bytes: 13627
 insights:
   summary: An official MCP server from InfluxData that exposes InfluxDB 3 databases as tools, resources, and prompts for MCP-compatible AI clients.
@@ -69,14 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:06.135Z"
+    updated_at: "2026-07-20T15:11:12.209Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:02:04.453Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

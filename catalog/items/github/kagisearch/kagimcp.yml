@@ -23,18 +23,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 442
+    stars: 453
     forks: 44
     license: MIT
     archived: false
+    full_name: kagisearch/kagimcp
+    html_url: https://github.com/kagisearch/kagimcp
     created_at: "2024-12-13T02:41:16Z"
     pushed_at: "2026-07-07T15:26:36Z"
     description: The Official Model Context Protocol (MCP) server for Kagi Search & other tools.
     homepage: ""
     topics: []
-    last_checked_at: "2026-07-13T05:13:16.778Z"
+    last_checked_at: "2026-07-20T15:11:30.701Z"
     readme:
-      fetched_at: "2026-07-13T05:13:16.778Z"
+      fetched_at: "2026-07-20T15:11:30.701Z"
       bytes: 5694
 insights:
   summary: The official Model Context Protocol server that exposes Kagi search and summarization capabilities to MCP-compatible AI assistants like Claude Code and OpenAI's Codex CLI.
@@ -67,14 +69,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:16.778Z"
+    updated_at: "2026-07-20T15:11:30.701Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:05:23.173Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -28,6 +28,8 @@ metadata:
     forks: 14
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-04-01T09:54:01Z"
     pushed_at: "2026-07-15T14:41:44Z"
     description: "Toolkit for building AI-driven graph apps on Memgraph, with LangChain, MCP, and agent implementations. "
@@ -73,10 +75,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:12:58.543Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

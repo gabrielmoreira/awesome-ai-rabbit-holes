@@ -24,13 +24,15 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1901
-    forks: 209
+    stars: 2020
+    forks: 228
     license: MIT
     archived: false
+    full_name: neuron-core/neuron-ai
+    html_url: https://github.com/neuron-core/neuron-ai
     created_at: "2025-03-02T15:35:21Z"
-    pushed_at: "2026-05-05T16:00:36Z"
-    description: The PHP Agentic Framework to build production-ready AI driven applications. Connect components (LLMs, vector DBs, memory) to agents that can interact with your data.
+    pushed_at: "2026-07-20T07:52:20Z"
+    description: The Agentic Framework of the PHP ecosystem to build production-ready AI driven applications. Connect components (LLMs, Tools, vector DBs, memory) to agents that interact with your data and UI.
     homepage: https://docs.neuron-ai.dev
     topics:
       - agent
@@ -43,10 +45,10 @@ metadata:
       - llms
       - php
       - vector-database
-    last_checked_at: "2026-05-06T22:45:31.625Z"
+    last_checked_at: "2026-07-20T15:12:02.947Z"
     readme:
-      fetched_at: "2026-05-06T22:45:31.625Z"
-      bytes: 15038
+      fetched_at: "2026-07-20T15:12:02.947Z"
+      bytes: 16657
 insights:
   summary: Neuron AI is a PHP framework for building and orchestrating AI agents with support for LLMs, vector databases, memory, RAG, and MCP connectors, designed to integrate into existing PHP applications like Laravel and Symfony.
   why_it_matters: It gives PHP developers a native, structured way to build agentic features into their ecosystem without switching stacks or wrestling with Python-first frameworks.
@@ -78,17 +80,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-13T05:13:32.626Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for neuron-core/neuron-ai
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T23:17:05.732Z"
+    updated_at: "2026-07-20T15:12:02.947Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

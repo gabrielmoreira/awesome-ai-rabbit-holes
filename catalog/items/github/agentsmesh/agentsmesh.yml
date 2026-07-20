@@ -58,6 +58,8 @@ metadata:
     forks: 229
     license: NOASSERTION
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-02-28T07:10:42Z"
     pushed_at: "2026-07-18T09:55:05Z"
     description: The AI Agent Workforce Platform. Run a hundred AI coding agents across your own machines — schedule, isolate, and steer them all from one console.
@@ -79,23 +81,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:53.383Z"
       bytes: 11854
 insights:
-  summary: A self-hosted control plane that runs remote AI workstations (AgentPods) to coordinate multi-agent collaboration, task management, and Git integration across teams.
-  why_it_matters: It turns individual coding agents like Claude Code and Aider into a coordinated, Kanban-tracked workforce running on your own infrastructure with BYOK cost control.
-  mental_damage: "Just what every engineering manager dreamed of: a platform to scale headcount by adding more autonomous agents to the backlog instead of fixing the planning process."
+  summary: An AI agent workforce platform that allows users to schedule, isolate, and manage large fleets of AI coding agents across multiple machines from a central console.
+  why_it_matters: It enables developers to scale their productivity by running many autonomous agents in parallel across self-hosted runners without overwhelming local hardware.
+  mental_damage: Finally, a way to manage the existential dread of watching a hundred autonomous agents battle it out in your server rack.
   tags:
     - agent-orchestration
     - multi-agent
     - self-hosted
-    - control-plane
-    - byok
+    - workforce-platform
   confidence: high
 curation:
   status: included
-  reason: The product is an operated workbench and control plane for coordinating multiple agents across teams, which aligns exactly with the Agent Orchestration category.
+  reason: The tool functions as an operated control plane and runtime platform for coordinating a fleet of agents, rather than being a single assistant or a library.
   evidence:
-    - README describes it as 'The AI Agent Workforce Platform' with multi-agent collaboration, task management, and a web console.
-    - Architecture includes a Go API backend, Next.js frontend, Relay cluster, and self-hosted runners that run agents like Claude Code and Aider in isolated pods.
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'.
+    - README claims to provide a 'control layer' for a 'workforce' of agents
+    - Features a 'Runner fleet' and 'one console' for orchestration
+    - Uses a control-plane/data-plane split with gRPC orchestration
 placement:
   primary_category: agent-orchestration
   section: Control Planes & Workforce Platforms
@@ -115,9 +116,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:18.301Z"
+    updated_at: "2026-07-20T16:04:26.041Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5f5f0a41a846403304099a0ab746a291626bf810fd769a52283c4a98ecc2842f
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The tool functions as an operated control plane and runtime platform for coordinating a fleet of agents, rather than being a single assistant or a library.
+      decision_evidence:
+        - README claims to provide a 'control layer' for a 'workforce' of agents
+        - Features a 'Runner fleet' and 'one console' for orchestration
+        - Uses a control-plane/data-plane split with gRPC orchestration
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated workbench and control plane for managing many agents rather than a code-first SDK.
+      review_reason: null
+      review_resume_lifecycle: null

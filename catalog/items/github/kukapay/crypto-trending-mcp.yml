@@ -28,14 +28,16 @@ metadata:
     forks: 5
     license: MIT
     archived: false
+    full_name: kukapay/crypto-trending-mcp
+    html_url: https://github.com/kukapay/crypto-trending-mcp
     created_at: "2025-04-17T17:21:23Z"
     pushed_at: "2025-07-24T13:17:52Z"
     description: An MCP server that tracks and monitors the latest trending tokens on CoinGecko.
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:22.035Z"
+    last_checked_at: "2026-07-20T15:11:40.208Z"
     readme:
-      fetched_at: "2026-07-13T05:13:22.035Z"
+      fetched_at: "2026-07-20T15:11:40.208Z"
       bytes: 4372
 insights:
   summary: An MCP server that fetches and formats trending cryptocurrency data from CoinGecko for use with MCP-compatible clients like Claude Desktop.
@@ -68,14 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:22.035Z"
+    updated_at: "2026-07-20T15:11:40.208Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:07:16.111Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

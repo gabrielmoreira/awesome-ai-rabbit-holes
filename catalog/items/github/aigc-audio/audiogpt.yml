@@ -28,6 +28,8 @@ metadata:
     forks: 853
     license: NOASSERTION
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-03-16T07:12:18Z"
     pushed_at: "2024-07-06T21:35:18Z"
     description: "AudioGPT: Understanding and Generating Speech, Music, Sound, and Talking Head"
@@ -44,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:55.099Z"
       bytes: 3637
 insights:
-  summary: AudioGPT is a research project that connects large language models with various audio foundation models to understand and generate speech, music, sound, and talking heads.
-  why_it_matters: It demonstrates how to orchestrate multiple specialized audio models through a central LLM interface, serving as a reference architecture for multi-modal agent design.
-  mental_damage: "Just what we needed: a system that can hallucinate a jazz solo and a talking head to go with it, ensuring our repositories remain blissfully free of actual code generation."
+  summary: AudioGPT is an open-source framework for understanding and generating speech, music, and sound through integrated foundation models.
+  why_it_matters: It provides a unified implementation for multimodal audio tasks like speech recognition, text-to-speech, and audio inpainting.
+  mental_damage: Because why settle for just text-based LLMs when you can force your code to hallucinate a synthetic singing voice?
   tags:
-    - audio
+    - audio-generation
     - multimodal
-    - langchain
-    - research
-    - generative-ai
+    - speech-to-text
+    - text-to-speech
+    - open-source
   confidence: high
 curation:
   status: excluded
-  reason: This is a general multi-modal research project focused on audio generation and understanding, lacking a developer-tooling or coding-agent angle required for the catalog.
+  reason: The project is a multimodal research implementation for audio processing rather than a developer-focused coding assistant, IDE, or app builder.
   evidence:
-    - Repo description focuses on 'Understanding and Generating Speech, Music, Sound, and Talking Head' rather than code.
-    - README lists capabilities strictly related to audio tasks (TTS, Speech Recognition, Audio Inpainting) with no developer workflow integration.
-    - Listed in awesome-langchain under 'Other / Chatbots', indicating a general LLM application rather than a dev tool.
+    - Repo focuses on speech, music, and talking head synthesis tasks
+    - Functionality centers on audio modalities (Text-to-Sing, Audio Inpainting) rather than code manipulation
+    - Does not provide tools for editing, testing, or deploying software
 placement:
   primary_category: null
   section: null
@@ -80,9 +82,25 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:49.430Z"
+    updated_at: "2026-07-20T16:09:55.644Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:565067ccc9a10e6e810f1b7a44a763e15a7d42becab6bad0402275e47a534e85
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a multimodal research implementation for audio processing rather than a developer-focused coding assistant, IDE, or app builder.
+      decision_evidence:
+        - Repo focuses on speech, music, and talking head synthesis tasks
+        - Functionality centers on audio modalities (Text-to-Sing, Audio Inpainting) rather than code manipulation
+        - Does not provide tools for editing, testing, or deploying software
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

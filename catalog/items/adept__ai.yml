@@ -1,0 +1,94 @@
+id: adept__ai
+kind: website
+name: Adept AI
+canonical_url: https://adept.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__adept__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-20T15:10:47.684Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Adept AI
+        anchor_text: Adept AI
+        extracted_url: https://adept.ai
+        surrounding_text: "## [Adept AI](https://www.adept.ai/?utm_source=awesome-ai-agents)"
+        confidence: high
+    - id: discovery__www__adept__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Adept AI
+        anchor_text: Adept AI
+        extracted_url: https://www.adept.ai
+        surrounding_text: "## [Adept AI](https://www.adept.ai/?utm_source=awesome-ai-agents)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Adept AI builds general-purpose AI agents designed to perform complex digital workflows by directly interacting with software interfaces.
+  why_it_matters: It represents an early and influential attempt to move beyond code completion toward agents that can actually operate desktop and web applications to complete multi-step tasks.
+  mental_damage: "Just what we needed: an agent that can independently navigate enterprise SaaS billing pages while we wonder if 'agentic' is just a fancy word for 'click-happy script.'"
+  tags:
+    - agents
+    - automation
+    - computer-use
+    - workflow
+  confidence: medium
+curation:
+  status: included
+  reason: Adept is a developer-facing AI agent platform focused on computer-use and workflow automation, fitting the 'Browser/Desktop/Computer-Use Agents' definition within Coding Agents.
+  evidence:
+    - Seen in the 'awesome-ai-agents' list under the section 'Adept AI', confirming its identity as an autonomous agent.
+    - The URL (www.adept.ai) and name imply a hosted SaaS platform for AI agents rather than a local library or framework.
+placement:
+  primary_category: coding-agents
+  section: Browser/Desktop/Computer-Use Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.715Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+  discover:
+    status: done
+    updated_at: "2026-07-20T15:10:47.688Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

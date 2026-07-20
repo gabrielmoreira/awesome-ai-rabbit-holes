@@ -43,6 +43,8 @@ metadata:
     forks: 33
     license: NOASSERTION
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-03-27T19:35:07Z"
     pushed_at: "2026-05-10T23:41:16Z"
     description: Analyzes your codebase identifying important files based on dependency relationships. Generates diagrams and importance scores per file, helping AI assistants understand the codebase. Automatically parses popular programming languages such as Python, C, C++, Rust, Zig, Lua.
@@ -53,26 +55,25 @@ metadata:
       fetched_at: "2026-07-20T05:16:50.913Z"
       bytes: 10617
 insights:
-  summary: An MCP server and background daemon that analyzes codebases to rank files by importance, map dependencies, and extract symbols, exposing this context to AI assistants via the Model Context Protocol.
-  why_it_matters: It gives coding agents structured, real-time awareness of code structure and call graphs so they can answer "what does this file do?" without brute-forcing the entire repo context window.
-  mental_damage: We have finally built infrastructure so your AI can pretend to understand your codebase without actually reading it, which is, coincidentally, also how most onboarding docs work.
+  summary: An MCP server that analyzes codebase dependencies and importance scores to provide context to AI assistants.
+  why_it_matters: It helps LLMs navigate complex repositories by ranking file importance and mapping symbol dependencies so the model doesn't waste context on irrelevant files.
+  mental_damage: Finally, a way to formalize the process of explaining your messy architecture to a chatbot that keeps hallucinating circular dependencies.
   tags:
     - mcp
-    - codebase-analysis
     - context-engineering
-    - file-importance
     - dependency-mapping
+    - codebase-analysis
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that provides codebase analysis tools to AI assistants, fitting cleanly as a domain-specific MCP server.
+  reason: The project is explicitly an MCP server designed to provide specialized codebase intelligence to MCP-compliant hosts like Claude Code.
   evidence:
-    - Repo description explicitly states it helps AI assistants understand the codebase and is built as an MCP tool.
-    - README shows it registers via `claude mcp add`, runs as an MCP server, and exposes tools like `find_important_files` to MCP clients.
-    - Listed in awesome-mcp-servers under 'Developer Tools' and 'Community Servers', reinforcing its MCP server identity.
+    - Explicitly identifies as FileScopeMCP in the name and README
+    - Provides MCP tools like `find_important_files` and `find_symbol` for use in MCP clients
+    - Integrates with Claude Code and Hermes Agent via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (290) exceeded threshold (150)
@@ -89,9 +90,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:44.758Z"
+    updated_at: "2026-07-20T15:58:40.284Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d87caa26c89b2db51705b95ca1f16d20896f17f4e2537b5e6d5ee81eecba4f04
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server designed to provide specialized codebase intelligence to MCP-compliant hosts like Claude Code.
+      decision_evidence:
+        - Explicitly identifies as FileScopeMCP in the name and README
+        - Provides MCP tools like `find_important_files` and `find_symbol` for use in MCP clients
+        - Integrates with Claude Code and Hermes Agent via the Model Context Protocol
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product's primary identity and distribution method is as an MCP server for external agents.
+      review_reason: null
+      review_resume_lifecycle: null

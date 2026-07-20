@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: CrewAI is a framework for orchestrating role-playing, autonomous AI agents to collaborate on complex tasks using a code-first approach.
-  why_it_matters: It provides developers with a structured Python framework to build multi-agent systems where specialized agents can role-play, delegate tasks, and collaborate on complex workflows.
-  mental_damage: Yet another framework promising that if you just define enough 'agents' with cute job titles, your codebase will magically automate itself rather than becoming a distributed system of hallucinations.
+  summary: An open-source multi-agent orchestration framework for building collaborative AI workflows.
+  why_it_matters: It enables developers to move beyond single-prompt interactions by coordinating multiple specialized agents to handle complex, multi-step tasks.
+  mental_damage: Now you can replace one unmanageable LLM prompt with a chaotic committee of specialized agents that might still hallucinate in unison.
   tags:
+    - multi-agent
+    - orchestration
     - agents
     - framework
-    - multi-agent
     - python
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: CrewAI is a code-first framework used by developers to script and build multi-agent systems, which aligns with the Frameworks & SDKs category rather than a standalone coding agent or orchestration platform.
+  reason: CrewAI is a code-first framework used to script and program multi-agent workflows, rather than an operated control plane.
   evidence:
-    - Found in awesome-local-ai under the 'Agents' section, indicating it is recognized as an agent tool.
-    - The URL points to crewai.io, representing the core product identity as a framework for building agent crews.
-    - The decision ladder specifies that code-first SDKs and frameworks should be placed in Frameworks & SDKs over orchestration marketing.
+    - Included in awesome-local-ai for Agents
+    - Brand identity centers on multi-agent orchestration through programming
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -68,9 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:37.816Z"
+    updated_at: "2026-07-20T15:34:37.045Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4b1685efb216c4acbdca227f573f4e42e36f50bf06192cea118dd119f449f5f6
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: CrewAI is a code-first framework used to script and program multi-agent workflows, rather than an operated control plane.
+      decision_evidence:
+        - Included in awesome-local-ai for Agents
+        - Brand identity centers on multi-agent orchestration through programming
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers primarily import and script against it as a library/SDK to build their own systems.
+      review_reason: null
+      review_resume_lifecycle: null

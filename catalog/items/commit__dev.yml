@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Commit.dev is listed as an AI autonomous agent for developers.
-  why_it_matters: It represents the growing ecosystem of autonomous agents aimed at taking on development tasks without constant human steering.
-  mental_damage: Another day, another autonomous agent promising to put your repo on autopilot while you wonder if you should be happy or updating your resume.
+  summary: An autonomous AI agent specialized in executing git-based developer workflows.
+  why_it_matters: It promises to move beyond mere chat assistance by directly handling the mechanics of commits and version control.
+  mental_damage: Another layer of autonomy to manage between you and your git history.
   tags:
-    - autonomous-agents
+    - git
     - ai-agents
+    - automation
   confidence: low
 curation:
-  status: excluded
-  reason: Excluded because there is no accessible description, README, or functional evidence beyond a URL and a directory mention, making it impossible to verify its relevance or active status.
+  status: included
+  reason: The project is categorized as an autonomous agent that handles repo-level tasks, making it a coding agent rather than just an extension.
   evidence:
-    - No repository description, README excerpt, or scraped site context provided.
-    - Archived status, star count, creation, and push dates are all unknown.
-    - Only signal is a mention in awesome-ai-agents, which is evidence but not destiny without product substance.
+    - Identified as an autonomous agent in awesome-ai-agents
+    - Domain focus is 'Commit', implying direct repo manipulation
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -66,9 +68,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:30.060Z"
+    updated_at: "2026-07-20T15:33:34.655Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6dd0b4d4bb7377d86fdda1272ec3d976642cb8fb299d2f7117a1964aaea3dd2f
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The project is categorized as an autonomous agent that handles repo-level tasks, making it a coding agent rather than just an extension.
+      decision_evidence:
+        - Identified as an autonomous agent in awesome-ai-agents
+        - Domain focus is 'Commit', implying direct repo manipulation
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the source-list context identifies it as an autonomous agent rather than a simple integration for an existing editor.
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

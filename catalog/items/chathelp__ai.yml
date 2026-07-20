@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ChatHelp.ai is a business-facing SaaS platform offering a customizable AI chat widget for websites, a private knowledge base, and over 100 vertical AI tools for tasks like content writing, image generation, and customer support.
-  why_it_matters: It allows developers to embed a multimodal, RAG-backed chat interface into sites with minimal code, while centralizing various business workflows like WordPress posting and Yelp review analysis under a single API key.
-  mental_damage: Yet another 'all-in-one AI toolbox' promising to save you from the existential dread of managing multiple subscriptions, provided you're willing to hand over your API keys and trust a single line of embed code with your customer support.
+  summary: A SaaS platform offering an AI-powered chatbot widget and a suite of AI tools for business workflows and customer support.
+  why_it_matters: It allows non-technical users to deploy custom AI agents on websites using their own API keys and documents.
+  mental_damage: "Just what the world needed: another 'all-in-one' dashboard to manage the infinite complexity of your business's AI dependencies."
   tags:
     - chat-widget
+    - customer-support
+    - no-code
     - saas
-    - knowledge-base
-    - business-tools
-    - embed
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose business SaaS platform for end-users and website owners, lacking the developer-tooling, coding-agent, or infrastructure focus required for this catalog.
+  reason: The tool is a generic business SaaS for non-developers rather than a developer-facing tool, framework, or infrastructure component.
   evidence:
-    - Primary pitch is a 'Free AI Chat Widget - for your website' and 'Business, Work, Study Assistant'.
-    - Features are vertical business tools like 'AI Writer & WordPress Auto Poster' and 'AI Yelp Reviews Analyzer', not code editing or dev infrastructure.
-    - Appears in awesome-ai-agents only as a chat widget for customer support, which is a common false positive for developer-focused agent lists.
+    - Focuses on business/study workflows like WordPress auto-posting and Yelp review analysis
+    - Primary feature is a no-code website chat widget for customer support
+    - Not a coding tool, agent, or developer infrastructure
 placement:
   primary_category: null
   section: null
@@ -69,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:58.597Z"
+    updated_at: "2026-07-20T15:29:15.173Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b24426ffc7843bde8c9a4e586497f2f0b3c89036c6a68fd04d117b1b20431730
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a generic business SaaS for non-developers rather than a developer-facing tool, framework, or infrastructure component.
+      decision_evidence:
+        - Focuses on business/study workflows like WordPress auto-posting and Yelp review analysis
+        - Primary feature is a no-code website chat widget for customer support
+        - Not a coding tool, agent, or developer infrastructure
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

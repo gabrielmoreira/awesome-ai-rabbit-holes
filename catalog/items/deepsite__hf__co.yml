@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: DeepSite is a web development tool that uses AI to generate, deploy, and host multi-page websites from prompts, featuring free hosting and open-source models.
-  why_it_matters: It allows developers and non-developers to scaffold and ship websites instantly without configuring CI/CD or managing hosting infrastructure.
-  mental_damage: Yet another 'no code required' AI builder, ensuring you can ship a landing page in minutes but will eventually spend hours debugging why the AI thought a carousel was a valid substitute for a database.
+  summary: An AI-powered web development platform that generates and deploys multi-page websites from text prompts.
+  why_it_matters: It accelerates the prototyping and deployment phase by converting natural language descriptions directly into live, hosted web applications.
+  mental_damage: The gap between 'prompting a landing page' and 'aintaining a production codebase' is about to get much, much wider.
   tags:
-    - web-dev
-    - ai-builder
-    - site-generator
-    - hosting
-    - prompt-to-site
-  confidence: medium
+    - ai-web-builder
+    - no-code
+    - deployment
+    - deployment-automation
+  confidence: high
 curation:
   status: included
-  reason: The product's core promise is turning prompts into deployed websites with integrated hosting, which aligns perfectly with the Prompt-to-Site Builders definition.
+  reason: The tool's core identity is a prompt-to-site/app generator that handles the full lifecycle from creation to hosting.
   evidence:
-    - "Scraped site title and description state: 'Build, design, and deploy stunning websites in minutes with AI-powered development.'"
-    - Feature list highlights 'Auto Deploy' and 'Free Hosting' as core value propositions, not repo editing.
-    - Included in the awesome-ai-coding-tools list under the 'UI Generators' section.
+    - README describes building and deploying stunning websites in minutes
+    - Features include multi-page generation, auto-deploy, and free hosting
+    - Source-list context identifies it as a UI Generator for web development
 placement:
   primary_category: app-builders
   section: Prompt-to-Site Builders
@@ -69,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:58.536Z"
+    updated_at: "2026-07-20T15:36:47.321Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0f4a59a95fcce86d89bf59e67aae2244ff63a1d5bdd5984e5c0ddbd1423c2964
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The tool's core identity is a prompt-to-site/app generator that handles the full lifecycle from creation to hosting.
+      decision_evidence:
+        - README describes building and deploying stunning websites in minutes
+        - Features include multi-page generation, auto-deploy, and free hosting
+        - Source-list context identifies it as a UI Generator for web development
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the user experience centers on generating and deploying entire sites from prompts rather than editing an existing codebase.
+      review_reason: null
+      review_resume_lifecycle: null

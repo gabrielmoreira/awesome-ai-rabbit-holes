@@ -85,9 +85,13 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+    attempts: 0
   discover:
     status: done
     updated_at: "2026-06-04T05:40:27.161Z"

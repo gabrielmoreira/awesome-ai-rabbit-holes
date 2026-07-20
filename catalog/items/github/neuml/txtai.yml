@@ -39,12 +39,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 12471
-    forks: 808
+    stars: 12738
+    forks: 848
     license: Apache-2.0
     archived: false
+    full_name: neuml/txtai
+    html_url: https://github.com/neuml/txtai
     created_at: "2020-08-09T19:14:59Z"
-    pushed_at: "2026-05-05T19:34:29Z"
+    pushed_at: "2026-07-14T19:34:56Z"
     description: 💡 All-in-one AI framework for semantic search, LLM orchestration and language model workflows
     homepage: https://neuml.github.io/txtai
     topics:
@@ -68,9 +70,9 @@ metadata:
       - txtai
       - vector-database
       - vector-search
-    last_checked_at: "2026-05-06T22:45:31.315Z"
+    last_checked_at: "2026-07-20T15:12:02.597Z"
     readme:
-      fetched_at: "2026-05-06T22:45:31.315Z"
+      fetched_at: "2026-07-20T15:12:02.597Z"
       bytes: 22641
 insights:
   summary: txtai is an all-in-one Python framework for semantic search, LLM orchestration, and language model workflows, featuring an embeddings database and multi-model pipeline support.
@@ -103,17 +105,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-13T05:13:32.439Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for neuml/txtai
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-05-06T23:17:04.366Z"
+    updated_at: "2026-07-20T15:12:02.597Z"
     cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

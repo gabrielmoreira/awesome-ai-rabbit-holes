@@ -58,6 +58,8 @@ metadata:
     forks: 6942
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-07-06T07:28:10Z"
     pushed_at: "2026-07-19T23:15:45Z"
     description: Autonomous coding agent as an SDK, IDE extension, or CLI assistant.
@@ -103,10 +105,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:49:34.829Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.716Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

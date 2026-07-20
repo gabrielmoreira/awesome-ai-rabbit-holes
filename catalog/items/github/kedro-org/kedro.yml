@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 10913
-    forks: 1050
+    stars: 10926
+    forks: 1057
     license: Apache-2.0
     archived: false
+    full_name: kedro-org/kedro
+    html_url: https://github.com/kedro-org/kedro
     created_at: "2019-04-18T10:29:56Z"
-    pushed_at: "2026-07-09T14:18:18Z"
+    pushed_at: "2026-07-16T12:08:56Z"
     description: Kedro is a toolbox for production-ready data science. It uses software engineering best practices to help you create data engineering and data science pipelines that are reproducible, maintainable, and modular.
     homepage: https://kedro.org
     topics:
@@ -42,9 +44,9 @@ metadata:
       - machine-learning-engineering
       - mlops
       - python
-    last_checked_at: "2026-07-13T05:13:17.873Z"
+    last_checked_at: "2026-07-20T15:11:32.587Z"
     readme:
-      fetched_at: "2026-07-13T05:13:17.873Z"
+      fetched_at: "2026-07-20T15:11:32.587Z"
       bytes: 10819
 insights:
   summary: Kedro is an open-source Python framework for building modular, reproducible data engineering and data science pipelines with software engineering best practices.
@@ -77,14 +79,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:17.873Z"
+    updated_at: "2026-07-20T15:11:32.587Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:05:46.812Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

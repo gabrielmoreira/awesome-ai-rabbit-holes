@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,24 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: didlogic.com is a VoIP and telephony provider with no apparent AI developer tooling.
-  why_it_matters: It does not matter to developers looking for AI coding tools, as it is a telecommunications service.
-  mental_damage: We have officially reached the point where an awesome-mcp-servers list includes a website that appears to sell dial tones.
+  summary: A collection of Model Context Protocol (MCP) server implementations.
+  why_it_matters: It provides a curated list of standardized connectors to give AI assistants access to external tools and data sources.
+  mental_damage: Because one protocol to rule them all is the only way to stop manually copy-pasting JSON into your chat window.
   tags:
-    - voip
-    - telephony
-    - off-topic
+    - mcp
+    - protocols
+    - integrations
+    - ai-tooling
   confidence: high
 curation:
-  status: excluded
-  reason: The project is a telecommunications provider (VoIP/SIP services) and has no developer-facing AI tooling, agents, or MCP infrastructure.
+  status: included
+  reason: The project's identity is defined by being a collection of MCP server implementations, making it a perfect fit for the MCP category.
   evidence:
-    - URL is didlogic.com, which is a known VoIP/telephony provider.
-    - No repo description, README, or scraped site context indicates AI, coding, or developer tooling.
-    - Appears in awesome-mcp-servers under 'Communication', likely as a misclassified or unrelated entry.
+    - Seen in awesome-mcp-servers
+    - Purpose is specifically 'A collection of MCP servers'
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:11.497Z"
+    updated_at: "2026-07-20T15:38:31.780Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5304323620d38c8b9a9bbbb0a14cd73583ddce9f8df3a46ea9b4636ba2cebdce
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's identity is defined by being a collection of MCP server implementations, making it a perfect fit for the MCP category.
+      decision_evidence:
+        - Seen in awesome-mcp-servers
+        - Purpose is specifically 'A collection of MCP servers'
+      category_candidates:
+        - mcp
+        - awesome-awesomes
+      contrastive_reason: Choose mcp over awesome-awesomes because the project's core identity is providing the protocol implementations themselves rather than being a general ecosystem directory.
+      review_reason: null
+      review_resume_lifecycle: null

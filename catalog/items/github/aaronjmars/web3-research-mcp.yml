@@ -28,6 +28,8 @@ metadata:
     forks: 53
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-04-11T15:33:16Z"
     pushed_at: "2026-07-16T14:01:20Z"
     description: Deep Research for crypto - free & fully local
@@ -41,23 +43,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:48.656Z"
       bytes: 6814
 insights:
-  summary: A local MCP server that gives coding assistants deep research capabilities for cryptocurrency tokens by aggregating data from CoinGecko, DeFiLlama, and web searches.
-  why_it_matters: Developers building crypto-native features can delegate multi-source token research directly to their assistant instead of manually correlating market data and protocol stats.
-  mental_damage: Because nothing says 'local AI sovereignty' quite like running a Node.js server whose entire purpose is fetching CoinGecko API responses that were already free.
+  summary: An MCP server providing deep research capabilities for cryptocurrency tokens using data from CoinGecko, DeFiLlama, and web searches.
+  why_it_matters: It allows AI assistants like Claude Desktop or Cursor to perform complex, multi-source crypto market analysis and technical research directly via the Model Context Protocol.
+  mental_damage: Because nothing says 'productive afternoon' like watching an LLM aggregate real-time DeFi liquidity metrics while you try to explain why you're staring at a terminal instead of working.
   tags:
     - mcp
     - crypto
     - research
-    - local
-    - finance
+    - web3
+    - data-retrieval
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server purpose-built for Web3/crypto research, making it a textbook fit for the Domain Servers section of MCP tooling.
+  reason: The project's primary identity is an MCP server designed to provide specific domain knowledge (web3/crypto) to AI hosts.
   evidence:
-    - Repo description explicitly states 'Deep Research for crypto - free & fully local' and topics include mcp and mcp-server.
-    - README demonstrates MCP-native tools (create-research-plan, coingecko-data, defillama-data) designed for Claude Desktop and Cursor integration.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section, confirming ecosystem placement.
+    - Repo description explicitly states it is a 'Web3 Research MCP'
+    - README provides setup instructions for Claude Desktop and Cursor via MCP configuration
+    - Tools provided are specifically designed as MCP tools (e.g., coingecko-data, defillama-data)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -77,9 +79,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:05.290Z"
+    updated_at: "2026-07-20T15:53:14.312Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4ce17c803aed23733f84a3a9f4ef2b459c69725a114ee35468c72d58258584a4
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server designed to provide specific domain knowledge (web3/crypto) to AI hosts.
+      decision_evidence:
+        - Repo description explicitly states it is a 'Web3 Research MCP'
+        - README provides setup instructions for Claude Desktop and Cursor via MCP configuration
+        - Tools provided are specifically designed as MCP tools (e.g., coingecko-data, defillama-data)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity and distribution method are built around the Model Context Protocol specification rather than a standard IDE plugin.
+      review_reason: null
+      review_resume_lifecycle: null

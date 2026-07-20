@@ -28,6 +28,8 @@ metadata:
     forks: 46
     license: EUPL-1.2
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2022-10-12T06:16:11Z"
     pushed_at: "2026-05-06T18:17:34Z"
     description: The accessible HTML-Standard
@@ -92,9 +94,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:23:11.077Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

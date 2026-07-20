@@ -43,6 +43,8 @@ metadata:
     forks: 21
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-04-17T23:31:17Z"
     pushed_at: "2026-04-22T14:23:04Z"
     description: A Model Context Protocol (MCP) server for the Internet Archive's Open Library API that enables AI assistants to search for book and author information.
@@ -64,23 +66,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.975Z"
       bytes: 8518
 insights:
-  summary: An MCP server that exposes the Internet Archive's Open Library API to AI assistants, enabling searches for books, authors, and cover art via structured tool calls.
-  why_it_matters: Developers building or extending AI coding assistants can plug this server in to give their agents structured access to a massive open catalog of book and author metadata.
-  mental_damage: We have officially reached the point where an AI agent can spend your API budget debating the publication year of The Hobbit instead of fixing your failing tests.
+  summary: An MCP server that provides an interface to the Open Library API for searching books and author information.
+  why_it_matters: It gives AI assistants a standardized way to access structured bibliographic data, author biographies, and book cover metadata via the Model Context Protocol.
+  mental_damage: One more protocol to learn so your LLM can tell you exactly when your favorite author died while you're trying to debug code.
   tags:
     - mcp
+    - book-data
+    - api-adapter
     - open-library
-    - internet-archive
-    - books
-    - metadata
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is exposing Open Library data to MCP-compatible assistants, fitting cleanly into MCP Servers & Tooling.
+  reason: The project's entire identity and functionality is centered on being an MCP server for a specific domain.
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server for the Internet Archive's Open Library API'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture' and 'Community Servers'.
-    - README documents MCP tools like get_book_by_title and get_author_info for AI assistant consumption.
+    - Repo description identifies it as an MCP server for the Open Library API.
+    - "README outlines specific MCP tools: get_book_by_title, get_authors_by_name, etc."
+    - Implementation details focus on the MCP transport protocol and tool definitions.
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -100,9 +101,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:53.878Z"
+    updated_at: "2026-07-20T15:50:58.265Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d3812d22142819f0b4cd2423f0a63ed529a9ef997d729d02e6f4c3b839a0be01
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's entire identity and functionality is centered on being an MCP server for a specific domain.
+      decision_evidence:
+        - Repo description identifies it as an MCP server for the Open Library API.
+        - "README outlines specific MCP tools: get_book_by_title, get_authors_by_name, etc."
+        - Implementation details focus on the MCP transport protocol and tool definitions.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol-specific server rather than a general workflow integration for an editor.
+      review_reason: null
+      review_resume_lifecycle: null

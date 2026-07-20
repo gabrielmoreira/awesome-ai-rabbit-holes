@@ -43,6 +43,8 @@ metadata:
     forks: 3842
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-05-12T10:33:54Z"
     pushed_at: "2026-07-18T07:56:55Z"
     description: An autonomous agent that conducts deep research on any data using any LLM providers
@@ -99,10 +101,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:22:35.018Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.714Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
-    next_retry_at: null
+    next_retry_at: "2026-07-20T17:12:09.713Z"

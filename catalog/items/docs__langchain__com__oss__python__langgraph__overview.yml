@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,25 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A documentation page redirecting to the official LangGraph overview within the LangChain documentation.
-  why_it_matters: It points developers to the canonical reference for building stateful, multi-actor graph-based AI workflows using the LangChain ecosystem.
-  mental_damage: Yet another link in the infinite chain of LangChain documentation redirects that will inevitably break right when you need it most.
+  summary: LangGraph is a library for building stateful, multi-agent applications with cycles using LangChain.
+  why_it_matters: It provides the necessary orchestration primitives to move beyond simple chains into complex, iterative agentic workflows.
+  mental_damage: Your architecture will eventually just be a massive, undecipherable directed acyclic graph (or cyclic graph) of state transitions.
   tags:
-    - documentation
-    - redirect
+    - agent-orchestration
+    - multi-agent
+    - stateful-workflows
     - langchain
-    - langgraph
   confidence: high
 curation:
-  status: excluded
-  reason: This is a documentation redirect page and auxiliary resource link, not a standalone product, framework, or tool that fits the catalog's developer-tooling scope.
+  status: included
+  reason: It is a code-first SDK/library used by developers to programmatically build agentic workflows.
   evidence:
-    - The scraped page excerpt shows 'Documentation has moved' with a redirect message to docs.langchain.com.
-    - The input is a documentation URL for LangGraph overview, not a standalone repository or product.
-    - Seen in source lists as a 'Learning Resources > Documentation' link rather than as a tool itself.
+    - Product is presented as a library/framework for building applications
+    - Part of the LangChain ecosystem for developer-facing orchestration
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Workflow / Graph Engines
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:36.308Z"
+    updated_at: "2026-07-20T15:40:52.720Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bf948299f3524fb9b7273193e379ee6ebe8b7a8d77c81689fdd9f0c37985bdd3
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first SDK/library used by developers to programmatically build agentic workflows.
+      decision_evidence:
+        - Product is presented as a library/framework for building applications
+        - Part of the LangChain ecosystem for developer-facing orchestration
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because it is a code-first SDK used for programming workflows rather than an operated workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

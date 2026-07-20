@@ -39,10 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 106
+    stars: 107
     forks: 28
     license: null
     archived: false
+    full_name: hannesrudolph/sqlite-explorer-fastmcp-mcp-server
+    html_url: https://github.com/hannesrudolph/sqlite-explorer-fastmcp-mcp-server
     created_at: "2024-12-15T00:08:25Z"
     pushed_at: "2025-07-18T07:01:19Z"
     description: An MCP server that provides safe, read-only access to SQLite databases through Model Context Protocol (MCP). This server is built with the FastMCP framework, which enables LLMs to explore and query SQLite databases with built-in safety features and query validation.
@@ -54,9 +56,9 @@ metadata:
       - mcp
       - python
       - sqlite
-    last_checked_at: "2026-07-13T05:12:58.516Z"
+    last_checked_at: "2026-07-20T15:10:58.405Z"
     readme:
-      fetched_at: "2026-07-13T05:12:58.516Z"
+      fetched_at: "2026-07-20T15:10:58.405Z"
       bytes: 4081
 insights:
   summary: An MCP server built with the FastMCP framework that provides LLMs with safe, read-only access to SQLite databases for querying and schema inspection.
@@ -90,14 +92,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:12:58.516Z"
+    updated_at: "2026-07-20T15:10:58.405Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:59:28.790Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

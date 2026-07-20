@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,22 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AgentFetch is an MCP-native web fetch API that returns clean, token-budgeted Markdown from URLs with caching and intelligent routing for AI agents.
-  why_it_matters: It lets agents safely fetch web content within strict token budgets and avoid redundant full-price fetches through smart caching and content-type routing.
-  mental_damage: Your agent can now confidently blow your context window in exactly 2,000 tokens instead of 50,000, for only a fraction of a cent per hard-won URL.
+  summary: MCP-native web fetch server that returns clean, token-budgeted Markdown from any URL, with caching and intelligent routing for JavaScript-heavy pages and PDFs.
+  why_it_matters: It gives agents deterministic, cheap, context-window-aware access to the live web without burning tokens on boilerplate or unbounded page sizes.
+  mental_damage: Your agent now needs a metered SaaS intermediary just to read a web page, because apparently raw `curl` and common sense were too high-context for 2025.
   tags:
     - mcp
     - web-fetch
-    - context-budget
-    - agent-tooling
-  confidence: high
+    - token-budgeting
+    - agent-tool
+    - browser-automation
+  confidence: medium
 curation:
   status: included
-  reason: The product is explicitly pitched as an MCP-native tool for agents, making MCP the core product identity rather than a secondary compatibility feature.
+  reason: The product is explicitly built and marketed as an MCP-native server for web fetching, and its primary developer-facing interface is an MCP tool configuration rather than a generic integration layer.
   evidence:
-    - "Scraped site title and description state: 'MCP-native web fetch with token estimation, caching, and intelligent routing. Built for agents.'"
-    - Setup instructions show direct MCP server integration for Claude Desktop / Claude Code.
-    - Listed in awesome-mcp-servers under Browser Automation as an MCP server implementation.
+    - Scraped site describes it as 'MCP-native web fetch' and prominently shows MCP server setup for Claude Desktop / Claude Code.
+    - Listed in awesome-mcp-servers under Browser Automation, confirming it is categorized as MCP infrastructure by ecosystem curators.
+    - Core value props are token estimation, smart caching, and auto-routing — all framed as an MCP tool for agent consumption.
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -69,9 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:18.089Z"
+    updated_at: "2026-07-20T15:16:06.881Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:69efcae044ec0e1e69af5775d96b5a2b23757b3a59b860487dbfba3f68ed2493
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly built and marketed as an MCP-native server for web fetching, and its primary developer-facing interface is an MCP tool configuration rather than a generic integration layer.
+      decision_evidence:
+        - Scraped site describes it as 'MCP-native web fetch' and prominently shows MCP server setup for Claude Desktop / Claude Code.
+        - Listed in awesome-mcp-servers under Browser Automation, confirming it is categorized as MCP infrastructure by ecosystem curators.
+        - Core value props are token estimation, smart caching, and auto-routing — all framed as an MCP tool for agent consumption.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is built, documented, and ecosystem-listed as an MCP-native server first, not merely a generic browser-integration add-on.
+      review_reason: null
+      review_resume_lifecycle: null

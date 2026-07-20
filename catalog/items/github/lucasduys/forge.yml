@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 31
-    forks: 1
+    stars: 55
+    forks: 5
     license: MIT
     archived: false
+    full_name: LucasDuys/forge
+    html_url: https://github.com/LucasDuys/forge
     created_at: "2026-03-21T15:11:27Z"
-    pushed_at: "2026-05-31T17:30:48Z"
+    pushed_at: "2026-07-15T10:22:40Z"
     description: Turn a one-line idea into a branch with tested, reviewed, committed code. The brainstorm-to-commit pipeline for Claude Code.
     homepage: https://lucasduys.github.io/forge/
     topics:
@@ -51,9 +53,9 @@ metadata:
       - mcp
       - model-context-protocol
       - workflow-automation
-    last_checked_at: "2026-07-13T05:13:30.647Z"
+    last_checked_at: "2026-07-20T15:11:55.840Z"
     readme:
-      fetched_at: "2026-07-13T05:13:30.647Z"
+      fetched_at: "2026-07-20T15:11:55.840Z"
       bytes: 15355
 insights:
   summary: A native Claude Code plugin that turns one-line ideas into reviewed, tested, committed code via a five-phase autonomous loop with on-disk state recovery.
@@ -87,14 +89,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:30.647Z"
+    updated_at: "2026-07-20T15:11:55.840Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:10:46.037Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

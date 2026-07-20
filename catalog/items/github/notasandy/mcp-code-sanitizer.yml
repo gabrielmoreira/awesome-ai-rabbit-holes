@@ -24,17 +24,29 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: notasandy/mcp-code-sanitizer
+    html_url: https://github.com/notasandy/mcp-code-sanitizer
+    created_at: "2026-05-04T19:17:05Z"
+    pushed_at: "2026-05-15T21:28:02Z"
+    description: Strict AI code reviewer MCP server powered by Groq
+    homepage: ""
+    topics:
+      - ai-code-review
+      - claude-code
+      - code-review
+      - cursor
+      - groq
+      - llm
+      - mcp-server
+      - security
+    last_checked_at: "2026-07-20T15:12:06.078Z"
+    readme:
+      fetched_at: "2026-07-20T15:12:06.077Z"
+      bytes: 6995
 insights:
   summary: null
   why_it_matters: null
@@ -58,13 +70,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T15:12:06.078Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T05:17:35.691Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+    attempts: 0

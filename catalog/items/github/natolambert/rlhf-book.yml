@@ -23,22 +23,24 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2114
-    forks: 222
+    stars: 2167
+    forks: 230
     license: NOASSERTION
     archived: false
+    full_name: natolambert/rlhf-book
+    html_url: https://github.com/natolambert/rlhf-book
     created_at: "2024-05-24T17:08:24Z"
-    pushed_at: "2026-07-01T14:54:21Z"
+    pushed_at: "2026-07-19T14:03:15Z"
     description: Textbook on reinforcement learning from human feedback
     homepage: https://rlhfbook.com/
     topics:
       - ai
       - alignment
       - rlhf
-    last_checked_at: "2026-07-06T05:30:41.783Z"
+    last_checked_at: "2026-07-20T15:12:00.219Z"
     readme:
-      fetched_at: "2026-07-06T05:30:41.783Z"
-      bytes: 4721
+      fetched_at: "2026-07-20T15:12:00.219Z"
+      bytes: 8396
 insights:
   summary: An open-source textbook and reference code library covering reinforcement learning from human feedback, direct alignment methods, and post-training techniques for language models.
   why_it_matters: Developers training or fine-tuning their own models get a grounded, code-backed reference for RLHF algorithms instead of piecing together scattered papers and blog posts.
@@ -70,14 +72,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-06T05:30:41.783Z"
+    updated_at: "2026-07-20T15:12:00.219Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:16:39.016Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

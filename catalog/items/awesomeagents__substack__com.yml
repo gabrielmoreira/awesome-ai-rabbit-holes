@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Substack newsletter delivering weekly updates, project spotlights, and releases from the LangChain and AI agent ecosystem.
-  why_it_matters: It provides a recurring digest to help developers track the rapid proliferation of agent frameworks, tools, and community releases without manually monitoring every repo.
-  mental_damage: Subscribing to yet another AI newsletter to feel productive while your agent stack quietly accumulates three new incompatible orchestration frameworks by morning.
+  summary: A Substack newsletter dedicated to tracking and analyzing the emerging landscape of AI agents.
+  why_it_matters: It provides a curated feed of updates and insights to help developers navigate the rapidly shifting agentic ecosystem.
+  mental_damage: Another subscription to manage in a world where the agentic frontier moves faster than your ability to unread it.
   tags:
     - newsletter
-    - agents
-    - langchain
-    - digest
+    - ai-agents
+    - curation
+    - agentic-workflows
   confidence: high
 curation:
   status: included
-  reason: The primary value is a recurring media publication and digest covering the agent ecosystem, which fits the Publications & Feeds category rather than a developer tool or list.
+  reason: It is a recurring media publication focused on AI agent developments.
   evidence:
-    - Scraped site title and description define it as a Substack publication for weekly updates, framework releases, and articles.
-    - Source-list context explicitly identifies it as a newsletter ('Awesome Agents, by Kyrolabs AI, a Substack publication').
-    - The excerpt shows a chronological digest of LangChain and agent-related weekly updates, not a standalone tool or directory.
+    - Domain is a Substack newsletter
+    - Topic is specifically focused on agents
 placement:
   primary_category: newsletters-and-feeds
   section: null
@@ -68,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:27.843Z"
+    updated_at: "2026-07-20T15:24:58.327Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ceaadfb3d8a2e77603760c6dc52bdc7c1bd852bdd0bf6cc520ed618d7dc5fb71
+      proposed_primary_category: newsletters-and-feeds
+      disagreement: false
+      decision_reason: It is a recurring media publication focused on AI agent developments.
+      decision_evidence:
+        - Domain is a Substack newsletter
+        - Topic is specifically focused on agents
+      category_candidates:
+        - newsletters-and-feeds
+        - awesome-awesomes
+      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because the primary value is recurring commentary and updates via a newsletter rather than a static directory or map.
+      review_reason: null
+      review_resume_lifecycle: null

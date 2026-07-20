@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,24 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: This is a Discord invite link for the E2B developer community, not a standalone AI tool or product.
-  why_it_matters: Discord communities can be valuable for getting real-time support and updates for tools like E2B, but the server itself is not a developer-facing product.
-  mental_damage: We now have to decide if joining a chat room counts as 'integrating AI into the workflow' or just another notification channel to mute.
+  summary: The official Discord community for E2B, a runtime sandbox designed for executing code within AI applications.
+  why_it_matters: It provides a direct line to the developer community building sandboxed execution environments for LLM agents.
+  mental_damage: Another community to join in the frantic race to figure out how to safely let an LLM run `rm -rf` on your infrastructure.
   tags:
     - community
-    - discord
-    - e2b
+    - runtime
+    - sandboxing
+    - agent-infrastructure
   confidence: high
 curation:
-  status: excluded
-  reason: The input is a Discord invite URL for a community, not a standalone developer tool, SDK, agent, or infrastructure product suitable for the catalog.
+  status: included
+  reason: This is a community hub/discussion forum for a specific developer tool (E2B) rather than a standalone tool itself.
   evidence:
-    - The URL points to discord.com/invite/35NF4Y8WSE, which is a community invite rather than a tool.
-    - Scraped site context confirms it is the 'Developer Community for E2B' with 4057 members.
-    - No repo description, README, code, or product surface is provided—only a community link.
+    - Scraped site context identifies it as a Discord server
+    - Source-list context places it as a community for E2B runtime sandbox
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
@@ -67,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:10.805Z"
+    updated_at: "2026-07-20T15:38:17.399Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8d653898eb01712724d9b0d7545f4f5d5d38fa685cae9e1eea5155ae49bf585e
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a community hub/discussion forum for a specific developer tool (E2B) rather than a standalone tool itself.
+      decision_evidence:
+        - Scraped site context identifies it as a Discord server
+        - Source-list context places it as a community for E2B runtime sandbox
+      category_candidates:
+        - awesome-awesomes
+        - ai-frameworks
+      contrastive_reason: Choose awesome-awesomes over ai-frameworks because this is a community discussion hub, not the E2B SDK itself.
+      review_reason: null
+      review_resume_lifecycle: null

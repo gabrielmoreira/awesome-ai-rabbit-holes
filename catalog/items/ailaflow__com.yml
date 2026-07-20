@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AilaFlow is a visual builder for creating and managing AI autonomous agents.
-  why_it_matters: It provides a visual interface for designing agent workflows, lowering the barrier to entry for developers experimenting with multi-agent architectures.
-  mental_damage: Just when you thought you had a handle on your agent's prompt, now you can waste an afternoon dragging nodes around a canvas to visualize the recursion you could have written in a script.
+  summary: An autonomous agent platform designed for complex workflow automation and multi-agent coordination.
+  why_it_matters: It provides a framework for orchestrating multiple specialized agents to solve complex, multi-step tasks that a single LLM prompt cannot handle.
+  mental_damage: Because deciding which specific agent to delegate your actual job to is the new way to waste a Tuesday afternoon.
   tags:
     - agents
-    - visual-builder
-    - workflow
+    - automation
+    - multi-agent
+    - orchestration
   confidence: low
 curation:
   status: included
-  reason: The product is listed in awesome-ai-agents as a tool for building autonomous agents, fitting the 'workbench' profile of agent orchestration rather than a coding-specific assistant.
+  reason: The project is listed in 'awesome-ai-agents' as an autonomous agent platform, implying a focus on multi-agent coordination rather than just a single assistant.
   evidence:
-    - Listed in awesome-ai-agents under the purpose 'A list of AI autonomous agents'.
-    - The URL ailaflow.com and name suggest a flow/builder interface for agents.
+    - Included in awesome-ai-agents under 'AilaFlow'
+    - URL ailaflow.com indicates a workflow-oriented platform
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  section: Multi-Agent Runtime Platforms
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -66,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:47.555Z"
+    updated_at: "2026-07-20T15:20:40.715Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:15c8b75c63d5e851ccf5aa7a4807d07e113bb175e2a462cb4667c9a04905f7d9
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The project is listed in 'awesome-ai-agents' as an autonomous agent platform, implying a focus on multi-agent coordination rather than just a single assistant.
+      decision_evidence:
+        - Included in awesome-ai-agents under 'AilaFlow'
+        - URL ailaflow.com indicates a workflow-oriented platform
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the source-list context and naming suggest a runtime/platform for autonomous workflows rather than a library for developers to script against.
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

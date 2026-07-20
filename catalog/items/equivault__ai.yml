@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,26 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: EquiVault is a financial intelligence platform that lets users ask natural language questions about public companies, returning source-grounded answers from SEC filings and earnings transcripts with citations.
-  why_it_matters: It offers developers a REST API and MCP integration to programmatically access structured financial data and AI-generated insights without needing to build their own SEC scraping and parsing pipelines.
-  mental_damage: Finally, an AI tool that eliminates the need to actually read SEC filings, replacing regulatory diligence with a chat interface and a subscription fee.
+  summary: An AI-powered equity research platform that parses financial filings and earnings transcripts to extract and explain financial metrics.
+  why_it_matters: It automates the extraction of structured financial data and causal reasoning from dense SEC filings and transcripts.
+  mental_damage: Now you can spend 20 minutes instead of 8 hours feeling guilty about not being a quantitative analyst.
   tags:
-    - finance
-    - mcp
-    - api
-    - sec-filings
-    - research
-  confidence: medium
+    - equity-research
+    - financial-data
+    - ai-analysis
+  confidence: high
 curation:
-  status: included
-  reason: While primarily a finance SaaS, its inclusion in awesome-mcp-servers and explicit mention of an MCP integration and REST API make it a relevant Domain Server for developers building agentic workflows.
+  status: excluded
+  reason: The product is a domain-specific SaaS for financial analysis rather than a developer-facing tool or infrastructure.
   evidence:
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' for providing source-grounded answers from SEC filings.
-    - Homepage explicitly lists 'MCP Integration' as a feature alongside REST API and Mobile App.
-    - Platform covers 89,600+ global companies with automated filing and earnings call tracking.
+    - Targeted at equity research and financial analysis (10-Ks, earnings transcripts)
+    - Main value is generating financial investment theses, not writing/testing code
+    - SaaS platform for end-users (analysts, advisors) rather than dev-tooling
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -70,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:57.640Z"
+    updated_at: "2026-07-20T15:43:19.752Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ae2758607d45c6819ba3b1595c14ea1229e56ae9c2f2ad5878c13ac4f3df3481
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a domain-specific SaaS for financial analysis rather than a developer-facing tool or infrastructure.
+      decision_evidence:
+        - Targeted at equity research and financial analysis (10-Ks, earnings transcripts)
+        - Main value is generating financial investment theses, not writing/testing code
+        - SaaS platform for end-users (analysts, advisors) rather than dev-tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

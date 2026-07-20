@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Beam is an AI autonomous agent listed in the awesome-ai-agents directory.
-  why_it_matters: It represents the category of autonomous agents intended to plan and execute tasks with minimal human supervision.
-  mental_damage: Another entry in the rapidly expanding index of autonomous agents that promise to relieve you of coding only to gift you a new career in prompt debugging and agent supervision.
+  summary: An autonomous AI agent designed for executing complex tasks and workflows.
+  why_it_matters: It promises to offload end-to-end task execution by acting as an autonomous worker rather than just a code completion engine.
+  mental_damage: Another autonomous agent to watch carefully while it decides whether to fix your bug or accidentally delete your production database.
   tags:
     - autonomous-agents
-    - agent-listing
+    - ai-workforce
+    - task-automation
   confidence: low
 curation:
-  status: excluded
-  reason: No public description, README, or functional details are available; it appears only as a name in a directory, making it impossible to verify a developer-tooling fit.
+  status: included
+  reason: The project is categorized as an autonomous agent capable of performing tasks, which aligns with the core identity of coding/tasking agents.
   evidence:
-    - No repo description, README excerpt, or scraped site context provided beyond the name 'beam.ai'.
-    - Only signal is inclusion in awesome-ai-agents with section 'Beam', offering no product detail.
-    - No stars, license, created/pushed dates, or archived status available to assess activity or credibility.
+    - Listed in 'awesome-ai-agents' as an autonomous agent
+    - Primary identity is an autonomous agent rather than a library or extension
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -66,9 +68,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:34.994Z"
+    updated_at: "2026-07-20T15:25:50.470Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4ed291ba1fe01957275a2d2968ef65bab518b9685bb2669929c3e2e18be79e94
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The project is categorized as an autonomous agent capable of performing tasks, which aligns with the core identity of coding/tasking agents.
+      decision_evidence:
+        - Listed in 'awesome-ai-agents' as an autonomous agent
+        - Primary identity is an autonomous agent rather than a library or extension
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the source context identifies it as an autonomous agent rather than a multi-agent coordination framework.
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

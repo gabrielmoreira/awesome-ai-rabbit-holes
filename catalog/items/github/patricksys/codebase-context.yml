@@ -28,6 +28,8 @@ metadata:
     forks: 10
     license: NOASSERTION
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-11-24T21:32:52Z"
     pushed_at: "2026-04-30T19:48:53Z"
     description: Generate a map of your codebaseto help AI Agents understand your architecture, coding conventions and patterns. Discoverable with Semantic Search
@@ -93,9 +95,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:21:04.559Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

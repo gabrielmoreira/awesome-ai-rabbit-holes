@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4667
+    stars: 4671
     forks: 428
     license: NOASSERTION
     archived: false
+    full_name: liveblocks/liveblocks
+    html_url: https://github.com/liveblocks/liveblocks
     created_at: "2021-05-25T15:25:51Z"
-    pushed_at: "2026-07-10T21:41:56Z"
+    pushed_at: "2026-07-20T14:32:46Z"
     description: Realtime infrastructure for multiplayer apps and agents
     homepage: https://liveblocks.io
     topics:
@@ -49,9 +51,9 @@ metadata:
       - websockets
       - yjs
       - yjs-provider
-    last_checked_at: "2026-07-13T05:13:29.028Z"
+    last_checked_at: "2026-07-20T15:11:52.873Z"
     readme:
-      fetched_at: "2026-07-13T05:13:29.028Z"
+      fetched_at: "2026-07-20T15:11:52.873Z"
       bytes: 5136
 insights:
   summary: Liveblocks provides realtime infrastructure and SDKs for building collaborative multiplayer features and AI agent integrations into web applications.
@@ -85,14 +87,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:29.028Z"
+    updated_at: "2026-07-20T15:11:52.873Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:10:06.709Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

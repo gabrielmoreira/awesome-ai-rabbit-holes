@@ -28,6 +28,8 @@ metadata:
     forks: 245
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-03-16T13:06:30Z"
     pushed_at: "2025-01-02T16:23:18Z"
     description: Chat and Ask on your own data.  Accelerator to quickly upload your own enterprise data and use OpenAI services to chat to that uploaded data and ask questions
@@ -52,23 +54,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:55.994Z"
       bytes: 21627
 insights:
-  summary: An Azure-based accelerator for building ChatGPT-like experiences over enterprise data using Azure OpenAI, vector stores like Pinecone or Redis, and RAG patterns.
-  why_it_matters: It provides a ready-made scaffold for developers to implement retrieval-augmented generation over private data with built-in eval flows for groundedness and similarity.
-  mental_damage: Because absolutely nothing says 'accelerator' like another enterprise boilerplate that lets you chat with your own data while quietly accumulating eval debt you'll never actually read.
+  summary: A reference implementation for building RAG-based chat applications using Azure OpenAI and vector stores like Pinecone or Redis.
+  why_it_matters: It provides a working template for implementing enterprise-grade retrieval-augmented generation patterns and evaluation metrics.
+  mental_damage: Now you can spend your weekend debugging vector search similarity scores instead of actually writing business logic.
   tags:
     - rag
     - azure
-    - enterprise-data
-    - evals
     - langchain
-  confidence: medium
+    - openai
+    - vector-search
+  confidence: high
 curation:
   status: included
-  reason: This is a code-first sample and accelerator for building RAG pipelines over enterprise data, fitting best as retrieval infrastructure rather than a coding agent or end-user app builder.
+  reason: The project is a code-first sample/implementation of RAG patterns rather than a standalone conversational assistant or app builder.
   evidence:
-    - Repo description states it is an 'accelerator to quickly upload your own enterprise data and use OpenAI services to chat'.
-    - README details multiple RAG techniques, vector store integrations (Pinecone, Redis, Cognitive Search), and eval flows (groundedness, similarity, coherence).
-    - GitHub topics include langchain, vector-store, azure-openai, and azure-functions, confirming its framework/sample nature.
+    - README describes it as a sample demonstrating approaches for creating ChatGPT-like experiences
+    - Uses LangChain and vector stores (Pinecone, Redis) as core building blocks
+    - Includes implementation logic for groundness, similarity, and coherence metrics
 placement:
   primary_category: ai-frameworks
   section: Memory / Retrieval Infrastructure
@@ -88,9 +90,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:20:03.095Z"
+    updated_at: "2026-07-20T16:11:55.173Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:12f400cd82321722121f007a08aaa4635529ebc60b14e852bc27bf355bb32cd8
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The project is a code-first sample/implementation of RAG patterns rather than a standalone conversational assistant or app builder.
+      decision_evidence:
+        - README describes it as a sample demonstrating approaches for creating ChatGPT-like experiences
+        - Uses LangChain and vector stores (Pinecone, Redis) as core building blocks
+        - Includes implementation logic for groundness, similarity, and coherence metrics
+      category_candidates:
+        - ai-frameworks
+        - context-engineering
+      contrastive_reason: Choose ai-frameworks over context-engineering because the repo is a full implementation template using various libraries rather than a specialized tool focused solely on retrieval or compression logic.
+      review_reason: null
+      review_resume_lifecycle: null

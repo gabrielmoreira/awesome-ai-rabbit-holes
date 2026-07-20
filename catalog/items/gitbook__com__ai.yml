@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The GitBook AI documentation and feature page, describing how GitBook integrates AI into its documentation platform.
-  why_it_matters: It explains how developers can use AI features within GitBook to generate, summarize, and navigate technical documentation.
-  mental_damage: Yet another platform’s AI page to bookmark while you pretend you’ll eventually unify your documentation stack instead of duct-taping another tool on top of it.
+  summary: A curated documentation site for AI-powered coding tools.
+  why_it_matters: It serves as a centralized resource for discovering AI-driven developer workflows and automation tools.
+  mental_damage: Your bookmark bar is about to become a graveyard of 'game-changing' tools you will never actually set up.
   tags:
-    - documentation
-    - ai-features
-    - gitbook
+    - directory
+    - curation
+    - ai-coding
+    - developer-resources
   confidence: high
 curation:
-  status: excluded
-  reason: This is a vendor documentation page describing GitBook's AI features, not a standalone developer tool, and lacks a usable product identity for the catalog.
+  status: included
+  reason: It is a curated directory designed for navigating the AI coding ecosystem, making it a perfect fit for the awesome-awesomes category.
   evidence:
-    - URL points to gitbook.com/ai, a product feature page rather than a tool or repo.
-    - No repo description, README, or code signals provided; only source-list placement indicates it was seen in an awesome list under Documentation.
-    - The entry is a supporting resource page, not a reusable developer product, extension, or framework.
+    - Found in awesome-ai-coding-tools as a documentation resource
+    - Gitbook-hosted directory for discovering AI tools
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): publications-and-feeds"
 processing:
   discover:
     status: done
@@ -67,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:21.938Z"
+    updated_at: "2026-07-20T15:47:10.908Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1fd3cba642be27e74489f612ab30e7d0b343397bc660360ba5f2ba21807809c2
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: It is a curated directory designed for navigating the AI coding ecosystem, making it a perfect fit for the awesome-awesomes category.
+      decision_evidence:
+        - Found in awesome-ai-coding-tools as a documentation resource
+        - Gitbook-hosted directory for discovering AI tools
+      category_candidates:
+        - awesome-awesomes
+        - publications-and-feeds
+      contrastive_reason: Choose awesome-awesomes over publications-and-feeds because the primary value is as a directory/map for discovery rather than a recurring editorial publication.
+      review_reason: "Categorization review required: unknown category candidate(s): publications-and-feeds"
+      review_resume_lifecycle: null

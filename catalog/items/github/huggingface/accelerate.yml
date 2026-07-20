@@ -24,18 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 9775
-    forks: 1397
+    stars: 9785
+    forks: 1414
     license: Apache-2.0
     archived: false
+    full_name: huggingface/accelerate
+    html_url: https://github.com/huggingface/accelerate
     created_at: "2020-10-30T13:27:12Z"
-    pushed_at: "2026-07-08T14:26:55Z"
+    pushed_at: "2026-07-20T07:57:00Z"
     description: 🚀 A simple way to launch, train, and use PyTorch models on almost any device and distributed configuration, automatic mixed precision (including fp8), and easy-to-configure FSDP and DeepSpeed support
     homepage: https://huggingface.co/docs/accelerate
     topics: []
-    last_checked_at: "2026-07-13T05:13:02.356Z"
+    last_checked_at: "2026-07-20T15:11:05.705Z"
     readme:
-      fetched_at: "2026-07-13T05:13:02.356Z"
+      fetched_at: "2026-07-20T15:11:05.705Z"
       bytes: 15187
 insights:
   summary: A Python library from Hugging Face that abstracts multi-GPU, TPU, and mixed-precision boilerplate so raw PyTorch training scripts run on almost any distributed configuration.
@@ -69,14 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:02.356Z"
+    updated_at: "2026-07-20T15:11:05.705Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:50.372Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

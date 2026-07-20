@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6938
-    forks: 960
+    stars: 6963
+    forks: 965
     license: Apache-2.0
     archived: false
+    full_name: kyegomez/swarms
+    html_url: https://github.com/kyegomez/swarms
     created_at: "2023-05-11T01:09:00Z"
-    pushed_at: "2026-07-10T14:54:53Z"
+    pushed_at: "2026-07-20T13:45:47Z"
     description: "The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework. Website: https://swarms.ai"
     homepage: https://docs.swarms.world
     topics:
@@ -51,10 +53,10 @@ metadata:
       - prompting
       - swarms
       - tree-of-thoughts
-    last_checked_at: "2026-07-13T05:13:24.138Z"
+    last_checked_at: "2026-07-20T15:11:44.012Z"
     readme:
-      fetched_at: "2026-07-13T05:13:24.138Z"
-      bytes: 49451
+      fetched_at: "2026-07-20T15:11:44.012Z"
+      bytes: 49473
 insights:
   summary: Swarms is a Python framework for building and running production-ready multi-agent systems with support for sequential, concurrent, and hierarchical orchestration patterns.
   why_it_matters: It provides developers with prebuilt multi-agent architectures and interoperability with protocols like MCP, reducing the boilerplate needed to coordinate complex agent workflows.
@@ -87,14 +89,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:24.138Z"
+    updated_at: "2026-07-20T15:11:44.012Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:08:08.873Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

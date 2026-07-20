@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1503
+    stars: 1504
     forks: 220
     license: MIT
     archived: false
+    full_name: hhhuang/CAG
+    html_url: https://github.com/hhhuang/CAG
     created_at: "2024-12-11T05:43:57Z"
     pushed_at: "2025-05-26T21:00:42Z"
     description: "Cache-Augmented Generation: A Simple, Efficient Alternative to RAG"
@@ -35,9 +37,9 @@ metadata:
       - cag
       - llm
       - rag
-    last_checked_at: "2026-07-13T05:13:00.375Z"
+    last_checked_at: "2026-07-20T15:11:01.678Z"
     readme:
-      fetched_at: "2026-07-13T05:13:00.375Z"
+      fetched_at: "2026-07-20T15:11:01.678Z"
       bytes: 7834
 insights:
   summary: Cache-Augmented Generation (CAG) is a research implementation and experiment framework that preloads knowledge into an LLM's KV-cache to eliminate real-time retrieval latency associated with RAG.
@@ -70,14 +72,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:00.375Z"
+    updated_at: "2026-07-20T15:11:01.678Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:02.906Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

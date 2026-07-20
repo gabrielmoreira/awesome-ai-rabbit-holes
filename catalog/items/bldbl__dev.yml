@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,23 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A SaaS platform that uses AI to generate project plans, scaffold private repositories with CI/CD, and stream implementation tasks to any MCP-compatible AI assistant via its own MCP server.
-  why_it_matters: It shifts the developer's role from writing initial boilerplate and managing backlogs to reviewing and guiding AI-executed tasks within their existing editor.
-  mental_damage: We have finally achieved the dream of paying a monthly subscription to watch a Kanban board auto-update while wondering if the 'AI Task Engine' is actually just a very polite middle manager.
+  summary: An AI task engine that plans project backlogs, scaffolds repositories, and streams implementation tasks via the Model Context Protocol (MCP).
+  why_it_matters: It automates the transition from high-level idea to actionable Git tasks by connecting project management directly to an AI assistant via MCP.
+  mental_damage: Finally, an AI that can turn your vague architectural dreams into a Jira-style backlog before you have a chance to realize you don't actually want to build it.
   tags:
     - mcp
     - scaffolding
-    - saas
     - task-management
-    - planning
+    - saas-generation
   confidence: high
 curation:
   status: included
-  reason: "The core value proposition is prompt-to-project: it takes an idea, generates a plan, scaffolds the repo/CI, and then hands off tasks, fitting the app-builder profile better than a direct coding agent."
+  reason: The product's core value is the end-to-end generation of project plans and repository scaffolding rather than acting as a general-purpose coding assistant.
   evidence:
-    - "Site claims: 'Bring the idea. Buildable plans the backlog, scaffolds a private repo, then streams MCP tasks.'"
-    - "FAQ clarifies: 'Copilot writes code. Buildable decides what to build, where it lives... then streams those tasks through MCP.'"
-    - Feature list highlights 'Initialize your repository' and 'AI-generated project plans' as primary features.
+    - Claims to plan backlogs and scaffold private repos from an idea
+    - Provides a structured workflow from idea to implementation tasks
+    - Features an AI task engine specifically for building SaaS products
 placement:
   primary_category: app-builders
   section: Local / Code-Scaffolding Builders
@@ -70,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:42.460Z"
+    updated_at: "2026-07-20T15:26:43.867Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5dccd68d563e1cf58d57e929e8c842c369ef45639fd7d193856e788c7cf6b398
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product's core value is the end-to-end generation of project plans and repository scaffolding rather than acting as a general-purpose coding assistant.
+      decision_evidence:
+        - Claims to plan backlogs and scaffold private repos from an idea
+        - Provides a structured workflow from idea to implementation tasks
+        - Features an AI task engine specifically for building SaaS products
+      category_candidates:
+        - app-builders
+        - agent-orchestration
+      contrastive_reason: Choose app-builders over agent-orchestration because the primary user workflow is turning a prompt into a full project scaffold and repository structure.
+      review_reason: null
+      review_resume_lifecycle: null

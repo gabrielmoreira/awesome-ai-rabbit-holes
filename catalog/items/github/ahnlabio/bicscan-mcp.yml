@@ -28,6 +28,8 @@ metadata:
     forks: 16
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-03-25T03:27:57Z"
     pushed_at: "2026-02-17T01:35:00Z"
     description: BICScan MCP Server
@@ -38,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:54.107Z"
       bytes: 3811
 insights:
-  summary: An MCP server that exposes BICScan API capabilities to AI assistants, enabling risk scoring, asset lookups, and real-time scanning for blockchain addresses, domains, and decentralized applications.
-  why_it_matters: Developers building crypto or Web3 workflows can delegate blockchain risk assessments and asset queries directly to their MCP-compatible coding assistants instead of wiring API calls manually.
-  mental_damage: Your AI assistant can now confidently tell you that a wallet is sketchy while remaining completely oblivious to the questionable state of your own commit history.
+  summary: An MCP server that provides blockchain address risk scoring and asset information via the BICScan API.
+  why_it_matters: It allows AI assistants to perform real-time security audits and asset lookups for blockchain entities directly within a chat interface.
+  mental_damage: Because knowing exactly how much a malicious wallet holds is the first step toward staring blankly at your terminal in existential dread.
   tags:
     - mcp
     - blockchain
-    - fintech
+    - security
     - risk-scoring
-    - web3
+    - fintech
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server providing domain-specific blockchain risk and asset data to MCP-compatible assistants, which is a clean fit for the MCP Servers & Tooling category.
+  reason: The product's identity is specifically an MCP server designed to provide domain-specific (blockchain) data to AI hosts.
   evidence:
-    - Repo description explicitly states 'BICScan MCP Server' as the product identity.
-    - README centers on exposing BICScan API as an MCP server configured for Claude Desktop.
-    - Included in awesome-mcp-servers under 'Finance & Fintech' server implementations.
+    - Repo name and description explicitly identify it as an 'MCP Server'
+    - README provides configuration instructions specifically for 'claude_desktop_config.json'
+    - Functionality is centered on providing external API data (BICScan) as tool capabilities
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,9 +76,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:29.215Z"
+    updated_at: "2026-07-20T16:06:05.533Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f8671c14771fb99d8f90db159992e3cc5732b166be8d18c6f4103cf679ea870a
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's identity is specifically an MCP server designed to provide domain-specific (blockchain) data to AI hosts.
+      decision_evidence:
+        - Repo name and description explicitly identify it as an 'MCP Server'
+        - README provides configuration instructions specifically for 'claude_desktop_config.json'
+        - Functionality is centered on providing external API data (BICScan) as tool capabilities
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is a protocol-compliant server providing specific domain capabilities via MCP rather than a general workflow extension.
+      review_reason: null
+      review_resume_lifecycle: null

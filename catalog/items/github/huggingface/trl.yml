@@ -54,18 +54,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 18827
-    forks: 2841
+    stars: 18892
+    forks: 2853
     license: Apache-2.0
     archived: false
+    full_name: huggingface/trl
+    html_url: https://github.com/huggingface/trl
     created_at: "2020-03-27T10:54:55Z"
-    pushed_at: "2026-07-13T04:04:14Z"
+    pushed_at: "2026-07-20T15:03:38Z"
     description: Train transformer language models with reinforcement learning.
     homepage: http://hf.co/docs/trl
     topics: []
-    last_checked_at: "2026-07-13T05:13:03.277Z"
+    last_checked_at: "2026-07-20T15:11:07.039Z"
     readme:
-      fetched_at: "2026-07-13T05:13:03.277Z"
+      fetched_at: "2026-07-20T15:11:07.039Z"
       bytes: 8833
 insights:
   summary: A Hugging Face library for post-training foundation models using supervised fine-tuning, DPO, GRPO, and other reinforcement learning techniques.
@@ -99,14 +101,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:03.277Z"
+    updated_at: "2026-07-20T15:11:07.039Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:01:09.757Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

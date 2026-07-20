@@ -43,6 +43,8 @@ metadata:
     forks: 5635
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-08-23T19:03:36Z"
     pushed_at: "2026-07-20T05:02:35Z"
     description: an open source, extensible AI agent that goes beyond code suggestions - install, execute, edit, and test with any LLM
@@ -57,23 +59,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:48.447Z"
       bytes: 3447
 insights:
-  summary: An open-source, extensible AI agent available as a desktop app, CLI, and API that installs, executes, edits, and tests code using any LLM.
-  why_it_matters: Developers can run a general-purpose coding agent locally that integrates with 15+ LLM providers and 70+ MCP extensions directly from the terminal or desktop.
-  mental_damage: Finally, an agent extensible enough to handle everything from code refactoring to writing this pull request description, ensuring you can ignore your repository with unprecedented efficiency.
+  summary: An open-source, extensible AI agent available as a desktop app, CLI, and API for automating workflows, code editing, and testing.
+  why_it_matters: It provides a multi-modal interface (desktop/CLI/API) that connects various LLM providers to system-level capabilities via MCP.
+  mental_damage: Now you can delegate your entire terminal session to a Rust-powered agent and wonder if you actually still know how to write a bash script.
   tags:
+    - ai-agent
     - cli
-    - desktop
     - mcp
-    - local-agent
-    - rust
+    - open-source
+    - automation
   confidence: high
 curation:
   status: included
-  reason: Goose acts as a primary coding assistant that developers delegate repo work to via a CLI and desktop interface, fitting the core definition of a coding agent.
+  reason: Goose acts as a standalone, primary agent that plans, edits, and executes commands rather than just augmenting an existing editor.
   evidence:
-    - Repo description explicitly states it is an 'extensible AI agent that goes beyond code suggestions - install, execute, edit, and test'.
-    - README confirms it is a 'native open source AI agent' with a full CLI for terminal workflows and desktop app for macOS, Linux, and Windows.
-    - Included in 'awesome-cli-coding-agents' under 'Terminal-native coding agents' and 'awesome-ai-coding-tools' under 'Coding Agents'.
+    - README describes it as a 'native open source AI agent' with a full CLI and desktop app
+    - Supports 15+ providers and 70+ MCP extensions for workflow automation
+    - High ecosystem traction with 51,306 stars
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -93,9 +95,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:58.279Z"
+    updated_at: "2026-07-20T15:52:32.822Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7d9d7525f56de1ce36f44e1a4910d472637481a3948132c9db2259cd170e692d
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Goose acts as a standalone, primary agent that plans, edits, and executes commands rather than just augmenting an existing editor.
+      decision_evidence:
+        - README describes it as a 'native open source AI agent' with a full CLI and desktop app
+        - Supports 15+ providers and 70+ MCP extensions for workflow automation
+        - High ecosystem traction with 51,306 stars
+      category_candidates:
+        - coding-agents
+        - local-ai
+      contrastive_reason: Choose coding-agents over local-ai because its primary value proposition is autonomous task execution and code manipulation rather than just being a local inference runtime.
+      review_reason: null
+      review_resume_lifecycle: null

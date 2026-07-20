@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2473
-    forks: 506
+    stars: 2486
+    forks: 513
     license: MIT
     archived: false
+    full_name: huggingface/lighteval
+    html_url: https://github.com/huggingface/lighteval
     created_at: "2024-01-26T13:15:39Z"
     pushed_at: "2026-06-29T13:03:33Z"
     description: Lighteval is your all-in-one toolkit for evaluating LLMs across multiple backends
@@ -36,9 +38,9 @@ metadata:
       - evaluation-framework
       - evaluation-metrics
       - huggingface
-    last_checked_at: "2026-07-13T05:13:02.798Z"
+    last_checked_at: "2026-07-20T15:11:06.422Z"
     readme:
-      fetched_at: "2026-07-13T05:13:02.798Z"
+      fetched_at: "2026-07-20T15:11:06.421Z"
       bytes: 8637
 insights:
   summary: Lighteval is an all-in-one toolkit from Hugging Face for evaluating LLMs across multiple backends, supporting over 1000 tasks from math and code to multilingual benchmarks.
@@ -72,14 +74,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:02.798Z"
+    updated_at: "2026-07-20T15:11:06.422Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:01:00.394Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

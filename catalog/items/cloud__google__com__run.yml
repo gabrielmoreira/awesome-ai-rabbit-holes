@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Google Cloud Run is a managed compute platform that automatically deploys and scales containerized applications in a serverless environment.
-  why_it_matters: It provides the underlying infrastructure to run AI applications and agents without managing the underlying server fleet or orchestration layers.
-  mental_damage: Because nothing says 'local AI development' quite like spinning up a globally distributed, fully managed service just to test a prompt chain that could have run in a bash loop.
+  summary: Google Cloud Run is a fully managed compute platform that automatically scales stateless containers.
+  why_it_matters: It provides a reliable, serverless execution environment for deploying containerized applications and AI microservices.
+  mental_damage: Adding 'just one more cloud provider' to your architectural diagrams is a rite of passage.
   tags:
-    - cloud
     - serverless
-    - infrastructure
     - containers
+    - paas
+    - cloud-computing
+    - deployment
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a general cloud infrastructure product (PaaS/Serverless) with no specific AI developer-tooling identity, despite being listed in a generic MCP servers list.
+  reason: The product is a general-purpose cloud infrastructure service, not a developer-facing AI tool, agent, or specialized AI workflow instrument.
   evidence:
-    - URL resolves to cloud.google.com/run, identifying it as a Google Cloud infrastructure product.
-    - Appears in awesome-mcp-servers list under 'Official Servers', but the product itself is a general compute platform.
-    - No repo description, README, or code context provided that suggests an AI-native developer tool.
+    - The product is a standard cloud compute platform (Google Cloud Run)
+    - It lacks specific AI-native features or developer-facing AI tooling functionality
 placement:
   primary_category: null
   section: null
@@ -68,9 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:07.943Z"
+    updated_at: "2026-07-20T15:30:27.048Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ace2e428a61b427192f04a4d5692053153bc524e75dea624bb095f1ff9ef759c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a general-purpose cloud infrastructure service, not a developer-facing AI tool, agent, or specialized AI workflow instrument.
+      decision_evidence:
+        - The product is a standard cloud compute platform (Google Cloud Run)
+        - It lacks specific AI-native features or developer-facing AI tooling functionality
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

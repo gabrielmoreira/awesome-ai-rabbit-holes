@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,24 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation site for Atla AI, listing it as an official MCP server in the Model Context Protocol ecosystem.
-  why_it_matters: Developers looking to extend their coding assistants with Atla's capabilities can reference this documentation to understand the available MCP server tooling.
-  mental_damage: Yet another documentation portal for an MCP server that may or may not survive the next protocol spec update.
+  summary: Atla is an observability platform designed to trace, monitor, and debug the behavior of AI agents.
+  why_it_matters: It provides the visibility needed to debug agentic failure modes and iterate on performance through automated error detection and tracing.
+  mental_damage: Because watching your agent hallucinate in real-time is much better when you have a beautiful dashboard to document the exact moment it lost the plot.
   tags:
-    - mcp
-    - documentation
-    - server
+    - observability
+    - tracing
+    - agent-monitoring
+    - debugging
+    - instrumentation
   confidence: high
 curation:
-  status: excluded
-  reason: This is a documentation site for an MCP server, not a standalone product, server implementation, or developer tool itself; it serves as an auxiliary reference page rather than a usable tool.
+  status: included
+  reason: The product's core identity is tracing and measuring agent behavior to improve performance, which falls squarely under the Evals category.
   evidence:
-    - URL is docs.atla-ai.com, indicating a documentation portal rather than a product or repo.
-    - No repo description, README, stars, or code artifacts provided — only a link to docs.
-    - Listed in awesome-mcp-servers as an official server, but the submitted item is the docs site, not the server itself.
+    - Claims to 'clarify the messiness of agent behaviour'
+    - Features tracing, custom metrics, and instrumentation
+    - Focuses on identifying failure modes and improving performance through iteration
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: incubating
   reason: null
@@ -67,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:21.751Z"
+    updated_at: "2026-07-20T15:39:17.738Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f223524163f749a97eaee7ffb0fdf237df3f1f10a961fcab5a78a6e0d30a38d2
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The product's core identity is tracing and measuring agent behavior to improve performance, which falls squarely under the Evals category.
+      decision_evidence:
+        - Claims to 'clarify the messiness of agent behaviour'
+        - Features tracing, custom metrics, and instrumentation
+        - Focuses on identifying failure modes and improving performance through iteration
+      category_candidates:
+        - evals
+        - agent-orchestration
+      contrastive_reason: Choose evals over agent-orchestration because the product is a monitoring and debugging layer for existing agents rather than a platform for coordinating them.
+      review_reason: null
+      review_resume_lifecycle: null

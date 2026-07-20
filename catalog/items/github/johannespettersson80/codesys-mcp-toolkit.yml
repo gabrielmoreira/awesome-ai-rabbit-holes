@@ -23,18 +23,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 102
+    stars: 103
     forks: 31
     license: MIT
     archived: false
+    full_name: johannesPettersson80/codesys-mcp-toolkit
+    html_url: https://github.com/johannesPettersson80/codesys-mcp-toolkit
     created_at: "2025-04-23T07:33:19Z"
     pushed_at: "2025-05-24T19:04:54Z"
     description: Model Context Protocol server for CODESYS automation platform
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:14.096Z"
+    last_checked_at: "2026-07-20T15:11:26.020Z"
     readme:
-      fetched_at: "2026-07-13T05:13:14.096Z"
+      fetched_at: "2026-07-20T15:11:26.020Z"
       bytes: 7937
 insights:
   summary: An MCP server that lets AI clients like Claude Desktop automate project management, code editing, and compilation inside CODESYS V3 industrial automation environments.
@@ -67,14 +69,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:14.096Z"
+    updated_at: "2026-07-20T15:11:26.020Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:04:37.316Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

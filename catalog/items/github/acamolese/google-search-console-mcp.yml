@@ -28,6 +28,8 @@ metadata:
     forks: 3
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-04-11T13:21:09Z"
     pushed_at: "2026-04-23T21:59:21Z"
     description: MCP (Model Context Protocol) server for Google Search Console. Query GSC performance data and generate brandable HTML SEO audit reports from Claude, Cursor, Zed, and any MCP client. Read-only, OAuth-based, MIT licensed.
@@ -58,23 +60,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:49.983Z"
       bytes: 13708
 insights:
-  summary: An open-source MCP server that lets Claude, Cursor, Zed, and other MCP clients query Google Search Console performance data and generate brandable HTML SEO audit reports via OAuth.
-  why_it_matters: It removes the copy-paste loop between Search Console and your AI assistant by letting developers query GSC data and produce client-ready SEO audits directly from their coding environment.
-  mental_damage: We have successfully reached the point where reviewing your search rankings requires an MCP server, OAuth scopes, and a Python package instead of, you know, opening the actual Search Console tab.
+  summary: An MCP server that provides read-only access to Google Search Console data for AI assistants like Claude Code and Cursor.
+  why_it_matters: It enables developers to perform SEO audits and query performance metrics directly within their coding workflows without switching to the Google Search Console UI.
+  mental_damage: Because nothing says 'peak productivity' like delegating your entire SEO strategy to a chat interface that's one halluciation away from telling you your bounce rate is actually a feature.
   tags:
     - mcp
     - seo
     - google-search-console
-    - python
-    - reporting
+    - ai-tools
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server for Google Search Console, providing domain-specific tools and audit generation to MCP-compatible clients.
+  reason: The project's primary identity is an MCP server providing domain-specific data to host applications.
   evidence:
-    - Repo description explicitly states 'MCP (Model Context Protocol) server for Google Search Console'.
-    - README positions it as an MCP server with 8 tools for GSC data and HTML report generation for Claude, Cursor, Zed, etc.
-    - Listed in awesome-mcp-servers under Server Implementations > Marketing.
+    - Repo description identifies it explicitly as an 'MCP server for Google Search Console'
+    - README describes tools for querying GSC performance and generating reports via MCP-compatible clients
+    - Designed to connect Search Console data to Claude Code, Cursor, and Zed
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -94,9 +95,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:28.396Z"
+    updated_at: "2026-07-20T15:56:53.431Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:619294d1106595895ecba5baed917427defb38384b3ae1b958306b179bb8e8dc
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server providing domain-specific data to host applications.
+      decision_evidence:
+        - Repo description identifies it explicitly as an 'MCP server for Google Search Console'
+        - README describes tools for querying GSC performance and generating reports via MCP-compatible clients
+        - Designed to connect Search Console data to Claude Code, Cursor, and Zed
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is a protocol-based server rather than an integration layer that augments an editor.
+      review_reason: null
+      review_resume_lifecycle: null

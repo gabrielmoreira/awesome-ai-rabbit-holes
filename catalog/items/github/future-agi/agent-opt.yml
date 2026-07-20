@@ -42,6 +42,8 @@ metadata:
     forks: 7
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-09-23T06:43:18Z"
     pushed_at: "2026-06-30T00:10:45Z"
     description: "Open Source Library for Automated Optimization of AI Agent Workflows "
@@ -93,10 +95,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:56:47.454Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.716Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

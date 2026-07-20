@@ -23,12 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5396
-    forks: 823
+    stars: 5398
+    forks: 819
     license: Apache-2.0
     archived: false
+    full_name: lingodotdev/lingo.dev
+    html_url: https://github.com/lingodotdev/lingo.dev
     created_at: "2024-03-13T11:27:31Z"
-    pushed_at: "2026-07-07T09:33:59Z"
+    pushed_at: "2026-07-17T14:33:35Z"
     description: Open-source localization engineering tools. Connects to Lingo.dev localization engineering platform for consistent, quality translations.
     homepage: https://lingo.dev
     topics:
@@ -37,9 +39,9 @@ metadata:
       - react
       - react-native
       - typescript
-    last_checked_at: "2026-07-13T05:13:28.135Z"
+    last_checked_at: "2026-07-20T15:11:51.190Z"
     readme:
-      fetched_at: "2026-07-13T05:13:28.135Z"
+      fetched_at: "2026-07-20T15:11:51.190Z"
       bytes: 7489
 insights:
   summary: A suite of developer tools for localizing applications, including a CLI, GitHub Action, React compiler, and an MCP server that provides AI assistants with structured i18n knowledge for frameworks like Next.js and React Router.
@@ -73,14 +75,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:28.135Z"
+    updated_at: "2026-07-20T15:11:51.190Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:09:43.430Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

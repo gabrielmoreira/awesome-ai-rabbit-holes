@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A community-curated directory of reusable agents, instructions, skills, hooks, workflows, and plugins specifically designed to customize and extend GitHub Copilot.
-  why_it_matters: Developers can quickly discover and install specialized configurations and task-specific agents to tailor Copilot's behavior to their team's coding standards and workflows.
-  mental_damage: We now have a dedicated directory for the directories of rules that tell your AI to stop writing code like it's 2023.
+  summary: A community-curated repository of agents, instructions, skills, and plugins to enhance the GitHub Copilot experience.
+  why_it_matters: It provides a centralized repository of reusable prompts and specialized skills to make a standard coding assistant more effective for specific workflows.
+  mental_damage: Another layer of abstraction between you and your code, because clearly, you weren't getting enough 'agic' from your IDE already.
   tags:
     - copilot
+    - instructions
     - skills
-    - directory
-    - awesome-list
     - extensions
   confidence: high
 curation:
   status: included
-  reason: This is a curated list and discovery map for Copilot resources, fitting the 'Lists & Directories' category rather than being a standalone tool or extension itself.
+  reason: This is a curated directory of resources (agents, instructions, skills) designed to help developers navigate and utilize GitHub Copilot more effectively.
   evidence:
-    - Site title and description explicitly identify it as 'Awesome GitHub Copilot', a community-contributed collection.
-    - The page structure lists categories like Agents, Instructions, Skills, Hooks, and Workflows for browsing.
-    - Source-list context identifies it as 'awesome-copilot', a collection of instructions, agents, and skills.
+    - README describes it as a repository for community-contributed agents, instructions, and skills
+    - Site content organizes resources into Agents, Instructions, Skills, Plugins, and Canvas Extensions
+    - The project serves as a navigation aid for the Copilot ecosystem
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -69,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:27.141Z"
+    updated_at: "2026-07-20T15:24:48.210Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:57531bb883a847cd67f758ac80207a0f0f0da9ade39fbc1b88fb40187dd9e1eb
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of resources (agents, instructions, skills) designed to help developers navigate and utilize GitHub Copilot more effectively.
+      decision_evidence:
+        - README describes it as a repository for community-contributed agents, instructions, and skills
+        - Site content organizes resources into Agents, Instructions, Skills, Plugins, and Canvas Extensions
+        - The project serves as a navigation aid for the Copilot ecosystem
+      category_candidates:
+        - awesome-awesomes
+        - skills
+      contrastive_reason: Choose awesome-awesomes over skills because the project is a directory/collection of resources rather than a single reusable skill pack itself.
+      review_reason: null
+      review_resume_lifecycle: null

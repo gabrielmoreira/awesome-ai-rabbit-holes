@@ -27,6 +27,8 @@ metadata:
     forks: 235
     license: Apache-2.0
     archived: true
+    full_name: null
+    html_url: null
     created_at: "2023-07-25T18:00:13Z"
     pushed_at: "2025-01-07T22:52:59Z"
     description: null
@@ -37,22 +39,21 @@ metadata:
       fetched_at: "2026-07-20T05:16:49.409Z"
       bytes: 495
 insights:
-  summary: An archived GitHub repository containing an early command-line AI coding assistant that is no longer maintained or supported.
-  why_it_matters: It serves as a historical marker for the evolution of CLI-based coding agents before the project pivoted to a different product.
-  mental_damage: We have successfully reached the stage of AI tooling where we are now archiving the first generation of abandoned CLI agents to make room for the next.
+  summary: An archived version of a command-line tool previously known as Mentat.
+  why_it_matters: It provides a historical snapshot of an early CLI-based AI coding agent before its rebranding/pivot.
+  mental_damage: "Another layer of versioning anxiety: you'll never be quite sure if you're using the original tool or its successor."
   tags:
-    - cli
     - archived
-    - coding-agent
+    - cli
     - historical
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and contains no active code or usable tooling, serving only as a redirect to a new, different project.
+  reason: The repository is explicitly archived and no longer maintained, serving only as a placeholder for a rebranded product.
   evidence:
-    - "Repository status is set to 'archived: yes' with a warning that the tool is 'no longer maintained or supported'."
-    - README states the repo contains an 'archived version of an old command-line tool' and directs users to mentat.ai instead.
-    - The active product has moved to a new domain (mentat.ai) as a GitHub bot, rendering this specific repo obsolete.
+    - Repo is marked as archived
+    - README contains a prominent '⚠️ ARCHIVED PROJECT ⚠️' warning
+    - README states the tool is no longer maintained or supported
 placement:
   primary_category: null
   section: null
@@ -72,9 +73,25 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:16.932Z"
+    updated_at: "2026-07-20T15:54:31.875Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5cd6e49fb427ff98eaeeca056f476d1c123a25a9037bd03b1ea5bd2130715a9f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is explicitly archived and no longer maintained, serving only as a placeholder for a rebranded product.
+      decision_evidence:
+        - Repo is marked as archived
+        - README contains a prominent '⚠️ ARCHIVED PROJECT ⚠️' warning
+        - README states the tool is no longer maintained or supported
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

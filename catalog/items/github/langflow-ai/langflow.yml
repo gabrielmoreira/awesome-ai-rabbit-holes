@@ -39,12 +39,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 151790
-    forks: 9668
+    stars: 152087
+    forks: 9608
     license: MIT
     archived: false
+    full_name: langflow-ai/langflow
+    html_url: https://github.com/langflow-ai/langflow
     created_at: "2023-02-08T22:28:03Z"
-    pushed_at: "2026-07-13T00:43:38Z"
+    pushed_at: "2026-07-20T15:07:22Z"
     description: Langflow is a powerful tool for building and deploying AI-powered agents and workflows.
     homepage: http://www.langflow.org
     topics:
@@ -54,9 +56,9 @@ metadata:
       - large-language-models
       - multiagent
       - react-flow
-    last_checked_at: "2026-07-13T05:13:25.222Z"
+    last_checked_at: "2026-07-20T15:11:45.707Z"
     readme:
-      fetched_at: "2026-07-13T05:13:25.222Z"
+      fetched_at: "2026-07-20T15:11:45.707Z"
       bytes: 4729
 insights:
   summary: Langflow is a visual platform for building and deploying AI-powered agents and workflows, featuring a drag-and-drop builder, multi-agent orchestration, and built-in API and MCP server capabilities.
@@ -90,14 +92,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:25.222Z"
+    updated_at: "2026-07-20T15:11:45.707Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:08:35.345Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

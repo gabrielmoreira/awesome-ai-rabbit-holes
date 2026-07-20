@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,25 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: CSPR.trade is an MCP server providing Model Context Protocol access to cryptocurrency trading capabilities on the Casper blockchain.
-  why_it_matters: It allows AI coding agents and assistants to interact with CSPR blockchain financial operations through the standardized MCP interface.
-  mental_damage: Another day, another MCP server, because apparently your coding agent also needs to manage your altcoin portfolio while it struggles to fix a null pointer exception.
+  summary: A trading platform focused on CSPR-based assets.
+  why_it_matters: It provides specialized infrastructure for interacting with specific blockchain-based financial assets.
+  mental_damage: Another specialized financial interface to check while you should be debugging your core logic.
   tags:
-    - mcp
-    - finance
-    - blockchain
     - trading
-  confidence: medium
+    - crypto
+    - finance
+  confidence: high
 curation:
-  status: included
-  reason: The product is listed in awesome-mcp-servers under Finance & Fintech and the domain itself (cspr.trade) indicates an MCP server for Casper blockchain trading.
+  status: excluded
+  reason: The tool is a specialized trading platform rather than a developer-facing AI/coding tool.
   evidence:
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'
-    - URL is cspr.trade, indicating a Casper blockchain trading focus
-    - No repo description or README provided, but source-list placement is specific and credible
+    - Website title is CSPR.trade
+    - No developer-focused README or description provided
+    - Scraped context suggests a financial/trading application
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:43.377Z"
+    updated_at: "2026-07-20T15:35:04.220Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:72d44ffda7c64cfe3ff60548730842e5e067d9ca9f6e89be2b70bb57bc6eeb10
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a specialized trading platform rather than a developer-facing AI/coding tool.
+      decision_evidence:
+        - Website title is CSPR.trade
+        - No developer-focused README or description provided
+        - Scraped context suggests a financial/trading application
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

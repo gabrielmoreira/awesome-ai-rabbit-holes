@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A living, textbook-style roadmap organizing scattered blog posts, videos, and papers into a structured learning path for understanding modern generative AI fundamentals.
-  why_it_matters: Provides developers with a curated, sequential guide to fill gaps in LLM, diffusion, and agent fundamentals without sifting through fragmented internet resources.
-  mental_damage: Yet another beautifully organized reminder that while you are debugging a CSS flexbox issue, the rest of the world is busy mastering state-space models and stochastic differential equations.
+  summary: A curated learning roadmap and resource guide for understanding the fundamentals of generative AI and large language models.
+  why_it_matters: It provides a structured path through the chaotic landscape of AI research and tutorials to help developers build a solid theoretical foundation.
+  mental_damage: Just enough reading material to ensure you feel sufficiently unprepared for the next paradigm shift happening next Tuesday.
   tags:
-    - learning-resource
+    - learning-resources
     - llm-fundamentals
     - roadmap
-    - education
+    - ai-education
   confidence: high
 curation:
-  status: excluded
-  reason: This is an educational guide and reference document, not a developer tool, agent, framework, or product, and therefore falls outside the catalog's scope of practical AI tooling.
+  status: included
+  reason: The project is a curated roadmap of resources rather than a standalone software tool, making it an excellent navigation aid for the ecosystem.
   evidence:
-    - Scraped site excerpt describes it as a 'handbook for learning' and a 'roadmap for filling in prerequisites', not a tool.
-    - Appears in awesome-LLM-resources under the '书籍 Book' (Books) section, indicating it is curated as a learning resource.
-    - No code, CLI, IDE integration, or operational tooling is described; it primarily links to external blogs, videos, and papers.
+    - README describes it as a 'handbook for learning the key concepts underlying modern artificial intelligence systems'
+    - Organizes diverse content (blogs, YouTube, textbooks) into a 'textbook-style presentation'
+    - Aims to serve as a navigation guide for the rapidly changing AI landscape
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
@@ -70,9 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:19.956Z"
+    updated_at: "2026-07-20T15:46:15.442Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:85b7cab95fcb8c6efc497524a5e195462fcf23c63b9ca7ccc8c19b6a41baf8ec
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The project is a curated roadmap of resources rather than a standalone software tool, making it an excellent navigation aid for the ecosystem.
+      decision_evidence:
+        - README describes it as a 'handbook for learning the key concepts underlying modern artificial intelligence systems'
+        - Organizes diverse content (blogs, YouTube, textbooks) into a 'textbook-style presentation'
+        - Aims to serve as a navigation guide for the rapidly changing AI landscape
+      category_candidates:
+        - awesome-awesomes
+        - newsletters-and-feeds
+      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because it functions as a static/semi-static map of existing resources rather than a recurring commentary or digest.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -27,6 +27,8 @@ metadata:
     forks: 3
     license: NOASSERTION
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-10-09T14:05:34Z"
     pushed_at: "2026-06-02T09:43:59Z"
     description: "You install it. Claude drives the CLI tool. At first it might seem like too much. Eventually, nothing less will make sense. "
@@ -78,10 +80,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:51:56.006Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.716Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

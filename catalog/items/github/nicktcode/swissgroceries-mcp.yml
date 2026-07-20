@@ -24,17 +24,35 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 21
+    forks: 2
+    license: NOASSERTION
+    archived: false
+    full_name: nicktcode/swissgroceries-mcp
+    html_url: https://github.com/nicktcode/swissgroceries-mcp
+    created_at: "2026-04-29T10:21:28Z"
+    pushed_at: "2026-06-07T05:45:38Z"
+    description: "MCP server for Swiss grocery stores: Migros, Coop, Aldi, Denner, Lidl"
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - aldi
+      - anthropic
+      - claude
+      - coop
+      - denner
+      - grocery
+      - lidl
+      - mcp
+      - mcp-server
+      - migros
+      - model-context-protocol
+      - shopping
+      - swiss
+      - switzerland
+    last_checked_at: "2026-07-20T15:12:03.889Z"
+    readme:
+      fetched_at: "2026-07-20T15:12:03.889Z"
+      bytes: 14674
 insights:
   summary: null
   why_it_matters: null
@@ -58,15 +76,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-13T05:13:33.254Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nicktcode/swissgroceries-mcp
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T05:17:35.691Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-20T15:12:03.889Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+    attempts: 0

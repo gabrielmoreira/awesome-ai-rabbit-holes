@@ -28,6 +28,8 @@ metadata:
     forks: 4
     license: null
     archived: false
+    full_name: hkaanengin/opendota-mcp-server
+    html_url: https://github.com/hkaanengin/opendota-mcp-server
     created_at: "2025-10-08T18:10:49Z"
     pushed_at: "2026-01-28T21:58:50Z"
     description: MCP server providing AI assistants with access to Dota 2 statistics via OpenDota API. 20+ tools for player stats, hero data, and match    analysis with natural language support.
@@ -38,9 +40,9 @@ metadata:
       - mcp
       - mcp-server
       - opendota
-    last_checked_at: "2026-07-13T05:13:01.122Z"
+    last_checked_at: "2026-07-20T15:11:03.009Z"
     readme:
-      fetched_at: "2026-07-13T05:13:01.122Z"
+      fetched_at: "2026-07-20T15:11:03.009Z"
       bytes: 7570
 insights:
   summary: An MCP server that exposes 20+ OpenDota API tools for querying Dota 2 player stats, match data, and hero information directly through AI assistants like Claude.
@@ -74,14 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:01.122Z"
+    updated_at: "2026-07-20T15:11:03.009Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:19.682Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AnyCrawl is an enterprise-grade web scraping API that transforms websites into structured, clean data optimized for AI and large language models.
-  why_it_matters: It provides developers with a dedicated service to feed clean, structured web data into LLM workflows without having to maintain brittle scrapers.
-  mental_damage: Yet another proprietary API joins the ecosystem, ensuring that your AI's knowledge cutoff is now dependent on the health of one more hosted service.
+  summary: An enterprise-grade web scraping API that transforms any website into structured data optimized for LLMs.
+  why_it_matters: It provides a reliable way to feed real-time, structured web content into AI agents and RAG pipelines without building custom scrapers.
+  mental_damage: Another way to feed the beast with perfectly parsed, high-signal data.
   tags:
     - web-scraping
-    - api
     - data-extraction
-    - llm-integration
-  confidence: high
+    - llm-ready
+    - api
+  confidence: medium
 curation:
-  status: excluded
-  reason: The product is a hosted web scraping SaaS API with no visible developer-tooling identity, MCP server implementation, or code-first SDK surface; it is a generic data service rather than a tool for building or extending AI dev workflows.
+  status: included
+  reason: The tool is identified in the awesome-mcp-servers list as an official server for transforming websites into LLM-optimized data.
   evidence:
-    - Scraped site describes it strictly as an 'Enterprise-grade web scraping API' for transforming websites into LLM-ready data.
-    - Source-list context places it in awesome-mcp-servers, but the linked page describes a SaaS API, not an MCP server implementation.
-    - No repo description, README, or code-first evidence provided to suggest it is a framework, extension, or local tool.
+    - Listed in awesome-mcp-servers under Official Servers
+    - Scraped content describes it as an enterprise-grade web scraping API
+    - Core value is transforming unstructured web content into structured data for LLMs
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:01.588Z"
+    updated_at: "2026-07-20T15:21:55.229Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ad0223eecc280785ea087e5df2e0bbcde7a24c597a33bde65d225bf3bd1f9958
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is identified in the awesome-mcp-servers list as an official server for transforming websites into LLM-optimized data.
+      decision_evidence:
+        - Listed in awesome-mcp-servers under Official Servers
+        - Scraped content describes it as an enterprise-grade web scraping API
+        - Core value is transforming unstructured web content into structured data for LLMs
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because its presence in the MCP official servers list identifies it as a specific protocol implementation for providing context to models.
+      review_reason: null
+      review_resume_lifecycle: null

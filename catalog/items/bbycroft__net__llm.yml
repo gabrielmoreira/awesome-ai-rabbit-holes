@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A 3D animated visualization and walkthrough of how a large language model works internally.
-  why_it_matters: It provides a visual mental model for developers trying to understand transformer architectures beyond reading dense papers.
-  mental_damage: Another beautifully crafted interactive toy to help you feel productive while you spiral deeper into the mechanistic interpretability rabbit hole instead of shipping code.
+  summary: An interactive 3D animated visualization that provides a walkthrough of how Large Language Models function.
+  why_it_matters: It provides a visual mental model of the complex mathematical processes occurring within transformer architectures.
+  mental_damage: Nothing quite prepares you for the existential dread of seeing the exact math that turns your creative prompts into statistical probability distributions.
   tags:
-    - llm
     - visualization
-    - education
+    - educational
+    - llm-internals
+    - transformers
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational visualization and auxiliary resource page, not a developer tool, agent, framework, or infrastructure component.
+  reason: The project is an educational visualization rather than a developer tool, framework, or workflow utility.
   evidence:
-    - Scraped site context describes it as 'A 3D animated visualization of an LLM with a walkthrough.'
-    - Seen in awesome-LLM-resources under the section '教程 Tutorial' (tutorial).
-    - No code, SDK, CLI, agent, or developer workflow integration is described.
+    - Scraped site context describes it as an 'animated visualization with a walkthrough'
+    - Source-list context categorizes it under 'Tutorial' rather than a tool or library
+    - The product is a media resource/educational guide, which is an exclusion anchor for the catalog
 placement:
   primary_category: null
   section: null
@@ -67,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:34.356Z"
+    updated_at: "2026-07-20T15:25:52.353Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:14f31c95178634d587515f42ccfb8f725f4c11167bc866f33f5d2fee53294dbc
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is an educational visualization rather than a developer tool, framework, or workflow utility.
+      decision_evidence:
+        - Scraped site context describes it as an 'animated visualization with a walkthrough'
+        - Source-list context categorizes it under 'Tutorial' rather than a tool or library
+        - The product is a media resource/educational guide, which is an exclusion anchor for the catalog
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

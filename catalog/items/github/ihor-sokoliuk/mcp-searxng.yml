@@ -23,12 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1036
-    forks: 145
+    stars: 1055
+    forks: 146
     license: MIT
     archived: false
+    full_name: ihor-sokoliuk/mcp-searxng
+    html_url: https://github.com/ihor-sokoliuk/mcp-searxng
     created_at: "2024-12-23T02:00:51Z"
-    pushed_at: "2026-07-07T16:10:44Z"
+    pushed_at: "2026-07-20T05:26:44Z"
     description: Private web search for AI assistants via SearXNG — supports Claude, Cursor, and any MCP client
     homepage: https://www.npmjs.com/package/mcp-searxng
     topics:
@@ -44,9 +46,9 @@ metadata:
       - searxng
       - self-hosted
       - web-search
-    last_checked_at: "2026-07-13T05:13:05.111Z"
+    last_checked_at: "2026-07-20T15:11:10.343Z"
     readme:
-      fetched_at: "2026-07-13T05:13:05.111Z"
+      fetched_at: "2026-07-20T15:11:10.343Z"
       bytes: 16466
 insights:
   summary: An MCP server that connects AI assistants to a SearXNG instance to provide web search and URL content extraction capabilities.
@@ -79,14 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:05.111Z"
+    updated_at: "2026-07-20T15:11:10.343Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:01:44.880Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

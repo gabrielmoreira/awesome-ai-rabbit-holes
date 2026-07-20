@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,22 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: DevDocs is a fast, offline, and free documentation browser for developers that aggregates 100+ API docs into a single web app.
-  why_it_matters: It provides a centralized, searchable interface for quickly looking up APIs across dozens of languages and frameworks without tab-switching.
-  mental_damage: Because clearly the missing piece in our workflow wasn't better agents or context engineering, but yet another way to read MDN without leaving the browser.
+  summary: A fast, offline documentation browser that allows developers to search through over 100 different programming language and web technology documentations in a single web application.
+  why_it_matters: It provides a centralized, high-speed way to access critical API references without the friction of multiple open tabs or slow-loading official sites.
+  mental_damage: Nothing prepares you for the sudden realization of how many browser tabs you've been hoarding just to keep track of syntax.
   tags:
-    - docs
-    - reference
-    - offline
-    - browser
+    - documentation
+    - developer-tools
+    - offline-first
+    - productivity
   confidence: high
 curation:
   status: excluded
-  reason: DevDocs is a documentation browser and reference tool, not an AI tool, agent, or developer-facing AI infrastructure, and therefore falls outside the catalog's scope.
+  reason: The project is a standalone utility for documentation browsing rather than a developer-facing AI tool, framework, or workflow integration.
   evidence:
-    - Scraped site context describes it as a 'Fast, offline, and free documentation browser for developers' with no AI-related claims.
-    - It appears in awesome-mcp-servers lists only as a referenced documentation resource, not as an MCP server or AI product itself.
-    - No inputs mention AI features, models, agents, prompts, or LLM integrations.
+    - Scraped site context defines it as a documentation browser.
+    - README/Site claims focus on offline search for 100+ docs.
+    - No mention of AI, LLM, or machine learning capabilities in the provided text.
 placement:
   primary_category: null
   section: null
@@ -69,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:01.037Z"
+    updated_at: "2026-07-20T15:37:39.724Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:798d59e7a286322ee49108edbcc78f218d2778649b5d474d6cbf5d90d7639166
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a standalone utility for documentation browsing rather than a developer-facing AI tool, framework, or workflow integration.
+      decision_evidence:
+        - Scraped site context defines it as a documentation browser.
+        - README/Site claims focus on offline search for 100+ docs.
+        - No mention of AI, LLM, or machine learning capabilities in the provided text.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

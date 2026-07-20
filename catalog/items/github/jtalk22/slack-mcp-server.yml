@@ -25,19 +25,21 @@ provenance:
 metadata:
   github:
     stars: 29
-    forks: 17
+    forks: 19
     license: MIT
     archived: false
+    full_name: jtalk22/slack-mcp-server
+    html_url: https://github.com/jtalk22/slack-mcp-server
     created_at: "2026-01-03T19:19:56Z"
-    pushed_at: "2026-07-10T10:48:15Z"
+    pushed_at: "2026-07-17T10:47:31Z"
     description: "Session-based Slack MCP for Claude and MCP clients: local-first workflows, secure-default HTTP."
     homepage: https://mcp.revasserlabs.com
     topics:
       - platform-commercial
       - status-live
-    last_checked_at: "2026-07-13T05:13:15.611Z"
+    last_checked_at: "2026-07-20T15:11:28.314Z"
     readme:
-      fetched_at: "2026-07-13T05:13:15.611Z"
+      fetched_at: "2026-07-20T15:11:28.314Z"
       bytes: 18005
 insights:
   summary: A session-token-based MCP server that gives AI agents like Claude Code and Cursor direct Slack access without OAuth apps or admin approval.
@@ -71,14 +73,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:15.611Z"
+    updated_at: "2026-07-20T15:11:28.314Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:05:01.408Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

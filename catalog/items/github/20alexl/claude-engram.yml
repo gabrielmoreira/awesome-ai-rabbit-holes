@@ -28,6 +28,8 @@ metadata:
     forks: 4
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-01-20T03:07:03Z"
     pushed_at: "2026-07-01T22:13:53Z"
     description: Persistent memory and session intelligence for AI coding assistants. Auto-tracks mistakes, decisions, and context via hooks. Mines your full session history for patterns, predictions, and cross-session search.
@@ -48,23 +50,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.299Z"
       bytes: 14041
 insights:
-  summary: A hooks-based memory and session intelligence toolkit for Claude Code that auto-tracks coding mistakes, decisions, and context, then mines session history for patterns and cross-session search.
-  why_it_matters: It attempts to solve the context-window amnesia problem by persisting decisions and errors across sessions so your assistant stops repeating the same mistakes after a compaction.
-  mental_damage: We have reached the point where the assistant needs its own assistant to remember why the assistant forgot what you told the assistant ten minutes ago.
+  summary: A persistent memory and session intelligence layer that tracks decisions, mistakes, and context via hooks for AI coding assistants like Claude Code.
+  why_it_matters: It solves the 'context amnesia' problem by automatically mining session histories to prevent repetitive mistakes and inject relevant past decisions into current coding tasks.
+  mental_damage: Finally, a tool to help you realize that 40% of your coding session was just you arguing with the LLM about the same typo.
   tags:
+    - mcp-server
+    - persistent-memory
     - claude-code
-    - memory
-    - mcp
-    - hooks
-    - context
+    - context-management
+    - session-mining
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory, retrieval, and context-shaping system for Claude Code rather than being a primary coding assistant or a generic host integration.
+  reason: The core novelty is the management of memory, retrieval of past session patterns, and context injection rather than acting as the primary assistant itself.
   evidence:
-    - Repo description explicitly states 'Persistent memory and session intelligence for AI coding assistants' with hooks and session mining.
-    - README emphasizes memory injection, mistake warnings, compaction survival, and semantic search over session history as the main features.
-    - Although listed in awesome-mcp-servers under Knowledge & Memory, MCP is presented as a compatibility layer for tools, not the product identity.
+    - README claims it 'automatically tracks mistakes, decisions, and context via hooks'
+    - Primary functionality revolves around 'ession mining' and 'emory management'
+    - Uses MCP to provide tools like 'emory' and 'ession_mine' to a host assistant
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -84,9 +86,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:38.768Z"
+    updated_at: "2026-07-20T15:48:48.582Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fd9abfec16f291c8e9fe898f924054576fd99fb3429bcf99bd32e0ccd53fbede
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core novelty is the management of memory, retrieval of past session patterns, and context injection rather than acting as the primary assistant itself.
+      decision_evidence:
+        - README claims it 'automatically tracks mistakes, decisions, and context via hooks'
+        - Primary functionality revolves around 'ession mining' and 'emory management'
+        - Uses MCP to provide tools like 'emory' and 'ession_mine' to a host assistant
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the primary innovation is the semantic indexing and management of session memory/context rather than just providing a generic workflow integration.
+      review_reason: null
+      review_resume_lifecycle: null

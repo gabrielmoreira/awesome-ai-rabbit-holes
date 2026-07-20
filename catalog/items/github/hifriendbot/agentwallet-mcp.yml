@@ -28,6 +28,8 @@ metadata:
     forks: 2
     license: MIT
     archived: false
+    full_name: hifriendbot/agentwallet-mcp
+    html_url: https://github.com/hifriendbot/agentwallet-mcp
     created_at: "2026-02-16T20:48:17Z"
     pushed_at: "2026-07-01T20:54:08Z"
     description: Permissionless wallet infrastructure for AI agents. Create wallets, sign transactions, and broadcast on EVM + Solana. Pay and accept x402 payments. Built-in guards. No KYC. Up to 50% less expensive than Coinbase.
@@ -46,9 +48,9 @@ metadata:
       - solana
       - web3
       - x402
-    last_checked_at: "2026-07-13T05:13:00.570Z"
+    last_checked_at: "2026-07-20T15:11:02.091Z"
     readme:
-      fetched_at: "2026-07-13T05:13:00.570Z"
+      fetched_at: "2026-07-20T15:11:02.091Z"
       bytes: 11358
 insights:
   summary: An MCP server that gives AI agents permissionless, KYC-free wallets for signing and broadcasting transactions across EVM chains and Solana, including built-in guards and x402 payment support.
@@ -82,14 +84,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:00.570Z"
+    updated_at: "2026-07-20T15:11:02.091Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:06.574Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Autify is a commercial quality engineering platform featuring AI testing agents like Aximo that generate and execute end-to-end tests for web, mobile, and desktop applications using natural language and visual recognition.
-  why_it_matters: It allows engineering teams to delegate test creation and maintenance to AI agents that interact with UIs like real users, reducing the manual scripting overhead usually associated with tools like Playwright.
-  mental_damage: "Finally, an AI agent that writes the tests you'll ignore when they fail, preserving the timeless tradition of 'regression suite: ignored' with autonomous flair."
+  summary: An AI-native quality engineering platform designed for autonomous software testing across web, mobile, and desktop applications.
+  why_it_matters: It uses AI agents and natural language to automate end-to-end test creation and execution, reducing manual scripting and maintenance overhead.
+  mental_damage: Because nothing says 'peace of mind' quite like trusting an agent to autonomously decide if your new deployment actually works.
   tags:
-    - testing
-    - qa
-    - e2e
-    - ai-agent
-    - playwright
+    - ai-testing
+    - qa-automation
+    - e2e-testing
+    - no-code-testing
+    - autonomous-agents
   confidence: high
 curation:
   status: included
-  reason: The product identity is centered on 'Aximo', an AI testing agent that autonomously plans, executes, and repairs end-to-end tests using natural language and visual recognition.
+  reason: It functions as an autonomous testing agent that plans, executes, and maintains tests, fitting the 'Review, Testing & Repair' profile.
   evidence:
-    - Scraped site identifies 'Aximo' as 'an AI testing agent that uses natural language and visual recognition to autonomously generate and execute end-to-end tests'.
-    - Source list 'awesome-ai-coding-tools' categorizes it under 'Testing and QA'.
-    - Product features include 'Test Strategy', 'Test Creation', 'Execution', and 'Report/Maintenance' driven by AI.
+    - Claims to be an 'AI testing agent' using natural language and visual recognition
+    - Automates end-to-end tests across web, mobile, and desktop
+    - Featured in awesome-ai-coding-tools under Testing and QA
 placement:
   primary_category: coding-agents
   section: Review, Testing & Repair Agents
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:18.763Z"
+    updated_at: "2026-07-20T15:24:07.795Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4c96d2a39b45cc4f180f8152efe4d1ead12fb30f331a5a550d713101da609921
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It functions as an autonomous testing agent that plans, executes, and maintains tests, fitting the 'Review, Testing & Repair' profile.
+      decision_evidence:
+        - Claims to be an 'AI testing agent' using natural language and visual recognition
+        - Automates end-to-end tests across web, mobile, and desktop
+        - Featured in awesome-ai-coding-tools under Testing and QA
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a standalone autonomous agentic platform for testing rather than a simple plugin for an IDE.
+      review_reason: null
+      review_resume_lifecycle: null

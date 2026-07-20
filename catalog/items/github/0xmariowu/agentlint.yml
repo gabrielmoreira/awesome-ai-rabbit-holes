@@ -28,6 +28,8 @@ metadata:
     forks: 2
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-04-02T16:18:15Z"
     pushed_at: "2026-07-10T15:55:07Z"
     description: The linter for your agent harness. Works with Claude Code, Codex, and Cursor.
@@ -58,15 +60,15 @@ metadata:
       fetched_at: "2026-07-20T05:16:46.844Z"
       bytes: 21749
 insights:
-  summary: A linter that scores and fixes agent harness configurations, including CLAUDE.md, AGENTS.md, CI, and .gitignore, for coding agents like Claude Code, Codex, and Cursor.
-  why_it_matters: It applies deterministic checks to the instruction files and repo setup that directly shape agent reliability, addressing the emerging discipline of harness engineering.
-  mental_damage: We have officially entered the era where ESLint handles the code humans write and a separate linter is required to sanitize the context files we feed the robots that overwrite it.
+  summary: A linter designed to validate and score the 'harness' (context files like CLAUDE.md and AGENTS.md) used by AI coding agents.
+  why_it_matters: It helps developers ensure that the instructions and context they provide to agents like Claude Code and Cursor are actually effective rather than just adding noise.
+  mental_damage: Because apparently, we've reached the stage where we need to lint the instructions we give to the things that are supposed to be following them.
   tags:
-    - linting
+    - ai-agent
+    - linter
     - context-engineering
-    - harness
-    - cli-tool
-    - agent-infrastructure
+    - claude-code
+    - developer-tools
   confidence: high
 curation:
   status: included
@@ -77,10 +79,10 @@ curation:
     - Active as of 2026-05-06, with a dedicated site (agentlint.app) and guides on writing good CLAUDE.md and related context files.
 placement:
   primary_category: context-engineering
-  section: PromptOps / Prompt Management
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'evals'"
 processing:
   discover:
     status: done
@@ -94,9 +96,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:30.936Z"
+    updated_at: "2026-07-20T15:48:02.490Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e143d8f4f9961500488149f52b616983c437f66be9ce63e7b8a3feab943acddf
+      proposed_primary_category: evals
+      disagreement: true
+      decision_reason: The tool's core function is measuring, scoring, and validating the quality of agent context/harnesses using deterministic and AI-driven checks.
+      decision_evidence:
+        - Claims to score harness across 51 deterministic checks and 6 core dimensions
+        - Provides a fix plan and re-scoring mechanism based on check results
+        - Focuses on validating the 'context' provided to models rather than acting as the assistant itself
+      category_candidates:
+        - evals
+        - context-engineering
+      contrastive_reason: Choose evals over context-engineering because its primary job is measuring and scoring the quality of the context rather than being the system that manages or retrieves that context.
+      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'evals'"
+      review_resume_lifecycle: null

@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 22166
-    forks: 2578
+    stars: 22302
+    forks: 2593
     license: MIT
     archived: false
+    full_name: HKUDS/RAG-Anything
+    html_url: https://github.com/HKUDS/RAG-Anything
     created_at: "2025-06-06T06:47:29Z"
     pushed_at: "2026-07-09T16:33:19Z"
     description: "\"RAG-Anything: All-in-One RAG Framework\""
@@ -34,9 +36,9 @@ metadata:
     topics:
       - multi-modal-rag
       - retrieval-augmented-generation
-    last_checked_at: "2026-07-13T05:13:01.284Z"
+    last_checked_at: "2026-07-20T15:11:03.379Z"
     readme:
-      fetched_at: "2026-07-13T05:13:01.284Z"
+      fetched_at: "2026-07-20T15:11:03.379Z"
       bytes: 56287
 insights:
   summary: RAG-Anything is a Python framework for building multimodal retrieval-augmented generation pipelines that process text, images, tables, and equations.
@@ -70,14 +72,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:01.284Z"
+    updated_at: "2026-07-20T15:11:03.379Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:26.924Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

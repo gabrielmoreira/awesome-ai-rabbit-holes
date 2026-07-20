@@ -27,6 +27,8 @@ metadata:
     forks: 146
     license: NOASSERTION
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-09-28T01:06:40Z"
     pushed_at: "2024-07-01T09:16:47Z"
     description: An intelligent assistant serving the entire software development lifecycle, powered by a Multi-Agent Framework, working with DevOps Toolkits, Code&Doc Repo RAG,  etc.
@@ -83,10 +85,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:49:49.112Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.716Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

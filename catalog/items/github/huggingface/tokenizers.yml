@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 10878
-    forks: 1142
+    stars: 10897
+    forks: 1152
     license: Apache-2.0
     archived: false
+    full_name: huggingface/tokenizers
+    html_url: https://github.com/huggingface/tokenizers
     created_at: "2019-11-01T17:52:20Z"
-    pushed_at: "2026-07-12T10:02:58Z"
+    pushed_at: "2026-07-20T14:52:38Z"
     description: 💥 Fast State-of-the-Art Tokenizers optimized for Research and Production
     homepage: https://huggingface.co/docs/tokenizers
     topics:
@@ -40,9 +42,9 @@ metadata:
       - natural-language-understanding
       - nlp
       - transformers
-    last_checked_at: "2026-07-13T05:13:03.184Z"
+    last_checked_at: "2026-07-20T15:11:06.989Z"
     readme:
-      fetched_at: "2026-07-13T05:13:03.184Z"
+      fetched_at: "2026-07-20T15:11:06.989Z"
       bytes: 3379
 insights:
   summary: A fast, Rust-based library for training and running BPE, WordPiece, and Unigram tokenizers optimized for both research and production NLP pipelines.
@@ -76,14 +78,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:03.184Z"
+    updated_at: "2026-07-20T15:11:06.989Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:01:08.855Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

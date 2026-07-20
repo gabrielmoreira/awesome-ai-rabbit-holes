@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An HTTP-based Model Context Protocol (MCP) server that provides real-time domain availability checking, WHOIS lookups, and TLD listing across more than 1,400 top-level domains.
-  why_it_matters: Developers building AI-powered domain generators or portfolio tools can integrate live domain verification directly into their assistant workflows without wiring their own registrar APIs.
-  mental_damage: Your coding agent can now argue with you about whether your startup idea is available as a .com, while silently burning tokens to check 1,441 TLDs you’ve never heard of.
+  summary: An MCP server that enables AI assistants to check domain availability, TLD listings, and WHOIS data.
+  why_it_matters: It allows agents to perform real-time domain research and brand validation directly within an AI-driven development workflow.
+  mental_damage: Now your LLM can tell you your million-dollar startup idea is taken before you've even written a single line of code.
   tags:
     - mcp
-    - domain
-    - whois
-    - api
+    - domain-search
+    - ai-tooling
+    - dev-workflow
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server offering domain search and WHOIS lookups, fitting cleanly as domain-specific MCP infrastructure rather than a framework, extension, or general assistant.
+  reason: The product is specifically an MCP server designed to expose domain search capabilities to AI assistants.
   evidence:
-    - Listed in awesome-mcp-servers under 'Official Servers' with a description focused on MCP-based domain tools.
-    - Scraped site describes an HTTP-based MCP server at https://api.findadomain.dev/mcp with check_domain and list_tlds tools.
-    - Core features are explicitly framed around MCP integration for AI assistants and chatbots.
+    - Scraped site context identifies it as 'MCP tools for domain availability checking'
+    - Explicitly provides an MCP endpoint (HTTP transport)
+    - Provides specific tools (check_domain, list_tlds) for MCP clients
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -68,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:05.862Z"
+    updated_at: "2026-07-20T15:44:53.734Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:800130e5dd72b608d0fed987864e0f6779eaeb8ce1273f20450858b4672c0e9e
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is specifically an MCP server designed to expose domain search capabilities to AI assistants.
+      decision_evidence:
+        - Scraped site context identifies it as 'MCP tools for domain availability checking'
+        - Explicitly provides an MCP endpoint (HTTP transport)
+        - Provides specific tools (check_domain, list_tlds) for MCP clients
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a specialized MCP server rather than a general workflow integration for a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null

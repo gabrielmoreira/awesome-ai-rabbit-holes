@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,26 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A documentation index page listing all provider integrations available for LangChain Python, including models, tools, vector stores, and other components.
-  why_it_matters: Developers can discover and compare 1000+ integrations across chat models, embedding models, vector stores, and tools to swap providers without changing application code.
-  mental_damage: Another comforting reminder that the real skill in modern AI development is not writing code, but memorizing which abstraction layer wraps the model you actually wanted to call.
+  summary: A Python library providing standardized interfaces to integrate with diverse LLM providers, tools, and vector stores.
+  why_it_matters: It enables developers to build AI applications with a consistent API, making it easy to swap underlying models or databases without rewriting core logic.
+  mental_damage: It provides the ultimate abstraction layer that helps you confidently swap one slightly-different-but-mostly-the-same LLM for another.
   tags:
-    - langchain
+    - llm-abstraction
+    - python-sdk
+    - agent-framework
     - integrations
-    - providers
-    - python
-    - docs
   confidence: high
 curation:
-  status: excluded
-  reason: This is a documentation index page for LangChain integrations, not a standalone product, tool, or directory, and therefore does not belong in the catalog.
+  status: included
+  reason: LangChain is the industry-standard SDK/framework for building AI applications via programmatic imports.
   evidence:
-    - The URL points to a LangChain documentation page, not a standalone product or repo.
-    - The content is a list of LangChain Python provider integrations and how to use them.
-    - No repo metadata, stars, or independent product identity is present.
+    - README describes it as a set of integrations for chat models, embedding models, and tools
+    - Content focuses on Python packages to implement standard interfaces
+    - Primary use case is importing the library into code to build agent workflows
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: incubating
   reason: null
@@ -72,9 +73,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:36.619Z"
+    updated_at: "2026-07-20T15:40:58.180Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:91e7ea84c324e4600113389df7e48547d88d96039f27b6b669037be4d4a4824b
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: LangChain is the industry-standard SDK/framework for building AI applications via programmatic imports.
+      decision_evidence:
+        - README describes it as a set of integrations for chat models, embedding models, and tools
+        - Content focuses on Python packages to implement standard interfaces
+        - Primary use case is importing the library into code to build agent workflows
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary way developers interact with LangChain is by importing it as a code-first SDK rather than using it as an operated workbench.
+      review_reason: null
+      review_resume_lifecycle: null

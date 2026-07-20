@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A job board specifically for AI developers, aggregating over 10,000 roles with salary data and API access.
-  why_it_matters: It provides a centralized, filterable view of the AI engineering job market, complete with salary benchmarks relevant to developers working in the space.
-  mental_damage: "The ultimate irony: a site dedicated to AI-powered coding tools that primarily exists to help the humans who build them find new places to deploy their soon-to-be-automated skills."
+  summary: A job board specializing in AI developer roles with salary data and market demand insights.
+  why_it_matters: Provides visibility into the specific skills and salary benchmarks currently being demanded by companies building AI infrastructure and applications.
+  mental_damage: Finally, a way to quantify exactly how much your specific flavor of LLM prompting is worth in the current market.
   tags:
-    - jobs
-    - career
-    - recruiting
-    - market-data
+    - job-board
+    - career-data
+    - ai-hiring
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a job board for human recruitment rather than a developer-facing AI tool, agent, framework, or infrastructure component.
+  reason: The product is a job board and career resource, which falls under broad news/media/career rather than developer-facing tooling or infrastructure.
   evidence:
-    - "Site title is 'AI Dev Jobs' and description confirms it is 'The #1 job board for AI developers'."
-    - Primary excerpt lists job openings, salaries, and company hiring profiles rather than software tooling.
-    - Source list context (awesome-ai-coding-tools) links to this as a 'Developer Productivity Tool', but the actual site content is recruitment, not coding utility.
+    - Scraped site title is 'AI Dev Jobs
+    - Primary function is listing job roles and market data
+    - Does not provide a functional developer tool, framework, or utility
 placement:
   primary_category: null
   section: null
@@ -68,9 +69,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:39.210Z"
+    updated_at: "2026-07-20T15:19:35.359Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3bb66336e76ca6e14bfa32a510e14530f7ebc00ac1b6a8f072e9a5440efff1dd
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a job board and career resource, which falls under broad news/media/career rather than developer-facing tooling or infrastructure.
+      decision_evidence:
+        - Scraped site title is 'AI Dev Jobs
+        - Primary function is listing job roles and market data
+        - Does not provide a functional developer tool, framework, or utility
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server that exposes Devin's DeepWiki documentation and technical knowledge to MCP-compatible coding assistants.
-  why_it_matters: It lets developers query Devin's internal wiki and documentation context directly from their AI coding tools instead of switching contexts to a browser.
-  mental_damage: We have now achieved the milestone of building protocol adapters so our AI assistants can read the documentation of other AI assistants.
+  summary: An MCP server that provides Devin with access to DeepWiki's knowledge base.
+  why_it_matters: It expands the context and knowledge retrieval capabilities of the Devin agent by allowing it to query a specialized wiki via the Model Context Protocol.
+  mental_damage: Adding another layer of specialized knowledge to an autonomous agent that might already be hallucinating about your documentation.
   tags:
     - mcp
     - devin
-    - documentation
-    - context
-  confidence: medium
+    - knowledge-retrieval
+    - ai-agents
+  confidence: high
 curation:
   status: included
-  reason: DeepWiki-MCP is an MCP server that provides access to Devin's DeepWiki, making MCP infrastructure its primary product identity rather than a compatibility footnote.
+  reason: The tool is explicitly identified as an MCP server designed to provide specific domain knowledge to an agent.
   evidence:
-    - Listed in awesome-mcp-servers under the 'Official Servers' section
-    - URL is under docs.devin.ai/work-with-devin/deepwiki-mcp, indicating it is an MCP server product
-    - No repo description or README provided, but the URL path and source-list placement confirm MCP server identity
+    - URL points to Devin documentation for working with MCP
+    - Identity is defined as a 'deepwiki-mcp' server
+    - Listed in awesome-mcp-servers as an Official Server
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -68,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:29.430Z"
+    updated_at: "2026-07-20T15:39:55.355Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7d806120dcd38c7a4fd05e58a3b073eae8bc7b6943af5c90b469bc2c87619f4c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is explicitly identified as an MCP server designed to provide specific domain knowledge to an agent.
+      decision_evidence:
+        - URL points to Devin documentation for working with MCP
+        - Identity is defined as a 'deepwiki-mcp' server
+        - Listed in awesome-mcp-servers as an Official Server
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity is an MCP server implementation rather than a general IDE plugin.
+      review_reason: null
+      review_resume_lifecycle: null

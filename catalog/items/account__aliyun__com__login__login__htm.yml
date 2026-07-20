@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: This is the Aliyun (Alibaba Cloud) login page, not a developer tool or MCP server.
-  why_it_matters: It doesn't, unless you are trying to sign in to Alibaba Cloud to use their actual AI services.
-  mental_damage: We have officially reached peak AI ecosystem absurdity when a cloud provider's login URL gets indexed as an 'Official MCP Server' in a curated list.
+  summary: The login page for Alibaba Cloud (Aliyun), a Chinese cloud computing and AI services platform.
+  why_it_matters: It does not matter as a standalone AI developer tool; it is a generic cloud account login portal with no exposed MCP or developer workflow surface in the provided inputs.
+  mental_damage: Nothing captures the current AI tooling gold rush like a curated list casually indexing a cloud vendor's login page as infrastructure.
   tags:
-    - not-a-tool
-    - false-positive
-    - misclassified
+    - alibaba-cloud
+    - login-page
   confidence: high
 curation:
   status: excluded
-  reason: The URL resolves to a cloud login page, not an MCP server or developer tool, making it a false positive in the source list.
+  reason: This is a cloud login portal, not a developer-facing AI tool, MCP server, or repository; there is no product substance, README, or technical artifact to evaluate against the catalog scope.
   evidence:
-    - Scraped site title is '阿里云登录' (Alibaba Cloud Login) with a generic cloud services description.
-    - Source list context shows it was linked as an 'Official Server' in awesome-mcp-servers, but the URL is just a login endpoint.
-    - No repository description, README, code, or tooling artifacts are present.
+    - The URL is literally https://account.aliyun.com/login/login.htm, an authentication gateway with no tool functionality.
+    - Scraped content is generic Alibaba Cloud marketing copy about cloud and AI services, with no mention of MCP server capabilities, APIs, or developer interfaces.
+    - There is no repository description, README, or technical documentation suggesting this is an AI developer product.
 placement:
   primary_category: null
   section: null
@@ -67,9 +68,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:10.131Z"
+    updated_at: "2026-07-20T15:12:49.660Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3076f4eed27e4603597fb7b51501d6f1b8393cdff63ad13b2892e280a44842cd
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a cloud login portal, not a developer-facing AI tool, MCP server, or repository; there is no product substance, README, or technical artifact to evaluate against the catalog scope.
+      decision_evidence:
+        - The URL is literally https://account.aliyun.com/login/login.htm, an authentication gateway with no tool functionality.
+        - Scraped content is generic Alibaba Cloud marketing copy about cloud and AI services, with no mention of MCP server capabilities, APIs, or developer interfaces.
+        - There is no repository description, README, or technical documentation suggesting this is an AI developer product.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

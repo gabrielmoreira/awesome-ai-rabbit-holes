@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Fandom wiki dedicated to documenting and cataloging visual aesthetics, subcultures, and related imagery.
-  why_it_matters: It does not matter to developers as a tool, workflow, or piece of infrastructure.
-  mental_damage: We have successfully reached the point where a wiki about cottagecore and dreamcore is being treated as a legitimate MCP server candidate.
+  summary: A Fandom wiki encyclopedia that catalogs visual aesthetics, art movements, and subcultural styles.
+  why_it_matters: It does not appear to be a developer-facing tool; it is a consumer content wiki with no evident AI or software infrastructure angle.
+  mental_damage: Nothing caps a day of context-window engineering like realizing the 'Art & Culture' section of your tools list is just a wiki about Cottagecore.
   tags:
-    - not-a-tool
     - wiki
-    - off-topic
+    - aesthetics
+    - content-site
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose wiki for art and culture aesthetics, not a developer-facing AI tool, agent, framework, or infrastructure component.
+  reason: This is a content encyclopedia, not a developer tool or AI infrastructure product; directory placement cannot turn a public wiki into MCP tooling.
   evidence:
-    - URL is aesthetics.fandom.com, a generic wiki site with no developer tooling identity.
-    - No repository description, README, or code context provided; only listed in awesome-mcp-servers under 'Art & Culture'.
-    - "Fails all catalog scope signals: not an agent, IDE, extension, framework, or developer infrastructure."
+    - The URL https://aesthetics.fandom.com is a general-interest encyclopedia about visual aesthetics and art movements.
+    - No repository description, README, stars, or technical documentation indicates it is software, an MCP server, or a developer utility.
+    - Appearance in awesome-mcp-servers under Art & Culture does not establish a developer-tooling identity.
 placement:
   primary_category: null
   section: null
@@ -68,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:16.443Z"
+    updated_at: "2026-07-20T15:14:30.145Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:30a896fd5b6468d78f8e3ecf8bf1eb01729f3fc33db8f7c3899e02f3c92a86f2
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a content encyclopedia, not a developer tool or AI infrastructure product; directory placement cannot turn a public wiki into MCP tooling.
+      decision_evidence:
+        - The URL https://aesthetics.fandom.com is a general-interest encyclopedia about visual aesthetics and art movements.
+        - No repository description, README, stars, or technical documentation indicates it is software, an MCP server, or a developer utility.
+        - Appearance in awesome-mcp-servers under Art & Culture does not establish a developer-tooling identity.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

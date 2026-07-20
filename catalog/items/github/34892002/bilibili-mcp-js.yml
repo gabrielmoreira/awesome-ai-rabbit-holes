@@ -28,6 +28,8 @@ metadata:
     forks: 29
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-03-24T10:27:50Z"
     pushed_at: "2026-03-30T01:18:26Z"
     description: Bilibili video search MCP (Model Context Protocol) service - 哔哩哔哩视频搜索MCP服务
@@ -40,22 +42,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.486Z"
       bytes: 3046
 insights:
-  summary: A Model Context Protocol server that lets AI assistants search Bilibili videos, retrieve trending content, fetch video details, and access UP主 information.
-  why_it_matters: Developers building MCP-connected workflows can give their coding agents native access to Bilibili's video ecosystem without writing custom API glue code.
-  mental_damage: "We have finally achieved the future: an MCP server for a Chinese video platform, because apparently your coding agent's next logical step is doom-scrolling Bilibili to solve your bugs."
+  summary: An MCP server that enables LLMs to search Bilibili videos, fetch trending content, and retrieve video or creator details.
+  why_it_matters: It provides an LLM with structured access to Bilibili's video metadata and trending lists via the Model Context Protocol.
+  mental_damage: One step closer to your AI agent developing a highly specific obsession with Bilibili anime trends and pop culture.
   tags:
     - mcp
     - bilibili
-    - video-search
-    - langchain
+    - search
+    - video-metadata
+    - node-js
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server providing Bilibili video search and content access, making it a clean fit for the MCP Servers & Tooling category under Domain Servers.
+  reason: The project is explicitly defined as an MCP server designed to provide a specific domain (Bilibili) to LLMs.
   evidence:
-    - Repo description explicitly states 'Bilibili video search MCP (Model Context Protocol) service'
-    - README confirms it is '基于 Model Context Protocol (MCP) 的 B站视频搜索服务器' with search, trending, and UP主 APIs
-    - Listed in awesome-mcp-servers under 'Server Implementations > Browser Automation' section
+    - Repo description specifies 'Bilibili video search MCP service'
+    - README demonstrates implementation using MCP protocols and Node.js
+    - Provides structured API access for video, trending, and creator information
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,9 +78,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:39.393Z"
+    updated_at: "2026-07-20T15:49:14.005Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d509ddc8d989e420923ae876704fbb0217b21a6e72289e32ef480cef0cdf02eb
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly defined as an MCP server designed to provide a specific domain (Bilibili) to LLMs.
+      decision_evidence:
+        - Repo description specifies 'Bilibili video search MCP service'
+        - README demonstrates implementation using MCP protocols and Node.js
+        - Provides structured API access for video, trending, and creator information
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is centered on being an MCP server implementation rather than an extension for a specific IDE.
+      review_reason: null
+      review_resume_lifecycle: null

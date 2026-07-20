@@ -27,6 +27,8 @@ metadata:
     forks: 171
     license: CC0-1.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-08-28T16:37:06Z"
     pushed_at: "2026-07-19T08:07:05Z"
     description: A hand-picked collection of tools and resources for Vibe Coding
@@ -51,23 +53,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:54.596Z"
       bytes: 12435
 insights:
-  summary: A curated, themed awesome list collecting tools and resources for 'vibe coding'—building software via prompts, iteration, and AI exploration rather than traditional coding workflows.
-  why_it_matters: It serves as a centralized discovery map for developers looking to navigate the rapidly expanding ecosystem of prompt-driven builders, editors, and AI dev tools.
-  mental_damage: Because what the world definitely needed was a formalized taxonomy for 'I have no idea what I'm doing but the LLM seems to be writing payroll software.'
+  summary: A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration.
+  why_it_matters: It provides a centralized directory for the emerging 'vibe coding' workflow, gathering high-level builders and IDEs focused on prompt-driven development.
+  mental_damage: It formalizes the existential dread of wondering if you're actually a software engineer or just a professional prompt stylist.
   tags:
-    - awesome-list
     - vibe-coding
-    - directory
-    - ai-tools
-    - discovery
+    - curated-list
+    - ai-builders
+    - ai-editors
   confidence: high
 curation:
   status: included
-  reason: This is a curated index of AI developer tools organized around the 'vibe coding' concept, fitting the catalog's scope for ecosystem navigation aids rather than a standalone product.
+  reason: The project is a curated 'awesome list' designed for ecosystem navigation rather than a standalone tool.
   evidence:
-    - Repo description states it is 'A hand-picked collection of tools and resources for Vibe Coding'.
-    - README organizes links into sections like 'Web-Based Builders', 'Editors and IDEs', and 'CLI Tools'.
-    - Recognized in source lists under 'awesome-ai-coding-tools' specifically as a 'Related List'.
+    - Repo description explicitly states it is a 'collection of tools and resources'
+    - README defines it as an 'awesome list' for the vibe coding mindset
+    - Contains multiple distinct categories of tools like Web-Based Builders and Editors
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -87,9 +88,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:42.850Z"
+    updated_at: "2026-07-20T16:08:28.862Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:814ff56facdcab43ee45ef820c32c65dce1508b5aa6dd8d56ec47b1d7b3a9d79
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The project is a curated 'awesome list' designed for ecosystem navigation rather than a standalone tool.
+      decision_evidence:
+        - Repo description explicitly states it is a 'collection of tools and resources'
+        - README defines it as an 'awesome list' for the vibe coding mindset
+        - Contains multiple distinct categories of tools like Web-Based Builders and Editors
+      category_candidates:
+        - awesome-awesomes
+        - app-builders
+      contrastive_reason: Choose awesome-awesomes over app-builders because the project is a directory of existing products rather than a tool that generates applications itself.
+      review_reason: null
+      review_resume_lifecycle: null

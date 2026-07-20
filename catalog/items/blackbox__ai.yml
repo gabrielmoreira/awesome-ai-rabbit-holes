@@ -1,0 +1,126 @@
+id: blackbox__ai
+kind: website
+name: Blackbox AI
+canonical_url: https://blackbox.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__blackbox__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-20T15:10:47.684Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Blackbox AI
+        anchor_text: Blackbox AI
+        extracted_url: https://blackbox.ai
+        surrounding_text: "## [Blackbox AI](https://www.blackbox.ai/)"
+        confidence: high
+    - id: discovery__blackbox__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-20T15:10:47.684Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Blackbox AI
+        extracted_url: https://blackbox.ai
+        surrounding_text: "- **[Blackbox AI](https://www.blackbox.ai/)** – AI coding assistant with code completions, chat, and search."
+        confidence: high
+    - id: discovery__www__blackbox__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Blackbox AI
+        anchor_text: Blackbox AI
+        extracted_url: https://www.blackbox.ai
+        surrounding_text: "## [Blackbox AI](https://www.blackbox.ai/)"
+        confidence: high
+    - id: discovery__www__blackbox__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Editors and Assistants
+        anchor_text: Blackbox AI
+        extracted_url: https://www.blackbox.ai
+        surrounding_text: "- **[Blackbox AI](https://www.blackbox.ai/)** – AI coding assistant with code completions, chat, and search."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: BLACKBOX AI is a multi-surface AI coding platform offering a CLI, VS Code extension, AI-native IDE, cloud agents, API, and mobile app for autonomous coding tasks, code review, testing, and deployment.
+  why_it_matters: Developers can dispatch autonomous coding agents across terminal, editor, cloud, and mobile surfaces to refactor code, generate tests, audit security, and deploy apps with minimal manual intervention.
+  mental_damage: Now you can pay a Chairman LLM to judge which AI agent did the best job writing code you won't have time to read anyway.
+  tags:
+    - ai-platform
+    - cli
+    - coding-agents
+    - ide
+    - multi-agent
+  confidence: high
+curation:
+  status: included
+  reason: It is a developer-facing coding assistant that plans, writes, reviews, tests, and deploys code across multiple surfaces, fitting the primary coding assistant definition.
+  evidence:
+    - BLACKBOX AI presents itself as a multi-agent coding platform with CLI, IDE, cloud, API, and mobile surfaces for autonomous coding tasks.
+    - The product directly reads codebases, plans changes, edits files, runs tests, performs code review, and handles deployment via dispatched agents.
+    - Included in awesome-ai-coding-tools under 'Code Editors and Assistants' and awesome-ai-agents, with linked description matching its coding assistant identity.
+placement:
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.715Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+  discover:
+    status: done
+    updated_at: "2026-07-20T15:10:47.686Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

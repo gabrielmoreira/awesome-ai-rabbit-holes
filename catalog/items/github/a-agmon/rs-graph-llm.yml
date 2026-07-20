@@ -28,6 +28,8 @@ metadata:
     forks: 37
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-06-10T18:20:02Z"
     pushed_at: "2026-07-19T16:55:04Z"
     description: High-performance framework for building interactive workflow systems in Rust. Designed for complex workflows and multi-agent systems
@@ -44,22 +46,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:48.189Z"
       bytes: 15179
 insights:
-  summary: A Rust-native graph execution framework for building type-safe, stateful multi-agent workflow systems with integrated LLM capabilities.
-  why_it_matters: Developers can define complex agent orchestrations in Rust, gaining performance and compile-time safety over Python-first alternatives like LangGraph.
-  mental_damage: "Just what the ecosystem needed: another framework to manage agents that mostly argue about whether your insurance claim is valid."
+  summary: A high-performance, type-safe Rust framework for building stateful, interactive agentic workflows and multi-agent systems.
+  why_it_matters: It brings the structured, graph-based orchestration patterns of LangGraph to the Rust ecosystem, enabling performant and type-safe agent workflows.
+  mental_damage: Because clearly, Python's runtime errors weren't enough; now we need to manage our agentic state complexity with strict ownership and lifetimes.
   tags:
     - rust
-    - multi-agent
-    - graph-workflow
-    - langgraph-alternative
+    - agents
+    - workflows
+    - graph
+    - orchestration
   confidence: high
 curation:
   status: included
-  reason: The repository provides a code-first library and engine for building agent workflows in Rust, fitting the Frameworks & SDKs mold rather than an operated control plane.
+  reason: It is a code-first library used by developers to build workflows rather than a managed workbench or control plane.
   evidence:
-    - Repo description identifies it as a 'High-performance framework for building interactive multi-agent workflow systems in Rust'.
-    - README states 'graph-flow is a high-performance, type-safe framework... This repository showcases real-world implementations and examples'.
-    - The project is actively maintained (pushed 2026-04-26) and located in the 'Core Frameworks' section of an agent orchestration awesome list.
+    - README describes it as a 'framework library' and 'graph execution library'
+    - Users interact with it by implementing the Task trait in Rust code
+    - Core logic involves a GraphBuilder and FlowRunner API for programmatic use
 placement:
   primary_category: ai-frameworks
   section: Workflow / Graph Engines
@@ -79,9 +82,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:57.220Z"
+    updated_at: "2026-07-20T15:51:44.798Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:38fb519e702bed2920ba75af322265b539235778cf521cff2b126dc9c30d1cbc
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first library used by developers to build workflows rather than a managed workbench or control plane.
+      decision_evidence:
+        - README describes it as a 'framework library' and 'graph execution library'
+        - Users interact with it by implementing the Task trait in Rust code
+        - Core logic involves a GraphBuilder and FlowRunner API for programmatic use
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is primarily imported as a library/SDK for programmatic construction rather than being an operated control plane or workbench.
+      review_reason: null
+      review_resume_lifecycle: null

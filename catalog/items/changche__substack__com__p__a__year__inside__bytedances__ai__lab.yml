@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,23 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Substack article sharing a personal narrative of working inside ByteDance's AI lab for a year.
-  why_it_matters: It offers a rare, inside look at how a major AI powerhouse structures its research and development efforts.
-  mental_damage: Reading about the internal rigors of a top-tier AI lab while your local agent struggles to fix a null pointer exception is a special kind of Tuesday.
+  summary: A Substack publication detailing ByteDance's AI laboratory operations and research insights over a one-year period.
+  why_it_matters: Provides high-signal technical context on how a major AI lab approaches model training, agents, and infra in production.
+  mental_damage: Another long-form essay to read while your local LLM is busy hallucinating a semi-working implementation of the very research described.
   tags:
-    - career
+    - insights
+    - research
     - ai-lab
-    - editorial
+    - case-study
   confidence: high
 curation:
-  status: excluded
-  reason: This is a personal editorial and media resource, not a developer tool, framework, or infrastructure component.
+  status: included
+  reason: It is a periodic publication/media resource providing commentary and research insights rather than a functional developer tool.
   evidence:
-    - URL points to a Substack publication (changche.substack.com), indicating a blog post or newsletter article.
-    - Source-list context identifies it as a 'Podcast' and 'Suggestion' within a general LLM resource list, not a tool.
-    - No code, CLI, SDK, or product functionality is described; it is purely narrative content.
+    - Source URL is a Substack publication
+    - Source-list context identifies it as a 'Podcast/Summary' style resource
 placement:
-  primary_category: null
+  primary_category: newsletters-and-feeds
   section: null
 lifecycle:
   status: incubating
@@ -68,9 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:55.223Z"
+    updated_at: "2026-07-20T15:28:47.528Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:af1fe640817be91d8ac5d84e2ac87c0753156752f015000f2cdadf7300af14e3
+      proposed_primary_category: newsletters-and-feeds
+      disagreement: false
+      decision_reason: It is a periodic publication/media resource providing commentary and research insights rather than a functional developer tool.
+      decision_evidence:
+        - Source URL is a Substack publication
+        - Source-list context identifies it as a 'Podcast/Summary' style resource
+      category_candidates:
+        - newsletters-and-feeds
+        - awesome-awesomes
+      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because the primary value is ongoing commentary and research analysis rather than a curated directory of tools.
+      review_reason: null
+      review_resume_lifecycle: null

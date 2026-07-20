@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,23 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The official xAI API documentation covering model capabilities, tool integrations (including MCP), SDK usage, and migration guides for the Grok family of models.
-  why_it_matters: Provides the canonical reference for developers integrating Grok models into applications, including specifics on prompt caching, function calling, and the Responses API.
-  mental_damage: Yet another provider docs site to bookmark, ensuring your migration guide收藏夹 (favorites folder) now requires its own migration guide.
+  summary: The official documentation for xAI's Grok models and API services.
+  why_it_matters: Provides access to Grok models for text, image, video, and voice generation, including agentic tool calling and reasoning capabilities.
+  mental_damage: Another API endpoint to keep track of amidst the infinite sprawl of competing model benchmarks.
   tags:
-    - api
-    - xai
     - grok
-    - docs
-    - mcp
+    - xai
+    - llm-api
+    - multimodal
+    - agentic-ai
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page for the xAI API, not a standalone developer tool, agent, framework, or directory that fits the catalog scope.
+  reason: This is a documentation site for a model provider, not a standalone developer tool, framework, or orchestration platform.
   evidence:
-    - The URL points to 'docs.x.ai/overview', which is a documentation portal, not a tool repository.
-    - The content describes API usage, SDK initialization, and model pricing rather than a product to install or run.
-    - Listed in awesome-mcp-servers only as a reference for using products/services, not as a server implementation itself.
+    - The content is primarily documentation for API usage, model capabilities, and pricing
+    - The URL leads to a docs site, not a software product or library
 placement:
   primary_category: null
   section: null
@@ -70,9 +71,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:43.331Z"
+    updated_at: "2026-07-20T15:41:50.761Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b7b4ff2e344c92c8f653a741bcfdf3ca4fbe8749530af2c66e34fd1db788433d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation site for a model provider, not a standalone developer tool, framework, or orchestration platform.
+      decision_evidence:
+        - The content is primarily documentation for API usage, model capabilities, and pricing
+        - The URL leads to a docs site, not a software product or library
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

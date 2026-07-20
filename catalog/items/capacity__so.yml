@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Capacity is a prompt-to-app builder that generates full-stack React, TypeScript, and React Native applications with Express backends from natural language descriptions, handling deployment to Vercel or AWS.
-  why_it_matters: It allows developers and non-technical founders to generate production-ready codebases with real infrastructure (SQLite, Express) and export them to GitHub, bridging the gap between idea and shipped product.
-  mental_damage: Yet another 'no coding required' platform that generates a full-stack TypeScript monolith, ensuring you still need to know how to debug TypeScript when the AI co-founder inevitably misses an edge case.
+  summary: An AI-powered platform that generates full-stack web and mobile applications from natural language descriptions.
+  why_it_matters: It streamlines the path from idea to deployment by automating the generation of React, TypeScript, and backend infrastructure.
+  mental_damage: It brings us one step closer to the era where 'building an app' is just a fancy way of saying 'typing a very long paragraph'.
   tags:
     - prompt-to-app
     - full-stack
     - react
+    - typescript
     - no-code
-    - codegen
   confidence: high
 curation:
   status: included
-  reason: The primary user experience is describing an idea in plain English to generate a new full-stack application, which aligns perfectly with the App Builders category rather than a coding agent that edits existing repos.
+  reason: The product's core identity is generating complete, deployable applications from prompts rather than assisting a developer with existing code.
   evidence:
-    - "Scraped site claims: 'Build apps using words... turns prompts into deployed apps' and 'Generate production-ready React applications... No coding required.'"
-    - Source list context confirms placement in 'App Builders' section of awesome-ai-coding-tools.
-    - Features 'Spec Mode' and 'Vibe Mode' specifically designed for creating new applications from scratch rather than editing existing codebases.
+    - Claims to generate 'production-ready React applications with Tailwind CSS, TypeScript, and tRPC/REST APIs
+    - Features a 'Spec Mode' to transform ideas into detailed implementation plans
+    - Focuses on users with 'no coding skills needed'
 placement:
   primary_category: app-builders
   section: Prompt-to-App Builders
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:58.493Z"
+    updated_at: "2026-07-20T15:29:14.269Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7ce67b8cf917e3d4c49fdafc5f6240ec0930ad0dc816cd1eee4b797a884247f9
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product's core identity is generating complete, deployable applications from prompts rather than assisting a developer with existing code.
+      decision_evidence:
+        - Claims to generate 'production-ready React applications with Tailwind CSS, TypeScript, and tRPC/REST APIs
+        - Features a 'Spec Mode' to transform ideas into detailed implementation plans
+        - Focuses on users with 'no coding skills needed'
+      category_candidates:
+        - app-builders
+        - spec-driven-development
+      contrastive_reason: Choose app-builders over spec-driven-development because the final output is a complete, deployed application rather than just a structured specification or plan.
+      review_reason: null
+      review_resume_lifecycle: null

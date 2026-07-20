@@ -27,6 +27,8 @@ metadata:
     forks: 9029
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-11-14T17:53:32Z"
     pushed_at: "2026-07-17T19:08:52Z"
     description: Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)
@@ -37,22 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:49.762Z"
       bytes: 7531
 insights:
-  summary: A tool that converts screenshots, mockups, and Figma designs into clean, functional code across stacks like HTML/Tailwind, React, and Vue using AI models such as Gemini and Claude.
-  why_it_matters: It lets developers skip the tedious translation from visual design to boilerplate UI code by generating working frontend scaffolds directly from static images or screen recordings.
-  mental_damage: Now you can spend your afternoon painstakingly cropping the perfect screenshot instead of the usual painstakingly writing the Tailwind classes yourself.
+  summary: An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks.
+  why_it_matters: It accelerates the prototyping phase by turning visual designs directly into structured HTML, Tailwind, React, or Vue code.
+  mental_damage: It makes the distance between a napkin sketch and a deployed frontend so short it might actually trigger a crisis of purpose for UI designers.
   tags:
-    - prompt-to-code
+    - prompt-to-app
     - frontend
-    - screenshot
-    - ui-scaffolding
+    - react
+    - tailwind
+    - prototyping
   confidence: high
 curation:
   status: included
-  reason: The core workflow is turning a visual prompt (screenshot/mockup) into a new app or UI scaffold rather than editing an existing repository like a standard coding agent.
+  reason: The tool's core identity is generating a new application scaffold/site from a visual input rather than editing an existing codebase.
   evidence:
-    - "Repo description explicitly states: 'Drop in a screenshot and convert it to clean code (HTML/Tailwind/React/Vue)'"
-    - "README highlights supported stacks for greenfield generation: 'HTML + Tailwind, React + Tailwind, Vue + Tailwind'"
-    - Already included in awesome-ai-coding-tools under the 'App Builders' section
+    - README describes turning screenshots and mockups into functional code
+    - Supports generating multiple stacks including React, Vue, and Tailwind
+    - Included in awesome-ai-coding-tools under App Builders
 placement:
   primary_category: app-builders
   section: Prompt-to-App Builders
@@ -72,9 +75,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:24.288Z"
+    updated_at: "2026-07-20T15:55:50.768Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0658dc58a0fac4616c9e3123519f6ab1a0cc52fa7ef0a66894398bb7a58538c8
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The tool's core identity is generating a new application scaffold/site from a visual input rather than editing an existing codebase.
+      decision_evidence:
+        - README describes turning screenshots and mockups into functional code
+        - Supports generating multiple stacks including React, Vue, and Tailwind
+        - Included in awesome-ai-coding-tools under App Builders
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the primary user experience centers on generating a new app/site from a prompt-like visual input rather than helping a developer edit an existing repo.
+      review_reason: null
+      review_resume_lifecycle: null

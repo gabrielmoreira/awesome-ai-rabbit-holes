@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Google Antigravity is a Google-developed AI coding tool that presents itself as a new way to build software.
-  why_it_matters: It represents a major platform provider's entry into the prompt-to-code space, offering developers an alternative path for AI-assisted development.
-  mental_damage: Another day, another paradigm shift promising to revolutionize how we build, just in time to make your current stack feel obsolete before lunch.
+  summary: Google Antigravity is a development platform designed for building software using new AI-driven methodologies.
+  why_it_matters: It represents a highly integrated, opinionated approach to development coming directly from Google's internal research and tooling ecosystem.
+  mental_damage: Nothing quite prepares you for the existential dread of a vendor claiming they've solved the fundamental way we construct software.
   tags:
     - google
-    - ai-coding
-    - build-tools
+    - ai-development
+    - workflow
+    - cloud-native
   confidence: low
 curation:
-  status: included
-  reason: It is listed in awesome-ai-coding-tools under Code Editors and Assistants and describes itself as a new way to build, fitting the coding assistant profile.
+  status: excluded
+  reason: The project lacks sufficient substance, documentation, or codebase to determine if it is a standalone agent, a framework, or just a marketing landing page.
   evidence:
-    - Listed in awesome-ai-coding-tools in the 'Code Editors and Assistants' section
-    - "Scraped site title and description: 'Google Antigravity - Build the new way'"
+    - No repository description or README excerpt provided
+    - Scraped site context contains only a vague slogan ('Build the new way') without functional details
+    - Zero technical specifications available to verify developer utility
 placement:
-  primary_category: coding-agents
-  section: IDE-Native Assistants
+  primary_category: null
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -66,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:55.546Z"
+    updated_at: "2026-07-20T15:21:25.810Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d64fc15411b415a61a8841858a6b6d03fbb6c0b05d05ef462e1652cef105825f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks sufficient substance, documentation, or codebase to determine if it is a standalone agent, a framework, or just a marketing landing page.
+      decision_evidence:
+        - No repository description or README excerpt provided
+        - Scraped site context contains only a vague slogan ('Build the new way') without functional details
+        - Zero technical specifications available to verify developer utility
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language technical book covering large language model training algorithms, including reinforcement learning, fine-tuning, and alignment techniques such as RLHF, PPO, and DPO.
-  why_it_matters: It serves as a centralized reference for developers and engineers who need to understand or implement model alignment and training workflows.
-  mental_damage: Yet another dense volume promising to turn you into an alignment expert, ensuring you'll spend more time reading about RLHF than actually shipping a product.
+  summary: "A technical book titled \"Large Model Algorithms: Reinforcement Learning, Fine-tuning, and Alignment\" covering LLM training, SFT, DPO, and RLHF."
+  why_it_matters: Provides deep theoretical and practical grounding on the mathematical and algorithmic mechanics behind modern transformer-based models and alignment techniques.
+  mental_damage: Because apparently, reading the original research papers wasn't enough to help you understand why your model is hallucinating.
   tags:
-    - llm-training
+    - llm
     - reinforcement-learning
     - fine-tuning
-    - alignment
-    - book
+    - rlhf
+    - algorithms
   confidence: high
 curation:
   status: excluded
-  reason: This is a published book and educational resource, not a developer tool, agent, framework, or platform; it lacks executable tooling and falls outside the catalog's product-focused scope.
+  reason: This is an educational book/publication, not a software tool, framework, or developer-facing product.
   evidence:
-    - The URL points to a Douban book page for 《大模型算法：强化学习、微调与对齐》, a 240-page printed publication.
-    - The description and table of contents focus on teaching algorithms and theories rather than providing runnable software or integrations.
-    - It appears in awesome-LLM-resources under a '书籍 Book' section, which is a media/resource list, not a tooling category.
+    - "Product identity is a printed/digital book (ISBN: 9787121500725)"
+    - Content covers theoretical algorithms and mathematical principles rather than providing a usable tool or SDK
+    - Categorized in source-list as a 'Book' for learning
 placement:
   primary_category: null
   section: null
@@ -69,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:50.623Z"
+    updated_at: "2026-07-20T15:28:27.382Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0daa884da7952ec687f687999c902798c906494ac73f6eee0cee083fe2a03961
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational book/publication, not a software tool, framework, or developer-facing product.
+      decision_evidence:
+        - "Product identity is a printed/digital book (ISBN: 9787121500725)"
+        - Content covers theoretical algorithms and mathematical principles rather than providing a usable tool or SDK
+        - Categorized in source-list as a 'Book' for learning
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

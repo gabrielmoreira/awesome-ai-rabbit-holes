@@ -28,6 +28,8 @@ metadata:
     forks: 1
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-06-13T01:15:12Z"
     pushed_at: "2025-10-13T19:16:13Z"
     description: Implementation of all the evals of the swarm evals for the swarm paper.
@@ -72,9 +74,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:32:37.279Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.655Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

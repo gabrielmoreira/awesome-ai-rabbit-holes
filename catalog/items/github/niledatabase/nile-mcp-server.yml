@@ -55,17 +55,19 @@ provenance:
 metadata:
   github:
     stars: 17
-    forks: 11
+    forks: 12
     license: MIT
     archived: false
+    full_name: niledatabase/nile-mcp-server
+    html_url: https://github.com/niledatabase/nile-mcp-server
     created_at: "2025-02-04T07:55:42Z"
     pushed_at: "2025-03-10T22:59:39Z"
     description: MCP server for Nile Database - Manage and query databases, tenants, users, auth using LLMs
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-06T22:45:32.918Z"
+    last_checked_at: "2026-07-20T15:12:04.453Z"
     readme:
-      fetched_at: "2026-05-06T22:45:32.918Z"
+      fetched_at: "2026-07-20T15:12:04.453Z"
       bytes: 16439
 insights:
   summary: An MCP server that lets LLM applications manage and query Nile databases, tenants, and users through the Model Context Protocol.
@@ -99,14 +101,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:32.918Z"
+    updated_at: "2026-07-20T15:12:04.453Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:17:24.915Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

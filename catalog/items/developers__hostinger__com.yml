@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,21 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: The Hostinger API Reference is a documentation page for Hostinger's web services API, not a standalone developer tool or MCP server.
-  why_it_matters: It provides the technical surface for interacting with Hostinger's hosting infrastructure programmatically, which could inform MCP server implementations.
-  mental_damage: We have reached the point where an API documentation page is being cataloged as an 'Official Server' in a curated list of protocol tooling.
+  summary: The API documentation for Hostinger's developer services.
+  why_it_matters: It provides the technical interface definitions required to programmatically interact with Hostinger's hosting environment.
+  mental_damage: Another layer of abstraction to parse before you can even begin wondering why your deployment failed.
   tags:
-    - api-reference
-    - hostinger
+    - api
+    - hosting
     - documentation
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page for the Hostinger API, not a standalone product, MCP server, or developer tool; it is an auxiliary resource rather than usable software.
+  reason: This is a documentation site for a hosting provider's API, not a standalone AI developer tool or framework.
   evidence:
-    - Scraped site context identifies the title as 'Hostinger API Reference', indicating a docs page.
-    - Seen in awesome-mcp-servers as a linked reference page, not as a hosted server or tool repository.
-    - No repo description, README, stars, or code artifacts provided to suggest a shippable tool.
+    - Scraped site context identifies it as 'Hostinger API Reference'
+    - Does not provide an AI-driven development experience or tool
 placement:
   primary_category: null
   section: null
@@ -67,9 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:04.362Z"
+    updated_at: "2026-07-20T15:37:27.438Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c478bf6d12a30ca167629115df2bb6c51e29725287ded355882796154bd873cb
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation site for a hosting provider's API, not a standalone AI developer tool or framework.
+      decision_evidence:
+        - Scraped site context identifies it as 'Hostinger API Reference'
+        - Does not provide an AI-driven development experience or tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

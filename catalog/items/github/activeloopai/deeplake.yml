@@ -27,6 +27,8 @@ metadata:
     forks: 721
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2019-08-09T06:17:59Z"
     pushed_at: "2026-05-21T15:28:00Z"
     description: Deeplake is AI Data Runtime for Agents. It provides serverless postgres with a multimodal datalake, enabling scalable retrieval and training.
@@ -56,23 +58,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:50.347Z"
       bytes: 18290
 insights:
-  summary: Deep Lake is a multimodal AI database and storage format designed for storing vectors, images, text, and other data types with integrations for LLM apps and deep learning training workflows.
-  why_it_matters: It provides developers with a unified, serverless storage layer for managing embeddings, datasets, and vector search across local and cloud environments while integrating with LangChain, LlamaIndex, and PyTorch.
-  mental_damage: Yet another 'database for AI' promising to be the single source of truth for your multimodal mess, because apparently your Postgres instance wasn't confused enough.
+  summary: Deeplake is a serverless multimodal datalake designed for storing, searching, and streaming AI datasets including images, video, and audio.
+  why_it_matters: It provides a unified storage and retrieval layer for diverse data types, bridging the gap between raw data lakes and deep learning training pipelines.
+  mental_damage: Another layer of abstraction to manage in your data pipeline, because apparently, standard S3 isn't enough for your agentic RAG workflows.
   tags:
-    - vector-database
     - multimodal
+    - vector-database
+    - mlops
     - rag
-    - data-infrastructure
-    - llmops
+    - datalake
   confidence: high
 curation:
   status: included
-  reason: This is a code-first storage engine and SDK used by developers to build LLM and ML pipelines, fitting as infrastructure rather than a standalone agent, app builder, or orchestration platform.
+  reason: It is primarily a code-first infrastructure tool that developers import as an SDK to handle data and retrieval for AI applications.
   evidence:
-    - Repo description and README pitch it as a storage format and database for AI with dataloaders and integrations (LangChain, LlamaIndex, PyTorch).
-    - Topics and features emphasize retrieval, RAG, memory, and multimodal data management rather than agent orchestration or coding assistance.
-    - Listed in Awesome-LLMOps under LLMOps, aligning with its role as developer-facing ML/LLM infrastructure.
+    - README describes it as a 'Database for AI' with Python/PyTorch/TensorFlow integrations
+    - Offers storage for embeddings and multimodal data types via a developer SDK
+    - High star count (9210) and active maintenance
 placement:
   primary_category: ai-frameworks
   section: Memory / Retrieval Infrastructure
@@ -92,9 +94,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:35.964Z"
+    updated_at: "2026-07-20T15:57:43.813Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fe6b5e5e8cf990bfddbc13cc38de0d6af3b7af53de6d4f3b8733a005047ed5e0
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is primarily a code-first infrastructure tool that developers import as an SDK to handle data and retrieval for AI applications.
+      decision_evidence:
+        - README describes it as a 'Database for AI' with Python/PyTorch/TensorFlow integrations
+        - Offers storage for embeddings and multimodal data types via a developer SDK
+        - High star count (9210) and active maintenance
+      category_candidates:
+        - ai-frameworks
+        - context-engineering
+      contrastive_reason: Choose ai-frameworks over context-engineering because the product identity is a core storage and retrieval engine/SDK rather than just a specialized context-shaping utility.
+      review_reason: null
+      review_resume_lifecycle: null

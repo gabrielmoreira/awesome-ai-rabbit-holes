@@ -27,6 +27,8 @@ metadata:
     forks: 185
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2023-07-06T14:39:13Z"
     pushed_at: "2025-04-08T06:10:21Z"
     description: Common interface for interacting with AI agents. The protocol is tech stack agnostic - you can use it with any framework for building agents.
@@ -49,26 +51,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:53.622Z"
       bytes: 6389
 insights:
-  summary: A tech-stack agnostic API specification and SDK for defining a common interface to interact with and benchmark AI agents.
-  why_it_matters: It standardizes how developers communicate with heterogeneous agents, lowering the integration cost for building devtools and benchmarks across different frameworks.
-  mental_damage: We have successfully standardized the process of arguing over how to standardize the interface, ensuring the agents can now fail to communicate with each other using OpenAPI specs.
+  summary: An API specification and SDK that provides a common interface for interacting with AI agents regardless of their underlying tech stack.
+  why_it_matters: It aims to solve the fragmentation of agent interfaces, allowing developers to build compatible tools and benchmarks that work across different agent frameworks.
+  mental_damage: Another layer of abstraction to prevent the inevitable chaos of a thousand incompatible agent APIs.
   tags:
-    - agents
-    - protocol
-    - api
-    - sdk
-    - benchmarking
+    - agent-protocol
+    - api-spec
+    - interoperability
+    - agent-sdk
+    - openapi
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is an OpenAPI specification and accompanying SDK that developers import or implement to build interoperable agent systems.
+  reason: The project is primarily a code-first API specification and SDK used by developers to build and standardize their agents.
   evidence:
-    - Repo description states it is a 'Common interface for interacting with AI agents' that is 'tech stack agnostic'.
-    - README defines it as an 'API specification' and provides an SDK and Client library for building/using agents.
-    - Listed in awesome-llm-agents under the 'Frameworks' section, aligning with its code-first building block identity.
+    - Repo description defines it as a 'Common interface for interacting with AI agents'
+    - README specifies it is an 'API specification' with an accompanying SDK and Client
+    - Designed to be imported/implemented as a library within an agent's codebase
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (1461) exceeded threshold (150)
@@ -85,9 +87,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:21.424Z"
+    updated_at: "2026-07-20T16:04:37.960Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4f9f77cca5bda7f2c80790ee2fda4d56e503df44cfd557da5b8a1bf584781398
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The project is primarily a code-first API specification and SDK used by developers to build and standardize their agents.
+      decision_evidence:
+        - Repo description defines it as a 'Common interface for interacting with AI agents'
+        - README specifies it is an 'API specification' with an accompanying SDK and Client
+        - Designed to be imported/implemented as a library within an agent's codebase
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is a code-first SDK and specification rather than an operated runtime or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,27 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Model Context Protocol server providing AI assistants with access to personal finance and investment data.
-  why_it_matters: It allows coding agents to query live financial data, enabling them to build or debug fintech features without leaving the chat interface.
-  mental_damage: Because nothing confirms the singularity quite like wiring your 401(k) data directly into a context window that occasionally hallucinates arithmetic.
-  tags:
-    - mcp
-    - finance
-    - fintech
-    - context-protocol
-  confidence: medium
+  summary: Insufficient information to determine the functionality of copilot.money.
+  why_it_matters: Developers cannot evaluate utility without knowing if this is a tool, a service, or just another parked domain.
+  mental_damage: Just another URL to bookmark for 'later' while your actual codebase sits unrefactored.
+  tags: []
+  confidence: low
 curation:
-  status: included
-  reason: The product is listed in awesome-mcp-servers specifically as a finance domain implementation, fitting the MCP Servers & Tooling category.
+  status: excluded
+  reason: The project lacks a description, README, or any context to determine its utility or identity.
   evidence:
-    - Found in the awesome-mcp-servers list under 'Server Implementations > Finance & Fintech'.
-    - URL copilot.money strongly implies a finance/investment data focus.
+    - No repo description provided
+    - No README content available
+    - No star or traction signals
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -68,9 +67,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:35.653Z"
+    updated_at: "2026-07-20T15:33:52.997Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:56cb216807a8d2c34a163ed99766465ecc7a97ec31fda8bf74223ba2f2f84762
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks a description, README, or any context to determine its utility or identity.
+      decision_evidence:
+        - No repo description provided
+        - No README content available
+        - No star or traction signals
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

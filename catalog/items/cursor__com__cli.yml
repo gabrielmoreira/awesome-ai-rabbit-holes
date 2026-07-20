@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,23 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cursor CLI is a terminal-native AI coding agent that allows developers to plan, build, and ship code using frontier models from a command-line interface, with integrations for IDEs, scripts, and CI/CD workflows.
-  why_it_matters: It brings Cursor's multi-model agent capabilities into headless environments like GitHub Actions and custom scripts, enabling automated coding workflows outside the IDE.
-  mental_damage: Now you can automate your impostor syndrome directly from a curl command in your terminal, neatly removing the last remaining friction between you and a CI pipeline full of AI-generated regressions.
+  summary: A terminal-based interface that brings Cursor's agentic capabilities to any environment via the command line.
+  why_it_matters: It allows developers to run powerful, multi-model agents in CI/CD pipelines, shell scripts, and remote environments where a full IDE isn't available.
+  mental_damage: Now you can watch an agent hallucinate in your terminal instead of just in your IDE.
   tags:
+    - terminal
     - cli
     - coding-agent
-    - terminal
     - automation
     - cursor
   confidence: high
 curation:
   status: included
-  reason: Cursor CLI is a standalone terminal agent that lets developers delegate coding tasks, run headless automation, and integrate with CI, fitting the primary coding assistant definition for the terminal.
+  reason: It is a standalone terminal-native coding agent that plans, searches, and builds code using frontier models.
   evidence:
-    - "Scraped site states: 'Ship code with agents. Right from your terminal.'"
-    - Documented support for headless CLI usage, shell mode, and GitHub Actions integration.
-    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'.
+    - Scraped site confirms it runs agents directly from the terminal
+    - Supports automated CI/CD via GitHub Actions
+    - Provides a terminal-based chat interface for planning and building
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -70,9 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:44.893Z"
+    updated_at: "2026-07-20T15:35:13.206Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d88e595110ce945b7da67437f9df86cfee8b26f908e277825e08b8c02789aab6
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a standalone terminal-native coding agent that plans, searches, and builds code using frontier models.
+      decision_evidence:
+        - Scraped site confirms it runs agents directly from the terminal
+        - Supports automated CI/CD via GitHub Actions
+        - Provides a terminal-based chat interface for planning and building
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because it functions as a primary autonomous agent capable of executing plans and running shell commands, rather than just an augmentation layer for an existing editor.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -28,6 +28,8 @@ metadata:
     forks: 5
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-04-01T07:48:58Z"
     pushed_at: "2025-05-23T11:42:19Z"
     description: MCP server for accessing Dutch World War II archives through the Oorlogsbronnen API. Provides structured access to historical records, photographs, and documents from 1940-1945 Netherlands.
@@ -72,9 +74,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:24:19.780Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

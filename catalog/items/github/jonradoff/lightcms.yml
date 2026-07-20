@@ -39,10 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 22
-    forks: 3
+    stars: 23
+    forks: 4
     license: MIT
     archived: false
+    full_name: jonradoff/lightcms
+    html_url: https://github.com/jonradoff/lightcms
     created_at: "2026-01-23T15:50:11Z"
     pushed_at: "2026-07-07T21:54:09Z"
     description: "Self-hosted CMS that works human or headless: full admin UI plus REST and MCP APIs, built-in semantic search and site chat, and content forking, versioning, diff/merge review, templates, approvals, and static page generation."
@@ -53,9 +55,9 @@ metadata:
       - mcp
       - website-development
       - websites
-    last_checked_at: "2026-07-13T05:13:14.608Z"
+    last_checked_at: "2026-07-20T15:11:26.758Z"
     readme:
-      fetched_at: "2026-07-13T05:13:14.608Z"
+      fetched_at: "2026-07-20T15:11:26.758Z"
       bytes: 66129
 insights:
   summary: A Go-powered content management system that exposes 106 MCP tools, allowing coding agents like Claude Code to programmatically read, write, publish, and bulk-import website content.
@@ -88,14 +90,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:14.608Z"
+    updated_at: "2026-07-20T15:11:26.758Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:04:44.290Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

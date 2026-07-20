@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Avanz.ai is an AI autonomous agent platform for automating development and workflow tasks.
-  why_it_matters: It targets developers looking to delegate autonomous coding and task execution to an agent rather than handling it manually in an IDE.
-  mental_damage: Yet another autonomous agent promising to finally automate the one thing you’re pretty sure will still require a human PR review.
+  summary: An autonomous AI agent designed for complex task execution and workflow automation.
+  why_it_matters: It provides a way to delegate high-level objectives to an agent that can navigate complex digital environments.
+  mental_damage: Another autonomous agent to add to the list of things that might accidentally spend your API budget while trying to 'olve' your problems.
   tags:
-    - autonomous-agents
     - ai-agents
+    - autonomy
     - automation
   confidence: low
 curation:
-  status: included
-  reason: It is listed as an AI autonomous agent in the awesome-ai-agents directory, fitting the coding-agents category as a tool developers delegate repo and workflow tasks to.
+  status: excluded
+  reason: Insufficient information to determine if this is a standalone tool, a framework, or just a collection of agent prompts.
   evidence:
-    - "Listed in awesome-ai-agents under section Avanzai with purpose: A list of AI autonomous agents."
-    - URL points to a standalone product site (https://avanz.ai), not a plugin or extension.
+    - No repo description or README provided
+    - Only mentioned in an 'awesome-ai-agents' directory without specific functional details
 placement:
-  primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  primary_category: null
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -66,9 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:20.731Z"
+    updated_at: "2026-07-20T15:24:17.380Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dc0aa2ae55b548b2a577a67756c32c37c2d3d2fd42821325a5c48fae8a830337
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Insufficient information to determine if this is a standalone tool, a framework, or just a collection of agent prompts.
+      decision_evidence:
+        - No repo description or README provided
+        - Only mentioned in an 'awesome-ai-agents' directory without specific functional details
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

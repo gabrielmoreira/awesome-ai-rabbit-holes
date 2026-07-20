@@ -42,6 +42,8 @@ metadata:
     forks: 5666
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2022-05-04T15:23:02Z"
     pushed_at: "2026-07-20T02:24:14Z"
     description: Build, run, and manage agent platforms.
@@ -57,26 +59,26 @@ metadata:
       fetched_at: "2026-07-20T05:16:53.837Z"
       bytes: 4960
 insights:
-  summary: Agno is a Python SDK and runtime platform for building, serving, and managing AI agents—including coding agents—as production services with sessions, tracing, and a control plane UI.
-  why_it_matters: It lets developers wrap agents from multiple frameworks (including Claude and LangGraph) into a single production-grade FastAPI backend with auth, scheduling, and observability already wired in.
-  mental_damage: Now your agent stack has its own runtime, control plane, and onboarding funnel, because apparently deploying a chatbot wasn't architecturally impressive enough.
+  summary: A framework and runtime for building, running, and managing scalable agent platforms with built-in memory, observability, and security.
+  why_it_matters: It provides the heavy-lifting infrastructure—like storage, task scheduling, and multi-tenant isolation—needed to turn a simple LLM script into a production-ready agent service.
+  mental_damage: Because knowing how to write an agent is easy, but figuring out how to manage its memory, security, and deployment without losing your mind is the real battle.
   tags:
     - agents
     - runtime
-    - production
-    - python
-    - control-plane
+    - orchestration
+    - observability
+    - infrastructure
   confidence: high
 curation:
   status: included
-  reason: Agno is primarily an operated control plane and runtime platform for serving and managing multiple agents, not a coding assistant itself nor a code-first SDK.
+  reason: Agno acts as a comprehensive runtime and control plane for deploying and managing agentic workflows, rather than just a library for coding agents.
   evidence:
-    - README defines Agno as 'the runtime for agentic software' with an SDK, Runtime, and Control Plane layer.
-    - Core workflow is wrapping agents (Claude, LangGraph, DSPy) and serving them via AgentOS with sessions, tracing, scheduling, and RBAC.
-    - Includes a dedicated AgentOS UI (os.agno.com) for chat, inspection, traces, sessions, and system operations.
+    - README describes it as a 'framework and runtime for agent platforms' with a 'AgentOS runtime' and 'AgentOS UI'
+    - Offers production-grade features like JWT-based RBAC, scheduling, and observability
+    - High ecosystem traction with over 41k stars
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (39948) exceeded threshold (150)
@@ -93,9 +95,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:29.076Z"
+    updated_at: "2026-07-20T16:06:07.841Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:510a174503b3c6a5fa497fb6656e9e6827e9576bfabacce2a09a5aeffaa9b405
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: Agno acts as a comprehensive runtime and control plane for deploying and managing agentic workflows, rather than just a library for coding agents.
+      decision_evidence:
+        - README describes it as a 'framework and runtime for agent platforms' with a 'AgentOS runtime' and 'AgentOS UI'
+        - Offers production-grade features like JWT-based RBAC, scheduling, and observability
+        - High ecosystem traction with over 41k stars
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product identity centers on being a managed runtime and control plane (AgentOS) that handles deployment and observability, not just a code-first SDK.
+      review_reason: null
+      review_resume_lifecycle: null

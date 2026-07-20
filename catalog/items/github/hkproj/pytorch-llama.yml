@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 372
-    forks: 73
+    stars: 374
+    forks: 74
     license: MIT
     archived: false
+    full_name: hkproj/pytorch-llama
+    html_url: https://github.com/hkproj/pytorch-llama
     created_at: "2023-08-16T09:58:12Z"
     pushed_at: "2023-09-25T23:39:12Z"
     description: LLaMA 2 implemented from scratch in PyTorch
@@ -37,9 +39,9 @@ metadata:
       - llama2
       - paper-implementations
       - pytorch
-    last_checked_at: "2026-07-13T05:13:01.104Z"
+    last_checked_at: "2026-07-20T15:11:03.054Z"
     readme:
-      fetched_at: "2026-07-13T05:13:01.104Z"
+      fetched_at: "2026-07-20T15:11:03.054Z"
       bytes: 60
 insights:
   summary: A from-scratch PyTorch implementation of the LLaMA 2 architecture intended for educational purposes.
@@ -72,14 +74,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:01.104Z"
+    updated_at: "2026-07-20T15:11:03.054Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:19.298Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

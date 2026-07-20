@@ -27,6 +27,8 @@ metadata:
     forks: 729
     license: AGPL-3.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-06-27T13:05:27Z"
     pushed_at: "2025-01-03T02:00:20Z"
     description: A Comprehensive Toolkit for High-Quality PDF Content Extraction
@@ -72,9 +74,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:19:34.567Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

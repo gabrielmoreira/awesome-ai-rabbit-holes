@@ -28,6 +28,8 @@ metadata:
     forks: 1
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-04-11T22:36:09Z"
     pushed_at: "2026-07-12T04:23:31Z"
     description: MCP server connecting Claude to Metabase for natural language data analysis, dashboard management, and SQL queries
@@ -46,23 +48,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:47.099Z"
       bytes: 20129
 insights:
-  summary: An MCP server for Metabase that enables Claude to perform read/write operations, natural language queries, and AI-generated insights on Metabase instances older than v0.60.
-  why_it_matters: Developers can let Claude create dashboards, run SQL, and analyze data trends directly in Metabase without waiting for or upgrading to the official v0.60+ release.
-  mental_damage: The ecosystem now requires a third-party MCP server to replicate features the official maintainer deliberately left out of their own protocol integration.
+  summary: A headless MCP server that connects AI agents to Metabase via API-key authentication.
+  why_it_matters: It enables autonomous agents and CI pipelines to perform data analysis and dashboard management in environments where OAuth browser flows are impossible.
+  mental_damage: Because apparently, having a dashboard is not enough; now you need an agent that can perform batch SQL operations on your behalf while you sleep.
   tags:
     - mcp
     - metabase
-    - claude
     - data-analysis
     - sql
+    - headless
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server that extends Claude's capabilities specifically for Metabase, fitting the MCP Servers & Tooling category as a domain-specific server.
+  reason: The tool's primary identity is a specialized MCP server designed to bridge a specific data platform with LLM clients.
   evidence:
-    - Repo description explicitly states 'MCP server connecting Claude to Metabase'
-    - Seen in awesome-mcp-servers list under 'Data Platforms' section
-    - Provides 30 MCP tools for Metabase read/write operations, NLQ, and insights
+    - README describes it as a 'headless, AI-augmented MCP server for Metabase'
+    - Provides specialized MCP tools for batch execution and workflow pipelines
+    - Solves specific authentication and capability gaps in the official Metabase MCP
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -82,9 +84,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:32.555Z"
+    updated_at: "2026-07-20T15:48:33.168Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3017507d5dabdb2064a16e946c5cb305f18ebad9ab117271c36f22fba9731796
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is a specialized MCP server designed to bridge a specific data platform with LLM clients.
+      decision_evidence:
+        - README describes it as a 'headless, AI-augmented MCP server for Metabase'
+        - Provides specialized MCP tools for batch execution and workflow pipelines
+        - Solves specific authentication and capability gaps in the official Metabase MCP
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is providing a protocol-compliant server interface rather than acting as an integration layer for an existing editor.
+      review_reason: null
+      review_resume_lifecycle: null

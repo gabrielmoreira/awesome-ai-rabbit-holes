@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An invitation-only Discord server serving as the community hub for CrewAI users and contributors.
-  why_it_matters: The Discord provides a centralized place for developers to discuss multi-agent orchestration patterns, share workflows, and get support for the CrewAI framework.
-  mental_damage: Yet another exclusive Discord invite link masquerading as a tool in an awesome list, ensuring you can only experience the FOMO if you successfully click the blue button.
+  summary: The community Discord server for CrewAI, a framework designed for orchestrating role-playing, autonomous AI agents.
+  why_it_matters: It provides a space for developers to discuss implementation details and community support while building multi-agent orchestration workflows.
+  mental_damage: Another community to join while you wait for your multi-agent swarm to figure out how to write a simple Python script.
   tags:
     - community
-    - discord
-    - multi-agent
     - crewai
+    - multi-agent
+    - orchestration
+    - discord
   confidence: high
 curation:
-  status: excluded
-  reason: This is a Discord invite link to a community chat server, not a standalone developer tool, framework, or product, and therefore falls outside the catalog's scope.
+  status: included
+  reason: This is a community discussion hub/directory for an existing orchestration framework rather than a standalone tool or framework itself.
   evidence:
-    - URL points to discord.com/invite/X4JWnZnxPb rather than a tool, repo, or product page.
-    - Source-list context confirms it is 'The community discord for CrewAI' with 7622 members.
-    - No repo description, README, code, or scraped product content exists beyond the community server description.
+    - Scraped site context identifies it as 'The community discord for CrewAI'
+    - Included in awesome-local-ai as a community resource for CrewAI
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:15.391Z"
+    updated_at: "2026-07-20T15:38:57.684Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:935fce6dcd057610b1fa2168ea1a53d698b847ee45fd3e13cfd53c6d54132c6c
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a community discussion hub/directory for an existing orchestration framework rather than a standalone tool or framework itself.
+      decision_evidence:
+        - Scraped site context identifies it as 'The community discord for CrewAI'
+        - Included in awesome-local-ai as a community resource for CrewAI
+      category_candidates:
+        - awesome-awesomes
+        - agent-orchestration
+      contrastive_reason: Choose awesome-awesomes over agent-orchestration because this is a community discussion forum for a framework, not the orchestration engine itself.
+      review_reason: null
+      review_resume_lifecycle: null

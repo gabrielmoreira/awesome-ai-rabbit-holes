@@ -27,6 +27,8 @@ metadata:
     forks: 66
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-06-04T15:34:14Z"
     pushed_at: "2026-04-27T15:56:17Z"
     description: RAI is a vendor agnostic agentic framework for Physical AI robotics, utilizing ROS 2 tools to perform complex actions, defined scenarios, free interface execution, log summaries, voice interaction and more.
@@ -88,9 +90,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:25:58.695Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

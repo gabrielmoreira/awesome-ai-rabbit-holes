@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A documentation page explaining how to integrate E2B sandboxes with OpenAI's API for code execution.
-  why_it_matters: It shows developers how to add secure, isolated code execution environments to OpenAI-powered applications.
-  mental_damage: Yet another reminder that wiring up a sandbox to a foundational model is now considered a 'platform integration' rather than a terrifying security liability.
+  summary: Documentation for OpenAI's Assistants API within the E2B sandbox environment.
+  why_it_matters: Provides the technical implementation details for running OpenAI Assistants within secure, sandboxed code execution environments.
+  mental_damage: Another layer of abstraction to debug when your agent's code execution fails in a sandbox.
   tags:
     - openai
-    - sandbox
-    - docs
-    - e2b
-    - integration
+    - sandboxing
+    - code-execution
+    - assistants-api
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page for integrating E2B with OpenAI, not a standalone developer tool, agent, or product.
+  reason: This is a documentation page for a specific integration rather than a standalone developer tool or framework.
   evidence:
-    - URL points to e2b.dev/docs/llm-platforms/openai, indicating a documentation page rather than a standalone project.
-    - No repo description, stars, or code artifacts provided; only a link to a guide.
-    - Appears in awesome-ai-agents as an AI app with sandbox integration, but the item itself is a configuration/doc page, not a product.
+    - URL points to /docs/llm-platforms/openai
+    - Content is documentation for a specific provider/integration
 placement:
   primary_category: null
   section: null
@@ -70,9 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:49.914Z"
+    updated_at: "2026-07-20T15:42:32.020Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e0d41f703a604b5e60551d9079c26093d5386c1391fe6e2ed127eaa1a73338ac
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation page for a specific integration rather than a standalone developer tool or framework.
+      decision_evidence:
+        - URL points to /docs/llm-platforms/openai
+        - Content is documentation for a specific provider/integration
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

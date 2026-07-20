@@ -41,6 +41,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -49,26 +51,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Factory is an enterprise platform that provides AI coding agents called Droids to automate coding, testing, and deployment tasks across IDEs, CLI, web, Slack, and project management tools.
-  why_it_matters: It allows teams to delegate entire development tasks like refactors and incident response directly from their existing workflow without switching tools or models.
-  mental_damage: "Just what every engineering manager dreams of: a $1.5B-valuation swarm of Droids waiting to argue with you in Slack about your own backlog."
+  summary: An AI-native platform that automates software development life cycle (SDLC) tasks including coding, testing, and deployment.
+  why_it_matters: It targets the full development loop—from code generation to deployment—aiming to automate entire engineering workflows rather than just writing lines of code.
+  mental_damage: Finally, an automated system to replace the human stress of manual deployment and testing with the optimized stress of managing autonomous droids.
   tags:
     - coding-agents
-    - enterprise
-    - automation
-    - ci-cd
-    - multi-platform
-  confidence: high
+    - sdlc-automation
+    - enterprise-ai
+    - ai-engineering
+  confidence: medium
 curation:
   status: included
-  reason: Factory is a primary coding assistant platform (Droids) that developers delegate repo work to across multiple surfaces, fitting the core definition of a coding agent over an extension.
+  reason: The product identity is a standalone agent-driven system designed to handle complex, multi-stage engineering tasks across the SDLC.
   evidence:
-    - Product description states 'Factory Droids automate coding, testing, and deployment' across IDE, CLI, and Slack.
-    - Platform claims to be 'the only software development agents that work everywhere you do' from IDE to CI/CD.
-    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
+    - Claims to automate coding, testing, and deployment via 'Droids'
+    - Focuses on 'Agent-Native Software Development' across the entire SDLC
+    - Positioned as a replacement/augmentation for the full development cycle
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
@@ -84,9 +85,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:00.341Z"
+    updated_at: "2026-07-20T15:44:19.588Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4c4053b6005fb7204fbc04109276a2ea7921cef4eec2241a8d2095ee08c5b56a
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The product identity is a standalone agent-driven system designed to handle complex, multi-stage engineering tasks across the SDLC.
+      decision_evidence:
+        - Claims to automate coding, testing, and deployment via 'Droids'
+        - Focuses on 'Agent-Native Software Development' across the entire SDLC
+        - Positioned as a replacement/augmentation for the full development cycle
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the product's primary value is the autonomous execution of engineering tasks (coding/testing/deployment) rather than being a generic workbench for coordinating disparate agents.
+      review_reason: null
+      review_resume_lifecycle: null

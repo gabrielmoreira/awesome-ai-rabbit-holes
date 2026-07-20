@@ -39,10 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6889
+    stars: 6892
     forks: 685
     license: Apache-2.0
     archived: false
+    full_name: InternLM/MindSearch
+    html_url: https://github.com/InternLM/MindSearch
     created_at: "2024-07-28T03:54:50Z"
     pushed_at: "2025-07-04T10:06:45Z"
     description: 🔍 An LLM-based Multi-agent Framework of Web Search Engine (like Perplexity.ai Pro and SearchGPT)
@@ -58,9 +60,9 @@ metadata:
       - searchgpt
       - transformer
       - web-search
-    last_checked_at: "2026-07-13T05:13:07.315Z"
+    last_checked_at: "2026-07-20T15:11:14.017Z"
     readme:
-      fetched_at: "2026-07-13T05:13:07.315Z"
+      fetched_at: "2026-07-20T15:11:14.017Z"
       bytes: 5120
 insights:
   summary: MindSearch is an open-source, multi-agent framework that mimics human search behavior to perform deep web research using LLMs and various search engine APIs.
@@ -94,14 +96,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:07.315Z"
+    updated_at: "2026-07-20T15:11:14.017Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:02:27.694Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -24,17 +24,19 @@ provenance:
 metadata:
   github:
     stars: 1680
-    forks: 146
+    forks: 145
     license: Apache-2.0
     archived: false
+    full_name: LeapLabTHU/cooragent
+    html_url: https://github.com/LeapLabTHU/cooragent
     created_at: "2025-04-11T14:59:45Z"
     pushed_at: "2026-04-29T03:51:31Z"
     description: Official Repository of Cooragent.
     homepage: ""
     topics: []
-    last_checked_at: "2026-07-13T05:13:26.423Z"
+    last_checked_at: "2026-07-20T15:11:47.857Z"
     readme:
-      fetched_at: "2026-07-13T05:13:26.423Z"
+      fetched_at: "2026-07-20T15:11:47.857Z"
       bytes: 11106
 insights:
   summary: Cooragent is a Python-based AI agent collaboration platform and CLI that generates agents from natural language and coordinates multi-agent workflows for complex task execution.
@@ -68,14 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:26.423Z"
+    updated_at: "2026-07-20T15:11:47.857Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:09:04.155Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

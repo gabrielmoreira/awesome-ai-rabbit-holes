@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Amazon Q Developer's command-line tooling has been sunset and migrated into the Kiro CLI, replacing the standalone terminal assistant.
-  why_it_matters: Developers looking for AI-powered CLI assistance need to know the Q CLI is no longer the active target and should onboard with Kiro instead.
-  mental_damage: You finally embraced an AWS AI CLI just in time to learn that 'generally available' now means 'please migrate before the docs rot.'
+  summary: Amazon Q Developer for command line is an AI-powered terminal enhancement providing command autocompletion, natural language chat, and code generation for various CLIs.
+  why_it_matters: It integrates generative AI directly into the shell workflow to reduce the mental overhead of remembering complex CLI flags and syntax.
+  mental_damage: Another layer of magic between your fingers and the shell, ensuring you'll never have to actually read a man page again.
   tags:
     - cli
-    - amazon-q
-    - sunset
     - terminal
+    - autocomplete
+    - productivity
+    - aws
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page announcing the migration and shutdown of a product, not a standalone tool or active product to include in the catalog.
+  reason: The input is a documentation page for a specific feature of a broader cloud service, rather than a standalone developer tool or product.
   evidence:
-    - The page explicitly states 'The Q CLI has become the Kiro CLI' and redirects to the Kiro User Guide.
-    - The URL is a documentation page (docs.aws.amazon.com) rather than a product repo or installable tool.
-    - No active product exists here to evaluate; the entity is a redirect notice, not a CLI agent.
+    - Input is a documentation URL (docs.aws.amazon.com) rather than a code repository or product page
+    - Content describes a single feature of the existing Amazon Q Developer ecosystem
+    - Provides auxiliary documentation rather than a discrete tool for the catalog
 placement:
   primary_category: null
   section: null
@@ -68,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:21.090Z"
+    updated_at: "2026-07-20T15:39:14.543Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:97ecca9b420d873e911aed097edc1c0066fac11ebe95fae9738e0a959d5dcc3f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a documentation page for a specific feature of a broader cloud service, rather than a standalone developer tool or product.
+      decision_evidence:
+        - Input is a documentation URL (docs.aws.amazon.com) rather than a code repository or product page
+        - Content describes a single feature of the existing Amazon Q Developer ecosystem
+        - Provides auxiliary documentation rather than a discrete tool for the catalog
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -27,6 +27,8 @@ metadata:
     forks: 9
     license: Apache-2.0
     archived: false
+    full_name: IDEA-Research/DINO-X-MCP
+    html_url: https://github.com/IDEA-Research/DINO-X-MCP
     created_at: "2025-06-04T09:04:21Z"
     pushed_at: "2026-06-17T07:43:06Z"
     description: Official DINO-X Model Context Protocol (MCP) server that empowers LLMs with real-world visual perception through image object detection, localization, and captioning APIs.
@@ -37,9 +39,9 @@ metadata:
       - mcp-server
       - object-detection
       - pose-estimation
-    last_checked_at: "2026-07-13T05:13:04.721Z"
+    last_checked_at: "2026-07-20T15:11:09.662Z"
     readme:
-      fetched_at: "2026-07-13T05:13:04.721Z"
+      fetched_at: "2026-07-20T15:11:09.662Z"
       bytes: 9148
 insights:
   summary: An official MCP server that exposes DINO-X vision APIs to LLMs, enabling object detection, localization, and image captioning inside MCP-compatible clients like Cursor and Windsurf.
@@ -73,14 +75,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:04.721Z"
+    updated_at: "2026-07-20T15:11:09.662Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:01:36.791Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

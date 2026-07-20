@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 58
+    stars: 59
     forks: 5
     license: MIT
     archived: false
+    full_name: iiAtlas/hledger-mcp
+    html_url: https://github.com/iiAtlas/hledger-mcp
     created_at: "2025-09-22T18:05:15Z"
     pushed_at: "2026-02-28T18:51:46Z"
     description: A local MCP server for interacting with the HLedger cli
@@ -36,9 +38,9 @@ metadata:
       - hledger
       - mcp
       - plaintext-accounting
-    last_checked_at: "2026-07-13T05:13:05.127Z"
+    last_checked_at: "2026-07-20T15:11:10.393Z"
     readme:
-      fetched_at: "2026-07-13T05:13:05.127Z"
+      fetched_at: "2026-07-20T15:11:10.393Z"
       bytes: 13706
 insights:
   summary: A local MCP server that exposes HLedger CLI functionality, allowing AI assistants to query balances, generate financial reports, and manage journal entries via the Model Context Protocol.
@@ -72,14 +74,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:05.127Z"
+    updated_at: "2026-07-20T15:11:10.393Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:01:44.674Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

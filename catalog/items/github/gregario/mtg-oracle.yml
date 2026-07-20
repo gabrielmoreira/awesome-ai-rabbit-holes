@@ -28,14 +28,16 @@ metadata:
     forks: 2
     license: MIT
     archived: false
+    full_name: gregario/mtg-oracle
+    html_url: https://github.com/gregario/mtg-oracle
     created_at: "2026-03-15T14:39:27Z"
     pushed_at: "2026-05-02T20:58:05Z"
     description: "Magic: The Gathering MCP server with card search, rules lookup, deck analysis, and Commander intelligence"
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:12:56.776Z"
+    last_checked_at: "2026-07-20T15:10:55.377Z"
     readme:
-      fetched_at: "2026-07-13T05:12:56.776Z"
+      fetched_at: "2026-07-20T15:10:55.377Z"
       bytes: 5109
 insights:
   summary: "An MCP server that provides Magic: The Gathering card search, rules lookup, deck analysis, and Commander intelligence by serving local Scryfall and rules data to AI assistants."
@@ -68,14 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:12:56.776Z"
+    updated_at: "2026-07-20T15:10:55.377Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:58:57.360Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

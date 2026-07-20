@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AGI-Eval is a Chinese-language evaluation platform and resource hub focused on benchmarking and assessing artificial general intelligence and LLM capabilities.
-  why_it_matters: It provides developers and researchers with benchmarks and curated resources to measure model progress beyond standard coding tasks.
-  mental_damage: Yet another evaluation framework to help us quantify exactly how far we are from the AGI finish line while we still can't get a linter to pass on the first try.
+  summary: A resource directory providing curated collections of LLM materials, including multi-modal generation, agents, and evaluation frameworks.
+  why_it_matters: It serves as a centralized starting point for navigating the massive influx of LLM-related research and tooling.
+  mental_damage: Because why spend ten minutes searching GitHub when you can spend three hours browsing an endless list of links that also lead to GitHub?
   tags:
-    - evals
-    - benchmarks
     - llm-resources
-    - agi
+    - curated-list
+    - ai-research
+    - agent-resources
+    - evaluations
   confidence: medium
 curation:
-  status: excluded
-  reason: Excluded because the linked page is an evaluation resource hub and directory rather than a standalone developer tool, framework, or coding utility within the catalog's scope.
+  status: included
+  reason: The project is a curated directory of LLM resources rather than a functional development tool.
   evidence:
-    - Source-list context places it under '评估 Evaluation' in a broad LLM resources list (awesome-LLM-resources).
-    - The site title is 'AGI-Eval' with no description or README indicating a usable developer product.
-    - No repo description, stars, or code artifacts provided; it reads as a resource page rather than a tool.
+    - Source-list context identifies it as a 'Summary of the world's best LLM resources'
+    - Scraped site context refers to the project as 'AGI-Eval'
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:26.591Z"
+    updated_at: "2026-07-20T15:18:05.138Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:071fba2d367209c93c60c6f00f49fc1b0dc4401f112fbb1d137b4512c9150ae4
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The project is a curated directory of LLM resources rather than a functional development tool.
+      decision_evidence:
+        - Source-list context identifies it as a 'Summary of the world's best LLM resources'
+        - Scraped site context refers to the project as 'AGI-Eval'
+      category_candidates:
+        - awesome-awesomes
+        - evals
+      contrastive_reason: Choose awesome-awesomes over evals because the tool is a directory of resources rather than an active benchmarking framework.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -43,6 +43,8 @@ metadata:
     forks: 412
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-04-23T11:28:18Z"
     pushed_at: "2026-07-17T08:57:39Z"
     description: "agentUniverse is a LLM multi-agent framework that allows developers to easily build multi-agent applications. "
@@ -62,23 +64,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:53.473Z"
       bytes: 18272
 insights:
-  summary: agentUniverse is a Python framework for building multi-agent applications using large language models, featuring predefined collaborative patterns like PEER and DOE.
-  why_it_matters: It provides developers with a structured way to implement domain-specific multi-agent collaboration patterns, complete with configurable LLM integration for various vendors.
-  mental_damage: Just when you thought 'agentic orchestration' had enough frameworks, AntGroup drops another one that promises domain expertise but mostly guarantees you'll spend three days configuring YAML files for agents that argue about financial reports.
+  summary: A multi-agent framework designed for building complex, domain-expert applications through collaborative patterns.
+  why_it_matters: It provides structured collaborative patterns like PEER and DOE to help developers move beyond simple single-prompt LLM interactions to complex, reasoning-heavy multi-agent workflows.
+  mental_damage: Now you have to decide if your problem requires a simple script or a whole committee of specialized digital workers that might just argue with each other indefinitely.
   tags:
     - multi-agent
     - framework
     - python
     - llm
-    - antgroup
+    - automation
   confidence: high
 curation:
   status: included
-  reason: The product is a code-first Python library used to build multi-agent systems via imports and configuration, aligning with the Frameworks & SDKs identity rather than an operated workbench.
+  reason: It is a code-first Python framework that developers import to build multi-agent applications rather than an operated control plane or a standalone assistant.
   evidence:
-    - Repo description explicitly states it is a 'LLM multi-agent framework' for building applications.
-    - README describes it as a 'multi-agent framework' with Python 3.10+ support and PyPI packaging (v0.0.19).
-    - Source lists categorize it under 'Core Frameworks > Multi-Agent Orchestration Frameworks' and '智能体 Agents'.
+    - Repo description identifies it as a 'ulti-agent framework'
+    - README specifies it is a Python library used to build individual agents and collaborative patterns
+    - Provides reusable pattern components like PEER and DOE for developers to implement in code
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -98,9 +100,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:19:21.317Z"
+    updated_at: "2026-07-20T16:04:54.954Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7b9f542535ba7c1ee94f36c87688993a3cf2139e2fd35742847a16684ab405ae
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first Python framework that developers import to build multi-agent applications rather than an operated control plane or a standalone assistant.
+      decision_evidence:
+        - Repo description identifies it as a 'ulti-agent framework'
+        - README specifies it is a Python library used to build individual agents and collaborative patterns
+        - Provides reusable pattern components like PEER and DOE for developers to implement in code
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers primarily interact with it as a code-first library/SDK to build their own logic rather than using an operated workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

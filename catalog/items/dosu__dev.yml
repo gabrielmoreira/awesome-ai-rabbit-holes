@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Dosu is a knowledge infrastructure platform that captures context from coding agent sessions, documentation, and chat tools to build a shared team memory and maintain documentation automatically.
-  why_it_matters: It reduces token usage and increases consistency by giving coding agents access to automatically maintained team knowledge instead of forcing them to re-prompt for context.
-  mental_damage: We have successfully reached the point where we need a platform to document what our AI agents learned so the next AI agent doesn't bother us with the same questions.
+  summary: Dosu is a knowledge infrastructure layer that automatically captures and syncs team documentation to reduce token usage and improve agent performance.
+  why_it_matters: It aims to solve the problem of stale context by automatically maintaining project documentation (like AGENTS.md) through real-time observation of agent sessions and communication tools.
+  mental_damage: Finally, an automated way to ensure your agent's hallucination-inducing context window is filled with actual, up-to-date project truth.
   tags:
-    - memory
     - mcp
-    - context
+    - knowledge-base
+    - agent-infrastructure
     - documentation
-    - knowledge-management
+    - context-management
   confidence: high
 curation:
   status: included
-  reason: Dosu's core novelty is automatic knowledge capture and context infrastructure for agents, making it a memory and context system rather than a primary coding assistant or generic platform.
+  reason: The core value proposition is providing automated, fresh context and memory to agents via an MCP server to optimize token usage.
   evidence:
-    - Dosu's MCP Server 'builds team-wide memory in the background during every coding agent session'
-    - Claims 'automatic knowledge capture gives your team shared context and improves agent performance'
-    - Maintains living documentation including AGENTS.md and CLAUDE.md automatically from agent sessions
+    - Claims to reduce token costs by 50% via optimized context
+    - Uses an MCP server to provide consistent, token-efficient context to agents
+    - Automatically maintains documentation like AGENTS.md and CLAUDE.md
 placement:
   primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:46.778Z"
+    updated_at: "2026-07-20T15:42:23.212Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a4d16436baba67305ed0fa8d8363f6e207de7d638b7ef50e3a5299ef06fd67a8
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core value proposition is providing automated, fresh context and memory to agents via an MCP server to optimize token usage.
+      decision_evidence:
+        - Claims to reduce token costs by 50% via optimized context
+        - Uses an MCP server to provide consistent, token-efficient context to agents
+        - Automatically maintains documentation like AGENTS.md and CLAUDE.md
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because while it uses MCP as a delivery mechanism, its primary identity is the automated generation and management of high-quality context/memory.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Binary Ninja is a commercial, interactive reverse engineering platform combining a disassembler, decompiler, debugger, and binary analysis tool with scripting support for C++, Python, and Rust.
-  why_it_matters: It provides a scriptable environment for deep binary analysis and includes optional AI-assisted features to accelerate reverse engineering workflows.
-  mental_damage: Now you can add 'evaluating AI decompiler output for subtle instruction translation bugs' to the list of things you didn't have time to do before.
+  summary: Binary Ninja is an interactive decompiler, disassembler, debugger, and binary analysis platform.
+  why_it_matters: It provides scriptable reverse engineering capabilities and AI-assisted analysis to accelerate deep binary inspection and automation.
+  mental_damage: Nothing says 'I've lost control of my codebase' quite like having to reverse engineer it with an AI-powered decompiler.
   tags:
     - reverse-engineering
     - decompiler
+    - debugger
     - binary-analysis
-    - security
+    - disassembler
   confidence: high
 curation:
   status: excluded
-  reason: Binary Ninja is a traditional reverse engineering and security analysis platform; its AI features are secondary accelerators, and it lacks the MCP server identity required for inclusion via the awesome-mcp-servers list.
+  reason: Binary Ninja is a specialized professional reverse engineering tool rather than a developer-facing AI coding assistant, IDE, or workflow agent.
   evidence:
-    - The scraped site describes it as a 'modern reverse engineering platform with a scriptable and extensible decompiler', not an MCP tool.
-    - The source list entry in awesome-mcp-servers merely references the tool, but the product itself is a standalone binary analysis suite, not MCP infrastructure.
-    - The primary workflow is reverse engineering and debugging binaries, which falls outside the catalog's focus on AI coding agents, app builders, and developer AI infrastructure.
+    - Core identity is a disassembler and decompiler for binary analysis
+    - Product focus is on reverse engineering, not repo-scale application development
+    - AI features are described as 'accelerating analysis' rather than being the primary coding interface
 placement:
   primary_category: null
   section: null
@@ -68,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:39.793Z"
+    updated_at: "2026-07-20T15:26:28.221Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2241e0030d3eae6ac1f1bf40bd82398552913e51f4ac99eb3cf8d54ae536e763
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Binary Ninja is a specialized professional reverse engineering tool rather than a developer-facing AI coding assistant, IDE, or workflow agent.
+      decision_evidence:
+        - Core identity is a disassembler and decompiler for binary analysis
+        - Product focus is on reverse engineering, not repo-scale application development
+        - AI features are described as 'accelerating analysis' rather than being the primary coding interface
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

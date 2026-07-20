@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,22 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Crafty Controller is a free, open-source, cross-platform web interface for managing and administering Minecraft servers.
-  why_it_matters: It provides a self-hosted control panel to handle server creation, file editing, backups, and player management without needing deep command-line expertise.
-  mental_damage: Another self-hosted control panel enters the ring, promising to organize your local infrastructure so you can spend more time debugging why your Minecraft server still crashes than actually playing the game.
+  summary: A cross-platform web-based management panel for hosting and administering Minecraft servers.
+  why_it_matters: It provides a centralized, self-hosted interface for managing multiple server instances, files, and player permissions.
+  mental_damage: Now you can debug server configurations from a browser instead of a terminal, because apparently, SSH was too much effort.
   tags:
     - minecraft
-    - server-manager
+    - server-management
     - self-hosted
-    - gaming
+    - game-infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: This is a game server management panel for Minecraft with no AI capabilities, developer tooling angle, or coding workflow integration.
+  reason: The tool is a game server management utility and has no relation to AI development, coding assistants, or developer-facing AI infrastructure.
   evidence:
-    - The scraped site describes it as a 'Minecraft server controller' and 'launcher and manager' with no mention of AI.
-    - The awesome-mcp-servers listing places it under 'Gaming', implying an MCP adapter exists, but the core product itself is a game admin tool.
-    - The description and excerpts focus entirely on managing jar files, server settings, and backups for Minecraft, not software development.
+    - Product is a Minecraft server controller
+    - Primary function is managing game server files, players, and backups
+    - No mention of AI, LLMs, or developer tooling
 placement:
   primary_category: null
   section: null
@@ -69,9 +71,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:36.754Z"
+    updated_at: "2026-07-20T15:34:20.582Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dcba217849698d79fdb6b16315091514afb3766bdb0a391c1d8be70422e9b315
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a game server management utility and has no relation to AI development, coding assistants, or developer-facing AI infrastructure.
+      decision_evidence:
+        - Product is a Minecraft server controller
+        - Primary function is managing game server files, players, and backups
+        - No mention of AI, LLMs, or developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

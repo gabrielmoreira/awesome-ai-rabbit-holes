@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Amazon Q Developer is an AWS-native AI coding assistant that provides code generation, debugging, refactoring, and agentic task execution across IDEs, CLI, and the AWS console.
-  why_it_matters: It integrates deeply with AWS ecosystems to accelerate the full development lifecycle, from feature implementation and testing to Java upgrades and cloud resource optimization.
-  mental_damage: Yet another AI assistant promising to refactor your legacy Java apps, provided you're willing to entrust your enterprise cloud credentials to the most capable assistant Amazon could train on your billing data.
+  summary: An AI-powered coding assistant by AWS that provides code suggestions, chat, and agentic capabilities for software development tasks.
+  why_it_matters: It provides deep integration with AWS services and agentic capabilities for automating complex tasks like refactoring and software upgrades.
+  mental_damage: Because nothing says 'developer productivity' quite like delegating your entire software upgrade path to an AWS agent.
   tags:
     - aws
-    - ide
-    - cli
-    - agentic
-    - java-upgrades
+    - ide-extension
+    - coding-assistant
+    - agentic-workflows
+    - cloud-integration
   confidence: high
 curation:
   status: included
-  reason: Amazon Q Developer is a primary coding assistant used directly by developers across IDEs, CLI, and AWS surfaces to write, debug, and refactor code.
+  reason: It functions as a standalone coding assistant with agentic capabilities that can read, write, and execute tasks, though it is primarily used via IDE extensions.
   evidence:
-    - Described as 'the most capable generative AI–powered assistant for software development' with agentic capabilities for features, testing, and refactoring.
-    - Provides native plugins for JetBrains, VS Code, Visual Studio, Eclipse, and CLI with inline code suggestions and chat.
-    - Included in awesome-ai-coding-tools under 'Code Completion' as a dedicated AI coding assistant.
+    - Claims agentic capabilities for implementing features, documenting, testing, and refactoring code.
+    - Available as plugins for JetBrains, VS Code, and Visual Studio.
+    - Directly performs multi-step tasks like.NET porting and Java upgrades.
 placement:
   primary_category: coding-agents
-  section: IDE-Native Assistants
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:33.366Z"
+    updated_at: "2026-07-20T15:25:30.114Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e39ea7c5dec50f4a3248c765a3c16d763d986d884d8a0ac5bd32aa32c8d8737a
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It functions as a standalone coding assistant with agentic capabilities that can read, write, and execute tasks, though it is primarily used via IDE extensions.
+      decision_evidence:
+        - Claims agentic capabilities for implementing features, documenting, testing, and refactoring code.
+        - Available as plugins for JetBrains, VS Code, and Visual Studio.
+        - Directly performs multi-step tasks like.NET porting and Java upgrades.
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because its core value proposition is the agentic ability to autonomously plan and execute complex, multi-step development tasks rather than just being a thin UI augmentation.
+      review_reason: null
+      review_resume_lifecycle: null

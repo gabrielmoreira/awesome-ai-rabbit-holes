@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,22 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Baozi is a prediction market platform on Solana for trading on crypto, sports, politics, and culture using SOL.
-  why_it_matters: It provides a live market environment for developers building Solana-based prediction market integrations or arbitrage tooling.
-  mental_damage: Yet another reminder that while we're debugging context windows, someone else is tokenizing the 2028 election on a Layer 1 blockchain.
+  summary: A prediction market platform on Solana for trading outcomes on crypto, sports, politics, and culture.
+  why_it_matters: It is currently listed in an MCP server directory, though it functions as a consumer fintech application rather than a developer tool.
+  mental_damage: Another way to lose SOL while trying to architect the perfect agentic workflow.
   tags:
-    - solana
     - prediction-markets
-    - finance
+    - solana
+    - fintech
     - crypto
   confidence: high
 curation:
   status: excluded
-  reason: This is a consumer-facing prediction market platform on Solana, not a developer tool, agent, framework, or AI infrastructure component.
+  reason: The product is a consumer-facing betting/fintech application, not a developer tool, framework, or infrastructure component.
   evidence:
-    - Scraped site title and description describe a trading platform for prediction markets on Solana.
-    - No repo description, README, or tooling context indicating developer-facing AI or coding utility.
-    - Source-list context places it in a finance/fintech MCP list, but the site itself is a consumer betting product, not MCP infrastructure.
+    - Scraped site context describes it as a prediction market for sports, politics, and culture
+    - Identified as a 'Finance & Fintech' implementation within an awesome-mcp-servers list
 placement:
   primary_category: null
   section: null
@@ -69,9 +70,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:33.733Z"
+    updated_at: "2026-07-20T15:25:26.787Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8dc3a4b0695332329f4c68d185ab921fc2c5af3bcd6fca590db7903067baaf4a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a consumer-facing betting/fintech application, not a developer tool, framework, or infrastructure component.
+      decision_evidence:
+        - Scraped site context describes it as a prediction market for sports, politics, and culture
+        - Identified as a 'Finance & Fintech' implementation within an awesome-mcp-servers list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -25,17 +25,19 @@ provenance:
 metadata:
   github:
     stars: 66
-    forks: 20
+    forks: 21
     license: null
     archived: false
+    full_name: hamflx/imagen3-mcp
+    html_url: https://github.com/hamflx/imagen3-mcp
     created_at: "2025-04-26T06:41:39Z"
     pushed_at: "2025-05-03T15:02:35Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:12:58.133Z"
+    last_checked_at: "2026-07-20T15:10:57.812Z"
     readme:
-      fetched_at: "2026-07-13T05:12:58.133Z"
+      fetched_at: "2026-07-20T15:10:57.812Z"
       bytes: 4289
 insights:
   summary: An MCP server that exposes Google's Imagen 3.0 image generation API to compatible AI coding assistants like Cursor and Cherry Studio.
@@ -69,14 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:12:58.133Z"
+    updated_at: "2026-07-20T15:10:57.812Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:59:21.386Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

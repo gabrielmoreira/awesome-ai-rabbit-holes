@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AgentScale AI is a business automation platform combining robotic process automation, large language models, and AI agents.
-  why_it_matters: It aims to help organizations automate workflows by integrating RPA with modern LLM capabilities.
-  mental_damage: Yet another 'AI agents for enterprise' consultancy play, ensuring your RPA scripts now have a token budget to exceed.
+  summary: AgentScale AI is a business automation platform that combines robotic process automation, large language models, and AI agents for enterprise workflows.
+  why_it_matters: It matters for operations teams trying to automate repetitive business processes, but it sits outside typical software developer tooling.
+  mental_damage: Watching RPA vendors paste 'LLM' and 'AI agent' onto their slide decks like it's a corporate rebrand spell.
   tags:
     - rpa
+    - enterprise-automation
+    - business-agents
     - llm
-    - automation
-    - enterprise-agents
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general business automation and RPA solution targeting enterprises, lacking a specific developer-tooling angle required for this catalog.
+  reason: The product is framed as business process automation for enterprises (RPA + LLMs), not as a developer-facing coding, orchestration, or app-building tool.
   evidence:
-    - Scraped site context describes it as empowering businesses with 'automation solutions using robotic process automation, large language models and AI agents'.
-    - No GitHub repository, code-first SDK, or developer-facing tooling evidence is present.
-    - Source list context (awesome-ai-agents) is evidence but does not override the lack of developer-tooling fit.
+    - Scraped site states it 'empowers businesses with cutting-edge automation solutions using robotic process automation, large language models and AI agents' with no developer-specific surface mentioned.
+    - Source-list context in awesome-ai-agents places it in a general autonomous agents list, not a developer tooling section.
+    - No repo signals, IDE/agent/editor integrations, or code-first interfaces are visible in the provided inputs.
 placement:
   primary_category: null
   section: null
@@ -68,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:13:24.008Z"
+    updated_at: "2026-07-20T15:16:52.025Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:596ae1bcc6a1622b4e6410e02385624d591adce83f1fd179721a860cd5df4763
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is framed as business process automation for enterprises (RPA + LLMs), not as a developer-facing coding, orchestration, or app-building tool.
+      decision_evidence:
+        - Scraped site states it 'empowers businesses with cutting-edge automation solutions using robotic process automation, large language models and AI agents' with no developer-specific surface mentioned.
+        - Source-list context in awesome-ai-agents places it in a general autonomous agents list, not a developer tooling section.
+        - No repo signals, IDE/agent/editor integrations, or code-first interfaces are visible in the provided inputs.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

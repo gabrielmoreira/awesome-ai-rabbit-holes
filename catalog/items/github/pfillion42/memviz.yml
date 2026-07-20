@@ -28,6 +28,8 @@ metadata:
     forks: 1
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-02-14T22:33:00Z"
     pushed_at: "2026-02-24T19:15:58Z"
     description: A local vector memory explorer with a modern UI. Browse, search, visualize and manage SQLite-vec databases from MCP Memory Service.
@@ -82,9 +84,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:21:32.834Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

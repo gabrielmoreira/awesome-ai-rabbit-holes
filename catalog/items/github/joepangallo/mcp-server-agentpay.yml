@@ -28,6 +28,8 @@ metadata:
     forks: 1
     license: MIT
     archived: false
+    full_name: joepangallo/mcp-server-agentpay
+    html_url: https://github.com/joepangallo/mcp-server-agentpay
     created_at: "2026-02-26T22:15:30Z"
     pushed_at: "2026-03-21T04:11:53Z"
     description: MCP server for AgentPay — payment gateway for autonomous AI agents. Discover, provision, and pay for MCP tool APIs.
@@ -43,9 +45,9 @@ metadata:
       - tool-marketplace
       - usdc
       - x402
-    last_checked_at: "2026-07-13T05:13:14.022Z"
+    last_checked_at: "2026-07-20T15:11:25.814Z"
     readme:
-      fetched_at: "2026-07-13T05:13:14.022Z"
+      fetched_at: "2026-07-20T15:11:25.814Z"
       bytes: 3883
 insights:
   summary: An MCP server that lets AI agents discover, provision, and pay for third-party tool APIs using a single AgentPay gateway key.
@@ -78,14 +80,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:14.022Z"
+    updated_at: "2026-07-20T15:11:25.814Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:04:35.684Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

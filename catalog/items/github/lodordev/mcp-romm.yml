@@ -28,15 +28,17 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: lodordev/mcp-romm
+    html_url: https://github.com/lodordev/mcp-romm
     created_at: "2026-03-22T19:22:57Z"
-    pushed_at: "2026-07-06T22:33:15Z"
+    pushed_at: "2026-07-18T18:29:18Z"
     description: MCP server for RomM — browse and manage your retro game library with AI
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:13:29.635Z"
+    last_checked_at: "2026-07-20T15:11:53.762Z"
     readme:
-      fetched_at: "2026-07-13T05:13:29.635Z"
-      bytes: 6271
+      fetched_at: "2026-07-20T15:11:53.762Z"
+      bytes: 10053
 insights:
   summary: An MCP server that exposes a self-hosted RomM retro game library to AI assistants, providing 19 read-only tools for browsing platforms, searching ROMs, and checking metadata.
   why_it_matters: It lets developers query and manage their retro game collections through natural language via any MCP-compatible assistant instead of the RomM UI.
@@ -68,14 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:29.635Z"
+    updated_at: "2026-07-20T15:11:53.762Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:10:21.782Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

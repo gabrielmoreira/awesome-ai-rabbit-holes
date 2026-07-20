@@ -71,12 +71,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 31000
-    forks: 3267
+    stars: 31494
+    forks: 3321
     license: NOASSERTION
     archived: false
+    full_name: langfuse/langfuse
+    html_url: https://github.com/langfuse/langfuse
     created_at: "2023-05-18T17:47:09Z"
-    pushed_at: "2026-07-12T19:56:58Z"
+    pushed_at: "2026-07-20T14:59:46Z"
     description: "🪢 Open source AI engineering platform: LLM evals, observability, metrics, prompt management, playground, datasets. Integrates with OpenTelemetry, LangChain, OpenAI SDK, LiteLLM, and more. 🍊YC W23 "
     homepage: https://langfuse.com
     topics:
@@ -99,9 +101,9 @@ metadata:
       - prompt-management
       - self-hosted
       - ycombinator
-    last_checked_at: "2026-07-13T05:13:25.248Z"
+    last_checked_at: "2026-07-20T15:11:46.021Z"
     readme:
-      fetched_at: "2026-07-13T05:13:25.248Z"
+      fetched_at: "2026-07-20T15:11:46.021Z"
       bytes: 52395
 insights:
   summary: Langfuse is an open-source LLM engineering platform providing observability, metrics, evaluations, prompt management, and a playground for debugging and improving AI applications.
@@ -135,14 +137,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:25.248Z"
+    updated_at: "2026-07-20T15:11:46.021Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:08:39.669Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

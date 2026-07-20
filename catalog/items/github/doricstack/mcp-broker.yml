@@ -22,12 +22,30 @@ provenance:
         extracted_url: https://github.com/navinagrawal/mcp-broker
         surrounding_text: "- [NavinAgrawal/mcp-broker](https://github.com/NavinAgrawal/mcp-broker) [![NavinAgrawal/mcp-broker MCP server](https://glama.ai/mcp/servers/NavinAgrawal/mcp-broker/badges/score.svg)](https://glama.ai/mcp/servers/NavinAgrawal/mcp-broker) 🐍 🏠 🍎 🪟 🐧 - Local MCP process broker that exposes one compact client entry while routing to many configured upstream MCP servers with profile gates, lifecycle ownership, and mutating-tool allowlists."
         confidence: high
+    - id: discovery__github__navinagrawal__mcp-broker__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: NavinAgrawal/mcp-broker
+        extracted_url: https://github.com/navinagrawal/mcp-broker
+        surrounding_text: "- [NavinAgrawal/mcp-broker](https://github.com/NavinAgrawal/mcp-broker) [![NavinAgrawal/mcp-broker MCP server](https://glama.ai/mcp/servers/NavinAgrawal/mcp-broker/badges/score.svg)](https://glama.ai/mcp/servers/NavinAgrawal/mcp-broker) 🐍 🏠 🍎 🪟 🐧 - Local MCP process broker that exposes one compact client entry while routing to many configured upstream MCP servers with profile gates, lifecycle ownership, and mutating-tool allowlists."
+        confidence: high
 metadata:
   github:
     stars: 4
     forks: 1
     license: MIT
     archived: false
+    full_name: doricstack/mcp-broker
+    html_url: https://github.com/doricstack/mcp-broker
     created_at: "2026-05-25T05:03:53Z"
     pushed_at: "2026-07-04T07:41:17Z"
     description: Local MCP broker that exposes one compact MCP entry for MCP clients while routing to many configured upstream servers.
@@ -43,19 +61,22 @@ metadata:
       - mcp-gateway
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-07-13T05:12:55.103Z"
+    last_checked_at: "2026-07-20T15:12:00.504Z"
     readme:
-      fetched_at: "2026-07-13T05:12:55.103Z"
+      fetched_at: "2026-07-20T15:12:00.504Z"
       bytes: 21222
 insights:
   summary: A local Model Context Protocol (MCP) broker that aggregates multiple upstream servers into a single, compact endpoint for clients.
   why_it_matters: It prevents context window bloat and process duplication by routing tool requests on demand rather than loading every available tool definition into every session.
   mental_damage: Because instead of just letting the AI handle our tools, we now need a specialized middleware layer to manage the complexity of the tools the AI is handling.
   tags:
-    - mcp
     - broker
+    - context-management
     - context-reduction
+    - developer-tools
+    - infrastructure
     - local-infrastructure
+    - mcp
     - middleware
   confidence: high
 curation:
@@ -65,6 +86,9 @@ curation:
     - README describes it as a 'PgBouncer for MCP' providing a stable local endpoint for multiple upstreams
     - Explicitly claims significant context reduction (92.94% tool-definition count reduction)
     - Operates as a local daemon via a Unix socket to manage server lifecycles
+    - README describes it as a 'local MCP broker' and 'one small MCP entry for MCP clients'
+    - Core functionality includes tool-definition reduction and session management for MCP servers
+    - Explicitly addresses MCP-specific problems like tool-definition token overhead
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -72,23 +96,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-06T05:52:13.969Z"
+    cause: null
+    next_retry_at: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-06-29T05:38:18.520Z"
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T05:17:34.029Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for doricstack/mcp-broker
-    next_retry_at: null
-  categorize:
     status: done
-    updated_at: "2026-06-29T05:47:54.385Z"
+    updated_at: "2026-07-20T15:12:00.504Z"
     cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
     next_retry_at: null

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Design Arena is a crowdsourced benchmark that sends the same creative prompts to top AI models and lets users vote on which design outputs are best.
-  why_it_matters: It provides developers and designers with a community-driven leaderboard to understand which models actually perform well at UI, 3D, and visual design tasks.
-  mental_damage: Yet another leaderboard to consult before arguing with your team about which model truly has 'taste' this week.
+  summary: A crowdsourced benchmarking platform for evaluating AI-generated design outputs side-by-side.
+  why_it_matters: It provides human-centric preference data to help determine which models possess 'taste' in creative tasks like UI, web, and 3D design.
+  mental_damage: Nothing says 'the future of creative engineering' quite like having to crowdsource aesthetic consensus via manual voting.
   tags:
-    - benchmark
-    - design
+    - benchmarking
+    - design-ai
     - evals
-    - leaderboard
-  confidence: medium
+    - multimodal
+  confidence: high
 curation:
-  status: included
-  reason: The core job is measuring and comparing model behavior on design tasks via crowdsourced voting, making it an evaluation and benchmarking tool.
+  status: excluded
+  reason: The tool is a general-purpose creative benchmark rather than a developer-facing tool for coding, infrastructure, or software engineering workflows.
   evidence:
-    - "Scraped site says: 'world's first crowdsourced benchmark for AI-generated design' with voting and leaderboards."
-    - Source list places it under '体验 Usage' as a benchmark for design model comparison.
-    - Primary page shows leaderboards for Sonnet 4, GLM 4.5, GPT-5 and others based on user votes.
+    - Focuses on creative prompts (Website, Slides, Mobile Apps, Game Dev) rather than code/repo work
+    - Primary function is crowdsourced user voting for design 'taste'
+    - Lacks direct relevance to software development workflows, IDEs, or agent orchestration
 placement:
-  primary_category: evals
-  section: Agent Benchmarks
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -68,9 +70,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:59.946Z"
+    updated_at: "2026-07-20T15:36:56.215Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:45a6952e0d656fa8c20d8bc082c4c5914354fac26f4598fdccd282220a7d907a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a general-purpose creative benchmark rather than a developer-facing tool for coding, infrastructure, or software engineering workflows.
+      decision_evidence:
+        - Focuses on creative prompts (Website, Slides, Mobile Apps, Game Dev) rather than code/repo work
+        - Primary function is crowdsourced user voting for design 'taste'
+        - Lacks direct relevance to software development workflows, IDEs, or agent orchestration
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

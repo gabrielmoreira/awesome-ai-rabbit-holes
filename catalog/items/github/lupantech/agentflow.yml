@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1954
-    forks: 229
+    stars: 1967
+    forks: 230
     license: MIT
     archived: false
+    full_name: lupantech/AgentFlow
+    html_url: https://github.com/lupantech/AgentFlow
     created_at: "2025-09-27T02:17:05Z"
     pushed_at: "2026-02-08T14:00:53Z"
     description: "AgentFlow: In-the-Flow Agentic System Optimization"
@@ -39,9 +41,9 @@ metadata:
       - multi-agent-systems
       - reinforcement-learning
       - tool-augmented
-    last_checked_at: "2026-07-13T05:13:31.139Z"
+    last_checked_at: "2026-07-20T15:11:56.646Z"
     readme:
-      fetched_at: "2026-07-13T05:13:31.139Z"
+      fetched_at: "2026-07-20T15:11:56.646Z"
       bytes: 17343
 insights:
   summary: AgentFlow is a trainable, modular agentic framework that optimizes multi-step reasoning and tool use in LLMs using a specialized Flow-GRPO algorithm.
@@ -74,14 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:31.139Z"
+    updated_at: "2026-07-20T15:11:56.646Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:10:54.962Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

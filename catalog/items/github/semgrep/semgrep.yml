@@ -27,6 +27,8 @@ metadata:
     forks: 926
     license: LGPL-2.1
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2019-12-13T09:29:54Z"
     pushed_at: "2026-05-06T05:16:16Z"
     description: Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.
@@ -84,9 +86,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:27:50.978Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

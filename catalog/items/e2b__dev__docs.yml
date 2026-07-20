@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: E2B provides isolated, fast Linux sandbox VMs and SDKs that let developers safely run agent code, tools, and data processing in disposable cloud environments.
-  why_it_matters: It gives coding agents and AI apps a secure, programmable runtime with terminal access, filesystem control, and GPU/desktop capabilities without risking the host machine.
-  mental_damage: We have now successfully abstracted 'run untrusted code' into yet another SaaS primitive, so your agent can confidently rm -rf / an entire VM that costs exactly as much as your monthly coffee budget.
+  summary: E2B provides secure, isolated sandboxes for AI agents to execute code and interact with real-world tools.
+  why_it_matters: It solves the critical security and infrastructure challenge of allowing autonomous agents to run untrusted code in a controlled, ephemeral environment.
+  mental_damage: Because trusting an LLM with a shell is a recipe for disaster, you now need a dedicated infrastructure layer just to contain the chaos.
   tags:
-    - sandbox
-    - agent-runtime
-    - code-execution
-    - cloud-vm
-    - sdk
+    - sandboxing
+    - code-interpreting
+    - agent-infrastructure
+    - security
   confidence: high
 curation:
   status: included
-  reason: E2B is a code-first SDK and runtime platform for building agentic workflows that execute code in sandboxes, fitting the Frameworks & SDKs category rather than an end-user agent or extension.
+  reason: It is a code-first SDK and infrastructure provider used to build agentic workflows rather than a standalone assistant or orchestration platform.
   evidence:
-    - "Documentation describes SDK usage: 'Start a sandbox and run code in a few lines' with JavaScript and Python SDK examples."
-    - Core building blocks are Sandbox (Linux VM) and Template, exposed via SDK Reference and API.
-    - Listed in awesome-ai-agents under 'E2B - Code Interpreting for AI apps' as infrastructure for AI agents.
+    - README describes it as 'isolated sandboxes that let agents safely execute code'
+    - SDKs provided for JavaScript and Python to integrate sandboxes into code
+    - Directly used by developers to build 'Frontier Agentic Workflows'
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: incubating
   reason: null
@@ -71,9 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:52.399Z"
+    updated_at: "2026-07-20T15:42:56.715Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:746597efbdb8c7ec54c3e4df1b5c1e472931452d63d94c8029a4889643f44136
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first SDK and infrastructure provider used to build agentic workflows rather than a standalone assistant or orchestration platform.
+      decision_evidence:
+        - README describes it as 'isolated sandboxes that let agents safely execute code'
+        - SDKs provided for JavaScript and Python to integrate sandboxes into code
+        - Directly used by developers to build 'Frontier Agentic Workflows'
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary developer interaction is via SDKs and APIs to build custom agent behaviors rather than through a managed control plane.
+      review_reason: null
+      review_resume_lifecycle: null

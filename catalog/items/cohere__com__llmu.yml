@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,29 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LLM University (LLMU) is Cohere's educational hub offering courses, resources, and guides for developers to learn and build with enterprise AI and large language models.
-  why_it_matters: It provides a structured curriculum and expert-led training specifically designed to help technical professionals quickly operationalize Cohere's generative models, embedding tools, and enterprise AI platforms.
-  mental_damage: Just when you thought you had mastered the current stack, a model provider launches a university to ensure your weekend reading list outpaces your ability to ship code.
+  summary: A learning hub by Cohere providing courses and technical resources for mastering enterprise AI technologies.
+  why_it_matters: It provides structured educational paths for developers to learn how to integrate enterprise-grade models like Command and Embed into production workflows.
+  mental_damage: Because even if you master these courses, the API documentation will likely change before you finish the final module.
   tags:
     - education
     - enterprise-ai
-    - llm-training
     - cohere
-    - courses
+    - machine-learning
   confidence: high
 curation:
-  status: excluded
-  reason: This is an educational resource hub and course platform, not a developer tool, agent, framework, or operational product.
+  status: included
+  reason: It is an educational resource/tutorial hub rather than a standalone developer tool, making it a useful navigation aid for the ecosystem.
   evidence:
-    - Site description explicitly calls it a 'learning destination' and 'hub' for courses and guides.
-    - Source list context places it in a 'Course' section of an LLM resources list.
-    - The site focuses on enterprise AI education rather than providing a reusable tool, SDK, or editor integration.
+    - README/Scraped content identifies it as 'LLM University' for learning and mastering AI technologies
+    - Offers courses, step-by-step guides, and technical resources rather than a software utility
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): publications-and-feeds"
 processing:
   discover:
     status: done
@@ -69,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:24.009Z"
+    updated_at: "2026-07-20T15:32:52.717Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:301d99afa6f6e0d0cd20577456b6b736d695570a9aaaaf29160f270840e9a021
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: It is an educational resource/tutorial hub rather than a standalone developer tool, making it a useful navigation aid for the ecosystem.
+      decision_evidence:
+        - README/Scraped content identifies it as 'LLM University' for learning and mastering AI technologies
+        - Offers courses, step-by-step guides, and technical resources rather than a software utility
+      category_candidates:
+        - awesome-awesomes
+        - publications-and-feeds
+      contrastive_reason: Choose awesome-awesomes over publications-and-feeds because the primary value is acting as a curated directory of learning modules rather than a recurring news feed or periodical publication.
+      review_reason: "Categorization review required: unknown category candidate(s): publications-and-feeds"
+      review_resume_lifecycle: null

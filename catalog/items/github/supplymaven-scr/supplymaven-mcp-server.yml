@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: NOASSERTION
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2026-03-14T03:26:08Z"
     pushed_at: "2026-04-27T15:22:16Z"
     description: "MCP server for real-time supply chain intelligence — 24 tools: Global Disruption Index, Manufacturing Index, commodity prices, port congestion, border delays, chokepoints, air cargo, trade policy, energy, rail, freight, economic indicators, predictive signals, and AI intelligence briefs"
@@ -73,9 +75,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:31:02.152Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

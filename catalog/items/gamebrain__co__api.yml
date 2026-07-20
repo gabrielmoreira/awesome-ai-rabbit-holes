@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,25 +37,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GameBrain is a video game database API with over 775,000 games and an MCP server adapter for connecting game data to AI chatbots.
-  why_it_matters: Developers building game discovery features or AI-powered recommendation bots can integrate a large semantic game dataset via REST or MCP with minimal setup.
-  mental_damage: "We have finally reached the point where large language models need a dedicated protocol just to argue with you about whether *Kingdom Come: Deliverance II* is an RPG or a medieval walking simulator."
+  summary: A video game database API providing metadata, reviews, and semantic search for 775,000+ titles across 70+ platforms.
+  why_it_matters: Provides developers with structured gaming data, sentiment analysis via unique scoring, and MCP support for LLM integration.
+  mental_damage: "Because your custom AI agent definitely needs to know if Kingdom Come: Deliverance II is worth your weekend."
   tags:
-    - mcp
-    - gaming
+    - game-data
     - api
-    - database
+    - mcp
+    - search
+    - metadata
   confidence: high
 curation:
-  status: included
-  reason: The product's primary developer-facing identity is a game database API that explicitly ships an MCP adapter to connect Claude Desktop and other chatbots to its dataset.
+  status: excluded
+  reason: The product is a general-purpose content/data API rather than a developer-focused AI infrastructure or orchestration tool.
   evidence:
-    - "Scraped site states: 'Model Context Protocol (MCP) is a new way to connect Game Brain data with any chatbot.'"
-    - Listed in awesome-mcp-servers under 'Gaming' as a game database MCP implementation.
-    - API provides 775,000+ games, screenshots, videos, and semantic search endpoints for developers.
+    - Primary product is a video game database
+    - Offers semantic search and game recommendations
+    - MCP is a secondary compatibility feature
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +72,25 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:17:14.572Z"
+    updated_at: "2026-07-20T15:46:00.268Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0263bf4645c92127db1f6304e2f5a665d31306f44b84a801ba3e76998915d13a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a general-purpose content/data API rather than a developer-focused AI infrastructure or orchestration tool.
+      decision_evidence:
+        - Primary product is a video game database
+        - Offers semantic search and game recommendations
+        - MCP is a secondary compatibility feature
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,25 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Google Colab notebook linked from the awesome-langchain list, likely containing educational LangChain examples or tutorials.
-  why_it_matters: It serves as a hands-on resource for developers looking to learn LangChain through interactive notebooks in a hosted environment.
-  mental_damage: Another notebook link in an awesome list that will be clicked once, opened in a new tab, and then abandoned when the first cell throws a dependency error.
+  summary: A Google Colab notebook containing implementation examples and tutorials for the LangChain framework.
+  why_it_matters: Provides hands-on, executable code patterns for learning how to build LLM-powered applications using LangChain.
+  mental_damage: Nothing quite like jumping into a notebook only to realize you're one API key away from a $50 bill and a broken dependency tree.
   tags:
     - langchain
     - notebook
-    - tutorial
-    - colab
+    - tutorials
+    - llm-orchestration
   confidence: high
 curation:
-  status: excluded
-  reason: The item is a Google Colab notebook URL (a document/resource) rather than a standalone developer tool, product, or framework.
+  status: included
+  reason: The link is a curated educational resource (notebook) within an awesome list, serving as a navigation aid for the ecosystem.
   evidence:
-    - URL points to a Google Colab notebook (colab.research.google.com) rather than a tool repository.
-    - Source list context indicates it is a 'Notebook' under 'Learn > Notebooks' in awesome-langchain.
-    - Scraped site context shows only a sign-in page, providing no evidence of a product identity.
+    - Source-list context identifies it as part of 'awesome-langchain'
+    - Identified as 'Learn > Notebooks' in the source directory
+    - Content is a Google Colab notebook rather than a standalone tool
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: incubating
   reason: null
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:29.287Z"
+    updated_at: "2026-07-20T15:33:34.753Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4f24efd0a68b4784fae41ece7567be8cd9000d0151c53163da05284752e50097
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The link is a curated educational resource (notebook) within an awesome list, serving as a navigation aid for the ecosystem.
+      decision_evidence:
+        - Source-list context identifies it as part of 'awesome-langchain'
+        - Identified as 'Learn > Notebooks' in the source directory
+        - Content is a Google Colab notebook rather than a standalone tool
+      category_candidates:
+        - awesome-awesomes
+        - ai-frameworks
+      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the product is a curated educational notebook rather than the LangChain framework itself.
+      review_reason: null
+      review_resume_lifecycle: null

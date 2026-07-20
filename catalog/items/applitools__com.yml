@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Applitools is an AI-powered end-to-end testing platform that uses visual AI to automate functional, visual, and accessibility testing across web, mobile, and PDF interfaces.
-  why_it_matters: It integrates with existing developer workflows and test frameworks to reduce manual test maintenance and catch UI regressions across browsers and devices automatically.
-  mental_damage: Now you can watch an AI trained on four billion screens fail your deterministic tests in ways that are mathematically impossible to hallucinate.
+  summary: Applitools is an intelligent testing platform that uses visual AI to automate visual, functional, and accessibility testing across web and mobile applications.
+  why_it_matters: It replaces fragile, pixel-based regression testing with deterministic Visual AI, making automated UI validation more reliable during agentic SDLC workflows.
+  mental_damage: Because nothing says 'trust the automation' quite like relying on computer vision to ensure your UI hasn't drifted into a chaotic, unclickable mess.
   tags:
-    - testing
+    - visual-testing
+    - qa-automation
     - visual-ai
-    - qa
-    - e2e
-    - enterprise
+    - regression-testing
   confidence: high
 curation:
   status: included
-  reason: This is a testing and QA platform that augments developer workflows with AI validation, fitting the Extensions & Integrations category under the Testing & QA Add-ons section rather than acting as a primary coding agent.
+  reason: Applitools is a specialized QA and testing platform that augments the development lifecycle rather than acting as a primary coding assistant.
   evidence:
-    - Listed in awesome-ai-coding-tools under the 'Testing and QA' section.
-    - Claims to use 'proprietary testing AI' for visual, functional, and accessibility validation rather than writing application code.
-    - Primary products (Eyes and Autonomous) focus on test creation, execution, and analysis rather than repo editing.
+    - Provides 'Intelligent Testing Platform' for visual and functional validation
+    - Integrates with CI/CD and existing testing frameworks like Playwright
+    - Offers 'Autonomous' features for automated test creation and analysis
 placement:
   primary_category: ai-dev-extensions
   section: Testing & QA Add-ons
@@ -69,9 +70,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:07.326Z"
+    updated_at: "2026-07-20T15:22:53.065Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4743d9570cb6a223826b0a7a0bde1cccab9a463b7e2fcd3e6cd335d6fd452427
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: Applitools is a specialized QA and testing platform that augments the development lifecycle rather than acting as a primary coding assistant.
+      decision_evidence:
+        - Provides 'Intelligent Testing Platform' for visual and functional validation
+        - Integrates with CI/CD and existing testing frameworks like Playwright
+        - Offers 'Autonomous' features for automated test creation and analysis
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because it functions as a specialized QA augmentation for the development workflow rather than a primary code-writing assistant.
+      review_reason: null
+      review_resume_lifecycle: null

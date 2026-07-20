@@ -27,6 +27,8 @@ metadata:
     forks: 790
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-04-29T22:04:42Z"
     pushed_at: "2026-07-16T02:22:32Z"
     description: Open-source framework for building AI-powered apps in JavaScript, Go, and Python, built and used in production by Google
@@ -80,10 +82,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:57:16.412Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -38,10 +38,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2412
+    stars: 2413
     forks: 127
     license: MIT
     archived: false
+    full_name: jackmpcollins/magentic
+    html_url: https://github.com/jackmpcollins/magentic
     created_at: "2023-06-18T04:04:06Z"
     pushed_at: "2026-03-11T13:44:45Z"
     description: Seamlessly integrate LLMs as Python functions
@@ -61,9 +63,9 @@ metadata:
       - openai-api
       - prompt
       - pydantic
-    last_checked_at: "2026-07-13T05:13:09.387Z"
+    last_checked_at: "2026-07-20T15:11:17.661Z"
     readme:
-      fetched_at: "2026-07-13T05:13:09.387Z"
+      fetched_at: "2026-07-20T15:11:17.661Z"
       bytes: 20732
 insights:
   summary: A Python library that uses decorators like @prompt and @chatprompt to define LLM-powered functions with structured outputs using Pydantic and multi-provider support.
@@ -97,14 +99,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:09.387Z"
+    updated_at: "2026-07-20T15:11:17.661Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:03:07.683Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -28,6 +28,8 @@ metadata:
     forks: 81
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2022-05-20T13:09:13Z"
     pushed_at: "2024-12-16T15:41:40Z"
     description: "A central, open resource for data and tools related to chain-of-thought reasoning in large language models. Developed @ Samwald research group: https://samwald.info/"
@@ -78,9 +80,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:19:16.564Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

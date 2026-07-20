@@ -43,6 +43,8 @@ metadata:
     forks: 54
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2025-07-21T02:32:38Z"
     pushed_at: "2026-07-07T00:51:59Z"
     description: Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi
@@ -73,23 +75,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:48.450Z"
       bytes: 14673
 insights:
-  summary: A CLI tool that enables AI coding agents like Claude Code, Gemini CLI, Codex, and OpenCode to message, monitor, and spawn each other across terminals.
-  why_it_matters: It allows developers to coordinate pipelines and multi-agent workflows using existing CLI coding assistants without replacing their current toolchain.
-  mental_damage: We have finally invented a way for your AI agents to argue with each other in separate terminal windows, automating the communication overhead of a dysfunctional engineering team.
+  summary: A CLI tool that enables AI agents to communicate, observe, and spawn one another across different terminal sessions.
+  why_it_matters: It allows developers to build multi-agent pipelines by letting disparate CLI agents like Claude Code and Cursor exchange messages and file edits directly.
+  mental_damage: Nothing says 'future of software engineering' quite like watching a recursive loop of terminal-native agents arguing over a single SQLite database.
   tags:
     - multi-agent
     - cli
-    - terminal
     - orchestration
-    - coding-agent
+    - terminal
+    - agent-communication
   confidence: high
 curation:
   status: included
-  reason: The primary product identity is a runtime/CLI for coordinating multiple agents (spawning, messaging, observing) rather than being a single coding assistant itself.
+  reason: The core novelty is the coordination and communication layer between existing agents rather than being a single assistant or a simple integration.
   evidence:
-    - "Repo description states: 'Let AI agents message, watch, and spawn each other across terminals.'"
-    - README defines it as a CLI to 'coordinate pipelines, run different AI CLIs as each other's subagents'.
-    - "Recent activity: created 2025-07-21 and pushed 2026-05-05, showing active development."
+    - README describes it as a tool to 'hook your coding agents together' to message, watch, and spawn each other.
+    - Provides a runtime environment where agents can subscribe to events and react to other agents' actions.
+    - Targets orchestration of multiple distinct CLIs like Claude Code, Codex, and Cursor.
 placement:
   primary_category: agent-orchestration
   section: Multi-Agent Runtime Platforms
@@ -109,9 +111,27 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:18:01.674Z"
+    updated_at: "2026-07-20T15:52:55.614Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0eef19bd9b9222e31c10ed29394c8387ee7288e3e1805eff84f663344baa3fa1
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The core novelty is the coordination and communication layer between existing agents rather than being a single assistant or a simple integration.
+      decision_evidence:
+        - README describes it as a tool to 'hook your coding agents together' to message, watch, and spawn each other.
+        - Provides a runtime environment where agents can subscribe to events and react to other agents' actions.
+        - Targets orchestration of multiple distinct CLIs like Claude Code, Codex, and Cursor.
+      category_candidates:
+        - agent-orchestration
+        - ai-dev-extensions
+      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the tool acts as a runtime platform for multi-agent coordination rather than just a feature add-on for a single host.
+      review_reason: null
+      review_resume_lifecycle: null

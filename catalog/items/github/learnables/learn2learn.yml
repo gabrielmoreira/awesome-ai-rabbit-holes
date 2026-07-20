@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2888
+    stars: 2890
     forks: 359
     license: MIT
     archived: false
+    full_name: learnables/learn2learn
+    html_url: https://github.com/learnables/learn2learn
     created_at: "2019-08-08T18:22:41Z"
     pushed_at: "2025-12-16T20:53:41Z"
     description: A PyTorch Library for Meta-learning Research
@@ -43,9 +45,9 @@ metadata:
       - meta-rl
       - metalearning
       - pytorch
-    last_checked_at: "2026-07-13T05:13:26.461Z"
+    last_checked_at: "2026-07-20T15:11:48.024Z"
     readme:
-      fetched_at: "2026-07-13T05:13:26.461Z"
+      fetched_at: "2026-07-20T15:11:48.024Z"
       bytes: 8578
 insights:
   summary: A PyTorch library for meta-learning research that provides low-level utilities and high-level wrappers for few-shot learning, meta-optimization, and meta-reinforcement learning.
@@ -79,14 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:26.461Z"
+    updated_at: "2026-07-20T15:11:48.024Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:09:04.060Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A coding agent demo hosted on E2B's platform that plans, writes, and iterates on code tasks within a sandboxed environment.
-  why_it_matters: It demonstrates how to run autonomous coding agents inside secure, ephemeral cloud sandboxes rather than directly on a developer's local machine.
-  mental_damage: Yet another autonomous agent promising to ship your features, provided you're comfortable handing over the keys to a sandbox you can't quite see inside.
+  summary: An autonomous AI software engineer that uses E2B sandboxed environments to plan, write, and execute code.
+  why_it_matters: It provides a sandboxed execution environment for agents to actually run and test the code they write, reducing the risk of local system corruption.
+  mental_damage: At least you can rest easy knowing your autonomous agent is breaking things in a sandbox instead of on your actual machine.
   tags:
-    - coding-agent
+    - agent
     - sandbox
     - e2b
-    - autonomous
+    - coding-assistant
   confidence: medium
 curation:
   status: included
-  reason: The project is listed as an AI autonomous agent in awesome-ai-agents and is hosted as an interactive agent environment on E2B, fitting the coding agent profile despite limited metadata.
+  reason: The tool acts as a standalone autonomous developer that plans and executes tasks, fitting the primary identity of a coding agent.
   evidence:
-    - Listed in awesome-ai-agents under the section 'Smol developer' with the purpose 'A list of AI autonomous agents'.
-    - Hosted at app.e2b.dev/agent/smol-developer, indicating it is an operated agent environment rather than a library or extension.
+    - URL points to an agent hosted on E2B
+    - Listed in awesome-ai-agents under 'autonomous agents'
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -68,9 +70,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:03.560Z"
+    updated_at: "2026-07-20T15:22:37.039Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3c0d0538466670d0e5800af45ef7a4d2768fbb9df947a87c2ecc6cecdfb32c54
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The tool acts as a standalone autonomous developer that plans and executes tasks, fitting the primary identity of a coding agent.
+      decision_evidence:
+        - URL points to an agent hosted on E2B
+        - Listed in awesome-ai-agents under 'autonomous agents'
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the product is positioned as a specific agentic developer rather than a platform for managing multiple different agents.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -43,6 +43,8 @@ metadata:
     forks: 989
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2019-04-02T01:39:27Z"
     pushed_at: "2026-07-14T17:05:31Z"
     description: The easiest way to serve AI apps and models - Build Model Inference APIs, Job queues, LLM apps, Multi-model pipelines, and more!
@@ -103,10 +105,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:23:56.256Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.714Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
-    next_retry_at: null
+    next_retry_at: "2026-07-20T17:12:09.713Z"

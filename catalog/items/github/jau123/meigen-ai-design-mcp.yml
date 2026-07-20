@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1569
-    forks: 204
+    stars: 1590
+    forks: 207
     license: MIT
     archived: false
+    full_name: jau123/MeiGen-AI-Design-MCP
+    html_url: https://github.com/jau123/MeiGen-AI-Design-MCP
     created_at: "2026-02-07T12:39:26Z"
     pushed_at: "2026-06-23T13:12:52Z"
     description: Supports GPT Image 2, Seedance & ComfyUI, with a 1,400+ prompt library, carefully crafted hooks and a multi-task orchestration system
@@ -43,9 +45,9 @@ metadata:
       - openclaw
       - prompt-engineering
       - seedance2
-    last_checked_at: "2026-07-13T05:13:11.338Z"
+    last_checked_at: "2026-07-20T15:11:21.118Z"
     readme:
-      fetched_at: "2026-07-13T05:13:11.338Z"
+      fetched_at: "2026-07-20T15:11:21.118Z"
       bytes: 16639
 insights:
   summary: An MCP server that gives coding assistants like Claude Code and OpenClaw visual design capabilities by orchestrating image generation models (GPT Image 2, Nanobanana, ComfyUI) alongside a library of 1,400+ curated prompts.
@@ -79,14 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:11.338Z"
+    updated_at: "2026-07-20T15:11:21.118Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:03:49.861Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

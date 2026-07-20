@@ -27,6 +27,8 @@ metadata:
     forks: 114
     license: MIT
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-11-30T19:29:35Z"
     pushed_at: "2025-12-08T15:22:32Z"
     description: A middleware to provide an openAI compatible endpoint that can call MCP tools
@@ -79,9 +81,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:27:38.688Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.654Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,15 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A directory-style page listing community Model Context Protocol (MCP) servers for discovery and reference.
-  why_it_matters: It provides a jumping-off point for developers looking to find available MCP servers to extend their AI coding assistants.
-  mental_damage: Because nothing says 'streamlined developer workflow' like needing a dedicated directory just to navigate the ever-expanding universe of protocol adapters.
+  summary: A collection of community-curated Model Context Protocol (MCP) servers.
+  why_it_matters: It provides a directory of reusable tools that allow AI assistants to interact with external data sources and local environments via the MCP standard.
+  mental_damage: Prepare to spend your afternoon debugging why your agent can't see your filesystem because a JSON configuration in an MCP server is slightly off.
   tags:
     - mcp
-    - directory
-    - servers
-    - discovery
-  confidence: medium
+    - ai-agents
+    - tool-use
+    - connectivity
+  confidence: high
 curation:
   status: included
   reason: This is a navigational directory (dropbin.org/mcp) listing community MCP servers, fitting the 'Lists & Directories' category for ecosystem discovery.
@@ -51,10 +53,10 @@ curation:
     - Seen in awesome-mcp-servers source list under the section 'Community Servers'.
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -67,9 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:45.342Z"
+    updated_at: "2026-07-20T15:42:12.079Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:591d390d408aa4433453dd78374581847a2aef4efa6c9485254e477450d34520
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The project is a directory of MCP servers, which aligns perfectly with the MCP product identity and the Registries & Discovery section.
+      decision_evidence:
+        - "Identified in source-list as 'awesome-mcp-servers | purpose: A curated list of Model Context Protocol (MCP) servers'"
+        - The URL and context point specifically to the MCP ecosystem
+      category_candidates:
+        - mcp
+        - awesome-awesomes
+      contrastive_reason: Choose mcp over awesome-awesomes because the project's specific identity is rooted in the Model Context Protocol rather than being a general ecosystem directory.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      review_resume_lifecycle: null

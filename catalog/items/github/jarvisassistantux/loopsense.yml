@@ -28,6 +28,8 @@ metadata:
     forks: 0
     license: MIT
     archived: false
+    full_name: jarvisassistantux/loopsense
+    html_url: https://github.com/jarvisassistantux/loopsense
     created_at: "2026-03-23T02:48:04Z"
     pushed_at: "2026-03-24T00:38:59Z"
     description: "LoopSense is an open-source MCP server that closes the feedback loop for AI coding agents — giving them real-time visibility into CI results, deployments, test outcomes, and file system changes. "
@@ -40,9 +42,9 @@ metadata:
       - github-actions
       - mcp
       - mcp-server
-    last_checked_at: "2026-07-13T05:13:10.825Z"
+    last_checked_at: "2026-07-20T15:11:20.302Z"
     readme:
-      fetched_at: "2026-07-13T05:13:10.825Z"
+      fetched_at: "2026-07-20T15:11:20.302Z"
       bytes: 4065
 insights:
   summary: LoopSense is an open-source MCP server that provides AI coding agents with real-time feedback on CI results, deployments, test outcomes, and file system changes.
@@ -75,14 +77,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:10.825Z"
+    updated_at: "2026-07-20T15:11:20.302Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:03:36.901Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: encode.software is a website with no publicly available description or scraped content to determine its purpose or features.
-  why_it_matters: Without a documented feature set or workflow explanation, it is impossible to determine how this tool could alter or improve a developer's existing process.
-  mental_damage: We have reached the event horizon of the AI boom where tools are listed in agent directories before they have even written a README.
+  summary: An autonomous AI agent designed for executing complex tasks and managing workflows.
+  why_it_matters: It offers an automated way to handle multi-step processes that would otherwise require manual orchestration.
+  mental_damage: Another autonomous agent to add to the growing list of things that might try to rewrite your entire architecture while you're getting coffee.
   tags:
-    - unknown
-    - unverified
+    - ai-agents
+    - automation
+    - autonomous-workflows
   confidence: low
 curation:
-  status: excluded
-  reason: The project lacks a repository description, README excerpt, scraped site context, and basic metadata, making it impossible to verify that it is a practical developer tool rather than vaporware or a placeholder.
+  status: included
+  reason: The project is listed in an 'awesome-ai-agents' directory and identifies as an autonomous agent capable of executing tasks.
   evidence:
-    - Repo description is missing (none).
-    - README excerpt and scraped site context are unavailable.
-    - Stars, license, creation date, and push date are all unknown.
+    - "Listed in awesome-ai-agents under purpose: A list of AI autonomous agents"
+    - Product identity is an autonomous agent
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -66,9 +68,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:55.789Z"
+    updated_at: "2026-07-20T15:43:29.439Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f79b013d526aeb67b21ecb1f4fb7b9b158251fd02e2f27ce74381631148e6556
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The project is listed in an 'awesome-ai-agents' directory and identifies as an autonomous agent capable of executing tasks.
+      decision_evidence:
+        - "Listed in awesome-ai-agents under purpose: A list of AI autonomous agents"
+        - Product identity is an autonomous agent
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the project is identified as an autonomous agent rather than a multi-agent control plane or workbench.
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

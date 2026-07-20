@@ -27,6 +27,8 @@ metadata:
     forks: 371
     license: Apache-2.0
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-08-22T19:46:07Z"
     pushed_at: "2026-07-18T12:56:27Z"
     description: Optimizing inference proxy for LLMs
@@ -92,10 +94,12 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:20:28.432Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.713Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
-    next_retry_at: null
+    next_retry_at: "2026-07-20T17:12:09.713Z"

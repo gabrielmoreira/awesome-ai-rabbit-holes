@@ -23,12 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3088
-    forks: 217
+    stars: 3101
+    forks: 219
     license: Apache-2.0
     archived: false
+    full_name: lmnr-ai/lmnr
+    html_url: https://github.com/lmnr-ai/lmnr
     created_at: "2024-08-29T03:45:28Z"
-    pushed_at: "2026-07-12T21:55:58Z"
+    pushed_at: "2026-07-20T15:04:34Z"
     description: Laminar - open-source observability platform purpose-built for AI agents. YC S24.
     homepage: https://laminar.sh
     topics:
@@ -52,9 +54,9 @@ metadata:
       - self-hosted
       - ts
       - typescript
-    last_checked_at: "2026-07-13T05:13:29.308Z"
+    last_checked_at: "2026-07-20T15:11:53.436Z"
     readme:
-      fetched_at: "2026-07-13T05:13:29.308Z"
+      fetched_at: "2026-07-20T15:11:53.436Z"
       bytes: 8217
 insights:
   summary: Laminar is an open-source, Rust-based observability platform for AI agents that provides tracing, evaluations, monitoring, and SQL-queryable dashboards, available as a managed service or self-hosted via Docker.
@@ -88,14 +90,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:29.308Z"
+    updated_at: "2026-07-20T15:11:53.436Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:10:15.092Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.718Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

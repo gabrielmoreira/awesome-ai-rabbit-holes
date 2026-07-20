@@ -27,6 +27,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -35,15 +37,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ClevAgent is a supervised terminal workstation that intercepts running AI agents to detect wasteful patterns like duplicate reads and memory bloat, injecting corrective guidance to improve session efficiency.
-  why_it_matters: It targets the hidden token and time waste in long agent sessions, helping developers reduce costs and keep workspaces cleaner across repeated runs.
-  mental_damage: We have finally built middleware to watch the agents that were supposed to be watching the code for us, completing the circle of recursive oversight.
+  summary: A supervised terminal workspace that intercepts AI agent commands to prevent security risks and wasted token spend.
+  why_it_matters: It adds a necessary safety and cost-control layer between autonomous agents and your local system/terminal.
+  mental_damage: Now you can finally watch your agent's budget and security profile in real-time while it accidentally tries to delete your home directory.
   tags:
-    - agent-ops
-    - token-optimization
-    - context-management
-    - terminal
-  confidence: medium
+    - agent-safety
+    - terminal-automation
+    - observability
+    - ai-security
+    - cost-optimization
+  confidence: high
 curation:
   status: included
   reason: The core novelty is a context-shaping system that detects memory bloat, duplicate reads, and pathological loops, then injects guidance to trim context and improve workspace hygiene.
@@ -53,10 +56,10 @@ curation:
     - Listed in Awesome-LLMOps under 'Security > Observability' as a tool for supervising agent execution and visibility.
 placement:
   primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -69,9 +72,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:15:03.360Z"
+    updated_at: "2026-07-20T15:30:04.879Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8a52615da47d5d3c9d312c0de309333c0ff9be11a369fb2bc2358eb60e250485
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: It acts as a supervisor/middleware that augments existing agents with safety and optimization capabilities rather than being a primary coding assistant itself.
+      decision_evidence:
+        - README describes it as 'The Middle Layer for AI Agent Work'
+        - Claims to intercept wasteful work and security risks in live terminal sessions
+        - Provides a visual workspace to guide and protect agent execution
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because the tool functions as a supervisory layer that intercepts and augments agent behavior rather than being the primary engine that writes the code.
+      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

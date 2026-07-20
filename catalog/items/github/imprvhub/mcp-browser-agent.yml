@@ -24,10 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 40
+    stars: 41
     forks: 14
     license: MPL-2.0
     archived: false
+    full_name: imprvhub/mcp-browser-agent
+    html_url: https://github.com/imprvhub/mcp-browser-agent
     created_at: "2025-05-05T07:17:39Z"
     pushed_at: "2026-02-05T01:49:00Z"
     description: A Model Context Protocol (MCP) integration that provides Claude Desktop with autonomous browser automation capabilities. This agent enables Claude to interact with web content, manipulate DOM elements, execute JavaScript, and perform API requests.
@@ -53,9 +55,9 @@ metadata:
       - playwright
       - safari
       - web
-    last_checked_at: "2026-07-13T05:13:05.544Z"
+    last_checked_at: "2026-07-20T15:11:11.419Z"
     readme:
-      fetched_at: "2026-07-13T05:13:05.544Z"
+      fetched_at: "2026-07-20T15:11:11.419Z"
       bytes: 18163
 insights:
   summary: An MCP server that gives Claude Desktop autonomous browser automation capabilities using Playwright, allowing it to navigate, interact with DOM elements, execute JavaScript, and make API requests.
@@ -89,14 +91,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:05.544Z"
+    updated_at: "2026-07-20T15:11:11.419Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:01:55.221Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

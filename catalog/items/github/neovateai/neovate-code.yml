@@ -24,18 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1550
+    stars: 1552
     forks: 153
     license: MIT
     archived: false
+    full_name: neovateai/neovate-code
+    html_url: https://github.com/neovateai/neovate-code
     created_at: "2025-03-11T08:32:54Z"
     pushed_at: "2026-03-24T06:27:53Z"
     description: Neovate Code is a code agent to enhance your development. You can use it to generate code, fix bugs, review code, add tests, and more. You can run it in interactive mode or headless mode.
     homepage: https://neovateai.dev/
     topics: []
-    last_checked_at: "2026-07-13T05:13:32.012Z"
+    last_checked_at: "2026-07-20T15:12:01.959Z"
     readme:
-      fetched_at: "2026-07-13T05:13:32.012Z"
+      fetched_at: "2026-07-20T15:12:01.959Z"
       bytes: 2479
 insights:
   summary: Neovate Code is an MIT-licensed CLI coding agent that generates code, fixes bugs, reviews code, and adds tests in both interactive and headless modes.
@@ -68,14 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:32.012Z"
+    updated_at: "2026-07-20T15:12:01.959Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:16:57.335Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.719Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

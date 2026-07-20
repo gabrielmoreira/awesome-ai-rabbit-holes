@@ -26,6 +26,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -34,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Atlan is an enterprise data catalog and governance platform that acts as a centralized context layer for AI agents, exposing business logic, data lineage, and governance policies via an MCP server.
-  why_it_matters: It allows developers building enterprise AI agents to stop hardcoding business definitions and permissions by querying a unified, governed context store instead of rebuilding context for every new use case.
-  mental_damage: Finally, a way to solve the problem of AI agents not understanding your business, assuming you were already planning to deploy an enterprise data graph, a context lakehouse, and a dedicated governance team.
+  summary: An enterprise context layer that unifies business logic, data lineage, and institutional knowledge into a graph for AI agents.
+  why_it_matters: It solves the 'issing context' problem by providing agents with the semantic meaning and governance required to act on enterprise data accurately.
+  mental_damage: Because apparently, our models are smart, but they still can't figure out what 'evenue' actually means in your specific SQL table.
   tags:
     - context-engineering
-    - mcp
-    - enterprise
-    - governance
-    - data
-  confidence: medium
+    - enterprise-data
+    - mcp-server
+    - data-governance
+    - knowledge-graph
+  confidence: high
 curation:
   status: included
-  reason: Atlan's core identity is providing the retrieval, business logic, and governance context that feeds AI agents, fitting the Prompt & Context Engineering category even though it exposes this via MCP.
+  reason: Atlan's core value is building and serving a semantic/business context layer to existing agents rather than being the agent itself.
   evidence:
-    - Site describes itself as 'The missing context layer for enterprise AI' with a 'Context Engineering Studio'.
-    - Primary workflow involves unifying metadata, bootstrapping context via AI agents, and activating it via an MCP server.
-    - Listed in awesome-mcp-servers, but the product is a standalone enterprise platform, not just an MCP server.
+    - Claims to be the 'issing context layer for enterprise AI'
+    - Provides an MCP server to deliver certified context to downstream agents
+    - Focuses on semantic/ontology/lineage to solve agent hallucination
 placement:
   primary_category: context-engineering
   section: Context Retrieval & Fresh Docs
@@ -69,9 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:14:16.287Z"
+    updated_at: "2026-07-20T15:23:40.280Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:229e95b15df815173e271e9360c1c2dcb6db79061ec1d6fa914e9beb0649a884
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: Atlan's core value is building and serving a semantic/business context layer to existing agents rather than being the agent itself.
+      decision_evidence:
+        - Claims to be the 'issing context layer for enterprise AI'
+        - Provides an MCP server to deliver certified context to downstream agents
+        - Focuses on semantic/ontology/lineage to solve agent hallucination
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: "Choose context-engineering over mcp because MCP is the delivery mechanism for their primary product identity: the enterprise context layer."
+      review_reason: null
+      review_resume_lifecycle: null

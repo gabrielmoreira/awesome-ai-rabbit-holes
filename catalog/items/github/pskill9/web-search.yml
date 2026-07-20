@@ -43,6 +43,8 @@ metadata:
     forks: 78
     license: null
     archived: false
+    full_name: null
+    html_url: null
     created_at: "2024-12-30T02:34:47Z"
     pushed_at: "2024-12-30T02:36:50Z"
     description: Web search using free google search (NO API KEYS REQUIRED)
@@ -87,9 +89,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:23:04.432Z"
-    cause: null
+    status: skipped
+    updated_at: "2026-07-20T15:12:11.653Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template

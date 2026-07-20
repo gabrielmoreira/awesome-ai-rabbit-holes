@@ -27,6 +27,8 @@ metadata:
     forks: 26
     license: MIT
     archived: false
+    full_name: just-every/mcp-read-website-fast
+    html_url: https://github.com/just-every/mcp-read-website-fast
     created_at: "2025-06-11T10:58:03Z"
     pushed_at: "2026-06-20T21:17:12Z"
     description: Quickly reads webpages and converts to markdown for fast, token efficient web scraping
@@ -41,9 +43,9 @@ metadata:
       - mcp-server
       - scraper
       - website
-    last_checked_at: "2026-07-13T05:13:16.203Z"
+    last_checked_at: "2026-07-20T15:11:29.554Z"
     readme:
-      fetched_at: "2026-07-13T05:13:16.203Z"
+      fetched_at: "2026-07-20T15:11:29.554Z"
       bytes: 6694
 insights:
   summary: An MCP server that fetches web pages, strips noise using Mozilla Readability, and converts content to clean Markdown for token-efficient consumption by AI agents and IDEs.
@@ -77,14 +79,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:16.203Z"
+    updated_at: "2026-07-20T15:11:29.554Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:05:12.564Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

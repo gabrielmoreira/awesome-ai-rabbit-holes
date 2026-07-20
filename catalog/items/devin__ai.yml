@@ -57,6 +57,8 @@ metadata:
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -65,23 +67,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Devin is a cloud-based AI coding agent that autonomously plans, writes, and ships code changes, handling tasks from large-scale refactoring to ticket resolution across integrated developer tools.
-  why_it_matters: It allows engineering teams to delegate large, repetitive codebase migrations and chores to parallel cloud agents, aiming to drastically cut manual engineering hours on non-core tasks.
-  mental_damage: You can now pay a fleet of AI agents to refactor your 6-million-line monolith, which nicely offsets the cost of hiring the humans who still have to review the PRs.
+  summary: An autonomous AI software engineer capable of planning, executing, and managing complex engineering tasks including code migrations and bug fixing.
+  why_it_matters: It aims to handle large-scale, repetitive engineering work like multi-repo refactors and incident resolution, allowing humans to act as project managers rather than manual implementers.
+  mental_damage: Now you can watch a cloud-hosted agent confidently refactor your entire monolith while you sip coffee and pray it doesn't trigger a production outage.
   tags:
     - coding-agent
-    - cloud
+    - autonomous-agent
+    - software-engineering
+    - cloud-agent
     - refactoring
-    - automation
-    - enterprise
   confidence: high
 curation:
   status: included
-  reason: Devin is a primary coding assistant that autonomously executes repo work, integrates with GitHub/Linear/Slack, and is explicitly curated as a coding agent across multiple source lists.
+  reason: Devin is a standalone autonomous agent that plans and executes repo-wide engineering tasks rather than just augmenting an existing IDE.
   evidence:
-    - Scraped site context describes Devin as 'an AI coding agent and software engineer' that plans and executes complex engineering tasks.
-    - Marketing copy highlights autonomous PR shipping, ticket triaging, and running parallel cloud agents for large-scale migrations.
-    - Included in awesome-ai-coding-tools and awesome-cli-coding-agents under 'Coding Agents' and 'Closed Source' sections respectively.
+    - Claims to be an 'AI coding agent and software engineer'
+    - Capable of autonomous tasks like code migrations and incident resolution
+    - Operates across repos and uses various tools like Slack, GitHub, and Datadog
 placement:
   primary_category: coding-agents
   section: Browser/Desktop/Computer-Use Agents
@@ -100,9 +102,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-05-06T22:16:06.969Z"
+    updated_at: "2026-07-20T15:37:56.022Z"
     cause: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dc9386e706c6e172f5dc1a1c7d747d5ba0740bef1c06fa12e39ee45c1417d452
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Devin is a standalone autonomous agent that plans and executes repo-wide engineering tasks rather than just augmenting an existing IDE.
+      decision_evidence:
+        - Claims to be an 'AI coding agent and software engineer'
+        - Capable of autonomous tasks like code migrations and incident resolution
+        - Operates across repos and uses various tools like Slack, GitHub, and Datadog
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because Devin is a primary coding assistant/agent that developers delegate work to, rather than a general-purpose orchestration workbench.
+      review_reason: null
+      review_resume_lifecycle: null

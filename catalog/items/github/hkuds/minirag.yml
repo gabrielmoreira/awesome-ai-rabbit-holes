@@ -23,10 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1976
-    forks: 254
+    stars: 1980
+    forks: 256
     license: MIT
     archived: false
+    full_name: HKUDS/MiniRAG
+    html_url: https://github.com/HKUDS/MiniRAG
     created_at: "2025-01-11T13:24:14Z"
     pushed_at: "2025-10-16T07:43:16Z"
     description: "[ACL2026] \"MiniRAG: Making RAG Simpler with Small and Open-Sourced Language Models\""
@@ -35,9 +37,9 @@ metadata:
       - large-language-models
       - rag
       - retrieval-augmented-generation
-    last_checked_at: "2026-07-13T05:13:01.286Z"
+    last_checked_at: "2026-07-20T15:11:03.327Z"
     readme:
-      fetched_at: "2026-07-13T05:13:01.286Z"
+      fetched_at: "2026-07-20T15:11:03.327Z"
       bytes: 8272
 insights:
   summary: MiniRAG is a lightweight retrieval-augmented generation framework optimized to run effectively on small, open-source language models using heterogeneous graph indexing.
@@ -71,14 +73,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:13:01.286Z"
+    updated_at: "2026-07-20T15:11:03.327Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T23:00:24.221Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

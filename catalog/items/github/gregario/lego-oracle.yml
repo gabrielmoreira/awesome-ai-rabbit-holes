@@ -28,14 +28,16 @@ metadata:
     forks: 1
     license: MIT
     archived: false
+    full_name: gregario/lego-oracle
+    html_url: https://github.com/gregario/lego-oracle
     created_at: "2026-03-15T21:25:13Z"
     pushed_at: "2026-05-02T20:56:22Z"
     description: LEGO sets, parts, minifigs, and inventories as an MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-07-13T05:12:56.693Z"
+    last_checked_at: "2026-07-20T15:10:55.091Z"
     readme:
-      fetched_at: "2026-07-13T05:12:56.693Z"
+      fetched_at: "2026-07-20T15:10:55.091Z"
       bytes: 5081
 insights:
   summary: An MCP server that exposes the Rebrickable LEGO catalog—26k sets, 62k parts, and 17k minifigs—as tools for AI assistants.
@@ -68,14 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-13T05:12:56.693Z"
+    updated_at: "2026-07-20T15:10:55.091Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: done
-    updated_at: "2026-05-06T22:58:56.068Z"
-    cause: null
-    next_retry_at: null
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.717Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
