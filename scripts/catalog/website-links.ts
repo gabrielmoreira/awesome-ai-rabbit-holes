@@ -1,7 +1,9 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { createHash } from "node:crypto";
-import { lookupGitHubRepo, parseGitHubUrl } from "../support/github.ts";
+import { lookup } from "node:dns/promises";
+import { isIP } from "node:net";
+import { lookupGitHubRepo, parseGitHubUrl, resolveGitHubRepoDataIdentity } from "../support/github.ts";
 import { WEBSITE_LINK_CACHE_DIR } from "../support/paths.ts";
 import { normalizeCatalogUrl } from "./core.ts";
 
@@ -20,6 +22,16 @@ const GENERIC_GITHUB_REPO_TOKENS = new Set([
   "home",
   "blog",
 ]);
+const NON_PUBLIC_HOST_SUFFIXES: Record<string, true> = {
+  example: true,
+  home: true,
+  internal: true,
+  invalid: true,
+  lan: true,
+  local: true,
+  localhost: true,
+  test: true,
+};
 
 export interface WebsiteLinkResolution {
   fetched_at: string | null;
@@ -55,6 +67,121 @@ function normalizeOptionalUrl(url: string | null | undefined, baseUrl?: string):
   } catch {
     return null;
   }
+}
+
+function normalizedHostname(hostname: string): string {
+  return hostname.toLowerCase().replace(/^\[|\]$/g, "").replace(/\.$/, "");
+}
+
+function parseIpv6Value(hostname: string): bigint | null {
+  let host = normalizedHostname(hostname);
+  if (host.includes(".")) {
+    const lastColon = host.lastIndexOf(":");
+    const octets = host.slice(lastColon + 1).split(".").map((part) => Number.parseInt(part, 10));
+    if (octets.length !== 4 || octets.some((octet) => !Number.isInteger(octet) || octet < 0 || octet > 255)) {
+      return null;
+    }
+    host = `${host.slice(0, lastColon)}:${((octets[0]! << 8) | octets[1]!).toString(16)}:${((octets[2]! << 8) | octets[3]!).toString(16)}`;
+  }
+
+  const halves = host.split("::");
+  if (halves.length > 2) return null;
+  const left = halves[0]?.split(":").filter(Boolean) ?? [];
+  const right = halves[1]?.split(":").filter(Boolean) ?? [];
+  if (halves.length === 1 && left.length !== 8) return null;
+  if (left.length + right.length >= 8 && halves.length === 2) return null;
+  const zeroCount = halves.length === 2 ? 8 - left.length - right.length : 0;
+  const words = [...left, ...Array.from({ length: zeroCount }, () => "0"), ...right];
+  if (words.length !== 8 || words.some((word) => !/^[0-9a-f]{1,4}$/i.test(word))) return null;
+  return words.reduce((value, word) => (value << 16n) | BigInt(`0x${word}`), 0n);
+}
+
+function isPublicIpAddress(hostname: string): boolean {
+  const host = normalizedHostname(hostname);
+  const version = isIP(host);
+  if (version === 4) {
+    const [first, second, third] = host.split(".").map((part) => Number.parseInt(part, 10));
+    if (
+      first === 0
+      || first === 10
+      || first === 127
+      || (first === 100 && second >= 64 && second <= 127)
+      || (first === 169 && second === 254)
+      || (first === 172 && second >= 16 && second <= 31)
+      || (first === 192 && second === 0 && (third === 0 || third === 2))
+      || (first === 192 && second === 168)
+      || (first === 198 && (second === 18 || second === 19))
+      || (first === 198 && second === 51 && third === 100)
+      || (first === 203 && second === 0 && third === 113)
+      || first >= 224
+    ) {
+      return false;
+    }
+    return true;
+  }
+  if (version === 6) {
+    const value = parseIpv6Value(host);
+    if (value == null || value === 0n || value === 1n) return false;
+    const upper96 = value >> 32n;
+    if (upper96 === 0xffffn) {
+      const ipv4 = Number(value & 0xffff_ffffn);
+      return isPublicIpAddress(`${ipv4 >>> 24}.${(ipv4 >>> 16) & 255}.${(ipv4 >>> 8) & 255}.${ipv4 & 255}`);
+    }
+    if (upper96 === 0n) return false;
+    return (value >> 121n) !== 0x7en
+      && (value >> 118n) !== 0x3fan
+      && (value >> 118n) !== 0x3fbn
+      && (value >> 120n) !== 0xffn
+      && (value >> 96n) !== 0x2001_0db8n;
+  }
+  return false;
+}
+
+function isPublicHostname(hostname: string): boolean {
+  const host = normalizedHostname(hostname);
+  if (isIP(host)) return isPublicIpAddress(host);
+  const labels = host.split(".").filter(Boolean);
+  if (labels.length < 2) return false;
+  const suffix = labels.at(-1)!;
+  if (NON_PUBLIC_HOST_SUFFIXES[suffix]) return false;
+  return labels.every((label) => /^[a-z0-9](?:[a-z0-9-]*[a-z0-9])?$/.test(label));
+}
+
+
+
+export async function resolvePublicWebsiteCanonicalUrl(
+  finalUrl: string,
+  candidates: Array<string | null | undefined>,
+  lookupHost: (hostname: string) => Promise<ReadonlyArray<{ address: string }>> =
+    async (hostname) => lookup(hostname, { all: true }),
+): Promise<string> {
+  const normalizedFinalUrl = normalizeCatalogUrl(finalUrl);
+  let final: URL;
+  try {
+    final = new URL(normalizedFinalUrl);
+  } catch {
+    return normalizedFinalUrl;
+  }
+  if (!isPublicHostname(final.hostname)) return normalizedFinalUrl;
+  const finalHost = normalizedHostname(final.hostname);
+
+  for (const candidate of candidates) {
+    const normalizedCandidate = normalizeOptionalUrl(candidate, normalizedFinalUrl);
+    if (!normalizedCandidate) continue;
+    try {
+      const parsed = new URL(normalizedCandidate);
+      const candidateHost = normalizedHostname(parsed.hostname);
+      const sameSiteHost = candidateHost === finalHost;
+      if (parsed.protocol !== "https:" || !sameSiteHost || !isPublicHostname(candidateHost)) continue;
+
+      const addresses = await lookupHost(candidateHost);
+      if (addresses.length === 0 || addresses.some(({ address }) => !isPublicIpAddress(address))) continue;
+      return normalizedCandidate;
+    } catch {
+      continue;
+    }
+  }
+  return normalizedFinalUrl;
 }
 
 function isSupportedWebsiteContentType(contentType: string | null): boolean {
@@ -256,7 +383,10 @@ export async function resolveBestGitHubRepoUrl(
     if (!parsed) return null;
 
     const lookup = await lookupGitHubRepo(parsed.owner, parsed.repo, token);
-    if (lookup.status === "exists") return normalizeCatalogUrl(lookup.data.html_url);
+    if (lookup.status === "exists") {
+      const identity = resolveGitHubRepoDataIdentity(lookup.data);
+      if (identity) return identity.canonicalUrl;
+    }
     if (lookup.status === "unknown") return normalizeCatalogUrl(chosenUrl);
 
     const normalizedChosenUrl = normalizeCatalogUrl(chosenUrl);
@@ -327,12 +457,43 @@ export function readWebsiteLinkResolution(url: string): WebsiteLinkResolution | 
   }
 }
 
-export async function resolveWebsiteLink(url: string, token?: string): Promise<WebsiteLinkResolution> {
-  const normalizedUrl = normalizeCatalogUrl(url);
-  const cached = readWebsiteLinkResolution(normalizedUrl);
-  if (!shouldRefreshWebsiteLinkResolution(cached)) {
-    return cached!;
+async function sanitizeCachedWebsiteLinkResolution(
+  resolution: WebsiteLinkResolution,
+  lookupHost: (hostname: string) => Promise<ReadonlyArray<{ address: string }>>,
+): Promise<WebsiteLinkResolution> {
+  const cachedGitHub = resolution.github_repo_url
+    ? parseGitHubUrl(resolution.github_repo_url)
+    : null;
+  if (cachedGitHub) {
+    const canonicalGitHubUrl = `https://github.com/${cachedGitHub.owner.toLowerCase()}/${cachedGitHub.repo.toLowerCase()}`;
+    return {
+      ...resolution,
+      canonical_url: canonicalGitHubUrl,
+      github_repo_url: canonicalGitHubUrl,
+    };
   }
+  const safeCanonicalUrl = await resolvePublicWebsiteCanonicalUrl(
+    resolution.final_url,
+    [resolution.canonical_url],
+    lookupHost,
+  );
+  return {
+    ...resolution,
+    canonical_url: safeCanonicalUrl,
+    github_repo_url: null,
+  };
+}
+
+export async function resolveWebsiteLink(
+  url: string,
+  token?: string,
+  lookupHost: (hostname: string) => Promise<ReadonlyArray<{ address: string }>> =
+    async (hostname) => lookup(hostname, { all: true }),
+): Promise<WebsiteLinkResolution> {
+  const normalizedUrl = normalizeCatalogUrl(url);
+  const rawCached = readWebsiteLinkResolution(normalizedUrl);
+  const cached = rawCached ? await sanitizeCachedWebsiteLinkResolution(rawCached, lookupHost) : null;
+  if (cached && !shouldRefreshWebsiteLinkResolution(cached)) return cached;
 
   const fetchedAt = new Date().toISOString();
   try {
@@ -359,10 +520,7 @@ export async function resolveWebsiteLink(url: string, token?: string): Promise<W
     const finalUrl = normalizeCatalogUrl(response.url || normalizedUrl);
     const canonicalHref = extractLinkHrefByRel(html, "canonical");
     const ogUrl = extractMetaContent(html, "property", "og:url");
-    const pageCanonicalUrl =
-      normalizeOptionalUrl(canonicalHref, finalUrl) ??
-      normalizeOptionalUrl(ogUrl, finalUrl) ??
-      finalUrl;
+    const pageCanonicalUrl = await resolvePublicWebsiteCanonicalUrl(finalUrl, [canonicalHref, ogUrl], lookupHost);
 
     const title =
       extractMetaContent(html, "property", "og:title") ??

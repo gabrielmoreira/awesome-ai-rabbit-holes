@@ -129,6 +129,10 @@ export function truncateReadmeForPrompt(
   return body.trimEnd() + README_TRUNCATION_MARKER;
 }
 
+function invalidAIResponseStructure(message: string): never {
+  throw new Error(`Invalid AI response structure: ${message}`);
+}
+
 export function parseAIInsightResponse(raw: string): AIInsightResponse {
   let parsed: unknown;
   try {
@@ -141,34 +145,34 @@ export function parseAIInsightResponse(raw: string): AIInsightResponse {
 
   const obj = parsed as Record<string, unknown>;
 
-  if (typeof obj.summary !== "string") throw new Error("Missing required field: summary");
-  if (typeof obj.why_it_matters !== "string") throw new Error("Missing required field: why_it_matters");
-  if (typeof obj.mental_damage !== "string") throw new Error("Missing required field: mental_damage");
-  if (!Array.isArray(obj.tags)) throw new Error("Missing required field: tags");
-  if (typeof obj.should_include !== "boolean") throw new Error("Missing required field: should_include");
+  if (typeof obj.summary !== "string") invalidAIResponseStructure("Missing required field: summary");
+  if (typeof obj.why_it_matters !== "string") invalidAIResponseStructure("Missing required field: why_it_matters");
+  if (typeof obj.mental_damage !== "string") invalidAIResponseStructure("Missing required field: mental_damage");
+  if (!Array.isArray(obj.tags)) invalidAIResponseStructure("Missing required field: tags");
+  if (typeof obj.should_include !== "boolean") invalidAIResponseStructure("Missing required field: should_include");
   if (!(typeof obj.primary_category === "string" || obj.primary_category === null)) {
-    throw new Error("Missing required field: primary_category");
+    invalidAIResponseStructure("Missing required field: primary_category");
   }
   if (!(typeof obj.section === "string" || obj.section == null || !("section" in obj))) {
-    throw new Error("Invalid field: section");
+    invalidAIResponseStructure("Invalid field: section");
   }
-  if (typeof obj.decision_reason !== "string") throw new Error("Missing required field: decision_reason");
-  if (!Array.isArray(obj.decision_evidence)) throw new Error("Missing required field: decision_evidence");
-  if (!Array.isArray(obj.category_candidates)) throw new Error("Missing required field: category_candidates");
+  if (typeof obj.decision_reason !== "string") invalidAIResponseStructure("Missing required field: decision_reason");
+  if (!Array.isArray(obj.decision_evidence)) invalidAIResponseStructure("Missing required field: decision_evidence");
+  if (!Array.isArray(obj.category_candidates)) invalidAIResponseStructure("Missing required field: category_candidates");
   if (!(typeof obj.contrastive_reason === "string" || obj.contrastive_reason === null)) {
-    throw new Error("Missing required field: contrastive_reason");
+    invalidAIResponseStructure("Missing required field: contrastive_reason");
   }
 
   const confidence = obj.confidence as string;
   if (!["high", "medium", "low"].includes(confidence)) {
-    throw new Error(`Invalid confidence value: ${confidence}`);
+    invalidAIResponseStructure(`Invalid confidence value: ${confidence}`);
   }
 
   const decisionEvidence = (obj.decision_evidence as unknown[])
     .map((value) => String(value).trim())
     .filter((value) => value.length > 0);
   if (decisionEvidence.length === 0) {
-    throw new Error("Missing required field: decision_evidence");
+    invalidAIResponseStructure("Missing required field: decision_evidence");
   }
 
   const categoryCandidates = [...new Set(
@@ -185,23 +189,32 @@ export function parseAIInsightResponse(raw: string): AIInsightResponse {
 
   if (obj.should_include) {
     if (categoryCandidates.length !== 2) {
-      throw new Error("Included responses must provide exactly two ranked category_candidates");
+      invalidAIResponseStructure("Included responses must provide exactly two ranked category_candidates");
     }
     if (typeof obj.primary_category !== "string" || obj.primary_category.trim().length === 0) {
-      throw new Error("Included responses must provide primary_category");
+      invalidAIResponseStructure("Included responses must provide primary_category");
     }
     if (categoryCandidates[0] !== obj.primary_category.trim().toLowerCase()) {
-      throw new Error("Included responses must rank primary_category first in category_candidates");
+      invalidAIResponseStructure("Included responses must rank primary_category first in category_candidates");
     }
-    if (!contrastiveReason || !/^Choose\s+/.test(contrastiveReason)) {
-      throw new Error("Included responses must provide contrastive_reason starting with 'Choose '");
+    const contrastiveMatch = contrastiveReason?.match(
+      /^Choose\s+([a-z0-9][a-z0-9-]*)\s+over\s+([a-z0-9][a-z0-9-]*)\s+because\s+(\S[\s\S]*)$/i,
+    );
+    if (
+      !contrastiveMatch
+      || contrastiveMatch[1]?.toLowerCase() !== categoryCandidates[0]
+      || contrastiveMatch[2]?.toLowerCase() !== categoryCandidates[1]
+    ) {
+      invalidAIResponseStructure(
+        "Included responses must use 'Choose X over Y because...' with X and Y matching ranked category_candidates",
+      );
     }
   } else {
     if (categoryCandidates.length > 0) {
-      throw new Error("Excluded responses must use an empty category_candidates list");
+      invalidAIResponseStructure("Excluded responses must use an empty category_candidates list");
     }
     if (contrastiveReason !== null) {
-      throw new Error("Excluded responses must set contrastive_reason to null");
+      invalidAIResponseStructure("Excluded responses must set contrastive_reason to null");
     }
   }
 

@@ -133,14 +133,34 @@ jobs:
           echo "Configured categorization batch budget: ${ai_minutes} minute(s)."
 
       - name: Sync catalog metadata and generated output
+        id: catalog-sync
         env:
           CATALOG_FAIL_ON_PROCESSING_ERRORS: "0"
           CATALOG_LLM_CONCURRENCY: "2"
           CATALOG_LLM_TIMEOUT_MS: "60000"
+          CATALOG_MAX_SOURCE_LIST_NEW_ITEMS: "25"
           CATALOG_CATEGORIZE_BUDGET_MINUTES: ${{ steps.sync-budget.outputs.categorize_budget_minutes }}
         run: mise run catalog:sync
 
+      - name: Append catalog gaps to job summary
+        if: ${{ !cancelled() }}
+        shell: bash
+        run: |
+          {
+            echo "## Catalog gaps"
+            echo
+            mise run catalog:gaps
+          } | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Validate catalog items for failure checkpoint
+        id: checkpoint-safety
+        if: ${{ !cancelled() && steps.catalog-sync.outcome == 'failure' }}
+        run: |
+          mise run catalog:render
+          mise run catalog:validate
+
       - name: Detect generated changes
+        if: ${{ !cancelled() }}
         id: changes
         run: |
           if [ -n "$(git status --porcelain -- catalog/items)" ]; then
@@ -156,7 +176,7 @@ jobs:
           fi
 
       - name: Upload catalog items checkpoint before push
-        if: steps.changes.outputs.items_changed == 'true'
+        if: ${{ !cancelled() && steps.changes.outputs.items_changed == 'true' && (steps.catalog-sync.outcome == 'success' || steps.checkpoint-safety.outcome == 'success') }}
         uses: actions/upload-artifact@v4
         with:
           name: ${{ steps.checkpoint-meta.outputs.artifact_name }}
@@ -175,20 +195,19 @@ jobs:
         run: |
           max_attempts=2
           attempt=1
-          sync_budget_minutes="${{ steps.sync-budget.outputs.categorize_budget_minutes }}"
 
-          run_sync_boundary() {
-            echo "::group::catalog preflight"
-            if ! mise run catalog:check; then
-              echo "::error::Catalog preflight failed during push retry."
+          run_render_boundary() {
+            echo "::group::catalog render"
+            if ! mise run catalog:render; then
+              echo "::error::Catalog render failed during push retry."
               echo "::endgroup::"
               return 1
             fi
             echo "::endgroup::"
 
-            echo "::group::catalog sync"
-            if ! CATALOG_FAIL_ON_PROCESSING_ERRORS="0" CATALOG_LLM_CONCURRENCY="2" CATALOG_LLM_TIMEOUT_MS="60000" CATALOG_CATEGORIZE_BUDGET_MINUTES="$sync_budget_minutes" mise run catalog:sync; then
-              echo "::error::Catalog sync failed during push retry."
+            echo "::group::catalog validate"
+            if ! mise run catalog:validate; then
+              echo "::error::Catalog validation failed during push retry."
               echo "::endgroup::"
               return 1
             fi
@@ -216,7 +235,7 @@ jobs:
             git reset --mixed HEAD~1
             git fetch origin "${GITHUB_REF_NAME}"
             git pull --rebase --autostash origin "${GITHUB_REF_NAME}"
-            run_sync_boundary
+            run_render_boundary
 
             attempt=$((attempt + 1))
           done

@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # Frameworks & SDKs
 
 Code-first building blocks for embedding models, agents, or AI workflows into software.
@@ -382,7 +383,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `fine-tuning` `reinforcement-learning` `huggingface` `sdk` `post-training`
   </details>
 
-- **[langchainjs](https://github.com/langchain-ai/langchainjs)** `⭐ 17.9k` `updated ≤30d` LangChain.js is a TypeScript framework for building LLM-powered applications by chaining together modular components, models, embeddings, and third-party integrations. <details><summary>More about</summary>
+- **[LangChain.js](https://github.com/langchain-ai/langchainjs)** `⭐ 17.9k` `updated ≤30d` LangChain.js is a TypeScript framework for building LLM-powered applications by chaining together modular components, models, embeddings, and third-party integrations. <details><summary>More about</summary>
 
   It provides a standard interface for rapid prototyping and production-ready AI features while keeping model and provider choices interchangeable as the ecosystem evolves.
 
@@ -1543,7 +1544,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `rag` `python` `vector-search` `llm-toolkit` `retrieval`
   </details>
 
-- **[ai-jsx](https://github.com/fixie-ai/ai-jsx)** `⭐ 1.1k` `updated >1y` AI.JSX is a JavaScript/TypeScript framework for building AI applications using JSX components, with support for model abstraction, tool usage, document Q&A, and generative UI rendering. <details><summary>More about</summary>
+- **[AI.JSX](https://github.com/fixie-ai/ai-jsx)** `⭐ 1.1k` `updated >1y` AI.JSX is a JavaScript/TypeScript framework for building AI applications using JSX components, with support for model abstraction, tool usage, document Q&A, and generative UI rendering. <details><summary>More about</summary>
 
   It lets developers structure LLM prompts and generative UI using familiar React-style component patterns instead of raw strings or chained LangChain calls.
 
@@ -2146,7 +2147,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `algorithmic-trading` `mcp` `polyglot` `quantitative-finance`
   </details>
 
-- **[Typescript](https://github.com/r2d4/llm.ts)** `⭐ 213` `updated >1y` A zero-dependency TypeScript library providing a single API to call over 30 LLMs from providers like OpenAI, Cohere, and HuggingFace. <details><summary>More about</summary>
+- **[llm.ts](https://github.com/r2d4/llm.ts)** `⭐ 213` `updated >1y` A zero-dependency TypeScript library providing a single API to call over 30 LLMs from providers like OpenAI, Cohere, and HuggingFace. <details><summary>More about</summary>
 
   It lets developers write model-agnostic code and test prompts across multiple providers without bundling heavy framework dependencies.
 
@@ -2834,6 +2835,15 @@ _These are new or low-traffic entries being watched._
   `sdk` `mcp` `fintech` `blockchain` `agents`
   </details>
 
+- **[.github](https://github.com/flyflow-devs/.github)** `⭐ 0` `updated >1y` Flyflow is open-source API middleware written in Go that sits in front of LLM applications to reduce latency, increase token limits, and add enterprise security. <details><summary>More about</summary>
+
+  It lets developers optimize response times and throughput for LLM-powered apps without changing model providers or rewriting application logic.
+
+  _Yet another layer of middleware promising 5x gains, because clearly what your fragile LLM stack needs is more Go binaries between you and the model._
+
+  `middleware` `llm-ops` `latency` `self-hosted` `golang`
+  </details>
+
 - **[Agent Cost Guardrails](https://github.com/sapph1re/agent-cost-guardrails)** `⭐ 0` `updated ≤180d` A pure Python middleware library that enforces hard budget limits, rate limits, and circuit breakers for AI agent frameworks including CrewAI, AutoGen, and LangGraph. <details><summary>More about</summary>
 
   It gives developers a zero-infrastructure way to prevent runaway API spend by tracking costs and halting agents when budgets are exceeded.
@@ -2850,15 +2860,6 @@ _These are new or low-traffic entries being watched._
   _We have finally reached the point where AI agents can earn passive income through referral codes in a simulated Conway's Game of Life economy while you manually debug a null pointer at 2am._
 
   `agents` `mcp` `sdk` `simulation` `benchmark`
-  </details>
-
-- **[Flyflow](https://github.com/flyflow-devs/.github)** `⭐ 0` `updated >1y` Flyflow is open-source API middleware written in Go that sits in front of LLM applications to reduce latency, increase token limits, and add enterprise security. <details><summary>More about</summary>
-
-  It lets developers optimize response times and throughput for LLM-powered apps without changing model providers or rewriting application logic.
-
-  _Yet another layer of middleware promising 5x gains, because clearly what your fragile LLM stack needs is more Go binaries between you and the model._
-
-  `middleware` `llm-ops` `latency` `self-hosted` `golang`
   </details>
 
 - **[ntriq-agentshop](https://github.com/ntriq-gh/ntriq-agentshop)** `⭐ 0` `updated ≤180d` A pay-per-use API marketplace exposing local AI inference endpoints (document intelligence, code review, PII detection, etc.) via x402 micropayments in USDC on Base. <details><summary>More about</summary>

@@ -15,9 +15,59 @@ export type GitHubRepoData = {
   topics: string[];
 };
 
+const RESERVED_GITHUB_ROUTE_OWNERS: Record<string, true> = {
+  about: true,
+  codespaces: true,
+  contact: true,
+  "customer-stories": true,
+  apps: true,
+  collections: true,
+  features: true,
+  dashboard: true,
+  enterprises: true,
+  enterprise: true,
+  explore: true,
+  issues: true,
+  join: true,
+  login: true,
+  logout: true,
+  marketplace: true,
+  orgs: true,
+  new: true,
+  notifications: true,
+  organizations: true,
+  pricing: true,
+  resources: true,
+  pulls: true,
+  readme: true,
+  search: true,
+  security: true,
+  settings: true,
+  site: true,
+  solutions: true,
+  sponsors: true,
+  topics: true,
+  trending: true,
+};
+const GITHUB_OWNER_PLACEHOLDERS: Record<string, true> = {
+  org: true,
+  owner: true,
+  user: true,
+  username: true,
+  "your-org": true,
+  "your-owner": true,
+  "your-username": true,
+};
+const GITHUB_REPO_PLACEHOLDERS: Record<string, true> = {
+  repo: true,
+  repository: true,
+  "repo-name": true,
+  "repository-name": true,
+  "your-repo": true,
+  "your-repository": true,
+};
+
 export function parseGitHubUrl(url: string): { owner: string; repo: string } | null {
-  // Use the URL parser (not a regex) so query strings, fragments, trailing
-  // slashes, and `.git` suffixes do not bleed into the owner/repo segments.
   let parsed: URL;
   try {
     parsed = new URL(url);
@@ -25,16 +75,63 @@ export function parseGitHubUrl(url: string): { owner: string; repo: string } | n
     return null;
   }
   if (parsed.protocol !== "http:" && parsed.protocol !== "https:") return null;
-  if (parsed.hostname !== "github.com") return null;
+  if (parsed.hostname !== "github.com" && parsed.hostname !== "www.github.com") return null;
 
   const segments = parsed.pathname.split("/").filter(Boolean);
   if (segments.length < 2) return null;
 
-  const owner = segments[0];
-  let repo = segments[1];
-  if (repo.endsWith(".git")) repo = repo.slice(0, -".git".length);
-  if (!owner || !repo) return null;
+  const owner = segments[0]!;
+  let repo = segments[1]!;
+  if (/\.git$/i.test(repo)) repo = repo.slice(0, -".git".length);
+
+  const ownerKey = owner.toLowerCase();
+  const repoKey = repo.toLowerCase();
+  const validOwner = owner.length <= 39
+    && /^[A-Za-z0-9](?:[A-Za-z0-9-]*[A-Za-z0-9])?$/.test(owner);
+  const validRepo = repo.length <= 100
+    && repo !== "."
+    && repo !== ".."
+    && /^[A-Za-z0-9._-]+$/.test(repo);
+  if (
+    !validOwner
+    || !validRepo
+    || RESERVED_GITHUB_ROUTE_OWNERS[ownerKey]
+    || GITHUB_OWNER_PLACEHOLDERS[ownerKey]
+    || GITHUB_REPO_PLACEHOLDERS[repoKey]
+  ) {
+    return null;
+  }
   return { owner, repo };
+}
+
+export type GitHubRepoIdentity = {
+  canonicalUrl: string;
+  githubRepo: string;
+  owner: string;
+  repo: string;
+};
+
+export function resolveGitHubRepoDataIdentity(
+  data: Pick<GitHubRepoData, "full_name" | "html_url">,
+): GitHubRepoIdentity | null {
+  const fromFullName = parseGitHubUrl(`https://github.com/${data.full_name}`);
+  const fromHtmlUrl = parseGitHubUrl(data.html_url);
+  if (
+    !fromFullName
+    || !fromHtmlUrl
+    || fromFullName.owner.toLowerCase() !== fromHtmlUrl.owner.toLowerCase()
+    || fromFullName.repo.toLowerCase() !== fromHtmlUrl.repo.toLowerCase()
+  ) {
+    return null;
+  }
+  const owner = fromHtmlUrl.owner.toLowerCase();
+  const repo = fromHtmlUrl.repo.toLowerCase();
+  return {
+    canonicalUrl: `https://github.com/${owner}/${repo}`,
+    githubRepo: `${owner}/${repo}`,
+    owner,
+    repo,
+  };
 }
 
 export type GitHubRepoVerification = "exists" | "missing" | "unknown";

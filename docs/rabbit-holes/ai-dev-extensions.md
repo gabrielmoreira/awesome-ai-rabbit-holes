@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # Extensions & Integrations
 
 Add-ons and host integrations that extend another coding tool rather than being the primary assistant.
@@ -1104,15 +1105,6 @@ _These are new or low-traffic entries being watched._
   _Because what every debug session clearly needs is a floating window that can rename files, summarize webpages, and ask o3-mini whether ice baths are good for recovery, all without leaving your macOS desktop._
 
   `macos` `launcher` `ai-chat` `productivity` `extensions`
-  </details>
-
-- **[SchemaFlow](https://www.schemaflow.dev)** An infinite canvas for system design that uses an MCP server to automatically map codebases into visual AWS and GCP architecture diagrams. <details><summary>More about</summary>
-
-  It allows developers to bridge the gap between raw source code and visual system architecture by letting AI agents like Claude Code draw the map for them.
-
-  _Now you can watch your architectural technical debt materialize in high-fidelity, end-to-end encrypted real-time._
-
-  `system-design` `mcp` `architecture` `diagramming` `visual-coding`
   </details>
 
 - **[Semgrep](https://semgrep.dev)** Semgrep is an application security platform that combines static analysis with AI reasoning to scan code for security issues, manage supply chain risks, and detect hardcoded secrets. <details><summary>More about</summary>

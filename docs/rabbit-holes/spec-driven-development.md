@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # Spec-Driven Development
 
 Tooling where specifications are the primary artifact for planning, validation, repair, or governance.
@@ -269,7 +270,7 @@ _These are new or low-traffic entries being watched._
   `cli` `prompt-engineering` `version-control` `mcp`
   </details>
 
-- **[server](https://github.com/aidemd-mcp/server)** `⭐ 3` `updated ≤90d` An MCP server that enables AI agents to discover, validate, and scaffold intent-driven .aide specification files alongside existing codebases. <details><summary>More about</summary>
+- **[aidemd-mcp/server](https://github.com/aidemd-mcp/server)** `⭐ 3` `updated ≤90d` An MCP server that enables AI agents to discover, validate, and scaffold intent-driven .aide specification files alongside existing codebases. <details><summary>More about</summary>
 
   It gives coding agents a structured spec-first workflow, letting teams govern implementation and QA through progressive-disclosure methodology files rather than ad-hoc prompts.
 

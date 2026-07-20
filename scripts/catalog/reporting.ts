@@ -1,7 +1,23 @@
+import { normalizeCatalogUrl } from "./core.ts";
 import type { ProcessingError } from "./core.ts";
 import type { CatalogItem, ReviewReport } from "./types.ts";
 
 export type DistinctCount = { value: string; count: number };
+
+export type CatalogReviewWarning =
+  | {
+      kind: "normalized-url-collision";
+      normalizedUrl: string;
+      items: [
+        { id: string; url: string },
+        { id: string; url: string },
+      ];
+    }
+  | {
+      kind: "website-github-homepage-match";
+      website: { id: string; url: string };
+      github: { id: string; url: string; homepage: string };
+    };
 
 export type CatalogProcessingGapReport = {
   total: number;
@@ -19,6 +35,8 @@ export type CatalogProcessingGapReport = {
   deferredByCause: DistinctCount[];
   failedByCause: DistinctCount[];
   excludedByReason: DistinctCount[];
+  reviewWarnings: CatalogReviewWarning[];
+  processingFailureCount: number;
 };
 
 export function summarizeProcessingErrors(errors: ProcessingError[]): {
@@ -69,6 +87,65 @@ function formatPercent(count: number, total: number): string {
   return `${((count / total) * 100).toFixed(1)}%`;
 }
 
+function buildCatalogReviewWarnings(items: CatalogItem[]): CatalogReviewWarning[] {
+  const websitesByNormalizedUrl = new Map<string, CatalogItem[]>();
+  for (const item of items) {
+    if (item.kind !== "website") continue;
+    const normalizedUrl = normalizeCatalogUrl(item.canonical_url);
+    const matches = websitesByNormalizedUrl.get(normalizedUrl) ?? [];
+    matches.push(item);
+    websitesByNormalizedUrl.set(normalizedUrl, matches);
+  }
+
+  const warnings: CatalogReviewWarning[] = [];
+  const itemsByNormalizedUrl = new Map<string, CatalogItem[]>();
+  for (const item of items) {
+    const normalizedUrl = normalizeCatalogUrl(item.canonical_url);
+    itemsByNormalizedUrl.set(
+      normalizedUrl,
+      [...(itemsByNormalizedUrl.get(normalizedUrl) ?? []), item],
+    );
+  }
+  for (const [normalizedUrl, matches] of itemsByNormalizedUrl) {
+    const sortedMatches = matches.toSorted(
+      (left, right) => left.id.localeCompare(right.id) || left.canonical_url.localeCompare(right.canonical_url),
+    );
+    for (let leftIndex = 0; leftIndex < sortedMatches.length; leftIndex += 1) {
+      for (let rightIndex = leftIndex + 1; rightIndex < sortedMatches.length; rightIndex += 1) {
+        const left = sortedMatches[leftIndex]!;
+        const right = sortedMatches[rightIndex]!;
+        warnings.push({
+          kind: "normalized-url-collision",
+          normalizedUrl,
+          items: [
+            { id: left.id, url: left.canonical_url },
+            { id: right.id, url: right.canonical_url },
+          ],
+        });
+      }
+    }
+  }
+  const githubItems = items
+    .filter((item) => item.kind === "github-repo" && item.metadata.github.homepage)
+    .toSorted((left, right) => left.id.localeCompare(right.id) || left.canonical_url.localeCompare(right.canonical_url));
+  for (const githubItem of githubItems) {
+    const homepage = githubItem.metadata.github.homepage!;
+    const matchingWebsites = (websitesByNormalizedUrl.get(normalizeCatalogUrl(homepage)) ?? []).toSorted(
+      (left, right) => left.id.localeCompare(right.id) || left.canonical_url.localeCompare(right.canonical_url),
+    );
+    for (const websiteItem of matchingWebsites) {
+      if (websiteItem.id === githubItem.id) continue;
+      warnings.push({
+        kind: "website-github-homepage-match",
+        website: { id: websiteItem.id, url: websiteItem.canonical_url },
+        github: { id: githubItem.id, url: githubItem.canonical_url, homepage },
+      });
+    }
+  }
+
+  return warnings.toSorted((left, right) => JSON.stringify(left).localeCompare(JSON.stringify(right)));
+}
+
 export function buildCatalogProcessingGapReport(items: CatalogItem[]): CatalogProcessingGapReport {
   const included = items.filter((item) => item.curation.status === "included").length;
   const excludedItems = items.filter((item) => item.curation.status === "excluded");
@@ -77,6 +154,13 @@ export function buildCatalogProcessingGapReport(items: CatalogItem[]): CatalogPr
   const pendingStageLabels: string[] = [];
   const deferredCauseLabels: string[] = [];
   const failedCauseLabels: string[] = [];
+  let processingFailureCount = 0;
+  for (const item of items) {
+    const failedState = firstStageWithStatus(item, "failed");
+    if (!failedState) continue;
+    processingFailureCount += 1;
+    failedCauseLabels.push(`${failedState.stage}:${failedState.state.cause?.type ?? "unknown"}`);
+  }
   let neverRan = 0;
   let deferred = 0;
   let failed = 0;
@@ -86,7 +170,6 @@ export function buildCatalogProcessingGapReport(items: CatalogItem[]): CatalogPr
     const failedState = firstStageWithStatus(item, "failed");
     if (failedState) {
       failed += 1;
-      failedCauseLabels.push(`${failedState.stage}:${failedState.state.cause?.type ?? "unknown"}`);
       continue;
     }
 
@@ -120,6 +203,8 @@ export function buildCatalogProcessingGapReport(items: CatalogItem[]): CatalogPr
     excludedByReason: summarizeDistinctCounts(
       excludedItems.map((item) => item.curation.reason?.trim() || "unspecified"),
     ),
+    reviewWarnings: buildCatalogReviewWarnings(items),
+    processingFailureCount,
   };
 }
 
@@ -145,6 +230,32 @@ function renderDistinctSection(
   return lines;
 }
 
+function renderReviewWarnings(warnings: CatalogReviewWarning[], maxEntries: number): string[] {
+  const lines = ["Semantic duplicate review warnings"];
+  if (warnings.length === 0) {
+    lines.push("- none");
+    return lines;
+  }
+  const visible = maxEntries > 0 ? warnings.slice(0, maxEntries) : warnings;
+  for (const warning of visible) {
+    if (warning.kind === "normalized-url-collision") {
+      const [left, right] = warning.items;
+      lines.push(
+        `- [${warning.kind}] ${left.id} (${left.url}) and ${right.id} (${right.url}) normalize to ${warning.normalizedUrl}`,
+      );
+      continue;
+    }
+    lines.push(
+      `- [${warning.kind}] ${warning.website.id} (${warning.website.url}) matches the GitHub homepage of ` +
+        `${warning.github.id} (${warning.github.url}): ${warning.github.homepage}`,
+    );
+  }
+  if (visible.length < warnings.length) {
+    lines.push(`- ... ${warnings.length - visible.length} more`);
+  }
+  return lines;
+}
+
 export function renderCatalogProcessingGapReport(
   report: CatalogProcessingGapReport,
   options: { maxEntriesPerSection?: number } = {},
@@ -161,6 +272,7 @@ export function renderCatalogProcessingGapReport(
     "Catalog processing gaps",
     "",
     `Total items: ${report.total}`,
+    `Processing failures: ${report.processingFailureCount}`,
     `Resolved: ${report.resolved} (${formatPercent(report.resolved, report.total)})`,
     `- included: ${report.included}`,
     `- excluded: ${report.excluded}`,
@@ -177,9 +289,11 @@ export function renderCatalogProcessingGapReport(
     "",
     ...renderDistinctSection("Deferred causes", report.deferredByCause, unresolved, "none", maxEntriesPerSection),
     "",
-    ...renderDistinctSection("Failed causes", report.failedByCause, unresolved, "none", maxEntriesPerSection),
+    ...renderDistinctSection("Failed causes", report.failedByCause, report.processingFailureCount, "none", maxEntriesPerSection),
     "",
     ...renderDistinctSection("Excluded reasons", report.excludedByReason, report.excluded, "none", maxEntriesPerSection),
+    "",
+    ...renderReviewWarnings(report.reviewWarnings, maxEntriesPerSection),
   ].join("\n");
 }
 

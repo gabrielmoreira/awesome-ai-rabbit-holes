@@ -2340,21 +2340,21 @@ describe("star refresh honors metadata_refresh_days", () => {
 describe("parseGitHubUrl: query string and fragment handling", () => {
   it("strips ?query and #fragment so they do not bleed into the repo name", async () => {
     const { parseGitHubUrl } = await import("../scripts/support/github.js");
-    expect(parseGitHubUrl("https://github.com/org/repo?tab=readme")).toEqual({
-      owner: "org",
-      repo: "repo",
+    expect(parseGitHubUrl("https://github.com/acme/example-repo?tab=readme")).toEqual({
+      owner: "acme",
+      repo: "example-repo",
     });
-    expect(parseGitHubUrl("https://github.com/org/repo#section")).toEqual({
-      owner: "org",
-      repo: "repo",
+    expect(parseGitHubUrl("https://github.com/acme/example-repo#section")).toEqual({
+      owner: "acme",
+      repo: "example-repo",
     });
-    expect(parseGitHubUrl("https://github.com/org/repo.git")).toEqual({
-      owner: "org",
-      repo: "repo",
+    expect(parseGitHubUrl("https://github.com/acme/example-repo.git")).toEqual({
+      owner: "acme",
+      repo: "example-repo",
     });
-    expect(parseGitHubUrl("https://github.com/org/repo/tree/main")).toEqual({
-      owner: "org",
-      repo: "repo",
+    expect(parseGitHubUrl("https://github.com/acme/example-repo/tree/main")).toEqual({
+      owner: "acme",
+      repo: "example-repo",
     });
   });
 

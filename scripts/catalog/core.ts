@@ -30,7 +30,7 @@ type NormalizedProcessingState = ProcessingState & {
 export function makeItemId(url: string): string {
   const github = parseGitHubUrl(url);
   if (github) return `github__${github.owner.toLowerCase()}__${github.repo.toLowerCase()}`;
-  return url.replace(/^https?:\/\//, "").replace(/[^a-z0-9]+/gi, "__").toLowerCase();
+  return normalizeCatalogUrl(url).replace(/^https?:\/\//, "").replace(/[^a-z0-9]+/gi, "__").toLowerCase();
 }
 
 export function makeItemPath(url: string): string {
@@ -48,15 +48,25 @@ export function normalizeGitHubUrl(url: string): string {
 }
 
 export function normalizeCatalogUrl(url: string): string {
-  const normalizedGitHub = normalizeGitHubUrl(url);
-  if (normalizedGitHub !== url) return normalizedGitHub;
+  const trimmed = url.trim();
+  const normalizedGitHub = normalizeGitHubUrl(trimmed);
+  if (normalizedGitHub !== trimmed) return normalizedGitHub;
+
   try {
-    const parsed = new URL(url);
+    const parsed = new URL(trimmed);
+    if (parsed.protocol === "http:" || parsed.protocol === "https:") {
+      parsed.protocol = "https:";
+      if (parsed.hostname.toLowerCase().startsWith("www.")) {
+        parsed.hostname = parsed.hostname.slice(4);
+      }
+      if (parsed.port === "443") parsed.port = "";
+    }
     parsed.hash = "";
     parsed.search = "";
+    parsed.pathname = parsed.pathname.replace(/\/+$/, "") || "/";
     return parsed.toString().replace(/\/$/, "");
   } catch {
-    return url.trim().replace(/\/+$/, "");
+    return trimmed.replace(/\/+$/, "");
   }
 }
 
@@ -184,6 +194,8 @@ export function normalizeLoadedItem(item: any): CatalogItem & { processing: Norm
         forks: github.forks ?? null,
         license: github.license ?? null,
         archived: github.archived ?? null,
+        full_name: github.full_name ?? null,
+        html_url: github.html_url ?? null,
         created_at: github.created_at ?? null,
         pushed_at: github.pushed_at ?? null,
         description: github.description ?? null,

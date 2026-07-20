@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # Agent Skills
 
 Reusable skill packs, rules, commands, and skill directories for coding tools.
@@ -269,6 +270,15 @@ _These are new or low-traffic entries being watched._
   `skills` `registry` `modelscope` `components`
   </details>
 
+- **[openclawmp.stepfun.com](https://openclawmp.stepfun.com)** A Chinese-language marketplace and community hub for discovering, sharing, and installing reusable Agent Skills, plugins, triggers, and communication adapters. <details><summary>More about</summary>
+
+  It provides a structured registry where developers can extend their agents with community-built capabilities and configuration packs instead of writing them from scratch.
+
+  _Just when you thought dependency hell was contained to npm, we now have a burgeoning app store for giving your AI agents new personality quirks and browser plugins._
+
+  `agent-skills` `marketplace` `community` `plugins`
+  </details>
+
 - **[Skills.Sh](https://skills.sh)** A CLI-driven directory and registry for discovering, installing, and managing reusable skill packs that extend AI coding agents with procedural knowledge. <details><summary>More about</summary>
 
   It gives developers a centralized way to equip agents like Claude Code or GitHub Copilot with curated, domain-specific capabilities using a single command.
@@ -285,13 +295,4 @@ _These are new or low-traffic entries being watched._
   _We have successfully abstracted the abstraction by creating a search engine for the modular instruction files that tell our AI assistants how to pretend to be competent at specific occupations._
 
   `skills` `marketplace` `claude-code` `codex` `registry`
-  </details>
-
-- **[水产市场](https://openclawmp.stepfun.com)** A Chinese-language marketplace and community hub for discovering, sharing, and installing reusable Agent Skills, plugins, triggers, and communication adapters. <details><summary>More about</summary>
-
-  It provides a structured registry where developers can extend their agents with community-built capabilities and configuration packs instead of writing them from scratch.
-
-  _Just when you thought dependency hell was contained to npm, we now have a burgeoning app store for giving your AI agents new personality quirks and browser plugins._
-
-  `agent-skills` `marketplace` `community` `plugins`
   </details>

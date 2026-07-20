@@ -173,7 +173,7 @@ describe("catalog templates", () => {
     });
 
     expect(output).toBe(
-      "# Coding Agents\n\nTools for coding with AI.\n\n## Tools & Resources\n\n- **[test-tool](https://github.com/example/test-tool)** `⭐ 1.2k` `updated ≤30d` A great tool for teams. <details><summary>More about</summary>\n\n  Matters a lot for busy teams.\n\n  _Now your backlog has a boss._\n\n  `agents` `kanban`\n  </details>\n\n- **[website-only](https://example.com/tool)** Website-only item.\n\n## Incubating\n\n_These are new or low-traffic entries being watched._\n\n- **[new-tool](https://example.com/new)** `⭐ 42` New tool.",
+      "<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->\n# Coding Agents\n\nTools for coding with AI.\n\n## Tools & Resources\n\n- **[test-tool](https://github.com/example/test-tool)** `⭐ 1.2k` `updated ≤30d` A great tool for teams. <details><summary>More about</summary>\n\n  Matters a lot for busy teams.\n\n  _Now your backlog has a boss._\n\n  `agents` `kanban`\n  </details>\n\n- **[website-only](https://example.com/tool)** Website-only item.\n\n## Incubating\n\n_These are new or low-traffic entries being watched._\n\n- **[new-tool](https://example.com/new)** `⭐ 42` New tool.",
     );
   });
 
@@ -189,7 +189,7 @@ describe("catalog templates", () => {
     });
 
     expect(output).toBe(
-      "# MCP\n\nModel Context Protocol tooling.\n\n## Nothing Here Yet\n\n_Even the hype forgot to stop here._",
+      "<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->\n# MCP\n\nModel Context Protocol tooling.\n\n## Nothing Here Yet\n\n_Even the hype forgot to stop here._",
     );
   });
 

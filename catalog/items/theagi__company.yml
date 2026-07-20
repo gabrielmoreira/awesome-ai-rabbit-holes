@@ -1,6 +1,6 @@
 id: theagi__company
 kind: website
-name: theagi.company
+name: MultiOn
 canonical_url: https://theagi.company
 identity: {}
 provenance:
@@ -20,12 +20,29 @@ provenance:
         extracted_url: https://multion.ai
         surrounding_text: "## [MultiOn](https://multion.ai/)"
         confidence: high
+    - id: discovery__www__theagi__company__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - MultiOn
+        anchor_text: MultiOn
+        extracted_url: https://multion.ai
+        surrounding_text: "## [MultiOn](https://multion.ai/)"
+        confidence: high
 metadata:
   github:
     stars: null
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -38,7 +55,10 @@ insights:
   why_it_matters: It demonstrates a shift toward private, agentic AI running locally on consumer hardware, reducing reliance on cloud APIs for personal automation.
   mental_damage: Another 'revolutionary' agent that promises to replace your apps while quietly harvesting your behavioral data in the name of on-device privacy.
   tags:
+    - agentic-commerce
+    - agi
     - mobile-agent
+    - on-device
     - on-device-ai
     - task-automation
   confidence: high
@@ -49,6 +69,9 @@ curation:
     - AGI-0 performs consumer actions like booking taxis, ordering food, replying to messages, and finding flights using your phone
     - Positioned as a superintelligent personal assistant for daily life, not a coding assistant or developer-facing infrastructure
     - No mention of code editing, repo interaction, IDE integration, API access, or developer workflows in the provided context
+    - The website describes AGI-0 as a 'personalized, proactive AI co-worker that gets things done on your smartphone' for tasks like Taxi, Travel, and Shopping.
+    - The mission is 'everyday AGI' and 'AI-native devices', lacking any mention of APIs, SDKs, or developer workflows.
+    - Appears in awesome-ai-agents under 'MultiOn', but as a consumer agent rather than a developer tool.
 placement:
   primary_category: null
   section: null
@@ -56,6 +79,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-09T05:33:39.134Z"
+    cause: null
+    attempts: 4
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-06-29T05:38:18.520Z"
@@ -65,11 +96,3 @@ processing:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-07-09T05:33:39.134Z"
-    cause: null
-    attempts: 4
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
-    next_retry_at: null

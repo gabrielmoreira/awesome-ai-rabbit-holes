@@ -1,6 +1,6 @@
 id: respan__ai
 kind: website
-name: respan.ai
+name: Keywords AI
 canonical_url: https://respan.ai
 identity: {}
 provenance:
@@ -20,12 +20,29 @@ provenance:
         extracted_url: https://keywordsai.co
         surrounding_text: "| [Keywords AI](https://keywordsai.co/)                              | A unified DevOps platform for AI software. Keywords AI makes it easy for developers to build LLM applications.                                                                                                                                                                                                                                                                                          |                                                                                                           |"
         confidence: high
+    - id: discovery__www__respan__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Keywords AI
+        extracted_url: https://keywordsai.co
+        surrounding_text: "| [Keywords AI](https://keywordsai.co/)                              | A unified DevOps platform for AI software. Keywords AI makes it easy for developers to build LLM applications.                                                                                                                                                                                                                                                                                          |                                                                                                           |"
+        confidence: high
 metadata:
   github:
     stars: null
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -38,11 +55,14 @@ insights:
   why_it_matters: It gives developers a single control plane to trace agent behavior, run structured evaluations, and ship prompt or model changes with versioning and rollout controls.
   mental_damage: Yet another platform promising to solve AI flakiness, just in case the six observability tools you already stitched together weren't quite enough to explain why your agent suddenly forgot how to reply.
   tags:
-    - observability
-    - evals
-    - prompt-ops
-    - llm-gateway
     - agent-monitoring
+    - evals
+    - llm-gateway
+    - llmops
+    - monitoring
+    - observability
+    - prompt-ops
+    - prompt-optimization
   confidence: high
 curation:
   status: included
@@ -51,6 +71,9 @@ curation:
     - Scraped site describes the product as tracing, evaluating, optimizing, deploying, and monitoring AI agents.
     - Features highlighted include observability, evaluations, prompt optimization, and an LLM gateway in one platform.
     - Appears in Awesome-LLMOps under LLMOps as a unified observability, evals, prompt optimization, and gateway tool.
+    - "Scraped site context: 'Trace, evaluate, and improve AI agents' and 'Unify observability, evals, prompt optimization, and your LLM gateway in one platform'"
+    - "Source-list context: Listed in Awesome-LLMOps under LLMOps for unifying observability, evals, prompt optimization, and LLM gateway"
+    - "README excerpt: Features include 'Trace Evaluate Optimize Deploy Monitor', 'Gateway Observability Evaluations Prompt optimization', and detailed workflows for tracing, evaluating, and optimizing agents"
 placement:
   primary_category: evals
   section: Observability / Tracing / EvalOps
@@ -58,20 +81,20 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-12T16:01:37.694Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.664Z"
+    updated_at: "2026-05-12T15:06:19.301Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-06T22:29:03.175Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: null

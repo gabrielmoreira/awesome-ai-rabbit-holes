@@ -381,7 +381,7 @@
     {
       "id": "github__modelcontextprotocol__servers",
       "kind": "github-repo",
-      "name": "servers",
+      "name": "Everything",
       "canonical_url": "https://github.com/modelcontextprotocol/servers",
       "summary": "The official collection of Model Context Protocol reference server implementations and community server references maintained by the MCP steering group.",
       "tags": [
@@ -3099,7 +3099,7 @@
     {
       "id": "github__langchain-ai__langchainjs",
       "kind": "github-repo",
-      "name": "langchainjs",
+      "name": "LangChain.js",
       "canonical_url": "https://github.com/langchain-ai/langchainjs",
       "summary": "LangChain.js is a TypeScript framework for building LLM-powered applications by chaining together modular components, models, embeddings, and third-party integrations.",
       "tags": [
@@ -4559,7 +4559,7 @@
     {
       "id": "github__awslabs__mcp",
       "kind": "github-repo",
-      "name": "mcp",
+      "name": "AWS Bedrock KB Retrieval",
       "canonical_url": "https://github.com/awslabs/mcp",
       "summary": "A suite of AWS-maintained MCP servers that expose AWS services, documentation, and infrastructure capabilities to MCP-compatible coding assistants and agents.",
       "tags": [
@@ -5400,7 +5400,7 @@
     {
       "id": "github__browsermcp__mcp",
       "kind": "github-repo",
-      "name": "mcp",
+      "name": "Browser MCP",
       "canonical_url": "https://github.com/browsermcp/mcp",
       "summary": "Browser MCP is a Model Context Protocol server and Chrome extension that allows AI applications like Claude and Cursor to control and automate the user's existing browser profile.",
       "tags": [
@@ -7172,7 +7172,7 @@
     {
       "id": "github__microsoft__mcp",
       "kind": "github-repo",
-      "name": "mcp",
+      "name": "microsoft/mcp",
       "canonical_url": "https://github.com/microsoft/mcp",
       "summary": "A Microsoft-maintained catalog and engineering system for building official MCP (Model Context Protocol) servers, including Azure and Fabric integrations.",
       "tags": [
@@ -7886,7 +7886,7 @@
     {
       "id": "github__janhq__cortex.cpp",
       "kind": "github-repo",
-      "name": "Cortex",
+      "name": "cortex.cpp",
       "canonical_url": "https://github.com/janhq/cortex.cpp",
       "summary": "cortex.cpp is a local AI API platform for running GGUF and ONNX models via a local inference server.",
       "tags": [
@@ -11074,7 +11074,7 @@
     {
       "id": "github__fixie-ai__ai-jsx",
       "kind": "github-repo",
-      "name": "ai-jsx",
+      "name": "AI.JSX",
       "canonical_url": "https://github.com/fixie-ai/ai-jsx",
       "summary": "AI.JSX is a JavaScript/TypeScript framework for building AI applications using JSX components, with support for model abstraction, tool usage, document Q&A, and generative UI rendering.",
       "tags": [
@@ -12491,7 +12491,7 @@
     {
       "id": "github__hyperbrowserai__mcp",
       "kind": "github-repo",
-      "name": "mcp",
+      "name": "Hyperbrowser",
       "canonical_url": "https://github.com/hyperbrowserai/mcp",
       "summary": "An MCP server implementation that provides web scraping, structured data extraction, crawling, and browser automation agent access via the Hyperbrowser API.",
       "tags": [
@@ -16050,7 +16050,7 @@
     {
       "id": "github__cyberchitta__llm-context.py",
       "kind": "github-repo",
-      "name": "llm-context",
+      "name": "llm-context.py",
       "canonical_url": "https://github.com/cyberchitta/llm-context.py",
       "summary": "A CLI tool and MCP server that uses rule-based YAML+Markdown configurations to select, filter, and format relevant project files for sharing with LLMs via clipboard or context protocol.",
       "tags": [
@@ -16437,25 +16437,6 @@
       "activity_bucket": "inactive"
     },
     {
-      "id": "github__snowflake-labs__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/snowflake-labs/mcp",
-      "summary": "An MCP server that exposes Snowflake capabilities—including Cortex AI, object management, SQL orchestration, and semantic view querying—to MCP-compatible clients like Claude for Desktop or fast-agent.",
-      "tags": [
-        "mcp",
-        "snowflake",
-        "cortex-ai",
-        "sql",
-        "database-integration"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "promotion_candidate",
-      "stars": 282,
-      "pushed_at": "2026-04-13T17:11:57Z",
-      "activity_bucket": "updated_180d"
-    },
-    {
       "id": "github__kiliczsh__mcp-mongo-server",
       "kind": "github-repo",
       "name": "mcp-mongo-server",
@@ -16472,6 +16453,25 @@
       "lifecycle_status": "promotion_candidate",
       "stars": 282,
       "pushed_at": "2026-02-06T17:08:17Z",
+      "activity_bucket": "updated_180d"
+    },
+    {
+      "id": "github__snowflake-labs__mcp",
+      "kind": "github-repo",
+      "name": "Snowflake-Labs/mcp",
+      "canonical_url": "https://github.com/snowflake-labs/mcp",
+      "summary": "An MCP server that exposes Snowflake capabilities—including Cortex AI, object management, SQL orchestration, and semantic view querying—to MCP-compatible clients like Claude for Desktop or fast-agent.",
+      "tags": [
+        "mcp",
+        "snowflake",
+        "cortex-ai",
+        "sql",
+        "database-integration"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "promotion_candidate",
+      "stars": 282,
+      "pushed_at": "2026-04-13T17:11:57Z",
       "activity_bucket": "updated_180d"
     },
     {
@@ -17178,24 +17178,6 @@
       "activity_bucket": "updated_180d"
     },
     {
-      "id": "github__storybookjs__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/storybookjs/mcp",
-      "summary": "An MCP server and Storybook addon that exposes UI component information and development workflows to AI agents.",
-      "tags": [
-        "mcp",
-        "storybook",
-        "ui-components",
-        "dev-tools"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "promotion_candidate",
-      "stars": 233,
-      "pushed_at": "2026-04-30T12:19:26Z",
-      "activity_bucket": "updated_90d"
-    },
-    {
       "id": "github__postmanlabs__postman-mcp-server",
       "kind": "github-repo",
       "name": "postman-mcp-server",
@@ -17211,6 +17193,24 @@
       "lifecycle_status": "promotion_candidate",
       "stars": 233,
       "pushed_at": "2026-04-30T18:52:29Z",
+      "activity_bucket": "updated_90d"
+    },
+    {
+      "id": "github__storybookjs__mcp",
+      "kind": "github-repo",
+      "name": "storybookjs/addon-mcp",
+      "canonical_url": "https://github.com/storybookjs/mcp",
+      "summary": "An MCP server and Storybook addon that exposes UI component information and development workflows to AI agents.",
+      "tags": [
+        "mcp",
+        "storybook",
+        "ui-components",
+        "dev-tools"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "promotion_candidate",
+      "stars": 233,
+      "pushed_at": "2026-04-30T12:19:26Z",
       "activity_bucket": "updated_90d"
     },
     {
@@ -17439,7 +17439,7 @@
     {
       "id": "github__r2d4__llm.ts",
       "kind": "github-repo",
-      "name": "Typescript",
+      "name": "llm.ts",
       "canonical_url": "https://github.com/r2d4/llm.ts",
       "summary": "A zero-dependency TypeScript library providing a single API to call over 30 LLMs from providers like OpenAI, Cohere, and HuggingFace.",
       "tags": [
@@ -18033,7 +18033,7 @@
     {
       "id": "github__mariadb__mcp",
       "kind": "github-repo",
-      "name": "mcp",
+      "name": "MariaDB/mcp",
       "canonical_url": "https://github.com/mariadb/mcp",
       "summary": "An MCP server implementation that exposes MariaDB databases—including tables, schemas, SQL queries, and vector stores—to AI assistants via the Model Context Protocol.",
       "tags": [
@@ -20002,7 +20002,7 @@
     {
       "id": "github__taskade__mcp",
       "kind": "github-repo",
-      "name": "mcp",
+      "name": "Taskade",
       "canonical_url": "https://github.com/taskade/mcp",
       "summary": "The official Taskade MCP server and OpenAPI-to-MCP code generator, providing 50+ tools to connect AI assistants like Claude and Cursor to Taskade workspaces for managing tasks, projects, agents, and automations.",
       "tags": [
@@ -20825,7 +20825,7 @@
     {
       "id": "github__twilio-labs__mcp",
       "kind": "github-repo",
-      "name": "mcp",
+      "name": "Twilio",
       "canonical_url": "https://github.com/twilio-labs/mcp",
       "summary": "Twilio MCP Monorepo is a Model Context Protocol server that exposes Twilio's public API as MCP tools for AI assistants.",
       "tags": [
@@ -23165,6 +23165,25 @@
       "activity_bucket": "updated_90d"
     },
     {
+      "id": "github__getalby__mcp",
+      "kind": "github-repo",
+      "name": "getAlby/mcp",
+      "canonical_url": "https://github.com/getalby/mcp",
+      "summary": "An MCP server that connects a Bitcoin Lightning wallet to LLMs using Nostr Wallet Connect, enabling AI agents to send and receive payments.",
+      "tags": [
+        "mcp",
+        "bitcoin",
+        "lightning",
+        "nostr",
+        "payments"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 67,
+      "pushed_at": "2026-07-14T07:48:52Z",
+      "activity_bucket": "updated_30d"
+    },
+    {
       "id": "github__kushneryk__join.cloud",
       "kind": "github-repo",
       "name": "join.cloud",
@@ -23182,25 +23201,6 @@
       "stars": 67,
       "pushed_at": "2026-04-08T08:55:26Z",
       "activity_bucket": "updated_180d"
-    },
-    {
-      "id": "github__getalby__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/getalby/mcp",
-      "summary": "An MCP server that connects a Bitcoin Lightning wallet to LLMs using Nostr Wallet Connect, enabling AI agents to send and receive payments.",
-      "tags": [
-        "mcp",
-        "bitcoin",
-        "lightning",
-        "nostr",
-        "payments"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 67,
-      "pushed_at": "2026-07-14T07:48:52Z",
-      "activity_bucket": "updated_30d"
     },
     {
       "id": "github__ukkit__memcord",
@@ -23504,23 +23504,6 @@
       "activity_bucket": "updated_30d"
     },
     {
-      "id": "github__twelvedata__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/twelvedata/mcp",
-      "summary": "Twelve Data MCP Server provides real-time financial market data access via the Model Context Protocol for integration with AI assistants.",
-      "tags": [
-        "mcp",
-        "finance",
-        "data-streaming"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 65,
-      "pushed_at": "2025-10-25T22:46:14Z",
-      "activity_bucket": "updated_365d"
-    },
-    {
       "id": "github__zaizaizhao__mcp-swagger-server",
       "kind": "github-repo",
       "name": "mcp-swagger-server",
@@ -23556,6 +23539,23 @@
       "stars": 65,
       "pushed_at": "2026-05-06T13:56:04Z",
       "activity_bucket": "updated_90d"
+    },
+    {
+      "id": "github__twelvedata__mcp",
+      "kind": "github-repo",
+      "name": "Twelve Data",
+      "canonical_url": "https://github.com/twelvedata/mcp",
+      "summary": "Twelve Data MCP Server provides real-time financial market data access via the Model Context Protocol for integration with AI assistants.",
+      "tags": [
+        "mcp",
+        "finance",
+        "data-streaming"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 65,
+      "pushed_at": "2025-10-25T22:46:14Z",
+      "activity_bucket": "updated_365d"
     },
     {
       "id": "github__aitytech__agentkits-memory",
@@ -25352,23 +25352,6 @@
       "activity_bucket": "updated_365d"
     },
     {
-      "id": "github__waystation-ai__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/waystation-ai/mcp",
-      "summary": "WayStation is a remote MCP server that connects MCP hosts like Claude to productivity apps via no-code integrations.",
-      "tags": [
-        "mcp",
-        "integration",
-        "productivity"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 49,
-      "pushed_at": "2025-09-10T06:42:53Z",
-      "activity_bucket": "updated_365d"
-    },
-    {
       "id": "github__bintocher__mcp-superset",
       "kind": "github-repo",
       "name": "mcp-superset",
@@ -25424,6 +25407,23 @@
       "stars": 49,
       "pushed_at": "2026-04-30T15:13:51Z",
       "activity_bucket": "updated_90d"
+    },
+    {
+      "id": "github__waystation-ai__mcp",
+      "kind": "github-repo",
+      "name": "WayStation-ai/mcp",
+      "canonical_url": "https://github.com/waystation-ai/mcp",
+      "summary": "WayStation is a remote MCP server that connects MCP hosts like Claude to productivity apps via no-code integrations.",
+      "tags": [
+        "mcp",
+        "integration",
+        "productivity"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 49,
+      "pushed_at": "2025-09-10T06:42:53Z",
+      "activity_bucket": "updated_365d"
     },
     {
       "id": "github__hope1026__weppy-roblox-mcp",
@@ -25776,25 +25776,6 @@
       "activity_bucket": "updated_30d"
     },
     {
-      "id": "github__supadata-ai__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/supadata-ai/mcp",
-      "summary": "An MCP server that exposes Supadata's video transcript extraction, web scraping, crawling, and AI-powered structured data extraction as tools for Cursor, Claude, and other LLM clients.",
-      "tags": [
-        "mcp",
-        "scraping",
-        "transcripts",
-        "web-crawling",
-        "llm-tools"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 46,
-      "pushed_at": "2026-03-25T15:15:02Z",
-      "activity_bucket": "updated_180d"
-    },
-    {
       "id": "github__arpitbatra123__mcp-googletasks",
       "kind": "github-repo",
       "name": "mcp-googletasks",
@@ -25849,6 +25830,25 @@
       "stars": 46,
       "pushed_at": "2025-02-03T23:06:57Z",
       "activity_bucket": "inactive"
+    },
+    {
+      "id": "github__supadata-ai__mcp",
+      "kind": "github-repo",
+      "name": "Supadata",
+      "canonical_url": "https://github.com/supadata-ai/mcp",
+      "summary": "An MCP server that exposes Supadata's video transcript extraction, web scraping, crawling, and AI-powered structured data extraction as tools for Cursor, Claude, and other LLM clients.",
+      "tags": [
+        "mcp",
+        "scraping",
+        "transcripts",
+        "web-crawling",
+        "llm-tools"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 46,
+      "pushed_at": "2026-03-25T15:15:02Z",
+      "activity_bucket": "updated_180d"
     },
     {
       "id": "github__zacharypodbela__django-rest-framework-mcp",
@@ -26520,25 +26520,6 @@
       "activity_bucket": "updated_90d"
     },
     {
-      "id": "github__prisma__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/prisma/mcp",
-      "summary": "Prisma provides local and remote MCP servers that expose database management, migration, and querying tools to AI agents and editor workflows.",
-      "tags": [
-        "mcp",
-        "database",
-        "prisma",
-        "agent-tools",
-        "migrations"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 41,
-      "pushed_at": "2025-10-07T09:43:52Z",
-      "activity_bucket": "updated_365d"
-    },
-    {
       "id": "github__mikkoparkkola__mcp-gateway",
       "kind": "github-repo",
       "name": "mcp-gateway",
@@ -26613,6 +26594,25 @@
       "stars": 41,
       "pushed_at": "2026-04-17T01:21:28Z",
       "activity_bucket": "updated_180d"
+    },
+    {
+      "id": "github__prisma__mcp",
+      "kind": "github-repo",
+      "name": "Prisma Postgres",
+      "canonical_url": "https://github.com/prisma/mcp",
+      "summary": "Prisma provides local and remote MCP servers that expose database management, migration, and querying tools to AI agents and editor workflows.",
+      "tags": [
+        "mcp",
+        "database",
+        "prisma",
+        "agent-tools",
+        "migrations"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 41,
+      "pushed_at": "2025-10-07T09:43:52Z",
+      "activity_bucket": "updated_365d"
     },
     {
       "id": "github__menfre01__waveloom",
@@ -27321,24 +27321,6 @@
       "activity_bucket": "updated_30d"
     },
     {
-      "id": "github__screenshotone__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/screenshotone/mcp",
-      "summary": "An official MCP server implementation that exposes the ScreenshotOne API to AI assistants, allowing them to render website screenshots via the `render-website-screenshot` tool.",
-      "tags": [
-        "mcp",
-        "screenshot",
-        "api",
-        "tooling"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 36,
-      "pushed_at": "2025-06-10T17:23:16Z",
-      "activity_bucket": "inactive"
-    },
-    {
       "id": "github__ladislavsopko__mcp-ai-server-visual-studio",
       "kind": "github-repo",
       "name": "mcp-ai-server-visual-studio",
@@ -27431,6 +27413,24 @@
       "stars": 36,
       "pushed_at": "2025-11-27T02:08:57Z",
       "activity_bucket": "updated_365d"
+    },
+    {
+      "id": "github__screenshotone__mcp",
+      "kind": "github-repo",
+      "name": "ScreenshotOne",
+      "canonical_url": "https://github.com/screenshotone/mcp",
+      "summary": "An official MCP server implementation that exposes the ScreenshotOne API to AI assistants, allowing them to render website screenshots via the `render-website-screenshot` tool.",
+      "tags": [
+        "mcp",
+        "screenshot",
+        "api",
+        "tooling"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 36,
+      "pushed_at": "2025-06-10T17:23:16Z",
+      "activity_bucket": "inactive"
     },
     {
       "id": "github__aaronrussell__shifts",
@@ -27931,25 +27931,6 @@
       "activity_bucket": "updated_90d"
     },
     {
-      "id": "github__octoeverywhere__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/octoeverywhere/mcp",
-      "summary": "A free, cloud-hosted MCP server that gives AI agents live access to 3D printer status, webcam snapshots, and print controls via the Model Context Protocol.",
-      "tags": [
-        "mcp",
-        "3d-printing",
-        "hardware-integration",
-        "iot",
-        "agent-tooling"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 33,
-      "pushed_at": "2025-07-03T21:06:12Z",
-      "activity_bucket": "inactive"
-    },
-    {
       "id": "github__inhiblabcore__mcp-image-compression",
       "kind": "github-repo",
       "name": "mcp-image-compression",
@@ -28019,6 +28000,25 @@
       "lifecycle_status": "incubating",
       "stars": 33,
       "pushed_at": "2025-04-24T04:51:41Z",
+      "activity_bucket": "inactive"
+    },
+    {
+      "id": "github__octoeverywhere__mcp",
+      "kind": "github-repo",
+      "name": "OctoEverywhere/mcp",
+      "canonical_url": "https://github.com/octoeverywhere/mcp",
+      "summary": "A free, cloud-hosted MCP server that gives AI agents live access to 3D printer status, webcam snapshots, and print controls via the Model Context Protocol.",
+      "tags": [
+        "mcp",
+        "3d-printing",
+        "hardware-integration",
+        "iot",
+        "agent-tooling"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 33,
+      "pushed_at": "2025-07-03T21:06:12Z",
       "activity_bucket": "inactive"
     },
     {
@@ -28153,6 +28153,25 @@
       "activity_bucket": "updated_180d"
     },
     {
+      "id": "github__infobip__mcp",
+      "kind": "github-repo",
+      "name": "Infobip/mcp",
+      "canonical_url": "https://github.com/infobip/mcp",
+      "summary": "Infobip MCP Servers are remote Model Context Protocol servers that expose Infobip's communication, authentication, and customer data platform capabilities to AI agents.",
+      "tags": [
+        "mcp",
+        "infobip",
+        "communication",
+        "remote-server",
+        "cpaas"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 32,
+      "pushed_at": "2026-06-11T10:20:10Z",
+      "activity_bucket": "updated_90d"
+    },
+    {
       "id": "github__aywengo__kafka-schema-reg-mcp",
       "kind": "github-repo",
       "name": "kafka-schema-reg-mcp",
@@ -28170,25 +28189,6 @@
       "stars": 32,
       "pushed_at": "2026-06-24T06:05:38Z",
       "activity_bucket": "updated_30d"
-    },
-    {
-      "id": "github__infobip__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/infobip/mcp",
-      "summary": "Infobip MCP Servers are remote Model Context Protocol servers that expose Infobip's communication, authentication, and customer data platform capabilities to AI agents.",
-      "tags": [
-        "mcp",
-        "infobip",
-        "communication",
-        "remote-server",
-        "cpaas"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 32,
-      "pushed_at": "2026-06-11T10:20:10Z",
-      "activity_bucket": "updated_90d"
     },
     {
       "id": "github__ooples__mcp-console-automation",
@@ -29439,6 +29439,24 @@
       "activity_bucket": "updated_90d"
     },
     {
+      "id": "github__edubase__mcp",
+      "kind": "github-repo",
+      "name": "EduBase",
+      "canonical_url": "https://github.com/edubase/mcp",
+      "summary": "An MCP server implementation that lets Claude and other LLMs interact with the EduBase e-learning platform to create questions, schedule exams, and analyze results.",
+      "tags": [
+        "mcp",
+        "education",
+        "api-integration",
+        "llm-tooling"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 27,
+      "pushed_at": "2026-05-27T09:37:28Z",
+      "activity_bucket": "updated_90d"
+    },
+    {
       "id": "github__endorhq__cli",
       "kind": "github-repo",
       "name": "endorhq/cli",
@@ -29494,41 +29512,6 @@
       "stars": 27,
       "pushed_at": "2026-03-17T13:00:52Z",
       "activity_bucket": "updated_180d"
-    },
-    {
-      "id": "github__edubase__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/edubase/mcp",
-      "summary": "An MCP server implementation that lets Claude and other LLMs interact with the EduBase e-learning platform to create questions, schedule exams, and analyze results.",
-      "tags": [
-        "mcp",
-        "education",
-        "api-integration",
-        "llm-tooling"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 27,
-      "pushed_at": "2026-05-27T09:37:28Z",
-      "activity_bucket": "updated_90d"
-    },
-    {
-      "id": "github__webdriverio__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/webdriverio/mcp",
-      "summary": "A Model Context Protocol (MCP) server that enables AI assistants to automate web browsers and mobile applications using WebDriverIO.",
-      "tags": [
-        "mcp",
-        "browser-automation",
-        "webdriverio"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 27,
-      "pushed_at": "2026-05-12T08:53:29Z",
-      "activity_bucket": "updated_90d"
     },
     {
       "id": "github__exoticknight__mcp-file-merger",
@@ -29603,6 +29586,23 @@
       "stars": 27,
       "pushed_at": "2026-03-06T18:07:25Z",
       "activity_bucket": "updated_180d"
+    },
+    {
+      "id": "github__webdriverio__mcp",
+      "kind": "github-repo",
+      "name": "webdriverio/mcp",
+      "canonical_url": "https://github.com/webdriverio/mcp",
+      "summary": "A Model Context Protocol (MCP) server that enables AI assistants to automate web browsers and mobile applications using WebDriverIO.",
+      "tags": [
+        "mcp",
+        "browser-automation",
+        "webdriverio"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 27,
+      "pushed_at": "2026-05-12T08:53:29Z",
+      "activity_bucket": "updated_90d"
     },
     {
       "id": "github__vikrantsingh01__adaptive-cards-mcp",
@@ -33361,6 +33361,24 @@
       "activity_bucket": "inactive"
     },
     {
+      "id": "github__bitteprotocol__mcp",
+      "kind": "github-repo",
+      "name": "bitteprotocol/mcp",
+      "canonical_url": "https://github.com/bitteprotocol/mcp",
+      "summary": "A monorepo providing MCP (Model Context Protocol) servers for Bitte AI integrations, allowing developers to connect external services to MCP-compatible editors like Cursor.",
+      "tags": [
+        "mcp",
+        "cursor",
+        "bitte-ai",
+        "integrations"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 14,
+      "pushed_at": "2025-04-09T14:42:28Z",
+      "activity_bucket": "inactive"
+    },
+    {
       "id": "github__tatumio__blockchain-mcp",
       "kind": "github-repo",
       "name": "blockchain-mcp",
@@ -33488,43 +33506,6 @@
       "lifecycle_status": "incubating",
       "stars": 14,
       "pushed_at": "2025-06-26T12:16:20Z",
-      "activity_bucket": "inactive"
-    },
-    {
-      "id": "github__bitteprotocol__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/bitteprotocol/mcp",
-      "summary": "A monorepo providing MCP (Model Context Protocol) servers for Bitte AI integrations, allowing developers to connect external services to MCP-compatible editors like Cursor.",
-      "tags": [
-        "mcp",
-        "cursor",
-        "bitte-ai",
-        "integrations"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 14,
-      "pushed_at": "2025-04-09T14:42:28Z",
-      "activity_bucket": "inactive"
-    },
-    {
-      "id": "github__scrapezy__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/scrapezy/mcp",
-      "summary": "A Model Context Protocol server that exposes Scrapezy's web data extraction API as a tool for MCP-compatible AI assistants like Claude Desktop.",
-      "tags": [
-        "mcp",
-        "web-scraping",
-        "integration",
-        "claude-desktop",
-        "data-extraction"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 14,
-      "pushed_at": "2025-03-11T08:04:20Z",
       "activity_bucket": "inactive"
     },
     {
@@ -33711,6 +33692,25 @@
       "lifecycle_status": "incubating",
       "stars": 14,
       "pushed_at": "2024-12-17T20:22:09Z",
+      "activity_bucket": "inactive"
+    },
+    {
+      "id": "github__scrapezy__mcp",
+      "kind": "github-repo",
+      "name": "Scrapezy",
+      "canonical_url": "https://github.com/scrapezy/mcp",
+      "summary": "A Model Context Protocol server that exposes Scrapezy's web data extraction API as a tool for MCP-compatible AI assistants like Claude Desktop.",
+      "tags": [
+        "mcp",
+        "web-scraping",
+        "integration",
+        "claude-desktop",
+        "data-extraction"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 14,
+      "pushed_at": "2025-03-11T08:04:20Z",
       "activity_bucket": "inactive"
     },
     {
@@ -37193,6 +37193,25 @@
       "activity_bucket": "updated_30d"
     },
     {
+      "id": "github__mintmcp__servers",
+      "kind": "github-repo",
+      "name": "MintMCP",
+      "canonical_url": "https://github.com/mintmcp/servers",
+      "summary": "A suite of hosted MCP servers from MintMCP that connect AI agents to Google and Microsoft email and calendar services.",
+      "tags": [
+        "mcp",
+        "integrations",
+        "calendar",
+        "email",
+        "hosted"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 8,
+      "pushed_at": "2025-09-10T04:29:55Z",
+      "activity_bucket": "updated_365d"
+    },
+    {
       "id": "github__n24q02m__mnemo-mcp",
       "kind": "github-repo",
       "name": "mnemo-mcp",
@@ -37451,25 +37470,6 @@
       "stars": 8,
       "pushed_at": "2026-04-15T14:54:18Z",
       "activity_bucket": "updated_180d"
-    },
-    {
-      "id": "github__mintmcp__servers",
-      "kind": "github-repo",
-      "name": "servers",
-      "canonical_url": "https://github.com/mintmcp/servers",
-      "summary": "A suite of hosted MCP servers from MintMCP that connect AI agents to Google and Microsoft email and calendar services.",
-      "tags": [
-        "mcp",
-        "integrations",
-        "calendar",
-        "email",
-        "hosted"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 8,
-      "pushed_at": "2025-09-10T04:29:55Z",
-      "activity_bucket": "updated_365d"
     },
     {
       "id": "github__shareseer__shareseer-mcp-server",
@@ -38251,23 +38251,6 @@
       "activity_bucket": "updated_30d"
     },
     {
-      "id": "github__urldna__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/urldna/mcp",
-      "summary": "urlDNA MCP Server is a Model Context Protocol server that exposes URL threat intelligence scanning and brand monitoring tools to LLM agents.",
-      "tags": [
-        "mcp",
-        "security",
-        "url-scanning"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 7,
-      "pushed_at": "2026-05-10T16:15:11Z",
-      "activity_bucket": "updated_90d"
-    },
-    {
       "id": "github__pearch-ai__mcp_pearch",
       "kind": "github-repo",
       "name": "mcp_pearch",
@@ -38785,6 +38768,23 @@
       "stars": 7,
       "pushed_at": "2026-07-14T04:09:25Z",
       "activity_bucket": "updated_30d"
+    },
+    {
+      "id": "github__urldna__mcp",
+      "kind": "github-repo",
+      "name": "urlDNA",
+      "canonical_url": "https://github.com/urldna/mcp",
+      "summary": "urlDNA MCP Server is a Model Context Protocol server that exposes URL threat intelligence scanning and brand monitoring tools to LLM agents.",
+      "tags": [
+        "mcp",
+        "security",
+        "url-scanning"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 7,
+      "pushed_at": "2026-05-10T16:15:11Z",
+      "activity_bucket": "updated_90d"
     },
     {
       "id": "github__skullzarmy__vibealive",
@@ -39321,25 +39321,6 @@
       "activity_bucket": "updated_90d"
     },
     {
-      "id": "github__sevalla-hosting__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/sevalla-hosting/mcp",
-      "summary": "An official remote MCP server that exposes the Sevalla PaaS API through two tools, allowing AI agents to discover and execute API calls via a sandboxed V8 environment.",
-      "tags": [
-        "mcp",
-        "paas",
-        "api",
-        "sevalla",
-        "v8-sandbox"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 6,
-      "pushed_at": "2026-04-16T02:47:52Z",
-      "activity_bucket": "updated_180d"
-    },
-    {
       "id": "github__sunflowerslwtech__mcp_creator_growth",
       "kind": "github-repo",
       "name": "mcp_creator_growth",
@@ -39618,6 +39599,25 @@
       "stars": 6,
       "pushed_at": "2025-12-15T06:01:54Z",
       "activity_bucket": "updated_365d"
+    },
+    {
+      "id": "github__sevalla-hosting__mcp",
+      "kind": "github-repo",
+      "name": "sevalla-hosting/mcp",
+      "canonical_url": "https://github.com/sevalla-hosting/mcp",
+      "summary": "An official remote MCP server that exposes the Sevalla PaaS API through two tools, allowing AI agents to discover and execute API calls via a sandboxed V8 environment.",
+      "tags": [
+        "mcp",
+        "paas",
+        "api",
+        "sevalla",
+        "v8-sandbox"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 6,
+      "pushed_at": "2026-04-16T02:47:52Z",
+      "activity_bucket": "updated_180d"
     },
     {
       "id": "github__octoco-ltd__sheetsdata-mcp",
@@ -40382,23 +40382,6 @@
       "activity_bucket": "updated_30d"
     },
     {
-      "id": "github__webvizio__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/webvizio/mcp",
-      "summary": "Webvizio MCP Server is a TypeScript-based Model Context Protocol server that converts website feedback and bug reports into developer tasks for AI coding tools.",
-      "tags": [
-        "mcp",
-        "ai-dev-tools",
-        "feedback-integration"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 5,
-      "pushed_at": "2025-12-18T13:39:36Z",
-      "activity_bucket": "updated_365d"
-    },
-    {
       "id": "github__kindrat86__mcp-deal-flow-signal",
       "kind": "github-repo",
       "name": "mcp-deal-flow-signal",
@@ -41064,6 +41047,23 @@
       "lifecycle_status": "incubating",
       "stars": 5,
       "pushed_at": "2025-08-18T16:22:11Z",
+      "activity_bucket": "updated_365d"
+    },
+    {
+      "id": "github__webvizio__mcp",
+      "kind": "github-repo",
+      "name": "Webvizio/mcp",
+      "canonical_url": "https://github.com/webvizio/mcp",
+      "summary": "Webvizio MCP Server is a TypeScript-based Model Context Protocol server that converts website feedback and bug reports into developer tasks for AI coding tools.",
+      "tags": [
+        "mcp",
+        "ai-dev-tools",
+        "feedback-integration"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 5,
+      "pushed_at": "2025-12-18T13:39:36Z",
       "activity_bucket": "updated_365d"
     },
     {
@@ -41976,24 +41976,6 @@
       "activity_bucket": "updated_180d"
     },
     {
-      "id": "github__perspective-ai__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/perspective-ai/mcp",
-      "summary": "An MCP server that connects AI assistants like Claude and Cursor to Perspective AI's conversational form-replacement platform for designing, analyzing, and automating AI concierges.",
-      "tags": [
-        "mcp",
-        "conversational-ai",
-        "automation",
-        "perspective-ai"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 4,
-      "pushed_at": "2026-04-28T11:14:26Z",
-      "activity_bucket": "updated_90d"
-    },
-    {
       "id": "github__doricstack__mcp-broker",
       "kind": "github-repo",
       "name": "mcp-broker",
@@ -42376,6 +42358,24 @@
       "stars": 4,
       "pushed_at": "2025-03-12T10:30:49Z",
       "activity_bucket": "inactive"
+    },
+    {
+      "id": "github__perspective-ai__mcp",
+      "kind": "github-repo",
+      "name": "Perspective-AI/mcp",
+      "canonical_url": "https://github.com/perspective-ai/mcp",
+      "summary": "An MCP server that connects AI assistants like Claude and Cursor to Perspective AI's conversational form-replacement platform for designing, analyzing, and automating AI concierges.",
+      "tags": [
+        "mcp",
+        "conversational-ai",
+        "automation",
+        "perspective-ai"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 4,
+      "pushed_at": "2026-04-28T11:14:26Z",
+      "activity_bucket": "updated_90d"
     },
     {
       "id": "github__plainsignal__plainsignal-mcp",
@@ -43014,6 +43014,24 @@
       "activity_bucket": "updated_180d"
     },
     {
+      "id": "github__aidemd-mcp__server",
+      "kind": "github-repo",
+      "name": "aidemd-mcp/server",
+      "canonical_url": "https://github.com/aidemd-mcp/server",
+      "summary": "An MCP server that enables AI agents to discover, validate, and scaffold intent-driven .aide specification files alongside existing codebases.",
+      "tags": [
+        "mcp",
+        "spec-driven",
+        "context-engineering",
+        "developer-tools"
+      ],
+      "primary_category": "spec-driven-development",
+      "lifecycle_status": "incubating",
+      "stars": 3,
+      "pushed_at": "2026-05-22T01:27:44Z",
+      "activity_bucket": "updated_90d"
+    },
+    {
       "id": "github__garasegae__aiskillstore",
       "kind": "github-repo",
       "name": "aiskillstore",
@@ -43199,6 +43217,25 @@
       "lifecycle_status": "incubating",
       "stars": 3,
       "pushed_at": "2026-03-31T10:34:51Z",
+      "activity_bucket": "updated_180d"
+    },
+    {
+      "id": "github__botwallet-co__mcp",
+      "kind": "github-repo",
+      "name": "botwallet-co/mcp",
+      "canonical_url": "https://github.com/botwallet-co/mcp",
+      "summary": "An MCP server that gives AI agents a USDC wallet with FROST threshold signing, spending guard rails, and x402 paid API access.",
+      "tags": [
+        "mcp",
+        "payments",
+        "wallet",
+        "agent-infrastructure",
+        "fintech"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 3,
+      "pushed_at": "2026-04-08T22:04:18Z",
       "activity_bucket": "updated_180d"
     },
     {
@@ -44075,25 +44112,6 @@
       "activity_bucket": "updated_365d"
     },
     {
-      "id": "github__botwallet-co__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/botwallet-co/mcp",
-      "summary": "An MCP server that gives AI agents a USDC wallet with FROST threshold signing, spending guard rails, and x402 paid API access.",
-      "tags": [
-        "mcp",
-        "payments",
-        "wallet",
-        "agent-infrastructure",
-        "fintech"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 3,
-      "pushed_at": "2026-04-08T22:04:18Z",
-      "activity_bucket": "updated_180d"
-    },
-    {
       "id": "github__tverney__mcp-agent-memory",
       "kind": "github-repo",
       "name": "mcp-agent-memory",
@@ -44778,24 +44796,6 @@
       "activity_bucket": "updated_30d"
     },
     {
-      "id": "github__aidemd-mcp__server",
-      "kind": "github-repo",
-      "name": "server",
-      "canonical_url": "https://github.com/aidemd-mcp/server",
-      "summary": "An MCP server that enables AI agents to discover, validate, and scaffold intent-driven .aide specification files alongside existing codebases.",
-      "tags": [
-        "mcp",
-        "spec-driven",
-        "context-engineering",
-        "developer-tools"
-      ],
-      "primary_category": "spec-driven-development",
-      "lifecycle_status": "incubating",
-      "stars": 3,
-      "pushed_at": "2026-05-22T01:27:44Z",
-      "activity_bucket": "updated_90d"
-    },
-    {
       "id": "github__aliafsahnoudeh__shahnameh-mcp-server",
       "kind": "github-repo",
       "name": "shahnameh-mcp-server",
@@ -45370,6 +45370,44 @@
       "activity_bucket": "updated_30d"
     },
     {
+      "id": "github__agentmetal__mcp",
+      "kind": "github-repo",
+      "name": "agentmetal/mcp",
+      "canonical_url": "https://github.com/agentmetal/mcp",
+      "summary": "An MCP server that allows AI agents to discover, provision, and manage Linux VPS instances using USDC or credit card payments via HTTP 402.",
+      "tags": [
+        "mcp",
+        "infrastructure-as-code",
+        "vps",
+        "web3-payments",
+        "autonomous-agents"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 2,
+      "pushed_at": "2026-07-02T03:45:22Z",
+      "activity_bucket": "updated_30d"
+    },
+    {
+      "id": "github__agentmodule__mcp",
+      "kind": "github-repo",
+      "name": "AgentModule/mcp",
+      "canonical_url": "https://github.com/agentmodule/mcp",
+      "summary": "An MCP server providing deterministic EU AI Act compliance logic, runtime benchmarks, and semantic telemetry for autonomous agents.",
+      "tags": [
+        "mcp",
+        "compliance",
+        "eu-ai-act",
+        "knowledge-retrieval",
+        "agent-infrastructure"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 2,
+      "pushed_at": "2026-04-04T02:42:50Z",
+      "activity_bucket": "updated_180d"
+    },
+    {
       "id": "github__aletaindex__aletaindex-fin-narratives",
       "kind": "github-repo",
       "name": "aletaindex-fin-narratives",
@@ -45773,6 +45811,25 @@
       "stars": 2,
       "pushed_at": "2025-04-03T06:06:40Z",
       "activity_bucket": "inactive"
+    },
+    {
+      "id": "github__clamp-sh__mcp",
+      "kind": "github-repo",
+      "name": "clamp-sh/mcp",
+      "canonical_url": "https://github.com/clamp-sh/mcp",
+      "summary": "An MCP server that exposes Clamp web analytics data—including traffic, visitors, events, funnels, and alerts—as tools for MCP-compatible editors and agents like Cursor, Claude Code, and VS Code Copilot.",
+      "tags": [
+        "mcp",
+        "analytics",
+        "cursor",
+        "claude-code",
+        "stdio"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 2,
+      "pushed_at": "2026-07-07T18:51:41Z",
+      "activity_bucket": "updated_30d"
     },
     {
       "id": "github__lukelamb__claude-terminal-mcp",
@@ -46261,6 +46318,25 @@
       "activity_bucket": "updated_90d"
     },
     {
+      "id": "github__grovs-io__mcp",
+      "kind": "github-repo",
+      "name": "grovs-io/mcp",
+      "canonical_url": "https://github.com/grovs-io/mcp",
+      "summary": "An MCP server that lets AI assistants manage deep links, attribution, and analytics on the Grovs mobile growth platform via natural language.",
+      "tags": [
+        "mcp",
+        "mobile-growth",
+        "deep-linking",
+        "analytics",
+        "grovs"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 2,
+      "pushed_at": "2026-05-13T10:36:57Z",
+      "activity_bucket": "updated_90d"
+    },
+    {
       "id": "github__haiku-trading__haiku-mcp-server",
       "kind": "github-repo",
       "name": "haiku-mcp-server",
@@ -46632,119 +46708,6 @@
       "stars": 2,
       "pushed_at": "2026-02-10T04:11:06Z",
       "activity_bucket": "updated_180d"
-    },
-    {
-      "id": "github__agentmetal__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/agentmetal/mcp",
-      "summary": "An MCP server that allows AI agents to discover, provision, and manage Linux VPS instances using USDC or credit card payments via HTTP 402.",
-      "tags": [
-        "mcp",
-        "infrastructure-as-code",
-        "vps",
-        "web3-payments",
-        "autonomous-agents"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 2,
-      "pushed_at": "2026-07-02T03:45:22Z",
-      "activity_bucket": "updated_30d"
-    },
-    {
-      "id": "github__agentmodule__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/agentmodule/mcp",
-      "summary": "An MCP server providing deterministic EU AI Act compliance logic, runtime benchmarks, and semantic telemetry for autonomous agents.",
-      "tags": [
-        "mcp",
-        "compliance",
-        "eu-ai-act",
-        "knowledge-retrieval",
-        "agent-infrastructure"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 2,
-      "pushed_at": "2026-04-04T02:42:50Z",
-      "activity_bucket": "updated_180d"
-    },
-    {
-      "id": "github__clamp-sh__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/clamp-sh/mcp",
-      "summary": "An MCP server that exposes Clamp web analytics data—including traffic, visitors, events, funnels, and alerts—as tools for MCP-compatible editors and agents like Cursor, Claude Code, and VS Code Copilot.",
-      "tags": [
-        "mcp",
-        "analytics",
-        "cursor",
-        "claude-code",
-        "stdio"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 2,
-      "pushed_at": "2026-07-07T18:51:41Z",
-      "activity_bucket": "updated_30d"
-    },
-    {
-      "id": "github__grovs-io__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/grovs-io/mcp",
-      "summary": "An MCP server that lets AI assistants manage deep links, attribution, and analytics on the Grovs mobile growth platform via natural language.",
-      "tags": [
-        "mcp",
-        "mobile-growth",
-        "deep-linking",
-        "analytics",
-        "grovs"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 2,
-      "pushed_at": "2026-05-13T10:36:57Z",
-      "activity_bucket": "updated_90d"
-    },
-    {
-      "id": "github__platfone-com__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/platfone-com/mcp",
-      "summary": "An MCP server that lets AI agents obtain virtual phone numbers and receive SMS verification codes via structured tool calls.",
-      "tags": [
-        "mcp",
-        "sms",
-        "verification",
-        "agent-tooling",
-        "typescript"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 2,
-      "pushed_at": "2026-05-05T16:00:16Z",
-      "activity_bucket": "updated_90d"
-    },
-    {
-      "id": "github__var-gg__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/var-gg/mcp",
-      "summary": "A Model Context Protocol server for managing project-specific variable names and constants to standardize terminology across teams and assist LLMs in generating code with consistent naming.",
-      "tags": [
-        "mcp",
-        "naming-conventions",
-        "cursor-ide",
-        "project-metadata"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 2,
-      "pushed_at": "2025-11-04T03:36:09Z",
-      "activity_bucket": "updated_365d"
     },
     {
       "id": "github__antonio-mello-ai__mcp-airflow",
@@ -47484,6 +47447,25 @@
       "activity_bucket": "updated_365d"
     },
     {
+      "id": "github__platfone-com__mcp",
+      "kind": "github-repo",
+      "name": "platfone-com/mcp",
+      "canonical_url": "https://github.com/platfone-com/mcp",
+      "summary": "An MCP server that lets AI agents obtain virtual phone numbers and receive SMS verification codes via structured tool calls.",
+      "tags": [
+        "mcp",
+        "sms",
+        "verification",
+        "agent-tooling",
+        "typescript"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 2,
+      "pushed_at": "2026-05-05T16:00:16Z",
+      "activity_bucket": "updated_90d"
+    },
+    {
       "id": "github__freelexho__power-bi-mcp",
       "kind": "github-repo",
       "name": "power-bi-mcp",
@@ -48098,6 +48080,24 @@
       "activity_bucket": "updated_180d"
     },
     {
+      "id": "github__var-gg__mcp",
+      "kind": "github-repo",
+      "name": "var-gg/mcp",
+      "canonical_url": "https://github.com/var-gg/mcp",
+      "summary": "A Model Context Protocol server for managing project-specific variable names and constants to standardize terminology across teams and assist LLMs in generating code with consistent naming.",
+      "tags": [
+        "mcp",
+        "naming-conventions",
+        "cursor-ide",
+        "project-metadata"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 2,
+      "pushed_at": "2025-11-04T03:36:09Z",
+      "activity_bucket": "updated_365d"
+    },
+    {
       "id": "github__veroq-ai__veroq-mcp",
       "kind": "github-repo",
       "name": "veroq-mcp",
@@ -48408,24 +48408,6 @@
       "lifecycle_status": "incubating",
       "stars": 1,
       "pushed_at": "2026-07-18T02:33:51Z",
-      "activity_bucket": "updated_30d"
-    },
-    {
-      "id": "github__marcoramilli__slopcodemonitor.ai",
-      "kind": "github-repo",
-      "name": "AICodeSlopMonitor",
-      "canonical_url": "https://github.com/marcoramilli/slopcodemonitor.ai",
-      "summary": "A daily-updated dashboard that scans trending GitHub repositories using the SynthScan fingerprint engine to detect and score AI-generated 'slop' code patterns.",
-      "tags": [
-        "code-review",
-        "ai-detection",
-        "quality-analysis",
-        "dashboard"
-      ],
-      "primary_category": "evals",
-      "lifecycle_status": "incubating",
-      "stars": 1,
-      "pushed_at": "2026-07-13T11:30:31Z",
       "activity_bucket": "updated_30d"
     },
     {
@@ -49509,6 +49491,25 @@
       "activity_bucket": "updated_90d"
     },
     {
+      "id": "github__everstake__mcp",
+      "kind": "github-repo",
+      "name": "everstake/mcp",
+      "canonical_url": "https://github.com/everstake/mcp",
+      "summary": "An MCP server that exposes Everstake's staking data, product information, and network metrics to AI agents.",
+      "tags": [
+        "mcp",
+        "staking",
+        "blockchain",
+        "go",
+        "web3"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 1,
+      "pushed_at": "2026-07-10T14:10:29Z",
+      "activity_bucket": "updated_30d"
+    },
+    {
       "id": "github__falsifylab__falsifylab-alpha-mcp",
       "kind": "github-repo",
       "name": "falsifylab-alpha-mcp",
@@ -49618,6 +49619,24 @@
       "activity_bucket": "updated_180d"
     },
     {
+      "id": "github__gavelin-ai__mcp",
+      "kind": "github-repo",
+      "name": "gavelin-ai/mcp",
+      "canonical_url": "https://github.com/gavelin-ai/mcp",
+      "summary": "Gavelin is a hosted MCP server that provides AI agents with searchable access to bills and speaker-attributed hearing transcripts from all 50 US state legislatures.",
+      "tags": [
+        "mcp",
+        "legal",
+        "legislative-data",
+        "domain-server"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 1,
+      "pushed_at": "2026-04-15T22:26:48Z",
+      "activity_bucket": "updated_180d"
+    },
+    {
       "id": "github__gblinproject__gblin-mcp",
       "kind": "github-repo",
       "name": "gblin-mcp",
@@ -49689,6 +49708,24 @@
       "stars": 1,
       "pushed_at": "2026-03-05T00:16:03Z",
       "activity_bucket": "updated_180d"
+    },
+    {
+      "id": "github__getpoststack__mcp",
+      "kind": "github-repo",
+      "name": "getpoststack/mcp",
+      "canonical_url": "https://github.com/getpoststack/mcp",
+      "summary": "An MCP server for the PostStack Email API that provides over 100 tools for AI agents to manage transactional email, contacts, and deliverability.",
+      "tags": [
+        "mcp",
+        "email-api",
+        "agents",
+        "transactional-email"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 1,
+      "pushed_at": "2026-05-27T18:47:13Z",
+      "activity_bucket": "updated_90d"
     },
     {
       "id": "github__giskard09__giskard-oasis",
@@ -50361,97 +50398,6 @@
       "stars": 1,
       "pushed_at": "2026-07-06T09:56:11Z",
       "activity_bucket": "updated_30d"
-    },
-    {
-      "id": "github__everstake__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/everstake/mcp",
-      "summary": "An MCP server that exposes Everstake's staking data, product information, and network metrics to AI agents.",
-      "tags": [
-        "mcp",
-        "staking",
-        "blockchain",
-        "go",
-        "web3"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 1,
-      "pushed_at": "2026-07-10T14:10:29Z",
-      "activity_bucket": "updated_30d"
-    },
-    {
-      "id": "github__gavelin-ai__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/gavelin-ai/mcp",
-      "summary": "Gavelin is a hosted MCP server that provides AI agents with searchable access to bills and speaker-attributed hearing transcripts from all 50 US state legislatures.",
-      "tags": [
-        "mcp",
-        "legal",
-        "legislative-data",
-        "domain-server"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 1,
-      "pushed_at": "2026-04-15T22:26:48Z",
-      "activity_bucket": "updated_180d"
-    },
-    {
-      "id": "github__getpoststack__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/getpoststack/mcp",
-      "summary": "An MCP server for the PostStack Email API that provides over 100 tools for AI agents to manage transactional email, contacts, and deliverability.",
-      "tags": [
-        "mcp",
-        "email-api",
-        "agents",
-        "transactional-email"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 1,
-      "pushed_at": "2026-05-27T18:47:13Z",
-      "activity_bucket": "updated_90d"
-    },
-    {
-      "id": "github__microservices-sh__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/microservices-sh/mcp",
-      "summary": "Local stdio MCP server exposing an MCP stdio interface to agentic workflows on Cloudflare.",
-      "tags": [
-        "mcp",
-        "cloudflare",
-        "devtools",
-        "agent-workflow"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 1,
-      "pushed_at": "2026-06-18T08:19:05Z",
-      "activity_bucket": "updated_90d"
-    },
-    {
-      "id": "github__prereason__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/prereason/mcp",
-      "summary": "An MCP server that exposes 17 pre-reasoned financial market briefings—including trend signals, regime classifications, and cross-asset correlations—to AI agents via the Model Context Protocol.",
-      "tags": [
-        "mcp",
-        "finance",
-        "context-api",
-        "market-data"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 1,
-      "pushed_at": "2026-04-12T06:13:06Z",
-      "activity_bucket": "updated_180d"
     },
     {
       "id": "github__ivan-saorin__mcp-expr-lang",
@@ -51181,6 +51127,24 @@
       "activity_bucket": "updated_180d"
     },
     {
+      "id": "github__microservices-sh__mcp",
+      "kind": "github-repo",
+      "name": "microservices-sh/mcp",
+      "canonical_url": "https://github.com/microservices-sh/mcp",
+      "summary": "Local stdio MCP server exposing an MCP stdio interface to agentic workflows on Cloudflare.",
+      "tags": [
+        "mcp",
+        "cloudflare",
+        "devtools",
+        "agent-workflow"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 1,
+      "pushed_at": "2026-06-18T08:19:05Z",
+      "activity_bucket": "updated_90d"
+    },
+    {
       "id": "github__davison-francis__min8t-sdks",
       "kind": "github-repo",
       "name": "min8t-sdks",
@@ -51607,6 +51571,24 @@
       "activity_bucket": "updated_30d"
     },
     {
+      "id": "github__prereason__mcp",
+      "kind": "github-repo",
+      "name": "PreReason/mcp",
+      "canonical_url": "https://github.com/prereason/mcp",
+      "summary": "An MCP server that exposes 17 pre-reasoned financial market briefings—including trend signals, regime classifications, and cross-asset correlations—to AI agents via the Model Context Protocol.",
+      "tags": [
+        "mcp",
+        "finance",
+        "context-api",
+        "market-data"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 1,
+      "pushed_at": "2026-04-12T06:13:06Z",
+      "activity_bucket": "updated_180d"
+    },
+    {
       "id": "github__fdcommercial__property-finance-mcp",
       "kind": "github-repo",
       "name": "property-finance-mcp",
@@ -52030,6 +52012,24 @@
       "stars": 1,
       "pushed_at": "2025-09-11T06:03:23Z",
       "activity_bucket": "updated_365d"
+    },
+    {
+      "id": "github__marcoramilli__slopcodemonitor.ai",
+      "kind": "github-repo",
+      "name": "slopcodemonitor.ai",
+      "canonical_url": "https://github.com/marcoramilli/slopcodemonitor.ai",
+      "summary": "A daily-updated dashboard that scans trending GitHub repositories using the SynthScan fingerprint engine to detect and score AI-generated 'slop' code patterns.",
+      "tags": [
+        "code-review",
+        "ai-detection",
+        "quality-analysis",
+        "dashboard"
+      ],
+      "primary_category": "evals",
+      "lifecycle_status": "incubating",
+      "stars": 1,
+      "pushed_at": "2026-07-13T11:30:31Z",
+      "activity_bucket": "updated_30d"
     },
     {
       "id": "github__user0856__snaprender-integrations",
@@ -52681,6 +52681,25 @@
       "activity_bucket": "updated_30d"
     },
     {
+      "id": "github__flyflow-devs__.github",
+      "kind": "github-repo",
+      "name": ".github",
+      "canonical_url": "https://github.com/flyflow-devs/.github",
+      "summary": "Flyflow is open-source API middleware written in Go that sits in front of LLM applications to reduce latency, increase token limits, and add enterprise security.",
+      "tags": [
+        "middleware",
+        "llm-ops",
+        "latency",
+        "self-hosted",
+        "golang"
+      ],
+      "primary_category": "ai-frameworks",
+      "lifecycle_status": "incubating",
+      "stars": 0,
+      "pushed_at": "2024-09-19T04:55:09Z",
+      "activity_bucket": "inactive"
+    },
+    {
       "id": "github__runyourempire__4da",
       "kind": "github-repo",
       "name": "4da",
@@ -53204,25 +53223,6 @@
       "activity_bucket": "updated_90d"
     },
     {
-      "id": "github__flyflow-devs__.github",
-      "kind": "github-repo",
-      "name": "Flyflow",
-      "canonical_url": "https://github.com/flyflow-devs/.github",
-      "summary": "Flyflow is open-source API middleware written in Go that sits in front of LLM applications to reduce latency, increase token limits, and add enterprise security.",
-      "tags": [
-        "middleware",
-        "llm-ops",
-        "latency",
-        "self-hosted",
-        "golang"
-      ],
-      "primary_category": "ai-frameworks",
-      "lifecycle_status": "incubating",
-      "stars": 0,
-      "pushed_at": "2024-09-19T04:55:09Z",
-      "activity_bucket": "inactive"
-    },
-    {
       "id": "github__foundrynet__forge-mcp",
       "kind": "github-repo",
       "name": "forge-mcp",
@@ -53516,24 +53516,6 @@
       "lifecycle_status": "incubating",
       "stars": 0,
       "pushed_at": "2026-04-25T20:41:40Z",
-      "activity_bucket": "updated_90d"
-    },
-    {
-      "id": "github__shipstatic__mcp",
-      "kind": "github-repo",
-      "name": "mcp",
-      "canonical_url": "https://github.com/shipstatic/mcp",
-      "summary": "An MCP server that lets AI agents instantly deploy static sites and prototypes to *.shipstatic.com without accounts or API keys.",
-      "tags": [
-        "mcp",
-        "static-hosting",
-        "deploy",
-        "agent-tooling"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": 0,
-      "pushed_at": "2026-05-04T22:47:37Z",
       "activity_bucket": "updated_90d"
     },
     {
@@ -54168,6 +54150,24 @@
       "activity_bucket": "updated_90d"
     },
     {
+      "id": "github__shipstatic__mcp",
+      "kind": "github-repo",
+      "name": "shipstatic/mcp",
+      "canonical_url": "https://github.com/shipstatic/mcp",
+      "summary": "An MCP server that lets AI agents instantly deploy static sites and prototypes to *.shipstatic.com without accounts or API keys.",
+      "tags": [
+        "mcp",
+        "static-hosting",
+        "deploy",
+        "agent-tooling"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": 0,
+      "pushed_at": "2026-05-04T22:47:37Z",
+      "activity_bucket": "updated_90d"
+    },
+    {
       "id": "github__trackerfitness729-jpg__sitelauncher-mcp-server",
       "kind": "github-repo",
       "name": "sitelauncher-mcp-server",
@@ -54608,44 +54608,6 @@
       "activity_bucket": null
     },
     {
-      "id": "awesome__copilot__github__com__llms__txt",
-      "kind": "website",
-      "name": "`llms.txt`",
-      "canonical_url": "https://awesome-copilot.github.com/llms.txt",
-      "summary": "A community-driven directory and learning hub for GitHub Copilot custom agents, skills, instructions, and configuration packs.",
-      "tags": [
-        "copilot",
-        "skills",
-        "directory",
-        "agents",
-        "github"
-      ],
-      "primary_category": "awesome-awesomes",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "x402__tunedfor__ai",
-      "kind": "website",
-      "name": "`x402.tunedfor.ai`",
-      "canonical_url": "https://x402.tunedfor.ai",
-      "summary": "A crypto market data API that exposes aggregated cross-exchange orderflow, derived metrics, and regime detection via an MCP server and x402 pay-per-call protocol.",
-      "tags": [
-        "mcp",
-        "crypto",
-        "market-data",
-        "x402",
-        "agent-data"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "10web__io",
       "kind": "website",
       "name": "10Web",
@@ -54891,6 +54853,23 @@
         "autonomous"
       ],
       "primary_category": "coding-agents",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "aifordevelopers__substack__com",
+      "kind": "website",
+      "name": "aifordevelopers.substack.com",
+      "canonical_url": "https://aifordevelopers.substack.com",
+      "summary": "A Substack newsletter and curated hub delivering weekly updates on AI tools, frameworks, APIs, and tips for developers building with AI.",
+      "tags": [
+        "newsletter",
+        "ai-tools",
+        "developer-resources"
+      ],
+      "primary_category": "newsletters-and-feeds",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
@@ -55207,6 +55186,25 @@
       "activity_bucket": null
     },
     {
+      "id": "awesome__copilot__github__com",
+      "kind": "website",
+      "name": "Awesome GitHub Copilot",
+      "canonical_url": "https://awesome-copilot.github.com",
+      "summary": "A community-curated directory of reusable agents, instructions, skills, hooks, workflows, and plugins specifically designed to customize and extend GitHub Copilot.",
+      "tags": [
+        "copilot",
+        "skills",
+        "directory",
+        "awesome-list",
+        "extensions"
+      ],
+      "primary_category": "awesome-awesomes",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "glama__ai__mcp__servers",
       "kind": "website",
       "name": "Awesome MCP Servers",
@@ -55219,25 +55217,6 @@
         "developer-tools"
       ],
       "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "awesome__copilot__github__com",
-      "kind": "website",
-      "name": "awesome-copilot.github.com",
-      "canonical_url": "https://awesome-copilot.github.com",
-      "summary": "A community-curated directory of reusable agents, instructions, skills, hooks, workflows, and plugins specifically designed to customize and extend GitHub Copilot.",
-      "tags": [
-        "copilot",
-        "skills",
-        "directory",
-        "awesome-list",
-        "extensions"
-      ],
-      "primary_category": "awesome-awesomes",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
@@ -55257,6 +55236,41 @@
         "developer-tools"
       ],
       "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "awesomeagents__substack__com",
+      "kind": "website",
+      "name": "awesomeagents.substack.com",
+      "canonical_url": "https://awesomeagents.substack.com",
+      "summary": "A Substack newsletter delivering weekly updates, project spotlights, and releases from the LangChain and AI agent ecosystem.",
+      "tags": [
+        "newsletter",
+        "agents",
+        "langchain",
+        "digest"
+      ],
+      "primary_category": "newsletters-and-feeds",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "awesomelangchain__substack__com",
+      "kind": "website",
+      "name": "awesomelangchain.substack.com",
+      "canonical_url": "https://awesomelangchain.substack.com",
+      "summary": "awesomelangchain.substack.com is a Substack newsletter focused on LangChain-related tools, tutorials, and updates.",
+      "tags": [
+        "newsletter",
+        "langchain",
+        "ai"
+      ],
+      "primary_category": "newsletters-and-feeds",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
@@ -55288,27 +55302,11 @@
       "canonical_url": "https://base44.com",
       "summary": "Base44 is a no-code AI app builder that generates full-stack applications from natural language prompts.",
       "tags": [
-        "no-code",
-        "app-builder",
         "ai-platform",
-        "prompt-to-app"
-      ],
-      "primary_category": "app-builders",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "www__base44__com",
-      "kind": "website",
-      "name": "base44",
-      "canonical_url": "https://www.base44.com",
-      "summary": "Base44 is a prompt-to-app builder that generates full-stack internal tools and web applications from natural language descriptions.",
-      "tags": [
         "app-builder",
-        "prompt-to-app",
         "internal-tools",
+        "no-code",
+        "prompt-to-app",
         "scaffolding"
       ],
       "primary_category": "app-builders",
@@ -55429,25 +55427,6 @@
       "activity_bucket": null
     },
     {
-      "id": "bugsnag__com",
-      "kind": "website",
-      "name": "Bugsnag",
-      "canonical_url": "https://bugsnag.com",
-      "summary": "An error and performance monitoring platform that provides observability via crash reporting, distributed tracing, and an MCP server for AI-powered fix suggestions.",
-      "tags": [
-        "observability",
-        "error-monitoring",
-        "mcp",
-        "tracing",
-        "debugging"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "www__builder__io",
       "kind": "website",
       "name": "Builder.io Fusion",
@@ -55503,6 +55482,25 @@
       "activity_bucket": null
     },
     {
+      "id": "cachly__dev",
+      "kind": "website",
+      "name": "cachly.dev",
+      "canonical_url": "https://cachly.dev",
+      "summary": "A memory layer for AI coding assistants that bootstraps a knowledge base from git history to provide context on past fixes and architectural decisions.",
+      "tags": [
+        "mcp",
+        "memory",
+        "git",
+        "context-engineering",
+        "knowledge-graph"
+      ],
+      "primary_category": "context-engineering",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "capacity__so",
       "kind": "website",
       "name": "Capacity",
@@ -55550,6 +55548,24 @@
         "apify",
         "scraping",
         "api"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "celiums__io",
+      "kind": "website",
+      "name": "celiums.io",
+      "canonical_url": "https://celiums.io",
+      "summary": "Celiums.io is a knowledge and memory server implementation for the Model Context Protocol (MCP).",
+      "tags": [
+        "mcp",
+        "memory",
+        "knowledge-base",
+        "context"
       ],
       "primary_category": "mcp",
       "lifecycle_status": "incubating",
@@ -55680,6 +55696,23 @@
         "terminal"
       ],
       "primary_category": "context-engineering",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "glama__ai__mcp__clients",
+      "kind": "website",
+      "name": "clients",
+      "canonical_url": "https://glama.ai/mcp/clients",
+      "summary": "A directory page listing available MCP-compatible client applications for connecting to Model Context Protocol servers.",
+      "tags": [
+        "mcp",
+        "directory",
+        "clients"
+      ],
+      "primary_category": "awesome-awesomes",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
@@ -55982,43 +56015,6 @@
         "market-data",
         "agent-tools",
         "api-integration"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "fulcradynamics__com",
-      "kind": "website",
-      "name": "Context by Fulcra",
-      "canonical_url": "https://fulcradynamics.com",
-      "summary": "A unified, human-owned memory layer that allows AI agents to read and contribute persistent context across different platforms and sessions.",
-      "tags": [
-        "mcp",
-        "memory",
-        "personal-data",
-        "context-layer"
-      ],
-      "primary_category": "context-engineering",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "www__fulcradynamics__com",
-      "kind": "website",
-      "name": "Context by Fulcra",
-      "canonical_url": "https://www.fulcradynamics.com",
-      "summary": "Fulcra Dynamics provides a personal data platform that aggregates wearable and app data into a unified timeline, exposing it via a personal MCP server for AI agents and LLMs.",
-      "tags": [
-        "mcp",
-        "personal-data",
-        "context",
-        "agents",
-        "life-api"
       ],
       "primary_category": "mcp",
       "lifecycle_status": "incubating",
@@ -56727,7 +56723,7 @@
     {
       "id": "gitlab__com__elementfm__mcp",
       "kind": "website",
-      "name": "elementfm/mcp",
+      "name": "ELEMENT.FM",
       "canonical_url": "https://gitlab.com/elementfm/mcp",
       "summary": "A Model Context Protocol (MCP) server implementation hosted on GitLab with minimal public documentation or description.",
       "tags": [
@@ -56987,25 +56983,10 @@
       "canonical_url": "https://fine.dev",
       "summary": "An AI-powered coding agent platform designed to automate and delegate development tasks across repositories and workflows.",
       "tags": [
-        "coding-agents",
-        "automation",
-        "ai-workflow"
-      ],
-      "primary_category": "coding-agents",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "www__fine__dev",
-      "kind": "website",
-      "name": "Fine",
-      "canonical_url": "https://www.fine.dev",
-      "summary": "Fine is a platform for creating and deploying autonomous AI agents specifically designed to automate software development tasks like writing code, tests, and documentation.",
-      "tags": [
         "ai-agents",
+        "ai-workflow",
         "automation",
+        "coding-agents",
         "dev-workflow"
       ],
       "primary_category": "coding-agents",
@@ -57227,23 +57208,6 @@
         "remote-server"
       ],
       "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "glama__ai__mcp__clients",
-      "kind": "website",
-      "name": "glama.ai/mcp/clients",
-      "canonical_url": "https://glama.ai/mcp/clients",
-      "summary": "A directory page listing available MCP-compatible client applications for connecting to Model Context Protocol servers.",
-      "tags": [
-        "mcp",
-        "directory",
-        "clients"
-      ],
-      "primary_category": "awesome-awesomes",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
@@ -57485,6 +57449,25 @@
       "activity_bucket": null
     },
     {
+      "id": "sascharo__github__io__gxtract",
+      "kind": "website",
+      "name": "gxtract",
+      "canonical_url": "https://sascharo.github.io/gxtract",
+      "summary": "GXtract is a Model Context Protocol (MCP) server that integrates with GroundX to extract architectural and implementation details from scientific papers and research documents.",
+      "tags": [
+        "mcp",
+        "groundx",
+        "document-extraction",
+        "research",
+        "fastmcp"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "www__hackerone__com__product__code",
       "kind": "website",
       "name": "HackerOne Code",
@@ -57535,6 +57518,42 @@
         "discovery"
       ],
       "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "mcp__1mcpserver__com__mcp",
+      "kind": "website",
+      "name": "https://mcp.1mcpserver.com/mcp/",
+      "canonical_url": "https://mcp.1mcpserver.com/mcp",
+      "summary": "A web directory for discovering Model Context Protocol (MCP) servers.",
+      "tags": [
+        "mcp",
+        "directory",
+        "discovery",
+        "protocol"
+      ],
+      "primary_category": "awesome-awesomes",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "mcp__pfvc__io__mcp",
+      "kind": "website",
+      "name": "https://mcp.pfvc.io/mcp/",
+      "canonical_url": "https://mcp.pfvc.io/mcp",
+      "summary": "A community-maintained directory listing Model Context Protocol (MCP) servers for extending AI coding assistants with external tooling.",
+      "tags": [
+        "mcp",
+        "directory",
+        "servers",
+        "discovery"
+      ],
+      "primary_category": "awesome-awesomes",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
@@ -57673,29 +57692,13 @@
       "canonical_url": "https://respan.ai",
       "summary": "Respan is an LLM engineering platform that unifies observability, evaluations, prompt optimization, and model gateway capabilities for teams building AI agents.",
       "tags": [
-        "observability",
+        "agent-monitoring",
         "evals",
-        "prompt-ops",
         "llm-gateway",
-        "agent-monitoring"
-      ],
-      "primary_category": "evals",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "www__respan__ai",
-      "kind": "website",
-      "name": "Keywords AI",
-      "canonical_url": "https://www.respan.ai",
-      "summary": "Respan is a unified LLM engineering platform offering observability, evaluations, prompt optimization, deployment, and monitoring for AI agents.",
-      "tags": [
-        "observability",
-        "evals",
         "llmops",
         "monitoring",
+        "observability",
+        "prompt-ops",
         "prompt-optimization"
       ],
       "primary_category": "evals",
@@ -57891,6 +57894,25 @@
       "activity_bucket": null
     },
     {
+      "id": "leanctx__com",
+      "kind": "website",
+      "name": "leanctx.com",
+      "canonical_url": "https://leanctx.com",
+      "summary": "LeanCTX is an open-source Rust binary that sits between AI coding tools and codebases to visualize, compress, and control what context reaches the model.",
+      "tags": [
+        "context-compression",
+        "context-window",
+        "token-optimization",
+        "memory",
+        "ai-tooling"
+      ],
+      "primary_category": "context-engineering",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "www__librechat__ai",
       "kind": "website",
       "name": "LibreChat",
@@ -58000,7 +58022,7 @@
     {
       "id": "huyenchip__com__llama__police__html",
       "kind": "website",
-      "name": "llama-police",
+      "name": "llama-police.html",
       "canonical_url": "https://huyenchip.com/llama-police.html",
       "summary": "A curated, auto-updating directory of open source LLM tools and developers, now hosted at GoodAIList.com.",
       "tags": [
@@ -58044,6 +58066,25 @@
         "llm",
         "resources",
         "learning"
+      ],
+      "primary_category": "awesome-awesomes",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "awesome__copilot__github__com__llms__txt",
+      "kind": "website",
+      "name": "llms.txt",
+      "canonical_url": "https://awesome-copilot.github.com/llms.txt",
+      "summary": "A community-driven directory and learning hub for GitHub Copilot custom agents, skills, instructions, and configuration packs.",
+      "tags": [
+        "copilot",
+        "skills",
+        "directory",
+        "agents",
+        "github"
       ],
       "primary_category": "awesome-awesomes",
       "lifecycle_status": "incubating",
@@ -58341,42 +58382,6 @@
         "agent-monitoring"
       ],
       "primary_category": "evals",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "mcp__1mcpserver__com__mcp",
-      "kind": "website",
-      "name": "mcp",
-      "canonical_url": "https://mcp.1mcpserver.com/mcp",
-      "summary": "A web directory for discovering Model Context Protocol (MCP) servers.",
-      "tags": [
-        "mcp",
-        "directory",
-        "discovery",
-        "protocol"
-      ],
-      "primary_category": "awesome-awesomes",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "mcp__pfvc__io__mcp",
-      "kind": "website",
-      "name": "mcp",
-      "canonical_url": "https://mcp.pfvc.io/mcp",
-      "summary": "A community-maintained directory listing Model Context Protocol (MCP) servers for extending AI coding assistants with external tooling.",
-      "tags": [
-        "mcp",
-        "directory",
-        "servers",
-        "discovery"
-      ],
-      "primary_category": "awesome-awesomes",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
@@ -58871,23 +58876,6 @@
       "activity_bucket": null
     },
     {
-      "id": "aifordevelopers__substack__com",
-      "kind": "website",
-      "name": "newsletter",
-      "canonical_url": "https://aifordevelopers.substack.com",
-      "summary": "A Substack newsletter and curated hub delivering weekly updates on AI tools, frameworks, APIs, and tips for developers building with AI.",
-      "tags": [
-        "newsletter",
-        "ai-tools",
-        "developer-resources"
-      ],
-      "primary_category": "newsletters-and-feeds",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "gpt__nexus",
       "kind": "website",
       "name": "NexusGPT",
@@ -59080,6 +59068,24 @@
         "foundation-model"
       ],
       "primary_category": "coding-agents",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "openclawmp__stepfun__com",
+      "kind": "website",
+      "name": "openclawmp.stepfun.com",
+      "canonical_url": "https://openclawmp.stepfun.com",
+      "summary": "A Chinese-language marketplace and community hub for discovering, sharing, and installing reusable Agent Skills, plugins, triggers, and communication adapters.",
+      "tags": [
+        "agent-skills",
+        "marketplace",
+        "community",
+        "plugins"
+      ],
+      "primary_category": "skills",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
@@ -59467,6 +59473,24 @@
       "activity_bucket": null
     },
     {
+      "id": "prior__cg3__io",
+      "kind": "website",
+      "name": "prior.cg3.io",
+      "canonical_url": "https://prior.cg3.io",
+      "summary": "A shared knowledge exchange and MCP server that lets AI coding agents search for solutions discovered by other agents to avoid redundant debugging and token waste.",
+      "tags": [
+        "mcp",
+        "agent-memory",
+        "knowledge-sharing",
+        "context-engineering"
+      ],
+      "primary_category": "mcp",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "prode__ai",
       "kind": "website",
       "name": "Prode.ai",
@@ -59548,28 +59572,11 @@
       "canonical_url": "https://promptlayer.com",
       "summary": "PromptLayer is a developer platform for versioning, testing, and monitoring prompts and AI agents through robust evals, tracing, and regression sets.",
       "tags": [
-        "llmops",
-        "prompt-management",
         "evals",
-        "tracing"
-      ],
-      "primary_category": "evals",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "www__promptlayer__com",
-      "kind": "website",
-      "name": "PromptLayer 🍰",
-      "canonical_url": "https://www.promptlayer.com",
-      "summary": "A prompt management platform providing versioning, evaluations, and observability for AI engineering teams.",
-      "tags": [
-        "prompt-management",
-        "observability",
         "evaluations",
         "llmops",
+        "observability",
+        "prompt-management",
         "tracing"
       ],
       "primary_category": "evals",
@@ -60198,62 +60205,6 @@
       "activity_bucket": null
     },
     {
-      "id": "sascharo__github__io__gxtract",
-      "kind": "website",
-      "name": "sascharo.github.io/gxtract",
-      "canonical_url": "https://sascharo.github.io/gxtract",
-      "summary": "GXtract is a Model Context Protocol (MCP) server that integrates with GroundX to extract architectural and implementation details from scientific papers and research documents.",
-      "tags": [
-        "mcp",
-        "groundx",
-        "document-extraction",
-        "research",
-        "fastmcp"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "schemaflow__dev",
-      "kind": "website",
-      "name": "SchemaFlow",
-      "canonical_url": "https://schemaflow.dev",
-      "summary": "A website and implementation focused on defining and serving Model Context Protocol (MCP) servers for structured data and schema handling.",
-      "tags": [
-        "mcp",
-        "schema",
-        "protocol",
-        "servers"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "www__schemaflow__dev",
-      "kind": "website",
-      "name": "SchemaFlow",
-      "canonical_url": "https://www.schemaflow.dev",
-      "summary": "An infinite canvas for system design that uses an MCP server to automatically map codebases into visual AWS and GCP architecture diagrams.",
-      "tags": [
-        "system-design",
-        "mcp",
-        "architecture",
-        "diagramming",
-        "visual-coding"
-      ],
-      "primary_category": "ai-dev-extensions",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "scrapegraphai__com",
       "kind": "website",
       "name": "ScrapeGraphAI",
@@ -60643,41 +60594,6 @@
       "activity_bucket": null
     },
     {
-      "id": "awesomeagents__substack__com",
-      "kind": "website",
-      "name": "Subscribe to the newsletter",
-      "canonical_url": "https://awesomeagents.substack.com",
-      "summary": "A Substack newsletter delivering weekly updates, project spotlights, and releases from the LangChain and AI agent ecosystem.",
-      "tags": [
-        "newsletter",
-        "agents",
-        "langchain",
-        "digest"
-      ],
-      "primary_category": "newsletters-and-feeds",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "awesomelangchain__substack__com",
-      "kind": "website",
-      "name": "Subscribe to the newsletter",
-      "canonical_url": "https://awesomelangchain.substack.com",
-      "summary": "awesomelangchain.substack.com is a Substack newsletter focused on LangChain-related tools, tutorials, and updates.",
-      "tags": [
-        "newsletter",
-        "langchain",
-        "ai"
-      ],
-      "primary_category": "newsletters-and-feeds",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "supadata__ai",
       "kind": "website",
       "name": "Supadata",
@@ -60911,44 +60827,6 @@
         "github-integration"
       ],
       "primary_category": "coding-agents",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "tavily__com",
-      "kind": "website",
-      "name": "Tavily",
-      "canonical_url": "https://tavily.com",
-      "summary": "A real-time search and extraction engine designed specifically to ground AI agents and RAG workflows with fresh web data.",
-      "tags": [
-        "rag",
-        "web-search",
-        "context-window",
-        "agents",
-        "real-time-data"
-      ],
-      "primary_category": "context-engineering",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "www__tavily__com",
-      "kind": "website",
-      "name": "Tavily",
-      "canonical_url": "https://www.tavily.com",
-      "summary": "Tavily is a real-time web search and content extraction API designed to ground AI agents and RAG workflows with fresh, structured web data.",
-      "tags": [
-        "search-api",
-        "rag",
-        "agent-infra",
-        "web-scraping",
-        "mcp"
-      ],
-      "primary_category": "mcp",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
@@ -61198,25 +61076,6 @@
       "activity_bucket": null
     },
     {
-      "id": "trypromptly__com",
-      "kind": "website",
-      "name": "trypromptly",
-      "canonical_url": "https://trypromptly.com",
-      "summary": "Trypromptly.com is a no-code platform for building and deploying AI-powered applications and chatbots using a visual workflow builder.",
-      "tags": [
-        "no-code",
-        "ai-builder",
-        "llm-apps",
-        "chatbots",
-        "visual-workflow"
-      ],
-      "primary_category": "app-builders",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "www__usetusk__ai",
       "kind": "website",
       "name": "Tusk",
@@ -61413,24 +61272,6 @@
         "llm"
       ],
       "primary_category": "ai-frameworks",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "www__swebench__com",
-      "kind": "website",
-      "name": "varies",
-      "canonical_url": "https://www.swebench.com",
-      "summary": "A leaderboard website tracking and comparing the performance of AI coding agents on the SWE-bench software engineering benchmark.",
-      "tags": [
-        "evals",
-        "benchmark",
-        "coding-agents",
-        "leaderboard"
-      ],
-      "primary_category": "evals",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
@@ -61640,80 +61481,6 @@
       "activity_bucket": null
     },
     {
-      "id": "cachly__dev",
-      "kind": "website",
-      "name": "Website",
-      "canonical_url": "https://cachly.dev",
-      "summary": "A memory layer for AI coding assistants that bootstraps a knowledge base from git history to provide context on past fixes and architectural decisions.",
-      "tags": [
-        "mcp",
-        "memory",
-        "git",
-        "context-engineering",
-        "knowledge-graph"
-      ],
-      "primary_category": "context-engineering",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "celiums__io",
-      "kind": "website",
-      "name": "Website",
-      "canonical_url": "https://celiums.io",
-      "summary": "Celiums.io is a knowledge and memory server implementation for the Model Context Protocol (MCP).",
-      "tags": [
-        "mcp",
-        "memory",
-        "knowledge-base",
-        "context"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "leanctx__com",
-      "kind": "website",
-      "name": "Website",
-      "canonical_url": "https://leanctx.com",
-      "summary": "LeanCTX is an open-source Rust binary that sits between AI coding tools and codebases to visualize, compress, and control what context reaches the model.",
-      "tags": [
-        "context-compression",
-        "context-window",
-        "token-optimization",
-        "memory",
-        "ai-tooling"
-      ],
-      "primary_category": "context-engineering",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "prior__cg3__io",
-      "kind": "website",
-      "name": "Website",
-      "canonical_url": "https://prior.cg3.io",
-      "summary": "A shared knowledge exchange and MCP server that lets AI coding agents search for solutions discovered by other agents to avoid redundant debugging and token waste.",
-      "tags": [
-        "mcp",
-        "agent-memory",
-        "knowledge-sharing",
-        "context-engineering"
-      ],
-      "primary_category": "mcp",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
       "id": "www__weco__ai",
       "kind": "website",
       "name": "Weco Observe",
@@ -61880,6 +61647,24 @@
       "activity_bucket": null
     },
     {
+      "id": "www__swebench__com",
+      "kind": "website",
+      "name": "www.swebench.com",
+      "canonical_url": "https://www.swebench.com",
+      "summary": "A leaderboard website tracking and comparing the performance of AI coding agents on the SWE-bench software engineering benchmark.",
+      "tags": [
+        "evals",
+        "benchmark",
+        "coding-agents",
+        "leaderboard"
+      ],
+      "primary_category": "evals",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
       "id": "x__com__e2b",
       "kind": "website",
       "name": "X (Twitter)",
@@ -61892,6 +61677,25 @@
         "agents"
       ],
       "primary_category": "ai-frameworks",
+      "lifecycle_status": "incubating",
+      "stars": null,
+      "pushed_at": null,
+      "activity_bucket": null
+    },
+    {
+      "id": "x402__tunedfor__ai",
+      "kind": "website",
+      "name": "x402.tunedfor.ai",
+      "canonical_url": "https://x402.tunedfor.ai",
+      "summary": "A crypto market data API that exposes aggregated cross-exchange orderflow, derived metrics, and regime detection via an MCP server and x402 pay-per-call protocol.",
+      "tags": [
+        "mcp",
+        "crypto",
+        "market-data",
+        "x402",
+        "agent-data"
+      ],
+      "primary_category": "mcp",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,
@@ -62022,24 +61826,6 @@
         "multiplayer"
       ],
       "primary_category": "ai-ides-editors",
-      "lifecycle_status": "incubating",
-      "stars": null,
-      "pushed_at": null,
-      "activity_bucket": null
-    },
-    {
-      "id": "openclawmp__stepfun__com",
-      "kind": "website",
-      "name": "水产市场",
-      "canonical_url": "https://openclawmp.stepfun.com",
-      "summary": "A Chinese-language marketplace and community hub for discovering, sharing, and installing reusable Agent Skills, plugins, triggers, and communication adapters.",
-      "tags": [
-        "agent-skills",
-        "marketplace",
-        "community",
-        "plugins"
-      ],
-      "primary_category": "skills",
       "lifecycle_status": "incubating",
       "stars": null,
       "pushed_at": null,

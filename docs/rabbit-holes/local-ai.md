@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # Local AI
 
 Local runtimes, desktop apps, and tooling for running AI on your own hardware.

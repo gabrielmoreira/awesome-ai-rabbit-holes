@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # IDEs & Editors
 
 Development environments built around coding assistance.

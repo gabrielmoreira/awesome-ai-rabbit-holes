@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # Prompt & Context Engineering
 
 Memory, retrieval, compression, and prompt-shaping systems for getting the right context in front of a model.
@@ -319,7 +320,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `second-brain` `pkm` `mcp` `retrieval` `langchain`
   </details>
 
-- **[llm-context](https://github.com/cyberchitta/llm-context.py)** `⭐ 306` `updated ≤30d` A CLI tool and MCP server that uses rule-based YAML+Markdown configurations to select, filter, and format relevant project files for sharing with LLMs via clipboard or context protocol. <details><summary>More about</summary>
+- **[llm-context.py](https://github.com/cyberchitta/llm-context.py)** `⭐ 306` `updated ≤30d` A CLI tool and MCP server that uses rule-based YAML+Markdown configurations to select, filter, and format relevant project files for sharing with LLMs via clipboard or context protocol. <details><summary>More about</summary>
 
   It replaces the manual, token-budget guessing game of copying files into chat with composable rules that automate context selection for tasks like code review and documentation.
 
@@ -1205,6 +1206,15 @@ _These are new or low-traffic entries being watched._
   `context-engineering` `mcp` `enterprise` `governance` `data`
   </details>
 
+- **[cachly.dev](https://cachly.dev)** A memory layer for AI coding assistants that bootstraps a knowledge base from git history to provide context on past fixes and architectural decisions. <details><summary>More about</summary>
+
+  It eliminates the need to manually re-explain codebase architecture and past bugs to AI assistants by automatically indexing git history into a causal knowledge graph.
+
+  _The dream of never explaining your stack again is only possible if you trust a tool to tell your AI exactly why you made that regrettable architectural choice three months ago._
+
+  `mcp` `memory` `git` `context-engineering` `knowledge-graph`
+  </details>
+
 - **[Chat Templates](https://huggingface.co/blog/chat-templates)** Chat templates are Jinja-based formatting specifications for converting chat message histories into model-ready token strings in Hugging Face tokenizers. <details><summary>More about</summary>
 
   They prevent silent performance degradation by ensuring input formatting matches what chat models were trained with, eliminating a common source of hard-to-debug errors.
@@ -1221,15 +1231,6 @@ _These are new or low-traffic entries being watched._
   _We have finally built middleware to watch the agents that were supposed to be watching the code for us, completing the circle of recursive oversight._
 
   `agent-ops` `token-optimization` `context-management` `terminal`
-  </details>
-
-- **[Context by Fulcra](https://fulcradynamics.com)** A unified, human-owned memory layer that allows AI agents to read and contribute persistent context across different platforms and sessions. <details><summary>More about</summary>
-
-  It solves the fragmented context problem by providing a single source of truth for personal data and state that can be shared across multiple agents via a Life API and MCP server.
-
-  _The dream of a 'Personal Data OS' is just a fancy way of saying we're now managing a database of our own existence so our agents don't forget we're allergic to peanuts every time we start a new chat._
-
-  `mcp` `memory` `personal-data` `context-layer`
   </details>
 
 - **[Context7](https://context7.com)** Context7 is an Upstash service that pulls up-to-date, version-specific documentation and code examples for libraries directly into AI coding tools like Cursor, Claude Code, and Windsurf. <details><summary>More about</summary>
@@ -1266,6 +1267,15 @@ _These are new or low-traffic entries being watched._
   _Because the hottest new engineering bottleneck isn't deploying code, it's realizing your team's secret sauce is a brittle string buried in a spreadsheet somewhere._
 
   `prompt-management` `promptops` `testing` `team-collaboration` `api`
+  </details>
+
+- **[leanctx.com](https://leanctx.com)** LeanCTX is an open-source Rust binary that sits between AI coding tools and codebases to visualize, compress, and control what context reaches the model. <details><summary>More about</summary>
+
+  It cuts token costs and context bloat by stripping noise—like comments and whitespace—while preserving structure, and adds session memory and cross-agent context control across 29+ editors and assistants.
+
+  _You now get a live dashboard to watch your AI context window fill up with garbage, because apparently 'please ignore the comments' was too ambiguous for a trillion-parameter model._
+
+  `context-compression` `context-window` `token-optimization` `memory` `ai-tooling`
   </details>
 
 - **[MemClaw](https://memclaw.me/en/claw)** MemClaw is a persistent memory extension that adds isolated, project-scoped memory workspaces and a web-based management interface to the OpenClaw coding assistant. <details><summary>More about</summary>
@@ -1322,15 +1332,6 @@ _These are new or low-traffic entries being watched._
   `rag` `mcp` `context` `retrieval` `sdk`
   </details>
 
-- **[Tavily](https://tavily.com)** A real-time search and extraction engine designed specifically to ground AI agents and RAG workflows with fresh web data. <details><summary>More about</summary>
-
-  It solves the 'stale knowledge' problem by providing developers with a high-speed, API-driven way to feed current web context into LLMs without building a custom crawler.
-
-  _The comforting realization that your agent's 'reasoning' is actually just a very fast Google search filtered through a prompt._
-
-  `rag` `web-search` `context-window` `agents` `real-time-data`
-  </details>
-
 - **[Unblocked MCP](https://getunblocked.com/unblocked-mcp)** Unblocked MCP Server provides synthesized context from codebase, docs, PRs, and Slack to AI coding agents via the Model Context Protocol. <details><summary>More about</summary>
 
   It reduces agent hallucination and rework by delivering decision-grade, reconciled context from live organizational sources.
@@ -1347,22 +1348,4 @@ _These are new or low-traffic entries being watched._
   _We have finally solved the problem of AI forgetting what it did five minutes ago, only to realize that an agent with perfect recollection of its own errors is just a very efficient way to repeat them._
 
   `agent-memory` `mcp` `context-retrieval` `open-source`
-  </details>
-
-- **[Website](https://cachly.dev)** A memory layer for AI coding assistants that bootstraps a knowledge base from git history to provide context on past fixes and architectural decisions. <details><summary>More about</summary>
-
-  It eliminates the need to manually re-explain codebase architecture and past bugs to AI assistants by automatically indexing git history into a causal knowledge graph.
-
-  _The dream of never explaining your stack again is only possible if you trust a tool to tell your AI exactly why you made that regrettable architectural choice three months ago._
-
-  `mcp` `memory` `git` `context-engineering` `knowledge-graph`
-  </details>
-
-- **[Website](https://leanctx.com)** LeanCTX is an open-source Rust binary that sits between AI coding tools and codebases to visualize, compress, and control what context reaches the model. <details><summary>More about</summary>
-
-  It cuts token costs and context bloat by stripping noise—like comments and whitespace—while preserving structure, and adds session memory and cross-agent context control across 29+ editors and assistants.
-
-  _You now get a live dashboard to watch your AI context window fill up with garbage, because apparently 'please ignore the comments' was too ambiguous for a trillion-parameter model._
-
-  `context-compression` `context-window` `token-optimization` `memory` `ai-tooling`
   </details>

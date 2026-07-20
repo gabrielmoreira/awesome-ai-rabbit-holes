@@ -1,0 +1,41 @@
+name: Submit a tool
+description: Suggest a developer-facing AI tool for the catalog intake.
+title: "[Tool]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the suggestion. `config/sources.yml` is the canonical catalog intake.
+        Maintainers will add accepted submissions there; scheduled automation runs the full catalog sync and owns README.md, docs/rabbit-holes/*.md, catalog/catalog.json, and catalog/items/**/*.yml.
+
+  - type: input
+    id: url
+    attributes:
+      label: Canonical tool URL
+      description: Prefer the main GitHub repository or primary product URL.
+      placeholder: https://github.com/example/tool
+    validations:
+      required: true
+
+  - type: textarea
+    id: relevance
+    attributes:
+      label: Why it belongs
+      description: Explain how this helps software developers and what the tool does.
+      placeholder: This tool helps developers...
+    validations:
+      required: true
+
+  - type: input
+    id: alternatives
+    attributes:
+      label: Related catalog entries
+      description: Optional links to similar or related tools already in the catalog.
+
+  - type: checkboxes
+    id: contract
+    attributes:
+      label: Submission contract
+      options:
+        - label: I submitted the canonical tool URL and understand that scheduled automation owns generated catalog output.
+          required: true

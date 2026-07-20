@@ -1,11 +1,11 @@
-import { loadCatalogItems, saveCatalogItem } from "./data.ts"
+import { loadGeneratedCatalogItems, saveCatalogItem } from "./data.ts"
 import { applyLifecycleRules, normalizeLoadedItem } from "./core.ts"
 import { summarizeDistinctCounts } from "./reporting.ts"
 import { readProcessing, runClaimedWork, updateProcessing } from "./processing.ts"
 import { writeReadmeToCache } from "./readme-cache.ts"
 import { loadSettings } from "./settings.ts"
 import type { AppSettings, CatalogItem, GitHubReadmeProvenance } from "./types.ts"
-import { fetchGitHubReadmeResult, fetchGitHubRepo, parseGitHubUrl, verifyGitHubRepo } from "../support/github.ts"
+import { fetchGitHubReadmeResult, fetchGitHubRepo, parseGitHubUrl, resolveGitHubRepoDataIdentity, verifyGitHubRepo } from "../support/github.ts"
 import { createProgressHeartbeatPrinter } from "../support/progress.ts";
 
 const MAX_CONSECUTIVE_GITHUB_UNAVAILABLE = 20;
@@ -37,6 +37,7 @@ function applyStarLifecycle(item: CatalogItem, threshold: number): CatalogItem {
   });
 }
 
+
 export async function enrichWithGitHub(item: CatalogItem, token?: string): Promise<CatalogItem> {
   if (item.kind !== "github-repo" || !item.identity.github_repo) return item;
 
@@ -48,10 +49,11 @@ export async function enrichWithGitHub(item: CatalogItem, token?: string): Promi
 
   if (!data) return item;
 
+  const apiIdentity = resolveGitHubRepoDataIdentity(data);
   const previousReadme = item.metadata.github.readme ?? null;
   let readmeProvenance: GitHubReadmeProvenance | null = previousReadme;
   if (readmeResult.body !== null) {
-    writeReadmeToCache(owner, repo, readmeResult.body);
+    writeReadmeToCache(apiIdentity?.owner ?? owner, apiIdentity?.repo ?? repo, readmeResult.body);
     readmeProvenance = {
       fetched_at: new Date().toISOString(),
       bytes: Buffer.byteLength(readmeResult.body, "utf8"),
@@ -66,6 +68,8 @@ export async function enrichWithGitHub(item: CatalogItem, token?: string): Promi
       github: {
         ...item.metadata.github,
         stars: data.stars,
+        full_name: apiIdentity ? data.full_name : null,
+        html_url: apiIdentity ? data.html_url : null,
         forks: data.forks,
         license: data.license,
         archived: data.archived,
@@ -145,7 +149,7 @@ export async function runStars(
   deps: RunStarsDeps = {},
 ): Promise<void> {
   const settings = deps.loadSettings?.() ?? loadSettings();
-  const allItems = deps.loadItems?.() ?? loadCatalogItems();
+  const allItems = deps.loadItems?.() ?? loadGeneratedCatalogItems();
   const saveItem = deps.saveItem ?? saveCatalogItem;
   const refreshItem = deps.refreshItem ?? ((item: CatalogItem, currentToken: string | undefined, threshold: number) => refreshItemStars(item, currentToken, threshold));
   const log = deps.log ?? ((line: string) => console.log(line));

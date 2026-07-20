@@ -14,14 +14,18 @@ const SYNC_ONLY_ENV_KEYS = [
   "CATALOG_LLM_CONCURRENCY",
   "CATALOG_LLM_TIMEOUT_MS",
   "CATALOG_CATEGORIZE_BUDGET_MINUTES",
+  "CATALOG_MAX_SOURCE_LIST_NEW_ITEMS",
 ] as const;
 
 type WorkflowStep = {
   id?: string;
+  if?: string;
   name?: string;
   run?: string;
+  shell?: string;
   uses?: string;
   env?: Record<string, unknown>;
+  with?: Record<string, unknown>;
 };
 
 type WorkflowJob = {
@@ -73,12 +77,12 @@ describe("workflow llm task drift", () => {
     expect(workflow).not.toContain('cron: "0 4 */3 * *"');
   });
 
-  it("uses the current llm:doctor task name everywhere", () => {
-    for (const relativePath of Object.values(WORKFLOWS)) {
-      const contents = readWorkflowText(relativePath);
-      expect(contents).toContain("mise run llm:doctor --limit 5");
-      expect(contents).not.toContain("pi:free:doctor");
-    }
+  it("keeps model probes on the scheduled LLM sync only", () => {
+    const refresh = readWorkflowText(WORKFLOWS.refresh);
+    const generatedDocs = readWorkflowText(WORKFLOWS.smoke);
+    expect(refresh).toContain("mise run llm:doctor --limit 5");
+    expect(refresh).not.toContain("pi:free:doctor");
+    expect(generatedDocs).not.toContain("llm:doctor");
   });
 
   it("uses shared catalog verification tasks instead of ad hoc test steps", () => {
@@ -93,24 +97,19 @@ describe("workflow llm task drift", () => {
     expect(prChecks).not.toContain("mise run catalog:test");
     expect(prChecks).not.toContain("mise run catalog:validate");
 
-    for (const relativePath of Object.values(WORKFLOWS)) {
-      const contents = readWorkflowText(relativePath);
-      expect(contents).toContain("mise run catalog:check");
-      expect(contents).not.toContain("mise run catalog:test");
-    }
+    const refresh = readWorkflowText(WORKFLOWS.refresh);
+    expect(refresh).toContain("mise run catalog:check");
+    expect(refresh).not.toContain("mise run catalog:test");
+
+    const generatedDocs = readWorkflowText(WORKFLOWS.smoke);
+    expect(generatedDocs).toContain("mise run catalog:render");
+    expect(generatedDocs).not.toContain("mise run catalog:check");
+    expect(generatedDocs).not.toContain("mise run catalog:sync");
   });
 });
 
 describe("workflow sync contract", () => {
-  it("runs catalog checks before model probes and sync in both catalog workflows", () => {
-    const smokeSteps = getWorkflowSteps(WORKFLOWS.smoke, "dry-run");
-    expect(findStepIndex(smokeSteps, "Run catalog checks")).toBeLessThan(
-      findStepIndex(smokeSteps, "Probe top pi-free fallback models"),
-    );
-    expect(findStepIndex(smokeSteps, "Run catalog checks")).toBeLessThan(
-      findStepIndex(smokeSteps, "Run bounded catalog sync smoke test"),
-    );
-
+  it("runs preflight checks before model probes and the scheduled sync", () => {
     const refreshSteps = getWorkflowSteps(WORKFLOWS.refresh, "sync");
     expect(findStepIndex(refreshSteps, "Run catalog preflight checks")).toBeLessThan(
       findStepIndex(refreshSteps, "Probe top pi-free fallback models"),
@@ -118,12 +117,19 @@ describe("workflow sync contract", () => {
     expect(findStepIndex(refreshSteps, "Run catalog preflight checks")).toBeLessThan(
       findStepIndex(refreshSteps, "Sync catalog metadata and generated output"),
     );
+  });
 
+  it("rerenders and validates after a push race without repeating the LLM sync", () => {
+    const refreshSteps = getWorkflowSteps(WORKFLOWS.refresh, "sync");
     const commitStep = findStep(refreshSteps, "Commit and push generated updates");
     const commitRun = commitStep.run ?? "";
-    expect(commitRun.indexOf("mise run catalog:check")).toBeGreaterThanOrEqual(0);
-    expect(commitRun.indexOf("mise run catalog:sync")).toBeGreaterThanOrEqual(0);
-    expect(commitRun.indexOf("mise run catalog:check")).toBeLessThan(commitRun.indexOf("mise run catalog:sync"));
+    expect(commitRun).toContain("mise run catalog:render");
+    expect(commitRun).toContain("mise run catalog:validate");
+    expect(commitRun).not.toContain("mise run catalog:sync");
+    expect(commitRun).not.toContain("mise run catalog:check");
+    expect(commitRun.indexOf("mise run catalog:render")).toBeLessThan(
+      commitRun.indexOf("mise run catalog:validate"),
+    );
   });
 
   it("keeps sync-only env scoped to the sync boundary in refresh-metadata", () => {
@@ -141,6 +147,7 @@ describe("workflow sync contract", () => {
       CATALOG_FAIL_ON_PROCESSING_ERRORS: "0",
       CATALOG_LLM_CONCURRENCY: "2",
       CATALOG_LLM_TIMEOUT_MS: "60000",
+      CATALOG_MAX_SOURCE_LIST_NEW_ITEMS: "25",
     });
     expect(syncStep.env).toHaveProperty("CATALOG_CATEGORIZE_BUDGET_MINUTES");
 
@@ -150,10 +157,10 @@ describe("workflow sync contract", () => {
     }
 
     const commitRun = commitStep.run ?? "";
-    expect(commitRun).toContain('CATALOG_FAIL_ON_PROCESSING_ERRORS="0"');
-    expect(commitRun).toContain('CATALOG_LLM_CONCURRENCY="2"');
-    expect(commitRun).toContain('CATALOG_LLM_TIMEOUT_MS="60000"');
-    expect(commitRun).toContain('CATALOG_CATEGORIZE_BUDGET_MINUTES="$sync_budget_minutes" mise run catalog:sync');
+    expect(commitRun).not.toContain("CATALOG_FAIL_ON_PROCESSING_ERRORS");
+    expect(commitRun).not.toContain("CATALOG_LLM_CONCURRENCY");
+    expect(commitRun).not.toContain("CATALOG_LLM_TIMEOUT_MS");
+    expect(commitRun).not.toContain("CATALOG_CATEGORIZE_BUDGET_MINUTES");
   });
 
   it("keys catalog checkpoints to authoritative repo inputs", () => {
@@ -162,23 +169,86 @@ describe("workflow sync contract", () => {
     expect(contents).toContain("catalog/items/**/*.yml");
   });
 
+  it("appends catalog gaps to the GitHub step summary after sync", () => {
+    const steps = getWorkflowSteps(WORKFLOWS.refresh, "sync");
+    const syncIndex = findStepIndex(steps, "Sync catalog metadata and generated output");
+    const gapsIndex = findStepIndex(steps, "Append catalog gaps to job summary");
+    const gapsStep = findStep(steps, "Append catalog gaps to job summary");
+    expect(syncIndex).toBeLessThan(gapsIndex);
+    expect(gapsStep.run).toContain("mise run catalog:gaps");
+    expect(gapsStep.shell).toBe("bash");
+    expect(gapsStep.run).toContain("$GITHUB_STEP_SUMMARY");
+  });
+
   it("restores and refreshes catalog item checkpoints around the expensive sync", () => {
     const steps = getWorkflowSteps(WORKFLOWS.refresh, "sync");
     const restoreIndex = findStepIndex(steps, "Restore catalog items checkpoint");
     const syncIndex = findStepIndex(steps, "Sync catalog metadata and generated output");
+    const detectIndex = findStepIndex(steps, "Detect generated changes");
     const prePushUploadIndex = findStepIndex(steps, "Upload catalog items checkpoint before push");
     const commitIndex = findStepIndex(steps, "Commit and push generated updates");
     const postPushUploadIndex = findStepIndex(steps, "Refresh catalog items checkpoint after push");
     expect(restoreIndex).toBeLessThan(syncIndex);
-    expect(syncIndex).toBeLessThan(prePushUploadIndex);
+    expect(syncIndex).toBeLessThan(detectIndex);
+    expect(detectIndex).toBeLessThan(prePushUploadIndex);
     expect(prePushUploadIndex).toBeLessThan(commitIndex);
     expect(commitIndex).toBeLessThan(postPushUploadIndex);
 
     const restoreStep = findStep(steps, "Restore catalog items checkpoint");
+    const detectStep = findStep(steps, "Detect generated changes");
     const prePushUploadStep = findStep(steps, "Upload catalog items checkpoint before push");
     const postPushUploadStep = findStep(steps, "Refresh catalog items checkpoint after push");
     expect(restoreStep.uses).toBe("actions/download-artifact@v5");
+    expect(detectStep.if).toContain("!cancelled()");
+    expect(prePushUploadStep.if).toContain("!cancelled()");
+    const checkpointSafetyStep = findStep(steps, "Validate catalog items for failure checkpoint");
+    expect(checkpointSafetyStep.if).toContain("steps.catalog-sync.outcome == 'failure'");
+    expect(checkpointSafetyStep.run).toContain("mise run catalog:render");
+    expect(checkpointSafetyStep.run).toContain("mise run catalog:validate");
+    expect(prePushUploadStep.if).toContain("steps.catalog-sync.outcome == 'success'");
+    expect(prePushUploadStep.if).toContain("steps.checkpoint-safety.outcome == 'success'");
     expect(prePushUploadStep.uses).toBe("actions/upload-artifact@v4");
     expect(postPushUploadStep.uses).toBe("actions/upload-artifact@v4");
+  });
+});
+
+describe("generated output drift guard", () => {
+  it("runs deterministic rendering for pull requests and fails on generated drift", () => {
+    const contents = readWorkflowText(WORKFLOWS.smoke);
+    expect(contents).toContain("pull_request:");
+
+    const steps = getWorkflowSteps(WORKFLOWS.smoke, "generated-output");
+    const installIndex = findStepIndex(steps, "Install project dependencies");
+    const renderIndex = findStepIndex(steps, "Render generated catalog output");
+    const driftIndex = findStepIndex(steps, "Fail on generated output drift");
+    expect(installIndex).toBeLessThan(renderIndex);
+    expect(renderIndex).toBeLessThan(driftIndex);
+
+    const driftRun = findStep(steps, "Fail on generated output drift").run ?? "";
+    expect(driftRun).toContain("git status --porcelain -- README.md docs/rabbit-holes catalog/catalog.json");
+    expect(driftRun).toContain("config/sources.yml");
+    expect(driftRun).toContain("exit 1");
+  });
+
+  it("rejects automation-owned catalog item edits only for pull requests", () => {
+    const contents = readWorkflowText(WORKFLOWS.smoke);
+    expect(contents).toContain("workflow_dispatch:");
+
+    const steps = getWorkflowSteps(WORKFLOWS.smoke, "generated-output");
+    const checkoutStep = findStep(steps, "Checkout");
+    expect(checkoutStep.with).toMatchObject({ "fetch-depth": 0 });
+
+    const guardIndex = findStepIndex(steps, "Reject direct catalog item edits");
+    const installIndex = findStepIndex(steps, "Install project dependencies");
+    expect(guardIndex).toBeLessThan(installIndex);
+
+    const guardStep = findStep(steps, "Reject direct catalog item edits");
+    expect(guardStep.if).toContain("github.event_name == 'pull_request'");
+    expect(guardStep.run).toContain("${{ github.event.pull_request.base.sha }}");
+    expect(guardStep.run).toContain("git diff --name-only");
+    expect(guardStep.run).toContain("--no-renames");
+    expect(guardStep.run).toContain("catalog/items/**/*.yml");
+    expect(guardStep.run).toContain("automation-owned");
+    expect(guardStep.run).toContain("exit 1");
   });
 });

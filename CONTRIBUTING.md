@@ -17,7 +17,7 @@ If the catalog output is wrong, fix the source input or add an override. Do not 
 
 ### Human-owned inputs
 
-- `config/sources.yml` — discovery queue
+- `config/sources.yml` — the only discovery queue and catalog intake
 - `config/categories.yml` — taxonomy and category descriptions
 - `config/settings.yml` — budgets, concurrency, and catalog policy defaults
 - `overrides/catalog/items/**/*.yml` — last-resort manual corrections
@@ -66,7 +66,9 @@ Provider credentials come from `.env` and `.env.pi-free`. `.env.pi-free` is opti
 
 ## Source input rules
 
-`config/sources.yml` is the durable intake file.
+`config/sources.yml` is the only catalog intake.
+
+For a tool submission, edit that file only. `sources/inbox.yml` is not an input; it is an empty pointer retained to prevent a second queue. Do not commit hand-edited generated output. The scheduled automation consumes the queue, runs the full catalog sync, and commits pipeline-owned output.
 
 Use these source kinds:
 

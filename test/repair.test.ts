@@ -219,7 +219,7 @@ describe("catalog repair planning", () => {
     });
   });
 
-  it("keeps the stronger preferred curation when duplicate variants disagree", () => {
+  it("requeues conflicting duplicate curation instead of choosing a preferred variant", () => {
     const includedWebsite = makeItem({
       canonical_url: "https://crewai.io",
       name: "crewai.io",
@@ -250,8 +250,12 @@ describe("catalog repair planning", () => {
 
     expect(plan.changedItems[0]).toMatchObject({
       canonical_url: "https://github.com/crewaiinc/crewai",
-      curation: { status: "included", reason: "Framework fit." },
-      placement: { primary_category: "ai-frameworks", section: "Agent Frameworks" },
+      curation: {
+        status: "pending",
+        evidence: expect.arrayContaining(["framework", "docs"]),
+      },
+      placement: { primary_category: null, section: null },
+      processing: { categorize: { status: "pending" } },
     });
   });
 
@@ -456,7 +460,7 @@ describe("catalog repair planning", () => {
     });
   });
 
-  it("keeps the preferred duplicate record on the unchanged fast path instead of the first inserted item", () => {
+  it("canonicalizes the preferred duplicate id while preserving its curated record", () => {
     const weakerDuplicate = makeItem({
       id: "duplicate-weak",
       canonical_url: "https://github.com/crewaiinc/crewai",
@@ -509,7 +513,7 @@ describe("catalog repair planning", () => {
     expect(plan.changedItems).toHaveLength(1);
     expect(plan.items).toHaveLength(1);
     expect(plan.items[0]).toMatchObject({
-      id: "duplicate-preferred",
+      id: "github__crewaiinc__crewai",
       canonical_url: "https://github.com/crewaiinc/crewai",
       curation: { status: "included", reason: "Framework fit." },
       placement: { primary_category: "ai-frameworks", section: "Agent Frameworks" },

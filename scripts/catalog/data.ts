@@ -1,7 +1,9 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { makeItemPath, normalizeLoadedItem, normalizeSourceKind } from "./core.ts";
+import { applyCatalogOverrides } from "./overrides.ts";
 import {
+  CATALOG_ITEM_OVERRIDES_DIR,
   CATALOG_ITEMS_DIR,
   CONFIG_CATEGORIES_PATH,
   CONFIG_SOURCES_PATH,
@@ -157,16 +159,70 @@ export function loadCategories(): Category[] {
   return loadCategoriesFromRaw(readYamlList(CONFIG_CATEGORIES_PATH, "categories"), CONFIG_CATEGORIES_PATH);
 }
 
-export function loadCatalogItems(): CatalogItem[] {
-  return loadYamlTree(
-    CATALOG_ITEMS_DIR,
-    (entry) => entry.isFile() && entry.name.endsWith(".yml") && entry.name !== ".gitkeep",
-    (filePath) => normalizeLoadedItem(readYaml<any>(filePath)),
-  );
+const generatedItemPathsByDirectory = new Map<string, Map<string, string[]>>();
+
+function catalogItemPathInDirectory(url: string, itemsDirectory: string): string {
+  return path.join(itemsDirectory, path.relative(CATALOG_ITEMS_DIR, makeItemPath(url)));
 }
 
-export function saveCatalogItem(item: CatalogItem): void {
-  writeYaml(makeItemPath(item.canonical_url), item);
+function loadGeneratedCatalogItemFiles(
+  itemsDirectory: string,
+): Array<{ filePath: string; item: CatalogItem }> {
+  const files = loadYamlTree(
+    itemsDirectory,
+    (entry) => entry.isFile() && entry.name.endsWith(".yml") && entry.name !== ".gitkeep",
+    (filePath) => ({ filePath, item: normalizeLoadedItem(readYaml<any>(filePath)) }),
+  );
+  const pathsById = new Map<string, string[]>();
+  for (const { filePath, item } of files) {
+    pathsById.set(item.id, [...(pathsById.get(item.id) ?? []), filePath]);
+  }
+  generatedItemPathsByDirectory.set(path.resolve(itemsDirectory), pathsById);
+  return files;
+}
+
+export function loadGeneratedCatalogItems(itemsDirectory: string = CATALOG_ITEMS_DIR): CatalogItem[] {
+  return loadGeneratedCatalogItemFiles(itemsDirectory).map(({ item }) => item);
+}
+
+export function loadCatalogItems(
+  itemsDirectory: string = CATALOG_ITEMS_DIR,
+  overrideDirectory: string = CATALOG_ITEM_OVERRIDES_DIR,
+): CatalogItem[] {
+  return applyCatalogOverrides(loadGeneratedCatalogItems(itemsDirectory), overrideDirectory);
+}
+
+export function saveCatalogItem(
+  item: CatalogItem,
+  itemsDirectory: string = CATALOG_ITEMS_DIR,
+): void {
+  const directoryKey = path.resolve(itemsDirectory);
+  let pathsById = generatedItemPathsByDirectory.get(directoryKey);
+  if (!pathsById) {
+    loadGeneratedCatalogItemFiles(itemsDirectory);
+    pathsById = generatedItemPathsByDirectory.get(directoryKey)!;
+  }
+  const existingMatches = pathsById.get(item.id) ?? [];
+  if (existingMatches.length > 1) {
+    throw new Error(
+      `Refusing to save catalog item ${item.id}: its id already occupies multiple generated item paths.`,
+    );
+  }
+
+  const destination = existingMatches[0]
+    ?? catalogItemPathInDirectory(item.canonical_url, itemsDirectory);
+  if (fs.existsSync(destination)) {
+    const occupant = normalizeLoadedItem(readYaml<any>(destination));
+    if (occupant.id !== item.id) {
+      throw new Error(
+        `Refusing to save catalog item ${item.id}: destination ${destination} is occupied by ${occupant.id}.`,
+      );
+    }
+  }
+  writeYaml(destination, item);
+  pathsById.set(item.id, [destination]);
 }
 
 export { CONFIG_SOURCES_PATH, CONFIG_CATEGORIES_PATH };
+export { applyCatalogOverrides };
+

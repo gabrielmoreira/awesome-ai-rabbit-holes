@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # Publications & Feeds
 
 Newsletters, podcasts, and feeds for staying current with AI.
@@ -5,6 +6,33 @@ Newsletters, podcasts, and feeds for staying current with AI.
 ## Incubating
 
 _These are new or low-traffic entries being watched._
+
+- **[aifordevelopers.substack.com](https://aifordevelopers.substack.com)** A Substack newsletter and curated hub delivering weekly updates on AI tools, frameworks, APIs, and tips for developers building with AI. <details><summary>More about</summary>
+
+  It helps developers cut through the noise by surfacing relevant AI coding tools, frameworks, and workflows in a weekly digest format.
+
+  _Yet another weekly promise that this time you’ll finally master the AI toolchain, right before three new ones drop and render your stack obsolete._
+
+  `newsletter` `ai-tools` `developer-resources`
+  </details>
+
+- **[awesomeagents.substack.com](https://awesomeagents.substack.com)** A Substack newsletter delivering weekly updates, project spotlights, and releases from the LangChain and AI agent ecosystem. <details><summary>More about</summary>
+
+  It provides a recurring digest to help developers track the rapid proliferation of agent frameworks, tools, and community releases without manually monitoring every repo.
+
+  _Subscribing to yet another AI newsletter to feel productive while your agent stack quietly accumulates three new incompatible orchestration frameworks by morning._
+
+  `newsletter` `agents` `langchain` `digest`
+  </details>
+
+- **[awesomelangchain.substack.com](https://awesomelangchain.substack.com)** awesomelangchain.substack.com is a Substack newsletter focused on LangChain-related tools, tutorials, and updates. <details><summary>More about</summary>
+
+  It helps developers stay informed about the LangChain ecosystem through curated content and tutorials.
+
+  _Another AI newsletter promising to keep you updated, while your tab count and anxiety both grow exponentially._
+
+  `newsletter` `langchain` `ai`
+  </details>
 
 - **[Chip Huyen](https://huyenchip.com/blog)** A personal blog by Chip Huyen focused on AI system design, production MLOps, and the practical realities of building generative AI applications. <details><summary>More about</summary>
 
@@ -22,33 +50,6 @@ _These are new or low-traffic entries being watched._
   _Yet another corporate blog to add to your rotation, ensuring you never run out of reading material while your agents silently fail in production._
 
   `langchain` `blog` `agents` `tutorials`
-  </details>
-
-- **[newsletter](https://aifordevelopers.substack.com)** A Substack newsletter and curated hub delivering weekly updates on AI tools, frameworks, APIs, and tips for developers building with AI. <details><summary>More about</summary>
-
-  It helps developers cut through the noise by surfacing relevant AI coding tools, frameworks, and workflows in a weekly digest format.
-
-  _Yet another weekly promise that this time you’ll finally master the AI toolchain, right before three new ones drop and render your stack obsolete._
-
-  `newsletter` `ai-tools` `developer-resources`
-  </details>
-
-- **[Subscribe to the newsletter](https://awesomeagents.substack.com)** A Substack newsletter delivering weekly updates, project spotlights, and releases from the LangChain and AI agent ecosystem. <details><summary>More about</summary>
-
-  It provides a recurring digest to help developers track the rapid proliferation of agent frameworks, tools, and community releases without manually monitoring every repo.
-
-  _Subscribing to yet another AI newsletter to feel productive while your agent stack quietly accumulates three new incompatible orchestration frameworks by morning._
-
-  `newsletter` `agents` `langchain` `digest`
-  </details>
-
-- **[Subscribe to the newsletter](https://awesomelangchain.substack.com)** awesomelangchain.substack.com is a Substack newsletter focused on LangChain-related tools, tutorials, and updates. <details><summary>More about</summary>
-
-  It helps developers stay informed about the LangChain ecosystem through curated content and tutorials.
-
-  _Another AI newsletter promising to keep you updated, while your tab count and anxiety both grow exponentially._
-
-  `newsletter` `langchain` `ai`
   </details>
 
 - **[Unwind AI](https://www.theunwindai.com)** A newsletter and curated digest covering daily AI agent updates, tutorials, and open-source app examples for developers building with LLMs. <details><summary>More about</summary>

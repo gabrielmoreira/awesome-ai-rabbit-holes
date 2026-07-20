@@ -11,6 +11,9 @@ export const CONFIG_CATEGORIES_PATH = path.join(CONFIG_DIR, "categories.yml");
 export const CATALOG_DIR = path.join(REPO_ROOT, "catalog");
 export const CATALOG_ITEMS_DIR = path.join(CATALOG_DIR, "items");
 
+export const OVERRIDES_DIR = path.join(REPO_ROOT, "overrides");
+export const CATALOG_ITEM_OVERRIDES_DIR = path.join(OVERRIDES_DIR, "catalog", "items");
+
 export const CACHE_DIR = path.join(REPO_ROOT, ".cache");
 export const README_CACHE_DIR = path.join(CACHE_DIR, "readmes", "github");
 export const SOURCE_LIST_CACHE_DIR = path.join(CACHE_DIR, "source-lists");

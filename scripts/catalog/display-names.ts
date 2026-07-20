@@ -1,7 +1,7 @@
 import type { CatalogItem, Discovery } from "./types.ts";
 import { parseGitHubUrl } from "../support/github.ts";
 
-const GENERIC_DISPLAY_NAME_PATTERN = /^(?:intro|introduction|overview|docs|documentation|readme|getting-started|welcome|viewform|image|cli)$/;
+const GENERIC_DISPLAY_NAME_PATTERN = /^(?:intro|introduction|overview|docs|documentation|readme|getting-started|welcome|viewform|image|website|servers?|mcp|cli)$/;
 
 function trimDisplayNameCandidate(value: string | null | undefined): string | null {
   if (typeof value !== "string") return null;
@@ -10,9 +10,24 @@ function trimDisplayNameCandidate(value: string | null | undefined): string | nu
 }
 
 function displayNameFromMarkdownLink(value: string): string | null {
+  if (/!\[[^\]]*\]\([^)]+\)/.test(value)) return null;
   const match = value.match(/\[([^\]]+)\]\(https?:\/\/[^)\s]+\)/);
   return trimDisplayNameCandidate(match?.[1] ?? null);
 }
+function isBadgeOrImageDisplayName(value: string): boolean {
+  return /^!\[[^\]]*\]\([^)]+\)$/.test(value)
+    || /^(?:badge|build status|ci status|coverage|downloads|github actions|github stars|license|npm(?: package)? version|tests?|version)$/i.test(value);
+}
+
+function isSentenceLikeSubscriptionDisplayName(value: string): boolean {
+  return /^(?:subscribe|sign up|join|get|receive)\b.*\b(?:newsletter|updates?|inbox|email)\b/i.test(value)
+    || /^(?:newsletter|weekly newsletter)\b.*\b(?:subscribe|sign up|join)\b/i.test(value);
+}
+
+function isHostnamePathDisplayName(value: string): boolean {
+  return /^(?:www\.)?[a-z0-9-]+(?:\.[a-z0-9-]+)+(?:\/[^/\s]+)+\/?$/i.test(value);
+}
+
 
 function scoreDisplayNameCandidate(candidate: string, targetKeys: Set<string>): number {
   let score = 0;
@@ -24,7 +39,6 @@ function scoreDisplayNameCandidate(candidate: string, targetKeys: Set<string>): 
   if (/\s/.test(candidate)) score += 5;
   if (/[a-z][A-Z]/.test(candidate)) score += 5;
   if (/^[a-z0-9-]+$/.test(candidate)) score -= 5;
-  if (/\.[a-z]{2,}$/i.test(candidate)) score -= 10;
   return score;
 }
 
@@ -51,9 +65,11 @@ export function isLowSignalDisplayName(name: string | null | undefined): boolean
   const normalized = trimmed.toLowerCase();
   return /^https?:\/\//i.test(trimmed)
     || GENERIC_DISPLAY_NAME_PATTERN.test(normalized)
+    || isBadgeOrImageDisplayName(trimmed)
+    || isHostnamePathDisplayName(trimmed)
+    || isSentenceLikeSubscriptionDisplayName(trimmed)
     || /^[a-f0-9]{24,}$/i.test(normalized)
-    || /^\d{4}\.\d{4,5}$/.test(normalized)
-    || /\.[a-z]{2,}$/i.test(normalized);
+    || /^\d{4}\.\d{4,5}$/.test(normalized);
 }
 
 export function collectCatalogDisplayNameCandidates(item: CatalogItem): string[] {

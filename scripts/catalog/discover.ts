@@ -13,7 +13,7 @@ import {
 } from "./discovery.ts";
 import { makeItemId, normalizeSourceCoverageUrl, normalizeSourceKind } from "./core.ts";
 
-import { loadCatalogItems, loadSources, saveCatalogItem } from "./data.ts";
+import { loadGeneratedCatalogItems, loadSources, saveCatalogItem } from "./data.ts";
 import { loadSettings } from "./settings.ts";
 import { loadSourceListDiscoveryCandidates,
 materializeSourceListMetadata,
@@ -205,7 +205,7 @@ export async function runDiscover(
 ): Promise<void> {
   const allSources = loadSources();
   const sources = selectDiscoverSources(allSources, options.sourceUrls);
-  const existingItems = loadCatalogItems();
+  const existingItems = loadGeneratedCatalogItems();
   const budgetMs = resolveDiscoverBudgetMs();
   const deadlineMs = budgetMs == null ? null : Date.now() + budgetMs;
   console.log(`Discovering catalog candidates from ${sources.length} source(s)...`);

@@ -1,29 +1,34 @@
-name: catalog-smoke
+name: generated-output-drift
 
 on:
+  pull_request:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
-  dry-run:
+  generated-output:
     runs-on: ubuntu-latest
     env:
-      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
-      OLLAMA_API_KEY: ${{ secrets.OLLAMA_API_KEY }}
-      MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
-      CATALOG_FAIL_ON_PROCESSING_ERRORS: "1"
       MISE_TASK_OUTPUT: prefix
-      CATALOG_MAX_SOURCE_LIST_NEW_ITEMS: "10"
     steps:
       - name: Checkout
         uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Reject direct catalog item edits
+        if: github.event_name == 'pull_request'
+        run: |
+          direct_item_changes="$(git diff --name-only --no-renames '${{ github.event.pull_request.base.sha }}'...HEAD -- ':(glob)catalog/items/**/*.yml')"
+          if [ -n "$direct_item_changes" ]; then
+            echo "::error::catalog/items/**/*.yml is automation-owned. Submit tools through config/sources.yml; do not edit generated catalog item files directly."
+            echo "$direct_item_changes"
+            exit 1
+          fi
+          echo "No direct catalog item edits detected."
 
       - name: Set up mise tools
         uses: jdx/mise-action@v4
@@ -31,32 +36,19 @@ jobs:
           install: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Restore catalog cache
-        uses: actions/cache@v4
-        with:
-          path: .cache
-          key: ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('config/**/*.yml', 'scripts/**/*.ts', 'package-lock.json', '.mise.toml') }}-${{ github.run_id }}
-          restore-keys: |
-            ${{ runner.os }}-catalog-cache-v3-${{ hashFiles('config/**/*.yml', 'scripts/**/*.ts', 'package-lock.json', '.mise.toml') }}-
-            ${{ runner.os }}-catalog-cache-v3-
-
       - name: Install project dependencies
         run: mise run catalog:deps
 
-      - name: Run catalog checks
-        run: mise run catalog:check
+      - name: Render generated catalog output
+        run: mise run catalog:render
 
-      - name: Probe top pi-free fallback models
-        run: mise run llm:doctor --limit 5
-
-      - name: Run bounded catalog sync smoke test
-        run: mise run catalog:sync
-
-      - name: Report bounded update result
+      - name: Fail on generated output drift
         run: |
-          if [ -n "$(git status --porcelain -- README.md docs/rabbit-holes catalog/catalog.json catalog/items)" ]; then
-            echo "Bounded smoke run produced catalog changes, which is expected while backlog remains."
-            git status --short -- README.md docs/rabbit-holes catalog/catalog.json catalog/items
-          else
-            echo "Bounded smoke run left the generated tree clean."
+          generated_changes="$(git status --porcelain -- README.md docs/rabbit-holes catalog/catalog.json)"
+          if [ -n "$generated_changes" ]; then
+            echo "::error::Generated catalog output is stale or was edited directly. Submit tools through config/sources.yml; do not edit README.md, docs/rabbit-holes/*.md, or catalog/catalog.json by hand."
+            echo "$generated_changes"
+            echo "Run 'mise run catalog:render' and commit the resulting generated output when changing the rendering pipeline."
+            exit 1
           fi
+          echo "Generated catalog output matches the deterministic render."

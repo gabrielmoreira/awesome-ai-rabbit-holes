@@ -1,6 +1,6 @@
 id: schemaflow__dev
 kind: website
-name: schemaflow.dev
+name: SchemaFlow
 canonical_url: https://schemaflow.dev
 identity: {}
 provenance:
@@ -20,12 +20,29 @@ provenance:
         extracted_url: https://schemaflow.dev
         surrounding_text: "- **[SchemaFlow](https://github.com/CryptoRadi/schemaflow-mcp-server)** - Real-time PostgreSQL & Supabase database schema access for AI-IDEs via Model Context Protocol. Provides live database context through secure SSE connections with three powerful tools: get_schema, analyze_database, and check_schema_alignment. [SchemaFlow](https://schemaflow.dev)"
         confidence: high
+    - id: discovery__www__schemaflow__dev__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-06-22T05:53:30.454Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: SchemaFlow
+        extracted_url: https://schemaflow.dev
+        surrounding_text: "- **[SchemaFlow](https://github.com/CryptoRadi/schemaflow-mcp-server)** - Real-time PostgreSQL & Supabase database schema access for AI-IDEs via Model Context Protocol. Provides live database context through secure SSE connections with three powerful tools: get_schema, analyze_database, and check_schema_alignment. [SchemaFlow](https://schemaflow.dev)"
+        confidence: high
 metadata:
   github:
     stars: null
     forks: null
     license: null
     archived: null
+    full_name: null
+    html_url: null
     created_at: null
     pushed_at: null
     description: null
@@ -38,38 +55,43 @@ insights:
   why_it_matters: It provides developers with a dedicated resource and server implementation for managing structured schemas within the growing MCP ecosystem.
   mental_damage: Yet another essential protocol adapter that proves the modern developer's job is now 10% coding and 90% gluing together context layers.
   tags:
+    - architecture
+    - diagramming
     - mcp
-    - schema
     - protocol
+    - schema
     - servers
-  confidence: low
+    - system-design
+    - visual-coding
+  confidence: high
 curation:
-  status: included
-  reason: The project is listed in awesome-mcp-servers and the domain name indicates a focus on MCP server infrastructure for schema handling.
+  status: pending
+  reason: Conflicting duplicate curation or placement requires review.
   evidence:
     - Listed in the 'awesome-mcp-servers' directory under the section 'Community Servers'.
     - The URL 'schemaflow.dev' and name imply a focus on schema-related MCP server tooling.
+    - "included: The project is listed in awesome-mcp-servers and the domain name indicates a focus on MCP server infrastructure for schema handling."
+    - Connects to Claude Code or Codex via an MCP server
+    - Primary product is an infinite canvas for system design
+    - Claims to turn codebases into diagrams automatically
+    - "included: It functions as a capability extension for coding assistants via MCP, providing the ability to translate code into visual architecture."
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.665Z"
+    updated_at: "2026-06-22T05:53:30.456Z"
     cause: null
     next_retry_at: null
   stars:
     status: pending
     updated_at: null
     cause: null
-  categorize:
-    status: done
-    updated_at: "2026-05-06T22:29:19.484Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: null

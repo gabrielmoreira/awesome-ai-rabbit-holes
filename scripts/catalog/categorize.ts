@@ -1,8 +1,9 @@
 import { createHash } from "node:crypto";
 import {
   parseAIInsightResponse,
+  type AIInsightResponse,
 } from "./categorize-prompt.ts";
-import { loadCatalogItems, loadCategories, saveCatalogItem } from "./data.ts";
+import { loadCategories, loadGeneratedCatalogItems, saveCatalogItem } from "./data.ts";
 import {
   applyLifecycleRules,
   applyPlacement,
@@ -12,7 +13,11 @@ import {
 } from "./core.ts";
 import { summarizeDistinctCounts } from "./reporting.ts";
 import { buildCatalogInsightPrompt } from "./insight-context.ts";
-import { runCatalogLlmPrompt, resolveCatalogLlmTimeoutMs } from "./llm-gateway.ts";
+import {
+  resolveCatalogLlmTimeoutMs,
+  runCatalogLlmPromptWithMetadata,
+  type CatalogLlmPromptResult,
+} from "./llm-gateway.ts";
 import { nextRetry, readProcessing, runClaimedWork, updateProcessing } from "./processing.ts";
 import { createProgressHeartbeatPrinter, formatDurationMs } from "../support/progress.ts";
 import { loadSettings } from "./settings.ts";
@@ -48,7 +53,7 @@ function buildDirectAwesomeListEvidence(item: CatalogItem): string[] {
   return evidence.slice(0, 3);
 }
 
-function isAppBuilderCandidate(item: CatalogItem, response: ReturnType<typeof parseAIInsightResponse>): boolean {
+function isAppBuilderCandidate(item: CatalogItem, response: AIInsightResponse): boolean {
   if (item.kind !== "website") return false;
   const hasAppBuilderSourceContext = item.provenance.discoveries.some((discovery) =>
     discovery.extraction.section_path.some((section) => /app builders/i.test(section)),
@@ -111,7 +116,7 @@ export function isClassificationReady(
 }
 
 function categorizeFailureCauseType(message: string): string {
-  if (/Invalid AI response format|No JSON found|Missing required field|Invalid confidence value/i.test(message)) {
+  if (/Invalid AI response|No JSON found|Missing required field|Invalid confidence value/i.test(message)) {
     return "invalid_llm_json";
   }
   if (/timed out/i.test(message)) return "provider_timeout";
@@ -133,6 +138,20 @@ function categoryRulesVersion(categories: Category[]): string {
     )
     .digest("hex")
     .slice(0, 12);
+}
+
+export function hasCategorizationVersionDrift(item: CatalogItem, categories: Category[]): boolean {
+  const state = readProcessing(item, "categorize");
+  const hasStoredVersion = state.prompt_version != null || state.category_rules_version != null;
+  if (state.status !== "done" && !hasStoredVersion) return false;
+  return (
+    state.prompt_version !== CATALOG_CATEGORIZE_PROMPT_VERSION
+    || state.category_rules_version !== categoryRulesVersion(categories)
+  );
+}
+
+export function needsCategorization(item: CatalogItem, categories: Category[]): boolean {
+  return needsAIInsights(item) || hasCategorizationVersionDrift(item, categories);
 }
 
 function resolveCategorySection(
@@ -199,7 +218,6 @@ function compareCategorizeTargets(
 
 function markCategorizeDeferred(
   item: CatalogItem,
-  rulesVersion: string,
   cause: { type: string; message: string },
   options: { attempts?: number; retryAt?: string | null } = {},
 ): CatalogItem {
@@ -209,8 +227,8 @@ function markCategorizeDeferred(
     cause,
     next_retry_at: options.retryAt ?? null,
     attempts: options.attempts ?? item.processing?.categorize?.attempts ?? 0,
-    prompt_version: CATALOG_CATEGORIZE_PROMPT_VERSION,
-    category_rules_version: rulesVersion,
+    prompt_version: item.processing?.categorize?.prompt_version,
+    category_rules_version: item.processing?.categorize?.category_rules_version,
   });
   return deferred;
 }
@@ -220,48 +238,83 @@ function markCategorizeDeferred(
 
 export function applyAIInsights(
   item: CatalogItem,
-  response: ReturnType<typeof parseAIInsightResponse>,
+  response: AIInsightResponse,
   categories: Category[],
-  options: { forceCategory?: boolean } = {},
+  options: {
+    forceCategory?: boolean;
+    provenance?: {
+      answeringModel: string | null;
+      promptVersion: string;
+      categoryRulesVersion: string;
+      inputHash: string | null;
+    };
+  } = {},
 ): CatalogItem {
   const validCategoryIds = new Set(categories.map((category) => category.id));
-  const aiPrimaryCategory =
-    (response.primary_category && validCategoryIds.has(response.primary_category) ? response.primary_category : null) ??
-    response.category_candidates.find((candidate) => validCategoryIds.has(candidate)) ??
-    null;
+  const invalidCategoryCandidates = [
+    ...new Set(response.category_candidates.filter((candidate) => !validCategoryIds.has(candidate))),
+  ];
+  const responsePrimaryIsValid =
+    response.primary_category != null && validCategoryIds.has(response.primary_category);
+  let proposedPrimaryCategory =
+    (responsePrimaryIsValid ? response.primary_category : null)
+    ?? response.category_candidates.find((candidate) => validCategoryIds.has(candidate))
+    ?? null;
+  const invalidPrimaryPromoted =
+    response.should_include
+    && response.primary_category != null
+    && !responsePrimaryIsValid
+    && proposedPrimaryCategory != null;
 
   let shouldInclude = response.should_include;
-  let primaryCategory = shouldInclude
-    ? (options.forceCategory ? aiPrimaryCategory ?? item.placement.primary_category : item.placement.primary_category ?? aiPrimaryCategory)
-    : null;
-  let decisionReason = response.decision_reason;
-  let decisionEvidence = response.decision_evidence;
+  let proposedDecisionReason = response.decision_reason;
+  let proposedDecisionEvidence = response.decision_evidence;
 
   if (!shouldInclude && isDirectAwesomeListSource(item) && validCategoryIds.has("awesome-awesomes")) {
     shouldInclude = true;
-    primaryCategory = item.placement.primary_category ?? "awesome-awesomes";
-    decisionReason =
+    proposedPrimaryCategory = item.placement.primary_category ?? "awesome-awesomes";
+    proposedDecisionReason =
       "Included because this is a curated awesome list with developer-relevant entries; even when broader than our core slice, it remains a useful map and readers can decide what to follow.";
-    decisionEvidence = buildDirectAwesomeListEvidence(item);
+    proposedDecisionEvidence = buildDirectAwesomeListEvidence(item);
   }
 
   if (shouldInclude && validCategoryIds.has("app-builders") && isAppBuilderCandidate(item, response)) {
-    if (primaryCategory == null || primaryCategory === "coding-agents" || primaryCategory === "ai-ides-editors") {
-      primaryCategory = "app-builders";
-      if (!/app-builders|app builder/i.test(decisionReason)) {
-        decisionReason =
+    if (
+      proposedPrimaryCategory == null
+      || proposedPrimaryCategory === "coding-agents"
+      || proposedPrimaryCategory === "ai-ides-editors"
+    ) {
+      proposedPrimaryCategory = "app-builders";
+      if (!/app-builders|app builder/i.test(proposedDecisionReason)) {
+        proposedDecisionReason =
           "Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.";
       }
     }
-    if (!decisionEvidence.some((entry) => /app builders|prompt-to-app|website builder/i.test(entry))) {
-      decisionEvidence = [
-        ...decisionEvidence,
+    if (!proposedDecisionEvidence.some((entry) => /app builders|prompt-to-app|website builder/i.test(entry))) {
+      proposedDecisionEvidence = [
+        ...proposedDecisionEvidence,
         "Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.",
       ].slice(0, 3);
     }
   }
 
-  if (shouldInclude && !item.placement.primary_category && !primaryCategory) {
+  const existingPrimaryCategory = item.placement.primary_category;
+  const disagreement = Boolean(
+    shouldInclude
+    && !options.forceCategory
+    && existingPrimaryCategory
+    && proposedPrimaryCategory
+    && existingPrimaryCategory !== proposedPrimaryCategory,
+  );
+  const primaryCategory = shouldInclude
+    ? (
+      options.forceCategory
+        ? proposedPrimaryCategory ?? existingPrimaryCategory
+        : existingPrimaryCategory ?? proposedPrimaryCategory
+    )
+    : null;
+
+  if (shouldInclude && !primaryCategory) {
     throw new Error(`AI marked ${item.id} as included but did not provide a valid category`);
   }
 
@@ -272,6 +325,59 @@ export function applyAIInsights(
   const section: string | null = shouldInclude
     ? (response.section === undefined ? existingSection : aiSection ?? null)
     : null;
+
+  const retainedReason = hasInsightText(item.curation.reason)
+    ? item.curation.reason
+    : `Retained existing placement '${existingPrimaryCategory}' pending review of proposed category '${proposedPrimaryCategory}'.`;
+  const curationReason = disagreement ? retainedReason : proposedDecisionReason;
+  const curationEvidence = disagreement ? item.curation.evidence : proposedDecisionEvidence;
+  const reviewReasons: string[] = [];
+  if (invalidCategoryCandidates.length > 0) {
+    reviewReasons.push(`unknown category candidate(s): ${invalidCategoryCandidates.join(", ")}`);
+  }
+  if (response.confidence === "low") reviewReasons.push("low confidence");
+  if (invalidPrimaryPromoted) {
+    reviewReasons.push(
+      `invalid primary '${response.primary_category}' promoted runner-up '${proposedPrimaryCategory}'`,
+    );
+  }
+  if (disagreement) {
+    reviewReasons.push(
+      `placement disagreement: retained '${existingPrimaryCategory}', proposed '${proposedPrimaryCategory}'`,
+    );
+  }
+
+  const existingCategorizationReview =
+    item.lifecycle.status === "needs_review"
+    && item.lifecycle.reason?.startsWith("Categorization review required:");
+  const priorResumeLifecycle =
+    item.processing?.categorize?.classification?.review_resume_lifecycle ?? null;
+  const reviewResumeLifecycle = reviewReasons.length > 0
+    ? (
+      priorResumeLifecycle
+      ?? (
+        item.lifecycle.status === "curated" || item.lifecycle.status === "landmark"
+          ? { status: item.lifecycle.status, reason: item.lifecycle.reason }
+          : null
+      )
+    )
+    : null;
+  const lifecycle = item.metadata.github.archived === true
+    ? item.lifecycle
+    : reviewReasons.length > 0
+      ? {
+          status: "needs_review" as const,
+          reason: `Categorization review required: ${reviewReasons.join("; ")}`,
+        }
+      : existingCategorizationReview
+        ? priorResumeLifecycle ?? { status: "incubating" as const, reason: null }
+        : item.lifecycle;
+  const provenance = options.provenance ?? {
+    answeringModel: null,
+    promptVersion: CATALOG_CATEGORIZE_PROMPT_VERSION,
+    categoryRulesVersion: categoryRulesVersion(categories),
+    inputHash: null,
+  };
 
   return {
     ...item,
@@ -284,29 +390,64 @@ export function applyAIInsights(
     },
     curation: {
       status: shouldInclude ? "included" : "excluded",
-      reason: decisionReason,
-      evidence: decisionEvidence,
+      reason: curationReason,
+      evidence: curationEvidence,
+    },
+    processing: {
+      ...item.processing,
+      categorize: {
+        status: item.processing?.categorize?.status ?? "pending",
+        updated_at: item.processing?.categorize?.updated_at ?? null,
+        ...item.processing?.categorize,
+        classification: {
+          answering_model: provenance.answeringModel,
+          prompt_version: provenance.promptVersion,
+          category_rules_version: provenance.categoryRulesVersion,
+          input_hash: provenance.inputHash,
+          proposed_primary_category: shouldInclude ? proposedPrimaryCategory : null,
+          disagreement,
+          decision_reason: proposedDecisionReason,
+          decision_evidence: proposedDecisionEvidence,
+          category_candidates: response.category_candidates,
+          contrastive_reason: response.contrastive_reason,
+          review_reason: reviewReasons.length > 0
+            ? `Categorization review required: ${reviewReasons.join("; ")}`
+            : null,
+          review_resume_lifecycle: reviewResumeLifecycle,
+        },
+      },
     },
     placement: {
       ...item.placement,
       primary_category: shouldInclude ? primaryCategory : null,
       section,
     },
+    lifecycle,
   };
 }
 
 export async function enrichWithAIInsights(
   item: CatalogItem,
   categories: Category[],
-  runPrompt: (prompt: string) => Promise<string> = runCatalogLlmPrompt,
-  options: { force?: boolean } = {},
+  runPrompt: (prompt: string) => Promise<string | CatalogLlmPromptResult> = runCatalogLlmPromptWithMetadata,
+  options: { force?: boolean; refresh?: boolean } = {},
 ): Promise<CatalogItem> {
-  if (!options.force && !needsAIInsights(item)) return item;
+  if (!options.force && !options.refresh && !needsAIInsights(item)) return item;
 
   const prompt = buildCatalogInsightPrompt(item, categories);
   try {
-    const raw = await runPrompt(prompt);
-    return applyAIInsights(item, parseAIInsightResponse(raw), categories, { forceCategory: options.force === true });
+    const promptResult = await runPrompt(prompt);
+    const raw = typeof promptResult === "string" ? promptResult : promptResult.text;
+    const answeringModel = typeof promptResult === "string" ? null : promptResult.model;
+    return applyAIInsights(item, parseAIInsightResponse(raw), categories, {
+      forceCategory: options.force === true,
+      provenance: {
+        answeringModel,
+        promptVersion: CATALOG_CATEGORIZE_PROMPT_VERSION,
+        categoryRulesVersion: categoryRulesVersion(categories),
+        inputHash: `sha256:${createHash("sha256").update(prompt).digest("hex")}`,
+      },
+    });
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     throw new Error(`Catalog LLM categorization failed for ${item.id}: ${message}`);
@@ -315,7 +456,7 @@ export async function enrichWithAIInsights(
 
 export type MaterializeCatalogStateDeps = {
   enrichItem?: (item: CatalogItem, categories: Category[]) => Promise<CatalogItem>;
-  runPrompt?: (prompt: string, options: { timeoutMs: number }) => Promise<string>;
+  runPrompt?: (prompt: string, options: { timeoutMs: number }) => Promise<string | CatalogLlmPromptResult>;
   sleep?: (ms: number) => Promise<void>;
   random?: () => number;
   saveItem?: (item: CatalogItem) => void;
@@ -353,8 +494,8 @@ export async function materializeCatalogState(
   const saveItem = deps.saveItem ?? saveCatalogItem;
   const renderCatalog = deps.renderCatalog ?? (() => undefined);
   const blockedItemIds = deps.blockedItemIds ?? new Set<string>();
-  const targetSelector = deps.selectTarget ?? ((item: CatalogItem) => needsAIInsights(item));
   const rulesVersion = categoryRulesVersion(categories);
+  const targetSelector = deps.selectTarget ?? ((item: CatalogItem) => needsCategorization(item, categories));
   const retryNowMs = Date.now();
   const catalogConfig = deps.catalogConfig ?? loadSettings();
   const metadataRefreshDays = deps.metadataRefreshDays ?? catalogConfig.github.metadata_refresh_days;
@@ -403,7 +544,8 @@ export async function materializeCatalogState(
   const defaultTimeoutMs = resolveCatalogLlmTimeoutMs();
   const concurrency = Math.max(1, Math.min(resolveAIInsightConcurrency(), aiTargets.length || 1));
   let consecutiveLlmFailures = 0;
-  const runPrompt = deps.runPrompt ?? ((prompt: string, options: { timeoutMs: number }) => runCatalogLlmPrompt(prompt, options));
+  const runPrompt = deps.runPrompt
+    ?? ((prompt: string, options: { timeoutMs: number }) => runCatalogLlmPromptWithMetadata(prompt, options));
   const enrichTarget = deps.enrichItem
     ? deps.enrichItem
     : async (item: CatalogItem, loadedCategories: Category[]) => {
@@ -418,7 +560,10 @@ export async function materializeCatalogState(
           item,
           loadedCategories,
           (prompt) => runPrompt(prompt, { timeoutMs }),
-          { force: deps.forceRebuild === true },
+          {
+            force: deps.forceRebuild === true,
+            refresh: hasCategorizationVersionDrift(item, loadedCategories),
+          },
         );
       };
 
@@ -464,7 +609,7 @@ export async function materializeCatalogState(
           return {
             status: "skipped",
             value: {
-              item: markCategorizeDeferred(target.item, rulesVersion, {
+              item: markCategorizeDeferred(target.item, {
                 type: "budget_exhausted",
                 message: CATEGORIZE_BUDGET_EXHAUSTED_MESSAGE,
               }, {
@@ -480,7 +625,7 @@ export async function materializeCatalogState(
         return {
           status: "deferred",
           value: {
-            item: markCategorizeDeferred(target.item, rulesVersion, {
+            item: markCategorizeDeferred(target.item, {
               type: categorizeFailureCauseType(message),
               message,
             }, {
@@ -520,7 +665,7 @@ export async function materializeCatalogState(
   } else if (summary.remaining > 0) {
     const retryAt = nextRetry(new Date().toISOString(), 60);
     for (const { item, index } of aiTargets.slice(summary.claimed)) {
-      itemsWithInsights[index] = markCategorizeDeferred(item, rulesVersion, {
+      itemsWithInsights[index] = markCategorizeDeferred(item, {
         type: "budget_exhausted",
         message: CATEGORIZE_BUDGET_EXHAUSTED_MESSAGE,
       }, {
@@ -560,7 +705,7 @@ export async function runCategorize(
   options: { itemIds?: Set<string>; force?: boolean } = {},
 ): Promise<void> {
   const categories = loadCategories();
-  const items = loadCatalogItems();
+  const items = loadGeneratedCatalogItems();
   const settings = loadSettings();
   const selectedIds = options.itemIds ?? null;
   const selectedCount = selectedIds ? items.filter((item) => selectedIds.has(item.id)).length : items.length;
@@ -582,7 +727,7 @@ export async function runCategorize(
     ),
     selectTarget: options.force
       ? (item) => (selectedIds ? selectedIds.has(item.id) : true)
-      : (item) => (!selectedIds || selectedIds.has(item.id)) && needsAIInsights(item),
+      : (item) => (!selectedIds || selectedIds.has(item.id)) && needsCategorization(item, categories),
     forceRebuild: options.force === true,
     catalogConfig: settings,
   });

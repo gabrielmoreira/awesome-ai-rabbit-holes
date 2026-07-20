@@ -418,9 +418,9 @@ Browser automation with GPT.
 
     expect(metadata.entries).toEqual([
       {
-        extracted_url: "https://www.cursor.sh",
-        normalized_url: "https://www.cursor.sh",
-        canonical_url: "https://www.cursor.sh",
+        extracted_url: "https://cursor.sh",
+        normalized_url: "https://cursor.sh",
+        canonical_url: "https://cursor.sh",
         anchor_text: "Cursor",
         section_path: ["Editors"],
         surrounding_text: "- [Cursor](https://www.cursor.sh/) - AI code editor",

@@ -84,6 +84,8 @@ export type GitHubMetadata = {
   forks: number | null;
   license: string | null;
   archived: boolean | null;
+  full_name?: string | null;
+  html_url?: string | null;
   created_at?: string | null;
   pushed_at: string | null;
   description: string | null;
@@ -111,6 +113,24 @@ export type Curation = {
   evidence: string[];
 };
 
+export type CategorizationProvenance = {
+  answering_model: string | null;
+  prompt_version: string;
+  category_rules_version: string;
+  input_hash: string | null;
+  proposed_primary_category: string | null;
+  disagreement: boolean;
+  decision_reason: string;
+  decision_evidence: string[];
+  category_candidates: string[];
+  contrastive_reason: string | null;
+  review_reason: string | null;
+  review_resume_lifecycle: {
+    status: "curated" | "landmark";
+    reason?: string | null;
+  } | null;
+};
+
 export type Placement = {
   primary_category: string | null;
   secondary_categories?: string[];
@@ -130,6 +150,7 @@ export type ProcessingCommandState = {
   attempts?: number;
   prompt_version?: string;
   category_rules_version?: string;
+  classification?: CategorizationProvenance;
 };
 
 export type ProcessingState = Partial<Record<"discover" | "stars" | "categorize" | string, ProcessingCommandState>>;

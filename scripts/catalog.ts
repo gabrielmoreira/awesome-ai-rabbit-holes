@@ -6,14 +6,16 @@ import { runGaps } from "./catalog/gaps.ts";
 import { runRender } from "./catalog/render.ts";
 import { runClean } from "./catalog/clean.ts";
 import { runRepair } from "./catalog/repair.ts";
+import type { RunRepairOptions } from "./catalog/repair.ts";
 import { runResync } from "./catalog/resync.ts";
 import { runStars } from "./catalog/stars.ts";
 import { runValidate } from "./catalog/validate.ts";
-export { loadSources, loadCategories, loadCatalogItems, saveCatalogItem } from "./catalog/data.ts";
+export { loadSources, loadCategories, loadCatalogItems, loadGeneratedCatalogItems, saveCatalogItem } from "./catalog/data.ts";
 export {
   makeItemId,
   makeItemPath,
   normalizeGitHubUrl,
+  normalizeCatalogUrl,
   normalizeSourceCoverageUrl,
   normalizeLoadedItem,
   applyLifecycleRules,
@@ -43,6 +45,7 @@ export {
   validateSources,
   validateCatalogItem,
   validateCatalogItems,
+  validateCatalogState,
   runValidate as cmdValidate,
 } from "./catalog/validate.ts";
 export type { ValidationError } from "./catalog/validate.ts";
@@ -83,12 +86,14 @@ export {
   resolveCatalogRepairTarget,
   runRepair,
   selectRepairCandidates,
+  selectAutomaticSafeRepairCandidates,
 } from "./catalog/repair.ts";
 export { runGaps } from "./catalog/gaps.ts";
 
 export type SyncCommandDeps = {
   discover: () => Promise<void>;
   stars: () => Promise<void>;
+  repair?: (options?: RunRepairOptions) => Promise<void>;
   categorize: () => Promise<void>;
   render: () => Promise<void>;
   validate: () => Promise<void>;
@@ -112,16 +117,21 @@ export async function runSync(
   token?: string,
   deps: Partial<SyncCommandDeps> = {},
 ): Promise<void> {
-  const commands: SyncCommandDeps = {
+  const commands = {
     discover: deps.discover ?? (() => runDiscover(token)),
     stars: deps.stars ?? (() => runStars(token)),
     categorize: deps.categorize ?? (() => runCategorize(token)),
     render: deps.render ?? (() => Promise.resolve(runRender())),
     validate: deps.validate ?? (() => Promise.resolve(runValidate())),
   };
+  const hasCompleteLegacyDeps = Boolean(
+    deps.discover && deps.stars && deps.categorize && deps.render && deps.validate,
+  );
+  const repair = deps.repair ?? (hasCompleteLegacyDeps ? null : (options?: RunRepairOptions) => runRepair(token, {}, options));
 
   await commands.discover();
   await commands.stars();
+  if (repair) await repair({ mode: "automatic-safe" });
   await commands.categorize();
   await commands.render();
   await commands.validate();

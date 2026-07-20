@@ -5,6 +5,11 @@ export interface CatalogLlmPromptOptions {
   timeoutMs?: number | null;
 }
 
+export interface CatalogLlmPromptResult {
+  model: string;
+  text: string;
+}
+
 const DEFAULT_CATALOG_LLM_TIMEOUT_MS = 60_000;
 
 export function resolveCatalogLlmModel(
@@ -25,13 +30,20 @@ export function resolveCatalogLlmTimeoutMs(env: NodeJS.ProcessEnv = process.env)
   return parsed;
 }
 
+export async function runCatalogLlmPromptWithMetadata(
+  prompt: string,
+  options: CatalogLlmPromptOptions = {},
+): Promise<CatalogLlmPromptResult> {
+  return runPiFreeTextPrompt(prompt, {
+    model: resolveCatalogLlmModel(options.model),
+    timeoutMs: options.timeoutMs ?? resolveCatalogLlmTimeoutMs(),
+  });
+}
+
 export async function runCatalogLlmPrompt(
   prompt: string,
   options: CatalogLlmPromptOptions = {},
 ): Promise<string> {
-  const result = await runPiFreeTextPrompt(prompt, {
-    model: resolveCatalogLlmModel(options.model),
-    timeoutMs: options.timeoutMs ?? resolveCatalogLlmTimeoutMs(),
-  });
+  const result = await runCatalogLlmPromptWithMetadata(prompt, options);
   return result.text;
 }

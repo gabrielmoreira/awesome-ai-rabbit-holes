@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # Coding Agents
 
 Assistants that directly plan, write, review, test, or debug code.
@@ -1706,16 +1707,7 @@ _These are new or low-traffic entries being watched._
 
   _Yet another autonomous agent promising to free you from your backlog, provided you enjoy the equal parts thrilling and terrifying experience of an AI refactoring your authentication layer at 2 AM._
 
-  `coding-agents` `automation` `ai-workflow`
-  </details>
-
-- **[Fine](https://www.fine.dev)** Fine is a platform for creating and deploying autonomous AI agents specifically designed to automate software development tasks like writing code, tests, and documentation. <details><summary>More about</summary>
-
-  It allows engineering teams to delegate routine coding tasks to specialized agents that integrate directly into existing development workflows.
-
-  _Yet another agent promising to handle the 'boring parts' of coding, ensuring you can spend even more time debugging the autonomous contributions it made while you weren't looking._
-
-  `ai-agents` `automation` `dev-workflow`
+  `ai-agents` `ai-workflow` `automation` `coding-agents` `dev-workflow`
   </details>
 
 - **[GitHub Copilot Chat Documentation](https://code.visualstudio.com/docs/chat/copilot-chat)** The AI-powered chat interface and agent runtime integrated into Visual Studio Code. <details><summary>More about</summary>

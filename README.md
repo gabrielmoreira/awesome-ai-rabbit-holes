@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # Awesome AI Rabbit Holes
 
 A never-complete, already-outdated catalog of AI agents, tools, workflows, and rabbit holes for people who keep asking: "Am I behind?", "Is everyone else already using this?", "Should I rebuild my workflow again?", "Was this obvious to everyone but me?", and "Is this curiosity, productivity, anxiety, impostor syndrome, or just the slow road to burnout?"

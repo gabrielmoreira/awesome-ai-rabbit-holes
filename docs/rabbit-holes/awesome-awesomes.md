@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # Awesome Awesomes
 
 Lists, maps, directories, and indexes for navigating AI tooling.
@@ -539,15 +540,6 @@ _These are new or low-traffic entries being watched._
   `llm` `resources` `directory` `multimodal` `training`
   </details>
 
-- **[`llms.txt`](https://awesome-copilot.github.com/llms.txt)** A community-driven directory and learning hub for GitHub Copilot custom agents, skills, instructions, and configuration packs. <details><summary>More about</summary>
-
-  It gives developers a ready-made library of reusable Copilot behaviors and governance patterns instead of prompting them to reinvent domain-specific assistants from scratch.
-
-  _We have now reached the point where we need a curated list of curated instruction files just to keep our AI assistants from forgetting which cloud provider we are using this sprint._
-
-  `copilot` `skills` `directory` `agents` `github`
-  </details>
-
 - **[AI Dev Jobs MCP](https://aidevboard.com/mcp)** A directory page on the AI Dev Board that lists MCP servers and directories relevant to AI coding workflows. <details><summary>More about</summary>
 
   Provides developers with a centralized map of MCP-compatible tooling to navigate the rapidly expanding Model Context Protocol ecosystem.
@@ -593,7 +585,7 @@ _These are new or low-traffic entries being watched._
   `agents` `directory` `autogpt` `navigation`
   </details>
 
-- **[awesome-copilot.github.com](https://awesome-copilot.github.com)** A community-curated directory of reusable agents, instructions, skills, hooks, workflows, and plugins specifically designed to customize and extend GitHub Copilot. <details><summary>More about</summary>
+- **[Awesome GitHub Copilot](https://awesome-copilot.github.com)** A community-curated directory of reusable agents, instructions, skills, hooks, workflows, and plugins specifically designed to customize and extend GitHub Copilot. <details><summary>More about</summary>
 
   Developers can quickly discover and install specialized configurations and task-specific agents to tailor Copilot's behavior to their team's coding standards and workflows.
 
@@ -609,6 +601,15 @@ _These are new or low-traffic entries being watched._
   _Another discovery layer for a protocol that already requires a flowchart to understand which server does what, hosted on a site that itself is just a list of lists._
 
   `mcp` `directory` `discovery` `servers`
+  </details>
+
+- **[clients](https://glama.ai/mcp/clients)** A directory page listing available MCP-compatible client applications for connecting to Model Context Protocol servers. <details><summary>More about</summary>
+
+  Developers evaluating MCP adoption need a clear map of which clients can actually interface with the growing server ecosystem.
+
+  _Just when you thought the JSON schema wars were over, we now have an entire directory dedicated to figuring out which client can correctly speak the new hotness protocol._
+
+  `mcp` `directory` `clients`
   </details>
 
 - **[CLIRank](https://clirank.dev)** A directory and discovery hub for Model Context Protocol (MCP) servers and tools. <details><summary>More about</summary>
@@ -674,16 +675,25 @@ _These are new or low-traffic entries being watched._
   `mcp` `directory` `servers` `discovery`
   </details>
 
-- **[glama.ai/mcp/clients](https://glama.ai/mcp/clients)** A directory page listing available MCP-compatible client applications for connecting to Model Context Protocol servers. <details><summary>More about</summary>
+- **[https://mcp.1mcpserver.com/mcp/](https://mcp.1mcpserver.com/mcp)** A web directory for discovering Model Context Protocol (MCP) servers. <details><summary>More about</summary>
 
-  Developers evaluating MCP adoption need a clear map of which clients can actually interface with the growing server ecosystem.
+  It provides a centralized entry point for developers looking to extend AI assistants with specific external tooling via the MCP standard.
 
-  _Just when you thought the JSON schema wars were over, we now have an entire directory dedicated to figuring out which client can correctly speak the new hotness protocol._
+  _Because what the world definitely needed was another layer of abstraction just to find the abstraction layer that connects the AI to the thing it actually needs to do._
 
-  `mcp` `directory` `clients`
+  `mcp` `directory` `discovery` `protocol`
   </details>
 
-- **[llama-police](https://huyenchip.com/llama-police.html)** A curated, auto-updating directory of open source LLM tools and developers, now hosted at GoodAIList.com. <details><summary>More about</summary>
+- **[https://mcp.pfvc.io/mcp/](https://mcp.pfvc.io/mcp)** A community-maintained directory listing Model Context Protocol (MCP) servers for extending AI coding assistants with external tooling. <details><summary>More about</summary>
+
+  It serves as a navigation aid for developers looking to discover and integrate MCP-compatible servers into their AI-assisted workflows.
+
+  _Another layer of navigational abstraction has arrived, ensuring we can now browse the tools that browse the tools that write the code._
+
+  `mcp` `directory` `servers` `discovery`
+  </details>
+
+- **[llama-police.html](https://huyenchip.com/llama-police.html)** A curated, auto-updating directory of open source LLM tools and developers, now hosted at GoodAIList.com. <details><summary>More about</summary>
 
   Developers can quickly discover trending local AI repositories and look up tool creators by geography when evaluating self-hosted options.
 
@@ -699,6 +709,15 @@ _These are new or low-traffic entries being watched._
   _Just what every developer needs: another meta-list to browse for three hours while convincing themselves they are 'evaluating the ecosystem.'._
 
   `directory` `llm` `resources` `learning`
+  </details>
+
+- **[llms.txt](https://awesome-copilot.github.com/llms.txt)** A community-driven directory and learning hub for GitHub Copilot custom agents, skills, instructions, and configuration packs. <details><summary>More about</summary>
+
+  It gives developers a ready-made library of reusable Copilot behaviors and governance patterns instead of prompting them to reinvent domain-specific assistants from scratch.
+
+  _We have now reached the point where we need a curated list of curated instruction files just to keep our AI assistants from forgetting which cloud provider we are using this sprint._
+
+  `copilot` `skills` `directory` `agents` `github`
   </details>
 
 - **[LLM训练-pretrain](https://zhuanlan.zhihu.com/p/718354385)** A Zhihu article summarizing LLM resources, tips, and techniques for developers. <details><summary>More about</summary>
@@ -717,24 +736,6 @@ _These are new or low-traffic entries being watched._
   _Yet another 'awesome' list to make you realize that managing a simple prompt now requires a toolchain longer than your actual codebase._
 
   `llmops` `directory` `devops` `awesome-list`
-  </details>
-
-- **[mcp](https://mcp.1mcpserver.com/mcp)** A web directory for discovering Model Context Protocol (MCP) servers. <details><summary>More about</summary>
-
-  It provides a centralized entry point for developers looking to extend AI assistants with specific external tooling via the MCP standard.
-
-  _Because what the world definitely needed was another layer of abstraction just to find the abstraction layer that connects the AI to the thing it actually needs to do._
-
-  `mcp` `directory` `discovery` `protocol`
-  </details>
-
-- **[mcp](https://mcp.pfvc.io/mcp)** A community-maintained directory listing Model Context Protocol (MCP) servers for extending AI coding assistants with external tooling. <details><summary>More about</summary>
-
-  It serves as a navigation aid for developers looking to discover and integrate MCP-compatible servers into their AI-assisted workflows.
-
-  _Another layer of navigational abstraction has arrived, ensuring we can now browse the tools that browse the tools that write the code._
-
-  `mcp` `directory` `servers` `discovery`
   </details>
 
 - **[MCP Market](https://mcpmarket.com)** A curated directory for discovering and navigating Model Context Protocol (MCP) servers and tools. <details><summary>More about</summary>

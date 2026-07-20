@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # Evals & Benchmarks
 
 Frameworks and tooling for measuring model, prompt, or agent behavior.
@@ -647,7 +648,7 @@ _These are new or low-traffic entries being watched._
   `evals` `benchmarks` `multi-agent` `swarms`
   </details>
 
-- **[AICodeSlopMonitor](https://github.com/marcoramilli/slopcodemonitor.ai)** `⭐ 1` `updated ≤30d` A daily-updated dashboard that scans trending GitHub repositories using the SynthScan fingerprint engine to detect and score AI-generated 'slop' code patterns. <details><summary>More about</summary>
+- **[slopcodemonitor.ai](https://github.com/marcoramilli/slopcodemonitor.ai)** `⭐ 1` `updated ≤30d` A daily-updated dashboard that scans trending GitHub repositories using the SynthScan fingerprint engine to detect and score AI-generated 'slop' code patterns. <details><summary>More about</summary>
 
   It gives maintainers and code reviewers a quantitative signal to distinguish human-authored logic from repetitive, AI-generated boilerplate in popular open-source projects.
 
@@ -725,16 +726,7 @@ _These are new or low-traffic entries being watched._
 
   _Yet another platform promising to solve AI flakiness, just in case the six observability tools you already stitched together weren't quite enough to explain why your agent suddenly forgot how to reply._
 
-  `observability` `evals` `prompt-ops` `llm-gateway` `agent-monitoring`
-  </details>
-
-- **[Keywords AI](https://www.respan.ai)** Respan is a unified LLM engineering platform offering observability, evaluations, prompt optimization, deployment, and monitoring for AI agents. <details><summary>More about</summary>
-
-  It gives developers end-to-end visibility and control over AI agent behavior in production, reducing debugging time and improving reliability.
-
-  _Another observability dashboard to add to the stack, promising to finally make sense of LLM chaos—until the next tool arrives._
-
-  `observability` `evals` `llmops` `monitoring` `prompt-optimization`
+  `agent-monitoring` `evals` `llm-gateway` `llmops` `monitoring` `observability` `prompt-ops` `prompt-optimization`
   </details>
 
 - **[Literal AI](https://literalai.com)** LiteralAI is a platform for building, evaluating, and monitoring LLM-powered applications, focused on the LLMOps lifecycle. <details><summary>More about</summary>
@@ -806,16 +798,7 @@ _These are new or low-traffic entries being watched._
 
   _Yet another platform to manage the layers of abstraction we keep adding so we can pretend our prompts are now enterprise-grade software._
 
-  `llmops` `prompt-management` `evals` `tracing`
-  </details>
-
-- **[PromptLayer 🍰](https://www.promptlayer.com)** A prompt management platform providing versioning, evaluations, and observability for AI engineering teams. <details><summary>More about</summary>
-
-  It provides a centralized way to manage prompt assets, track LLM performance with tracing, and run regression tests in production environments.
-
-  _Nothing says 'table production environment' quite like having a dedicated CMS just to manage the strings you're sending to an API._
-
-  `prompt-management` `observability` `evaluations` `llmops` `tracing`
+  `evals` `evaluations` `llmops` `observability` `prompt-management` `tracing`
   </details>
 
 - **[Root Signals](https://scorable.ai)** Scorable is a platform for creating custom AI judges and running evaluations to measure, monitor, and improve the quality of LLM-powered applications in production. <details><summary>More about</summary>
@@ -854,15 +837,6 @@ _These are new or low-traffic entries being watched._
   `benchmarking` `evaluation` `domain-specific` `finance` `legal`
   </details>
 
-- **[varies](https://www.swebench.com)** A leaderboard website tracking and comparing the performance of AI coding agents on the SWE-bench software engineering benchmark. <details><summary>More about</summary>
-
-  Developers can use this site to objectively compare which autonomous coding agents actually resolve real GitHub issues before adopting them into their workflow.
-
-  _Another benchmark to obsess over while your actual test suite remains red because the agent reformatted your entire codebase into JSON._
-
-  `evals` `benchmark` `coding-agents` `leaderboard`
-  </details>
-
 - **[VibeDoctor](https://vibedoctor.io)** A security and code-quality scanner that runs enterprise tools like SonarQube, Trivy, and Gitleaks against AI-generated codebases and live URLs, offering fix prompts for Cursor and other assistants. <details><summary>More about</summary>
 
   It closes the gap between vibe-coded prototypes and production readiness by catching hallucinations, secrets, and CVEs that the original generating AI typically misses.
@@ -870,4 +844,13 @@ _These are new or low-traffic entries being watched._
   _We have entered an era where we need a second AI to audit the code written by the first AI, just to ensure the first AI didn't invent a dependency that will steal our API keys._
 
   `security` `code-review` `vibe-coding` `scanner` `mcp`
+  </details>
+
+- **[www.swebench.com](https://www.swebench.com)** A leaderboard website tracking and comparing the performance of AI coding agents on the SWE-bench software engineering benchmark. <details><summary>More about</summary>
+
+  Developers can use this site to objectively compare which autonomous coding agents actually resolve real GitHub issues before adopting them into their workflow.
+
+  _Another benchmark to obsess over while your actual test suite remains red because the agent reformatted your entire codebase into JSON._
+
+  `evals` `benchmark` `coding-agents` `leaderboard`
   </details>

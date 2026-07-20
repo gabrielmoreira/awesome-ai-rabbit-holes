@@ -1,3 +1,4 @@
+<!-- This file is generated. Do not edit it directly. Submit tools through config/sources.yml. -->
 # App Builders
 
 Products that generate, assemble, or deploy apps, sites, internal tools, or project scaffolds from prompts.
@@ -149,16 +150,7 @@ _These are new or low-traffic entries being watched._
 
   _The promise of 'just describe it' feels magical until you realize debugging AI-generated logic is just as painful as debugging hand-written spaghetti._
 
-  `no-code` `app-builder` `ai-platform` `prompt-to-app`
-  </details>
-
-- **[base44](https://www.base44.com)** Base44 is a prompt-to-app builder that generates full-stack internal tools and web applications from natural language descriptions. <details><summary>More about</summary>
-
-  It allows developers to skip boilerplate and scaffolding by describing an application in prompts and getting a deployable product back.
-
-  _Yet another reason to question whether you actually enjoy writing CRUD apps or if you just like configuring the CI pipeline that deploys them._
-
-  `app-builder` `prompt-to-app` `internal-tools` `scaffolding`
+  `ai-platform` `app-builder` `internal-tools` `no-code` `prompt-to-app` `scaffolding`
   </details>
 
 - **[bldbl.dev](https://bldbl.dev)** A SaaS platform that uses AI to generate project plans, scaffold private repositories with CI/CD, and stream implementation tasks to any MCP-compatible AI assistant via its own MCP server. <details><summary>More about</summary>
@@ -483,15 +475,6 @@ _These are new or low-traffic entries being watched._
   _Another excuse to spend three hours perfecting a napkin sketch in a browser canvas while telling your PM you are 'prototyping in a generative workflow.'._
 
   `ui-generation` `sketch-to-code` `tldraw` `prototyping`
-  </details>
-
-- **[trypromptly](https://trypromptly.com)** Trypromptly.com is a no-code platform for building and deploying AI-powered applications and chatbots using a visual workflow builder. <details><summary>More about</summary>
-
-  It allows developers and non-developers to rapidly prototype and ship AI tools via a drag-and-drop interface, abstracting away the underlying model integration boilerplate.
-
-  _Because what the world definitely needed was another visual wrapper to ensure we never have to look at a requirements.txt file again._
-
-  `no-code` `ai-builder` `llm-apps` `chatbots` `visual-workflow`
   </details>
 
 - **[Uizard](https://uizard.io)** Uizard is an AI-assisted UI design platform that generates editable mobile app, web app, and website mockups from text prompts, screenshots, or hand-drawn wireframes. <details><summary>More about</summary>

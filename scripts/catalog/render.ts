@@ -1,6 +1,7 @@
 // scripts/render.ts
 // Renders README, rabbit-hole pages, and catalog/catalog.json.
 
+import * as fs from "node:fs";
 import * as path from "node:path";
 import { loadCatalogItems, loadCategories } from "./data.ts";
 import { isLowSignalCatalogUrl } from "./core.ts";
@@ -16,6 +17,7 @@ import type { CatalogItem, Category } from "./types.ts";
 import { writeTextFileIfChanged } from "../support/files.ts";
 import { REPO_ROOT } from "../support/paths.ts";
 import { parseGitHubUrl } from "../support/github.ts";
+const RABBIT_HOLES_DIRECTORY = path.join(REPO_ROOT, "docs", "rabbit-holes");
 
 
 
@@ -254,7 +256,25 @@ export function writeReadme(content: string): void {
 }
 
 export function writeRabbitHolePage(slug: string, content: string): void {
-  writeTextFileIfChanged(path.join(REPO_ROOT, "docs", "rabbit-holes", `${slug}.md`), content);
+  writeTextFileIfChanged(path.join(RABBIT_HOLES_DIRECTORY, `${slug}.md`), content);
+}
+
+export function removeObsoleteRabbitHolePages(
+  categories: readonly Pick<Category, "slug">[],
+  docsDirectory = RABBIT_HOLES_DIRECTORY,
+): void {
+  if (!fs.existsSync(docsDirectory) || !fs.statSync(docsDirectory).isDirectory()) return;
+
+  const expectedPages = new Set(categories.map((category) => `${category.slug}.md`));
+  const obsoletePages = fs
+    .readdirSync(docsDirectory, { withFileTypes: true })
+    .filter((entry) => entry.isFile() && entry.name.endsWith(".md") && !expectedPages.has(entry.name))
+    .map((entry) => entry.name)
+    .sort();
+
+  for (const fileName of obsoletePages) {
+    fs.rmSync(path.join(docsDirectory, fileName), { force: true });
+  }
 }
 
 export function writeSiteCatalog(data: object): void {
@@ -272,5 +292,6 @@ export async function runRender(): Promise<void> {
   for (const category of categories) {
     writeRabbitHolePage(category.slug, renderRabbitHolePage(category, items));
   }
+  removeObsoleteRabbitHolePages(categories);
   writeSiteCatalog(renderSiteCatalog(items));
 }

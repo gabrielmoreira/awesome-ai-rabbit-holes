@@ -1,4 +1,4 @@
-import { normalizeSourceKind } from "./core.ts"
+import { normalizeCatalogUrl, normalizeSourceKind } from "./core.ts"
 import { loadCatalogItems, loadCategories, loadSources } from "./data.ts"
 import type { CatalogItem, Source } from "./types.ts"
 
@@ -63,6 +63,39 @@ export function validateCatalogItems(items: CatalogItem[]): ValidationError[] {
 }
 
 
+export function validateSemanticDuplicates(items: CatalogItem[]): ValidationError[] {
+  const itemsByNormalizedUrl = new Map<string, CatalogItem[]>();
+  for (const item of items) {
+    if (!item.canonical_url) continue;
+    const normalizedUrl = normalizeCatalogUrl(item.canonical_url);
+    const matches = itemsByNormalizedUrl.get(normalizedUrl) ?? [];
+    matches.push(item);
+    itemsByNormalizedUrl.set(normalizedUrl, matches);
+  }
+
+  const errors: ValidationError[] = [];
+  for (const [normalizedUrl, matches] of [...itemsByNormalizedUrl.entries()].sort(([left], [right]) =>
+    left.localeCompare(right)
+  )) {
+    const sortedMatches = matches.toSorted(
+      (left, right) => left.id.localeCompare(right.id) || left.canonical_url.localeCompare(right.canonical_url),
+    );
+    for (let leftIndex = 0; leftIndex < sortedMatches.length; leftIndex += 1) {
+      for (let rightIndex = leftIndex + 1; rightIndex < sortedMatches.length; rightIndex += 1) {
+        const left = sortedMatches[leftIndex]!;
+        const right = sortedMatches[rightIndex]!;
+        errors.push({
+          path: `${left.id},${right.id}`,
+          message:
+            `Normalized canonical URL collision: ${left.id} (${left.canonical_url}) and ` +
+            `${right.id} (${right.canonical_url}) both normalize to ${normalizedUrl}`,
+        });
+      }
+    }
+  }
+  return errors;
+}
+
 function validateDuplicateIds(items: CatalogItem[]): ValidationError[] {
   const seen = new Set<string>();
   const errors: ValidationError[] = [];
@@ -88,18 +121,26 @@ function validateCategoryReferences(items: CatalogItem[], categories: Array<{ id
   return errors;
 }
 
+export function validateCatalogState(
+  items: CatalogItem[],
+  sources: Source[],
+  categories: Array<{ id: string }>,
+): ValidationError[] {
+  return [
+    ...validateSources(sources),
+    ...validateCatalogItems(items),
+    ...validateDuplicateIds(items),
+    ...validateCategoryReferences(items, categories),
+  ];
+}
+
 export async function runValidate(): Promise<void> {
   console.log("Validating catalog...");
 
   const sources = loadSources();
   const categories = loadCategories();
   const items = loadCatalogItems();
-  const errors: ValidationError[] = [];
-
-  errors.push(...validateSources(sources));
-  errors.push(...validateCatalogItems(items));
-  errors.push(...validateDuplicateIds(items));
-  errors.push(...validateCategoryReferences(items, categories));
+  const errors = validateCatalogState(items, sources, categories);
 
   if (errors.length > 0) {
     console.error(`\n❌ Validation failed with ${errors.length} error(s):\n`);
