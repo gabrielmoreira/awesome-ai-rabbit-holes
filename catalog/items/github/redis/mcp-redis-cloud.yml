@@ -24,20 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 38
-    forks: 22
+    stars: 40
+    forks: 25
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: redis/mcp-redis-cloud
+    html_url: https://github.com/redis/mcp-redis-cloud
     created_at: "2025-03-28T10:18:18Z"
     pushed_at: "2025-05-05T06:09:05Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:07.831Z"
+    last_checked_at: "2026-07-20T16:42:44.463Z"
     readme:
-      fetched_at: "2026-05-06T22:46:07.831Z"
+      fetched_at: "2026-07-20T16:42:44.463Z"
       bytes: 6663
 insights:
   summary: An official MCP server from Redis that exposes Redis Cloud API capabilities—account, subscription, database, and task management—to MCP clients like Claude Desktop and Cursor.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:07.831Z"
+    updated_at: "2026-07-20T16:42:44.463Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

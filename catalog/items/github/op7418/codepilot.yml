@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5631
-    forks: 606
+    stars: 6142
+    forks: 665
     license: NOASSERTION
     archived: false
-    full_name: null
-    html_url: null
+    full_name: op7418/CodePilot
+    html_url: https://github.com/op7418/CodePilot
     created_at: "2026-02-06T12:38:55Z"
-    pushed_at: "2026-04-24T03:30:49Z"
+    pushed_at: "2026-07-20T13:45:55Z"
     description: A multi-model AI agent desktop client — connect any AI provider, extend with MCP & skills, control from your phone. Built with Electron + Next.js.
     homepage: https://www.codepilot.sh/
     topics:
@@ -42,10 +42,10 @@ metadata:
       - electron
       - gui
       - nextjs
-    last_checked_at: "2026-05-06T22:45:39.519Z"
+    last_checked_at: "2026-07-20T16:42:24.703Z"
     readme:
-      fetched_at: "2026-05-06T22:45:39.519Z"
-      bytes: 13212
+      fetched_at: "2026-07-20T16:42:24.703Z"
+      bytes: 13195
 insights:
   summary: A multi-model AI agent desktop client built with Electron and Next.js that connects to 17+ AI providers, supports MCP servers and skills, and can be controlled remotely via phone.
   why_it_matters: It offers developers a single desktop interface to switch between AI models mid-conversation, manage persistent memory, and extend capabilities via MCP without being locked into a single provider.
@@ -78,16 +78,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:39.519Z"
+    updated_at: "2026-07-20T16:42:24.703Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

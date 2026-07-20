@@ -39,20 +39,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 57
-    forks: 7
+    stars: 59
+    forks: 8
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: StacklokLabs/mkp
+    html_url: https://github.com/StacklokLabs/mkp
     created_at: "2025-04-23T12:47:32Z"
-    pushed_at: "2026-05-05T15:01:33Z"
+    pushed_at: "2026-07-17T11:38:52Z"
     description: MKP is a Model Context Protocol (MCP) server for Kubernetes
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:32.846Z"
+    last_checked_at: "2026-07-20T16:43:02.672Z"
     readme:
-      fetched_at: "2026-05-06T22:46:32.846Z"
+      fetched_at: "2026-07-20T16:43:02.672Z"
       bytes: 15863
 insights:
   summary: MKP is a Go-based Model Context Protocol (MCP) server that allows LLM applications to list, get, and apply Kubernetes resources directly via the Kubernetes API.
@@ -86,16 +86,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:32.846Z"
+    updated_at: "2026-07-20T16:43:02.672Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

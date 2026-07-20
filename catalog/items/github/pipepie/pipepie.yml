@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6
+    stars: 8
     forks: 1
     license: AGPL-3.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: pipepie/pipepie
+    html_url: https://github.com/pipepie/pipepie
     created_at: "2026-03-30T18:56:13Z"
     pushed_at: "2026-04-02T14:12:32Z"
     description: Self-hosted encrypted tunnel for webhooks, AI pipelines, and local development. End-to-end Noise encryption, pipeline tracing, web dashboard, MCP server for AI tools.
@@ -48,9 +48,9 @@ metadata:
       - self-hosted
       - tunnel
       - webhook
-    last_checked_at: "2026-05-06T22:45:53.981Z"
+    last_checked_at: "2026-07-20T16:42:34.803Z"
     readme:
-      fetched_at: "2026-05-06T22:45:53.981Z"
+      fetched_at: "2026-07-20T16:42:34.803Z"
       bytes: 9062
 insights:
   summary: A self-hosted, encrypted tunnel tool for webhooks and local development that includes built-in pipeline tracing and an MCP server for AI tooling integration.
@@ -84,16 +84,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:53.981Z"
+    updated_at: "2026-07-20T16:42:34.803Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

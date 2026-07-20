@@ -24,19 +24,31 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 8
+    forks: 2
+    license: MIT
+    archived: false
+    full_name: rosasynthesiz/flstudio-mcp
+    html_url: https://github.com/rosasynthesiz/flstudio-mcp
+    created_at: "2026-05-26T08:15:07Z"
+    pushed_at: "2026-07-03T09:18:19Z"
+    description: AI-powered FL Studio control via the Model Context Protocol. Beyond piano-roll notes — full in-DAW mixing (Mix Doctor, gain staging, EQ/comp/reverb, reference matching), routing, and composition through Claude and other MCP clients. 67 tools. Windows.
+    homepage: ""
+    topics:
+      - ai-music
+      - audio
+      - claude
+      - daw
+      - fl-studio
+      - mcp
+      - midi
+      - mixing
+      - model-context-protocol
+      - music-production
+    last_checked_at: "2026-07-20T16:42:47.759Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:47.759Z"
+      bytes: 11312
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:47.759Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

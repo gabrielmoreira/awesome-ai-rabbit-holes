@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1
-    forks: 1
+    stars: 12
+    forks: 3
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: PCDCK/ozon-mcp
+    html_url: https://github.com/PCDCK/ozon-mcp
     created_at: "2026-04-17T11:47:03Z"
     pushed_at: "2026-04-17T13:43:23Z"
     description: MCP-сервер для Ozon Seller API и Performance API — подключите любого AI-агента к кабинету продавца
@@ -45,9 +45,9 @@ metadata:
       - ozon-api
       - python
       - seller-api
-    last_checked_at: "2026-05-06T22:45:49.977Z"
+    last_checked_at: "2026-07-20T16:42:32.099Z"
     readme:
-      fetched_at: "2026-05-06T22:45:49.977Z"
+      fetched_at: "2026-07-20T16:42:32.099Z"
       bytes: 14805
 insights:
   summary: An MCP server that exposes 466 Ozon Seller and Performance API methods as tools for AI agents like Claude and Cursor.
@@ -80,16 +80,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:49.977Z"
+    updated_at: "2026-07-20T16:42:32.099Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

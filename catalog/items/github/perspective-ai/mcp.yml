@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4
+    stars: 5
     forks: 0
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Perspective-AI/mcp
+    html_url: https://github.com/Perspective-AI/mcp
     created_at: "2025-12-11T15:25:11Z"
     pushed_at: "2026-04-28T11:14:26Z"
     description: MCP server for Perspective AI. An AI Concierge replaces static forms with adaptive AI conversations that understand real situations, structure key information automatically, and trigger the right next step.
@@ -46,9 +46,9 @@ metadata:
       - mcp-server
       - researcher
       - survey
-    last_checked_at: "2026-05-06T22:45:51.032Z"
+    last_checked_at: "2026-07-20T16:42:32.836Z"
     readme:
-      fetched_at: "2026-05-06T22:45:51.032Z"
+      fetched_at: "2026-07-20T16:42:32.836Z"
       bytes: 10115
 insights:
   summary: An MCP server that connects AI assistants like Claude and Cursor to Perspective AI's conversational form-replacement platform for designing, analyzing, and automating AI concierges.
@@ -81,16 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:51.032Z"
+    updated_at: "2026-07-20T16:42:32.836Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

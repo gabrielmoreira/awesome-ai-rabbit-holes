@@ -54,21 +54,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 23897
-    forks: 3209
+    stars: 24355
+    forks: 3373
     license: Apache-2.0
-    archived: false
-    full_name: null
-    html_url: null
+    archived: true
+    full_name: RooCodeInc/Roo-Code
+    html_url: https://github.com/RooCodeInc/Roo-Code
     created_at: "2024-10-31T17:56:50Z"
-    pushed_at: "2026-05-06T21:52:19Z"
+    pushed_at: "2026-05-15T18:08:47Z"
     description: Roo Code gives you a whole dev team of AI agents in your code editor.
     homepage: https://roocode.com
     topics: []
-    last_checked_at: "2026-05-06T22:46:11.963Z"
+    last_checked_at: "2026-07-20T16:42:47.433Z"
     readme:
-      fetched_at: "2026-05-06T22:46:11.963Z"
-      bytes: 9567
+      fetched_at: "2026-07-20T16:42:47.433Z"
+      bytes: 3387
 insights:
   summary: Roo Code is a VS Code extension that provides a multi-mode AI development team within the editor for coding, architecture, debugging, and task automation.
   why_it_matters: It allows developers to delegate multi-step coding tasks across specialized modes (Code, Architect, Debug) directly inside VS Code with support for various LLM providers and MCP servers.
@@ -91,8 +91,8 @@ placement:
   primary_category: coding-agents
   section: IDE-Native Assistants
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (23897) exceeded threshold (150)
+  status: needs_review
+  reason: Repository is archived
 processing:
   discover:
     status: done
@@ -101,16 +101,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:11.963Z"
+    updated_at: "2026-07-20T16:42:47.433Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

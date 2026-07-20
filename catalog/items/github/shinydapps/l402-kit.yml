@@ -24,19 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: ShinyDapps/l402-kit
+    html_url: https://github.com/ShinyDapps/l402-kit
+    created_at: "2026-04-20T05:40:35Z"
+    pushed_at: "2026-05-28T03:44:05Z"
+    description: The simplest way to charge for your API in Bitcoin sats. 3 lines of code. TypeScript + Python. Lightning Network L402 protocol.
+    homepage: https://shinydapps-api.vercel.app
+    topics: []
+    last_checked_at: "2026-07-20T16:42:55.929Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:55.929Z"
+      bytes: 13463
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +62,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:55.929Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

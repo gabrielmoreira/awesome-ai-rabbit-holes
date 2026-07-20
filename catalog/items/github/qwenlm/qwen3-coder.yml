@@ -23,20 +23,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 16493
-    forks: 1193
+    stars: 16735
+    forks: 1228
     license: null
     archived: false
-    full_name: null
-    html_url: null
+    full_name: QwenLM/Qwen3-Coder
+    html_url: https://github.com/QwenLM/Qwen3-Coder
     created_at: "2024-04-16T11:49:01Z"
     pushed_at: "2026-03-24T08:22:10Z"
     description: Qwen3-Coder is the code version of Qwen3, the large language model series developed by Qwen team.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-06T22:46:04.236Z"
+    last_checked_at: "2026-07-20T16:42:42.274Z"
     readme:
-      fetched_at: "2026-05-06T22:46:04.236Z"
+      fetched_at: "2026-07-20T16:42:42.274Z"
       bytes: 21967
 insights:
   summary: Qwen3-Coder is an open-weight language model series from Alibaba's Qwen team, specifically fine-tuned for coding tasks and agentic workflows with support for long contexts up to 1M tokens.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:04.236Z"
+    updated_at: "2026-07-20T16:42:42.274Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

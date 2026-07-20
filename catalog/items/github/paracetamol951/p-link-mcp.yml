@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1
-    forks: 2
+    stars: 2
+    forks: 3
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: paracetamol951/P-Link-MCP
+    html_url: https://github.com/paracetamol951/P-Link-MCP
     created_at: "2025-11-05T05:49:41Z"
     pushed_at: "2026-03-25T10:26:01Z"
     description: "x402 client implementation (x402-fetch), HTTP 402 server implementation and Model Context Protocol (MCP) for P-Link.io : pay, send and receive money with agents"
@@ -47,9 +47,9 @@ metadata:
       - x402-agent
       - x402-api
       - x402-payment
-    last_checked_at: "2026-05-06T22:45:48.175Z"
+    last_checked_at: "2026-07-20T16:42:30.780Z"
     readme:
-      fetched_at: "2026-05-06T22:45:48.175Z"
+      fetched_at: "2026-07-20T16:42:30.780Z"
       bytes: 7221
 insights:
   summary: An MCP server that exposes the P-Link.io payment API as tools so Claude, ChatGPT, and other MCP-compatible clients can create payment links, send money, and pay HTTP 402-protected resources on Solana.
@@ -83,16 +83,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:48.175Z"
+    updated_at: "2026-07-20T16:42:30.780Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

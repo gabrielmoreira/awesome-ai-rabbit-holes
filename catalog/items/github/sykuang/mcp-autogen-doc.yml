@@ -71,13 +71,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:46:38.815Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-20T16:43:06.765Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for sykuang/mcp-autogen-doc
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    updated_at: "2026-07-20T16:43:08.987Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

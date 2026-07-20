@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 149
-    forks: 28
+    stars: 337
+    forks: 52
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: sbroenne/mcp-server-excel
+    html_url: https://github.com/sbroenne/mcp-server-excel
     created_at: "2025-10-19T07:31:03Z"
-    pushed_at: "2026-04-29T15:26:30Z"
+    pushed_at: "2026-07-19T11:06:47Z"
     description: Excel MCP Server & CLI - 23 tools, 214 operations for AI-powered Excel automation via COM API
     homepage: https://excelmcpserver.dev/
     topics:
@@ -55,10 +55,10 @@ metadata:
       - power-query
       - vba
       - windows
-    last_checked_at: "2026-05-06T22:46:17.638Z"
+    last_checked_at: "2026-07-20T16:42:51.765Z"
     readme:
-      fetched_at: "2026-05-06T22:46:17.638Z"
-      bytes: 14439
+      fetched_at: "2026-07-20T16:42:51.765Z"
+      bytes: 16335
 insights:
   summary: An MCP server for Windows that exposes 230 Excel operations via the COM API, allowing AI assistants to automate Excel tasks like Power Query, DAX, and PivotTables.
   why_it_matters: It lets developers hand off complex Excel automation—including VBA and data modeling—to AI assistants through natural language instead of manual scripting.
@@ -81,8 +81,8 @@ placement:
   primary_category: mcp
   section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (337) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -91,16 +91,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:17.638Z"
+    updated_at: "2026-07-20T16:42:51.765Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

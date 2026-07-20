@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 364
-    forks: 62
+    stars: 424
+    forks: 71
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: run-llama/llama-agents
+    html_url: https://github.com/run-llama/llama-agents
     created_at: "2025-06-04T09:47:51Z"
-    pushed_at: "2026-05-06T22:43:27Z"
+    pushed_at: "2026-07-13T21:32:50Z"
     description: Llama Agents + Workflows are an event-driven, async-first, step-based way to control the execution flow of AI applications like agents.
     homepage: https://www.llamaindex.ai/
     topics:
@@ -42,9 +42,9 @@ metadata:
       - ai
       - event-driven
       - orchestration
-    last_checked_at: "2026-05-06T22:46:13.481Z"
+    last_checked_at: "2026-07-20T16:42:48.648Z"
     readme:
-      fetched_at: "2026-05-06T22:46:13.481Z"
+      fetched_at: "2026-07-20T16:42:48.648Z"
       bytes: 5599
 insights:
   summary: LlamaAgents is an event-driven, async-first Python framework and CLI for building and deploying document-centric agent workflows with durable state, branching, and human-in-the-loop support.
@@ -78,16 +78,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:13.481Z"
+    updated_at: "2026-07-20T16:42:48.648Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

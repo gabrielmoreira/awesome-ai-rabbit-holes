@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 145
-    forks: 28
+    stars: 148
+    forks: 29
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: silenceper/mcp-k8s
+    html_url: https://github.com/silenceper/mcp-k8s
     created_at: "2025-04-03T08:56:13Z"
-    pushed_at: "2026-04-12T13:50:39Z"
+    pushed_at: "2026-07-12T14:06:46Z"
     description: A Kubernetes MCP (Model Control Protocol) server that enables interaction with Kubernetes clusters through MCP tools.
     homepage: https://silenceper.com/blog/202504/mcp-k8s/
     topics:
@@ -39,9 +39,9 @@ metadata:
       - kubernetes
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-06T22:46:25.191Z"
+    last_checked_at: "2026-07-20T16:42:57.399Z"
     readme:
-      fetched_at: "2026-05-06T22:46:25.191Z"
+      fetched_at: "2026-07-20T16:42:57.399Z"
       bytes: 12013
 insights:
   summary: A Go-based MCP server that exposes Kubernetes cluster operations and Helm management as tools for LLM assistants.
@@ -75,16 +75,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:25.191Z"
+    updated_at: "2026-07-20T16:42:57.399Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

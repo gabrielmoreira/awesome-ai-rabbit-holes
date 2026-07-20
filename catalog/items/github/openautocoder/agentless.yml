@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2042
-    forks: 230
+    stars: 2084
+    forks: 235
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: OpenAutoCoder/Agentless
+    html_url: https://github.com/OpenAutoCoder/Agentless
     created_at: "2024-06-30T23:37:17Z"
     pushed_at: "2024-12-22T19:29:31Z"
     description: "Agentless🐱:  an agentless approach to automatically solve software development problems"
@@ -39,9 +39,9 @@ metadata:
       - artificial-intelligence
       - llm
       - software-development
-    last_checked_at: "2026-05-06T22:45:40.905Z"
+    last_checked_at: "2026-07-20T16:42:25.537Z"
     readme:
-      fetched_at: "2026-05-06T22:45:40.905Z"
+      fetched_at: "2026-07-20T16:42:25.537Z"
       bytes: 4234
 insights:
   summary: Agentless is a CLI-based system that automatically resolves software issues by localizing faults, generating candidate patches, and validating them against tests without using an agent loop.
@@ -74,16 +74,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:40.905Z"
+    updated_at: "2026-07-20T16:42:25.537Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

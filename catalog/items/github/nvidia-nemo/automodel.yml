@@ -23,17 +23,18 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 482
-    forks: 142
+    stars: 743
+    forks: 222
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: NVIDIA-NeMo/Automodel
+    html_url: https://github.com/NVIDIA-NeMo/Automodel
     created_at: "2025-05-21T21:45:47Z"
-    pushed_at: "2026-05-06T22:34:13Z"
+    pushed_at: "2026-07-20T16:09:59Z"
     description: 🚀 Pytorch Distributed native training library for LLMs/VLMs with OOTB Hugging Face support
     homepage: https://docs.nvidia.com/nemo/automodel/nightly/index.html
     topics:
+      - agent
       - deepseek-v3-2
       - deepseek-v4
       - finetuning
@@ -41,7 +42,6 @@ metadata:
       - gemma4
       - glm
       - gpt-oss
-      - huggingface
       - kimi-k2
       - llama
       - llama3
@@ -49,15 +49,14 @@ metadata:
       - minimax-m2
       - mistral
       - openai
-      - pytorch
       - qwen3
       - qwen3-6
       - qwen3-next
       - vlm
-    last_checked_at: "2026-05-06T22:45:35.541Z"
+    last_checked_at: "2026-07-20T16:42:21.360Z"
     readme:
-      fetched_at: "2026-05-06T22:45:35.541Z"
-      bytes: 38336
+      fetched_at: "2026-07-20T16:42:21.360Z"
+      bytes: 46918
 insights:
   summary: NeMo AutoModel is a PyTorch-native distributed training library for fine-tuning and pretraining large language and vision-language models with out-of-the-box Hugging Face support.
   why_it_matters: It gives developers a streamlined, pytorch-distributed path to fine-tune cutting-edge models like DeepSeek V4 and Mistral Medium 3.5 without wrestling with fragmented training stacks.
@@ -89,19 +88,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T15:12:08.113Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nvidia-nemo/automodel
+    status: done
+    updated_at: "2026-07-20T16:42:21.360Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 272
+    stars: 275
     forks: 19
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: shobrook/saplings
+    html_url: https://github.com/shobrook/saplings
     created_at: "2023-11-17T10:03:31Z"
     pushed_at: "2025-07-27T09:29:45Z"
     description: Plug-and-play tree search for agents
@@ -40,9 +40,9 @@ metadata:
       - monte-carlo-tree-search
       - openai
       - search-algorithm
-    last_checked_at: "2026-05-06T22:46:23.778Z"
+    last_checked_at: "2026-07-20T16:42:56.312Z"
     readme:
-      fetched_at: "2026-05-06T22:46:23.778Z"
+      fetched_at: "2026-07-20T16:42:56.312Z"
       bytes: 21023
 insights:
   summary: A Python framework that adds Monte Carlo Tree Search, A*, and greedy best-first search algorithms to LLM agents with two lines of code.
@@ -76,16 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:23.778Z"
+    updated_at: "2026-07-20T16:42:56.312Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

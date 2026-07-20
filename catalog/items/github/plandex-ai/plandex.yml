@@ -54,12 +54,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 15333
-    forks: 1130
+    stars: 15536
+    forks: 1165
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: plandex-ai/plandex
+    html_url: https://github.com/plandex-ai/plandex
     created_at: "2023-10-24T22:11:43Z"
     pushed_at: "2025-10-03T21:49:58Z"
     description: Open source AI coding agent. Designed for large projects and real world tasks.
@@ -81,9 +81,9 @@ metadata:
       - terminal
       - terminal-based
       - terminal-ui
-    last_checked_at: "2026-05-06T22:45:54.611Z"
+    last_checked_at: "2026-07-20T16:42:35.270Z"
     readme:
-      fetched_at: "2026-05-06T22:45:54.611Z"
+      fetched_at: "2026-07-20T16:42:35.270Z"
       bytes: 10851
 insights:
   summary: Plandex is a terminal-based, open-source AI coding agent that plans and executes large, multi-file coding tasks with up to 2M tokens of context and configurable autonomy levels.
@@ -117,16 +117,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:54.611Z"
+    updated_at: "2026-07-20T16:42:35.270Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -24,20 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1092
-    forks: 92
+    stars: 1104
+    forks: 93
     license: null
     archived: false
-    full_name: null
-    html_url: null
+    full_name: rlancemartin/auto-evaluator
+    html_url: https://github.com/rlancemartin/auto-evaluator
     created_at: "2023-04-14T23:46:38Z"
     pushed_at: "2023-05-10T02:00:18Z"
     description: Evaluation tool for LLM QA chains
     homepage: https://autoevaluator.langchain.com/
     topics: []
-    last_checked_at: "2026-05-06T22:46:10.555Z"
+    last_checked_at: "2026-07-20T16:42:46.468Z"
     readme:
-      fetched_at: "2026-05-06T22:46:10.555Z"
+      fetched_at: "2026-07-20T16:42:46.468Z"
       bytes: 1884
 insights:
   summary: A lightweight Streamlit evaluation tool that auto-generates QA pairs from documents and scores LLM question-answering chains across various retrieval and prompt configurations.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:10.555Z"
+    updated_at: "2026-07-20T16:42:46.468Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

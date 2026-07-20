@@ -24,19 +24,37 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 22
+    forks: 2
+    license: MIT
+    archived: false
+    full_name: Perseus-Computing-LLC/perseus
+    html_url: https://github.com/Perseus-Computing-LLC/perseus
+    created_at: "2026-05-18T11:59:16Z"
+    pushed_at: "2026-07-19T19:44:46Z"
+    description: "The memory & context layer for AI agents: load only the context they actually need. Resolves live workspace state into verified facts before the context window opens. 94% fewer prompt tokens, 0 ms overhead, 33 MCP tools. Local-first, MIT. pip install perseus-ctx"
+    homepage: https://perseus.observer/
+    topics:
+      - agent-memory
+      - ai-agents
+      - claude-code
+      - cli
+      - context-engine
+      - context-engineering
+      - hermes
+      - llm
+      - local-first
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - open-source
+      - perseus
+      - python
+      - workspace-context
+    last_checked_at: "2026-07-20T16:42:32.699Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:32.699Z"
+      bytes: 46969
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +78,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:32.699Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

@@ -23,21 +23,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1249
-    forks: 185
+    stars: 1759
+    forks: 317
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: radixark/miles
+    html_url: https://github.com/radixark/miles
     created_at: "2025-10-09T06:04:57Z"
-    pushed_at: "2026-05-06T14:51:28Z"
+    pushed_at: "2026-07-20T14:01:26Z"
     description: Miles is an enterprise-facing reinforcement learning framework for LLM and VLM post-training, forked from and co-evolving with slime.
-    homepage: ""
+    homepage: https://miles.radixark.com/docs
     topics: []
-    last_checked_at: "2026-05-06T22:46:05.240Z"
+    last_checked_at: "2026-07-20T16:42:42.685Z"
     readme:
-      fetched_at: "2026-05-06T22:46:05.240Z"
-      bytes: 9523
+      fetched_at: "2026-07-20T16:42:42.685Z"
+      bytes: 9504
 insights:
   summary: Miles is an enterprise-grade reinforcement learning framework for large-scale LLM and VLM post-training, optimized for high-throughput rollout and low-precision training.
   why_it_matters: It provides the low-level system optimizations and production stability needed to bridge the gap between research-grade RL and scalable model post-training in enterprise environments.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:05.240Z"
+    updated_at: "2026-07-20T16:42:42.685Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

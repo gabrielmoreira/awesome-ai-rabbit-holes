@@ -24,19 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    full_name: sebastienrousseau/rlg
+    html_url: https://github.com/sebastienrousseau/rlg
+    created_at: "2023-12-05T12:11:11Z"
+    pushed_at: "2026-07-20T09:06:36Z"
+    description: "Near-lock-free structured logging for Rust. 10-crate workspace: MCP server (Claude/Cursor/mcp.run), OTLP HTTP+gRPC exporter, Tower middleware, WASM + WASI 0.2 component, eBPF-style enrichers, PII redaction, log analytics, test utilities, and a jq-style CLI. Sub-µs ingest via a 65k-slot ring buffer (LMAX Disruptor)."
+    homepage: http://doc.rustlogs.com/
+    topics:
+      - ai-agents
+      - anthropic
+      - cargo-vet
+      - claude
+      - ebpf
+      - lock-free
+      - logging
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - observability
+      - opentelemetry
+      - otlp
+      - pii-redaction
+      - ring-buffer
+      - rust
+      - sigstore
+      - structured-logging
+      - tower
+      - wasi
+    last_checked_at: "2026-07-20T16:42:53.131Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:53.131Z"
+      bytes: 6710
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +82,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:53.131Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 9
+    stars: 12
     forks: 2
     license: AGPL-3.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: OSOJDJD/deeplook
+    html_url: https://github.com/OSOJDJD/deeplook
     created_at: "2026-03-15T03:14:31Z"
     pushed_at: "2026-05-01T10:34:11Z"
     description: Company intelligence for AI agents — any company, one call
@@ -40,9 +40,9 @@ metadata:
       - mcp
       - mcp-server
       - open-source
-    last_checked_at: "2026-05-06T22:45:45.248Z"
+    last_checked_at: "2026-07-20T16:42:28.690Z"
     readme:
-      fetched_at: "2026-05-06T22:45:45.248Z"
+      fetched_at: "2026-07-20T16:42:28.690Z"
       bytes: 2454
 insights:
   summary: An MCP server that provides AI agents with real-time financial and company data from 8 APIs to prevent hallucinations in financial research.
@@ -76,16 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:45.248Z"
+    updated_at: "2026-07-20T16:42:28.690Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

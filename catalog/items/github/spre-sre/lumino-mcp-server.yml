@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6
-    forks: 8
+    stars: 11
+    forks: 13
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: spre-sre/lumino-mcp-server
+    html_url: https://github.com/spre-sre/lumino-mcp-server
     created_at: "2025-11-26T08:51:05Z"
-    pushed_at: "2026-05-05T11:03:32Z"
+    pushed_at: "2026-07-14T07:08:02Z"
     description: AI/ML-powered diagnostic engine for SRE Observability on Konflux and OpenShift. It uses the Model Context Protocol (MCP) and 40+ tools to analyze logs, metrics, and traces, enabling automated RCA and predictive analysis.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:31.449Z"
+    last_checked_at: "2026-07-20T16:43:01.702Z"
     readme:
-      fetched_at: "2026-05-06T22:46:31.449Z"
-      bytes: 34986
+      fetched_at: "2026-07-20T16:43:01.702Z"
+      bytes: 45348
 insights:
   summary: An MCP server that exposes 37+ Kubernetes, OpenShift, and Tekton tools for AI assistants to perform SRE observability, automated root cause analysis, and predictive monitoring.
   why_it_matters: It lets developers and SREs delegate cluster troubleshooting and pipeline failure analysis to AI assistants through a standardized protocol instead of manually parsing logs and events.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:31.449Z"
+    updated_at: "2026-07-20T16:43:01.702Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

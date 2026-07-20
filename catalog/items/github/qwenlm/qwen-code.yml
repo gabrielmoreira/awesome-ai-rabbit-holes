@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 24207
-    forks: 2331
+    stars: 26160
+    forks: 2683
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: QwenLM/qwen-code
+    html_url: https://github.com/QwenLM/qwen-code
     created_at: "2025-06-26T01:37:46Z"
-    pushed_at: "2026-05-06T16:51:57Z"
-    description: An open-source AI agent that lives in your terminal.
+    pushed_at: "2026-07-20T16:42:38Z"
+    description: An open-source AI coding agent that lives in your terminal.
     homepage: https://qwenlm.github.io/qwen-code-docs/en/users/overview
     topics: []
-    last_checked_at: "2026-05-06T22:46:03.914Z"
+    last_checked_at: "2026-07-20T16:42:41.721Z"
     readme:
-      fetched_at: "2026-05-06T22:46:03.914Z"
-      bytes: 19976
+      fetched_at: "2026-07-20T16:42:41.721Z"
+      bytes: 9519
 insights:
   summary: An open-source, terminal-native AI coding agent optimized for Qwen models that supports multi-provider APIs and offers a Claude Code-like workflow.
   why_it_matters: It gives developers a highly flexible, open-source CLI agent that can be wired to OpenAI-compatible APIs, OpenRouter, or Alibaba Cloud, avoiding lock-in to a single vendor's coding assistant.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:03.914Z"
+    updated_at: "2026-07-20T16:42:41.721Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

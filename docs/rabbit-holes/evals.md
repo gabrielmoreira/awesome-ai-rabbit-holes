@@ -23,7 +23,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llmops` `observability` `evaluation` `prompt-management` `mlops`
   </details>
 
-- **[Promptfoo](https://github.com/promptfoo/promptfoo)** `⭐ 20.9k` `updated ≤90d` A CLI and library for evaluating, red-teaming, and vulnerability scanning LLM applications, supporting side-by-side model comparison and CI/CD integration. <details><summary>More about</summary>
+- **[Promptfoo](https://github.com/promptfoo/promptfoo)** `⭐ 23.4k` `updated ≤30d` A CLI and library for evaluating, red-teaming, and vulnerability scanning LLM applications, supporting side-by-side model comparison and CI/CD integration. <details><summary>More about</summary>
 
   It moves prompt and agent testing from vibes-based trial-and-error to measurable, automated regression checks that can gate real deployments.
 
@@ -77,7 +77,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evaluation` `benchmarking` `llm` `framework` `cli`
   </details>
 
-- **[Gorilla](https://github.com/shishirpatil/gorilla)** `⭐ 12.9k` `updated ≤180d` Gorilla is a research project and benchmark suite focused on training and evaluating LLMs for accurate function and API calling, featuring the Berkeley Function-Calling Leaderboard (BFCL). <details><summary>More about</summary>
+- **[Gorilla](https://github.com/shishirpatil/gorilla)** `⭐ 13k` `updated ≤180d` Gorilla is a research project and benchmark suite focused on training and evaluating LLMs for accurate function and API calling, featuring the Berkeley Function-Calling Leaderboard (BFCL). <details><summary>More about</summary>
 
   It provides the industry-standard benchmarks (BFCL) and datasets developers need to rigorously evaluate and select models based on their ability to interact with external tools and APIs.
 
@@ -122,6 +122,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evals` `mlops` `observability` `python` `monitoring`
   </details>
 
+- **[opencompass (`🔥`)](https://github.com/open-compass/opencompass)** `⭐ 7.2k` `updated ≤30d` OpenCompass is an LLM evaluation platform supporting over 100+ datasets and a wide range of models to benchmark and compare model performance. <details><summary>More about</summary>
+
+  It provides developers and researchers with a standardized CLI and configuration framework to objectively measure and compare LLM capabilities across custom or standard benchmarks.
+
+  _Because nothing says 'I am shipping features' quite like spending three days configuring a YAML file to confirm that GPT-4 is, in fact, better at math than a random open-source checkpoint._
+
+  `evals` `benchmarking` `llm` `testing` `cli`
+  </details>
+
 - **[Openllmetry](https://github.com/traceloop/openllmetry)** `⭐ 7.1k` `updated ≤90d` OpenLLMetry is a set of OpenTelemetry-based instrumentations and an SDK for adding observability, tracing, and metrics to LLM applications and vector databases. <details><summary>More about</summary>
 
   It allows developers to monitor token usage, latency, and prompt flow in their GenAI stacks using standard OTel pipelines connected to existing tools like Datadog or Honeycomb.
@@ -129,15 +138,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _You now have perfect visibility into just how many tokens your 'simple' RAG app burns while returning the wrong answer with deterministic latency._
 
   `observability` `llmops` `opentelemetry` `python` `tracing`
-  </details>
-
-- **[opencompass (`🔥`)](https://github.com/open-compass/opencompass)** `⭐ 7k` `updated ≤180d` OpenCompass is an LLM evaluation platform supporting over 100+ datasets and a wide range of models to benchmark and compare model performance. <details><summary>More about</summary>
-
-  It provides developers and researchers with a standardized CLI and configuration framework to objectively measure and compare LLM capabilities across custom or standard benchmarks.
-
-  _Because nothing says 'I am shipping features' quite like spending three days configuring a YAML file to confirm that GPT-4 is, in fact, better at math than a random open-source checkpoint._
-
-  `evals` `benchmarking` `llm` `testing` `cli`
   </details>
 
 - **[Aim](https://github.com/aimhubio/aim)** `⭐ 6.2k` `updated ≤30d` An open-source experiment tracker for logging training runs and AI metadata with a visual UI and programmatic API. <details><summary>More about</summary>
@@ -185,7 +185,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `rag` `eval` `benchmarking` `automl` `pipeline-optimization`
   </details>
 
-- **[Logfire](https://github.com/pydantic/logfire)** `⭐ 4.2k` `updated ≤90d` An observability platform and SDK built on OpenTelemetry for tracing, logging, and measuring production LLM and agent systems. <details><summary>More about</summary>
+- **[Logfire](https://github.com/pydantic/logfire)** `⭐ 4.4k` `updated ≤30d` An observability platform and SDK built on OpenTelemetry for tracing, logging, and measuring production LLM and agent systems. <details><summary>More about</summary>
 
   It gives developers deep visibility into Python and LLM workflows with SQL querying, Pydantic integration, and standard OTel signals so they can actually debug agent behavior in production.
 
@@ -194,7 +194,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `observability` `llm-tracing` `opentelemetry` `python` `agent-infra`
   </details>
 
-- **[VLMEvalKit](https://github.com/open-compass/vlmevalkit)** `⭐ 4.1k` `updated ≤90d` An open-source Python toolkit for evaluating large vision-language models (LVLMs) across 220+ models and 80+ benchmarks via one-command generation-based testing. <details><summary>More about</summary>
+- **[VLMEvalKit](https://github.com/open-compass/vlmevalkit)** `⭐ 4.3k` `updated ≤30d` An open-source Python toolkit for evaluating large vision-language models (LVLMs) across 220+ models and 80+ benchmarks via one-command generation-based testing. <details><summary>More about</summary>
 
   It gives developers a standardized, reproducible way to benchmark multimodal model performance without manually wrangling data across disparate repositories.
 
@@ -248,6 +248,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `data-quality` `mlops` `observability`
   </details>
 
+- **[OpenLIT](https://github.com/openlit/openlit)** `⭐ 2.6k` `updated ≤30d` Open-source LLM observability platform providing OpenTelemetry-native tracing, evaluations, prompt management, guardrails, and GPU monitoring for AI applications. <details><summary>More about</summary>
+
+  It gives developers a single drop-in SDK to trace, evaluate, and govern LLM calls across 50+ providers without wiring together half a dozen observability tools.
+
+  _Because nothing says 'shipping confidently' like needing a dashboard, rule engine, vault, playground, and fleet hub just to find out why your chatbot recommended a toaster as a therapist._
+
+  `llm-observability` `opentelemetry` `evals` `prompt-management` `gpu-monitoring`
+  </details>
+
 - **[Lighteval](https://github.com/huggingface/lighteval)** `⭐ 2.5k` `updated ≤30d` Lighteval is an all-in-one toolkit from Hugging Face for evaluating LLMs across multiple backends, supporting over 1000 tasks from math and code to multilingual benchmarks. <details><summary>More about</summary>
 
   It allows developers and researchers to deeply measure model performance, create custom evaluation tasks, and debug sample-by-sample results across various serving backends.
@@ -255,15 +264,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Yet another reminder that while we have perfected the art of measuring how badly our models fail, we still lack a reliable way to stop them from hallucinating in prod._
 
   `evaluation` `llm` `benchmarking` `huggingface` `metrics`
-  </details>
-
-- **[OpenLIT](https://github.com/openlit/openlit)** `⭐ 2.4k` `updated ≤90d` Open-source LLM observability platform providing OpenTelemetry-native tracing, evaluations, prompt management, guardrails, and GPU monitoring for AI applications. <details><summary>More about</summary>
-
-  It gives developers a single drop-in SDK to trace, evaluate, and govern LLM calls across 50+ providers without wiring together half a dozen observability tools.
-
-  _Because nothing says 'shipping confidently' like needing a dashboard, rule engine, vault, playground, and fleet hub just to find out why your chatbot recommended a toaster as a therapist._
-
-  `llm-observability` `opentelemetry` `evals` `prompt-management` `gpu-monitoring`
   </details>
 
 - **[alpaca_eval](https://github.com/tatsu-lab/alpaca_eval)** `⭐ 2k` `updated ≤1y` An automatic evaluator for instruction-following language models that uses a powerful LLM to score outputs against a reference model, validated against 20K human annotations. <details><summary>More about</summary>
@@ -320,16 +320,16 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `langchain` `qa` `streamlit`
   </details>
 
-- **[LangKit](https://github.com/whylabs/langkit)** `⭐ 985` `updated >1y` LangKit is an open-source toolkit for monitoring LLMs by extracting signals from prompts and responses to assess quality, security, and sentiment. <details><summary>More about</summary>
+- **[Skills](https://github.com/nvidia-nemo/skills)** `⭐ 1k` `updated ≤30d` Nemo Skills is a pipeline toolkit for improving LLM capabilities via synthetic data generation, model training, and large-scale benchmark evaluation. <details><summary>More about</summary>
 
-  It gives developers observability into LLM behavior in production, helping detect issues like prompt injection or hallucinations before they cause harm.
+  It gives developers a unified, scalable path from local workstation experiments to Slurm clusters for fine-tuning and evaluating models on benchmarks like SWE-bench and AIME.
 
-  _Finally, a way to quantify the existential dread of deploying non-deterministic text generators into critical systems._
+  _Nothing says 'improving LLM skills' quite like needing a ten-thousand-GPU cluster to prove your model can still fail at high-school math._
 
-  `llm-observability` `ai-safety` `mlops`
+  `llm-training` `evaluation` `synthetic-data` `nvidia` `benchmarks`
   </details>
 
-- **[Agentic Radar](https://github.com/splx-ai/agentic-radar)** `⭐ 963` `updated ≤1y` A CLI security scanner that analyzes agentic workflows to visualize their structure, identify tools and MCP servers, and map components to known LLM vulnerabilities like the OWASP Top 10. <details><summary>More about</summary>
+- **[Agentic Radar](https://github.com/splx-ai/agentic-radar)** `⭐ 1k` `updated ≤1y` A CLI security scanner that analyzes agentic workflows to visualize their structure, identify tools and MCP servers, and map components to known LLM vulnerabilities like the OWASP Top 10. <details><summary>More about</summary>
 
   It helps developers and security professionals audit AI agent systems for operational risks and security gaps before they reach production.
 
@@ -338,13 +338,13 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `security` `cli` `mcp` `devsecops` `agentic-workflows`
   </details>
 
-- **[Skills](https://github.com/nvidia-nemo/skills)** `⭐ 946` `updated ≤90d` Nemo Skills is a pipeline toolkit for improving LLM capabilities via synthetic data generation, model training, and large-scale benchmark evaluation. <details><summary>More about</summary>
+- **[LangKit](https://github.com/whylabs/langkit)** `⭐ 985` `updated >1y` LangKit is an open-source toolkit for monitoring LLMs by extracting signals from prompts and responses to assess quality, security, and sentiment. <details><summary>More about</summary>
 
-  It gives developers a unified, scalable path from local workstation experiments to Slurm clusters for fine-tuning and evaluating models on benchmarks like SWE-bench and AIME.
+  It gives developers observability into LLM behavior in production, helping detect issues like prompt injection or hallucinations before they cause harm.
 
-  _Nothing says 'improving LLM skills' quite like needing a ten-thousand-GPU cluster to prove your model can still fail at high-school math._
+  _Finally, a way to quantify the existential dread of deploying non-deterministic text generators into critical systems._
 
-  `llm-training` `evaluation` `synthetic-data` `nvidia` `benchmarks`
+  `llm-observability` `ai-safety` `mlops`
   </details>
 
 - **[deepfabric](https://github.com/always-further/deepfabric)** `⭐ 877` `updated ≤30d` DeepFabric is a Python framework and CLI tool that generates high-quality synthetic training data, evaluates model behavior, and supports fine-tuning pipelines for agentic systems. <details><summary>More about</summary>
@@ -500,13 +500,13 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-eval` `red-teaming` `langchain` `nl-eval`
   </details>
 
-- **[Plexiglass](https://github.com/safellama/plexiglass)** `⭐ 154` `updated ≤180d` A CLI toolkit for detecting and protecting against LLM vulnerabilities by testing models against adversarial attacks like prompt injection and jailbreaking. <details><summary>More about</summary>
+- **[Plexiglass](https://github.com/w4-advisory/plexiglass)** `⭐ 153` `updated ≤180d` A CLI toolkit for detecting and protecting against LLM vulnerabilities by testing models against adversarial attacks like prompt injection and jailbreaking. <details><summary>More about</summary>
 
   It lets developers benchmark and harden their LLM integrations against security, bias, and toxicity risks using real-world adversarial datasets.
 
   _Because what your pipeline really needed at 4 PM on a Friday was a dedicated scanner to confirm that your 'secure' model can indeed be jailbroken by a teenager on Reddit._
 
-  `llm-security` `cli-tool` `benchmarking` `adversarial-testing`
+  `adversarial-testing` `benchmarking` `cli-tool` `llm-security`
   </details>
 
 ## Incubating

@@ -24,20 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 20
-    forks: 4
+    stars: 21
+    forks: 5
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: sequa-ai/sequa-mcp
+    html_url: https://github.com/sequa-ai/sequa-mcp
     created_at: "2025-05-26T01:41:44Z"
     pushed_at: "2025-12-09T23:19:24Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:20.940Z"
+    last_checked_at: "2026-07-20T16:42:54.111Z"
     readme:
-      fetched_at: "2026-05-06T22:46:20.940Z"
+      fetched_at: "2026-07-20T16:42:54.111Z"
       bytes: 4179
 insights:
   summary: An MCP server that connects AI coding assistants to Sequa's hosted contextual knowledge engine to provide always-current codebase documentation and internal standards.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:20.940Z"
+    updated_at: "2026-07-20T16:42:54.111Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

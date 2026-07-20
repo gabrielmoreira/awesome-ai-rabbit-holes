@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 9944
-    forks: 1059
+    stars: 10319
+    forks: 1138
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: skypilot-org/skypilot
+    html_url: https://github.com/skypilot-org/skypilot
     created_at: "2021-08-11T23:32:15Z"
-    pushed_at: "2026-05-06T22:42:33Z"
+    pushed_at: "2026-07-20T01:47:05Z"
     description: Run, manage, and scale AI workloads on any AI infrastructure. Use one system to access & manage all AI compute (Kubernetes, Slurm, 20+ clouds, on-prem).
     homepage: https://docs.skypilot.co/
     topics:
@@ -53,10 +53,10 @@ metadata:
       - slurm
       - spot-instances
       - tpu
-    last_checked_at: "2026-05-06T22:46:27.118Z"
+    last_checked_at: "2026-07-20T16:42:58.905Z"
     readme:
-      fetched_at: "2026-05-06T22:46:27.118Z"
-      bytes: 12889
+      fetched_at: "2026-07-20T16:42:58.905Z"
+      bytes: 12929
 insights:
   summary: SkyPilot is a system for running, managing, and scaling AI workloads across diverse infrastructure including Kubernetes, Slurm, 20+ clouds, and on-prem environments.
   why_it_matters: It provides AI teams a unified interface to run jobs and infra teams a control plane for advanced scheduling, scaling, and orchestration across fragmented compute resources.
@@ -89,16 +89,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:27.118Z"
+    updated_at: "2026-07-20T16:42:58.905Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

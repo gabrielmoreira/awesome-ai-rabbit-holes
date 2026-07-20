@@ -24,19 +24,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 21
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: raccioly/docguard
+    html_url: https://github.com/raccioly/docguard
+    created_at: "2026-03-13T01:35:21Z"
+    pushed_at: "2026-07-17T14:16:38Z"
+    description: The enforcement tool for Canonical-Driven Development (CDD). Audit, generate, and guard your project documentation. Zero dependencies.
+    homepage: https://www.npmjs.com/package/docguard-cli
+    topics:
+      - ai
+      - ai-agents
+      - cdd
+      - cli
+      - developer-tools
+      - docs-as-code
+      - documentation
+      - documentation-tool
+      - drift-detection
+      - eu-ai-act
+      - github-actions
+      - governance
+      - llms-txt
+      - mcp
+      - model-context-protocol
+      - nodejs
+      - sarif
+      - spec-driven-development
+      - spec-kit
+    last_checked_at: "2026-07-20T16:42:42.612Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:42.612Z"
+      bytes: 40520
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +81,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:42.612Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

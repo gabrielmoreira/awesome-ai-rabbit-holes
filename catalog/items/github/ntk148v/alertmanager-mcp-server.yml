@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 18
-    forks: 11
+    stars: 23
+    forks: 12
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: ntk148v/alertmanager-mcp-server
+    html_url: https://github.com/ntk148v/alertmanager-mcp-server
     created_at: "2025-05-14T07:08:28Z"
-    pushed_at: "2026-02-11T02:09:02Z"
+    pushed_at: "2026-06-16T04:27:49Z"
     description: A Model Context Protocol (MCP) server that enables AI assistants to integreate with Prometheus Alertmanager
     homepage: ""
     topics:
@@ -41,30 +41,31 @@ metadata:
       - mcp
       - mcp-server
       - prometheus
-    last_checked_at: "2026-05-06T22:45:34.693Z"
+    last_checked_at: "2026-07-20T16:42:20.905Z"
     readme:
-      fetched_at: "2026-05-06T22:45:34.693Z"
+      fetched_at: "2026-07-20T16:42:20.905Z"
       bytes: 9534
 insights:
-  summary: A Model Context Protocol server that allows AI assistants to query, manage, and silence alerts within Prometheus Alertmanager.
-  why_it_matters: It lets developers manage incident response and alert fatigue using natural language through their existing AI coding assistants.
-  mental_damage: We have successfully abstracted away the need to understand PromQL or Alertmanager UIs, meaning you can now hallucinate your way through a production outage with the help of a Claude.
+  summary: An MCP server that enables AI assistants to query and manage Prometheus Alertmanager resources.
+  why_it_matters: It allows developers to use natural language to query alert statuses, manage silences, and inspect alert groups directly through their AI assistant.
+  mental_damage: Because nothing says 'elaxed on-call' quite like asking Claude to silence a flurry of high-priority alerts for you.
   tags:
     - mcp
+    - prometheus
+    - alertmanager
     - devops
     - observability
-    - alertmanager
   confidence: high
 curation:
   status: included
-  reason: The product's identity is specifically an MCP server for a specific domain (Alertmanager), fitting the 'Domain Servers' section of the MCP category.
+  reason: The project's primary identity is an MCP server designed to provide specific domain capabilities to an MCP client.
   evidence:
-    - "Repo description explicitly states: 'A Model Context Protocol (MCP) server that enables AI assistants to integrate with Prometheus Alertmanager'."
-    - README features tools for querying alerts, managing silences, and creating alerts via MCP.
-    - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
+    - Repo description defines it as an MCP server
+    - README focuses on enabling AI assistants to query and manage Alertmanager
+    - Implements specific MCP transport modes like stdio, http, and sse
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -75,19 +76,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T15:12:06.938Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for ntk148v/alertmanager-mcp-server
+    status: done
+    updated_at: "2026-07-20T16:42:20.905Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-20T16:43:54.294Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8d3f6486c39fc1190b0f2b5da824ceb1e66dce0f4b18a05d7e4daa6abfdd9bde
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server designed to provide specific domain capabilities to an MCP client.
+      decision_evidence:
+        - Repo description defines it as an MCP server
+        - README focuses on enabling AI assistants to query and manage Alertmanager
+        - Implements specific MCP transport modes like stdio, http, and sse
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the implementation of the Model Context Protocol rather than a general workflow integration.
+      review_reason: null
+      review_resume_lifecycle: null

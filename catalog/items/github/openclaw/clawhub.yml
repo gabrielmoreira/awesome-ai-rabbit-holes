@@ -23,23 +23,23 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8459
-    forks: 1307
+    stars: 9185
+    forks: 1428
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: openclaw/clawhub
+    html_url: https://github.com/openclaw/clawhub
     created_at: "2026-01-03T13:49:41Z"
-    pushed_at: "2026-05-06T22:36:00Z"
-    description: Skill Directory for OpenClaw
+    pushed_at: "2026-07-20T16:09:07Z"
+    description: Skill + Plugin Registry for OpenClaw
     homepage: https://clawhub.ai
     topics:
       - directory
       - skill
-    last_checked_at: "2026-05-06T22:45:41.706Z"
+    last_checked_at: "2026-07-20T16:42:25.966Z"
     readme:
-      fetched_at: "2026-05-06T22:45:41.706Z"
-      bytes: 8127
+      fetched_at: "2026-07-20T16:42:25.966Z"
+      bytes: 8413
 insights:
   summary: ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills (SKILL.md) and OpenClaw plugins.
   why_it_matters: It gives developers a centralized, versioned, and vector-searchable way to share and reuse agent skills and plugins for the OpenClaw ecosystem.
@@ -72,16 +72,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:41.706Z"
+    updated_at: "2026-07-20T16:42:25.966Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8766
-    forks: 413
+    stars: 11150
+    forks: 596
     license: AGPL-3.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: rommapp/romm
+    html_url: https://github.com/rommapp/romm
     created_at: "2023-03-08T16:11:01Z"
-    pushed_at: "2026-05-06T16:15:13Z"
+    pushed_at: "2026-07-20T15:24:40Z"
     description: A beautiful, powerful, self-hosted rom manager and player.
     homepage: https://romm.app
     topics:
@@ -40,10 +40,10 @@ metadata:
       - retrogaming
       - rommapp
       - self-hosted
-    last_checked_at: "2026-05-06T22:46:11.638Z"
+    last_checked_at: "2026-07-20T16:42:47.277Z"
     readme:
-      fetched_at: "2026-05-06T22:46:11.638Z"
-      bytes: 9058
+      fetched_at: "2026-07-20T16:42:47.277Z"
+      bytes: 8585
 insights:
   summary: A self-hosted ROM manager and player for organizing, enriching, and browsing video game collections with metadata, artwork, and browser-based emulation.
   why_it_matters: It provides a clean, self-hosted platform for managing large retro game libraries with rich metadata and multi-platform support.
@@ -75,16 +75,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:11.638Z"
+    updated_at: "2026-07-20T16:42:47.277Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

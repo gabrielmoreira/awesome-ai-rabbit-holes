@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
-    forks: 0
+    stars: 1
+    forks: 1
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: nullpath-labs/mcp-client
+    html_url: https://github.com/nullpath-labs/mcp-client
     created_at: "2026-02-11T00:59:38Z"
     pushed_at: "2026-02-21T20:09:14Z"
     description: Discover and pay AI agents on nullpath's marketplace via MCP. x402 micropayments with USDC.
@@ -55,31 +55,31 @@ metadata:
       - x402
       - x402-agent
       - x402-api
-    last_checked_at: "2026-05-06T22:45:34.890Z"
+    last_checked_at: "2026-07-20T16:42:20.931Z"
     readme:
-      fetched_at: "2026-05-06T22:45:34.890Z"
+      fetched_at: "2026-07-20T16:42:20.931Z"
       bytes: 4991
 insights:
-  summary: An MCP client and server that lets developers discover, pay for, and execute third-party AI agents from nullpath's marketplace using x402 micropayments in USDC.
-  why_it_matters: It turns Claude Desktop and Cursor into a paid-agent marketplace client, letting you spin up and pay for specialized agents without leaving your editor.
-  mental_damage: "We have finally achieved the logical endpoint of the AI boom: an MCP server so your MCP-compatible assistant can rent other assistants using crypto."
+  summary: An MCP client that connects Claude Desktop and Cursor to the Nullpath marketplace for discovering and executing paid AI agents via USDC micropayments.
+  why_it_matters: It enables developers to extend their IDE or desktop assistant with specialized, task-specific agents through a standardized, programmable payment layer.
+  mental_damage: Nothing says 'odern developer experience' quite like having your IDE reach into a crypto wallet to pay for a sub-cent micro-task.
   tags:
     - mcp
-    - agent-marketplace
+    - ai-agents
     - micropayments
-    - usdc
     - cursor
-  confidence: medium
+    - claude-desktop
+  confidence: high
 curation:
   status: included
-  reason: This is an MCP server and client that exposes nullpath's agent marketplace to Claude Desktop and Cursor via the Model Context Protocol, making MCP its core product identity.
+  reason: The project's core identity is an MCP client that acts as the middleware connecting an LLM host to an external agent marketplace.
   evidence:
-    - Repo description explicitly states 'Discover and pay AI agents on nullpath's marketplace via MCP.'
-    - README configures this as an MCP server for Claude Desktop and Cursor to discover and execute paid agents.
-    - Topics include mcp, mcp-client, mcp-server, and mcp-clients, confirming MCP as the primary identity.
+    - README explicitly states it connects to Nullpath's REST API via stdio for Claude Desktop and Cursor
+    - The primary function is exposing `discover_agents` and `execute_agent` tools via the Model Context Protocol
+    - Identity is defined by the MCP connectivity layer rather than the marketplace itself
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Clients / Inspectors / Dev Tools
 lifecycle:
   status: incubating
   reason: null
@@ -90,19 +90,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T15:12:07.323Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nullpath-labs/mcp-client
+    status: done
+    updated_at: "2026-07-20T16:42:20.931Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-20T16:44:06.272Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5f646eea9f13d629c00913aa1d48aed0274b6b5ddb258d7d38dd6d802a110970
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's core identity is an MCP client that acts as the middleware connecting an LLM host to an external agent marketplace.
+      decision_evidence:
+        - README explicitly states it connects to Nullpath's REST API via stdio for Claude Desktop and Cursor
+        - The primary function is exposing `discover_agents` and `execute_agent` tools via the Model Context Protocol
+        - Identity is defined by the MCP connectivity layer rather than the marketplace itself
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is specifically the MCP protocol implementation that enables the connection, rather than just a general workflow add-on.
+      review_reason: null
+      review_resume_lifecycle: null

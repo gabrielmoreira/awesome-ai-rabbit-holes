@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 15
-    forks: 7
+    stars: 21
+    forks: 9
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: olostep/olostep-mcp-server
+    html_url: https://github.com/olostep/olostep-mcp-server
     created_at: "2025-03-11T08:47:26Z"
-    pushed_at: "2026-04-22T13:31:03Z"
+    pushed_at: "2026-07-07T16:57:38Z"
     description: MCP server for Olostep — the web scraping, crawling, and search infrastructure used by top AI companies. Gives any MCP-compatible AI agent the ability to scrape, crawl, batch-extract, and search the web in real time.
     homepage: https://www.olostep.com/integrations/mcp-server
     topics:
@@ -50,10 +50,10 @@ metadata:
       - web-crawling
       - web-scraping
       - web-search
-    last_checked_at: "2026-05-06T22:45:38.545Z"
+    last_checked_at: "2026-07-20T16:42:23.954Z"
     readme:
-      fetched_at: "2026-05-06T22:45:38.545Z"
-      bytes: 14973
+      fetched_at: "2026-07-20T16:42:23.954Z"
+      bytes: 14931
 insights:
   summary: An MCP server implementation that gives any MCP-compatible AI agent real-time web scraping, crawling, batch URL extraction, and search capabilities via the Olostep API.
   why_it_matters: Developers can now plug structured web data, live search results, and site crawling into their local coding agents without building custom scrapers or wrestling with headless browsers.
@@ -86,16 +86,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:38.545Z"
+    updated_at: "2026-07-20T16:42:23.954Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

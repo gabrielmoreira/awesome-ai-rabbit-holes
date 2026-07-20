@@ -25,11 +25,11 @@ provenance:
 metadata:
   github:
     stars: 69
-    forks: 7
+    forks: 8
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: speediedan/finetuning-scheduler
+    html_url: https://github.com/speediedan/finetuning-scheduler
     created_at: "2022-02-04T19:08:54Z"
     pushed_at: "2026-01-26T21:32:36Z"
     description: A PyTorch Lightning extension that accelerates and enhances foundation model experimentation with flexible fine-tuning schedules.
@@ -44,9 +44,9 @@ metadata:
       - pytorch-lightning
       - superglue
       - transfer-learning
-    last_checked_at: "2026-05-06T22:46:30.551Z"
+    last_checked_at: "2026-07-20T16:43:01.464Z"
     readme:
-      fetched_at: "2026-05-06T22:46:30.551Z"
+      fetched_at: "2026-07-20T16:43:01.464Z"
       bytes: 15914
 insights:
   summary: A PyTorch Lightning extension that enables flexible, phase-based fine-tuning schedules with automated checkpointing and early-stopping for foundation model experimentation.
@@ -79,16 +79,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:30.551Z"
+    updated_at: "2026-07-20T16:43:01.464Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

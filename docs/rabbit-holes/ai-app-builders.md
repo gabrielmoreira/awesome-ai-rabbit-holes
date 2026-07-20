@@ -32,7 +32,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `chatbot` `nextjs` `ai-sdk` `vercel` `open-source`
   </details>
 
-- **[Bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** `⭐ 19.3k` `updated ≤180d` An open-source, browser-based development environment that lets you prompt, run, edit, and deploy full-stack web applications using your choice of 19+ LLM providers. <details><summary>More about</summary>
+- **[Bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** `⭐ 19.6k` `updated ≤180d` An open-source, browser-based development environment that lets you prompt, run, edit, and deploy full-stack web applications using your choice of 19+ LLM providers. <details><summary>More about</summary>
 
   It decouples the AI coding experience from proprietary backends, letting developers self-host and swap models while generating and deploying NodeJS apps directly from the browser.
 
@@ -95,7 +95,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `starter-kit` `t3-stack` `langchain` `openai` `turborepo`
   </details>
 
-- **[contracts-wizard](https://github.com/openzeppelin/contracts-wizard)** `⭐ 292` `updated ≤90d` An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents. <details><summary>More about</summary>
+- **[contracts-wizard](https://github.com/openzeppelin/contracts-wizard)** `⭐ 293` `updated ≤30d` An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents. <details><summary>More about</summary>
 
   It lets developers scaffold secure, standards-based smart contracts in Solidity, Cairo, and Stellar without memorizing OpenZeppelin APIs or copy-pasting boilerplate.
 

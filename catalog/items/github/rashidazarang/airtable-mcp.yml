@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 80
-    forks: 26
+    stars: 87
+    forks: 28
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: rashidazarang/airtable-mcp
+    html_url: https://github.com/rashidazarang/airtable-mcp
     created_at: "2025-03-15T11:16:38Z"
     pushed_at: "2026-02-20T18:34:00Z"
     description: Airtable integration for AI-powered applications via Anthropic's Model Context Protocol (MCP)
@@ -59,9 +59,9 @@ metadata:
       - database-automation
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-06T22:46:06.253Z"
+    last_checked_at: "2026-07-20T16:42:43.567Z"
     readme:
-      fetched_at: "2026-05-06T22:46:06.253Z"
+      fetched_at: "2026-07-20T16:42:43.567Z"
       bytes: 13176
 insights:
   summary: An MCP server that exposes Airtable bases to AI assistants like Claude Desktop and Claude Code, enabling natural language CRUD, schema management, and analytics across 42 tools.
@@ -95,16 +95,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:06.253Z"
+    updated_at: "2026-07-20T16:42:43.567Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

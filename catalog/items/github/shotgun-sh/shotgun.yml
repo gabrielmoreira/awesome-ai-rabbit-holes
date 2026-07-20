@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 664
-    forks: 35
+    stars: 686
+    forks: 36
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: shotgun-sh/shotgun
+    html_url: https://github.com/shotgun-sh/shotgun
     created_at: "2025-08-05T08:53:12Z"
-    pushed_at: "2026-04-23T08:19:42Z"
+    pushed_at: "2026-06-02T01:07:26Z"
     description: Spec Driven Development 🤠 Write codebase-aware specs for AI coding agents so they don't derail.
     homepage: https://shotgun.sh/
     topics:
@@ -41,9 +41,9 @@ metadata:
       - spec-driven-development
       - specification-generation
       - technical-documentation
-    last_checked_at: "2026-05-06T22:46:23.886Z"
+    last_checked_at: "2026-07-20T16:42:56.518Z"
     readme:
-      fetched_at: "2026-05-06T22:46:23.886Z"
+      fetched_at: "2026-07-20T16:42:56.518Z"
       bytes: 15824
 insights:
   summary: A CLI tool that indexes codebases and generates staged, file-by-file specifications to guide AI coding agents through large feature implementations without losing context.
@@ -77,16 +77,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:23.886Z"
+    updated_at: "2026-07-20T16:42:56.518Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

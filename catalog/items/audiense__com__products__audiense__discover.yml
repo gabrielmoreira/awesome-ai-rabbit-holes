@@ -1,0 +1,93 @@
+id: audiense__com__products__audiense__discover
+kind: website
+name: Audiense
+canonical_url: https://audiense.com/products/audiense-discover
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__audiense__com__products__audiense__discover__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-20T16:42:15.363Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Audiense
+        extracted_url: https://audiense.com/products/audiense-insights
+        surrounding_text: "- **[Audiense Insights](https://github.com/AudienseCo/mcp-audiense-insights)** - Marketing insights and audience analysis from [Audiense](https://www.audiense.com/products/audiense-insights) reports, covering demographic, cultural, influencer, and content engagement analysis."
+        confidence: high
+    - id: discovery__www__audiense__com__products__audiense__discover__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-16T05:04:46.712Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Audiense
+        extracted_url: https://www.audiense.com/products/audiense-insights
+        surrounding_text: "- **[Audiense Insights](https://github.com/AudienseCo/mcp-audiense-insights)** - Marketing insights and audience analysis from [Audiense](https://www.audiense.com/products/audiense-insights) reports, covering demographic, cultural, influencer, and content engagement analysis."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An audience research and consumer intelligence platform that analyzes behavioral signals across social platforms like Instagram, TikTok, and X.
+  why_it_matters: It provides deep psychographic and behavioral data that can be used to inform campaign strategy and consumer targeting.
+  mental_damage: Because knowing exactly what your audience thinks is the first step toward realizing they've already decided you're irrelevant.
+  tags:
+    - audience-research
+    - consumer-insights
+    - marketing-intelligence
+    - social-data
+  confidence: high
+curation:
+  status: excluded
+  reason: The tool is a marketing/consumer research SaaS product rather than a developer-facing AI tool, framework, or infrastructure.
+  evidence:
+    - Product focuses on audience research, demographics, and campaign design
+    - Targeted at analysts, researchers, and marketing strategists
+    - Provides marketing insights rather than developer tooling or code assistance
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-16T05:20:48.524Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-07-20T16:42:15.364Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

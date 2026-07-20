@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5
-    forks: 1
+    stars: 11
+    forks: 0
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: robhunter/agentdeals
+    html_url: https://github.com/robhunter/agentdeals
     created_at: "2026-02-18T18:38:02Z"
-    pushed_at: "2026-05-06T06:59:11Z"
+    pushed_at: "2026-07-20T07:08:51Z"
     description: MCP server aggregating free tiers, startup credits & developer tool deals. 4 tools, 54 categories, 1,525+ offers.
     homepage: ""
     topics:
@@ -40,9 +40,9 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-05-06T22:46:10.927Z"
+    last_checked_at: "2026-07-20T16:42:46.996Z"
     readme:
-      fetched_at: "2026-05-06T22:46:10.927Z"
+      fetched_at: "2026-07-20T16:42:46.996Z"
       bytes: 12309
 insights:
   summary: An MCP server that aggregates free tiers, startup credits, and developer tool deals from 1,500+ vendors across 54 categories for use with AI agents and IDEs.
@@ -76,16 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:10.927Z"
+    updated_at: "2026-07-20T16:42:46.996Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

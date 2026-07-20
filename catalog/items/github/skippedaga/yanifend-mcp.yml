@@ -24,19 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: skippedaga/yanifend-mcp
+    html_url: https://github.com/skippedaga/yanifend-mcp
+    created_at: "2026-06-06T11:14:14Z"
+    pushed_at: "2026-07-12T09:41:30Z"
+    description: YaniFend MCP server — manage your YaniFend feedback questionary (works on any website) and read answers from Claude
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-07-20T16:42:58.715Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:58.715Z"
+      bytes: 6690
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +62,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:58.715Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

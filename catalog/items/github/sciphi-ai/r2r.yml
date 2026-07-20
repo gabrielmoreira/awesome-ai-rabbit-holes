@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7804
-    forks: 628
+    stars: 7933
+    forks: 641
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: SciPhi-AI/R2R
+    html_url: https://github.com/SciPhi-AI/R2R
     created_at: "2024-02-12T03:24:27Z"
     pushed_at: "2025-11-07T01:02:44Z"
     description: SoTA production-ready AI retrieval system. Agentic Retrieval-Augmented Generation (RAG) with a RESTful API.
@@ -42,9 +42,9 @@ metadata:
       - retrieval-augmented-generation
       - retrieval-systems
       - search
-    last_checked_at: "2026-05-06T22:46:18.474Z"
+    last_checked_at: "2026-07-20T16:42:52.236Z"
     readme:
-      fetched_at: "2026-05-06T22:46:18.474Z"
+      fetched_at: "2026-07-20T16:42:52.236Z"
       bytes: 4692
 insights:
   summary: R2R is a production-ready, RESTful API framework for building agentic retrieval-augmented generation (RAG) systems with multimodal ingestion, hybrid search, and knowledge graph support.
@@ -78,16 +78,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:18.474Z"
+    updated_at: "2026-07-20T16:42:52.236Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

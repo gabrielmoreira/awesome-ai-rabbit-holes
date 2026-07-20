@@ -24,19 +24,19 @@ provenance:
 metadata:
   github:
     stars: 453
-    forks: 11
+    forks: 12
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: stepfun-ai/Step3
+    html_url: https://github.com/stepfun-ai/Step3
     created_at: "2025-07-25T03:11:20Z"
     pushed_at: "2025-08-10T15:26:18Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:34.723Z"
+    last_checked_at: "2026-07-20T16:43:03.642Z"
     readme:
-      fetched_at: "2026-05-06T22:46:34.723Z"
+      fetched_at: "2026-07-20T16:43:03.642Z"
       bytes: 4245
 insights:
   summary: Step3 is a 321B parameter multimodal mixture-of-experts model with vision–language reasoning capabilities and OpenAI/Anthropic-compatible APIs.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:34.723Z"
+    updated_at: "2026-07-20T16:43:03.642Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

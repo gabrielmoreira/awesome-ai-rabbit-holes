@@ -23,21 +23,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 129
-    forks: 63
+    stars: 147
+    forks: 72
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: render-oss/render-mcp-server
+    html_url: https://github.com/render-oss/render-mcp-server
     created_at: "2025-05-16T16:45:13Z"
-    pushed_at: "2026-04-17T17:50:43Z"
+    pushed_at: "2026-07-16T22:30:11Z"
     description: The Official Render MCP Server
     homepage: https://render.com/docs/mcp-server
     topics: []
-    last_checked_at: "2026-05-06T22:46:09.545Z"
+    last_checked_at: "2026-07-20T16:42:45.487Z"
     readme:
-      fetched_at: "2026-05-06T22:46:09.545Z"
-      bytes: 13721
+      fetched_at: "2026-07-20T16:42:45.487Z"
+      bytes: 14417
 insights:
   summary: The official Render MCP Server exposes Render resource management tools, allowing LLMs to create services, monitor deployments, and query databases via the Model Context Protocol.
   why_it_matters: It lets developers delegate infrastructure tasks like spinning up web services, checking logs, and managing environment variables directly through their MCP-compatible coding assistants.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:09.545Z"
+    updated_at: "2026-07-20T16:42:45.487Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

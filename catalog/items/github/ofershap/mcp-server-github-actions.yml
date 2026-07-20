@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2
-    forks: 0
+    stars: 4
+    forks: 1
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: ofershap/mcp-server-github-actions
+    html_url: https://github.com/ofershap/mcp-server-github-actions
     created_at: "2026-02-19T23:28:42Z"
     pushed_at: "2026-03-10T09:22:17Z"
     description: MCP server for GitHub Actions — view runs, read logs, re-run jobs, trigger workflows
@@ -46,9 +46,9 @@ metadata:
       - model-context-protocol
       - typescript
       - workflows
-    last_checked_at: "2026-05-06T22:45:37.307Z"
+    last_checked_at: "2026-07-20T16:42:23.004Z"
     readme:
-      fetched_at: "2026-05-06T22:45:37.307Z"
+      fetched_at: "2026-07-20T16:42:23.004Z"
       bytes: 4987
 insights:
   summary: An MCP server that lets AI assistants like Claude and Cursor view GitHub Actions workflow runs, read logs, re-run failed jobs, and trigger deployments directly from the editor.
@@ -81,16 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:37.307Z"
+    updated_at: "2026-07-20T16:42:23.004Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

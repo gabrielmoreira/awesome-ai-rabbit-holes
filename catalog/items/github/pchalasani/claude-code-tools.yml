@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1763
-    forks: 113
+    stars: 1910
+    forks: 122
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: pchalasani/claude-code-tools
+    html_url: https://github.com/pchalasani/claude-code-tools
     created_at: "2025-07-30T20:10:38Z"
-    pushed_at: "2026-04-19T11:14:00Z"
+    pushed_at: "2026-07-19T22:20:56Z"
     description: Practical productivity tools for Claude Code, Codex-CLI, and similar CLI coding agents.
     homepage: ""
     topics:
@@ -44,10 +44,10 @@ metadata:
       - context
       - llm
       - tmux
-    last_checked_at: "2026-05-06T22:45:49.942Z"
+    last_checked_at: "2026-07-20T16:42:32.287Z"
     readme:
-      fetched_at: "2026-05-06T22:45:49.942Z"
-      bytes: 5164
+      fetched_at: "2026-07-20T16:42:32.287Z"
+      bytes: 6120
 insights:
   summary: A toolkit of CLI tools, plugins, hooks, and skills designed to extend and enhance productivity within Claude Code and other CLI-based coding agents.
   why_it_matters: It provides ready-to-use integrations like tmux automation, Google Docs/Sheets connectors, and voice input that the base CLI agents lack out of the box.
@@ -80,16 +80,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:49.942Z"
+    updated_at: "2026-07-20T16:42:32.287Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

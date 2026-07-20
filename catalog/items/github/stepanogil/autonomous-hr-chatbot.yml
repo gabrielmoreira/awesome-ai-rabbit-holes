@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 443
-    forks: 109
+    stars: 454
+    forks: 112
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: stepanogil/autonomous-hr-chatbot
+    html_url: https://github.com/stepanogil/autonomous-hr-chatbot
     created_at: "2023-06-15T09:00:28Z"
     pushed_at: "2026-04-29T06:34:58Z"
     description: An autonomous HR agent that can answer user queries using tools
@@ -56,9 +56,9 @@ metadata:
       - langchain
       - openai
       - python
-    last_checked_at: "2026-05-06T22:46:35.131Z"
+    last_checked_at: "2026-07-20T16:43:03.555Z"
     readme:
-      fetched_at: "2026-05-06T22:46:35.131Z"
+      fetched_at: "2026-07-20T16:43:03.555Z"
       bytes: 3819
 insights:
   summary: A prototype HR chatbot built with LangChain and Pinecone that answers employee queries by invoking tools like policy retrieval, dataframes, and a calculator.
@@ -92,16 +92,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:35.131Z"
+    updated_at: "2026-07-20T16:43:03.555Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 485
-    forks: 63
+    stars: 501
+    forks: 65
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: PV-Bhat/vibe-check-mcp-server
+    html_url: https://github.com/PV-Bhat/vibe-check-mcp-server
     created_at: "2025-03-22T09:33:08Z"
-    pushed_at: "2026-03-30T17:06:12Z"
+    pushed_at: "2026-06-12T19:27:11Z"
     description: "Vibe Check is a tool that provides mentor-like feedback to AI Agents, preventing tunnel-vision, over-engineering and reasoning lock-in for complex and long-horizon agent workflows. KISS your over-eager AI Agents goodbye! Effective for: Coding, Ambiguous Tasks, High-Risk tasks"
     homepage: https://pruthvibhat.com/
     topics:
@@ -46,10 +46,10 @@ metadata:
       - rli
       - vibe-coding
       - workflow-automation
-    last_checked_at: "2026-05-06T22:45:59.914Z"
+    last_checked_at: "2026-07-20T16:42:38.990Z"
     readme:
-      fetched_at: "2026-05-06T22:45:59.914Z"
-      bytes: 18190
+      fetched_at: "2026-07-20T16:42:38.990Z"
+      bytes: 18351
 insights:
   summary: An MCP server that acts as a mentor layer for AI agents, interrupting long-horizon workflows to prevent over-engineering and reasoning lock-in.
   why_it_matters: It provides a research-backed method to keep autonomous coding agents aligned with the minimal viable path, improving success rates by 27% in their study.
@@ -82,16 +82,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:59.914Z"
+    updated_at: "2026-07-20T16:42:38.990Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

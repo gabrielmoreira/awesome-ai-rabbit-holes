@@ -24,19 +24,34 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: Softeria/postmortemthis
+    html_url: https://github.com/Softeria/postmortemthis
+    created_at: "2026-06-15T11:06:57Z"
+    pushed_at: "2026-07-02T20:03:23Z"
+    description: "Every AI coding-agent CLI (Claude Code, Codex, Gemini, Qwen, Vibe) reviews your diff in parallel, read-only, for one ship/no-ship verdict. One tiny script: no server, no MCP."
+    homepage: https://postmortemthis.com
+    topics:
+      - ai
+      - ai-agents
+      - claude-code
+      - cli
+      - code-review
+      - codex
+      - coding-agent
+      - developer-tools
+      - gemini
+      - llm
+      - openrouter
+      - qwen
+      - rust
+    last_checked_at: "2026-07-20T16:43:00.172Z"
+    readme:
+      fetched_at: "2026-07-20T16:43:00.172Z"
+      bytes: 2409
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +75,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:43:00.172Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

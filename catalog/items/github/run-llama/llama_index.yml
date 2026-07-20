@@ -84,14 +84,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 49173
-    forks: 7365
+    stars: 50962
+    forks: 7783
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: run-llama/llama_index
+    html_url: https://github.com/run-llama/llama_index
     created_at: "2022-11-02T04:24:54Z"
-    pushed_at: "2026-05-06T21:27:54Z"
+    pushed_at: "2026-07-20T15:51:59Z"
     description: LlamaIndex is the leading document agent and OCR platform
     homepage: https://developers.llamaindex.ai
     topics:
@@ -105,9 +105,9 @@ metadata:
       - multi-agents
       - rag
       - vector-database
-    last_checked_at: "2026-05-06T22:46:13.262Z"
+    last_checked_at: "2026-07-20T16:42:48.585Z"
     readme:
-      fetched_at: "2026-05-06T22:46:13.261Z"
+      fetched_at: "2026-07-20T16:42:48.585Z"
       bytes: 13365
 insights:
   summary: LlamaIndex is an open-source Python framework for building agentic applications with data connectors, retrieval pipelines, and integrations for LLMs, embeddings, and vector stores.
@@ -141,16 +141,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:13.262Z"
+    updated_at: "2026-07-20T16:42:48.585Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

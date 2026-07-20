@@ -24,15 +24,15 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 50
-    forks: 4
+    stars: 96
+    forks: 11
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: oxgeneral/ORCH
+    html_url: https://github.com/oxgeneral/ORCH
     created_at: "2026-03-10T20:37:40Z"
-    pushed_at: "2026-04-17T14:36:49Z"
-    description: One CLI to orchestrate them all. Manage a team of AI agents executing tasks in parallel from your terminal.
+    pushed_at: "2026-07-04T10:50:52Z"
+    description: One CLI to orchestrate them all. Manage a team of AI agents executing tasks in parallel from your terminal using a command line interface to manage them all. Manage a team of artificial intelligence agents who perform tasks in parallel from your terminal or offline on a local or server
     homepage: https://www.orch.one/
     topics:
       - agent-orchestration
@@ -41,11 +41,11 @@ metadata:
       - cli-tool
       - multi-agent
       - orchestrator
-      - typescript
-    last_checked_at: "2026-05-06T22:45:45.905Z"
+      - server-agents
+    last_checked_at: "2026-07-20T16:42:29.098Z"
     readme:
-      fetched_at: "2026-05-06T22:45:45.905Z"
-      bytes: 25868
+      fetched_at: "2026-07-20T16:42:29.098Z"
+      bytes: 26031
 insights:
   summary: A CLI tool that orchestrates multiple AI coding agents (like Claude Code, Codex, and Cursor) in parallel from the terminal to decompose goals and execute tasks across a project.
   why_it_matters: It allows a single developer to run a 'virtual team' of specialized agents simultaneously, automating the decomposition of high-level goals into PRs without manual tab-switching.
@@ -77,16 +77,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:45.905Z"
+    updated_at: "2026-07-20T16:42:29.098Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

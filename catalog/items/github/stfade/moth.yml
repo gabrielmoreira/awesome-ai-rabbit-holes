@@ -24,19 +24,29 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: stfade/moth
+    html_url: https://github.com/stfade/moth
+    created_at: "2026-05-04T02:35:40Z"
+    pushed_at: "2026-05-04T03:31:53Z"
+    description: A debugging workflow plugin for AI coding agents. Turns terminal failures into source-backed fixes via MCP and structured skills.
+    homepage: https://www.npmjs.com/package/@stfade/moth
+    topics:
+      - ai-coding-agent
+      - bug-fix
+      - debugging
+      - developer-tools
+      - fix-memory
+      - mcp
+      - model-context-protocol
+      - typescript
+    last_checked_at: "2026-07-20T16:43:03.749Z"
+    readme:
+      fetched_at: "2026-07-20T16:43:03.749Z"
+      bytes: 4548
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +70,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:43:03.749Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

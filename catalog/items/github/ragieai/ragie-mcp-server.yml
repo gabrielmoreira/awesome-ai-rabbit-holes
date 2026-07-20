@@ -24,20 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 86
-    forks: 19
+    stars: 89
+    forks: 21
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: ragieai/ragie-mcp-server
+    html_url: https://github.com/ragieai/ragie-mcp-server
     created_at: "2025-02-28T00:23:00Z"
     pushed_at: "2026-02-04T03:44:35Z"
     description: Ragie Model Context Protocol Server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:05.563Z"
+    last_checked_at: "2026-07-20T16:42:42.939Z"
     readme:
-      fetched_at: "2026-05-06T22:46:05.563Z"
+      fetched_at: "2026-07-20T16:42:42.939Z"
       bytes: 5137
 insights:
   summary: A now-deprecated MCP server that enabled AI models to retrieve information from a Ragie knowledge base before the feature was moved natively into Ragie's platform.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:05.563Z"
+    updated_at: "2026-07-20T16:42:42.939Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -24,19 +24,27 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: seaworthy-io/seaworthy-mcp
+    html_url: https://github.com/seaworthy-io/seaworthy-mcp
+    created_at: "2026-06-01T23:21:08Z"
+    pushed_at: "2026-06-19T22:25:30Z"
+    description: "Open MCP server for disability insurance: an agent-callable quote_request action plus carrier/coverage research tools, by Seaworthy Insurance Agency."
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - cloudflare-workers
+      - disability-insurance
+      - insurance
+      - mcp
+      - model-context-protocol
+      - typescript
+    last_checked_at: "2026-07-20T16:42:52.929Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:52.929Z"
+      bytes: 3984
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +68,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:52.929Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

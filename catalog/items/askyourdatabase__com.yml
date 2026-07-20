@@ -1,0 +1,96 @@
+id: askyourdatabase__com
+kind: website
+name: AskYourDatabase
+canonical_url: https://askyourdatabase.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__askyourdatabase__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-20T16:42:15.363Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - AskYourDatabase
+        anchor_text: AskYourDatabase
+        extracted_url: https://askyourdatabase.com
+        surrounding_text: "## [AskYourDatabase](https://www.askyourdatabase.com/)"
+        confidence: high
+    - id: discovery__www__askyourdatabase__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - AskYourDatabase
+        anchor_text: AskYourDatabase
+        extracted_url: https://www.askyourdatabase.com
+        surrounding_text: "## [AskYourDatabase](https://www.askyourdatabase.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A desktop app and chatbot that connects to SQL databases so users can query, visualize, and build dashboards using natural language instead of writing SQL.
+  why_it_matters: It lets developers offload ad-hoc data questions from non-technical teams without building and maintaining custom internal BI tools or dashboards.
+  mental_damage: Now the bottleneck shifts from writing SQL to explaining your schema to a chatbot that will confidently invent column names you swore you documented somewhere.
+  tags:
+    - bi
+    - chatbot
+    - database
+    - natural-language
+    - sql
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a business intelligence and data analytics product for end users and non-technical staff, not a developer-facing coding tool, agent, or infrastructure component.
+  evidence:
+    - Product pitch centers on CEOs, customer support, and sales querying data without SQL knowledge.
+    - Core features are data visualization, dashboard building, and chatbot interfaces rather than code editing or repo workflows.
+    - Listed in awesome-ai-agents under a section for 'AI Data Analyst chatbot' rather than developer tooling.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.715Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+  discover:
+    status: done
+    updated_at: "2026-07-20T16:42:15.364Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

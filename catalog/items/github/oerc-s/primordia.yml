@@ -24,20 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
-    forks: 1
+    stars: 1
+    forks: 2
     license: null
     archived: false
-    full_name: null
-    html_url: null
+    full_name: oerc-s/primordia
+    html_url: https://github.com/oerc-s/primordia
     created_at: "2025-12-27T18:49:09Z"
     pushed_at: "2026-01-31T17:31:17Z"
     description: AI Agent Economic Settlement Infrastructure - Machine-to-Machine Clearing
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:45:37.013Z"
+    last_checked_at: "2026-07-20T16:42:22.637Z"
     readme:
-      fetched_at: "2026-05-06T22:45:37.013Z"
+      fetched_at: "2026-07-20T16:42:22.637Z"
       bytes: 4211
 insights:
   summary: Primordia (Kaledge) provides financial infrastructure primitives and an MCP server for settling, netting, and tracking credit between AI agents transacting with one another.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:37.013Z"
+    updated_at: "2026-07-20T16:42:22.637Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -1,0 +1,96 @@
+id: github__soolaugust__vmem
+kind: github-repo
+name: soolaugust/0CompactMem
+canonical_url: https://github.com/soolaugust/vmem
+identity:
+  github_repo: soolaugust/vmem
+provenance:
+  discoveries:
+    - id: discovery__github__soolaugust__0compactmem__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: soolaugust/0CompactMem
+        extracted_url: https://github.com/soolaugust/0compactmem
+        surrounding_text: "- [soolaugust/0CompactMem](https://github.com/soolaugust/0CompactMem) [![soolaugust/0CompactMem MCP server](https://glama.ai/mcp/servers/soolaugust/0CompactMem/badges/score.svg)](https://glama.ai/mcp/servers/soolaugust/0CompactMem) 🐍 🏠 🍎 🪟 🐧 - Persistent memory MCP server with OS-style demand paging, kswapd-style eviction, and mlock pinning. Multi-agent shared SQLite store with BM25 + FTS5 retrieval, importance scoring, and capacity-aware reclaim. 5 tools: `memory_lookup`, `pin_memory`, `unpin_memory`, `memory_stats`, `list_pinned`. `uvx --from git+https://github.com/soolaugust/0CompactMem memory-os`"
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 1
+    license: null
+    archived: false
+    full_name: soolaugust/vMem
+    html_url: https://github.com/soolaugust/vMem
+    created_at: "2026-04-27T08:58:47Z"
+    pushed_at: "2026-07-14T02:49:22Z"
+    description: Zero context compaction for Claude Code & LLM agents. Persistent memory powered by OS primitives (demand paging, kswapd eviction, mlock pinning). Single SQLite file, MCP-native, multi-agent shared.
+    homepage: https://github.com/soolaugust/openMnemos#readme
+    topics:
+      - agent-framework
+      - agent-memory
+      - ai-agents
+      - claude
+      - claude-code
+      - context-compaction
+      - context-management
+      - cursor
+      - knowledge-graph
+      - llm
+      - llm-memory
+      - long-term-memory
+      - mcp
+      - mcp-server
+      - memory-management
+      - model-context-protocol
+      - multi-agent
+      - persistent-memory
+      - sqlite
+      - zero-compact
+    last_checked_at: "2026-07-20T16:43:01.094Z"
+    readme:
+      fetched_at: "2026-07-20T16:43:01.094Z"
+      bytes: 8795
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0
+  discover:
+    status: done
+    updated_at: "2026-06-08T05:39:05.249Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-20T16:43:01.094Z"
+    cause: null
+    next_retry_at: null

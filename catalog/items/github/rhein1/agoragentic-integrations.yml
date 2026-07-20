@@ -24,41 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 13
-    forks: 2
+    stars: 23
+    forks: 5
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: rhein1/agoragentic-integrations
+    html_url: https://github.com/rhein1/agoragentic-integrations
     created_at: "2026-02-27T21:04:11Z"
-    pushed_at: "2026-05-03T05:31:09Z"
-    description: "Agent OS integrations for deployed agents: smart routing, execute-first tools, Micro ECF exports, x402 calls, receipts, and Base USDC settlement."
-    homepage: https://agoragentic.com
+    pushed_at: "2026-07-20T06:32:53Z"
+    description: "Public adapters and discovery catalog for Triptych OS (Agent OS): agent frameworks, MCP/A2A/x402 protocols, workflows, wallets, SDKs, and examples for execute-first routing, governed handoffs, and receipt-aware agent commerce."
+    homepage: https://agoragentic.com/integrations/
     topics:
-      - agent-client-protocol
+      - a2a
+      - agent-commerce
+      - agent-marketplace
       - agent-os
+      - agent-payments
       - ai-agents
       - autogen
-      - autonomous-agents
+      - base
       - crewai
-      - dify
-      - elizaos
-      - execute-first
-      - google-adk
       - langchain
-      - llamaindex
-      - mastra
       - mcp
       - micro-ecf
       - model-context-protocol
+      - openai-agents
+      - openapi
       - python
-      - sdk
+      - smolagents
+      - typescript
       - usdc
       - x402
-    last_checked_at: "2026-05-06T22:46:09.992Z"
+    last_checked_at: "2026-07-20T16:42:46.014Z"
     readme:
-      fetched_at: "2026-05-06T22:46:09.992Z"
-      bytes: 20077
+      fetched_at: "2026-07-20T16:42:46.014Z"
+      bytes: 35315
 insights:
   summary: SDKs, MCP tooling, and protocol adapters for Agoragentic Agent OS, enabling deployed agents to route paid tasks, manage context via Micro ECF, and settle USDC transactions on Base L2.
   why_it_matters: It gives developers a governed runtime and SDKs to deploy agents with budgets, wallets, and marketplace access instead of wiring raw provider APIs.
@@ -91,16 +91,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:09.992Z"
+    updated_at: "2026-07-20T16:42:46.014Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

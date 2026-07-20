@@ -27,16 +27,16 @@ metadata:
     forks: 1
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: nzrsky/simctl-mcp-server
+    html_url: https://github.com/nzrsky/simctl-mcp-server
     created_at: "2025-05-27T10:39:19Z"
     pushed_at: "2025-05-27T12:24:41Z"
     description: iOS simctl MCP server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:45:36.102Z"
+    last_checked_at: "2026-07-20T16:42:21.812Z"
     readme:
-      fetched_at: "2026-05-06T22:45:36.102Z"
+      fetched_at: "2026-07-20T16:42:21.812Z"
       bytes: 5123
 insights:
   summary: A Model Context Protocol server that exposes iOS Simulator management commands (xcrun simctl) as structured tools for AI assistants.
@@ -69,19 +69,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T15:12:08.998Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nzrsky/simctl-mcp-server
+    status: done
+    updated_at: "2026-07-20T16:42:21.812Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

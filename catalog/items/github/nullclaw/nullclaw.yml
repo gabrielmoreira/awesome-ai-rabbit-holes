@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7416
-    forks: 860
+    stars: 7798
+    forks: 917
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: nullclaw/nullclaw
+    html_url: https://github.com/nullclaw/nullclaw
     created_at: "2026-02-16T21:17:27Z"
-    pushed_at: "2026-05-05T01:15:15Z"
+    pushed_at: "2026-07-19T04:20:06Z"
     description: Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig
     homepage: https://nullclaw.io
     topics:
@@ -39,28 +39,28 @@ metadata:
       - assistant
       - personal
       - zig
-    last_checked_at: "2026-05-06T22:45:34.790Z"
+    last_checked_at: "2026-07-20T16:42:20.931Z"
     readme:
-      fetched_at: "2026-05-06T22:45:34.790Z"
-      bytes: 39824
+      fetched_at: "2026-07-20T16:42:20.931Z"
+      bytes: 42069
 insights:
-  summary: A tiny, self-contained AI assistant infrastructure written in Zig that runs as a ~678 KB static binary with support for 50+ providers, 19 channels, and autonomous agent capabilities.
-  why_it_matters: It delivers a fully autonomous coding and assistant runtime that boots in milliseconds and runs on $5 hardware, making local AI agent infrastructure viable for edge and embedded developer workflows.
-  mental_damage: Now you can run a fully autonomous AI agent on a toaster, just in case you needed one more reason to question whether your codebase is safe from a 678 KB binary with no garbage collector.
+  summary: A high-performance, autonomous AI assistant infrastructure written in Zig with a minimal memory footprint.
+  why_it_matters: It provides a lightweight, standalone binary for running autonomous AI agents on resource-constrained hardware and edge devices.
+  mental_damage: Now you can finally run an autonomous agent on a $5 board without the entire OS collapsing under the weight of a Python runtime.
   tags:
     - zig
+    - autonomous-agents
+    - edge-ai
+    - low-level
     - cli
-    - autonomous
-    - local-agent
-    - lightweight
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone, terminal-native autonomous AI assistant infrastructure that developers can run and delegate coding or repo tasks to, fitting the coding-agents category over an extension or framework identity.
+  reason: It is a standalone, autonomous terminal-native assistant infrastructure rather than a mere integration or extension.
   evidence:
-    - "Repo description: 'Fastest, smallest, and fully autonomous AI assistant infrastructure written in Zig'"
-    - README positions it as a feature-complete assistant runtime with 50+ providers, 19 channels, 35+ tools, memory engines, and subagents
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'
+    - 7798 stars indicating significant ecosystem traction
+    - Claims to be 'fully autonomous AI assistant infrastructure'
+    - Provides a single static binary for terminal/CLI usage
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -74,19 +74,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T15:12:07.492Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nullclaw/nullclaw
+    status: done
+    updated_at: "2026-07-20T16:42:20.931Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-20T16:43:58.416Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ff150a9eb6e48abc937e0d237a7341061a3778d661ab1a8129c399f69d91f5a1
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a standalone, autonomous terminal-native assistant infrastructure rather than a mere integration or extension.
+      decision_evidence:
+        - 7798 stars indicating significant ecosystem traction
+        - Claims to be 'fully autonomous AI assistant infrastructure'
+        - Provides a single static binary for terminal/CLI usage
+      category_candidates:
+        - coding-agents
+        - local-ai
+      contrastive_reason: Choose coding-agents over local-ai because the product identity is centered on autonomous assistant functionality and task execution rather than being a model serving runtime like Ollama.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 346
-    forks: 62
+    stars: 612
+    forks: 117
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: open-gitagent/gitagent
+    html_url: https://github.com/open-gitagent/gitagent
     created_at: "2026-03-04T12:30:03Z"
-    pushed_at: "2026-05-05T13:27:11Z"
+    pushed_at: "2026-07-13T05:52:48Z"
     description: A universal git-native AI agent framework. Your agent lives inside a git repo — identity, rules, memory, tools, and skills are all version-controlled files.
     homepage: ""
     topics:
@@ -41,10 +41,10 @@ metadata:
       - llm
       - openclaw
       - personal
-    last_checked_at: "2026-05-06T22:45:39.955Z"
+    last_checked_at: "2026-07-20T16:42:24.903Z"
     readme:
-      fetched_at: "2026-05-06T22:45:39.955Z"
-      bytes: 21921
+      fetched_at: "2026-07-20T16:42:24.903Z"
+      bytes: 26917
 insights:
   summary: Gitclaw is a CLI-based coding agent that treats the agent's identity, rules, memory, tools, and skills as version-controlled files inside a git repository.
   why_it_matters: Developers can fork, branch, diff, and audit their agent's behavior and memory using standard git workflows, bringing version control to AI agent configuration.
@@ -76,16 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:39.955Z"
+    updated_at: "2026-07-20T16:42:24.903Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

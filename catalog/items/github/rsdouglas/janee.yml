@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 27
-    forks: 6
+    stars: 29
+    forks: 7
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: rsdouglas/janee
+    html_url: https://github.com/rsdouglas/janee
     created_at: "2026-02-02T15:04:09Z"
     pushed_at: "2026-03-17T13:00:52Z"
     description: Secrets management for AI agents via MCP • @janeesecure
@@ -45,9 +45,9 @@ metadata:
       - model-context-protocol
       - secrets-management
       - security
-    last_checked_at: "2026-05-06T22:46:12.843Z"
+    last_checked_at: "2026-07-20T16:42:48.379Z"
     readme:
-      fetched_at: "2026-05-06T22:46:12.843Z"
+      fetched_at: "2026-07-20T16:42:48.379Z"
       bytes: 21668
 insights:
   summary: Janee is a local-first MCP server that lets AI agents call external APIs using injected credentials, without ever exposing raw API keys to the agent itself.
@@ -81,16 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:12.843Z"
+    updated_at: "2026-07-20T16:42:48.379Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -24,19 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 11
+    forks: 2
+    license: BSD-3-Clause
+    archived: false
+    full_name: rust-works/omni-dev
+    html_url: https://github.com/rust-works/omni-dev
+    created_at: "2025-08-23T07:02:37Z"
+    pushed_at: "2026-07-20T10:55:31Z"
+    description: AI-powered git commit rewriter, PR generator, and MCP server for Jira, Confluence, and Datadog. Single Rust binary.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - ai
+      - anthropic
+      - atlassian
+      - automation
+      - claude
+      - cli
+      - commit-message
+      - confluence
+      - conventional-commits
+      - datadog
+      - developer-tools
+      - git
+      - git-tools
+      - jira
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - pull-request
+      - rust
+    last_checked_at: "2026-07-20T16:42:49.078Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:49.078Z"
+      bytes: 40285
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +82,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:49.078Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

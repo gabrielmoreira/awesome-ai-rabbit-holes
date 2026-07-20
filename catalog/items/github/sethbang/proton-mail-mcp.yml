@@ -24,19 +24,33 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: sethbang/proton-mail-mcp
+    html_url: https://github.com/sethbang/proton-mail-mcp
+    created_at: "2026-04-15T18:02:12Z"
+    pushed_at: "2026-07-16T16:55:06Z"
+    description: Unofficial MCP server for Proton Mail (not affiliated with Proton AG) — send, read, search & organize email over SMTP/IMAP
+    homepage: https://www.npmjs.com/package/proton-mail-mcp
+    topics:
+      - email
+      - email-mcp
+      - email-mcp-server
+      - imap
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - nodemailer
+      - proton
+      - proton-mail
+      - protonmail
+      - smtp
+    last_checked_at: "2026-07-20T16:42:54.372Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:54.372Z"
+      bytes: 51467
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +74,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:54.372Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

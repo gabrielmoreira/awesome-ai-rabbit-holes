@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 315
+    stars: 316
     forks: 54
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: pnkvalavala/repochat
+    html_url: https://github.com/pnkvalavala/repochat
     created_at: "2023-07-03T19:45:57Z"
     pushed_at: "2024-08-28T18:59:58Z"
     description: Chatbot assistant enabling GitHub repository interaction using LLMs with Retrieval Augmented Generation
@@ -44,9 +44,9 @@ metadata:
       - openai
       - retrieval-augmented-generation
       - streamlit
-    last_checked_at: "2026-05-06T22:45:55.208Z"
+    last_checked_at: "2026-07-20T16:42:35.945Z"
     readme:
-      fetched_at: "2026-05-06T22:45:55.208Z"
+      fetched_at: "2026-07-20T16:42:35.945Z"
       bytes: 6278
 insights:
   summary: A local-first Streamlit chatbot that clones GitHub repositories, embeds code with Sentence Transformers, and answers questions about the codebase using a local LLM via Retrieval Augmented Generation.
@@ -80,16 +80,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:55.208Z"
+    updated_at: "2026-07-20T16:42:35.945Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

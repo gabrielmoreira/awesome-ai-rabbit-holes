@@ -24,19 +24,34 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: patchistry/patchistry-mcp-server
+    html_url: https://github.com/patchistry/patchistry-mcp-server
+    created_at: "2026-06-11T05:12:06Z"
+    pushed_at: "2026-06-15T20:05:23Z"
+    description: Patchistry MCP server — AI agent commerce tools (list canvases, list patches, recommend builds, shipping, contact). Built with Model Context Protocol SDK. Deployable to Vercel free tier.
+    homepage: https://patchistry.com
+    topics:
+      - agentic-commerce
+      - ai-agents
+      - ai-commerce
+      - anthropic
+      - claude
+      - dtc
+      - ecommerce
+      - glama
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - patchistry
+      - shopify
+    last_checked_at: "2026-07-20T16:42:31.401Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:31.401Z"
+      bytes: 9007
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +75,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:31.401Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

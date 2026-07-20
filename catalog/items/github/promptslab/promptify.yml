@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4594
+    stars: 4622
     forks: 362
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: promptslab/Promptify
+    html_url: https://github.com/promptslab/Promptify
     created_at: "2022-12-12T18:06:32Z"
     pushed_at: "2026-03-27T01:09:45Z"
     description: Prompt Engineering | Prompt Versioning | Use GPT or other prompt based models to get structured output. Join our discord for Prompt-Engineering, LLMs and other latest research
@@ -54,9 +54,9 @@ metadata:
       - prompts
       - promptversioning
       - transformers
-    last_checked_at: "2026-05-06T22:45:58.501Z"
+    last_checked_at: "2026-07-20T16:42:37.924Z"
     readme:
-      fetched_at: "2026-05-06T22:45:58.501Z"
+      fetched_at: "2026-07-20T16:42:37.924Z"
       bytes: 6763
 insights:
   summary: A Python NLP framework that provides task-based LLM prompts with Pydantic structured outputs, built-in evaluation, and multi-provider support via LiteLLM.
@@ -90,16 +90,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:58.501Z"
+    updated_at: "2026-07-20T16:42:37.924Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

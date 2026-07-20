@@ -6,6 +6,22 @@ identity:
   github_repo: sarveshsea/memi
 provenance:
   discoveries:
+    - id: discovery__github__sarveshsea__m-moire__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: sarveshsea/m-moire
+        extracted_url: https://github.com/sarveshsea/m-moire
+        surrounding_text: "- [sarveshsea/m-moire](https://github.com/sarveshsea/m-moire) [![m-moire MCP server](https://glama.ai/mcp/servers/sarveshsea/m-moire/badges/score.svg)](https://glama.ai/mcp/servers/sarveshsea/m-moire) 📇 🏠 — Design system MCP server. 20 tools: extract design tokens from any URL, pull from Figma (REST or WebSocket) and Penpot, generate React + shadcn/ui components from specs, run WCAG audits, sync tokens bidirectionally."
+        confidence: high
     - id: discovery__github__sarveshsea__memi__awesome-list__punkpeye__awesome-mcp-servers
       discovered_at: "2026-05-12T15:06:19.300Z"
       source:
@@ -24,54 +40,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 10
-    forks: 2
+    stars: 34
+    forks: 4
     license: MIT
     archived: false
+    full_name: sarveshsea/memi
+    html_url: https://github.com/sarveshsea/memi
     created_at: "2026-03-23T15:09:14Z"
-    pushed_at: "2026-05-12T04:18:08Z"
-    description: "Shadcn-native Design CI for Tailwind apps: export registries that work with shadcn, v0, AI editors, and npm."
+    pushed_at: "2026-07-18T08:15:57Z"
+    description: Interface understanding and design-system memory for AI coding agents.
     homepage: https://memoire.cv
     topics:
+      - agent-skills
+      - ai-coding-agents
       - cli
-      - code-generation
-      - design-ci
-      - design-system
+      - codex-plugin
+      - design-engineering
+      - design-systems
       - design-tokens
       - figma
+      - figma-to-code
+      - interface-understanding
       - mcp
       - mcp-server
-      - registry-generator
-      - shadcn-native
       - shadcn-registry
       - shadcn-registry-generator
-      - tailwind
-      - tailwind-audit
-      - token-extraction
-      - tweakcn
+      - tailwindcss
       - typescript
-      - ui-fix-plan
       - ui-quality
-      - v0-design-system
-    last_checked_at: "2026-05-12T15:06:24.605Z"
+      - ux-audit
+    last_checked_at: "2026-07-20T16:42:51.339Z"
     readme:
-      fetched_at: "2026-05-12T15:06:24.605Z"
-      bytes: 29004
+      fetched_at: "2026-07-20T16:42:51.339Z"
+      bytes: 15886
 insights:
   summary: memi is a CLI and daemon that exports design tokens and components from Tailwind apps into shadcn-native registries for AI coding agents.
   why_it_matters: It gives AI coding agents memory of a project's design system so they can edit code without breaking UI consistency.
   mental_damage: Finally, a way to make AI feel less like a bull in a china shop and more like a designer who actually read the style guide.
   tags:
-    - design-system
+    - agent-skills
     - ai-agents
     - cli
+    - design-ci
+    - design-system
+    - mcp
     - shadcn
     - tailwind
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: memi primarily augments coding agents like Claude Code and Cursor with design-system memory and Figma context, making it an extension rather than a standalone assistant.
+  reason: The core product augments other coding assistants and editors with design-system memory, audits, and MCP-based context rather than acting as a primary coding agent itself.
   evidence:
+    - "Repo description: 'Shadcn-native Design CI for Tailwind apps: export registries that work with shadcn, v0, AI editors, and npm.'"
+    - "README: 'Give Codex, Claude Code, Cursor, OpenCode, Hermes, OpenClaw, shadcn, v0, and Figma the same design-system memory before they edit your app.'"
+    - README shows MCP config generation for Claude Code and Cursor via `memi mcp start` and agent skill installs for Hermes/OpenClaw.
     - "README states: 'Give Claude Code, Cursor, and Codex memory of your tokens, components, and Figma — so they edit your app without breaking the design.'"
     - Provides MCP config and skill kits for external agents, not a self-directed coding agent.
     - Core function is exporting design tokens and components as registries for AI tool consumption.
@@ -82,16 +104,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-05-12T15:06:24.605Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-12T15:59:58.839Z"
@@ -99,4 +111,14 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-20T16:42:51.339Z"
+    cause: null
     next_retry_at: null

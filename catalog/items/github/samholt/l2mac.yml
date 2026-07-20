@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 153
+    stars: 158
     forks: 44
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: samholt/L2MAC
+    html_url: https://github.com/samholt/L2MAC
     created_at: "2024-03-08T12:01:02Z"
     pushed_at: "2024-12-27T00:50:24Z"
     description: "🚀 The LLM Automatic Computer Framework: L2MAC"
@@ -59,9 +59,9 @@ metadata:
       - l2mac
       - llm
       - multi-agent
-    last_checked_at: "2026-05-06T22:46:15.805Z"
+    last_checked_at: "2026-07-20T16:42:50.488Z"
     readme:
-      fetched_at: "2026-05-06T22:46:15.805Z"
+      fetched_at: "2026-07-20T16:42:50.488Z"
       bytes: 19094
 insights:
   summary: L2MAC is a framework that uses a multi-agent, von Neumann-style architecture to take a single prompt and generate extensive codebases or text outputs that exceed standard LLM context windows.
@@ -95,16 +95,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:15.805Z"
+    updated_at: "2026-07-20T16:42:50.488Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

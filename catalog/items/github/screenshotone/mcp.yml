@@ -23,23 +23,23 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 36
-    forks: 13
+    stars: 35
+    forks: 12
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: screenshotone/mcp
+    html_url: https://github.com/screenshotone/mcp
     created_at: "2025-02-17T09:18:20Z"
-    pushed_at: "2025-06-10T17:23:16Z"
+    pushed_at: "2026-07-10T11:47:06Z"
     description: A simple implementation of an MCP server for the ScreenshotOne API
     homepage: https://screenshotone.com/blog/mcp-server/
     topics:
       - mcp-server
       - screenshots
-    last_checked_at: "2026-05-06T22:46:19.422Z"
+    last_checked_at: "2026-07-20T16:42:52.462Z"
     readme:
-      fetched_at: "2026-05-06T22:46:19.422Z"
-      bytes: 1415
+      fetched_at: "2026-07-20T16:42:52.462Z"
+      bytes: 1412
 insights:
   summary: An official MCP server implementation that exposes the ScreenshotOne API to AI assistants, allowing them to render website screenshots via the `render-website-screenshot` tool.
   why_it_matters: It gives coding agents and MCP-compatible clients a standardized way to capture visual state of web pages without leaving the chat interface.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:19.422Z"
+    updated_at: "2026-07-20T16:42:52.462Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

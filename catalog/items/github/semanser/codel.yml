@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2447
-    forks: 204
+    stars: 2459
+    forks: 203
     license: AGPL-3.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: semanser/codel
+    html_url: https://github.com/semanser/codel
     created_at: "2024-03-18T17:21:32Z"
     pushed_at: "2024-04-29T17:53:58Z"
     description: ✨ Fully autonomous AI Agent that can perform complicated tasks and projects using terminal, browser, and editor.
@@ -59,9 +59,9 @@ metadata:
       - llms
       - ollama
       - openai
-    last_checked_at: "2026-05-06T22:46:20.206Z"
+    last_checked_at: "2026-07-20T16:42:53.641Z"
     readme:
-      fetched_at: "2026-05-06T22:46:20.206Z"
+      fetched_at: "2026-07-20T16:42:53.641Z"
       bytes: 3078
 insights:
   summary: A self-hosted, Docker-based autonomous AI agent that performs software development tasks using a built-in terminal, browser, and text editor.
@@ -95,16 +95,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:20.206Z"
+    updated_at: "2026-07-20T16:42:53.641Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -23,21 +23,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7
+    stars: 8
     forks: 2
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: ReexpressAI/reexpress_mcp_server
+    html_url: https://github.com/ReexpressAI/reexpress_mcp_server
     created_at: "2025-05-05T13:07:43Z"
-    pushed_at: "2026-05-02T23:32:04Z"
+    pushed_at: "2026-06-24T11:18:15Z"
     description: Reexpress Model-Context-Protocol (MCP) Server
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-06T22:46:08.166Z"
+    last_checked_at: "2026-07-20T16:42:44.715Z"
     readme:
-      fetched_at: "2026-05-06T22:46:08.166Z"
-      bytes: 6607
+      fetched_at: "2026-07-20T16:42:44.715Z"
+      bytes: 8609
 insights:
   summary: An MCP server that adds statistical uncertainty verification to LLM workflows by ensembling multiple models and calculating confidence estimates against a calibration dataset.
   why_it_matters: It gives tool-calling LLMs a statistically grounded second opinion and a simple feedback loop so developers can gauge confidence and adapt verification to their own tasks.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:08.166Z"
+    updated_at: "2026-07-20T16:42:44.715Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

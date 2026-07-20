@@ -53,15 +53,15 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 20915
-    forks: 1816
+    stars: 23439
+    forks: 2098
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: promptfoo/promptfoo
+    html_url: https://github.com/promptfoo/promptfoo
     created_at: "2023-04-28T15:48:49Z"
-    pushed_at: "2026-05-06T20:40:04Z"
-    description: Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, Llama, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.
+    pushed_at: "2026-07-20T16:22:38Z"
+    description: Test your prompts, agents, and RAGs. Red teaming/pentesting/vulnerability scanning for AI. Compare performance of GPT, Claude, Gemini, DeepSeek, and more. Simple declarative configs with command line and CI/CD integration.  Used by OpenAI and Anthropic.
     homepage: https://promptfoo.dev
     topics:
       - ci
@@ -82,10 +82,10 @@ metadata:
       - red-teaming
       - testing
       - vulnerability-scanners
-    last_checked_at: "2026-05-06T22:45:58.193Z"
+    last_checked_at: "2026-07-20T16:42:37.750Z"
     readme:
-      fetched_at: "2026-05-06T22:45:58.193Z"
-      bytes: 4716
+      fetched_at: "2026-07-20T16:42:37.750Z"
+      bytes: 4924
 insights:
   summary: A CLI and library for evaluating, red-teaming, and vulnerability scanning LLM applications, supporting side-by-side model comparison and CI/CD integration.
   why_it_matters: It moves prompt and agent testing from vibes-based trial-and-error to measurable, automated regression checks that can gate real deployments.
@@ -118,16 +118,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:58.193Z"
+    updated_at: "2026-07-20T16:42:37.750Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

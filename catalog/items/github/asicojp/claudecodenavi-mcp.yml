@@ -22,44 +22,76 @@ provenance:
         extracted_url: https://github.com/saikiyusuke/claudecodenavi-mcp
         surrounding_text: "- [ClaudeCodeNavi/claudecodenavi-mcp](https://github.com/saikiyusuke/claudecodenavi-mcp) 📇 ☁️ - Claude Code knowledge platform & marketplace MCP server. Search and share snippets, prompts, Q&A solutions, error fixes, and MCP server configurations from the ClaudeCodeNavi community."
         confidence: high
+    - id: discovery__github__saikiyusuke__claudecodenavi-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ClaudeCodeNavi/claudecodenavi-mcp
+        extracted_url: https://github.com/saikiyusuke/claudecodenavi-mcp
+        surrounding_text: "- [ClaudeCodeNavi/claudecodenavi-mcp](https://github.com/saikiyusuke/claudecodenavi-mcp) 📇 ☁️ - Claude Code knowledge platform & marketplace MCP server. Search and share snippets, prompts, Q&A solutions, error fixes, and MCP server configurations from the ClaudeCodeNavi community."
+        confidence: high
 metadata:
   github:
     stars: 2
     forks: 2
     license: null
     archived: false
+    full_name: asicojp/claudecodenavi-mcp
+    html_url: https://github.com/asicojp/claudecodenavi-mcp
     created_at: "2026-02-17T18:00:21Z"
     pushed_at: "2026-06-11T14:32:32Z"
     description: ClaudeCodeNavi MCP Server - Claude Code knowledge platform & marketplace
     homepage: https://claudecodenavi.jp
     topics: []
-    last_checked_at: "2026-07-20T05:17:05.092Z"
+    last_checked_at: "2026-07-20T16:42:49.928Z"
     readme:
-      fetched_at: "2026-07-20T05:17:05.092Z"
+      fetched_at: "2026-07-20T16:42:49.928Z"
       bytes: 935
 insights:
   summary: ClaudeCodeNavi MCP Server provides a knowledge platform and marketplace for Claude Code via the Model Context Protocol.
   why_it_matters: It lets Claude Code users search and publish community articles, snippets, and prompts directly from their development workflow.
   mental_damage: Another MCP server promising to be your 'knowledge platform' while you juggle yet another API token and CLI command just to copy-paste Stack Overflow.
   tags:
-    - mcp
     - claude-code
+    - community
     - knowledge-base
-  confidence: medium
+    - mcp
+  confidence: high
 curation:
-  status: included
-  reason: The product is an MCP server first and foremost, offering knowledge base features as its MCP service, making MCP the core identity rather than a compatibility layer.
+  status: pending
+  reason: Conflicting duplicate curation or placement requires review.
   evidence:
     - "Repo description: 'ClaudeCodeNavi MCP Server - Claude Code knowledge platform & marketplace'"
     - "README: Provides MCP server functionality for Claude Code via npx -y @claudecodenavi/mcp"
     - "Source-list context: Listed in awesome-mcp-servers under Developer Tools > Server Implementations"
+    - "included: The product is an MCP server first and foremost, offering knowledge base features as its MCP service, making MCP the core identity rather than a compatibility layer."
+    - "Repo description states: 'ClaudeCodeNavi MCP Server - Claude Code knowledge platform & marketplace'"
+    - README confirms it is an MCP server for Claude Code with features to post articles and search community knowledge
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - "included: The product is explicitly an MCP server that extends Claude Code with access to a specific community platform, making MCP its core identity."
 placement:
-  primary_category: mcp
-  section: Generic Servers & Middleware
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0
   discover:
     status: done
     updated_at: "2026-05-12T15:06:19.301Z"
@@ -67,14 +99,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T05:17:05.092Z"
+    updated_at: "2026-07-20T16:42:49.928Z"
     cause: null
-    next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-12T15:58:26.846Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
     next_retry_at: null

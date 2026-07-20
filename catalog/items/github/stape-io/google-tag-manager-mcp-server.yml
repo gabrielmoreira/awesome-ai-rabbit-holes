@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 145
-    forks: 48
+    stars: 185
+    forks: 56
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: stape-io/google-tag-manager-mcp-server
+    html_url: https://github.com/stape-io/google-tag-manager-mcp-server
     created_at: "2025-04-16T11:54:41Z"
-    pushed_at: "2026-04-16T01:26:00Z"
+    pushed_at: "2026-05-14T13:15:15Z"
     description: MCP server for Google Tag Manager
     homepage: https://stape.io
     topics:
@@ -40,9 +40,9 @@ metadata:
       - mcp
       - mcp-server
       - stape
-    last_checked_at: "2026-05-06T22:46:33.756Z"
+    last_checked_at: "2026-07-20T16:43:03.182Z"
     readme:
-      fetched_at: "2026-05-06T22:46:33.756Z"
+      fetched_at: "2026-07-20T16:43:03.182Z"
       bytes: 1843
 insights:
   summary: An MCP server that provides an interface to the Google Tag Manager API with built-in Google OAuth, allowing LLM clients like Claude Desktop to manage GTM tags, triggers, and variables.
@@ -65,8 +65,8 @@ placement:
   primary_category: mcp
   section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (185) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -75,16 +75,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:33.756Z"
+    updated_at: "2026-07-20T16:43:03.182Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

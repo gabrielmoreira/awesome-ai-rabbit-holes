@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 151
-    forks: 26
+    stars: 155
+    forks: 28
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: pyroprompts/any-chat-completions-mcp
+    html_url: https://github.com/pyroprompts/any-chat-completions-mcp
     created_at: "2024-12-02T03:40:01Z"
     pushed_at: "2025-05-01T02:39:27Z"
     description: MCP Server for using any LLM as a Tool
@@ -36,9 +36,9 @@ metadata:
     topics:
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-06T22:46:00.577Z"
+    last_checked_at: "2026-07-20T16:42:39.468Z"
     readme:
-      fetched_at: "2026-05-06T22:46:00.577Z"
+      fetched_at: "2026-07-20T16:42:39.468Z"
       bytes: 4971
 insights:
   summary: A TypeScript MCP server that exposes any OpenAI SDK-compatible chat completions API (OpenAI, Perplexity, Groq, xAI, etc.) as a tool for Claude Desktop and LibreChat.
@@ -72,16 +72,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:00.578Z"
+    updated_at: "2026-07-20T16:42:39.468Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

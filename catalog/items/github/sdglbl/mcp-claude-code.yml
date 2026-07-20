@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 300
-    forks: 37
+    stars: 304
+    forks: 36
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: SDGLBL/mcp-claude-code
+    html_url: https://github.com/SDGLBL/mcp-claude-code
     created_at: "2025-03-18T10:55:31Z"
     pushed_at: "2025-08-29T13:41:08Z"
     description: MCP implementation of Claude Code capabilities and more
@@ -54,9 +54,9 @@ metadata:
       - claude-code
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-06T22:46:18.895Z"
+    last_checked_at: "2026-07-20T16:42:52.594Z"
     readme:
-      fetched_at: "2026-05-06T22:46:18.895Z"
+      fetched_at: "2026-07-20T16:42:52.594Z"
       bytes: 4988
 insights:
   summary: An MCP server that reimplements Claude Code-like capabilities, allowing MCP clients to read, edit, and execute commands across a codebase using LiteLLM-compatible models.
@@ -90,16 +90,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:18.895Z"
+    updated_at: "2026-07-20T16:42:52.594Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

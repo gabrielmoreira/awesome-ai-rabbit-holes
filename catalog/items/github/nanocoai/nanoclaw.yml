@@ -1,6 +1,6 @@
 id: github__nanocoai__nanoclaw
 kind: github-repo
-name: nanoclaw
+name: NanoClaw
 canonical_url: https://github.com/nanocoai/nanoclaw
 identity:
   github_repo: nanocoai/nanoclaw
@@ -22,10 +22,26 @@ provenance:
         extracted_url: https://github.com/gavrielc/nanoclaw
         surrounding_text: "- **[NanoClaw](https://github.com/gavrielc/nanoclaw)** `⭐ 28.8k` — Security-first lightweight alternative to OpenClaw; runs agents in Apple containers/Docker with sandboxed execution, built on Anthropic's Agents SDK."
         confidence: high
+    - id: discovery__github__qwibitai__nanoclaw__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - OpenClaw ecosystem
+        anchor_text: NanoClaw
+        extracted_url: https://github.com/gavrielc/nanoclaw
+        surrounding_text: "- **[NanoClaw](https://github.com/gavrielc/nanoclaw)** `⭐ 28.6k` — Security-first lightweight alternative to OpenClaw; runs agents in Apple containers/Docker with sandboxed execution, built on Anthropic's Agents SDK."
+        confidence: high
 metadata:
   github:
     stars: 30300
-    forks: 12876
+    forks: 12875
     license: MIT
     archived: false
     full_name: nanocoai/nanoclaw
@@ -40,9 +56,9 @@ metadata:
       - claude-code
       - claude-skills
       - openclaw
-    last_checked_at: "2026-07-20T15:11:59.789Z"
+    last_checked_at: "2026-07-20T16:42:42.133Z"
     readme:
-      fetched_at: "2026-07-20T15:11:59.788Z"
+      fetched_at: "2026-07-20T16:42:42.133Z"
       bytes: 15375
 insights:
   summary: Nanoclaw is a lightweight, container-isolated AI assistant that connects to messaging apps and runs on Anthropic's Agents SDK for secure personal automation.
@@ -51,9 +67,13 @@ insights:
   tags:
     - ai-agent
     - claude-code
+    - cli
     - containerized
+    - containers
+    - messaging
     - messaging-bridge
     - personal-automation
+    - self-hosted
   confidence: high
 curation:
   status: included
@@ -62,6 +82,9 @@ curation:
     - "Repo description: 'A lightweight alternative to OpenClaw that runs in containers for security. Connects to WhatsApp, Telegram, Slack, Discord, Gmail and other messaging apps... runs directly on Anthropic's Agents SDK'"
     - "README: 'Claude agents run in their own Linux containers with filesystem isolation' and 'nanoclaw.sh walks you from a fresh machine to a named agent you can message'"
     - "Source-list context: Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'"
+    - Repo description states it is 'a lightweight alternative to OpenClaw that runs in containers' and 'runs directly on Anthropic's Agents SDK'.
+    - README says 'NanoClaw natively uses Claude Code via Anthropic's official Claude Agent SDK, so you get the latest Claude models and Claude Code's full toolset'.
+    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -69,16 +92,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (28807) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-07-20T15:11:59.789Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-18T05:38:38.547Z"
@@ -87,3 +100,13 @@ processing:
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-20T16:42:42.133Z"
+    cause: null
+    next_retry_at: null

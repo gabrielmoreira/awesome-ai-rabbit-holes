@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1
+    stars: 3
     forks: 0
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Sh3rd3n/megazord
+    html_url: https://github.com/Sh3rd3n/megazord
     created_at: "2026-02-19T18:50:19Z"
     pushed_at: "2026-02-24T16:11:04Z"
     description: Claude Code framework for project management, code quality, and multi-agent coordination
@@ -45,9 +45,9 @@ metadata:
       - project-management
       - typescript
       - workflow-automation
-    last_checked_at: "2026-05-06T22:46:21.993Z"
+    last_checked_at: "2026-07-20T16:42:54.917Z"
     readme:
-      fetched_at: "2026-05-06T22:46:21.993Z"
+      fetched_at: "2026-07-20T16:42:54.917Z"
       bytes: 22951
 insights:
   summary: A Claude Code plugin that adds project management, code quality workflows, and native multi-agent coordination via Agent Teams.
@@ -81,16 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:21.993Z"
+    updated_at: "2026-07-20T16:42:54.917Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

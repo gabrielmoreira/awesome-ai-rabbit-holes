@@ -39,20 +39,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7
-    forks: 13
+    stars: 8
+    forks: 14
     license: MPL-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: openMF/mcp-mifosx-self-service
+    html_url: https://github.com/openMF/mcp-mifosx-self-service
     created_at: "2025-08-13T14:56:29Z"
-    pushed_at: "2026-03-16T15:11:02Z"
+    pushed_at: "2026-07-20T10:51:02Z"
     description: MCP Server for Mifos X - Self Service
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:45:43.326Z"
+    last_checked_at: "2026-07-20T16:42:27.187Z"
     readme:
-      fetched_at: "2026-05-06T22:45:43.326Z"
+      fetched_at: "2026-07-20T16:42:27.187Z"
       bytes: 10929
 insights:
   summary: An MCP server built with FastMCP that exposes Apache Fineract / Mifos X self-service banking APIs as AI-callable tools for MCP-compatible clients.
@@ -85,16 +85,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:43.326Z"
+    updated_at: "2026-07-20T16:42:27.187Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

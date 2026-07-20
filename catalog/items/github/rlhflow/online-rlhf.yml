@@ -27,8 +27,8 @@ metadata:
     forks: 48
     license: null
     archived: false
-    full_name: null
-    html_url: null
+    full_name: RLHFlow/Online-RLHF
+    html_url: https://github.com/RLHFlow/Online-RLHF
     created_at: "2024-05-10T14:33:50Z"
     pushed_at: "2024-12-28T03:56:44Z"
     description: A recipe for online RLHF and online iterative DPO.
@@ -37,9 +37,9 @@ metadata:
       - llama3
       - llm
       - rlhf
-    last_checked_at: "2026-05-06T22:46:10.680Z"
+    last_checked_at: "2026-07-20T16:42:46.493Z"
     readme:
-      fetched_at: "2026-05-06T22:46:10.680Z"
+      fetched_at: "2026-07-20T16:42:46.493Z"
       bytes: 13205
 insights:
   summary: A reproducible recipe and training workflow for aligning LLMs using online iterative RLHF and DPO, including released SFT models, reward models, and RLHF-trained checkpoints.
@@ -72,16 +72,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:10.680Z"
+    updated_at: "2026-07-20T16:42:46.493Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

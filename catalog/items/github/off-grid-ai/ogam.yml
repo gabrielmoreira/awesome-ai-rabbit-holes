@@ -6,6 +6,38 @@ identity:
   github_repo: off-grid-ai/ogam
 provenance:
   discoveries:
+    - id: discovery__github__off-grid-ai__mobile__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-06-22T05:53:30.454Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: Off Grid
+        extracted_url: https://github.com/alichherawalla/off-grid-mobile-ai
+        surrounding_text: "| [Off Grid](https://github.com/alichherawalla/off-grid-mobile-ai)                      | Open-source iOS/Android app running LLMs on-device via llama.cpp. Voice (Whisper), vision, image gen, tool calling — fully offline. | ![GitHub Badge](https://img.shields.io/github/stars/alichherawalla/off-grid-mobile-ai.svg?style=flat-square) |"
+        confidence: high
+    - id: discovery__github__off-grid-ai__off-grid-ai-mobile__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-07-02T05:22:20.470Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: Off Grid
+        extracted_url: https://github.com/alichherawalla/off-grid-mobile-ai
+        surrounding_text: "| [Off Grid](https://github.com/alichherawalla/off-grid-mobile-ai)                      | Open-source iOS/Android app running LLMs on-device via llama.cpp. Voice (Whisper), vision, image gen, tool calling — fully offline. | ![GitHub Badge](https://img.shields.io/github/stars/alichherawalla/off-grid-mobile-ai.svg?style=flat-square) |"
+        confidence: high
     - id: discovery__github__off-grid-ai__ogam__awesome-list__tensorchord__awesome-llmops
       discovered_at: "2026-07-16T05:04:46.712Z"
       source:
@@ -24,19 +56,34 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2782
+    forks: 266
+    license: MIT
+    archived: false
+    full_name: off-grid-ai/OGAM
+    html_url: https://github.com/off-grid-ai/OGAM
+    created_at: "2026-01-29T11:00:58Z"
+    pushed_at: "2026-07-20T13:30:38Z"
+    description: The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy First, Zero Internet. Download an LLM and use it on your mobile device. No data ever leaves your phone. Supports text-to-text, vision, text-to-image
+    homepage: https://getoffgridai.co/pro/
+    topics:
+      - edge-ai
+      - gguf
+      - llama-cpp
+      - local-ai
+      - mobile-ai
+      - offline-ai
+      - offline-llm
+      - ondevice
+      - ondevice-ai
+      - privacy-first
+      - stable-diffusion-android
+      - tool-calling
+      - whisper-android
+    last_checked_at: "2026-07-20T16:42:23.607Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:23.607Z"
+      bytes: 10431
 insights:
   summary: null
   why_it_matters: null
@@ -51,22 +98,24 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2782) exceeded threshold (150)
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0
   discover:
     status: done
     updated_at: "2026-07-16T05:04:46.715Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:23.607Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

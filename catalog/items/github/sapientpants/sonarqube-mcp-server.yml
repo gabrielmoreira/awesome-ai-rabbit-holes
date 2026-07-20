@@ -25,11 +25,11 @@ provenance:
 metadata:
   github:
     stars: 100
-    forks: 15
+    forks: 16
     license: null
     archived: true
-    full_name: null
-    html_url: null
+    full_name: sapientpants/sonarqube-mcp-server
+    html_url: https://github.com/sapientpants/sonarqube-mcp-server
     created_at: "2025-03-20T12:02:36Z"
     pushed_at: "2025-11-14T19:40:26Z"
     description: Model Context Protocol (MCP) server for SonarQube
@@ -42,9 +42,9 @@ metadata:
       - sonarcloud
       - sonarqube
       - typescript
-    last_checked_at: "2026-05-06T22:46:16.536Z"
+    last_checked_at: "2026-07-20T16:42:50.943Z"
     readme:
-      fetched_at: "2026-05-06T22:46:16.536Z"
+      fetched_at: "2026-07-20T16:42:50.943Z"
       bytes: 154
 insights:
   summary: An archived, community-built Model Context Protocol server that exposes SonarQube and SonarCloud static analysis capabilities to MCP-compatible coding assistants.
@@ -77,16 +77,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:16.536Z"
+    updated_at: "2026-07-20T16:42:50.943Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

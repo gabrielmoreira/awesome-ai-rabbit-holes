@@ -24,19 +24,36 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 7
+    forks: 4
+    license: MIT
+    archived: false
+    full_name: Sealjay/mcp-hey
+    html_url: https://github.com/Sealjay/mcp-hey
+    created_at: "2026-01-17T21:06:48Z"
+    pushed_at: "2026-07-13T04:09:59Z"
+    description: "MCP server for Hey.com: read, send, search, and organise email from Claude or any MCP client. Runs locally, stores no credentials, respects rate limits."
+    homepage: ""
+    topics:
+      - ai-agents
+      - bun
+      - claude
+      - claude-desktop
+      - email
+      - email-automation
+      - hey
+      - hey-email
+      - llm-tools
+      - local-first
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - sqlite
+      - typescript
+    last_checked_at: "2026-07-20T16:42:52.705Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:52.705Z"
+      bytes: 11764
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +77,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:52.705Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

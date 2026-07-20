@@ -22,21 +22,59 @@ provenance:
         extracted_url: https://github.com/rxdt/py_ralph_frame
         surrounding_text: "- **[ralph-harness](https://github.com/rxdt/py_ralph_frame)** `⭐ 6` — Minimal repo-local loop scaffold for Claude Code, Codex CLI, and Gemini CLI. Uses `PROMPT.md`, specs, fresh-context iterations, git hooks, CI verification, and hard iteration/time caps so agents make small gated commits instead of drifting in one long chat. MIT."
         confidence: high
+    - id: discovery__github__rxdt__py_ralph_frame__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-02T05:22:20.470Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Orchestrators & autonomous loops
+        anchor_text: ralph-harness
+        extracted_url: https://github.com/rxdt/py_ralph_frame
+        surrounding_text: "- **[ralph-harness](https://github.com/rxdt/py_ralph_frame)** `⭐ 6` — Minimal repo-local loop scaffold for Claude Code, Codex CLI, and Gemini CLI. Uses `PROMPT.md`, specs, fresh-context iterations, git hooks, CI verification, and hard iteration/time caps so agents make small gated commits instead of drifting in one long chat. MIT."
+        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 12
+    forks: 9
+    license: MIT
+    archived: false
+    full_name: rxdt/loopgate_harness
+    html_url: https://github.com/rxdt/loopgate_harness
+    created_at: "2026-06-23T03:05:34Z"
+    pushed_at: "2026-07-20T06:20:37Z"
+    description: A repo-native coding-agent loop harness for Claude, Codex, Copilot, and other CLI agents. Agents can edit. Gates decide what lands. You set the plan in motion. The agents take a prompt, and each iteration must update specs and commit through guardrails.
+    homepage: ""
+    topics:
+      - agent
+      - agent-loop
+      - agentic-ai
+      - agentic-coding
+      - ai-agents
+      - automation
+      - autonomous-agents
+      - claude-code
+      - codex-cli
+      - coding-agents
+      - developer-tools
+      - first-timers-only
+      - framework
+      - good-first-issue
+      - harness
+      - pair-programming
+      - scaffold-template
+      - template
+      - up-for-grabs
+      - uvx
+    last_checked_at: "2026-07-20T16:42:49.393Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:49.393Z"
+      bytes: 16108
 insights:
   summary: null
   why_it_matters: null
@@ -54,19 +92,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0
   discover:
     status: done
     updated_at: "2026-07-13T05:12:52.225Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:49.393Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

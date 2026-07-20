@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 651
-    forks: 58
+    stars: 663
+    forks: 62
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: planetscale/cli
+    html_url: https://github.com/planetscale/cli
     created_at: "2020-12-01T17:15:55Z"
-    pushed_at: "2026-05-04T20:52:30Z"
+    pushed_at: "2026-07-16T20:29:31Z"
     description: The CLI for PlanetScale Database
     homepage: https://planetscale.com/cli
     topics:
@@ -40,10 +40,10 @@ metadata:
       - mysql
       - mysql-client
       - planetscale
-    last_checked_at: "2026-05-06T22:45:54.740Z"
+    last_checked_at: "2026-07-20T16:42:35.281Z"
     readme:
-      fetched_at: "2026-05-06T22:45:54.740Z"
-      bytes: 4040
+      fetched_at: "2026-07-20T16:42:35.281Z"
+      bytes: 4276
 insights:
   summary: The PlanetScale CLI is a command-line tool for managing PlanetScale databases, branches, and deploy requests.
   why_it_matters: It provides the standard interface for developers to manage PlanetScale database operations, CI/CD integration, and branching workflows directly from the terminal.
@@ -75,16 +75,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:54.740Z"
+    updated_at: "2026-07-20T16:42:35.281Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

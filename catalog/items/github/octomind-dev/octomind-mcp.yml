@@ -24,20 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 22
-    forks: 10
+    stars: 24
+    forks: 11
     license: MIT
-    archived: false
-    full_name: null
-    html_url: null
+    archived: true
+    full_name: OctoMind-dev/octomind-mcp
+    html_url: https://github.com/OctoMind-dev/octomind-mcp
     created_at: "2025-03-22T07:25:39Z"
-    pushed_at: "2026-02-26T15:24:32Z"
+    pushed_at: "2026-07-01T15:48:19Z"
     description: An MCP server for octomind tools, resources and prompts
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:45:36.594Z"
+    last_checked_at: "2026-07-20T16:42:22.498Z"
     readme:
-      fetched_at: "2026-05-06T22:45:36.594Z"
+      fetched_at: "2026-07-20T16:42:22.498Z"
       bytes: 5221
 insights:
   summary: An MCP server that exposes Octomind's e2e test platform tools and resources to AI coding assistants for test creation, execution, and management.
@@ -60,8 +60,8 @@ placement:
   primary_category: mcp
   section: Domain Servers
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: Repository is archived
 processing:
   discover:
     status: done
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:36.594Z"
+    updated_at: "2026-07-20T16:42:22.498Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

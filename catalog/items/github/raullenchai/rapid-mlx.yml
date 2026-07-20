@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1694
-    forks: 229
+    stars: 3293
+    forks: 391
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: raullenchai/Rapid-MLX
+    html_url: https://github.com/raullenchai/Rapid-MLX
     created_at: "2026-02-25T00:41:44Z"
-    pushed_at: "2026-05-06T20:36:54Z"
+    pushed_at: "2026-07-19T17:53:50Z"
     description: The fastest local AI engine for Apple Silicon. 4.2x faster than Ollama, 0.08s cached TTFT, 100% tool calling. 17 tool parsers, prompt cache, reasoning separation, cloud routing. Drop-in OpenAI replacement. Works with Claude Code, Cursor, Aider.
     homepage: https://pypi.org/project/rapid-mlx
     topics:
@@ -54,10 +54,10 @@ metadata:
       - python
       - qwen
       - tool-calling
-    last_checked_at: "2026-05-06T22:46:06.564Z"
+    last_checked_at: "2026-07-20T16:42:43.625Z"
     readme:
-      fetched_at: "2026-05-06T22:46:06.564Z"
-      bytes: 35025
+      fetched_at: "2026-07-20T16:42:43.625Z"
+      bytes: 12667
 insights:
   summary: A local inference engine for Apple Silicon that serves models via an OpenAI-compatible API, optimized for speed and tool calling to work with coding assistants like Claude Code and Cursor.
   why_it_matters: It allows developers on Mac to run frontier-sized models locally with minimal latency, enabling private, cost-free usage of tool-calling workflows inside their existing editors.
@@ -90,16 +90,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:06.564Z"
+    updated_at: "2026-07-20T16:42:43.625Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

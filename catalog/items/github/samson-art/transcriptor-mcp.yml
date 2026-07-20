@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7
-    forks: 3
+    stars: 18
+    forks: 4
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: samson-art/transcriptor-mcp
+    html_url: https://github.com/samson-art/transcriptor-mcp
     created_at: "2025-12-24T19:25:41Z"
-    pushed_at: "2026-04-26T06:19:43Z"
+    pushed_at: "2026-07-02T03:50:32Z"
     description: An MCP server (stdio + HTTP/SSE) that fetches video transcripts/subtitles via yt-dlp, with pagination for large responses. Supports YouTube, Twitter/X, Instagram, TikTok, Twitch, Vimeo, Facebook, Bilibili, VK, Dailymotion. Whisper fallback — transcribes audio when subtitles are unavailable (local or OpenAI API). Works with Cursor and other MCP host
     homepage: ""
     topics:
@@ -43,10 +43,10 @@ metadata:
       - youtube
       - youtube-captions
       - yt-dlp
-    last_checked_at: "2026-05-06T22:46:16.136Z"
+    last_checked_at: "2026-07-20T16:42:50.666Z"
     readme:
-      fetched_at: "2026-05-06T22:46:16.136Z"
-      bytes: 23383
+      fetched_at: "2026-07-20T16:42:50.666Z"
+      bytes: 23741
 insights:
   summary: An MCP server that fetches video transcripts and metadata from 11 major platforms using yt-dlp, with a Whisper fallback for audio transcription when subtitles are unavailable.
   why_it_matters: It gives MCP-compatible coding agents and editors direct access to video content as structured text, enabling summarization, learning, and content analysis workflows without manual transcription.
@@ -79,16 +79,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:16.136Z"
+    updated_at: "2026-07-20T16:42:50.666Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

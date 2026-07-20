@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 363
-    forks: 27
+    stars: 370
+    forks: 30
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: nwiizo/tfmcp
+    html_url: https://github.com/nwiizo/tfmcp
     created_at: "2025-03-08T14:10:29Z"
     pushed_at: "2026-03-26T07:29:30Z"
     description: 🌍 Terraform Model Context Protocol (MCP) Tool - An experimental CLI tool that enables AI assistants to manage and operate Terraform environments. Supports reading Terraform configurations, analyzing plans, applying configurations, and managing state with Claude Desktop integration. ⚡️
@@ -53,9 +53,9 @@ metadata:
       - mcp
       - mcp-server
       - terraform
-    last_checked_at: "2026-05-06T22:45:35.693Z"
+    last_checked_at: "2026-07-20T16:42:21.623Z"
     readme:
-      fetched_at: "2026-05-06T22:45:35.693Z"
+      fetched_at: "2026-07-20T16:42:21.623Z"
       bytes: 15918
 insights:
   summary: A Rust-based CLI tool that implements a Model Context Protocol (MCP) server, enabling AI assistants like Claude Desktop to read, analyze, modify, and apply Terraform configurations and state.
@@ -88,19 +88,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T15:12:08.520Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nwiizo/tfmcp
+    status: done
+    updated_at: "2026-07-20T16:42:21.623Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

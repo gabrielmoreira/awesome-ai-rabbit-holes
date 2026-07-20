@@ -39,20 +39,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 54
-    forks: 23
+    stars: 56
+    forks: 24
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: pab1it0/adx-mcp-server
+    html_url: https://github.com/pab1it0/adx-mcp-server
     created_at: "2025-03-10T10:04:07Z"
     pushed_at: "2026-03-25T20:37:34Z"
     description: A Model Context Protocol (MCP) server that enables AI assistants to query and analyze Azure Data Explorer databases through standardized interfaces.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:45:45.990Z"
+    last_checked_at: "2026-07-20T16:42:29.394Z"
     readme:
-      fetched_at: "2026-05-06T22:45:45.990Z"
+      fetched_at: "2026-07-20T16:42:29.394Z"
       bytes: 10944
 insights:
   summary: A Model Context Protocol server that lets AI assistants execute KQL queries, inspect schemas, and analyze data inside Azure Data Explorer and Microsoft Fabric clusters.
@@ -85,16 +85,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:45.990Z"
+    updated_at: "2026-07-20T16:42:29.394Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

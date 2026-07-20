@@ -24,19 +24,19 @@ provenance:
 metadata:
   github:
     stars: 62
-    forks: 10
+    forks: 11
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: rember/rember-mcp
+    html_url: https://github.com/rember/rember-mcp
     created_at: "2025-02-28T10:46:02Z"
     pushed_at: "2025-03-28T09:29:27Z"
     description: A Model Context Protocol (MCP) server for Rember.
     homepage: https://rember.com
     topics: []
-    last_checked_at: "2026-05-06T22:46:09.026Z"
+    last_checked_at: "2026-07-20T16:42:45.403Z"
     readme:
-      fetched_at: "2026-05-06T22:46:09.026Z"
+      fetched_at: "2026-07-20T16:42:45.403Z"
       bytes: 3981
 insights:
   summary: An official Model Context Protocol (MCP) server that allows AI assistants like Claude to create and manage flashcards within the Rember spaced-repetition study platform.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:09.026Z"
+    updated_at: "2026-07-20T16:42:45.403Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

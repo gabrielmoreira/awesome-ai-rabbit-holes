@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1
-    forks: 0
+    stars: 2
+    forks: 2
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: PaulieB14/graph-aave-mcp
+    html_url: https://github.com/PaulieB14/graph-aave-mcp
     created_at: "2026-03-04T00:34:05Z"
-    pushed_at: "2026-04-09T13:38:45Z"
+    pushed_at: "2026-06-10T23:50:41Z"
     description: MCP server for querying AAVE V2/V3/V4 lending and governance data via The Graph — 7 chains across 11 subgraphs (Ethereum, Base, Arbitrum, Polygon, Optimism, Avalanche, Fantom + Governance V3)
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-06T22:45:49.678Z"
+    last_checked_at: "2026-07-20T16:42:31.899Z"
     readme:
-      fetched_at: "2026-05-06T22:45:49.678Z"
-      bytes: 9901
+      fetched_at: "2026-07-20T16:42:31.899Z"
+      bytes: 11807
 insights:
   summary: An MCP server that exposes 40 tools across 16 Graph subgraphs and the Aave V4 API to query multi-chain DeFi lending, liquidation risk, and governance data from AI assistants.
   why_it_matters: It lets developers and agents query live Aave positions, health factors, and liquidation risk across seven chains without writing custom GraphQL or leaving their MCP-compatible workflow.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:49.678Z"
+    updated_at: "2026-07-20T16:42:31.899Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

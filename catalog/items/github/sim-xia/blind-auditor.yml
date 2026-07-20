@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8
-    forks: 1
+    stars: 11
+    forks: 2
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Sim-xia/Blind-Auditor
+    html_url: https://github.com/Sim-xia/Blind-Auditor
     created_at: "2025-11-26T05:26:18Z"
     pushed_at: "2025-12-10T00:20:45Z"
     description: MCP tool for improving model coding quality by mandatory self-audition
@@ -40,9 +40,9 @@ metadata:
       - mcp
       - python
       - quality-improvement
-    last_checked_at: "2026-05-06T22:46:25.179Z"
+    last_checked_at: "2026-07-20T16:42:57.361Z"
     readme:
-      fetched_at: "2026-05-06T22:46:25.179Z"
+      fetched_at: "2026-07-20T16:42:57.361Z"
       bytes: 7049
 insights:
   summary: An MCP server that intercepts AI-generated code and forces the host agent into a mandatory, isolated self-audit loop against configurable rules before releasing the output.
@@ -75,16 +75,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:25.179Z"
+    updated_at: "2026-07-20T16:42:57.361Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -39,22 +39,22 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 188
-    forks: 52
+    stars: 194
+    forks: 54
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: quarkiverse/quarkus-mcp-servers
+    html_url: https://github.com/quarkiverse/quarkus-mcp-servers
     created_at: "2025-01-22T15:10:05Z"
-    pushed_at: "2026-04-07T15:52:45Z"
+    pushed_at: "2026-06-14T21:06:01Z"
     description: Model Context Protocol Servers in Quarkus
     homepage: ""
     topics:
       - mcp
       - quarkus-app
-    last_checked_at: "2026-05-06T22:46:03.199Z"
+    last_checked_at: "2026-07-20T16:42:41.329Z"
     readme:
-      fetched_at: "2026-05-06T22:46:03.199Z"
+      fetched_at: "2026-07-20T16:42:41.329Z"
       bytes: 4119
 insights:
   summary: A collection of Model Context Protocol servers implemented in Java using the Quarkus framework, providing capabilities like JDBC database access, filesystem operations, Kubernetes interaction, and container management.
@@ -88,16 +88,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:03.199Z"
+    updated_at: "2026-07-20T16:42:41.329Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

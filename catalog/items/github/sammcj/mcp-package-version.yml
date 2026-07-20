@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 121
-    forks: 22
+    stars: 122
+    forks: 23
     license: MIT
     archived: true
-    full_name: null
-    html_url: null
+    full_name: sammcj/mcp-package-version
+    html_url: https://github.com/sammcj/mcp-package-version
     created_at: "2024-12-16T06:07:05Z"
     pushed_at: "2026-01-28T12:14:12Z"
     description: An MCP server that provides LLMs with the latest stable package versions when coding
@@ -62,9 +62,9 @@ metadata:
       - typescript
       - versioning
       - versions
-    last_checked_at: "2026-05-06T22:46:16.041Z"
+    last_checked_at: "2026-07-20T16:42:50.543Z"
     readme:
-      fetched_at: "2026-05-06T22:46:16.041Z"
+      fetched_at: "2026-07-20T16:42:50.543Z"
       bytes: 9273
 insights:
   summary: An archived MCP server that provides LLMs with the latest stable package versions across npm, PyPI, Maven, Go, Swift, Docker Hub, and GitHub Actions.
@@ -97,16 +97,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:16.041Z"
+    updated_at: "2026-07-20T16:42:50.543Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

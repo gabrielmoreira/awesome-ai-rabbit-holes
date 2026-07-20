@@ -24,19 +24,31 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 12
+    forks: 4
+    license: MIT
+    archived: false
+    full_name: PsChina/deepseek-as-subagent
+    html_url: https://github.com/PsChina/deepseek-as-subagent
+    created_at: "2026-05-11T02:35:25Z"
+    pushed_at: "2026-07-16T14:19:32Z"
+    description: Run DeepSeek as a real sub-agent inside Claude Code / Codex CLI — DeepSeek gets its own 7-tool agent loop in a sandboxed workspace, not just a single LLM call.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - agent-loop
+      - ai-agent
+      - claude-code
+      - codex-cli
+      - deepseek
+      - llm-orchestration
+      - mcp
+      - model-context-protocol
+      - sub-agent
+      - token-optimization
+    last_checked_at: "2026-07-20T16:42:38.167Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:38.167Z"
+      bytes: 7355
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +72,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:38.167Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

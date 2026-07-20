@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 2
     forks: 0
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: ShipItAndPray/mcp-compress
+    html_url: https://github.com/ShipItAndPray/mcp-compress
     created_at: "2026-03-25T17:23:04Z"
     pushed_at: "2026-03-25T18:36:29Z"
     description: First MCP server for data compression. 60x compression on docs, 30x on SQL, 20x on logs. Zero dependencies. Lossless. Auto-picks best algorithm. 7 tools for any AI agent.
@@ -45,9 +45,9 @@ metadata:
       - mcp
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-05-06T22:46:23.123Z"
+    last_checked_at: "2026-07-20T16:42:56.043Z"
     readme:
-      fetched_at: "2026-05-06T22:46:23.123Z"
+      fetched_at: "2026-07-20T16:42:56.043Z"
       bytes: 4128
 insights:
   summary: An MCP server that provides 7 tools for compressing, decompressing, analyzing, and storing text, JSON, CSV, and log data using algorithms like brotli, gzip, and deflate, designed to reduce context window usage for AI agents.
@@ -80,16 +80,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:23.123Z"
+    updated_at: "2026-07-20T16:42:56.043Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

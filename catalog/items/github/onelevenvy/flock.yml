@@ -24,41 +24,36 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1070
-    forks: 135
+    stars: 1091
+    forks: 141
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Onelevenvy/flock
+    html_url: https://github.com/Onelevenvy/flock
     created_at: "2024-09-04T01:21:01Z"
-    pushed_at: "2025-08-20T10:37:02Z"
-    description: Flock is a workflow-based low-code platform for rapidly building chatbots, RAG, and coordinating multi-agent teams, powered by LangGraph, Langchain, FastAPI, and NextJS.（Flock 是一个基于workflow工作流的低代码平台，用于快速构建聊天机器人、RAG、Agent和Muti-Agent应用，采用 LangGraph、Langchain、FastAPI 和 NextJS 构建。）
-    homepage: Email:qingxin1114@163.com
+    pushed_at: "2026-07-07T07:21:42Z"
+    description: A desktop multi-agent harness built with Rust, Tauri, and React, powered by langgraph-rust.
+    homepage: ""
     topics:
       - agent
       - ai
       - chatbot
-      - crewai
       - deekseek
-      - dify
-      - fastapi
+      - harness
       - langchain
       - langgraph
-      - langgraph-gui
+      - langgraph-rust
       - llm
       - mcp
       - muti-agent
-      - nextjs
-      - ollama
       - openai
-      - openapi
-      - rag
       - react-flow
+      - rust
       - workflow
-    last_checked_at: "2026-05-06T22:45:39.186Z"
+    last_checked_at: "2026-07-20T16:42:24.395Z"
     readme:
-      fetched_at: "2026-05-06T22:45:39.186Z"
-      bytes: 12805
+      fetched_at: "2026-07-20T16:42:24.395Z"
+      bytes: 7770
 insights:
   summary: Flock is a low-code, workflow-based platform for building chatbots, RAG pipelines, and multi-agent systems using LangGraph, LangChain, FastAPI, and NextJS.
   why_it_matters: It provides a visual workbench for developers to orchestrate complex LangChain and LangGraph agents without writing extensive boilerplate code.
@@ -91,16 +86,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:39.186Z"
+    updated_at: "2026-07-20T16:42:24.395Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

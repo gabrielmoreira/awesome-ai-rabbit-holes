@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7
-    forks: 3
+    stars: 8
+    forks: 4
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: skullzarmy/vibealive
+    html_url: https://github.com/skullzarmy/vibealive
     created_at: "2025-07-01T17:15:21Z"
     pushed_at: "2025-10-16T18:44:35Z"
     description: "Full-featured utility to test Next.js projects for unused files and APIs + MCP server "
@@ -41,9 +41,9 @@ metadata:
       - nextjs
       - npm-package
       - tools
-    last_checked_at: "2026-05-06T22:46:26.922Z"
+    last_checked_at: "2026-07-20T16:42:58.741Z"
     readme:
-      fetched_at: "2026-05-06T22:46:26.922Z"
+      fetched_at: "2026-07-20T16:42:58.741Z"
       bytes: 2330
 insights:
   summary: A framework-aware code analysis CLI and MCP server for Next.js projects that detects unused files, dead code, and redundant API endpoints.
@@ -77,16 +77,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:26.922Z"
+    updated_at: "2026-07-20T16:42:58.741Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 12
-    forks: 8
+    stars: 15
+    forks: 9
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: stape-io/stape-mcp-server
+    html_url: https://github.com/stape-io/stape-mcp-server
     created_at: "2025-04-17T09:29:12Z"
-    pushed_at: "2026-03-28T17:07:43Z"
+    pushed_at: "2026-06-16T13:33:45Z"
     description: "Interact with the Stape API using AI assistants like Claude, or in AI-powered IDEs like Cursor. "
     homepage: https://stape.io
     topics:
@@ -40,9 +40,9 @@ metadata:
       - mcp
       - mcp-server
       - stape
-    last_checked_at: "2026-05-06T22:46:33.778Z"
+    last_checked_at: "2026-07-20T16:43:03.118Z"
     readme:
-      fetched_at: "2026-05-06T22:46:33.778Z"
+      fetched_at: "2026-07-20T16:43:03.118Z"
       bytes: 2238
 insights:
   summary: An MCP server that exposes the Stape GTM (server-side tagging) API to AI assistants like Claude and Cursor.
@@ -76,16 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:33.778Z"
+    updated_at: "2026-07-20T16:43:03.118Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

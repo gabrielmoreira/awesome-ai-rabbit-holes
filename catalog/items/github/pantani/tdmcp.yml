@@ -24,19 +24,36 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 21
+    forks: 3
+    license: MIT
+    archived: false
+    full_name: Pantani/tdmcp
+    html_url: https://github.com/Pantani/tdmcp
+    created_at: "2026-05-25T19:56:05Z"
+    pushed_at: "2026-07-17T01:15:05Z"
+    description: TouchDesigner MCP server, describe a visual to Claude, Cursor or Codex and it builds a real, playable node network (audio-reactive, generative, particle, 3D, feedback) with live knobs + MIDI/OSC/DMX, then checks for errors and previews its own work.
+    homepage: https://pantani.github.io/tdmcp/
+    topics:
+      - ai
+      - audio-reactive
+      - claude
+      - creative-coding
+      - cursor
+      - derivative
+      - generative-art
+      - glsl
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - touchdesigner
+      - touchdesigner-mcp
+      - visuals
+      - vj
+    last_checked_at: "2026-07-20T16:42:30.425Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:30.425Z"
+      bytes: 9694
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +77,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:30.425Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

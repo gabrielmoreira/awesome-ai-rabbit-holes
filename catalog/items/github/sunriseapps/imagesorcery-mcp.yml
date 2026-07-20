@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 308
-    forks: 47
+    stars: 329
+    forks: 50
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: sunriseapps/imagesorcery-mcp
+    html_url: https://github.com/sunriseapps/imagesorcery-mcp
     created_at: "2025-05-12T13:14:08Z"
-    pushed_at: "2025-09-23T21:24:06Z"
+    pushed_at: "2026-05-19T08:19:25Z"
     description: An MCP server providing tools for image processing operations
     homepage: https://imagesorcery.net
     topics:
@@ -42,10 +42,10 @@ metadata:
       - mcp-server
       - ocr
       - opencv
-    last_checked_at: "2026-05-06T22:46:36.870Z"
+    last_checked_at: "2026-07-20T16:43:04.908Z"
     readme:
-      fetched_at: "2026-05-06T22:46:36.870Z"
-      bytes: 26145
+      fetched_at: "2026-07-20T16:43:04.908Z"
+      bytes: 26853
 insights:
   summary: An MCP server providing AI assistants with local image processing capabilities including cropping, resizing, object detection, OCR, and background removal using OpenCV and Ultralytics models.
   why_it_matters: It lets coding agents handle image manipulation tasks locally without sending visual data to external APIs, bridging the gap between code assistants and computer vision workflows.
@@ -79,16 +79,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:36.871Z"
+    updated_at: "2026-07-20T16:43:04.908Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

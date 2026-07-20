@@ -24,19 +24,34 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4
+    forks: 2
+    license: MIT
+    archived: false
+    full_name: ober37/ac-infinity-mcp
+    html_url: https://github.com/ober37/ac-infinity-mcp
+    created_at: "2026-05-20T14:37:22Z"
+    pushed_at: "2026-07-11T20:16:27Z"
+    description: MCP server for AC Infinity grow controllers. AI agent integration for climate monitoring, port control, and grow automation — works with Claude, Cursor, and any MCP client.
+    homepage: https://ober37.github.io/ac-infinity-mcp/
+    topics:
+      - ac-infinity
+      - ai-agents
+      - cannabis
+      - claude
+      - fastmcp
+      - grow
+      - grow-automation
+      - growtent
+      - home-automation
+      - iot
+      - mcp
+      - mcp-server
+      - uvx
+    last_checked_at: "2026-07-20T16:42:22.009Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:22.009Z"
+      bytes: 9406
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +75,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:22.009Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

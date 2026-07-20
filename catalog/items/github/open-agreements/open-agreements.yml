@@ -24,40 +24,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 32
-    forks: 5
-    license: MIT
+    stars: 44
+    forks: 8
+    license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: open-agreements/open-agreements
+    html_url: https://github.com/open-agreements/open-agreements
     created_at: "2026-02-09T09:26:34Z"
-    pushed_at: "2026-05-06T22:44:33Z"
-    description: Fill standard legal agreement templates and produce signable DOCX files.
+    pushed_at: "2026-07-20T09:37:16Z"
+    description: Open, primary-source-backed U.S. legal content — practice guides, 50-state surveys, reviewer checklists, and standard agreement templates. Built for legal teams and the agents helping them.
     homepage: https://openagreements.org
     topics:
-      - agent-skills
       - anthropic
       - claude
-      - claude-code
-      - claude-code-cli
-      - claude-code-commands
-      - claude-code-plugin
-      - claude-code-plugins
-      - claude-code-skills
-      - claude-code-subagents
-      - claude-skills
       - contract-automation
       - docx
       - gemini-cli-extension
+      - legal-content
+      - legal-research
       - legal-tech
       - legal-templates
+      - mcp
+      - mcp-server
       - nda-template
+      - non-compete
       - open-source-legal
+      - practice-guides
+      - privacy-law
+      - restrictive-covenants
       - safe-template
-    last_checked_at: "2026-05-06T22:45:39.665Z"
+      - us-law
+    last_checked_at: "2026-07-20T16:42:24.791Z"
     readme:
-      fetched_at: "2026-05-06T22:45:39.665Z"
-      bytes: 36887
+      fetched_at: "2026-07-20T16:42:24.791Z"
+      bytes: 82781
 insights:
   summary: A reusable agent skill and MCP server that fills 40+ standard legal agreement templates and produces signable DOCX files for tools like Claude Code, Gemini CLI, and Cursor.
   why_it_matters: Developers can generate NDAs, SAFEs, and contractor agreements directly from the terminal or chat without leaving their coding environment or manually formatting legal docs.
@@ -90,16 +90,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:39.665Z"
+    updated_at: "2026-07-20T16:42:24.791Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

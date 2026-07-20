@@ -24,19 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 6
+    forks: 2
+    license: MIT
+    archived: false
+    full_name: SidneyBissoli/medical-terminologies-mcp
+    html_url: https://github.com/SidneyBissoli/medical-terminologies-mcp
+    created_at: "2026-01-18T22:28:02Z"
+    pushed_at: "2026-07-20T14:15:29Z"
+    description: "MCP Server for global medical terminologies: ICD-11, SNOMED CT, LOINC, RxNorm, MeSH"
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-07-20T16:42:57.156Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:57.156Z"
+      bytes: 25837
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +62,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:57.156Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

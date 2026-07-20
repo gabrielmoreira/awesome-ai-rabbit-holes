@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2422
-    forks: 271
+    stars: 2624
+    forks: 331
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: openlit/openlit
+    html_url: https://github.com/openlit/openlit
     created_at: "2024-01-23T17:40:59Z"
-    pushed_at: "2026-05-06T19:06:17Z"
+    pushed_at: "2026-07-20T10:38:01Z"
     description: "Open source platform for AI Engineering: OpenTelemetry-native LLM Observability, GPU Monitoring, Guardrails, Evaluations, Prompt Management, Vault, Playground. 🚀💻 Integrates with 50+ LLM Providers, VectorDBs, Agent Frameworks and GPUs."
     homepage: https://docs.openlit.io
     topics:
@@ -54,10 +54,10 @@ metadata:
       - otlp
       - python
       - tracing
-    last_checked_at: "2026-05-06T22:45:43.331Z"
+    last_checked_at: "2026-07-20T16:42:27.137Z"
     readme:
-      fetched_at: "2026-05-06T22:45:43.331Z"
-      bytes: 29193
+      fetched_at: "2026-07-20T16:42:27.137Z"
+      bytes: 31310
 insights:
   summary: Open-source LLM observability platform providing OpenTelemetry-native tracing, evaluations, prompt management, guardrails, and GPU monitoring for AI applications.
   why_it_matters: It gives developers a single drop-in SDK to trace, evaluate, and govern LLM calls across 50+ providers without wiring together half a dozen observability tools.
@@ -90,16 +90,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:43.331Z"
+    updated_at: "2026-07-20T16:42:27.137Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

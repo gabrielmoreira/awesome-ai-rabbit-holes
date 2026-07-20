@@ -23,15 +23,15 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 9420
-    forks: 825
+    stars: 10496
+    forks: 962
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: OpenPipe/ART
+    html_url: https://github.com/OpenPipe/ART
     created_at: "2025-03-10T18:25:47Z"
-    pushed_at: "2026-05-05T21:47:49Z"
-    description: "Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.5, GPT-OSS, Llama, and more!"
+    pushed_at: "2026-07-18T01:11:22Z"
+    description: "Agent Reinforcement Trainer: train multi-step agents for real-world tasks using GRPO. Give your agents on-the-job training. Reinforcement learning for Qwen3.6, GPT-OSS, Llama, and more!"
     homepage: https://art.openpipe.ai
     topics:
       - agent
@@ -43,10 +43,10 @@ metadata:
       - qwen3
       - reinforcement-learning
       - rl
-    last_checked_at: "2026-05-06T22:45:43.690Z"
+    last_checked_at: "2026-07-20T16:42:27.328Z"
     readme:
-      fetched_at: "2026-05-06T22:45:43.690Z"
-      bytes: 14259
+      fetched_at: "2026-07-20T16:42:27.328Z"
+      bytes: 14274
 insights:
   summary: Agent Reinforcement Trainer (ART) is an open-source framework and managed service for training multi-step LLM agents using GRPO reinforcement learning on models like Qwen, Llama, and GPT-OSS.
   why_it_matters: It provides developers with the infrastructure to move agents beyond static prompting by teaching them new behaviors through reward functions and experience.
@@ -79,16 +79,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:43.690Z"
+    updated_at: "2026-07-20T16:42:27.328Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

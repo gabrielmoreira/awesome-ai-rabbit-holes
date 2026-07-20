@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2665
-    forks: 212
+    stars: 2671
+    forks: 210
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: stochasticai/xTuring
+    html_url: https://github.com/stochasticai/xTuring
     created_at: "2023-03-19T15:59:38Z"
     pushed_at: "2026-03-04T23:07:06Z"
     description: "Build, personalize and control your own LLMs. From data pre-processing to fine-tuning, xTuring provides an easy way to personalize open-source LLMs. Join our discord community: https://discord.gg/TgHXuSJEk6"
@@ -50,9 +50,9 @@ metadata:
       - mixed-precision
       - peft
       - quantization
-    last_checked_at: "2026-05-06T22:46:35.620Z"
+    last_checked_at: "2026-07-20T16:43:04.062Z"
     readme:
-      fetched_at: "2026-05-06T22:46:35.620Z"
+      fetched_at: "2026-07-20T16:43:04.062Z"
       bytes: 10989
 insights:
   summary: A Python library and CLI for fine-tuning, evaluating, and running open-source LLMs locally or in a private cloud using techniques like LoRA and INT4/INT8 quantization.
@@ -86,16 +86,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:35.620Z"
+    updated_at: "2026-07-20T16:43:04.062Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

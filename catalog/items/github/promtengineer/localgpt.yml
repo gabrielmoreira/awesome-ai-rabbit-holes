@@ -39,20 +39,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 22201
-    forks: 2485
+    stars: 22207
+    forks: 2470
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: PromtEngineer/localGPT
+    html_url: https://github.com/PromtEngineer/localGPT
     created_at: "2023-05-24T05:32:40Z"
-    pushed_at: "2026-03-10T21:32:07Z"
+    pushed_at: "2026-07-18T07:15:01Z"
     description: "Chat with your documents on your local device using GPT models. No data leaves your device and 100% private. "
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:45:58.547Z"
+    last_checked_at: "2026-07-20T16:42:37.973Z"
     readme:
-      fetched_at: "2026-05-06T22:45:58.547Z"
+      fetched_at: "2026-07-20T16:42:37.973Z"
       bytes: 25105
 insights:
   summary: A local, privacy-focused document intelligence platform that lets you chat with your files using on-device LLMs and a modular RAG pipeline with hybrid search.
@@ -86,16 +86,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:58.547Z"
+    updated_at: "2026-07-20T16:42:37.973Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

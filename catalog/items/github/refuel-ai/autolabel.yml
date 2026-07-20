@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2314
+    stars: 2323
     forks: 160
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: refuel-ai/autolabel
+    html_url: https://github.com/refuel-ai/autolabel
     created_at: "2023-03-23T00:11:13Z"
     pushed_at: "2025-03-05T01:15:43Z"
     description: Label, clean and enrich text datasets with LLMs.
@@ -45,9 +45,9 @@ metadata:
       - machine-learning
       - openai
       - python
-    last_checked_at: "2026-05-06T22:46:08.655Z"
+    last_checked_at: "2026-07-20T16:42:45.078Z"
     readme:
-      fetched_at: "2026-05-06T22:46:08.655Z"
+      fetched_at: "2026-07-20T16:42:45.078Z"
       bytes: 9394
 insights:
   summary: A Python library that uses LLMs to label, clean, and enrich text datasets for machine learning workflows.
@@ -81,16 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:08.655Z"
+    updated_at: "2026-07-20T16:42:45.078Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -24,29 +24,28 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4
-    forks: 0
+    stars: 7
+    forks: 1
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: QuantOracledev/quantoracle
+    html_url: https://github.com/QuantOracledev/quantoracle
     created_at: "2026-04-04T03:54:58Z"
-    pushed_at: "2026-05-06T10:58:01Z"
+    pushed_at: "2026-07-11T00:56:46Z"
     description: 63 deterministic quant computation tools for autonomous financial agents. Options, derivatives, risk, portfolio, statistics, crypto/DeFi, macro/FX, TVM. 1,000 free calls/day — no signup.
     homepage: https://quantoracle.dev
     topics:
-      - agent-tools
+      - agentkit
       - ai-agent
       - backtesting
       - black-scholes
       - crypto
       - defi
       - derivatives
-      - deterministic
       - fastapi
       - finance
-      - financial-agent
-      - financial-calculator
+      - kelly-criterion
+      - langchain
       - mcp
       - mcp-server
       - monte-carlo
@@ -54,11 +53,12 @@ metadata:
       - portfolio-optimization
       - quantitative-finance
       - risk-management
+      - usdc
       - x402
-    last_checked_at: "2026-05-06T22:46:02.880Z"
+    last_checked_at: "2026-07-20T16:42:41.100Z"
     readme:
-      fetched_at: "2026-05-06T22:46:02.880Z"
-      bytes: 30228
+      fetched_at: "2026-07-20T16:42:41.100Z"
+      bytes: 37348
 insights:
   summary: A quantitative finance API and MCP server providing 63 deterministic calculators for options, derivatives, risk, and crypto math, designed to be called by autonomous financial agents.
   why_it_matters: It gives AI agents a reliable way to perform complex financial math with exact analytical formulas instead of relying on probabilistic LLM calculations.
@@ -91,16 +91,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:02.880Z"
+    updated_at: "2026-07-20T16:42:41.100Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

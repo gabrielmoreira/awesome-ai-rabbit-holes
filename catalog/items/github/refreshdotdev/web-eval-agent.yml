@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1239
-    forks: 108
+    stars: 1241
+    forks: 109
     license: Apache-2.0
-    archived: false
-    full_name: null
-    html_url: null
+    archived: true
+    full_name: refreshdotdev/web-eval-agent
+    html_url: https://github.com/refreshdotdev/web-eval-agent
     created_at: "2025-04-01T23:40:56Z"
     pushed_at: "2026-02-11T14:55:42Z"
     description: "An MCP server that autonomously evaluates web applications. "
@@ -44,9 +44,9 @@ metadata:
       - qa
       - vibe-coding
       - vibe-testing
-    last_checked_at: "2026-05-06T22:46:08.540Z"
+    last_checked_at: "2026-07-20T16:42:45.059Z"
     readme:
-      fetched_at: "2026-05-06T22:46:08.540Z"
+      fetched_at: "2026-07-20T16:42:45.059Z"
       bytes: 7145
 insights:
   summary: An MCP server that launches a browser-use agent to autonomously execute, debug, and report on web app behavior directly from an IDE.
@@ -70,8 +70,8 @@ placement:
   primary_category: ai-dev-extensions
   section: Testing & QA Add-ons
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (1239) exceeded threshold (150)
+  status: needs_review
+  reason: Repository is archived
 processing:
   discover:
     status: done
@@ -80,16 +80,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:08.540Z"
+    updated_at: "2026-07-20T16:42:45.059Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

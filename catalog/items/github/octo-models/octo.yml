@@ -24,19 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1711
+    forks: 273
+    license: MIT
+    archived: false
+    full_name: octo-models/octo
+    html_url: https://github.com/octo-models/octo
+    created_at: "2023-12-13T09:58:56Z"
+    pushed_at: "2024-07-31T00:26:15Z"
+    description: Octo is a transformer-based robot policy trained on a diverse mix of 800k robot trajectories.
+    homepage: https://octo-models.github.io/
+    topics: []
+    last_checked_at: "2026-07-20T16:42:22.276Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:22.276Z"
+      bytes: 11627
 insights:
   summary: null
   why_it_matters: null
@@ -51,8 +53,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1711) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,13 +62,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:22.277Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

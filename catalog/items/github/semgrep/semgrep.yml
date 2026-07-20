@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 15039
-    forks: 926
+    stars: 15959
+    forks: 994
     license: LGPL-2.1
     archived: false
-    full_name: null
-    html_url: null
+    full_name: semgrep/semgrep
+    html_url: https://github.com/semgrep/semgrep
     created_at: "2019-12-13T09:29:54Z"
-    pushed_at: "2026-05-06T05:16:16Z"
+    pushed_at: "2026-07-20T16:34:15Z"
     description: Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.
     homepage: https://semgrep.dev
     topics:
@@ -46,9 +46,9 @@ metadata:
       - static-analysis
       - static-code-analysis
       - typescript
-    last_checked_at: "2026-05-06T22:46:20.455Z"
+    last_checked_at: "2026-07-20T16:42:53.747Z"
     readme:
-      fetched_at: "2026-05-06T22:46:20.455Z"
+      fetched_at: "2026-07-20T16:42:53.747Z"
       bytes: 20250
 insights:
   summary: Semgrep is a fast, open-source static analysis tool that searches code to find bugs and enforce standards using semantic patterns that look like source code.
@@ -82,16 +82,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:20.455Z"
+    updated_at: "2026-07-20T16:42:53.747Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -24,19 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 2
+    forks: 1
+    license: Apache-2.0
+    archived: false
+    full_name: prufa-dev/prufa-mcp
+    html_url: https://github.com/prufa-dev/prufa-mcp
+    created_at: "2026-06-15T22:17:50Z"
+    pushed_at: "2026-07-01T20:05:21Z"
+    description: The QA agent for your vibe-coded app. Apache-2.0 MCP server.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-07-20T16:42:38.116Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:38.116Z"
+      bytes: 12568
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +62,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:38.116Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

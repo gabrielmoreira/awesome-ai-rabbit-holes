@@ -24,15 +24,15 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 980
-    forks: 113
+    stars: 1723
+    forks: 196
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: samuelgursky/davinci-resolve-mcp
+    html_url: https://github.com/samuelgursky/davinci-resolve-mcp
     created_at: "2025-03-18T03:11:04Z"
-    pushed_at: "2026-05-05T23:02:34Z"
-    description: MCP server integration for DaVinci Resolve
+    pushed_at: "2026-07-20T15:30:53Z"
+    description: MCP server integration for DaVinci Resolve Studio
     homepage: ""
     topics:
       - blackmagic
@@ -42,10 +42,10 @@ metadata:
       - davinciresolve
       - mcp
       - mcp-server
-    last_checked_at: "2026-05-06T22:46:16.447Z"
+    last_checked_at: "2026-07-20T16:42:50.766Z"
     readme:
-      fetched_at: "2026-05-06T22:46:16.447Z"
-      bytes: 61741
+      fetched_at: "2026-07-20T16:42:50.766Z"
+      bytes: 17916
 insights:
   summary: An MCP server providing complete coverage of the DaVinci Resolve Scripting API, allowing AI assistants to control post-production workflows via natural language.
   why_it_matters: Developers building AI video pipelines can now let assistants like Claude or Cursor manipulate timelines, markers, and cloud projects without writing custom Resolve scripts.
@@ -77,16 +77,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:16.447Z"
+    updated_at: "2026-07-20T16:42:50.766Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

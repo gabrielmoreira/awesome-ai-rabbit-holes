@@ -24,31 +24,35 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 55
-    forks: 5
+    stars: 136
+    forks: 10
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: sheawinkler/ContextLattice
+    html_url: https://github.com/sheawinkler/ContextLattice
     created_at: "2026-02-19T10:54:58Z"
-    pushed_at: "2026-05-05T02:41:05Z"
-    description: "ContextLattice is the local-first control plane for long-horizon agent memory and coordination. "
-    homepage: https://contextlattice.io
+    pushed_at: "2026-07-20T14:13:55Z"
+    description: The local-first intelligence layer that gives AI agents durable continuity, explainable retrieval, portable context, and verified learning across harnesses.
+    homepage: https://contextlattice.io/
     topics:
       - agent-framework
+      - agent-memory
       - agent-orchestration
       - ai-infra
       - ai-interface
       - context-engineering
       - context-management
       - golang
+      - local-first
       - long-horizon-agents
       - long-horizon-intelligence
+      - mcp
+      - retrieval
       - rust
-    last_checked_at: "2026-05-06T22:46:22.584Z"
+    last_checked_at: "2026-07-20T16:42:55.646Z"
     readme:
-      fetched_at: "2026-05-06T22:46:22.584Z"
-      bytes: 38545
+      fetched_at: "2026-07-20T16:42:55.646Z"
+      bytes: 41038
 insights:
   summary: ContextLattice is a local-first control plane for long-horizon agent memory and coordination, providing durable memory writes, multi-sink fanout, and retrieval learning loops for AI systems.
   why_it_matters: It gives developers a self-hosted infrastructure layer to manage high-volume agent memory and coordination without bloating prompts or relying on cloud-only memory services.
@@ -81,16 +85,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:22.584Z"
+    updated_at: "2026-07-20T16:42:55.646Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

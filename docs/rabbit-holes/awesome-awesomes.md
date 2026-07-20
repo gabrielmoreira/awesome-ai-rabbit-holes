@@ -5,7 +5,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 ## Tools & Resources
 
-- **[awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps)** `⭐ 109.1k` `updated ≤90d` A curated collection of 100+ runnable LLM application templates covering AI agents, RAG pipelines, voice agents, and MCP integrations. <details><summary>More about</summary>
+- **[awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps)** `⭐ 125k` `updated ≤30d` A curated collection of 100+ runnable LLM application templates covering AI agents, RAG pipelines, voice agents, and MCP integrations. <details><summary>More about</summary>
 
   Developers can clone and customize ready-to-run starter code for modern LLM patterns instead of rebuilding RAG pipelines and agent loops from scratch.
 
@@ -14,7 +14,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `agents` `rag` `templates` `cookbook`
   </details>
 
-- **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** `⭐ 86.4k` `updated ≤90d` A curated, community-maintained directory of Model Context Protocol (MCP) server implementations spanning databases, APIs, browsers, and developer tools. <details><summary>More about</summary>
+- **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** `⭐ 91k` `updated ≤30d` A curated, community-maintained directory of Model Context Protocol (MCP) server implementations spanning databases, APIs, browsers, and developer tools. <details><summary>More about</summary>
 
   It serves as the primary discovery layer for developers looking to extend AI assistants with new capabilities via standardized MCP servers.
 
@@ -23,7 +23,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `discovery`
   </details>
 
-- **[awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules)** `⭐ 39.4k` `updated ≤90d` A curated collection of `.cursorrules` configuration files that enhance the Cursor AI editor with project-specific coding rules and behaviors. <details><summary>More about</summary>
+- **[awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules)** `⭐ 40.4k` `updated ≤90d` A curated collection of `.cursorrules` configuration files that enhance the Cursor AI editor with project-specific coding rules and behaviors. <details><summary>More about</summary>
 
   Developers can quickly adopt community-vetted rule sets to align Cursor's AI code generation with specific frameworks, languages, and team standards.
 
@@ -59,7 +59,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `awesome-list` `research` `resources` `directory`
   </details>
 
-- **[Awesome-Nano-Banana-images](https://github.com/picotrex/awesome-nano-banana-images)** `⭐ 22.6k` `updated ≤1y` A curated list and dataset repository showcasing image generation examples and prompts for Google's Nano Banana (Gemini-2.5-flash-image) model, accompanied by the Nano-consistent-150K dataset for identity-consistent editing. <details><summary>More about</summary>
+- **[Awesome-Nano-Banana-images](https://github.com/picotrex/awesome-nano-banana-images)** `⭐ 23.3k` `updated ≤1y` A curated list and dataset repository showcasing image generation examples and prompts for Google's Nano Banana (Gemini-2.5-flash-image) model, accompanied by the Nano-consistent-150K dataset for identity-consistent editing. <details><summary>More about</summary>
 
   It provides developers working on image generation and unified models with a concrete dataset and prompt examples focused on maintaining identity consistency across complex editing tasks.
 
@@ -131,7 +131,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `llm` `resources` `curated` `directory`
   </details>
 
-- **[awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)** `⭐ 6.4k` `updated ≤90d` A curated directory of Model Context Protocol (MCP) clients, cataloging production-ready and experimental tools that connect AI models to local and remote resources. <details><summary>More about</summary>
+- **[awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)** `⭐ 6.5k` `updated ≤90d` A curated directory of Model Context Protocol (MCP) clients, cataloging production-ready and experimental tools that connect AI models to local and remote resources. <details><summary>More about</summary>
 
   It serves as a central navigation map for developers looking to equip their AI workflows with compatible client interfaces beyond the standard defaults.
 
@@ -149,6 +149,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llmops` `awesome-list` `mlops` `directory`
   </details>
 
+- **[Awesome-Video-Diffusion](https://github.com/showlab/awesome-video-diffusion)** `⭐ 5.7k` `updated ≤90d` A curated list of recent diffusion models for video generation, editing, restoration, and related research applications. <details><summary>More about</summary>
+
+  It serves as a centralized map for developers and researchers navigating the rapidly expanding ecosystem of video diffusion models and toolboxes.
+
+  _Another meticulously organized directory ensuring you can spend three hours researching generative video models instead of fixing the bug in your actual product._
+
+  `video-generation` `diffusion-models` `research` `awesome-list`
+  </details>
+
 - **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)** `⭐ 5.7k` `updated ≤1y` A broad, community-curated awesome list covering generative AI tools across text, code, image, video, audio, and marketing categories. <details><summary>More about</summary>
 
   It serves as a high-level map of the commercial AI tooling landscape, useful for developers trying to orient themselves among the thousands of shipped products.
@@ -156,15 +165,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Another curated list promising to save you hours, provided you first spend several hours scrolling through it to confirm none of the links have silently turned into affiliate traps._
 
   `awesome-list` `directory` `ai-tools`
-  </details>
-
-- **[Awesome-Video-Diffusion](https://github.com/showlab/awesome-video-diffusion)** `⭐ 5.6k` `updated ≤180d` A curated list of recent diffusion models for video generation, editing, restoration, and related research applications. <details><summary>More about</summary>
-
-  It serves as a centralized map for developers and researchers navigating the rapidly expanding ecosystem of video diffusion models and toolboxes.
-
-  _Another meticulously organized directory ensuring you can spend three hours researching generative video models instead of fixing the bug in your actual product._
-
-  `video-generation` `diffusion-models` `research` `awesome-list`
   </details>
 
 - **[awesome-mlops](https://github.com/kelvins/awesome-mlops)** `⭐ 5.2k` `updated ≤90d` A curated list of MLOps tools covering the full lifecycle of machine learning workflows, including AutoML, CI/CD, data management, model serving, and monitoring. <details><summary>More about</summary>
@@ -410,7 +410,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `spec-driven` `resources` `awesome-list` `ai-workflow`
   </details>
 
-- **[Stackwise](https://github.com/stackwiseai/stackwise)** `⭐ 184` `updated >1y` A curated, open-source collection of AI application stacks and workflows for developers. <details><summary>More about</summary>
+- **[Stackwise](https://github.com/stackwiseai/stackwise)** `⭐ 186` `updated >1y` A curated, open-source collection of AI application stacks and workflows for developers. <details><summary>More about</summary>
 
   It provides a single starting point to discover and reuse pre-configured AI app setups rather than assembling them from scratch.
 

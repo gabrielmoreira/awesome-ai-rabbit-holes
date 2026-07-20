@@ -6,6 +6,52 @@ identity:
   github_repo: rootlyhq/rootly-mcp-server
 provenance:
   discoveries:
+    - id: discovery__github__rootly-ai-labs__rootly-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Rootly-AI-Labs/Rootly-MCP-server
+        extracted_url: https://github.com/rootly-ai-labs/rootly-mcp-server
+        surrounding_text: "- [Rootly-AI-Labs/Rootly-MCP-server](https://github.com/Rootly-AI-Labs/Rootly-MCP-server) 🎖️ 🐍 ☁️ 🍎 - MCP server for the incident management platform [Rootly](https://rootly.com/)."
+        confidence: high
+    - id: discovery__github__rootly-ai-labs__rootly-mcp-server__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Rootly-AI-Labs/Rootly-MCP-server
+        extracted_url: https://github.com/rootly-ai-labs/rootly-mcp-server
+        surrounding_text: "- **[Rootly-AI-Labs/Rootly-MCP-server](https://github.com/Rootly-AI-Labs/Rootly-MCP-server)** - MCP server for the incident management platform [Rootly](https://rootly.com/)."
+        confidence: high
+    - id: discovery__github__rootly-ai-labs__rootly-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💻 Developer Tools
+        anchor_text: Rootly-AI-Labs/Rootly-MCP-server
+        extracted_url: https://github.com/rootly-ai-labs/rootly-mcp-server
+        surrounding_text: "-   **[Rootly-AI-Labs/Rootly-MCP-server](https://github.com/Rootly-AI-Labs/Rootly-MCP-server)** [![GitHub stars](https://img.shields.io/github/stars/Rootly-AI-Labs/Rootly-MCP-server?style=social)](https://github.com/Rootly-AI-Labs/Rootly-MCP-server): Integrates with the Rootly incident management platform."
+        confidence: high
     - id: discovery__github__rootlyhq__rootly-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
       discovered_at: "2026-06-15T05:51:04.987Z"
       source:
@@ -54,49 +100,62 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 44
+    forks: 23
+    license: Apache-2.0
+    archived: false
+    full_name: rootlyhq/rootly-mcp-server
+    html_url: https://github.com/rootlyhq/rootly-mcp-server
+    created_at: "2025-03-12T17:14:50Z"
+    pushed_at: "2026-07-17T19:59:26Z"
+    description: Rootly MCP server
+    homepage: https://rootly.com/ai-labs
+    topics: []
+    last_checked_at: "2026-07-20T16:42:47.817Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:47.817Z"
+      bytes: 23552
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes the Rootly API to coding assistants like Claude Code, Cursor, and Windsurf for incident management and on-call operations.
+  why_it_matters: It allows developers to query incidents, alerts, and services directly from their AI assistant instead of switching to the Rootly dashboard during an outage.
+  mental_damage: We have successfully abstracted away the need to leave your editor to manage a production outage, ensuring you can break things and fix them without ever achieving emotional distance from the code.
+  tags:
+    - devops
+    - incident-management
+    - integration
+    - mcp
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's primary identity is an MCP server implementation for a specific domain (Rootly), fitting the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states 'Rootly MCP server'.
+    - README identifies it as 'An MCP server for the Rootly API' for Cursor, Windsurf, Claude, and other MCP clients.
+    - Listed in awesome-mcp-list and awesome-mcp-servers directories under developer tools/server implementations.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
   discover:
     status: done
     updated_at: "2026-06-15T05:51:04.988Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:47.817Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

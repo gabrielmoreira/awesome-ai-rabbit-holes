@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1
+    stars: 18
     forks: 0
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Semiotronika/NOUZ-MCP
+    html_url: https://github.com/Semiotronika/NOUZ-MCP
     created_at: "2026-04-03T11:27:47Z"
-    pushed_at: "2026-05-06T17:40:31Z"
+    pushed_at: "2026-05-30T13:25:39Z"
     description: MCP Server for local knowledge systems
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:20.503Z"
+    last_checked_at: "2026-07-20T16:42:53.927Z"
     readme:
-      fetched_at: "2026-05-06T22:46:20.503Z"
-      bytes: 13241
+      fetched_at: "2026-07-20T16:42:53.927Z"
+      bytes: 14487
 insights:
   summary: An MCP server that builds semantic knowledge graphs over local Markdown vaults like Obsidian and Logseq, classifying notes into domains and detecting structural drift.
   why_it_matters: It gives MCP-compatible agents a structured, queryable memory layer so they can reason over your personal knowledge base instead of treating every note as an isolated file.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:20.503Z"
+    updated_at: "2026-07-20T16:42:53.927Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

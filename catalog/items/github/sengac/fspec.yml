@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 64
-    forks: 3
+    stars: 79
+    forks: 5
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: sengac/fspec
+    html_url: https://github.com/sengac/fspec
     created_at: "2025-10-06T03:29:38Z"
-    pushed_at: "2026-04-23T22:28:09Z"
+    pushed_at: "2026-07-20T10:48:32Z"
     description: "FSPEC: The Spec-Driven, Multi-Agent Coding Factory. It is infrastructure for the \"Dark Factory\"—the emerging model of fully autonomous software development where AI agents handle all implementation while humans focus on defining what to build and why."
     homepage: https://fspec.dev
     topics:
@@ -51,9 +51,9 @@ metadata:
       - tdd
       - test-driven-development
       - vibe-coding
-    last_checked_at: "2026-05-06T22:46:20.588Z"
+    last_checked_at: "2026-07-20T16:42:53.875Z"
     readme:
-      fetched_at: "2026-05-06T22:46:20.588Z"
+      fetched_at: "2026-07-20T16:42:53.875Z"
       bytes: 6606
 insights:
   summary: fspec is a CLI and interactive kanban system that enforces spec-driven development, Gherkin scenarios, and TDD guardrails for AI coding agents.
@@ -87,16 +87,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:20.588Z"
+    updated_at: "2026-07-20T16:42:53.875Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -23,20 +23,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 13499
-    forks: 1939
+    stars: 14257
+    forks: 2027
     license: NOASSERTION
     archived: false
-    full_name: null
-    html_url: null
+    full_name: SakanaAI/AI-Scientist
+    html_url: https://github.com/SakanaAI/AI-Scientist
     created_at: "2024-08-12T09:32:55Z"
     pushed_at: "2025-12-19T07:46:21Z"
     description: "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery 🧑‍🔬"
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-06T22:46:15.426Z"
+    last_checked_at: "2026-07-20T16:42:50.265Z"
     readme:
-      fetched_at: "2026-05-06T22:46:15.426Z"
+      fetched_at: "2026-07-20T16:42:50.265Z"
       bytes: 19774
 insights:
   summary: An automated research system that uses LLMs to independently generate ideas, run experiments, and write scientific papers within predefined ML templates.
@@ -69,16 +69,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:15.426Z"
+    updated_at: "2026-07-20T16:42:50.265Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

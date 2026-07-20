@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3774
-    forks: 312
+    stars: 3816
+    forks: 325
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: predibase/lorax
+    html_url: https://github.com/predibase/lorax
     created_at: "2023-10-20T18:19:49Z"
-    pushed_at: "2025-05-21T17:40:25Z"
+    pushed_at: "2026-05-28T18:12:20Z"
     description: Multi-LoRA inference server that scales to 1000s of fine-tuned LLMs
     homepage: https://loraexchange.ai
     topics:
@@ -45,9 +45,9 @@ metadata:
       - model-serving
       - pytorch
       - transformers
-    last_checked_at: "2026-05-06T22:45:57.103Z"
+    last_checked_at: "2026-07-20T16:42:37.041Z"
     readme:
-      fetched_at: "2026-05-06T22:45:57.103Z"
+      fetched_at: "2026-07-20T16:42:37.041Z"
       bytes: 9557
 insights:
   summary: A multi-LoRA inference server that dynamically serves thousands of fine-tuned LLMs on a single GPU using dynamic adapter loading and continuous batching.
@@ -81,16 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:57.103Z"
+    updated_at: "2026-07-20T16:42:37.041Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

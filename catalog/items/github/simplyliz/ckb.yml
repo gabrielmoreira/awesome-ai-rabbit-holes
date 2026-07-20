@@ -6,6 +6,22 @@ identity:
   github_repo: simplyliz/ckb
 provenance:
   discoveries:
+    - id: discovery__github__nyxcore-systems__ckb__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-12T15:06:19.300Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: SimplyLiz/CodeMCP
+        extracted_url: https://github.com/simplyliz/codemcp
+        surrounding_text: "- [SimplyLiz/CodeMCP](https://github.com/SimplyLiz/CodeMCP) 🏎️ 🏠 🍎 🪟 🐧 - Code intelligence MCP server with 80+ tools for semantic code search, impact analysis, call graphs, ownership detection, and architectural understanding. Supports Go, TypeScript, Python, Rust, Java via SCIP indexing."
+        confidence: high
     - id: discovery__github__simplyliz__ckb__awesome-list__punkpeye__awesome-mcp-servers
       discovered_at: "2026-07-13T05:12:52.223Z"
       source:
@@ -22,31 +38,77 @@ provenance:
         extracted_url: https://github.com/simplyliz/codemcp
         surrounding_text: "- [SimplyLiz/CodeMCP](https://github.com/SimplyLiz/CodeMCP) 🏎️ 🏠 🍎 🪟 🐧 - Code intelligence MCP server with 80+ tools for semantic code search, impact analysis, call graphs, ownership detection, and architectural understanding. Supports Go, TypeScript, Python, Rust, Java via SCIP indexing."
         confidence: high
+    - id: discovery__github__simplyliz__codemcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: SimplyLiz/CodeMCP
+        extracted_url: https://github.com/simplyliz/codemcp
+        surrounding_text: "- [SimplyLiz/CodeMCP](https://github.com/SimplyLiz/CodeMCP) 🏎️ 🏠 🍎 🪟 🐧 - Code intelligence MCP server with 80+ tools for semantic code search, impact analysis, call graphs, ownership detection, and architectural understanding. Supports Go, TypeScript, Python, Rust, Java via SCIP indexing."
+        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 107
+    forks: 11
+    license: NOASSERTION
+    archived: false
+    full_name: SimplyLiz/ckb
+    html_url: https://github.com/SimplyLiz/ckb
+    created_at: "2025-12-16T16:32:09Z"
+    pushed_at: "2026-07-18T07:47:32Z"
+    description: Code intelligence for AI assistants - MCP server, CLI, and HTTP API with symbol navigation, impact analysis, and architecture mapping
+    homepage: https://github.com/SimplyLiz/CodeMCP/wiki
+    topics:
+      - ai
+      - architecture
+      - claude
+      - cli
+      - code-analysis
+      - code-intelligence
+      - cursor
+      - developer-tools
+      - golang
+      - llm
+      - lsp
+      - mcp
+      - mcp-server
+      - refactoring
+      - scip
+    last_checked_at: "2026-07-20T16:42:58.161Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:58.161Z"
+      bytes: 24323
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: CKB is a code intelligence backend that provides symbol navigation, impact analysis, and architecture mapping via CLI, HTTP API, and MCP server for AI assistants.
+  why_it_matters: It reduces context waste and improves AI-assisted code changes by giving assistants precise, structured knowledge of a codebase instead of relying on grep and guesswork.
+  mental_damage: Finally, an AI coding assistant that won’t confidently refactor a dead function because it finally has a map of the codebase it’s pretending to understand.
+  tags:
+    - cli
+    - code-intelligence
+    - impact-analysis
+    - mcp
+    - semantic-search
+  confidence: high
 curation:
   status: pending
-  reason: null
-  evidence: []
+  reason: Conflicting duplicate curation or placement requires review.
+  evidence:
+    - "Repo description: 'Code intelligence for AI assistants - MCP server, CLI, and HTTP API with symbol navigation, impact analysis, and architecture mapping'"
+    - "README: 'CKB transforms your codebase into a queryable knowledge base. Ask questions, understand impact, find owners, detect dead code'"
+    - Appears in awesome-mcp-servers under Developer Tools, but its primary value is context engineering for AI assistants
+    - "included: CKB’s core novelty is transforming code into a queryable knowledge base for better context delivery to AI assistants, making it a retrieval and context-shaping system rather than a coding agent or extension."
+    - Repo description explicitly calls it 'MCP server, CLI, and HTTP API with symbol navigation, impact analysis, and architecture mapping'.
+    - README shows MCP as a primary integration surface with commands like 'ckb setup' to connect to Claude Code and highlights MCP token efficiency explicitly.
+    - Listed in awesome-mcp-servers under Developer Tools, and it provides a standalone MCP server rather than being a generic framework or extension.
+    - "included: The product's core identity is an MCP server for code intelligence that exposes symbol navigation, impact analysis, and architecture mapping to AI assistants."
 placement:
   primary_category: null
   section: null
@@ -54,19 +116,21 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0
   discover:
     status: done
     updated_at: "2026-07-13T05:12:52.225Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:58.161Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

@@ -24,19 +24,38 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 16
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: Sidd27/infrawise
+    html_url: https://github.com/Sidd27/infrawise
+    created_at: "2026-05-08T13:15:27Z"
+    pushed_at: "2026-07-19T15:29:56Z"
+    description: MCP server for AWS infrastructure analysis — DynamoDB, Lambda, SQS, SNS, S3, API Gateway, PostgreSQL, MySQL, MongoDB, Kafka & IaC drift. Works with Claude Code, Cursor, and GitHub Copilot.
+    homepage: https://sidd27.github.io/infrawise/
+    topics:
+      - ai-tools
+      - aws
+      - claude-code
+      - cursor
+      - devtools
+      - dynamodb
+      - iac
+      - infrastructure
+      - infrastructure-analysis
+      - lambda
+      - mcp
+      - mcp-server
+      - mcp-tools
+      - model-context-protocol
+      - serverless
+      - terraform
+      - typescript
+    last_checked_at: "2026-07-20T16:42:56.930Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:56.930Z"
+      bytes: 25354
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +79,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:56.930Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 62182
-    forks: 5236
+    stars: 75213
+    forks: 6318
     license: NOASSERTION
     archived: false
-    full_name: null
-    html_url: null
+    full_name: opendatalab/MinerU
+    html_url: https://github.com/opendatalab/MinerU
     created_at: "2024-02-29T08:52:34Z"
-    pushed_at: "2026-05-06T11:17:35Z"
+    pushed_at: "2026-07-17T07:32:08Z"
     description: Transforms complex documents like PDFs and Office docs into LLM-ready markdown/JSON for your Agentic workflows.
     homepage: https://opendatalab.github.io/MinerU/
     topics:
@@ -50,10 +50,10 @@ metadata:
       - pptx
       - python
       - xlsx
-    last_checked_at: "2026-05-06T22:45:42.350Z"
+    last_checked_at: "2026-07-20T16:42:26.392Z"
     readme:
-      fetched_at: "2026-05-06T22:45:42.350Z"
-      bytes: 36653
+      fetched_at: "2026-07-20T16:42:26.392Z"
+      bytes: 40453
 insights:
   summary: MinerU is a Python toolkit that parses PDFs, Office documents, and other complex files into markdown or JSON structured for LLM and agent pipelines.
   why_it_matters: It removes the boilerplate of layout analysis, OCR, and table extraction so developers can feed clean, structured documents directly into RAG systems and coding agents.
@@ -86,16 +86,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:42.350Z"
+    updated_at: "2026-07-20T16:42:26.392Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

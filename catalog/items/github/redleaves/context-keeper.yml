@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 145
-    forks: 10
+    stars: 153
+    forks: 9
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: redleaves/context-keeper
+    html_url: https://github.com/redleaves/context-keeper
     created_at: "2025-07-26T09:33:03Z"
     pushed_at: "2026-01-13T13:49:45Z"
     description: 🧠 LLM-Driven Intelligent Memory & Context Management System （AI记忆管理与智能上下文感知平台） AI记忆管理平台 | 智能上下文感知 | RAG检索增强生成  | 向量检索引擎
@@ -46,9 +46,9 @@ metadata:
       - rag
       - retrieval-augmented-generation
       - vector-search
-    last_checked_at: "2026-05-06T22:46:08.147Z"
+    last_checked_at: "2026-07-20T16:42:44.641Z"
     readme:
-      fetched_at: "2026-05-06T22:46:08.147Z"
+      fetched_at: "2026-07-20T16:42:44.641Z"
       bytes: 34494
 insights:
   summary: Context-Keeper is a Go-based memory and context management system that uses RAG, vector search, and knowledge graphs to persist and retrieve project history for LLM-assisted development workflows.
@@ -72,8 +72,8 @@ placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (153) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -82,16 +82,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:08.147Z"
+    updated_at: "2026-07-20T16:42:44.641Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

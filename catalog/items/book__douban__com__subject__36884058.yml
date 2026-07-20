@@ -71,11 +71,11 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-07-20T15:28:16.923Z"
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for book__douban__com__subject__36884058: Internal Server Error"
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
     attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
-    next_retry_at: null
+    next_retry_at: "2026-07-20T17:44:20.887Z"

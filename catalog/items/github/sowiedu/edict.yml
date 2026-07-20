@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1
+    stars: 7
     forks: 2
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Sowiedu/Edict
+    html_url: https://github.com/Sowiedu/Edict
     created_at: "2026-02-24T17:24:30Z"
-    pushed_at: "2026-05-02T07:33:13Z"
+    pushed_at: "2026-07-18T07:33:24Z"
     description: A programming language designed for AI agents. No parser, no syntax — agents produce AST directly as JSON. Statically typed, effect-tracked, contract-verified, compiled to WASM via MCP.
     homepage: null
     topics:
@@ -50,9 +50,9 @@ metadata:
       - wasm
       - webassembly
       - z3
-    last_checked_at: "2026-05-06T22:46:30.142Z"
+    last_checked_at: "2026-07-20T16:43:01.253Z"
     readme:
-      fetched_at: "2026-05-06T22:46:30.142Z"
+      fetched_at: "2026-07-20T16:43:01.253Z"
       bytes: 14689
 insights:
   summary: A programming language purpose-built for AI agents where programs are JSON ASTs, validated by a type/effect system and Z3 contracts, then compiled to WASM via an MCP server interface.
@@ -86,16 +86,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:30.142Z"
+    updated_at: "2026-07-20T16:43:01.253Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

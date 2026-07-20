@@ -59,6 +59,15 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `claude-code` `spec-driven` `tdd` `cli` `quality-gates`
   </details>
 
+- **[Spec Kitty](https://github.com/priivacy-ai/spec-kitty)** `⭐ 1.4k` `updated ≤30d` An open-source CLI that wraps AI coding agents in a spec-driven workflow with git worktrees, task lifecycle management, and a local kanban dashboard. <details><summary>More about</summary>
+
+  It imposes structure on AI-generated code by keeping specs, plans, and tasks in the repo, preventing requirements from vanishing into the void during long agent sessions.
+
+  _Finally, a tool to manage the chaos of five different AI agents editing your repo, just in case you were worried your workflow didn't have enough YAML and worktrees yet._
+
+  `spec-driven` `cli` `multi-agent` `git-worktrees` `kanban`
+  </details>
+
 - **[haft](https://github.com/m0n0x41d/haft)** `⭐ 1.4k` `updated ≤30d` Haft is a spec-driven engineering governor that integrates with AI coding agents like Claude Code and Codex via MCP and CLI to enforce structured decision-making, evidence tracking, and stale-assumption detection. <details><summary>More about</summary>
 
   It shifts AI-assisted development from prompt-and-pray to governed execution by treating specs, decisions, and evidence as falsifiable contracts rather than ephemeral chat context.
@@ -66,15 +75,6 @@ Tooling where specifications are the primary artifact for planning, validation, 
   _You now have a tool to govern the engineering decisions of the agents writing your code, which mostly means you'll spend your afternoon YAML-linting the spec that describes the bug the agent introduced in record time._
 
   `spec-driven` `governance` `mcp` `cli` `decision-engineering`
-  </details>
-
-- **[Spec Kitty](https://github.com/priivacy-ai/spec-kitty)** `⭐ 1.2k` `updated ≤90d` An open-source CLI that wraps AI coding agents in a spec-driven workflow with git worktrees, task lifecycle management, and a local kanban dashboard. <details><summary>More about</summary>
-
-  It imposes structure on AI-generated code by keeping specs, plans, and tasks in the repo, preventing requirements from vanishing into the void during long agent sessions.
-
-  _Finally, a tool to manage the chaos of five different AI agents editing your repo, just in case you were worried your workflow didn't have enough YAML and worktrees yet._
-
-  `spec-driven` `cli` `multi-agent` `git-worktrees` `kanban`
   </details>
 
 - **[MoAI-ADK](https://github.com/modu-ai/moai-adk)** `⭐ 1.1k` `updated ≤30d` A Go-based CLI development kit for Claude Code that provides 24 specialized AI agents and 52 skills to enforce TDD/DDD quality gates and spec-driven workflows. <details><summary>More about</summary>
@@ -95,7 +95,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `autonomous-agents` `sdlc` `spec-driven` `ci-cd` `multi-agent`
   </details>
 
-- **[Shotgun](https://github.com/shotgun-sh/shotgun)** `⭐ 664` `updated ≤90d` A CLI tool that indexes codebases and generates staged, file-by-file specifications to guide AI coding agents through large feature implementations without losing context. <details><summary>More about</summary>
+- **[Shotgun](https://github.com/shotgun-sh/shotgun)** `⭐ 686` `updated ≤90d` A CLI tool that indexes codebases and generates staged, file-by-file specifications to guide AI coding agents through large feature implementations without losing context. <details><summary>More about</summary>
 
   It breaks down complex features into manageable, staged PRs with precise instructions, preventing AI agents from derailing or generating unmanageable monolithic changes.
 
@@ -171,7 +171,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
 
 _These are new or low-traffic entries being watched._
 
-- **[fspec](https://github.com/sengac/fspec)** `⭐ 64` `updated ≤90d` fspec is a CLI and interactive kanban system that enforces spec-driven development, Gherkin scenarios, and TDD guardrails for AI coding agents. <details><summary>More about</summary>
+- **[fspec](https://github.com/sengac/fspec)** `⭐ 79` `updated ≤30d` fspec is a CLI and interactive kanban system that enforces spec-driven development, Gherkin scenarios, and TDD guardrails for AI coding agents. <details><summary>More about</summary>
 
   It shifts AI coding from reactive babysitting to a structured loop where specifications, tests, and checkpoints control the implementation lifecycle.
 
@@ -243,6 +243,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `claude-code` `planning` `spec-driven` `task-management`
   </details>
 
+- **[pmpt-cli](https://github.com/pmptwiki/pmpt-cli)** `⭐ 6` `updated ≤180d` A CLI tool that guides developers through five questions to generate structured AI prompts, then tracks, versions, and publishes the resulting product development journey. <details><summary>More about</summary>
+
+  It standardizes the fragile transition from vague idea to actionable prompt and adds version control for the AI-driven build process itself.
+
+  _We have now achieved version control for the hallucinations that build our apps, ensuring we can forever reproduce exactly how we lost three days to a misunderstood requirements prompt._
+
+  `cli` `prompt-engineering` `version-control` `mcp`
+  </details>
+
 - **[ClaudeCode-DevPlanBuilder](https://github.com/mmorris35/claudecode-devplanbuilder)** `⭐ 5` `updated ≤180d` A reusable methodology and template pack for Claude Code that interviews users to generate structured project briefs, detailed development plans, and executor/verifier agent definitions. <details><summary>More about</summary>
 
   It gives Claude Code a repeatable spec-first workflow for turning product ideas into phased, testable development plans with built-in git discipline.
@@ -259,15 +268,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a platform to ensure the entire team agrees on the 30-page document that the AI will inevitably ignore when it writes the code anyway._
 
   `spec-driven` `team-collaboration` `mcp` `sdd` `planning`
-  </details>
-
-- **[pmpt-cli](https://github.com/pmptwiki/pmpt-cli)** `⭐ 5` `updated ≤180d` A CLI tool that guides developers through five questions to generate structured AI prompts, then tracks, versions, and publishes the resulting product development journey. <details><summary>More about</summary>
-
-  It standardizes the fragile transition from vague idea to actionable prompt and adds version control for the AI-driven build process itself.
-
-  _We have now achieved version control for the hallucinations that build our apps, ensuring we can forever reproduce exactly how we lost three days to a misunderstood requirements prompt._
-
-  `cli` `prompt-engineering` `version-control` `mcp`
   </details>
 
 - **[patchwarden](https://github.com/jiezeng2004-design/patchwarden)** `⭐ 2` `updated ≤30d` A local-first MCP bridge that provides a safety and verification layer for AI coding agents through workspace confinement and command allowlisting. <details><summary>More about</summary>

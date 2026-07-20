@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 170
-    forks: 54
+    stars: 181
+    forks: 57
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: StarRocks/mcp-server-starrocks
+    html_url: https://github.com/StarRocks/mcp-server-starrocks
     created_at: "2025-03-05T10:48:25Z"
-    pushed_at: "2026-05-05T16:49:15Z"
+    pushed_at: "2026-07-20T07:09:15Z"
     description: StarRocks MCP (Model Context Protocol) Server
     homepage: ""
     topics:
@@ -40,10 +40,10 @@ metadata:
       - mcp-server
       - model-context-protocol
       - starrocks
-    last_checked_at: "2026-05-06T22:46:34.130Z"
+    last_checked_at: "2026-07-20T16:43:03.338Z"
     readme:
-      fetched_at: "2026-05-06T22:46:34.130Z"
-      bytes: 16391
+      fetched_at: "2026-07-20T16:43:03.338Z"
+      bytes: 23700
 insights:
   summary: An official MCP server that bridges AI assistants with StarRocks databases to enable direct SQL execution, schema exploration, and data visualization.
   why_it_matters: It allows developers to let their coding agents query live analytics databases and generate charts without writing custom database connectors.
@@ -76,16 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:34.130Z"
+    updated_at: "2026-07-20T16:43:03.338Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

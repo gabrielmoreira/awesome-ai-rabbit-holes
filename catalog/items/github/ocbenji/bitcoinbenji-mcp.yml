@@ -24,19 +24,29 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: ocbenji/bitcoinbenji-mcp
+    html_url: https://github.com/ocbenji/bitcoinbenji-mcp
+    created_at: "2026-06-14T19:24:06Z"
+    pushed_at: "2026-07-11T14:35:30Z"
+    description: MCP server for the Bitcoin Benji API — Lightning-paid Bitcoin mempool intelligence + sovereign on-prem AI inference (L402). No third-party APIs.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - ai
+      - bitcoin
+      - l402
+      - lightning
+      - llm
+      - mcp
+      - mempool
+      - model-context-protocol
+    last_checked_at: "2026-07-20T16:42:22.027Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:22.027Z"
+      bytes: 3335
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +70,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:22.027Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

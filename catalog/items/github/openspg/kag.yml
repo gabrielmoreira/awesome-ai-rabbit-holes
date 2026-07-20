@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8716
-    forks: 675
+    stars: 8917
+    forks: 695
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: OpenSPG/KAG
+    html_url: https://github.com/OpenSPG/KAG
     created_at: "2024-09-21T13:56:44Z"
     pushed_at: "2026-01-28T13:30:54Z"
     description: KAG is a logical form-guided reasoning and retrieval framework based on OpenSPG engine and LLMs.  It is used to build logical reasoning and factual Q&A solutions for professional domain knowledge bases. It can effectively overcome the shortcomings of the traditional RAG vector similarity calculation model.
@@ -39,9 +39,9 @@ metadata:
       - logical-reasoning
       - multi-hop-question-answering
       - trustfulness
-    last_checked_at: "2026-05-06T22:45:43.993Z"
+    last_checked_at: "2026-07-20T16:42:27.524Z"
     readme:
-      fetched_at: "2026-05-06T22:45:43.993Z"
+      fetched_at: "2026-07-20T16:42:27.524Z"
       bytes: 13272
 insights:
   summary: KAG is a knowledge-augmented generation framework that combines the OpenSPG engine and LLMs to provide logical reasoning and multi-hop Q&A for professional domain knowledge bases, moving beyond traditional vector similarity RAG.
@@ -74,16 +74,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:43.993Z"
+    updated_at: "2026-07-20T16:42:27.524Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

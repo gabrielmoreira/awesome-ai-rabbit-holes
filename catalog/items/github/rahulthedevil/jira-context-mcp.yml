@@ -23,20 +23,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 25
+    stars: 26
     forks: 14
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: rahulthedevil/Jira-Context-MCP
+    html_url: https://github.com/rahulthedevil/Jira-Context-MCP
     created_at: "2025-02-25T11:33:18Z"
     pushed_at: "2025-07-10T11:00:50Z"
     description: MCP server to provide Jira Tickets information to AI coding agents like Cursor
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:05.599Z"
+    last_checked_at: "2026-07-20T16:42:43.057Z"
     readme:
-      fetched_at: "2026-05-06T22:46:05.599Z"
+      fetched_at: "2026-07-20T16:42:43.057Z"
       bytes: 6534
 insights:
   summary: An MCP server that connects Jira to AI coding assistants like Cursor to fetch ticket details, assigned issues, and recent changes directly from the IDE.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:05.599Z"
+    updated_at: "2026-07-20T16:42:43.057Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

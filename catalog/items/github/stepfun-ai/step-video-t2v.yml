@@ -24,20 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3181
-    forks: 335
+    stars: 3185
+    forks: 339
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: stepfun-ai/Step-Video-T2V
+    html_url: https://github.com/stepfun-ai/Step-Video-T2V
     created_at: "2025-02-08T08:46:51Z"
     pushed_at: "2025-03-17T03:26:54Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:34.416Z"
+    last_checked_at: "2026-07-20T16:43:03.539Z"
     readme:
-      fetched_at: "2026-05-06T22:46:34.416Z"
+      fetched_at: "2026-07-20T16:43:03.538Z"
       bytes: 13697
 insights:
   summary: Step-Video-T2V is a 30-billion parameter open-source text-to-video model capable of generating videos up to 204 frames, released with inference code and weights.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:34.416Z"
+    updated_at: "2026-07-20T16:43:03.539Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

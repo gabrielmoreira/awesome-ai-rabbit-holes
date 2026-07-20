@@ -24,19 +24,29 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: quokkapix/quokkapix-mcp
+    html_url: https://github.com/quokkapix/quokkapix-mcp
+    created_at: "2026-06-28T13:15:51Z"
+    pushed_at: "2026-07-16T00:07:00Z"
+    description: Private browser image workflows for AI agents via MCP
+    homepage: https://quokkapix.com/mcp-runner.html
+    topics:
+      - ai-agents
+      - browser-automation
+      - image-processing
+      - local-first
+      - mcp
+      - model-context-protocol
+      - playwright
+      - quokkapix
+    last_checked_at: "2026-07-20T16:42:41.566Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:41.566Z"
+      bytes: 27761
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +70,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:41.566Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

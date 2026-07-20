@@ -90,13 +90,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:46:30.622Z"
-    cause: null
+    status: failed
+    updated_at: "2026-07-20T16:43:01.559Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: spfunctions/simplefunctions-cli"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    updated_at: "2026-07-20T16:43:08.987Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

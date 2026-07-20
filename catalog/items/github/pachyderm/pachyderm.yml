@@ -25,11 +25,11 @@ provenance:
 metadata:
   github:
     stars: 6297
-    forks: 573
+    forks: 577
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: pachyderm/pachyderm
+    html_url: https://github.com/pachyderm/pachyderm
     created_at: "2014-09-04T07:50:02Z"
     pushed_at: "2025-02-03T22:27:18Z"
     description: Data-Centric Pipelines and Data Versioning
@@ -45,9 +45,9 @@ metadata:
       - go
       - kubernetes
       - pachyderm
-    last_checked_at: "2026-05-06T22:45:46.339Z"
+    last_checked_at: "2026-07-20T16:42:29.705Z"
     readme:
-      fetched_at: "2026-05-06T22:45:46.339Z"
+      fetched_at: "2026-07-20T16:42:29.705Z"
       bytes: 3664
 insights:
   summary: Pachyderm is a data-centric pipeline platform that automates data transformations with built-in data versioning and lineage tracking on Kubernetes.
@@ -80,16 +80,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:46.339Z"
+    updated_at: "2026-07-20T16:42:29.705Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

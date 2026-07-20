@@ -25,19 +25,19 @@ provenance:
 metadata:
   github:
     stars: 12
-    forks: 7
+    forks: 9
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: OpenLinkSoftware/mcp-odbc-server
+    html_url: https://github.com/OpenLinkSoftware/mcp-odbc-server
     created_at: "2025-03-27T22:06:52Z"
     pushed_at: "2025-07-23T23:52:11Z"
     description: Typescript based Model Context Procotol (MCP) Server for Open Database Connectivity (ODBC)
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:45:43.232Z"
+    last_checked_at: "2026-07-20T16:42:26.932Z"
     readme:
-      fetched_at: "2026-05-06T22:45:43.232Z"
+      fetched_at: "2026-07-20T16:42:26.932Z"
       bytes: 17398
 insights:
   summary: A TypeScript-based MCP server that exposes ODBC-accessible databases to LLMs via the Model Context Protocol, enabling SQL and SPARQL queries through MCP client tools.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:43.232Z"
+    updated_at: "2026-07-20T16:42:26.932Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

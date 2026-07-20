@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6967
-    forks: 773
+    stars: 7218
+    forks: 813
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: open-compass/opencompass
+    html_url: https://github.com/open-compass/opencompass
     created_at: "2023-06-15T12:42:58Z"
-    pushed_at: "2026-04-20T12:05:42Z"
+    pushed_at: "2026-07-20T08:45:01Z"
     description: OpenCompass is an LLM evaluation platform, supporting a wide range of models (Llama3, Mistral, InternLM2,GPT-4,LLaMa2, Qwen,GLM, Claude, etc) over 100+ datasets.
     homepage: https://opencompass.org.cn/
     topics:
@@ -42,10 +42,10 @@ metadata:
       - llama3
       - llm
       - openai
-    last_checked_at: "2026-05-06T22:45:39.968Z"
+    last_checked_at: "2026-07-20T16:42:24.767Z"
     readme:
-      fetched_at: "2026-05-06T22:45:39.968Z"
-      bytes: 24963
+      fetched_at: "2026-07-20T16:42:24.767Z"
+      bytes: 25346
 insights:
   summary: OpenCompass is an LLM evaluation platform supporting over 100+ datasets and a wide range of models to benchmark and compare model performance.
   why_it_matters: It provides developers and researchers with a standardized CLI and configuration framework to objectively measure and compare LLM capabilities across custom or standard benchmarks.
@@ -78,16 +78,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:39.968Z"
+    updated_at: "2026-07-20T16:42:24.767Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

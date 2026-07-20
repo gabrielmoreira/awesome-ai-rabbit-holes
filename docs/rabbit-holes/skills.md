@@ -77,7 +77,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `cli` `extensions`
   </details>
 
-- **[ClawHub](https://github.com/openclaw/clawhub)** `⭐ 8.5k` `updated ≤90d` ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills (SKILL.md) and OpenClaw plugins. <details><summary>More about</summary>
+- **[ClawHub](https://github.com/openclaw/clawhub)** `⭐ 9.2k` `updated ≤30d` ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills (SKILL.md) and OpenClaw plugins. <details><summary>More about</summary>
 
   It gives developers a centralized, versioned, and vector-searchable way to share and reuse agent skills and plugins for the OpenClaw ecosystem.
 
@@ -86,7 +86,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `skills` `registry` `cli` `openclaw` `agents`
   </details>
 
-- **[llm-wiki-agent](https://github.com/samuraigpt/llm-wiki-agent)** `⭐ 2.5k` `updated ≤90d` A reusable skill pack that turns Claude Code, Codex, Gemini CLI, or OpenCode into a self-building personal wiki by ingesting documents and maintaining interlinked markdown pages with knowledge graphs. <details><summary>More about</summary>
+- **[llm-wiki-agent](https://github.com/samuraigpt/llm-wiki-agent)** `⭐ 3.2k` `updated ≤30d` A reusable skill pack that turns Claude Code, Codex, Gemini CLI, or OpenCode into a self-building personal wiki by ingesting documents and maintaining interlinked markdown pages with knowledge graphs. <details><summary>More about</summary>
 
   It packages a complete RAG-style knowledge management workflow as portable slash commands and agent configs, letting developers reuse a structured memory system across multiple coding agents without building it themselves.
 
@@ -95,13 +95,13 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `knowledge-base` `claude-code` `skills` `wiki` `rag`
   </details>
 
-- **[toprank](https://github.com/nowork-studio/toprank)** `⭐ 1.7k` `updated ≤90d` A Claude Code plugin that provides slash-command skills for analyzing and fixing SEO issues, Google Ads, and Meta Ads directly from the terminal. <details><summary>More about</summary>
+- **[notfair](https://github.com/nowork-studio/notfair)** `⭐ 3.2k` `updated ≤30d` A Claude Code plugin that provides slash-command skills for analyzing and fixing SEO issues, Google Ads, and Meta Ads directly from the terminal. <details><summary>More about</summary>
 
   It lets developers delegate ad-spend diagnostics and technical SEO fixes to their coding agent without leaving the repo workflow.
 
   _We have finally reached the point where your coding agent pauses mid-session to ask if your Facebook ads are burning cash._
 
-  `claude-code` `seo` `ads` `plugins` `skills`
+  `ads` `claude-code` `plugins` `seo` `skills`
   </details>
 
 - **[LabClaw](https://github.com/wu-yc/labclaw)** `⭐ 993` `updated ≤180d` LabClaw is a library of 240 biomedical skill packs for OpenClaw-compatible agents, teaching when and how to use domain-specific tools in scientific workflows. <details><summary>More about</summary>
@@ -126,6 +126,24 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 _These are new or low-traffic entries being watched._
 
+- **[credit-optimizer-v5](https://github.com/rafsilva85/credit-optimizer-v5)** `⭐ 47` `updated ≤90d` A Manus AI cost-optimization toolkit that routes prompts to cheaper models, uses faster web scraping, and compresses context to reduce credit usage. <details><summary>More about</summary>
+
+  It claims to automate model routing, chat-mode detection, and context hygiene to save roughly 47% on Manus credits without degrading output quality.
+
+  _We have officially entered the era of buying a $12 skill bundle to optimize the credits we burn inside an AI agent that is already replacing our job._
+
+  `manus-ai` `cost-optimization` `mcp` `credit-optimizer` `prompt-routing`
+  </details>
+
+- **[open-agreements](https://github.com/open-agreements/open-agreements)** `⭐ 44` `updated ≤30d` A reusable agent skill and MCP server that fills 40+ standard legal agreement templates and produces signable DOCX files for tools like Claude Code, Gemini CLI, and Cursor. <details><summary>More about</summary>
+
+  Developers can generate NDAs, SAFEs, and contractor agreements directly from the terminal or chat without leaving their coding environment or manually formatting legal docs.
+
+  _We have finally reached the point where the most automated part of your startup is the paperwork you used to delay by 'focusing on shipping features'._
+
+  `legal-tech` `agent-skills` `mcp-server` `cli-tool` `docx`
+  </details>
+
 - **[nex-as-a-skill](https://github.com/nex-crm/nex-as-a-skill)** `⭐ 41` `updated ≤90d` Nex is a knowledge graph and memory layer that unifies AI agent conversations across tools like Claude Code, Cursor, and Slack, distributed as a CLI and a set of slash commands, rules, and plugins for supported platforms. <details><summary>More about</summary>
 
   It lets teams persist and recall context across different AI coding assistants and workplace tools so agents get smarter the more the team works.
@@ -135,15 +153,6 @@ _These are new or low-traffic entries being watched._
   `memory` `context` `mcp` `knowledge-graph` `cli`
   </details>
 
-- **[open-agreements](https://github.com/open-agreements/open-agreements)** `⭐ 32` `updated ≤90d` A reusable agent skill and MCP server that fills 40+ standard legal agreement templates and produces signable DOCX files for tools like Claude Code, Gemini CLI, and Cursor. <details><summary>More about</summary>
-
-  Developers can generate NDAs, SAFEs, and contractor agreements directly from the terminal or chat without leaving their coding environment or manually formatting legal docs.
-
-  _We have finally reached the point where the most automated part of your startup is the paperwork you used to delay by 'focusing on shipping features'._
-
-  `legal-tech` `agent-skills` `mcp-server` `cli-tool` `docx`
-  </details>
-
 - **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 30` `updated ≤90d` A curated library of biomedical-specific agentic workflows, skills, and MCP servers designed to orchestrate tasks in genomics, clinical operations, and drug discovery. <details><summary>More about</summary>
 
   It provides reusable, domain-specific agent skills and operational patterns that developers can adapt to build life-science AI applications rather than starting from scratch.
@@ -151,15 +160,6 @@ _These are new or low-traffic entries being watched._
   _You now have a 'Biomedical OS' with 150+ tools, which is fantastic, provided you were initially worried that your Stack Overflow addiction wasn't domain-specific enough for a hematology lab._
 
   `biomedical` `agent-skills` `mcp` `life-sciences` `workflows`
-  </details>
-
-- **[credit-optimizer-v5](https://github.com/rafsilva85/credit-optimizer-v5)** `⭐ 23` `updated ≤180d` A Manus AI cost-optimization toolkit that routes prompts to cheaper models, uses faster web scraping, and compresses context to reduce credit usage. <details><summary>More about</summary>
-
-  It claims to automate model routing, chat-mode detection, and context hygiene to save roughly 47% on Manus credits without degrading output quality.
-
-  _We have officially entered the era of buying a $12 skill bundle to optimize the credits we burn inside an AI agent that is already replacing our job._
-
-  `manus-ai` `cost-optimization` `mcp` `credit-optimizer` `prompt-routing`
   </details>
 
 - **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 17` `updated ≤90d` An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing. <details><summary>More about</summary>
@@ -198,6 +198,15 @@ _These are new or low-traffic entries being watched._
   `crypto` `web3` `mcp` `agent-skills` `blockchain`
   </details>
 
+- **[qovery-skills](https://github.com/qovery/qovery-skills)** `⭐ 7` `updated ≤30d` A reusable skill pack that teaches AI coding agents how to deploy, troubleshoot, optimize, and manage preview environments for applications on Qovery and Kubernetes. <details><summary>More about</summary>
+
+  It packages DevOps expertise into portable SKILL.md files so agents can handle cloud onboarding, deployments, and cost optimization without the developer manually orchestrating Qovery.
+
+  _We’ve reached the point where agents need their own onboarding packs just to survive a Kubernetes cluster without waking someone up at 3 AM._
+
+  `skills` `devops` `kubernetes` `agent-skills` `qovery`
+  </details>
+
 - **[osop-agent-rules](https://github.com/archie0125/osop-agent-rules)** `⭐ 5` `updated ≤180d` A collection of drop-in rules and configuration files that enable session logging for 18 different AI coding agents, including Cursor, Codex, and Claude Code. <details><summary>More about</summary>
 
   It allows developers to standardize structured execution records across their entire stack of AI assistants without manually configuring each tool.
@@ -205,15 +214,6 @@ _These are new or low-traffic entries being watched._
   _You now have a YAML log of your AI bouncing between Cursor and Cline, proving mathematically that you replaced actual coding with orchestrating the logs of your assistants._
 
   `session-logging` `rules` `multi-agent` `osop` `integrations`
-  </details>
-
-- **[qovery-skills](https://github.com/qovery/qovery-skills)** `⭐ 5` `updated ≤90d` A reusable skill pack that teaches AI coding agents how to deploy, troubleshoot, optimize, and manage preview environments for applications on Qovery and Kubernetes. <details><summary>More about</summary>
-
-  It packages DevOps expertise into portable SKILL.md files so agents can handle cloud onboarding, deployments, and cost optimization without the developer manually orchestrating Qovery.
-
-  _We’ve reached the point where agents need their own onboarding packs just to survive a Kubernetes cluster without waking someone up at 3 AM._
-
-  `skills` `devops` `kubernetes` `agent-skills` `qovery`
   </details>
 
 - **[Relay](https://github.com/momobits/relay)** `⭐ 2` `updated ≤90d` Relay is a structured workflow system that adds persistent memory, issue tracking, and phased planning as reusable skills for Claude Code, OpenAI Codex CLI, and Google Gemini CLI. <details><summary>More about</summary>

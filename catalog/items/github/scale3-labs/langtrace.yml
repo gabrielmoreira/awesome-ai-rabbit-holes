@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1199
-    forks: 123
+    stars: 1216
+    forks: 124
     license: AGPL-3.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Scale3-Labs/langtrace
+    html_url: https://github.com/Scale3-Labs/langtrace
     created_at: "2024-03-30T23:49:41Z"
     pushed_at: "2025-11-17T15:08:48Z"
     description: Langtrace 🔍 is an open-source,  Open Telemetry based end-to-end observability tool for LLM applications, providing real-time tracing, evaluations and metrics for popular LLMs, LLM frameworks, vectorDBs and more.. Integrate using Typescript, Python. 🚀💻📊
@@ -49,9 +49,9 @@ metadata:
       - openai
       - prompt-engineering
       - tracing
-    last_checked_at: "2026-05-06T22:46:17.900Z"
+    last_checked_at: "2026-07-20T16:42:51.808Z"
     readme:
-      fetched_at: "2026-05-06T22:46:17.900Z"
+      fetched_at: "2026-07-20T16:42:51.808Z"
       bytes: 13318
 insights:
   summary: Langtrace is an open-source observability platform built on OpenTelemetry that provides real-time tracing, metrics, and evaluations for LLM applications, APIs, vector databases, and popular LLM frameworks via TypeScript and Python SDKs.
@@ -85,16 +85,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:17.900Z"
+    updated_at: "2026-07-20T16:42:51.808Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

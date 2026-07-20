@@ -24,19 +24,36 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: seob717/redash-mcp
+    html_url: https://github.com/seob717/redash-mcp
+    created_at: "2026-03-05T07:17:49Z"
+    pushed_at: "2026-07-06T09:46:39Z"
+    description: MCP server for querying and managing Redash with Claude AI
+    homepage: https://www.npmjs.com/package/redash-mcp
+    topics:
+      - ai
+      - anthropic
+      - business-intelligence
+      - claude
+      - claude-ai
+      - dashboard
+      - data-analytics
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - natural-language
+      - redash
+      - sql
+      - text-to-sql
+    last_checked_at: "2026-07-20T16:42:54.110Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:54.110Z"
+      bytes: 11312
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +77,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:54.110Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5
-    forks: 1
+    stars: 6
+    forks: 3
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: QuantToGo/quanttogo-mcp
+    html_url: https://github.com/QuantToGo/quanttogo-mcp
     created_at: "2026-03-09T23:06:42Z"
-    pushed_at: "2026-05-04T10:54:19Z"
+    pushed_at: "2026-07-20T11:34:09Z"
     description: Macro-factor quantitative signal source for AI agents via MCP. 宏观因子量化信号源。
     homepage: https://www.quanttogo.com
     topics:
@@ -44,9 +44,9 @@ metadata:
       - quantitative-finance
       - quantitative-trading
       - trading-signals
-    last_checked_at: "2026-05-06T22:46:03.160Z"
+    last_checked_at: "2026-07-20T16:42:41.259Z"
     readme:
-      fetched_at: "2026-05-06T22:46:03.160Z"
+      fetched_at: "2026-07-20T16:42:41.259Z"
       bytes: 8164
 insights:
   summary: An MCP server that exposes macro-factor quantitative trading signals and strategy performance data to AI agents and coding assistants.
@@ -79,16 +79,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:03.160Z"
+    updated_at: "2026-07-20T16:42:41.259Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

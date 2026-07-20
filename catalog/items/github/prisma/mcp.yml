@@ -39,20 +39,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 41
-    forks: 4
+    stars: 46
+    forks: 6
     license: null
     archived: false
-    full_name: null
-    html_url: null
+    full_name: prisma/mcp
+    html_url: https://github.com/prisma/mcp
     created_at: "2025-06-20T15:46:43Z"
     pushed_at: "2025-10-07T09:43:52Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:45:57.857Z"
+    last_checked_at: "2026-07-20T16:42:37.474Z"
     readme:
-      fetched_at: "2026-05-06T22:45:57.857Z"
+      fetched_at: "2026-07-20T16:42:37.474Z"
       bytes: 14871
 insights:
   summary: Prisma provides local and remote MCP servers that expose database management, migration, and querying tools to AI agents and editor workflows.
@@ -86,16 +86,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:57.857Z"
+    updated_at: "2026-07-20T16:42:37.474Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

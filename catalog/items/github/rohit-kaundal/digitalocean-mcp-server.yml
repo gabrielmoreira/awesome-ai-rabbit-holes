@@ -27,16 +27,16 @@ metadata:
     forks: 1
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: rohit-kaundal/digitalocean-mcp-server
+    html_url: https://github.com/rohit-kaundal/digitalocean-mcp-server
     created_at: "2025-07-19T09:10:49Z"
     pushed_at: "2025-07-20T13:37:59Z"
     description: A Model Context Protocol (MCP) server that provides programmatic access to DigitalOcean's API. This server exposes tools for managing droplets, Kubernetes clusters, and container registries through the MCP interface.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-06T22:46:11.565Z"
+    last_checked_at: "2026-07-20T16:42:47.230Z"
     readme:
-      fetched_at: "2026-05-06T22:46:11.565Z"
+      fetched_at: "2026-07-20T16:42:47.230Z"
       bytes: 13028
 insights:
   summary: A Go-based Model Context Protocol server that exposes 48 tools for managing DigitalOcean infrastructure, including droplets, Kubernetes clusters, and container registries.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:11.565Z"
+    updated_at: "2026-07-20T16:42:47.230Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

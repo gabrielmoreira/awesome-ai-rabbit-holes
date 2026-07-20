@@ -28,35 +28,35 @@ metadata:
     forks: 8
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: nrrso/swarm_ex
+    html_url: https://github.com/nrrso/swarm_ex
     created_at: "2024-10-27T20:32:01Z"
     pushed_at: "2024-11-10T20:45:44Z"
     description: Elixir library for lightweight AI agent orchestration inspired by openai/swarm
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:45:34.476Z"
+    last_checked_at: "2026-07-20T16:42:20.726Z"
     readme:
-      fetched_at: "2026-05-06T22:45:34.476Z"
+      fetched_at: "2026-07-20T16:42:20.726Z"
       bytes: 1388
 insights:
-  summary: An Elixir library for lightweight AI agent orchestration and coordination, inspired by OpenAI's Swarm.
-  why_it_matters: It gives Elixir developers a native, concurrent-first way to build and test networks of AI agents using familiar tooling like Telemetry and Mix.
-  mental_damage: At least you can orchestrate a swarm of agents while the BEAM quietly proves it could have handled the concurrency without them.
+  summary: An Elixir library for lightweight AI agent orchestration inspired by OpenAI's Swarm.
+  why_it_matters: It brings the multi-agent orchestration patterns found in Python-centric ecosystems to the highly concurrent and fault-tolerant Elixir/Erlang runtime.
+  mental_damage: Another way to manage a swarm of agents, now with the added complexity of supervising them with Elixir processes.
   tags:
     - elixir
     - agent-orchestration
-    - library
     - multi-agent
     - concurrency
+    - orchestration
   confidence: high
 curation:
   status: included
-  reason: This is a code-first library that developers import and script against to build agent workflows, fitting the Frameworks & SDKs definition over a runtime platform.
+  reason: It is a code-first library/SDK intended to be imported into Elixir projects rather than an operated workbench or platform.
   evidence:
-    - Repo description states it is an 'Elixir library for lightweight AI agent orchestration'.
-    - README installation instructions show adding {:swarm_ex, '~> 0.2.0'} to mix.exs as a dependency.
-    - Listed in awesome-agent-orchestration under 'Core Frameworks > Swift, Ruby & Elixir Frameworks'.
+    - Repo description explicitly calls it an 'Elixir library'
+    - README demonstrates usage via 'ix.exs' dependency installation
+    - Primary value is providing 'primitives for creating and coordinating networks of AI agents'
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -70,19 +70,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T15:12:06.723Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nrrso/swarm_ex
+    status: done
+    updated_at: "2026-07-20T16:42:20.726Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-20T16:43:44.483Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f53ee7a3c077bf28f3c9608d4e056b47554bbda0d307eb6d248a196eb184948a
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first library/SDK intended to be imported into Elixir projects rather than an operated workbench or platform.
+      decision_evidence:
+        - Repo description explicitly calls it an 'Elixir library'
+        - README demonstrates usage via 'ix.exs' dependency installation
+        - Primary value is providing 'primitives for creating and coordinating networks of AI agents'
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers primarily import and script against this as a library rather than operating it as a managed control plane or workbench.
+      review_reason: null
+      review_resume_lifecycle: null

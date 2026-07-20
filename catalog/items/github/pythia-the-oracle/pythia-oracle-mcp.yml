@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: pythia-the-oracle/pythia-oracle-mcp
+    html_url: https://github.com/pythia-the-oracle/pythia-oracle-mcp
     created_at: "2026-03-18T10:05:54Z"
-    pushed_at: "2026-05-05T10:46:08Z"
+    pushed_at: "2026-05-26T20:27:51Z"
     description: Every smart contract deserves intelligence, not just data. MCP server for on-chain calculated indicators (EMA, RSI, VWAP, Bollinger, volatility) via Chainlink.
     homepage: https://pythia.c3x-solutions.com
     topics:
@@ -46,9 +46,9 @@ metadata:
       - oracle
       - smart-contracts
       - technical-analysis
-    last_checked_at: "2026-05-06T22:46:00.595Z"
+    last_checked_at: "2026-07-20T16:42:39.607Z"
     readme:
-      fetched_at: "2026-05-06T22:46:00.595Z"
+      fetched_at: "2026-07-20T16:42:39.607Z"
       bytes: 8341
 insights:
   summary: An MCP server that exposes on-chain calculated technical indicators (EMA, RSI, VWAP, Bollinger Bands) and event subscriptions via Chainlink for AI agents and smart contracts.
@@ -82,16 +82,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:00.595Z"
+    updated_at: "2026-07-20T16:42:39.608Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

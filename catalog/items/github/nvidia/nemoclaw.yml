@@ -24,21 +24,28 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 20155
-    forks: 2583
+    stars: 21855
+    forks: 2958
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: NVIDIA/NemoClaw
+    html_url: https://github.com/NVIDIA/NemoClaw
     created_at: "2026-03-15T17:04:09Z"
-    pushed_at: "2026-05-06T22:44:18Z"
-    description: Run OpenClaw more securely inside NVIDIA OpenShell with managed inference
+    pushed_at: "2026-07-20T16:39:00Z"
+    description: Run agents like Hermes, LangChain Deep Agents, and OpenClaw more securely inside NVIDIA OpenShell with managed inference
     homepage: https://docs.nvidia.com/nemoclaw/latest/
-    topics: []
-    last_checked_at: "2026-05-06T22:45:35.264Z"
+    topics:
+      - ai-agents
+      - hermes
+      - nvidia
+      - openclaw
+      - openshell
+      - sandboxing
+      - typescript
+    last_checked_at: "2026-07-20T16:42:21.213Z"
     readme:
-      fetched_at: "2026-05-06T22:45:35.264Z"
-      bytes: 15729
+      fetched_at: "2026-07-20T16:42:21.213Z"
+      bytes: 9415
 insights:
   summary: NemoClaw is an open-source reference stack from NVIDIA that provides a hardened, sandboxed runtime for running OpenClaw always-on coding assistants inside NVIDIA OpenShell with managed inference and security policies.
   why_it_matters: It gives developers a guided, hardened blueprint for safely running autonomous coding agents with state management, routed inference, and layered protection instead of raw, unsecured execution.
@@ -70,19 +77,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T15:12:07.751Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nvidia/nemoclaw
+    status: done
+    updated_at: "2026-07-20T16:42:21.213Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -24,20 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 31
-    forks: 9
+    stars: 37
+    forks: 11
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop
+    html_url: https://github.com/SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop
     created_at: "2025-03-15T19:15:51Z"
     pushed_at: "2025-08-11T15:27:04Z"
     description: An MCP (Model Context Protocol) tool that provides stock market data and trading capabilities using the yfinance library, specifically adapted for Claude Desktop.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:15.419Z"
+    last_checked_at: "2026-07-20T16:42:50.195Z"
     readme:
-      fetched_at: "2026-05-06T22:46:15.419Z"
+      fetched_at: "2026-07-20T16:42:50.195Z"
       bytes: 5081
 insights:
   summary: An MCP server that exposes yfinance stock market data, company metrics, and insider transactions as tools specifically adapted for Claude Desktop.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:15.419Z"
+    updated_at: "2026-07-20T16:42:50.195Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

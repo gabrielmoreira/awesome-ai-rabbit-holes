@@ -1,0 +1,95 @@
+id: apimatic__io
+kind: website
+name: APIMatic
+canonical_url: https://apimatic.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__apimatic__io__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-20T16:42:15.363Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: APIMatic
+        extracted_url: https://apimatic.io
+        surrounding_text: "- **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files and returns validation summaries by leveraging APIMatic’s API."
+        confidence: high
+    - id: discovery__www__apimatic__io__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: APIMatic
+        extracted_url: https://www.apimatic.io
+        surrounding_text: "- **[APIMatic MCP](https://github.com/apimatic/apimatic-validator-mcp)** - APIMatic MCP Server is used to validate OpenAPI specifications using [APIMatic](https://www.apimatic.io/). The server processes OpenAPI files and returns validation summaries by leveraging APIMatic’s API."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: APIMatic is a SaaS platform for generating SDKs, API docs, and integration code from API definitions, and is listed as an official MCP server for exposing API specs to AI models.
+  why_it_matters: It lets developers turn existing API definitions into ready-to-use SDKs and gives AI agents structured access to API capabilities via MCP.
+  mental_damage: One more indirection layer between your API and the AI that is now confidently generating integration code you’ll be debugging next sprint.
+  tags:
+    - api
+    - integrations
+    - mcp
+    - sdk-generation
+  confidence: medium
+curation:
+  status: included
+  reason: APIMatic is included as an MCP server that exposes API definitions and SDK generation capabilities to AI models, fitting the MCP Servers & Tooling category.
+  evidence:
+    - "Listed in awesome-mcp-servers under section: Official Servers"
+    - Product is a SaaS platform for SDK and API docs generation, not a generic AI directory or research project
+    - MCP server identity is the stated relevance in source-list context
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.715Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+  discover:
+    status: done
+    updated_at: "2026-07-20T16:42:15.364Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

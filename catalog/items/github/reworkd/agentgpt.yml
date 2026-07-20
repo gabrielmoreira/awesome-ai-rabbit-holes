@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 36054
-    forks: 9362
+    stars: 36281
+    forks: 9296
     license: GPL-3.0
     archived: true
-    full_name: null
-    html_url: null
+    full_name: reworkd/AgentGPT
+    html_url: https://github.com/reworkd/AgentGPT
     created_at: "2023-04-07T02:29:19Z"
     pushed_at: "2025-04-29T01:19:32Z"
     description: 🤖 Assemble, configure, and deploy autonomous AI Agents in your browser.
@@ -65,9 +65,9 @@ metadata:
       - openai
       - t3
       - t3-stack
-    last_checked_at: "2026-05-06T22:46:09.897Z"
+    last_checked_at: "2026-07-20T16:42:45.750Z"
     readme:
-      fetched_at: "2026-05-06T22:46:09.897Z"
+      fetched_at: "2026-07-20T16:42:45.750Z"
       bytes: 12501
 insights:
   summary: AgentGPT is a browser-based platform for assembling, configuring, and deploying autonomous AI agents that independently plan and execute chained tasks to reach user-defined goals.
@@ -101,16 +101,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:09.897Z"
+    updated_at: "2026-07-20T16:42:45.750Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -1,0 +1,95 @@
+id: athenaintel__com
+kind: website
+name: Athena Intelligence
+canonical_url: https://athenaintel.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__athenaintel__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-20T16:42:15.363Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Athena Intelligence
+        anchor_text: Athena Intelligence
+        extracted_url: https://athenaintelligence.ai
+        surrounding_text: "## [Athena Intelligence](https://www.athenaintelligence.ai/)"
+        confidence: high
+    - id: discovery__www__athenaintel__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Athena Intelligence
+        anchor_text: Athena Intelligence
+        extracted_url: https://www.athenaintelligence.ai
+        surrounding_text: "## [Athena Intelligence](https://www.athenaintelligence.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Athena is an enterprise-focused AI platform that automates domain-specific knowledge work and operational workflows in regulated industries like finance, law, and defense.
+  why_it_matters: It provides a turnkey 'digital coworker' platform for enterprises looking to deploy AI agents against internal data sources without rebuilding their existing workflows.
+  mental_damage: Finally, an AI colleague that handles the diligence so you can focus on the really hard work of updating your LinkedIn headline.
+  tags:
+    - enterprise-ai
+    - knowledge-work
+    - vertical-agents
+    - workflow-automation
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because the product is a vertical SaaS platform for business analysts and legal teams, not a tool for software developers to build, code, or engineer AI systems.
+  evidence:
+    - Product description targets analysts and 'strategic work' in finance, law, and consulting, not developers.
+    - Use cases listed are financial research, contract analysis, and litigation analysis rather than code editing or repo work.
+    - Described as an 'AI-native analytics platform' and 'digital coworker', which falls outside the catalog's developer-tooling scope.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.715Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+  discover:
+    status: done
+    updated_at: "2026-07-20T16:42:15.364Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

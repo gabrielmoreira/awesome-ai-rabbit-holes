@@ -23,20 +23,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4
+    stars: 3
     forks: 4
     license: null
     archived: false
-    full_name: null
-    html_url: null
+    full_name: routineco/mcp-server
+    html_url: https://github.com/routineco/mcp-server
     created_at: "2025-04-01T13:51:27Z"
     pushed_at: "2025-06-16T12:18:34Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:12.508Z"
+    last_checked_at: "2026-07-20T16:42:47.987Z"
     readme:
-      fetched_at: "2026-05-06T22:46:12.508Z"
+      fetched_at: "2026-07-20T16:42:47.987Z"
       bytes: 1463
 insights:
   summary: An MCP server that exposes the Routine.co productivity app as a tool to MCP-compatible clients like Claude Desktop.
@@ -69,16 +69,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:12.508Z"
+    updated_at: "2026-07-20T16:42:47.987Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

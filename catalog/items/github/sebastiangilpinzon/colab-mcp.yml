@@ -24,19 +24,28 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 8
+    forks: 4
+    license: Apache-2.0
+    archived: false
+    full_name: SebastianGilPinzon/colab-mcp
+    html_url: https://github.com/SebastianGilPinzon/colab-mcp
+    created_at: "2026-04-01T00:25:30Z"
+    pushed_at: "2026-06-19T21:42:26Z"
+    description: Fixed & enhanced fork of Google's Colab MCP — tools visible at startup, GPU control, Windows support, no more 'Disconnected'
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - claude-code
+      - cursor
+      - google-colab
+      - gpu
+      - llm-tools
+      - mcp
+      - model-context-protocol
+    last_checked_at: "2026-07-20T16:42:52.993Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:52.993Z"
+      bytes: 18142
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +69,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:52.993Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

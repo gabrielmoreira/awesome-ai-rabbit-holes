@@ -22,28 +22,47 @@ provenance:
         extracted_url: https://github.com/saikiyusuke/registep-mcp
         surrounding_text: "- [saikiyusuke/registep-mcp](https://github.com/saikiyusuke/registep-mcp) 📇 ☁️ - AI-powered POS & sales analytics MCP server with 67 tools for Airレジ, スマレジ, and BASE EC integration. Provides store management, sales data querying, AI chat analysis, and weather correlation features."
         confidence: high
+    - id: discovery__github__saikiyusuke__registep-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📊 <a name="data-platforms"></a>Data Platforms
+        anchor_text: saikiyusuke/registep-mcp
+        extracted_url: https://github.com/saikiyusuke/registep-mcp
+        surrounding_text: "- [saikiyusuke/registep-mcp](https://github.com/saikiyusuke/registep-mcp) 📇 ☁️ - AI-powered POS & sales analytics MCP server with 67 tools for Airレジ, スマレジ, and BASE EC integration. Provides store management, sales data querying, AI chat analysis, and weather correlation features."
+        confidence: high
 metadata:
   github:
     stars: 1
     forks: 2
     license: null
     archived: false
+    full_name: asicojp/registep-mcp
+    html_url: https://github.com/asicojp/registep-mcp
     created_at: "2026-02-17T18:00:16Z"
     pushed_at: "2026-06-11T14:30:41Z"
     description: Registep MCP Server - AI-powered POS & sales analytics for Claude Code, Cursor, and other MCP clients
     homepage: https://registep.jp
     topics: []
-    last_checked_at: "2026-07-20T05:17:05.185Z"
+    last_checked_at: "2026-07-20T16:42:50.100Z"
     readme: null
 insights:
   summary: Registep MCP Server provides AI-powered POS and sales analytics through the Model Context Protocol for Claude Code, Cursor, and other MCP clients.
   why_it_matters: It enables developers to access sales and point-of-sale data via natural language within their coding assistants, bridging business analytics and development workflows.
   mental_damage: Yet another MCP server promising to turn your IDE into a retail dashboard, because nothing says 'focused coding' like querying last quarter's shoe sales mid-refactor.
   tags:
-    - mcp
     - analytics
+    - japanese
+    - mcp
     - pos
-  confidence: medium
+  confidence: high
 curation:
   status: included
   reason: The product is an MCP server focused on a specific domain (POS/sales analytics), making MCP its core identity rather than a compatibility feature, and it clearly serves as infrastructure for MCP clients like Claude Code and Cursor.
@@ -51,6 +70,9 @@ curation:
     - "Repo description: 'Registep MCP Server - AI-powered POS & sales analytics for Claude Code, Cursor, and other MCP clients'"
     - "Source-list context: Included in awesome-mcp-servers under 'Server Implementations > 📊 Data Platforms'"
     - "Created and pushed at: 2026-02-17 (very recent, active)"
+    - "Repo description states: 'Registep MCP Server - AI-powered POS & sales analytics for Claude Code, Cursor, and other MCP clients'"
+    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
+    - Created and pushed recently (2026-02-17), showing active development of a niche MCP integration
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -58,16 +80,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-12T15:06:19.301Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-07-20T05:17:05.185Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-05-12T15:58:31.830Z"
@@ -75,4 +87,14 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-12T15:06:19.301Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-20T16:42:50.100Z"
+    cause: null
     next_retry_at: null

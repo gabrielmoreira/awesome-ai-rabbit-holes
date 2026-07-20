@@ -24,19 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    full_name: Savvly/savvly-mcp
+    html_url: https://github.com/Savvly/savvly-mcp
+    created_at: "2026-05-24T06:41:09Z"
+    pushed_at: "2026-07-20T16:04:27Z"
+    description: "Explore Savvly MCP: retirement projections, eligibility, comparisons, and FAQs for an SEC-registered fund that pairs full market upside with later-life longevity payouts."
+    homepage: https://www.savvly.com
+    topics: []
+    last_checked_at: "2026-07-20T16:42:51.557Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:51.557Z"
+      bytes: 3576
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +62,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:51.557Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

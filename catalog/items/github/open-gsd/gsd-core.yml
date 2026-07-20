@@ -23,19 +23,25 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 6890
+    forks: 464
+    license: MIT
+    archived: false
+    full_name: open-gsd/gsd-core
+    html_url: https://github.com/open-gsd/gsd-core
+    created_at: "2026-05-22T11:36:21Z"
+    pushed_at: "2026-07-20T16:40:28Z"
+    description: Git. Ship. Done - Core
+    homepage: https://opengsd.net
+    topics:
+      - claude-code
+      - context-engineering
+      - meta-prompting
+      - spec-driven-development
+    last_checked_at: "2026-07-20T16:42:24.976Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:24.976Z"
+      bytes: 5922
 insights:
   summary: null
   why_it_matters: null
@@ -50,8 +56,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (6890) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -59,13 +65,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:24.976Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

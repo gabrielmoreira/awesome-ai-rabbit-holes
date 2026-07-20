@@ -24,19 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: smythmyke/govtoolspro-mcp-server
+    html_url: https://github.com/smythmyke/govtoolspro-mcp-server
+    created_at: "2026-06-01T14:55:42Z"
+    pushed_at: "2026-07-10T06:14:33Z"
+    description: MCP server for GovToolsPro — go/no-go scoring, incumbent intelligence, teaming-partner search, recompete prediction, Navy NECO lookup, and SAM.gov solicitation retrieval for federal contractors.
+    homepage: https://govtoolspro.com
+    topics: []
+    last_checked_at: "2026-07-20T16:42:59.841Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:59.841Z"
+      bytes: 6289
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +62,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:59.841Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

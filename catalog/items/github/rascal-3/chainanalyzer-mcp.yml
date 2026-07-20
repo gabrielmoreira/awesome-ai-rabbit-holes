@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
-    forks: 0
+    stars: 1
+    forks: 1
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: rascal-3/chainanalyzer-mcp
+    html_url: https://github.com/rascal-3/chainanalyzer-mcp
     created_at: "2026-04-06T09:25:36Z"
-    pushed_at: "2026-04-29T03:56:56Z"
+    pushed_at: "2026-07-07T19:18:35Z"
     description: MCP Server for ChainAnalyzer(https://chain-analyzer.com)
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:06.208Z"
+    last_checked_at: "2026-07-20T16:42:43.461Z"
     readme:
-      fetched_at: "2026-05-06T22:46:06.208Z"
-      bytes: 3654
+      fetched_at: "2026-07-20T16:42:43.461Z"
+      bytes: 3843
 insights:
   summary: An MCP server that exposes ChainAnalyzer's multi-chain blockchain AML risk analysis, sanctions screening, and transaction tracing tools to AI agents.
   why_it_matters: Developers building crypto-native agents can delegate on-chain compliance checks across 8+ chains directly through the Model Context Protocol without wrapping REST calls themselves.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:06.208Z"
+    updated_at: "2026-07-20T16:42:43.461Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

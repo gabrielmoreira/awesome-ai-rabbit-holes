@@ -27,17 +27,17 @@ metadata:
     forks: 1
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: reuvenaor/israel-statistics-mcp
+    html_url: https://github.com/reuvenaor/israel-statistics-mcp
     created_at: "2025-07-22T20:45:08Z"
-    pushed_at: "2025-08-24T14:25:08Z"
+    pushed_at: "2026-07-04T20:34:08Z"
     description: Israel Statistics MCP
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:09.575Z"
+    last_checked_at: "2026-07-20T16:42:45.768Z"
     readme:
-      fetched_at: "2026-05-06T22:46:09.575Z"
-      bytes: 11571
+      fetched_at: "2026-07-20T16:42:45.768Z"
+      bytes: 4372
 insights:
   summary: An MCP server providing programmatic access to Israeli Central Bureau of Statistics economic data, including CPI, housing indices, and an inflation calculator.
   why_it_matters: It allows coding agents and LLMs to directly query official Israeli economic statistics without manually parsing government XML APIs.
@@ -69,16 +69,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:09.575Z"
+    updated_at: "2026-07-20T16:42:45.768Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

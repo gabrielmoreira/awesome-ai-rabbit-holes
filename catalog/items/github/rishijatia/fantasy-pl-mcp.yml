@@ -39,20 +39,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 68
+    stars: 71
     forks: 20
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: rishijatia/fantasy-pl-mcp
+    html_url: https://github.com/rishijatia/fantasy-pl-mcp
     created_at: "2025-03-14T18:53:28Z"
     pushed_at: "2025-08-15T21:06:27Z"
     description: Fantasy Premier League MCP Server
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:10.290Z"
+    last_checked_at: "2026-07-20T16:42:46.271Z"
     readme:
-      fetched_at: "2026-05-06T22:46:10.290Z"
+      fetched_at: "2026-07-20T16:42:46.271Z"
       bytes: 10833
 insights:
   summary: An MCP server that exposes Fantasy Premier League data, player statistics, and team tools to Claude Desktop, Cursor, and other MCP-compatible clients.
@@ -85,16 +85,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:10.290Z"
+    updated_at: "2026-07-20T16:42:46.271Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

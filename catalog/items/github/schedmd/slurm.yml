@@ -24,23 +24,23 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3954
-    forks: 830
+    stars: 4166
+    forks: 867
     license: NOASSERTION
     archived: false
-    full_name: null
-    html_url: null
+    full_name: SchedMD/slurm
+    html_url: https://github.com/SchedMD/slurm
     created_at: "2011-06-20T16:15:51Z"
-    pushed_at: "2026-05-06T19:22:40Z"
+    pushed_at: "2026-07-20T09:24:44Z"
     description: "Slurm: A Highly Scalable Workload Manager"
     homepage: https://slurm.schedmd.com/
     topics:
       - slurm
       - slurm-job-scheduler
       - slurm-workload-manager
-    last_checked_at: "2026-05-06T22:46:17.846Z"
+    last_checked_at: "2026-07-20T16:42:51.769Z"
     readme:
-      fetched_at: "2026-05-06T22:46:17.846Z"
+      fetched_at: "2026-07-20T16:42:51.769Z"
       bytes: 3033
 insights:
   summary: Slurm is an open-source cluster resource manager and job scheduling system for allocating compute nodes and managing parallel workloads on Linux clusters.
@@ -74,16 +74,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:17.846Z"
+    updated_at: "2026-07-20T16:42:51.769Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

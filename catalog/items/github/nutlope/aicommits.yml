@@ -23,21 +23,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8966
-    forks: 466
+    stars: 9053
+    forks: 470
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Nutlope/aicommits
+    html_url: https://github.com/Nutlope/aicommits
     created_at: "2023-02-14T01:23:13Z"
-    pushed_at: "2026-04-09T20:03:27Z"
+    pushed_at: "2026-05-18T21:50:36Z"
     description: A CLI that writes your git commit messages for you with AI
     homepage: https://www.npmjs.com/package/aicommits
     topics: []
-    last_checked_at: "2026-05-06T22:45:34.988Z"
+    last_checked_at: "2026-07-20T16:42:21.117Z"
     readme:
-      fetched_at: "2026-05-06T22:45:34.988Z"
-      bytes: 11730
+      fetched_at: "2026-07-20T16:42:21.117Z"
+      bytes: 12245
 insights:
   summary: A CLI tool that automatically generates git commit messages by analyzing staged changes using configurable AI providers.
   why_it_matters: It integrates directly into the developer workflow to automate the recurring chore of summarizing diffs into conventional, gitmoji, or plain-text commits.
@@ -68,19 +68,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T15:12:07.509Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nutlope/aicommits
+    status: done
+    updated_at: "2026-07-20T16:42:21.117Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

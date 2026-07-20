@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 65
-    forks: 19
+    stars: 125
+    forks: 39
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: roomi-fields/notebooklm-mcp
+    html_url: https://github.com/roomi-fields/notebooklm-mcp
     created_at: "2025-11-23T06:58:06Z"
-    pushed_at: "2026-05-06T13:56:04Z"
+    pushed_at: "2026-07-13T13:12:58Z"
     description: Google NotebookLM over MCP + a local HTTP REST API. Citation-backed Q&A, audio/video/content generation, multi-account rotation. For Claude Code, Codex, Cursor, n8n, Zapier, Make.
     homepage: ""
     topics:
@@ -51,10 +51,10 @@ metadata:
       - playwright
       - rest-api
       - typescript
-    last_checked_at: "2026-05-06T22:46:12.168Z"
+    last_checked_at: "2026-07-20T16:42:47.527Z"
     readme:
-      fetched_at: "2026-05-06T22:46:12.168Z"
-      bytes: 18019
+      fetched_at: "2026-07-20T16:42:47.527Z"
+      bytes: 18618
 insights:
   summary: A local HTTP REST API and MCP server that automates Google NotebookLM, enabling citation-backed Q&A and Studio content generation across Claude Code, Cursor, Codex, and automation platforms like n8n.
   why_it_matters: It lets developers script NotebookLM into their workflows for batch research, automated content generation, and citation-backed answers without relying on the browser UI.
@@ -87,16 +87,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:12.168Z"
+    updated_at: "2026-07-20T16:42:47.527Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

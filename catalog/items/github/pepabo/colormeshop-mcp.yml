@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: pepabo/colormeshop-mcp
+    html_url: https://github.com/pepabo/colormeshop-mcp
     created_at: "2026-04-21T04:51:43Z"
-    pushed_at: "2026-04-28T13:12:28Z"
+    pushed_at: "2026-06-20T03:53:28Z"
     description: Official remote MCP server for Color Me Shop
     homepage: https://help.shop-pro.jp/hc/ja/articles/49646901116819
     topics:
@@ -41,9 +41,9 @@ metadata:
       - mcp
       - model-context-protocol
       - remote-mcp-server
-    last_checked_at: "2026-05-06T22:45:50.707Z"
+    last_checked_at: "2026-07-20T16:42:32.595Z"
     readme:
-      fetched_at: "2026-05-06T22:45:50.707Z"
+      fetched_at: "2026-07-20T16:42:32.595Z"
       bytes: 3602
 insights:
   summary: An official remote MCP server for Color Me Shop that lets AI tools like Claude and Cursor manage e-commerce orders, products, and customers via natural language.
@@ -76,16 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:50.707Z"
+    updated_at: "2026-07-20T16:42:32.595Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

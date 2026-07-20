@@ -1,11 +1,27 @@
 id: github__w4-advisory__plexiglass
 kind: github-repo
-name: plexiglass
+name: Plexiglass
 canonical_url: https://github.com/w4-advisory/plexiglass
 identity:
   github_repo: w4-advisory/plexiglass
 provenance:
   discoveries:
+    - id: discovery__github__safellama__plexiglass__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Frameworks for LLM security
+        anchor_text: Plexiglass
+        extracted_url: https://github.com/kortex-labs/plexiglass
+        surrounding_text: "| [Plexiglass](https://github.com/kortex-labs/plexiglass) | A Python Machine Learning Pentesting Toolbox for Adversarial Attacks. Works with LLMs, DNNs, and other machine learning algorithms. | ![GitHub Badge](https://img.shields.io/github/stars/kortex-labs/plexiglass?style=flat-square) |"
+        confidence: high
     - id: discovery__github__w4-advisory__plexiglass__awesome-list__tensorchord__awesome-llmops
       discovered_at: "2026-07-20T05:16:45.680Z"
       source:
@@ -24,49 +40,66 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 153
+    forks: 18
+    license: Apache-2.0
+    archived: false
+    full_name: w4-advisory/plexiglass
+    html_url: https://github.com/w4-advisory/plexiglass
+    created_at: "2020-11-12T04:02:50Z"
+    pushed_at: "2026-02-04T22:18:58Z"
+    description: A toolkit for detecting and protecting against vulnerabilities in Large Language Models (LLMs).
+    homepage: ""
+    topics:
+      - adversarial-attacks
+      - adversarial-machine-learning
+      - cybersecurity
+      - deep-learning
+      - deep-neural-networks
+      - machine-learning
+      - security
+    last_checked_at: "2026-07-20T16:42:49.802Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:49.802Z"
+      bytes: 2730
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI toolkit for detecting and protecting against LLM vulnerabilities by testing models against adversarial attacks like prompt injection and jailbreaking.
+  why_it_matters: It lets developers benchmark and harden their LLM integrations against security, bias, and toxicity risks using real-world adversarial datasets.
+  mental_damage: Because what your pipeline really needed at 4 PM on a Friday was a dedicated scanner to confirm that your 'secure' model can indeed be jailbroken by a teenager on Reddit.
+  tags:
+    - adversarial-testing
+    - benchmarking
+    - cli-tool
+    - llm-security
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core job is measuring and benchmarking model behavior against security, bias, and toxicity vulnerabilities, which aligns with the Evals category.
+  evidence:
+    - Repo description states it is 'A toolkit for detecting and protecting against vulnerabilities in Large Language Models (LLMs).'
+    - README describes 'llm-scan' mode for benchmarking security/bias/toxicity using open-source adversarial datasets.
+    - Listed in Awesome-LLMOps under 'Security > Frameworks for LLM security', reinforcing its eval/security tooling identity.
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Safety / Fairness / Data Quality
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (154) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-07-20T05:16:45.681Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: pending
-    updated_at: null
-    cause: null
   categorize:
     status: skipped
     updated_at: "2026-07-20T15:12:11.655Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-07-20T05:16:45.681Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-20T16:42:49.802Z"
+    cause: null
     next_retry_at: null

@@ -23,20 +23,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2
-    forks: 1
+    stars: 3
+    forks: 0
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Pattyboi101/indiestack
+    html_url: https://github.com/Pattyboi101/indiestack
     created_at: "2026-02-22T15:12:12Z"
-    pushed_at: "2026-05-06T17:10:14Z"
+    pushed_at: "2026-06-02T09:14:23Z"
     description: Dependency guardrail for AI coding agents — validates packages, catches hallucinations, 6,500+ developer tools. MCP server + CLI + web.
     homepage: https://indiestack.ai
     topics: []
-    last_checked_at: "2026-05-06T22:45:49.393Z"
+    last_checked_at: "2026-07-20T16:42:31.870Z"
     readme:
-      fetched_at: "2026-05-06T22:45:49.393Z"
+      fetched_at: "2026-07-20T16:42:31.870Z"
       bytes: 5452
 insights:
   summary: A dependency guardrail and tool curation platform for AI coding agents that validates packages, catches hallucinations, and provides compatibility data across 6,500+ developer tools via an MCP server, CLI, and web interface.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:49.393Z"
+    updated_at: "2026-07-20T16:42:31.870Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

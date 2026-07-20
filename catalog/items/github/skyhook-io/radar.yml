@@ -24,19 +24,33 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2628
+    forks: 143
+    license: Apache-2.0
+    archived: false
+    full_name: skyhook-io/radar
+    html_url: https://github.com/skyhook-io/radar
+    created_at: "2026-01-20T00:09:40Z"
+    pushed_at: "2026-07-20T13:47:30Z"
+    description: The missing open source Kubernetes UI. Topology, event timeline, and service traffic — plus resource browsing and Helm management.
+    homepage: https://radarhq.io
+    topics:
+      - argocd
+      - cloud-native
+      - gitops
+      - helm
+      - k8s
+      - kubectl-plugin
+      - kubernetes
+      - kubernetes-dashboard
+      - kubernetes-monitoring
+      - kubernetes-tools
+      - kubernetes-ui
+      - mcp-server
+    last_checked_at: "2026-07-20T16:42:58.786Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:58.786Z"
+      bytes: 30448
 insights:
   summary: null
   why_it_matters: null
@@ -51,8 +65,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2628) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,13 +74,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:58.786Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

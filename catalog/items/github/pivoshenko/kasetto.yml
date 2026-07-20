@@ -24,39 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 66
-    forks: 4
+    stars: 117
+    forks: 5
     license: NOASSERTION
     archived: false
-    full_name: null
-    html_url: null
+    full_name: pivoshenko/kasetto
+    html_url: https://github.com/pivoshenko/kasetto
     created_at: "2026-03-17T19:27:54Z"
-    pushed_at: "2026-05-04T14:49:18Z"
+    pushed_at: "2026-07-18T13:34:55Z"
     description: 📼 A declarative AI agent environment manager, written in Rust
     homepage: https://www.kasetto.dev
     topics:
       - ai
-      - ai-agents
-      - ai-skills
+      - ai-agent
+      - ai-commands
+      - ai-skills-manager
+      - antigravity
+      - claude
       - claude-code
+      - claude-skills
       - codex
       - copilot
       - cursor
-      - declarative
-      - developer-tools
-      - devex
+      - developer-tool
+      - gemini
+      - kiro
       - mcp
       - mcps
       - openclaw
       - opencode
-      - opencode-ai
-      - package-manager
-      - rust
+      - pi
       - skills
-    last_checked_at: "2026-05-06T22:45:53.973Z"
+    last_checked_at: "2026-07-20T16:42:34.844Z"
     readme:
-      fetched_at: "2026-05-06T22:45:53.973Z"
-      bytes: 16897
+      fetched_at: "2026-07-20T16:42:34.844Z"
+      bytes: 16182
 insights:
   summary: A Rust-based CLI tool that manages and syncs declarative AI agent environments, skills, and MCP server configurations across multiple coding assistants from a single YAML file.
   why_it_matters: It solves the environment drift problem by letting teams version-control and instantly replicate their entire AI coding setup—skills, MCPs, and agent configs—across Claude Code, Cursor, Copilot, and 18 other agents.
@@ -89,16 +91,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:53.973Z"
+    updated_at: "2026-07-20T16:42:34.844Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

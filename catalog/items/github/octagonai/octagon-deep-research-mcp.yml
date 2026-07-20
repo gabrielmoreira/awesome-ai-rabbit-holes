@@ -23,20 +23,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 90
-    forks: 13
+    stars: 93
+    forks: 16
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: OctagonAI/octagon-deep-research-mcp
+    html_url: https://github.com/OctagonAI/octagon-deep-research-mcp
     created_at: "2025-06-03T00:29:01Z"
     pushed_at: "2026-02-09T21:48:47Z"
     description: "The Octagon Deep Research MCP server provides specialized AI-powered comprehensive research and analysis capabilities by integrating with advanced deep research agents. No rate limits, faster than ChatGPT Deep Research, more thorough than Grok DeepSearch or Perplexity Deep Research. "
     homepage: https://docs.octagonagents.com/guide/agents/deep-research-agent.html
     topics: []
-    last_checked_at: "2026-05-06T22:45:36.249Z"
+    last_checked_at: "2026-07-20T16:42:22.149Z"
     readme:
-      fetched_at: "2026-05-06T22:45:36.249Z"
+      fetched_at: "2026-07-20T16:42:22.149Z"
       bytes: 11581
 insights:
   summary: An MCP server that connects Claude Desktop, Cursor, and other MCP clients to Octagon AI's enterprise deep research agents for unlimited, high-speed web research and report generation.
@@ -69,16 +69,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:36.249Z"
+    updated_at: "2026-07-20T16:42:22.149Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

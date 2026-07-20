@@ -23,20 +23,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 72
-    forks: 28
+    stars: 73
+    forks: 29
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: NVIDIA/workbench-llamafactory
+    html_url: https://github.com/NVIDIA/workbench-llamafactory
     created_at: "2024-05-31T20:07:30Z"
     pushed_at: "2024-10-17T02:30:19Z"
     description: "This is an NVIDIA AI Workbench example project that demonstrates an end-to-end model development workflow using Llamafactory. "
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:45:35.383Z"
+    last_checked_at: "2026-07-20T16:42:21.378Z"
     readme:
-      fetched_at: "2026-05-06T22:45:35.383Z"
+      fetched_at: "2026-07-20T16:42:21.378Z"
       bytes: 720
 insights:
   summary: An NVIDIA AI Workbench example project that demonstrates an end-to-end LLM fine-tuning workflow using LLaMA-Factory, including LoRA adapter fusion and export to TensorRT-LLM.
@@ -69,19 +69,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T15:12:08.046Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for nvidia/workbench-llamafactory
+    status: done
+    updated_at: "2026-07-20T16:42:21.378Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.887Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

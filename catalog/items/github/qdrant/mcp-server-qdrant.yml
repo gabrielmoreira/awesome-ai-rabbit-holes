@@ -56,14 +56,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1385
-    forks: 270
+    stars: 1473
+    forks: 279
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: qdrant/mcp-server-qdrant
+    html_url: https://github.com/qdrant/mcp-server-qdrant
     created_at: "2024-12-02T12:07:39Z"
-    pushed_at: "2026-04-27T12:25:02Z"
+    pushed_at: "2026-07-10T00:14:22Z"
     description: An official Qdrant Model Context Protocol (MCP) server implementation
     homepage: https://qdrant.tech
     topics:
@@ -74,9 +74,9 @@ metadata:
       - mcp-server
       - semantic-search
       - windsurf
-    last_checked_at: "2026-05-06T22:46:01.611Z"
+    last_checked_at: "2026-07-20T16:42:40.216Z"
     readme:
-      fetched_at: "2026-05-06T22:46:01.611Z"
+      fetched_at: "2026-07-20T16:42:40.216Z"
       bytes: 22469
 insights:
   summary: An official MCP server implementation that exposes Qdrant vector search as a semantic memory store for LLM applications like Claude and Cursor.
@@ -110,16 +110,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:01.611Z"
+    updated_at: "2026-07-20T16:42:40.216Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

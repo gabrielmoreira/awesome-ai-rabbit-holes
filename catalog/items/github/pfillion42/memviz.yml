@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
-    forks: 1
+    stars: 1
+    forks: 2
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: pfillion42/memviz
+    html_url: https://github.com/pfillion42/memviz
     created_at: "2026-02-14T22:33:00Z"
     pushed_at: "2026-02-24T19:15:58Z"
     description: A local vector memory explorer with a modern UI. Browse, search, visualize and manage SQLite-vec databases from MCP Memory Service.
@@ -44,9 +44,9 @@ metadata:
       - typescript
       - umap
       - vector-database
-    last_checked_at: "2026-05-06T22:45:51.143Z"
+    last_checked_at: "2026-07-20T16:42:32.964Z"
     readme:
-      fetched_at: "2026-05-06T22:45:51.143Z"
+      fetched_at: "2026-07-20T16:42:32.964Z"
       bytes: 8697
 insights:
   summary: A local web UI for browsing, searching, visualizing, and managing the SQLite-vec memory databases created by the MCP Memory Service.
@@ -80,16 +80,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:51.143Z"
+    updated_at: "2026-07-20T16:42:32.964Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

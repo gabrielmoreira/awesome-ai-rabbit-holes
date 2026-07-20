@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1528
-    forks: 259
+    stars: 1696
+    forks: 310
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: stripe/ai
+    html_url: https://github.com/stripe/ai
     created_at: "2024-11-11T17:13:41Z"
-    pushed_at: "2026-05-06T18:02:01Z"
+    pushed_at: "2026-07-18T00:44:00Z"
     description: One-stop shop for building AI-powered products and businesses with Stripe.
     homepage: https://docs.stripe.com/agents
     topics:
@@ -41,10 +41,10 @@ metadata:
       - python
       - typescript
       - workflows
-    last_checked_at: "2026-05-06T22:46:35.985Z"
+    last_checked_at: "2026-07-20T16:43:04.348Z"
     readme:
-      fetched_at: "2026-05-06T22:46:35.985Z"
-      bytes: 6376
+      fetched_at: "2026-07-20T16:43:04.348Z"
+      bytes: 2091
 insights:
   summary: A Stripe-maintained toolkit providing SDKs and an MCP server to integrate Stripe's billing and API capabilities into LLM agents and AI applications.
   why_it_matters: It allows developers to add payments, subscriptions, and billing logic to AI agents and LLM apps with minimal glue code across OpenAI, LangChain, CrewAI, and Vercel AI SDKs.
@@ -77,16 +77,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:35.985Z"
+    updated_at: "2026-07-20T16:43:04.348Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

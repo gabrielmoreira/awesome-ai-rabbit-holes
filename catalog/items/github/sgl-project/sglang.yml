@@ -38,14 +38,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 27142
-    forks: 5731
+    stars: 30546
+    forks: 7292
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: sgl-project/sglang
+    html_url: https://github.com/sgl-project/sglang
     created_at: "2024-01-08T04:15:52Z"
-    pushed_at: "2026-05-06T22:44:27Z"
+    pushed_at: "2026-07-20T15:30:12Z"
     description: SGLang is a high-performance serving framework for large language models and multimodal models.
     homepage: https://sglang.io
     topics:
@@ -67,10 +67,10 @@ metadata:
       - transformer
       - vlm
       - wan
-    last_checked_at: "2026-05-06T22:46:21.556Z"
+    last_checked_at: "2026-07-20T16:42:54.746Z"
     readme:
-      fetched_at: "2026-05-06T22:46:21.556Z"
-      bytes: 10811
+      fetched_at: "2026-07-20T16:42:54.746Z"
+      bytes: 11449
 insights:
   summary: SGLang is a high-performance serving framework for running and scaling large language models and multimodal models locally or in infrastructure.
   why_it_matters: It lets developers self-host and serve modern LLMs and VLMs with optimized inference performance across CUDA, TPU, and Blackwell hardware.
@@ -103,16 +103,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:21.556Z"
+    updated_at: "2026-07-20T16:42:54.746Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

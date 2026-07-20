@@ -24,19 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 587
+    forks: 58
+    license: AGPL-3.0
+    archived: false
+    full_name: samvallad33/vestige
+    html_url: https://github.com/samvallad33/vestige
+    created_at: "2026-01-25T07:31:09Z"
+    pushed_at: "2026-07-18T08:40:14Z"
+    description: "Vestige gives AI agents sharp memory: a local-first Rust MCP server that reaches backward through time to find the quiet change, decision, or service that caused today’s failure, not the lookalike."
+    homepage: https://github.com/samvallad33/vestige
+    topics:
+      - ai-memory
+      - claude
+      - cognitive-science
+      - cursor
+      - embeddings
+      - fsrs
+      - local-first
+      - long-term-memory
+      - mcp
+      - mcp-server
+      - neuroscience
+      - onnx
+      - rust
+      - security
+      - spaced-repetition
+      - sqlite
+      - sveltekit
+      - threejs
+      - vscode
+      - webgpu
+    last_checked_at: "2026-07-20T16:42:50.827Z"
+    readme:
+      fetched_at: "2026-07-20T16:42:50.827Z"
+      bytes: 14891
 insights:
   summary: null
   why_it_matters: null
@@ -51,8 +73,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (587) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,13 +82,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-20T16:42:50.827Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
+    attempts: 0

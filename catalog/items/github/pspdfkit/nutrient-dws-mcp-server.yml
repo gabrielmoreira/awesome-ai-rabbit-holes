@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 63
-    forks: 5
+    stars: 68
+    forks: 6
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: PSPDFKit/nutrient-dws-mcp-server
+    html_url: https://github.com/PSPDFKit/nutrient-dws-mcp-server
     created_at: "2025-05-14T20:12:31Z"
-    pushed_at: "2026-03-25T09:52:17Z"
+    pushed_at: "2026-07-20T01:39:56Z"
     description: A Model Context Protocol (MCP) server implementation that integrates with the Nutrient Document Web Service (DWS) Processor API, providing powerful PDF processing capabilities for AI assistants.
     homepage: null
     topics:
@@ -47,9 +47,9 @@ metadata:
       - openai
       - pdf
       - pdf-processing
-    last_checked_at: "2026-05-06T22:45:58.901Z"
+    last_checked_at: "2026-07-20T16:42:38.306Z"
     readme:
-      fetched_at: "2026-05-06T22:45:58.901Z"
+      fetched_at: "2026-07-20T16:42:38.306Z"
       bytes: 18014
 insights:
   summary: An MCP server that connects AI assistants to the Nutrient Document Web Service API for natural language-driven PDF processing, including conversion, OCR, redaction, and digital signing.
@@ -83,16 +83,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:45:58.901Z"
+    updated_at: "2026-07-20T16:42:38.306Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.653Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

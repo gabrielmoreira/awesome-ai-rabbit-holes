@@ -1,0 +1,96 @@
+id: agents__inc
+kind: website
+name: AGENTS.inc
+canonical_url: https://agents.inc
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__agents__inc__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-20T16:42:15.363Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - AGENTS.inc
+        anchor_text: AGENTS.inc
+        extracted_url: https://agents.inc
+        surrounding_text: "## [AGENTS.inc](https://www.agents.inc/)"
+        confidence: high
+    - id: discovery__www__agents__inc__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - AGENTS.inc
+        anchor_text: AGENTS.inc
+        extracted_url: https://www.agents.inc
+        surrounding_text: "## [AGENTS.inc](https://www.agents.inc/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AGENTS.inc is a no-code SaaS platform providing domain-specific AI agents for business intelligence tasks like news monitoring, patent analysis, and supply chain sourcing.
+  why_it_matters: It offers SDKs and APIs for developers looking to build or integrate custom enterprise knowledge-work agents without managing the underlying infrastructure.
+  mental_damage: Yet another 'reliable AI' platform promising to replace human analysts, ensuring developers can spend their time debugging the integration instead of the hallucinations.
+  tags:
+    - agents
+    - business-intelligence
+    - enterprise
+    - no-code
+    - sdk
+  confidence: high
+curation:
+  status: excluded
+  reason: The platform is a vertical SaaS product for business analysis and market intelligence, not a tool for writing, reviewing, or debugging code.
+  evidence:
+    - Site description focuses on 'strategic intelligence', 'M&A Targeting', and 'EU Policy Watch' rather than code.
+    - Explicitly states 'No Coding Required' and targets business users with '3 clicks' configuration.
+    - Developer access is limited to 'SDKs and APIs' to build new agents, rather than a coding assistant workflow.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-20T16:12:09.715Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: "2026-07-20T17:12:09.713Z"
+  discover:
+    status: done
+    updated_at: "2026-07-20T16:42:15.364Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -37,6 +37,37 @@ provenance:
         extracted_url: https://github.com/nowork-studio/toprank
         surrounding_text: "- **[toprank](https://github.com/nowork-studio/toprank)** – Open-source (MIT) Claude Code plugin with 9 SEO and Google Ads skills. Connects Google Search Console, PageSpeed Insights, and the Google Ads API to audit traffic, ship meta tag and schema markup fixes, and manage ad campaigns directly from Claude Code."
         confidence: high
+    - id: discovery__github__nowork-studio__toprank__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: toprank
+        extracted_url: https://github.com/nowork-studio/toprank
+        surrounding_text: "- **[toprank](https://github.com/nowork-studio/toprank)** `⭐ 1.6k` — Claude Code plugin with 9 SEO and Google Ads skills. Connects Google Search Console, PageSpeed Insights, and the Google Ads API, then ships fixes (meta tags, JSON-LD schema, keyword bids) directly to source code or CMS. Open-source, MIT."
+        confidence: high
+    - id: discovery__github__nowork-studio__toprank__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: toprank
+        extracted_url: https://github.com/nowork-studio/toprank
+        surrounding_text: "- **[toprank](https://github.com/nowork-studio/toprank)** – Open-source (MIT) Claude Code plugin with 9 SEO and Google Ads skills. Connects Google Search Console, PageSpeed Insights, and the Google Ads API to audit traffic, ship meta tag and schema markup fixes, and manage ad campaigns directly from Claude Code."
+        confidence: high
 metadata:
   github:
     stars: 3166
@@ -58,37 +89,35 @@ metadata:
       - mcp
       - metaads
       - seo
-    last_checked_at: "2026-07-20T15:12:06.461Z"
+    last_checked_at: "2026-07-20T16:42:20.706Z"
     readme:
-      fetched_at: "2026-07-20T15:12:06.461Z"
+      fetched_at: "2026-07-20T16:42:20.706Z"
       bytes: 20828
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Claude Code plugin that provides slash-command skills for analyzing and fixing SEO issues, Google Ads, and Meta Ads directly from the terminal.
+  why_it_matters: It lets developers delegate ad-spend diagnostics and technical SEO fixes to their coding agent without leaving the repo workflow.
+  mental_damage: We have finally reached the point where your coding agent pauses mid-session to ask if your Facebook ads are burning cash.
+  tags:
+    - ads
+    - claude-code
+    - plugins
+    - seo
+    - skills
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a reusable skill pack and slash-command library designed specifically for Claude Code, fitting the Agent Skills category.
+  evidence:
+    - "Repo description explicitly states: 'Open-source Claude Code skills for SEO, GEO, Google Ads, Meta Ads'"
+    - README confirms it is a plugin installed via '/plugin marketplace add nowork-studio/toprank' with skills available as '/toprank:*' commands
+    - Canonical positives for the 'skills' category explicitly list 'toprank' as an example
 placement:
-  primary_category: null
-  section: null
+  primary_category: skills
+  section: Domain & Workflow Skill Packs
 lifecycle:
   status: promotion_candidate
-  reason: Stars (3166) exceeded threshold (150)
+  reason: Stars (1718) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-25T05:35:31.721Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-07-20T15:12:06.461Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: deferred
     updated_at: "2026-07-20T16:12:09.719Z"
@@ -97,3 +126,13 @@ processing:
       message: Categorization budget expired before this item was claimed
     next_retry_at: "2026-07-20T17:12:09.713Z"
     attempts: 0
+  discover:
+    status: done
+    updated_at: "2026-05-25T05:35:31.721Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-20T16:42:20.706Z"
+    cause: null
+    next_retry_at: null

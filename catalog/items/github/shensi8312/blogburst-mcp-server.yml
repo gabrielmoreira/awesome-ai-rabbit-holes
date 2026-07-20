@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 3
-    forks: 1
+    stars: 5
+    forks: 2
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: shensi8312/blogburst-mcp-server
+    html_url: https://github.com/shensi8312/blogburst-mcp-server
     created_at: "2026-02-17T13:17:13Z"
     pushed_at: "2026-03-31T10:34:51Z"
     description: Official MCP server for BlogBurst — AI content generation, repurposing, and multi-platform publishing
@@ -43,9 +43,9 @@ metadata:
       - mcp-server
       - model-context-protocol
       - social-media
-    last_checked_at: "2026-05-06T22:46:22.880Z"
+    last_checked_at: "2026-07-20T16:42:55.657Z"
     readme:
-      fetched_at: "2026-05-06T22:46:22.880Z"
+      fetched_at: "2026-07-20T16:42:55.657Z"
       bytes: 3994
 insights:
   summary: An official MCP server that exposes the BlogBurst AI marketing agent's content generation, repurposing, and multi-platform publishing capabilities to MCP-compatible clients like Claude Desktop.
@@ -79,16 +79,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:22.880Z"
+    updated_at: "2026-07-20T16:42:55.657Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.889Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

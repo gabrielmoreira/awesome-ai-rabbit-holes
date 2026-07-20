@@ -24,31 +24,35 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: sentien-labs/verdictswarm-mcp
+    html_url: https://github.com/sentien-labs/verdictswarm-mcp
     created_at: "2026-02-19T06:16:26Z"
-    pushed_at: "2026-04-04T01:43:49Z"
+    pushed_at: "2026-06-26T03:54:15Z"
     description: Fight AI with AI. The security layer for AI agents that touch money — 6 adversarial AI agents debate crypto token risk. MCP server for Claude, Cursor, OpenClaw, Codex.
-    homepage: null
+    homepage: https://vswarm.io
     topics:
+      - agent-security
       - ai-agents
+      - ai-security
       - crypto
+      - crypto-security
       - defi
       - ethereum
       - mcp-server
       - model-context-protocol
+      - open-source
       - rug-pull
       - solana
       - token-scanner
       - verdictswarm
-    last_checked_at: "2026-05-06T22:46:20.824Z"
+    last_checked_at: "2026-07-20T16:42:53.965Z"
     readme:
-      fetched_at: "2026-05-06T22:46:20.824Z"
-      bytes: 8685
+      fetched_at: "2026-07-20T16:42:53.965Z"
+      bytes: 9111
 insights:
   summary: An MCP server that deploys six adversarial AI agents to debate and audit crypto tokens for rug pulls, mint authority, and liquidity risks directly inside Claude, Cursor, and other MCP-compatible clients.
   why_it_matters: It gives trading and crypto-focused agents a dedicated security layer that consolidates on-chain audits, holder analysis, and contrarian AI debate into a single tool call.
@@ -81,16 +85,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:20.824Z"
+    updated_at: "2026-07-20T16:42:53.965Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

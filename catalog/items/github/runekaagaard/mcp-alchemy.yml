@@ -39,20 +39,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 401
-    forks: 61
+    stars: 412
+    forks: 62
     license: MPL-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: runekaagaard/mcp-alchemy
+    html_url: https://github.com/runekaagaard/mcp-alchemy
     created_at: "2024-12-26T14:09:30Z"
     pushed_at: "2025-08-15T07:18:27Z"
     description: A MCP (model context protocol) server that gives the LLM access to and knowledge about relational databases like SQLite, Postgresql, MySQL & MariaDB, Oracle, and MS-SQL.
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:13.572Z"
+    last_checked_at: "2026-07-20T16:42:48.803Z"
     readme:
-      fetched_at: "2026-05-06T22:46:13.572Z"
+      fetched_at: "2026-07-20T16:42:48.803Z"
       bytes: 9387
 insights:
   summary: An MCP server that connects LLMs like Claude Desktop to relational databases including PostgreSQL, MySQL, SQLite, Oracle, and MS SQL Server for schema exploration, SQL generation, and data analysis.
@@ -86,16 +86,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:13.572Z"
+    updated_at: "2026-07-20T16:42:48.803Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T15:12:11.654Z"
+    status: deferred
+    updated_at: "2026-07-20T16:44:20.888Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-20T17:44:20.887Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
