@@ -37,28 +37,9 @@ function buildUserPrompt(prompt: string): Context {
   };
 }
 
-const LEGACY_PI_AI_MODEL_OVERRIDES: Record<string, { provider: string; modelId: string }> = {
-  "cloudflare/@cf/google/gemma-4-26b-a4b-it": { provider: "cloudflare-workers-ai", modelId: "@cf/google/gemma-4-26b-a4b-it" },
-  "cloudflare/@cf/meta/llama-4-scout-17b-16e-instruct": { provider: "cloudflare-workers-ai", modelId: "@cf/meta/llama-4-scout-17b-16e-instruct" },
-  "cloudflare/@cf/moonshotai/kimi-k2.5": { provider: "cloudflare-workers-ai", modelId: "@cf/moonshotai/kimi-k2.5" },
-  "cloudflare/@cf/moonshotai/kimi-k2.6": { provider: "cloudflare-workers-ai", modelId: "@cf/moonshotai/kimi-k2.6" },
-  "cloudflare/@cf/nvidia/nemotron-3-120b-a12b": { provider: "cloudflare-workers-ai", modelId: "@cf/nvidia/nemotron-3-120b-a12b" },
-  "cloudflare/@cf/openai/gpt-oss-120b": { provider: "cloudflare-workers-ai", modelId: "@cf/openai/gpt-oss-120b" },
-  "cloudflare/@cf/openai/gpt-oss-20b": { provider: "cloudflare-workers-ai", modelId: "@cf/openai/gpt-oss-20b" },
-  "cloudflare/@cf/zai-org/glm-4.7-flash": { provider: "cloudflare-workers-ai", modelId: "@cf/zai-org/glm-4.7-flash" },
-  "nvidia/minimaxai/minimax-m2.7": { provider: "minimax", modelId: "MiniMax-M2.7" },
-  "nvidia/moonshotai/kimi-k2-thinking": { provider: "moonshotai", modelId: "kimi-k2-thinking" },
-  "nvidia/moonshotai/kimi-k2.6": { provider: "moonshotai", modelId: "kimi-k2.6" },
-  "nvidia/z-ai/glm-5.1": { provider: "zai", modelId: "glm-5.1" },
-  "nvidia/z-ai/glm4.7": { provider: "zai", modelId: "glm-4.7" },
-};
-
 export function resolvePiAiModelSpec(modelKey: string): { provider: string; modelId: string } | null {
   const normalized = modelKey.trim();
   if (!normalized) return null;
-
-  const override = LEGACY_PI_AI_MODEL_OVERRIDES[normalized];
-  if (override) return override;
 
   const parsed = parsePiFreeModelSpec(normalized);
   if (!parsed) return null;

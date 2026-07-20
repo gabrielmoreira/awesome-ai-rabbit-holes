@@ -27,7 +27,7 @@ afterEach(() => {
 });
 
 describe("pi-free model selection", () => {
-  it("uses the source-controlled fallback order filtered by configured providers", () => {
+  it("uses only supported providers from the source-controlled fallback order", () => {
     const env: PiFreeEnvValues = {
       ...FULLY_CONFIGURED_ENV,
       CLOUDFLARE_API_TOKEN: undefined,
@@ -37,13 +37,13 @@ describe("pi-free model selection", () => {
 
     const ordered = resolvePiFreeOrderedModels(env);
     expect(ordered.slice(0, 5)).toEqual([
-      "nvidia/moonshotai/kimi-k2.6",
-      "nvidia/deepseek-ai/deepseek-v4-pro",
-      "nvidia/z-ai/glm-5.1",
-      "nvidia/z-ai/glm5",
-      "nvidia/minimaxai/minimax-m2.7",
+      "openrouter/google/gemma-4-31b-it:free",
+      "openrouter/google/gemma-4-26b-a4b-it:free",
+      "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+      "openrouter/openai/gpt-oss-120b:free",
+      "openrouter/z-ai/glm-4.5-air:free",
     ]);
-    expect(ordered[0] ?? null).toBe("nvidia/moonshotai/kimi-k2.6");
+    expect(ordered[0] ?? null).toBe("openrouter/google/gemma-4-31b-it:free");
   });
 
   it("keeps the highest-ranked openrouter entries first when only OpenRouter is configured", () => {
@@ -53,18 +53,25 @@ describe("pi-free model selection", () => {
 
     const ordered = resolvePiFreeOrderedModels(env);
     expect(ordered.slice(0, 4)).toEqual([
-      "openrouter/minimax/minimax-m2.5:free",
-      "openrouter/tencent/hy3-preview:free",
       "openrouter/google/gemma-4-31b-it:free",
-      "openrouter/stepfun/step-3.5-flash:free",
+      "openrouter/google/gemma-4-26b-a4b-it:free",
+      "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+      "openrouter/openai/gpt-oss-120b:free",
     ]);
-    expect(ordered[0] ?? null).toBe("openrouter/minimax/minimax-m2.5:free");
+    expect(ordered[0] ?? null).toBe("openrouter/google/gemma-4-31b-it:free");
   });
 
   it("keeps the full static order when every provider is configured", () => {
     const ordered = resolvePiFreeOrderedModels(FULLY_CONFIGURED_ENV);
     expect(ordered.slice(0, 5)).toEqual(PI_FREE_MODEL_CYCLE.slice(0, 5));
     expect(ordered[0] ?? null).toBe(PI_FREE_DEFAULT_MODEL);
+  });
+
+  it("excludes provider aliases unsupported by pi-ai and retired free slugs", () => {
+    expect(PI_FREE_MODEL_CYCLE.some((model) => model.startsWith("nvidia/"))).toBe(false);
+    expect(PI_FREE_MODEL_CYCLE).not.toContain("openrouter/minimax/minimax-m2.5:free");
+    expect(PI_FREE_MODEL_CYCLE).not.toContain("openrouter/tencent/hy3-preview:free");
+    expect(PI_FREE_MODEL_CYCLE).not.toContain("openrouter/stepfun/step-3.5-flash:free");
   });
 
   it("stores recent failures in memory and exposes active records", () => {
@@ -122,6 +129,7 @@ describe("pi-free model selection", () => {
     expect(isPiFreeRetryableError("Connection error.")).toBe(true);
     expect(isPiFreeRetryableError("400 Reasoning is mandatory for this endpoint and cannot be disabled.")).toBe(true);
     expect(isPiFreeRetryableError("429 Provider returned error")).toBe(true);
+    expect(isPiFreeRetryableError("Internal Server Error")).toBe(true);
     expect(isPiFreeRetryableError("403 this model requires a subscription, upgrade for access")).toBe(true);
     expect(isPiFreeRetryableError('Mistral API error (404): {"message":"no Route matched with those values"}')).toBe(true);
     expect(isPiFreeRetryableError("permission denied")).toBe(false);

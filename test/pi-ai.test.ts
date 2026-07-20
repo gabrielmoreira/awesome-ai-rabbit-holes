@@ -16,10 +16,6 @@ describe("pi-ai model aliases", () => {
       provider: "cloudflare-workers-ai",
       modelId: "@cf/moonshotai/kimi-k2.6",
     });
-    expect(resolvePiAiModelSpec("nvidia/moonshotai/kimi-k2.6")).toEqual({
-      provider: "moonshotai",
-      modelId: "kimi-k2.6",
-    });
     expect(resolvePiAiModelSpec("openrouter/openai/gpt-oss-120b:free")).toEqual({
       provider: "openrouter",
       modelId: "openai/gpt-oss-120b:free",
