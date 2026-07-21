@@ -22,6 +22,31 @@ const FULLY_CONFIGURED_ENV: PiFreeEnvValues = {
   MISTRAL_API_KEY: "mi-key",
 };
 
+const EXPECTED_PI_FREE_MODEL_CYCLE = [
+  "cloudflare/@cf/moonshotai/kimi-k2.6",
+  "mistral/mistral-medium-2604",
+  "openrouter/google/gemma-4-31b-it:free",
+  "openrouter/google/gemma-4-26b-a4b-it:free",
+  "cloudflare/@cf/google/gemma-4-26b-a4b-it",
+  "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+  "cloudflare/@cf/nvidia/nemotron-3-120b-a12b",
+  "cloudflare/@cf/openai/gpt-oss-120b",
+  "mistral/mistral-small-2603",
+  "mistral/mistral-large-2512",
+  "openrouter/openai/gpt-oss-20b:free",
+  "cloudflare/@cf/openai/gpt-oss-20b",
+  "openrouter/nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "openrouter/nvidia/nemotron-3-nano-30b-a3b:free",
+  "openrouter/nvidia/nemotron-nano-9b-v2:free",
+  "cloudflare/@cf/meta/llama-4-scout-17b-16e-instruct",
+  "openrouter/nvidia/nemotron-nano-12b-v2-vl:free",
+  "openrouter/poolside/laguna-m.1:free",
+] as const;
+
+const EXPECTED_OPENROUTER_MODEL_ORDER = EXPECTED_PI_FREE_MODEL_CYCLE.filter((model) =>
+  model.startsWith("openrouter/")
+);
+
 afterEach(() => {
   resetPiFreeRecentFailures();
 });
@@ -36,14 +61,7 @@ describe("pi-free model selection", () => {
     };
 
     const ordered = resolvePiFreeOrderedModels(env);
-    expect(ordered.slice(0, 5)).toEqual([
-      "openrouter/google/gemma-4-31b-it:free",
-      "openrouter/google/gemma-4-26b-a4b-it:free",
-      "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-      "openrouter/openai/gpt-oss-120b:free",
-      "openrouter/z-ai/glm-4.5-air:free",
-    ]);
-    expect(ordered[0] ?? null).toBe("openrouter/google/gemma-4-31b-it:free");
+    expect(ordered).toEqual(EXPECTED_OPENROUTER_MODEL_ORDER);
   });
 
   it("keeps the highest-ranked openrouter entries first when only OpenRouter is configured", () => {
@@ -52,26 +70,22 @@ describe("pi-free model selection", () => {
     };
 
     const ordered = resolvePiFreeOrderedModels(env);
-    expect(ordered.slice(0, 4)).toEqual([
-      "openrouter/google/gemma-4-31b-it:free",
-      "openrouter/google/gemma-4-26b-a4b-it:free",
-      "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
-      "openrouter/openai/gpt-oss-120b:free",
-    ]);
-    expect(ordered[0] ?? null).toBe("openrouter/google/gemma-4-31b-it:free");
+    expect(ordered).toEqual(EXPECTED_OPENROUTER_MODEL_ORDER);
   });
 
-  it("keeps the full static order when every provider is configured", () => {
+  it("keeps the exact static order when every provider is configured", () => {
     const ordered = resolvePiFreeOrderedModels(FULLY_CONFIGURED_ENV);
-    expect(ordered.slice(0, 5)).toEqual(PI_FREE_MODEL_CYCLE.slice(0, 5));
+    expect(PI_FREE_MODEL_CYCLE).toEqual(EXPECTED_PI_FREE_MODEL_CYCLE);
+    expect(ordered).toEqual(EXPECTED_PI_FREE_MODEL_CYCLE);
     expect(ordered[0] ?? null).toBe(PI_FREE_DEFAULT_MODEL);
   });
 
-  it("excludes provider aliases unsupported by pi-ai and retired free slugs", () => {
+  it("excludes aliases and retired free model ids", () => {
+    const staleModelPattern =
+      /latest|openrouter\/openai\/gpt-oss-120b:free|glm-4\.5-air|ling[-.]?2\.6|qwen3-(?:next|coder)|llama-3\.3|trinity|cloudflare\/@cf\/moonshotai\/kimi-k2\.5/i;
+
     expect(PI_FREE_MODEL_CYCLE.some((model) => model.startsWith("nvidia/"))).toBe(false);
-    expect(PI_FREE_MODEL_CYCLE).not.toContain("openrouter/minimax/minimax-m2.5:free");
-    expect(PI_FREE_MODEL_CYCLE).not.toContain("openrouter/tencent/hy3-preview:free");
-    expect(PI_FREE_MODEL_CYCLE).not.toContain("openrouter/stepfun/step-3.5-flash:free");
+    expect(PI_FREE_MODEL_CYCLE.some((model) => staleModelPattern.test(model))).toBe(false);
   });
 
   it("stores recent failures in memory and exposes active records", () => {
@@ -135,8 +149,8 @@ describe("pi-free model selection", () => {
     expect(isPiFreeRetryableError("permission denied")).toBe(false);
   });
 
-  it("exports a non-empty bootstrap cycle", () => {
-    expect(PI_FREE_MODEL_CYCLE.length).toBeGreaterThan(50);
+  it("exports the complete exact-version bootstrap cycle", () => {
+    expect(PI_FREE_MODEL_CYCLE).toHaveLength(EXPECTED_PI_FREE_MODEL_CYCLE.length);
   });
 });
 

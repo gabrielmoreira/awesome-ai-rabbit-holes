@@ -16,9 +16,9 @@ describe("pi-ai model aliases", () => {
       provider: "cloudflare-workers-ai",
       modelId: "@cf/moonshotai/kimi-k2.6",
     });
-    expect(resolvePiAiModelSpec("openrouter/openai/gpt-oss-120b:free")).toEqual({
+    expect(resolvePiAiModelSpec("openrouter/google/gemma-4-31b-it:free")).toEqual({
       provider: "openrouter",
-      modelId: "openai/gpt-oss-120b:free",
+      modelId: "google/gemma-4-31b-it:free",
     });
   });
 });
