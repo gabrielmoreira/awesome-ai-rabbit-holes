@@ -39,23 +39,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:45.456Z"
       bytes: 6298
 insights:
-  summary: LangChain.js is a TypeScript framework for building LLM-powered applications by chaining together modular components, models, embeddings, and third-party integrations.
-  why_it_matters: It provides a standard interface for rapid prototyping and production-ready AI features while keeping model and provider choices interchangeable as the ecosystem evolves.
-  mental_damage: Another day, another abstraction layer promising to future-proof your stack, ensuring you will rewrite your entire AI pipeline the moment a shinier agent framework drops next week.
+  summary: LangChain.js is a TypeScript/JavaScript framework for building LLM-powered applications with composable components and integrations.
+  why_it_matters: It lets developers rapidly prototype and productionize AI applications by swapping models, tools, and data sources without rewriting core logic.
+  mental_damage: You’ll spend more time reading LangChain’s abstraction layers than writing actual prompts, wondering if ‘chain’ is just a fancy word for ‘callback hell’.
   tags:
-    - typescript
+    - ai-framework
     - llm
-    - framework
-    - agents
-    - chain
+    - typescript
+    - agent-building
   confidence: high
 curation:
   status: included
-  reason: The product is a code-first library and SDK used by developers to build LLM applications, making it a canonical fit for Frameworks & SDKs rather than an operated control plane or a standalone coding agent.
+  reason: LangChain.js is a code-first framework developers import and script against to build LLM applications, not a standalone agent or orchestrator.
   evidence:
-    - Repo description explicitly states 'The agent engineering platform' and README positions it as a framework for building LLM-powered applications.
-    - Developers install it via npm and import it as a library in Node.js, Cloudflare Workers, Vercel, and browser environments.
-    - Canonical positives for ai-frameworks include the Python version of LangChain, and the JavaScript version follows the same SDK-first identity.
+    - "Repo description: 'The agent engineering platform'"
+    - "README: 'LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations'"
+    - "Created at: 2023-02-06, pushed at: 2026-07-20, stars: 17965, not archived"
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:57.215Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:53fee00cdf9633174fe6d9d96b6bcbaaef774c55e8fb33509ddbb48b5ad14b45
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: LangChain.js is a code-first framework developers import and script against to build LLM applications, not a standalone agent or orchestrator.
+      decision_evidence:
+        - "Repo description: 'The agent engineering platform'"
+        - "README: 'LangChain is a framework for building LLM-powered applications. It helps you chain together interoperable components and third-party integrations'"
+        - "Created at: 2023-02-06, pushed at: 2026-07-20, stars: 17965, not archived"
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers primarily import and program against LangChain.js as a library/SDK rather than operating it as a control plane or runtime platform.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,15 +39,13 @@ metadata:
       fetched_at: "2026-07-16T05:05:00.140Z"
       bytes: 2312
 insights:
-  summary: FauxPilot is a self-hosted inference server that runs local code generation models (like Salesforce CodeGen) behind an API compatible with GitHub Copilot clients.
-  why_it_matters: It allows developers to run AI code completion locally using their own hardware, offering a privacy-focused alternative to cloud-hosted Copilot without sending code to external servers.
-  mental_damage: Trade your proprietary SaaS subscription for the privilege of debugging Docker containers, CUDA versions, and VRAM constraints just to get the same autocomplete suggestions.
+  summary: FauxPilot is an open-source self-hosted alternative to GitHub Copilot that serves AI code completions model service.
+  why_it_matters: It lets developers run code completion locally without relying on GitHub’s cloud service, offering privacy and offline access to AI-assisted coding.
+  mental_damage: Now you get to worry about VRAM instead of subscription fees.
   tags:
     - local-ai
-    - self-hosted
-    - codegen
-    - copilot-alternative
-    - nvidia
+    - coding-assistant
+    - open-source
   confidence: high
 curation:
   status: included
@@ -58,10 +56,10 @@ curation:
     - Client configuration supports OpenAI API and Copilot Plugin standards to connect local models to editors.
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (14742) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'coding-agents'"
 processing:
   discover:
     status: done
@@ -74,12 +72,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:55:42.348Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6c3b218230fb818f455987e4a67950ffc4d5e16181f7155a2f1210708f6fde95
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: FauxPilot functions as a standalone coding assistant that provides AI-powered code completions via a self-hosted server, fitting the role of a developer-facing agent that edits code in IDEs or editors.
+      decision_evidence:
+        - "Repo description: 'FauxPilot - an open-source alternative to GitHub Copilot server'"
+        - "README: Uses SalesForce CodeGen models in Triton Inference Server to provide Copilot-like code completions"
+        - Clients can be configured via OpenAI API, Copilot Plugin, or REST API to integrate with editors
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because FauxPilot acts as the primary coding assistant providing completions, not as an add-on that enhances another agent’s capabilities.
+      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'coding-agents'"
+      review_resume_lifecycle: null

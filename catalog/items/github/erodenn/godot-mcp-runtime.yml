@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:57.296Z"
       bytes: 14690
 insights:
-  summary: A lightweight TypeScript MCP server that gives AI assistants runtime control over Godot 4.x games via input simulation, screenshots, UI discovery, and live GDScript execution without requiring project addons.
-  why_it_matters: It allows coding agents to close the loop on game development by actually playing and inspecting the running game, rather than stopping at file edits and hoping for the best.
-  mental_damage: "We've successfully automated the one part of game development that wasn't already pure suffering: watching a godot window simulate its own existence while an LLM learns it can't jump."
+  summary: A TypeScript MCP server that provides AI assistants with runtime control over the Godot 4.x game engine via a lightweight TCP bridge.
+  why_it_matters: It enables AI agents to close the development loop by interacting with a running game—simulating input and verifying visual/logic state—rather than just editing scripts.
+  mental_damage: Finally, an agent that can actually check if your physics engine is broken instead of just confidently hallucinating that the code works.
   tags:
     - mcp
     - godot
     - game-dev
-    - runtime
-    - testing
+    - runtime-control
+    - typescript
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: a standalone MCP server providing Godot-specific runtime tools, directly analogous to playwright-mcp but for game engines."
+  reason: The product identity is explicitly an MCP server designed to extend an assistant's capabilities into a specific domain (Godot runtime).
   evidence:
-    - Repo description explicitly calls it 'a lightweight, zero-footprint TypeScript MCP server'.
-    - README positions it as 'an MCP server' and compares it to 'Playwright MCP' for the Godot ecosystem.
-    - Listed in awesome-mcp-servers under Server Implementations > Gaming, confirming MCP-first identity.
+    - Description explicitly states it is a 'TypeScript MCP server'
+    - README emphasizes the MCP implementation as the core delivery mechanism
+    - Functionality focuses on providing tools (screenshots, input, UI discovery) to an external host
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:59.285Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5fc2fa31d4965fbaba1fc6edb33bc6a5a275b43d936e55248a0c27b8bb97279d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is explicitly an MCP server designed to extend an assistant's capabilities into a specific domain (Godot runtime).
+      decision_evidence:
+        - Description explicitly states it is a 'TypeScript MCP server'
+        - README emphasizes the MCP implementation as the core delivery mechanism
+        - Functionality focuses on providing tools (screenshots, input, UI discovery) to an external host
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is specifically an MCP server designed to facilitate protocol-based tool use, rather than a general IDE/assistant integration.
+      review_reason: null
+      review_resume_lifecycle: null

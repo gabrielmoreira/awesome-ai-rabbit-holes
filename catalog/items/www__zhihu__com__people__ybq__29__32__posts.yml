@@ -36,21 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A personal Zhihu profile page collecting LLM and AI resource posts, linked from a general-purpose LLM resources awesome list.
-  why_it_matters: It surfaces tutorials and curated pointers across coding assistants, agents, and model tooling for developers exploring the ecosystem.
-  mental_damage: Another reminder that the difference between a curated learning path and an open browser tab with 47 bookmarks is mostly vibes.
+  summary: A personal profile page on Zhihu, a Chinese Q&A and content platform.
+  why_it_matters: It does not matter to developers as it is not a developer tool or resource.
+  mental_damage: Another link that turns out to be someone's social media profile instead of the promised AI tool.
   tags:
-    - llm-resources
-    - tutorials
-    - reading-list
+    - non-developer-content
+    - social-media
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal publication feed on Zhihu, not a developer tool, directory, or product, and belongs in educational media rather than this catalog.
+  reason: This is a personal profile on a general Q&A platform, not a developer-facing AI tool, framework, or resource.
   evidence:
-    - URL is a Zhihu user posts page (https://www.zhihu.com/people/ybq-29-32/posts), not a tool or directory.
-    - Seen only in awesome-LLM-resources under a tutorials section, not as a standalone developer product.
-    - No repo description, README, stars, or product artifact is provided that would indicate a tool.
+    - URL points to a Zhihu user profile page
+    - Scraped context confirms it is a Chinese Q&A/community platform, not a tool or product
+    - No repo, code, or developer-tooling identity present
 placement:
   primary_category: null
   section: null
@@ -68,12 +67,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:29.822Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d3a7ab9692c2301d1000441ff3b158ae5e047d1a83793baefb085c81bd6cecfa
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a personal profile on a general Q&A platform, not a developer-facing AI tool, framework, or resource.
+      decision_evidence:
+        - URL points to a Zhihu user profile page
+        - Scraped context confirms it is a Chinese Q&A/community platform, not a tool or product
+        - No repo, code, or developer-tooling identity present
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

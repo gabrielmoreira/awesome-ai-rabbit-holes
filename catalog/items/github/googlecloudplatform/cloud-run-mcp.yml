@@ -43,23 +43,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:10.192Z"
       bytes: 13299
 insights:
-  summary: An official Google Cloud MCP server that enables AI agents to deploy, list, and inspect Cloud Run services directly from the CLI, IDEs, or agent SDKs.
-  why_it_matters: It lets developers skip the gcloud yak-shaving and hand deployment duties straight to their AI assistant, turning Cloud Run into a native agent tool.
-  mental_damage: We have officially reached the point where your AI agent needs its own IAM permissions just to fail a deployment that you could have copy-pasted from the documentation.
+  summary: MCP server that enables AI agents to deploy applications to Google Cloud Run.
+  why_it_matters: Developers can deploy code to Cloud Run directly from AI-powered IDEs, CLIs, or agent SDKs without leaving their workflow.
+  mental_damage: Now your AI can spin up cloud services faster than you can explain why they’re needed.
   tags:
     - mcp
-    - google-cloud
     - cloud-run
     - deployment
-    - cli
+    - google-cloud
+    - ai-agents
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server for Cloud Run, explicitly listed in the official awesome-mcp-servers directory, making it a canonical fit for the MCP Servers & Tooling category.
+  reason: The product is an MCP server whose primary identity is providing Cloud Run deployment capabilities to MCP-compatible agents.
   evidence:
-    - "Repo description states: 'MCP server to deploy apps to Cloud Run'."
-    - README explicitly shows MCP server configuration and lists tools like deploy-local-folder and list-services.
-    - Found in awesome-mcp-servers under 'Official Servers' section.
+    - Repo description explicitly states it is an MCP server for Cloud Run deployments
+    - README details MCP tools like deploy-file-contents, list-services, and deploy-local-folder
+    - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -78,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:41.218Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:aa0786e4445869dfe2a654c56422a3b54521f408314773840b16237b03fe7927
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server whose primary identity is providing Cloud Run deployment capabilities to MCP-compatible agents.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Cloud Run deployments
+        - README details MCP tools like deploy-file-contents, list-services, and deploy-local-folder
+        - Listed in awesome-mcp-servers under Official Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

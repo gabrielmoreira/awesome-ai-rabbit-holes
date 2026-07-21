@@ -49,23 +49,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:06.897Z"
       bytes: 2439
 insights:
-  summary: auto-sklearn is an Automated Machine Learning (AutoML) toolkit that acts as a drop-in replacement for scikit-learn estimators to automate algorithm selection and hyperparameter tuning.
-  why_it_matters: It allows data scientists to achieve competitive model performance with minimal manual tuning by handling the search over algorithms and hyperparameters automatically.
-  mental_damage: It solves the 'which model should I tune for three weeks' problem by letting you write four lines of code, effectively automating yourself out of a job you probably didn't enjoy anyway.
+  summary: Automated Machine Learning toolkit and drop-in replacement for scikit-learn estimators.
+  why_it_matters: It automates model selection and hyperparameter tuning for developers using scikit-learn, reducing manual effort in ML workflows.
+  mental_damage: Finally, a way to let the machine figure out the machine learning for you—until you realize you still need to understand it all to debug the automator.
   tags:
     - automl
     - scikit-learn
+    - hyperparameter-tuning
     - machine-learning
-    - classification
-    - regression
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional machine learning library for model training, not a developer-facing AI tool, agent, or infrastructure component for software development.
+  reason: This is a general AutoML library for scikit-learn, not a developer-tooling product focused on coding agents, workflows, or AI-assisted development.
   evidence:
-    - Repo description explicitly identifies it as 'Automated Machine Learning with scikit-learn', a traditional ML domain.
-    - README demonstrates a standard scikit-learn API fit/predict workflow, not a coding agent or developer tool.
-    - Listed in Awesome-LLMOps under 'AutoML', which focuses on ML ops rather than the AI coding tools scope of this catalog.
+    - "Repo description: 'Automated Machine Learning with scikit-learn'"
+    - "README: 'drop-in replacement for a scikit-learn estimator'"
+    - "Topics: automl, hyperparameter-optimization, meta-learning"
 placement:
   primary_category: null
   section: null
@@ -84,12 +83,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:34.004Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a39103cb6866339f3f79c1574a5dca696370abf554d1aaa6379112190e1a3f3f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a general AutoML library for scikit-learn, not a developer-tooling product focused on coding agents, workflows, or AI-assisted development.
+      decision_evidence:
+        - "Repo description: 'Automated Machine Learning with scikit-learn'"
+        - "README: 'drop-in replacement for a scikit-learn estimator'"
+        - "Topics: automl, hyperparameter-optimization, meta-learning"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -41,23 +41,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:06.186Z"
       bytes: 8093
 insights:
-  summary: An archived MCP server that lets Claude and other MCP-compatible clients pull marketing insights, audience demographics, and influencer data from Audiense Insights accounts.
-  why_it_matters: It demonstrates how MCP can connect LLMs to niche SaaS APIs, allowing developers to prototype marketing-analytics workflows without writing custom glue code.
-  mental_damage: We have successfully abstracted away the last barrier between a developer and extracting Twitter influencer affinity scores via a deprecated Node server.
+  summary: An archived MCP server that enabled Claude and other MCP-compatible clients to interact with Audiense Insights for marketing audience analysis.
+  why_it_matters: It provided developers with a way to integrate Audiense's audience analytics into AI workflows via MCP, though it has since been deprecated.
+  mental_damage: Nothing says 'stable ecosystem' like a 5-month-old repo already archived and pointing users to a proprietary remote model.
   tags:
     - mcp
-    - marketing
-    - analytics
-    - audiense
-    - archived
+    - audience-analytics
+    - deprecated
+    - marketing-tools
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and deprecated by the maintainers, who have migrated the functionality to a remote MCP model, meaning this codebase is no longer a usable or maintained developer tool.
+  reason: The repository is archived and explicitly marked as deprecated, with the README redirecting users to a proprietary remote MCP solution.
   evidence:
-    - Repo description confirms it is an MCP server for Audiense Insights.
-    - README contains a 'Deprecated' warning stating the repo is no longer maintained and the functionality migrated to a remote model.
-    - GitHub metadata shows the repo is archived.
+    - "Repo is archived (archived: true)"
+    - README explicitly states 'Deprecated' and 'no longer maintained'
+    - Migration to a proprietary remote MCP is announced
 placement:
   primary_category: null
   section: null
@@ -76,12 +75,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:21.697Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:60ff0bba2551346df1a0813eefce59838fdaac801c2e3d4d5f7130cd789b2237
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is archived and explicitly marked as deprecated, with the README redirecting users to a proprietary remote MCP solution.
+      decision_evidence:
+        - "Repo is archived (archived: true)"
+        - README explicitly states 'Deprecated' and 'no longer maintained'
+        - Migration to a proprietary remote MCP is announced
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

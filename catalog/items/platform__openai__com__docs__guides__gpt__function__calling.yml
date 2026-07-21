@@ -37,23 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpenAI's official documentation guide for function calling, which explains how to connect GPT models to external tools via JSON schema definitions.
-  why_it_matters: It is the foundational reference for developers implementing structured tool use and agentic workflows using the OpenAI API.
-  mental_damage: We have built an entire multi-billion dollar agent ecosystem on top of a JSON schema feature buried in a docs page that everyone links to but no one actually finishes reading.
+  summary: OpenAI's official documentation for function calling, enabling LLMs to connect to external data and systems via API.
+  why_it_matters: It provides developers with a standardized way to extend LLM capabilities by defining and invoking external functions.
+  mental_damage: Now you can argue with your model about whether it actually called the right function or just hallucinated the JSON.
   tags:
     - openai
     - function-calling
-    - docs
-    - tool-use
-    - api
+    - api-docs
+    - llm-integration
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation page for an API feature, not a standalone developer tool, agent, framework, or product.
+  reason: This is official API documentation, not a standalone developer tool or product.
   evidence:
-    - The URL points to platform.openai.com/docs/guides, indicating this is a documentation guide rather than a tool or repo.
-    - Seen in awesome-ai-agents lists, but source-list context is evidence, not destiny for non-product entries.
-    - No repo description, stars, or code artifacts provided; it is an auxiliary resource page.
+    - The URL and scraped context confirm this is OpenAI's official docs page for function calling
+    - The content is purely documentation, not a tool, library, or runtime
 placement:
   primary_category: null
   section: null
@@ -71,12 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:30.134Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e5821c4f04a81d06692a92314d2ef2a28fe64cdbdb97a599ceee82f747721b7a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is official API documentation, not a standalone developer tool or product.
+      decision_evidence:
+        - The URL and scraped context confirm this is OpenAI's official docs page for function calling
+        - The content is purely documentation, not a tool, library, or runtime
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,15 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A desktop workspace that runs AI coding agents like Claude Code, OpenAI Codex, and OpenCode in isolated terminal sessions with built-in git workflows, PR review, and timeline checkpointing.
-  why_it_matters: It unifies multi-agent coding, git operations, and environment isolation into a single desktop UI so developers can run parallel agents without clobbering local state or switching tools.
-  mental_damage: You now have a dedicated desktop app to manage the three different AI agents you’re running simultaneously because none of them can quite finish the job on their own.
+  summary: A desktop AI coding workspace where agents run in real terminals, enabling code generation, PR reviews, and git workflows with multi-agent support.
+  why_it_matters: It consolidates AI coding agent workflows (Claude Code, OpenAI Codex, OpenCode) into a single desktop app with isolated workspaces, git integration, and PR review capabilities.
+  mental_damage: Finally, a way to have five different AI agents argue over your code in parallel, each with their own isolated timeline of regret.
   tags:
-    - desktop
+    - ai-coding
+    - desktop-app
     - multi-agent
-    - git-workflow
-    - terminal
-    - workspace
+    - git-integration
+    - pr-review
   confidence: high
 curation:
   status: included
@@ -55,10 +55,10 @@ curation:
     - Listed in awesome-mcp-servers but the product description shows it is a desktop workspace, not an MCP server.
 placement:
   primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-ides-editors'"
 processing:
   discover:
     status: done
@@ -70,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:20.789Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d2d0fd376b004630b1b336ba830a93ae5a033bbc69c699d372e547b0af6a9885
+      proposed_primary_category: ai-ides-editors
+      disagreement: true
+      decision_reason: The primary product is a desktop development environment (AI-native workspace) that integrates coding agents, git workflows, and PR review into a unified surface, fitting the IDE/Editor category better than a pure coding agent or extension.
+      decision_evidence:
+        - Product is a desktop app for AI coding agents with built-in git workflows and PR review
+        - Supports multiple agents (Claude Code, OpenAI Codex, OpenCode) in isolated sessions
+        - Core value is the workspace/IDE surface, not just agent orchestration or extension capabilities
+      category_candidates:
+        - ai-ides-editors
+        - agent-orchestration
+      contrastive_reason: Choose ai-ides-editors over agent-orchestration because the main product identity is the desktop workspace/IDE surface rather than a control plane for coordinating agents.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-ides-editors'"
+      review_resume_lifecycle: null

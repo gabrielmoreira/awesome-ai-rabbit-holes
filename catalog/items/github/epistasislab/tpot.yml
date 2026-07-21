@@ -59,23 +59,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:56.696Z"
       bytes: 12949
 insights:
-  summary: TPOT is a Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming to automate model selection and hyperparameter tuning.
-  why_it_matters: It acts as a 'Data Science Assistant' that automates the tedious trial-and-error of building ML pipelines, allowing developers to generate optimized scikit-learn code without manual tuning.
-  mental_damage: "The automation singularity is progressing nicely: first it took our jobs writing boilerplate CRUD, now it’s coming for the data scientists who spent years meticulously overfitting their gradient boosting parameters."
+  summary: A Python Automated Machine Learning tool that optimizes machine learning pipelines using genetic programming.
+  why_it_matters: It automates the construction and tuning of ML pipelines, reducing manual effort for data scientists and developers working on predictive modeling.
+  mental_damage: Finally, a way to let evolution do your hyperparameter tuning so you can spend more time explaining to stakeholders why your model still isn’t perfect.
   tags:
     - automl
-    - machine-learning
     - python
+    - machine-learning
+    - pipeline-optimization
     - genetic-programming
-    - data-science
   confidence: high
 curation:
   status: excluded
-  reason: TPOT is a traditional Automated Machine Learning (AutoML) library for data science and model optimization, lacking the developer workflow, coding agent, or AI-infrastructure angle required for this catalog.
+  reason: TPOT is a data science/ML pipeline automation tool, not a developer-tooling product for software development workflows (coding, IDEs, agents, etc.).
   evidence:
-    - Repo description defines it as 'A Python Automated Machine Learning tool that optimizes machine learning pipelines', targeting data science rather than software development tooling.
-    - README positions TPOT as a 'Data Science Assistant' focused on model selection, feature engineering, and hyperparameter optimization using genetic programming.
-    - Source list context places it in an 'AutoML' section for 'Awesome-LLMOps', confirming its identity as a traditional ML library rather than a modern LLM/agent developer tool.
+    - Repo description explicitly states it is a Python Automated Machine Learning tool for optimizing ML pipelines
+    - README positions it as a 'Data Science Assistant' for pipeline automation, not code editing or repo workflows
+    - Source-list context (Awesome-LLMOps) places it under AutoML, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -94,12 +94,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:38.977Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:13570eeb8a59a6ff8c94e24e8117ececffaa972010a9472caded1c4b1eda2028
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: TPOT is a data science/ML pipeline automation tool, not a developer-tooling product for software development workflows (coding, IDEs, agents, etc.).
+      decision_evidence:
+        - Repo description explicitly states it is a Python Automated Machine Learning tool for optimizing ML pipelines
+        - README positions it as a 'Data Science Assistant' for pipeline automation, not code editing or repo workflows
+        - Source-list context (Awesome-LLMOps) places it under AutoML, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

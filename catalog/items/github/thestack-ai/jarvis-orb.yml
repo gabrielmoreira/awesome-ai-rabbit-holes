@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4
-    forks: 1
+    stars: 16
+    forks: 2
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: TheStack-ai/jarvis-orb
+    html_url: https://github.com/TheStack-ai/jarvis-orb
     created_at: "2026-03-16T02:27:57Z"
     pushed_at: "2026-04-28T02:52:44Z"
     description: See AI thinking in real time — 3D orb that visualizes Claude Code reasoning. Free, open-source MCP server
@@ -55,9 +55,9 @@ metadata:
       - rust
       - tauri
       - threejs
-    last_checked_at: "2026-05-06T22:46:48.088Z"
+    last_checked_at: "2026-07-21T15:20:47.889Z"
     readme:
-      fetched_at: "2026-05-06T22:46:48.088Z"
+      fetched_at: "2026-07-21T15:20:47.889Z"
       bytes: 7843
 insights:
   summary: A Rust + Tauri desktop app and MCP server that gives Claude Code and other assistants persistent multi-tier memory plus a real-time 3D orb visualization of AI reasoning.
@@ -91,16 +91,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:48.088Z"
+    updated_at: "2026-07-21T15:20:47.889Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -37,21 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A marketing page showcasing example use cases for Julius AI, a conversational data analysis platform.
-  why_it_matters: Developers evaluating AI tools need to understand whether a platform supports their specific workflow before investing time in integration.
-  mental_damage: We've reached the point where reading a list of bullet points about what an AI might do counts as 'researching developer tooling'.
+  summary: A landing page for Julius AI showcasing its use cases.
+  why_it_matters: It provides examples of how Julius AI can be applied, but does not itself constitute a developer tool.
+  mental_damage: Another marketing page pretending to be a product.
   tags:
-    - marketing-page
-    - data-analysis
-    - auxiliary-resource
+    - marketing
+    - use-cases
   confidence: high
 curation:
   status: excluded
-  reason: This is a marketing auxiliary page (use_cases) for Julius AI, not a standalone developer tool, framework, or product that fits our catalog scope.
+  reason: This is a marketing page for Julius AI, not a standalone developer tool or product.
   evidence:
-    - URL points to a sub-page (julius.ai/use_cases) rather than a product or repo root.
-    - Classified in source list as 'Julius > Description', indicating it is descriptive marketing content.
-    - No repo description, README, or code artifacts provided to suggest a developer tool.
+    - URL points to a use-cases page, not a repo or tool
+    - No repo description, stars, or code artifacts provided
+    - Source-list context only references it as a description under Julius
 placement:
   primary_category: null
   section: null
@@ -69,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:44.589Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:64695900d4177ba5b44c8f67cdf8bb744ec126bd67cc5e9ad243c11492138941
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a marketing page for Julius AI, not a standalone developer tool or product.
+      decision_evidence:
+        - URL points to a use-cases page, not a repo or tool
+        - No repo description, stars, or code artifacts provided
+        - Source-list context only references it as a description under Julius
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

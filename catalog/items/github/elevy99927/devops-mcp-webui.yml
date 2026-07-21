@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:55.449Z"
       bytes: 11333
 insights:
-  summary: A bridge that connects OpenWebUI to Kubernetes clusters via the MCP protocol, enabling natural language management of pods, deployments, and Helm charts.
-  why_it_matters: It lets developers query and control Kubernetes clusters conversationally through a local chat interface instead of context-switching to kubectl and Helm docs.
-  mental_damage: You now have a local chat UI that can scale your deployments to five replicas, which is fantastic until you realize you still have to explain Kubernetes to the model.
+  summary: An MCP server that bridges OpenWebUI to Kubernetes clusters, enabling natural language cluster management.
+  why_it_matters: Lets developers interact with Kubernetes clusters through conversational AI in OpenWebUI, abstracting kubectl/Helm commands into plain language.
+  mental_damage: Now you can ask your cluster to 'scale my deployment to 5 replicas' instead of remembering the exact kubectl incantation—until it misinterprets 'replicas' as 'replica sets'.
   tags:
-    - kubernetes
     - mcp
+    - kubernetes
     - openwebui
     - devops
-    - self-hosted
-  confidence: medium
+    - natural-language
+  confidence: high
 curation:
   status: included
-  reason: This is an MCP server that exposes Kubernetes cluster management (kubectl, Helm) as tools to MCP-compatible clients like OpenWebUI, fitting cleanly as a domain-specific MCP server.
+  reason: "MCP is the product identity: this is a server implementation that exposes Kubernetes tools via the MCP protocol."
   evidence:
-    - "Repo description: 'Bridge connecting OpenWebUI to Kubernetes clusters via MCP protocol'"
-    - "README: exposes tools like kubectl_get, kubectl_apply, and helm_install to OpenWebUI via an MCP bridge"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'
+    - Repo description explicitly states it is a 'Bridge connecting OpenWebUI to Kubernetes clusters via MCP protocol'
+    - README details MCP server setup and tool registration in OpenWebUI
+    - Already listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:09.956Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c6aff2f9b7a255b13cc4b96360a21a22c125003d1821899ca9988219c26c9c80
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a server implementation that exposes Kubernetes tools via the MCP protocol."
+      decision_evidence:
+        - Repo description explicitly states it is a 'Bridge connecting OpenWebUI to Kubernetes clusters via MCP protocol'
+        - README details MCP server setup and tool registration in OpenWebUI
+        - Already listed in awesome-mcp-servers under 'Server Implementations > Cloud Platforms'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server exposing Kubernetes tools, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

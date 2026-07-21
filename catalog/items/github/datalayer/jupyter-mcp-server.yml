@@ -62,23 +62,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:29.524Z"
       bytes: 17005
 insights:
-  summary: An MCP server that lets AI coding assistants connect to and interact with Jupyter notebooks in real-time for cell execution, output feedback, and notebook management.
-  why_it_matters: It gives coding agents and MCP clients direct, context-aware access to running notebooks, bridging interactive data science work with AI-driven development workflows.
-  mental_damage: Yet another glorious layer in the stack where your AI agent can now debug a notebook it can't see by talking to a server that talks to a kernel that may or may not still be alive.
+  summary: An MCP server that enables AI clients to connect and manage Jupyter Notebooks in real-time.
+  why_it_matters: Developers can integrate Jupyter notebooks directly into MCP-compatible AI workflows, enabling real-time notebook control, execution, and context-aware interactions.
+  mental_damage: Now your AI can spin up a notebook, run cells, and stare at the same kernel errors you do—progress.
   tags:
     - mcp
     - jupyter
-    - notebook
-    - data-science
-    - integration
+    - notebooks
+    - real-time
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: this is explicitly an MCP server for Jupyter, not a general framework or extension for another assistant."
+  reason: The product is explicitly an MCP server for Jupyter, making MCP its primary identity and purpose.
   evidence:
-    - "Repo description states: 'Model Context Protocol (MCP) Server for Jupyter.'"
-    - README says it is 'An MCP server developed for AI to connect and manage Jupyter Notebooks in real-time' and works with Claude Desktop, Cursor, Windsurf.
-    - Listed in awesome-mcp-servers under Data Science Tools and in awesome-agent-orchestration under MCP > Development & Tools.
+    - "Repo description: 'Model Context Protocol (MCP) Server for Jupyter'"
+    - "README: 'An MCP server developed for AI to connect and manage Jupyter Notebooks in real-time'"
+    - Listed in awesome-mcp-servers under 'Data Science Tools'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -97,12 +97,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:53.379Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8e0c9791b3558c8d3c48403aaadf7ea9e3775c68262fac100c08eab457a9a303
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server for Jupyter, making MCP its primary identity and purpose.
+      decision_evidence:
+        - "Repo description: 'Model Context Protocol (MCP) Server for Jupyter'"
+        - "README: 'An MCP server developed for AI to connect and manage Jupyter Notebooks in real-time'"
+        - Listed in awesome-mcp-servers under 'Data Science Tools'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

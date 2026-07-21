@@ -44,26 +44,24 @@ metadata:
       fetched_at: "2026-07-20T15:11:55.437Z"
       bytes: 2685
 insights:
-  summary: An MCP server that connects AI assistants like Claude and ChatGPT to Obsidian vaults for searching, reading, and analyzing personal notes.
-  why_it_matters: Developers can wire their personal knowledge management directly into coding assistants, letting AI reference local notes, meeting logs, and research without leaving the chat.
-  mental_damage: We have successfully bridged the gap between 'write code' and 'read my half-finished Zettelkasten at 2am', ensuring your AI can now be just as distracted by your notes as you are.
+  summary: An MCP server that connects AI assistants like Claude and ChatGPT to an Obsidian vault for searching, reading, and analyzing personal notes.
+  why_it_matters: Lets developers query their personal knowledge base using natural language from within AI coding assistants, reducing context switching.
+  mental_damage: Now your AI pair programmer can judge your half-baked Zettelkasten in real time.
   tags:
     - mcp
     - obsidian
-    - pkm
-    - context
-    - memory
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that gives AI assistants access to Obsidian vaults, fitting cleanly into MCP Servers & Tooling as a domain-specific server.
+  reason: The product is an MCP server whose core identity is exposing Obsidian data via the Model Context Protocol, making MCP the primary product identity rather than a mere compatibility feature.
   evidence:
-    - Repo description explicitly states 'obsidian MCP' and the README identifies it as an 'Obsidian MCP Server'.
-    - Source list context places it in awesome-mcp-servers under 'Knowledge & Memory' servers.
-    - The tool connects Claude, ChatGPT, and other AI assistants to Obsidian via MCP to search, read, and analyze notes.
+    - "Repo description: 'wire your brain to AGI through the best obsidian MCP'"
+    - "README: Provides MCP server configuration for Claude Desktop, Claude Code, and Cursor to connect to Obsidian vault"
+    - "Functionality: Enables AI assistants to search, read, and analyze notes in Obsidian via the MCP protocol"
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -79,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:21.640Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9f7b26a25cba4f81716732cda26ed4e1a32142c684c82c47aa7279090eb48a26
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server whose core identity is exposing Obsidian data via the Model Context Protocol, making MCP the primary product identity rather than a mere compatibility feature.
+      decision_evidence:
+        - "Repo description: 'wire your brain to AGI through the best obsidian MCP'"
+        - "README: Provides MCP server configuration for Claude Desktop, Claude Code, and Cursor to connect to Obsidian vault"
+        - "Functionality: Enables AI assistants to search, read, and analyze notes in Obsidian via the MCP protocol"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's main value is providing MCP infrastructure to connect AI to Obsidian, not merely extending another assistant with host integrations.
+      review_reason: null
+      review_resume_lifecycle: null

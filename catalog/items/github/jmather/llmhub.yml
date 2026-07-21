@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:25.233Z"
       bytes: 2301
 insights:
-  summary: LLMHub is a lightweight CLI and REST API for managing, starting, stopping, and interacting with self-hosted language models locally.
-  why_it_matters: It gives developers a single control surface to run multiple local LLMs with OpenAI-compatible endpoints, simplifying local inference testing and integration.
-  mental_damage: Yet another wrapper promising to tame local model chaos, because clearly what the ecosystem needed was more YAML files to manage the tools managing the models.
+  summary: LLMHub is a lightweight CLI and REST API platform for managing, starting, stopping, and interacting with multiple language models.
+  why_it_matters: It lets developers run and switch between different LLMs with varying configurations and context sizes without manual setup overhead.
+  mental_damage: Because nothing says 'productivity' like spending an afternoon configuring yet another LLM runtime.
   tags:
-    - local-ai
-    - cli
     - llm-management
-    - self-hosted
+    - cli
+    - rest-api
+    - local-inference
   confidence: medium
 curation:
   status: included
-  reason: The project is a developer tool for running and managing local LLMs via CLI and REST API, matching the Local AI category's focus on local runtimes and serving stacks.
+  reason: The core product is a local runtime/serving layer for managing LLMs, which fits the Local AI category better than frameworks or orchestration.
   evidence:
-    - Repo description states it is a management platform with CLI and REST API to manage, start, stop, and interact with LLMs locally.
-    - README includes OpenAI-compatible API endpoints and YAML configuration for running models with engines like llamacppserver.
-    - Created in 2024-08 and last pushed in 2024-11, showing it is a recent project, though with low stars (9).
+    - Repo description explicitly calls it a 'lightweight management platform' for LLMs with CLI/REST API
+    - Supports running multiple models with different configurations (local inference focus)
+    - Not archived, recent pushes (2024-11-23)
 placement:
   primary_category: local-ai
   section: Local Serving / APIs
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:45.931Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f7dfa42ab0f6839667f027ea49037ef613bc13975259e91f8ad7eca63b9d30fb
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: The core product is a local runtime/serving layer for managing LLMs, which fits the Local AI category better than frameworks or orchestration.
+      decision_evidence:
+        - Repo description explicitly calls it a 'lightweight management platform' for LLMs with CLI/REST API
+        - Supports running multiple models with different configurations (local inference focus)
+        - Not archived, recent pushes (2024-11-23)
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because the primary identity is a local serving/management platform rather than a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

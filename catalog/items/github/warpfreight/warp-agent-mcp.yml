@@ -24,19 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: warpfreight/warp-agent-mcp
+    html_url: https://github.com/warpfreight/warp-agent-mcp
+    created_at: "2026-05-20T04:31:32Z"
+    pushed_at: "2026-07-03T06:35:16Z"
+    description: MCP server for the Warp freight API. Quote, book, and track LTL/FTL shipments from any MCP-compatible AI agent.
+    homepage: https://wearewarp.com
+    topics: []
+    last_checked_at: "2026-07-21T15:21:10.022Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:10.022Z"
+      bytes: 7849
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +62,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:21:10.022Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

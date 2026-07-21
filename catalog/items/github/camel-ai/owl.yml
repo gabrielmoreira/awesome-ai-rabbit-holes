@@ -44,15 +44,14 @@ metadata:
       fetched_at: "2026-07-20T05:17:17.472Z"
       bytes: 29252
 insights:
-  summary: OWL is a multi-agent collaboration framework built on CAMEL-AI that automates real-world tasks using dynamic agent interactions and toolkits like MCP and Playwright.
-  why_it_matters: It provides developers with a structured way to build and run specialized agent teams that can interact with the web, use multimodal inputs, and tackle complex automation workflows.
-  mental_damage: Yet another framework promising to orchestrate the perfect digital workforce, just in case your current problem is that you don't have enough autonomous agents arguing with each other in a Python environment.
+  summary: OWL is a multi-agent system framework for general task automation and real-world workforce learning.
+  why_it_matters: It enables developers to build and coordinate multiple AI agents for complex workflow automation beyond single-assistant coding.
+  mental_damage: Because nothing says 'productivity' like an army of agents arguing over who gets to close the Jira ticket.
   tags:
     - multi-agent
-    - automation
-    - camel-ai
-    - mcp
-    - framework
+    - task-automation
+    - workforce-learning
+    - agent-orchestration
   confidence: high
 curation:
   status: included
@@ -63,10 +62,10 @@ curation:
     - Developers interact by importing/building with the library (e.g., 'Basic Usage', 'Customizing Your Configuration') rather than operating a hosted UI platform.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (19747) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -79,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:37.281Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:25694ca8897376b2191b5e2e9eada0c550656e944150d6e1724e39dd191eb30c
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: OWL's core value is coordinating multiple agents for task automation, fitting the agent orchestration category as a workforce platform.
+      decision_evidence:
+        - Repo description explicitly states 'General Multi-Agent Assistance in Real-World Task Automation'
+        - Topics include 'multi-agent-systems' and 'task-automation'
+        - Source-list context places it in 'Agents' section of a curated LLM resources list
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated multi-agent system rather than a code-first library.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

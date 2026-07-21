@@ -36,21 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Qoder is an AI-powered agentic coding platform for real software development, offering intelligent code generation and conversation-based programming.
-  why_it_matters: It positions itself as a primary coding assistant, allowing developers to delegate repo work through conversational interactions and automated code generation.
-  mental_damage: Another Tuesday, another 'agentic' platform promising to refactor your legacy codebase while you wonder if 'conversation-based programming' is just a fancy term for arguing with a chatbot until the tests pass.
+  summary: Qoder is an AI coding platform offering intelligent code completion, conversational programming, and automatic code generation with IDE integrations.
+  why_it_matters: It provides developers with an autonomous coding assistant that integrates with mainstream IDEs like VS Code and JetBrains, aiming to streamline code generation and task execution.
+  mental_damage: Another day, another AI assistant promising to 'redefine how work gets done'—this time with multi-agent collaboration and 26-hour execution marathons.
   tags:
-    - coding-agent
-    - ai-platform
-    - code-generation
-  confidence: medium
+    - ai-coding-assistant
+    - ide-integration
+    - multi-agent
+    - autonomous-development
+  confidence: high
 curation:
   status: included
-  reason: The product presents itself as a standalone 'agentic coding platform' and 'AI-powered coding assistant', fitting the primary coding assistant identity rather than an extension or framework.
+  reason: Qoder is a primary coding assistant that directly reads, plans, edits, and executes code, fitting the core definition of a coding agent rather than an extension or IDE.
   evidence:
-    - Scraped site title identifies it as an 'AI Coding Assistant - Agentic Coding Platform'.
-    - Description claims it is 'an AI-powered agentic coding platform for real software development'.
-    - Included in awesome-ai-coding-tools under the section 'Code Editors and Assistants'.
+    - Described as an 'AI programming platform' with 'intelligent code completion, AI conversational programming, and automatic code generation'
+    - Supports mainstream IDEs like VS Code and JetBrains, positioning it as a primary assistant rather than a thin extension
+    - Includes autonomous development features like multi-agent collaboration and goal-oriented loops
 placement:
   primary_category: coding-agents
   section: IDE-Native Assistants
@@ -68,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:50.549Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4b396f47350327523515e1f35d74a7b1f6027b3f6a7c48140e8616e1009543e0
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Qoder is a primary coding assistant that directly reads, plans, edits, and executes code, fitting the core definition of a coding agent rather than an extension or IDE.
+      decision_evidence:
+        - Described as an 'AI programming platform' with 'intelligent code completion, AI conversational programming, and automatic code generation'
+        - Supports mainstream IDEs like VS Code and JetBrains, positioning it as a primary assistant rather than a thin extension
+        - Includes autonomous development features like multi-agent collaboration and goal-oriented loops
+      category_candidates:
+        - coding-agents
+        - ai-ides-editors
+      contrastive_reason: Choose coding-agents over ai-ides-editors because Qoder's primary identity is as a coding assistant that integrates with IDEs, not as a standalone IDE or editor surface.
+      review_reason: null
+      review_resume_lifecycle: null

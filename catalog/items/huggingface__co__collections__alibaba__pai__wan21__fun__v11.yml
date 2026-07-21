@@ -37,23 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A collection of Wan2.1-Fun-V1.1 text-to-video models from Alibaba-PAI, ranging from 1.3B to 14B parameters, hosted on Hugging Face.
-  why_it_matters: It provides developers with readily accessible, scalable video generation checkpoints for building multimodal applications.
-  mental_damage: Another day, another collection of multi-billion parameter video models reminding us that our 'coding agents' still can't reliably center a div.
+  summary: A Hugging Face collection of Wan2.1-Fun-V1.1 text-to-video models by Alibaba PAI.
+  why_it_matters: It provides developers with access to state-of-the-art text-to-video generation models for creative or experimental projects.
+  mental_damage: Another day, another model collection that makes you question whether you should be building products or just watching AI-generated videos.
   tags:
     - text-to-video
-    - multimodal
+    - model-collection
+    - alibaba-pai
     - huggingface
-    - alibaba
-    - generative-models
   confidence: high
 curation:
   status: excluded
-  reason: This is a collection of raw model checkpoints for video generation, which falls outside the catalog's scope of developer-facing tooling, infrastructure, and workflows.
+  reason: This is a collection of text-to-video models, not a developer tool, framework, or workflow product within the catalog's scope.
   evidence:
-    - The collection consists of 'Text-to-Video' models (1.3B to 14B) hosted on Hugging Face, not developer tools.
-    - Source list context 'awesome-LLM-resources' categorizes this under '视频 Video > 模型' (Video Models), not developer tooling.
-    - No README or description suggests a coding workflow, IDE integration, framework, or developer infrastructure.
+    - The page is a Hugging Face collection of text-to-video models (e.g., Wan2.1-Fun-V1.1-14B-Control, Wan2.1-Fun-V1.1-1.3B-InP)
+    - The primary identity is a model collection, not a tool, SDK, or developer-facing workflow
+    - Source-list context places it under '视频 Video > 模型' (Video > Models), reinforcing its model-centric identity
 placement:
   primary_category: null
   section: null
@@ -71,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:40.927Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:351221336103697b9573661190d99dbc4f34b89ce28a0b4ddb223b3b9795ce10
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a collection of text-to-video models, not a developer tool, framework, or workflow product within the catalog's scope.
+      decision_evidence:
+        - The page is a Hugging Face collection of text-to-video models (e.g., Wan2.1-Fun-V1.1-14B-Control, Wan2.1-Fun-V1.1-1.3B-InP)
+        - The primary identity is a model collection, not a tool, SDK, or developer-facing workflow
+        - Source-list context places it under '视频 Video > 模型' (Video > Models), reinforcing its model-centric identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

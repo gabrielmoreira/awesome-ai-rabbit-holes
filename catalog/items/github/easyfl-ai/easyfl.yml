@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:54.241Z"
       bytes: 6087
 insights:
-  summary: EasyFL is a low-code federated learning platform built on PyTorch for experimenting with and prototyping FL applications with minimal coding.
-  why_it_matters: It lets developers quickly simulate cross-silo and cross-device federated scenarios, migrate existing CV or NLP models to FL, and run distributed or remote training with just a few lines of code.
-  mental_damage: Yet another reminder that the hardest part of machine learning isn't the math, it's the smug satisfaction of calling three lines of PyTorch wrapper code 'low-code' while your actual production data remains stubbornly centralized.
+  summary: An easy-to-use, low-code federated learning platform based on PyTorch for prototyping and researching FL applications.
+  why_it_matters: It lowers the barrier to experimenting with federated learning by providing out-of-the-box datasets, models, and algorithms with minimal coding.
+  mental_damage: Finally, a way to do federated learning without needing a PhD in distributed systems—just three lines of code and a prayer.
   tags:
     - federated-learning
     - pytorch
-    - ml-platform
     - low-code
+    - ml-research
   confidence: high
 curation:
   status: excluded
-  reason: The project is a traditional federated learning research platform for ML training, not a developer-facing AI coding tool, agent, or infrastructure product within the catalog's scope.
+  reason: Federated learning platforms are outside the catalog's scope, which focuses on AI tools, agents, and workflows directly relevant to software development rather than ML research infrastructure.
   evidence:
-    - Repo description states it is 'An easy-to-use federated learning platform', focused on ML research and FL applications.
-    - README emphasizes enabling users to experiment and prototype federated learning (CV/NLP) with PyTorch, not assisting with software development workflows.
-    - Listed in Awesome-LLMOps under 'Federated ML', which is a research/infrastructure topic rather than a developer tooling category.
+    - Repo description explicitly identifies it as a federated learning platform
+    - README emphasizes FL research, POCs, and industrial prototypes as primary use cases
+    - Source-list context places it under Federated ML, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -73,12 +73,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:55.277Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6d9ef900a02fa54bf443dd19eaafe0ea1f8877f99d8d9d3e27b7bf5a46a8e574
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Federated learning platforms are outside the catalog's scope, which focuses on AI tools, agents, and workflows directly relevant to software development rather than ML research infrastructure.
+      decision_evidence:
+        - Repo description explicitly identifies it as a federated learning platform
+        - README emphasizes FL research, POCs, and industrial prototypes as primary use cases
+        - Source-list context places it under Federated ML, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

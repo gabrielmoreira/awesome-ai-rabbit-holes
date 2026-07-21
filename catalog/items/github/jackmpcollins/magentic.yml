@@ -68,23 +68,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:17.661Z"
       bytes: 20732
 insights:
-  summary: A Python library that uses decorators like @prompt and @chatprompt to define LLM-powered functions with structured outputs using Pydantic and multi-provider support.
-  why_it_matters: It lets developers treat LLM calls as typed, testable Python functions with native streaming, retries, and observability instead of managing raw API payloads.
-  mental_damage: You can now quietly ship multi-agent systems that look exactly like normal Python functions, making it even harder to explain to your team where the actual logic lives.
+  summary: A Python library that integrates LLMs as functions using decorators for structured outputs, function calling, and agentic workflows.
+  why_it_matters: Developers can embed LLM-powered functions directly into Python code with type safety, streaming, and tool-use patterns, simplifying agentic system construction.
+  mental_damage: Now you can write Python functions that don’t exist, and the LLM will pretend they do—until it doesn’t.
   tags:
     - python
-    - llm
+    - llm-integration
+    - agent-framework
     - pydantic
-    - structured-output
-    - agents
+    - decorators
   confidence: high
 curation:
   status: included
-  reason: The project is a code-first library and SDK that developers import and script against to build LLM-powered functions and agentic systems in Python.
+  reason: Core identity is a code-first SDK for embedding LLMs into Python workflows, not a standalone assistant or host integration.
   evidence:
-    - Repo description states 'Seamlessly integrate LLMs as Python functions' and README shows decorator-based usage (@prompt, @chatprompt).
-    - Included in awesome-langchain under 'Other LLM Frameworks' and Awesome-LLMOps under 'LLMOps'.
-    - Active development with last push in 2026-03-11 and 2406 stars; MIT licensed and not archived.
+    - "Repo description: 'Seamlessly integrate LLMs as Python functions'"
+    - README emphasizes decorators, structured outputs, and agentic systems as library features
+    - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -103,12 +103,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:21.920Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b3df36acb5f53ecd6e2073a5ef5be28d77883df1c6c02b7b7d6af295b2fe08c1
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: Core identity is a code-first SDK for embedding LLMs into Python workflows, not a standalone assistant or host integration.
+      decision_evidence:
+        - "Repo description: 'Seamlessly integrate LLMs as Python functions'"
+        - README emphasizes decorators, structured outputs, and agentic systems as library features
+        - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is a library developers import and script against, not an operated workbench or runtime platform.
+      review_reason: null
+      review_resume_lifecycle: null

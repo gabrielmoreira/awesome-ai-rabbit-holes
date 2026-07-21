@@ -36,26 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI teammate that integrates into VS Code and Cursor, using 14 specialized agents to plan, build, test, debug, and deploy full-stack React and Node.js applications from prompts.
-  why_it_matters: It attempts to bridge the gap between AI prototyping and production-ready apps by providing integrated debugging tools and deployment workflows directly inside the developer's IDE.
-  mental_damage: Another valiant attempt to convince us that describing a CRUD app in English is the new 'writing code,' while we prepare for the glorious day our AI teammates debug themselves into an infinite loop.
+  summary: Pazi is an AI-powered platform for building and deploying applications from natural language descriptions.
+  why_it_matters: It enables developers to create functional apps or tools by describing what they want in plain language, reducing the need for manual coding.
+  mental_damage: Finally, a way to turn your half-baked app ideas into fully-baked technical debt.
   tags:
-    - coding-agent
-    - vscode-extension
-    - full-stack
-    - ai-teammate
-    - debugging
-  confidence: high
+    - app-builder
+    - prompt-to-app
+    - ai-platform
+  confidence: medium
 curation:
   status: included
-  reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
+  reason: The product's core value is turning prompts into deployed applications, which aligns with the app-builders category.
   evidence:
-    - Describes itself as 'your AI teammate inside VS Code or Cursor' powered by specialized agents.
-    - Source list 'awesome-ai-coding-tools' categorizes it under 'Coding Agents'.
-    - Claims to handle 'planning, writing code, reviewing, testing, debugging, and deploying full-stack web apps'.
+    - Site title and context indicate it is a platform named Pazi
+    - Description implies a focus on building/deploying from natural language
+    - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
@@ -70,12 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:23.287Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5398fce2322730a0fc9465116dced7b5fb30dff1d0b8d2c2466482ee9aa627a4
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product's core value is turning prompts into deployed applications, which aligns with the app-builders category.
+      decision_evidence:
+        - Site title and context indicate it is a platform named Pazi
+        - Description implies a focus on building/deploying from natural language
+        - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the primary workflow is prompt-to-app rather than repo editing or debugging.
+      review_reason: null
+      review_resume_lifecycle: null

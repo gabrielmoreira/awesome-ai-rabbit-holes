@@ -39,20 +39,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 278
-    forks: 130
+    stars: 341
+    forks: 161
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: XeroAPI/xero-mcp-server
+    html_url: https://github.com/XeroAPI/xero-mcp-server
     created_at: "2025-03-17T02:29:58Z"
-    pushed_at: "2026-05-04T23:14:09Z"
+    pushed_at: "2026-06-05T06:52:56Z"
     description: An MCP server that integrates with the MCP protocol. https://modelcontextprotocol.io/introduction
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-12T15:06:40.024Z"
+    last_checked_at: "2026-07-21T15:21:17.023Z"
     readme:
-      fetched_at: "2026-05-12T15:06:40.024Z"
+      fetched_at: "2026-07-21T15:21:17.023Z"
       bytes: 9351
 insights:
   summary: null
@@ -78,16 +78,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-12T15:06:40.024Z"
+    updated_at: "2026-07-21T15:21:17.023Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

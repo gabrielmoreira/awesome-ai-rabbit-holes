@@ -36,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Portkey is a unified LLM gateway and observability platform for managing, routing, and monitoring model requests across providers.
-  why_it_matters: It gives developers a single control point to switch providers, handle fallbacks, and trace usage without rewriting model integration code.
-  mental_damage: Yet another abstraction layer so you can feel virtuous about vendor independence while still panicking over why your latency graph looks like a cardiogram.
+  summary: Portkey.ai is a platform for LLMOps, providing tools and infrastructure for managing and operating large language models in production.
+  why_it_matters: It helps developers deploy, monitor, and scale LLM applications with observability and control features tailored for production workflows.
+  mental_damage: Because nothing says 'production-ready' like another layer of abstraction between you and the models you’re already struggling to debug.
   tags:
     - llmops
-    - gateway
     - observability
-    - provider-abstraction
-  confidence: medium
+    - production-ai
+    - model-management
+  confidence: high
 curation:
-  status: included
-  reason: The product is a developer-facing gateway and SDK used to programmatically route and observe LLM requests, fitting best as a provider abstraction framework rather than an agent, extension, or orchestration platform.
+  status: excluded
+  reason: Portkey.ai is primarily an LLMOps platform for production model management, which falls outside the catalog's focus on developer-facing coding tools, agents, and workflows.
   evidence:
-    - Seen in Awesome-LLMOps under the LLMOps section, indicating strong developer-infrastructure positioning.
-    - Homepage and name point to a hosted gateway/product identity rather than a local tool, coding agent, or list.
-    - No repository metadata available, but the product surface is clearly a provider middleware and observability layer.
+    - Source-list context places it in Awesome-LLMOps under LLMOps
+    - No repo description or README excerpt suggests a developer-tooling angle beyond ops infrastructure
 placement:
-  primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:36.706Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:803c680fa5b35ca3987b4309a3f4a72d60a118f11cbe2d55b24a315d24b07e06
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Portkey.ai is primarily an LLMOps platform for production model management, which falls outside the catalog's focus on developer-facing coding tools, agents, and workflows.
+      decision_evidence:
+        - Source-list context places it in Awesome-LLMOps under LLMOps
+        - No repo description or README excerpt suggests a developer-tooling angle beyond ops infrastructure
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

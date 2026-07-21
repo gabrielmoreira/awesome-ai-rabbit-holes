@@ -53,22 +53,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:19.938Z"
       bytes: 19796
 insights:
-  summary: A Telegram MCP server powered by Telethon that exposes 80+ Telegram account, chat, message, contact, and media operations to MCP-compatible clients like Claude and Cursor.
-  why_it_matters: It lets developers automate Telegram account management, chat analysis, and messaging workflows directly from their AI coding assistants instead of writing custom API scripts.
-  mental_damage: We have finally achieved the singularity where your coding agent can now argue with your group chat and manage your Telegram channels without you ever touching the actual app.
+  summary: A Telegram MCP server that exposes Telegram account, chat, message, contact, media, and admin operations to MCP-compatible clients like Claude and Cursor.
+  why_it_matters: Lets developers integrate Telegram messaging and group management directly into their AI coding workflows via MCP.
+  mental_damage: Now your AI can not only write your code but also manage your group chats—because why should your bot stop at your repo?
   tags:
     - mcp
     - telegram
+    - messaging
     - integration
-    - automation
+    - python
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server that exposes Telegram operations as tools, making MCP the core product identity rather than a compatibility footnote.
+  reason: "MCP is the product identity here: it is a dedicated MCP server for Telegram, not just an adapter or compatibility feature."
   evidence:
-    - Repo description explicitly states 'Telegram MCP server powered by Telethon'
-    - README lists 80+ MCP tools for Telegram operations and shows configuration for Claude Desktop and Cursor
-    - Included in awesome-mcp-servers under 'Server Implementations > Communication'
+    - Repo description explicitly states it is a 'Telegram MCP server'
+    - README confirms it exposes Telegram operations via MCP for clients like Claude and Cursor
+    - Already listed in awesome-mcp-servers under 'Communication' section
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -87,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:37.321Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e4c874e1488ee89541099d83b0ef4a516c9c9787af7ee5ee05d9ba01ffba5cd2
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: it is a dedicated MCP server for Telegram, not just an adapter or compatibility feature."
+      decision_evidence:
+        - Repo description explicitly states it is a 'Telegram MCP server'
+        - README confirms it exposes Telegram operations via MCP for clients like Claude and Cursor
+        - Already listed in awesome-mcp-servers under 'Communication' section
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

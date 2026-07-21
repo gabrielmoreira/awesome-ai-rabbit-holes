@@ -1,0 +1,108 @@
+id: reddit__com__r__chatgptcoding
+kind: website
+name: ChatGPTCoding
+canonical_url: https://reddit.com/r/ChatGPTCoding
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__reddit__com__r__chatgptcoding__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Community
+        anchor_text: ChatGPTCoding
+        extracted_url: https://reddit.com/r/ChatGPTCoding
+        surrounding_text: "- [ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/)"
+        confidence: high
+    - id: discovery__www__reddit__com__r__chatgptcoding__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Community
+        anchor_text: ChatGPTCoding
+        extracted_url: https://www.reddit.com/r/ChatGPTCoding
+        surrounding_text: "- [ChatGPTCoding](https://www.reddit.com/r/ChatGPTCoding/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Reddit community focused on ChatGPT coding discussions and resources.
+  why_it_matters: Provides a space for developers to share tips, workflows, and discoveries related to using ChatGPT for coding tasks.
+  mental_damage: Another place to argue about whether AI can write a for-loop without hallucinating a semicolon.
+  tags:
+    - community
+    - chatgpt
+    - discussion
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a community forum, not a developer tool, framework, or product in the catalog's scope.
+  evidence:
+    - URL points to a Reddit community (r/ChatGPTCoding)
+    - Source-list context labels it as 'Community' in an awesome list
+    - No repo, codebase, or product identity—purely a discussion space
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:41.649Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:82df5145986a8e3a0a9aee31826508e11fdc6a84d5f5cf6a9371677f0a9ae5ba
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a community forum, not a developer tool, framework, or product in the catalog's scope.
+      decision_evidence:
+        - URL points to a Reddit community (r/ChatGPTCoding)
+        - Source-list context labels it as 'Community' in an awesome list
+        - No repo, codebase, or product identity—purely a discussion space
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.969Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -36,25 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Uizard is an AI-assisted UI design platform that generates editable mobile app, web app, and website mockups from text prompts, screenshots, or hand-drawn wireframes.
-  why_it_matters: It allows developers and product teams to rapidly generate clickable UI prototypes and scaffolds from prompts, serving as a visual starting point before implementation begins.
-  mental_damage: Another tool promising that you can 'build an app in seconds without code or design,' ensuring developers will still be asked why the shipped product doesn't look like the AI-generated mockup.
+  summary: AI-powered UI design platform for generating app, website, and desktop software mockups from text prompts, screenshots, or sketches.
+  why_it_matters: Enables rapid prototyping and iteration for product teams, designers, and developers by turning natural language or visual inputs into editable UI designs.
+  mental_damage: Now you can watch stakeholders generate 10 conflicting UI directions in the time it used to take to explain why that’s a bad idea.
   tags:
     - ui-design
     - prototyping
-    - prompt-to-app
-    - figma-integration
-  confidence: medium
+    - prompt-to-design
+    - no-code
+    - product-teams
+  confidence: high
 curation:
-  status: included
-  reason: The primary workflow is turning prompts into app designs, sites, and mockups rather than editing an existing repository or acting as a coding assistant.
+  status: excluded
+  reason: Uizard is a prompt-to-UI design tool for product teams and designers, not a developer-facing coding tool or workflow infrastructure.
   evidence:
-    - Scraped site context describes 'Generate projects, screens, and themes' and 'turn a boring text prompt into a complete UI design'.
-    - Source list awesome-ai-coding-tools includes it under 'UI Generators' with the description 'UI design for apps, websites, and desktop software in minutes'.
-    - "Testimonials confirm the workflow: 'I made an app mockup in 2 minutes... typing a text prompt generates the UI'."
+    - Primary product is UI/UX design generation (mockups, wireframes, prototypes) from prompts/screenshots/sketches
+    - Target audience includes product managers, designers, marketers, and startups—not developers editing repos
+    - Source-list context places it under 'UI Generators' in a coding tools list, but the tool itself is not developer-tooling
 placement:
-  primary_category: app-builders
-  section: Prompt-to-App Builders
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:25.417Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c86881847e4b174aebe899274720f235ce9e50ed9b274358a338f5b6838ae879
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Uizard is a prompt-to-UI design tool for product teams and designers, not a developer-facing coding tool or workflow infrastructure.
+      decision_evidence:
+        - Primary product is UI/UX design generation (mockups, wireframes, prototypes) from prompts/screenshots/sketches
+        - Target audience includes product managers, designers, marketers, and startups—not developers editing repos
+        - Source-list context places it under 'UI Generators' in a coding tools list, but the tool itself is not developer-tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -68,23 +68,21 @@ metadata:
       fetched_at: "2026-07-20T15:11:46.394Z"
       bytes: 11024
 insights:
-  summary: LangWatch is a platform for end-to-end LLM evaluations, AI agent testing, and production observability, supporting OpenTelemetry-native tracing, simulations, and prompt optimization loops.
-  why_it_matters: It gives teams a unified workflow to regression-test agents, trace failures, and manage prompt versions before and after deployment without building custom eval tooling.
-  mental_damage: You can now scientifically prove that your agent fails consistently, which is somehow more stressful than when you just didn't know.
+  summary: LangWatch is a platform for LLM evaluations, AI agent testing, and observability with simulation, tracing, prompt optimization, and an AI gateway for governance.
+  why_it_matters: It gives developers end-to-end visibility and control over agent behavior, enabling regression testing and production monitoring without custom tooling.
+  mental_damage: Another observability platform promising to eliminate tool sprawl while adding yet another layer to your AI stack.
   tags:
-    - llm-evals
+    - evals
     - observability
-    - agent-testing
-    - prompt-ops
     - llmops
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, simulating, tracing, and regression-testing LLM and agent behavior, which maps directly to the Evals & Benchmarks category.
+  reason: LangWatch centers on evaluating, tracing, and optimizing LLM agents through simulation, dataset-driven testing, and prompt/model iteration, matching the evals category's focus on measuring agent behavior.
   evidence:
-    - "Repo description states: 'The platform for LLM evaluations and AI agent testing.'"
-    - "README emphasizes eval loop: 'Trace → dataset → evaluate → optimize prompts/models → re-test.'"
-    - Included in Awesome-LLMOps under LLMOps section, confirming developer ops tooling fit.
+    - "Repo description: 'The platform for LLM evaluations and AI agent testing'"
+    - "README: 'Run realistic scenarios against your full stack... pinpoint where your agents break'"
+    - "README: 'Eval + observability + prompts in one loop → Trace → dataset → evaluate → optimize prompts/models → re-test'"
 placement:
   primary_category: evals
   section: Observability / Tracing / EvalOps
@@ -103,12 +101,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:09.788Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:19185b9cc5c6a7342a47ebc62636ab61a2d3ef7fba7659aab916e1f6d11e531c
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: LangWatch centers on evaluating, tracing, and optimizing LLM agents through simulation, dataset-driven testing, and prompt/model iteration, matching the evals category's focus on measuring agent behavior.
+      decision_evidence:
+        - "Repo description: 'The platform for LLM evaluations and AI agent testing'"
+        - "README: 'Run realistic scenarios against your full stack... pinpoint where your agents break'"
+        - "README: 'Eval + observability + prompts in one loop → Trace → dataset → evaluate → optimize prompts/models → re-test'"
+      category_candidates:
+        - evals
+        - context-engineering
+      contrastive_reason: Choose evals over context-engineering because LangWatch’s core is end-to-end agent evaluation, simulation, and observability loops—not memory, retrieval, or prompt management as the primary novelty.
+      review_reason: null
+      review_resume_lifecycle: null

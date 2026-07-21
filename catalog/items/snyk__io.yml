@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Snyk is a commercial security platform that scans code, dependencies, containers, and infrastructure for vulnerabilities, now expanded with AI-native workflows and governance for AI-generated code and agents.
-  why_it_matters: It integrates security scanning directly into the development lifecycle, helping teams catch vulnerable dependencies and insecure AI-generated code before it ships.
-  mental_damage: The promise of autonomous, AI-driven security defense is comforting until you realize the AI writing the insecure code and the AI scanning it are now locked in a high-speed race to see who breaks production first.
+  summary: Snyk is a security platform that validates AI-generated code, agents, and AI-native applications for vulnerabilities and governance.
+  why_it_matters: It addresses the growing need to secure AI-generated code and agentic workflows, which often introduce vulnerabilities at machine speed.
+  mental_damage: Now you can finally sleep at night knowing your AI agents aren’t secretly shipping log4j 3.0.
   tags:
     - security
-    - ai-generated-code
-    - sast
-    - devsecops
+    - ai-code
     - governance
+    - vulnerability-scanning
   confidence: high
 curation:
   status: excluded
-  reason: Snyk is a broad commercial application security SaaS platform focused on vulnerability scanning and governance, not a developer-facing AI coding tool, agent, or workflow enhancer that fits the catalog's scope.
+  reason: Snyk is a broad security platform (SaaS) for AI-generated code and agents, not a developer-tooling product in the catalog's scope (coding agents, IDEs, extensions, frameworks, etc.).
   evidence:
-    - Scraped site describes a 'AI Security Fabric' and 'platform' covering Snyk Code, Open Source, Container, IaC, and DAST, not AI coding assistance.
-    - Source list placed it in 'Code Review and Refactoring', but the product itself is a traditional security scanner with added AI governance features.
-    - No evidence of AI coding agents, prompt-to-app builders, extensions, or developer-facing AI workflows that define this catalog's scope.
+    - Source-list context describes it as a security validator for AI-generated code/agents, not a coding tool
+    - Scraped site context positions it as an enterprise security platform, not a developer workflow product
+    - No repo description, stars, or developer-focused artifacts provided
 placement:
   primary_category: null
   section: null
@@ -70,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:36.638Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:49a783f28c7ca0b376fff96cca2c1e56c18f0905c1e8ef02096ed80d94ef398d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Snyk is a broad security platform (SaaS) for AI-generated code and agents, not a developer-tooling product in the catalog's scope (coding agents, IDEs, extensions, frameworks, etc.).
+      decision_evidence:
+        - Source-list context describes it as a security validator for AI-generated code/agents, not a coding tool
+        - Scraped site context positions it as an enterprise security platform, not a developer workflow product
+        - No repo description, stars, or developer-focused artifacts provided
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:17.678Z"
       bytes: 6461
 insights:
-  summary: LocuSync is an MCP server that exposes geospatial tools like geocoding, routing, and spatial analysis for AI agents to use via the Model Context Protocol.
-  why_it_matters: It allows coding agents and LLMs to perform GIS operations directly within their workflow without requiring developers to build custom geospatial API integrations.
-  mental_damage: We have finally reached the point where your AI agent can calculate the driving distance from Paris to Berlin, but still cannot reliably add a dependency to your package.json.
+  summary: A Model Context Protocol server providing geospatial tools like geocoding, routing, elevation, and file I/O for AI agents.
+  why_it_matters: Enables LLMs to perform real-world geographic operations, extending their utility beyond text into spatial reasoning and location-aware workflows.
+  mental_damage: Another MCP server to install, hoping your agent finally understands that 'nearby' means meters, not tokens.
   tags:
     - mcp
     - geospatial
     - gis
-    - location-services
+    - location-tools
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing geospatial capabilities, giving it a clear identity as domain-specific MCP infrastructure.
+  reason: The product is an MCP-first server whose core identity and functionality revolve around exposing geospatial tools via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - "README states: 'A Model Context Protocol (MCP) server providing geospatial tools for AI agents.'"
-    - Included in the awesome-mcp-servers list under 'Location Services'.
-    - Provides tools like geocoding, routing, and spatial analysis via MCP for Claude, GPT, and other LLMs.
+    - "README explicitly states: 'A Model Context Protocol (MCP) server providing geospatial tools for AI agents'"
+    - Tools are exposed as MCP capabilities (geocode, route, buffer, read_file, etc.) with setup instructions for Claude Desktop via mcpServers config
+    - Architecture centers on server.py as MCP entry point, with no indication of being a wrapper, SDK, or extension to another agent
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:19:00.713Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5a1c21ec0ebd2007da0ee615f29ea0b47bbbd98753c8483e2854cfd5f33b5b6f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP-first server whose core identity and functionality revolve around exposing geospatial tools via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+      decision_evidence:
+        - "README explicitly states: 'A Model Context Protocol (MCP) server providing geospatial tools for AI agents'"
+        - Tools are exposed as MCP capabilities (geocode, route, buffer, read_file, etc.) with setup instructions for Claude Desktop via mcpServers config
+        - Architecture centers on server.py as MCP entry point, with no indication of being a wrapper, SDK, or extension to another agent
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server as its primary identity, not an extension that augments another agent with geospatial capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

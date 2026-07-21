@@ -60,23 +60,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:31.246Z"
       bytes: 9389
 insights:
-  summary: A CLI and local MCP server that provides a shared, semantically queryable structured memory store for architectural decisions across Claude Code, Cursor, Windsurf, and other MCP clients.
-  why_it_matters: It lets AI coding assistants retrieve relevant past architectural decisions on demand via semantic search instead of bloating system prompts with static rules files.
-  mental_damage: Because apparently we've solved context windows by building a vector database for the meetings we wish we hadn't skipped.
+  summary: A CLI and local MCP server providing a shared, semantically queryable structured memory store for AI coding assistants like Claude Code, Cursor, and Windsurf.
+  why_it_matters: It lets developers and their AI assistants persist, retrieve, and reason over architectural decisions and constraints across projects without stuffing everything into the context window.
+  mental_damage: Finally, a way to make your AI remember why you did that thing you can’t remember doing.
   tags:
     - mcp
     - memory
     - semantic-search
-    - cli
-    - local-first
+    - developer-tools
+    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory and retrieval system that stores structured decisions as vectors and exposes them via MCP for just-in-time context injection.
+  reason: The core novelty is a structured memory and retrieval system for AI assistants, not the MCP integration layer or host-specific augmentation.
   evidence:
-    - "Repo description states: 'A shared structured memory store across Claude Code, Cursor, Windsurf... Semantically queryable.'"
-    - README explains retrieval is explicit via MCP search tool with cosine similarity, not pre-injected into system prompts.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
+    - Repo description explicitly calls it a 'shared structured memory store' with semantic queryability
+    - README emphasizes vector embeddings, local storage, and explicit retrieval via MCP as the primary mechanism
+    - Topics include 'embeddings', 'rag', 'vector-search', and 'semantic-search'
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:15.972Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b4ef5801e3dee028a60c833a51802788d7aafae4c40d5ec2d520160ed825766a
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core novelty is a structured memory and retrieval system for AI assistants, not the MCP integration layer or host-specific augmentation.
+      decision_evidence:
+        - Repo description explicitly calls it a 'shared structured memory store' with semantic queryability
+        - README emphasizes vector embeddings, local storage, and explicit retrieval via MCP as the primary mechanism
+        - Topics include 'embeddings', 'rag', 'vector-search', and 'semantic-search'
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the product identity is the memory/retrieval system itself, with MCP as the delivery mechanism rather than the core value.
+      review_reason: null
+      review_resume_lifecycle: null

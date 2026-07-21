@@ -56,26 +56,26 @@ metadata:
       fetched_at: "2026-07-16T05:04:59.368Z"
       bytes: 45485
 insights:
-  summary: A Rust-based MCP server and desktop Studio that exposes 43 tools for building, validating, reasoning over, and governing RDF/OWL ontologies using an in-memory Oxigraph triple store and native OWL2-DL reasoning.
-  why_it_matters: It lets developers and AI agents treat ontology engineering as a Terraform-style lifecycle, giving Claude and other MCP clients structured tools to validate, query, and version knowledge graphs without a JVM.
-  mental_damage: You now have a shiny Rust binary to manage your OWL axioms, because apparently even your pizza toppings deserve a formally reasoned, SHACL-validated knowledge graph before dinner.
+  summary: A Rust-based MCP server and desktop Studio for building, validating, and reasoning over RDF/OWL ontologies using an in-memory triple store.
+  why_it_matters: It provides LLMs with structured, verifiable reasoning capabilities over complex knowledge graphs without requiring a heavy JVM setup.
+  mental_damage: Because nothing says 'odern dev workflow' quite like debugging semantic reasoning errors in a terminal-integrated ontology engine.
   tags:
-    - mcp-server
+    - mcp
+    - rust
     - ontology
     - knowledge-graph
-    - rust
-    - semantic-web
+    - sparql
   confidence: high
 curation:
   status: included
-  reason: The product’s core identity is an MCP server that gives AI clients structured access to ontology engineering tooling, and MCP is not just a compatibility footnote here.
+  reason: The project's primary identity is a specialized MCP server designed to provide semantic reasoning tools to AI hosts.
   evidence:
-    - Repo description explicitly calls it 'a Rust MCP server with tools for building, validating, querying, and reasoning over RDF/OWL ontologies'.
-    - README emphasizes 43 MCP tools, MCP client setup for Claude Code / Desktop / Cursor, and brands it as 'A Terraforming MCP for Knowledge Graphs'.
-    - Listed in awesome-mcp-servers under Knowledge & Memory, which aligns with its MCP-first product identity.
+    - Repo description explicitly identifies as a 'Rust MCP server'
+    - README highlights 43 tools exposed via MCP for Claude, Cursor, and Windsurf
+    - Core value is providing ontology reasoning (OWL2-DL, SPARQL) as an MCP capability
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (163) exceeded threshold (150)
@@ -91,12 +91,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:54:47.096Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:97bbf3841b58a51493377f1151d429b02ded83b98f7204b191c8c3f80a88d57a
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is a specialized MCP server designed to provide semantic reasoning tools to AI hosts.
+      decision_evidence:
+        - Repo description explicitly identifies as a 'Rust MCP server'
+        - README highlights 43 tools exposed via MCP for Claude, Cursor, and Windsurf
+        - Core value is providing ontology reasoning (OWL2-DL, SPARQL) as an MCP capability
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is fundamentally an MCP server implementation rather than a UI/workflow wrapper for an existing editor.
+      review_reason: null
+      review_resume_lifecycle: null

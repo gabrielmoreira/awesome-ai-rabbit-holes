@@ -36,14 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A hosted Model Context Protocol (MCP) server providing web search and crawling capabilities via stromhaltig.de.
-  why_it_matters: It gives coding agents and editors a standardized protocol interface to fetch fresh web context without wiring up custom search API integrations.
-  mental_damage: We have officially reached the point where we need a protocol to manage the tools that manage the tools that write our code.
+  summary: A curated list of Model Context Protocol (MCP) servers.
+  why_it_matters: Provides developers with a centralized directory to discover MCP servers for extending AI assistant capabilities.
+  mental_damage: Because nothing says 'ecosystem maturity' like a list of lists of servers for your server protocol.
   tags:
     - mcp
-    - web-search
-    - server
-    - context
+    - directory
+    - servers
+    - protocol
   confidence: high
 curation:
   status: included
@@ -53,10 +53,10 @@ curation:
     - The URL and name (mcp.stromhaltig.de) directly indicate an MCP server identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'awesome-awesomes'"
 processing:
   discover:
     status: done
@@ -68,12 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:44.046Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2577e41330a45b9fa60961c6fea68ac6a81ed2836fea243b8ad7df0e23d72b71
+      proposed_primary_category: awesome-awesomes
+      disagreement: true
+      decision_reason: This is a curated directory of MCP servers, which fits the 'Awesome Awesomes' category as a navigation aid for developers.
+      decision_evidence:
+        - Seen in source lists as a curated list of MCP servers under 'Official Servers'
+        - Primary value is discovery and navigation of MCP servers
+      category_candidates:
+        - awesome-awesomes
+        - mcp
+      contrastive_reason: Choose awesome-awesomes over mcp because the product is a directory of MCP servers rather than MCP infrastructure itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'awesome-awesomes'"
+      review_resume_lifecycle: null

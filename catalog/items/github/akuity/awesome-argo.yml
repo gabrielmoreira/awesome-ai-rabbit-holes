@@ -59,23 +59,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:56.083Z"
       bytes: 56713
 insights:
-  summary: A curated awesome list of projects and resources related to the Argo ecosystem, including Workflows, CD, Rollouts, and Events.
-  why_it_matters: It serves as a centralized map for developers navigating Kubernetes-native CI/CD and MLOps tooling within the CNCF landscape.
-  mental_damage: Because simply installing Argo wasn't complex enough, you now need a curated list of 2,400 stars just to figure out which flavor of YAML hell you're walking into.
+  summary: A curated list of projects and resources related to Argo, a CNCF graduated project for Kubernetes-native workflows, CD, rollouts, and event management.
+  why_it_matters: Developers working with Kubernetes and GitOps can use this as a starting point to discover Argo ecosystem tools for workflow orchestration, continuous delivery, and deployment strategies.
+  mental_damage: Because nothing says 'cloud-native' like a 2,458-star list of lists to help you find the tool that will generate your next list of YAML.
   tags:
-    - argo
     - kubernetes
-    - devops
-    - mlops
-    - awesome-list
+    - gitops
+    - workflow-orchestration
+    - curated-list
+    - cncf
   confidence: high
 curation:
   status: included
-  reason: This is a curated index of ecosystem tools rather than a standalone developer product, making it a navigation aid for the catalog.
+  reason: This is a curated directory of Argo ecosystem resources, which fits the catalog's scope as a navigation aid for developers in the cloud-native/Kubernetes space.
   evidence:
-    - Repo description explicitly states it is 'A curated list of awesome projects and resources related to Argo'.
-    - The README organizes ecosystem projects, books, blogs, and videos rather than providing a runnable tool.
-    - It is listed in 'Awesome-LLMOps' as an 'Awesome List', confirming its identity as a directory.
+    - Repo description explicitly states it is a curated list of Argo-related projects and resources
+    - README confirms it is a maintained directory with ecosystem projects, books, blog posts, videos, and certifications
+    - Seen in Awesome-LLMOps under 'Awesome Lists' section
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -94,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:21:45.969Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:26b54a0963aa66e728c41d1d10a9782ce8e82067f72556c0a1248611c4141c10
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of Argo ecosystem resources, which fits the catalog's scope as a navigation aid for developers in the cloud-native/Kubernetes space.
+      decision_evidence:
+        - Repo description explicitly states it is a curated list of Argo-related projects and resources
+        - README confirms it is a maintained directory with ecosystem projects, books, blog posts, videos, and certifications
+        - Seen in Awesome-LLMOps under 'Awesome Lists' section
+      category_candidates:
+        - awesome-awesomes
+        - ai-frameworks
+      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the primary value is discovery and navigation of the Argo ecosystem, not a code-first framework or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

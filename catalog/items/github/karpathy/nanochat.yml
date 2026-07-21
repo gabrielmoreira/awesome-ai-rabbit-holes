@@ -39,26 +39,25 @@ metadata:
       fetched_at: "2026-07-20T15:11:31.769Z"
       bytes: 16570
 insights:
-  summary: A minimal, hackable experimental harness for training GPT-style LLMs on a single GPU node, covering tokenization, pretraining, finetuning, evaluation, inference, and a chat UI.
-  why_it_matters: It lets developers train a GPT-2-capability model for roughly $48 in two hours on an 8xH100 node, collapsing a $43,000 2019 workflow into a weekend experiment.
-  mental_damage: You will spend three hours tuning hyperparameters to save $10 on spot instances, then add the resulting model to a leaderboard that measures how efficiently you can reproduce 2019.
+  summary: A local, lightweight chatbot implementation described as 'The best ChatGPT that $100 can buy.'
+  why_it_matters: Offers developers a cost-effective, self-contained alternative to cloud-based chat assistants for experimentation or local use.
+  mental_damage: Now you can argue with your own GPU instead of OpenAI’s servers.
   tags:
-    - llm-training
-    - single-gpu
-    - gpt
-    - h100
-    - hackable
+    - local-ai
+    - chatbot
+    - cost-effective
+    - self-hosted
   confidence: high
 curation:
-  status: excluded
-  reason: Although it is a slick developer tool, nanochat is primarily an ML research and model-training harness rather than a developer-facing AI coding tool, agent, extension, or infrastructure product.
+  status: included
+  reason: The project is a local runtime/chatbot implementation, aligning with the Local AI category's focus on self-hosted or on-device execution.
   evidence:
-    - Repo description positions it as 'The best ChatGPT that $100 can buy', focusing on training and chatting with your own LLM.
-    - README states it is 'the simplest experimental harness for training LLMs' covering pretraining, finetuning, evaluation, and inference.
-    - Source list includes it under LLM resources and courses, not under coding assistants, dev tools, or AI application infrastructure.
+    - Repo description explicitly positions it as a cost-effective ChatGPT alternative ('$100 can buy')
+    - High star count (56460) and recent activity (pushed 2026-07-04) indicate traction and maintenance
+    - No archived flag; MIT license suggests open-source usability
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local Runtimes
 lifecycle:
   status: promotion_candidate
   reason: Stars (53014) exceeded threshold (150)
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:57.697Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b4f5074a117336e4a78ba79598ee9f46a0718dd1119d35cf70492810cd531e40
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: The project is a local runtime/chatbot implementation, aligning with the Local AI category's focus on self-hosted or on-device execution.
+      decision_evidence:
+        - Repo description explicitly positions it as a cost-effective ChatGPT alternative ('$100 can buy')
+        - High star count (56460) and recent activity (pushed 2026-07-04) indicate traction and maintenance
+        - No archived flag; MIT license suggests open-source usability
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because the primary identity is a self-contained chatbot/runtime rather than a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

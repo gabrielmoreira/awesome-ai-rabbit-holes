@@ -40,24 +40,25 @@ metadata:
       fetched_at: "2026-07-16T05:04:57.564Z"
       bytes: 2030
 insights:
-  summary: Agent47 is an MCP server and web dashboard that aggregates AI agent job listings and pricing data from platforms like RentAHuman, x402 Bazaar, and Virtuals Protocol.
-  why_it_matters: It gives autonomous coding agents a unified interface to discover paid work, compare market rates, and track earnings across the emerging agent economy.
-  mental_damage: Your CI pipeline is now competing with your agent's side hustle on a clandestine red-and-black tactical job board.
+  summary: An MCP server and web dashboard that aggregates job marketplaces and contract data for the AI agent economy.
+  why_it_matters: It provides a standardized way for autonomous agents to discover work and compare pricing across disparate agent-centric marketplaces via the Model Context Protocol.
+  mental_damage: Because nothing says 'the future is here' quite like building specialized job boards for the machines that will eventually replace the people using them.
   tags:
     - mcp
     - agent-economy
     - job-aggregation
-  confidence: medium
+    - marketplace
+  confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server for agent job aggregation, with MCP identity confirmed by the README, SSE endpoint, and inclusion in awesome-mcp-servers.
+  reason: The project's primary identity is an MCP server that standardizes disparate agent marketplace APIs into a single interface.
   evidence:
-    - Repo description explicitly states 'MCP server integrating x402, RentAHuman, Virtuals, and more'.
-    - README documents MCP tools (findJobs, comparePrice, getPlatformStats) and a live SSE endpoint.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'.
+    - README identifies it as an 'MCP Native' project providing an SSE endpoint for autonomous agents.
+    - Repo description explicitly defines it as an 'MCP server integrating x402, RentAHuman, Virtuals, and more'.
+    - Primary functionality is exposing tool capabilities like 'findJobs' and 'comparePrice' via MCP.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -73,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:59.401Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f1dcc76dde75f7d5aec59c7025814bb636759cfe3f2c20a61d7c3f2fff5ae8f9
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server that standardizes disparate agent marketplace APIs into a single interface.
+      decision_evidence:
+        - README identifies it as an 'MCP Native' project providing an SSE endpoint for autonomous agents.
+        - Repo description explicitly defines it as an 'MCP server integrating x402, RentAHuman, Virtuals, and more'.
+        - Primary functionality is exposing tool capabilities like 'findJobs' and 'comparePrice' via MCP.
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the core novelty is the standardized protocol interface (MCP) rather than a full control plane or runtime for multiple agents.
+      review_reason: null
+      review_resume_lifecycle: null

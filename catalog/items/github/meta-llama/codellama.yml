@@ -39,23 +39,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:20.596Z"
       bytes: 8837
 insights:
-  summary: Inference code and model weights for the Code Llama family of large language models fine-tuned from Llama 2 for code generation.
-  why_it_matters: It provides the open weights and runtime examples developers need to run or build upon state-of-the-art local code models.
-  mental_damage: Meta gifted us powerful local code models and then promptly archived the repo, ensuring our dependency graphs rot almost as fast as our prompt templates.
+  summary: Inference code for running Code Llama models locally.
+  why_it_matters: Provides reference implementation for developers to run and experiment with Code Llama models on their own hardware.
+  mental_damage: The quiet dread of realizing you just spent 40 minutes setting up model weights only to remember you still need to write the actual code.
   tags:
-    - code-models
-    - local-inference
-    - llama
-    - meta
+    - local-ai
     - inference
+    - llama
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and functions primarily as a raw model weight distribution with minimal runtime/tooling identity, pushing it out of scope for developer-facing tooling.
+  reason: The repository is archived and serves only as minimal inference example code, not a standalone developer tool or runtime with ongoing utility.
   evidence:
-    - Repo description states it is 'Inference code for CodeLlama models', not a developer tool.
-    - "Archived: yes, indicating the project is no longer actively maintained."
-    - "README explicitly notes: 'This repository is intended as a minimal example to load Code Llama models and run inference.'"
+    - "Repo description: 'Inference code for CodeLlama models'"
+    - "Archived: yes"
+    - README states it is 'intended as a minimal example to load Code Llama models and run inference'
 placement:
   primary_category: null
   section: null
@@ -74,12 +72,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:20:04.056Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3603e06c3157f01882e3589239a3708222ebd29c4a92a7fab4903705152f08f5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is archived and serves only as minimal inference example code, not a standalone developer tool or runtime with ongoing utility.
+      decision_evidence:
+        - "Repo description: 'Inference code for CodeLlama models'"
+        - "Archived: yes"
+        - README states it is 'intended as a minimal example to load Code Llama models and run inference'
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

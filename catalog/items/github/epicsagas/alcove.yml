@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:56.634Z"
       bytes: 37998
 insights:
-  summary: An MCP server that provides AI coding agents with on-demand, search-based access to private project documentation using BM25 ranking.
-  why_it_matters: It prevents context window bloat and documentation leaks by letting agents search for specific docs only when needed, rather than injecting entire knowledge bases into every prompt.
-  mental_damage: Finally, a dedicated server to manage the documentation you wrote specifically so the AI wouldn't force you to re-explain your authentication architecture for the tenth time this week.
+  summary: Alcove is an MCP server that provides AI coding agents with on-demand access to private project documentation via hybrid search and code indexing.
+  why_it_matters: It solves the context bloat problem by letting agents pull only the relevant docs they need, when they need them, rather than dumping everything into the context window.
+  mental_damage: Finally, a way to stop your AI from re-reading your entire architecture doc every time it needs to remember how auth works.
   tags:
-    - mcp
-    - context-retrieval
-    - docs
-    - memory
-    - bm25
+    - mcp-server
+    - documentation
+    - retrieval
+    - code-indexing
+    - privacy
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server designed to give agents access to private docs, fitting the MCP Servers & Tooling category where MCP is the core product identity.
+  reason: "MCP is the product identity: Alcove is explicitly an MCP server providing domain-specific retrieval and indexing capabilities for coding agents."
   evidence:
-    - "Repo description explicitly states: 'MCP server that gives AI coding agents on-demand access to your private project docs'."
-    - Listed in 'awesome-mcp-servers' under the 'Knowledge & Memory' section.
-    - README demonstrates BM25 search integration specifically for MCP-compatible agents like Claude and Gemini.
+    - Repo description explicitly states it is an MCP server
+    - README emphasizes MCP integration and server functionality
+    - Topics include 'mcp' and 'mcp-server'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -83,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:38.862Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2face4762bd43a4f2d6f01a5e33b4837d0982ae68ebe6dcd3e2df37c202c0f17
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: Alcove is explicitly an MCP server providing domain-specific retrieval and indexing capabilities for coding agents."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server
+        - README emphasizes MCP integration and server functionality
+        - Topics include 'mcp' and 'mcp-server'
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the core product identity is an MCP server, not just a retrieval system.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,14 +40,13 @@ metadata:
       fetched_at: "2026-07-16T05:05:08.219Z"
       bytes: 4948
 insights:
-  summary: An MCP server that charges AI agents 21 sats to receive distilled context, a single next step, and philosophical reassurance when they get lost in long-running tasks.
-  why_it_matters: It offers a novel, paid mechanism for context distillation and state recovery for agents that have accumulated too much noise across multi-step workflows.
-  mental_damage: "We have finally achieved the singularity: your agent is now spiritually lost, context-drunk, and kindly asks you to pay Lightning sats for a moment of clarity."
+  summary: Giskard Oasis is an MCP server that provides AI agents with a distilled purpose, next step, and grounding truth when they lose context or accumulate noise.
+  why_it_matters: It offers a lightweight, karma-gated clarity layer for agents stuck in loops, letting them reset focus without adding more context or tooling.
+  mental_damage: Paying sats to hear 'you are enough' from a server feels like the logical endpoint of agent burnout culture.
   tags:
     - mcp
-    - context-distillation
-    - lightning
-    - agent-memory
+    - context
+    - agent-tools
   confidence: medium
 curation:
   status: included
@@ -58,10 +57,10 @@ curation:
     - Core behavior is a paid context-distillation service exposed exclusively via MCP tool calls.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
 processing:
   discover:
     status: done
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:02:47.102Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e135088177eb005429ac46b248419acd8c31fc00f56fece1b19be8fb2c6c9b86
+      proposed_primary_category: context-engineering
+      disagreement: true
+      decision_reason: The core function is stripping noise to recover an agent's original intent and next step—this is context distillation, not coding assistance or extension.
+      decision_evidence:
+        - README describes Oasis as returning agents to themselves via 'Destilación' (distillation of purpose), 'El umbral' (single next step), and 'El momento' (grounding truth)
+        - The tool reduces accumulated context and contradictions rather than adding capabilities, aligning with memory/compression/distillation goals
+        - It is exposed as an MCP server but MCP is a transport, not the product identity—the value is in the clarity transformation, not protocol tooling
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, and prompt/distillation logic for context recovery, not augmenting another assistant with host integrations like debugger or browser access.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      review_resume_lifecycle: null

@@ -76,23 +76,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:56.940Z"
       bytes: 12082
 insights:
-  summary: A Model Context Protocol server that provides secure, read-only access to Google BigQuery datasets, allowing LLMs to query and analyze data through a standardized interface with field-level PII protection.
-  why_it_matters: It lets developers connect AI assistants like Claude directly to BigQuery with built-in safeguards that prevent sensitive columns from ever leaving the database context.
-  mental_damage: We have successfully abstracted SQL into natural language, only to need a config file full of regex patterns to remind the AI that it probably shouldn't casually describe our customers' medical records to strangers.
+  summary: An MCP server that provides secure, read-only access to BigQuery datasets for LLMs.
+  why_it_matters: Lets developers query and analyze BigQuery data through natural language while enforcing field-level access restrictions to protect sensitive data.
+  mental_damage: Now your AI can casually ask for your entire customer table, but at least it’ll politely refuse to show you the SSNs.
   tags:
     - mcp
     - bigquery
-    - database
-    - data-privacy
-    - llm-integration
+    - data-access
+    - security
+    - sql
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server for BigQuery with strong security features, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
+  reason: This is a dedicated MCP server whose primary identity is providing BigQuery access via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server' for BigQuery.
-    - README details MCP-specific features like field-level access restrictions and auto-discovery of sensitive PII/PHI fields.
-    - Included in 'awesome-mcp-servers' and 'awesome-mcp-list' under Database sections, confirming ecosystem recognition.
+    - Repo description explicitly states it is an MCP server for BigQuery
+    - README emphasizes MCP as the core protocol and BigQuery as the domain
+    - Listed in multiple MCP-focused awesome lists under Databases
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -111,12 +111,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:43.677Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:44aedb26e76a4d2946c9d23a6afd4d298309c06cf7a314a05e423768e0839b5d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is providing BigQuery access via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for BigQuery
+        - README emphasizes MCP as the core protocol and BigQuery as the domain
+        - Listed in multiple MCP-focused awesome lists under Databases
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -53,23 +53,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:17.131Z"
       bytes: 15235
 insights:
-  summary: An MCP server that exposes real-time FX rates, historical currency data, and multi-currency lookups from AllRatesToday to Claude Code, Cursor, Claude Desktop, and Windsurf.
-  why_it_matters: It lets AI coding assistants answer live forex questions and perform currency conversions directly inside the developer's existing workflow without switching to a browser or API docs.
-  mental_damage: We have reached the point where our assistants need dedicated protocol servers just to know what the euro is worth today.
+  summary: An MCP server that provides live FX rates, historical data, and multi-currency lookups from AllRatesToday to MCP-compatible clients like Claude Code, Cursor, and Windsurf.
+  why_it_matters: Developers can now query real-time and historical currency data directly from their AI coding assistants without leaving their workflow.
+  mental_damage: Because nothing says 'developer productivity' like asking your coding assistant for the USD/JPY rate mid-debug session.
   tags:
     - mcp
+    - currency-api
     - forex
-    - finance
-    - currency
-    - extension
+    - function-calling
+    - real-time-data
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is implementing the Model Context Protocol to expose financial data tools to MCP-compatible clients.
+  reason: The product's core identity is an MCP server providing domain-specific (FX) data to MCP-compatible clients, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly identifies it as an 'MCP server' for FX rates integrated with Claude Code, Cursor, Claude Desktop, and Windsurf.
-    - README states it is 'A Model Context Protocol server' exposing 4 tools like get_exchange_rate and get_historical_rates via stdio transport.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section, confirming its ecosystem role as an MCP implementation.
+    - Repo description explicitly states it is an MCP server for FX data
+    - README confirms it exposes 4 tools for currency data via MCP 1.x protocol
+    - Supports multiple MCP clients (Claude Code, Cursor, Windsurf, etc.)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -88,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:25.403Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:957469baf786fcba88eed72025a9271dc0a1f00a2645bab0c3809fbe9d6cc1d3
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server providing domain-specific (FX) data to MCP-compatible clients, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for FX data
+        - README confirms it exposes 4 tools for currency data via MCP 1.x protocol
+        - Supports multiple MCP clients (Claude Code, Cursor, Windsurf, etc.)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server (domain-specific data provider) rather than an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

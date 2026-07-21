@@ -47,22 +47,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:09.988Z"
       bytes: 12697
 insights:
-  summary: Sacred is a Python tool designed to help researchers configure, organize, log, and reproduce machine learning experiments, primarily by managing configurations and logging results to databases like MongoDB.
-  why_it_matters: It handles the tedious overhead of experiment tracking and reproducibility for Python-based ML workflows, ensuring that model training runs are well-documented and can be repeated consistently.
-  mental_damage: The Python ML community spent a decade building custom sacred-script wrappers to reproduce experiments before deciding that maybe, just maybe, they should have just used an LLM to write the boilerplate faster.
+  summary: Sacred is a Python tool for configuring, organizing, logging, and reproducing machine learning experiments.
+  why_it_matters: It automates the tedious overhead of experiment tracking, parameter management, and reproducibility for ML developers.
+  mental_damage: Finally, a way to stop pretending your experiments are reproducible.
   tags:
     - experiment-tracking
-    - ml-ops
-    - reproducibility
+    - ml-reproducibility
     - python
+    - configuration-management
   confidence: high
 curation:
   status: excluded
-  reason: Sacred is a general machine learning experiment tracking tool for researchers, lacking a specific developer-facing AI tooling angle required for this catalog.
+  reason: Sacred is a machine learning experiment tracking and reproducibility tool, not a developer-facing AI coding tool or workflow product.
   evidence:
-    - Repo description and README focus on general ML experiment configuration, logging, and reproducibility, not AI-assisted coding or developer infrastructure.
-    - Listed in Awesome-LLMOps under 'Training > Experiment Tracking', which is a general ML Ops category rather than a specific AI developer tooling category.
-    - Topics include 'machine-learning' and 'reproducible-science', indicating a research/academic focus rather than a software engineering or coding agent focus.
+    - Repo description explicitly states it is for configuring, organizing, logging, and reproducing experiments
+    - README emphasizes ML experiment reproducibility and parameter tracking as core functionality
+    - Source-list context places it under Training > Experiment Tracking in an LLMOps list
 placement:
   primary_category: null
   section: null
@@ -81,12 +81,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:33.357Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:57ccb8364fb45b6b3bb0cde75ffc066de73626b0e0ed29e55178612371644300
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Sacred is a machine learning experiment tracking and reproducibility tool, not a developer-facing AI coding tool or workflow product.
+      decision_evidence:
+        - Repo description explicitly states it is for configuring, organizing, logging, and reproducing experiments
+        - README emphasizes ML experiment reproducibility and parameter tracking as core functionality
+        - Source-list context places it under Training > Experiment Tracking in an LLMOps list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

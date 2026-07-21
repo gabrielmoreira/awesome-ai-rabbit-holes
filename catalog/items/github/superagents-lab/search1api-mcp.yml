@@ -38,19 +38,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
+    stars: 172
+    forks: 38
+    license: MIT
+    archived: false
+    full_name: superagents-lab/search1api-mcp
+    html_url: https://github.com/superagents-lab/search1api-mcp
+    created_at: "2024-11-26T09:03:56Z"
+    pushed_at: "2026-03-13T04:23:25Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-07-21T15:20:36.412Z"
+    readme:
+      fetched_at: "2026-07-21T15:20:36.412Z"
+      bytes: 4746
 insights:
   summary: null
   why_it_matters: null
@@ -65,8 +67,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (172) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -74,15 +76,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T16:43:05.445Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for superagents-lab/search1api-mcp
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-21T15:20:36.412Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

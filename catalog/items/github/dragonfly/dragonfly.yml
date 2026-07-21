@@ -39,22 +39,21 @@ metadata:
       fetched_at: "2026-07-16T05:04:53.014Z"
       bytes: 7519
 insights:
-  summary: An open-source Python library for scalable Bayesian optimisation of black-box functions, supporting high-dimensional, parallel, multi-fidelity, and multi-objective optimisation.
-  why_it_matters: Developers training models or tuning expensive pipelines can use it to minimise evaluation cost when searching high-dimensional hyperparameter or system configuration spaces.
-  mental_damage: Yet another reminder that while we prompt our way through CRUD apps, the real optimisation problems are still being solved by mathematicians with Fortran dependencies.
+  summary: An open source Python library for scalable Bayesian optimisation.
+  why_it_matters: It helps developers optimize expensive black-box functions with features for high-dimensional, parallel, multi-fidelity, and multi-objective scenarios.
+  mental_damage: Because nothing says 'modern developer workflow' like spending your afternoon tuning hyperparameters with Bayesian methods from 2018.
   tags:
-    - bayesian-optimisation
-    - python
-    - hyperparameter-tuning
-    - automl
+    - bayesian-optimization
+    - python-library
+    - auto-ml
   confidence: high
 curation:
   status: excluded
-  reason: Although listed under AutoML in an LLMOps awesome list, the project is a general-purpose Bayesian optimisation library with no demonstrable AI developer-tooling, coding-agent, or prompt/context engineering identity.
+  reason: This is a general-purpose ML optimization library, not a developer-tooling product focused on coding agents, workflows, or AI-assisted development.
   evidence:
-    - Repo description and README define it strictly as a Python library for scalable Bayesian optimisation, not an AI developer tool.
-    - No references to LLMs, coding agents, prompt engineering, MCP, or developer workflows in the description or README excerpt.
-    - Source-list placement is in an AutoML section of Awesome-LLMOps, which is not sufficient to override the lack of developer-tooling fit.
+    - Repo description explicitly states it is a Python library for Bayesian optimisation
+    - README focuses on mathematical optimization use cases (e.g., neural architecture search) rather than developer workflows
+    - Source-list context places it in AutoML, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -73,12 +72,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:38.039Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4641e0c81bef117e8074d8cd1e5bbe50ed6d8d911b83ecbccf7663b87edc412c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a general-purpose ML optimization library, not a developer-tooling product focused on coding agents, workflows, or AI-assisted development.
+      decision_evidence:
+        - Repo description explicitly states it is a Python library for Bayesian optimisation
+        - README focuses on mathematical optimization use cases (e.g., neural architecture search) rather than developer workflows
+        - Source-list context places it in AutoML, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

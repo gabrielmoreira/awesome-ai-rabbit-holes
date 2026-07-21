@@ -1,0 +1,111 @@
+id: pixee__ai
+kind: website
+name: Pixee
+canonical_url: https://pixee.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__pixee__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: Pixee
+        extracted_url: https://pixee.ai
+        surrounding_text: "- **[Pixee](https://pixee.ai)** – AI bot for security-focused PR reviews and automatic fixes."
+        confidence: high
+    - id: discovery__www__pixee__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: Pixee
+        extracted_url: https://pixee.ai
+        surrounding_text: "- **[Pixee](https://pixee.ai)** – AI bot for security-focused PR reviews and automatic fixes."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Agentic AppSec platform that uses AI to triage, prioritize, and auto-fix vulnerabilities in codebases with high developer merge rates.
+  why_it_matters: It automates the tedious, high-friction parts of security remediation—filtering false positives, generating context-aware fixes, and integrating with existing workflows—so developers can merge security patches without context-switching.
+  mental_damage: Finally, a tool that turns your security backlog into a PR queue your team might actually merge instead of ignore.
+  tags:
+    - appsec
+    - automated-remediation
+    - code-review
+    - vulnerability-management
+  confidence: high
+curation:
+  status: included
+  reason: Its core job is acting as an autonomous agent that reads code, identifies vulnerabilities, and generates fixes developers can merge, fitting the Review, Testing & Repair Agents section.
+  evidence:
+    - Described as an 'Agentic AppSec platform that eliminates false positives and auto-fixes real vulnerabilities'
+    - Claims 98% noise reduction and 76% merge rate for generated fixes
+    - Source-list context places it under 'Code Review and Refactoring'
+placement:
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:30.396Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5cf86c69ceac5fdbf16c0e53edda5a68f7a215edaad3f64b982b29fc81c32c77
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Its core job is acting as an autonomous agent that reads code, identifies vulnerabilities, and generates fixes developers can merge, fitting the Review, Testing & Repair Agents section.
+      decision_evidence:
+        - Described as an 'Agentic AppSec platform that eliminates false positives and auto-fixes real vulnerabilities'
+        - Claims 98% noise reduction and 76% merge rate for generated fixes
+        - Source-list context places it under 'Code Review and Refactoring'
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the primary product identity is an autonomous agent performing security review and remediation, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.968Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7
-    forks: 2
+    stars: 8
+    forks: 3
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: testdino-hq/testdino-mcp
+    html_url: https://github.com/testdino-hq/testdino-mcp
     created_at: "2025-12-01T05:25:58Z"
-    pushed_at: "2026-04-23T07:19:37Z"
+    pushed_at: "2026-07-20T06:21:40Z"
     description: A MCP server that bridges TestDino with AI agents such as Cursor and Claude. Navigate test results, analyze failures, and manage test cases through conversational commands.
     homepage: https://www.testdino.com
     topics: []
-    last_checked_at: "2026-05-06T22:46:45.161Z"
+    last_checked_at: "2026-07-21T15:20:44.938Z"
     readme:
-      fetched_at: "2026-05-06T22:46:45.161Z"
-      bytes: 11743
+      fetched_at: "2026-07-21T15:20:44.938Z"
+      bytes: 20662
 insights:
   summary: An MCP server that exposes TestDino's test management platform to AI agents like Cursor and Claude, allowing conversational navigation of test results, failure analysis, and manual test case management.
   why_it_matters: It lets developers debug flaky tests and audit test quality by talking to their AI assistant instead of clicking through the TestDino dashboard.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:45.161Z"
+    updated_at: "2026-07-21T15:20:44.938Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

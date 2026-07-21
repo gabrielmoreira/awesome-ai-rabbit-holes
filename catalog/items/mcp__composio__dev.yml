@@ -36,25 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A landing page and directory for Composio's MCP (Model Context Protocol) server integrations and tooling.
-  why_it_matters: It provides a centralized entry point for developers looking to connect their AI assistants to Composio's library of external app integrations via the MCP standard.
-  mental_damage: Finally, a dedicated URL to help you navigate the exponentially growing maze of middleware protocols required to make your AI assistant file a Jira ticket.
+  summary: A directory or registry focused on Model Context Protocol (MCP) resources.
+  why_it_matters: Provides a centralized discovery point for MCP-related tools and servers, which are increasingly important for integrating AI assistants with external systems.
+  mental_damage: Another registry to bookmark in the ever-expanding graveyard of AI tooling bookmarks.
   tags:
     - mcp
-    - integrations
-    - directory
-    - composio
-  confidence: medium
+    - registry
+    - discovery
+  confidence: high
 curation:
   status: included
-  reason: The domain and source-list context explicitly identify this as an MCP-related resource, fitting the MCP Servers & Tooling category as a server/middleware entry point.
+  reason: The product identity is explicitly MCP-focused, as evidenced by its domain and inclusion in an awesome list under the MCP section.
   evidence:
-    - URL is mcp.composio.dev, explicitly branding as an MCP resource.
-    - Listed in awesome-LLM-resources under the '模型上下文协议 MCP' (Model Context Protocol MCP) section.
-    - Composio is known for providing tooling/integrations, aligning with the MCP 'Generic Servers & Middleware' section.
+    - URL is mcp.composio.dev, indicating MCP-centric purpose
+    - Listed in awesome-LLM-resources under '模型上下文协议 MCP' (Model Context Protocol MCP)
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Registries & Discovery
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +67,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:32.501Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:79077090b9ea6458aff581802ea87673c95109157fe406ecd3fe773e856c9244
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is explicitly MCP-focused, as evidenced by its domain and inclusion in an awesome list under the MCP section.
+      decision_evidence:
+        - URL is mcp.composio.dev, indicating MCP-centric purpose
+        - Listed in awesome-LLM-resources under '模型上下文协议 MCP' (Model Context Protocol MCP)
+      category_candidates:
+        - mcp
+        - awesome-awesomes
+      contrastive_reason: Choose mcp over awesome-awesomes because the product is a dedicated MCP registry, not a general curated list.
+      review_reason: null
+      review_resume_lifecycle: null

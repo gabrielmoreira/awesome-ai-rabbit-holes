@@ -39,23 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:11.815Z"
       bytes: 7444
 insights:
-  summary: StarCoder2 is a family of open-source code generation models (3B, 7B, 15B) trained on 600+ programming languages and natural language text for local code completion tasks.
-  why_it_matters: It provides developers with a permissively licensed, local-first alternative to proprietary coding models for building custom autocomplete, copilots, or fine-tuned code assistants.
-  mental_damage: Yet another reason to spend a weekend wrestling with quantized weights and memory footprints just to realize the model won't understand your internal DSL anyway.
+  summary: StarCoder2 is a family of open-source code generation models (3B, 7B, 15B) trained on 600+ programming languages and natural language text.
+  why_it_matters: It provides developers with high-context, long-window models specifically optimized for code completion across a vast range of languages.
+  mental_damage: Finally, a model that remembers your entire monorepo’s worth of context—just don’t ask it to write the PR description.
   tags:
-    - code-models
-    - local-ai
+    - code-generation
     - open-source
+    - long-context
+    - transformers
     - huggingface
-    - fine-tuning
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw model repository and checkpoint release rather than a developer-facing tool, agent, or infrastructure product; it lacks a standalone product surface for developers to use directly.
+  reason: StarCoder2 is a raw model family, not a developer tool, framework, or workflow product—it lacks a runtime, serving layer, or app identity required for inclusion.
   evidence:
-    - Repo description is 'Home of StarCoder2!', and README positions it as a family of models for code completion, not an assistant or tool.
-    - The README focuses on loading model weights via transformers, memory footprints, and fine-tuning scripts, with no product UI, CLI, or developer workflow integration.
-    - It appears in awesome-ai-coding-tools under 'Code Models', which confirms it is a model asset rather than a coding tool or agent in this catalog's scope.
+    - Repo description and README explicitly position it as a model family for code generation
+    - Primary artifact is model checkpoints (e.g., bigcode/starcoder2-15b) with usage via HuggingFace Transformers
+    - No evidence of a standalone tool, CLI, IDE, or workflow product beyond model inference
 placement:
   primary_category: null
   section: null
@@ -74,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:56.283Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d1c3e7fdd663a454f4b353ac6f51d1cce503ec67bcb8a28dd2631c74a00cc5a1
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: StarCoder2 is a raw model family, not a developer tool, framework, or workflow product—it lacks a runtime, serving layer, or app identity required for inclusion.
+      decision_evidence:
+        - Repo description and README explicitly position it as a model family for code generation
+        - Primary artifact is model checkpoints (e.g., bigcode/starcoder2-15b) with usage via HuggingFace Transformers
+        - No evidence of a standalone tool, CLI, IDE, or workflow product beyond model inference
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

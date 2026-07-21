@@ -61,23 +61,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:06.317Z"
       bytes: 10762
 insights:
-  summary: An MCP server that gives AI agents access to the MyInstants soundboard to search and play meme sounds and audio clips during coding sessions.
-  why_it_matters: It demonstrates how easily MCP can extend agent capabilities into non-code domains, giving developers a template for building playful or culture-aware agent integrations.
-  mental_damage: Your CI pipeline is now one prompt away from announcing every lint failure with a vine boom and a sad trombone.
+  summary: An MCP server that enables AI agents to search, browse, and play sounds from myinstants.com.
+  why_it_matters: Lets developers integrate a soundboard into their AI agent workflows for notifications, testing, or just vibes.
+  mental_damage: Your agent can now play a sad trombone sound when your tests fail, because why not.
   tags:
-    - mcp
+    - mcp-server
     - soundboard
-    - meme
-    - integration
-    - extension
-  confidence: medium
+    - agent-integration
+    - myinstants
+  confidence: high
 curation:
   status: included
-  reason: This is explicitly an MCP server whose identity and primary adoption path is through the Model Context Protocol, making it a textbook fit for the MCP Servers & Tooling category.
+  reason: This is a dedicated MCP server whose primary identity is providing soundboard capabilities via the Model Context Protocol.
   evidence:
-    - "Repo description: 'MCP server that lets your ai agent press sound buttons.'"
-    - README states it is 'an MCP server that connects AI agents to myinstants.com'.
-    - Featured in awesome-mcp-list and awesome-mcp-servers under Art & Culture sections.
+    - Repo description explicitly states it is an MCP server for sound buttons
+    - README confirms it is an MCP server connecting AI agents to myinstants.com
+    - Listed in MCP-focused directories (awesome-mcp-list, awesome-mcp-servers)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -96,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:27.652Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:148282c22bdb304788303201fabd8b36c7baf3ed717bc882dc0a3e1dbecf356c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is providing soundboard capabilities via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for sound buttons
+        - README confirms it is an MCP server connecting AI agents to myinstants.com
+        - Listed in MCP-focused directories (awesome-mcp-list, awesome-mcp-servers)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

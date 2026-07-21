@@ -36,21 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A tutorial report explaining how to use knowledge distillation and synthetic data to transfer capabilities from large teacher models to smaller student LLMs.
-  why_it_matters: It documents a workflow for compressing model intelligence, which is relevant for developers looking to run capable models in resource-constrained or local environments.
-  mental_damage: Yet another guide promising that you too can distill the 'reasoning' of a trillion-parameter model into something that fits on a toaster, provided you have the patience to generate enough synthetic data.
+  summary: A Weights & Biases report explaining knowledge distillation techniques for training smaller LLMs with synthetic data.
+  why_it_matters: It provides developers with a step-by-step guide to efficiently transfer insights from larger teacher models to smaller student models.
+  mental_damage: Because nothing says 'practical' like teaching your AI to teach your AI to teach your AI.
   tags:
     - knowledge-distillation
     - synthetic-data
     - model-training
+    - educational
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational article/report on ML training techniques, not a developer tool, agent, framework, or piece of infrastructure.
+  reason: This is an educational resource (a W&B report) rather than a developer tool, framework, or workflow product.
   evidence:
-    - "The source is a WandB report titled 'Knowledge distillation: Teaching LLM's with synthetic data'."
-    - The description and context describe a learning resource/tutorial, not a product or toolkit.
-    - It appears in an awesome list under a 'Tips' section for LLM resources, confirming its identity as educational content.
+    - The URL and title identify it as a Weights & Biases report, not a tool or library
+    - The description and source-list context frame it as a guide/tutorial on knowledge distillation
+    - No repo, code, or executable artifact is present
 placement:
   primary_category: null
   section: null
@@ -68,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:48.600Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8a37f9be0b4d6718c51fc7e3a7d6d18118330bd01e5e9a8dcd97bc1f9d84632d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational resource (a W&B report) rather than a developer tool, framework, or workflow product.
+      decision_evidence:
+        - The URL and title identify it as a Weights & Biases report, not a tool or library
+        - The description and source-list context frame it as a guide/tutorial on knowledge distillation
+        - No repo, code, or executable artifact is present
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

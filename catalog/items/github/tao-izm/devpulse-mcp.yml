@@ -24,19 +24,26 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 1
+    forks: 0
     license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    full_name: tao-izm/devpulse-mcp
+    html_url: https://github.com/tao-izm/devpulse-mcp
+    created_at: "2026-05-06T18:51:43Z"
+    pushed_at: "2026-05-07T03:05:27Z"
+    description: Zero-config MCP server that gives AI coding assistants a real-time diagnostic snapshot of your dev environment
+    homepage: https://www.npmjs.com/package/devpulse-mcp
+    topics:
+      - ai
+      - claude
+      - developer-tools
+      - mcp
+      - nodejs
+    last_checked_at: "2026-07-21T15:20:39.803Z"
+    readme:
+      fetched_at: "2026-07-21T15:20:39.803Z"
+      bytes: 1878
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +67,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:20:39.803Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

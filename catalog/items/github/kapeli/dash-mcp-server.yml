@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:31.305Z"
       bytes: 1848
 insights:
-  summary: An MCP server that lets AI coding assistants query and search documentation directly within Dash, the macOS API documentation browser.
-  why_it_matters: It allows agents like Claude Code to look up API docs natively without needing to scrape the web or guess at method signatures.
-  mental_damage: Now your AI can confidently hallucinate the wrong method signature after performing a perfectly accurate documentation search.
+  summary: An MCP server that enables AI assistants to interact with Dash, the macOS API documentation browser.
+  why_it_matters: Developers can now query Dash's installed docsets and documentation pages directly from their AI coding assistant, streamlining API reference lookups.
+  mental_damage: Finally, a way to make your AI assistant stop pretending it remembers every framework's obscure method signatures.
   tags:
-    - mcp
+    - mcp-server
+    - dash
     - documentation
     - macos
-    - dash
-    - context
+    - api-reference
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server implementation for a specific domain (Dash documentation), fitting the MCP Servers & Tooling category perfectly.
+  reason: This is an MCP-first server whose primary identity is providing Dash documentation access via MCP, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for Dash'.
-    - README confirms it provides tools like list_installed_docsets and search_documentation for MCP clients.
-    - Listed in awesome-mcp-servers under 'Developer Tools'.
+    - Repo description explicitly states it is an MCP server for Dash
+    - README details MCP tools for listing docsets, searching documentation, and loading pages
+    - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:55.697Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6947340790b67b1f1887866ed5a86973b899313d9d7cb3e7ae52ebc964cb72e6
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose primary identity is providing Dash documentation access via MCP, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Dash
+        - README details MCP tools for listing docsets, searching documentation, and loading pages
+        - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

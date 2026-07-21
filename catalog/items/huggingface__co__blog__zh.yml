@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language Hugging Face blog covering broad AI topics including model training, inference, robotics, and community tutorials.
-  why_it_matters: Developers looking for Chinese-language walkthroughs on Hugging Face tooling, RAG, fine-tuning, and MCP may find curated community articles here.
-  mental_damage: "Just what every focused developer needs: another bottomless feed of AI think-pieces to bookmark and never read."
+  summary: Hugging Face's official blog featuring community and technical articles about AI/ML developments.
+  why_it_matters: Provides educational and technical insights into AI/ML trends, tools, and research that developers can leverage in their workflows.
+  mental_damage: Another blog to add to your already overflowing RSS feed of AI content you’ll never finish reading.
   tags:
-    - huggingface
     - blog
-    - tutorials
-    - chinese
-    - ml-resources
+    - ai-ml-education
+    - community-articles
+    - huggingface
   confidence: high
 curation:
   status: excluded
-  reason: This is a general community blog and media surface, not a standalone developer tool, framework, agent, or product.
+  reason: This is a blog/publication surface, not a developer tool, framework, or product in the catalog's scope.
   evidence:
-    - URL points to huggingface.co/blog/zh, which is the Hugging Face Chinese community blog.
-    - Scraped content shows general AI articles, tutorials, and community posts rather than a product or tool.
-    - Source list places it in a tutorials section of a general LLM resources list, not as a developer tool.
+    - Scraped site context identifies it as a 'Community Articles' blog on Hugging Face
+    - Source-list context places it under '教程 Tutorial' in a general LLM resources list
+    - No indication of a standalone tool, library, or developer-facing product
 placement:
   primary_category: null
   section: null
@@ -70,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:37.764Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:317a8b4f7934a8be2e596b4a847ac9e4db2e273ffd7394e3e170831f584847aa
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a blog/publication surface, not a developer tool, framework, or product in the catalog's scope.
+      decision_evidence:
+        - Scraped site context identifies it as a 'Community Articles' blog on Hugging Face
+        - Source-list context places it under '教程 Tutorial' in a general LLM resources list
+        - No indication of a standalone tool, library, or developer-facing product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

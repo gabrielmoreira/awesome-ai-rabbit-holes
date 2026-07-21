@@ -1,0 +1,111 @@
+id: rocket__new
+kind: website
+name: Rocket.new
+canonical_url: https://rocket.new
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__rocket__new__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Rocket.new
+        extracted_url: https://rocket.new
+        surrounding_text: "- **[Rocket.new](https://rocket.new/)** – AI-powered rapid app development from natural language."
+        confidence: high
+    - id: discovery__www__rocket__new__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Rocket.new
+        extracted_url: https://rocket.new
+        surrounding_text: "- **[Rocket.new](https://rocket.new/)** – AI-powered rapid app development from natural language."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Rocket is a prompt-to-app platform that also provides market research and competitive intelligence for deciding what to build.
+  why_it_matters: It lets developers turn ideas into production-grade apps while maintaining shared context across research, building, and tracking phases.
+  mental_damage: Finally, a tool that will tell you what to build, build it for you, and then watch your competitors do it better.
+  tags:
+    - prompt-to-app
+    - competitive-intelligence
+    - ai-builder
+    - vibe-solutioning
+  confidence: high
+curation:
+  status: included
+  reason: The primary product surface is prompt-to-app generation with additional market research and competitive tracking capabilities, fitting the App Builders category.
+  evidence:
+    - Described as 'Vibe Solutioning platform' that builds apps from prompts
+    - Explicitly listed in awesome-ai-coding-tools under App Builders
+    - Core workflow includes turning prompts into web/mobile apps, landing pages, SaaS, internal tools, and dashboards
+placement:
+  primary_category: app-builders
+  section: Prompt-to-App Builders
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:59.385Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5ef0a5aaa4161d93aaec0d8f3a7ab920758d5e9bb2d7d8444a269b80b59c474a
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The primary product surface is prompt-to-app generation with additional market research and competitive tracking capabilities, fitting the App Builders category.
+      decision_evidence:
+        - Described as 'Vibe Solutioning platform' that builds apps from prompts
+        - Explicitly listed in awesome-ai-coding-tools under App Builders
+        - Core workflow includes turning prompts into web/mobile apps, landing pages, SaaS, internal tools, and dashboards
+      category_candidates:
+        - app-builders
+        - agent-orchestration
+      contrastive_reason: Choose app-builders over agent-orchestration because the main value is prompt-to-app generation rather than multi-agent coordination.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.970Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

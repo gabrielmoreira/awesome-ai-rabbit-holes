@@ -87,23 +87,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:55.692Z"
       bytes: 6217
 insights:
-  summary: An open-source AI email assistant that organizes inboxes, drafts replies, and manages calendar tasks, with optional Slack and Telegram integrations.
-  why_it_matters: It offers developers a self-hostable, customizable alternative to proprietary email AI, including an MCP server for integrating email context into coding workflows.
-  mental_damage: We have successfully automated the inbox zero grind so you can spend the saved time debugging why your MCP server can't quite parse that one recurring GitHub notification.
+  summary: An open-source AI personal assistant for email that organizes inboxes, pre-drafts replies, and integrates with Slack/Telegram.
+  why_it_matters: Developers managing high-volume email workflows can automate inbox triage, drafting, and calendar integration without vendor lock-in.
+  mental_damage: Finally, an AI that can unsubscribe you from all those 'AI tooling' newsletters you signed up for in 2023.
   tags:
-    - email
-    - mcp
-    - self-hosted
+    - email-automation
+    - ai-assistant
     - productivity
-    - nextjs
+    - self-hostable
+    - mcp-server
   confidence: high
 curation:
   status: excluded
-  reason: Although it provides an MCP server, the core product is a general-purpose email productivity SaaS and not a developer-tooling primitive.
+  reason: This is an end-user productivity tool for email management, not a developer-tooling product focused on coding workflows, infrastructure, or app-building.
   evidence:
-    - Repo description defines it as 'The world's best AI personal assistant for email', targeting end-users rather than developers.
-    - Primary features are inbox organization, reply drafting, calendar management, and bulk unsubscribe—standard productivity tasks.
-    - Listed in awesome-mcp lists only as a Communication server, which is an integration layer rather than the product's identity.
+    - Repo description explicitly positions it as an AI personal assistant for email
+    - README emphasizes inbox organization, reply drafting, and calendar management as core features
+    - Source-list context shows it's included in MCP server lists, but MCP is not the primary product identity
 placement:
   primary_category: null
   section: null
@@ -122,12 +122,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:10.934Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2f7b31c7507d75f62e9e3e476f00c217147153b05513862e6f1eae95d53bf983
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an end-user productivity tool for email management, not a developer-tooling product focused on coding workflows, infrastructure, or app-building.
+      decision_evidence:
+        - Repo description explicitly positions it as an AI personal assistant for email
+        - README emphasizes inbox organization, reply drafting, and calendar management as core features
+        - Source-list context shows it's included in MCP server lists, but MCP is not the primary product identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

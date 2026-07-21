@@ -56,23 +56,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:24.833Z"
       bytes: 40615
 insights:
-  summary: A curated directory of 1000+ reusable Claude Skills, plugins, and resources for customizing workflows across Claude Code, Cursor, Codex, and other coding agents.
-  why_it_matters: It provides a portable standard for packaging agent instructions and workflows that load progressively to avoid context bloat across multiple AI coding tools.
-  mental_damage: We have now reached the point where we need a directory of directories to manage the skills required to instruct the agents that are supposed to be doing the work for us.
+  summary: A curated list of 1000+ production-ready Claude Skills and plugins for enhancing AI agent workflows across coding assistants like Claude Code, Cursor, and others.
+  why_it_matters: Developers can discover reusable skill packs to extend their AI coding assistants with domain-specific workflows, integrations, and guardrails without reinventing the wheel.
+  mental_damage: Because nothing says 'productivity' like spending an hour curating the perfect set of skills to automate the task you could have just done manually in ten minutes.
   tags:
-    - skills
-    - claude
-    - agent-workflows
-    - directory
-    - cursor
+    - claude-skills
+    - agent-skills
+    - workflow-automation
+    - skill-registry
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a registry of reusable skill packs and rules for coding agents, fitting the Agent Skills category better than a generic awesome list.
+  reason: This is a curated directory of reusable skill packs for AI agents, which fits the 'Agent Skills' category as a skill registry.
   evidence:
-    - Repo description explicitly calls it 'A curated list of awesome Claude Skills, resources, and tools'.
-    - README states it is 'a comprehensive and curated list of 1000+ production ready and practical Claude Skills and Plugins'.
-    - Contains sections defining 'What Are Claude Skills?' and lists skills for Development & Code Tools, proving it is a skill registry.
+    - Repo description explicitly states it is a curated list of Claude Skills and tools for customizing AI workflows
+    - README confirms it is a comprehensive directory of 1000+ production-ready skills for multiple coding agents
+    - Source-list context shows it is already categorized under 'Skills' in awesome-LLM-resources
 placement:
   primary_category: skills
   section: Skill Registries & Directories
@@ -91,12 +91,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:46:40.982Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e48f09cf28bcf217cfe34ee90d9322fbf79cf61afd12c954e166572bd05ba394
+      proposed_primary_category: skills
+      disagreement: false
+      decision_reason: This is a curated directory of reusable skill packs for AI agents, which fits the 'Agent Skills' category as a skill registry.
+      decision_evidence:
+        - Repo description explicitly states it is a curated list of Claude Skills and tools for customizing AI workflows
+        - README confirms it is a comprehensive directory of 1000+ production-ready skills for multiple coding agents
+        - Source-list context shows it is already categorized under 'Skills' in awesome-LLM-resources
+      category_candidates:
+        - skills
+        - awesome-awesomes
+      contrastive_reason: Choose skills over awesome-awesomes because the primary artifact is a reusable skill registry for AI agents, not just a general discovery list.
+      review_reason: null
+      review_resume_lifecycle: null

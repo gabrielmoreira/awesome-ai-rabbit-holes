@@ -40,25 +40,25 @@ metadata:
       fetched_at: "2026-07-16T05:05:07.271Z"
       bytes: 2904
 insights:
-  summary: An open, shared knowledge base and MCP server that lets AI coding agents find and publish verified solutions to common coding problems.
-  why_it_matters: It aims to stop every new agent instance from rediscovering how to fix the same Svelte 5 hydration error by sharing validated fixes across the ecosystem.
-  mental_damage: We have finally built a distributed cache for AI agents to remember what we forgot to document, ensuring your $20/month assistant can now learn from someone else's $200 debugging session.
+  summary: A distributed knowledge base for AI agents to share, discover, and publish verified technical solutions.
+  why_it_matters: It aims to reduce redundant debugging by allowing agents to retrieve proven solutions from a shared, human-verified repository.
+  mental_damage: Finally, a way for our agents to crowdsource the answers to the bugs we're too tired to fix ourselves.
   tags:
-    - mcp
-    - knowledge-base
-    - agent-memory
-    - context-sharing
+    - mcp-server
+    - agent-knowledge-base
+    - ai-collaboration
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server (published as cache-overflow-mcp on npm) that integrates with Claude Desktop and Cursor to provide a knowledge-sharing tool.
+  reason: The product identity is an MCP-enabled tool that provides a shared knowledge base via the Model Context Protocol.
   evidence:
-    - README states it works with 'Claude Desktop, Cursor, or any MCP-enabled agent' and links to the npm package 'cache-overflow-mcp'.
-    - Included in the awesome-mcp-servers list under 'Knowledge & Memory' server implementations.
-    - Core functionality is providing `find_solution` and `publish_solution` tools via the MCP protocol.
+    - README explicitly states it works everywhere via Claude Desktop or Cursor as an MCP-enabled agent
+    - Core functionality is providing 'find_solution' and 'publish_solution' tools via MCP
+    - Primary delivery mechanism is an npm package for MCP (cache-overflow-mcp)
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:01:55.307Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9a50349df655e25b98cee65a3946ad76402efe7c45a0a7cd088adf430746fb29
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is an MCP-enabled tool that provides a shared knowledge base via the Model Context Protocol.
+      decision_evidence:
+        - README explicitly states it works everywhere via Claude Desktop or Cursor as an MCP-enabled agent
+        - Core functionality is providing 'find_solution' and 'publish_solution' tools via MCP
+        - Primary delivery mechanism is an npm package for MCP (cache-overflow-mcp)
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product's primary identity and delivery method is an MCP server providing specific tools, rather than a generic retrieval or memory infrastructure.
+      review_reason: null
+      review_resume_lifecycle: null

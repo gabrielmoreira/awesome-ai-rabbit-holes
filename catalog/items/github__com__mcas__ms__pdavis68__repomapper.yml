@@ -52,28 +52,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: RepoMapper is a GitHub repository mapping tool linked from the awesome-mcp-servers list as a companion to the Continue coding assistant.
-  why_it_matters: It aims to help developers visualize and navigate repository structure when working with AI coding assistants like Continue.
-  mental_damage: Another helpful utility promising to organize the chaos, right up until it becomes yet another context window you have to manage.
+  summary: RepoMapper is an MCP server listed under Coding Agents in the awesome-mcp-servers directory.
+  why_it_matters: It extends MCP-compatible environments with repository mapping capabilities, potentially aiding code navigation or context gathering for AI assistants.
+  mental_damage: Because nothing says 'modern development' like needing a server to map the very repo you're already standing in.
   tags:
-    - repo-mapping
     - mcp
-    - continue
-    - navigation
+    - repository-mapping
+    - context-engineering
   confidence: low
 curation:
   status: excluded
-  reason: There is no usable project information available—no description, README, homepage, or clear product identity—and the only signals are indirect links from an awesome list pointing to Continue rather than RepoMapper itself.
+  reason: The project lacks sufficient independent identity or description to confirm its fit; its only signal is inclusion in an MCP server list under a generic 'Coding Agents' section, which does not override the absence of concrete product details.
   evidence:
-    - Repo description, README, homepage, stars, and dates are all unknown or empty.
-    - The only source-list appearances reference Continue, not RepoMapper's own functionality.
-    - No scraped site context or code-level evidence exists to establish what RepoMapper actually does.
+    - No repo description, README, or homepage provided
+    - Only appears in awesome-mcp-servers under a broad 'Coding Agents' section with no functional details
+    - No stars, topics, license, or activity signals available
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -85,12 +84,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:58.558Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:afc92ae2b5a118c8be126f4d9fb34d38860d151426f13d1347e1fd8322b14af3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks sufficient independent identity or description to confirm its fit; its only signal is inclusion in an MCP server list under a generic 'Coding Agents' section, which does not override the absence of concrete product details.
+      decision_evidence:
+        - No repo description, README, or homepage provided
+        - Only appears in awesome-mcp-servers under a broad 'Coding Agents' section with no functional details
+        - No stars, topics, license, or activity signals available
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

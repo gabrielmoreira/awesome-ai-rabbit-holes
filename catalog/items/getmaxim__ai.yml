@@ -1,0 +1,114 @@
+id: getmaxim__ai
+kind: website
+name: Maxim AI
+canonical_url: https://getmaxim.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__getmaxim__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: Maxim AI
+        extracted_url: https://getmaxim.ai
+        surrounding_text: "| [Maxim AI](https://getmaxim.ai) | Platform for AI Agent Simulation, Evaluation & Observability |"
+        confidence: high
+    - id: discovery__www__getmaxim__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: Maxim AI
+        extracted_url: https://getmaxim.ai
+        surrounding_text: "| [Maxim AI](https://getmaxim.ai) | Platform for AI Agent Simulation, Evaluation & Observability |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Maxim AI is an end-to-end evaluation and observability platform for AI agents, offering prompt engineering, simulation, evaluation, and production monitoring.
+  why_it_matters: It enables teams to systematically test, compare, and monitor AI agents across scenarios, models, and workflows, reducing time-to-production and improving reliability.
+  mental_damage: Finally, a way to prove your agent isn’t hallucinating—until the evals start hallucinating too.
+  tags:
+    - evals
+    - observability
+    - agent-testing
+    - llmops
+    - prompt-engineering
+  confidence: high
+curation:
+  status: included
+  reason: The core product is a platform for measuring, tracing, and evaluating agent behavior, which aligns with the Evals & Benchmarks category.
+  evidence:
+    - Described as 'end-to-end evaluation and observability platform' for AI agents
+    - Features include agent simulation, evaluation, tracing, debugging, and online evaluations
+    - Source-list context places it under 'Security > Observability' in Awesome-LLMOps
+placement:
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:34:32.752Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ddb0dd384be71b0f4c417b140dc2ec606dc09495825b8f683f2f770d6f0b099c
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The core product is a platform for measuring, tracing, and evaluating agent behavior, which aligns with the Evals & Benchmarks category.
+      decision_evidence:
+        - Described as 'end-to-end evaluation and observability platform' for AI agents
+        - Features include agent simulation, evaluation, tracing, debugging, and online evaluations
+        - Source-list context places it under 'Security > Observability' in Awesome-LLMOps
+      category_candidates:
+        - evals
+        - agent-orchestration
+      contrastive_reason: Choose evals over agent-orchestration because the primary value is measurement, scoring, and observability of agent behavior rather than multi-agent coordination.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.965Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

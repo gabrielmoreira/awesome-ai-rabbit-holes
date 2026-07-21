@@ -37,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Mentat CLI is a terminal-native AI coding agent that integrates with developer repositories to plan and execute code changes.
-  why_it_matters: It offers developers a command-line interface to delegate multi-file repo work directly from the terminal without switching to an IDE.
-  mental_damage: Another terminal-native agent to install, configure, and forget exists when you realize you still have to review every line it touches.
+  summary: A CLI tool from Mentat that provides terminal-native AI coding assistance.
+  why_it_matters: Developers can delegate repo work directly from the terminal, streamlining coding workflows without switching contexts.
+  mental_damage: Another CLI agent to add to your already crowded terminal tabs, because typing `git commit -m` was clearly the bottleneck.
   tags:
     - cli
     - coding-agent
-    - terminal
-    - repo-editing
-  confidence: medium
+    - terminal-native
+    - mentat
+  confidence: high
 curation:
   status: included
-  reason: The product is a standalone terminal-native coding assistant that developers use as the primary agent for repo work, fitting the coding-agents category.
+  reason: The product is a terminal-native coding assistant that developers delegate repo work to, fitting the core definition of Coding Agents.
   evidence:
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'.
-    - URL points to Mentat CLI documentation, indicating a standalone CLI tool.
+    - Seen in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'
+    - URL path (mentat.ai/docs/cli) indicates a CLI-focused product
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -69,12 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:50.431Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c06afbc54888dfb6d9fd95b4d1461770007407849c0b6448c39306083b1c5f73
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The product is a terminal-native coding assistant that developers delegate repo work to, fitting the core definition of Coding Agents.
+      decision_evidence:
+        - Seen in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'
+        - URL path (mentat.ai/docs/cli) indicates a CLI-focused product
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a standalone terminal agent rather than an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

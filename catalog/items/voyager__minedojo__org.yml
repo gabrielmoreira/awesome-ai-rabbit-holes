@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Voyager is a research project and embodied lifelong learning agent that uses GPT-4 to autonomously play Minecraft, build a growing skill library of executable code, and explore open-ended worlds without human intervention.
-  why_it_matters: It demonstrates a practical architecture for iterative prompting, self-verification, and skill retrieval that developers can study when building autonomous agents that must master long-horizon tasks.
-  mental_damage: We have agents that can unlock the entire Minecraft diamond tech tree in minutes, yet we still cannot ship a working CSV import without three rounds of human intervention.
+  summary: Voyager is an LLM-powered embodied lifelong learning agent in Minecraft that explores, acquires skills, and makes discoveries without human intervention.
+  why_it_matters: It demonstrates how LLMs can drive autonomous agents to solve complex, open-ended tasks through iterative prompting and skill composition.
+  mental_damage: Now you have to explain to your manager why your team isn’t shipping as fast as a GPT-4-powered Minecraft bot.
   tags:
-    - agent
-    - research
-    - autonomous
-    - lifelong-learning
+    - llm-agents
     - minecraft
+    - autonomous-agents
+    - research
   confidence: high
 curation:
   status: excluded
-  reason: This is a research prototype and academic paper focused on embodied AI in Minecraft, not a practical developer tool, framework, or product for building software.
+  reason: Voyager is a research project focused on autonomous agents in Minecraft, not a practical developer tool, framework, or workflow product.
   evidence:
-    - Described as 'an LLM-powered embodied lifelong learning agent in Minecraft' rather than a coding or developer tool.
-    - Primary artifacts are an arXiv paper, abstracts, and research team affiliations rather than importable libraries or operated platforms.
-    - Appears in awesome-ai-agents as a research example, not as a developer-facing product or SDK.
+    - The project is a research paper and implementation for an LLM-powered Minecraft agent
+    - It is listed in awesome-ai-agents under 'Voyager | An Open-Ended Embodied Agent with Large Language Models'
+    - The core value is academic demonstration, not developer-tooling utility
 placement:
   primary_category: null
   section: null
@@ -72,12 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:47.137Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:575e51e05da959574129c9eba1ed5dd7a05e89df32826e625cf442a52c2a9b01
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Voyager is a research project focused on autonomous agents in Minecraft, not a practical developer tool, framework, or workflow product.
+      decision_evidence:
+        - The project is a research paper and implementation for an LLM-powered Minecraft agent
+        - It is listed in awesome-ai-agents under 'Voyager | An Open-Ended Embodied Agent with Large Language Models'
+        - The core value is academic demonstration, not developer-tooling utility
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

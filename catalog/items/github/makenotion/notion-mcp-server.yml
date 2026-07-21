@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:15.178Z"
       bytes: 16267
 insights:
-  summary: Official Notion MCP server that exposes Notion workspace data and editing capabilities to AI agents via the Model Context Protocol.
-  why_it_matters: Developers can connect Claude, Cursor, Zed, and other MCP-compatible assistants directly to Notion without building custom API integrations.
-  mental_damage: You can now ask your coding agent to refactor your database schema and your meeting notes in the same breath, then wonder why your workspace feels like a shared hallucination.
+  summary: Official Notion MCP Server implementing the Model Context Protocol for the Notion API.
+  why_it_matters: It lets AI agents read and edit Notion pages and databases through standardized MCP tooling, reducing friction for developers who-parse Notion data.
+  mental_damage: Finally, a way to make your AI assistant moderately good at pretending it understands your Notion wiki, while you pretend you don’t need to read it yourself.
   tags:
-    - mcp
     - notion
-    - integration
-    - official
+    - mcp
+    - ai-integration
+    - developer-tooling
   confidence: high
 curation:
   status: included
-  reason: This is an official MCP server implementation from Notion, making MCP its core product identity rather than a compatibility footnote.
+  reason: The product is an MCP server whose core identity is providing Model Context Protocol access to Notion, making it MCP infrastructure rather than a coding assistant or extension.
   evidence:
-    - Repo description is 'Official Notion MCP Server'
-    - "README states: 'This project implements an MCP server for the Notion API'"
-    - Listed under 'Official Servers' in awesome-mcp-servers directory
+    - "Repo description: 'Official Notion MCP Server'"
+    - "README: 'This project implements an MCP server for the Notion API'"
+    - "Source-list context: Listed in awesome-mcp-servers under Official Servers"
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:18:08.706Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a179e71f3180b7ede2a9819d7440199152c5f5c2f3e47b1199a080f512c40089
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server whose core identity is providing Model Context Protocol access to Notion, making it MCP infrastructure rather than a coding assistant or extension.
+      decision_evidence:
+        - "Repo description: 'Official Notion MCP Server'"
+        - "README: 'This project implements an MCP server for the Notion API'"
+        - "Source-list context: Listed in awesome-mcp-servers under Official Servers"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments another assistant with Notion access.
+      review_reason: null
+      review_resume_lifecycle: null

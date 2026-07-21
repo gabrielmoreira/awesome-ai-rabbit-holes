@@ -74,23 +74,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:37.019Z"
       bytes: 9549
 insights:
-  summary: IX is a self-hosted platform for designing, deploying, and coordinating autonomous and semi-autonomous LLM-powered agents and workflows using a no-code graph editor and multi-agent chat interface.
-  why_it_matters: It provides developers with a visual workbench and scalable backend to build, test, and run teams of specialized agents that communicate and delegate tasks in parallel.
-  mental_damage: Just when you thought your standalone coding agent was complex enough, now you can architect an entire hierarchy of agents to delegate the delegation of your tasks.
+  summary: An autonomous GPT-4 agent platform for designing, deploying, and coordinating multi-agent workflows.
+  why_it_matters: It lets developers build, scale, and orchestrate AI agents for tasks like code generation, data analysis, and research assistance without deep infrastructure setup.
+  mental_damage: Now you can spin up a fleet of agents to argue with each other about your code while you question your life choices.
   tags:
-    - agents
     - multi-agent
-    - langchain
+    - workflow-automation
+    - gpt-4
     - no-code
-    - self-hosted
+    - python
   confidence: high
 curation:
   status: included
-  reason: The platform's core identity is a no-code workbench and control plane for coordinating multiple agents, tasks, and workflows, rather than acting as a single coding assistant.
+  reason: The core product is a workbench and runtime platform for coordinating multiple agents, with a no-code editor and multi-agent chat interface as primary surfaces.
   evidence:
-    - Repo description explicitly calls it an 'Autonomous GPT-4 agent platform'.
-    - README highlights a 'no-code Agent Editor' to build cognitive graphs and a 'Multi-Agent Chat interface' with a moderator agent.
-    - Architecture relies on a dockerized Celery message queue to scale a 'fleet of agents running in parallel'.
+    - README describes it as a platform for designing/deploying autonomous agents with multi-agent chat and parallel execution
+    - Includes a no-code editor and message-queue-driven worker scaling for agent orchestration
+    - Source lists categorize it under agent frameworks/workbenches (e.g., awesome-llm-agents)
 placement:
   primary_category: agent-orchestration
   section: Workbenches & Collaboration Surfaces
@@ -109,12 +109,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:00.292Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1a2cad5c9e708c26140b4fc95e708b93afdbe28631f507c6fffcf26d3d951f56
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The core product is a workbench and runtime platform for coordinating multiple agents, with a no-code editor and multi-agent chat interface as primary surfaces.
+      decision_evidence:
+        - README describes it as a platform for designing/deploying autonomous agents with multi-agent chat and parallel execution
+        - Includes a no-code editor and message-queue-driven worker scaling for agent orchestration
+        - Source lists categorize it under agent frameworks/workbenches (e.g., awesome-llm-agents)
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the primary surface is an operated workbench and runtime platform rather than a code-first library.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,12 +39,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 91
-    forks: 26
+    stars: 94
+    forks: 27
     license: GPL-3.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: TheRaLabs/legion-mcp
+    html_url: https://github.com/TheRaLabs/legion-mcp
     created_at: "2025-03-24T02:06:22Z"
     pushed_at: "2025-05-11T02:46:12Z"
     description: A server that helps people access and query data in databases using the Legion Query Runner with Model Context Protocol (MCP) in Python.
@@ -55,9 +55,9 @@ metadata:
       - mcp
       - mcp-server
       - query-builder
-    last_checked_at: "2026-05-06T22:46:48.132Z"
+    last_checked_at: "2026-07-21T15:20:47.625Z"
     readme:
-      fetched_at: "2026-05-06T22:46:48.132Z"
+      fetched_at: "2026-07-21T15:20:47.625Z"
       bytes: 11744
 insights:
   summary: A Python MCP server that provides a unified interface for AI assistants to query multiple databases, including PostgreSQL, MySQL, and SQL Server, via the Legion Query Runner.
@@ -91,16 +91,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:48.132Z"
+    updated_at: "2026-07-21T15:20:47.625Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -58,23 +58,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:44.012Z"
       bytes: 49473
 insights:
-  summary: Swarms is a Python framework for building and running production-ready multi-agent systems with support for sequential, concurrent, and hierarchical orchestration patterns.
-  why_it_matters: It provides developers with prebuilt multi-agent architectures and interoperability with protocols like MCP, reducing the boilerplate needed to coordinate complex agent workflows.
-  mental_damage: Yet another framework promising enterprise-grade multi-agent harmony, ensuring you can now orchestrate six different LLMs into a deadlock with unprecedented scalability.
+  summary: An enterprise-grade multi-agent orchestration framework for coordinating AI agents in production workflows.
+  why_it_matters: It provides prebuilt multi-agent architectures (sequential, concurrent, hierarchical) and interoperability with protocols like MCP, enabling developers to scale and manage complex agent systems.
+  mental_damage: Because nothing says 'production-ready' like a framework that promises to orchestrate agents you didn’t know you needed to coordinate.
   tags:
     - multi-agent
     - orchestration
     - python
     - framework
-    - enterprise
+    - mcp-compatible
   confidence: high
 curation:
   status: included
-  reason: The product is a code-first Python library used to build multi-agent systems via imports and scripts, fitting the framework definition rather than a managed control plane or SaaS platform.
+  reason: The product is a code-first framework for building and orchestrating multi-agent systems, fitting the 'Frameworks & SDKs' category where developers primarily import and script against it.
   evidence:
-    - Repo description explicitly calls it a 'Multi-Agent Orchestration Framework' with 6,636 stars and Apache-2.0 license.
-    - README shows pip/uv/poetry install commands and positions it as a library with 'comprehensive suite of production-ready, prebuilt multi-agent architectures'.
-    - Source list 'awesome-agent-orchestration' classifies it under 'Core Frameworks > Swarm Intelligence Frameworks'.
+    - "Repo description: 'The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework'"
+    - "README: Provides 'prebuilt multi-agent architectures' and emphasizes code-first usage (pip install, SDK-style integration)"
+    - "Source-list context: Listed under 'Core Frameworks > Swarm Intelligence Frameworks' in awesome-agent-orchestration"
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -93,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:27.317Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:087dfe06428e0d33ba86cdd1a71abf67ac5789d9d6c4741072bf5027606fc8e3
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The product is a code-first framework for building and orchestrating multi-agent systems, fitting the 'Frameworks & SDKs' category where developers primarily import and script against it.
+      decision_evidence:
+        - "Repo description: 'The Enterprise-Grade Production-Ready Multi-Agent Orchestration Framework'"
+        - "README: Provides 'prebuilt multi-agent architectures' and emphasizes code-first usage (pip install, SDK-style integration)"
+        - "Source-list context: Listed under 'Core Frameworks > Swarm Intelligence Frameworks' in awesome-agent-orchestration"
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary identity is a code-first library/SDK for developers to integrate, not an operated workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -60,22 +60,23 @@ metadata:
       fetched_at: "2026-07-20T15:10:58.406Z"
       bytes: 4506
 insights:
-  summary: An MCP server that indexes documentation into a vector database and exposes semantic search tools so AI assistants can retrieve relevant docs on demand.
-  why_it_matters: It lets developers wire fresh, searchable documentation context into MCP-compatible assistants instead of relying on stale training data or manual copy-pasting.
-  mental_damage: Yet another RAG wrapper promising that this time, the docs will actually be what the model reads before confidently inventing an API.
+  summary: An MCP server that enables AI assistants to retrieve and process documentation via vector search for context augmentation.
+  why_it_matters: Developers can plug this into their AI workflows to give assistants real-time access to relevant documentation without manual prompt stuffing.
+  mental_damage: Now your AI can finally remember the docs you forgot to read, but only if you also remember to configure Qdrant.
   tags:
     - mcp
     - rag
     - documentation
     - vector-search
+    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-native server whose core identity is exposing documentation retrieval via the Model Context Protocol, making it a textbook fit for MCP Servers & Tooling.
+  reason: "MCP is the product identity: this is a server implementation for the Model Context Protocol, not a compatibility footnote."
   evidence:
-    - Repo description explicitly states 'An MCP server implementation that provides tools for retrieving and processing documentation through vector search'.
-    - README emphasizes usage with Claude Desktop via mcpServers configuration and details MCP tools like search_documentation and list_sources.
-    - Included in awesome-mcp-list and awesome-mcp-servers under Knowledge & Memory, confirming MCP-centric community adoption.
+    - Repo description explicitly states it is an MCP server implementation
+    - README details MCP-specific tools and configuration (e.g., Claude Desktop integration)
+    - Source-list context places it in an MCP servers list under 'Knowledge & Memory'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -94,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:58.095Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1e0c1129d9501dc5cb7b49061632deecbe2aeaa1df556a72c65132129c64bdc7
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a server implementation for the Model Context Protocol, not a compatibility footnote."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server implementation
+        - README details MCP-specific tools and configuration (e.g., Claude Desktop integration)
+        - Source-list context places it in an MCP servers list under 'Knowledge & Memory'
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server, not a standalone retrieval system.
+      review_reason: null
+      review_resume_lifecycle: null

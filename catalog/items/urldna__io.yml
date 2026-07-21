@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: urlDNA is a website analysis service that scans URLs to expose security risks, monitor brands, and surface site insights.
-  why_it_matters: It offers developers a quick way to audit external links and third-party assets for security and brand risks without building custom scrapers.
-  mental_damage: Because what the modern stack really needed was a SaaS that treats every suspicious npm redirect like a genetic test result.
+  summary: A website analysis tool that extracts insights, monitors brands, and exposes security risks from URLs.
+  why_it_matters: Developers can use it to quickly audit third-party sites or dependencies for security or compliance risks.
+  mental_damage: Because nothing says 'modern development' like treating every URL as a potential biohazard.
   tags:
+    - website-analysis
     - security
-    - site-analysis
-    - url-scanning
+    - brand-monitoring
   confidence: high
 curation:
   status: excluded
-  reason: The product is a general website security and brand-monitoring SaaS with no meaningful developer-tooling workflow, IDE integration, or coding-agent angle.
+  reason: The tool is a general website analysis service, not a developer-tooling product focused on coding, agents, or AI workflows.
   evidence:
-    - Scraped site describes it as 'The DNA test for websites' focused on brand monitoring and security risks.
-    - Source-list context places it in awesome-mcp-servers, but only as a linked page, not as an MCP server implementation.
-    - No repo description, README, or code artifacts provided to demonstrate developer-facing tooling, SDK, or extension behavior.
+    - Scraped site context describes it as a website insights/brand monitoring/security risk tool
+    - No evidence of code editing, agent orchestration, or developer workflow integration
+    - Source-list context shows it in an MCP servers list, but MCP is not the product identity
 placement:
   primary_category: null
   section: null
@@ -68,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:29.590Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bac5e24d407937a0c86737cc80ba22c1c68843732ee4ccda267d8cd5cb87628c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a general website analysis service, not a developer-tooling product focused on coding, agents, or AI workflows.
+      decision_evidence:
+        - Scraped site context describes it as a website insights/brand monitoring/security risk tool
+        - No evidence of code editing, agent orchestration, or developer workflow integration
+        - Source-list context shows it in an MCP servers list, but MCP is not the product identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,23 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:31.587Z"
       bytes: 20235
 insights:
-  summary: DeepSeek-Coder-V2 is an open-source Mixture-of-Experts (MoE) code language model available in 16B and 236B parameter sizes, designed to rival closed-source models like GPT-4 Turbo in code intelligence and math reasoning.
-  why_it_matters: Developers can self-host or fine-tune a high-performing coding model with 128k context and support for 338 programming languages, reducing dependency on proprietary APIs.
-  mental_damage: Another open-weight model claims to break the barrier of closed-source dominance, giving you one more reason to spend your weekend benchmarking it against your current stack instead of shipping code.
+  summary: DeepSeek-Coder-V2 is an open-source Mixture-of-Experts code language model with 16B and 236B parameter variants, supporting 338 programming languages and a 128K context length.
+  why_it_matters: It offers developers a high-performance, open-source alternative to closed models like GPT4-Turbo for code-specific tasks, with strong benchmarks in coding and math.
+  mental_damage: Another model claims to outperform GPT-4, and now you have to decide whether to trust the benchmarks or your own sanity.
   tags:
-    - llm
     - code-model
-    - self-hosted
-    - moe
     - open-source
+    - mixture-of-experts
+    - high-context
+    - multi-language
   confidence: high
 curation:
   status: excluded
-  reason: This is a base/fine-tuned model release (weights and paper), not a developer-facing tool, agent, IDE, or infrastructure product that engineers would directly adopt into their workflow.
+  reason: This is a raw model release, not a developer tool, framework, or workflow product; the catalog focuses on practical AI tools and workflows, not standalone model checkpoints.
   evidence:
-    - Repo description defines it as a code language model, not a tool or product.
-    - README focuses on model downloads, benchmark results, and paper links rather than tooling UX.
-    - Listed in awesome-ai-coding-tools under 'Code Models', which is a model category rather than a developer tool category.
+    - Repo description identifies it as a code language model, not a tool or workflow
+    - README centers on model capabilities, downloads, and benchmarks, not a developer-facing product
+    - Source-list context places it under 'Code Models', reinforcing its identity as a model, not a tool
 placement:
   primary_category: null
   section: null
@@ -74,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:32.160Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8844c788dc2fa442711b20a315168843fbae9c39ec223ed80084da685bed02bf
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a raw model release, not a developer tool, framework, or workflow product; the catalog focuses on practical AI tools and workflows, not standalone model checkpoints.
+      decision_evidence:
+        - Repo description identifies it as a code language model, not a tool or workflow
+        - README centers on model capabilities, downloads, and benchmarks, not a developer-facing product
+        - Source-list context places it under 'Code Models', reinforcing its identity as a model, not a tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -60,23 +60,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:06.238Z"
       bytes: 7986
 insights:
-  summary: A browser-backed MCP server that wraps mcp-atlassian to enable SSO and cookie-based authentication for Atlassian Server/Data Center instances.
-  why_it_matters: It allows AI coding assistants to natively access Jira and Confluence in enterprise environments where API tokens are unavailable due to corporate SSO restrictions.
-  mental_damage: We have successfully automated the one part of the job that required opening a browser and clicking 'Approve' with a mouse.
+  summary: An MCP server that uses Playwright to provide browser-based SSO authentication for the mcp-atlassian toolset.
+  why_it_matters: It enables AI agents to access Jira and Confluence instances protected by corporate SSO (Okta, SAML) where standard API tokens are unavailable.
+  mental_damage: "Finally, a way to let your LLM solve the most complex engineering challenge of 2026: successfully navigating a corporate SSO redirect."
   tags:
-    - mcp
+    - mcp-server
     - atlassian
-    - sso
     - playwright
-    - enterprise
+    - sso-auth
+    - jira
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server specifically designed to bridge Atlassian instances with AI tools via browser-cookie auth, fitting the MCP Servers & Tooling category.
+  reason: The project is an implementation of an MCP server specifically designed to bridge an existing toolset with a specific authentication requirement.
   evidence:
-    - Repo description explicitly states 'Browser-backed MCP server wrapping mcp-atlassian'.
-    - README confirms it registers 73 MCP tools and is configured as an MCP server in editors like Cursor and Claude Code.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - README identifies as an MCP server wrapping mcp-atlassian
+    - Uses Playwright for manual SSO/MFA session management
+    - Provides 73 tools via the Model Context Protocol
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:01:06.233Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:979817e6876face78c1bd8a4904ad854938b7134a2fe94a96ae150fbcb5f8b1f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is an implementation of an MCP server specifically designed to bridge an existing toolset with a specific authentication requirement.
+      decision_evidence:
+        - README identifies as an MCP server wrapping mcp-atlassian
+        - Uses Playwright for manual SSO/MFA session management
+        - Provides 73 tools via the Model Context Protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the project's primary identity is an MCP server implementation rather than a general IDE integration.
+      review_reason: null
+      review_resume_lifecycle: null

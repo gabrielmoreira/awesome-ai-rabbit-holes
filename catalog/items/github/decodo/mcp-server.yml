@@ -50,22 +50,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:31.469Z"
       bytes: 20027
 insights:
-  summary: An MCP server that connects AI agents and MCP-compatible clients to Decodo's web scraping API for structured data extraction, SERP queries, and e-commerce or social media scraping.
-  why_it_matters: Developers can give agents live web access with built-in proxy rotation, JS rendering, and anti-bot handling without maintaining scraping infrastructure themselves.
-  mental_damage: Another reassuring abstraction layer so your agent can confidently hallucinate prices it just scraped from a site that was definitely not rate-limiting you.
+  summary: An MCP server that connects AI clients to Decodo's web scraping and proxy services.
+  why_it_matters: It lets developers integrate Decodo's scraping, search, and ecommerce tools directly into MCP-compatible coding assistants like Cursor or Claude Desktop.
+  mental_damage: Now your AI can scrape TikTok Shop while you pretend to write unit tests.
   tags:
     - mcp
     - web-scraping
-    - agent-tooling
-    - data-extraction
+    - proxy
+    - integration
+    - cursor
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that exposes web scraping capabilities to MCP clients, making MCP the core product identity rather than a secondary compatibility feature.
+  reason: The product is explicitly an MCP server whose primary identity is providing MCP-based access to Decodo's services, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'The Decodo MCP server which enables MCP clients to interface with services.'
-    - README positions this as 'The Decodo MCP Server is a web scraping layer for AI agents' with MCP configuration examples for Claude, Cursor, and Windsurf.
-    - Listed in awesome-mcp-servers under 'Official Servers' section, confirming MCP server identity.
+    - Repo description identifies it as 'The Decodo MCP server which enables MCP clients to interface with services'
+    - README details MCP client configuration and toolsets for web scraping, search, and ecommerce
+    - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -84,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:18.814Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:138de80cb4c2ac33eef799a7ef0e7bdace5e0c192c97b62a74fe7a1f64199265
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose primary identity is providing MCP-based access to Decodo's services, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description identifies it as 'The Decodo MCP server which enables MCP clients to interface with services'
+        - README details MCP client configuration and toolsets for web scraping, search, and ecommerce
+        - Listed in awesome-mcp-servers under 'Official Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific tools rather than merely extending another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

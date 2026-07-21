@@ -36,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hex is a data notebook and analytics platform that integrates AI agents to assist with SQL, Python, and data app creation through conversational interfaces and an agentic workflow.
-  why_it_matters: It allows data teams to generate analyses and internal tools via natural language, streamlining the path from raw data to deployed dashboard without leaving the notebook environment.
-  mental_damage: Now your data team can ask an AI agent to build the dashboard, while the AI agent asks a different AI agent to debug the query, creating a fully autonomous cycle of explainable confusion.
+  summary: Hex is an AI analytics platform that unifies agentic analysis, conversational self-serve, and notebook-based workflows for data teams.
+  why_it_matters: It enables data teams to build interactive dashboards and apps from prompts, automate analysis with agents, and integrate AI into existing workflows like Slack or IDEs.
+  mental_damage: Now your data team can build dashboards with prompts, because writing SQL was clearly the bottleneck.
   tags:
-    - data-analytics
-    - notebook-agent
-    - conversational-bi
-    - internal-tools
+    - analytics
+    - data-apps
+    - agentic-workflows
+    - notebooks
+    - self-serve
   confidence: high
 curation:
   status: excluded
-  reason: Hex is primarily a business intelligence and data analytics SaaS platform for data teams, not a developer-facing coding tool, agent framework, or infrastructure component.
+  reason: Hex is a data analytics and app-building platform for data teams, not a developer-tooling product focused on coding, IDEs, or AI workflows for software development.
   evidence:
-    - The product description focuses on 'data workflows', 'data teams', and 'BI tools' rather than software development.
-    - Features highlighted include 'agentic notebooks', 'data apps', and 'semantic models' for analytics, not repo editing or code scaffolding.
-    - Although it appears in awesome-ai-agents, its core identity is a vertical platform for data analysis, not a general-purpose coding assistant.
+    - Primary product identity is an AI analytics platform for data teams (not developers)
+    - Core use case is building dashboards/apps from prompts and conversational analytics
+    - Source-list context places it under 'Hex Magic' in an AI agents list, but the product itself is not developer-tooling
 placement:
   primary_category: null
   section: null
@@ -69,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:32.743Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:313e7706e8fd0b40ae759b0951c4af3b75e80f78cea5bd1bb2ea8b98165cc5d1
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Hex is a data analytics and app-building platform for data teams, not a developer-tooling product focused on coding, IDEs, or AI workflows for software development.
+      decision_evidence:
+        - Primary product identity is an AI analytics platform for data teams (not developers)
+        - Core use case is building dashboards/apps from prompts and conversational analytics
+        - Source-list context places it under 'Hex Magic' in an AI agents list, but the product itself is not developer-tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

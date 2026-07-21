@@ -53,26 +53,24 @@ metadata:
       fetched_at: "2026-07-16T05:05:16.268Z"
       bytes: 7851
 insights:
-  summary: An MCP server providing 19 tools for crypto token risk analysis, rug pull detection, and AI-powered forensics for AI coding assistants.
-  why_it_matters: Developers building or using AI agents in crypto workflows can delegate token safety checks, deployer tracking, and social OSINT directly to Claude, Cursor, or Windsurf via the Model Context Protocol.
-  mental_damage: Your AI assistant can now autonomously decide that your Solana token is a scam, saving you from the dignified tradition of learning that yourself after you've already aped in.
+  summary: MCP server for Marcus Rug Intel providing 19 crypto risk analysis tools including rug pull detection and AI forensics, compatible with Claude Desktop, Cursor, and Windsurf.
+  why_it_matters: Lets developers integrate automated crypto token risk analysis into AI agent workflows to avoid scams before transactions.
+  mental_damage: The quiet dread of realizing your AI agent needs a paid MCP subscription just to check if the meme coin it’s hyping is a honeypot.
   tags:
     - mcp
     - crypto
-    - defi
-    - rug-pull
-    - forensics
+    - security
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server that exposes crypto risk analysis tools to MCP-compatible clients, fitting cleanly into MCP Servers & Tooling.
+  reason: This is an MCP server providing domain-specific tools for crypto risk analysis, making MCP the core product identity rather than a mere compatibility layer.
   evidence:
-    - Repo description explicitly states 'MCP server for Marcus Rug Intel — 19 tools for crypto token risk analysis'.
-    - README shows integration configs for Claude Desktop, Cursor, Windsurf, and lists 19 MCP tools like check_token_risk and marcus_forensics.
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its identity as an MCP server.
+    - "Repo description: 'MCP server for Marcus Rug Intel — 19 tools for crypto token risk analysis, rug pull detection, and AI forensics'"
+    - "README: Explicitly markets as an MCP server with installation guides for Claude Desktop, Cursor, and Windsurf via MCP configuration"
+    - "Source-list context: Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation"
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -88,12 +86,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:18:19.077Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a663e50ef48f3daf2faa845f80c879f4c507babcf70443601d01830fc37af0e3
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP server providing domain-specific tools for crypto risk analysis, making MCP the core product identity rather than a mere compatibility layer.
+      decision_evidence:
+        - "Repo description: 'MCP server for Marcus Rug Intel — 19 tools for crypto token risk analysis, rug pull detection, and AI forensics'"
+        - "README: Explicitly markets as an MCP server with installation guides for Claude Desktop, Cursor, and Windsurf via MCP configuration"
+        - "Source-list context: Listed in awesome-mcp-servers under Finance & Fintech as an MCP server implementation"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server offering standalone tools via the Model Context Protocol, not primarily an extension augmenting another assistant’s capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

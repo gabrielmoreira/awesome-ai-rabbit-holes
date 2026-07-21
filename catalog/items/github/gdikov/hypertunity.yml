@@ -44,22 +44,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:06.104Z"
       bytes: 3408
 insights:
-  summary: A lightweight, high-level Python library for black-box hyperparameter optimisation that wraps GPyOpt and supports Slurm scheduling and Tensorboard visualisation.
-  why_it_matters: It lets developers automate and parallelise costly model-tuning experiments through a simple Python API instead of hand-rolling optimiser loops.
-  mental_damage: Another reminder that while we are busy shipping AI agents that write code, we still need an entire separate library from 2019 just to tune the hyperparameters of the models those agents call.
+  summary: A Python library for black-box hyperparameter optimization supporting Bayesian optimization and Slurm scheduling.
+  why_it_matters: It automates the expensive and tedious process of tuning model parameters using Bayesian methods and real-time Tensorboard visualization.
+  mental_damage: Because if you aren't optimizing your hyperparameters via a black-box scheduler, are you even doing machine learning?
   tags:
     - hyperparameter-optimization
     - bayesian-optimization
-    - ml-experiments
-    - python-library
+    - mlops
+    - python
+    - slurm
   confidence: high
 curation:
   status: excluded
-  reason: The project is a traditional ML hyperparameter-tuning library with no AI developer tooling, coding-agent, or LLM workflow angle, and has been inactive since early 2020.
+  reason: The tool is a specialized machine learning engineering library for hyperparameter tuning, which falls outside the catalog's focus on AI-driven software development workflows.
   evidence:
-    - Repo description explicitly states it is a toolset for black-box hyperparameter optimisation, not an AI coding tool.
-    - "README demonstrates a pure ML experiment workflow: defining domains, running Bayesian optimisation, and visualising results in Tensorboard."
-    - Last push was 2020-01-26 and it shows no MCP, coding-agent, or LLM-oriented features despite appearing in an Awesome-LLMOps list under AutoML.
+    - Repo focuses on hyperparameter optimization (Bayesian, GPyOpt)
+    - Core functionality is for ML model tuning rather than developer-facing coding assistance
+    - Last pushed in 2020
 placement:
   primary_category: null
   section: null
@@ -78,12 +79,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:00:44.539Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:98bff5be0876f87fad6dd8467914d71f04d6f1b2a398536956d61a0688a124aa
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a specialized machine learning engineering library for hyperparameter tuning, which falls outside the catalog's focus on AI-driven software development workflows.
+      decision_evidence:
+        - Repo focuses on hyperparameter optimization (Bayesian, GPyOpt)
+        - Core functionality is for ML model tuning rather than developer-facing coding assistance
+        - Last pushed in 2020
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A blog post introducing the Model Context Protocol (MCP), explaining its architecture of hosts, clients, and servers, and providing a quickstart guide for building and testing MCP integrations.
-  why_it_matters: It provides developers with a foundational understanding of the emerging MCP standard that enables AI models to interact with external data sources through a unified interface.
-  mental_damage: Another day, another universal protocol promising to solve tool integration once and for all, just waiting for the 'HTTP transport support' that will supposedly trigger widespread adoption.
+  summary: A tutorial blog post introducing the Model Context Protocol (MCP) and its ecosystem, including servers, clients, and use cases.
+  why_it_matters: Explains how MCP standardizes AI model interactions with external tools and data sources, which developers can leverage for unified integrations.
+  mental_damage: Another protocol to standardize the chaos we created by not standardizing the last protocol.
   tags:
     - mcp
-    - protocol
     - tutorial
-    - anthropic
-    - context
+    - protocol
+    - integration
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation article and auxiliary resource page explaining MCP, not a standalone product, server, or developer tool, so it is excluded under the rule that auxiliary resources should not be forced into a product category.
+  reason: This is a tutorial/blog post, not a standalone product, framework, or tool—it does not fit the catalog's scope of practical AI tools for developers.
   evidence:
-    - URL is a blog post at glama.ai/blog/2024-11-25-model-context-protocol-quickstart, not a tool or repo.
-    - "Content is educational: 'Introducing Model Context Protocol (MCP) Quickstart' with architecture explanations and code snippets."
-    - Source list places it in 'awesome-mcp-servers' under the 'Tutorials' section, confirming its identity as a learning resource.
+    - The URL and scraped context confirm this is a blog post titled 'Model Context Protocol (MCP) Quickstart'
+    - The content is educational (explains MCP, its components, and early adoption) rather than a usable tool or library
+    - Source-list context shows it is categorized under 'Tutorials' in awesome-mcp-servers
 placement:
   primary_category: null
   section: null
@@ -72,12 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:12.263Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5390407e2d6e26eda805693e60d04ca0f9409d7bc5947ee5fdc2785bca4a9f30
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a tutorial/blog post, not a standalone product, framework, or tool—it does not fit the catalog's scope of practical AI tools for developers.
+      decision_evidence:
+        - The URL and scraped context confirm this is a blog post titled 'Model Context Protocol (MCP) Quickstart'
+        - The content is educational (explains MCP, its components, and early adoption) rather than a usable tool or library
+        - Source-list context shows it is categorized under 'Tutorials' in awesome-mcp-servers
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

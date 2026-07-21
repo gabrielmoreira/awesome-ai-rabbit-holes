@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:39.090Z"
       bytes: 4507
 insights:
-  summary: An MCP server that provides AI agents with fast, cached access to verified EVM chain data, including RPC URLs, chain IDs, explorers, and native tokens sourced from Chainlist.org.
-  why_it_matters: It allows blockchain developers to query chain specifics directly within their MCP-compatible coding agent instead of manually looking up RPC endpoints.
-  mental_damage: We have officially reached the point where our agents need dedicated middleware just to remember which chain ID is Ethereum.
+  summary: An MCP server that provides AI agents with fast access to verified EVM chain information, including RPC URLs, chain IDs, explorers, and native tokens.
+  why_it_matters: Developers building blockchain-aware AI agents can quickly retrieve and integrate verified EVM chain data without manual API calls or data scraping.
+  mental_damage: Now your AI agent can argue about gas fees with the same authority as a Twitter thread.
   tags:
     - mcp
-    - evm
     - blockchain
-    - chainlist
-    - rpc
+    - evm
+    - context-provider
+    - python
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing EVM chain data, fitting perfectly into the Domain Servers section of MCP tooling.
+  reason: The product is explicitly an MCP server whose primary identity is providing EVM chain data via the MCP protocol.
   evidence:
-    - Repo description states it is 'An MCP server that gives AI agents fast access to verified EVM chain information'.
-    - README confirms it exposes tools via MCP protocol (getChainById, getChainsByKeyword) for clients like Claude Desktop.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
+    - Repo description states it is 'An MCP server that gives AI agents fast access to verified EVM chain information'
+    - README details MCP tools (`getChainById`, `getChainsByKeyword`) and installation as an MCP server
+    - Project is actively maintained (created and pushed in May 2025, not archived)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:38.056Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:97f1e7a73498206a55a6bfe795be373f9ae4c449f156efaa1c1f891e2d2a3669
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose primary identity is providing EVM chain data via the MCP protocol.
+      decision_evidence:
+        - Repo description states it is 'An MCP server that gives AI agents fast access to verified EVM chain information'
+        - README details MCP tools (`getChainById`, `getChainsByKeyword`) and installation as an MCP server
+        - Project is actively maintained (created and pushed in May 2025, not archived)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

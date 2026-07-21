@@ -60,22 +60,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:09.964Z"
       bytes: 6137
 insights:
-  summary: Myco is a living cognitive substrate and MCP server that converts raw notes, code, and documentation into a self-maintaining filesystem graph with 20 agent-driven verbs for ingestion, digestion, and evolution.
-  why_it_matters: It lets agents maintain their own long-term memory and project context as editable markdown and YAML, avoiding framework migrations and zero-state conversation restarts.
-  mental_damage: You now have a self-evolving mycelium graph that ingests everything you write and, true to its design, can rewrite its own rules when it decides your workflow is no longer worthy of its current shape.
+  summary: A living cognitive substrate for AI agents that ingests, digests, and evolves knowledge as a filesystem-based graph of markdown and YAML.
+  why_it_matters: It solves the problem of AI agents forgetting context, decisions, and evolving knowledge by providing a self-maintaining, agent-driven memory and retrieval system.
+  mental_damage: Finally, an AI tool that promises to remember your work longer than you do.
   tags:
     - agent-memory
-    - mcp
-    - context-engineering
+    - self-evolving
     - knowledge-graph
+    - mcp
+    - cognitive-substrate
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory and context-shaping system that lives as an agent-editable filesystem graph, which fits Prompt & Context Engineering even though it ships an MCP server interface.
+  reason: The core novelty is a self-evolving memory and retrieval system for AI agents, not a primary coding assistant or host integration.
   evidence:
-    - README states it is 'a living cognitive substrate' focused on ingestion, digestion, and self-evolution of knowledge, not a primary coding assistant.
-    - Exposes an MCP server for agent access, but MCP is an interface, not the core product identity, which is memory and context management.
-    - Provides 20 agent-driven verbs (hunger, eat, assimilate, immune, fruit, molt) for managing a knowledge graph of notes, code, and decisions.
+    - README describes it as a 'living cognitive substrate' for AI agents with ingestion, digestion, and evolution capabilities
+    - Topics include 'agent-memory', 'llm-memory', 'long-term-memory', and 'self-evolving'
+    - MCP is supported but not the primary identity (also works as CLI and with other hosts)
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -94,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:37.420Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4851b0a001d27e8df6262d6e56c9ef569e52797582b205097a062528c4df416f
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core novelty is a self-evolving memory and retrieval system for AI agents, not a primary coding assistant or host integration.
+      decision_evidence:
+        - README describes it as a 'living cognitive substrate' for AI agents with ingestion, digestion, and evolution capabilities
+        - Topics include 'agent-memory', 'llm-memory', 'long-term-memory', and 'self-evolving'
+        - MCP is supported but not the primary identity (also works as CLI and with other hosts)
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, and self-evolving knowledge management rather than host integration.
+      review_reason: null
+      review_resume_lifecycle: null

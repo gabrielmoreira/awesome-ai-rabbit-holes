@@ -53,15 +53,15 @@ metadata:
       fetched_at: "2026-07-20T15:11:33.726Z"
       bytes: 17464
 insights:
-  summary: A CLI and TUI application for detecting, installing, and updating AI development CLI agents like Claude Code, Aider, and Gemini CLI across multiple platforms.
-  why_it_matters: It centralizes the management of a rapidly expanding ecosystem of terminal-based coding agents, handling version checks and updates across npm, PyPI, and Homebrew.
-  mental_damage: Finally, a dedicated tool to manage the dozen different AI agents you installed once, used for ten minutes, and then forgot existed on your PATH.
+  summary: CLI/TUI app to detect, manage, install, and update AI Agent CLI tools across platforms.
+  why_it_matters: It centralizes the fragmented ecosystem of AI coding agents into a single management interface, reducing the overhead of tracking and updating multiple tools.
+  mental_damage: Finally, a tool to manage the tools that were supposed to manage your tools.
   tags:
     - cli
-    - tui
     - agent-management
-    - devops
-    - go
+    - tui
+    - multi-platform
+    - developer-tools
   confidence: high
 curation:
   status: included
@@ -72,10 +72,10 @@ curation:
     - Source list 'awesome-cli-coding-agents' places it in 'Harnesses & orchestration > Agent infrastructure', supporting a tooling/utility identity.
 placement:
   primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -88,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:28.547Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8502083b0420e1b55289ccfded10446cddf56e25f1d91b2405d4abc6b53d5a14
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: The tool's primary purpose is orchestrating and managing multiple AI agents (installation, updates, version checks), fitting the agent orchestration category despite its CLI/TUI form factor.
+      decision_evidence:
+        - Repo description explicitly states it is for 'detecting, managing, installing, and updating AI Agent CLI tools'
+        - README highlights features like agent detection, version management, and parallel checks across multiple agents
+        - Source-list context places it under 'Harnesses & orchestration > Agent infrastructure'
+      category_candidates:
+        - agent-orchestration
+        - ai-dev-extensions
+      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the core value is multi-agent coordination and lifecycle management rather than augmenting a single host assistant.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

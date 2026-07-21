@@ -56,14 +56,14 @@ metadata:
       fetched_at: "2026-07-20T15:11:52.873Z"
       bytes: 5136
 insights:
-  summary: Liveblocks provides realtime infrastructure and SDKs for building collaborative multiplayer features and AI agent integrations into web applications.
-  why_it_matters: It handles the complex CRDT and presence logic so developers can add shared editing, contextual comments, and AI collaborators to products without rebuilding realtime infrastructure.
-  mental_damage: "Just what every focused solo developer needs: a platform to ensure AI agents and humans can simultaneously mutate the same state until the CRDTs beg for mercy."
+  summary: Liveblocks provides realtime infrastructure for building blocks and infrastructure for collaborative apps and AI agents.
+  why_it_matters: Developers can add multiplayer features, comments, and AI collaborators to apps using Liveblocks’ SDKs and components.
+  mental_damage: Now you have to debug not just your code, but the real-time sync state of your users and their AI assistants fighting over a shared text block.
   tags:
     - realtime
     - collaboration
-    - multiplayer
     - ai-agents
+    - sdk
     - infrastructure
   confidence: high
 curation:
@@ -75,10 +75,10 @@ curation:
     - Homepage claims to give 'building blocks and infrastructure to enable people and AI to work together inside your app'.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (4581) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -91,12 +91,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:16:53.040Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ae4fba16e77401a990b824cd1125908d5a8b63db6e421e56f1a30a917068ac08
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: Liveblocks is infrastructure for adding real-time collaboration and AI agent integration to apps, acting as an integration layer rather than a standalone coding assistant or app builder.
+      decision_evidence:
+        - "Repo description: 'Realtime infrastructure for multiplayer apps and agents'"
+        - "README: 'Liveblocks gives you the building blocks and infrastructure to enable people and AI to work together inside your app'"
+        - Appears in awesome-mcp-servers under Cloud Platforms as infrastructure for concurrent edits shared by people and AI agents
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because Liveblocks mainly augments apps with real-time collaboration and AI agent access rather than acting as a primary coding assistant that writes or edits code.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

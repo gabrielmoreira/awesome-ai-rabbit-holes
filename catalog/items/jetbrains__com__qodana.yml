@@ -1,0 +1,109 @@
+id: jetbrains__com__qodana
+kind: website
+name: JetBrains Qodana
+canonical_url: https://jetbrains.com/qodana
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__jetbrains__com__qodana__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: JetBrains Qodana
+        extracted_url: https://jetbrains.com/qodana
+        surrounding_text: "- **[JetBrains Qodana](https://www.jetbrains.com/qodana/)** – AI-powered static analysis for code quality."
+        confidence: high
+    - id: discovery__www__jetbrains__com__qodana__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Review and Refactoring
+        anchor_text: JetBrains Qodana
+        extracted_url: https://www.jetbrains.com/qodana
+        surrounding_text: "- **[JetBrains Qodana](https://www.jetbrains.com/qodana/)** – AI-powered static analysis for code quality."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Qodana is a static code analysis engine that brings JetBrains IDE inspections to CI pipelines.
+  why_it_matters: It helps developers enforce code quality standards automatically in their CI workflows without manual IDE checks.
+  mental_damage: Now your CI pipeline can judge your code with the same passive-aggressive rigor as your JetBrains IDE.
+  tags:
+    - static-analysis
+    - ci
+    - code-quality
+    - jetbrains
+  confidence: high
+curation:
+  status: excluded
+  reason: Qodana is a static analysis tool for CI pipelines, not an AI-powered coding assistant, framework, or developer workflow tool.
+  evidence:
+    - Described as a static code analysis engine for CI pipelines
+    - No AI/ML or agentic capabilities mentioned in its core pitch
+    - Source-list context places it under 'Code Review and Refactoring' but not as an AI tool
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:35:18.043Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c6bcf64b467d630884d0dbab4def8be4dc0eb95bf6837d7dd13d5e2a88fa974f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Qodana is a static analysis tool for CI pipelines, not an AI-powered coding assistant, framework, or developer workflow tool.
+      decision_evidence:
+        - Described as a static code analysis engine for CI pipelines
+        - No AI/ML or agentic capabilities mentioned in its core pitch
+        - Source-list context places it under 'Code Review and Refactoring' but not as an AI tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.966Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -42,23 +42,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:55.421Z"
       bytes: 7057
 insights:
-  summary: The official ElevenLabs MCP server that exposes Text to Speech, voice cloning, and audio transcription APIs to MCP clients like Claude Desktop, Cursor, and Windsurf.
-  why_it_matters: It lets developers wire ElevenLabs' audio generation and processing capabilities directly into their AI coding assistants without building custom integrations.
-  mental_damage: Your coding agent can now narrate its own diffs in a film noir detective voice, because apparently the modern developer workflow was missing spoken JSON patches.
+  summary: The official ElevenLabs MCP server for integrating Text to Speech and audio processing APIs with MCP clients.
+  why_it_matters: Enables developers to use ElevenLabs' voice synthesis and audio tools directly within MCP-compatible coding assistants like Claude Desktop or Cursor.
+  mental_damage: Now your AI can narrate its own code reviews in a voice that sounds suspiciously like a 1940s radio host.
   tags:
     - mcp
-    - elevenlabs
     - audio
+    - elevenlabs
     - tts
-    - integration
+    - voice-cloning
   confidence: high
 curation:
   status: included
-  reason: This is a first-party MCP server that exposes ElevenLabs audio APIs to MCP clients, making MCP the clear product identity.
+  reason: MCP is the product identity here, and this is explicitly an MCP server providing domain-specific (audio/voice) capabilities.
   evidence:
-    - Repo description explicitly states 'The official ElevenLabs MCP server'
-    - Listed under 'Official Servers' in the awesome-mcp-servers directory
-    - README pitches it as an MCP server for Claude Desktop, Cursor, Windsurf, and OpenAI Agents
+    - "Repo description: 'The official ElevenLabs MCP server'"
+    - "README: 'Official ElevenLabs Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech and audio processing APIs'"
+    - "Source-list context: Listed in awesome-mcp-servers under 'Official Servers'"
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -77,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:12.705Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:647b6fd68c70e025a9b28b9ab61e47ded62bc8d384cdb61a76603f277dc34053
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here, and this is explicitly an MCP server providing domain-specific (audio/voice) capabilities.
+      decision_evidence:
+        - "Repo description: 'The official ElevenLabs MCP server'"
+        - "README: 'Official ElevenLabs Model Context Protocol (MCP) server that enables interaction with powerful Text to Speech and audio processing APIs'"
+        - "Source-list context: Listed in awesome-mcp-servers under 'Official Servers'"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

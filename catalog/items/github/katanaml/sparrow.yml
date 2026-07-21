@@ -46,26 +46,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:32.089Z"
       bytes: 30257
 insights:
-  summary: Sparrow is a production-oriented platform for extracting structured data from documents and images using ML, LLMs, and Vision LLMs, featuring a pluggable architecture and API-first design.
-  why_it_matters: It provides developers with a ready-to-integrate stack to turn messy invoices, forms, and tables into validated JSON without building custom extraction pipelines from scratch.
-  mental_damage: Yet another reminder that while we’re busy arguing about which AI writes the best React component, the actual enterprise money is in teaching models to read PDFs without hallucinating the invoice total.
+  summary: A framework for structured data extraction, instruction calling, and agentic workflows using ML, LLM, and Vision LLM models.
+  why_it_matters: It enables developers to build pipelines that extract and process structured data from documents or visual inputs, automating workflows that typically require manual intervention.
+  mental_damage: Now you can finally offload the soul-crushing task of parsing PDFs to an agent that might still hallucinate the table headers.
   tags:
-    - structured-extraction
-    - document-ai
+    - data-extraction
+    - agentic-workflows
     - vision-llm
-    - local-ai
-    - api-first
+    - document-ai
+    - huggingface
   confidence: high
 curation:
-  status: excluded
-  reason: While technically impressive, Sparrow is a document-processing and data-extraction product, not a tool that assists developers in writing, reviewing, or managing code.
+  status: included
+  reason: The core product is a code-first framework for building agentic workflows and structured data extraction, fitting the developer-tooling scope as a reusable building block.
   evidence:
-    - Repo description explicitly focuses on 'Structured data extraction and instruction calling' rather than coding assistance.
-    - README highlights use cases around invoices, receipts, and forms, with features like OCR and bounding box annotation.
-    - Listed in awesome-LLM-resources under a 'Data' section, signaling a data/ML resource rather than a developer productivity tool.
+    - Repo description explicitly states 'Structured data extraction, instruction calling and agentic workflows with ML, LLM and Vision LLM'
+    - Topics include 'agentic-ai', 'llm', and 'machinelearning', signaling a framework identity
+    - "Active development (pushed_at: 2026-06-30) and significant traction (5182 stars)"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (5156) exceeded threshold (150)
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:07.758Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d767d31a2a8383baeb353d38f95a280ae12663d0cc5614accec81485b282be4f
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The core product is a code-first framework for building agentic workflows and structured data extraction, fitting the developer-tooling scope as a reusable building block.
+      decision_evidence:
+        - Repo description explicitly states 'Structured data extraction, instruction calling and agentic workflows with ML, LLM and Vision LLM'
+        - Topics include 'agentic-ai', 'llm', and 'machinelearning', signaling a framework identity
+        - "Active development (pushed_at: 2026-06-30) and significant traction (5182 stars)"
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is primarily a code-first library for building workflows rather than an operated workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

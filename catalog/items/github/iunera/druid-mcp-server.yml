@@ -61,23 +61,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:16.552Z"
       bytes: 36213
 insights:
-  summary: A Spring Boot and Spring AI-based MCP server that exposes Apache Druid cluster management, ingestion, and analytics capabilities as tools, resources, and prompts for AI assistants.
-  why_it_matters: It lets developers and AI agents query, manage, and analyze Apache Druid clusters using natural language through any MCP-compatible client instead of hand-crafting Druid APIs or SQL.
-  mental_damage: Another pristine MCP server so your AI assistant can finally argue with your analytics cluster in natural language instead of you just writing the SQL yourself.
+  summary: An MCP server for Apache Druid that exposes tools, resources, and AI-assisted prompts for managing and analyzing Druid clusters via the Model Context Protocol.
+  why_it_matters: It lets developers integrate AI assistants with Druid clusters for data management, ingestion, and analysis using natural language.
+  mental_damage: Now your Druid cluster can have a conversation with your AI assistant, because why should databases be left out of the chat.
   tags:
-    - mcp
+    - mcp-server
     - apache-druid
+    - data-analytics
     - spring-ai
-    - analytics
-    - data
+    - model-context-protocol
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for Apache Druid with full tool, resource, and prompt support, making it a textbook fit for MCP Domain Servers.
+  reason: "MCP is the product identity: this is a dedicated MCP server for Apache Druid, not a compatibility footnote or adapter."
   evidence:
-    - Repo description states it is 'A comprehensive Model Context Protocol (MCP) server for Apache Druid'.
-    - README details tool-based architecture with STDIO, SSE, and Streamable HTTP transports for MCP clients.
-    - Listed in awesome-mcp-servers under Databases and Community Servers sections.
+    - Repo description explicitly states it is a comprehensive MCP server for Apache Druid
+    - README details MCP tools, resources, and prompts for Druid management
+    - Listed in awesome-mcp-servers under Server Implementations > Databases
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -96,12 +96,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:09.032Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bc65229c6fd671847209d2d2cc826cf9d0cf3f6939036d5469bcc837c2dbbf09
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for Apache Druid, not a compatibility footnote or adapter."
+      decision_evidence:
+        - Repo description explicitly states it is a comprehensive MCP server for Apache Druid
+        - README details MCP tools, resources, and prompts for Druid management
+        - Listed in awesome-mcp-servers under Server Implementations > Databases
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server for Druid, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

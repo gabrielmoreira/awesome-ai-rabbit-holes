@@ -51,23 +51,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:10.391Z"
       bytes: 11889
 insights:
-  summary: A spec-driven development harness that installs portable Agent Skills into Claude Code, Cursor, Copilot, and other AI coding agents to turn approved specs into long-running autonomous implementation.
-  why_it_matters: It gives teams a structured SDLC loop—discovery, requirements, design, tasks, and per-task review—that runs across eight different coding agents with the same 17-skill set.
-  mental_damage: You can now run an autonomous TDD loop with feature flags and root-cause auto-debug across eight different AI agents, which means your primary new job is deciding which agent's autonomous implementation you're going to regret approving.
+  summary: A minimal, adaptable spec-driven development harness that turns approved specs into long-running autonomous implementation via Agent Skills for multiple AI coding agents.
+  why_it_matters: It enables developers to delegate spec-to-code workflows across 8 coding agents with structured phase gates, boundary-first design, and autonomous task execution with review and debugging.
+  mental_damage: Finally, a way to let your AI agents argue over specs while you pretend to understand the File Structure Plan.
   tags:
-    - sdd
+    - spec-driven-development
     - agent-skills
-    - spec-driven
+    - autonomous-implementation
     - multi-agent
-    - autonomous-impl
+    - sdd
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is a spec-first execution loop with discovery, design, task decomposition, and autonomous implementation with review, making it a clear fit for Spec-Driven Development rather than just a skill pack or generic extension.
+  reason: The product's core identity is a spec-first loop for planning, execution, and validation, with specs as the controlling artifact driving autonomous implementation.
   evidence:
-    - Repo description explicitly calls it a 'minimal, adaptable SDD harness with Agent Skills' for multiple coding agents.
-    - README states cc-sdd v3.0 is built around 'long-running autonomous implementation' with discovery, design.md boundaries, tasks.md, and per-task review/auto-debug.
-    - Listed in awesome-spec-driven-development under 'Development Frameworks' and carries the spec-driven-development topic.
+    - Repo description explicitly frames it as turning approved specs into long-running autonomous implementation
+    - README emphasizes boundary-first spec discipline, phase gates, and autonomous task execution with review/debugging
+    - Source-list context places it in a spec-driven development directory under Development Frameworks
 placement:
   primary_category: spec-driven-development
   section: Execution Loops & Repair
@@ -86,12 +86,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:44.111Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:53fa2b6ae949f61af4c8ef072c95cf4b0b41c0f79c80d845afd37f1b605bd1ee
+      proposed_primary_category: spec-driven-development
+      disagreement: false
+      decision_reason: The product's core identity is a spec-first loop for planning, execution, and validation, with specs as the controlling artifact driving autonomous implementation.
+      decision_evidence:
+        - Repo description explicitly frames it as turning approved specs into long-running autonomous implementation
+        - README emphasizes boundary-first spec discipline, phase gates, and autonomous task execution with review/debugging
+        - Source-list context places it in a spec-driven development directory under Development Frameworks
+      category_candidates:
+        - spec-driven-development
+        - skills
+      contrastive_reason: Choose spec-driven-development over skills because the primary artifact is the spec-first workflow and execution loop, not just the distribution of reusable skill packs.
+      review_reason: null
+      review_resume_lifecycle: null

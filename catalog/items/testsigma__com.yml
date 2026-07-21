@@ -36,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Testsigma is an AI-native, no-code test automation platform that uses AI agents to generate, execute, self-heal, and analyze tests across web, mobile, API, and enterprise applications.
-  why_it_matters: It allows developers and QA teams to automate the entire testing lifecycle using natural language and Jira/Figma inputs, significantly reducing the manual effort of test creation and maintenance.
-  mental_damage: Now you can watch an AI agent autonomously generate and fix the tests that your other AI agent broke while writing the code, completing the circle of automated regret.
+  summary: Testsigma is an AI-powered quality intelligence platform for test automation and release confidence scoring.
+  why_it_matters: It automates test generation, execution, and coverage analysis to help engineering teams validate releases with evidence rather than guesswork.
+  mental_damage: Now your QA team can finally stop being the last line of defense against your AI-accelerated codebase.
   tags:
     - testing
     - qa
-    - no-code
-    - ai-agents
-    - enterprise
+    - ai-automation
+    - release-confidence
+    - test-coverage
   confidence: high
 curation:
-  status: included
-  reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
+  status: excluded
+  reason: Testsigma is primarily a QA/testing platform rather than a developer-tooling product focused on coding agents, frameworks, or workflows.
   evidence:
-    - Listed in awesome-ai-coding-tools under the 'Testing and QA' section.
-    - Product description explicitly states 'AI agents generate tests → turn them into automation instantly → run in CI/CD → self-heal broken tests'.
-    - Platform claims to generate tests from Jira tickets or Figma files using 'Atto' AI agents.
+    - Described as a 'quality intelligence platform for the AI-led coding era' with test automation at its core
+    - Source-list context places it under 'Testing and QA' in awesome-ai-coding-tools
+    - Core value is test generation, execution, and release confidence scoring, not developer workflow augmentation
 placement:
-  primary_category: app-builders
+  primary_category: null
   section: null
 lifecycle:
   status: incubating
@@ -70,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:37:56.601Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:488f726ffabe0a92a62a1b697fc83af87eaa3c3d6d3baf39309fee1049ca4e8c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Testsigma is primarily a QA/testing platform rather than a developer-tooling product focused on coding agents, frameworks, or workflows.
+      decision_evidence:
+        - Described as a 'quality intelligence platform for the AI-led coding era' with test automation at its core
+        - Source-list context places it under 'Testing and QA' in awesome-ai-coding-tools
+        - Core value is test generation, execution, and release confidence scoring, not developer workflow augmentation
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

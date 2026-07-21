@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:54.625Z"
       bytes: 7454
 insights:
-  summary: A reference MCP server implementation that delivers uplifting messages via SSE and demonstrates the ERC-8004 agent discovery and USDC tipping loop.
-  why_it_matters: Developers exploring MCP infrastructure or ERC-8004 agent economies can use this as a working example of on-chain discovery, tooling, and micropayment integration.
-  mental_damage: We have successfully tokenized emotional validation, meaning your coding agent can now guilt-trip you into sending 0.001 USDC for a joke that ChatGPT gave away for free in 2023.
+  summary: An ERC-8004 registered AI agent that delivers uplifting messages via the MCP protocol, with on-chain discovery, tipping, and reputation feedback.
+  why_it_matters: It demonstrates a complete reference implementation of the ERC-8004 agent interaction loop, showing how AI agents can integrate with blockchain for discovery, payments, and reputation.
+  mental_damage: Now your AI agent can demand microtransactions for telling you to 'keep coding'.
   tags:
     - mcp
+    - blockchain
+    - ai-agent
     - erc-8004
-    - usdc
-    - reference-implementation
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is primarily an MCP server exposing tools like cheer_me_up via SSE, with ERC-8004 discovery as a secondary protocol feature, making it a clear fit for MCP Servers & Tooling.
+  reason: MCP is the product identity here, with the agent serving as a domain-specific MCP server for uplifting messages, and the core novelty is the MCP-first integration with ERC-8004.
   evidence:
-    - README explicitly describes it as 'An ERC-8004 registered AI Agent that delivers uplifting messages via MCP protocol'
-    - Provides MCP tools (cheer_me_up, confirm_tip, report_feedback) and SSE endpoint configuration for Claude Code and other MCP clients
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech' as an MCP server example
+    - The README explicitly describes it as an MCP server with tools like cheer_me_up and confirm_tip
+    - It provides a complete MCP SSE endpoint and REST API for interaction
+    - The project's main value is the MCP-based agent interaction loop with on-chain features
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:59.433Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9cccdaaeaab59e1d7125ca958d33104a6060f042d73ad77987313724565ebb39
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here, with the agent serving as a domain-specific MCP server for uplifting messages, and the core novelty is the MCP-first integration with ERC-8004.
+      decision_evidence:
+        - The README explicitly describes it as an MCP server with tools like cheer_me_up and confirm_tip
+        - It provides a complete MCP SSE endpoint and REST API for interaction
+        - The project's main value is the MCP-based agent interaction loop with on-chain features
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the product's primary identity is as an MCP server implementing a specific domain (uplifting messages) rather than a platform for coordinating multiple agents.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,22 +39,21 @@ metadata:
       fetched_at: "2026-07-20T05:17:00.736Z"
       bytes: 229925
 insights:
-  summary: A broad, curated list of public projects, papers, datasets, and learning resources covering large language models, vision foundation models, and AI-generated content.
-  why_it_matters: It serves as a consolidated map for developers looking to navigate the sprawling ecosystem of LLM frameworks, inference engines, APIs, and application examples.
-  mental_damage: Yet another exhaustive index guaranteeing you will spend three hours browsing framework comparisons instead of actually merging your pending pull request.
+  summary: A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference.
+  why_it_matters: Provides a centralized starting point for developers to navigate the rapidly shifting landscape of LLM architectures and agentic patterns.
+  mental_damage: The sheer velocity of these resources ensures you'll be learning yesterday's breakthroughs by the time you finish the first chapter.
   tags:
     - llm
-    - resources
-    - awesome-list
-    - learning
+    - learning-resources
+    - agents
+    - multimodal
   confidence: high
 curation:
   status: included
-  reason: The repository is a curated index of resources and tools rather than a standalone developer product, making it a fit for the Lists & Directories category.
+  reason: It is a curated directory of LLM resources designed for discovery and navigation within the ecosystem.
   evidence:
-    - README identifies the project as a list of 'awesome public projects about Large Language Model... and the related Datasets and Applications.'
-    - Source-list context places it in 'awesome-LLM-resources' under the '课程 Course' (Course) section.
-    - The structure includes Frameworks, Applications, Datasets, and Learning Resources rather than a single tool executable.
+    - Found in 'awesome-LLM-resources' under the 'Course' section
+    - Provides a summary of world-class LLM resources including Agents and MCP
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -73,12 +72,27 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:13.219Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e3ef6e86a1668102ab907a67f17c63ae7d721dcd4a2c884a3d318ea7a826b927
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: It is a curated directory of LLM resources designed for discovery and navigation within the ecosystem.
+      decision_evidence:
+        - Found in 'awesome-LLM-resources' under the 'Course' section
+        - Provides a summary of world-class LLM resources including Agents and MCP
+      category_candidates:
+        - awesome-awesomes
+        - newsletters-and-feeds
+      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because the project is a structured index/map of resources rather than a recurring publication or commentary.
+      review_reason: null
+      review_resume_lifecycle: null

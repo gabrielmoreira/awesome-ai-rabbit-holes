@@ -72,23 +72,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:56.506Z"
       bytes: 8437
 insights:
-  summary: Devon is an open-source, terminal and UI-based AI pair programmer that plans changes, edits multiple files, writes tests, and debugs code across a repository using models from Anthropic, OpenAI, Groq, or local Ollama.
-  why_it_matters: It gives developers a fully local or self-hostable alternative to hosted coding agents like Claude Code, with a plugin system and multi-model support for repo-wide tasks.
-  mental_damage: We now have yet another terminal agent to evaluate while pretending we are not just procrastinating on the Jira board by re-reading SWE-bench scores.
+  summary: Devon is an open-source pair programmer that reads, plans, edits, and tests code across a repository.
+  why_it_matters: It gives developers a terminal-native coding agent that can handle multi-file edits, codebase exploration, and test writing directly in their projects.
+  mental_damage: Finally, a pair programmer that won’t argue about tabs vs. spaces—just don’t ask it to explain the code later.
   tags:
     - coding-agent
-    - terminal
+    - terminal-native
+    - multi-file-editing
     - open-source
-    - multi-model
-    - self-hosted
+    - gpt-4
   confidence: high
 curation:
   status: included
-  reason: This is a standalone coding assistant that developers delegate repo work to via a terminal UI or Electron app, fitting the coding-agents identity better than an extension or framework.
+  reason: Devon is a standalone coding assistant that developers delegate repo work to, fitting the primary identity of a coding agent rather than an extension or framework.
   evidence:
-    - "Repo description: 'Devon: An open-source pair programmer'"
-    - "README features: multi-file editing, codebase exploration, bug fixing, test writing, and local model support"
-    - Seen in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'
+    - Repo description explicitly calls it an 'open-source pair programmer'
+    - README highlights features like multi-file editing, codebase exploration, and test writing
+    - Source-list context places it under 'Terminal-native coding agents' in awesome-cli-coding-agents
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -107,12 +107,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:33.377Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a05a2c30179dacd031cf827ac8ffe63c2a419d3cd04e765ca748a51a7e2e8abc
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Devon is a standalone coding assistant that developers delegate repo work to, fitting the primary identity of a coding agent rather than an extension or framework.
+      decision_evidence:
+        - Repo description explicitly calls it an 'open-source pair programmer'
+        - README highlights features like multi-file editing, codebase exploration, and test writing
+        - Source-list context places it under 'Terminal-native coding agents' in awesome-cli-coding-agents
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Devon is a primary coding assistant, not an add-on for another tool.
+      review_reason: null
+      review_resume_lifecycle: null

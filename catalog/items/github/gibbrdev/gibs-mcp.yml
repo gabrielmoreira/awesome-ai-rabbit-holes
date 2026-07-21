@@ -40,26 +40,26 @@ metadata:
       fetched_at: "2026-07-16T05:05:08.020Z"
       bytes: 7426
 insights:
-  summary: An MCP server that connects AI coding environments to a regulatory compliance knowledge base covering the EU AI Act, GDPR, and DORA with article-level citations.
-  why_it_matters: It lets developers query binding EU regulatory obligations and classify AI systems directly from their assistant, avoiding manual legal lookups during development.
-  mental_damage: We have finally reached the point where your AI assistant needs its own compliance officer to tell you that facial recognition in schools is a bad idea.
+  summary: Gibs MCP Server is a regulatory compliance knowledge base exposed as an MCP server for AI Act, GDPR, and DORA article-level citations.
+  why_it_matters: Developers building AI systems in regulated industries can query binding legal requirements directly from their coding assistants without leaving the development flow.
+  mental_damage: Nothing says 'shipping fast' like pausing to cite Annex III before your LLM suggests using biometrics in HR tech.
   tags:
     - mcp
     - compliance
-    - eu-ai-act
-    - legal
-    - regulation
+    - ai-act
+    - gdpr
+    - dora
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing EU regulatory compliance tooling, which fits the MCP Servers & Tooling category under Domain Servers.
+  reason: Gibs MCP Server is an MCP-first compliance tool that exposes regulatory knowledge via the Model Context Protocol, making MCP its core product identity rather than a mere addon.
   evidence:
-    - "Repo description states: 'Gibs MCP Server — EU regulatory compliance for AI agents (AI Act, GDPR, DORA)'"
-    - README shows MCP connection instructions for Claude Desktop and lists MCP tools like classify_ai_system and check_compliance
-    - Listed in awesome-mcp-servers under Server Implementations > Legal section
+    - "Repo description: 'Gibs MCP Server — EU regulatory compliance for AI agents (AI Act, GDPR, DORA)'"
+    - "README positions it as an MCP server: 'Connects your AI development environment directly to a regulatory compliance knowledge base' and provides Claude Desktop MCP configuration"
+    - Tools are exposed via MCP (classify_ai_system, check_compliance, health_check) with no indication it extends another assistant as its primary function
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:02:43.642Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b68a9e4bc96bc077e2fa2b6828c4720dd138d9eb9aa7726a26b6d2a0310c02c6
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: Gibs MCP Server is an MCP-first compliance tool that exposes regulatory knowledge via the Model Context Protocol, making MCP its core product identity rather than a mere addon.
+      decision_evidence:
+        - "Repo description: 'Gibs MCP Server — EU regulatory compliance for AI agents (AI Act, GDPR, DORA)'"
+        - "README positions it as an MCP server: 'Connects your AI development environment directly to a regulatory compliance knowledge base' and provides Claude Desktop MCP configuration"
+        - Tools are exposed via MCP (classify_ai_system, check_compliance, health_check) with no indication it extends another assistant as its primary function
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server delivering compliance knowledge, not an integration layer augmenting another coding assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,26 +39,25 @@ metadata:
       fetched_at: "2026-07-20T15:11:22.028Z"
       bytes: 21104
 insights:
-  summary: JoyAgent-JDGenie is a self-hosted, end-to-end multi-agent product from JD.com that handles complex tasks like report generation, data analysis, and PPT creation out of the box.
-  why_it_matters: It provides a ready-to-run orchestration platform for enterprises and developers who want multi-agent capabilities without building from SDK scratch.
-  mental_damage: Just when you thought you could stop wiring LangChain primitives together, a tech giant drops a 75% GAIA-scoring 'product-level' agent that makes your custom scaffolding look like a science fair project.
+  summary: An open-source end-to-end product-level general-purpose AI agent.
+  why_it_matters: It offers developers a ready-to-deploy agent system that can be integrated into workflows for automation, task execution, or orchestration.
+  mental_damage: Finally, an agent that promises to do everything, so you can spend more time debugging why it does nothing.
   tags:
-    - multi-agent
-    - self-hosted
-    - rag
-    - data-agent
-    - enterprise
+    - ai-agent
+    - open-source
+    - automation
+    - workflow
   confidence: high
 curation:
   status: included
-  reason: The repo is a full-stack, operated multi-agent platform designed to coordinate various sub-agents (report, code, PPT, data) rather than a code-first library or a single coding assistant.
+  reason: The project is positioned as a general-purpose AI agent system, which aligns with multi-agent runtime platforms rather than a single coding assistant or extension.
   evidence:
-    - Repo description explicitly calls it an '端到端产品级通用智能体' (end-to-end product-level general agent).
-    - README positions it as a ready-to-use product with frontend/backend/engine, contrasting against SDKs and frameworks.
-    - Features specialized sub-agents for reports, PPTs, and data analysis (DataAgent), fitting a multi-agent coordination model.
+    - Repo description explicitly calls it an 'end-to-end product-level general-purpose AI agent'
+    - Source-list context places it under 'Agents' in a curated LLM resources list
+    - High star count (11935) and recent activity (pushed in 2026) indicate traction and maintenance
 placement:
   primary_category: agent-orchestration
-  section: Vertical Orchestration Platforms
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (11712) exceeded threshold (150)
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:13.899Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e1867d03ffd78e335c1cb372e10663aa587aedc37939e5325acf69eaaf425710
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The project is positioned as a general-purpose AI agent system, which aligns with multi-agent runtime platforms rather than a single coding assistant or extension.
+      decision_evidence:
+        - Repo description explicitly calls it an 'end-to-end product-level general-purpose AI agent'
+        - Source-list context places it under 'Agents' in a curated LLM resources list
+        - High star count (11935) and recent activity (pushed in 2026) indicate traction and maintenance
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated agent system rather than a code-first library or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

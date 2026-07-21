@@ -51,26 +51,25 @@ metadata:
       fetched_at: "2026-07-16T05:05:09.327Z"
       bytes: 5
 insights:
-  summary: A no-code platform for building custom LLM agents with knowledge base ingestion and integration capabilities.
-  why_it_matters: Developers can prototype and deploy knowledge-grounded chatbots without writing agent orchestration code, though it targets less technical builders.
-  mental_damage: Yet another reminder that while you spent three days wiring LangChain to Qdrant, someone else shipped a chatbot on a no-code platform that does the same thing with drag-and-drop.
+  summary: A no-code platform for building and deploying custom LLM agents.
+  why_it_matters: Enables developers to create and manage AI agents without writing code, focusing on workflow automation and semantic search capabilities.
+  mental_damage: Because nothing says 'developer productivity' like a no-code tool that still requires you to understand LLM agent architecture.
   tags:
     - no-code
     - llm-agents
-    - knowledge-base
-    - chatbot
-    - langchain
+    - semantic-search
+    - agent-orchestration
   confidence: high
 curation:
-  status: excluded
-  reason: The project is a no-code SaaS platform for building chatbots, which falls outside the catalog's scope of developer-facing tooling, libraries, and infrastructure.
+  status: included
+  reason: The product is a platform for building and coordinating custom LLM agents, fitting the agent orchestration category as a workbench for multi-agent workflows.
   evidence:
-    - Repo description explicitly calls it 'The no-code platform for building custom LLM Agents'.
-    - Topics and awesome-langchain section (Knowledge Management) point to a no-code chatbot builder, not a developer tool.
-    - No evidence of CLI, IDE integration, SDK, or developer workflow integration in the provided inputs.
+    - "Repo description: 'The no-code platform for building custom LLM Agents'"
+    - "README highlights: no-code, semantic search, and agent-building focus"
+    - "Source-list context: Listed in awesome-langchain under 'Knowledge Management' (adjacent to orchestration)"
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
   reason: Stars (2938) exceeded threshold (150)
@@ -86,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:22.803Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2d993d5ea992a2c046c088aab74e6585c8e677a502c00d3b552bb784d8eef4c1
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a platform for building and coordinating custom LLM agents, fitting the agent orchestration category as a workbench for multi-agent workflows.
+      decision_evidence:
+        - "Repo description: 'The no-code platform for building custom LLM Agents'"
+        - "README highlights: no-code, semantic search, and agent-building focus"
+        - "Source-list context: Listed in awesome-langchain under 'Knowledge Management' (adjacent to orchestration)"
+      category_candidates:
+        - agent-orchestration
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because the core value is coordinating LLM agents rather than generating standalone apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null

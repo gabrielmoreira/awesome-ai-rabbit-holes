@@ -69,23 +69,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:16.442Z"
       bytes: 16262
 insights:
-  summary: A multimodal AI agent stack from ByteDance that provides a CLI and desktop GUI application for automating computer, browser, and GUI tasks using vision-language models.
-  why_it_matters: It lets developers delegate complex GUI and browser workflows to a local or remote VLM-powered operator that can see and interact with screens rather than just code.
-  mental_damage: Finally, an agent that can lovingly caress your UI while you explain to your team why clicking random buttons is now a core engineering deliverable.
+  summary: An open-source multimodal AI agent stack providing GUI and vision-based agents for terminal, computer, browser, and product integration via CLI, Web UI, and desktop applications.
+  why_it_matters: It enables developers to automate complex GUI and computer-use workflows with multimodal LLMs, bridging the gap between AI agents and real-world desktop/browser environments.
+  mental_damage: Finally, an AI that can click buttons for you—because manually filling out forms was clearly the last frontier of human dignity.
   tags:
-    - gui-agent
+    - multimodal-agents
+    - gui-automation
+    - mcp
     - computer-use
-    - multimodal
-    - automation
-    - cli
+    - browser-automation
   confidence: high
 curation:
   status: included
-  reason: This is a standalone multimodal agent product with its own CLI and desktop application that directly operates computers and browsers, making it a primary coding/automation assistant rather than an extension or integration.
+  reason: The primary product is a developer-facing agent stack that directly operates GUI, browser, and computer environments, fitting the coding-agents category for its direct task execution capabilities.
   evidence:
-    - "Repo description: 'The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra'"
-    - "README: 'Agent TARS primarily ships with a CLI and Web UI... aims to provide a workflow that is closer to human-like task completion through cutting-edge multimodal LLMs'"
-    - "README: 'UI-TARS Desktop is a desktop application that provides a native GUI Agent... ships local and remote computer as well as browser operators'"
+    - Repo description identifies it as a 'Multimodal AI Agent stack' for GUI and vision-based tasks
+    - README highlights CLI, Web UI, and desktop operators for computer/browser automation
+    - Source-list context places it in MCP server implementations for browser automation
 placement:
   primary_category: coding-agents
   section: Browser/Desktop/Computer-Use Agents
@@ -104,12 +104,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:15.811Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c1488067688763faa3bdd7e5ebcfc310760bea829599bdd859443918bf9e8222
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The primary product is a developer-facing agent stack that directly operates GUI, browser, and computer environments, fitting the coding-agents category for its direct task execution capabilities.
+      decision_evidence:
+        - Repo description identifies it as a 'Multimodal AI Agent stack' for GUI and vision-based tasks
+        - README highlights CLI, Web UI, and desktop operators for computer/browser automation
+        - Source-list context places it in MCP server implementations for browser automation
+      category_candidates:
+        - coding-agents
+        - mcp
+      contrastive_reason: Choose coding-agents over mcp because the core product is an agent stack for task execution, not merely MCP infrastructure.
+      review_reason: null
+      review_resume_lifecycle: null

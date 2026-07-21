@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:42.344Z"
       bytes: 6218
 insights:
-  summary: An MCP server that provides tools for AI agents to deploy ERC-20 tokens, query metadata, and transfer assets across 21 blockchains.
-  why_it_matters: It gives coding agents a standardized interface to handle Web3 deployment tasks directly from the chat, removing the need to manually construct blockchain transactions.
-  mental_damage: We have successfully abstracted away the last remaining friction between a hallucinating LLM and your Ethereum private key.
+  summary: An MCP server that enables AI agents to mint ERC-20 tokens across 21 blockchains.
+  why_it_matters: Developers can integrate token deployment and blockchain interactions directly into AI agent workflows without leaving their MCP-enabled environment.
+  mental_damage: Now your AI agent can spin up tokens faster than you can explain why this is a good idea.
   tags:
     - mcp
-    - web3
     - blockchain
     - erc-20
-    - infura
+    - agent-tools
+    - finance
   confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server providing blockchain tooling to agents, matching the MCP Servers & Tooling category.
+  reason: The product is explicitly an MCP server providing blockchain-specific tools, making MCP its primary identity.
   evidence:
-    - "Repo description states: 'An MCP server providing tools for AI agents to mint ERC-20 tokens'."
-    - Configuration example shows standard 'mcpServers' JSON setup for Node.js execution.
-    - Included in 'awesome-mcp-servers' under the Finance & Fintech section.
+    - Repo description states it is 'An MCP server providing tools for AI agents to mint ERC-20 tokens'
+    - README details MCP-specific tools, resources, and configuration
+    - Listed in awesome-mcp-list under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:10.896Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8e3e5ba04c616cae8cdbb6e66cbbb548c2b6925a561648e67f1cfbbda4d67841
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server providing blockchain-specific tools, making MCP its primary identity.
+      decision_evidence:
+        - Repo description states it is 'An MCP server providing tools for AI agents to mint ERC-20 tokens'
+        - README details MCP-specific tools, resources, and configuration
+        - Listed in awesome-mcp-list under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

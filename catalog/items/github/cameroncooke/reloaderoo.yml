@@ -39,23 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:17.555Z"
       bytes: 18203
 insights:
-  summary: A dual-mode MCP development tool that provides CLI inspection for testing servers and a transparent proxy for hot-reloading MCP servers without disconnecting the AI client.
-  why_it_matters: It streamlines the MCP server development loop by eliminating the need for complex client setups during testing and preventing session loss during code changes.
-  mental_damage: We now have dedicated infrastructure to debug the infrastructure that connects our AI to the infrastructure it uses to write infrastructure.
+  summary: A dual-mode MCP development tool offering CLI inspection and a transparent proxy server for debugging and hot-reloading MCP servers.
+  why_it_matters: "It solves two core pain points in MCP server development: testing without client setup and hot-reloading servers without restarting AI sessions."
+  mental_damage: Finally, a way to debug MCP servers without feeling like you're debugging a debugging tool.
   tags:
     - mcp
     - debugging
-    - cli
     - proxy
-    - developer-tools
+    - cli
+    - hot-reload
   confidence: high
 curation:
   status: included
-  reason: The product identity is centered on MCP development infrastructure, specifically as an inspection CLI and hot-reload proxy for MCP servers.
+  reason: MCP is the product identity, and the tool is explicitly designed for MCP server development, inspection, and proxying.
   evidence:
-    - "Repo description explicitly states: 'Powerful MCP debugging proxy and CLI inspection tool.'"
-    - "README confirms dual-mode operation: 'CLI inspection tool and a transparent proxy server for the Model Context Protocol (MCP).'"
-    - Created recently (2025-06-17) and actively pushed (2026-02-04), showing active development.
+    - "Repo description: 'Powerful MCP debugging proxy and CLI inspection tool'"
+    - "README: 'A dual-mode MCP development tool that operates as both a CLI inspection tool and a transparent proxy server for the Model Context Protocol (MCP)'"
+    - Seen in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
   section: Clients / Inspectors / Dev Tools
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:37.429Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:807d25d568eb584869a44d9388c6553a7d2d1529ef4e28fc23062fd89d595e8b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity, and the tool is explicitly designed for MCP server development, inspection, and proxying.
+      decision_evidence:
+        - "Repo description: 'Powerful MCP debugging proxy and CLI inspection tool'"
+        - "README: 'A dual-mode MCP development tool that operates as both a CLI inspection tool and a transparent proxy server for the Model Context Protocol (MCP)'"
+        - Seen in awesome-mcp-servers under 'Community Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is MCP infrastructure (proxy + CLI inspector) rather than augmenting another assistant or editor.
+      review_reason: null
+      review_resume_lifecycle: null

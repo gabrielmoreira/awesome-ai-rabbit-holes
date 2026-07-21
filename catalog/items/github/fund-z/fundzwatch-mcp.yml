@@ -54,26 +54,25 @@ metadata:
       fetched_at: "2026-07-16T05:05:04.629Z"
       bytes: 7012
 insights:
-  summary: An MCP server that exposes FundzWatch.ai's real-time business events, AI-scored leads, and market intelligence data to Claude, Cursor, and Windsurf.
-  why_it_matters: It lets developers query funding rounds, acquisitions, and sales leads directly from their coding agent instead of switching to a separate sales-intelligence dashboard.
-  mental_damage: Your coding assistant can now tell you which startups just raised Series B while you are debugging a 500 error, ensuring maximum context-switching under the guise of productivity.
+  summary: An MCP server that provides real-time business intelligence, including funding rounds, acquisitions, and AI-scored sales leads, to MCP-compatible AI clients.
+  why_it_matters: It allows developers to integrate real-time market and business event data directly into their AI coding and reasoning workflows via Claude, Cursor, or Windsurf.
+  mental_damage: Another layer of real-time data to feed your LLM, because clearly, the model wasn't already hallucinating enough business trends.
   tags:
     - mcp
-    - sales-intelligence
-    - funding-data
-    - cursor
-    - claude
-  confidence: medium
+    - business-intelligence
+    - sales-ai
+    - market-data
+  confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that gives agents access to a specific domain data source, which fits cleanly as a domain server in MCP Servers & Tooling.
+  reason: The project's primary identity is an MCP server designed specifically to provide domain-specific data to host applications.
   evidence:
-    - Repo description explicitly states 'MCP server for FundzWatch.ai' with Claude, Cursor, and Windsurf integrations.
-    - README positions it as 'Real-time business event intelligence for AI agents via Model Context Protocol' with MCP configuration examples.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section as a server implementation.
+    - Repo description defines it as an 'MCP server for FundzWatch.ai'
+    - README details usage via npx in Claude, Cursor, and Windsurf configs
+    - Functionality is centered on providing tools via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -89,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:58:48.398Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bf435099c60b173936455e30e3d8792f92f0d1de7d6a31007106179ce68cadbd
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server designed specifically to provide domain-specific data to host applications.
+      decision_evidence:
+        - Repo description defines it as an 'MCP server for FundzWatch.ai'
+        - README details usage via npx in Claude, Cursor, and Windsurf configs
+        - Functionality is centered on providing tools via the Model Context Protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the MCP protocol implementation itself, rather than just a generic integration for a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null

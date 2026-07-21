@@ -36,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Zhihu article summarizing LLM resources, tips, and techniques for developers.
-  why_it_matters: It acts as a centralized index pointing developers toward resources for multimodal generation, agent building, coding assistance, and model training.
-  mental_damage: Yet another reminder that mastering the actual tools is now less prestigious than curating the perfect list of links to them.
+  summary: A Zhihu article summarizing global LLM resources, including categories like multimodal generation, agents, coding assistance, and MCP.
+  why_it_matters: Provides a curated overview of LLM tools and resources, which can help developers discover relevant AI workflows and integrations.
+  mental_damage: Another meta-list to bookmark and forget about until the next wave of AI tooling hype.
   tags:
+    - curated-list
     - llm-resources
-    - awesome-list
-    - tips
     - zhihu
   confidence: high
 curation:
-  status: included
-  reason: The item is a publication listing LLM resources and tips rather than a standalone developer tool, making it a fit for the Lists & Directories category.
+  status: excluded
+  reason: The item is a static article/list rather than a standalone developer tool, platform, or operated workflow.
   evidence:
-    - URL points to a Zhihu article (zhuanlan.zhihu.com/p/718354385), not a code repository or product.
-    - Source-list context shows it is included in awesome-LLM-resources as a tips/summary section.
-    - No repository description, README, or product signals exist; the item is a link to a resource article.
+    - URL points to a Zhihu article (zhuanlan.zhihu.com)
+    - Source-list context describes it as a summary of LLM resources
+    - No repo, stars, or code artifacts provided
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:12.013Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3a60f0bae60eb4c735f54ceadbdd56cd4ec639ffe59055c6d31140c6b1ecbf64
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The item is a static article/list rather than a standalone developer tool, platform, or operated workflow.
+      decision_evidence:
+        - URL points to a Zhihu article (zhuanlan.zhihu.com)
+        - Source-list context describes it as a summary of LLM resources
+        - No repo, stars, or code artifacts provided
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

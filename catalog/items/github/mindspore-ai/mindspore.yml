@@ -40,23 +40,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:24.004Z"
       bytes: 16554
 insights:
-  summary: MindSpore is an open source deep learning training and inference framework designed for mobile, edge, and cloud scenarios with native support for Ascend AI processors.
-  why_it_matters: It provides data scientists and algorithmic engineers with a Pythonic development experience, automatic differentiation, and automatic parallel training capabilities across diverse hardware environments.
-  mental_damage: Just when you thought the deep learning framework wars were settled, we're back to choosing sides between PyTorch, TensorFlow, and yet another Huawei-backed contender that wants you to buy their chips.
+  summary: MindSpore is an open source deep learning training/inference framework for mobile, edge, and cloud scenarios with automatic differentiation and parallelism features.
+  why_it_matters: It provides developers with a unified AI framework optimized for heterogeneous hardware and distributed training workloads.
+  mental_damage: Another framework promising automatic parallelism that still requires you to debug why your ResNet won't converge on Ascend chips.
   tags:
     - deep-learning
-    - training-framework
-    - inference
-    - ascend
-    - mlops
+    - framework
+    - training
   confidence: high
 curation:
   status: excluded
-  reason: This is a general deep learning training and inference framework, not a developer-facing AI tool, agent, or infrastructure component as defined by the catalog's scope.
+  reason: MindSpore is a general-purpose deep learning framework focused on model training and inference, not developer-facing AI tooling for coding, agents, or workflow enhancement.
   evidence:
-    - Repo description explicitly states it is a 'deep learning training/inference framework' for mobile, edge, and cloud.
-    - README focuses on automatic differentiation, automatic parallel training, and Ascend AI processor support—core ML research/engineering, not developer tooling.
-    - Listed in Awesome-LLMOps under 'Training > Frameworks for Training', which is a general ML operations category, not specific to AI developer tools.
+    - "Repo description: 'MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.'"
+    - README emphasizes automatic differentiation, automatic parallelism, and hardware optimization for data scientists and algorithmic engineers.
+    - Source-list context shows inclusion in Awesome-LLMOps under 'Training > Frameworks for Training', indicating ML infrastructure focus.
 placement:
   primary_category: null
   section: null
@@ -75,12 +73,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:21:14.401Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:90dac47403caf579b09481adc77d7ba84f4b2a1cf1aa38435b0443c12511b8bc
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: MindSpore is a general-purpose deep learning framework focused on model training and inference, not developer-facing AI tooling for coding, agents, or workflow enhancement.
+      decision_evidence:
+        - "Repo description: 'MindSpore is a new open source deep learning training/inference framework that could be used for mobile, edge and cloud scenarios.'"
+        - README emphasizes automatic differentiation, automatic parallelism, and hardware optimization for data scientists and algorithmic engineers.
+        - Source-list context shows inclusion in Awesome-LLMOps under 'Training > Frameworks for Training', indicating ML infrastructure focus.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

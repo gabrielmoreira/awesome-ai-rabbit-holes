@@ -60,12 +60,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
-    cause: null
+    status: failed
+    updated_at: "2026-07-21T15:21:15.690Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: wrg-11/instinct"
+    next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    updated_at: "2026-07-21T15:21:35.709Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

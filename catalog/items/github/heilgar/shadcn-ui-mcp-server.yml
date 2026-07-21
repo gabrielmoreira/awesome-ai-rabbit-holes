@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:00.589Z"
       bytes: 3659
 insights:
-  summary: An MCP server that lets AI coding assistants like Claude and Cursor list, document, and install shadcn/ui components and blocks directly through the Model Context Protocol.
-  why_it_matters: Developers can delegate UI scaffolding and component discovery to their AI assistant instead of manually checking docs and running CLI commands.
-  mental_damage: We have successfully abstracted away the two seconds it takes to read shadcn documentation into a protocol handshake that requires a server restart.
+  summary: An MCP server that exposes shadcn/ui components and blocks as tools for AI assistants.
+  why_it_matters: Lets AI coding assistants directly list, read docs for, and install shadcn/ui components and blocks without leaving the assistant context.
+  mental_damage: Now your AI can argue with you about which shadcn component to use, in real time.
   tags:
     - mcp
-    - shadcn
-    - ui-components
-    - ide-integration
+    - shadcn-ui
+    - component-management
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server providing shadcn/ui component management tools, making it a clear fit for MCP Servers & Tooling.
+  reason: The product's core identity is an MCP server providing domain-specific tools for shadcn/ui, not a general assistant or extension.
   evidence:
-    - "README explicitly provides MCP tools: list-components, get-component-docs, install-component, list-blocks, get-block-docs, install-blocks."
-    - Listed in awesome-mcp-servers under 'Community Servers' section.
-    - Configuration examples provided for Claude Desktop, Windsurf, and Cursor as an MCP server.
+    - README explicitly describes it as an MCP server with tools for shadcn/ui components/blocks
+    - Listed in awesome-mcp-servers under Community Servers
+    - Provides MCP-specific installation/config for Claude Desktop, Windsurf, Cursor
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:21.241Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e3d700e1a68528c60ee16b54b6e5e46c667b85a452df1031d897752230d37c1b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server providing domain-specific tools for shadcn/ui, not a general assistant or extension.
+      decision_evidence:
+        - README explicitly describes it as an MCP server with tools for shadcn/ui components/blocks
+        - Listed in awesome-mcp-servers under Community Servers
+        - Provides MCP-specific installation/config for Claude Desktop, Windsurf, Cursor
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is fundamentally an MCP server (with domain-specific tools) rather than an extension layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

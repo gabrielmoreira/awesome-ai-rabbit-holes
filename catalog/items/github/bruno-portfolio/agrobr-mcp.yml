@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:15.379Z"
       bytes: 5133
 insights:
-  summary: An MCP server that exposes 10 Brazilian agricultural data sources—covering prices, crops, climate, and deforestation—to LLMs via the Model Context Protocol.
-  why_it_matters: Developers building Latin America–focused AI workflows can plug real-time commodity, climate, and deforestation data into Claude, Cursor, or other MCP clients without writing custom API integrations.
-  mental_damage: We now have a protocol for asking an LLM the spot price of soybeans in Portuguese, which feels like either the future of ag-tech or the moment we fully automated Brazilian crop arbitrage via Claude Desktop.
+  summary: MCP server that provides LLMs access to real-time Brazilian agricultural data from 10 public sources via the agrobr library.
+  why_it_matters: Developers can integrate domain-specific agricultural data into their AI workflows without building custom API connectors.
+  mental_damage: Now your LLM can debate soybean futures while you debug your actual code.
   tags:
-    - mcp
+    - mcp-server
+    - domain-data
     - agriculture
     - brazil
-    - data
-    - llm-integration
+    - python
   confidence: high
 curation:
   status: included
-  reason: The primary product identity is an MCP server that gives LLMs access to Brazilian agricultural data sources, which fits cleanly as a domain-specific MCP server.
+  reason: This is an MCP-first server whose primary identity is exposing domain-specific data via the Model Context Protocol.
   evidence:
-    - "Repo description states: 'MCP server for Brazilian agricultural data — connect LLMs to 10 public data sources via agrobr'"
-    - README explicitly lists 10 MCP tools (e.g., preco_diario, desmatamento) and shows setup for Claude Desktop, Cursor, and Claude Code
-    - Listed in awesome-mcp-servers under 'Data Platforms', confirming its identity as an MCP server
+    - Repo description explicitly states it is an MCP server for Brazilian agricultural data
+    - README details 10 tools exposing data from public sources via MCP
+    - Source-list context shows it is curated in awesome-mcp-servers under Data Platforms
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:34:22.697Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:78a92cf2927da83e1ee9bc2b38b7ebf046213c9380bdeb2b8382a8913dac7c58
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose primary identity is exposing domain-specific data via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Brazilian agricultural data
+        - README details 10 tools exposing data from public sources via MCP
+        - Source-list context shows it is curated in awesome-mcp-servers under Data Platforms
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

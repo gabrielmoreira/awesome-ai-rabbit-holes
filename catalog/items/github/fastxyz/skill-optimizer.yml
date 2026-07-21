@@ -58,23 +58,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:00.014Z"
       bytes: 4738
 insights:
-  summary: A CLI and Docker workbench for benchmarking, evaluating, and optimizing agent skills against multiple LLMs via OpenRouter.
-  why_it_matters: It gives developers a deterministic way to measure whether their agent skills actually perform reliably across different models before shipping them.
-  mental_damage: Now you can scientifically prove that your agent’s PDF extraction skill is only slightly more reliable than a coin flip, and you have the Docker logs to prove it.
+  summary: skill-optimizer is a Docker-based CLI and agent skill for running deterministic evaluations of agent skills against LLM models via OpenRouter.
+  why_it_matters: It lets developers benchmark and refine agent behavior with reproducible, file-graded evals in isolated environments.
+  mental_damage: Another eval framework that turns skill validation into a Dockerized ritual, because trusting your agent’s word just isn’t enough anymore.
   tags:
     - evals
     - cli
-    - agents
-    - llm-benchmark
-    - skills
+    - docker
+    - agent-skills
+    - openrouter
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, scoring, and regression-testing agent skill behavior across models, which aligns exactly with the Evals & Benchmarks category.
+  reason: The tool’s core function is measuring and optimizing agent skill performance through structured, graded evaluation suites, making it an evals tool rather than a coding agent or extension.
   evidence:
-    - "Repo description states: 'Benchmark, evaluate, and optimize skills to ensure reliable performance across all LLMs'."
-    - README centers on deterministic eval suites, cases, graders, and running suites against OpenRouter models via CLI and Docker.
-    - Topics include benchmark, eval, evals, evaluation, evaluation-framework, llm-eval, and llm-evaluation-framework.
+    - "Repo description: 'Benchmark, evaluate, and optimize skills to ensure reliable performance across all LLMs'"
+    - "README: 'Docker workbench and Agent Skill for running deterministic evals against agent skills'"
+    - "Core concepts: defines cases, suites, graders, and references for verifying agent outputs via file/system state"
 placement:
   primary_category: evals
   section: Agent Benchmarks
@@ -93,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:55:10.383Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9fec9678ca61e9b3ab316ca79b34d3f9b2017785cc279b96bea5e83d3a564888
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool’s core function is measuring and optimizing agent skill performance through structured, graded evaluation suites, making it an evals tool rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'Benchmark, evaluate, and optimize skills to ensure reliable performance across all LLMs'"
+        - "README: 'Docker workbench and Agent Skill for running deterministic evals against agent skills'"
+        - "Core concepts: defines cases, suites, graders, and references for verifying agent outputs via file/system state"
+      category_candidates:
+        - evals
+        - ai-dev-extensions
+      contrastive_reason: Choose evals over ai-dev-extensions because the product’s main identity is running deterministic evaluations of agent behavior, not extending another assistant with integrations like debugger or browser access.
+      review_reason: null
+      review_resume_lifecycle: null

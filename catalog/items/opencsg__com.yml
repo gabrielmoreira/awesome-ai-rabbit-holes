@@ -36,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpenCSG is a hybrid Hugging Face-style community and enterprise AI platform offering CSGHub as a self-hosted model hub and CSGShip for AgenticOps agent building.
-  why_it_matters: It provides enterprises with a private, on-premise alternative to public model hubs and a platform for operationalizing agent workflows.
-  mental_damage: Another day, another platform promising to solve the 'how do we actually run this stuff' problem with a name that sounds like a typo.
+  summary: OpenCSG is a hybrid Hugging Face ecosystem platform offering enterprise-grade private alternatives (CSGHub) and AgenticOps tooling (CSGShip) for AI agent construction.
+  why_it_matters: It provides developers with a self-hosted Hugging Face alternative and a platform for building and deploying AI agents, addressing enterprise needs for privacy and agent workflows.
+  mental_damage: Because nothing says 'enterprise AI' like a platform that promises to be both your Hugging Face and your agent overlord.
   tags:
     - agent-platform
     - self-hosted
-    - model-hub
+    - huggingface-alternative
     - enterprise-ai
   confidence: medium
 curation:
   status: included
-  reason: The product is an enterprise-grade platform combining a private model hub with CSGShip for building and running agents, fitting the vertical orchestration platform profile.
+  reason: The product is primarily a platform for coordinating and deploying AI agents (AgenticOps) and managing model ecosystems, fitting the agent orchestration category.
   evidence:
-    - Scraped site describes 'CSGHub' as an enterprise-grade open-source Huggingface private alternative.
-    - CSGShip is positioned to help enterprises build and operate agents (AgenticOps).
-    - Source list context confirms it is a 'Hybrid Huggingface+ ecosystem platform' for enterprise AI transformation.
+    - Described as a 'Hybrid Huggingface+ large model ecosystem platform' with CSGShip for 'AgenticOps intelligent agent construction'
+    - Positioned as enabling 'enterprise AI transformation' and 'large model application deployment'
+    - Listed in a curated LLM resources directory under 'Community' but with clear platform/orchestration focus
 placement:
   primary_category: agent-orchestration
-  section: Vertical Orchestration Platforms
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:20.097Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:08bf3fb58459c98b64d34fff420ca05f28a14198d8df41845ab9c68d640fdc52
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is primarily a platform for coordinating and deploying AI agents (AgenticOps) and managing model ecosystems, fitting the agent orchestration category.
+      decision_evidence:
+        - Described as a 'Hybrid Huggingface+ large model ecosystem platform' with CSGShip for 'AgenticOps intelligent agent construction'
+        - Positioned as enabling 'enterprise AI transformation' and 'large model application deployment'
+        - Listed in a curated LLM resources directory under 'Community' but with clear platform/orchestration focus
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated platform for agent construction and deployment rather than a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

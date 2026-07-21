@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:00.731Z"
       bytes: 10244
 insights:
-  summary: A read-only MCP server that lets AI clients discover schemas, sample data, and run constrained SQL queries across PostgreSQL and MySQL databases.
-  why_it_matters: It lets you safely expose database context to coding agents for schema-aware SQL generation without handing over raw connection strings or write access.
-  mental_damage: We have successfully abstracted the database so that the AI can now competently select from tables you forgot you had.
+  summary: An MCP server that enables AI clients to interact with PostgreSQL and MySQL databases through a controlled, read-only interface.
+  why_it_matters: It lets developers expose database schema, samples, and query analysis to AI assistants without sharing raw connection strings or flattening engine-specific concepts.
+  mental_damage: Finally, a way to let your AI poke at production databases without immediately regretting it.
   tags:
-    - mcp
-    - databases
+    - mcp-server
+    - database
     - sql
+    - read-only
     - postgresql
-    - mysql
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server for databases, making MCP its core identity and fitting cleanly under Domain Servers.
+  reason: The product's core identity is as an MCP server providing database access, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'A general-purpose MCP server that lets AI work with multiple databases'.
-    - README confirms read-only SQL tools (list_tables, run_select, explain_query) exposed via MCP.
-    - Listed in awesome-mcp-servers under Server Implementations > Databases.
+    - Repo description explicitly states it is a general-purpose MCP server for databases
+    - README details its role as a controlled MCP interface for database discovery and read-only queries
+    - Already listed in awesome-mcp-servers under Database servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -83,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:06.011Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6f663d100af73110576da90565fcd1d1d7c9b42d606bf7370d4595099cb883d7
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is as an MCP server providing database access, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is a general-purpose MCP server for databases
+        - README details its role as a controlled MCP interface for database discovery and read-only queries
+        - Already listed in awesome-mcp-servers under Database servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

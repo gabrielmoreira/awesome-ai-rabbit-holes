@@ -70,23 +70,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:19.893Z"
       bytes: 1971
 insights:
-  summary: A Python-based microservice framework for building custom AI agents with built-in RAG, plugin extensibility, and a REST/WebSocket admin interface.
-  why_it_matters: It gives developers a dockerized, API-first way to spin up a conversational layer with tool-calling and memory without wiring LangChain and Qdrant together by hand.
-  mental_damage: Another delightful reminder that in 2025, building a serious agent still means assembling a cat-themed plugin system just to get a chatbot to remember your socks cost fifty bucks.
+  summary: Cheshire Cat AI is a framework for building custom AI agents as microservices with API-first design, plugin extensibility, and built-in RAG.
+  why_it_matters: It lets developers deploy conversational AI agents with REST/WebSocket APIs, multiuser support, and plugin-based customization without locking into a specific LLM provider.
+  mental_damage: Finally, a way to turn your cat into a microservice—because regular microservices weren’t confusing enough.
   tags:
-    - agents
+    - agent-framework
+    - mcp
     - rag
-    - langchain
-    - microservice
-    - plugins
+    - docker
+    - plugin-system
   confidence: high
 curation:
   status: included
-  reason: This is a code-first framework and runtime developers import and extend via plugins and Python decorators, not a primary coding assistant or IDE integration.
+  reason: The core product is a code-first framework for building and extending AI agents, not a primary assistant, IDE, or orchestration platform.
   evidence:
-    - Repo description calls it an 'AI agent microservice' and the README positions it as 'a framework to build custom AI agents'.
-    - Developers extend it via Python decorators (@hook, @tool, @form) and plugins rather than using it as a chat-driven coding assistant.
-    - Architecture is API-first, dockerized, and LangChain-backed with Qdrant RAG, fitting a framework/SDK shape.
+    - "Repo description: 'AI agent microservice'"
+    - "README: 'framework to build custom AI agents' with API-first, plugin extensibility, and RAG"
+    - Topics include 'framework', 'function-calling', 'mcp', 'plugin'
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -105,12 +105,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:27.607Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:860ddbb424f9b74280ad6a3bd72000f483fc3b76523c997bc1aed3c788235f81
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The core product is a code-first framework for building and extending AI agents, not a primary assistant, IDE, or orchestration platform.
+      decision_evidence:
+        - "Repo description: 'AI agent microservice'"
+        - "README: 'framework to build custom AI agents' with API-first, plugin extensibility, and RAG"
+        - Topics include 'framework', 'function-calling', 'mcp', 'plugin'
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is primarily a code-first framework for building agents, not a control plane or runtime for coordinating multiple agents.
+      review_reason: null
+      review_resume_lifecycle: null

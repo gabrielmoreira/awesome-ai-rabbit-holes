@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:44.410Z"
       bytes: 78595
 insights:
-  summary: SAGE is a persistent, BFT consensus-validated memory infrastructure for AI agents, exposing memory via MCP and REST for use across sessions and multi-agent networks.
-  why_it_matters: It gives coding agents durable, scored, and consensus-validated memory that persists across conversations and agents instead of relying on ephemeral context or bolted-on vector DBs.
-  mental_damage: Finally, your agent can forget things with cryptographic confidence and Byzantine fault tolerance, ensuring even its memory decay is distributed, validated, and impossible to blame on you.
+  summary: SAGE is a persistent, consensus-validated memory infrastructure for AI agents, built on CometBFT consensus primitives.
+  why_it_matters: It gives AI agents institutional memory that persists across conversations, with BFT consensus validation, confidence scoring, and natural decay, addressing the problem of reliable, shared memory in multi-agent systems.
+  mental_damage: Finally, a way for your agents to remember things without pretending a vector DB is a brain.
   tags:
-    - agent-memory
-    - mcp
-    - distributed-systems
-    - context-engineering
+    - memory-infrastructure
+    - consensus
+    - multi-agent
     - bft
+    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory, retrieval, and consensus infrastructure for agents rather than a primary coding assistant, IDE, orchestration platform, or MCP-only tool.
+  reason: The core novelty is memory infrastructure with consensus validation, which fits the context-engineering category's focus on memory, retrieval, and prompt-shaping systems.
   evidence:
-    - "Repo description: '(S)AGE - (Sovereign) Agent Governed Experience' with topics including agentic-ai, distributed-systems, governance."
-    - "README states: 'Persistent, consensus-validated memory infrastructure for AI agents' and exposes memory via MCP/REST to Claude, ChatGPT, Gemini, etc."
-    - Active repo (pushed 2026-05-05), not archived, and listed in awesome-mcp-servers under Knowledge & Memory.
+    - README explicitly describes it as 'persistent, consensus-validated memory infrastructure for AI agents'
+    - Architecture centers on memory writes, BFT consensus, and confidence scoring
+    - MCP server badge is present but secondary to the memory infrastructure identity
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:36.520Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0f5a0cd6ae51f9a74f5d2b6e74fd94b16643f4dc311c5b8de3424367a5bad518
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core novelty is memory infrastructure with consensus validation, which fits the context-engineering category's focus on memory, retrieval, and prompt-shaping systems.
+      decision_evidence:
+        - README explicitly describes it as 'persistent, consensus-validated memory infrastructure for AI agents'
+        - Architecture centers on memory writes, BFT consensus, and confidence scoring
+        - MCP server badge is present but secondary to the memory infrastructure identity
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the primary product identity is memory infrastructure, not MCP tooling, even though it includes an MCP server.
+      review_reason: null
+      review_resume_lifecycle: null

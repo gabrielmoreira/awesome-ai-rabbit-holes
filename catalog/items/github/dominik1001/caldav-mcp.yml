@@ -43,22 +43,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:52.333Z"
       bytes: 7610
 insights:
-  summary: A TypeScript MCP server that exposes CalDAV calendar operations—listing, creating, updating, and deleting events—as tools for AI assistants.
-  why_it_matters: Developers can wire calendar management directly into coding agents and MCP-compatible workflows without writing custom API glue.
-  mental_damage: Your AI agent can now silently triple-book your Tuesday while it hallucinates a fix for a race condition.
+  summary: A CalDAV Model Context Protocol (MCP) server that exposes calendar operations as tools for AI assistants.
+  why_it_matters: It lets AI assistants read, create, update, and delete calendar events via CalDAV, enabling calendar-aware workflows in agent environments.
+  mental_damage: Now your AI can schedule meetings for you, because apparently we’ve decided that’s a good idea.
   tags:
     - mcp
     - caldav
     - calendar
+    - agent-tools
     - typescript
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose primary identity is exposing CalDAV calendar operations as tools for AI assistants, fitting the MCP Servers & Tooling category.
+  reason: This is an MCP-first server whose primary identity is exposing CalDAV calendar operations as MCP tools for AI assistants.
   evidence:
-    - Repo description explicitly states it is 'A CalDAV Model Context Protocol (MCP) server to expose calendar operations as tools for AI assistants.'
-    - README documents MCP setup config and lists MCP tools like create-event, list-events, update-event, and delete-event.
-    - Listed in awesome-mcp-servers under Community Servers, reinforcing its MCP server identity.
+    - Repo description explicitly states it is a CalDAV MCP server
+    - README details MCP server setup and CalDAV-specific tools (list-events, create-event, etc.)
+    - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -77,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:41.472Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c0739ee1fa6fbd9cfaba334031155adc96573030249b53c9ed1362d6211f9669
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose primary identity is exposing CalDAV calendar operations as MCP tools for AI assistants.
+      decision_evidence:
+        - Repo description explicitly states it is a CalDAV MCP server
+        - README details MCP server setup and CalDAV-specific tools (list-events, create-event, etc.)
+        - Listed in awesome-mcp-servers under Community Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

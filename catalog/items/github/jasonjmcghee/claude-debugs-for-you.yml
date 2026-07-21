@@ -73,23 +73,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:20.231Z"
       bytes: 6424
 insights:
-  summary: A VS Code extension and MCP server that lets LLMs like Claude interactively debug code by controlling breakpoints, stepping through execution, and evaluating expressions.
-  why_it_matters: It bridges the gap between coding assistants and real debugging workflows, allowing models to inspect runtime state instead of guessing from static context.
-  mental_damage: We have officially entered the era where your AI assistant now has the power to set breakpoints and stare at variables you could have inspected yourself in half the time.
+  summary: A VS Code extension and MCP server that enables LLMs like Claude to interactively debug code via VS Code's debugger.
+  why_it_matters: It lets developers delegate debugging sessions to an LLM, using breakpoints and expression evaluation without manual intervention.
+  mental_damage: Now your AI can step through your code while you step away from responsibility.
   tags:
-    - vscode-extension
-    - mcp
     - debugging
-    - llm-tooling
-    - vibe-debugging
+    - mcp
+    - vscode-extension
+    - llm-integration
   confidence: high
 curation:
   status: included
-  reason: The project is a VS Code extension and MCP server that augments other coding assistants with interactive debugging capabilities, fitting cleanly as an IDE integration rather than a primary agent.
+  reason: The tool is primarily an extension that augments VS Code and MCP clients with debugging capabilities, rather than being a standalone coding assistant.
   evidence:
-    - Repo description explicitly states it 'Enable[s] any LLM (e.g. Claude) to interactively debug any language for you via MCP and a VS Code Extension'.
-    - README confirms it is an 'MCP Server and VS Code extension which enables claude to interactively debug' rather than acting as the primary assistant.
-    - Listed as a canonical positive example for the ai-dev-extensions category.
+    - Repo description explicitly states it is an MCP server and VS Code extension for interactive debugging
+    - README confirms it integrates with Claude Desktop, Continue, and Cursor via MCP
+    - Source-list context places it under Developer Tools in MCP server lists
 placement:
   primary_category: ai-dev-extensions
   section: IDE / UI / Workflow Add-ons
@@ -108,12 +107,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:06.218Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:489136fabe88233a93503cbac6f8be868d612dbe1745233ed08845646d6d5449
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool is primarily an extension that augments VS Code and MCP clients with debugging capabilities, rather than being a standalone coding assistant.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server and VS Code extension for interactive debugging
+        - README confirms it integrates with Claude Desktop, Continue, and Cursor via MCP
+        - Source-list context places it under Developer Tools in MCP server lists
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the core value is the VS Code debugging integration, not MCP infrastructure itself.
+      review_reason: null
+      review_resume_lifecycle: null

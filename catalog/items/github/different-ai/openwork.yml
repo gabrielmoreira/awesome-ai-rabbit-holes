@@ -40,15 +40,15 @@ metadata:
       fetched_at: "2026-07-20T05:17:33.222Z"
       bytes: 3127
 insights:
-  summary: An open-source desktop and CLI host for OpenCode that provides a local-first UI, session management, permissioning, and workflow templates to run coding agent tasks locally or remotely.
-  why_it_matters: It gives teams a reproducible, auditable surface to package and share agentic workflows without being locked into Claude Cowork or pure CLI-only workflows.
-  mental_damage: We have successfully abstracted the abstraction that was abstracting the model, and now your desktop app needs its own orchestrator to feel productive.
+  summary: An open-source desktop application and orchestrator that provides a UI and management layer for OpenCode agentic workflows.
+  why_it_matters: It transforms raw CLI-based agent workflows into a composable, auditable, and shareable desktop experience for teams.
+  mental_damage: Because having a GUI for your autonomous agent makes it much easier to watch your terminal undo work in real-time.
   tags:
-    - opencode
-    - desktop-agent
-    - local-first
-    - workflows
+    - open-source
+    - desktop-app
     - orchestration
+    - agentic-workflows
+    - open-code
   confidence: high
 curation:
   status: included
@@ -59,10 +59,10 @@ curation:
     - Included in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure', reinforcing its agent-hosting identity.
 placement:
   primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (14774) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:10.219Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ece81353daa959d2c18eb7b92009e096a3699b387c662527d5c4eeff1434daa1
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: It acts as an operated workbench and control plane for managing agent sessions, permissions, and distributed workflows.
+      decision_evidence:
+        - README identifies it as a desktop app and orchestrator for OpenCode
+        - Provides session management, permissions, and remote worker connectivity
+        - Offers a 'kills manager' and template system for repeatable agentic processes
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because the tool functions as a management layer and control plane for agent sessions rather than being the primary coding agent itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

@@ -36,24 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GoCharlie is an AI agent platform listed among autonomous AI agents for automating workflows and task execution.
-  why_it_matters: It represents the growing ecosystem of autonomous agents that developers are evaluating for workflow automation beyond simple code completion.
-  mental_damage: Another entry in the autonomous-agent sweepstakes where we all pretend that adding 'agent' to a product description automatically grants it agency and purpose.
+  summary: GoCharlie is an AI agent platform for autonomous task execution.
+  why_it_matters: It provides developers with a way to delegate complex workflows to AI agents that can operate autonomously.
+  mental_damage: Because nothing says 'autonomous' like an agent that still needs you to babysit its edge cases.
   tags:
     - ai-agents
-    - autonomous-agents
-    - workflow-automation
-  confidence: low
+    - autonomous-workflows
+    - task-automation
+  confidence: medium
 curation:
-  status: excluded
-  reason: The available information only identifies this as a general AI agent platform without concrete evidence of developer-tooling utility, code-editing capabilities, or a programmable interface for software development workflows.
+  status: included
+  reason: GoCharlie is listed in awesome-ai-agents as a multi-agent coordination platform, fitting the agent orchestration category.
   evidence:
-    - No repository description, README, or scraped site context provided to verify developer-facing functionality
-    - Only signal is inclusion in awesome-ai-agents list under a generic 'autonomous agents' section
-    - No evidence of coding-specific features, IDE integration, SDK access, or developer workflow targeting
+    - "Seen in awesome-ai-agents under section: GoCharlie"
+    - Described as an AI autonomous agent in source-list context
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -68,12 +67,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:22.784Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d83e3278b81f7eb82cddfe874825b39a3666cdc52846f7941da2cd82773b129e
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: GoCharlie is listed in awesome-ai-agents as a multi-agent coordination platform, fitting the agent orchestration category.
+      decision_evidence:
+        - "Seen in awesome-ai-agents under section: GoCharlie"
+        - Described as an AI autonomous agent in source-list context
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because the primary identity is multi-agent coordination rather than direct code editing.
+      review_reason: null
+      review_resume_lifecycle: null

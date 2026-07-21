@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili personal channel (木羽Cheney) publishing video tutorials and technical perspectives focused on large model technology and practical AI application.
-  why_it_matters: Developers looking to understand LLM deployment and application in Chinese-language contexts can follow these videos for practical implementation insights.
-  mental_damage: Yet another content creator joining the race to explain the same models in slightly different ways while we all pretend we have time to watch hour-long tutorials.
+  summary: Bilibili personal space of a former State Grid engineer sharing tutorials and resources on building production-ready AI agents and vibe coding.
+  why_it_matters: Provides practical guidance for developers on implementing and deploying AI agents, particularly in production environments.
+  mental_damage: Another day, another engineer from a power grid company teaching you how to ship agents before your startup does.
   tags:
-    - tutorials
-    - llm
-    - video-content
+    - tutorial
+    - agent-development
     - chinese
+    - bilibili
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal video content channel / publication feed, not a developer tool, framework, or product; it falls outside the catalog's tooling scope.
+  reason: This is a personal content creator's page, not a developer tool, framework, or product.
   evidence:
-    - URL points to a Bilibili personal space, not a GitHub repo or product site
-    - Scraped description confirms it is a video/audio/article sharing channel focused on tutorials and tech perspectives
-    - Appears in awesome-LLM-resources under '教程 Tutorial', indicating it is an educational resource rather than a tool
+    - URL is a Bilibili personal space (space.bilibili.com)
+    - Scraped context describes it as a personal account sharing videos/articles, not a tool
+    - Source-list context places it under 'Tutorial' section, not a product category
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:51.977Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:74e7f1a5c1dffeffa7b6b809dce538f977bd3abfa5d1addad402ccd618684d1e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a personal content creator's page, not a developer tool, framework, or product.
+      decision_evidence:
+        - URL is a Bilibili personal space (space.bilibili.com)
+        - Scraped context describes it as a personal account sharing videos/articles, not a tool
+        - Source-list context places it under 'Tutorial' section, not a product category
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

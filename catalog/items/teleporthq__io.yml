@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: TeleportHQ is a low-code front-end platform that uses AI to generate static websites and UI components from prompts, with visual editing and one-click deployment.
-  why_it_matters: It allows developers to rapidly scaffold static sites and UI elements from text prompts while providing exportable code for React, Angular, and Vue frameworks.
-  mental_damage: Another 'AI-powered' builder promising to ship your landing page in minutes, ensuring you still spend three hours arguing with the visual editor about margin pixels.
+  summary: Low-code front-end design and development platform with AI-powered website building and visual editing capabilities.
+  why_it_matters: Enables developers and non-developers to rapidly generate, refine, and deploy static websites and UI components using AI-assisted design-to-code workflows.
+  mental_damage: Finally, a tool that lets you build websites by describing them—until you realize you still have to explain to stakeholders why the AI chose Comic Sans.
   tags:
-    - frontend
     - low-code
-    - static-sites
-    - ui-generator
+    - ai-website-builder
     - visual-builder
+    - static-sites
+    - figma-to-code
   confidence: high
 curation:
   status: included
-  reason: The platform's core workflow is turning prompts into static websites and UI elements rather than acting as a coding assistant for an existing repository.
+  reason: The product's core identity is turning prompts and visual inputs into deployable websites and UI components, fitting the prompt-to-site builder use case.
   evidence:
-    - Scraped site context describes 'AI website builder' that starts 'with a Prompt' to generate layouts.
-    - Source list already categorizes it under 'UI Generators' for AI-powered coding tools.
-    - Product features include 'Free code export to HTML, CSS and JS' in 5 different JS frameworks.
+    - Described as a 'low-code front-end design & development platform' with AI website builder capabilities
+    - Primary workflow centers on prompt-driven generation of layouts, designs, and static websites
+    - Source-list context places it under 'UI Generators' in a curated AI coding tools list
 placement:
   primary_category: app-builders
   section: Prompt-to-Site Builders
@@ -70,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:37:50.657Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1e673e16d768527b7018cceb5e98c870aa8b421bb7f363f7b6f715e00c487a26
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product's core identity is turning prompts and visual inputs into deployable websites and UI components, fitting the prompt-to-site builder use case.
+      decision_evidence:
+        - Described as a 'low-code front-end design & development platform' with AI website builder capabilities
+        - Primary workflow centers on prompt-driven generation of layouts, designs, and static websites
+        - Source-list context places it under 'UI Generators' in a curated AI coding tools list
+      category_candidates:
+        - app-builders
+        - ai-dev-extensions
+      contrastive_reason: Choose app-builders over ai-dev-extensions because the product is a standalone prompt-to-site platform rather than an extension augmenting another coding tool.
+      review_reason: null
+      review_resume_lifecycle: null

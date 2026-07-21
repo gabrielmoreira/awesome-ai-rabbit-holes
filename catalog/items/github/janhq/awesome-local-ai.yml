@@ -39,23 +39,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:19.540Z"
       bytes: 17640
 insights:
-  summary: A curated GitHub awesome list cataloging open-source tools and solutions for running AI models locally on personal hardware.
-  why_it_matters: It serves as a centralized navigation map for developers looking to escape cloud API costs and privacy concerns by self-hosting inference engines and models.
-  mental_damage: You will spend four hours comparing the throughput of SGLang versus vLLM on this list before remembering you only came here to download a 7B model for a side project.
+  summary: A curated collection of open-source local AI tools and solutions.
+  why_it_matters: Developers can discover and compare local inference engines, runtimes, and desktop interfaces for running LLMs on their own hardware.
+  mental_damage: Because nothing says 'productivity' like spending a weekend benchmarking 20 different ways to run a model locally.
   tags:
     - local-ai
-    - awesome-list
-    - inference
+    - curated-list
+    - inference-engines
     - self-hosted
-    - directory
   confidence: high
 curation:
   status: included
-  reason: The repository is a curated index of local AI tools rather than a standalone product, making it a navigation aid for developers.
+  reason: This is a curated directory of local AI tools, fitting the 'Awesome Awesomes' category as a navigation aid for developers.
   evidence:
-    - Repo description explicitly states 'An awesome repository of local AI tools'.
-    - README is structured as a directory table listing inference engines like llama.cpp, ollama, and vLLM.
-    - "Input metadata confirms 'Direct awesome list source: yes'."
+    - "Repo description: 'An awesome repository of local AI tools'"
+    - README explicitly positions it as a 'collection of open source and/or local AI tools and solutions'
+    - "Direct awesome list source: yes"
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:54.607Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c53fe316f776648781e95c57ca6da5dee5658fa57b96bc50123c382fc5436287
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of local AI tools, fitting the 'Awesome Awesomes' category as a navigation aid for developers.
+      decision_evidence:
+        - "Repo description: 'An awesome repository of local AI tools'"
+        - README explicitly positions it as a 'collection of open source and/or local AI tools and solutions'
+        - "Direct awesome list source: yes"
+      category_candidates:
+        - awesome-awesomes
+        - local-ai
+      contrastive_reason: Choose awesome-awesomes over local-ai because the primary value is discovery and navigation rather than being a standalone local runtime or tool.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -42,23 +42,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:28.734Z"
       bytes: 3894
 insights:
-  summary: A minimal MCP server that lets Claude Desktop read and manage a personal Notion todo list with a fixed three-property database schema.
-  why_it_matters: It demonstrates how to wire Claude into personal productivity workflows by giving it structured read/write access to a Notion database via the Model Context Protocol.
-  mental_damage: We have reached the point where developers build custom protocol servers so their AI can argue with them about whether 'review project' belongs under today or later.
+  summary: An MCP server that enables Claude to read and manage a personal Notion todo list.
+  why_it_matters: Developers can integrate their Notion task management directly into their Claude workflow without leaving the assistant context.
+  mental_damage: Now your AI can judge you for procrastinating on 'later' tasks in Notion.
   tags:
     - mcp
     - notion
+    - todo
     - claude
-    - productivity
     - integration
   confidence: high
 curation:
   status: included
-  reason: The project is an MCP server that integrates Claude with a Notion todo list, making MCP the clear product identity rather than a compatibility footnote.
+  reason: This is an MCP-first integration where the product identity is the MCP server itself, not a compatibility footnote.
   evidence:
-    - Repo description explicitly states 'A simple MCP integration that allows Claude to read and manage a personal Notion todo list'
-    - README shows this is an MCP server configured via claude_desktop_config.json with MCP commands
-    - Listed in awesome-mcp-servers under 'Community Servers' section
+    - Repo description explicitly states it is an MCP integration for Notion
+    - README confirms it is a Model Context Protocol server for Notion API
+    - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -77,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:32.557Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d71d3b9084e6a09ba309f0bf72afe5ae3f1afb8d6c1917975302a9ff096774ea
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first integration where the product identity is the MCP server itself, not a compatibility footnote.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP integration for Notion
+        - README confirms it is a Model Context Protocol server for Notion API
+        - Listed in awesome-mcp-servers under Community Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is the MCP server itself, not an extension layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

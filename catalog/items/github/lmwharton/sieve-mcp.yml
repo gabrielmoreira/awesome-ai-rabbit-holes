@@ -60,23 +60,21 @@ metadata:
       fetched_at: "2026-07-20T15:11:53.382Z"
       bytes: 9644
 insights:
-  summary: An MCP server that connects to Claude, Cursor, or Windsurf to run a structured multi-agent pipeline scoring startups across seven dimensions for venture capital due diligence.
-  why_it_matters: It lets developers building VC tooling or doing angel investing offload repeatable deal-screening workflows into their existing coding assistant via a standard protocol.
-  mental_damage: We have successfully standardized the protocol for asking an LLM to tell us which startups probably won't return the fund.
+  summary: Sieve MCP Server is an MCP server that provides an AI-powered venture capital due diligence tool for screening startups.
+  why_it_matters: It automates early-stage investment analysis for developers who also act as solo GPs or angel investors, reducing diligence time from hours to minutes.
+  mental_damage: Now you can feel guilty about skipping due diligence in under five minutes instead of three hours.
   tags:
     - mcp
     - venture-capital
-    - due-diligence
-    - multi-agent
-    - finance
+    - ai-analyst
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server purpose-built to extend assistants like Claude and Cursor with domain-specific VC analysis capabilities, which fits the MCP Servers & Tooling category.
+  reason: The product is an MCP server whose core identity and functionality are defined by providing venture capital analysis via the Model Context Protocol, making MCP Servers & Tooling the best fit.
   evidence:
-    - "Repo description: 'From company name to investment decision. Sieve scores startups across 7 dimensions'"
-    - "README states: 'The first MCP server purpose-built for venture capital' with MCP compatibility badge"
-    - Found in awesome-mcp-servers list under Finance & Fintech section
+    - "Repo description: 'From company name to investment decision. Sieve scores startups across 7 dimensions so you know who's worth a meeting.'"
+    - "README: 'The first MCP server purpose-built for venture capital.' and detailed MCP integration instructions for Claude, Cursor, and Windsurf."
+    - "Available tools: sieve_screen, sieve_status, sieve_summary, sieve_usage — all exposed as MCP tools."
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -95,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:01.546Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:091509b349e7b667ab04bad8f126cd76651ac9100371f8e426383d7337904db0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server whose core identity and functionality are defined by providing venture capital analysis via the Model Context Protocol, making MCP Servers & Tooling the best fit.
+      decision_evidence:
+        - "Repo description: 'From company name to investment decision. Sieve scores startups across 7 dimensions so you know who's worth a meeting.'"
+        - "README: 'The first MCP server purpose-built for venture capital.' and detailed MCP integration instructions for Claude, Cursor, and Windsurf."
+        - "Available tools: sieve_screen, sieve_status, sieve_summary, sieve_usage — all exposed as MCP tools."
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because Sieve is an MCP server whose primary identity is providing domain-specific analysis via MCP, not merely extending another assistant with host integrations.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Stanford University course (CS146S) covering modern software development practices and AI tooling.
-  why_it_matters: Provides a structured academic curriculum for developers looking to understand the evolving landscape of AI-assisted development.
-  mental_damage: Yet another reminder that while you were debugging a regex, the students at Stanford were already formalizing the 'Modern Software Developer' job description you're currently failing to live up to.
+  summary: "A Stanford University course page titled 'CS146S: The Modern Software Developer'."
+  why_it_matters: It provides educational content for developers on modern software development practices.
+  mental_damage: Another course to add to the ever-growing list of things you feel guilty for not having time to take.
   tags:
     - education
     - course
-    - llm-resources
+    - stanford
   confidence: high
 curation:
   status: excluded
-  reason: This is an academic course page and a link within a broader awesome list, not a standalone developer tool, agent, or productivity product.
+  reason: This is an educational course page, not a practical AI tool, framework, or developer-facing product.
   evidence:
-    - "Scraped site context identifies the URL as 'CS146S: The Modern Software Developer - Stanford University'."
-    - Source-list context confirms it is a link to a course inside the 'awesome-LLM-resources' list, not a tool itself.
-    - No repo description, code, or product features were provided—only educational context.
+    - Source-list context identifies it as a course under '课程 Course'
+    - Scraped site context confirms it is a Stanford University course page
+    - No evidence of a standalone product, tool, or framework
 placement:
   primary_category: null
   section: null
@@ -68,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:04.884Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4e2cb6f49b0142093dfb226792146506c4723cbeaf7299e0174c88f55e77d9d5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational course page, not a practical AI tool, framework, or developer-facing product.
+      decision_evidence:
+        - Source-list context identifies it as a course under '课程 Course'
+        - Scraped site context confirms it is a Stanford University course page
+        - No evidence of a standalone product, tool, or framework
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

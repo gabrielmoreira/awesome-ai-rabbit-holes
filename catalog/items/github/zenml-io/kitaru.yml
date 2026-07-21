@@ -24,15 +24,15 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 150
-    forks: 7
+    stars: 213
+    forks: 15
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: zenml-io/kitaru
+    html_url: https://github.com/zenml-io/kitaru
     created_at: "2026-03-05T14:04:26Z"
-    pushed_at: "2026-05-12T14:56:48Z"
-    description: Open-source platform layer for AI agents in production
+    pushed_at: "2026-07-21T09:59:30Z"
+    description: Record, replay, and improve AI agents in production, built on ZenML
     homepage: https://kitaru.ai
     topics:
       - agent-framework
@@ -48,10 +48,10 @@ metadata:
       - python
       - replay
       - workflow-orchestration
-    last_checked_at: "2026-05-12T15:06:46.019Z"
+    last_checked_at: "2026-07-21T15:21:26.297Z"
     readme:
-      fetched_at: "2026-05-12T15:06:46.019Z"
-      bytes: 9707
+      fetched_at: "2026-07-21T15:21:26.297Z"
+      bytes: 9222
 insights:
   summary: null
   why_it_matters: null
@@ -66,8 +66,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (213) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -76,16 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-12T15:06:46.019Z"
+    updated_at: "2026-07-21T15:21:26.297Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

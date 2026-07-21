@@ -53,23 +53,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:24.507Z"
       bytes: 14970
 insights:
-  summary: MixEval is a click-and-go LLM evaluation suite and dynamic benchmark that measures model performance against Chatbot Arena rankings while running locally at a fraction of the cost.
-  why_it_matters: Developers can benchmark their own local or proprietary models against a ground-truth dataset that correlates 0.96 with Chatbot Arena, without spending thousands on crowdsourced evaluations.
-  mental_damage: We have built an entire sub-industry dedicated to measuring how good our measuring tools are, and now we need a benchmark to tell us which benchmark to trust.
+  summary: An evaluation suite and dynamic benchmark for measuring LLM performance with high correlation to Chatbot Arena at low cost.
+  why_it_matters: Developers can cheaply and locally validate model quality against a frequently updated benchmark that avoids contamination.
+  mental_damage: Now you can spend less time arguing about model quality and more time arguing about benchmark design.
   tags:
     - llm-evaluation
     - benchmark
-    - model-comparison
-    - local-eval
-    - neurips
+    - dynamic-data
+    - neurips-2024
   confidence: high
 curation:
   status: included
-  reason: The core job of this repository is measuring and scoring LLM behavior through benchmarking and evaluation suites, which fits squarely into the Evals & Benchmarks category.
+  reason: The core product is an evaluation suite and benchmark for LLMs, which fits the Evals & Benchmarks category.
   evidence:
-    - Repo description explicitly states 'evaluation suite and dynamic data release for MixEval'
-    - README positions it as a 'click-and-go LLM Evaluation Suite' with model response generation and score computation
-    - Listed in awesome-LLM-resources under the '评估 Evaluation' section
+    - Repo description explicitly calls it an 'evaluation suite and dynamic data release for MixEval'
+    - README highlights benchmark correlations with Chatbot Arena and cost-effectiveness
+    - Source-list context places it under '评估 Evaluation'
 placement:
   primary_category: evals
   section: Agent Benchmarks
@@ -88,12 +87,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:38.634Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fa49699589b27af0bce4dec41823e25266892be64cfb86903a9d5ad4a9d659ee
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The core product is an evaluation suite and benchmark for LLMs, which fits the Evals & Benchmarks category.
+      decision_evidence:
+        - Repo description explicitly calls it an 'evaluation suite and dynamic data release for MixEval'
+        - README highlights benchmark correlations with Chatbot Arena and cost-effectiveness
+        - Source-list context places it under '评估 Evaluation'
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the primary job is measuring model behavior rather than providing code-first building blocks.
+      review_reason: null
+      review_resume_lifecycle: null

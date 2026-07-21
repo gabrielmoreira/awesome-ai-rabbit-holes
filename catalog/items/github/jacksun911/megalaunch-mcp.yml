@@ -47,26 +47,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:17.834Z"
       bytes: 2627
 insights:
-  summary: An MCP server that exposes MegaLaunch's AI-powered meme token launch service on Solana and pump.fun to AI tools like Claude Desktop and Cursor.
-  why_it_matters: It lets developers invoke token launches, check pricing, and manage orders through their existing AI coding assistants instead of switching to a separate web dashboard.
-  mental_damage: We have successfully abstracted cryptocurrency speculation into the same context window where you are trying to fix a failing unit test.
+  summary: MCP server for MegaLaunch, an AI-powered meme token launch service on Solana/pump.fun.
+  why_it_matters: Allows AI assistants like Claude Desktop or Cursor to interact with MegaLaunch's token launch API directly.
+  mental_damage: Now your coding agent can spin up meme coins between debugging sessions.
   tags:
-    - mcp
+    - mcp-server
     - solana
-    - meme-coin
     - token-launch
-    - fintech
-  confidence: medium
+    - pump-fun
+    - ai-integration
+  confidence: high
 curation:
-  status: included
-  reason: MCP is the product identity, acting as a domain-specific server to connect AI assistants to a token launch service on Solana.
+  status: excluded
+  reason: The project is an MCP server for a niche crypto/token launch service, which is outside the catalog's scope of practical AI tools for software developers.
   evidence:
-    - Repo description explicitly states 'MCP server for MegaLaunch'.
-    - README details integration with Claude Desktop, Cursor, Windsurf, and Claude Code via MCP configuration.
-    - Listed under 'Server Implementations > Finance & Fintech' in the awesome-mcp-servers directory.
+    - Repo description explicitly ties it to a meme token launch service on Solana/pump.fun
+    - README confirms it is an MCP server for MegaLaunch, not a general developer tool
+    - Topics include 'meme-coin' and 'pump-fun', signaling a crypto-specific use case
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -82,12 +82,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:25.305Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:210c4e0d579a46221aad2f4e0653de73dfcc06efe7d57a2e75efcce354332eb5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is an MCP server for a niche crypto/token launch service, which is outside the catalog's scope of practical AI tools for software developers.
+      decision_evidence:
+        - Repo description explicitly ties it to a meme token launch service on Solana/pump.fun
+        - README confirms it is an MCP server for MegaLaunch, not a general developer tool
+        - Topics include 'meme-coin' and 'pump-fun', signaling a crypto-specific use case
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

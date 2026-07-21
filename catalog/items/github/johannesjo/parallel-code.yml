@@ -50,23 +50,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:25.814Z"
       bytes: 9290
 insights:
-  summary: A desktop workbench that dispatches Claude Code, Codex, and Gemini CLI in parallel across isolated git worktrees, with a GUI for diff review and merge management.
-  why_it_matters: It lets developers run multiple AI coding agents on separate features simultaneously and review each branch's diffs in one place, reducing sequential wait times and branch conflicts.
-  mental_damage: You can now race ten agents against each other and still end up reviewing code written by whichever one hallucinated the least.
+  summary: A desktop application that runs multiple AI coding agents in parallel, each isolated within its own git worktree.
+  why_it_matters: It allows developers to execute multiple coding tasks simultaneously across different branches without managing manual git worktrees or dealing with terminal clutter.
+  mental_damage: Because why wait for one agent to finish when you can race ten of them against each other in a high-stakes game of 'who breaks the build fastest?'
   tags:
-    - parallel-agents
+    - ai-agents
     - git-worktree
-    - cli-harness
-    - multi-agent
-    - diff-review
+    - parallel-execution
+    - claude-code
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The product is a multi-agent workbench that coordinates several coding agents in parallel across isolated environments, which aligns with Agent Orchestration's control-plane and workbench criteria rather than being a standalone coding assistant.
+  reason: The tool functions as a control plane and workbench for coordinating multiple agents and managing their execution environment via git worktrees.
   evidence:
-    - "README states: 'Dispatch AI coding agents in parallel, each in its own worktree' and 'Ten agents. Ten branches. One afternoon.'"
-    - Source list places it under 'Harnesses & orchestration > Session managers & parallel runners'.
-    - "Archived: false, active pushes as of 2026-05-06, and 612 stars indicate healthy ecosystem traction."
+    - README describes dispatching agents in parallel across multiple branches/worktrees
+    - Provides a dashboard/interface to monitor progress and review diffs across sessions
+    - Supports multiple agents like Claude Code, Codex, and Gemini simultaneously
 placement:
   primary_category: agent-orchestration
   section: Workbenches & Collaboration Surfaces
@@ -85,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:12.220Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fa04bbe1dd7c69b23a983499214cf510491adaa659420b1dcc411f1cc8e6e42f
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The tool functions as a control plane and workbench for coordinating multiple agents and managing their execution environment via git worktrees.
+      decision_evidence:
+        - README describes dispatching agents in parallel across multiple branches/worktrees
+        - Provides a dashboard/interface to monitor progress and review diffs across sessions
+        - Supports multiple agents like Claude Code, Codex, and Gemini simultaneously
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because the product's core identity is the coordination and management of multiple existing agents rather than being a single standalone assistant.
+      review_reason: null
+      review_resume_lifecycle: null

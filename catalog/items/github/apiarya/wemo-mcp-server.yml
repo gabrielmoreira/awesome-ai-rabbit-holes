@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:02.514Z"
       bytes: 21881
 insights:
-  summary: An MCP server that lets AI assistants control WeMo smart home devices via natural language using the Model Context Protocol.
-  why_it_matters: It demonstrates how to bridge local IoT hardware into AI workflows, letting developers prototype voice- or prompt-driven home automation using any MCP-compatible client.
-  mental_damage: Your AI assistant can now turn off the lights, which is great until it decides your 'goodnight' routine includes pushing a broken commit at 2am.
+  summary: An MCP server that enables AI assistants to control Wemo smart home devices via natural language.
+  why_it_matters: Developers can integrate Wemo device control into AI workflows without writing custom adapters, using MCP as the bridge.
+  mental_damage: Now your AI can turn off the lights while you debug at 3 AM, because nothing says 'productivity' like automating your own sleep deprivation.
   tags:
     - mcp
-    - home-automation
-    - iot
     - smart-home
+    - wemo
+    - iot
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that exposes WeMo device control as tools, resources, and prompts for AI assistants.
+  reason: "MCP is the product identity: this is a domain-specific MCP server for Wemo devices, not a compatibility footnote."
   evidence:
-    - "Repo description: 'Control Wemo smart home devices through AI assistants using natural language.'"
-    - "README: 'Seamlessly integrate WeMo smart home devices with AI assistants through the Model Context Protocol.'"
-    - Listed in awesome-mcp-servers under 'Home Automation' as a server implementation.
+    - Repo description explicitly states it controls Wemo devices through AI assistants using MCP
+    - README highlights MCP tools, resources, and prompts as core features
+    - Registered in the MCP Registry with explicit MCP badges and transport support
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:35.158Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:208f3a58ad1e44534f6538294542addde4ea9dd85a3106126b756a318505e122
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a domain-specific MCP server for Wemo devices, not a compatibility footnote."
+      decision_evidence:
+        - Repo description explicitly states it controls Wemo devices through AI assistants using MCP
+        - README highlights MCP tools, resources, and prompts as core features
+        - Registered in the MCP Registry with explicit MCP badges and transport support
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

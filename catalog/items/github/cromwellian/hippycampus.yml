@@ -39,23 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:27.000Z"
       bytes: 3808
 insights:
-  summary: A LangChain-based CLI and MCP server that automatically turns OpenAPI specifications into MCP resources for integration with AI agents and visual workflow tools like Langflow.
-  why_it_matters: It lets developers instantly expose any REST API to MCP-compatible assistants without writing custom server code, bridging existing API ecosystems with the growing MCP tooling landscape.
-  mental_damage: Yet another layer of glue so your agent can finally authenticate against that one internal REST endpoint you swore you'd document in 2021.
+  summary: An open-source MCP server that dynamically converts REST endpoints into MCP resources using OpenAPI specifications.
+  why_it_matters: Developers can expose any REST API as MCP-compatible resources, enabling AI assistants to interact with external services without custom integration code.
+  mental_damage: Now you can make your AI assistant argue with your legacy API’s OpenAPI spec instead of writing the integration yourself.
   tags:
-    - mcp
+    - mcp-server
+    - rest-api
     - openapi
     - langchain
-    - rest
-    - langflow
-  confidence: medium
+    - python
+  confidence: high
 curation:
   status: included
-  reason: MCP server infrastructure is the product's primary identity, automatically converting REST endpoints into MCP resources, and it is already recognized in the awesome-mcp-servers ecosystem.
+  reason: "MCP is the core product identity: it is explicitly an MCP server that transforms REST endpoints into MCP resources."
   evidence:
-    - Repo description explicitly states it is 'an (eventually) secure open-source MCP Server to turn any REST endpoint into MCP resources automatically'.
-    - README details MCP Server Mode via SSE and integration with Langflow as core runtime modes.
-    - Listed in awesome-mcp-servers under Community Servers, confirming its identity in the MCP ecosystem.
+    - Repo description states it is an MCP Server to turn REST endpoints into MCP resources
+    - README confirms it is a LangChain-based MCP server with OpenAPI integration
+    - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:01.810Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c873ec04b5368e4fce213c1bac2431b7128be891d61ae1bc2220b03b79a90344
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the core product identity: it is explicitly an MCP server that transforms REST endpoints into MCP resources."
+      decision_evidence:
+        - Repo description states it is an MCP Server to turn REST endpoints into MCP resources
+        - README confirms it is a LangChain-based MCP server with OpenAPI integration
+        - Listed in awesome-mcp-servers under Community Servers
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product’s primary identity is as an MCP server, not a general-purpose framework or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

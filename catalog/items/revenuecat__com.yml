@@ -1,0 +1,110 @@
+id: revenuecat__com
+kind: website
+name: RevenueCat
+canonical_url: https://revenuecat.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__revenuecat__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: RevenueCat
+        extracted_url: https://revenuecat.com
+        surrounding_text: "- **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment."
+        confidence: high
+    - id: discovery__www__revenuecat__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: RevenueCat
+        extracted_url: https://www.revenuecat.com
+        surrounding_text: "- **[RevenueCat](https://www.revenuecat.com/docs/tools/mcp/overview)** - Manage your In-app-purchases in [RevenueCat](https://www.revenuecat.com) without leaving your AI coding environment."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: RevenueCat is a subscription backend platform for managing in-app purchases and customer data across iOS, Android, and web.
+  why_it_matters: It simplifies cross-platform purchase implementation and receipt validation, freeing developers from platform-specific edge cases.
+  mental_damage: Now you can spend less time debugging StoreKit and more time explaining to marketing why your paywall A/B test results are statistically insignificant.
+  tags:
+    - subscriptions
+    - in-app-purchases
+    - backend
+    - mobile
+    - billing
+  confidence: high
+curation:
+  status: excluded
+  reason: RevenueCat is a SaaS platform for app monetization and subscription management, not a developer tool focused on AI workflows, coding assistance, or AI infrastructure.
+  evidence:
+    - Primary product is a subscription backend for in-app purchases (scraped site context)
+    - No AI-specific functionality or developer-tooling angle in description or README
+    - Source-list context shows it appears in MCP servers list but its core identity is not MCP or AI-related
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:56.627Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d2ac35768a9f23f149846fd79becef48858660d1822f6e8a02c7f403cf24eaab
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: RevenueCat is a SaaS platform for app monetization and subscription management, not a developer tool focused on AI workflows, coding assistance, or AI infrastructure.
+      decision_evidence:
+        - Primary product is a subscription backend for in-app purchases (scraped site context)
+        - No AI-specific functionality or developer-tooling angle in description or README
+        - Source-list context shows it appears in MCP servers list but its core identity is not MCP or AI-related
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.969Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

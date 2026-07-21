@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A discovery marketplace and registry indexing over 1.2 million open-source agent skills compatible with Claude Code, OpenAI Codex CLI, and ChatGPT using the SKILL.md standard.
-  why_it_matters: It provides a centralized search and filtering interface for developers looking to extend their coding assistants with reusable, community-built capabilities.
-  mental_damage: We have successfully abstracted the abstraction by creating a search engine for the modular instruction files that tell our AI assistants how to pretend to be competent at specific occupations.
+  summary: A marketplace and registry for discovering and installing agent skills in the open SKILL.md format, compatible with Claude Code, Codex CLI, and ChatGPT.
+  why_it_matters: It solves the discovery and distribution problem for modular AI coding assistant skills, making it easier to find, share, and install reusable capabilities.
+  mental_damage: Now you can spend hours browsing 1.2M skills instead of just writing code.
   tags:
-    - skills
+    - skills-registry
+    - ai-coding-assistants
+    - skill-md
+    - discovery
     - marketplace
-    - claude-code
-    - codex
-    - registry
   confidence: high
 curation:
   status: included
-  reason: The primary artifact is a registry and directory of reusable skill packs (SKILL.md) for coding tools, which aligns perfectly with the Agent Skills category.
+  reason: The primary artifact is a registry and directory of reusable agent skills in the SKILL.md format, which fits the 'Agent Skills' category.
   evidence:
-    - Title and description explicitly state 'Agent Skills Marketplace' with 1.2M+ skills for Claude Code and Codex CLI.
-    - FAQ defines 'Agent Skills' as modular capabilities extending AI coding assistants via a SKILL.md file.
-    - Source list context places it in a 'Skills' section specifically for the open SKILL.md ecosystem.
+    - The site explicitly describes itself as an 'Agent Skills Marketplace' for the open SKILL.md ecosystem
+    - It aggregates and indexes 1.2M+ skills from GitHub, compatible with Claude Code, Codex CLI, and ChatGPT
+    - The core value is discovery, filtering, and programmatic access to a curated collection of skills
 placement:
   primary_category: skills
   section: Skill Registries & Directories
@@ -72,12 +72,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:39.017Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cbe1f488cb96273024ed1146299f815f9ade02a1e244e859b7511bea67133fda
+      proposed_primary_category: skills
+      disagreement: false
+      decision_reason: The primary artifact is a registry and directory of reusable agent skills in the SKILL.md format, which fits the 'Agent Skills' category.
+      decision_evidence:
+        - The site explicitly describes itself as an 'Agent Skills Marketplace' for the open SKILL.md ecosystem
+        - It aggregates and indexes 1.2M+ skills from GitHub, compatible with Claude Code, Codex CLI, and ChatGPT
+        - The core value is discovery, filtering, and programmatic access to a curated collection of skills
+      category_candidates:
+        - skills
+        - awesome-awesomes
+      contrastive_reason: Choose skills over awesome-awesomes because the product is a functional registry and marketplace for skills, not just a curated list or directory.
+      review_reason: null
+      review_resume_lifecycle: null

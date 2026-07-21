@@ -51,23 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AGENTS.inc is a no-code SaaS platform providing domain-specific AI agents for business intelligence tasks like news monitoring, patent analysis, and supply chain sourcing.
-  why_it_matters: It offers SDKs and APIs for developers looking to build or integrate custom enterprise knowledge-work agents without managing the underlying infrastructure.
-  mental_damage: Yet another 'reliable AI' platform promising to replace human analysts, ensuring developers can spend their time debugging the integration instead of the hallucinations.
+  summary: A SaaS platform offering AI agents for market intelligence, marketing, and sales automation.
+  why_it_matters: It automates content generation, market monitoring, and sales support for businesses, but is not developer-focused.
+  mental_damage: Another AI tool promising to replace your marketing team while your codebase quietly rots.
   tags:
-    - agents
+    - marketing-automation
+    - ai-agents
+    - saas
     - business-intelligence
-    - enterprise
-    - no-code
-    - sdk
   confidence: high
 curation:
   status: excluded
-  reason: The platform is a vertical SaaS product for business analysis and market intelligence, not a tool for writing, reviewing, or debugging code.
+  reason: The product is a business-oriented SaaS platform for marketing, sales, and market intelligence, not a developer-tooling product.
   evidence:
-    - Site description focuses on 'strategic intelligence', 'M&A Targeting', and 'EU Policy Watch' rather than code.
-    - Explicitly states 'No Coding Required' and targets business users with '3 clicks' configuration.
-    - Developer access is limited to 'SDKs and APIs' to build new agents, rather than a coding assistant workflow.
+    - Site context describes AI agents for marketing copy, reports, and sales automation
+    - Use cases include market monitoring, competitor analysis, and CRM updates, not code or development workflows
+    - Source-list context places it in a general AI agents list, not a developer tools directory
 placement:
   primary_category: null
   section: null
@@ -76,15 +75,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:19.638Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a4f607684dbd180a876a386931ec21a1db4e5135986eb5fd227f1fddfa125e59
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a business-oriented SaaS platform for marketing, sales, and market intelligence, not a developer-tooling product.
+      decision_evidence:
+        - Site context describes AI agents for marketing copy, reports, and sales automation
+        - Use cases include market monitoring, competitor analysis, and CRM updates, not code or development workflows
+        - Source-list context places it in a general AI agents list, not a developer tools directory
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T16:42:15.364Z"

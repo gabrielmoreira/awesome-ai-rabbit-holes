@@ -39,23 +39,21 @@ metadata:
       fetched_at: "2026-07-16T05:04:59.339Z"
       bytes: 17106
 insights:
-  summary: Meta Lingua is a lean, minimal, and fast PyTorch library from Meta FAIR for training, inferring, and evaluating LLMs from scratch.
-  why_it_matters: It gives researchers and engineers a hackable, end-to-end codebase to rapidly prototype new architectures, losses, and data pipelines without the bloat of larger frameworks.
-  mental_damage: Yet another reminder that while we are shipping wrappers around wrappers, the real breakthroughs are happening in repositories most of us will only ever cite and never compile.
+  summary: Meta Lingua is a research-oriented codebase designed for studying Large Language Models.
+  why_it_matters: It provides a lean and efficient infrastructure for researchers and developers to experiment with LLM training and behavior.
+  mental_damage: Another research codebase to clone and stare at while your GPU budget evaporates.
   tags:
-    - llm-training
-    - pytorch
     - research
+    - llm
     - meta
-    - fine-tuning
+    - training
   confidence: high
 curation:
   status: excluded
-  reason: This is a foundational ML research library for training models from scratch, which falls outside the catalog's scope of practical AI tooling, agents, and developer-facing infrastructure.
+  reason: The project is a research codebase/infrastructure for LLM study rather than a developer-facing product or tool.
   evidence:
-    - Repo description explicitly states it is 'a lean, efficient, and easy-to-hack codebase to research LLMs'.
-    - README details training loops, SLURM jobs, tokenizers, and benchmark results for 1B/7B models rather than developer assistant workflows.
-    - Seen in source lists under 'Fine-Tuning' and 'LLM resources', which aligns with ML research rather than practical dev tooling.
+    - Repo description describes it as a 'codebase to research LLMs'
+    - Scope excludes general ML research and raw model/research infrastructure
 placement:
   primary_category: null
   section: null
@@ -74,12 +72,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:55:03.144Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4fcad161b0fafd4a2b88144b438467110d3baa61ab19cd7bfb9f9e1f53c7bc71
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a research codebase/infrastructure for LLM study rather than a developer-facing product or tool.
+      decision_evidence:
+        - Repo description describes it as a 'codebase to research LLMs'
+        - Scope excludes general ML research and raw model/research infrastructure
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

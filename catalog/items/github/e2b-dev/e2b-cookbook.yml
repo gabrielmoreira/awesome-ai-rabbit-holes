@@ -73,23 +73,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:54.039Z"
       bytes: 8506
 insights:
-  summary: A collection of example code, guides, and integrations for building with the E2B SDK and secure cloud sandboxes.
-  why_it_matters: It provides ready-to-run patterns for wiring LLMs and agent frameworks into isolated code-interpreter environments across multiple providers and stacks.
-  mental_damage: You now have 20 ways to run untrusted code in a sandbox, and zero extra hours to decide which one your agent should actually use.
+  summary: A cookbook of examples and guides for building with the E2B SDK, demonstrating code interpreter and agentic workflows across multiple LLM providers and frameworks.
+  why_it_matters: Developers can quickly see how to integrate E2B's sandboxed environments with popular LLMs and agent frameworks for secure code execution and agentic tasks.
+  mental_damage: Another cookbook to remind you that your agents still can't decide between tabs and spaces.
   tags:
+    - sandbox
+    - code-interpreter
+    - agent-examples
     - e2b
     - sdk
-    - examples
-    - agents
-    - code-interpreter
   confidence: high
 curation:
   status: excluded
-  reason: This is a documentation and example hub for the E2B platform rather than a standalone developer product, so it is excluded to avoid listing auxiliary resources instead of tools.
+  reason: This is a documentation/cookbook repository rather than a standalone product, framework, or tool—it exists to support the E2B SDK, not as a primary developer-facing artifact.
   evidence:
-    - Repo description explicitly states 'Examples of using E2B'.
-    - README confirms the repo is 'Example code and guides for building with E2B SDK'.
-    - Content is primarily cookbook tutorials and integrations, not a standalone product.
+    - Repo description explicitly states it is 'Examples of using E2B'
+    - README positions it as a 'cookbook' with examples and guides for the E2B SDK
+    - No standalone runtime, SDK, or product identity beyond being a tutorial resource
 placement:
   primary_category: null
   section: null
@@ -108,12 +108,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:52.496Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9708326019d8de3143dfdaba066b664a141ccd77e6b4e06302337c9488e664d9
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation/cookbook repository rather than a standalone product, framework, or tool—it exists to support the E2B SDK, not as a primary developer-facing artifact.
+      decision_evidence:
+        - Repo description explicitly states it is 'Examples of using E2B'
+        - README positions it as a 'cookbook' with examples and guides for the E2B SDK
+        - No standalone runtime, SDK, or product identity beyond being a tutorial resource
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

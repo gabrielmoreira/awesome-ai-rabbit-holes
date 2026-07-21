@@ -43,23 +43,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:34.329Z"
       bytes: 4379
 insights:
-  summary: A lightweight CLI tool for managing custom Claude Code commands, CLAUDE.md configurations, and MCP server setups.
-  why_it_matters: It provides a structured way to discover, install, and organize the growing ecosystem of slash commands and project instructions that developers are building around Claude Code.
-  mental_damage: We have officially entered the phase where we need package managers for our prompt-files, because manually editing CLAUDE.md was the only remaining threat to peak productivity.
+  summary: A CLI tool for managing Claude Code commands, configurations, and MCP servers.
+  why_it_matters: It centralizes command discovery, project-specific CLAUDE.md setup, and MCP server management for developers using Claude AI.
+  mental_damage: Because nothing says 'productivity' like a tool to manage the tools that manage your tools.
   tags:
     - claude-code
     - cli
-    - commands
     - mcp
-    - config-management
+    - command-management
+    - configuration
   confidence: high
 curation:
   status: included
-  reason: The tool augments Claude Code specifically by managing its commands and configurations, making it an extension/workflow add-on rather than a primary coding agent.
+  reason: The tool primarily augments Claude Code with command, configuration, and MCP management rather than acting as a standalone coding assistant.
   evidence:
-    - Repo description explicitly states 'Claude Code Commands Manager'.
-    - README lists features for managing CLAUDE.md files and installing commands from a 184+ command repository.
-    - Source list 'awesome-cli-coding-agents' places it under 'Harnesses & orchestration > Agent infrastructure', indicating it supports the agent rather than being one.
+    - "Repo description: 'Claude Code Commands Manager'"
+    - "README highlights: command discovery, CLAUDE.md management, MCP integration"
+    - "Source-list context: listed under 'Agent infrastructure' in a CLI coding agents directory"
 placement:
   primary_category: ai-dev-extensions
   section: IDE / UI / Workflow Add-ons
@@ -78,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:24.608Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b9618d9d8253e343aad1eb409eb27ec52dc59d4d6f40994952d70fea6416f603
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool primarily augments Claude Code with command, configuration, and MCP management rather than acting as a standalone coding assistant.
+      decision_evidence:
+        - "Repo description: 'Claude Code Commands Manager'"
+        - "README highlights: command discovery, CLAUDE.md management, MCP integration"
+        - "Source-list context: listed under 'Agent infrastructure' in a CLI coding agents directory"
+      category_candidates:
+        - ai-dev-extensions
+        - skills
+      contrastive_reason: Choose ai-dev-extensions over skills because the core value is host integration (Claude Code) rather than distributing reusable skill packs.
+      review_reason: null
+      review_resume_lifecycle: null

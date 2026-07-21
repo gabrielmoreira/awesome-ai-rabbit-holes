@@ -39,23 +39,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:09.127Z"
       bytes: 4136
 insights:
-  summary: A Chinese-language collection of LLM tutorials, practical notebooks, and articles covering training, tokenization, and inference fundamentals.
-  why_it_matters: Provides hands-on code examples and explanations for developers who want to understand the underlying mechanics of LLMs rather than just calling them via API.
-  mental_damage: Yet another reminder that while we're prompting agents to write our CRUD apps, someone else is actually understanding the math that makes it all work.
+  summary: A Chinese-language repository exploring LLM technologies, principles, and applications with code implementations.
+  why_it_matters: Provides developers with educational resources and practical implementations for understanding and experimenting with large language models.
+  mental_damage: Another repo promising to demystify LLMs while adding to the pile of repos you’ll never have time to read.
   tags:
-    - llm
-    - education
-    - training
-    - notebooks
+    - llm-education
     - chinese
+    - tutorial
+    - examples
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational resource and tutorial collection rather than a developer-facing tool, agent, framework, or product, placing it outside the catalog's scope.
+  reason: This is an educational resource repository rather than a practical developer tool, framework, or workflow product.
   evidence:
-    - Repo description explicitly states it is for 'exploring LLM technology, principles and applications' through articles and code.
-    - README structure is a list of blog posts and accompanying Jupyter notebooks covering topics like tokenization, precision, and distributed training.
-    - Seen in awesome-LLM-resources under a 'Tips' section, reinforcing its identity as an educational resource rather than a tool.
+    - Repo description focuses on 'understanding, exploring, and implementing LLM technologies' rather than a usable tool
+    - Source-list context places it in a 'Tips' section of a general LLM resource list, not developer tooling
+    - No evidence of a runnable product, SDK, or workflow tool in the provided context
 placement:
   primary_category: null
   section: null
@@ -74,12 +73,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:19.532Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1230ee09dae59501d176a8fc969c6b3a413d6e6cb19fee95ab20e38b2d50f594
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational resource repository rather than a practical developer tool, framework, or workflow product.
+      decision_evidence:
+        - Repo description focuses on 'understanding, exploring, and implementing LLM technologies' rather than a usable tool
+        - Source-list context places it in a 'Tips' section of a general LLM resource list, not developer tooling
+        - No evidence of a runnable product, SDK, or workflow tool in the provided context
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

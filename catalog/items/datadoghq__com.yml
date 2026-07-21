@@ -1,0 +1,110 @@
+id: datadoghq__com
+kind: website
+name: Datadog
+canonical_url: https://datadoghq.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__datadoghq__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Datadog
+        extracted_url: https://datadoghq.com
+        surrounding_text: "- **[Datadog](https://www.datadoghq.com/)** – Monitoring and observability with AI-powered insights."
+        confidence: high
+    - id: discovery__www__datadoghq__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Datadog
+        extracted_url: https://www.datadoghq.com
+        surrounding_text: "- **[Datadog](https://www.datadoghq.com/)** – Monitoring and observability with AI-powered insights."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Datadog is a cloud monitoring as a service platform for observability, security, and AI performance tracking.
+  why_it_matters: It provides unified visibility into application health, performance, and security for developers operating cloud-native systems.
+  mental_damage: Now you can watch your AI agents fail in production with the same dashboard you use to watch your microservices fail.
+  tags:
+    - observability
+    - monitoring
+    - devops
+    - ai-ops
+    - saas
+  confidence: high
+curation:
+  status: excluded
+  reason: Datadog is a broad SaaS observability and security platform, not a developer-tooling product focused on AI coding workflows, agents, or app-building.
+  evidence:
+    - Primary product identity is cloud monitoring as a service (observability, security, AI performance tracking)
+    - Source-list context places it under DevOps and Infrastructure, not AI coding tools
+    - No evidence of AI coding agent, framework, or developer workflow augmentation as core value
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:33:34.743Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d048bf770743efb3e5df93d80a2c358bbf93a070026f8447547e85ab9e2ff573
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Datadog is a broad SaaS observability and security platform, not a developer-tooling product focused on AI coding workflows, agents, or app-building.
+      decision_evidence:
+        - Primary product identity is cloud monitoring as a service (observability, security, AI performance tracking)
+        - Source-list context places it under DevOps and Infrastructure, not AI coding tools
+        - No evidence of AI coding agent, framework, or developer workflow augmentation as core value
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.964Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

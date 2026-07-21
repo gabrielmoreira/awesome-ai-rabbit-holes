@@ -39,23 +39,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:08.851Z"
       bytes: 14841
 insights:
-  summary: GitWit is an open-source, cloud-based code editing environment that integrates AI code generation, live previews, and chat, built with Next.js and supporting multiple AI providers.
-  why_it_matters: It provides developers with a self-hostable, AI-native IDE surface that supports custom API keys and live previews via E2B sandboxes.
-  mental_damage: Another day, another open-source 'AI-native' IDE hoping to be the Cursor alternative you can host on a Tuesday afternoon.
+  summary: An open-source, AI-native cloud-based coding platform for building apps with integrated code generation, live preview, and AI chat.
+  why_it_matters: It provides a hosted development environment where developers can rapidly prototype and build applications using AI-assisted code generation and real-time collaboration features.
+  mental_damage: Another day, another platform promising to turn your vague ideas into working code while you watch.
   tags:
-    - ai-ide
+    - ai-native-ide
+    - cloud-development
     - code-generation
-    - self-hosted
     - live-preview
-    - nextjs
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: It is primarily a cloud-based code editing environment and IDE surface with integrated AI, fitting the 'IDEs & Editors' category rather than a terminal agent or extension.
+  reason: The primary product is a cloud-based AI-native development environment, fitting the IDEs & Editors category as a hosted editor surface with integrated AI assistance.
   evidence:
-    - Repo description calls it an 'open source, AI-native coding platform' with a cloud-based editor surface.
-    - README describes a 'cloud-based code editing environment with custom AI code generation, live preview, and AI chat' built on Next.js.
-    - It is listed in awesome-ai-agents under a section for AI autonomous agents, but the product itself is an editor surface.
+    - "Repo description: 'An open source, AI-native coding platform which allows you to build apps in minutes'"
+    - "README: 'GitWit is an open-source cloud-based code editing environment with custom AI code generation, live preview, and AI chat.'"
+    - Uses Next.js, Hono, and Express with WebSocket connections for real-time collaboration
 placement:
   primary_category: ai-ides-editors
   section: Remote / Hosted Editor Surfaces
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:23.403Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a79122f3bcfc36369c648e706892a62fa4f6ecb616f397e71d270385f2a3c414
+      proposed_primary_category: ai-ides-editors
+      disagreement: false
+      decision_reason: The primary product is a cloud-based AI-native development environment, fitting the IDEs & Editors category as a hosted editor surface with integrated AI assistance.
+      decision_evidence:
+        - "Repo description: 'An open source, AI-native coding platform which allows you to build apps in minutes'"
+        - "README: 'GitWit is an open-source cloud-based code editing environment with custom AI code generation, live preview, and AI chat.'"
+        - Uses Next.js, Hono, and Express with WebSocket connections for real-time collaboration
+      category_candidates:
+        - ai-ides-editors
+        - app-builders
+      contrastive_reason: Choose ai-ides-editors over app-builders because the core product is a development environment with AI assistance rather than a prompt-to-app generator.
+      review_reason: null
+      review_resume_lifecycle: null

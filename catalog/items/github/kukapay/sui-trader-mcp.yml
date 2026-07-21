@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:42.176Z"
       bytes: 1712
 insights:
-  summary: An MCP server that enables AI agents to execute token swaps on the Sui blockchain via the Cetus Aggregator using a Bech32 private key.
-  why_it_matters: It gives coding agents programmatic access to decentralized finance operations on Sui, bridging LLM workflows with real on-chain execution.
-  mental_damage: Your AI agent can now lose your digital assets on a lesser-known Layer 1 blockchain with the same effortless confidence it brings to deleting your production database.
+  summary: An MCP server enabling AI agents to perform token swaps on the Sui blockchain via the Cetus Aggregator.
+  why_it_matters: Developers building blockchain agents can now delegate Sui token swap operations to AI assistants through a standardized MCP interface.
+  mental_damage: Now your AI agent can lose money on-chain with the same ease it loses focus in your codebase.
   tags:
     - mcp
     - blockchain
-    - defi
     - sui
-    - agent-tooling
+    - token-swap
+    - cetus-aggregator
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server implementation designed to give agents blockchain trading capabilities, fitting the MCP Servers & Tooling category.
+  reason: This is a domain-specific MCP server whose primary identity is providing Sui blockchain swap capabilities through the Model Context Protocol.
   evidence:
-    - Repo description states it is 'An MCP server designed for AI agents to perform optimal token swaps on the Sui blockchain.'
-    - README configuration shows it is intended to be added to an MCP client's server configuration.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section.
+    - Repo description explicitly states it is an MCP server for AI agents to perform token swaps on Sui
+    - README confirms it implements MCP server interface with swap tool for Cetus Aggregator
+    - Project is new (created 2025-05-10) but active and not archived
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:10.981Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b1b24378134b7562f33e88e09317bdc8f5e45138e113d8e777f570559ccce6cf
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a domain-specific MCP server whose primary identity is providing Sui blockchain swap capabilities through the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for AI agents to perform token swaps on Sui
+        - README confirms it implements MCP server interface with swap tool for Cetus Aggregator
+        - Project is new (created 2025-05-10) but active and not archived
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server providing blockchain capabilities, not as an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -24,14 +24,16 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 2
     forks: 0
     license: MIT
     archived: false
+    full_name: whyy9527/ariadne
+    html_url: https://github.com/whyy9527/ariadne
     created_at: "2026-04-14T07:32:09Z"
-    pushed_at: "2026-04-18T12:01:28Z"
-    description: Cross-service API dependency graph for Spring Boot + TypeScript microservice stacks. CLI + MCP server for Claude Code, Cursor, Windsurf. Offline static analysis over GraphQL, REST, Kafka, and frontend queries.
-    homepage: ""
+    pushed_at: "2026-07-13T03:08:33Z"
+    description: Fast local MCP server for deterministic cross-service API-chain discovery across REST, GraphQL, Kafka, TypeScript, and FastAPI.
+    homepage: https://pypi.org/project/ariadne-mcp/
     topics:
       - apollo-graphql
       - call-graph
@@ -47,10 +49,10 @@ metadata:
       - spring-boot
       - static-analysis
       - typescript
-    last_checked_at: "2026-05-12T15:06:37.554Z"
+    last_checked_at: "2026-07-21T15:21:13.383Z"
     readme:
-      fetched_at: "2026-05-12T15:06:37.554Z"
-      bytes: 3422
+      fetched_at: "2026-07-21T15:21:13.383Z"
+      bytes: 5846
 insights:
   summary: Ariadne is a CLI and MCP server that builds a cross-service API dependency graph for Spring Boot and TypeScript microservices via static analysis of GraphQL, REST, Kafka, and frontend queries.
   why_it_matters: It reduces context window overload by surfacing only the contract layer of API calls across services, making AI-assisted debugging and navigation of distributed systems more precise.
@@ -83,7 +85,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-12T15:06:37.554Z"
+    updated_at: "2026-07-21T15:21:13.383Z"
     cause: null
     next_retry_at: null
   categorize:

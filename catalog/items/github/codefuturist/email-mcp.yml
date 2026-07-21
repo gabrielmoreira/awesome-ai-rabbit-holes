@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:23.044Z"
       bytes: 28094
 insights:
-  summary: A TypeScript MCP server that exposes comprehensive email capabilities via IMAP and SMTP, enabling AI assistants to read, search, send, schedule, and triage emails across multiple accounts.
-  why_it_matters: It allows developers to equip their coding agents with a full-featured email client, offloading communication workflows like triage and scheduling directly to the assistant.
-  mental_damage: We have finally bridged the gap between 'vibe coding' and 'vibe emailing,' ensuring your agent can now miss important deadlines in your inbox with the same confidence it commits bugs to your repo.
+  summary: An MCP server that provides full IMAP and SMTP email capabilities for AI assistants via the Model Context Protocol.
+  why_it_matters: Lets AI assistants read, search, send, manage, and organize email across multiple accounts, turning email into a first-class context source for coding workflows.
+  mental_damage: Now your AI can triage your inbox while you pretend to write tests.
   tags:
     - mcp
     - email
     - imap
     - smtp
-    - typescript
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product's identity is a full-featured MCP server for email, fitting perfectly into the Domain Servers section of MCP Servers & Tooling.
+  reason: "MCP is the product identity: this is a dedicated MCP server exposing email capabilities as tools/resources for AI assistants."
   evidence:
-    - Repo description explicitly states 'Email MCP server with full IMAP + SMTP support'.
-    - README highlights 47 tools and 6 resources exposed over the MCP protocol with AI triage features.
-    - Listed in awesome-mcp-servers under 'Communication' as a server implementation.
+    - Repo description explicitly states it is an 'Email MCP server with full IMAP + SMTP support'
+    - README highlights 47 tools, 7 prompts, and 6 resources exposed over MCP
+    - Already curated in awesome-mcp-servers under 'Server Implementations > Communication'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:43:59.268Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a38e16d3d376b80885a6ee6f518f6ded815747f6f5b5e3f8a8eadea02094453b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing email capabilities as tools/resources for AI assistants."
+      decision_evidence:
+        - Repo description explicitly states it is an 'Email MCP server with full IMAP + SMTP support'
+        - README highlights 47 tools, 7 prompts, and 6 resources exposed over MCP
+        - Already curated in awesome-mcp-servers under 'Server Implementations > Communication'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

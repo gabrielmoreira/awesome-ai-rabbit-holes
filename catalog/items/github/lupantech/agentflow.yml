@@ -46,22 +46,21 @@ metadata:
       fetched_at: "2026-07-20T15:11:56.646Z"
       bytes: 17343
 insights:
-  summary: AgentFlow is a trainable, modular agentic framework that optimizes multi-step reasoning and tool use in LLMs using a specialized Flow-GRPO algorithm.
-  why_it_matters: It provides developers with a code-first framework to build and optimize modular agent systems (Planner, Executor, Verifier, Generator) that can learn tool-augmented reasoning policies.
-  mental_damage: Just when you thought you had a handle on chaining prompts, here comes a framework that treats your agentic workflow as a reinforcement learning problem with four specialized modules to debug.
+  summary: AgentFlow is a trainable, modular agentic framework with Planner, Executor, Verifier, and Generator modules optimized via Flow-GRPO for tool-augmented reasoning.
+  why_it_matters: It improves long-horizon, sparse-reward agent tasks by training agent modules in-the-flow rather than relying on monolithic LLMs to interleave reasoning and tool use.
+  mental_damage: Another framework promising to fix agent unreliability by adding more modules and a novel optimizer, as if complexity were the missing ingredient.
   tags:
-    - agentic-frameworks
-    - reinforcement-learning
+    - agent-framework
     - multi-agent
-    - llm-optimization
-  confidence: high
+    - reinforcement-learning
+  confidence: medium
 curation:
   status: included
-  reason: The project is a code-first building block (framework and algorithm) for developers to script and train modular agent systems, fitting the Frameworks & SDKs profile.
+  reason: AgentFlow is a code-first framework for building agentic systems with specialized modules and a custom training algorithm, fitting the Frameworks & SDKs category as developers import and script against it rather than operate it as a control plane.
   evidence:
-    - Repo description labels it an 'In-the-Flow Agentic System Optimization' framework.
-    - README states it is a 'trainable, tool-integrated agentic framework' with Python-based inference and training quick starts.
-    - Listed in awesome-llm-agents under the 'Frameworks' section.
+    - README describes AgentFlow as a 'trainable, tool-integrated agentic framework' with four specialized modules (Planner, Executor, Verifier, Generator)
+    - Uses Flow-GRPO to optimize the planner agent in-the-flow for long-horizon reasoning and tool use
+    - Positioned as an alternative to monolithic approaches like Search-R1, emphasizing modularity and trainability
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -80,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:34.072Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c738fd77401c821aba9744f682fb4f171004d91190055e7dca6c1fd362cfb76c
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: AgentFlow is a code-first framework for building agentic systems with specialized modules and a custom training algorithm, fitting the Frameworks & SDKs category as developers import and script against it rather than operate it as a control plane.
+      decision_evidence:
+        - README describes AgentFlow as a 'trainable, tool-integrated agentic framework' with four specialized modules (Planner, Executor, Verifier, Generator)
+        - Uses Flow-GRPO to optimize the planner agent in-the-flow for long-horizon reasoning and tool use
+        - Positioned as an alternative to monolithic approaches like Search-R1, emphasizing modularity and trainability
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because AgentFlow is primarily imported and scripted as a library/SDK to build agentic systems, not an operated workbench or control plane for coordinating multiple agents.
+      review_reason: null
+      review_resume_lifecycle: null

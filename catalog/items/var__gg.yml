@@ -37,24 +37,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A multilingual AI tool that generates naming suggestions for variables, data models, and documentation to accelerate engineering workflows.
-  why_it_matters: It removes the cognitive overhead of naming things, which is statistically one of the hardest problems in computer science.
-  mental_damage: "We have finally reached the event horizon where we use large language models to solve the two hardest problems in computer science: cache invalidation and naming things."
+  summary: A web-based tool that generates naming ideas for variables, data models, and documentation to speed up engineering workflows.
+  why_it_matters: It helps developers quickly find consistent, meaningful names for code elements, reducing friction in the early stages of development.
+  mental_damage: Finally, a tool to stop you from naming everything `data` or `temp`—until you realize you still have to pick from 50 AI-generated options.
   tags:
     - naming
-    - ai-assistant
-    - multilingual
+    - code-assistance
     - developer-tools
+    - productivity
   confidence: medium
 curation:
   status: included
-  reason: The product is a developer-facing AI assistant focused on generating code artifacts (variable names, data models), fitting the definition of a coding assistant, even if accessed via a web interface.
+  reason: The tool directly assists developers in a coding workflow (naming variables/data models) and fits the broader definition of coding assistance, even if it's not a full repo agent.
   evidence:
-    - Scraped site context describes 'AI that accelerates shipping' by generating 'naming ideas for variables, data models, and docs'.
-    - Listed in awesome-mcp-servers under 'Developer Tools', indicating it is recognized as a tool within the MCP ecosystem.
+    - Primary page excerpt explicitly states it generates naming ideas for variables, data models, and docs to speed up engineering workflows
+    - Source-list context shows it is included in MCP servers list under Developer Tools, indicating developer relevance
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:45.264Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:937c7a8a0f8cdeddb10bf8e046730a6bc84a390e6ac9346fa9f17452e9bb2979
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The tool directly assists developers in a coding workflow (naming variables/data models) and fits the broader definition of coding assistance, even if it's not a full repo agent.
+      decision_evidence:
+        - Primary page excerpt explicitly states it generates naming ideas for variables, data models, and docs to speed up engineering workflows
+        - Source-list context shows it is included in MCP servers list under Developer Tools, indicating developer relevance
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool is a standalone assistant for a coding task (naming) rather than an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

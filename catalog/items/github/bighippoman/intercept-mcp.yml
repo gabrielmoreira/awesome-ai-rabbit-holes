@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:11.776Z"
       bytes: 20226
 insights:
-  summary: An MCP server that fetches web content as clean markdown using a multi-tier fallback chain of fetchers, site-specific handlers, and a shared agent cache.
-  why_it_matters: It lets any MCP-compatible coding agent reliably read paywalled or complex pages—tweets, YouTube transcripts, arXiv papers, PDFs, and GitHub READMEs—without API keys.
-  mental_damage: We have now built a distributed consensus cache so your AI can summarize a tweet that the AI’s own creator cannot open in a browser.
+  summary: MCP server that fetches web content as clean markdown with a multi-tier fallback chain.
+  why_it_matters: Developers can give their AI assistants reliable access to web content (tweets, YouTube, PDFs, etc.) without hitting paywalls, 403s, or raw HTML.
+  mental_damage: Finally, an MCP server that treats the web like a first-class data source instead of a hostile firehose of HTML.
   tags:
-    - mcp
-    - web-fetch
-    - markdown
-    - context-retrieval
+    - mcp-server
+    - web-scraping
+    - markdown-extraction
+    - ai-context
+    - fallback-pipeline
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose entire identity is providing web content to MCP clients, exactly matching the MCP Servers & Tooling category.
+  reason: "MCP is the product identity: this is a server that exposes web-fetching tools via MCP, with its own caching and fallback logic."
   evidence:
-    - "Repo description: 'MCP server with multi-tier fallback chain for fetching web content as clean markdown'"
-    - "README: 'Works with any MCP client: Claude Code, Claude Desktop, Codex, Cursor, Windsurf, Cline, and more.'"
-    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation
+    - Repo description explicitly identifies it as an MCP server
+    - README details MCP client integration (Claude Code, Cursor, etc.) and MCP tooling (`fetch`, `search`)
+    - Source-list context places it in an MCP servers directory under Browser Automation
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:04.832Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a6ff170ee4f688369fd2c246d2389431da01bc65bbb7cf8d4e61246a784beeb5
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a server that exposes web-fetching tools via MCP, with its own caching and fallback logic."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server
+        - README details MCP client integration (Claude Code, Cursor, etc.) and MCP tooling (`fetch`, `search`)
+        - Source-list context places it in an MCP servers directory under Browser Automation
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server with its own tooling and identity, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

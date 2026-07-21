@@ -53,23 +53,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:55.233Z"
       bytes: 7635
 insights:
-  summary: datasketch is a Python library providing probabilistic data structures like MinHash, LSH, and HyperLogLog for fast, approximate processing and indexing of very large datasets.
-  why_it_matters: It offers developers efficient, code-first building blocks for large-scale similarity search, deduplication, and cardinality estimation without requiring exhaustive data scans.
-  mental_damage: Yet another classic algorithm library now awkwardly orbiting the LLM ecosystem, reminding us that even 2015 data structures need a '🧑‍🚀 LLM resources' section to feel relevant again.
+  summary: A Python library implementing probabilistic data structures like MinHash, LSH, HyperLogLog, and HNSW for similarity search and approximate nearest neighbor tasks.
+  why_it_matters: It provides efficient, scalable algorithms for developers working with large-scale similarity search, deduplication, or cardinality estimation in data pipelines.
+  mental_damage: Finally, a way to approximate your way out of O(n²) comparisons—just don’t ask how many hash functions it took to get here.
   tags:
-    - python
-    - data-structures
-    - probabilistic
+    - probabilistic-data-structures
     - similarity-search
-    - library
+    - python
+    - hnsw
+    - minhash
   confidence: high
 curation:
   status: excluded
-  reason: While it appears in an LLM resources list, it is a general-purpose data structures library with no AI-native, developer-tooling, or coding-agent angle that fits the catalog's scope.
+  reason: This is a general-purpose data structures library for approximate algorithms, not a developer-facing AI tool, agent, or workflow product.
   evidence:
-    - Repo description and README focus entirely on MinHash, LSH, and HyperLogLog data structures, with no mention of AI, LLMs, or coding assistants.
-    - Source-list context places it in a broad 'LLM resources' list under a data section, but this is evidence of curation, not destiny for an AI tooling catalog.
-    - Created in 2015 and primarily a Python library (pip install datasketch), lacking the product identity of modern AI developer tooling.
+    - Repo description focuses on MinHash, LSH, HyperLogLog, and HNSW implementations
+    - Topics include data-sketches, locality-sensitive-hashing, and jaccard-similarity with no AI/agent workflow angle
+    - Source-list context places it under '数据 Data' in a broad LLM resources list, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -88,12 +88,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:04.415Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fd1ef3235d16b6fca4049adbd123e13bdc877df1dbaa648c9ba76b73999b5fbc
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a general-purpose data structures library for approximate algorithms, not a developer-facing AI tool, agent, or workflow product.
+      decision_evidence:
+        - Repo description focuses on MinHash, LSH, HyperLogLog, and HNSW implementations
+        - Topics include data-sketches, locality-sensitive-hashing, and jaccard-similarity with no AI/agent workflow angle
+        - Source-list context places it under '数据 Data' in a broad LLM resources list, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

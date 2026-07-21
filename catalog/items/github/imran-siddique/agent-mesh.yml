@@ -58,23 +58,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:11.180Z"
       bytes: 29596
 insights:
-  summary: AgentMesh is a deprecated, archived Python and SDK-based trust, identity, and governance layer for multi-agent systems that has moved to microsoft/agent-governance-toolkit.
-  why_it_matters: It provided infrastructure for agent identity, trust, and governance (including MCP security and OWASP compliance) that integrated with frameworks like LlamaIndex, LangGraph, and Dify.
-  mental_damage: We have successfully built the SSL for AI agents and then archived it, proving that even decentralized trust frameworks need a maintenance budget.
+  summary: A deprecated trust, identity, and governance layer for production AI agent systems, now moved to microsoft/agent-governance-toolkit.
+  why_it_matters: It provided a security and governance framework for multi-agent systems, addressing identity, trust, and compliance in distributed AI workflows.
+  mental_damage: Nothing says 'production-ready' like a repo that archived itself and moved to a corporate graveyard before the year even started.
   tags:
     - agent-governance
-    - multi-agent
-    - security
-    - mcp
+    - multi-agent-security
     - deprecated
+    - mcp
+    - trust-framework
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and deprecated with a redirect to microsoft/agent-governance-toolkit, making it inactive and unsuitable for inclusion in a curated catalog.
+  reason: The repository is explicitly marked as deprecated and archived, with the project moved to another location, making it unsuitable for active inclusion in a curated catalog.
   evidence:
     - Repo description states '[DEPRECATED] Moved to microsoft/agent-governance-toolkit'
-    - "Archived: yes"
-    - Created at 2026-02-01 but archived shortly after, indicating a very short lifespan
+    - Archived flag is true
+    - README confirms migration to a new repository
 placement:
   primary_category: null
   section: null
@@ -93,12 +93,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:51.178Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c3608d453bcea56731688df66ed7ecce2666f29877e04116ca30500706d7501a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is explicitly marked as deprecated and archived, with the project moved to another location, making it unsuitable for active inclusion in a curated catalog.
+      decision_evidence:
+        - Repo description states '[DEPRECATED] Moved to microsoft/agent-governance-toolkit'
+        - Archived flag is true
+        - README confirms migration to a new repository
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -67,22 +67,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An official MCP server from Convex that lets AI agents introspect deployments, run functions, and read and write data via standardized tool calls.
-  why_it_matters: Developers can wire Convex backends directly into MCP-compatible coding agents, letting models safely query tables, run functions, and manipulate environment variables without leaving the agent loop.
-  mental_damage: Yet another perfectly valid reason to let your agent silently rearrange your production database while you wonder when exactly you stopped reviewing PRs.
+  summary: An MCP server for Convex that lets AI agents introspect deployments, run functions, and read/write data.
+  why_it_matters: Developers can now grant AI assistants direct, sandboxed access to their Convex backend for querying, analysis, and safe data manipulation.
+  mental_damage: Finally, a way to let your AI poke your database without immediately regretting it.
   tags:
     - mcp
-    - convex
     - backend
-    - agent-integration
+    - convex
+    - database
+    - server
   confidence: high
 curation:
   status: included
-  reason: This is an official MCP server implementation from Convex, making MCP its primary product identity rather than a secondary compatibility feature.
+  reason: "MCP is the product identity here: this is a dedicated MCP server exposing Convex backend capabilities to AI agents."
   evidence:
-    - Official Convex article announces 'Convex now supports a powerful MCP server' as a beta feature in Convex 1.19.5.
-    - Listed in multiple awesome-mcp directories under Databases and Official Servers sections.
-    - Exposes tools for introspecting tables, running functions, reading/writing data, and managing environment variables via the MCP stdio transport.
+    - Source lists explicitly categorize it as an MCP server under Databases
+    - Primary page describes it as a 'powerful MCP server' for Convex deployments
+    - Implementation details confirm it follows MCP protocol for tool exposure
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -100,12 +101,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:03.172Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b21b14f14c73e0495628c355bee74ebbf07b5f3f23d8de7fa5e13032d5a56686
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: this is a dedicated MCP server exposing Convex backend capabilities to AI agents."
+      decision_evidence:
+        - Source lists explicitly categorize it as an MCP server under Databases
+        - Primary page describes it as a 'powerful MCP server' for Convex deployments
+        - Implementation details confirm it follows MCP protocol for tool exposure
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is the MCP server itself, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

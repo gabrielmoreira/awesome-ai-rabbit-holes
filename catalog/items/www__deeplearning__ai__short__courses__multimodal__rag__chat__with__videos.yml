@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A short course from DeepLearning.AI teaching developers how to build multimodal RAG systems that can chat with video content.
-  why_it_matters: It provides a structured walkthrough for implementing video understanding pipelines using retrieval-augmented generation techniques.
-  mental_damage: Another educational pit stop where developers can marinate in theory while their production codebase remains untouched by actual AI agents.
+  summary: A short course teaching how to build a multimodal RAG system for querying video content.
+  why_it_matters: It provides developers with practical guidance on implementing video-based retrieval-augmented generation workflows.
+  mental_damage: Now you can finally ask your unindexed Zoom recordings what that one thing was, assuming you have an hour to spare.
   tags:
-    - rag
-    - multimodal
     - course
+    - multimodal
+    - rag
     - video
-    - deeplearning-ai
+    - education
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course and auxiliary resource page rather than a standalone developer tool, framework, or product.
+  reason: This is an educational course, not a developer tool, framework, or workflow product.
   evidence:
-    - URL is a DeepLearning.AI short course page, not a tool repository or product.
-    - Seen in awesome-LLM-resources under the '课程 Course' (Course) section, indicating it is a learning resource.
-    - No repo description, README, or product code indicating a usable developer tool.
+    - The page describes a short course with video lessons and code examples
+    - The primary value is educational content, not a usable tool or library
+    - The course is no longer available as of June 26, 2025
 placement:
   primary_category: null
   section: null
@@ -70,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:19.645Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:17f7f090c21c9548c1f5dc9f8e63cf2ddf49e78ad3d2c77f8807af35e00853cc
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational course, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - The page describes a short course with video lessons and code examples
+        - The primary value is educational content, not a usable tool or library
+        - The course is no longer available as of June 26, 2025
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

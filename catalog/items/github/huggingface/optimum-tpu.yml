@@ -39,23 +39,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:06.627Z"
       bytes: 3823
 insights:
-  summary: A Hugging Face library that provides optimized training and inference for Transformer models on Google Cloud TPUs via a familiar transformers-like interface.
-  why_it_matters: It allows developers to squeeze better performance and cost-efficiency out of TPU hardware for LLM fine-tuning and serving without rewriting their Hugging Face workflows.
-  mental_damage: Nothing says 'cutting-edge infrastructure' quite like a maintenance-mode banner and an archive flag on a repo that's technically from the future.
+  summary: Google TPU optimizations for Hugging Face transformer models, providing inference and training support on Cloud TPUs.
+  why_it_matters: Enables developers to leverage Google Cloud TPUs for efficient training and inference of supported LLMs like Gemma and Llama.
+  mental_damage: Nothing says 'stable' like a repo that's both archived and in maintenance mode while still pushing commits in 2026.
   tags:
     - tpu
-    - optimization
     - huggingface
     - inference
     - training
+    - optimization
   confidence: high
 curation:
   status: excluded
-  reason: The project is archived and explicitly in maintenance mode, and while it is a developer tool, it is ML infrastructure/ops rather than a direct AI tool for software development workflows.
+  reason: The project is archived and in maintenance mode, with its core functionality (TPU optimizations) being a hardware-specific infrastructure layer rather than a developer-facing tool in the catalog's scope.
   evidence:
-    - Repo is marked as archived.
-    - README includes a caution banner stating 'Optimum-TPU is now in maintenance mode' with no active development.
-    - Listed in Awesome-LLMOps under 'Optimizations', indicating an ML ops/infrastructure fit rather than a developer-facing AI coding tool.
+    - "Repo is archived (archived: yes)"
+    - README states it is in maintenance mode with no active development
+    - Primary value is TPU-specific optimizations for transformer models, not a developer workflow tool
 placement:
   primary_category: null
   section: null
@@ -74,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:39.331Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:06f459300eb0a3665fb8bb09e1570285e7d09f1d2dd86b421ab4a39b89ac49bc
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is archived and in maintenance mode, with its core functionality (TPU optimizations) being a hardware-specific infrastructure layer rather than a developer-facing tool in the catalog's scope.
+      decision_evidence:
+        - "Repo is archived (archived: yes)"
+        - README states it is in maintenance mode with no active development
+        - Primary value is TPU-specific optimizations for transformer models, not a developer workflow tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

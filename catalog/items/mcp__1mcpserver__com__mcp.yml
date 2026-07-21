@@ -36,28 +36,28 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web directory for discovering Model Context Protocol (MCP) servers.
-  why_it_matters: It provides a centralized entry point for developers looking to extend AI assistants with specific external tooling via the MCP standard.
-  mental_damage: Because what the world definitely needed was another layer of abstraction just to find the abstraction layer that connects the AI to the thing it actually needs to do.
+  summary: A Model Context Protocol (MCP) server or resource hosted at a dedicated MCP domain.
+  why_it_matters: Provides MCP-based tooling or server capabilities for developers integrating with the Model Context Protocol ecosystem.
+  mental_damage: Another MCP endpoint to juggle in your already overcrowded local agent runtime zoo.
   tags:
     - mcp
-    - directory
-    - discovery
     - protocol
-  confidence: medium
+    - server
+    - tooling
+  confidence: low
 curation:
-  status: included
-  reason: The URL serves as a directory for MCP servers, fitting the 'Lists & Directories' category as a navigation aid for the MCP ecosystem.
+  status: excluded
+  reason: The URL and source-list context suggest MCP-related infrastructure, but the lack of repo description, README, or concrete product identity makes it impossible to verify as a standalone MCP server or tooling project.
   evidence:
-    - URL (mcp.1mcpserver.com/mcp) and path suggest a server directory
-    - Seen in 'awesome-mcp-servers' source list under section 'Official Servers'
-    - No code repo or product description found; appears to be a discovery site
+    - No repo description or README provided to confirm product identity
+    - Source-list context only shows it appears in an MCP servers list, not what it actually is
+    - No verifiable signals (stars, license, activity) to establish credibility or scope
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:29.713Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d24d5a3396dceef6f4f03b7e9165cec07c834e3c5448cf1715c5f2669801588c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The URL and source-list context suggest MCP-related infrastructure, but the lack of repo description, README, or concrete product identity makes it impossible to verify as a standalone MCP server or tooling project.
+      decision_evidence:
+        - No repo description or README provided to confirm product identity
+        - Source-list context only shows it appears in an MCP servers list, not what it actually is
+        - No verifiable signals (stars, license, activity) to establish credibility or scope
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

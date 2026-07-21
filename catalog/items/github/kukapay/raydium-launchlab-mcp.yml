@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:41.855Z"
       bytes: 4490
 insights:
-  summary: An MCP server that enables AI agents to create, buy, and sell tokens on the Raydium Launchpad using Solana and IPFS for metadata storage.
-  why_it_matters: It exposes Raydium's token launchpad functionality as tools for AI agents, allowing automated DeFi workflows without leaving the agent context.
-  mental_damage: Because the natural next step after automating code generation is, apparently, automating the creation of memecoins with zero human friction.
+  summary: An MCP server that enables AI agents to interact with Raydium Launchpad for token minting, buying, and selling on Solana.
+  why_it_matters: It allows developers to integrate blockchain token operations into AI agent workflows via MCP, bridging Solana DeFi and AI automation.
+  mental_damage: Now your AI agent can mint tokens while you sleep, because why should humans have all the fun in crypto.
   tags:
     - mcp
     - solana
     - defi
-    - raydium
-    - crypto
+    - token-launch
+    - blockchain
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing domain-specific tools for Raydium Launchpad, fitting cleanly as a domain server in the MCP category.
+  reason: The product's core identity is as an MCP server providing domain-specific tools for Raydium Launchpad interactions.
   evidence:
-    - "Repo description explicitly states: 'An MCP server that enables AI agents to launch, buy, and sell tokens on the Raydium Launchpad.'"
-    - README defines three MCP tools (mint_token, buy_token, sell_token) and configuration for MCP clients.
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its identity as an MCP server.
+    - Repo description explicitly states it is an MCP server for Raydium Launchpad
+    - README details MCP server setup and tools for token operations
+    - MCP is the primary adopted protocol, not a compatibility footnote
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:07.804Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:97bb32dde667369185f79f36810b04acb5cd10cef6474592e1e5dcce96fd6595
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is as an MCP server providing domain-specific tools for Raydium Launchpad interactions.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Raydium Launchpad
+        - README details MCP server setup and tools for token operations
+        - MCP is the primary adopted protocol, not a compatibility footnote
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is fundamentally an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

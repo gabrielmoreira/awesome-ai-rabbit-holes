@@ -44,22 +44,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:43.976Z"
       bytes: 53256
 insights:
-  summary: A curated, community-maintained awesome list of tools, projects, ports, templates, and learning resources built around the LangChain framework.
-  why_it_matters: It serves as a centralized ecosystem map for developers looking to discover LangChain-compatible libraries, agents, and deployment tools across multiple languages.
-  mental_damage: An impressive catalog of every possible way to wrap a prompt in a chain, ensuring you can spend three hours browsing libraries instead of actually shipping your chatbot.
+  summary: Curated list of tools, projects, and resources built with or for the LangChain framework.
+  why_it_matters: Helps developers navigate the rapidly expanding LangChain ecosystem to find libraries, ports, templates, and learning materials.
+  mental_damage: Because nothing says 'I have my life together' like bookmarking a list of lists to keep track of the tools that track the tools.
   tags:
     - langchain
     - awesome-list
     - ecosystem
     - directory
+    - curated
   confidence: high
 curation:
   status: included
-  reason: The repository is a curated index of ecosystem tools rather than a standalone developer product, fitting the navigation-aid role of Lists & Directories.
+  reason: This is a curated directory of LangChain-related tools and projects, which fits the scope of navigation aids for developers.
   evidence:
-    - Repo description explicitly states 'Awesome list of tools and projects with the awesome LangChain framework'
-    - README confirms it is a 'Curated list of tools and projects using LangChain' with sections for frameworks, ports, and tools
-    - Direct awesome list source flag is true, confirming its identity as a directory
+    - Repo description explicitly states it is an 'Awesome list of tools and projects with the awesome LangChain framework'
+    - README confirms it is a 'Curated list of tools and projects using LangChain'
+    - Direct awesome list source flag is true
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -78,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:33.107Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:656c80bcdf578db75675cf655a0f481bc36ba329f0053178cf0108022e178858
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of LangChain-related tools and projects, which fits the scope of navigation aids for developers.
+      decision_evidence:
+        - Repo description explicitly states it is an 'Awesome list of tools and projects with the awesome LangChain framework'
+        - README confirms it is a 'Curated list of tools and projects using LangChain'
+        - Direct awesome list source flag is true
+      category_candidates:
+        - awesome-awesomes
+        - ai-frameworks
+      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the primary value is discovery and navigation rather than being a code-first building block.
+      review_reason: null
+      review_resume_lifecycle: null

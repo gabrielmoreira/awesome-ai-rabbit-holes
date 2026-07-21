@@ -51,23 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Aomni is a SaaS platform that provides autonomous AI agents designed for sales and go-to-market teams to automate account research, prospect engagement, and sales strategy.
-  why_it_matters: It reduces the manual overhead of sales research by aggregating account data and generating personalized outreach, though it targets sales ops rather than codebases.
-  mental_damage: "Just what the world needed: another 'AI agent army' ensuring that even our cold emails will be written by a bot that knows exactly how much we hate reading them."
+  summary: A SaaS platform providing AI-powered sales research and account-based automation for revenue teams.
+  why_it_matters: It automates account research and personalized outreach for sales teams, but offers no direct developer-tooling value.
+  mental_damage: Another AI agent that promises to replace your sales team’s coffee-fueled LinkedIn stalking with a SOC 2-compliant stalking-as-a-service.
   tags:
+    - sales-automation
+    - gtm
     - abm
-    - agents
-    - automation
-    - b2b-saas
-    - sales
+    - enterprise-saas
   confidence: high
 curation:
   status: excluded
-  reason: Aomni is a vertical SaaS product for sales and GTM teams, lacking any developer-tooling, coding, or infrastructure angle required for this catalog.
+  reason: The product is a sales/GTM automation platform with no developer-tooling angle, falling outside the catalog's scope of practical AI tools for software developers.
   evidence:
-    - Scraped site description explicitly targets 'revenue teams' and 'sales teams' with ABM automation.
-    - Source list context places it in 'awesome-ai-agents' under a sales/ABM context, not developer workflows.
-    - No mention of IDEs, code editing, repositories, SDKs, or developer infrastructure in the landing page excerpt.
+    - Site description explicitly targets revenue teams and ABM automation
+    - Primary value proposition is sales research, account planning, and outreach personalization
+    - No mention of code, development workflows, or developer-facing integrations
 placement:
   primary_category: null
   section: null
@@ -76,15 +75,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:24.946Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:78db7865f1bedb3a43aaa027c96de4c8269e5e7c42ace01fd7ea490930f503a1
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a sales/GTM automation platform with no developer-tooling angle, falling outside the catalog's scope of practical AI tools for software developers.
+      decision_evidence:
+        - Site description explicitly targets revenue teams and ABM automation
+        - Primary value proposition is sales research, account planning, and outreach personalization
+        - No mention of code, development workflows, or developer-facing integrations
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T16:42:15.364Z"

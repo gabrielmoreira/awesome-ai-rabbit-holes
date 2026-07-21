@@ -37,26 +37,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: SubDownload is a YouTube transcript and summarization service that exposes its video knowledge base via a hosted MCP server, REST API, and agent skills package.
-  why_it_matters: It gives coding agents and developer workflows a pluggable way to retrieve, summarize, and cite YouTube content without building custom transcript pipelines.
-  mental_damage: Because nothing says 'local-first developer tooling' like outsourcing your documentation diet to a hosted MCP server that summarizes other people's YouTube summaries.
+  summary: A web service that extracts, summarizes, and stores YouTube video transcripts in a personal knowledge base with API and MCP server access.
+  why_it_matters: Developers can programmatically access video content for research, documentation, or AI workflows without manual transcription.
+  mental_damage: Now you can finally stop pretending you’ll watch that 2-hour conference talk later.
   tags:
-    - mcp
-    - youtube
-    - transcript
-    - summarization
+    - youtube-transcripts
+    - knowledge-base
+    - mcp-server
     - api
-  confidence: medium
+    - video-summarization
+  confidence: high
 curation:
-  status: included
-  reason: The core developer-facing product identity is a hosted MCP server for YouTube transcript and summary retrieval, with complementary REST API and agent skills support.
+  status: excluded
+  reason: The product is a consumer-facing YouTube transcript and knowledge base tool, not a developer-tooling product at its core.
   evidence:
-    - "Scraped site advertises 'MCP server: add api.subdownload.com/mcp to Claude, ChatGPT, Cursor' as a primary integration surface."
-    - Listed in awesome-mcp-servers under Knowledge & Memory for searching community-shared YouTube summaries.
-    - Also ships a REST API and npx @subdown/skill@latest agent skill compatible with 40+ agents.
+    - Primary value is end-user YouTube transcript extraction and personal knowledge base
+    - MCP server and API are secondary integrations, not the main product identity
+    - No repo, stars, or developer-first positioning in the scraped context
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -71,12 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:09.260Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e94136a7c22affd97d6ab92a20e348595ffa8c3570f0d029983fb12c18bc74c1
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a consumer-facing YouTube transcript and knowledge base tool, not a developer-tooling product at its core.
+      decision_evidence:
+        - Primary value is end-user YouTube transcript extraction and personal knowledge base
+        - MCP server and API are secondary integrations, not the main product identity
+        - No repo, stars, or developer-first positioning in the scraped context
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

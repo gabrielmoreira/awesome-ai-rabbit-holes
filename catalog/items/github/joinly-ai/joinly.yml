@@ -53,23 +53,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:26.468Z"
       bytes: 14179
 insights:
-  summary: An open-source MCP server and middleware that lets AI agents join video calls to interact via voice or chat and execute tasks like updating GitHub issues or Notion pages.
-  why_it_matters: It gives developers a way to embed agent actions directly into live meetings, bridging real-time collaboration with automated workflow execution.
-  mental_damage: Now your AI agent can sit in standup, interrupt you with context window issues, and file a GitHub issue before you’ve even finished explaining the bug.
+  summary: An MCP server that enables AI agents to join and participate in video calls across platforms like Zoom, Google Meet, and Microsoft Teams.
+  why_it_matters: It allows developers to integrate real-time meeting participation and interaction capabilities into their AI agents, expanding their utility beyond code and into live collaboration.
+  mental_damage: Now your AI agent can interrupt you in meetings just like a real coworker.
   tags:
     - mcp
-    - agents
-    - meetings
-    - middleware
-    - self-hosted
+    - meeting-agents
+    - real-time-collaboration
+    - voice-ai
+    - transcription
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that exposes meeting tools and resources, making MCP the core adoption surface rather than a secondary integration.
+  reason: MCP is the product identity here, as it is explicitly positioned as an MCP server providing meeting tools and resources for AI agents.
   evidence:
-    - "Repo description: 'Make your meetings accessible to AI Agents' and README lead with MCP server tooling."
-    - "README highlights: 'through its MCP server, joinly.ai provides essential meeting tools and resources'."
-    - Listed in awesome-mcp-servers under Communication, reinforcing MCP as the product identity.
+    - Repo description explicitly states it is an MCP server for meeting access
+    - README highlights its role as a connector middleware with MCP server capabilities
+    - Source-list context places it under MCP Servers > Communication
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -88,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:58.423Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:96b25f81bace3d7c37efdea4e0d66f7549776c0b5b55696c4b7855f7c9f72efe
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here, as it is explicitly positioned as an MCP server providing meeting tools and resources for AI agents.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for meeting access
+        - README highlights its role as a connector middleware with MCP server capabilities
+        - Source-list context places it under MCP Servers > Communication
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing meeting-specific tools, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

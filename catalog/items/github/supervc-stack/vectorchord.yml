@@ -1,6 +1,6 @@
 id: github__supervc-stack__vectorchord
 kind: github-repo
-name: vectorchord
+name: VectorChord
 canonical_url: https://github.com/supervc-stack/vectorchord
 identity:
   github_repo: supervc-stack/vectorchord
@@ -22,53 +22,83 @@ provenance:
         extracted_url: https://github.com/tensorchord/vectorchord
         surrounding_text: "| [VectorChord](https://github.com/tensorchord/VectorChord) | Scalable, fast, and disk-friendly vector search in Postgres, the successor of `pgvecto.rs`.                                                                                                                                                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/tensorchord/VectorChord.svg?style=flat-square)    |"
         confidence: high
+    - id: discovery__github__tensorchord__vectorchord__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Search
+          - Vector search
+        anchor_text: VectorChord
+        extracted_url: https://github.com/tensorchord/vectorchord
+        surrounding_text: "| [VectorChord](https://github.com/tensorchord/VectorChord) | Scalable, fast, and disk-friendly vector search in Postgres, the successor of `pgvecto.rs`.                                                                                                                                                                                                   | ![GitHub Badge](https://img.shields.io/github/stars/tensorchord/VectorChord.svg?style=flat-square)    |"
+        confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1746
+    forks: 71
+    license: NOASSERTION
+    archived: false
+    full_name: supervc-stack/VectorChord
+    html_url: https://github.com/supervc-stack/VectorChord
+    created_at: "2024-09-03T07:39:46Z"
+    pushed_at: "2026-06-25T06:33:25Z"
+    description: Scalable, fast, and disk-friendly vector search in Postgres, the successor of pgvecto.rs.
+    homepage: https://docs.vectorchord.ai/vectorchord/getting-started/overview.html
+    topics:
+      - artificial-intelligence
+      - llmops
+      - postgresql
+      - vector-database
+      - vector-search
+    last_checked_at: "2026-07-21T15:20:44.187Z"
+    readme:
+      fetched_at: "2026-07-21T15:20:44.187Z"
+      bytes: 13744
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: VectorChord is a PostgreSQL extension for scalable, high-performance, and disk-efficient vector search, designed as the successor to pgvecto.rs.
+  why_it_matters: It allows developers to host billion-scale vector datasets directly in Postgres with significantly lower infrastructure costs, simplifying the AI stack by removing the need for separate vector databases.
+  mental_damage: We have successfully abstracted the vector database so far that we are now just arguing with Postgres about how many bits we can shave off a float before the model starts hallucinating its own childhood memories.
+  tags:
+    - database-extension
+    - llmops
+    - postgres
+    - vector-database
+    - vector-search
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a developer-facing infrastructure component (a database extension) used as a code-first building block for retrieval and memory systems in AI applications.
+  evidence:
+    - Repo description identifies it as a PostgreSQL extension for vector search, the successor to pgvecto.rs.
+    - Topics include 'llmops' and 'vector-database', and it is listed in Awesome-LLMOps under 'Search > Vector search'.
+    - README emphasizes storage efficiency and integration with pgvector syntax for developer adoption.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1667) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-21T05:27:57.684Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: deferred
-    updated_at: "2026-07-20T16:43:05.721Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for supervc-stack/vectorchord
   categorize:
     status: skipped
     updated_at: "2026-07-20T16:43:08.987Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-05-21T05:27:57.684Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-21T15:20:44.187Z"
+    cause: null
     next_retry_at: null

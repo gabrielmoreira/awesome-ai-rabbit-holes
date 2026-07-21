@@ -1,0 +1,110 @@
+id: nullify__ai
+kind: website
+name: Nullify.ai
+canonical_url: https://nullify.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__nullify__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Nullify.ai
+        extracted_url: https://nullify.ai
+        surrounding_text: "- **[Nullify.ai](https://nullify.ai/)** – AI-powered security vulnerability detection."
+        confidence: high
+    - id: discovery__www__nullify__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Nullify.ai
+        extracted_url: https://nullify.ai
+        surrounding_text: "- **[Nullify.ai](https://nullify.ai/)** – AI-powered security vulnerability detection."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An autonomous system of AI agents that drives end-to-end product security work, from detection and validation to remediation and follow-through.
+  why_it_matters: It automates the full security workflow—finding, triaging, fixing, and merging patches—freeing developers from manual security toil.
+  mental_damage: Finally, a tool that turns your security backlog into a self-healing PR factory, because nothing says 'modern engineering' like arguing with a bot about merge conflicts in your SQLi fix.
+  tags:
+    - security
+    - autonomous-agents
+    - remediation
+    - product-security
+    - ai-agents
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a vertical SaaS product for product security teams, not a developer-facing coding tool or workflow utility.
+  evidence:
+    - Primary product identity is an autonomous security program, not a coding assistant or developer tool
+    - Target audience is security teams, not developers integrating AI into their workflows
+    - Core value is end-to-end security automation, not code editing, IDE integration, or app building
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:00.086Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ae07f745185253a923d62469a4431e35c1bc1d17fecbe44526b242953046914d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a vertical SaaS product for product security teams, not a developer-facing coding tool or workflow utility.
+      decision_evidence:
+        - Primary product identity is an autonomous security program, not a coding assistant or developer tool
+        - Target audience is security teams, not developers integrating AI into their workflows
+        - Core value is end-to-end security automation, not code editing, IDE integration, or app building
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.968Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T15:10:58.852Z"
       bytes: 31516
 insights:
-  summary: A Python MCP server that connects AI agents to a MATLAB installation, enabling code execution, async job handling, and automatic conversion of MATLAB figures to interactive Plotly charts.
-  why_it_matters: It lets developers and agents script, run, and visualize MATLAB workloads through any MCP-compatible assistant instead of manual MATLAB IDE workflows.
-  mental_damage: You can now ask an LLM to debug a Simulink model at 3 AM while the MATLAB engine silently queues hours of async jobs and promises interactive Plotly charts you’ll still have to manually render.
+  summary: An MCP server that enables AI agents to execute MATLAB code, run async jobs, and interact with Plotly-converted MATLAB plots.
+  why_it_matters: Developers can now delegate MATLAB-specific tasks (code execution, toolbox discovery, plotting) to AI agents without leaving their preferred assistant workflow.
+  mental_damage: Finally, a way to make MATLAB feel like just another tool in your agent’s Swiss Army knife.
   tags:
-    - matlab
     - mcp
-    - plotly
+    - matlab
     - code-execution
-    - python
-  confidence: medium
+    - plotly
+    - async-jobs
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that gives agents access to MATLAB execution, toolbox discovery, and plot conversion, which fits MCP Servers & Tooling as a domain-specific server.
+  reason: "MCP is the core product identity here: a domain-specific server exposing MATLAB capabilities via the Model Context Protocol."
   evidence:
-    - "Repo description states: 'MCP server that connects any AI agent to MATLAB — execute code, async jobs, interactive Plotly plots, custom tools, and monitoring dashboard'."
-    - "README pitches: 'A Python MCP server that connects any AI agent (Claude, Cursor, Copilot, custom agents) to a shared MATLAB installation'."
-    - Listed in awesome-mcp-servers under Server Implementations > Code Execution.
+    - Repo description explicitly states it is an MCP server for MATLAB
+    - README emphasizes MCP as the primary integration layer for AI agents
+    - Already listed in awesome-mcp-servers under Server Implementations > Code Execution
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:02.431Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2526835236a7e51202331a17c92f60a6322d390da5a4233f1f91e91a3c23b044
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the core product identity here: a domain-specific server exposing MATLAB capabilities via the Model Context Protocol."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for MATLAB
+        - README emphasizes MCP as the primary integration layer for AI agents
+        - Already listed in awesome-mcp-servers under Server Implementations > Code Execution
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

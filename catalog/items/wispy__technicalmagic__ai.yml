@@ -36,27 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Wispy is an AI autonomous agent listed in developer-curated directories of agentic tools.
-  why_it_matters: It represents another entry in the expanding ecosystem of autonomous coding agents that developers are evaluating for repo-level task delegation.
-  mental_damage: Yet another autonomous agent enters the ring, promising to debug your codebase while you debug your life choices for trusting it.
+  summary: Wispy is an AI autonomous agent listed in the awesome-ai-agents directory.
+  why_it_matters: It offers developers a way to automate tasks through an autonomous agent, potentially streamlining workflows.
+  mental_damage: Another agent to add to your already overcrowded toolchain, because why not?
   tags:
-    - ai-agent
-    - autonomous
-    - coding-assistant
+    - autonomous-agent
+    - ai-automation
   confidence: low
 curation:
   status: excluded
-  reason: Excluded because the only signal is a listing in awesome-ai-agents with no description, README, repo context, or site content to verify it is a real, usable developer tool rather than a placeholder or vaporware entry.
+  reason: The project lacks sufficient grounded information (no repo description, README, or clear product identity) to confirm its fit in the developer-tooling scope.
   evidence:
-    - No repo description, README excerpt, or scraped site context provided.
-    - Only signal is inclusion in awesome-ai-agents list under the name 'Wispy'.
-    - No stars, license, created/pushed dates, or archived status available to assess viability.
+    - No repo description, README, or scraped site context provided
+    - Only appears in a generic 'awesome-ai-agents' list with no developer-tooling specificity
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -68,12 +66,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:11.867Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1d8674f49bae2b8149d8a1c520199dc16f658880abd5d945fcc8498e42891780
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks sufficient grounded information (no repo description, README, or clear product identity) to confirm its fit in the developer-tooling scope.
+      decision_evidence:
+        - No repo description, README, or scraped site context provided
+        - Only appears in a generic 'awesome-ai-agents' list with no developer-tooling specificity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

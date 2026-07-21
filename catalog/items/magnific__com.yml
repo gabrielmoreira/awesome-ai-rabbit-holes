@@ -1,0 +1,110 @@
+id: magnific__com
+kind: website
+name: Freepik
+canonical_url: https://magnific.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__magnific__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - UI Generators
+        anchor_text: Freepik
+        extracted_url: https://freepik.com
+        surrounding_text: "- **[Freepik](https://www.freepik.com/)** – AI design platform with image generation and mockup tools for UI designers."
+        confidence: high
+    - id: discovery__www__magnific__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - UI Generators
+        anchor_text: Freepik
+        extracted_url: https://www.freepik.com
+        surrounding_text: "- **[Freepik](https://www.freepik.com/)** – AI design platform with image generation and mockup tools for UI designers."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Magnific (formerly Freepik) is a creative AI platform for generating and editing images, videos, audio, and 3D content with workflow automation and MCP/API integrations.
+  why_it_matters: It offers developers MCP and API access to integrate AI-driven creative tools (image/video/audio generation, upscaling, editing) into their workflows or products.
+  mental_damage: Now your codebase can demand cinematic product shots and voiceovers, because why should designers have all the fun.
+  tags:
+    - creative-ai
+    - mcp-integration
+    - api
+    - multimodal
+    - workflow-automation
+  confidence: high
+curation:
+  status: excluded
+  reason: The core product is a creative AI platform for non-developers (designers, marketers, filmmakers), not a developer-tooling product, despite offering MCP/API access as a secondary feature.
+  evidence:
+    - Primary identity is a creative platform for image/video/audio/3D generation (per scraped site context)
+    - Target audience is creatives, enterprises, and agencies (per homepage messaging)
+    - MCP/API are listed as integrations, not the main product (per 'Connect via MCP and use Magnific from any AI agent' section)
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:35:24.999Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bd3ae0b0c8cecc7a2cf8234d510d9a8c04b1fe8a224b70a15e24883198f81467
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The core product is a creative AI platform for non-developers (designers, marketers, filmmakers), not a developer-tooling product, despite offering MCP/API access as a secondary feature.
+      decision_evidence:
+        - Primary identity is a creative platform for image/video/audio/3D generation (per scraped site context)
+        - Target audience is creatives, enterprises, and agencies (per homepage messaging)
+        - MCP/API are listed as integrations, not the main product (per 'Connect via MCP and use Magnific from any AI agent' section)
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.967Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

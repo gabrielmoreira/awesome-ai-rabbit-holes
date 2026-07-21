@@ -44,22 +44,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:14.908Z"
       bytes: 10961
 insights:
-  summary: An MCP server that lets AI assistants manage repositories, components, and system administration tasks within a Sonatype Nexus Repository Manager.
-  why_it_matters: It allows developers to delegate artifact management and Firewall quarantine tasks to their coding agents instead of clicking through the Nexus UI.
-  mental_damage: We have successfully abstracted away the one Java-management interface that didn't need a Large Language Model to operate it.
+  summary: An MCP server that enables AI assistants to interact with Sonatype Nexus Repository Manager.
+  why_it_matters: Developers can now query, manage, and administer Nexus repositories directly from their AI assistant workflows.
+  mental_damage: Because nothing says 'modern DevOps' like letting your AI assistant delete components from your artifact repository.
   tags:
     - mcp
     - nexus
+    - artifact-repository
+    - ai-integration
     - devops
-    - artifact-management
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The product is a standalone MCP server providing Nexus Repository management tools, fitting the MCP Servers & Tooling category.
+  reason: This is an MCP-first server whose primary identity is exposing Nexus Repository Manager capabilities via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states 'MCP server for Sonatype Nexus Repository Manager'.
-    - README details integration with Claude Desktop and VS Code via MCP configuration.
-    - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
+    - Repo description explicitly states it is an MCP server for Sonatype Nexus Repository Manager
+    - README details MCP server functionality and integration with Claude Desktop and VS Code
+    - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -78,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:55.529Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:17fc8b9d40a7f5415219ae7f0c8a17e3ecf874313029ef14586e88a42934960f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose primary identity is exposing Nexus Repository Manager capabilities via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Sonatype Nexus Repository Manager
+        - README details MCP server functionality and integration with Claude Desktop and VS Code
+        - Listed in awesome-mcp-servers under Community Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

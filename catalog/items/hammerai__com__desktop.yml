@@ -1,0 +1,112 @@
+id: hammerai__com__desktop
+kind: website
+name: HammerAI
+canonical_url: https://hammerai.com/desktop
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__hammerai__com__desktop__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: HammerAI
+        extracted_url: https://hammerai.com/desktop
+        surrounding_text: "- [HammerAI](https://www.hammerai.com/desktop) - Simple character-chat interface to run LLMs on Windows, Mac, and Linux. Uses Ollama under the hood and is offline, free to chat, and requires zero configuration."
+        confidence: high
+    - id: discovery__www__hammerai__com__desktop__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: HammerAI
+        extracted_url: https://www.hammerai.com/desktop
+        surrounding_text: "- [HammerAI](https://www.hammerai.com/desktop) - Simple character-chat interface to run LLMs on Windows, Mac, and Linux. Uses Ollama under the hood and is offline, free to chat, and requires zero configuration."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A desktop app for offline AI character chat that runs LLMs locally using Ollama and Llama.cpp.
+  why_it_matters: Developers can test or interact with local models in a private, offline environment without cloud dependencies.
+  mental_damage: Finally, a way to argue with AI characters on a desert island with GPU acceleration.
+  tags:
+    - local-ai
+    - desktop
+    - ollama
+    - offline
+    - chat
+  confidence: high
+curation:
+  status: included
+  reason: The product is a local-first desktop app centered on running LLMs offline, which aligns with the Local AI category's focus on private, self-hosted, or on-device execution.
+  evidence:
+    - Described as a desktop app for offline AI chat running LLMs locally via Ollama and Llama.cpp
+    - Listed in awesome-local-ai under Inference UI
+    - Emphasizes privacy, offline use, and local GPU acceleration
+placement:
+  primary_category: local-ai
+  section: Desktop Chat / Interfaces
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:34:49.434Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:efdde68a6d12f5807099cd699d31ad72414b567418a8d852ec03dda6efcfbfad
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: The product is a local-first desktop app centered on running LLMs offline, which aligns with the Local AI category's focus on private, self-hosted, or on-device execution.
+      decision_evidence:
+        - Described as a desktop app for offline AI chat running LLMs locally via Ollama and Llama.cpp
+        - Listed in awesome-local-ai under Inference UI
+        - Emphasizes privacy, offline use, and local GPU acceleration
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because the product is a desktop interface for local inference, not a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.966Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

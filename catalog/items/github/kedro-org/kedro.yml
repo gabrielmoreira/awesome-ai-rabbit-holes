@@ -49,25 +49,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:32.587Z"
       bytes: 10819
 insights:
-  summary: Kedro is an open-source Python framework for building modular, reproducible data engineering and data science pipelines with software engineering best practices.
-  why_it_matters: It gives data teams a standardised project structure, data catalog, and pipeline abstraction so ML prototypes survive contact with production.
-  mental_damage: Yet another excuse to spend three sprints refactoring a Jupyter notebook into an enterprise-grade pipeline architecture before anyone asks what the model actually predicts.
+  summary: Kedro is a Python framework for building production-ready, reproducible, and modular data engineering and data science pipelines.
+  why_it_matters: It enforces software engineering best practices for data workflows, making pipelines maintainable and scalable for developers.
+  mental_damage: Finally, a way to make your data pipelines as rigidly structured as your legacy codebase.
   tags:
-    - python
+    - data-pipelines
     - mlops
-    - pipelines
-    - data-engineering
+    - python-framework
+    - reproducibility
+    - modularity
   confidence: high
 curation:
-  status: excluded
-  reason: The project is a general data science and MLOps framework with no direct AI-assisted coding, agent, or developer-tooling angle beyond standard Python engineering practices.
+  status: included
+  reason: Kedro is a code-first framework for building data pipelines, fitting the developer-tooling scope as a reusable SDK for workflow orchestration.
   evidence:
-    - Repo description explicitly frames it as a toolbox for data science and data engineering pipelines, not AI coding assistance.
-    - README features focus on project templates, data catalogs, pipeline abstractions, and deployment to ML infra, not code generation or agent workflows.
-    - Appears in Awesome-LLMOps under 'Frameworks for Training', which is MLOps infrastructure rather than developer-facing AI tooling.
+    - "Repo description: 'Kedro is a toolbox for production-ready data science. It uses software engineering best practices to help you create data engineering and data science pipelines that are reproducible, maintainable, and modular.'"
+    - "README: 'Kedro is a toolbox for production-ready data engineering and data science pipelines.'"
+    - "Source-list context: Listed in Awesome-LLMOps under 'Training > Frameworks for Training'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Workflow / Graph Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (10863) exceeded threshold (150)
@@ -83,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:10.973Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:207629ba9a34222c7cd65b590d6d92908fb6fa713ecbb2c007fdcfdf6b88ae73
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: Kedro is a code-first framework for building data pipelines, fitting the developer-tooling scope as a reusable SDK for workflow orchestration.
+      decision_evidence:
+        - "Repo description: 'Kedro is a toolbox for production-ready data science. It uses software engineering best practices to help you create data engineering and data science pipelines that are reproducible, maintainable, and modular.'"
+        - "README: 'Kedro is a toolbox for production-ready data engineering and data science pipelines.'"
+        - "Source-list context: Listed in Awesome-LLMOps under 'Training > Frameworks for Training'"
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because Kedro is a code-first library for pipeline construction, not an operated workbench or multi-agent runtime.
+      review_reason: null
+      review_resume_lifecycle: null

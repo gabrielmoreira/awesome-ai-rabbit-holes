@@ -118,26 +118,26 @@ metadata:
       fetched_at: "2026-07-16T05:05:02.722Z"
       bytes: 7729
 insights:
-  summary: Flowise is an open-source, low-code visual platform for building and orchestrating AI agents and LLM workflows using drag-and-drop components.
-  why_it_matters: It provides a visual workbench for developers to rapidly prototype and serve agentic workflows and RAG pipelines without writing extensive boilerplate code.
-  mental_damage: "Just what the ecosystem needed: another way to build a Rube Goldberg machine of LangChain nodes that looks impressive in a demo until the LLM forgets which node it is supposed to be in."
+  summary: An open-source low-code platform for visually building AI agents and LLM orchestration workflows.
+  why_it_matters: It allows developers to rapidly prototype complex multi-agent systems and RAG pipelines using a drag-and-drop interface instead of writing manual boilerplate code.
+  mental_damage: Because nothing says 'I've given up on writing logic' quite like connecting colored nodes in a browser to perform complex reasoning.
   tags:
     - low-code
-    - agent-builder
-    - visual-workflow
-    - langchain
-    - self-hosted
+    - agent-orchestration
+    - rag
+    - multi-agent
+    - visual-programming
   confidence: high
 curation:
   status: included
-  reason: Flowise is a canonical visual workbench for building and orchestrating AI agents and workflows, fitting the Agent Orchestration category as a runtime platform rather than a code-first library.
+  reason: Flowise is an operated workbench for coordinating multi-agent workflows and LLM orchestration, making it a perfect fit for Agent Orchestration.
   evidence:
-    - "Repo description explicitly states: 'Build AI Agents, Visually'."
-    - Listed as a canonical positive example in the 'agent-orchestration' category definition.
-    - High traction with 52,606 stars and active maintenance (pushed 2026-05-06).
+    - README claims it is a platform for building AI agents visually
+    - Topics include agentic-workflow and multiagent-systems
+    - High ecosystem traction with over 54k stars
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (52606) exceeded threshold (150)
@@ -153,12 +153,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:57:29.302Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:db5bb5c10bea5cb42113d7028e2c9e72ba20c88a9dd59645b89cd8b6eac3445f
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: Flowise is an operated workbench for coordinating multi-agent workflows and LLM orchestration, making it a perfect fit for Agent Orchestration.
+      decision_evidence:
+        - README claims it is a platform for building AI agents visually
+        - Topics include agentic-workflow and multiagent-systems
+        - High ecosystem traction with over 54k stars
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated, visual workbench/runtime platform rather than a code-first library developers import into their scripts.
+      review_reason: null
+      review_resume_lifecycle: null

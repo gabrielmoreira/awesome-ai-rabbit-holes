@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:59.313Z"
       bytes: 11163
 insights:
-  summary: An open source Python library for automated feature engineering that applies deep feature synthesis to multi-table datasets.
-  why_it_matters: It automates the tedious, domain-specific grunt work of creating feature columns for machine learning models, letting developers focus on architecture and business logic.
-  mental_damage: Because nothing says 'modern AI workflow' like spending three days automating a task that takes two hours, just to feed a model that will still overfit your customer data.
+  summary: An open source Python library for automated feature engineering in machine learning workflows.
+  why_it_matters: It automates the tedious process of creating features from raw data, which is a critical and time-consuming step in building effective ML models.
+  mental_damage: Finally, a tool that lets you stop manually engineering features and start engineering excuses for why your model still isn’t good enough.
   tags:
-    - feature-engineering
     - automl
+    - feature-engineering
     - python
-    - machine-learning
     - data-science
+    - scikit-learn
   confidence: high
 curation:
   status: excluded
-  reason: While listed in Awesome-LLMOps under feature engineering, the library is a traditional data science/ML tool for table transformation, not a developer-facing AI tool, agent, or infrastructure component.
+  reason: This is a traditional ML/data science library for feature engineering, not a developer-tooling product focused on AI-assisted coding, agents, or workflows.
   evidence:
-    - Repo description and README define it as a 'python library for automated feature engineering' and 'automated machine learning', not an AI developer tool.
-    - Topics and code examples focus on scikit-learn, dataframes, and ML pipelines rather than coding agents, LLMs, or AI infrastructure.
-    - Appears in Awesome-LLMOps under 'Data > Feature Engineering', which is a data-science context rather than a software development tooling context.
+    - Repo description explicitly identifies it as a Python library for automated feature engineering
+    - README and topics focus on data science, AutoML, and scikit-learn integration
+    - Source-list context places it under Data > Feature Engineering in an LLMOps list, not a developer-tooling category
 placement:
   primary_category: null
   section: null
@@ -83,12 +83,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:26.035Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0cd9e5ec18eceda8c43d634f9b80b429490b97cd25e239e4f87c844d7b3b8d42
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a traditional ML/data science library for feature engineering, not a developer-tooling product focused on AI-assisted coding, agents, or workflows.
+      decision_evidence:
+        - Repo description explicitly identifies it as a Python library for automated feature engineering
+        - README and topics focus on data science, AutoML, and scikit-learn integration
+        - Source-list context places it under Data > Feature Engineering in an LLMOps list, not a developer-tooling category
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

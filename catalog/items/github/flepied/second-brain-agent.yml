@@ -49,26 +49,25 @@ metadata:
       fetched_at: "2026-07-16T05:05:02.269Z"
       bytes: 13802
 insights:
-  summary: A personal knowledge management agent that automatically indexes markdown files, PDFs, videos, and web pages, exposing them via a built-in MCP server for retrieval into LLM workflows.
-  why_it_matters: It gives developers a reusable context-retrieval layer that connects local notes and docs directly into coding assistants via MCP.
-  mental_damage: Because what your second brain really needed was one more background service and a fresh excuse to reorganize your markdown folders instead of shipping code.
+  summary: An AI agent designed for personal knowledge management that indexes markdown files, PDFs, and web content to enable interactive retrieval.
+  why_it_matters: It automates the indexing of fragmented personal data and provides an MCP server to inject that context directly into other AI workflows.
+  mental_damage: Because nothing says productivity like building a complex automated system to manage the notes you'll never actually read.
   tags:
-    - second-brain
     - pkm
     - mcp
-    - retrieval
-    - langchain
-  confidence: high
+    - knowledge-management
+    - automation
+  confidence: medium
 curation:
   status: included
-  reason: The core novelty is automated indexing and MCP-powered retrieval of personal knowledge into LLM workflows, which aligns with Prompt & Context Engineering rather than being a primary coding assistant or thin host integration.
+  reason: The core value proposition is indexing disparate files and using MCP to provide retrieved context to LLMs, making it a context management tool.
   evidence:
-    - Repo description and README emphasize automated indexing of markdown, PDFs, videos, and web pages as the main feature.
-    - Built-in MCP server is highlighted as the retrieval mechanism to plug context into LLMs or workflows.
-    - "Strong fit with 'context-engineering' category: core job is retrieval, indexing, and context-shaping rather than editing code or orchestrating agents."
+    - README claims automated indexing of markdown, PDFs, and web pages
+    - Provides an MCP-powered retrieval server to pull relevant context into other LLMs
+    - Focuses on transforming collected information into an interactive context source
 placement:
   primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  section: Memory / Compression / Distillation
 lifecycle:
   status: promotion_candidate
   reason: Stars (293) exceeded threshold (150)
@@ -84,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:57:11.115Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9bc366adf3991d9d822ea9a7fdc227e672bed7beb724289039080c236bcef1f5
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core value proposition is indexing disparate files and using MCP to provide retrieved context to LLMs, making it a context management tool.
+      decision_evidence:
+        - README claims automated indexing of markdown, PDFs, and web pages
+        - Provides an MCP-powered retrieval server to pull relevant context into other LLMs
+        - Focuses on transforming collected information into an interactive context source
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the product's primary novelty is the retrieval and management of indexed knowledge rather than acting as a host integration for a specific coding editor.
+      review_reason: null
+      review_resume_lifecycle: null

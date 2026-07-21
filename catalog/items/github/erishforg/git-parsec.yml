@@ -58,23 +58,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:57.259Z"
       bytes: 11735
 insights:
-  summary: A Rust-based Git worktree lifecycle manager that integrates with Jira, GitHub Issues, and GitLab to create isolated workspaces from tickets and ship stacked PRs in one command.
-  why_it_matters: It eliminates the manual loop of syncing tickets, branches, and PRs while enabling parallel AI agent workflows and stacked changes without index lock collisions.
-  mental_damage: Because what modern software development truly needed was a CLI tool to manage the parallel reality of twelve AI agents subtree-merging rate-limit fixes while you debug CI in a terminal Kanban board.
+  summary: Git worktree lifecycle manager that automates ticket-to-PR workflows with Jira, GitHub, and GitLab integration, including stacked PRs and AI agent support.
+  why_it_matters: It eliminates manual Git worktree management and PR creation by automating the full development loop from ticket to merged PR, with features tailored for parallel development and AI agent workflows.
+  mental_damage: Finally, a tool that lets you pretend Git worktrees are just tickets you can ship without remembering which branch is on fire.
   tags:
-    - git
-    - worktree
+    - git-worktree
+    - ticket-to-pr
+    - ai-agent-friendly
+    - stacked-prs
     - cli
-    - devops
-    - ai-agent
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: Its primary value is augmenting the Git/ticket workflow for developers and AI agents rather than being a coding assistant that writes or debugs code itself.
+  reason: The tool primarily augments Git workflows with AI-friendly integrations (JSON output, structured errors) and multi-forge/tracker support, rather than acting as a standalone coding assistant.
   evidence:
-    - Repo description explicitly calls it a 'git worktree lifecycle manager' with 'Parallel AI agent workflows' as a feature, not the core identity.
-    - Every command is designed to manage branches, tickets, and PR logistics (start, ship, stack, merge, ci), not to read or write application code.
-    - Source list places it under 'Developer Productivity Tools', aligning with workflow automation rather than coding agents.
+    - "Repo description: 'Git worktree lifecycle manager — ticket to PR in one command. Jira, GitHub Issues & GitLab integration. Parallel AI agent workflows'"
+    - README emphasizes agent-friendly features like `--json` output and JSONL logs
+    - Core value is workflow automation (worktrees, PRs, CI) rather than direct code editing
 placement:
   primary_category: ai-dev-extensions
   section: IDE / UI / Workflow Add-ons
@@ -93,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:46.518Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:813250191c01f7469a4b2ace2919044222b25b5bc2bf96efa21a3eb3d20473a5
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool primarily augments Git workflows with AI-friendly integrations (JSON output, structured errors) and multi-forge/tracker support, rather than acting as a standalone coding assistant.
+      decision_evidence:
+        - "Repo description: 'Git worktree lifecycle manager — ticket to PR in one command. Jira, GitHub Issues & GitLab integration. Parallel AI agent workflows'"
+        - README emphasizes agent-friendly features like `--json` output and JSONL logs
+        - Core value is workflow automation (worktrees, PRs, CI) rather than direct code editing
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because the tool's primary identity is Git workflow augmentation (worktrees, PRs, CI) with AI-friendly features, not direct code planning/editing.
+      review_reason: null
+      review_resume_lifecycle: null

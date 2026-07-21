@@ -58,15 +58,15 @@ metadata:
       fetched_at: "2026-07-20T15:11:55.840Z"
       bytes: 15355
 insights:
-  summary: A native Claude Code plugin that turns one-line ideas into reviewed, tested, committed code via a five-phase autonomous loop with on-disk state recovery.
-  why_it_matters: It removes the developer from the fragile prompt-and-review loop by autonomously handling spec generation, task planning, TDD execution in git worktrees, and verification against acceptance criteria.
-  mental_damage: You can finally stop heroically babysitting a context window like a project manager, only to be replaced by a plugin that does the babysitting for you.
+  summary: Forge is a Claude Code plugin that autonomously turns one-line ideas into tested, reviewed, and committed code via a five-phase loop using git worktrees and TDD.
+  why_it_matters: It reduces developer toil by replacing manual context management and iteration loops with an autonomous pipeline that recovers from crashes via disk-persisted state.
+  mental_damage: Finally, a tool that promises to free you from being the context window janitor for your AI pair programmer.
   tags:
     - claude-code
-    - plugin
-    - autonomous
+    - autonomous-coding
+    - git-worktree
     - tdd
-    - cli
+    - plugin
   confidence: high
 curation:
   status: included
@@ -77,10 +77,10 @@ curation:
     - Source list awesome-cli-coding-agents places it in 'Harnesses & orchestration > Orchestrators & autonomous loops', but primary product identity as a plugin overrides this
 placement:
   primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'coding-agents'"
 processing:
   discover:
     status: done
@@ -93,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:25.929Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5c004378e3e5a4448a7515cc4dad661c28fda2ca6c5f7005289e9f09b3fa7851
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: Forge is a developer-facing coding assistant that directly plans, writes, tests, reviews, and commits code, making it a coding agent rather than an extension or orchestrator.
+      decision_evidence:
+        - "Repo description: 'Turn a one-line idea into a branch with tested, reviewed, committed code. The brainstorm-to-commit pipeline for Claude Code.'"
+        - "README: 'Forge replaces you as the glue... writes the spec, plans the tasks, runs them in parallel git worktrees with TDD, reviews the code, verifies it against the acceptance criteria, and commits atomically.'"
+        - "Stars: 55, pushed 2026-07-15, not archived — shows recent activity and early traction."
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Forge acts as the primary coding assistant that plans and executes code changes, rather than mainly augmenting another assistant with host integrations like debugger or browser access.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'coding-agents'"
+      review_resume_lifecycle: null

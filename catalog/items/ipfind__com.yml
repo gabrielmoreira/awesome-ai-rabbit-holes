@@ -37,21 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web API service that returns geolocation, timezone, currency, and language data for a given IP address in JSON format.
-  why_it_matters: Developers building apps that need to localize content or infer user region can integrate a simple HTTP endpoint without managing their own IP database.
-  mental_damage: We have reached a point where even looking up an IP address is being packaged as an MCP server, just in case our agents need to geographically profile their users.
+  summary: A free IP address geo-locator and reverse lookup API service that returns location data in JSON format.
+  why_it_matters: Developers can integrate this API to quickly fetch geographic and network details from IP addresses for logging, analytics, or user personalization.
+  mental_damage: Because nothing says 'modern development' like arguing with a timezone field at 3 AM.
   tags:
-    - geo-ip
+    - ip-geolocation
     - api
-    - mcp
+    - json
+    - developer-tools
   confidence: high
 curation:
   status: excluded
-  reason: This is a generic web API for IP geolocation, not a developer-facing AI tool, agent, or AI infrastructure; its only connection to AI tooling is a mention in an awesome-mcp list as a potential server implementation.
+  reason: This is a general-purpose IP geolocation API service with no AI, coding assistant, or developer-tooling angle beyond being a standard web API.
   evidence:
-    - The product is a 'Free IP Address Geo Locator/Reverse Lookup API' with no stated AI, coding-agent, or prompt-engineering functionality.
-    - Seen in awesome-mcp-servers under Location Services, but the site itself presents no MCP server code, package, or AI workflow—only a generic REST API.
-    - No description, README, repo context, or developer-tooling pitch is provided; it is a standard SaaS data API.
+    - Product is a reverse IP lookup/geo-locator API with JSON responses
+    - No AI, agent, IDE, framework, or developer-workflow-specific functionality mentioned
+    - Primary value is IP-to-location data, not developer-tooling
 placement:
   primary_category: null
   section: null
@@ -69,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:33.132Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ced3cd929722a49f86cc9f7769a132852447ada57d2a9e036a2b4302bf509c6b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a general-purpose IP geolocation API service with no AI, coding assistant, or developer-tooling angle beyond being a standard web API.
+      decision_evidence:
+        - Product is a reverse IP lookup/geo-locator API with JSON responses
+        - No AI, agent, IDE, framework, or developer-workflow-specific functionality mentioned
+        - Primary value is IP-to-location data, not developer-tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

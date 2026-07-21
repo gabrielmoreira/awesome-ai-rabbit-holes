@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A personal Bilibili profile page for a content creator sharing LLM-related videos, articles, and collections.
-  why_it_matters: It aggregates LLM educational content including tutorials on agents, training, and MCP, serving as a video-first companion to the awesome-LLM-resources list.
-  mental_damage: Another reminder that the best-curated AI resource might be a video playlist buried in someone's personal homepage rather than your carefully tuned IDE setup.
+  summary: A Bilibili personal space for user '漆妮妮' sharing videos, audio, articles, and other content.
+  why_it_matters: It does not matter to developers as it is a personal content-sharing profile, not a developer tool.
+  mental_damage: Another reminder that 'awesome-LLM-resources' sometimes includes things that are just awesome in the literal sense.
   tags:
-    - llm
-    - tutorials
-    - video
     - bilibili
-    - resources
+    - personal-profile
+    - non-developer-tool
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal profile page and content hub, not a developer tool, framework, extension, or standalone product.
+  reason: This is a personal content-sharing profile on Bilibili, not a practical AI tool, workflow, or developer-facing resource.
   evidence:
-    - The URL resolves to a Bilibili personal space page, not a tool or repository.
-    - Source-list context describes it as a personal space hosting videos, audio, articles, and collections, not a product.
-    - No repo description, README, code, or product surface exists to evaluate as developer tooling.
+    - URL points to a Bilibili personal space
+    - Scraped site context confirms it is a user profile for sharing videos/audio/articles
+    - No repo description, code, or developer tooling signals
 placement:
   primary_category: null
   section: null
@@ -70,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:39.618Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f780e5ed77aa21ab50dec601947a162175d87b420f661f881f96b8cd810c75c8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a personal content-sharing profile on Bilibili, not a practical AI tool, workflow, or developer-facing resource.
+      decision_evidence:
+        - URL points to a Bilibili personal space
+        - Scraped site context confirms it is a user profile for sharing videos/audio/articles
+        - No repo description, code, or developer tooling signals
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

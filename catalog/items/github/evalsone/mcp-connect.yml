@@ -39,22 +39,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:58.284Z"
       bytes: 9671
 insights:
-  summary: A lightweight HTTP gateway that exposes local stdio-based MCP servers as remote HTTP endpoints for cloud-based AI tools.
-  why_it_matters: It lets remote AI services securely call local MCP servers via HTTP, bridging cloud agents with local tooling and sandbox environments like E2B.
-  mental_damage: We have reached the point where we need an HTTP bridge to tunnel our local MCP bridges so that our cloud agents can pretend to be local again.
+  summary: An HTTP gateway that exposes local stdio-based MCP servers as streamable HTTP APIs or request/response bridges.
+  why_it_matters: It allows cloud-hosted AI agents to interact with local development tools and data via the Model Context Protocol.
+  mental_damage: "Just what we needed: another layer of networking complexity to debug when your cloud LLM suddenly can't find your local filesystem."
   tags:
     - mcp
-    - http-bridge
-    - local-remote
-    - cloud-ai
+    - bridge
+    - http
+    - stdio
+    - gateway
   confidence: high
 curation:
   status: included
-  reason: "The product identity is MCP infrastructure: a bridge/middleware whose core job is exposing local MCP servers over HTTP, matching the MCP Servers & Tooling category."
+  reason: The tool's core identity is providing infrastructure/middleware for the Model Context Protocol to enable remote access to local tools.
   evidence:
-    - "Repo description: 'Enables cloud-based AI services to access local Stdio based MCP servers via HTTP requests'"
-    - "README: 'Lightweight bridge that exposes local MCP servers as HTTP APIs' with Streamable HTTP and classic bridge modes"
-    - Included in awesome-mcp-servers under Clients, reinforcing MCP-first identity
+    - README describes it as a 'Lightweight bridge that exposes local MCP servers as HTTP APIs'
+    - The product implements both Streamable HTTP and classic request/response bridge modes for MCP
+    - Primary functionality is acting as an HTTP gateway for MCP
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -73,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:53:41.754Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4c3a6d14aa42e7836197e758e9fc7c377a09ca413bf86e3f335d8bda90df0f50
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's core identity is providing infrastructure/middleware for the Model Context Protocol to enable remote access to local tools.
+      decision_evidence:
+        - README describes it as a 'Lightweight bridge that exposes local MCP servers as HTTP APIs'
+        - The product implements both Streamable HTTP and classic request/response bridge modes for MCP
+        - Primary functionality is acting as an HTTP gateway for MCP
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because its primary purpose is acting as MCP middleware/infrastructure rather than augmenting a specific coding assistant with new capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

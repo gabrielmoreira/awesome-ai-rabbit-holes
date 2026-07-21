@@ -52,23 +52,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:23.496Z"
       bytes: 5794
 insights:
-  summary: An MCP server that connects AI agents to pex.bot for simulated cryptocurrency trading using real-time Upbit market data.
-  why_it_matters: It gives coding agents a standardized interface to execute, track, and reason about virtual trades across 318 markets with enforced decision logging.
-  mental_damage: Finally, an MCP server purpose-built to help your autonomous agent prove it can lose 100M KRW in virtual won just as confidently as a human.
+  summary: MCP server providing simulated crypto trading tools and resources for AI agents via the pex.bot platform.
+  why_it_matters: Enables developers to build and test autonomous AI trading agents in a risk-free sandbox with real-time market data.
+  mental_damage: Finally, a way to watch your AI lose pretend money while you question your life choices.
   tags:
     - mcp
-    - crypto
-    - trading
-    - finance
+    - crypto-trading
     - simulation
+    - ai-agent
+    - upbit
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server exposing 22 tools and 5 resources for a specific domain, fitting cleanly into MCP Servers & Tooling as a domain-specific implementation.
+  reason: The product is an MCP server that exposes trading tools, resources, and prompts as its core identity, making MCP the primary product rather than a compatibility layer.
   evidence:
-    - "Repo description states: 'MCP server for pex.bot — AI simulated crypto trading with real-time Upbit prices.'"
-    - README defines 22 tools, 5 resources, and 5 prompts specifically for the MCP interface.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
+    - "Repo description: 'MCP server for pex.bot — AI simulated crypto trading with real-time Upbit prices. 11 tools, 5 resources, 5 prompts.'"
+    - README title and badges emphasize 'MCP server for pex.bot' and include MCP-specific branding.
+    - The tool provides MCP-compliant tools (e.g., place_order, get_balance), resources (e.g., pexbot://balance), and prompts, aligning with MCP server functionality.
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -87,12 +87,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:21:04.652Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:574f0c4de96e4c7ecc9a434b4a610fbe72633041ef62f8698e41d45dd1872ecf
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server that exposes trading tools, resources, and prompts as its core identity, making MCP the primary product rather than a compatibility layer.
+      decision_evidence:
+        - "Repo description: 'MCP server for pex.bot — AI simulated crypto trading with real-time Upbit prices. 11 tools, 5 resources, 5 prompts.'"
+        - README title and badges emphasize 'MCP server for pex.bot' and include MCP-specific branding.
+        - The tool provides MCP-compliant tools (e.g., place_order, get_balance), resources (e.g., pexbot://balance), and prompts, aligning with MCP server functionality.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server providing protocol-native tools and resources, not merely an extension that adds capabilities to another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

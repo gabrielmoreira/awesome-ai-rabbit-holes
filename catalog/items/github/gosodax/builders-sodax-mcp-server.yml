@@ -40,24 +40,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:10.454Z"
       bytes: 11035
 insights:
-  summary: An MCP server providing AI coding assistants with live cross-network DeFi API data, swap tools, and auto-syncing SODAX SDK documentation across 17+ blockchain networks.
-  why_it_matters: Developers building cross-chain DeFi integrations can query live swap data, solver volumes, and intent history directly from their AI assistant without leaving the editor.
-  mental_damage: Now your AI assistant can hallucinate cross-chain swap parameters with real-time API data instead of making them up from thin air.
+  summary: MCP server providing live cross-network DeFi API data and auto-updating SDK documentation for 17+ networks.
+  why_it_matters: Developers can query real-time cross-chain DeFi data (swaps, lending rates, solver volume) and SDK docs directly from their AI coding assistant.
+  mental_damage: Now your AI assistant can tell you exactly how much you're losing on that cross-chain swap while you're trying to debug a loop.
   tags:
     - mcp
     - defi
     - cross-chain
+    - sdk-docs
     - blockchain
-    - api
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server exposing SODAX DeFi API data and SDK docs to MCP-compatible coding assistants, fitting the Domain Servers section.
+  reason: This is an MCP-first server exposing domain-specific (DeFi/cross-chain) tools and documentation, making MCP its primary identity.
   evidence:
-    - "Repo description: 'get instant access to SODAX API data plus SDK documentation'"
-    - "README states: 'SODAX MCP server for AI coding assistants' with tools like sodax_get_swap_tokens and docs_searchDocumentation"
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' section
-    - "Still active: pushed_at 2026-05-06, not archived"
+    - Repo description explicitly identifies it as an MCP server
+    - README details 28+ tools for DeFi data access and SDK docs
+    - Listed in MCP registries (Glama, MCP Registry, mcp.so)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -76,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:42.744Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ae94c7986b43a23dcafeab7cccc8e0d2e3673c906302beb9d5578e4e4874fadc
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server exposing domain-specific (DeFi/cross-chain) tools and documentation, making MCP its primary identity.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server
+        - README details 28+ tools for DeFi data access and SDK docs
+        - Listed in MCP registries (Glama, MCP Registry, mcp.so)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not just an extension for another assistant).
+      review_reason: null
+      review_resume_lifecycle: null

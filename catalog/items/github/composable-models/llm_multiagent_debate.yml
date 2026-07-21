@@ -39,23 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:24.666Z"
       bytes: 2627
 insights:
-  summary: A preliminary research implementation of the ICML 2024 paper 'Improving Factuality and Reasoning in Language Models through Multiagent Debate' for running experiments on math, biography, and MMLU tasks.
-  why_it_matters: Provides a reference implementation for developers exploring multiagent debate patterns to improve LLM reasoning and reduce hallucinations in their own agentic systems.
-  mental_damage: Yet another repo offering the architectural insight that if you make two models argue long enough, one of them eventually sounds confident enough to be fact-checked by the other.
+  summary: Academic research implementation for the ICML 2024 paper on improving LLM factuality and reasoning through multi-agent debate.
+  why_it_matters: It demonstrates that multiple LLM instances debating each other can improve accuracy on math and trivia benchmarks, though it is an experiment reproduction repo rather than a reusable developer tool.
+  mental_damage: Giving language models a gavel and quorum to settle math facts by majority vote means your bugs now arrive with parliamentary procedure.
   tags:
-    - multiagent
+    - multi-agent
     - research
     - reasoning
-    - llm
+    - paper-implementation
     - debate
   confidence: high
 curation:
   status: excluded
-  reason: This is a research paper implementation and evaluation harness rather than a practical developer tool, framework, or agent product for building software.
+  reason: This is an academic paper reproduction repository for a specific multi-agent debate research method, not a developer-facing tool, framework, or platform for building software.
   evidence:
-    - Repo description explicitly states this is an ICML 2024 paper implementation ('Improving Factuality and Reasoning in Language Models through Multiagent Debate').
-    - README shows the primary purpose is running academic experiments across math, GSM, biography, and MMLU tasks with generate and evaluate scripts.
-    - Listed in awesome-ai-agents under 'Multiagent Debate' section as a research reference, not as a usable developer product.
+    - Repo description and README frame the project as the ICML 2024 paper implementation for 'Improving Factuality and Reasoning in Language Models through Multiagent Debate'.
+    - Content consists of ad-hoc experiment scripts for math, GSM, biography, and MMLU tasks rather than a reusable SDK, control plane, or coding assistant.
+    - Catalog scope explicitly excludes general ML research and raw paper implementations with no developer-tooling angle.
 placement:
   primary_category: null
   section: null
@@ -74,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:46:22.356Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9abe1056e974ded3df4f96d4f9901f84652f32ba57ff7e9b7a697ce59d14266e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an academic paper reproduction repository for a specific multi-agent debate research method, not a developer-facing tool, framework, or platform for building software.
+      decision_evidence:
+        - Repo description and README frame the project as the ICML 2024 paper implementation for 'Improving Factuality and Reasoning in Language Models through Multiagent Debate'.
+        - Content consists of ad-hoc experiment scripts for math, GSM, biography, and MMLU tasks rather than a reusable SDK, control plane, or coding assistant.
+        - Catalog scope explicitly excludes general ML research and raw paper implementations with no developer-tooling angle.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -50,23 +50,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:05.999Z"
       bytes: 19882
 insights:
-  summary: An open-source MCP server that lets AI assistants query Russian EGRUL and EGRIP business registries via local SQLite or a hosted API.
-  why_it_matters: Developers building AI workflows for Russian due diligence can wire official FNS registry lookups directly into Claude, Cursor, or Cline without scraping or manual API glue.
-  mental_damage: An entire MCP server dedicated to turning a tax authority dump into seven AI-visible tools, because apparently even our bureaucratic registry lookups now need a token budget.
+  summary: MCP server for Russian EGRUL/EGRIP business registry lookups via FNS open-data, with self-host and hosted Pro tier options.
+  why_it_matters: Lets AI assistants query Russian legal entity and entrepreneur registries directly, enabling due-diligence workflows in Cursor/Claude Desktop without manual data entry.
+  mental_damage: Finally, a way to make your AI assistant care about Russian tax IDs as much as you do.
   tags:
     - mcp
-    - russian-registry
+    - business-registry
     - due-diligence
-    - fns
-    - kyc
+    - russia
+    - self-hosted
   confidence: high
 curation:
   status: included
-  reason: The product’s identity is an MCP server exposing Russian registry data tools, which fits squarely into MCP Servers & Tooling under Domain Servers.
+  reason: "MCP is the product identity: this is a domain-specific MCP server exposing Russian business registry tools to AI assistants."
   evidence:
-    - Repo description explicitly calls it an 'MCP server for Russian EGRUL/EGRUL lookups'.
-    - README documents seven MCP tools (search_by_inn, get_director, bulk_cards, etc.) for Cursor, Claude Desktop, and Cline.
-    - Listed in awesome-mcp-servers under Finance & Fintech as a server implementation.
+    - Repo description explicitly identifies it as an MCP server for EGRUL/EGRIP lookups
+    - README details seven MCP tools for business registry queries
+    - Listed in MCP registries (Glama, Smithery) and published on PyPI as MCP server
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -85,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:26.527Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:01de86e25ba57c20c13a6a704affd4b503e66ebe6abef11a1a15104d2eb1be14
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing Russian business registry tools to AI assistants."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for EGRUL/EGRIP lookups
+        - README details seven MCP tools for business registry queries
+        - Listed in MCP registries (Glama, Smithery) and published on PyPI as MCP server
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain tools, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

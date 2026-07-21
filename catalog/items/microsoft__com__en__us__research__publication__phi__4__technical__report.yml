@@ -1,0 +1,109 @@
+id: microsoft__com__en__us__research__publication__phi__4__technical__report
+kind: website
+name: Phi-4 (Microsoft)
+canonical_url: https://microsoft.com/en-us/research/publication/phi-4-technical-report
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__microsoft__com__en__us__research__publication__phi__4__technical__report__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Models
+        anchor_text: Phi-4 (Microsoft)
+        extracted_url: https://microsoft.com/en-us/research/blog/phi-4-technical-report
+        surrounding_text: "- **[Phi-4 (Microsoft)](https://www.microsoft.com/en-us/research/blog/phi-4-technical-report/)** – Microsoft's lightweight, efficient model family with strong coding performance."
+        confidence: high
+    - id: discovery__www__microsoft__com__en__us__research__publication__phi__4__technical__report__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Code Models
+        anchor_text: Phi-4 (Microsoft)
+        extracted_url: https://www.microsoft.com/en-us/research/blog/phi-4-technical-report
+        surrounding_text: "- **[Phi-4 (Microsoft)](https://www.microsoft.com/en-us/research/blog/phi-4-technical-report/)** – Microsoft's lightweight, efficient model family with strong coding performance."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Phi-4 is a 14B parameter language model from Microsoft Research, trained with a focus on synthetic data and optimized for reasoning tasks.
+  why_it_matters: It offers developers a smaller, high-performance model for STEM-focused reasoning tasks, potentially reducing compute costs while maintaining strong accuracy.
+  mental_damage: Another model release where the real question is whether your GPU can handle the context window before your patience does.
+  tags:
+    - language-model
+    - microsoft
+    - reasoning
+    - stem
+  confidence: high
+curation:
+  status: excluded
+  reason: Phi-4 is a raw model release (research artifact) without a developer-tooling identity, runtime, or integration layer that fits the catalog's scope.
+  evidence:
+    - Primary page describes it as a '14B parameter model' with a technical report focus
+    - No repo, CLI, SDK, or tooling surface is presented—only a research publication
+    - Source-list context places it under 'Code Models' but the catalog excludes raw model checkpoints
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:35:31.320Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1138470800b72788cb375becd670c4e861f760366668a3e6d245991921b5d447
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Phi-4 is a raw model release (research artifact) without a developer-tooling identity, runtime, or integration layer that fits the catalog's scope.
+      decision_evidence:
+        - Primary page describes it as a '14B parameter model' with a technical report focus
+        - No repo, CLI, SDK, or tooling surface is presented—only a research publication
+        - Source-list context places it under 'Code Models' but the catalog excludes raw model checkpoints
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.967Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

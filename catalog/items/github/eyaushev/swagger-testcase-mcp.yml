@@ -40,26 +40,26 @@ metadata:
       fetched_at: "2026-07-16T05:04:59.127Z"
       bytes: 15476
 insights:
-  summary: An MCP server that parses Swagger/OpenAPI specs to generate structured test cases, validate API definitions, compare versions, and create mock data.
-  why_it_matters: It automates the tedious generation of positive, negative, and security test cases from API specs, exporting directly to tools like Postman, TestRail, and k6.
-  mental_damage: Another brave attempt to solve the 'I wrote 50 test cases for a single endpoint and then the spec changed' tragedy, now wrapped in the MCP protocol du jour.
+  summary: An MCP server that generates structured API test cases, validates OpenAPI specifications, and produces mock data from Swagger/OpenAPI files.
+  why_it_matters: It automates the tedious process of creating positive, negative, and boundary test cases, making it easier to keep testing suites in sync with evolving API specs.
+  mental_damage: Because nothing says 'odern workflow' like using an LLM to write the tests that check if your LLM-generated code actually works.
   tags:
     - mcp
     - api-testing
     - openapi
-    - qa
-    - test-generation
-  confidence: medium
+    - qa-automation
+    - swagger
+  confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server designed to give coding assistants and clients access to specialized API testing and spec analysis capabilities.
+  reason: The tool's identity is fundamentally defined by its implementation as an MCP server meant to be consumed by clients like Claude Desktop or Cursor.
   evidence:
-    - Repo description explicitly states 'MCP server for API testing'.
-    - README details integration configs for Claude Desktop, Cursor, Windsurf, and VS Code.
-    - Listed in 'awesome-mcp-servers' under Server Implementations > Developer Tools.
+    - Repo description explicitly identifies it as an 'MCP server for API testing'
+    - README focuses heavily on installation/configuration for various MCP clients (Claude Desktop, Cursor, Windsurf)
+    - Included in awesome-mcp-servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:54:38.019Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f1cedbd0df633c518ae9270593de8ba6f560fdd5a8c9ccee2a55af76f2668b70
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's identity is fundamentally defined by its implementation as an MCP server meant to be consumed by clients like Claude Desktop or Cursor.
+      decision_evidence:
+        - Repo description explicitly identifies it as an 'MCP server for API testing'
+        - README focuses heavily on installation/configuration for various MCP clients (Claude Desktop, Cursor, Windsurf)
+        - Included in awesome-mcp-servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is an MCP server implementation rather than a generic workflow extension for a specific host.
+      review_reason: null
+      review_resume_lifecycle: null

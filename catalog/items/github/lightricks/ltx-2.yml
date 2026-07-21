@@ -43,23 +43,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:50.126Z"
       bytes: 15456
 insights:
-  summary: Official Python inference and LoRA trainer package for the LTX-2 audio-video generative model, a DiT-based foundation model supporting synchronized audio-video generation.
-  why_it_matters: Developers building generative video features can use this package to run inference or fine-tune LTX-2 models locally with LoRA rather than relying on hosted APIs.
-  mental_damage: Just when you had your local LLM setup perfectly tuned, the ecosystem decided your GPU was underutilized and really, really wants to generate synchronized audio-video pairs at 22 billion parameters.
+  summary: Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.
+  why_it_matters: Provides developers with a ready-to-use toolkit for generating and fine-tuning audio-video content locally, bridging generative AI research and practical media synthesis workflows.
+  mental_damage: Another powerful multimodal model drops, promising cinematic AI while quietly requiring a GPU farm and a PhD in temporal consistency to actually use.
   tags:
     - generative-ai
-    - video-generation
-    - multimodal
-    - diffusion
-    - local-inference
+    - video
+    - audio
+    - lora
+    - local-ai
   confidence: high
 curation:
   status: excluded
-  reason: The project is a model-specific inference and training package for generative audio-video, which falls outside the catalog's scope of developer-facing AI tooling, coding agents, and productivity infrastructure.
+  reason: The project is a model-specific inference and training package for a generative audio-video model, not a developer-facing AI tool for coding, agent orchestration, or workflow augmentation.
   evidence:
-    - Repo description explicitly states it is 'Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.'
-    - README frames LTX-2 as a 'DiT-based audio-video foundation model' focused on synchronized audio-video generation, not developer workflows.
-    - Source list context places it under '视频 Video > 模型' (Video > Models), a generative media category rather than developer tooling.
+    - "Repo description: 'Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.'"
+    - "Homepage: https://ltx.io/model/ltx-2 positions it as a model asset, not a developer tool."
+    - Appears in awesome-LLM-resources under '视频 Video > 模型', indicating it is curated as a model resource, not developer tooling.
 placement:
   primary_category: null
   section: null
@@ -78,12 +78,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:57.738Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7c28e8ecdbc980b5b523ab3537c2e215fc66362b456d30df4f1a39c2d0c59872
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a model-specific inference and training package for a generative audio-video model, not a developer-facing AI tool for coding, agent orchestration, or workflow augmentation.
+      decision_evidence:
+        - "Repo description: 'Official Python inference and LoRA trainer package for the LTX-2 audio–video generative model.'"
+        - "Homepage: https://ltx.io/model/ltx-2 positions it as a model asset, not a developer tool."
+        - Appears in awesome-LLM-resources under '视频 Video > 模型', indicating it is curated as a model resource, not developer tooling.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

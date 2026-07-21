@@ -59,26 +59,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:11.837Z"
       bytes: 9161
 insights:
-  summary: Petals is a PyTorch-based distributed system that runs large language model inference and fine-tuning by splitting model layers across a BitTorrent-style volunteer swarm of GPUs.
-  why_it_matters: It lets developers run massive models like Llama 3.1 (405B) or Mixtral on consumer hardware by distributing the inference load across a community network with a familiar Transformers API.
-  mental_damage: You can now host a fraction of a 405B model on your RTX 3060 to help a stranger generate three tokens per second, which feels exactly like the distributed computing projects we swore we were done with in 2010.
+  summary: A distributed system for running large language models locally via a BitTorrent-style network, enabling inference and fine-tuning on consumer hardware.
+  why_it_matters: Developers can run and fine-tune state-of-the-art models like Llama 3.1 (405B) or Mixtral (8x22B) on their own machines by sharing compute across a decentralized network.
+  mental_damage: Finally, a way to run a 405B-parameter model on your laptop—just borrow 399B parameters from strangers on the internet.
   tags:
-    - distributed-inference
     - local-ai
-    - volunteer-computing
+    - distributed-inference
+    - fine-tuning
     - pytorch
     - llm-serving
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is enabling local or self-hosted execution of LLMs via a distributed swarm, fitting the Local AI category focused on runtime and serving stacks.
+  reason: Petals is a local runtime system for distributed LLM inference and fine-tuning, fitting the Local AI category where private/self-hosted execution is central.
   evidence:
-    - Repo description states 'Run LLMs at home, BitTorrent-style. Fine-tuning and inference...'
-    - "README demonstrates a local serving stack: 'Connect to a distributed network hosting model layers'"
-    - Seen in 'awesome-local-ai' under the 'Inference UI' section
+    - "Repo description: 'Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading'"
+    - README emphasizes running models like Llama 3.1 (405B) from a desktop or Colab via distributed network
+    - "Source-list context: listed in 'awesome-local-ai' under 'Inference UI'"
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  section: Local Runtimes
 lifecycle:
   status: promotion_candidate
   reason: Stars (10122) exceeded threshold (150)
@@ -94,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:58.729Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8dfbae8aea81687571f4ed39c4a94f33b33b495604384a28996d54b7b0382003
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: Petals is a local runtime system for distributed LLM inference and fine-tuning, fitting the Local AI category where private/self-hosted execution is central.
+      decision_evidence:
+        - "Repo description: 'Run LLMs at home, BitTorrent-style. Fine-tuning and inference up to 10x faster than offloading'"
+        - README emphasizes running models like Llama 3.1 (405B) from a desktop or Colab via distributed network
+        - "Source-list context: listed in 'awesome-local-ai' under 'Inference UI'"
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because the primary identity is a local runtime for distributed inference, not a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

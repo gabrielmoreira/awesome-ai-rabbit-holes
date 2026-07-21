@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ShopPal AI is a U.S.-based service provider that integrates AI infrastructure, content generation, and go-to-market execution specifically for fashion and apparel brands.
-  why_it_matters: It offers a template for how generalized AI technologies like shopping agents and visual AI can be operationalized into revenue-generating systems within a specific vertical.
-  mental_damage: Witnessing a company pitch 'AI Infrastructure' for fashion while explicitly assuring investors that no overseas affiliate will touch the U.S. revenue serves as a stark reminder that modern AI adoption is often 10% neural networks and 90% Cayman Islands holding structures.
+  summary: ShopPal AI is a U.S.-based service provider offering AI infrastructure integration, operational enablement, and go-to-market execution for fashion and apparel brands.
+  why_it_matters: It helps fashion companies deploy AI systems like shopping agents and visual AI without building large internal teams.
+  mental_damage: Because nothing says 'developer tooling' like a fashion AI outfit generator with a 79% CTR uplift.
   tags:
-    - vertical-ai
-    - fashion-tech
-    - ai-integration
-    - enterprise-ai
+    - fashion-ai
+    - ecommerce
+    - system-integration
+    - go-to-market
   confidence: high
 curation:
   status: excluded
-  reason: This is a vertical-specific agency and service provider for the fashion industry, not a developer-facing tool, framework, or coding assistant.
+  reason: It is a vertical SaaS/service provider for fashion commerce, not a developer-facing AI tool, framework, or workflow product.
   evidence:
-    - The scraped site describes the product as 'AI infrastructure integration, operational enablement, and go-to-market execution services for fashion and apparel brands', not a developer tool.
-    - It focuses on merchandising, content generation for marketing, and styling logic rather than code editing, agent orchestration, or SDKs.
-    - It appears in 'awesome-ai-agents' only as a generic listing, likely due to keyword matching on 'shopping agents' rather than being a programmable agent framework.
+    - Primary page excerpt describes AI infrastructure and go-to-market services for fashion brands
+    - No repo, code, SDK, or developer tooling identity
+    - Source-list context places it in 'ShopPal' under 'AI autonomous agents' but the product is a service, not a tool
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:35.607Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4c3caf68a0cce38862f9608854adeac59c6d3dd368883f922304db514c7bd15a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: It is a vertical SaaS/service provider for fashion commerce, not a developer-facing AI tool, framework, or workflow product.
+      decision_evidence:
+        - Primary page excerpt describes AI infrastructure and go-to-market services for fashion brands
+        - No repo, code, SDK, or developer tooling identity
+        - Source-list context places it in 'ShopPal' under 'AI autonomous agents' but the product is a service, not a tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

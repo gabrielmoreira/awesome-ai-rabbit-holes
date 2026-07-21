@@ -53,21 +53,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A long-form video interview on Bilibili featuring host Luo Yonghao speaking with content creator Tim from Ying Shi Ju Feng (Film Hurricane) about his career in video production and entrepreneurship.
-  why_it_matters: It does not matter to developers as a tool; it is a podcast episode, not a developer-facing product or workflow enhancer.
-  mental_damage: Nothing accelerates impostor syndrome quite like watching a multi-million view count on a video about cameras while you struggle to get your linter to pass.
+  summary: A Bilibili video featuring an interview between filmmaker Tim (潘天鸿) and 罗永浩 (Luo Yonghao) discussing Tim's career in filmmaking, adventure, and entrepreneurship.
+  why_it_matters: This is a media interview and does not provide developer-facing AI tooling or workflows.
+  mental_damage: The only code here is the video's embed URL, and even that is probably auto-generated.
   tags:
-    - media
-    - non-tool
-    - podcast
+    - video
+    - interview
+    - non-developer-content
   confidence: high
 curation:
   status: excluded
-  reason: This is a video interview/podcast episode, not a developer tool, agent, framework, or infrastructure component, and therefore falls outside the catalog's scope.
+  reason: This is a video interview on a Chinese streaming platform, not a practical AI tool, framework, or developer resource.
   evidence:
-    - The URL points to a Bilibili video page, not a GitHub repository or product site.
-    - The page excerpt describes a talk show interview with a video creator, with no mention of code, AI tooling, or developer workflows.
-    - The source list entry places it under 'Podcast' in a general LLM resources list, which is a media category, not a tool category.
+    - URL points to a Bilibili video page
+    - Scraped content describes a video interview between Tim and Luo Yonghao
+    - Source-list context places it under 'Podcast' in a general LLM resources list
 placement:
   primary_category: null
   section: null
@@ -76,15 +76,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:47.465Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d23cddc647a0bd3f6f363d0f5017749af09e9b70795a48edf422a97fbe34d49f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a video interview on a Chinese streaming platform, not a practical AI tool, framework, or developer resource.
+      decision_evidence:
+        - URL points to a Bilibili video page
+        - Scraped content describes a video interview between Tim and Luo Yonghao
+        - Source-list context places it under 'Podcast' in a general LLM resources list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T16:42:15.365Z"

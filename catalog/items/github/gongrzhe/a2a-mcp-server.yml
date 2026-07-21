@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:09.552Z"
       bytes: 14970
 insights:
-  summary: An archived MCP server that bridges the Model Context Protocol with Google's Agent-to-Agent (A2A) protocol, allowing MCP-compatible assistants like Claude to discover and interact with A2A agents.
-  why_it_matters: It provides the plumbing to connect Anthropic's MCP ecosystem with Google's emerging A2A standard, letting developers experiment with cross-protocol agent communication.
-  mental_damage: We now have a protocol bridge for protocols that are themselves mostly bridges, adding another layer of middleware to the stack before we've even agreed on what the bottom layer looks like.
+  summary: An MCP server that bridges the Model Context Protocol with the Agent-to-Agent (A2A) protocol, enabling MCP-compatible assistants to interact with A2A agents.
+  why_it_matters: Developers can now connect MCP-based tools like Claude to A2A agents, unifying two major agent communication standards in a single workflow.
+  mental_damage: Because nothing says 'interoperability' like a bridge between two protocols that both claim to solve interoperability.
   tags:
     - mcp
     - a2a
-    - protocol-bridge
     - agent-communication
+    - protocol-bridge
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived, and as a thin protocol bridge without an active maintenance cycle, it adds minimal enduring value to a curated developer tooling catalog.
+  reason: The repository is archived, indicating it is no longer actively maintained, which is a strong negative signal for inclusion.
   evidence:
-    - Repo is marked as archived, indicating it is no longer actively maintained.
-    - Product identity is a bridge/adapter between MCP and A2A, fitting the 'MCP is only an adapter' exclusion rule for the MCP category.
-    - Classified under 'Agent Communication Protocols' in an awesome list, which signals infrastructure rather than a standalone dev tool.
+    - "Repo is archived (archived: true)"
+    - Created 2025-05-19, last pushed 2025-06-18 (short-lived)
+    - Primary identity is an MCP-A2A bridge server, but archival overrides fit
 placement:
   primary_category: null
   section: null
@@ -74,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:32.100Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0952832afa97d17419452ce23b3e4ce717e06fffd7831ab1de2734f156c8a5f3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is archived, indicating it is no longer actively maintained, which is a strong negative signal for inclusion.
+      decision_evidence:
+        - "Repo is archived (archived: true)"
+        - Created 2025-05-19, last pushed 2025-06-18 (short-lived)
+        - Primary identity is an MCP-A2A bridge server, but archival overrides fit
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Supabase landing page for AI tools, redirecting visitors to their suite of database, authentication, and vector storage products for AI applications.
-  why_it_matters: Developers building AI apps can quickly find Supabase's vector stores, auth, and real-time APIs needed to ship LLM-powered features.
-  mental_damage: Yet another cloud provider rebranding their existing database as an AI breakthrough so you can feel productive while provisioning infrastructure you don't strictly need.
+  summary: Supabase's AI service offering for integrating AI capabilities into applications.
+  why_it_matters: Provides developers with managed AI infrastructure and APIs to add AI features to their apps without building from scratch.
+  mental_damage: Now you can add AI to your Supabase project, because apparently your database wasn't already doing enough.
   tags:
-    - database
+    - ai-api
+    - supabase
     - backend
-    - vector-storage
+    - database
   confidence: high
 curation:
   status: excluded
-  reason: This is a marketing redirect page for Supabase's general platform rather than a standalone developer tool, agent, or AI-specific product.
+  reason: This is a hosted AI service/API offering from Supabase, not a developer tool, extension, or workflow product in the catalog's scope.
   evidence:
-    - URL is supabase.com/ai, which is a product marketing page rather than a tool, repo, or directory.
-    - No repo description, README, or code artifacts provided; only a source-list mention under 'Database and API Tools'.
-    - Not a standalone product, framework, or agent; it is a redirect to Supabase's existing backend services.
+    - Source-list context places it under 'Database and API Tools' in awesome-ai-coding-tools
+    - URL points to Supabase's AI product page, not a standalone tool or repo
 placement:
   primary_category: null
   section: null
@@ -68,12 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:21.462Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0c0e17f6371b20568cc7c8c9f46345a5c3d5d671a56c3aac36a98b551bdd7596
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a hosted AI service/API offering from Supabase, not a developer tool, extension, or workflow product in the catalog's scope.
+      decision_evidence:
+        - Source-list context places it under 'Database and API Tools' in awesome-ai-coding-tools
+        - URL points to Supabase's AI product page, not a standalone tool or repo
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

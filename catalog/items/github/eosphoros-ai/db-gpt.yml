@@ -67,15 +67,15 @@ metadata:
       fetched_at: "2026-07-16T05:04:56.554Z"
       bytes: 21133
 insights:
-  summary: An open-source agentic AI data assistant that connects to databases and files, autonomously writes SQL and Python code, and generates reports and dashboards.
-  why_it_matters: It lets developers delegate end-to-end data analysis workflows—including query generation, code execution, and visualization—to a multi-agent system instead of gluing together disparate scripts.
-  mental_damage: Yet another reminder that while we built tools to help us code faster, we are now perfectly content building tools that write the SQL and Python so we never have to look at the data ourselves.
+  summary: An open-source agentic AI data assistant that connects to databases, writes SQL and code, runs skills in sandboxed environments, and generates reports and insights.
+  why_it_matters: Developers can delegate data analysis, SQL generation, and multi-source workflows to an AI agent that operates across databases, spreadsheets, and knowledge bases.
+  mental_damage: Finally, a tool that writes SQL for you—so you can spend more time explaining to stakeholders why the SQL it wrote is wrong.
   tags:
-    - data
-    - agents
-    - sql
-    - rag
-    - analysis
+    - data-analysis
+    - sql-generation
+    - agentic-workflows
+    - sandboxed-execution
+    - multi-source
   confidence: high
 curation:
   status: included
@@ -86,10 +86,10 @@ curation:
     - Active project with 18,673 stars and recent pushes, positioned as a full assistant rather than a library or plugin.
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (18673) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -102,12 +102,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:27.365Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5f1c167f2dcf235c0c71746537b3149efa1054d3801d51fe45612d3f9fb1aabf
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: DB-GPT is a workbench for coordinating data analysis workflows across multiple sources, tools, and skills, fitting the agent orchestration category better than a pure coding agent or framework.
+      decision_evidence:
+        - "Repo description: 'open-source agentic AI data assistant for the next generation of AI + Data products'"
+        - "README: 'plan tasks, break work into steps, call tools, and complete analysis workflows end to end'"
+        - "README: 'platform for building AI-native data agents, workflows, and applications with agents, AWEL, RAG, and multi-model support'"
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the primary product is an operated workbench for multi-step data workflows rather than a code-first library or SDK.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

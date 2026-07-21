@@ -61,23 +61,21 @@ metadata:
       fetched_at: "2026-07-20T15:11:36.710Z"
       bytes: 6285
 insights:
-  summary: An MCP server that gives coding assistants like Cursor and Claude Desktop browser automation capabilities via browser-use and Playwright.
-  why_it_matters: It allows AI agents to directly navigate, interact with, and extract data from live websites without developers needing to hand-craft scraping scripts or browser automation code.
-  mental_damage: Your agent can now autonomously fall down a Wikipedia rabbit hole while you patiently wait for it to decide that 'open Hacker News' requires forty-three milliseconds of VNC streaming.
+  summary: An MCP server that enables AI agents to control web browsers using the browser-use library.
+  why_it_matters: Lets developers give AI agents browser automation capabilities via MCP without building custom integrations.
+  mental_damage: Another layer in the MCP stack so your AI can finally click that 'I am not a robot' checkbox for you.
   tags:
-    - mcp
     - browser-automation
-    - cursor
-    - playwright
-    - agent-tools
+    - mcp
+    - ai-agents
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server that provides browser automation as a tool for other agents, aligning perfectly with the MCP Servers & Tooling category.
+  reason: The product is an MCP server focused on browser automation, making MCP the core identity rather than a compatibility feature.
   evidence:
-    - "Repo description states: 'Browse the web, directly from Cursor etc.'"
-    - README identifies it as 'An MCP server that enables AI agents to control web browsers'
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Browser Automation sections
+    - "Repo description: 'Browse the web, directly from Cursor etc.'"
+    - "README: 'An MCP server that enables AI agents to control web browsers using browser-use'"
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Browser Control/Browser Automation sections
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -96,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:54.905Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e7e3c25b10aefd11b99359ed21720d4d822a13b48cc1382c084c3460412d191f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server focused on browser automation, making MCP the core identity rather than a compatibility feature.
+      decision_evidence:
+        - "Repo description: 'Browse the web, directly from Cursor etc.'"
+        - "README: 'An MCP server that enables AI agents to control web browsers using browser-use'"
+        - Listed in awesome-mcp-list and awesome-mcp-servers under Browser Control/Browser Automation sections
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not merely an extension that adds browser capabilities to another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

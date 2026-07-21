@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:38.292Z"
       bytes: 10530
 insights:
-  summary: Claurst is an open-source, terminal-based coding agent built in Rust that reimplements Claude Code's behavior with multi-provider support, a TUI interface, and experimental managed agent orchestration.
-  why_it_matters: It offers developers a fast, memory-efficient, and telemetry-free CLI pair programmer that supports 30+ AI providers while remaining fully local and extensible.
-  mental_damage: We have successfully reached the phase of the timeline where we are rewriting leaked npm source maps in Rust to build terminal crabs that argue with us about code.
+  summary: An open-source, multi-provider terminal coding agent built in Rust with a TUI interface and plugin system.
+  why_it_matters: It offers developers a fast, memory-efficient, and privacy-focused alternative to proprietary coding assistants, with multi-provider support and advanced features like managed agents and chat forking.
+  mental_damage: Finally, a coding agent that doesn’t phone home—unless you count the existential dread of debugging Rust.
   tags:
-    - terminal-agent
-    - rust
-    - cli
+    - terminal
+    - coding-agent
     - multi-provider
+    - rust
     - tui
   confidence: high
 curation:
   status: included
-  reason: Claurst is a standalone terminal coding assistant that directly plans, writes, and edits code across a repo, fitting the primary identity of a coding agent rather than an extension or framework.
+  reason: Claurst is a standalone terminal-native coding agent that directly reads, plans, edits, and executes code, fitting the primary identity of a coding assistant rather than an extension or framework.
   evidence:
-    - Repo description explicitly calls it 'Your favorite Terminal Coding Agent, now in Rust'.
-    - README states it is a 'multi-provider terminal coding agent' and 'TUI pair programmer' that reads and edits code.
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - "Repo description: 'Agentic Coding for Builders who Ship'"
+    - "README: 'open-source, multi-provider terminal coding agent built from the ground up in Rust'"
+    - "Source-list context: Listed under 'Terminal-native coding agents > Open Source' in awesome-cli-coding-agents"
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -83,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:30.316Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:17db777cb151686764e3e8db9ed2890f9675b329886d515ae176d685b0c45017
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Claurst is a standalone terminal-native coding agent that directly reads, plans, edits, and executes code, fitting the primary identity of a coding assistant rather than an extension or framework.
+      decision_evidence:
+        - "Repo description: 'Agentic Coding for Builders who Ship'"
+        - "README: 'open-source, multi-provider terminal coding agent built from the ground up in Rust'"
+        - "Source-list context: Listed under 'Terminal-native coding agents > Open Source' in awesome-cli-coding-agents"
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Claurst is a primary coding assistant (not an extension for another tool) with its own TUI, multi-provider support, and agentic workflows.
+      review_reason: null
+      review_resume_lifecycle: null

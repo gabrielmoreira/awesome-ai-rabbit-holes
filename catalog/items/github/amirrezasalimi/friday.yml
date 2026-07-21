@@ -39,26 +39,25 @@ metadata:
       fetched_at: "2026-07-20T05:16:59.852Z"
       bytes: 3220
 insights:
-  summary: Friday is a local web interface that uses GPT-4 to generate Node.js application scaffolds from sequential prompts, each defining a specific section of the app.
-  why_it_matters: It allows developers to bootstrap a Node.js project structure and logic through a browser-based chat interface rather than starting from scratch.
-  mental_damage: Just when you thought the 'unlimited prompts' era was over, here is a tool to generate an entire index.js file and then manually debug the missing packages in the generated package.json.
+  summary: Friday is a developer assistant that generates whole Node.js projects from prompts using GPT-4.
+  why_it_matters: It lets developers scaffold and generate entire applications by describing app sections as prompts, reducing manual setup time.
+  mental_damage: Finally, a tool that turns your vague app ideas into a folder full of Node.js files you’ll have to debug anyway.
   tags:
-    - nodejs
-    - app-generator
     - prompt-to-app
+    - nodejs
     - gpt-4
     - scaffolding
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The tool's core identity is turning prompts into a new Node.js application scaffold rather than editing an existing repository, which aligns with the App Builders category.
+  reason: The core product turns prompts into complete Node.js applications, fitting the prompt-to-app builder category.
   evidence:
-    - Repo description states it 'can make whole nodejs project for you with unlimited prompts.'
-    - README describes it as an 'AI-Powered App Generation Tool' that builds the foundation of an application via prompts.
-    - Future goals mention generating multi-file apps with a well-defined structure, currently creating an index.js for the entire application.
+    - "Repo description: 'Friday is a developer assistant can make whole nodejs project for you with unlimited prompts'"
+    - "README: 'Friday is a developer agent that helps you quickly create applications with AI assistance' and 'allows you to add unlimited sections, each of which is a prompt representing a specific part of your app'"
+    - Canonical positives for app-builders include 'Friday'
 placement:
   primary_category: app-builders
-  section: Local / Code-Scaffolding Builders
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:39.675Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:48ca9edcc5b2c167cd2b5112131acdd7fad72aef7b8407f64f830a5d452d7b50
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The core product turns prompts into complete Node.js applications, fitting the prompt-to-app builder category.
+      decision_evidence:
+        - "Repo description: 'Friday is a developer assistant can make whole nodejs project for you with unlimited prompts'"
+        - "README: 'Friday is a developer agent that helps you quickly create applications with AI assistance' and 'allows you to add unlimited sections, each of which is a prompt representing a specific part of your app'"
+        - Canonical positives for app-builders include 'Friday'
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the primary workflow is generating new apps from prompts rather than editing existing repos.
+      review_reason: null
+      review_resume_lifecycle: null

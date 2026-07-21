@@ -60,15 +60,14 @@ metadata:
       fetched_at: "2026-07-20T15:11:45.128Z"
       bytes: 17657
 insights:
-  summary: LMCP is an MCP server that gives AI assistants local, native access to 189 tools across macOS and Windows apps like Mail, Calendar, Teams, OneDrive, and Slack without cloud APIs or OAuth.
-  why_it_matters: Developers can let Claude, Cursor, and other MCP-compatible assistants operate directly on local productivity data with zero API keys, OAuth flows, or rate limits.
-  mental_damage: Your AI can now summarize your unread mail and cancel your 2pm meeting, which is objectively faster than you opening Calendar to do it yourself.
+  summary: Local MCP server giving AI assistants native macOS app access via MCP protocol for Mail, Calendar, Teams, Slack, and 180+ tools without API keys or cloud calls.
+  why_it_matters: Lets developers control macOS apps from AI assistants using only local data, eliminating OAuth, rate limits, and privacy risks in workflows like email triage or calendar scheduling.
+  mental_damage: Finally, an AI tool that makes you feel less guilty about granting clipboard access to your ex's iMessage history.
   tags:
     - mcp
     - local-first
     - macos
-    - productivity
-    - privacy
+    - ai-dev-extensions
   confidence: high
 curation:
   status: included
@@ -79,10 +78,10 @@ curation:
     - Appears in awesome-mcp-servers under 'Server Implementations > Communication' as a collection of MCP servers.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -95,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:42.063Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:769c9081870766fc2c3e81f7e4601ffec3caa85d689d2f789734e168067df062
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: The product's core identity is extending AI assistants (Claude, Cursor, etc.) with native macOS app access via MCP, making it an integration layer rather than a standalone coding assistant or platform.
+      decision_evidence:
+        - "Repo description: '233 local tools for Claude, ChatGPT, Cursor & Grok — Mail, iMessage, Teams, Slack, WhatsApp, OneDrive, Google Drive, Zoom, Outlook, Office. Native macOS, 100% local, no API keys.'"
+        - "README: 'LMCP connects your AI assistant to Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Notes, Reminders, OmniFocus, and more — 189 tools, all running locally on your Mac.'"
+        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Communication', confirming its role as an MCP server for host app integration."
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because while it is an MCP server, its primary value is as an integration layer augmenting AI assistants with host app capabilities, not as MCP infrastructure itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

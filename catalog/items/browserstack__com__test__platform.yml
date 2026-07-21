@@ -1,0 +1,110 @@
+id: browserstack__com__test__platform
+kind: website
+name: Test Platform
+canonical_url: https://browserstack.com/test-platform
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__browserstack__com__test__platform__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Test Platform
+        extracted_url: https://browserstack.com/test-platform
+        surrounding_text: "- **[BrowserStack](https://github.com/browserstack/mcp-server)** – Bring the full power of BrowserStack’s [Test Platform](https://www.browserstack.com/test-platform) to your AI tools, making testing faster and easier for every developer and tester on your team."
+        confidence: high
+    - id: discovery__www__browserstack__com__test__platform__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Test Platform
+        extracted_url: https://www.browserstack.com/test-platform
+        surrounding_text: "- **[BrowserStack](https://github.com/browserstack/mcp-server)** – Bring the full power of BrowserStack’s [Test Platform](https://www.browserstack.com/test-platform) to your AI tools, making testing faster and easier for every developer and tester on your team."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: BrowserStack's AI-powered testing platform for web and mobile apps with agentic workflows.
+  why_it_matters: Accelerates test planning, creation, execution, and validation for developers and QA teams using AI agents integrated into testing workflows.
+  mental_damage: Finally, a way to make your test suite feel as over-engineered as your deployment pipeline.
+  tags:
+    - testing
+    - ai-agents
+    - qa
+    - automation
+    - browserstack
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a broad QA/testing SaaS platform with AI features, not a developer-tooling product focused on coding agents, extensions, or workflows for software development.
+  evidence:
+    - Primary product is a testing platform (web/mobile) with AI agents for QA workflows
+    - No evidence of being a coding agent, IDE, extension, framework, or developer-first tool
+    - Source-list context shows it's included in MCP servers list but the product identity is testing, not MCP
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:32:56.542Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a723b18c404e9d2fac76b12d00f30be9ee8170c3fdad1b0c9b6277121b3eefb7
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a broad QA/testing SaaS platform with AI features, not a developer-tooling product focused on coding agents, extensions, or workflows for software development.
+      decision_evidence:
+        - Primary product is a testing platform (web/mobile) with AI agents for QA workflows
+        - No evidence of being a coding agent, IDE, extension, framework, or developer-first tool
+        - Source-list context shows it's included in MCP servers list but the product identity is testing, not MCP
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.963Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

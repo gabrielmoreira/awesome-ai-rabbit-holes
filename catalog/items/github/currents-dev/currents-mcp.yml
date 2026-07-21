@@ -59,23 +59,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:27.529Z"
       bytes: 9086
 insights:
-  summary: An MCP server that connects AI agents to the Currents test orchestration platform to retrieve test results, metrics, and run data for debugging CI failures.
-  why_it_matters: It lets coding agents query live test failure data and performance metrics directly from CI, bridging the gap between AI suggestions and real-world test results.
-  mental_damage: Your agent can now explain exactly why your tests are flaking in CI, which merely accelerates the existential dread of watching your test suite slowly rot.
+  summary: An MCP server that connects AI agents to Currents for retrieving test results and CI insights.
+  why_it_matters: Lets AI assistants query and act on test failures, performance metrics, and CI runs from Currents to debug or optimize code.
+  mental_damage: Now your AI can blame the tests for failing instead of you.
   tags:
     - mcp
     - testing
     - ci
-    - debugging
     - currents
+    - debugging
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server providing domain-specific access to Currents test data, fitting cleanly as a domain server rather than a generic framework or extension.
+  reason: "MCP is the product identity here: a dedicated server exposing Currents test/CI data as tools for AI agents."
   evidence:
-    - Repo description explicitly states 'Currents MCP Server'.
-    - README lists numerous MCP tools like currents-get-run-details and currents-get-test-results for AI agent integration.
-    - Included in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Official Servers'.
+    - Repo description explicitly calls it a 'Currents MCP Server'
+    - README lists 20+ Currents-specific MCP tools for test/CI data
+    - Already listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -94,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:21.901Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3192b5f2941849a104d8ecb352cd9a180c380fc22bfaf3b8c03449eb034c01fc
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: a dedicated server exposing Currents test/CI data as tools for AI agents."
+      decision_evidence:
+        - Repo description explicitly calls it a 'Currents MCP Server'
+        - README lists 20+ Currents-specific MCP tools for test/CI data
+        - Already listed in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

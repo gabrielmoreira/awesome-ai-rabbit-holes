@@ -60,15 +60,15 @@ metadata:
       fetched_at: "2026-07-20T05:17:16.032Z"
       bytes: 11432
 insights:
-  summary: A file-based MCP server and Unity package that exposes 65 editor tools to AI coding assistants, enabling remote control of scenes, game objects, profiler, and light probes from IDEs like Cursor and Claude Code.
-  why_it_matters: It bridges the gap between AI coding agents and the Unity Editor, allowing assistants to inspect scenes and profile performance instead of being limited to file I/O.
-  mental_damage: We have finally automated the part of game development where you alt-tab to the Unity Editor, so your AI can now generate shader errors and profile frame drops without you ever seeing the scene.
+  summary: A file-based IPC bridge that enables AI IDEs to remotely control the Unity Editor with 65 tools across 15 categories.
+  why_it_matters: It gives AI coding assistants full access to Unity Editor workflows (scene management, profiling, light probes, etc.) without requiring open ports or external dependencies.
+  mental_damage: Finally, your AI can stop pretending to understand Unity scenes by reading JSON files and start actually manipulating them.
   tags:
     - unity
-    - mcp
+    - mcp-server
     - game-dev
-    - ide-integration
-    - editor-tools
+    - editor-integration
+    - ai-ide
   confidence: high
 curation:
   status: included
@@ -79,10 +79,10 @@ curation:
     - Listed in awesome-mcp-servers under 'Gaming', reinforcing its identity as a domain-specific MCP implementation.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:34:38.360Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:391ec095096f0751dcbbe6517a06115bbc492707d8f0572b3b8a9308096a82da
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: The tool's primary identity is as an integration layer that extends AI IDEs (Claude Code, Cursor, etc.) with Unity Editor capabilities, not as a standalone coding assistant.
+      decision_evidence:
+        - "Repo description: 'Remote-control Unity Editor from any AI IDE'"
+        - "README: '65 tools across 15 categories' for Unity Editor access via MCP"
+        - Supports multiple AI IDEs (Claude Code, Cursor, Windsurf, etc.) as hosts
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the core value is Unity Editor integration for AI IDEs, with MCP as the transport mechanism rather than the product identity.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

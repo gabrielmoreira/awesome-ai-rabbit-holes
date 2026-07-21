@@ -47,23 +47,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:15.269Z"
       bytes: 7458
 insights:
-  summary: Forage is an MCP server that lets AI coding agents automatically discover, install, and learn to use new MCP tools at runtime without restarting.
-  why_it_matters: It closes the loop between a coding agent hitting a capability wall and gaining new host integrations by dynamically fetching and persisting tool access across sessions.
-  mental_damage: We have finally built a system that lets your agent silently accrue dependencies so you can wake up to a manifest.json that looks like a teenager's npm install history.
+  summary: An MCP server that enables AI agents to discover, install, and learn to use new MCP tools automatically.
+  why_it_matters: It closes the loop for agents hitting capability gaps by letting them self-extend with new tools without manual intervention or restarts.
+  mental_damage: Now your agent can install its own dependencies while you watch, wondering if you’re still the developer.
   tags:
     - mcp
     - tool-discovery
-    - agent-extensions
-    - claude-code
-    - cursor
+    - agent-self-improvement
+    - auto-install
+    - proxy-server
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP gateway and middleware server that dynamically discovers, proxies, and persists other MCP servers for coding agents.
+  reason: Forage is an MCP-first product whose identity is a gateway/proxy MCP server for dynamic tool discovery and installation, fitting squarely in MCP Servers & Tooling.
   evidence:
-    - "Repo description: 'Self-improving tool discovery for AI agents. Agents find, install, and learn to use new MCP tools automatically.'"
-    - "README: 'Forage is a gateway/proxy MCP server... discovers tools, installs tools, wraps their capabilities, and emits list_changed notifications.'"
-    - Topics and awesome-mcp-servers listing confirm the MCP server and aggregator identity.
+    - Repo description explicitly states it is 'Self-improving tool discovery for AI agents' via MCP
+    - README details its role as a gateway/proxy MCP server that searches registries, installs tools as subprocesses, and re-registers their capabilities
+    - Source-list context places it in awesome-mcp-servers under 'Aggregators'
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -82,12 +82,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:48.661Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:78c6bddb599794d2fa0e8b220826e857628175279dc47a825ddf36eacf313ea4
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: Forage is an MCP-first product whose identity is a gateway/proxy MCP server for dynamic tool discovery and installation, fitting squarely in MCP Servers & Tooling.
+      decision_evidence:
+        - Repo description explicitly states it is 'Self-improving tool discovery for AI agents' via MCP
+        - README details its role as a gateway/proxy MCP server that searches registries, installs tools as subprocesses, and re-registers their capabilities
+        - Source-list context places it in awesome-mcp-servers under 'Aggregators'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server (gateway/proxy) for tool discovery and installation, not merely an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

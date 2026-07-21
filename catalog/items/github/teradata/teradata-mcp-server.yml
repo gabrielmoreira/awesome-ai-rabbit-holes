@@ -23,21 +23,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 49
-    forks: 56
+    stars: 53
+    forks: 58
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Teradata/teradata-mcp-server
+    html_url: https://github.com/Teradata/teradata-mcp-server
     created_at: "2025-04-17T19:41:30Z"
-    pushed_at: "2026-04-30T15:13:51Z"
+    pushed_at: "2026-07-17T20:23:49Z"
     description: The community development of a MCP server for a Teradata database
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-06T22:46:44.930Z"
+    last_checked_at: "2026-07-21T15:20:44.780Z"
     readme:
-      fetched_at: "2026-05-06T22:46:44.930Z"
-      bytes: 7615
+      fetched_at: "2026-07-21T15:20:44.780Z"
+      bytes: 4946
 insights:
   summary: An official MCP server from Teradata that exposes database tools, prompts, and resources for querying, analyzing, and managing Teradata data platforms via AI agents.
   why_it_matters: It lets developers and AI agents directly interact with Teradata databases for querying, data quality checks, and feature store access without building custom integrations.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:44.930Z"
+    updated_at: "2026-07-21T15:20:44.780Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -1,0 +1,109 @@
+id: latent__space__p__o1__skill__issue
+kind: website
+name: o1 isn’t a chat model (and that’s the point)
+canonical_url: https://latent.space/p/o1-skill-issue
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__latent__space__p__o1__skill__issue__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: o1 isn’t a chat model (and that’s the point)
+        extracted_url: https://latent.space/p/o1-skill-issue
+        surrounding_text: 35. [o1 isn’t a chat model (and that’s the point)](https://www.latent.space/p/o1-skill-issue)
+        confidence: high
+    - id: discovery__www__latent__space__p__o1__skill__issue__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: o1 isn’t a chat model (and that’s the point)
+        extracted_url: https://www.latent.space/p/o1-skill-issue
+        surrounding_text: 35. [o1 isn’t a chat model (and that’s the point)](https://www.latent.space/p/o1-skill-issue)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A guest post on Latent.Space detailing practical strategies for using OpenAI's o1 model effectively, framed as a 'report generator' rather than a chat model.
+  why_it_matters: It provides actionable insights for developers on how to adapt their workflows to leverage o1's reasoning capabilities for tasks like code generation, architectural planning, and evals.
+  mental_damage: Turns out the secret to making o1 work is treating it like a new hire who needs 10x the context and a very specific brief.
+  tags:
+    - o1
+    - prompt-engineering
+    - workflow-tips
+    - developer-guides
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a media article (guest post) rather than a standalone developer tool, framework, or product.
+  evidence:
+    - The URL and scraped context confirm it is a Substack article, not a repo or tool
+    - The content is a narrative guide on using o1, not a product or library
+    - Source-list context places it under 'Tips' in a general LLM resources list, not a developer-tooling category
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:35:20.834Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:de3e460d6a1cc091a40177ac7c901e9a5f2b9a684a9cbfcbc9e42b1ffe6e3f4d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a media article (guest post) rather than a standalone developer tool, framework, or product.
+      decision_evidence:
+        - The URL and scraped context confirm it is a Substack article, not a repo or tool
+        - The content is a narrative guide on using o1, not a product or library
+        - Source-list context places it under 'Tips' in a general LLM resources list, not a developer-tooling category
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.967Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

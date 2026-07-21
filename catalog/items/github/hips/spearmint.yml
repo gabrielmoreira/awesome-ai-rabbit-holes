@@ -39,22 +39,21 @@ metadata:
       fetched_at: "2026-07-20T15:11:02.678Z"
       bytes: 3381
 insights:
-  summary: A Bayesian optimization research codebase that automatically tunes hyperparameters by iteratively adjusting parameters to minimize a given objective function.
-  why_it_matters: It provides a structured way to automate ML experiment tuning, which is foundational for optimizing model performance without manual grid searches.
-  mental_damage: Another piece of 2014-era research software that somehow ended up in an LLMOps list, reminding us that if you slap 'optimization' on it, someone will file it under AI infrastructure.
+  summary: Spearmint is a Bayesian optimization software package for automatically tuning machine learning model parameters.
+  why_it_matters: It helps developers minimize objective functions with fewer experimental runs by iteratively adjusting parameters.
+  mental_damage: Because nothing says 'modern AI workflow' like a Python 2.7 dependency and a MongoDB daemon from 2014.
   tags:
     - bayesian-optimization
-    - hyperparameter-tuning
-    - ml-experiments
     - automl
+    - hyperparameter-tuning
   confidence: high
 curation:
   status: excluded
-  reason: This is a general machine learning research tool for Bayesian optimization, not a developer-facing AI tool, agent, or infrastructure component; it predates the modern LLM/agent ecosystem and targets traditional ML experiment tuning rather than developer workflows.
+  reason: This is a research-oriented AutoML tool for Bayesian optimization, not a developer-tooling product in the catalog's scope.
   evidence:
-    - Repo description explicitly states 'Spearmint Bayesian optimization codebase', targeting ML parameter tuning rather than coding assistance.
-    - README shows it is a research package from 2012-2014 publications, using Python 2.7 and MongoDB for experiment automation, not LLM tooling.
-    - Last push was 2019-12-27, and it carries a non-commercial academic license, signaling it is not an active developer-tooling product.
+    - Repo description identifies it as Bayesian optimization codebase
+    - README emphasizes academic/non-commercial license and research publications
+    - Last push was in 2019 and requires Python 2.7
 placement:
   primary_category: null
   section: null
@@ -73,12 +72,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:39.540Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:19da9c5e86d1737aec14009fff41886d1ee9b5783b318dfb586dd6a167495167
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a research-oriented AutoML tool for Bayesian optimization, not a developer-tooling product in the catalog's scope.
+      decision_evidence:
+        - Repo description identifies it as Bayesian optimization codebase
+        - README emphasizes academic/non-commercial license and research publications
+        - Last push was in 2019 and requires Python 2.7
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

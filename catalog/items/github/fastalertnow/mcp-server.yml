@@ -40,25 +40,25 @@ metadata:
       fetched_at: "2026-07-16T05:04:59.984Z"
       bytes: 5127
 insights:
-  summary: An MCP server that lets AI agents like Claude, ChatGPT, and Cursor list channels and send notifications through the FastAlert API.
-  why_it_matters: It gives coding agents a quick, standardized way to push alerts and status messages to external notification channels without custom API glue code.
-  mental_damage: We have reached the point where your AI agent needs its own notification server so it can ping you about work you asked it to do while you were already staring at the screen.
+  summary: An MCP server that enables AI agents to discover and send rich notifications via the FastAlert API.
+  why_it_matters: It allows developers to grant LLM assistants the ability to directly trigger multi-channel system alerts and notifications during automated workflows.
+  mental_damage: Now your AI agent can broadcast your deployment failures to every channel you own without you even touching a keyboard.
   tags:
-    - mcp
+    - mcp-server
     - notifications
-    - agent-integration
-    - fastalert
-  confidence: medium
+    - automation
+    - agent-tooling
+  confidence: high
 curation:
   status: included
-  reason: This is an MCP server purpose-built to expose FastAlert notification capabilities to AI agents, making it a clean fit for the MCP Servers & Tooling category.
+  reason: The tool's primary identity is an MCP server providing specific tool capabilities to host assistants.
   evidence:
-    - README states this is an 'Official Model Context Protocol (MCP) server for FastAlert' and lists tools like list_channels and send_message.
-    - Includes MCP configuration examples for Cursor, ChatGPT, and Claude, confirming its identity as an MCP integration.
-    - Listed in the awesome-mcp-servers directory under 'Server Implementations > Communication', aligning with the MCP category.
+    - README explicitly defines it as an 'Official Model Context Protocol (MCP) server'
+    - Provides specific tools (list_channels, send_message) for AI assistants via the MCP protocol
+    - Configured via mcpServers in Claude/Cursor environments
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:55:18.168Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:487dccc76ef7d6bd1a0290e797be276f39556065143b8cbc3eb6b844ba6a0bcd
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is an MCP server providing specific tool capabilities to host assistants.
+      decision_evidence:
+        - README explicitly defines it as an 'Official Model Context Protocol (MCP) server'
+        - Provides specific tools (list_channels, send_message) for AI assistants via the MCP protocol
+        - Configured via mcpServers in Claude/Cursor environments
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the implementation of the MCP protocol rather than a general workflow integration.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: DeepLearning.AI is an online learning platform offering short courses and professional certificates on AI topics including prompt engineering, agents, RAG, and AI coding.
-  why_it_matters: Developers can quickly upskill on practical AI tooling and workflows through hands-on courses taught by industry leaders like Andrew Ng.
-  mental_damage: Another platform promising that 90 minutes of video and a few notebook cells will finally make you the AI architect you pretend to be in stand-ups.
+  summary: An online learning platform offering AI and machine learning courses, including prompt engineering and agent development.
+  why_it_matters: Provides structured educational content for developers looking to upskill in AI/ML, including practical topics like prompt engineering and agent workflows.
+  mental_damage: Another course platform promising to turn you into an AI power user, because apparently reading docs is now a superpower.
   tags:
-    - courses
     - education
-    - ai-learning
-    - deeplearning-ai
+    - ai-courses
+    - prompt-engineering
+    - learning-platform
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational platform and course hub rather than a developer-facing AI tool, agent, framework, or infrastructure product.
+  reason: This is a general AI/ML educational platform, not a developer tool, framework, or workflow product that fits the catalog's scope of practical AI tools for software developers.
   evidence:
-    - The scraped site context shows a course platform with topics like 'Prompt Engineering 46' and 'AI Coding 14', not a developer tool.
-    - Source-list context lists it under '课程 Course' (Courses) in an LLM resources list, not as a tool or product.
-    - The platform is a learning destination, not something developers import, run, install, or operate as part of their AI tooling workflow.
+    - Primary page excerpt describes a learning platform with courses and study tips, not a tool or workflow product
+    - No repo description or code-first artifact; purely a hosted educational service
+    - Catalog scope excludes generic AI directories, broad AI news, and vague resource dumps with no developer-tooling angle
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:03.043Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5997540b31e5eff97b310eed34d2cd7afaa887554a71c5bcd4f0741f255af031
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a general AI/ML educational platform, not a developer tool, framework, or workflow product that fits the catalog's scope of practical AI tools for software developers.
+      decision_evidence:
+        - Primary page excerpt describes a learning platform with courses and study tips, not a tool or workflow product
+        - No repo description or code-first artifact; purely a hosted educational service
+        - Catalog scope excludes generic AI directories, broad AI news, and vague resource dumps with no developer-tooling angle
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

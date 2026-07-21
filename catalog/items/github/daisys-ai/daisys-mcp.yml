@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:28.416Z"
       bytes: 3735
 insights:
-  summary: An MCP server that connects AI assistants to the Daisys voice-generation platform for creating and storing audio files.
-  why_it_matters: Developers can invoke high-quality voice synthesis directly from their editor or terminal without leaving the MCP client workflow.
-  mental_damage: We have successfully abstracted text-to-speech behind yet another protocol layer so your coding agent can narrate its own hallucinations.
+  summary: An MCP server that integrates the Daisys AI platform with MCP-compatible clients.
+  why_it_matters: Allows developers to connect Daisys' audio capabilities to their MCP-enabled coding workflows.
+  mental_damage: Now your coding assistant can also judge your karaoke sessions.
   tags:
     - mcp
-    - tts
-    - voice-generation
+    - audio
+    - integration
     - daisys
   confidence: high
 curation:
   status: included
-  reason: The repository is explicitly an MCP server for the Daisys voice platform, making it a textbook fit for the MCP Servers & Tooling category.
+  reason: This is an MCP server whose primary identity is providing Daisys audio capabilities through the MCP protocol.
   evidence:
-    - "Repo description states: 'The Daisys mcp server'"
-    - README shows configuration for Claude Desktop, Cursor, and VSCode MCP clients
-    - Listed in awesome-mcp-servers under the 'Official Servers' section
+    - Repo description explicitly identifies it as 'The Daisys mcp server'
+    - README provides MCP client configuration instructions
+    - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:40.833Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:44c701c4cd7233cb22fd3cf7b9a7698775acdc53efd607e1d9eb078ef1acfc4e
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP server whose primary identity is providing Daisys audio capabilities through the MCP protocol.
+      decision_evidence:
+        - Repo description explicitly identifies it as 'The Daisys mcp server'
+        - README provides MCP client configuration instructions
+        - Listed in awesome-mcp-servers under 'Official Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server rather than an extension layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -1,0 +1,110 @@
+id: harness__io
+kind: website
+name: Harness
+canonical_url: https://harness.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__harness__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Harness
+        extracted_url: https://harness.io
+        surrounding_text: "- **[Harness](https://harness.io/)** – AI-powered CI/CD with intelligent deployments and automated rollbacks."
+        confidence: high
+    - id: discovery__www__harness__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Harness
+        extracted_url: https://harness.io
+        surrounding_text: "- **[Harness](https://harness.io/)** – AI-powered CI/CD with intelligent deployments and automated rollbacks."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Harness is a unified, end-to-end AI software delivery platform for managing the SDLC with purpose-built AI agents.
+  why_it_matters: It accelerates DevOps workflows by automating pipelines, testing, security, and cost optimization across the software development lifecycle.
+  mental_damage: Finally, a platform that promises to automate everything after code, so you can spend more time arguing about tabs vs. spaces.
+  tags:
+    - devops
+    - ai-automation
+    - sdlc
+    - ci-cd
+    - platform
+  confidence: high
+curation:
+  status: excluded
+  reason: Harness is a broad DevOps/SDLC platform with AI features, not a developer-tooling product focused on coding assistance, agent orchestration, or app-building workflows.
+  evidence:
+    - Described as a unified AI software delivery platform for SDLC management
+    - Primary focus is DevOps, testing, security, and cost optimization rather than developer-facing coding tools
+    - Source-list context places it under DevOps and Infrastructure, not developer tooling
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:34:50.673Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f78327cc44dba1b1df9f1d84909ab5cee97de72aafa011c508d36a536faa32da
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Harness is a broad DevOps/SDLC platform with AI features, not a developer-tooling product focused on coding assistance, agent orchestration, or app-building workflows.
+      decision_evidence:
+        - Described as a unified AI software delivery platform for SDLC management
+        - Primary focus is DevOps, testing, security, and cost optimization rather than developer-facing coding tools
+        - Source-list context places it under DevOps and Infrastructure, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.966Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -40,26 +40,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:05.705Z"
       bytes: 15187
 insights:
-  summary: A Python library from Hugging Face that abstracts multi-GPU, TPU, and mixed-precision boilerplate so raw PyTorch training scripts run on almost any distributed configuration.
-  why_it_matters: Developers can keep writing standard PyTorch training loops while gaining automatic support for fp8, FSDP, DeepSpeed, and multi-node setups without maintaining custom distributed code.
-  mental_damage: Yet another reminder that your carefully hand-rolled distributed training script was mostly unnecessary boilerplate you convinced yourself you needed to write.
+  summary: A PyTorch library that simplifies distributed training and mixed precision by abstracting boilerplate code for multi-GPU/TPU/fp16 setups.
+  why_it_matters: Developers can run the same training script on any hardware configuration without rewriting device placement or precision logic.
+  mental_damage: Finally, a way to pretend you understand distributed training while letting Hugging Face handle the actual complexity.
   tags:
     - pytorch
-    - training
-    - distributed
+    - distributed-training
+    - mixed-precision
     - huggingface
-    - mlops
+    - ml-framework
   confidence: high
 curation:
-  status: excluded
-  reason: This is a general ML training library for PyTorch model training and distributed compute, not a developer-facing AI tool, agent, workflow, or infrastructure product aimed at software development workflows.
+  status: included
+  reason: The product is a code-first library for PyTorch developers, fitting the Frameworks & SDKs category as a reusable building block for AI workflows.
   evidence:
-    - Repo description focuses on launching, training, and using PyTorch models on distributed devices, not developer tooling.
-    - README demonstrates a PyTorch training-loop abstraction with no coding-agent, IDE, extension, or app-building functionality.
-    - Listed in Awesome-LLMOps under Training > Frameworks for Training, which is ML ops infrastructure rather than our developer-tooling scope.
+    - Repo description explicitly positions it as a PyTorch training abstraction layer
+    - README demonstrates minimal code changes to enable distributed/mixed-precision training
+    - Source-list context (Awesome-LLMOps) places it under Training > Frameworks for Training
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (9664) exceeded threshold (150)
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:21.379Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:490c02865a7e07dff0aa3dd6c90455a9077dfa59c9577eab79ed00c3af4e88df
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The product is a code-first library for PyTorch developers, fitting the Frameworks & SDKs category as a reusable building block for AI workflows.
+      decision_evidence:
+        - Repo description explicitly positions it as a PyTorch training abstraction layer
+        - README demonstrates minimal code changes to enable distributed/mixed-precision training
+        - Source-list context (Awesome-LLMOps) places it under Training > Frameworks for Training
+      category_candidates:
+        - ai-frameworks
+        - local-ai
+      contrastive_reason: Choose ai-frameworks over local-ai because the core value is the training framework abstraction, not local runtime execution.
+      review_reason: null
+      review_resume_lifecycle: null

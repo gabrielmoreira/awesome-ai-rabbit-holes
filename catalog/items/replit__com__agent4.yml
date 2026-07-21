@@ -36,25 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Agent 4 is Replit's latest AI coding agent designed to build and iterate on full applications, including mobile apps, web apps, and landing pages, from prompts.
-  why_it_matters: It integrates visual design tools, parallel task execution, and team collaboration features directly into the app-generation workflow, allowing developers to generate production-ready apps without leaving the environment.
-  mental_damage: Just when you thought 'vibe coding' was a safe coping mechanism, Replit introduces a parallelized agent that can build the backend, debug the auth, and question your life choices all at the same time.
+  summary: Replit's Agent 4 is an AI agent for building, designing, and shipping apps, sites, and other digital products within the Replit platform.
+  why_it_matters: It enables developers and teams to collaborate with an AI agent that can design, build, and coordinate tasks in parallel, accelerating the development of full-stack applications.
+  mental_damage: Finally, an agent that can turn your napkin sketch into a deployable app while you argue with your team about tabs vs. spaces.
   tags:
-    - agent
-    - replit
     - app-builder
+    - ai-agent
+    - replit
     - collaboration
+    - multi-agent
   confidence: high
 curation:
   status: included
-  reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
+  reason: Agent 4's primary value is turning prompts and collaborative input into full applications, sites, and tools within Replit, fitting the app-builder category better than a generic coding agent.
   evidence:
-    - Described as 'Replit's fastest, most versatile Agent to date' with capabilities to build apps, sites, and internal tools.
-    - Features include designing in code, handling task prioritization, and executing multiple independent tasks simultaneously.
-    - Included in 'awesome-ai-coding-tools' under the 'Coding Agents' section.
+    - Described as Replit's 'fastest, most versatile Agent to date' with pillars like 'Design Freely', 'Build Together', 'Ship Anything', and 'Move Faster'
+    - Explicitly supports building apps, sites, decks, mobile apps, and more from prompts in a shared project context
+    - Source-list context places it in 'Coding Agents', but its core identity is prompt-to-app generation
 placement:
   primary_category: app-builders
-  section: null
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:01.064Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d80292d6a52d2a2bd70ff37c0230e33e9864edc851436ebc0c6d29a3726a1e89
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: Agent 4's primary value is turning prompts and collaborative input into full applications, sites, and tools within Replit, fitting the app-builder category better than a generic coding agent.
+      decision_evidence:
+        - Described as Replit's 'fastest, most versatile Agent to date' with pillars like 'Design Freely', 'Build Together', 'Ship Anything', and 'Move Faster'
+        - Explicitly supports building apps, sites, decks, mobile apps, and more from prompts in a shared project context
+        - Source-list context places it in 'Coding Agents', but its core identity is prompt-to-app generation
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because Agent 4's main surface is creating new apps/sites/tools from prompts rather than editing existing repos.
+      review_reason: null
+      review_resume_lifecycle: null

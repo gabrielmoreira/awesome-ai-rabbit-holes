@@ -60,26 +60,26 @@ metadata:
       fetched_at: "2026-07-20T15:10:51.684Z"
       bytes: 38330
 insights:
-  summary: A governance framework that enforces task traceability, structural gates, session continuity, and audit trails for AI coding agents like Claude Code, Cursor, and Copilot via CLI hooks and git enforcement.
-  why_it_matters: It applies enterprise-grade governance to AI agents by blocking untraced edits, destructive commands, and context exhaustion with structural gates instead of prompt suggestions.
-  mental_damage: We have finally built the middle manager that tells the AI it cannot edit a file until it fills out a Jira ticket and waits for approval.
+  summary: Governance framework for AI coding agents that enforces task traceability, structural gates, session continuity, and audit trails for tools like Claude Code, Cursor, and Copilot.
+  why_it_matters: It prevents AI agents from making destructive or untraceable changes by enforcing mandatory task gates, blocking risky commands, and maintaining audit trails.
+  mental_damage: Finally, a way to stop your AI from force-pushing to main while you’re in the bathroom.
   tags:
     - governance
-    - cli
-    - agent-infrastructure
+    - ai-agents
     - audit-trails
     - task-management
+    - claude-code
   confidence: high
 curation:
   status: included
-  reason: The product is a CLI and hook framework that augments other coding assistants with governance, gates, and workflow enforcement rather than acting as the primary coding assistant itself.
+  reason: The tool augments existing coding agents (Claude Code, Cursor, Copilot) with governance, enforcement, and audit capabilities rather than acting as a standalone coding assistant.
   evidence:
-    - Repo description explicitly states it is a 'Governance framework for AI coding agents' supporting Claude Code, Cursor, and Copilot.
-    - README shows enforcement hooks (task gates, Tier 0 destructive command blocks, budget management) that wrap existing agents rather than replace them.
-    - Source list places it in 'Harnesses & orchestration > Agent infrastructure', reinforcing its role as agent infrastructure rather than a standalone agent.
+    - Repo description explicitly states it is a governance framework for AI coding agents
+    - README demonstrates enforcement via pre-operation hooks for Claude Code and git hooks for others
+    - Source-list context places it under 'Agent infrastructure' in a curated CLI coding agents directory
 placement:
   primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:04.435Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5eadd36aebddd8e91db2134dabbb1cb07a8a73330715012c00a4c18576016959
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool augments existing coding agents (Claude Code, Cursor, Copilot) with governance, enforcement, and audit capabilities rather than acting as a standalone coding assistant.
+      decision_evidence:
+        - Repo description explicitly states it is a governance framework for AI coding agents
+        - README demonstrates enforcement via pre-operation hooks for Claude Code and git hooks for others
+        - Source-list context places it under 'Agent infrastructure' in a curated CLI coding agents directory
+      category_candidates:
+        - ai-dev-extensions
+        - ai-frameworks
+      contrastive_reason: Choose ai-dev-extensions over ai-frameworks because the core value is augmenting existing agents with governance layers rather than providing a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

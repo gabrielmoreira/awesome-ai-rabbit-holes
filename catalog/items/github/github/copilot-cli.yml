@@ -40,23 +40,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:08.491Z"
       bytes: 7740
 insights:
-  summary: GitHub Copilot CLI is a terminal-native AI coding agent that uses natural language to build, edit, debug, and refactor code directly within the command line.
-  why_it_matters: It allows developers to delegate complex coding tasks to an agentic harness without leaving the terminal, deeply integrating with GitHub repos, issues, and PRs.
-  mental_damage: Now you can experience the thrill of watching an AI agent plan and execute complex tasks right in your terminal, provided you enjoy typing '/login' and managing premium request quotas.
+  summary: GitHub Copilot CLI is a terminal-based coding agent that brings AI-powered code assistance directly to the command line.
+  why_it_matters: It lets developers use Copilot’s agentic capabilities for building, debugging, and understanding code without leaving the terminal.
+  mental_damage: Now you can pair program with an AI in your shell while pretending you’re not just avoiding opening your editor.
   tags:
-    - cli
-    - coding-agent
-    - github
     - terminal
-    - agentic
+    - coding-agent
+    - github-copilot
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone, terminal-native coding assistant that developers use as the primary interface for repo work, fitting the 'Coding Agents' definition over an extension or framework.
+  reason: It is a standalone terminal-native coding agent that plans, writes, and edits code, matching the core definition of a coding agent rather than an extension or framework.
   evidence:
-    - Repo description states it 'brings the power of Copilot coding agent directly to your terminal.'
-    - "README explicitly lists 'Agentic capabilities: Build, edit, debug, and refactor code' as core features."
-    - Listed in 'awesome-cli-coding-agents' under the 'Terminal-native coding agents' section.
+    - "Repo description: 'GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal'"
+    - "README: 'build, edit, debug, and refactor code with an AI collaborator that can plan and execute complex tasks'"
+    - "README: 'Agentic capabilities: Build, edit, debug, and refactor code with an AI collaborator that can plan and execute complex tasks'"
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -75,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:22.097Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fe7adabc072927000f2eb597dec9246d0436c5f55eee1805e118db6d230c5fbd
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a standalone terminal-native coding agent that plans, writes, and edits code, matching the core definition of a coding agent rather than an extension or framework.
+      decision_evidence:
+        - "Repo description: 'GitHub Copilot CLI brings the power of Copilot coding agent directly to your terminal'"
+        - "README: 'build, edit, debug, and refactor code with an AI collaborator that can plan and execute complex tasks'"
+        - "README: 'Agentic capabilities: Build, edit, debug, and refactor code with an AI collaborator that can plan and execute complex tasks'"
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool is the primary coding assistant itself, not an add-on that augments another agent with host integrations like git or debugger access.
+      review_reason: null
+      review_resume_lifecycle: null

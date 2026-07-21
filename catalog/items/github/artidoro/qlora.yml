@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:04.785Z"
       bytes: 10938
 insights:
-  summary: QLoRA is a research-backed method and codebase for efficiently fine-tuning quantized large language models on a single GPU using 4-bit NormalFloat and Low Rank Adapters.
-  why_it_matters: It allows developers to fine-tune massive 65B parameter models on consumer-grade 48GB GPUs, making LLM customization accessible without a massive cluster.
-  mental_damage: Yet another groundbreaking paper proving you too can train a state-of-the-art chatbot in a day, provided you enjoy debugging CUDA kernels at 3 AM.
+  summary: QLoRA is an efficient finetuning method for quantized large language models, enabling 65B parameter models to be finetuned on a single 48GB GPU.
+  why_it_matters: It lowers the hardware barrier for developers to finetune large models, preserving performance while drastically reducing memory usage.
+  mental_damage: Now you too can spend 24 hours finetuning a 65B model on your single GPU, because who needs sleep anyway?
   tags:
-    - fine-tuning
-    - llm
+    - finetuning
     - quantization
-    - research
-    - training
+    - llm
+    - peft
+    - 4-bit
   confidence: high
 curation:
   status: excluded
-  reason: The project is a research implementation for model training and quantization, which falls under general ML research rather than practical AI tooling for software developers.
+  reason: QLoRA is a research-focused finetuning method and library, not a developer tool for coding assistance, app building, or workflow integration.
   evidence:
-    - Repo description explicitly states 'Efficient Finetuning of Quantized LLMs', targeting model training rather than coding workflows.
-    - README focuses on training 65B parameter models and CUDA kernels, with no developer-facing coding assistant or IDE integration.
-    - Found in 'Awesome-LLMOps > Training' lists, confirming its identity as a training infrastructure piece rather than a coding agent or developer utility.
+    - Repo description explicitly states it is for 'Efficient Finetuning of Quantized LLMs'
+    - README focuses on technical innovations (4-bit NormalFloat, Double Quantization, Paged Optimizers) and model performance benchmarks
+    - Source-list context places it under 'Training > Foundation Model Fine Tuning' in an LLMOps list
 placement:
   primary_category: null
   section: null
@@ -75,12 +75,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:16.562Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6fdd130f11476f1297a9eb0a67b9a27f8b6a6322e987b708f79ea918f03e966c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: QLoRA is a research-focused finetuning method and library, not a developer tool for coding assistance, app building, or workflow integration.
+      decision_evidence:
+        - Repo description explicitly states it is for 'Efficient Finetuning of Quantized LLMs'
+        - README focuses on technical innovations (4-bit NormalFloat, Double Quantization, Paged Optimizers) and model performance benchmarks
+        - Source-list context places it under 'Training > Foundation Model Fine Tuning' in an LLMOps list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

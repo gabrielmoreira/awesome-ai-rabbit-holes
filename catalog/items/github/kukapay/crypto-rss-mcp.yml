@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:39.964Z"
       bytes: 3750
 insights:
-  summary: An MCP server that aggregates real-time cryptocurrency news from multiple RSS feeds to provide market context to AI agents.
-  why_it_matters: Developers building crypto-trading agents can plug this into Claude Desktop or other MCP clients to give their models live news retrieval without writing custom scrapers.
-  mental_damage: Another niche MCP server appears, ensuring your AI agent can panic about market volatility in real-time with the same latency as your own anxiety.
+  summary: An MCP server that aggregates real-time cryptocurrency news from multiple RSS feeds for AI agents.
+  why_it_matters: Developers can integrate live crypto market news into AI workflows without building their own feed infrastructure.
+  mental_damage: Now your AI agent can panic about Bitcoin dips before you do.
   tags:
-    - mcp
+    - mcp-server
+    - rss-aggregator
     - crypto
-    - rss
-    - finance
-    - news
+    - real-time-data
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server for cryptocurrency news aggregation, making it a clear fit for the MCP Servers & Tooling category under Domain Servers.
+  reason: MCP is the product identity here—a domain-specific server for crypto RSS feeds, not just an adapter.
   evidence:
-    - Repo description states it is 'An MCP server that aggregates real-time cryptocurrency news from multiple RSS feeds.'
-    - README demonstrates MCP-native usage with `uv run mcp dev cli.py` and Claude Desktop installation instructions.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section, confirming its identity as an MCP server.
+    - Repo description explicitly states it is an MCP server
+    - README details MCP server setup and tools (get_crypto_rss_list, get_rss_feed)
+    - Listed on Glama MCP registry
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:52.434Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a1c6cd0b0fce6f9f6ac9f5f563419481da6da2928d20344e899c7629bff61ebf
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a domain-specific server for crypto RSS feeds, not just an adapter.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server
+        - README details MCP server setup and tools (get_crypto_rss_list, get_rss_feed)
+        - Listed on Glama MCP registry
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the core identity is an MCP server providing domain data, not a general context/retrieval system.
+      review_reason: null
+      review_resume_lifecycle: null

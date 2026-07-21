@@ -24,19 +24,35 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: vincentvella/devloop
+    html_url: https://github.com/vincentvella/devloop
+    created_at: "2026-06-11T19:41:46Z"
+    pushed_at: "2026-07-20T09:56:24Z"
+    description: Browser control + dev-server logs on one correlated timeline — an MCP server with a headless (stdio) mode and an Electron cockpit. Built for AI agents.
+    homepage: https://devloop.build
+    topics:
+      - ai-agents
+      - browser-automation
+      - claude
+      - claude-code
+      - developer-tools
+      - devtools
+      - electron
+      - expo
+      - logging
+      - mcp
+      - model-context-protocol
+      - observability
+      - puppeteer
+      - react-native
+    last_checked_at: "2026-07-21T15:21:05.986Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:05.985Z"
+      bytes: 38399
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +76,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:21:05.986Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

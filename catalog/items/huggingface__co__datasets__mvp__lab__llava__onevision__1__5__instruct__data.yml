@@ -37,21 +37,21 @@ metadata:
     readme: null
 insights:
   summary: A Hugging Face dataset containing instruction-tuning data for the LLaVA-OneVision-1.5 vision-language model.
-  why_it_matters: It provides training data for developers building or fine-tuning multimodal models that combine vision and language capabilities.
-  mental_damage: Yet another reminder that while we're automating code, the real gold rush is still hoarding the right tensors to teach machines what they're looking at.
+  why_it_matters: Provides developers with curated datasets for fine-tuning or evaluating vision-language models, which can be useful for building multimodal AI applications.
+  mental_damage: Another dataset to fine-tune your way into the uncanny valley of multimodal hallucinations.
   tags:
-    - multimodal
     - dataset
     - vision-language
     - fine-tuning
-    - llm-resources
+    - multimodal
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw model training dataset, not a developer-facing tool, agent, framework, or infrastructure product for building software.
+  reason: This is a raw dataset for model training/evaluation, not a developer tool, framework, or workflow product.
   evidence:
-    - The URL points to a Hugging Face dataset (mvp-lab/LLaVA-OneVision-1.5-Instruct-Data), not a software tool or code repository.
-    - Source-list context classifies it under '论文 Paper' (papers) within a general LLM resources list, not as a developer tool.
+    - URL points to a Hugging Face dataset (LLaVA-OneVision-1.5-Instruct-Data)
+    - Source-list context places it under '论文 Paper' (papers) in a general LLM resources list
+    - No evidence of a runtime, tool, or developer-facing workflow beyond the dataset itself
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:45.348Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bc080c026fe554f4cca226d957e20bf93d617873f3340470355632480cff6d85
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a raw dataset for model training/evaluation, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - URL points to a Hugging Face dataset (LLaVA-OneVision-1.5-Instruct-Data)
+        - Source-list context places it under '论文 Paper' (papers) in a general LLM resources list
+        - No evidence of a runtime, tool, or developer-facing workflow beyond the dataset itself
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

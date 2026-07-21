@@ -1,0 +1,106 @@
+id: youtube__com__ibmtechnology
+kind: website
+name: YTB：IBM Technology
+canonical_url: https://youtube.com/@IBMTechnology
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__youtube__com__ibmtechnology__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 教程 Tutorial
+        anchor_text: YTB：IBM Technology
+        extracted_url: https://www.youtube.com/@IBMTechnology
+        surrounding_text: 18. [YTB：IBM Technology](https://www.youtube.com/@IBMTechnology)
+        confidence: high
+    - id: discovery__youtube__com__ibmtechnology__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 教程 Tutorial
+        anchor_text: YTB：IBM Technology
+        extracted_url: https://youtube.com/@IBMTechnology
+        surrounding_text: 18. [YTB：IBM Technology](https://www.youtube.com/@IBMTechnology)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: IBM Technology's official YouTube channel featuring AI and technology content.
+  why_it_matters: It provides educational videos and updates on AI technologies that may be relevant to developers.
+  mental_damage: Another channel to add to your 'watch later' list that you'll never actually watch.
+  tags:
+    - youtube
+    - ibm
+    - ai-education
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a media channel, not a developer tool, framework, or workflow product.
+  evidence:
+    - URL is a YouTube channel (youtube.com/@IBMTechnology)
+    - Source-list context places it under 'Tutorial' in a general LLM resources list
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:40:04.075Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:aec61c3055a3e822f6ab4a2cc78d20d97ddd1cc2c3580056dd78f1ff190982b1
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a media channel, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - URL is a YouTube channel (youtube.com/@IBMTechnology)
+        - Source-list context places it under 'Tutorial' in a general LLM resources list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.971Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

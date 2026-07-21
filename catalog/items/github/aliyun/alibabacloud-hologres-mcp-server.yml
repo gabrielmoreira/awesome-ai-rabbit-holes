@@ -39,23 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:58.596Z"
       bytes: 15813
 insights:
-  summary: An MCP server that lets AI agents connect to and run SQL operations against Alibaba Cloud Hologres databases.
-  why_it_matters: Developers using Claude Code or other MCP clients can give their agents live read and write access to Hologres metadata and queries without building custom glue code.
-  mental_damage: We have officially reached the point where connecting a database to an AI agent requires its own dedicated protocol server, just in case your hologres needs to hallucinate in SQL.
+  summary: An MCP server that provides a universal interface between AI agents and Alibaba Cloud Hologres databases, enabling metadata retrieval and SQL execution.
+  why_it_matters: It allows AI agents to directly query and interact with Hologres databases, streamlining database operations in agent workflows.
+  mental_damage: Now your AI agent can finally stop pretending it remembers your schema.
   tags:
-    - mcp
-    - database
+    - mcp-server
+    - database-integration
+    - hologres
     - alibaba-cloud
     - sql
-    - integration
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing database connectivity for AI agents, which fits cleanly as a domain-specific MCP server.
+  reason: The product's core identity is as an MCP server for Hologres database integration, making MCP the primary adopted thing.
   evidence:
-    - README states it is 'a universal interface between AI Agents and Hologres databases' via MCP.
-    - Listed in awesome-mcp-servers under the 'Official Servers' section.
-    - Includes configuration examples for Claude Code and standard MCP client JSON.
+    - README explicitly describes it as an MCP server for Hologres databases
+    - Provides MCP client configuration examples and supports multiple transport modes (stdio, streamable-http, SSE)
+    - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:21.339Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8f14c6126fad2555544ee13849aa0619b05a7742bd2e87ebece6ddecbdd1303d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is as an MCP server for Hologres database integration, making MCP the primary adopted thing.
+      decision_evidence:
+        - README explicitly describes it as an MCP server for Hologres databases
+        - Provides MCP client configuration examples and supports multiple transport modes (stdio, streamable-http, SSE)
+        - Listed in awesome-mcp-servers under Official Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server for database integration rather than a host integration layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

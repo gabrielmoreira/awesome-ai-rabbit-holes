@@ -52,16 +52,16 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A TypeScript-first feature flag platform with SDKs, local evaluation, and an MCP adapter that allows AI coding agents to create and manage feature flags via prompts.
-  why_it_matters: It integrates feature flags directly into AI-assisted development workflows, enabling agents to safely roll out and self-clean flags while keeping developers in flow with Linear and Slack sync.
-  mental_damage: We have finally automated the one thing developers are supposed to do manually just to prove we can still over-engineer a boolean.
+  summary: A TypeScript feature flag management platform with agent-ready integrations and MCP support.
+  why_it_matters: It automates feature flag lifecycle (including cleanup) and integrates with agents, Linear, and Slack to streamline SaaS deployments.
+  mental_damage: Finally, a feature flag tool that promises to clean up after itself—because we all know developers won’t.
   tags:
     - feature-flags
-    - mcp
     - typescript
-    - agent-ready
-    - sdk
-  confidence: medium
+    - agent-integration
+    - mcp
+    - saas
+  confidence: high
 curation:
   status: included
   reason: Reflag is a feature management SaaS at its core, but it is included here because its MCP server is a first-class integration that lets coding agents manage flags via prompt, fitting the MCP Servers category.
@@ -71,10 +71,10 @@ curation:
     - Primary product is feature management with SDKs for React, Vue, Next, Node, and strong MCP integration for Cursor and other agents.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
@@ -86,12 +86,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:05.895Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7d9240995a16e4fc66cdbeea0a9a719f9d910ece7784e5b52c4b8eb7545c51c6
+      proposed_primary_category: ai-frameworks
+      disagreement: true
+      decision_reason: Core product is a code-first SDK/framework for feature management with agent/MCP integrations as secondary capabilities.
+      decision_evidence:
+        - Primary identity is TypeScript feature management (SDKs for React/Vue/Next/Node)
+        - Agent/MCP integrations are additive features, not the main product
+        - Listed in MCP server directories but MCP is not the product identity
+      category_candidates:
+        - ai-frameworks
+        - mcp
+      contrastive_reason: Choose ai-frameworks over mcp because the product is fundamentally a feature flag SDK/platform, with MCP as a compatibility layer rather than its core identity.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+      review_resume_lifecycle: null

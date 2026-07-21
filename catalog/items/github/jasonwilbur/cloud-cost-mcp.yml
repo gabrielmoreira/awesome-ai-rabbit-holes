@@ -50,22 +50,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:20.485Z"
       bytes: 11351
 insights:
-  summary: An MCP server that provides multi-cloud pricing comparisons for AWS, Azure, GCP, and OCI across compute, storage, egress, and Kubernetes via natural language queries.
-  why_it_matters: It lets developers ask a coding assistant for real-time cost estimates and migration comparisons without leaving their workflow or manually checking provider pricing pages.
-  mental_damage: We have successfully abstracted away the last responsible moment of looking at a cloud bill by funneling it through a context protocol server and a chatbot.
+  summary: Model Context Protocol server providing multi-cloud pricing comparison for AWS, Azure, GCP, and OCI.
+  why_it_matters: Developers can query real-time cloud infrastructure costs across providers directly from their AI assistant, enabling faster architectural decisions.
+  mental_damage: Now you can ask your AI assistant which cloud will bankrupt you slowest.
   tags:
     - mcp
+    - cloud-costs
     - finops
-    - cloud-pricing
     - multi-cloud
+    - claude-code
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is built and distributed specifically as a Model Context Protocol server for cloud pricing."
+  reason: "MCP is the product identity: this is a dedicated MCP server for cloud pricing data, not a compatibility footnote."
   evidence:
-    - Repo description explicitly states 'Model Context Protocol server for Cloud Infrastructure pricing information'.
-    - README installation focuses on 'claude mcp add cloud-cost -- npx cloud-cost-mcp' and Claude Code configuration.
-    - Listed in awesome-mcp-servers under 'Cloud Platforms' as a server implementation.
+    - Repo description explicitly states it is an MCP server for cloud infrastructure pricing
+    - README shows it is installed as an MCP server for Claude Code
+    - Source-list context includes it in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -84,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:00.221Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:449b731f26cf2e360ee2777844dfcffe74f6c11bbbeb3e74fbfe963ce657c352
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for cloud pricing data, not a compatibility footnote."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for cloud infrastructure pricing
+        - README shows it is installed as an MCP server for Claude Code
+        - Source-list context includes it in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

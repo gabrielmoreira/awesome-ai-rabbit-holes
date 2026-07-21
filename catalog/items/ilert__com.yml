@@ -1,0 +1,110 @@
+id: ilert__com
+kind: website
+name: ilert
+canonical_url: https://ilert.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__ilert__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: ilert
+        extracted_url: https://ilert.com
+        surrounding_text: "- **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural language."
+        confidence: high
+    - id: discovery__www__ilert__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: ilert
+        extracted_url: https://ilert.com
+        surrounding_text: "- **[ilert](https://github.com/iLert/mcp-ilert)** - Interact with [ilert](https://ilert.com) through natural language."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AI-first incident management platform for alerting, on-call management, and status pages.
+  why_it_matters: Automates incident response workflows for DevOps and SRE teams with AI agents that investigate, explain, and resolve incidents.
+  mental_damage: Finally, an AI that will take the night shift so you don’t have to pretend you’re awake at 3 AM.
+  tags:
+    - incident-management
+    - devops
+    - ai-agents
+    - on-call
+    - sre
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a SaaS incident management platform with AI features, not a developer tool for building, extending, or integrating AI into software workflows.
+  evidence:
+    - Primary product is an incident management SaaS platform, not a developer tool or library
+    - AI features are part of the platform's incident response, not a standalone developer-facing capability
+    - Source-list context shows it listed under MCP servers, but MCP is not the product identity
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:35:02.744Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:92dce0b99fa6c0c388e33e20a38a4a6150d2f4bfd5e9e91235ec7738d15ee248
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a SaaS incident management platform with AI features, not a developer tool for building, extending, or integrating AI into software workflows.
+      decision_evidence:
+        - Primary product is an incident management SaaS platform, not a developer tool or library
+        - AI features are part of the platform's incident response, not a standalone developer-facing capability
+        - Source-list context shows it listed under MCP servers, but MCP is not the product identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.966Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

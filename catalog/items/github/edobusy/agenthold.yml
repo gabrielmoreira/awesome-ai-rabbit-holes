@@ -60,22 +60,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:54.687Z"
       bytes: 25543
 insights:
-  summary: A lightweight MCP server and Python library that provides shared, versioned state with optimistic concurrency control for multi-agent workflows.
-  why_it_matters: It gives agents a git-like conflict detection primitive so parallel workflows don't silently overwrite each other's state.
-  mental_damage: We have successfully reinvented optimistic locking so that our non-deterministic, hallucination-prone agents can now participate in race conditions with proper version tracking.
+  summary: An MCP server providing shared, versioned state with conflict detection for multi-agent AI workflows.
+  why_it_matters: Prevents silent data corruption when multiple agents concurrently modify shared state by implementing optimistic concurrency control.
+  mental_damage: Finally, a way to stop your agents from playing Jenga with your budget allocations.
   tags:
     - mcp
     - multi-agent
     - state-management
-    - concurrency
+    - conflict-detection
+    - python
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that exposes conflict-safe shared state as a tool, making it a clear fit for the MCP Servers & Tooling category.
+  reason: "MCP is the product identity here: agenthold is explicitly an MCP server providing shared state infrastructure for multi-agent workflows."
   evidence:
-    - Repo description explicitly states 'An MCP server' and topics include mcp, mcp-server, and model-context-protocol.
-    - README demonstrates MCP as the primary interface, listing built-in compatibility with Claude Desktop, Cursor, LangChain, CrewAI, and others via MCP.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' as a server implementation.
+    - Repo description explicitly states it is 'an MCP server'
+    - README positions it as shared infrastructure for multi-agent workflows via MCP
+    - Topics include 'mcp-server' and 'model-context-protocol'
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -94,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:58.703Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bd28422f3d6f9fd03f464e2a27315b73e54e397a408e0d26f588e0510de31212
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: agenthold is explicitly an MCP server providing shared state infrastructure for multi-agent workflows."
+      decision_evidence:
+        - Repo description explicitly states it is 'an MCP server'
+        - README positions it as shared infrastructure for multi-agent workflows via MCP
+        - Topics include 'mcp-server' and 'model-context-protocol'
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is as an MCP server, not a general-purpose framework or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

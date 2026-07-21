@@ -40,26 +40,25 @@ metadata:
       fetched_at: "2026-07-20T15:11:26.169Z"
       bytes: 15163
 insights:
-  summary: A Python file watcher that automatically injects and maintains consistent headers across project files while dynamically updating a project tree structure inside .cursorrules to improve LLM context.
-  why_it_matters: It keeps file headers consistent and prunes noisy directories from the project tree fed into Cursor, helping the AI maintain accurate context in large codebases.
-  mental_damage: We have reached the point where we are building infrastructure to curate the context we feed the AI so it can tell us which infrastructure we forgot to curate.
+  summary: A Python-based file watcher that manages file headers and maintains an automated project tree structure within.cursorrules.
+  why_it_matters: It helps prevent LLM context drift by pruning irrelevant files from the project tree and ensuring critical documentation headers remain consistent.
+  mental_damage: Because nothing says 'odern development' like writing a script to manage the context so your AI doesn't hallucinate your entire directory structure.
   tags:
     - cursor
-    - cursorrules
     - context-management
-    - file-watcher
-    - python
+    - workflow-automation
+    - ide-extension
   confidence: high
 curation:
   status: included
-  reason: The core novelty is shaping what context (project tree and file headers) is delivered to the model via .cursorrules, which aligns with Prompt & Context Engineering rather than being a primary coding agent or a simple IDE extension.
+  reason: The tool's core novelty is shaping and pruning the project context provided to the LLM through automated.cursorrules updates.
   evidence:
-    - Repo description states it 'Maintains consistent headers across multiple file types while providing real-time project tree updates' for cursorrules.
-    - README explains the tool updates .cursorrules with a focused tree structure and header management to 'Provide clean, focused context for LLM coding agents'.
-    - Listed in awesome-cursorrules under 'Rules > Utilities', confirming its role in context and rules management for Cursor.
+    - README claims it provides 'clean, focused context for LLM coding agents'
+    - Core functionality is managing '.donotwatchlist' to hide irrelevant directories from the LLM
+    - Aims to optimize the 'Self-Optimizing Context' feedback loop
 placement:
   primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:25.176Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:450bc7884146cc05047d011f867f69d6a0814bd280a1cd5548f3b8aff2880327
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The tool's core novelty is shaping and pruning the project context provided to the LLM through automated.cursorrules updates.
+      decision_evidence:
+        - README claims it provides 'clean, focused context for LLM coding agents'
+        - Core functionality is managing '.donotwatchlist' to hide irrelevant directories from the LLM
+        - Aims to optimize the 'Self-Optimizing Context' feedback loop
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the primary value proposition is managing the information density and relevance of the context sent to the model, rather than acting as a simple workflow utility for the host.
+      review_reason: null
+      review_resume_lifecycle: null

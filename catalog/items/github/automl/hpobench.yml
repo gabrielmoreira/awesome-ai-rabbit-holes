@@ -44,23 +44,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:07.067Z"
       bytes: 8175
 insights:
-  summary: A library and containerized benchmark suite for evaluating (multi-fidelity) hyperparameter optimization algorithms with a focus on reproducibility.
-  why_it_matters: It gives developers and researchers a standardized, reproducible way to measure and compare HPO algorithms across a wide range of pre-built ML and NAS benchmarks.
-  mental_damage: Yet another reminder that while we are building agents that write code, we are still spending more time tuning the knobs that train the models than the models themselves.
+  summary: A library providing containerized benchmark problems for hyperparameter optimization with a focus on reproducibility.
+  why_it_matters: It enables developers to evaluate and compare hyperparameter optimization algorithms in a standardized, reproducible environment.
+  mental_damage: Because nothing says 'fun' like spending your afternoon tuning hyperparameters only to realize your benchmark was the problem all along.
   tags:
-    - hyperparameter-optimization
     - benchmarking
-    - automl
+    - hyperparameter-optimization
     - reproducibility
-    - ml-eval
+    - containerized
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional AutoML benchmarking library for hyperparameter optimization research, not a practical AI developer tool, agent, workflow, or infrastructure project.
+  reason: This is a benchmarking library for hyperparameter optimization, which falls under ML research tooling rather than developer-facing AI workflow or tooling.
   evidence:
-    - Repo description explicitly states it is a 'Collection of hyperparameter optimization benchmark problems'.
-    - README demonstrates usage via Python benchmarking APIs and Singularity containers for ML/NAS evaluation, not coding assistants or developer workflows.
-    - Listed in Awesome-LLMOps under 'AutoML', which reflects research infrastructure rather than the curated developer-tooling scope of this catalog.
+    - Repo description explicitly states it is a 'Collection of hyperparameter optimization benchmark problems'
+    - README emphasizes reproducibility and benchmarking for HPO, not developer workflow augmentation
+    - Source-list context places it under AutoML in Awesome-LLMOps, which is adjacent but not core to developer-tooling scope
 placement:
   primary_category: null
   section: null
@@ -79,12 +78,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:32.314Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dad0f356e1978413ba5a9702a1028e40fb5d24464a0f4d8146cdb9ffb8cdbc90
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a benchmarking library for hyperparameter optimization, which falls under ML research tooling rather than developer-facing AI workflow or tooling.
+      decision_evidence:
+        - Repo description explicitly states it is a 'Collection of hyperparameter optimization benchmark problems'
+        - README emphasizes reproducibility and benchmarking for HPO, not developer workflow augmentation
+        - Source-list context places it under AutoML in Awesome-LLMOps, which is adjacent but not core to developer-tooling scope
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

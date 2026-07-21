@@ -53,23 +53,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:29.514Z"
       bytes: 13767
 insights:
-  summary: Every Code is a community-driven fork of the OpenAI Codex CLI that adds multi-agent orchestration, browser integration, background Auto Review, and theming while supporting models from OpenAI, Claude, Gemini, and other providers.
-  why_it_matters: It turns a single-model CLI assistant into a multi-agent terminal environment with background code review and browser control, letting developers delegate longer-running repo tasks without blocking their shell.
-  mental_damage: Just when you thought one terminal-bound AI assistant was enough, a fork arrives to remind you that the real frontier isn't the model—it's how many agents you can orchestrate before you stop reviewing the code entirely.
+  summary: Every Code is a community-driven fork of the Codex CLI that adds multi-agent orchestration, browser integration, theming, and validation for terminal-native coding assistance.
+  why_it_matters: It extends the Codex CLI with practical workflows like Auto Drive for task orchestration and Auto Review for background code verification, making it a more robust terminal coding agent.
+  mental_damage: Finally, a CLI coding agent that remembers to review its own work—unlike the rest of us at 2 AM.
   tags:
-    - cli
-    - multi-agent
+    - terminal-ai
     - coding-agent
-    - terminal
-    - codex
+    - multi-agent
+    - codex-fork
+    - auto-review
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone terminal coding assistant that plans, edits, and reviews code across a repo, and is already recognized in the awesome-cli-coding-agents list as a terminal-native agent.
+  reason: It is a primary terminal-native coding assistant that directly plans, writes, reviews, and orchestrates code tasks, fitting the core definition of a coding agent.
   evidence:
-    - "Repo description: 'A fork of the Codex CLI with validation, automation, browser integration, multi-agents, theming, and much more. Orchestrate agents from OpenAI, Claude, Gemini or any provider.'"
-    - "README: 'Every Code (Code for short) is a fast, local coding agent for your terminal... focused on real developer ergonomics.'"
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'.
+    - "Repo description: 'A fork of the Codex CLI with validation, automation, browser integration, multi-agents, theming, and much more.'"
+    - "README: 'Every Code is a fast, local coding agent for your terminal' with Auto Drive orchestration and Auto Review features."
+    - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'."
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -88,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:35.945Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:742edb8dfa9fa46a20943b8afb893f959c8c546bb498298ed7dcbca963affb5e
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a primary terminal-native coding assistant that directly plans, writes, reviews, and orchestrates code tasks, fitting the core definition of a coding agent.
+      decision_evidence:
+        - "Repo description: 'A fork of the Codex CLI with validation, automation, browser integration, multi-agents, theming, and much more.'"
+        - "README: 'Every Code is a fast, local coding agent for your terminal' with Auto Drive orchestration and Auto Review features."
+        - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'."
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the primary identity is a terminal coding assistant (Auto Drive, Auto Review) rather than a general multi-agent control plane.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:08.860Z"
       bytes: 6716
 insights:
-  summary: A CLI and MCP server that provides sandboxed Android, browser, and Linux desktop environments for AI agents to operate devices and apps like a human.
-  why_it_matters: Developers can give coding agents like Claude Code or Cursor the ability to interact with mobile UIs and desktop apps for automated testing, app development, and task automation.
-  mental_damage: We have finally achieved the future where your $200/month coding agent can tap through a mobile game to valiantly compare e-commerce prices while you watch in awe.
+  summary: CLI and MCP server enabling AI agents to operate Android, browser, and desktop environments like a human.
+  why_it_matters: Developers can delegate mobile and desktop automation tasks (e.g., app testing, e-commerce price comparisons) to AI agents via a standardized MCP interface.
+  mental_damage: Now your AI can swipe through Android apps while you question your life choices.
   tags:
     - mcp
-    - android
-    - automation
-    - sandbox
-    - agent-runtime
+    - android-automation
+    - desktop-automation
+    - browser-automation
+    - agent-tools
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server and CLI that gives agents access to device environments, making it a domain-specific MCP tool rather than a standalone coding agent.
+  reason: "MCP is the product identity here: a server providing device/environment control capabilities to agents, with explicit MCP integration as the primary distribution mechanism."
   evidence:
-    - "Repository description states: 'Cli and MCP for gbox. Enable AI agents to operate Android/Browser/Desktop like human.'"
-    - "README demonstrates MCP integration: 'plug GBOX MCP to any Agent you like, such as Cursor, Claude Code.'"
-    - Listed in awesome-mcp-servers under 'Community Servers' section.
+    - Repo description explicitly states 'Cli and MCP for gbox'
+    - README emphasizes MCP server functionality for Claude Code/Cursor integration
+    - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:23.587Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:736ecac3cfc919a7a6d271b2894ba566d9f5babffd5c01e09e04bec13f979d7c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: a server providing device/environment control capabilities to agents, with explicit MCP integration as the primary distribution mechanism."
+      decision_evidence:
+        - Repo description explicitly states 'Cli and MCP for gbox'
+        - README emphasizes MCP server functionality for Claude Code/Cursor integration
+        - Listed in awesome-mcp-servers under 'Community Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing device control capabilities, not merely an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

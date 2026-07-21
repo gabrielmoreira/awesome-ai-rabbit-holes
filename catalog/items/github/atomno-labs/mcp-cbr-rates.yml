@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:05.973Z"
       bytes: 6612
 insights:
-  summary: An MCP server that exposes Central Bank of Russia data—currency rates, key rate, inflation, and macro stats—to AI agents via stdio with no API keys required.
-  why_it_matters: Developers wiring AI agents into Russian fintech workflows can give models structured, real-time access to CBR macro data without scraping or secret management.
-  mental_damage: We now have a dedicated stdio server, a test suite, and a PyPI package so your agent can hallucinate less about the ruble while adding yet another MCP dependency to your stack.
+  summary: An MCP server that exposes Central Bank of Russia currency rates, key rate, inflation, and macroeconomic statistics to AI agents.
+  why_it_matters: Developers building financial or economic AI agents can directly query official CBR data without API keys or manual scraping.
+  mental_damage: Now your AI can obsess over RUB/USD rates as much as you do during market volatility.
   tags:
     - mcp
-    - fintech
+    - financial-data
     - russia
-    - macro
-    - rates
-  confidence: medium
+    - currency-rates
+    - python
+  confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose core identity is exposing a specific domain data source to MCP-compatible clients, exactly the kind of Domain Server this catalog lists.
+  reason: This is a domain-specific MCP server whose primary identity is providing CBR financial data via MCP protocol.
   evidence:
-    - "Repo description explicitly says: 'MCP server for Central Bank of Russia rates, key rate, inflation and macro stats'."
-    - README states 'A Model Context Protocol (MCP) server that exposes public Bank of Russia data… to AI agents' and documents stdio usage with Cursor, Claude Desktop, and Claude Code.
-    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech, confirming its MCP-domain-server identity.
+    - Repo description explicitly states it is an MCP server for Central Bank of Russia rates
+    - README confirms it implements 5 MCP tools for CBR data with no API keys required
+    - Listed in Glama MCP server registry
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -83,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:16.416Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2f9609a37f49ebde5669559bc5083bdc2814043b8e1b405e6541b0965662a397
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a domain-specific MCP server whose primary identity is providing CBR financial data via MCP protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Central Bank of Russia rates
+        - README confirms it implements 5 MCP tools for CBR data with no API keys required
+        - Listed in Glama MCP server registry
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product identity is an MCP server (not a general SDK/framework) and MCP is the primary adopted protocol.
+      review_reason: null
+      review_resume_lifecycle: null

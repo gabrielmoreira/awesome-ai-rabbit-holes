@@ -37,22 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AutoGen is a framework for building and orchestrating multi-agent AI workflows, developed by Microsoft.
-  why_it_matters: It provides developers with a structured code-first approach to coordinating multiple LLM agents to solve complex, multi-step coding and reasoning tasks.
-  mental_damage: Just when you thought managing one hallucinating intern was hard, Microsoft provides the framework to hire an entire team of them, complete with standup meetings.
+  summary: An open-source framework for developing and orchestrating multi-agent systems using conversational patterns.
+  why_it_matters: It enables developers to build complex, autonomous workflows by coordinating multiple specialized AI agents that can talk to each other.
+  mental_damage: You'll spend more time debugging agent conversational loops than actually writing the logic they are supposed to implement.
   tags:
     - multi-agent
-    - framework
-    - microsoft
     - orchestration
+    - agents
+    - automation
   confidence: high
 curation:
   status: included
-  reason: The product is fundamentally a code-first library and SDK used by developers to programmatically build multi-agent systems, falling under the Agent Frameworks section.
+  reason: AutoGen is a code-first library/SDK that developers import to build agentic workflows, making it a framework rather than a standalone orchestration platform.
   evidence:
-    - Listed in 'awesome-agent-orchestration' specifically as an 'AI Agent framework' alongside LangChain/CrewAI.
-    - Explicitly cited in the 'ai-frameworks' category definition as a 'canonical_positive' example of a framework.
-    - The 'agent-orchestration' category explicitly lists AutoGen as a 'common_false_positive' for platforms, confirming it is a framework, not a control plane.
+    - Included in awesome-agent-orchestration as an AI Agent framework
+    - Primary identity is a developer tool for building multi-agent systems via code
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -70,12 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:05.760Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:28c9f32d2840e86fcfd6076e275659020f1de9994f09ac946d1dbb5de7a60377
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: AutoGen is a code-first library/SDK that developers import to build agentic workflows, making it a framework rather than a standalone orchestration platform.
+      decision_evidence:
+        - Included in awesome-agent-orchestration as an AI Agent framework
+        - Primary identity is a developer tool for building multi-agent systems via code
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is primarily used as a code-first SDK/library for developers to build within, rather than an operated workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

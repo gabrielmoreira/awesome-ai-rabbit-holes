@@ -58,23 +58,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:16.064Z"
       bytes: 14133
 insights:
-  summary: An MCP server that generates Excalidraw architecture diagrams with automatic graph-layout algorithms, allowing coding assistants to create and iteratively edit visual system designs.
-  why_it_matters: It removes the manual cleanup usually required when LLMs generate diagrams by separating structural description from pixel-perfect layout math.
-  mental_damage: You can now hallucinate an entire microservice architecture in perfect Sugiyama alignment without ever understanding how the code actually works.
+  summary: An MCP server that turns architecture descriptions into auto-laid-out Excalidraw diagrams for Cursor, Claude Code, and Windsurf, running offline without API keys.
+  why_it_matters: Developers can generate, edit, and maintain architecture diagrams with natural language while the tool handles layout and styling, reducing manual diagram maintenance.
+  mental_damage: Finally, a way to stop arguing about box placement in architecture diagrams and let the algorithm take the blame.
   tags:
-    - mcp
+    - mcp-server
+    - architecture-diagrams
     - excalidraw
-    - architecture
-    - diagrams
+    - offline
     - cursor
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server that gives coding assistants access to architecture diagram generation, fitting cleanly into MCP Domain Servers.
+  reason: "MCP is the product identity: this is explicitly an MCP server for architecture visualization, not just an MCP-compatible tool."
   evidence:
-    - Repo description states it is 'An MCP server that generates beautiful Excalidraw architecture diagrams'.
-    - README emphasizes MCP integration with Cursor/Windsurf and describes an MCP tool for layout and editing.
-    - Listed in awesome-mcp-servers under 'Architecture & Design' section.
+    - Repo description identifies it as 'An MCP server for Cursor, Claude Code & Windsurf'
+    - README emphasizes MCP integration and offline operation
+    - Listed in awesome-mcp-servers under Architecture & Design
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -93,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:34:38.806Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e087a00f78bae96486f901b26c2d0c2e1be6efe3b16eca9a19684120ca549fcd
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is explicitly an MCP server for architecture visualization, not just an MCP-compatible tool."
+      decision_evidence:
+        - Repo description identifies it as 'An MCP server for Cursor, Claude Code & Windsurf'
+        - README emphasizes MCP integration and offline operation
+        - Listed in awesome-mcp-servers under Architecture & Design
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another assistant).
+      review_reason: null
+      review_resume_lifecycle: null

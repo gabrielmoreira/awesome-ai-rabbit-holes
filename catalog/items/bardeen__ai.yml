@@ -51,23 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bardeen is an automation platform for GTM teams that uses AI agents to scrape websites, enrich lead data, and automate outreach workflows.
-  why_it_matters: It provides a no-code operational layer for automating lead generation and CRM data entry, targeting sales and ops rather than repository development.
-  mental_damage: We have successfully automated the soul-crushing task of scraping strangers' contact info so that developers can go back to automating their own obsolescence instead.
+  summary: Bardeen is an AI-powered automation platform for lead generation, web scraping, contact enrichment, and workflow automation.
+  why_it_matters: It automates repetitive tasks like lead discovery, data enrichment, and outreach for GTM teams, reducing manual effort in sales and operations workflows.
+  mental_damage: Finally, a way to automate the soul-crushing parts of sales prospecting—just in time to realize you still have to talk to humans.
   tags:
-    - ai-agents
     - automation
-    - no-code
-    - sales-ops
-    - web-scraper
+    - lead-generation
+    - web-scraping
+    - workflow
+    - gtm
   confidence: high
 curation:
   status: excluded
-  reason: Bardeen is a sales and GTM automation tool for lead generation, not a developer-facing coding tool, agent framework, or infrastructure component.
+  reason: Bardeen is a GTM-focused automation and lead generation SaaS platform, not a developer-tooling product for coding, agent orchestration, or AI workflow infrastructure.
   evidence:
-    - Scraped site title and description explicitly focus on 'Find and reach leads' and 'GTM teams'.
-    - Primary use cases listed are Sales, Customer Success, and Revenue Operations, not coding workflows.
-    - Seen in awesome-ai-agents list, but the description there ('agentic web scraper', 'contact enrichment') confirms a sales/GTM focus.
+    - Primary product is agentic web scraping and lead enrichment for sales/GTM teams
+    - No developer-facing coding, IDE, or agent orchestration capabilities
+    - Source-list context places it in AI agents lists but for business automation, not developer workflows
 placement:
   primary_category: null
   section: null
@@ -76,15 +76,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:39.489Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3fbb29408f274bc2239dba70dcabd5a179b05e5a3a6c64d0722548313cbde5f3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Bardeen is a GTM-focused automation and lead generation SaaS platform, not a developer-tooling product for coding, agent orchestration, or AI workflow infrastructure.
+      decision_evidence:
+        - Primary product is agentic web scraping and lead enrichment for sales/GTM teams
+        - No developer-facing coding, IDE, or agent orchestration capabilities
+        - Source-list context places it in AI agents lists but for business automation, not developer workflows
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T16:42:15.365Z"

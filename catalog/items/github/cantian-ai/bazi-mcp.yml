@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:17.739Z"
       bytes: 12415
 insights:
-  summary: An MCP server that provides accurate Bazi (Chinese astrology) calculation tools for AI agents via Streamable HTTP or Stdio transports.
-  why_it_matters: It demonstrates how the MCP ecosystem is expanding into niche domains, allowing agents to access specialized external data beyond standard code and file operations.
-  mental_damage: We have successfully built the infrastructure for large language models to argue about your destiny with the precision of a seasoned fortune teller.
+  summary: An MCP server providing Bazi (Chinese astrology) calculations for AI agents.
+  why_it_matters: It offers precise Bazi data integration for AI agents, addressing inaccuracies in existing fortune-telling tools.
+  mental_damage: Now your AI agent can tell you your destiny while you debug your code.
   tags:
     - mcp
-    - server
     - bazi
-    - astrology
-    - integration
+    - chinese-astrology
+    - agent-integration
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server designed to provide Bazi metaphysical data to AI agents, fitting the Domain Servers section.
+  reason: MCP is the product identity, and it is a domain-specific server for Bazi calculations.
   evidence:
-    - "Repo description states: 'MCP server for Bazi (八字) information'."
-    - README explicitly lists configuration for Claude Desktop and usage via `npx bazi-mcp`.
-    - Listed in awesome-mcp-servers under 'Art & Culture' section.
+    - Repo description explicitly states it is an MCP server for Bazi
+    - README confirms it is an MCP server with tools for Bazi calculations
+    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:53.664Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:36d7bae74080077aab1a1143722759c7cda0d9be0828386f8a6908370f2bc58b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity, and it is a domain-specific server for Bazi calculations.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Bazi
+        - README confirms it is an MCP server with tools for Bazi calculations
+        - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

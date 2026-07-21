@@ -43,23 +43,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:06.421Z"
       bytes: 8637
 insights:
-  summary: Lighteval is an all-in-one toolkit from Hugging Face for evaluating LLMs across multiple backends, supporting over 1000 tasks from math and code to multilingual benchmarks.
-  why_it_matters: It allows developers and researchers to deeply measure model performance, create custom evaluation tasks, and debug sample-by-sample results across various serving backends.
-  mental_damage: Yet another reminder that while we have perfected the art of measuring how badly our models fail, we still lack a reliable way to stop them from hallucinating in prod.
+  summary: Lighteval is an all-in-one toolkit for evaluating LLMs across multiple backends, supporting 1000+ tasks and custom metrics.
+  why_it_matters: Developers can rigorously benchmark and debug model performance with detailed, sample-by-sample results across diverse domains and languages.
+  mental_damage: Finally, a way to prove your model is bad at math without having to argue with it.
   tags:
     - evaluation
-    - llm
     - benchmarking
+    - llm
     - huggingface
     - metrics
   confidence: high
 curation:
   status: included
-  reason: The core job of this product is measuring, scoring, and benchmarking LLM behavior across 1000+ tasks, fitting squarely into the Evals & Benchmarks category.
+  reason: The core product is a framework for measuring, scoring, and comparing LLM behavior, which aligns with the Evals & Benchmarks category.
   evidence:
-    - Repo description explicitly states it is an 'all-in-one toolkit for evaluating LLMs'.
-    - README emphasizes 'evaluating LLMs', 'custom task' creation, and lists extensive benchmarks like MMLU, GSM8K, and LiveCodeBench.
-    - Found in the '评估 Evaluation' (Evaluation) section of the awesome-LLM-resources list.
+    - Repo description explicitly states it is a toolkit for evaluating LLMs across multiple backends
+    - README highlights 1000+ evaluation tasks, custom metrics, and detailed results for debugging
+    - Source-list context places it in an 'Evaluation' section
 placement:
   primary_category: evals
   section: Agent Benchmarks
@@ -78,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:35.912Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5dda5cf6077d3b6b8531ca8ec07a17e1079509fa7198138bd2146fc85c409a7f
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The core product is a framework for measuring, scoring, and comparing LLM behavior, which aligns with the Evals & Benchmarks category.
+      decision_evidence:
+        - Repo description explicitly states it is a toolkit for evaluating LLMs across multiple backends
+        - README highlights 1000+ evaluation tasks, custom metrics, and detailed results for debugging
+        - Source-list context places it in an 'Evaluation' section
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the primary job is benchmarking and evaluation rather than serving as a code-first building block.
+      review_reason: null
+      review_resume_lifecycle: null

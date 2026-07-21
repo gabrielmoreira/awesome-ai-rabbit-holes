@@ -54,26 +54,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:31.603Z"
       bytes: 31857
 insights:
-  summary: Deepchecks is an open-source Python framework for continuous validation of ML models and data, offering built-in checks and suites for testing data integrity, model performance, and drift across tabular, NLP, and CV workflows from research to production.
-  why_it_matters: It lets developers codify data and model validation into CI pipelines and production monitoring, catching train-serve skew, data drift, and silent quality regressions before they hit users.
-  mental_damage: Yet another reminder that your carefully tuned model is only ever one silent data drift away from confidently predicting nonsense while your dashboards smile back at you.
+  summary: Deepchecks is an open-source solution for continuous validation of ML models and data, covering testing, CI, and monitoring.
+  why_it_matters: It helps developers validate AI/ML models and data pipelines from research to production, ensuring reliability and performance.
+  mental_damage: Because nothing says 'production-ready' like a model that passes all its tests until it doesn’t.
   tags:
-    - mlops
-    - model-validation
+    - ml-validation
+    - model-testing
     - data-drift
-    - ci-testing
-    - monitoring
+    - mlops
+    - ci-cd
   confidence: high
 curation:
-  status: excluded
-  reason: This is a general ML validation and MLOps framework focused on classical ML workflows, not a developer-facing AI coding tool, agent, or prompt/context engineering utility within the catalog's scope.
+  status: included
+  reason: The core job is measuring, validating, and monitoring model/data behavior, which aligns with the evals category's focus on observability and validation.
   evidence:
-    - Repo description and README position it as a holistic ML/data validation solution for tabular, NLP, and CV models, not AI coding assistants or developer tooling.
-    - Topics and components emphasize data-drift, model-monitoring, and MLOps rather than coding agents, IDEs, prompt engineering, or app builders.
-    - Included in Awesome-LLMOps under Security > Observability, but the product itself is a general ML testing framework rather than a targeted AI developer tool.
+    - Repo description explicitly states it is for 'Continuous Validation of ML Models & Data'
+    - README highlights testing, CI, and monitoring as primary components
+    - Source-list context places it under 'Security > Observability' in Awesome-LLMOps
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: promotion_candidate
   reason: Stars (4011) exceeded threshold (150)
@@ -89,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:36.120Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d6fc9718c47632a2af09937f6f8037c92cdc35a9cd23cbf82a415e7eacd0e457
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The core job is measuring, validating, and monitoring model/data behavior, which aligns with the evals category's focus on observability and validation.
+      decision_evidence:
+        - Repo description explicitly states it is for 'Continuous Validation of ML Models & Data'
+        - README highlights testing, CI, and monitoring as primary components
+        - Source-list context places it under 'Security > Observability' in Awesome-LLMOps
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the product's main value is validation and observability rather than being a code-first building block.
+      review_reason: null
+      review_resume_lifecycle: null

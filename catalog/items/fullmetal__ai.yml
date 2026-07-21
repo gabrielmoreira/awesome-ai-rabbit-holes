@@ -1,0 +1,107 @@
+id: fullmetal__ai
+kind: website
+name: FuLLMetalAi
+canonical_url: https://fullmetal.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__fullmetal__ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: FuLLMetalAi
+        extracted_url: https://fullmetal.ai
+        surrounding_text: "- [FuLLMetalAi](https://www.fullmetal.ai/) - Fullmetal.Ai is a distributed network of self-hosted Large Language Models (LLMs)."
+        confidence: high
+    - id: discovery__www__fullmetal__ai__awesome-list__janhq__awesome-local-ai
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: janhq/awesome-local-ai
+        url: https://github.com/janhq/awesome-local-ai
+        repository: janhq/awesome-local-ai
+      extraction:
+        mode: parsed
+        section_path:
+          - Inference UI
+        anchor_text: FuLLMetalAi
+        extracted_url: https://www.fullmetal.ai
+        surrounding_text: "- [FuLLMetalAi](https://www.fullmetal.ai/) - Fullmetal.Ai is a distributed network of self-hosted Large Language Models (LLMs)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An unknown AI-related tool currently listed in the Inference UI section of the awesome-local-ai directory.
+  why_it_matters: It likely provides a user interface for managing or interacting with locally hosted AI models.
+  mental_damage: Just another way to stare at a progress bar while your GPU struggles to stay under 90 degrees.
+  tags:
+    - local-ai
+    - inference-ui
+  confidence: low
+curation:
+  status: excluded
+  reason: The project lacks sufficient documentation, description, or README substance to determine its actual function beyond a vague inclusion in a local AI list.
+  evidence:
+    - No repo description provided
+    - No README excerpt provided
+    - Source-list context only indicates it is in an 'Inference UI' section of a local AI list
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: needs_review
+  reason: "Categorization review required: low confidence"
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:34:18.451Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9f0f7a4aa9e4100fb9a7266b81557b92958a3a64310b298ad1e41852f9314f23
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project lacks sufficient documentation, description, or README substance to determine its actual function beyond a vague inclusion in a local AI list.
+      decision_evidence:
+        - No repo description provided
+        - No README excerpt provided
+        - Source-list context only indicates it is in an 'Inference UI' section of a local AI list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.965Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

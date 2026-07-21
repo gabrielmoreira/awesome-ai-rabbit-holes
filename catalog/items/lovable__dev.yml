@@ -51,22 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Lovable is a prompt-to-app builder that generates and deploys websites, web apps, and internal tools through a conversational chat interface.
-  why_it_matters: It allows developers and non-developers to ship functional prototypes, internal tools, and portfolio sites rapidly without manually scaffolding a codebase.
-  mental_damage: Another step toward the existential dread of realizing your hard-won frontend skills are now a $20/month subscription to a chat box that screams 'Build' and actually delivers something.
+  summary: A SaaS platform for building apps, websites, and digital products from prompts without deep coding skills.
+  why_it_matters: Enables rapid prototyping and deployment of full-stack applications for non-technical or semi-technical users.
+  mental_damage: Finally, a way to build apps without writing code—until you need to debug the AI-generated code.
   tags:
+    - app-builder
     - prompt-to-app
     - no-code
-    - ai-builder
-    - rapid-prototyping
+    - ai-platform
+    - prototyping
   confidence: high
 curation:
   status: included
-  reason: The core product identity is turning natural language prompts into deployed apps and websites, which aligns perfectly with the Prompt-to-App Builders section of the App Builders category.
+  reason: The product's core value is turning prompts into deployable apps/sites, fitting the App Builders category.
   evidence:
-    - Scraped site title and description explicitly state 'AI App Builder' and 'Build apps, websites... by chatting with AI'.
-    - Source-list context places it in 'App Builders' within an AI coding tools directory.
-    - The workflow described is describe → watch it build → refine and ship, which is prompt-to-app, not repo editing.
+    - "Site description: 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep coding skills required.'"
+    - "Source-list context: Listed under 'App Builders' in awesome-ai-coding-tools."
+    - Primary page excerpt emphasizes prompt-to-app workflow ('Start with an idea... Watch it come to life... Refine and ship').
 placement:
   primary_category: app-builders
   section: Prompt-to-App Builders
@@ -84,12 +85,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:20.143Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:52e5b1cf3d7cec2209845e65a8b9e603e149c6fc7eca28bb89d8533b6e4a8d6f
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product's core value is turning prompts into deployable apps/sites, fitting the App Builders category.
+      decision_evidence:
+        - "Site description: 'Build apps, websites, and digital products faster using Lovable's AI-powered platform, no deep coding skills required.'"
+        - "Source-list context: Listed under 'App Builders' in awesome-ai-coding-tools."
+        - Primary page excerpt emphasizes prompt-to-app workflow ('Start with an idea... Watch it come to life... Refine and ship').
+      category_candidates:
+        - app-builders
+        - agent-orchestration
+      contrastive_reason: Choose app-builders over agent-orchestration because the product is a prompt-to-app platform, not a multi-agent coordination system.
+      review_reason: null
+      review_resume_lifecycle: null

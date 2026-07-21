@@ -40,26 +40,26 @@ metadata:
       fetched_at: "2026-07-20T15:10:55.700Z"
       bytes: 7242
 insights:
-  summary: An MCP server that exposes Warhammer 40K, Combat Patrol, and Kill Team rules, unit stats, stratagems, and wound math to AI assistants like Claude Desktop and Claude Code.
-  why_it_matters: It lets developers who play tabletop wargames query complex rules, calculate damage, and compare units directly through their coding assistant instead of context-switching to wikis or PDFs.
-  mental_damage: We have successfully turned a coding assistant into a rules lawyer, proving that no niche is too specific to avoid becoming an MCP server.
+  summary: An MCP server providing Warhammer 40K and Kill Team rules, unit stats, and game flow tools for AI assistants.
+  why_it_matters: Developers building AI assistants for tabletop gaming can integrate structured Warhammer 40K/Kill Team data and calculations via MCP.
+  mental_damage: Now your AI can debate whether Devastating Wounds is overpowered while you debug your actual code.
   tags:
-    - mcp
+    - mcp-server
     - gaming
-    - warhammer
-    - claude
-    - rules
+    - tabletop
+    - warhammer-40k
+    - kill-team
   confidence: high
 curation:
-  status: excluded
-  reason: Excluded because the tool is a domain-specific gaming server with no meaningful developer-tooling utility beyond being an MCP implementation.
+  status: included
+  reason: "MCP is the product identity: this is a domain-specific MCP server exposing Warhammer 40K/Kill Team tools and data."
   evidence:
-    - Repo description explicitly states it is a Warhammer 40K and Kill Team rules, stats, and game flow MCP server.
-    - All documented tools (lookup_unit, wound_calculator, game_flow) are designed for tabletop wargaming queries, not software development workflows.
-    - Appears in awesome-mcp-servers under Gaming, confirming its identity as a hobby/entertainment tool rather than a developer productivity tool.
+    - Repo description explicitly identifies it as a Warhammer 40K/Kill Team MCP server
+    - README details MCP-compatible tools (lookup_unit, wound_calculator, etc.) and installation via npx/claude mcp add
+    - Badges and links confirm MCP compatibility and registry presence (glama.ai)
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:18.739Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bc30d1c83fb9d6cd4518d04ffdc566d05a4f58a5f7dc359a00cc206fded66bce
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing Warhammer 40K/Kill Team tools and data."
+      decision_evidence:
+        - Repo description explicitly identifies it as a Warhammer 40K/Kill Team MCP server
+        - README details MCP-compatible tools (lookup_unit, wound_calculator, etc.) and installation via npx/claude mcp add
+        - Badges and links confirm MCP compatibility and registry presence (glama.ai)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

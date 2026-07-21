@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:31.019Z"
       bytes: 2514
 insights:
-  summary: An MCP server that connects Claude Desktop to a user's Zotero Cloud library, enabling the assistant to list collections, search papers, and retrieve item details.
-  why_it_matters: It allows developers to query and reference their research library directly within their coding assistant, bridging the gap between literature review and implementation.
-  mental_damage: Finally, an integration that ensures your AI assistant can distract you with academic papers while you are trying to ship code.
+  summary: An MCP server that enables Claude Desktop to interact with a user's Zotero library via the Zotero Cloud API.
+  why_it_matters: Developers and researchers using Claude can now directly query, retrieve, and manage academic papers and collections from their Zotero libraries without leaving their coding workflow.
+  mental_damage: Finally, a way to make your AI assistant cite its sources—just like you never do.
   tags:
     - mcp
     - zotero
+    - academic-research
+    - context-integration
     - claude
-    - research
-    - integration
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server designed to give Claude Desktop access to a specific external domain (Zotero), fitting the MCP Servers & Tooling category.
+  reason: The product's core identity is as an MCP server providing domain-specific (Zotero) integration, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is 'A connector for Claude Desktop' using the Model Context Protocol.
-    - README confirms it is 'A Model Context Protocol server for Zotero integration'.
-    - Indexed in awesome-mcp-list and awesome-mcp-servers under Knowledge & Memory sections.
+    - Repo description explicitly states it is a connector for Claude Desktop to work with Zotero Cloud
+    - README confirms it is an MCP server for Zotero integration with Claude
+    - Listed in awesome-mcp-list under Knowledge & Memory section
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:48.918Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1ef8946440a7dee4d4127a3e73a452612ec128430dd99ff445b4342b4f6644d8
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is as an MCP server providing domain-specific (Zotero) integration, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is a connector for Claude Desktop to work with Zotero Cloud
+        - README confirms it is an MCP server for Zotero integration with Claude
+        - Listed in awesome-mcp-list under Knowledge & Memory section
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not merely an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

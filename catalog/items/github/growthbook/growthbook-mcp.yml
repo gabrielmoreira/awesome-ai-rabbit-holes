@@ -59,22 +59,23 @@ metadata:
       fetched_at: "2026-07-20T15:10:56.062Z"
       bytes: 1853
 insights:
-  summary: Official GrowthBook MCP server that lets developers create feature flags, view experiments, and manage A/B tests directly from LLM clients.
-  why_it_matters: It removes the context-switching tax of jumping to the GrowthBook dashboard by letting AI assistants handle feature flag and experiment workflows inline.
-  mental_damage: We have successfully abstracted away the last remaining reason to ever look at a feature-flagging UI, which means your LLM is now the one quietly toggling your production rollouts.
+  summary: Official GrowthBook MCP server for interacting with feature flags and experiments via the Model Context Protocol.
+  why_it_matters: Lets developers query and manage GrowthBook feature flags and experiments directly from their LLM client or MCP-enabled tools.
+  mental_damage: Now your AI can flip feature flags while you’re not looking, and you’ll only find out when production is on fire.
   tags:
-    - mcp
+    - mcp-server
     - feature-flags
     - ab-testing
     - growthbook
+    - llm-integration
   confidence: high
 curation:
   status: included
-  reason: This is an official MCP server implementation for GrowthBook, making MCP the core product identity rather than a compatibility footnote.
+  reason: The product is explicitly an MCP server whose primary identity is providing GrowthBook integration via MCP, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'Official GrowthBook MCP server for creating flags, getting experiments, and more.'"
-    - GitHub topics include 'mcp' and 'mcp-server', confirming MCP as the primary identity.
-    - Listed in awesome-mcp-servers under 'Official Servers' and 'Data Science Tools' sections.
+    - Repo description states it is the 'Official GrowthBook MCP server'
+    - README confirms it enables interaction with GrowthBook from LLM clients via MCP
+    - Listed in awesome-mcp-servers under 'Official Servers' and 'Data Science Tools'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -93,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:26.140Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f486147d5a7a35e222cb3bcc1bfbab6b5dd56c21b2b8b7b10472d1049650cef4
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose primary identity is providing GrowthBook integration via MCP, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description states it is the 'Official GrowthBook MCP server'
+        - README confirms it enables interaction with GrowthBook from LLM clients via MCP
+        - Listed in awesome-mcp-servers under 'Official Servers' and 'Data Science Tools'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

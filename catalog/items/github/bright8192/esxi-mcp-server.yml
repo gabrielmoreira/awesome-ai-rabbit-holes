@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:14.903Z"
       bytes: 3905
 insights:
-  summary: A server implementing the Model Context Protocol (MCP) to manage VMware ESXi and vCenter virtual machines via REST APIs and SSE.
-  why_it_matters: It allows AI coding agents and assistants to directly provision, clone, and monitor virtual infrastructure through a standardized protocol.
-  mental_damage: We have finally automated the part of the job where you SSH into a host, forget the vim commands, and reboot the wrong VM.
+  summary: A VMware ESXi/vCenter management server built on MCP, exposing REST API interfaces for virtual machine lifecycle and performance monitoring.
+  why_it_matters: Lets developers integrate VMware infrastructure management directly into MCP-compatible workflows, enabling programmatic control of VMs from AI agents or tools.
+  mental_damage: Now your AI agent can spin up VMs while you're still trying to remember your vCenter password.
   tags:
     - mcp
     - vmware
     - infrastructure
-    - devops
     - esxi
+    - virtualization
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly built as a server for the Model Context Protocol to expose VMware management capabilities, fitting the MCP infrastructure identity.
+  reason: MCP is the product identity here—a server implementation exposing VMware management capabilities via MCP protocol.
   evidence:
-    - Repo description states it is 'A VMware ESXi/vCenter management server based on MCP (Model Control Protocol)'.
-    - README confirms it uses 'mcp-core' and exposes VM lifecycle tools via SSE/JSON-RPC.
-    - Listed in the 'awesome-mcp-servers' directory under 'Cloud Platforms'.
+    - Repo description explicitly states it is an MCP-based server for ESXi/vCenter management
+    - README details MCP-specific implementation (SSE, JSON-RPC, tool interfaces)
+    - Already listed in awesome-mcp-servers under Cloud Platforms
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:49.390Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d140360e2ed4c903b8dd9a456634fcf4325b367fa3310e9ad35cfdbc1b983231
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a server implementation exposing VMware management capabilities via MCP protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP-based server for ESXi/vCenter management
+        - README details MCP-specific implementation (SSE, JSON-RPC, tool interfaces)
+        - Already listed in awesome-mcp-servers under Cloud Platforms
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

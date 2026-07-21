@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:31.607Z"
       bytes: 2398
 insights:
-  summary: An archived, work-in-progress course by Andrej Karpathy to build a storyteller LLM from scratch in Python, C, and CUDA.
-  why_it_matters: It promises an end-to-end curriculum for understanding the full stack of LLM creation, from tokenization to deployment.
-  mental_damage: We are staring at a 36,000-star monument to the fact that even the best instructors are still struggling to finish the course on the tools we are supposed to already be experts in.
+  summary: "LLM101n: Let's build a Storyteller is an archived educational repository for building a storyteller LLM."
+  why_it_matters: It provides a hands-on guide for developers to understand and implement a narrative-focused LLM from scratch.
+  mental_damage: Nothing says 'stable production dependency' like an archived repo named after a course.
   tags:
+    - educational
     - llm
-    - course
-    - education
-    - deep-learning
+    - archived
+    - storyteller
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the repo is explicitly archived and the README states the course does not yet exist, making it an educational resource rather than a usable developer tool.
+  reason: The project is archived and primarily educational (a course) rather than a practical developer tool, framework, or workflow product.
   evidence:
-    - "Repo description: 'LLM101n: Let's build a Storyteller'"
-    - "README Note: 'this course does not yet exist. It is current being developed... Until it is ready I am archiving this repo'"
-    - "Archived: yes"
+    - Repo description explicitly frames it as 'Let's build a Storyteller' (educational)
+    - Archived flag is true
+    - Source-list context places it under '课程 Course' (course)
 placement:
   primary_category: null
   section: null
@@ -73,12 +73,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:53.057Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8db74364f65a727f065e191ec0c255204875c67f754aeb2dc76bd8b3b0c56ec2
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is archived and primarily educational (a course) rather than a practical developer tool, framework, or workflow product.
+      decision_evidence:
+        - Repo description explicitly frames it as 'Let's build a Storyteller' (educational)
+        - Archived flag is true
+        - Source-list context places it under '课程 Course' (course)
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 14
-    forks: 7
+    stars: 18
+    forks: 9
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: tarmojussila/minimax-code-review
+    html_url: https://github.com/tarmojussila/minimax-code-review
     created_at: "2026-02-22T13:21:00Z"
     pushed_at: "2026-04-16T16:29:18Z"
     description: MiniMax Code Review for GitHub Actions
@@ -45,9 +45,9 @@ metadata:
       - llm
       - minimax
       - pull-request
-    last_checked_at: "2026-05-06T22:46:40.316Z"
+    last_checked_at: "2026-07-21T15:20:39.974Z"
     readme:
-      fetched_at: "2026-05-06T22:46:40.316Z"
+      fetched_at: "2026-07-21T15:20:39.974Z"
       bytes: 3579
 insights:
   summary: A GitHub Action that uses MiniMax models to automatically review pull requests, posting AI-generated bug detection and improvement suggestions as PR comments.
@@ -81,16 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:40.316Z"
+    updated_at: "2026-07-21T15:20:39.974Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

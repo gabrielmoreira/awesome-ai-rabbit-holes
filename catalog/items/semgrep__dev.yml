@@ -51,26 +51,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Semgrep is an application security platform that combines static analysis with AI reasoning to scan code for security issues, manage supply chain risks, and detect hardcoded secrets.
-  why_it_matters: It integrates directly into developer workflows—including PRs, IDEs, and AI coding tools via MCP—to automate security triage and provide remediation guidance without breaking build velocity.
-  mental_damage: You can now offload the existential dread of 'is this AI-generated code secure' to an AI that was trained to tell you exactly where the AI you just used introduced a vulnerability.
+  summary: An extensible application security platform that scans source code for vulnerabilities using AI-assisted SAST, SCA, and secrets detection.
+  why_it_matters: It helps developers catch, flag, and fix real vulnerabilities before they ship, integrating with CI/CD, IDEs, and AI tools like Cursor and Replit via MCP.
+  mental_damage: Now your AI coding assistant can ship insecure code faster, but at least Semgrep will catch it before it hits prod.
   tags:
     - security
-    - sast
+    - static-analysis
     - ai-assisted
+    - sast
     - mcp
-    - code-scanning
   confidence: high
 curation:
   status: included
-  reason: Semgrep is a broad AppSec platform that integrates with AI coding tools via MCP and provides security feedback in IDEs and PRs, making it an integration that augments the development workflow rather than a primary coding agent.
+  reason: Semgrep's core identity is a security scanning platform, but its MCP server integration positions it as an extension for AI coding tools, augmenting them with security capabilities rather than acting as a primary assistant.
   evidence:
-    - Platform description emphasizes 'Secure Vibe Coding' and 'MCP Server' integration for AI tools like Cursor and Replit.
-    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring' and in awesome-mcp-servers as an official server.
-    - Features include IDE integrations, PR checks, and AI-assisted remediation guidance rather than autonomous code writing.
+    - Described as an 'extensible developer-friendly application security platform' with AI-assisted SAST, SCA, and secrets detection
+    - Explicitly offers MCP integrations for AI tools like Cursor and Replit
+    - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: ai-dev-extensions
-  section: IDE / UI / Workflow Add-ons
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -85,12 +85,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:28.880Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ebd6b7dd37ab68fbc231ec9629e7b38177499baabfde94fb72ae84786283cfbc
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: Semgrep's core identity is a security scanning platform, but its MCP server integration positions it as an extension for AI coding tools, augmenting them with security capabilities rather than acting as a primary assistant.
+      decision_evidence:
+        - Described as an 'extensible developer-friendly application security platform' with AI-assisted SAST, SCA, and secrets detection
+        - Explicitly offers MCP integrations for AI tools like Cursor and Replit
+        - Listed in awesome-mcp-servers under 'Official Servers'
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because while Semgrep has an MCP server, its primary identity is a security platform that augments AI coding workflows rather than being MCP-first infrastructure.
+      review_reason: null
+      review_resume_lifecycle: null

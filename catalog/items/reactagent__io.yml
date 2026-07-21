@@ -36,14 +36,13 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A React-based framework for building autonomous AI agents that reason and act using the ReAct pattern.
-  why_it_matters: It provides a structured way to build agents that can iteratively reason about tasks and execute actions using external tools.
-  mental_damage: Yet another abstraction layer promising autonomous agency, because clearly what the ecosystem needs is more ways to watch an LLM loop until it runs out of tokens.
+  summary: A web-based platform for creating and managing AI agents with React-based workflows.
+  why_it_matters: It provides developers a way to build and orchestrate AI agents using a React-like paradigm, potentially simplifying agent development for those familiar with component-based architectures.
+  mental_damage: Now you can debug your agents with the same existential dread you debug your React state.
   tags:
-    - react
-    - agents
-    - autonomous
-    - framework
+    - agent-orchestration
+    - react-like
+    - web-platform
   confidence: medium
 curation:
   status: included
@@ -53,10 +52,10 @@ curation:
     - The name 'reactagent.io' and description imply a framework implementation centered on the React (Reason + Act) paradigm.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -68,12 +67,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:54.486Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4bbda06ed1d8eb5123d9a53cd52f1889e99634d88137551e6384c08d3a78d3f5
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: The product is a platform for coordinating AI agents, fitting the agent orchestration category as a workbench surface rather than a code-first framework or single assistant.
+      decision_evidence:
+        - Listed in awesome-ai-agents under 'React Agent' as an autonomous agent tool
+        - URL and name suggest a web-based agent-building platform
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated workbench for building agents rather than a code-first SDK.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

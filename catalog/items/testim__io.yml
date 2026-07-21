@@ -1,0 +1,110 @@
+id: testim__io
+kind: website
+name: Testim
+canonical_url: https://testim.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__testim__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Testim
+        extracted_url: https://testim.io
+        surrounding_text: "- **[Testim](https://www.testim.io/)** – AI end-to-end testing with self-healing locators."
+        confidence: high
+    - id: discovery__www__testim__io__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Testim
+        extracted_url: https://www.testim.io
+        surrounding_text: "- **[Testim](https://www.testim.io/)** – AI end-to-end testing with self-healing locators."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Testim is an AI-powered automated testing platform for web, mobile, and Salesforce applications.
+  why_it_matters: It accelerates test authoring and maintenance with AI-driven locators and agentic automation, reducing manual effort in QA workflows.
+  mental_damage: Finally, a way to make your tests as flaky as your confidence in them.
+  tags:
+    - testing
+    - qa
+    - ai-automation
+    - e2e
+    - salesforce
+  confidence: high
+curation:
+  status: excluded
+  reason: Testim is a SaaS testing/QA platform, not a developer-tooling product focused on coding agents, IDEs, or adjacent infrastructure.
+  evidence:
+    - Described as an 'automated testing platform for fast authoring of AI-powered stable tests'
+    - Primary value is UI/E2E test automation for web/mobile/Salesforce, not developer workflow augmentation
+    - Listed in source lists under 'Testing and QA', not developer tooling
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:37:52.952Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4091cf1c4927365e25d4a6cda199c27db6024523ec9c1944dacd8cddc73d5fa0
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Testim is a SaaS testing/QA platform, not a developer-tooling product focused on coding agents, IDEs, or adjacent infrastructure.
+      decision_evidence:
+        - Described as an 'automated testing platform for fast authoring of AI-powered stable tests'
+        - Primary value is UI/E2E test automation for web/mobile/Salesforce, not developer workflow augmentation
+        - Listed in source lists under 'Testing and QA', not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.971Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

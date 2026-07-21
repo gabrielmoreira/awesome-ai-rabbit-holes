@@ -1,0 +1,112 @@
+id: devart__com__dbforge__ai__assistant
+kind: website
+name: dbForge AI Assistant
+canonical_url: https://devart.com/dbforge/ai-assistant
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__devart__com__dbforge__ai__assistant__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Database and API Tools
+        anchor_text: dbForge AI Assistant
+        extracted_url: https://devart.com/dbforge/ai-assistant
+        surrounding_text: "- **[dbForge AI Assistant](https://www.devart.com/dbforge/ai-assistant/)** – AI-powered SQL code generation and optimization."
+        confidence: high
+    - id: discovery__www__devart__com__dbforge__ai__assistant__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Database and API Tools
+        anchor_text: dbForge AI Assistant
+        extracted_url: https://www.devart.com/dbforge/ai-assistant
+        surrounding_text: "- **[dbForge AI Assistant](https://www.devart.com/dbforge/ai-assistant/)** – AI-powered SQL code generation and optimization."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: dbForge AI Assistant is a commercial SQL-focused AI tool that generates, optimizes, explains, and troubleshoots SQL queries across major database systems.
+  why_it_matters: It accelerates SQL workflows for developers, DBAs, and analysts by converting natural language to queries, optimizing performance, and providing real-time guidance.
+  mental_damage: Finally, an AI that can explain why your JOIN is slow—just don’t ask it to debug your existential dread.
+  tags:
+    - sql
+    - database
+    - query-optimization
+    - ai-assistant
+    - commercial
+  confidence: high
+curation:
+  status: included
+  reason: It is an AI assistant integrated into dbForge IDEs to augment SQL workflows, not a standalone coding agent or primary development environment.
+  evidence:
+    - Described as an AI tool integrated into dbForge products (Studio for SQL Server, MySQL, etc.)
+    - Core features are SQL generation, optimization, and troubleshooting within existing dbForge workflows
+    - Not a standalone assistant but an add-on for dbForge IDEs
+placement:
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:33:38.754Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:03990b86ffa263988aee9ef980eec916083d46a97aae7ccddb4ae56c8b0d90c0
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: It is an AI assistant integrated into dbForge IDEs to augment SQL workflows, not a standalone coding agent or primary development environment.
+      decision_evidence:
+        - Described as an AI tool integrated into dbForge products (Studio for SQL Server, MySQL, etc.)
+        - Core features are SQL generation, optimization, and troubleshooting within existing dbForge workflows
+        - Not a standalone assistant but an add-on for dbForge IDEs
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because it augments existing dbForge IDEs rather than acting as a primary coding assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.965Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

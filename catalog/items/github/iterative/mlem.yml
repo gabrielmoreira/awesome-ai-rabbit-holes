@@ -49,22 +49,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:16.361Z"
       bytes: 6710
 insights:
-  summary: MLEM is a GitOps-oriented CLI and API tool for packaging, versioning, and deploying ML models to platforms like Heroku, SageMaker, and Kubernetes.
-  why_it_matters: It lets ML teams version model metadata in Git and reuse familiar software-engineering workflows instead of standing up a separate model registry.
-  mental_damage: Another bold attempt to bring GitFlow to models that somehow still ended with an archived repo and a polite shrug about resurrection.
+  summary: A CLI tool for packaging, serving, and deploying ML models across platforms with GitOps workflow integration.
+  why_it_matters: It lets developers deploy ML models to Heroku, SageMaker, or Kubernetes using Git as the single source of truth for model metadata and versioning.
+  mental_damage: Finally, a way to treat your ML models like code—just in time for the industry to decide models are the new code.
   tags:
-    - mlops
-    - model-deployment
+    - ml-deployment
     - gitops
+    - model-registry
     - cli
+    - python
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the repo is archived and the tool targets general ML model deployment rather than AI-assisted developer workflows or coding tooling.
+  reason: The project is archived and no longer actively maintained, which overrides its fit as a developer tool for ML deployment.
   evidence:
-    - Repo description explicitly states 'Archived to be resurrected one day🤞'
-    - README focuses on sklearn model packaging and Heroku/SageMaker deployment, not developer AI workflows
-    - Listed only in Awesome-LLMOps under Model Management, which is adjacent but not a direct fit for this developer-tooling catalog
+    - Repo is explicitly marked as archived ('Archived to be resurrected one day🤞')
+    - Last push was in September 2023, with no recent activity
+    - Primary value is ML model deployment, not AI developer tooling (e.g., coding agents, prompt engineering)
 placement:
   primary_category: null
   section: null
@@ -83,12 +84,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:59.337Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0887cabc81f6cca0ea8d885f0af9a05a2e5c9afa4f6dd98b54b6796d8b4f0c19
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is archived and no longer actively maintained, which overrides its fit as a developer tool for ML deployment.
+      decision_evidence:
+        - Repo is explicitly marked as archived ('Archived to be resurrected one day🤞')
+        - Last push was in September 2023, with no recent activity
+        - Primary value is ML model deployment, not AI developer tooling (e.g., coding agents, prompt engineering)
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

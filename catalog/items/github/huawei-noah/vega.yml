@@ -39,23 +39,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:05.150Z"
       bytes: 8823
 insights:
-  summary: Vega is an AutoML toolchain from Huawei's Noah's Ark Laboratory that covers hyperparameter optimization, neural architecture search, data augmentation, and model compression across PyTorch, TensorFlow, and MindSpore backends.
-  why_it_matters: It provides a unified pipeline for automating model architecture search and training optimization, targeting ML engineers who want to offload repetitive tuning to proven algorithms.
-  mental_damage: Yet another reminder that while models learn to write our code, we still need separate, sprawling frameworks just to teach them how to tune themselves.
+  summary: Vega is an AutoML algorithm toolchain for hyperparameter optimization, neural architecture search, model compression, and data augmentation.
+  why_it_matters: It provides a full pipeline for automated machine learning tasks, including NAS, HPO, and model compression, with multi-backend support for PyTorch, TensorFlow, and MindSpore.
+  mental_damage: Because nothing says 'modern development' like spending your day tuning neural architectures instead of writing code.
   tags:
     - automl
     - nas
-    - hyperparameter-optimization
+    - hpo
     - model-compression
-    - ml-infrastructure
+    - pytorch
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional ML research and infrastructure tool focused on neural architecture search and hyperparameter optimization, not a developer-facing AI tool, agent, or workflow product.
+  reason: This is a research-oriented AutoML toolchain focused on neural architecture search and model optimization, not a developer-facing AI tool for coding workflows.
   evidence:
-    - Repo description is 'AutoML tools chain', focused on NAS, HPO, and model compression rather than coding assistance or developer workflows.
-    - README centers on ML algorithms (CARS, SP-NAS, etc.) and multi-backend training, with no developer tooling, IDE, agent, or prompt engineering angle.
-    - Appears in Awesome-LLMOps under 'AutoML', which is an ML ops and research context rather than the developer tooling scope of this catalog.
+    - Repo description explicitly states it is an AutoML tools chain
+    - README emphasizes NAS, HPO, and model compression algorithms rather than developer tooling
+    - Source-list context places it under AutoML in an LLMOps directory, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -74,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:28.615Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8015c2fba3d36076035992cf2334cf6d427a0e34494087078bdd8bb3bb381ea7
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a research-oriented AutoML toolchain focused on neural architecture search and model optimization, not a developer-facing AI tool for coding workflows.
+      decision_evidence:
+        - Repo description explicitly states it is an AutoML tools chain
+        - README emphasizes NAS, HPO, and model compression algorithms rather than developer tooling
+        - Source-list context places it under AutoML in an LLMOps directory, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

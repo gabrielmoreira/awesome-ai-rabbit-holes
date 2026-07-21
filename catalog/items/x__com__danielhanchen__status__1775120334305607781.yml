@@ -37,21 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An X/Twitter post referencing a SWE Agent project, whose actual content and project details are inaccessible due to a blocked or broken link.
-  why_it_matters: It was indexed as a software engineering agent in a curated list, but the lack of accessible content makes it impossible to evaluate its developer utility.
-  mental_damage: We are now curating dead Twitter links as viable alternatives to Claude Code, proving that 'awesome' lists are essentially auto-generated graveyards for unclickable URLs.
+  summary: A tweet announcing SWE-agent, an open-source system for autonomously solving GitHub repo issues with GPT-4, achieving 12.29% on 100% of the SWE Bench test set.
+  why_it_matters: It demonstrates a competitive open-source alternative to proprietary coding agents like Devin, with comparable performance on software engineering benchmarks.
+  mental_damage: The arms race of SWE-bench scores is the new Stack Overflow reputation.
   tags:
-    - swe-agent
-    - broken-link
-    - awesome-list
+    - coding-agents
+    - benchmark
+    - open-source
+    - gpt-4
   confidence: high
 curation:
   status: excluded
-  reason: The source URL is a Twitter link returning an error excerpt, providing no verifiable project description, README, or functional tooling to review.
+  reason: The item is a social media post announcing a project, not the project itself or a standalone tool.
   evidence:
-    - Scraped site context shows 'Something went wrong...' indicating the primary URL is inaccessible.
-    - No repo description, stars, license, or code context provided; only a mention in awesome-ai-agents.
-    - No technical details available to distinguish it as a tool vs. a tweet about a tool.
+    - The URL points to a tweet, not a GitHub repo or product page
+    - The content is an announcement, not a usable tool or framework
+    - No direct link to the actual SWE-agent project in the provided inputs
 placement:
   primary_category: null
   section: null
@@ -69,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:39.825Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:54bde94d942fdaf7429f4b827cbf2f68c483c7277bb3f1876d985c9963831b4e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The item is a social media post announcing a project, not the project itself or a standalone tool.
+      decision_evidence:
+        - The URL points to a tweet, not a GitHub repo or product page
+        - The content is an announcement, not a usable tool or framework
+        - No direct link to the actual SWE-agent project in the provided inputs
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

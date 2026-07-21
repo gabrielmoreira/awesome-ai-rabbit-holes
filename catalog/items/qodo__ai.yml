@@ -81,23 +81,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Qodo is an AI-powered code review and integrity platform that integrates with IDEs, Git workflows, and CLIs to automate pull request reviews, enforce coding standards, and detect bugs across multi-repository codebases.
-  why_it_matters: It shifts code review left by running 15+ specialized review agents inside your existing workflow to catch logic gaps, security issues, and standard violations before human reviewers even open the PR.
-  mental_damage: Just when you thought the bottleneck was writing the code, now you have an enterprise-grade AI panel debating whether your via points are up to spec before you can even merge.
+  summary: Qodo is an AI-powered code review and governance platform that enforces coding standards and detects issues across repositories.
+  why_it_matters: It automates high-precision code reviews with full codebase context, reducing manual review time and ensuring consistency in AI-assisted development workflows.
+  mental_damage: Finally, a tool that lets you offload the guilt of rubber-stamping AI-generated PRs to an actual AI.
   tags:
-    - ai-agents
-    - cli-tool
     - code-review
-    - enterprise
-    - sdlc-governance
+    - governance
+    - ai-agents
+    - sdlc
+    - standards-enforcement
   confidence: high
 curation:
   status: included
-  reason: Qodo is a standalone coding assistant focused on reviewing, testing, and repairing code across IDE and PR workflows, fitting the 'Review, Testing & Repair Agents' section of coding-agents.
+  reason: Qodo is a primary coding assistant focused on reviewing, validating, and enforcing standards in codebases, fitting the 'Review, Testing & Repair Agents' section under Coding Agents.
   evidence:
-    - Scraped site describes it as 'an agentic code integrity platform for reviewing, testing, and writing code' with '15+ agentic workflows'.
-    - Source lists categorize it under 'Code Review and Refactoring' and 'AI autonomous agents', confirming developer-tooling fit.
-    - Product integrates directly via CLI, IDE extensions, and Git platforms as a primary review assistant, not a plugin for another tool.
+    - Described as an 'agentic code review and integrity platform' in both source lists and its own site
+    - Core functionality includes PR review, cross-repo context, and standards enforcement
+    - Positioned as a governance layer for AI-generated code (e.g., Copilot, Cursor)
 placement:
   primary_category: coding-agents
   section: Review, Testing & Repair Agents
@@ -106,15 +106,31 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:36:53.430Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ab03bf02e80447768119002a04a83af6917a5ba77d5d5c4f74a491c76a7ed5da
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Qodo is a primary coding assistant focused on reviewing, validating, and enforcing standards in codebases, fitting the 'Review, Testing & Repair Agents' section under Coding Agents.
+      decision_evidence:
+        - Described as an 'agentic code review and integrity platform' in both source lists and its own site
+        - Core functionality includes PR review, cross-repo context, and standards enforcement
+        - Positioned as a governance layer for AI-generated code (e.g., Copilot, Cursor)
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Qodo is a standalone review agent platform, not an extension augmenting another assistant or editor.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T15:10:47.687Z"

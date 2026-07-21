@@ -56,23 +56,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:44.062Z"
       bytes: 16928
 insights:
-  summary: An MCP server that renders interactive charts, dashboards, and KPI widgets directly inside AI clients using 44+ chart types and 21 themes.
-  why_it_matters: It lets developers visualize data and build dashboards inline during AI conversations without context-switching to spreadsheets or BI tools.
-  mental_damage: We have successfully reached the point where your AI needs its own Chart.js frontend so you don't have to Alt-Tab away from the prompt box.
+  summary: An MCP server that renders interactive charts, dashboards, and KPI widgets directly inside AI conversations.
+  why_it_matters: Developers can visualize data and build dashboards without leaving their AI client, eliminating context switching between analysis and visualization tools.
+  mental_damage: Finally, your AI can stop saying 'I can't render charts' and just do it.
   tags:
     - mcp
     - data-visualization
     - dashboards
-    - charts
-    - ai-clients
-  confidence: medium
+    - charting
+    - ai-integration
+  confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server that gives AI clients data visualization capabilities, which fits MCP Servers & Tooling as a domain-specific server.
+  reason: MCP is the core product identity, and the server provides domain-specific functionality (data visualization) as an MCP server.
   evidence:
-    - "Repo description: 'Turn your data into interactive dashboards inside any AI client - MCP Apps powered'"
-    - README states it is a single MCP server with 31 tools covering 44+ chart subtypes for clients like Claude Desktop and VS Code
-    - Listed in awesome-mcp-servers under 'Data Visualization' as a server implementation
+    - Repo description explicitly states it is an MCP server for dashboards
+    - README positions it as an MCP Apps-powered tool for rendering charts in AI clients
+    - Already listed in awesome-mcp-servers under Data Visualization
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -91,12 +91,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:30.378Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4b46399caceb2d2e5e49dd8c8ee8821e9c1e972ff4d44ef6d11edca8d4739a60
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the core product identity, and the server provides domain-specific functionality (data visualization) as an MCP server.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for dashboards
+        - README positions it as an MCP Apps-powered tool for rendering charts in AI clients
+        - Already listed in awesome-mcp-servers under Data Visualization
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server providing domain-specific visualization capabilities, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

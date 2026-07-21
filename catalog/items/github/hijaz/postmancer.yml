@@ -44,23 +44,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:02.435Z"
       bytes: 2770
 insights:
-  summary: An MCP server that lets AI assistants make HTTP requests, manage API collections, and test REST endpoints as a Postman/Insomnia replacement.
-  why_it_matters: It gives coding agents a structured way to own API testing workflows without tabbing out to a separate GUI tool.
-  mental_damage: We have successfully abstracted away the one GUI we all secretly liked using anyway.
+  summary: An MCP server that enables AI assistants to interact with RESTful APIs, offering Postman/Insomnia-like functionality for API testing and management.
+  why_it_matters: Developers can delegate REST API testing and management to AI assistants, streamlining workflows that previously required manual tooling like Postman or Insomnia.
+  mental_damage: Now your AI can argue with your API docs instead of you.
   tags:
-    - mcp
+    - mcp-server
     - rest-client
     - api-testing
-    - insomnia
-    - postman
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server purpose-built to expose REST client capabilities to AI assistants, making MCP its primary identity.
+  reason: MCP is the product identity, and the tool is explicitly an MCP server for REST API interaction, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly calls it 'An experimental MCP server Rest Client'.
-    - README states it is 'A standalone MCP server for API testing and management'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states it is an 'MCP server Rest Client'
+    - README describes it as an MCP server enabling AI assistants to interact with RESTful APIs
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -79,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:38.922Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d23eac3c5606c561c1f66327b5f307f9b87fb81566813dbb3d7cc745da3c8780
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity, and the tool is explicitly an MCP server for REST API interaction, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an 'MCP server Rest Client'
+        - README describes it as an MCP server enabling AI assistants to interact with RESTful APIs
+        - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

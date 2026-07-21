@@ -1,0 +1,112 @@
+id: mabl__com
+kind: website
+name: Mabl
+canonical_url: https://mabl.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mabl__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Mabl
+        extracted_url: https://mabl.com
+        surrounding_text: "- **[Mabl](https://www.mabl.com/)** – AI-native test automation with auto-healing and visual testing."
+        confidence: high
+    - id: discovery__www__mabl__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Testing and QA
+        anchor_text: Mabl
+        extracted_url: https://www.mabl.com
+        surrounding_text: "- **[Mabl](https://www.mabl.com/)** – AI-native test automation with auto-healing and visual testing."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An agentic testing platform that automates test creation, execution, maintenance, and analysis for web, mobile, and API applications.
+  why_it_matters: It shifts testing left by integrating into dev workflows, using AI to auto-generate and self-heal tests, reducing manual QA bottlenecks.
+  mental_damage: Now your tests can write themselves, but you’ll still spend hours explaining to stakeholders why the AI ‘fixed’ a flaky test by deleting it.
+  tags:
+    - testing
+    - qa
+    - agentic-testing
+    - automation
+    - ci-cd
+  confidence: high
+curation:
+  status: included
+  reason: It is a testing platform that augments development workflows with AI-driven test automation, fitting best as a QA add-on rather than a primary coding assistant.
+  evidence:
+    - "Described as 'the #1 agentic testing platform' for accelerating releases and ensuring software quality"
+    - Integrates into dev workflows, auto-generates tests, and self-heals them using GenAI
+    - Listed in awesome-ai-coding-tools under 'Testing and QA'
+placement:
+  primary_category: ai-dev-extensions
+  section: Testing & QA Add-ons
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:35:24.884Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5409e7ca82ae4c6ce9043d734e27173ba1e56e6d40d170aaf6a1666556013403
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: It is a testing platform that augments development workflows with AI-driven test automation, fitting best as a QA add-on rather than a primary coding assistant.
+      decision_evidence:
+        - "Described as 'the #1 agentic testing platform' for accelerating releases and ensuring software quality"
+        - Integrates into dev workflows, auto-generates tests, and self-heals them using GenAI
+        - Listed in awesome-ai-coding-tools under 'Testing and QA'
+      category_candidates:
+        - ai-dev-extensions
+        - app-builders
+      contrastive_reason: Choose ai-dev-extensions over app-builders because the core value is augmenting existing development workflows with AI-driven testing, not generating new apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.967Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

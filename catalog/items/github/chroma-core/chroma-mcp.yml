@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:20.326Z"
       bytes: 8049
 insights:
-  summary: An MCP server implementation that exposes Chroma vector database operations—including collections, documents, and semantic search—as tools for AI models and coding assistants.
-  why_it_matters: It lets coding agents and MCP-compatible workflows persist and retrieve context through a local or self-hosted vector store without wiring Chroma directly into application code.
-  mental_damage: You can now give your agent a memory system that is technically impressive, slightly redundant, and another moving part to debug when it inevitably forgets what you asked for.
+  summary: An MCP server implementation that provides database capabilities for Chroma, enabling AI models to interact with Chroma's vector database.
+  why_it_matters: Developers can integrate Chroma's embedding and retrieval features into MCP-compatible workflows, allowing LLMs to query and manage vector data seamlessly.
+  mental_damage: Now your AI can have its own database of memories, because apparently the context window wasn't long enough already.
   tags:
     - mcp
-    - vector-db
-    - context
-    - retrieval
+    - vector-database
     - chroma
+    - retrieval
+    - embeddings
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server for a specific domain (vector database), which matches the MCP Servers & Tooling category and its Domain Servers section.
+  reason: This is an MCP-first server implementation whose primary identity is providing Chroma database capabilities via MCP.
   evidence:
-    - Repo description explicitly states it is 'A Model Context Protocol (MCP) server implementation that provides database capabilities for Chroma'.
-    - README positions it as 'an MCP server for self-hosting your access to Chroma' with supported tools like chroma_query_documents and chroma_add_documents.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases' and 'Official Servers', reinforcing its MCP server identity.
+    - Repo description explicitly states it is an MCP server for Chroma
+    - README details MCP tools for Chroma collection and document operations
+    - Listed in awesome-mcp-servers under Databases and Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:41.397Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:696c73c1b890faeb3b047ccbed345fd5f067ca31727740639fcc4b87a45c822b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server implementation whose primary identity is providing Chroma database capabilities via MCP.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Chroma
+        - README details MCP tools for Chroma collection and document operations
+        - Listed in awesome-mcp-servers under Databases and Official Servers
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general-purpose SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

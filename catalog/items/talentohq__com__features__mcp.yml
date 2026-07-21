@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A product features page for TalentoHQ explaining their implementation of the Model Context Protocol (MCP).
-  why_it_matters: Developers evaluating TalentoHQ as a platform can see how it integrates with the MCP ecosystem for context sharing.
-  mental_damage: Yet another platform boasts MCP compliance on a marketing page while the protocol itself remains a moving target we're all still trying to debug.
+  summary: TalentOS's MCP feature page, likely describing their Model Context Protocol integration or server offering.
+  why_it_matters: Provides developers with MCP-based tooling or server capabilities for extending AI assistant contexts.
+  mental_damage: Another MCP page that may or may not be the actual protocol, just the marketing of it.
   tags:
     - mcp
-    - marketing-page
+    - protocol
     - integration
   confidence: high
 curation:
   status: excluded
-  reason: This is a marketing features page describing a product's MCP support, not a standalone server, client, registry, or developer tool that fits the catalog's scope.
+  reason: The URL points to a feature page rather than a standalone product, repo, or toolkit, and there is no evidence of a concrete MCP server, client, or tooling artifact.
   evidence:
-    - URL resolves to a features page at talentohq.com/features/mcp, not a code repository or tool.
-    - Source list context confirms it was found in 'awesome-mcp-servers' as an 'Official Server', but the link target is a product page, not a server implementation.
-    - No repo description, README, or code inputs were provided—only a landing page context.
+    - URL is a feature page (talentohq.com/features/mcp), not a repo or standalone tool
+    - No repo description, stars, or code artifacts provided
+    - Source-list context only shows it in an MCP servers list, but the page itself is not a server
 placement:
   primary_category: null
   section: null
@@ -68,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:37:38.961Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:470cc9e27b2e334491373296606aed8b24bd042808ca14a152ca7d8ec52d9b66
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The URL points to a feature page rather than a standalone product, repo, or toolkit, and there is no evidence of a concrete MCP server, client, or tooling artifact.
+      decision_evidence:
+        - URL is a feature page (talentohq.com/features/mcp), not a repo or standalone tool
+        - No repo description, stars, or code artifacts provided
+        - Source-list context only shows it in an MCP servers list, but the page itself is not a server
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -45,26 +45,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:25.236Z"
       bytes: 25755
 insights:
-  summary: DeepEval is an open-source Python framework for unit testing LLM applications using research-backed metrics like G-Eval, hallucination detection, and task completion.
-  why_it_matters: It gives developers a Pytest-like workflow to catch prompt drift, measure agent quality, and safely swap models by quantifying LLM system behavior.
-  mental_damage: Yet another chance to discover that your agent scores 95% on every metric right before it deletes the production database.
+  summary: An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots.
+  why_it_matters: It lets developers measure and compare model quality, prompt effectiveness, and architecture choices with research-backed metrics like G-Eval and task completion.
+  mental_damage: Finally, a way to prove your LLM app is bad before your users do.
   tags:
-    - llm-eval
-    - testing
+    - evaluation
+    - llm-testing
+    - benchmarking
     - python
     - metrics
-    - agents
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, scoring, and regression-testing LLM and agent behavior, which aligns perfectly with the Evals & Benchmarks category.
+  reason: The core product is a framework for measuring, scoring, and regression-testing LLM behavior, which aligns perfectly with the Evals & Benchmarks category.
   evidence:
-    - "Repo description states: 'The LLM Evaluation Framework'."
-    - README claims it is 'similar to Pytest but specialized for unit testing LLM apps' with metrics like G-Eval and hallucination detection.
-    - Listed as a canonical positive in the evals category definition.
+    - "Repo description: 'The LLM Evaluation Framework'"
+    - "README: 'DeepEval is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language model systems'"
+    - "Source-list context: Listed under '评估 Evaluation' in awesome-LLM-resources"
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  section: Prompt Regression & Experimentation
 lifecycle:
   status: promotion_candidate
   reason: Stars (15196) exceeded threshold (150)
@@ -80,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:46:44.554Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ff655d60c70066c140850f9aa1983c35c93cec61b5b3d6451a92a7ff35859f2c
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The core product is a framework for measuring, scoring, and regression-testing LLM behavior, which aligns perfectly with the Evals & Benchmarks category.
+      decision_evidence:
+        - "Repo description: 'The LLM Evaluation Framework'"
+        - "README: 'DeepEval is a simple-to-use, open-source LLM evaluation framework, for evaluating large-language model systems'"
+        - "Source-list context: Listed under '评估 Evaluation' in awesome-LLM-resources"
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the primary job is evaluation and benchmarking rather than being a general-purpose SDK or library for building AI workflows.
+      review_reason: null
+      review_resume_lifecycle: null

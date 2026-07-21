@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:10:55.432Z"
       bytes: 3360
 insights:
-  summary: An MCP server that provides accurate, up-to-date Teamfight Tactics champion, trait, item, and augment data to LLMs to prevent game knowledge hallucinations.
-  why_it_matters: It allows AI assistants to reason accurately about TFT game state and strategy without drifting into made-up stats or patch-specific errors.
-  mental_damage: "We have finally solved the most pressing crisis in developer tooling: ensuring Claude can calculate Yuumi reroll odds at 2-1 without hallucinating the recipe for Rapid Firecannon."
+  summary: An MCP server providing accurate Teamfight Tactics game data (champions, traits, items, augments) for LLMs.
+  why_it_matters: Prevents LLMs from hallucinating TFT game mechanics by exposing structured, up-to-date game data via MCP.
+  mental_damage: Now your AI can argue with you about rolling odds in Set 10 with the authority of a CommunityDragon scrape.
   tags:
-    - mcp
-    - gaming
+    - mcp-server
     - game-data
-    - llm-tooling
+    - teamfight-tactics
+    - llm-context
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is explicitly an MCP server providing TFT data tools, fitting squarely into Domain Servers."
+  reason: "MCP is the product identity: this is a domain-specific MCP server exposing structured data for LLM consumption."
   evidence:
-    - "Repo description states: 'Teamfight Tactics MCP server — accurate champion, trait, item, and augment data for LLMs.'"
-    - Listed in awesome-mcp-servers under Gaming with purpose 'A collection of MCP servers.'
-    - README details MCP tools like search_champions and get_item_recipe for LLM consumption.
+    - Repo description explicitly states it is a 'Teamfight Tactics MCP server'
+    - README details MCP tools and installation via Claude Desktop config
+    - MCP compatibility badge and Glama MCP registry badge present
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:18.863Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d9633071bf5ff11bc68c944527e83a2aebbb5b3ead944f413312c6f3a60c9f10
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing structured data for LLM consumption."
+      decision_evidence:
+        - Repo description explicitly states it is a 'Teamfight Tactics MCP server'
+        - README details MCP tools and installation via Claude Desktop config
+        - MCP compatibility badge and Glama MCP registry badge present
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product is an MCP server (protocol infrastructure) rather than a general context/retrieval system.
+      review_reason: null
+      review_resume_lifecycle: null

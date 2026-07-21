@@ -39,26 +39,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:07.718Z"
       bytes: 3337
 insights:
-  summary: An official MCP server from AWS Powertools that lets LLM agents search and retrieve documentation and examples for Powertools for AWS Lambda across multiple runtimes.
-  why_it_matters: It gives coding agents and IDEs direct access to up-to-date Powertools docs, reducing context-switching and hallucination when building serverless applications.
-  mental_damage: We have successfully decoupled reading documentation from the developer, only to re-couple it through an MCP server that your agent will now summarize incorrectly anyway.
+  summary: An official MCP server that enables LLM agents to search Powertools for AWS Lambda documentation and examples.
+  why_it_matters: Developers using AWS Lambda can give their coding assistants direct access to Powertools documentation, reducing context-switching and speeding up adoption of best practices.
+  mental_damage: Now your AI can argue with AWS docs instead of you.
   tags:
-    - mcp
+    - mcp-server
+    - aws-lambda
+    - documentation-search
+    - powertools
     - aws
-    - serverless
-    - docs
-    - lambda
   confidence: high
 curation:
-  status: included
-  reason: The product is an MCP server providing AWS Powertools documentation search, making MCP the clear primary identity rather than a compatibility footnote.
+  status: excluded
+  reason: The repository is archived, which is a strong negative signal for inclusion in a curated catalog of active developer tools.
   evidence:
-    - Repo description states 'Powertools for AWS's official MCP Server'.
-    - README describes it as 'an MCP implementation that provides search functionality for the Powertools for AWS Lambda documentation'.
-    - Listed in awesome-mcp-servers under 'Official Servers' section.
+    - Repo is explicitly archived
+    - README states it is experimental and under active development, but the archived flag overrides this
+    - Source-list context shows it is included in awesome-mcp-servers under Official Servers, but archive status takes precedence
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: needs_review
   reason: Repository is archived
@@ -74,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:44.857Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1ed0638be1ad868191da9892b34136939d5dfed52bd763761cc5aaaf6ed52f15
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is archived, which is a strong negative signal for inclusion in a curated catalog of active developer tools.
+      decision_evidence:
+        - Repo is explicitly archived
+        - README states it is experimental and under active development, but the archived flag overrides this
+        - Source-list context shows it is included in awesome-mcp-servers under Official Servers, but archive status takes precedence
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -58,23 +58,23 @@ metadata:
       fetched_at: "2026-07-20T15:10:58.420Z"
       bytes: 3648
 insights:
-  summary: An MCP server built with FastMCP that provides read-only access to the macOS iMessage database for LLMs to query message history and attachments.
-  why_it_matters: It allows coding assistants like Claude Desktop and Cline to safely inspect local chat data for debugging integrations or analyzing conversation patterns without risking database corruption.
-  mental_damage: "We have finally achieved the singularity: your coding agent can now read your iMessage drama to help you debug a 500 error."
+  summary: An MCP server that provides read-only access to macOS iMessage databases for LLM querying and analysis.
+  why_it_matters: Lets developers expose iMessage conversations to AI assistants via MCP for safe, structured querying of message history and attachments.
+  mental_damage: Now your AI can judge your group chats as harshly as your friends do.
   tags:
-    - mcp
-    - macos
+    - mcp-server
     - imessage
+    - macos
+    - llm-integration
     - fastmcp
-    - local-ai
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server specifically built to expose iMessage data to LLMs, fitting the 'Domain Servers' section of the MCP category.
+  reason: "MCP is the product identity: this is a dedicated MCP server for iMessage database access, not a compatibility footnote or extension."
   evidence:
-    - "Repo description explicitly states: 'An MCP server that provides safe access to your iMessage database through Model Context Protocol (MCP)'."
-    - README lists installation options specifically for Claude Desktop and Cline VSCode Plugin as the primary consumers.
-    - Source lists confirm placement in 'awesome-mcp-list' and 'awesome-mcp-servers' under Communication sections.
+    - Repo description explicitly states it is an MCP server for iMessage database access
+    - README details MCP tools like get_chat_transcript and installation via FastMCP
+    - Listed in multiple MCP-focused awesome lists under Communication servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -93,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:49.964Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:de429a9a90807fdef35fafc784bf1fe1b777137f565c2575b5b22f96f8aaf264
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for iMessage database access, not a compatibility footnote or extension."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for iMessage database access
+        - README details MCP tools like get_chat_transcript and installation via FastMCP
+        - Listed in multiple MCP-focused awesome lists under Communication servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant).
+      review_reason: null
+      review_resume_lifecycle: null

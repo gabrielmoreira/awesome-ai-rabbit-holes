@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:26.940Z"
       bytes: 893
 insights:
-  summary: An MCP server that exposes RestCSV API capabilities to MCP-compatible clients like Claude Desktop, Windsurf, and Cursor.
-  why_it_matters: It lets developers query and manipulate CSV data through RestCSV directly inside their AI coding assistants instead of switching contexts to external tools or scripts.
-  mental_damage: We have now reached the point where we need a protocol adapter to let our AI assistants talk to a CSV hosting service that probably should have been a local file in the first place.
+  summary: An MCP server for RestCSV, generated using MCPGen, enabling integration with MCP clients like Claude Desktop or Cursor.
+  why_it_matters: Developers can expose RestCSV's CSV-to-API functionality as an MCP tool, allowing AI assistants to query or manipulate CSV data via a standardized protocol.
+  mental_damage: Now your AI assistant can argue with your spreadsheets in real time, because nothing says 'productivity' like a model hallucinating about your pivot tables.
   tags:
-    - mcp
-    - csv
-    - integration
+    - mcp-server
+    - csv-api
     - restcsv
+    - mcpgen
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The product identity is a domain-specific MCP server for RestCSV, fitting cleanly into MCP Servers & Tooling as a protocol-native integration.
+  reason: This is an MCP-first server implementation whose primary identity is exposing RestCSV as an MCP-compatible tool, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP Server for RestCSV, Generated using MCPGen'.
-    - README instructs users to configure it as an MCP server in Claude Desktop, Windsurf, and Cursor.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Repo description explicitly states it is an MCP Server for RestCSV
+    - README confirms it was generated using MCPGen and outputs MCP client-compatible JSON
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:02.808Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4e961d0cdfcc691388032ee44596ae6e335426eb0450ada52a53dfa94a97e800
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server implementation whose primary identity is exposing RestCSV as an MCP-compatible tool, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP Server for RestCSV
+        - README confirms it was generated using MCPGen and outputs MCP client-compatible JSON
+        - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

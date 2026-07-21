@@ -37,23 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Grovs is an open-source, EU-hosted platform for first-party attribution, deep linking, and revenue analytics designed for mobile apps.
-  why_it_matters: It provides developers with an auditable, self-hostable alternative to legacy Mobile Measurement Partners (MMPs) like AppsFlyer, removing probabilistic fingerprinting and data brokers from the marketing stack.
-  mental_damage: Another open-source challenger arrives to save us from the black boxes of ad-tech, proving that even our attribution infrastructure now needs a GitHub repo to earn our trust.
+  summary: First-party attribution, deep linking, and revenue analytics platform for mobile apps with open-source SDK and EU hosting.
+  why_it_matters: Developers gain transparent, privacy-compliant attribution and revenue tracking without third-party data sharing or probabilistic fingerprinting.
+  mental_damage: Finally, an attribution platform that doesn’t treat your data like a timeshare.
   tags:
     - attribution
-    - mobile
-    - eu-hosted
-    - analytics
+    - mobile-analytics
     - open-source
+    - privacy
+    - eu-hosted
   confidence: high
 curation:
   status: excluded
-  reason: While the tool is open-source and has an SDK, its primary identity is a marketing attribution and deep linking SaaS platform, not a developer tool for coding, agent orchestration, or AI infrastructure.
+  reason: This is a mobile app growth/attribution SaaS platform, not a developer-tooling product for AI workflows, coding, or agentic systems.
   evidence:
-    - Primary page excerpt describes the product as 'The first-party growth engine for apps' focused on attribution, deep linking, and revenue.
-    - Source list context places it in 'awesome-mcp-servers' under a 'Marketing' section, indicating it is a niche MCP server for marketing data, not a core dev tool.
-    - The product identities itself as a replacement for marketing tools (Branch, AppsFlyer) rather than a coding assistant or AI framework.
+    - Core product is attribution, deep linking, and revenue analytics for apps
+    - Marketed to marketing teams and app growth, not developers building AI tools
+    - No AI, coding, or agentic workflows mentioned in the product description or features
 placement:
   primary_category: null
   section: null
@@ -71,12 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:27.357Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:94a7135e248feae007dd7c2ecdadb45b8d89f94243bf5de0f9614dba1a45903c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a mobile app growth/attribution SaaS platform, not a developer-tooling product for AI workflows, coding, or agentic systems.
+      decision_evidence:
+        - Core product is attribution, deep linking, and revenue analytics for apps
+        - Marketed to marketing teams and app growth, not developers building AI tools
+        - No AI, coding, or agentic workflows mentioned in the product description or features
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

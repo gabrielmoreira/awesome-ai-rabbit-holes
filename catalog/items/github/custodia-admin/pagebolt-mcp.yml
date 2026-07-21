@@ -48,22 +48,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:27.634Z"
       bytes: 21693
 insights:
-  summary: An MCP server that connects AI coding assistants to the PageBolt API for screenshots, PDF generation, OG image creation, and browser automation sequences.
-  why_it_matters: It lets developers delegate visual capture, demo recording, and page inspection tasks directly to their assistant inside the chat workflow.
-  mental_damage: We have successfully reached the point where your AI needs an API key just to screenshot a webpage and call it a feature.
+  summary: An MCP server that enables AI agents to interact with PageBolt's API for screenshots, PDFs, OG images, and browser automation.
+  why_it_matters: Lets developers delegate web capture and browser automation tasks directly to their AI coding assistants without leaving the chat interface.
+  mental_damage: Now your AI assistant can take screenshots of your bugs while you take screenshots of your AI assistant taking screenshots.
   tags:
-    - mcp
+    - mcp-server
     - browser-automation
-    - screenshot
+    - screenshots
     - pdf-generation
+    - pagebolt
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server built to give MCP-compatible clients access to PageBolt's web capture API, fitting cleanly into MCP domain servers.
+  reason: MCP is the product identity here—a server that exposes PageBolt's web capture capabilities to MCP-compatible clients.
   evidence:
-    - Repo description states it is 'An MCP server to allow AI agents to interact with PageBolt'
-    - README lists compatibility with Claude Desktop, Cursor, Windsurf, Cline, and other MCP-compatible clients
-    - Found in awesome-mcp-servers under Browser Automation, reinforcing its MCP server identity
+    - Repo description explicitly states it is an MCP server
+    - README emphasizes MCP compatibility and integration with Claude Desktop, Cursor, Windsurf, etc.
+    - Source-list context shows it is already curated under MCP servers (Browser Automation)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -82,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:24.241Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3c114859adbffdcdd04d2a3a538e0ea1eae2cfd80d76a9821daa72e44ac159c7
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a server that exposes PageBolt's web capture capabilities to MCP-compatible clients.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server
+        - README emphasizes MCP compatibility and integration with Claude Desktop, Cursor, Windsurf, etc.
+        - Source-list context shows it is already curated under MCP servers (Browser Automation)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is the MCP server itself, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

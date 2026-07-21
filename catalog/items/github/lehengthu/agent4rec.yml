@@ -41,22 +41,21 @@ metadata:
       fetched_at: "2026-07-20T15:11:48.371Z"
       bytes: 4899
 insights:
-  summary: Agent4Rec is a research simulation environment that uses 1,000 LLM-powered generative agents initialized from MovieLens data to model user behavior in recommender systems.
-  why_it_matters: It provides a framework for researchers and developers to test recommender algorithms against simulated human-like agents before touching real users.
-  mental_damage: Because what the modern recommender ecosystem really needed was 1,000 LLM personas endlessly debating whether they actually want to watch Matrix Reloaded again.
+  summary: Agent4Rec is a LLM-powered simulation tool that models 1,000 generative agents interacting with recommendation systems like MF and LightGCN on MovieLens-1M.
+  why_it_matters: It lets researchers and developers test how LLM agents behave in recommendation environments, offering a sandbox for studying emergent user-like dynamics.
+  mental_damage: Finally, a way to simulate whether your recommendation algorithm will be gamed by a thousand opinionated movie buffs before it even hits production.
   tags:
-    - llm-agents
-    - recommender-system
     - simulation
-    - research
+    - recommender-systems
+    - llm-agents
   confidence: high
 curation:
   status: excluded
-  reason: This is a research simulation for recommender systems, not a developer-facing tool for building, debugging, or deploying software.
+  reason: Agent4Rec is a research simulation for studying generative agents in recommendation systems, not a developer-facing AI tool for coding, workflow automation, or app building.
   evidence:
-    - Repo description explicitly states it is an implementation of a SIGIR 2024 research paper on generative agents in recommendation.
-    - README positions the tool as a simulator for exploring LLM agent behavior in recommendation environments, not a coding or dev workflow tool.
-    - Source list context places it in 'awesome-ai-agents' under a research/recommender context, which does not align with the catalog's developer-tooling scope.
+    - "Repo description: '[SIGIR 2024 perspective] The implementation of paper \"On Generative Agents in Recommendation\"'"
+    - "README: 'Agent4Rec, a recommender system simulator with 1,000 LLM-empowered generative agents... to explore the potential of LLM-empowered generative agents in simulating the behavior of genuine, independent humans in recommendation environments.'"
+    - "Use case: Running simulations with `--modeltype MF --n_avatars 10` to observe agent interactions with recommenders like Matrix Factorization."
 placement:
   primary_category: null
   section: null
@@ -75,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:27.182Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ab8f702e28f2eb7062588e4127c461d247c5e663aba43dd7f14b90c43b360d7b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Agent4Rec is a research simulation for studying generative agents in recommendation systems, not a developer-facing AI tool for coding, workflow automation, or app building.
+      decision_evidence:
+        - "Repo description: '[SIGIR 2024 perspective] The implementation of paper \"On Generative Agents in Recommendation\"'"
+        - "README: 'Agent4Rec, a recommender system simulator with 1,000 LLM-empowered generative agents... to explore the potential of LLM-empowered generative agents in simulating the behavior of genuine, independent humans in recommendation environments.'"
+        - "Use case: Running simulations with `--modeltype MF --n_avatars 10` to observe agent interactions with recommenders like Matrix Factorization."
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

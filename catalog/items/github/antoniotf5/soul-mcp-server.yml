@@ -44,22 +44,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:01.355Z"
       bytes: 2223
 insights:
-  summary: An MCP server that validates, scores, and generates .soul.md files for defining agent personalities directly from Claude Desktop or other MCP-compatible clients.
-  why_it_matters: It provides the tooling layer needed to enforce schema validity and completeness on SOUL.md agent definitions, supporting the surrounding Agenturo ecosystem.
-  mental_damage: We have now successfully abstracted 'writing a markdown file' into a client-server protocol transaction requiring a Node process and a JSON config.
+  summary: MCP server for validating, generating, and scoring SOUL.md agent specification files from Claude Desktop or any MCP-compatible client.
+  why_it_matters: It enables developers to manage SOUL.md agent definitions directly within their existing MCP workflows, ensuring consistency and validation without leaving their coding environment.
+  mental_damage: Now you can validate your agent's soul without selling yours to the tooling ecosystem.
   tags:
     - mcp
-    - agent-spec
-    - claude
-    - schema-validation
-  confidence: medium
+    - soul-md
+    - agent-specs
+    - validation
+    - claude-desktop
+  confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server for handling a specific file format (SOUL.md), fitting the Domain Servers section of the MCP category.
+  reason: This is an MCP-first server whose primary identity is providing SOUL.md validation/generation tools via MCP, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'MCP server for SOUL.md — validate and generate soul files from Claude Desktop.'"
-    - "README identifies three tools: validate_soul_file, generate_soul_template, and score_soul_file exposed via MCP."
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+    - Repo description explicitly identifies it as an MCP server for SOUL.md
+    - README details MCP server setup and tools for SOUL.md validation/generation/scoring
+    - Topics include 'mcp' and 'model-context-protocol'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -78,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:21.933Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:61617cad57d6380a792b4f99ecae5491790953c132d510173705a35f03cfbfbe
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose primary identity is providing SOUL.md validation/generation tools via MCP, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for SOUL.md
+        - README details MCP server setup and tools for SOUL.md validation/generation/scoring
+        - Topics include 'mcp' and 'model-context-protocol'
+      category_candidates:
+        - mcp
+        - spec-driven-development
+      contrastive_reason: Choose mcp over spec-driven-development because the product's core identity is as an MCP server rather than a spec-first development environment.
+      review_reason: null
+      review_resume_lifecycle: null

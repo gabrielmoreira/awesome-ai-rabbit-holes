@@ -39,23 +39,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:00.755Z"
       bytes: 2370
 insights:
-  summary: A TypeScript-based MCP server that connects the New York Times API to MCP-compatible clients to search articles from the last 30 days.
-  why_it_matters: It gives coding assistants like Claude Desktop direct access to recent news context without leaving the chat interface.
-  mental_damage: We have finally reached the point where an AI agent can cite the news, sparing you the unimaginable trauma of opening a browser tab.
+  summary: A TypeScript-based MCP server for searching New York Times articles from the last 30 days via the NYTimes API.
+  why_it_matters: Developers can integrate NYTimes article search into their MCP-enabled workflows, enabling AI assistants to fetch recent articles as context.
+  mental_damage: Now your AI can argue with you about the news, but only if it's fresh enough to pass the 30-day relevance test.
   tags:
-    - mcp
+    - mcp-server
+    - api-integration
     - search
     - typescript
-    - nyt
-    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is a protocol-native server built specifically to expose NYT search capabilities via MCP, fitting the 'Domain Servers' section.
+  reason: This is an MCP server whose primary identity is providing NYTimes article search as an MCP-compatible tool, fitting the MCP Servers & Tooling category.
   evidence:
-    - README explicitly states 'This is a TypeScript-based MCP server'.
-    - Installation instructions are provided specifically for Claude Desktop via Smithery and manual config.
-    - Listed in the 'awesome-mcp-list' under the Search section.
+    - README explicitly describes it as a TypeScript-based MCP server for NYTimes article search
+    - Listed in awesome-mcp-list under Search section
+    - Provides MCP tools (search_articles) and integrates with NYTimes API
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:10.460Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e9f2a6768f4ee5b5b1bcfecbd2a769a10ec05a9c00e0ae8987adddd4de9ca4d4
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP server whose primary identity is providing NYTimes article search as an MCP-compatible tool, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - README explicitly describes it as a TypeScript-based MCP server for NYTimes article search
+        - Listed in awesome-mcp-list under Search section
+        - Provides MCP tools (search_articles) and integrates with NYTimes API
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:59.769Z"
       bytes: 2413
 insights:
-  summary: A Model Context Protocol server that exposes the full Telegram Bot API, providing 174 tools for interacting with Telegram via AI agents like Claude Code.
-  why_it_matters: Developers can integrate Telegram bot management directly into their AI development workflows, allowing agents to send messages, manage chats, and handle payments without leaving the MCP environment.
-  mental_damage: We have finally reached the point where an AI agent needs a dedicated plugin with 174 distinct tools just to ask a Telegram bot to send a sticker.
+  summary: A Model Context Protocol (MCP) server that provides 174 tools for interacting with the Telegram Bot API.
+  why_it_matters: It allows AI agents to perform complex actions within Telegram, such as managing chats, sending various media types, and handling payments, through a standardized protocol.
+  mental_damage: Another layer of abstraction between you and your chat notifications, because why check a message yourself when you can have an LLM manage your community?
   tags:
     - mcp
     - telegram
     - bot-api
-    - integration
+    - automation
+    - agent-tools
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server implementation for the Telegram Bot API, fitting the 'Domain Servers' section of the MCP category.
+  reason: The project's core identity is an MCP server that exposes a specific domain (Telegram) to AI models.
   evidence:
-    - "Repo description explicitly states: 'Full-featured Telegram Bot API MCP server with 174 tools for Claude Code and AI agents'."
-    - README details implementation as an MCP server with setup instructions for Claude Code and Claude Desktop.
-    - Included in the 'awesome-mcp-servers' list under 'Communication'.
+    - Repo description explicitly defines it as a 'Telegram Bot API MCP server'
+    - README details 174 tools for interacting with Telegram via MCP
+    - Provides specific installation commands for Claude Code and Claude Desktop using the MCP protocol
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:55:11.026Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:872b3e2ca3a7eac835778020a1cb72d1b21e3b3bfddb7b5db802f6c16b4125c2
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's core identity is an MCP server that exposes a specific domain (Telegram) to AI models.
+      decision_evidence:
+        - Repo description explicitly defines it as a 'Telegram Bot API MCP server'
+        - README details 174 tools for interacting with Telegram via MCP
+        - Provides specific installation commands for Claude Code and Claude Desktop using the MCP protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the project is an implementation of the Model Context Protocol itself rather than just an integration for a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -46,23 +46,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:22.212Z"
       bytes: 8567
 insights:
-  summary: Eino is a Go-native LLM application development framework providing reusable components, agent patterns, and graph-based composition tools for building AI workflows.
-  why_it_matters: It gives Go developers a LangChain-style toolkit with first-class streaming, tool use, and multi-agent coordination without leaving their native ecosystem.
-  mental_damage: Another day, another framework promising to tame the agent chaos, this time ensuring your Go services can hallucinate structured outputs with enterprise-grade graph orchestration.
+  summary: Eino is a Go-based LLM application development framework with components, agent toolkits, and workflow orchestration.
+  why_it_matters: It provides reusable building blocks (ChatModel, Tool, Retriever) and agent patterns for developers to integrate AI workflows into Go applications.
+  mental_damage: Finally, a framework that lets you orchestrate agents in Go—because nothing says 'production-ready' like compiling your AI workflows.
   tags:
     - go
     - llm-framework
-    - agent-framework
-    - graph-orchestration
-    - langchain
+    - agent-orchestration
+    - workflow-engine
   confidence: high
 curation:
   status: included
-  reason: Eino is a code-first SDK and framework for building LLM applications in Go, fitting squarely into Frameworks & SDKs as a LangChain-style toolkit rather than an operated platform.
+  reason: Eino is a code-first framework/SDK for building AI agents and workflows, not a primary assistant, IDE, or orchestration platform.
   evidence:
-    - Repo description states it is 'The ultimate LLM/AI application development framework in Go.'
-    - README demonstrates a code-first experience with Go SDK patterns for ChatModel, Graph composition, and ADK agent building.
-    - Listed in awesome-langchain under 'Other LLM Frameworks', reinforcing its identity as a developer library.
+    - "Repo description: 'The ultimate LLM/AI application development framework in Go'"
+    - "README highlights: components (ChatModel, Tool), ADK for agents, graph-based composition"
+    - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -81,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:43:30.363Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2ce570845b81321f37b3f65f3005fbd6b2b0fe756e3872e16bd71d13884fb3ba
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: Eino is a code-first framework/SDK for building AI agents and workflows, not a primary assistant, IDE, or orchestration platform.
+      decision_evidence:
+        - "Repo description: 'The ultimate LLM/AI application development framework in Go'"
+        - "README highlights: components (ChatModel, Tool), ADK for agents, graph-based composition"
+        - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because Eino is primarily a code-first library/SDK for developers to import and build with, not an operated workbench or runtime platform.
+      review_reason: null
+      review_resume_lifecycle: null

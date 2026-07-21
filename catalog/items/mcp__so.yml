@@ -51,14 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A community-driven directory that collects, organizes, and indexes over 20,000 third-party MCP servers and clients for discovery and integration.
-  why_it_matters: Developers can quickly search and evaluate MCP servers to extend AI assistants with new tools, data sources, and capabilities without hunting across scattered repositories.
-  mental_damage: You now have 20,728 servers to browse before you can feel properly insecure about which one might automate the one task you actually do at work.
+  summary: A community-driven directory for discovering and browsing MCP servers, clients, and integrations.
+  why_it_matters: It centralizes the fragmented MCP ecosystem, making it easier for developers to find and integrate tools that extend AI assistants with external data and capabilities.
+  mental_damage: Because nothing says 'standardization' like a directory of 500 ways to plug your AI into everything except your actual workflow.
   tags:
     - mcp
     - directory
     - discovery
-    - tooling
+    - protocol
+    - marketplace
   confidence: high
 curation:
   status: included
@@ -69,10 +70,10 @@ curation:
     - Featured in awesome-ai-coding-tools under 'MCP Servers and Directories' as a discovery hub.
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -84,12 +85,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:46.738Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b50fdb0e6a5d50a2ca1e5201e51f808b130b98473e106570247f101c78f8a4a4
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The product's core identity is as an MCP-first directory and registry, explicitly focused on MCP servers, clients, and tooling.
+      decision_evidence:
+        - "Site title and description: 'Discover useful MCP servers and clients'"
+        - "Primary page excerpt: 'MCP.so Search MCP servers, tools, integrations' and 'Find MCP servers, clients, and integrations in one MCP marketplace'"
+        - "Source-list context: Listed under 'MCP Servers and Directories' in awesome-ai-coding-tools and '模型上下文协议 MCP' in awesome-LLM-resources"
+      category_candidates:
+        - mcp
+        - awesome-awesomes
+      contrastive_reason: Choose mcp over awesome-awesomes because the product is a protocol-specific registry rather than a general AI tooling directory.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      review_resume_lifecycle: null

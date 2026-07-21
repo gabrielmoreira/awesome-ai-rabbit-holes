@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:36.063Z"
       bytes: 18003
 insights:
-  summary: An MCP server that provides contextual knowledge, code patterns, and deployment scripts for Klever blockchain smart contract development to AI coding assistants.
-  why_it_matters: It gives AI agents domain-specific Klever VM knowledge and deployment capabilities, reducing the friction of developing on a niche blockchain.
-  mental_damage: "Just what the ecosystem needed: a specialized protocol adapter so your AI can hallucinate Solidity-specific errors while writing Rust-based Klever contracts."
+  summary: An MCP server providing contextual knowledge and tooling for Klever blockchain smart contract development.
+  why_it_matters: It gives developers working with the Klever VM SDK access to domain-specific patterns, best practices, and runtime context directly through MCP-enabled assistants.
+  mental_damage: Now your AI assistant can argue with you about gas optimization in Klever contracts instead of just guessing.
   tags:
-    - mcp
+    - mcp-server
     - blockchain
     - smart-contracts
     - klever
-    - context
+    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server providing domain-specific context and tooling for a specific blockchain ecosystem.
+  reason: "MCP is the product identity here: it is a dedicated MCP server for Klever blockchain development, not merely an adapter or compatibility feature."
   evidence:
-    - "Repo description explicitly states: 'MCP server for Klever blockchain smart contract development'"
-    - README confirms triple mode operation including 'MCP stdio server' and pre-loaded 'knowledge base (95+ entries)'
-    - Found in awesome-mcp-servers list under 'Server Implementations', aligning with MCP infrastructure identity
+    - Repo description explicitly states it is an MCP server for Klever blockchain smart contract development
+    - README details MCP protocol server implementation, client integration guides, and MCP-specific deployment modes
+    - Topics include 'mcp', 'mcp-server', and 'model-context-protocol'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:46.829Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ca17b2c7dba8ebffc4335022b9040f4456e7a1b4e90919e6aacacc8feffc3229
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: it is a dedicated MCP server for Klever blockchain development, not merely an adapter or compatibility feature."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Klever blockchain smart contract development
+        - README details MCP protocol server implementation, client integration guides, and MCP-specific deployment modes
+        - Topics include 'mcp', 'mcp-server', and 'model-context-protocol'
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product is explicitly an MCP server with protocol-level identity, not just a context retrieval system.
+      review_reason: null
+      review_resume_lifecycle: null

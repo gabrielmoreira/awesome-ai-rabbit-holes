@@ -37,22 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A PyPI package listed as an MCP server implementation for finance and fintech use cases, but its documentation page is inaccessible and functional details are unavailable.
-  why_it_matters: It claims to extend MCP-compatible assistants with financial data capabilities, fitting into the growing ecosystem of domain-specific tool servers.
-  mental_damage: We now have a fintech MCP server that nobody can actually load or verify, which is the spiritual equivalent of a bank that forgot to unlock its front door.
+  summary: A Python package named calcnook with unclear functionality due to missing documentation and a non-functional project page.
+  why_it_matters: Unclear; the project's purpose and developer value cannot be determined from available information.
+  mental_damage: Another PyPI package that exists in the void between 'might be useful' and 'completely undocumented'.
   tags:
-    - mcp
-    - fintech
-    - pypi
-    - server
-  confidence: low
+    - python
+    - undocumented
+  confidence: high
 curation:
   status: excluded
-  reason: Excluded because the primary artifact is an inaccessible PyPI package with no readable description, README, or working documentation, making it impossible to verify its developer-tooling value or scope.
+  reason: Excluded due to lack of verifiable information about its purpose, functionality, or developer relevance.
   evidence:
-    - Scraped site context shows the primary page could not load and provides no usable description.
-    - No repo description, README excerpt, stars, license, or creation/push dates are available to assess fit or activity.
-    - Listed only as a finance MCP server in awesome-mcp-servers without independent evidence of a functioning product.
+    - No repo description or README excerpt provided
+    - Project page fails to load (scraped site context shows error)
+    - No clear signals of developer-tooling scope or category fit
 placement:
   primary_category: null
   section: null
@@ -70,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:55.134Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8927601d959d6aaf2f9d0bba49b9a06e170393c1e57b0afb50bb13981b9f01f6
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Excluded due to lack of verifiable information about its purpose, functionality, or developer relevance.
+      decision_evidence:
+        - No repo description or README excerpt provided
+        - Project page fails to load (scraped site context shows error)
+        - No clear signals of developer-tooling scope or category fit
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

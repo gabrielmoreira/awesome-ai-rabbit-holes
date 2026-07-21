@@ -44,23 +44,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:15.972Z"
       bytes: 26811
 insights:
-  summary: An MCP server that connects AI assistants to PostgreSQL instances to analyze slow queries, recommend indexes using HypoPG, and surface database health metrics.
-  why_it_matters: It lets coding agents and MCP clients directly diagnose and tune production database performance without the developer manually exporting query plans or guessing at index strategies.
-  mental_damage: We have successfully automated the ritual of staring at pg_stat_statements and praying that adding an index won't explode the disk.
+  summary: An MCP server that provides AI-powered PostgreSQL performance tuning capabilities.
+  why_it_matters: It helps developers identify slow queries, recommend indexes, analyze execution plans, and test hypothetical indexes without disk usage via HypoPG.
+  mental_damage: Now your AI can tell you your database is slow before your users do.
   tags:
     - postgresql
-    - mcp
-    - performance
+    - mcp-server
+    - performance-tuning
     - database
-    - tuning
+    - ai
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for PostgreSQL performance tuning, fitting cleanly into MCP Servers & Tooling as a domain-specific server rather than a generic framework or extension.
+  reason: The product is an MCP server with PostgreSQL performance tuning as its primary identity, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description states it is 'A Model Context Protocol (MCP) server that provides AI-powered PostgreSQL performance tuning capabilities.'
-    - README confirms it exposes MCP prompts and resources for query analysis, index tuning, and health checks.
-    - Listed in awesome-mcp-servers under Databases, aligning with its MCP-first identity.
+    - Repo description explicitly states it is an MCP server for PostgreSQL performance tuning
+    - README details MCP-specific features like prompts, resources, and HypoPG integration
+    - Listed in awesome-mcp-servers under Database servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -79,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:53.701Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:56431afe8946cbe4c0724adc98b76555720681241fadb497ed9d01c4ea5f2459
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server with PostgreSQL performance tuning as its primary identity, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for PostgreSQL performance tuning
+        - README details MCP-specific features like prompts, resources, and HypoPG integration
+        - Listed in awesome-mcp-servers under Database servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

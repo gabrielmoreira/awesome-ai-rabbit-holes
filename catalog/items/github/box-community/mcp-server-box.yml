@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:14.512Z"
       bytes: 5549
 insights:
-  summary: A discontinued community-maintained MCP server that allowed AI agents to access and manage enterprise content stored in Box.
-  why_it_matters: It served as a reference implementation for connecting coding agents to enterprise content repositories before Box launched their official hosted MCP server.
-  mental_damage: The modern developer experience now includes migrating from a community MCP server to a corporate-hosted MCP server, proving that even your protocol adapters need a deprecation strategy.
+  summary: A discontinued community-built MCP server for connecting AI agents to Box enterprise content.
+  why_it_matters: It provided a way for developers to integrate Box content with MCP-compatible AI agents before Box's official hosted solution.
+  mental_damage: Nothing says 'enterprise AI' like a deprecated repo with a migration notice longer than the README.
   tags:
     - mcp
     - box
-    - enterprise
-    - archived
+    - enterprise-integration
+    - deprecated
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and discontinued, with a warning directing users to Box's official hosted MCP server instead.
+  reason: The repository is archived and explicitly discontinued, with Box directing users to their official hosted MCP server instead.
   evidence:
-    - "Repo shows 'archived: yes' status."
-    - README includes a warning banner stating 'This repository is discontinued and no longer maintained.'
-    - Box now provides an officially supported hosted MCP server that replaces this project.
+    - "Repo description: 'Securely connect AI agents to your enterprise content in Box'"
+    - "README contains a WARNING: 'This repository is discontinued and no longer maintained.'"
+    - Archived flag is true
 placement:
   primary_category: null
   section: null
@@ -73,12 +73,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:37.207Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:61d7179c653fd4f713776f5fa73659e9738ecf939ddb13e94373744f8c7990f2
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is archived and explicitly discontinued, with Box directing users to their official hosted MCP server instead.
+      decision_evidence:
+        - "Repo description: 'Securely connect AI agents to your enterprise content in Box'"
+        - "README contains a WARNING: 'This repository is discontinued and no longer maintained.'"
+        - Archived flag is true
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

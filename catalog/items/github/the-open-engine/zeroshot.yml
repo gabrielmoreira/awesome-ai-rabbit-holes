@@ -24,19 +24,37 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1660
+    forks: 143
+    license: MIT
+    archived: false
+    full_name: the-open-engine/zeroshot
+    html_url: https://github.com/the-open-engine/zeroshot
+    created_at: "2025-12-25T17:12:45Z"
+    pushed_at: "2026-07-21T13:21:22Z"
+    description: Your autonomous engineering team in a CLI. The agent loop produces senior-level code that you can actually trust in prod because of non-negotiable feedback from independent reviewers. Supports Claude Code, OpenAI Codex, OpenCode, and Gemini CLI with trivial setup.
+    homepage: https://www.theopenengine.com
+    topics:
+      - agent-loops
+      - agent-orchestration
+      - agentic-workflow
+      - ai-agent
+      - ai-agents
+      - autonomous-agents
+      - claude
+      - cli
+      - codex
+      - coding-assistant
+      - developer-tools
+      - gemini
+      - loop-engineering
+      - meta-harness
+      - multi-agent
+      - vibecoding
+    last_checked_at: "2026-07-21T15:20:45.691Z"
+    readme:
+      fetched_at: "2026-07-21T15:20:45.691Z"
+      bytes: 13014
 insights:
   summary: null
   why_it_matters: null
@@ -51,8 +69,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1660) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,13 +78,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:20:45.691Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

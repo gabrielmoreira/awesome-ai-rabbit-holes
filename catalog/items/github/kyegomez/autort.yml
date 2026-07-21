@@ -54,22 +54,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:43.780Z"
       bytes: 2857
 insights:
-  summary: An implementation of the AutoRT paper providing a multi-agent swarm system that analyzes scenes and generates prioritized task lists for robotic action models.
-  why_it_matters: It offers a code-first framework for developers building large-scale embodied AI systems that need to coordinate multiple robotic agents.
-  mental_damage: Finally, a framework to orchestrate your robot swarm, because managing multi-threaded chaos on your laptop just wasn't enough.
+  summary: Implementation of AutoRT for large-scale orchestration of robotic agents using multi-agent systems and robotic action models.
+  why_it_matters: It demonstrates how multi-agent AI systems can coordinate robotic tasks from scene analysis to execution, which may inspire developer workflows for autonomous systems.
+  mental_damage: Now your robots can argue about who should pick up the bottle first.
   tags:
     - robotics
     - multi-agent
-    - swarm
+    - swarm-intelligence
     - embodied-ai
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the project focuses on embodied robotics orchestration rather than developer-facing coding tools, IDEs, or software infrastructure.
+  reason: The project is focused on robotic agent orchestration rather than developer-facing AI tooling, workflows, or infrastructure.
   evidence:
-    - Repo description explicitly targets 'Large Scale Orchestration of Robotic Agents'.
-    - README describes analyzing scenes and executing tasks with a 'robotic transformer' (RT-1).
-    - Topics include 'robotics', 'robots', 'ros', and 'swarms', lacking software development tooling signals.
+    - Repo description explicitly targets robotic agents, not developer workflows
+    - README centers on robotic action models (RT-1) and swarm coordination
+    - Source-list context places it under Swarm Intelligence Frameworks, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -88,12 +88,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:28.877Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6679869731bc3cf051037adcdbaf27a35ac593958400f65dffd7c7048b5f3f01
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is focused on robotic agent orchestration rather than developer-facing AI tooling, workflows, or infrastructure.
+      decision_evidence:
+        - Repo description explicitly targets robotic agents, not developer workflows
+        - README centers on robotic action models (RT-1) and swarm coordination
+        - Source-list context places it under Swarm Intelligence Frameworks, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

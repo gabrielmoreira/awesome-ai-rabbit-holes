@@ -81,38 +81,51 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Phind is an AI-powered search engine and coding assistant designed to answer technical questions and help developers write and debug code.
-  why_it_matters: It provides developer-focused instant answers and code generation, aiming to shortcut the cycle of stack-overflow digging and documentation grazing.
-  mental_damage: Yet another reason to perfect the art of copy-pasting code you barely understand while convincing yourself it was 'AI-assisted engineering'.
+  summary: Phind is an AI-powered search engine for developers that answers coding questions with context from the web.
+  why_it_matters: It helps developers find solutions to coding problems faster by providing direct, context-aware answers instead of just links.
+  mental_damage: Finally, a search engine that understands the difference between 'npm install' and 'npm ci'—until it doesn’t.
   tags:
-    - coding-assistant
+    - ai-search
     - developer-tools
-    - search
+    - coding-assistance
+    - web-search
   confidence: high
 curation:
-  status: included
-  reason: Phind acts as a primary coding assistant that developers delegate questions and code tasks to via a web interface, fitting the coding-agents profile over an extension or framework.
+  status: excluded
+  reason: Phind is a search engine, not a developer tool that directly edits, builds, or orchestrates code or workflows.
   evidence:
-    - Listed as a 'Code Editor and Assistant' in awesome-ai-coding-tools.
-    - Listed under 'Phind' in awesome-ai-agents as an autonomous agent.
-    - The product is a standalone web-based assistant, not a plugin or library.
+    - Source-list context describes it as an AI autonomous agent in a general list, not a developer-tooling product
+    - No repo description or README excerpt indicates direct code editing, building, or orchestration capabilities
 placement:
-  primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:36:17.273Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7c626ea4eff4f1d01723c0ba10a37a579e2c864a9d6802804c580b6b5e7f610e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Phind is a search engine, not a developer tool that directly edits, builds, or orchestrates code or workflows.
+      decision_evidence:
+        - Source-list context describes it as an AI autonomous agent in a general list, not a developer-tooling product
+        - No repo description or README excerpt indicates direct code editing, building, or orchestration capabilities
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T15:10:47.687Z"

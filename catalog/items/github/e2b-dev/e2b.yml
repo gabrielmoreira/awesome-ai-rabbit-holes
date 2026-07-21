@@ -72,26 +72,26 @@ metadata:
       fetched_at: "2026-07-16T05:04:54.033Z"
       bytes: 3650
 insights:
-  summary: E2B is an open-source infrastructure platform that provides secure, isolated cloud sandboxes for running AI-generated code via JavaScript and Python SDKs.
-  why_it_matters: It gives developers a safe, scalable execution environment to let coding agents run untrusted code and use real-world tools without risking their local machines or production cloud accounts.
-  mental_damage: Another pristine abstraction layer so your agent can confidently `rm -rf /` inside a sandbox you are still paying to keep warm.
+  summary: Open-source infrastructure for running AI-generated code in secure isolated cloud sandboxes via SDKs.
+  why_it_matters: Developers can safely execute untrusted or AI-generated code in isolated environments without risking their local or production systems.
+  mental_damage: Finally, a way to let the AI run `rm -rf /` without actually losing your job.
   tags:
     - sandbox
     - code-execution
-    - agents
-    - infrastructure
+    - ai-safety
     - sdk
+    - cloud
   confidence: high
 curation:
   status: included
-  reason: Developers primarily import and script against E2B as a code-first SDK and infrastructure layer to add secure code execution to their own agents or workflows.
+  reason: E2B is primarily a code-first SDK/framework for embedding secure code execution environments into AI workflows, not a standalone assistant or orchestration platform.
   evidence:
     - "Repo description: 'Open-source, secure environment with real-world tools for enterprise-grade agents.'"
-    - "README: 'start and control sandboxes using our JavaScript SDK or Python SDK' with code examples for Sandbox.create()."
-    - Self-hosting guide and Terraform deployment indicate it is infrastructure and a framework, not an end-user agent or editor.
+    - "README: 'E2B is an open-source infrastructure that allows you to run AI-generated code in secure isolated sandboxes in the cloud. To start and control sandboxes, use our JavaScript SDK or Python SDK.'"
+    - Provides SDKs (npm, PyPI) as the main integration surface.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (12085) exceeded threshold (150)
@@ -107,12 +107,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:54.037Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c9903b3e1debe76304a507d40d6c18def06a9bcfb62d666793fffb0484ffb4fc
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: E2B is primarily a code-first SDK/framework for embedding secure code execution environments into AI workflows, not a standalone assistant or orchestration platform.
+      decision_evidence:
+        - "Repo description: 'Open-source, secure environment with real-world tools for enterprise-grade agents.'"
+        - "README: 'E2B is an open-source infrastructure that allows you to run AI-generated code in secure isolated sandboxes in the cloud. To start and control sandboxes, use our JavaScript SDK or Python SDK.'"
+        - Provides SDKs (npm, PyPI) as the main integration surface.
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is primarily used as a code-first SDK for secure code execution rather than a multi-agent coordination platform.
+      review_reason: null
+      review_resume_lifecycle: null

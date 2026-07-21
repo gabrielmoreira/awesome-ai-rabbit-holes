@@ -1,0 +1,95 @@
+id: ellipsis__dev
+kind: website
+name: Ellipsis
+canonical_url: https://ellipsis.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__ellipsis__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Ellipsis
+        anchor_text: Ellipsis
+        extracted_url: https://ellipsis.dev
+        surrounding_text: "## [Ellipsis](https://ellipsis.dev/?utm_source=awesome-ai-agents)"
+        confidence: high
+    - id: discovery__www__ellipsis__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Ellipsis
+        anchor_text: Ellipsis
+        extracted_url: https://ellipsis.dev
+        surrounding_text: "## [Ellipsis](https://ellipsis.dev/?utm_source=awesome-ai-agents)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A GitHub-integrated AI tool that performs automated code reviews, answers questions via comments, and generates working code and bug fixes on pull requests.
+  why_it_matters: It offloads routine code review, style enforcement, and small feature implementation directly within the GitHub PR workflow, reducing manual review overhead.
+  mental_damage: You can now be professionally reviewed by a bot that never sleeps, never gets annoyed, and yet somehow still finds a way to suggest you add a missing semicolon three commits too late.
+  tags:
+    - automation
+    - code-review
+    - github
+    - yc-w24
+  confidence: high
+curation:
+  status: included
+  reason: Ellipsis functions as a primary coding assistant that reviews code, generates fixes, and answers questions directly within the repo PR workflow, fitting the 'Review, Testing & Repair Agents' section of coding-agents.
+  evidence:
+    - Listed in awesome-ai-agents as 'Automated code reviews and bug fixes' with capability to 'generate working, tested code'.
+    - Landing page states it provides 'AI Code Reviews & Bug Fixes' and 'Async Code Generation' via GitHub comments.
+    - Claims installation in 67,000+ GitHub repositories with capabilities including smart reviews and Q&A via @ellipsis-dev mentions.
+placement:
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.965Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

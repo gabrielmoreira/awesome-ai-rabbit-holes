@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:12.892Z"
       bytes: 3098
 insights:
-  summary: An MCP server that gives coding agents access to Insforge backend capabilities like auth, databases, file storage, serverless functions, and LLMs.
-  why_it_matters: It lets agents add full-stack backend features to apps without leaving the editor or wiring infrastructure by hand.
-  mental_damage: Your agent can now scaffold auth and databases in seconds, so you can spend the next four hours debugging why it chose SQLite for a distributed system.
+  summary: MCP server for Insforge, enabling coding agents to integrate backend features like auth, databases, and serverless functions.
+  why_it_matters: Lets AI coding agents directly scaffold and connect backend infrastructure without manual setup.
+  mental_damage: Now your coding agent can spin up a full-stack app before you’ve finished explaining the requirements.
   tags:
-    - mcp
-    - backend
+    - mcp-server
+    - backend-integration
     - full-stack
-    - agent-integration
+    - agent-tooling
   confidence: high
 curation:
   status: included
-  reason: The repo is explicitly an MCP server that extends coding agents with backend capabilities, making it a clear domain-specific MCP tool.
+  reason: "MCP is the product identity here: this is a dedicated MCP server for Insforge, not a generic extension or framework."
   evidence:
-    - "README states: 'This repo is Model Context Protocol server for Insforge'"
-    - Described as giving agents 'auth, databases, file storage, serverless functions, and LLMs'
-    - Listed in awesome-mcp-servers under 'Developer Tools' section
+    - Repo is explicitly an MCP server for Insforge
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - README focuses on MCP server setup and integration
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:20.060Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c137696c25c0aec9413790c1a258297ab6a2e5bb030d09c08162732ffdf9ed85
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: this is a dedicated MCP server for Insforge, not a generic extension or framework."
+      decision_evidence:
+        - Repo is explicitly an MCP server for Insforge
+        - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+        - README focuses on MCP server setup and integration
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

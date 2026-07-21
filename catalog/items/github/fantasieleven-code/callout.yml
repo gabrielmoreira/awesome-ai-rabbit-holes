@@ -75,11 +75,17 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
+    updated_at: "2026-07-21T15:55:47.208Z"
     cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__fantasieleven-code__callout: ```json
+        {
+          "summary": "An MCP server that provides multi-perspective code reviews and project analysis using technical, business, and founder personas.",
+          "why_it_matters": "It automates the 'anity check' phase of AI-driven development by auditing code for over-engineering and misalignment with project goals.",
+          "mental_damage": "Nothing humbles a developer quite like having an AI persona explain that 60% of their weekend sprint was just unnecessary complexity.",
+          "tags": [
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

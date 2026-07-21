@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hugging Face is a large ML community platform providing hosting, discovery, and collaboration surfaces for models, datasets, and AI applications.
-  why_it_matters: Developers rely on it to discover models, grab datasets, and ship Spaces or inference endpoints without standing up their own ML infrastructure.
-  mental_damage: You will spend three hours browsing trending models you will never deploy, only to leave with a tab collection and a vague sense that you should be fine-tuning something.
+  summary: Hugging Face is a platform for the machine learning community to collaborate on models, datasets, and applications.
+  why_it_matters: It provides developers with a centralized hub to discover, share, and deploy AI models, datasets, and applications, accelerating ML workflows.
+  mental_damage: The one place where you can spend hours browsing models you’ll never actually use.
   tags:
-    - models
-    - datasets
-    - inference
+    - model-hub
     - ml-platform
+    - ai-community
+    - dataset-repository
   confidence: high
 curation:
   status: excluded
-  reason: Hugging Face is a broad ML community hub and model marketplace rather than a developer-facing AI tool, agent, framework, or workflow product for coding workflows.
+  reason: Hugging Face is a broad ML community platform and model hub, not a developer-tooling product focused on coding agents, workflows, or developer-specific integrations.
   evidence:
-    - Site describes itself as 'The platform where the machine learning community collaborates on models, datasets, and applications.'
-    - Primary surfaces are model browsing, dataset hosting, Spaces apps, and enterprise inference rather than coding agents or dev tooling.
-    - Appears in awesome-LLM-resources as a general community link, not as a developer tool, agent, or coding workflow product.
+    - Primary identity is a community platform for models, datasets, and applications
+    - No direct focus on developer-tooling workflows like coding agents, IDEs, or app builders
+    - Source-list context places it under 'Community', not developer tools
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:27.320Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d65f5cba9574494e060c984c1732ed74ceb8109c483af94cf8f38a54ebf8c036
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Hugging Face is a broad ML community platform and model hub, not a developer-tooling product focused on coding agents, workflows, or developer-specific integrations.
+      decision_evidence:
+        - Primary identity is a community platform for models, datasets, and applications
+        - No direct focus on developer-tooling workflows like coding agents, IDEs, or app builders
+        - Source-list context places it under 'Community', not developer tools
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

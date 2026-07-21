@@ -40,22 +40,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:19.637Z"
       bytes: 6916
 insights:
-  summary: An archived MCP server that wraps the Mem0 Memory API to give MCP-compatible clients like Claude and Cursor long-term memory capabilities via add, search, update, and delete tools.
-  why_it_matters: It allows developers to add persistent memory to any MCP client without building custom integration layers against the Mem0 API.
-  mental_damage: We have successfully abstracted the abstraction of memory, and then archived the abstraction before anyone finished configuring it.
+  summary: mem0-mcp-server is an archived MCP server that wrapped the Mem0 Memory API to enable long-term memory storage and retrieval for MCP-compatible clients.
+  why_it_matters: It provided developers a way to give AI agents persistent memory capabilities via the Model Context Protocol, enhancing context retention across sessions.
+  mental_damage: Another promising MCP integration abandoned just as the hype peaks, leaving developers to re-implement memory plumbing yet again.
   tags:
     - mcp
     - memory
-    - context
     - archived
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and the README directs users to an official cloud-hosted MCP server, making this specific codebase obsolete for practical use.
+  reason: The project is archived and no longer maintained, with the official Mem0 team directing users to a cloud-hosted alternative, making it unsuitable for inclusion as a current developer tool.
   evidence:
-    - Repository status is archived with a caution banner stating it is 'no longer actively maintained'.
-    - The README explicitly redirects users to the official cloud-hosted MCP server at mcp.mem0.ai.
-    - Created in February 2025 and archived shortly after, indicating a very short lifespan as a standalone server.
+    - The repository is marked as archived with a prominent banner stating it is no longer actively maintained
+    - The README directs users to an official cloud-hosted MCP server at https://mcp.mem0.ai/mcp
+    - Last pushed at 2026-03-24T23:36:56Z (future date, likely a metadata error) but archived status overrides activity signals
 placement:
   primary_category: null
   section: null
@@ -74,12 +73,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:19:43.269Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:78d9bec7be6b9319b49c2749935d7b10ab0580cda3f372126e8b2c2da1c11ee7
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is archived and no longer maintained, with the official Mem0 team directing users to a cloud-hosted alternative, making it unsuitable for inclusion as a current developer tool.
+      decision_evidence:
+        - The repository is marked as archived with a prominent banner stating it is no longer actively maintained
+        - The README directs users to an official cloud-hosted MCP server at https://mcp.mem0.ai/mcp
+        - Last pushed at 2026-03-24T23:36:56Z (future date, likely a metadata error) but archived status overrides activity signals
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

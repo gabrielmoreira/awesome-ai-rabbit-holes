@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:07.089Z"
       bytes: 7683
 insights:
-  summary: An MCP server that connects a Bitcoin Lightning wallet to LLMs using Nostr Wallet Connect, enabling AI agents to send and receive payments.
-  why_it_matters: It gives coding agents and workflows a standardized protocol bridge to handle Bitcoin Lightning payments, unlocking paid API calls, metered agent billing, and pay-per-use tooling.
-  mental_damage: We have successfully abstracted money itself into yet another context window token, ensuring your AI can now independently drain your Lightning wallet while you debug its stack traces.
+  summary: An MCP server that connects Bitcoin Lightning wallets to LLMs using Nostr Wallet Connect (NWC).
+  why_it_matters: It enables AI agents to perform Bitcoin transactions via Lightning by using NWC as an authentication and capability layer.
+  mental_damage: Because nothing says 'eamless developer workflow' like explaining the complexities of L402 and NWC connection secrets to a chat interface.
   tags:
     - mcp
     - bitcoin
-    - lightning
-    - nostr
-    - payments
+    - lightning-network
+    - nwc
+    - ai-agents
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for Bitcoin Lightning payments, and it is listed in awesome-mcp-servers under Finance & Fintech, making it a clear fit for MCP Servers & Tooling.
+  reason: The product identity is explicitly an MCP server designed to provide specific financial capabilities to an MCP host.
   evidence:
-    - Repo description states it is an MCP server connecting a bitcoin lightning wallet to LLMs.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech'.
-    - README documents setup for Claude, Cline, Goose, Windsurf, and N8N as an MCP integration.
+    - README explicitly states it is an 'Alby Bitcoin Payments MCP Server'
+    - Uses the official MCP TypeScript SDK
+    - Provides connectivity for agents via SSE or STDIO transports
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:01:59.994Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4c548ec2ea49606cfcfab2b92c4c7b0d0f4a75c9a80e9e3e0ca7f6d846e6be25
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is explicitly an MCP server designed to provide specific financial capabilities to an MCP host.
+      decision_evidence:
+        - README explicitly states it is an 'Alby Bitcoin Payments MCP Server'
+        - Uses the official MCP TypeScript SDK
+        - Provides connectivity for agents via SSE or STDIO transports
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is the MCP server implementation itself, rather than a wrapper for a specific IDE.
+      review_reason: null
+      review_resume_lifecycle: null

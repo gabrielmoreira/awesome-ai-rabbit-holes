@@ -40,22 +40,21 @@ metadata:
       fetched_at: "2026-07-20T15:11:54.806Z"
       bytes: 20794
 insights:
-  summary: An MCP server that exposes the OpenGenes aging and longevity research database to AI assistants via SQL queries and schema introspection.
-  why_it_matters: It lets developers working in bioinformatics query lifespan, gene criteria, and longevity association data directly from their MCP-compatible editors or agents instead of leaving the IDE to dig through raw datasets.
-  mental_damage: Your coding assistant can now explain the molecular basis of aging to you while you wonder why you are still manually debugging authentication middleware in 2025.
+  summary: MCP server providing natural language SQL access to the OpenGenes aging and longevity genetics database.
+  why_it_matters: Lets developers query biomedical data via AI assistants using SQL, reducing context-switching in bioinformatics workflows.
+  mental_damage: Another MCP server promising seamless data access while you quietly maintain three different Hugging Face repos just to keep it updated.
   tags:
     - mcp
     - bioinformatics
-    - aging-research
-    - data-access
+    - sql
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server that gives AI assistants structured access to longevity research data, which fits the MCP Servers & Tooling category cleanly.
+  reason: The product's core identity is an MCP server exposing domain-specific data, making it a clear fit for MCP Servers & Tooling rather than a coding agent or extension.
   evidence:
-    - Repo description explicitly states 'MCP for the open-genes'
-    - README identifies it as 'MCP (Model Context Protocol) server for OpenGenes database' with tools like opengenes_db_query(sql)
-    - Listed in awesome-mcp-servers under 'Biology, Medicine and Bioinformatics' section
+    - "Repo description: 'MCP for the open-genes'"
+    - "README: 'MCP (Model Context Protocol) server for OpenGenes database'"
+    - "Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics"
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:13.495Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cc60f236ece1a8df634aebaf0b743f5a8456150a4f59025638e449321a2c6757
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server exposing domain-specific data, making it a clear fit for MCP Servers & Tooling rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'MCP for the open-genes'"
+        - "README: 'MCP (Model Context Protocol) server for OpenGenes database'"
+        - "Source-list context: Listed in awesome-mcp-servers under Biology, Medicine and Bioinformatics"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an extension augmenting another assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

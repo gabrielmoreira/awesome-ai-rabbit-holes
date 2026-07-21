@@ -39,23 +39,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:00.483Z"
       bytes: 5037
 insights:
-  summary: An MCP server that gives coding assistants access to the PubMed research database for searching articles, retrieving abstracts, and downloading open-access full text via the Entrez API.
-  why_it_matters: It lets developers and their AI assistants query medical literature and construct structured searches (like PICO or systematic reviews) directly from their coding workflow.
-  mental_damage: Your coding agent can now patiently explain your mysterious symptoms while you wait for it to hallucinate the cure from a paywalled paper it can't actually read.
+  summary: An MCP server that provides access to the PubMed medical research database via the Entrez API.
+  why_it_matters: It allows AI assistants to perform specialized medical literature searches and retrieve article abstracts and full text directly within a conversation.
+  mental_damage: "Just what you needed: a way to have Claude hallucinate citations with even higher confidence by pulling from actual medical papers."
   tags:
     - mcp
     - pubmed
-    - research
-    - medical
-    - search
+    - medical-ai
+    - research-tools
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: it is a standalone MCP server designed to be plugged into assistants like Claude Desktop to provide PubMed access."
+  reason: The product's primary identity is an MCP server designed to extend the capabilities of AI clients with a specific domain (medical research).
   evidence:
-    - Repo description explicitly states 'MCP server for searching and querying PubMed medical papers'.
-    - README documents configuration for Claude Desktop via mcpServers and includes an MCP badge from Smithery.
-    - Active project with recent pushes (2026-03-19) and 164 stars, confirming it is a live MCP tool.
+    - Repo description identifies it as an 'MCP server for searching and querying PubMed'
+    - README specifies it provides tools and prompts specifically for MCP clients like Claude Desktop
+    - Identity is centered on the Model Context Protocol implementation
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:52.630Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4c9359455a81b904d422ae21ef7497d7dcf9ea8b70ba5f627b0859b1bf3ac5cc
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's primary identity is an MCP server designed to extend the capabilities of AI clients with a specific domain (medical research).
+      decision_evidence:
+        - Repo description identifies it as an 'MCP server for searching and querying PubMed'
+        - README specifies it provides tools and prompts specifically for MCP clients like Claude Desktop
+        - Identity is centered on the Model Context Protocol implementation
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the MCP protocol implementation itself rather than just a generic extension for a specific host.
+      review_reason: null
+      review_resume_lifecycle: null

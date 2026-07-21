@@ -39,23 +39,21 @@ metadata:
       fetched_at: "2026-07-20T05:17:13.930Z"
       bytes: 17002
 insights:
-  summary: A web platform and Chrome extension for immersive arXiv and conference paper discovery that integrates Kimi Chat to generate instant FAQ summaries for research papers.
-  why_it_matters: It lets developers working on AI/LLM features quickly parse dense academic research with AI-generated summaries rather than manually digesting full papers.
-  mental_damage: Because clearly the missing piece in your 200-tab 'vibe coding' workflow wasn't another IDE extension, but a specialized tool to help you procrastinate inside arXiv papers with AI summaries.
+  summary: An immersive paper discovery platform powered by Kimi Chat AI for exploring arXiv and top conference papers with interactive FAQs.
+  why_it_matters: It helps developers and researchers quickly surface and understand cutting-edge academic work in AI/ML.
+  mental_damage: Now you can spend even more time reading papers instead of writing code.
   tags:
-    - research
-    - papers
-    - llm
-    - kimi
-    - chrome-extension
+    - paper-discovery
+    - academic-research
+    - ai-search
   confidence: high
 curation:
   status: excluded
-  reason: It is a general academic paper discovery tool with an AI summary feature, not a developer-facing coding tool, agent, framework, or infrastructure component.
+  reason: The project is a paper discovery platform, not a developer-tooling product for building, coding, or workflow augmentation.
   evidence:
-    - "Repo description: 'Immersive Paper Discovery' with focus on arXiv and top conference papers."
-    - README details a workflow for browsing, starring, and summarizing academic papers via Kimi Chat, not coding tasks.
-    - Source list places it in a '论文 Paper' (Papers) section, not a developer-tooling or coding-assistant section.
+    - "Repo description: 'Cool Papers - Immersive Paper Discovery'"
+    - "Source-list context: categorized under '论文 Paper' (Paper) in an LLM resources list"
+    - Core functionality is academic paper exploration, not developer workflow tooling
 placement:
   primary_category: null
   section: null
@@ -74,12 +72,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:34.145Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2dddb485f9317ec87b8101273d0684f3d56b81dd4b7fe55866ac00653a5fb981
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a paper discovery platform, not a developer-tooling product for building, coding, or workflow augmentation.
+      decision_evidence:
+        - "Repo description: 'Cool Papers - Immersive Paper Discovery'"
+        - "Source-list context: categorized under '论文 Paper' (Paper) in an LLM resources list"
+        - Core functionality is academic paper exploration, not developer workflow tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

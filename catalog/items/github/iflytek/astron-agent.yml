@@ -58,23 +58,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:10.070Z"
       bytes: 11300
 insights:
-  summary: An enterprise-grade, open-source agentic workflow platform from iFLYTEK for building, orchestrating, and deploying multi-agent applications with integrated RPA and MCP tooling.
-  why_it_matters: It provides developers with a production-ready, high-availability control plane to coordinate complex multi-agent systems and enterprise RPA workflows under an Apache 2.0 license.
-  mental_damage: Another 'enterprise-grade' platform arrives to solve the problem of having too many agents and not enough dashboards to watch them politely fail in unison.
+  summary: Enterprise-grade, commercial-friendly agentic workflow platform for building next-generation SuperAgents.
+  why_it_matters: It provides a low-code, multi-agent orchestration platform for enterprise automation, enabling developers to build and coordinate AI agents at scale.
+  mental_damage: Because nothing says 'enterprise automation' like a platform that promises to automate your automation.
   tags:
-    - multi-agent
-    - orchestration
+    - agent-orchestration
     - enterprise
-    - mcp
-    - workflow
+    - low-code
+    - multi-agent
+    - workflow-engine
   confidence: high
 curation:
   status: included
-  reason: The core product identity is a platform for coordinating multi-agent workflows, RPA, and tool integration, fitting the control plane definition for agent orchestration.
+  reason: The product is a multi-agent orchestration platform for enterprise workflows, fitting the Agent Orchestration category as a control plane for coordinating agents.
   evidence:
-    - Repo description and README explicitly define it as an 'agentic workflow platform' and 'control plane' for building SuperAgents.
-    - Features highlight 'AI workflow orchestration' and 'multi-agent' topics, aligning with the Agent Orchestration category.
-    - Active development (pushed 2026-05-06) and Apache-2.0 license indicate a viable, enterprise-targeted developer tool.
+    - Repo description explicitly calls it an 'agentic workflow platform for building SuperAgents'
+    - Topics include 'multi-agent', 'orchestration', 'workflow-engine', and 'enterprise-automation'
+    - Source-list context places it under 'Agents' in a curated LLM resources list
 placement:
   primary_category: agent-orchestration
   section: Control Planes & Workforce Platforms
@@ -93,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:32.748Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:12a9e447e1c88c0fa75e495b8faf8fb49220fa44e000a92ff0a91a96757105ef
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a multi-agent orchestration platform for enterprise workflows, fitting the Agent Orchestration category as a control plane for coordinating agents.
+      decision_evidence:
+        - Repo description explicitly calls it an 'agentic workflow platform for building SuperAgents'
+        - Topics include 'multi-agent', 'orchestration', 'workflow-engine', and 'enterprise-automation'
+        - Source-list context places it under 'Agents' in a curated LLM resources list
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated platform for coordinating agents, not a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rebyte is a platform that provisions isolated 'agent computers'—virtual environments pre-harnessed with coding agents like Claude Code, Gemini CLI, or Codex—to handle code shipping, routine tasks, and multi-agent workflows.
-  why_it_matters: It provides a governed, multi-agent infrastructure that lets teams isolate coding agents in their own environments with shared file spaces and private networking, moving beyond single-desktop assistant usage.
-  mental_damage: We have successfully abstracted the computer so far that we now pay a monthly fee to rent a machine that has no keyboard, mouse, or monitor, just so we can watch a bot use Claude Code on it.
+  summary: A platform for hiring and coordinating teams of AI agents that operate as digital employees with their own cloud computers, identities, and tool access.
+  why_it_matters: It lets developers delegate end-to-end software tasks (e.g., code reviews, PR fixes, on-call triage) to specialized agents that work autonomously in Slack or via API.
+  mental_damage: Now you can fire your intern and replace them with a Slack thread that never sleeps, complains, or asks for equity.
   tags:
     - multi-agent
-    - infrastructure
-    - claude-code
-    - remote-agents
-  confidence: medium
+    - slack-integration
+    - autonomous-agents
+    - cloud-compute
+    - workforce-platform
+  confidence: high
 curation:
   status: included
-  reason: Rebyte is a control plane and runtime platform for coordinating multiple isolated 'agent computers' rather than a single coding assistant or a framework library.
+  reason: The core product is a workforce platform for coordinating multiple specialized agents (e.g., researchers, engineers, analysts) with shared context, identities, and tool access, not a single coding assistant or extension.
   evidence:
-    - Scraped site describes it as 'computers with agent harness inside' and explicitly states 'One agent is one computer. Many agents are many computers'.
-    - The platform offers team governance, private networks, shared file spaces, and hand-offs, fitting the 'operated workbench/control plane' definition.
-    - It harnesses existing agents (Claude Code, Gemini CLI, Codex) as the interface layer rather than being a standalone coding assistant itself.
+    - Described as 'hire a team of digital employees — agents on real cloud computers that build, ship, and operate software for you'
+    - Agents are scoped, named, and equipped like hires (identities, roles, cloud machines, tools, access control)
+    - Multi-agent coordination is the primary workflow (e.g., @claude reviews, @codex implements in the same Slack thread)
 placement:
   primary_category: agent-orchestration
   section: Control Planes & Workforce Platforms
@@ -69,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:56.145Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cecad8518dec8c7933a53392ab63987794ed4c741b9f32efc5e33a549639faab
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The core product is a workforce platform for coordinating multiple specialized agents (e.g., researchers, engineers, analysts) with shared context, identities, and tool access, not a single coding assistant or extension.
+      decision_evidence:
+        - Described as 'hire a team of digital employees — agents on real cloud computers that build, ship, and operate software for you'
+        - Agents are scoped, named, and equipped like hires (identities, roles, cloud machines, tools, access control)
+        - Multi-agent coordination is the primary workflow (e.g., @claude reviews, @codex implements in the same Slack thread)
+      category_candidates:
+        - agent-orchestration
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because the product centers on managing a team of agents for ongoing tasks rather than turning prompts into deployed apps.
+      review_reason: null
+      review_resume_lifecycle: null

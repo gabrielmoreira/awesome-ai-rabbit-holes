@@ -82,23 +82,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:58.958Z"
       bytes: 17421
 insights:
-  summary: An AI-powered task management system and MCP server that integrates with Cursor, Claude Code, Windsurf, and other AI coding assistants to structure development workflows into tasks and dependencies.
-  why_it_matters: It augments AI coding assistants with structured task planning, dependency tracking, and iterative loops so developers can coordinate multi-step work inside their existing editor or agent.
-  mental_damage: We have finally solved the problem of AI agents writing 4,000 lines of code that almost work by introducing a task manager that requires its own API keys and another layer of prompt-driven ceremony.
+  summary: An AI-driven task management system designed to integrate with AI-native editors like Cursor, Windsurf, and Roo Code.
+  why_it_matters: It provides a structured workflow for managing complex AI-driven development tasks across different IDEs using MCP.
+  mental_damage: Because even your AI needs a glorified Todo list to keep track of all the code it's about to hallucinate.
   tags:
     - task-management
     - mcp
     - cursor
-    - claude-code
-    - ai-workflow
+    - workflow
+    - ai-development
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly designed to augment other AI chat and coding assistants with task management capabilities, making it an extension/integration rather than a primary coding agent.
+  reason: The tool functions as a workflow utility that augments existing AI editors rather than acting as the primary coding assistant itself.
   evidence:
-    - Repo description states it is 'An AI-powered task-management system you can drop into Cursor, Lovable, Windsurf, Roo, and others.'
-    - README describes it as 'A task management system for AI-driven development, designed to work seamlessly with any AI chat.'
-    - Provides a one-click MCP install link for Cursor and CLI install for Claude Code, confirming its integration-layer identity.
+    - README explicitly states it is 'designed to work seamlessly with any AI chat' and 'works seamlessly with Cursor AI'
+    - Provides MCP server implementations for Cursor and Claude Code to add tasking capabilities
+    - High star count (27k+) indicates significant developer traction
 placement:
   primary_category: ai-dev-extensions
   section: IDE / UI / Workflow Add-ons
@@ -117,12 +117,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:54:35.843Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a9c0182285b382c9ff3e986f9523b069ff2351796c5c14154ba7278161a5c529
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool functions as a workflow utility that augments existing AI editors rather than acting as the primary coding assistant itself.
+      decision_evidence:
+        - README explicitly states it is 'designed to work seamlessly with any AI chat' and 'works seamlessly with Cursor AI'
+        - Provides MCP server implementations for Cursor and Claude Code to add tasking capabilities
+        - High star count (27k+) indicates significant developer traction
+      category_candidates:
+        - ai-dev-extensions
+        - spec-driven-development
+      contrastive_reason: Choose ai-dev-extensions over spec-driven-development because the product identity is centered on augmenting editor workflows via integration rather than enforcing a strict spec-first development loop.
+      review_reason: null
+      review_resume_lifecycle: null

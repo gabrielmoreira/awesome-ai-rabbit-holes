@@ -36,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Vectorize provides Hindsight, an open-source, model-agnostic memory layer that allows AI agents to persist context, recall user preferences, and learn from mistakes across sessions via MCP tooling.
-  why_it_matters: It gives developers a drop-in memory system that enables agents to retain long-term context and improve judgment over time without tying them to a specific LLM provider.
-  mental_damage: We have finally solved the problem of AI forgetting what it did five minutes ago, only to realize that an agent with perfect recollection of its own errors is just a very efficient way to repeat them.
+  summary: Open source agent memory system that enables persistent, per-user context and learning for AI agents.
+  why_it_matters: Developers can give their agents persistent memory that improves over time, reducing repetitive mistakes and enabling cross-session continuity.
+  mental_damage: Finally, your agent will remember that you prefer tabs over spaces—until it forgets again next major version.
   tags:
     - agent-memory
-    - mcp
-    - context-retrieval
-    - open-source
+    - mcp-server
+    - context-persistence
+    - llm-memory
+    - hindsight
   confidence: high
 curation:
   status: included
-  reason: The core novelty is the memory system itself—providing persistent context, recall, and reflection layers—which fits Prompt & Context Engineering rather than a host integration or generic framework.
+  reason: The core product is a memory system for agents, focusing on retrieval, persistence, and learning—squarely in prompt/context engineering territory.
   evidence:
-    - "Scraped site states: 'Open source agent memory. Your agents learn from experience, recall what matters, and get better over time.'"
-    - "Primary excerpt highlights memory tools: 'Your agent gets remember, recall, and reflect tools automatically.'"
-    - Source list context identifies it as an Official MCP Server for agent memory in awesome-mcp-servers.
+    - Site describes it as 'Open source agent memory. Your agents learn from experience, recall what matters, and get better over time.'
+    - Primary page excerpt highlights per-user memory, cross-session persistence, and fast recall as core features.
+    - Benchmark results (LongMemEval) position it as a memory system, not a coding assistant or orchestration platform.
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -69,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:45.352Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:44b3ed92a52fe76097af8deaef3a18b219958132a4524c49e770d152bb37529f
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core product is a memory system for agents, focusing on retrieval, persistence, and learning—squarely in prompt/context engineering territory.
+      decision_evidence:
+        - Site describes it as 'Open source agent memory. Your agents learn from experience, recall what matters, and get better over time.'
+        - Primary page excerpt highlights per-user memory, cross-session persistence, and fast recall as core features.
+        - Benchmark results (LongMemEval) position it as a memory system, not a coding assistant or orchestration platform.
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the product identity is the memory system itself, not the MCP protocol or server infrastructure.
+      review_reason: null
+      review_resume_lifecycle: null

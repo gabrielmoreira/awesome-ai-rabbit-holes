@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:00.512Z"
       bytes: 31774
 insights:
-  summary: A JetBrains IDE plugin that exposes an MCP server to give AI coding assistants semantic access to IntelliJ's code indexing, refactoring, and diagnostics.
-  why_it_matters: It allows AI agents to navigate complex codebases using actual IDE intelligence—references, type hierarchies, and safe renaming—rather than guessing via text search.
-  mental_damage: We have successfully abstracted the IDE into a context window, so your $200/month agent can now perform a 'Find Usages' that you could have done with a single shortcut, but with more latency and existential dread.
+  summary: A JetBrains IDE plugin that exposes an MCP server to give AI coding assistants access to IntelliJ's code indexing and refactoring tools.
+  why_it_matters: It lets AI assistants like Claude or Cursor leverage the IDE's semantic understanding, cross-project references, and safe refactoring operations instead of relying on text-only analysis.
+  mental_damage: Now your AI assistant can rename a Java method across 200 files while you watch, helplessly aware that you could have broken it all with a single keystroke.
   tags:
     - jetbrains
     - mcp
     - ide-integration
-    - code-intelligence
-    - plugin
+    - refactoring
+    - code-indexing
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that exposes JetBrains IDE capabilities to external AI tools, making it a domain-specific MCP server rather than a generic extension or agent.
+  reason: "MCP is the product identity: this is an MCP server that exposes IDE capabilities as tools, not just a compatibility adapter."
   evidence:
-    - Repo description explicitly states it is 'A Jetbrains IDE IntelliJ plugin aimed to provide coding agents the ability to leverage intelliJ's indexing' via MCP.
-    - README describes the tool as 'A JetBrains IDE plugin that exposes an MCP (Model Context Protocol) server' with tools like Find References and Semantic Search.
-    - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its identity as MCP infrastructure.
+    - Repo description explicitly states it is an MCP server for JetBrains IDEs
+    - README details MCP tools for code navigation, refactoring, and diagnostics
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:12.510Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2710c2947b5301ca2e622c0a1b4bdbbb77abf081a014033b9d97360b9b16078b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is an MCP server that exposes IDE capabilities as tools, not just a compatibility adapter."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for JetBrains IDEs
+        - README details MCP tools for code navigation, refactoring, and diagnostics
+        - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing IDE tools, not merely an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

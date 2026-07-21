@@ -1,0 +1,114 @@
+id: snowflake__com__en__product__cortex__code
+kind: website
+name: Cortex Code CLI
+canonical_url: https://snowflake.com/en/product/cortex-code
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__snowflake__com__en__product__cortex__code__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Cortex Code CLI
+        extracted_url: https://snowflake.com/en/product/cortex-code
+        surrounding_text: "- **[Cortex Code CLI](https://www.snowflake.com/en/product/cortex-code/)** `[Snowflake]` — Snowflake's data-native AI coding agent CLI for building pipelines, analytics, and AI apps with enterprise governance."
+        confidence: high
+    - id: discovery__www__snowflake__com__en__product__cortex__code__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Cortex Code CLI
+        extracted_url: https://www.snowflake.com/en/product/cortex-code
+        surrounding_text: "- **[Cortex Code CLI](https://www.snowflake.com/en/product/cortex-code/)** `[Snowflake]` — Snowflake's data-native AI coding agent CLI for building pipelines, analytics, and AI apps with enterprise governance."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Snowflake Cortex Code CLI is a terminal-native AI coding agent for code generation and repository tasks.
+  why_it_matters: It provides developers with a CLI-based assistant for planning, writing, and debugging code directly in their terminal workflow.
+  mental_damage: Another CLI agent to argue with your existing CLI agent about which one should edit the file.
+  tags:
+    - cli
+    - coding-agent
+    - snowflake
+    - terminal
+    - closed-source
+  confidence: high
+curation:
+  status: included
+  reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
+  evidence:
+    - Seen in awesome-cli-coding-agents under Terminal-native coding agents > Closed Source
+    - Product identity is a terminal-native coding agent per source-list context
+    - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+placement:
+  primary_category: app-builders
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:37:14.836Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3329c868ea43208a2702a962ea516a494f99f49290b5b3cc8e49dddf5b70576c
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: Fits the app-builders category as a hosted prompt-to-app product rather than a direct coding agent or AI IDE.
+      decision_evidence:
+        - Seen in awesome-cli-coding-agents under Terminal-native coding agents > Closed Source
+        - Product identity is a terminal-native coding agent per source-list context
+        - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because it is a standalone terminal agent, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.970Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

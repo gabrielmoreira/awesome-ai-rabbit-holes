@@ -90,23 +90,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:29.490Z"
       bytes: 63901
 insights:
-  summary: NeuroLink is a TypeScript SDK and CLI that provides a unified streaming API across 17+ AI providers, with built-in tools, MCP server support, memory, and context compaction features.
-  why_it_matters: It lets developers swap LLM providers with a single parameter, manage context windows automatically, and add RAG or memory to their apps without stitching together multiple provider SDKs.
-  mental_damage: Another abstraction layer promising to unify the AI ecosystem, because clearly what your stack needs is a vascular system for tokens and a 64-tool routing layer you hope you never have to debug at 2am.
+  summary: A TypeScript SDK and platform that unifies 24+ LLM providers, MCP servers, voice, RAG, and memory under a single interface for production AI integrations.
+  why_it_matters: Developers can swap LLM providers, integrate MCP servers, and manage AI workflows (voice, RAG, memory) without rewriting core logic, reducing vendor lock-in and operational overhead.
+  mental_damage: Finally, a way to pretend the AI ecosystem isn’t a fragmented mess of incompatible APIs—until the next provider-specific quirk breaks your abstraction layer.
   tags:
-    - llm
-    - sdk
-    - provider-abstraction
-    - typescript
-    - mcp
+    - llm-abstraction
+    - mcp-native
+    - typescript-sdk
+    - production-ai
+    - multi-provider
   confidence: high
 curation:
   status: included
-  reason: NeuroLink is primarily a code-first SDK and CLI that developers import and script against to unify provider access, manage context, and embed AI capabilities, which is a textbook fit for Frameworks & SDKs.
+  reason: The core product is a code-first TypeScript SDK/framework for unifying LLM providers and AI workflows, not a primary assistant, extension, or orchestration platform.
   evidence:
-    - README shows a TypeScript import example with `new NeuroLink()` and streaming API as the core interface.
-    - Describes itself as a 'universal AI integration platform' with SDK and professional CLI as the primary surfaces.
-    - Features like context compaction, RAG, and memory are exposed as code-first options, not an operated control plane.
+    - "Repo description: 'One TypeScript interface for 24+ LLM providers — swap providers without rewriting. MCP-native (58+ servers), voice (TTS/STT/realtime), RAG, memory, file processors.'"
+    - "README: 'NeuroLink is the universal AI integration platform that unifies 17 major AI providers and 100+ models under one consistent API.'"
+    - "Source-list context: Listed in 'awesome-llm-agents' under Frameworks and 'awesome-mcp-servers' under Aggregators."
 placement:
   primary_category: ai-frameworks
   section: Provider / Model Abstractions
@@ -125,12 +125,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:35.598Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d6a9d16988103bbae234efd1bf8546bec34df14f268e7e1ecc99e3eb8447f731
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The core product is a code-first TypeScript SDK/framework for unifying LLM providers and AI workflows, not a primary assistant, extension, or orchestration platform.
+      decision_evidence:
+        - "Repo description: 'One TypeScript interface for 24+ LLM providers — swap providers without rewriting. MCP-native (58+ servers), voice (TTS/STT/realtime), RAG, memory, file processors.'"
+        - "README: 'NeuroLink is the universal AI integration platform that unifies 17 major AI providers and 100+ models under one consistent API.'"
+        - "Source-list context: Listed in 'awesome-llm-agents' under Frameworks and 'awesome-mcp-servers' under Aggregators."
+      category_candidates:
+        - ai-frameworks
+        - mcp
+      contrastive_reason: Choose ai-frameworks over mcp because the primary identity is a provider abstraction SDK/framework, with MCP as a supported feature rather than the core product.
+      review_reason: null
+      review_resume_lifecycle: null

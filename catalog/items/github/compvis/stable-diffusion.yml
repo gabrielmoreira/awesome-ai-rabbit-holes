@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:24.842Z"
       bytes: 12441
 insights:
-  summary: A latent text-to-image diffusion model that generates images from text prompts, released as a research artifact by CompVis in collaboration with Stability AI.
-  why_it_matters: It provides developers with an open, customizable image synthesis model they can run locally, fine-tune, or integrate into creative and generative workflows.
-  mental_damage: You installed CUDA just to generate 512x512 anime portraits on a GPU that sounds like a jet engine, convincing yourself this is somehow advancing your software career.
+  summary: A latent text-to-image diffusion model that generates 512×512 images from text prompts using an 860M UNet and frozen CLIP ViT-L/14 encoder, distributed primarily as research artifacts and pretrained checkpoints.
+  why_it_matters: It proved that large generative image models could run on consumer GPUs with 10GB VRAM, but it remains a computer-vision foundation model rather than a tool that changes software development workflows.
+  mental_damage: You came looking for a dev dependency and left with a 10GB VRAM requirement, a conda environment named 'ldm', and an existential crisis about whether generating conference talk hero images counts as shipping code.
   tags:
-    - text-to-image
     - diffusion
-    - computer-vision
+    - text-to-image
     - generative-ai
-    - local-models
+    - foundation-model
   confidence: high
 curation:
   status: excluded
-  reason: This is a computer vision foundation model and research artifact, not a developer-facing coding tool, agent, IDE, framework, or AI-infrastructure product.
+  reason: This is a research foundation model and checkpoint repository for computer vision, not a developer-facing AI product for software engineering, orchestration, or coding workflows.
   evidence:
-    - Repo description states 'A latent text-to-image diffusion model', with no developer-tooling or coding workflow claims.
-    - README focuses on image synthesis research, model weights, and training data, not coding assistance, agents, or developer infrastructure.
-    - Listed in Awesome-LLMOps under 'Model > CV Foundation Model', which is outside the catalog's scope of practical AI tooling for software developers.
+    - README explicitly labels the weights as 'research artifacts' for text-to-image generation and warns against production use without additional safety mechanisms.
+    - The repository is catalogued in Awesome-LLMOps under 'CV Foundation Model,' confirming its identity as a model asset rather than a developer tool.
+    - Stable Diffusion is explicitly listed as a common_false_positive under both ai-frameworks and local-ai because it is a raw model repo without a reusable toolkit or runtime app identity.
 placement:
   primary_category: null
   section: null
@@ -75,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:46:44.856Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fcad2bd33e14070f63f01cbf13aff3f67958f0f2dcf06098f88db452024b3f88
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a research foundation model and checkpoint repository for computer vision, not a developer-facing AI product for software engineering, orchestration, or coding workflows.
+      decision_evidence:
+        - README explicitly labels the weights as 'research artifacts' for text-to-image generation and warns against production use without additional safety mechanisms.
+        - The repository is catalogued in Awesome-LLMOps under 'CV Foundation Model,' confirming its identity as a model asset rather than a developer tool.
+        - Stable Diffusion is explicitly listed as a common_false_positive under both ai-frameworks and local-ai because it is a raw model repo without a reusable toolkit or runtime app identity.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

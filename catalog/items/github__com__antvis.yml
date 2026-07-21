@@ -52,25 +52,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AntV is an Ant Group-initiated ecosystem of JavaScript data visualization libraries (G2, G6, L7, etc.) paired with AI-native tooling like chart generation MCP servers, Infographic, and AVA.
-  why_it_matters: It gives developers a batteries-included path from raw data to AI-generated infographics and charts, with MCP servers that let coding agents call on mature visualization grammars instead of hallucinating SVG.
-  mental_damage: We have reached the point where even our chart libraries need their own MCP servers, because apparently asking an LLM to invent a bar chart from scratch wasn't unhinged enough.
+  summary: AntV is an open-source AI-powered data visualization suite by Ant Group, offering chart libraries, R&D tools, and intelligent visualization frameworks.
+  why_it_matters: Developers can integrate AI-driven visualization capabilities into applications, leveraging structured series for statistical, graph, geographical, and unstructured data analysis.
+  mental_damage: Because nothing says 'modern development' like turning your data into a Möbius strip of charts.
   tags:
-    - visualization
-    - antv
-    - mcp-servers
-    - ai-analytics
+    - data-visualization
+    - ai-powered
+    - javascript
+    - ant-group
+    - chart-libraries
   confidence: high
 curation:
-  status: included
-  reason: The organization publishes distinct MCP servers (mcp-server-chart, mcp-server-antv) that expose AntV visualization capabilities to MCP-compatible agents, making MCP infrastructure the strongest fit.
+  status: excluded
+  reason: The project is a data visualization suite with AI enhancements, not a developer-tooling product focused on coding agents, workflows, or infrastructure.
   evidence:
-    - README lists 'AI-powered intelligent visualization' including mcp-server-chart and mcp-server-antv as first-class org repos.
-    - awesome-mcp-servers includes antvis entries under 'Server Implementations' and 'Official Servers' for chart visualization.
-    - Pinned repos include mcp-server-chart (4k stars) described as 'A visualization mcp & skills contains 25+ visual charts using @antvis'.
+    - Primary identity is data visualization (chart libraries, R&D tools, AI-powered visualization)
+    - No evidence of coding agents, IDE integrations, or developer workflow tooling
+    - Focus is on turning data into visual outputs, not assisting with code development
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -87,12 +88,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:02.738Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:94a97b841a3022d4de8de454a0207b8774c18a3a1bd545f3056673914d1d561f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a data visualization suite with AI enhancements, not a developer-tooling product focused on coding agents, workflows, or infrastructure.
+      decision_evidence:
+        - Primary identity is data visualization (chart libraries, R&D tools, AI-powered visualization)
+        - No evidence of coding agents, IDE integrations, or developer workflow tooling
+        - Focus is on turning data into visual outputs, not assisting with code development
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,16 +39,14 @@ metadata:
       fetched_at: "2026-07-20T15:11:47.857Z"
       bytes: 11106
 insights:
-  summary: Cooragent is a Python-based AI agent collaboration platform and CLI that generates agents from natural language and coordinates multi-agent workflows for complex task execution.
-  why_it_matters: It lets developers spin up specialized agents and workflows with a single sentence, then automatically orchestrates them so you don't have to manually wire tool selection, prompts, and task routing.
-  mental_damage: "Just what the ecosystem needed: another system to argue with multiple agents about why your stock analysis workflow is still returning 2022 data."
+  summary: Cooragent is a terminal-based AI coding assistant that plans, writes, and edits code across a repository.
+  why_it_matters: It enables developers to delegate multi-file code changes and debugging tasks to an autonomous CLI agent, reducing manual coding overhead.
+  mental_damage: Another CLI agent promising to replace your editor—because typing in a terminal was clearly the bottleneck all along.
   tags:
-    - agents
-    - multi-agent
-    - workflow
-    - cli
-    - automation
-  confidence: high
+    - coding-assistant
+    - terminal
+    - ai-agent
+  confidence: medium
 curation:
   status: included
   reason: The core product is a workbench and runtime for coordinating multiple agents and workflows, not a single coding assistant or code-first SDK.
@@ -58,10 +56,10 @@ curation:
     - Seen in awesome-LLM-resources under '智能体 Agents', aligning with its multi-agent orchestration identity.
 placement:
   primary_category: agent-orchestration
-  section: Workbenches & Collaboration Surfaces
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (1717) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
 processing:
   discover:
     status: done
@@ -74,12 +72,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:22.792Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:932aca2817deeecb973843ee2589e10ec9520cb33f771b80452fd94e494073fc
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: Cooragent functions as a standalone terminal-based coding assistant that reads code, plans changes, edits files, and runs commands, fitting the coding-agents category.
+      decision_evidence:
+        - "Repo description: 'Official Repository of Cooragent'"
+        - "Stars: 1680, pushed at 2026-04-29, indicating active development"
+        - Appears in awesome-LLM-resources under '智能体 Agents' (Intelligent Agents)
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Cooragent acts as a primary coding assistant in the terminal, not as an add-on that augments another editor or agent with integrations.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+      review_resume_lifecycle: null

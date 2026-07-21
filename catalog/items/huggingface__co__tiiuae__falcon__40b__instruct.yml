@@ -37,22 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Falcon-40B-Instruct is a 40-billion-parameter causal decoder-only chat model from the Technology Innovation Institute, fine-tuned for instruction following and available under the Apache 2.0 license.
-  why_it_matters: Developers can use it as a self-hosted, open-weight alternative to proprietary LLMs for building local coding assistants, chat interfaces, or fine-tuned internal tools.
-  mental_damage: Yet another open-weight colossus that promises freedom from vendor lock-in, provided you happen to have 100GB of VRAM lying around and a weekend to spare on quantization experiments.
+  summary: Falcon-40B-Instruct is a 40B-parameter causal decoder-only instruct model fine-tuned on Baize and RefinedWeb data, optimized for inference with FlashAttention and multiquery attention.
+  why_it_matters: It offers developers a high-performance, open-source alternative for text generation tasks with strong benchmarks and Apache 2.0 licensing.
+  mental_damage: Another model to benchmark against, because nothing says productivity like spending a week comparing LLM outputs on the same prompt.
   tags:
-    - llm
-    - open-weight
     - text-generation
-    - self-hosted
+    - open-source
+    - instruct-model
+    - falcon
+    - pytorch
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw model checkpoint and weights repository rather than a developer-facing tool, IDE, agent, framework, or infrastructure product, which places it outside the catalog's scope.
+  reason: This is a raw model checkpoint (Hugging Face repo) without a developer-tooling identity; the catalog focuses on tools, workflows, and infrastructure, not standalone model weights.
   evidence:
-    - The page is a Hugging Face model card for Falcon-40B-Instruct, not a standalone product or tool.
-    - The README provides only inference snippets using transformers/vLLM/SGLang rather than offering its own developer tooling.
-    - It appears in Awesome-LLMOps under 'Model > Large Language Model', which is a research/model bucket rather than a developer-tooling category.
+    - "Primary artifact is a model checkpoint (repoType: model) on Hugging Face"
+    - No runtime, SDK, or tooling layer beyond standard Transformers/vLLM usage
+    - Source-list context places it under 'Model > Large Language Model' in Awesome-LLMOps, confirming model-first identity
 placement:
   primary_category: null
   section: null
@@ -72,12 +73,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:26.140Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ffdc6007e7424f9ca814c7981bd15712327ecaf22d4917fdac5894db53d31aa8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a raw model checkpoint (Hugging Face repo) without a developer-tooling identity; the catalog focuses on tools, workflows, and infrastructure, not standalone model weights.
+      decision_evidence:
+        - "Primary artifact is a model checkpoint (repoType: model) on Hugging Face"
+        - No runtime, SDK, or tooling layer beyond standard Transformers/vLLM usage
+        - Source-list context places it under 'Model > Large Language Model' in Awesome-LLMOps, confirming model-first identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

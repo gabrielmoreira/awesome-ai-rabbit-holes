@@ -45,23 +45,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:20.913Z"
       bytes: 13943
 insights:
-  summary: An agent skill pack that connects AI coding assistants to the Citedy platform for automated SEO content workflows including trend scouting, article generation in 55 languages, and multi-platform social media publishing.
-  why_it_matters: Developers building content automation pipelines can install this skill into Claude Code, OpenAI Codex, Cursor, and other agent environments to integrate end-to-end SEO content generation via a single skill layer.
-  mental_damage: We have finally reached the point where an AI agent needs a skill pack so it can pretend to be an entire marketing department that generates 55-language articles and TikTok videos on a cron schedule.
+  summary: An AI-powered SEO content automation agent skill for trend scouting, competitor analysis, multilingual article generation, and social media adaptations.
+  why_it_matters: Developers and marketers can integrate this skill into AI agents to automate end-to-end SEO content workflows, from research to multi-platform publishing.
+  mental_damage: Now your AI agent can outsource its content marketing to another AI agent, because nothing says 'scalable' like a stack of agents writing LinkedIn posts about agents.
   tags:
     - agent-skills
-    - seo
-    - content-automation
-    - mcp
-    - multilingual
-  confidence: medium
+    - seo-automation
+    - content-marketing
+    - mcp-server
+    - ai-agent
+  confidence: high
 curation:
   status: included
-  reason: The primary artifact is a reusable agent skill pack designed to be installed into multiple coding assistants (Claude Code, Codex, Cursor, Factory Droid) rather than being a standalone assistant or broader platform.
+  reason: This is a reusable agent skill pack for content marketing workflows, not a primary assistant, framework, or orchestration platform.
   evidence:
-    - README explicitly frames this as 'an Agent Skill that connects your AI agent to the Citedy platform' with install instructions for Claude Code, OpenAI Codex CLI, Factory Droid, and universal openskills install.
-    - GitHub topics include agent-skills and the repo description calls it an 'AI-powered SEO content automation agent skill'.
-    - Active development (pushed 2026-05-05) with MIT license and no archive flag.
+    - Repo description explicitly calls it an 'AI-powered SEO content automation agent skill'
+    - README positions it as a skill for AI agents (Claude Code, Codex CLI, Factory Droid) with install instructions for each
+    - Core value is the portable skill content (SEO, trend scouting, publishing) rather than a broader platform
 placement:
   primary_category: skills
   section: Domain & Workflow Skill Packs
@@ -80,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:42:59.851Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2ca06ae83ee1a0fbc31514147df818f8cb9be0593b0213781cb0bae835d20a92
+      proposed_primary_category: skills
+      disagreement: false
+      decision_reason: This is a reusable agent skill pack for content marketing workflows, not a primary assistant, framework, or orchestration platform.
+      decision_evidence:
+        - Repo description explicitly calls it an 'AI-powered SEO content automation agent skill'
+        - README positions it as a skill for AI agents (Claude Code, Codex CLI, Factory Droid) with install instructions for each
+        - Core value is the portable skill content (SEO, trend scouting, publishing) rather than a broader platform
+      category_candidates:
+        - skills
+        - ai-dev-extensions
+      contrastive_reason: Choose skills over ai-dev-extensions because the primary artifact is a reusable skill pack for AI agents rather than a host integration layer.
+      review_reason: null
+      review_resume_lifecycle: null

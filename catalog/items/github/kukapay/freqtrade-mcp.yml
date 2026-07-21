@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:41.091Z"
       bytes: 7058
 insights:
-  summary: An MCP server that exposes the Freqtrade cryptocurrency trading bot's REST API as tools for AI agents to manage trades, fetch market data, and control bot operations.
-  why_it_matters: It allows developers to control and query their crypto trading bot through natural language via any MCP-compatible client, bridging trading infrastructure with modern agent workflows.
-  mental_damage: You can now instruct a large language model to leverage your life savings against BTC/USDT volatility with the same casual confidence you use to rename a variable.
+  summary: An MCP server that integrates with the Freqtrade cryptocurrency trading bot via its REST API to enable AI agent interaction.
+  why_it_matters: Developers can now use AI agents to monitor, control, and automate trading operations in Freqtrade through a standardized protocol.
+  mental_damage: Because nothing says 'production-ready' like letting an LLM place trades on your behalf.
   tags:
     - mcp
     - trading
+    - automation
+    - freqtrade
     - crypto
-    - fin-tech
   confidence: high
 curation:
   status: included
-  reason: The product identity is strictly an MCP server designed to integrate with Freqtrade, fitting cleanly into the MCP Servers & Tooling category.
+  reason: The product is explicitly an MCP server whose primary identity is providing MCP-based access to Freqtrade's API, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'An MCP server that integrates with the Freqtrade cryptocurrency trading bot.'"
-    - README details exposing Freqtrade REST API endpoints directly as MCP tools (e.g., place_trade, fetch_profit).
-    - Listed in 'awesome-mcp-servers' under the Finance & Fintech section, confirming its role as a domain-specific server.
+    - Repo description explicitly states it is an MCP server for Freqtrade
+    - README details MCP server setup and tool exposure via Freqtrade REST API
+    - Project is part of a collection of crypto-related MCP servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:59.008Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8d6c9502109832933954bb915bf3d60057fae475d58ee7ca072d7a9f8ef87747
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose primary identity is providing MCP-based access to Freqtrade's API, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Freqtrade
+        - README details MCP server setup and tool exposure via Freqtrade REST API
+        - Project is part of a collection of crypto-related MCP servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -44,26 +44,26 @@ metadata:
       fetched_at: "2026-07-16T05:04:58.624Z"
       bytes: 17977
 insights:
-  summary: A lean, unified training engine for building and fine-tuning multimodal models at scale using PyTorch.
-  why_it_matters: It gives developers a unified CLI and config-driven workflow to train multimodal architectures without wrestling with fragmented research codebases.
-  mental_damage: Yet another 'unified' engine promising to simplify multimodal training, right next to the other twelve engines that already unified it.
+  summary: A unified training engine designed for scaling multimodal model development.
+  why_it_matters: It provides a lean, flexible framework for developers building and training their own large multimodal models (LMMs).
+  mental_damage: Another engine to master in the endless arms race to benchmark Model FLOPs Utilization.
   tags:
     - multimodal
-    - training
+    - training-engine
     - pytorch
-    - fine-tuning
-    - research
+    - machine-learning
+    - lmm
   confidence: high
 curation:
-  status: excluded
-  reason: This is a model-training framework for multimodal research, not a developer-facing AI tool, agent, or coding workflow product.
+  status: included
+  reason: The project is a code-first training engine that developers import and script against to build multimodal models.
   evidence:
-    - "Repo description: 'unified multimodal models training engine' focused on training, not coding assistance."
-    - README emphasizes torchrun/accelerate training workflows, MFU benchmarks, and model architectures.
-    - Listed in awesome-LLM-resources under fine-tuning, not developer tooling or coding agents.
+    - Repo description defines it as a 'unified multimodal models training engine'
+    - README describes it as a 'lean, efficient framework' for training at scale
+    - Uses torchrun and accelerate for training execution
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (774) exceeded threshold (150)
@@ -79,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:54:08.136Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:51e3c053c1b527b91e0a55b873e0fb7ae74ce4c010f722f9b9af4e8bfa94d037
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The project is a code-first training engine that developers import and script against to build multimodal models.
+      decision_evidence:
+        - Repo description defines it as a 'unified multimodal models training engine'
+        - README describes it as a 'lean, efficient framework' for training at scale
+        - Uses torchrun and accelerate for training execution
+      category_candidates:
+        - ai-frameworks
+        - local-ai
+      contrastive_reason: Choose ai-frameworks over local-ai because it is primarily a code-first training framework rather than a runtime for executing models.
+      review_reason: null
+      review_resume_lifecycle: null

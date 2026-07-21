@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:25.512Z"
       bytes: 5453
 insights:
-  summary: ClawAIMail is an email infrastructure service and SDK that provides AI agents with dedicated email addresses and a built-in MCP server for integrating email capabilities.
-  why_it_matters: It gives developers a standardized way to let agents send, receive, and react to email in real time via REST, WebSockets, webhooks, and MCP-compatible clients.
-  mental_damage: We have finally built the infrastructure for your autonomous agent to argue with a support mailbox while you nervously watch the unread count climb.
+  summary: Email infrastructure for AI agents with REST API, MCP server, and SDKs for programmatic email control.
+  why_it_matters: Gives AI agents their own email addresses and full programmatic control over sending, receiving, and managing email in agentic workflows.
+  mental_damage: Now your agents can spam you directly, without the middleman.
   tags:
     - email
     - mcp
     - agent-infrastructure
+    - api
     - sdk
-    - nodejs
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an email capability exposed primarily as an MCP server for Claude, Cursor, and other MCP-compatible clients, fitting the MCP Servers & Tooling category.
+  reason: MCP is the primary product identity here, as it ships a first-class MCP server for email capabilities in agent workflows.
   evidence:
-    - README states 'First-class Model Context Protocol server for Claude, Cursor, and other MCP-compatible clients.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'.
-    - Provides Node.js and Python SDKs plus self-hosting, but MCP integration is a headline feature.
+    - README explicitly describes it as 'Email infrastructure for AI agents' with an MCP server as a core feature
+    - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
+    - Provides REST API, WebSocket streaming, and SDKs, but MCP server is a first-class offering
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:47.459Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e6ea06fa50a345b83512e72eeb4559552f250af795b7b695dfe76ab2f850bd08
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the primary product identity here, as it ships a first-class MCP server for email capabilities in agent workflows.
+      decision_evidence:
+        - README explicitly describes it as 'Email infrastructure for AI agents' with an MCP server as a core feature
+        - Listed in awesome-mcp-servers under 'Server Implementations > Communication'
+        - Provides REST API, WebSocket streaming, and SDKs, but MCP server is a first-class offering
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is its MCP server for email, not just a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

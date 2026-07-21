@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:10:54.711Z"
       bytes: 4491
 insights:
-  summary: An MCP server that provides LLM assistants with accurate astronomical catalog data and observing session planning for 13,000+ deep-sky objects.
-  why_it_matters: It eliminates hallucinated star coordinates and magnitudes by giving coding agents deterministic, offline access to bundled OpenNGC data and local astronomy math.
-  mental_damage: We have finally solved the existential crisis of a language model confidently inventing the wrong Messier object, though one wonders when we will need an MCP server for 'what is a pointer, actually'.
+  summary: An MCP server providing celestial object catalog data and observing session planning for LLM assistants.
+  why_it_matters: Prevents LLM hallucinations about astronomical data by offering deterministic calculations and a bundled catalog of 13,000+ deep-sky objects.
+  mental_damage: Now your AI can argue with you about whether M31 is actually visible tonight, with receipts.
   tags:
-    - mcp
+    - mcp-server
     - astronomy
-    - domain-server
-    - offline
-    - tools
+    - data-catalog
+    - local-calculations
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server providing domain-specific tools (object lookup, catalog search, session planning) for LLM assistants, fitting squarely into MCP Servers & Tooling.
+  reason: "MCP is the product identity: this is a domain-specific MCP server providing tools for astronomical data lookup and session planning."
   evidence:
-    - Repo description explicitly states 'Celestial object catalog and observing session planner MCP server'.
-    - README confirms it is an MCP-compatible server with 3 tools for astronomy data, bundled as an npm package.
-    - Listed in awesome-mcp-servers under 'Aerospace & Astrodynamics' section.
+    - Repo description explicitly identifies it as an MCP server
+    - README details MCP tool integration (Claude Desktop/Code config examples)
+    - Listed in awesome-mcp-servers under 'Server Implementations'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:10.591Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a112dbefd53b9183b01c7439b5ab784b63046948752346dc683cf2c9360466c7
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a domain-specific MCP server providing tools for astronomical data lookup and session planning."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server
+        - README details MCP tool integration (Claude Desktop/Code config examples)
+        - Listed in awesome-mcp-servers under 'Server Implementations'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

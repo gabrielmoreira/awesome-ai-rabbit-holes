@@ -50,15 +50,15 @@ metadata:
       fetched_at: "2026-07-16T05:05:20.075Z"
       bytes: 9088
 insights:
-  summary: A hosted MCP server that provides AI agents with structured, versioned memory for deterministic fact recall and conflict detection.
-  why_it_matters: It replaces O(n) embedding-based memory dumps with O(1) versioned key-value storage, letting agents track decision history without bloating the context window.
-  mental_damage: We have now successfully abstracted the problem of remembering what we did last week into a hosted SaaS with a benchmark suite, versioning, and a pricing page.
+  summary: Memstate MCP is a hosted Model Context Protocol server providing versioned key-value memory for AI agents.
+  why_it_matters: It reduces token usage and improves memory reliability for AI agents by offering deterministic, conflict-aware recall instead of embedding-based similarity search.
+  mental_damage: Another MCP server promising to fix agent memory, adding yet another hosted dependency to the growing stack of tools developers must wire together just to get an agent to remember what it did yesterday.
   tags:
     - mcp
     - memory
-    - agents
-    - context-engineering
-  confidence: medium
+    - agent-tools
+    - hosted-saas
+  confidence: high
 curation:
   status: included
   reason: The core novelty is a memory and context-shaping system (versioned facts, conflict detection, token efficiency) exposed via MCP, which aligns with Prompt & Context Engineering rather than a generic extension or server category.
@@ -68,10 +68,10 @@ curation:
     - Distributed as an MCP server package (@memstate/mcp) with integrations for Claude, Cursor, Cline, and other assistants.
 placement:
   primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -84,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:19:49.060Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d16c80510a5d78faa3b99cedbedd1356331108bccc03a612c2c0ec595d47d151
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The product is an MCP server as its core identity, exposing versioned memory via the Model Context Protocol, making it MCP infrastructure rather than a client, extension, or general tool.
+      decision_evidence:
+        - The README positions it as a 'hosted MCP server' and provides MCP client configuration examples for Claude Desktop, Claude Code, and Cursor.
+        - It exposes versioned key-value memory with conflict detection and O(1) token scaling as its core functionality.
+        - The project is actively maintained, with recent pushes in April 2026 and a clear MCP-first identity in badges, docs, and usage instructions.
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is an MCP server delivering memory as a service via the Model Context Protocol, not a general-purpose memory or retrieval library.
+      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+      review_resume_lifecycle: null

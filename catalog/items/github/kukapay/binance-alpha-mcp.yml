@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:38.461Z"
       bytes: 4237
 insights:
-  summary: An MCP server that tracks Binance Alpha token trades in real time and exposes trading volume and statistics tools to AI agents.
-  why_it_matters: It gives coding agents and MCP clients a structured way to hook live crypto trade data into agent workflows without building custom scrapers.
-  mental_damage: We have finally reached the point where AI agents need dedicated middleware to optimize their Binance Alpha point accumulation strategies.
+  summary: An MCP server that tracks Binance Alpha trades and provides tools for AI agents to optimize alpha point accumulation.
+  why_it_matters: Developers building AI agents for crypto trading can use this to monitor real-time trade activity and derive USD-based metrics for Binance Alpha tokens.
+  mental_damage: Now your AI agent can chase alpha points while you chase the dream of your agent actually making you money.
   tags:
-    - mcp
+    - mcp-server
     - crypto
-    - finance
     - binance
-    - trade-monitoring
+    - trading
+    - real-time
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing crypto trade tracking tools, making it a clear fit for the MCP Domain Servers section.
+  reason: The product is explicitly an MCP server with domain-specific tools for tracking Binance Alpha trades, making MCP its primary identity.
   evidence:
-    - Repo description states it is 'An MCP server for tracking Binance Alpha trades'.
-    - README documents MCP tools like get_top_tokens and get_trade_stats for AI agents.
-    - Listed in awesome-mcp-servers under Finance & Fintech, aligning with its MCP server identity.
+    - Repo description explicitly states it is an MCP server for tracking Binance Alpha trades
+    - README details MCP tools like get_top_tokens and get_trade_stats
+    - Project is actively maintained (created and pushed in May 2025)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:26.389Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a7b1143b1dd817969d8c1dc518d8cf8b1e20420731f16cde8bfb61283500032e
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server with domain-specific tools for tracking Binance Alpha trades, making MCP its primary identity.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for tracking Binance Alpha trades
+        - README details MCP tools like get_top_tokens and get_trade_stats
+        - Project is actively maintained (created and pushed in May 2025)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server with domain-specific tools, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

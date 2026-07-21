@@ -40,25 +40,25 @@ metadata:
       fetched_at: "2026-07-20T15:10:57.165Z"
       bytes: 9702
 insights:
-  summary: An MCP server that lets AI assistants outsource text and image generation tasks to 20+ model providers through a single unified interface.
-  why_it_matters: Developers can let their primary coding assistant delegate work to alternative models (OpenAI, Anthropic, Google, Groq, etc.) without leaving the MCP-compatible client they already use.
-  mental_damage: "We have finally shipped the architectural pinnacle of 2025: an AI assistant that hires other AI assistants, so your AI assistant can be as confused as you are but with more API keys."
+  summary: An MCP server that lets AI assistants delegate tasks to 20+ model providers via a unified interface.
+  why_it_matters: Developers can give their AI assistants access to multiple model providers for text and image generation without switching contexts or rewriting integrations.
+  mental_damage: Now your AI assistant can outsource its outsourcing, and you’ll spend the afternoon configuring API keys for tools you didn’t know you needed.
   tags:
     - mcp
     - multi-provider
     - model-abstraction
-    - agent-integration
+    - agent-tooling
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is exposing multi-provider model access via the Model Context Protocol, making it a clean fit for MCP Servers & Tooling.
+  reason: "MCP is the product identity: it is a server that exposes model provider capabilities through the Model Context Protocol."
   evidence:
-    - "Repo description states: 'Give your AI assistant its own AI assistants' and the README confirms it is 'An MCP (Model Context Protocol) server'."
-    - Compatible with Claude Desktop, Cline, and other MCP-enabled applications, with explicit MCP client configuration examples.
-    - Listed in awesome-mcp-servers under Server Implementations > Code Execution, reinforcing its MCP infrastructure identity.
+    - Repo description explicitly states it is an MCP server for outsourcing tasks to model providers
+    - README confirms it is built with FastMCP and exposes tools like outsource_text and outsource_image
+    - Already listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:38.463Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e6cc844e7c9269498c7213fc822f93f0d9fdea022dd2b7a85b7db93b1997591f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: it is a server that exposes model provider capabilities through the Model Context Protocol."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for outsourcing tasks to model providers
+        - README confirms it is built with FastMCP and exposes tools like outsource_text and outsource_image
+        - Already listed in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server exposing provider capabilities, not a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

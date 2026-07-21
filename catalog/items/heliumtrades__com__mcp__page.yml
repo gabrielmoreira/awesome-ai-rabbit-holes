@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server that exposes real-time news, media bias analysis, live market data, and meme intelligence to AI clients like Cursor, Claude Desktop, and Windsurf.
-  why_it_matters: It lets coding assistants query live financial and cultural context directly, removing the need to paste current market data or news articles into the chat window.
-  mental_damage: Your AI assistant can now tell you the exact sentiment of CNN and Fox News coverage on tariffs while simultaneously pricing your short volatility plays, because apparently we needed LLMs to YOLO options with meme-aware bias scores.
+  summary: An MCP server providing evidence-linked news bias analysis, market data, and narrative signal tracking for AI assistants like Cursor or Claude.
+  why_it_matters: Developers can integrate structured, citable news and market data directly into their AI workflows without manual copy-pasting.
+  mental_damage: Now your AI can argue with you about financial news using the same cherry-picked quotes you’d use yourself.
   tags:
-    - mcp
+    - mcp-server
+    - news-bias
     - market-data
-    - news
-    - finance
-    - helium
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing domain-specific tools (news, bias, market data, memes) to MCP-compatible AI clients, fitting the MCP Servers & Tooling category as a domain server.
+  reason: The product is explicitly an MCP server offering domain-specific tools (news, market data, bias analysis) as its primary identity.
   evidence:
-    - Scraped site title identifies it as 'Helium MCP Server | AI-Powered Market & News Intelligence'.
-    - Setup instructions are provided specifically for Cursor, Claude Desktop, and Windsurf MCP configurations.
-    - Listed in awesome-ai-coding-tools under the 'MCP Servers and Directories' section.
+    - Page title and description explicitly market it as an MCP server for Cursor/Claude
+    - Provides MCP config snippets and REST endpoints for integration
+    - Core functionality is domain-specific data tools (news bias, market forecasts, meme tracking)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -70,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:29.996Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2741d12b66165ec1589fe5c479a825109b868bdf1adcaabfd45bce8cfa51e7b0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server offering domain-specific tools (news, market data, bias analysis) as its primary identity.
+      decision_evidence:
+        - Page title and description explicitly market it as an MCP server for Cursor/Claude
+        - Provides MCP config snippets and REST endpoints for integration
+        - Core functionality is domain-specific data tools (news bias, market forecasts, meme tracking)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

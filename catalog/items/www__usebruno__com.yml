@@ -37,23 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Bruno is a local, Git-native API client for REST, GraphQL, gRPC, and WebSocket APIs that stores collections as plain text files in your repository.
-  why_it_matters: It gives developers a Postman alternative that integrates seamlessly with existing Git workflows and IDEs without forcing cloud sync or账号 creation.
-  mental_damage: Another devtool bravely fighting the good fight against 'platformization', while we wait for the first AI agent to accidentally `git push` our API secrets to a public repo.
+  summary: Bruno is a Git-native, local-first API client for REST, GraphQL, gRPC, and WebSocket that stores collections as plain-text files in your repository.
+  why_it_matters: Developers can version-control, diff, and collaborate on API collections using Git, eliminating cloud lock-in and enabling seamless integration with IDEs and agents.
+  mental_damage: Finally, an API client that treats your workflow like a first-class citizen instead of a subscription feature.
   tags:
     - api-client
     - git-native
     - local-first
     - open-source
-    - postman-alternative
+    - developer-tools
   confidence: high
 curation:
   status: excluded
-  reason: Bruno is a traditional API testing client, not an AI tool, agent, or AI developer infrastructure, despite being listed in an MCP servers collection.
+  reason: Bruno is an API client tool, not an AI-native developer tool, and does not fit the catalog's scope of AI workflows, agents, or adjacent developer-facing AI infrastructure.
   evidence:
-    - Scraped site describes it as 'The Git-native API client' with no mention of AI, agents, or model integration.
-    - Source list context cites it as a Postman alternative for REST/GraphQL/gRPC, not as an active MCP server implementation.
-    - No AI-related features, prompts, or model workflows are described in the site excerpt.
+    - Primary product identity is an API client (REST/GraphQL/gRPC/WebSocket) with Git-native storage
+    - No AI-specific functionality or integration mentioned as core to the product
+    - Focus is on replacing Postman/Insomnia with a developer-first, local workflow
 placement:
   primary_category: null
   section: null
@@ -71,12 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:27.048Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2cace0a35bb6b7681114618b5706fa2c14002138d694e6f809352b6cfc97fbfe
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Bruno is an API client tool, not an AI-native developer tool, and does not fit the catalog's scope of AI workflows, agents, or adjacent developer-facing AI infrastructure.
+      decision_evidence:
+        - Primary product identity is an API client (REST/GraphQL/gRPC/WebSocket) with Git-native storage
+        - No AI-specific functionality or integration mentioned as core to the product
+        - Focus is on replacing Postman/Insomnia with a developer-first, local workflow
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

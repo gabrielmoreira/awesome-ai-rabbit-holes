@@ -1,0 +1,108 @@
+id: teradata__com
+kind: website
+name: Teradata
+canonical_url: https://teradata.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__teradata__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Teradata
+        extracted_url: https://teradata.com
+        surrounding_text: "- **[Teradata](https://github.com/Teradata/teradata-mcp-server)** - A collection of tools for managing the platform, addressing data quality and reading and writing to [Teradata](https://www.teradata.com/) Database."
+        confidence: high
+    - id: discovery__www__teradata__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Teradata
+        extracted_url: https://www.teradata.com
+        surrounding_text: "- **[Teradata](https://github.com/Teradata/teradata-mcp-server)** - A collection of tools for managing the platform, addressing data quality and reading and writing to [Teradata](https://www.teradata.com/) Database."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Teradata is a data analytics and cloud data platform company.
+  why_it_matters: It does not provide developer-facing AI tooling, coding agents, or adjacent infrastructure for software developers.
+  mental_damage: Another enterprise data platform pretending the AI wave is just a new coat of paint.
+  tags:
+    - enterprise
+    - data-platform
+    - non-developer-tooling
+  confidence: high
+curation:
+  status: excluded
+  reason: Teradata is a general data analytics platform with no clear developer-tooling angle, AI coding assistance, or adjacent infrastructure for software developers.
+  evidence:
+    - URL points to Teradata's corporate site, not a developer tool
+    - No repo description, README, or developer-focused claims provided
+    - Source-list context only mentions it in an MCP servers list, but Teradata itself is not an MCP-first product
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:37:50.016Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2112b85191880398aabdd9fc7c77b142591e51c0cd2be173e858024adb108136
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Teradata is a general data analytics platform with no clear developer-tooling angle, AI coding assistance, or adjacent infrastructure for software developers.
+      decision_evidence:
+        - URL points to Teradata's corporate site, not a developer tool
+        - No repo description, README, or developer-focused claims provided
+        - Source-list context only mentions it in an MCP servers list, but Teradata itself is not an MCP-first product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.971Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

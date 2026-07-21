@@ -48,26 +48,25 @@ metadata:
       fetched_at: "2026-07-20T15:11:33.645Z"
       bytes: 5354
 insights:
-  summary: Keras is a high-level, multi-backend deep learning framework for building and training neural networks on top of JAX, TensorFlow, PyTorch, and OpenVINO.
-  why_it_matters: It allows developers to write models once and deploy them across different backends, avoiding framework lock-in while leveraging specific performance benefits like JAX acceleration.
-  mental_damage: Now you can port your models across three different frameworks just to discover that your training pipeline is still bottlenecked by your own data loading logic.
+  summary: Keras 3 is a multi-backend deep learning framework for building and training models with support for JAX, TensorFlow, PyTorch, and OpenVINO.
+  why_it_matters: It enables developers to write high-level, backend-agnostic deep learning code that can scale from local laptops to large GPU/TPU clusters.
+  mental_damage: Finally, a framework that lets you switch backends like you switch tabs—just don’t ask which one is actually fastest today.
   tags:
     - deep-learning
     - multi-backend
-    - neural-networks
     - python
-    - ml-framework
+    - framework
   confidence: high
 curation:
-  status: excluded
-  reason: Keras is a general deep learning and ML framework, which falls outside the catalog's strict scope of AI developer tooling like coding agents, IDEs, and prompt engineering infrastructure.
+  status: included
+  reason: Keras 3 is a code-first deep learning framework/SDK, not a coding assistant, IDE, or orchestration platform.
   evidence:
-    - Repo description is 'Deep Learning for humans', targeting ML engineers rather than software developers building AI apps.
-    - README focuses on model training, computer vision, NLP, and backend compatibility (JAX, TF, PyTorch), not coding assistance or agent workflows.
-    - Found in Awesome-LLMOps under 'Training > Frameworks for Training', which is a general ML ops category rather than specific AI dev tooling.
+    - "Repo description: 'Deep Learning for humans'"
+    - "README: 'Keras 3 is a multi-backend deep learning framework' with backend support for JAX, TensorFlow, PyTorch"
+    - "Source-list context: Listed under 'Training > Frameworks for Training' in Awesome-LLMOps"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (64060) exceeded threshold (150)
@@ -83,12 +82,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:18.449Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e4d3d3223c2df02a0eb681f766be6e41ed64a97774765bebd22091e91edebf63
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: Keras 3 is a code-first deep learning framework/SDK, not a coding assistant, IDE, or orchestration platform.
+      decision_evidence:
+        - "Repo description: 'Deep Learning for humans'"
+        - "README: 'Keras 3 is a multi-backend deep learning framework' with backend support for JAX, TensorFlow, PyTorch"
+        - "Source-list context: Listed under 'Training > Frameworks for Training' in Awesome-LLMOps"
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because Keras 3 is a library for building models in code, not a workbench or control plane for coordinating agents.
+      review_reason: null
+      review_resume_lifecycle: null

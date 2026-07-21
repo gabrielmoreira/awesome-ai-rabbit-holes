@@ -46,15 +46,15 @@ metadata:
       fetched_at: "2026-07-20T05:17:10.260Z"
       bytes: 11078
 insights:
-  summary: A structural RAG system that analyzes large codebases to build a living knowledge graph in Neo4j and ChromaDB, exposing this context via an MCP server for AI agents.
-  why_it_matters: It solves AI context blindness by automating the extraction of architectural relationships, allowing agents to navigate complex codebases without manual prompt stuffing.
-  mental_damage: We have successfully built a graph database whose only job is to remind the AI that the codebase it is looking at is, in fact, the same codebase it keeps forgetting.
+  summary: Structural RAG system that transforms large codebases into a living knowledge graph for AI agent context.
+  why_it_matters: Solves AI context blindness in large codebases by providing precise, graph-based code understanding for LLMs.
+  mental_damage: Finally, a way to make your AI understand your legacy codebase without you having to explain it line by line.
   tags:
     - rag
-    - mcp
+    - codebase-indexing
     - knowledge-graph
+    - mcp
     - context-engineering
-    - codebase-analysis
   confidence: high
 curation:
   status: included
@@ -65,10 +65,10 @@ curation:
     - README details a Docker setup for 'scaffold-mcp' that ingests code into Neo4j and ChromaDB to inject context into agents.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
 processing:
   discover:
     status: done
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:37.212Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4ef348405cae498dba93a54061a9f5219d6ac8a31bc1873cadaf9469cfbd7196
+      proposed_primary_category: context-engineering
+      disagreement: true
+      decision_reason: Core novelty is the structural RAG system for codebases, which is a context engineering solution rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'Structural RAG system for large codebases'"
+        - "README: 'transforms your source code into a living knowledge graph stored in a graph database'"
+        - Topics include 'graph-rag', 'large-codebase', 'llm', 'rag'
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the primary identity is the RAG system for codebases, not MCP infrastructure (MCP is just one integration).
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      review_resume_lifecycle: null

@@ -53,22 +53,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:44.644Z"
       bytes: 3652
 insights:
-  summary: A guided, multi-chapter tutorial and best-practices repository for scaling PyTorch LLM training scripts from a single GPU to multi-node distributed clusters using DDP, FSDP, and tensor parallelism.
-  why_it_matters: It provides developers with runnable, incremental examples to debug cluster errors and scale training jobs across GPUs and nodes without hiding the complexity behind high-level frameworks.
-  mental_damage: Another heroic documentation effort to help us pretend that manually sharding a 405b model across a Slurm cluster is a normal way for a software developer to spend a Tuesday.
+  summary: A guide and best practices for writing distributed PyTorch training code.
+  why_it_matters: Helps developers optimize and scale PyTorch training across GPU clusters with practical patterns for sharding, FSDP, and NCCL.
+  mental_damage: Because nothing says 'fun' like debugging MPI hangs in a 64-GPU job at 3 AM.
   tags:
-    - distributed-training
     - pytorch
-    - llm-training
-    - gpu-cluster
+    - distributed-training
+    - gpu
+    - deepspeed
+    - fsdp
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational guide and documentation resource for ML infrastructure, not a developer-facing AI tool, agent, workflow, or product.
+  reason: This is a documentation/guide resource rather than a standalone developer tool, framework, or product.
   evidence:
-    - Repo description explicitly defines it as 'Best practices & guides on how to write distributed pytorch training code'.
-    - README describes a sequential chapter book with train_llm.py scripts, not a runnable tool or product.
-    - Seen in awesome-LLM-resources under 'Tips', confirming its identity as a learning resource rather than a dev tool.
+    - Repo description explicitly states it is a 'guide' and 'best practices'
+    - Topics focus on educational content (e.g., sharding, FSDP, NCCL) rather than a usable tool
+    - Source-list context places it under 'Tips' (技巧) in an LLM resource summary
 placement:
   primary_category: null
   section: null
@@ -87,12 +88,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:34.909Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bee87b99e7fc3520dc2209238cd76d95c859c83a2c5a4dfedd82da6d81ff79e3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation/guide resource rather than a standalone developer tool, framework, or product.
+      decision_evidence:
+        - Repo description explicitly states it is a 'guide' and 'best practices'
+        - Topics focus on educational content (e.g., sharding, FSDP, NCCL) rather than a usable tool
+        - Source-list context places it under 'Tips' (技巧) in an LLM resource summary
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

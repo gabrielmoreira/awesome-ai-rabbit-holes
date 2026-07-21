@@ -61,22 +61,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:32.684Z"
       bytes: 22356
 insights:
-  summary: An open-source MCP server that exposes Keboola data platform features—including storage, SQL transformations, and job triggers—as callable tools for AI assistants like Claude and Cursor.
-  why_it_matters: It allows developers to query tables, run transformations, and manage data pipelines directly from their AI coding environment without writing glue code.
-  mental_damage: Another day, another layer of abstraction where your data platform now needs an OAuth handshake just so your chatbot can trigger a SQL job that used to take one CLI command.
+  summary: An MCP server that connects AI agents and MCP clients to the Keboola data platform, exposing storage, SQL, jobs, and workflows as callable tools.
+  why_it_matters: Developers can integrate Keboola's data pipeline capabilities directly into their AI workflows without writing glue code, enabling natural language access to data transformations and job execution.
+  mental_damage: Now your AI assistant can trigger ETL jobs while you pretend to understand the data lineage.
   tags:
-    - mcp
+    - mcp-server
     - data-platform
+    - etl
     - keboola
-    - integration
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server implementation for a specific domain (Keboola), fitting cleanly under MCP Servers & Tooling.
+  reason: The product is explicitly an MCP server implementation for the Keboola platform, making MCP its primary identity.
   evidence:
-    - Repo description explicitly states 'Model Context Protocol (MCP) Server for the Keboola Platform'.
-    - README introduces it as a bridge that 'turns Keboola features into callable tools for Claude, Cursor, CrewAI, LangChain...'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'.
+    - Repo description states it is an MCP Server for the Keboola Platform
+    - README explicitly positions it as a bridge between Keboola and MCP clients
+    - Listed in awesome-mcp-servers under Server Implementations > Data Platforms
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -95,12 +96,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:04.831Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e03db8ede1d59332516969a4f11c4cfd4a9a4a4f1a7156c145a43acbc29625ec
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server implementation for the Keboola platform, making MCP its primary identity.
+      decision_evidence:
+        - Repo description states it is an MCP Server for the Keboola Platform
+        - README explicitly positions it as a bridge between Keboola and MCP clients
+        - Listed in awesome-mcp-servers under Server Implementations > Data Platforms
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

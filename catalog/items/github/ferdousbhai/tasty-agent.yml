@@ -61,23 +61,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:00.969Z"
       bytes: 6465
 insights:
-  summary: An MCP server that connects LLMs to TastyTrade brokerage accounts to monitor portfolios, analyze options, and execute trades.
-  why_it_matters: It lets developers automate complex options trading workflows and IV analysis by exposing brokerage capabilities directly to their AI coding assistants.
-  mental_damage: Now you can ruin your portfolio in milliseconds with a hallucinating LLM that thinks 'selling naked calls' is a clever sidebar suggestion.
+  summary: An MCP server that enables LLMs to interact with TastyTrade brokerage accounts for portfolio monitoring and trading.
+  why_it_matters: It allows developers to build or use AI agents that can perform real-world financial actions like analyzing Greeks, monitoring positions, and executing trades via the Model Context Protocol.
+  mental_damage: Nothing tests your prompt engineering skills quite like an LLM hallucinating a massive multi-leg options order during a period of high volatility.
   tags:
     - mcp
     - finance
     - trading
-    - tastytrade
-    - options
+    - brokerage
+    - automation
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is a Model Context Protocol server for the finance domain, exposing trading tools to MCP-compatible clients like Claude Desktop.
+  reason: The project's identity is explicitly defined as an MCP server providing specialized financial tools to an LLM host.
   evidence:
-    - "Repo description explicitly states: 'Let Claude manage your tastytrade portfolio.'"
-    - README header identifies it as 'A Model Context Protocol server for TastyTrade brokerage accounts'.
-    - Seen in awesome-mcp-servers under the Finance & Fintech section, confirming domain-server identity.
+    - README describes it as 'A TastyTrade MCP Server'
+    - Provides specific MCP tools for account overview, market data, and order management
+    - Includes instructions for connecting to MCP clients like Claude Desktop
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -96,12 +96,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:55:53.841Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dad42c31f23f7f0989736d0eb21d3600275b16c9ad3ea4e455e49ae8ddb9ac32
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's identity is explicitly defined as an MCP server providing specialized financial tools to an LLM host.
+      decision_evidence:
+        - README describes it as 'A TastyTrade MCP Server'
+        - Provides specific MCP tools for account overview, market data, and order management
+        - Includes instructions for connecting to MCP clients like Claude Desktop
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the MCP server implementation rather than a plugin for a specific existing editor.
+      review_reason: null
+      review_resume_lifecycle: null

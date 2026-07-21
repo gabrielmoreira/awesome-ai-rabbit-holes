@@ -81,22 +81,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: HyperWrite is a SaaS AI writing assistant with a Chrome extension that provides content generation, rewriting, research, and email response tools inside a browser-based document editor.
-  why_it_matters: It offers developers and technical writers a browser-native surface for drafting documentation, emails, and research-heavy content with real-time scholarly search and customizable personas.
-  mental_damage: Yet another reminder that while AI can summarize arXiv papers and draft your outreach emails, your actual codebase remains untouched and quietly judging you.
+  summary: HyperWrite is a browser-based AI writing assistant offering autocomplete, research, and document editing features.
+  why_it_matters: It accelerates content creation and research workflows for non-developers, but offers no direct code editing or developer tooling.
+  mental_damage: Another AI tool promising to make you a better writer while you stare at a blinking cursor in Gmail.
   tags:
-    - ai-writing
-    - browser-tool
-    - chrome-extension
+    - writing-assistant
+    - browser-extension
     - content-generation
+    - research-tools
   confidence: high
 curation:
   status: excluded
-  reason: HyperWrite is a general-purpose AI writing assistant for content creation, email, and research, with no meaningful developer-tooling, coding-agent, or infrastructure angle for this catalog.
+  reason: The product is a general-purpose AI writing assistant with no developer-tooling angle, code editing, or repo workflow integration.
   evidence:
-    - Site describes itself as 'AI writing assistant' focused on content generation, rewriting, research, speeches, and email responses.
-    - Chrome extension is positioned for Gmail, Docs, and general web writing rather than IDE, terminal, or repo workflows.
-    - Listed in awesome-ai-agents and awesome-local-ai, but those placements reflect broad 'AI assistant' definitions, not developer-tooling fit.
+    - Site description focuses on writing, research, and document editing
+    - Features include autocomplete, web search, and citations for text generation
+    - No mention of code editing, debugging, or developer workflows
 placement:
   primary_category: null
   section: null
@@ -105,15 +105,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:35:05.569Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:45d37f4acb44158cdbd27e0d1ebd505f8e419c0e3b520688d26e63db90b63b47
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a general-purpose AI writing assistant with no developer-tooling angle, code editing, or repo workflow integration.
+      decision_evidence:
+        - Site description focuses on writing, research, and document editing
+        - Features include autocomplete, web search, and citations for text generation
+        - No mention of code editing, debugging, or developer workflows
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T15:10:47.687Z"

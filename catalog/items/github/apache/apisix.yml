@@ -71,23 +71,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:01.809Z"
       bytes: 18906
 insights:
-  summary: Apache APISIX is a cloud-native API and AI gateway that proxies, load balances, and secures LLM traffic, with an `mcp-bridge` plugin to convert stdio-based MCP servers into HTTP SSE services.
-  why_it_matters: It provides the infrastructure layer to manage, scale, and secure AI agent traffic and MCP server endpoints without reinventing gateway logic.
-  mental_damage: You now have a production-grade distributed gateway dedicated to ensuring your MCP server bridge doesn't become the next single point of failure in an already fragile agent stack.
+  summary: Apache APISIX is a cloud-native API gateway that also functions as an AI Gateway with plugin support for LLM load balancing, proxying, and MCP server bridging.
+  why_it_matters: It provides developers with a scalable, plugin-driven way to manage AI traffic alongside traditional API routing, including MCP server compatibility via its mcp-bridge plugin.
+  mental_damage: Now your API gateway can also be your AI gateway, because why have one abstraction layer when you can have two.
   tags:
     - api-gateway
     - ai-gateway
-    - mcp
-    - infrastructure
-    - llm-proxy
+    - mcp-bridge
+    - load-balancing
+    - kubernetes
   confidence: high
 curation:
   status: excluded
-  reason: APISIX is a general-purpose API and AI gateway; its core identity is infrastructure plumbing, and MCP support is only a plugin, making it a poor fit for a developer-tooling catalog focused on coding agents, extensions, and AI workflows.
+  reason: While it includes AI Gateway and MCP bridging capabilities, its primary identity is a cloud-native API gateway, not a developer-facing AI tool or MCP-first infrastructure.
   evidence:
-    - Repo description defines it as 'The Cloud-Native API Gateway and AI Gateway', not a developer coding tool.
-    - README positions MCP via the `mcp-bridge` plugin as a way to expose stdio MCP servers over HTTP SSE, not as the product's primary identity.
-    - Source-list placement in awesome-mcp-servers is noted as a common false positive in the MCP category definition.
+    - Repo description identifies it as 'The Cloud-Native API Gateway and AI Gateway'
+    - README emphasizes API gateway features (load balancing, upstream management) as core, with AI Gateway as a secondary use case
+    - MCP support is via a plugin (mcp-bridge) rather than being the product's primary identity
 placement:
   primary_category: null
   section: null
@@ -106,12 +106,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:25.555Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b5d5d2be247ca99719334eabf5e74324b9852d68dd9fc270ef9296c294be7443
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: While it includes AI Gateway and MCP bridging capabilities, its primary identity is a cloud-native API gateway, not a developer-facing AI tool or MCP-first infrastructure.
+      decision_evidence:
+        - Repo description identifies it as 'The Cloud-Native API Gateway and AI Gateway'
+        - README emphasizes API gateway features (load balancing, upstream management) as core, with AI Gateway as a secondary use case
+        - MCP support is via a plugin (mcp-bridge) rather than being the product's primary identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -51,23 +51,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:19.256Z"
       bytes: 13159
 insights:
-  summary: A Model Context Protocol server that provides Google News search via SerpAPI, with automatic categorization and multi-language support for AI assistants.
-  why_it_matters: Developers wiring AI assistants into news-driven workflows can plug in structured, categorized news search without building their own SerpAPI integration.
-  mental_damage: We've reached the point where an AI assistant needs a dedicated protocol server just to tell you what's happening in the world, completely bypassing your own ability to open a browser.
+  summary: An MCP server that provides Google News search capabilities via SerpAPI with automatic categorization and multi-language support.
+  why_it_matters: Developers can integrate live news search and categorization into their MCP-enabled workflows, enabling AI assistants to fetch and process current news data.
+  mental_damage: Now your AI can tell you the news is bad before you even open your browser.
   tags:
-    - mcp
+    - mcp-server
     - news-search
     - serpapi
     - typescript
-    - integration
+    - google-news
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server providing Google News search capabilities, which fits squarely into the MCP Servers & Tooling category as a domain-specific server.
+  reason: This is a dedicated MCP server whose primary identity is providing Google News search via MCP, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'Model Context Protocol (MCP) server implementation providing Google News search capabilities'
-    - README confirms 'A Model Context Protocol (MCP) server implementation' with Claude Desktop configuration examples
-    - Listed in awesome-mcp-servers under 'Community Servers' section, aligning with its MCP-first identity
+    - Repo description explicitly states it is an MCP server implementation for Google News search
+    - README confirms it is a Model Context Protocol server with SerpAPI integration
+    - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -86,12 +86,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:16.425Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4ea249b26b35e2f80faa9f5d6e27bda2f50e252277a94ccac4c0aadf4813ac3f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is providing Google News search via MCP, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server implementation for Google News search
+        - README confirms it is a Model Context Protocol server with SerpAPI integration
+        - Listed in awesome-mcp-servers under Community Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

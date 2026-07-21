@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:07.110Z"
       bytes: 9823
 insights:
-  summary: An MCP server that exposes Solana token risk scoring, momentum signals, wallet analysis, and AI trading intelligence as tools for AI assistants and autonomous agents.
-  why_it_matters: Developers building crypto-native agents can delegate on-chain risk assessment and live trading signals to their assistant without wiring custom Solana RPC calls.
-  mental_damage: You can now ask your coding assistant to check if a token is a rug while it is busy debugging your CI pipeline, because focus is overrated.
+  summary: MCP server providing Solana token risk scoring, momentum signals, wallet analysis, and live AI trading intelligence for AI assistants and autonomous agents.
+  why_it_matters: Developers building AI agents for crypto trading or Solana analysis can integrate real-time on-chain risk and momentum data directly into their workflows via MCP.
+  mental_damage: Now your AI agent can also lose money on Solana memecoins, but with better data.
   tags:
     - mcp
     - solana
     - crypto
-    - agent-tools
     - trading
+    - risk-scoring
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server offering crypto analysis tools for AI assistants, which fits cleanly as a domain-specific MCP server rather than a general framework or extension.
+  reason: This is an MCP-first server exposing domain-specific tools (Solana token analysis) for AI assistants, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for Solana token risk scoring and momentum signals'.
-    - README positions it as 'exposed as MCP tools for AI assistants and autonomous agents' with Claude Desktop / Cursor / Windsurf configs.
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its identity as an MCP server.
+    - Repo description explicitly identifies it as an MCP server for Solana token risk scoring and momentum signals
+    - README details MCP tool endpoints, installation via Claude Desktop/Cursor/Windsurf, and Smithery one-click install
+    - Already listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:33.556Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:05c1517fa995c4414358d48f6a8658c1af46427be1117aaf3a1bfde552ce3343
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server exposing domain-specific tools (Solana token analysis) for AI assistants, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for Solana token risk scoring and momentum signals
+        - README details MCP tool endpoints, installation via Claude Desktop/Cursor/Windsurf, and Smithery one-click install
+        - Already listed in awesome-mcp-servers under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

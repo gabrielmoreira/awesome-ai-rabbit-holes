@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:50.945Z"
       bytes: 4856
 insights:
-  summary: An MCP server that exposes the Quran.com API endpoints for verse search, translation, and tafsir to LLM clients like Claude Desktop.
-  why_it_matters: It lets developers and users query structured Quranic text, translations, and exegesis directly from their AI assistant via the Model Context Protocol.
-  mental_damage: We have finally reached the point where the Islamic corpus has its own MCP server before half of your internal company APIs do.
+  summary: An MCP server that integrates the Quran.com API for verse search, translation, and tafsir access.
+  why_it_matters: Developers can expose Quranic text and interpretations as tools for AI assistants via the Model Context Protocol.
+  mental_damage: Now your coding agent can recite Surah Al-Fatiha between compiling and deploying.
   tags:
-    - mcp
-    - quran
-    - api
-    - llm-integration
+    - mcp-server
+    - quran-api
+    - religious-texts
+    - model-context-protocol
   confidence: high
 curation:
   status: included
-  reason: The project is a purpose-built MCP server exposing a specific domain API, fitting clearly into the MCP Servers & Tooling category under Domain Servers.
+  reason: This is a domain-specific MCP server whose primary identity is providing Quran.com API access via MCP.
   evidence:
-    - Repo description explicitly states 'Quran.com API integration...' as an MCP server.
-    - README confirms it is 'MCP server to interact with Quran.com corpus' generated from OpenAPI spec.
-    - Listed in awesome-mcp-servers under 'Art & Culture' domain servers section.
+    - Repo description explicitly states it is a Quran.com API integration for MCP
+    - README details endpoints exposed as MCP tools for LLMs
+    - Listed in awesome-mcp-servers under Art & Culture
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:15.440Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:83efc8edae1e6925c6e5c751c74183ef574bbabc59c319f3bc1ef7f63f004cb8
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a domain-specific MCP server whose primary identity is providing Quran.com API access via MCP.
+      decision_evidence:
+        - Repo description explicitly states it is a Quran.com API integration for MCP
+        - README details endpoints exposed as MCP tools for LLMs
+        - Listed in awesome-mcp-servers under Art & Culture
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

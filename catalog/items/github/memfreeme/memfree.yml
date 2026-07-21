@@ -69,23 +69,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:19.828Z"
       bytes: 9915
 insights:
-  summary: MemFree is a hybrid AI search engine and AI page generator that creates React + Tailwind + Shadcn UI pages from prompts, text, or images and searches across bookmarks, local files, and the web.
-  why_it_matters: It combines instant AI search across your personal knowledge base and the internet with one-click generation of production-ready UI pages, reducing the need to switch between multiple AI subscriptions and front-end scaffolding tools.
-  mental_damage: Yet another product promising to replace your ChatGPT Plus, Claude Pro, and Gemini Advanced subscriptions while quietly adding another tab you’ll forget to open between your five other AI assistants.
+  summary: MemFree is a hybrid AI search engine and AI page generator that enables searching knowledge bases and the web while generating React-based UI pages from prompts.
+  why_it_matters: It consolidates AI search and UI generation into one workflow, reducing context-switching for developers building internal tools or prototypes.
+  mental_damage: Another tool promising to replace both your search bar and your frontend boilerplate, just in case you were tired of having opinions.
   tags:
     - ai-search
-    - page-generator
-    - react
-    - shadcn-ui
-    - vector-search
-  confidence: medium
+    - ui-generator
+    - hybrid-ai
+  confidence: high
 curation:
   status: included
-  reason: The primary product surfaces are prompt-to-site/page generation with React + Tailwind + Shadcn UI and hybrid AI search over personal and web content, which fits prompt-to-site and knowledge-retrieval tooling for developers building UIs.
+  reason: MemFree's core value is turning prompts into deployable UI pages using React/Tailwind/Shadcn, making it a prompt-to-site builder rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'MemFree - Hybrid AI Search Engine & AI Page Generator' (prompt-to-page + search identity)."
-    - "README: 'generate production-ready UI pages for you in seconds' using React + Tailwind + Shadcn UI, with one-click publishing."
-    - "Active repo: created 2024-06-15, pushed 2025-08-08, 1497 stars, not archived."
+    - "README states: 'Memfree uses the most powerful AI model - Claude 3.5 Sonnet and the most popular front-end framework - React + Tailwind + Shadcn UI to generate production-ready UI pages for you in seconds.'"
+    - "Repo description: 'MemFree - Hybrid AI Search Engine & AI Page Generator'"
+    - Features include 'File-to-Page Generation', 'One-Click UI Publishing', and 'Real-Time UI Preview' focused on generating apps from prompts.
 placement:
   primary_category: app-builders
   section: Prompt-to-Site Builders
@@ -104,12 +102,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:19:46.892Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:aae2da98bb29243dd4fb9f1c6a7166f6bc243558c4e20c61c753ffd809c49edd
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: MemFree's core value is turning prompts into deployable UI pages using React/Tailwind/Shadcn, making it a prompt-to-site builder rather than a coding agent or extension.
+      decision_evidence:
+        - "README states: 'Memfree uses the most powerful AI model - Claude 3.5 Sonnet and the most popular front-end framework - React + Tailwind + Shadcn UI to generate production-ready UI pages for you in seconds.'"
+        - "Repo description: 'MemFree - Hybrid AI Search Engine & AI Page Generator'"
+        - Features include 'File-to-Page Generation', 'One-Click UI Publishing', and 'Real-Time UI Preview' focused on generating apps from prompts.
+      category_candidates:
+        - app-builders
+        - ai-dev-extensions
+      contrastive_reason: Choose app-builders over ai-dev-extensions because MemFree's primary function is generating new UIs from prompts rather than augmenting another coding assistant with integrations or workflow enhancements.
+      review_reason: null
+      review_resume_lifecycle: null

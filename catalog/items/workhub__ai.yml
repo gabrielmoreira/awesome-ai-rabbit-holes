@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A no-code platform for building and deploying AI chat, voice, and email agents focused on automating customer support workflows.
-  why_it_matters: It provides a self-serve way to automate 24/7 support across multiple channels without requiring engineering resources to build or maintain the agents.
-  mental_damage: Yet another 'no-code AI agent' platform promising to replace your support team, ensuring that the only thing getting automated is the developer's sense of job security.
+  summary: A no-code AI chatbot platform for automating customer support across chat, voice, and email channels.
+  why_it_matters: It reduces operational costs and response times for customer support teams by automating repetitive tasks like FAQs, order tracking, and appointment bookings.
+  mental_damage: Another SaaS promising to replace your support team with a bot that somehow knows your CRM better than you do.
   tags:
-    - no-code
     - customer-support
-    - chatbot
-    - voice-agent
+    - no-code
+    - ai-chatbot
+    - automation
   confidence: high
 curation:
   status: excluded
-  reason: This is a no-code SaaS platform for business users to automate customer support, not a developer-facing tool, coding agent, or engineering infrastructure.
+  reason: This is a business-facing customer support automation tool, not a developer-tooling product.
   evidence:
-    - Primary excerpt describes 'no-code chatbot platform' and 'no technical expertise required' for building support agents.
-    - "Use cases are entirely business-facing: booking appointments, order tracking, lead qualification, and FAQ automation."
-    - Appears in awesome-ai-agents under 'WorkBot', but the product itself is a vertical SaaS for customer support, not a developer tool.
+    - Primary product is a no-code AI chatbot for customer support (chat, voice, email)
+    - Target audience is support managers, marketers, and SMBs, not software developers
+    - Source-list context places it in 'WorkBot' section of an AI agents list for customer support
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:13.935Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c43b012ccfbffe38dd97acd397f3ecdd30c515ddf877bacbf170954319549ec7
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a business-facing customer support automation tool, not a developer-tooling product.
+      decision_evidence:
+        - Primary product is a no-code AI chatbot for customer support (chat, voice, email)
+        - Target audience is support managers, marketers, and SMBs, not software developers
+        - Source-list context places it in 'WorkBot' section of an AI agents list for customer support
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

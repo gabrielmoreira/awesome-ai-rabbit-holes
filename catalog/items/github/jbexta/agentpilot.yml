@@ -57,22 +57,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:21.626Z"
       bytes: 9113
 insights:
-  summary: A desktop workflow automation platform and GUI for designing, organizing, and executing AI-driven tasks, from single LLM chats to complex multi-member workflows.
-  why_it_matters: It provides a visual, hierarchical interface for developers to build and schedule multi-agent workflows without writing a full orchestration framework from scratch.
-  mental_damage: "Just what the world needed: another desktop GUI to manage the 'complex AI-driven tasks' that we invented to avoid doing the actual work in the first place."
+  summary: A desktop workflow automation platform for creating, organizing, and executing AI-driven workflows, from single LLM chats to complex multi-agent tasks.
+  why_it_matters: It lets developers design and run scheduled, branching AI workflows with a customizable UI, bridging the gap between ad-hoc LLM interactions and repeatable automation.
+  mental_damage: Finally, a way to turn your chaotic LLM experiments into something that looks like a production pipeline—until you realize you’re now debugging YAML configs for your AI agents.
   tags:
     - workflow-automation
     - multi-agent
     - desktop-app
+    - scheduling
     - gui
   confidence: high
 curation:
   status: included
-  reason: It is a workbench and control surface for designing and executing multi-agent workflows, fitting the orchestration category better than a single coding agent.
+  reason: The core product is a workbench for coordinating multi-agent workflows, not a primary coding assistant, framework, or extension.
   evidence:
-    - Repo description explicitly calls it a 'versatile workflow automation platform to create, organize, and execute AI workflows'.
-    - README highlights 'multi-member workflow' design, branching chats, and scheduled/recurring workflows.
-    - Listed in awesome-ai-agents under a section for autonomous agents, confirming its identity as a workflow engine.
+    - "Repo description: 'A versatile workflow automation platform to create, organize, and execute AI workflows, from a single LLM to complex AI-driven workflows.'"
+    - "README: 'Create, organize, and execute complex AI-driven tasks' with 'multi-member workflow' and 'scheduled and recurring workflows' support."
+    - "Source-list context: Listed in awesome-ai-agents under AgentPilot, signaling recognition as an agent orchestration tool."
 placement:
   primary_category: agent-orchestration
   section: Workbenches & Collaboration Surfaces
@@ -91,12 +92,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:18.200Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0cc30b72d80932e3b3b4f00767e5cb613dd36320c678a65f7a38c386ace59d15
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The core product is a workbench for coordinating multi-agent workflows, not a primary coding assistant, framework, or extension.
+      decision_evidence:
+        - "Repo description: 'A versatile workflow automation platform to create, organize, and execute AI workflows, from a single LLM to complex AI-driven workflows.'"
+        - "README: 'Create, organize, and execute complex AI-driven tasks' with 'multi-member workflow' and 'scheduled and recurring workflows' support."
+        - "Source-list context: Listed in awesome-ai-agents under AgentPilot, signaling recognition as an agent orchestration tool."
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated workbench for workflows, not a code-first library or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

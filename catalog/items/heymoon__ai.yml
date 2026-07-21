@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Heymoon.ai is an AI autonomous agent included in the awesome-ai-agents directory.
-  why_it_matters: It represents another entry in the growing ecosystem of autonomous agents that developers are evaluating for delegation of coding and task workflows.
-  mental_damage: Yet another autonomous agent joins the pile, ensuring you can spend your afternoon comparing it to the other forty-seven agents that all promise to revolutionize your repo.
+  summary: Heymoon.ai is a platform for creating and coordinating AI agents.
+  why_it_matters: It enables developers to build and manage autonomous agents for workflow automation.
+  mental_damage: Because nothing says 'automation' like needing to automate the automation.
   tags:
-    - autonomous-agents
-    - agent
-  confidence: low
+    - ai-agents
+    - automation
+    - workflow
+  confidence: medium
 curation:
-  status: excluded
-  reason: The project lacks a usable description, README excerpt, scraped site context, or verifiable metadata, making it impossible to confirm it is a developer-facing tool rather than a generic AI product.
+  status: included
+  reason: The product is a platform for coordinating AI agents, fitting the agent orchestration category.
   evidence:
-    - No repo description, README excerpt, or scraped site context was provided.
-    - All metadata fields (stars, created_at, pushed_at, license, archived) are unknown.
-    - Only signal is a listing in awesome-ai-agents, which is evidence but not destiny without further substance.
+    - Listed in awesome-ai-agents under 'Heymoon.ai'
+    - Described as a platform for AI autonomous agents
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -67,12 +67,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:33.678Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a1fa7786e2b976987d3071fe873c245e5e4e91cc9070ee5989af2a62460f5038
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a platform for coordinating AI agents, fitting the agent orchestration category.
+      decision_evidence:
+        - Listed in awesome-ai-agents under 'Heymoon.ai'
+        - Described as a platform for AI autonomous agents
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated platform for coordinating agents rather than a code-first library.
+      review_reason: null
+      review_resume_lifecycle: null

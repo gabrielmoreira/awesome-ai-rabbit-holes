@@ -56,23 +56,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:01.087Z"
       bytes: 5552
 insights:
-  summary: A public repository from Anthropic containing reusable Agent Skills — self-contained folders with instructions, scripts, and resources that Claude dynamically loads to perform specialized tasks.
-  why_it_matters: It provides the canonical reference implementations and specification for teaching Claude how to handle document editing, testing, brand workflows, and other repeatable developer and enterprise tasks.
-  mental_damage: Because nothing says 'modern software engineering' like version-controlling a folder of markdown incantations and pretending your LLM now has a resumé.
+  summary: Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks.
+  why_it_matters: It enables developers to create reusable, portable skill packs that teach Claude (and other compatible agents) how to handle specific workflows, from document editing to technical automation.
+  mental_damage: Now you can spend hours crafting the perfect SKILL.md file instead of just writing the code.
   tags:
     - agent-skills
     - claude
-    - anthropic
-    - prompt-engineering
     - reusable-skills
+    - workflow-automation
   confidence: high
 curation:
   status: included
-  reason: The repository's primary artifact is a distributed library of reusable skill packs and the Agent Skills specification, making it a canonical fit for the Agent Skills category.
+  reason: The primary artifact is a reusable skill pack/registry for coding tools, fitting the 'Agent Skills' category definition precisely.
   evidence:
-    - "Repo description explicitly states: 'Public repository for Agent Skills'."
-    - README describes the repo as containing skill examples, the Agent Skills specification, and templates for creating custom skills.
-    - Canonical positives for the 'skills' category explicitly list 'anthropics/skills' as a primary example.
+    - Repo description explicitly states it is a 'Public repository for Agent Skills'
+    - README describes skills as 'folders of instructions, scripts, and resources that Claude loads dynamically'
+    - Source-list context includes it in MCP servers list under 'Aggregators' and in LLM resources under 'Skills'
 placement:
   primary_category: skills
   section: Skill Packs & Libraries
@@ -91,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:14.813Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d19a0c74a8fadd64cbfe30afe918b6b182b6a7897df8cf339dfb258a9b1c4dab
+      proposed_primary_category: skills
+      disagreement: false
+      decision_reason: The primary artifact is a reusable skill pack/registry for coding tools, fitting the 'Agent Skills' category definition precisely.
+      decision_evidence:
+        - Repo description explicitly states it is a 'Public repository for Agent Skills'
+        - README describes skills as 'folders of instructions, scripts, and resources that Claude loads dynamically'
+        - Source-list context includes it in MCP servers list under 'Aggregators' and in LLM resources under 'Skills'
+      category_candidates:
+        - skills
+        - context-engineering
+      contrastive_reason: Choose skills over context-engineering because the core value is the portable skill content itself rather than a memory/retrieval system.
+      review_reason: null
+      review_resume_lifecycle: null

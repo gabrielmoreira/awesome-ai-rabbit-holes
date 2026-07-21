@@ -48,23 +48,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:58.492Z"
       bytes: 4191
 insights:
-  summary: Nerve is an Agent Development Kit (ADK) that allows developers to build, run, evaluate, and orchestrate LLM-based agents using declarative YAML configurations and a CLI.
-  why_it_matters: It offers a lightweight, code-first way to define agent workflows, tools, and evaluations with native MCP support, abstracting away boilerplate for technical users.
-  mental_damage: Another day, another 'simple' YAML DSL promising to solve agent orchestration, ensuring you can now debug your prompts and your indentation errors simultaneously.
+  summary: A declarative agent development kit for building, running, and evaluating LLM-based agents using YAML and a CLI.
+  why_it_matters: It provides a structured, programmatic way to define agentic workflows and benchmarks without writing extensive boilerplate code.
+  mental_damage: Because nothing says 'peace of mind' like debugging your agent's logic via a YAML indentation error.
   tags:
-    - adk
-    - yaml
+    - agent-framework
     - mcp
-    - agent-eval
+    - yaml-based
     - cli
+    - evaluation
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived on GitHub, signaling that the project is no longer maintained or accepted into the ecosystem, which outweighs its technically sound ADK feature set.
+  reason: The repository is marked as archived, which is an immediate signal to exclude it from a curated production-ready catalog.
   evidence:
-    - "Repo is marked as 'archived: yes', indicating development has ceased."
-    - Description identifies it as an 'Agent Development Kit' and 'framework' rather than a primary coding agent.
-    - Appears in 'awesome-mcp-servers' under 'Clients', but its ADK identity aligns more with frameworks.
+    - "Archived: yes"
+    - "Last push: 2025-08-23 (note: this date implies a potential future-dated timestamp or inconsistency, but the archived flag is the primary signal)"
 placement:
   primary_category: null
   section: null
@@ -83,12 +82,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:53:59.033Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:295dc58f212c205b277038db6ced7a53861907c430b634c46f65641b1fa436c8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is marked as archived, which is an immediate signal to exclude it from a curated production-ready catalog.
+      decision_evidence:
+        - "Archived: yes"
+        - "Last push: 2025-08-23 (note: this date implies a potential future-dated timestamp or inconsistency, but the archived flag is the primary signal)"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

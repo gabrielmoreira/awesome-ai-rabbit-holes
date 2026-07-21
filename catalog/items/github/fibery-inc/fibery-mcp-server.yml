@@ -39,23 +39,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:01.675Z"
       bytes: 2038
 insights:
-  summary: An MCP server that lets LLM clients like Claude for Desktop query, create, and update entities in a Fibery workspace using natural language.
-  why_it_matters: It turns a structured workspace tool into a conversational interface, allowing developers to manipulate Fibery databases without leaving their AI chat client.
-  mental_damage: You can now orchestrate your productivity anxiety through Claude, trading YAML fatigue for a natural language layer that still requires an API token and a UUID.
+  summary: An MCP server that enables LLMs to interact with Fibery workspaces via natural language.
+  why_it_matters: It allows developers to query, create, and update complex workspace data and database schemas using conversational interfaces within MCP-compliant clients.
+  mental_damage: Because having an LLM with write-access to your entire project management database is exactly the kind of chaotic energy we need in our workflows.
   tags:
     - mcp
     - fibery
-    - integration
-    - llm
-    - database
+    - llm-integration
+    - productivity
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server specifically built to expose Fibery capabilities to MCP-compatible LLM clients.
+  reason: The product is an MCP server designed specifically to provide a domain-specific interface for Fibery.
   evidence:
-    - GitHub repo name is 'fibery-mcp-server' and README confirms it is 'This MCP (Model Context Protocol) server'.
-    - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
-    - Provides tools like list_databases, query_database, and create_entity specifically for Fibery via MCP.
+    - README states it is an MCP server for interacting with Fibery via natural language
+    - Provides specific tools like list_databases and create_entity
+    - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:56:34.707Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:54728214bb7ce1c579ac9af41f42f1d4893a5de5e3887e35787227ecfd8b3320
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server designed specifically to provide a domain-specific interface for Fibery.
+      decision_evidence:
+        - README states it is an MCP server for interacting with Fibery via natural language
+        - Provides specific tools like list_databases and create_entity
+        - Listed in awesome-mcp-servers under Official Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a dedicated MCP server providing protocol-level access rather than a general workspace extension.
+      review_reason: null
+      review_resume_lifecycle: null

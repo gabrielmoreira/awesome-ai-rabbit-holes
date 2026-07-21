@@ -68,26 +68,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:27.101Z"
       bytes: 3831
 insights:
-  summary: AGiXT is a platform for orchestrating AI agents across multiple providers, featuring adaptive memory, 40+ built-in extensions, and workflow automation capabilities via a Python SDK and CLI.
-  why_it_matters: It provides developers with a unified control plane to build and run multi-agent automations that bridge conversational AI with real-world systems like smart homes, crypto trading, and enterprise workflows.
-  mental_damage: Yet another 'central nervous system for your digital environment' that promises AGI while you're still trying to get a single LLM to reliably format JSON.
+  summary: AGiXT is an open-source AI agent automation platform that orchestrates tasks across multiple AI providers with a plugin system and adaptive memory.
+  why_it_matters: It lets developers build and run multi-provider, extension-rich AI workflows for automation, from smart home control to enterprise tasks, via natural language.
+  mental_damage: Finally, a way to make your AI agents argue with each other about which cloud provider to use.
   tags:
     - agent-orchestration
-    - multi-agent
+    - multi-provider
     - automation
-    - sdk
-    - langchain
+    - plugin-system
+    - python
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly described as a 'dynamic AI Agent Automation Platform' and 'control plane' for orchestrating tasks and multiple agents, fitting the operated workbench definition rather than a code-first library.
+  reason: AGiXT is primarily a runtime platform for coordinating multiple agents, providers, and extensions, fitting the agent orchestration category.
   evidence:
-    - Repo description calls it a 'dynamic AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution'.
-    - README states it is a 'comprehensive AI automation platform' and 'central nervous system' with workflow automation and multi-agent coordination.
-    - Listed in awesome-llm-agents under 'Frameworks', but its 'platform' and 'enterprise-ready' control plane features push it toward orchestration.
+    - "Repo description: 'AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers'"
+    - "README: 'complete automation platform that bridges the gap between artificial intelligence and real-world applications' with 40+ extensions and multi-provider support"
+    - "Source-list context: listed under 'Frameworks' in awesome-llm-agents and 'Other LLM Frameworks' in awesome-langchain"
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (3185) exceeded threshold (150)
@@ -103,12 +103,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:09.099Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d45887fec890b5826862e05751e66538f8cca941675db823694e04436f0dd402
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: AGiXT is primarily a runtime platform for coordinating multiple agents, providers, and extensions, fitting the agent orchestration category.
+      decision_evidence:
+        - "Repo description: 'AI Agent Automation Platform that seamlessly orchestrates instruction management and complex task execution across diverse AI providers'"
+        - "README: 'complete automation platform that bridges the gap between artificial intelligence and real-world applications' with 40+ extensions and multi-provider support"
+        - "Source-list context: listed under 'Frameworks' in awesome-llm-agents and 'Other LLM Frameworks' in awesome-langchain"
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because AGiXT is an operated platform for coordinating agents and workflows, not primarily a code-first library or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

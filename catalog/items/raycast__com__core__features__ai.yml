@@ -1,0 +1,112 @@
+id: raycast__com__core__features__ai
+kind: website
+name: Raycast AI
+canonical_url: https://raycast.com/core-features/ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__raycast__com__core__features__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Raycast AI
+        extracted_url: https://raycast.com/ai
+        surrounding_text: "- **[Raycast AI](https://raycast.com/ai)** – AI-powered productivity launcher with coding capabilities and workflow automation."
+        confidence: high
+    - id: discovery__www__raycast__com__core__features__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Developer Productivity Tools
+        anchor_text: Raycast AI
+        extracted_url: https://raycast.com/ai
+        surrounding_text: "- **[Raycast AI](https://raycast.com/ai)** – AI-powered productivity launcher with coding capabilities and workflow automation."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Raycast AI is an OS-integrated AI assistant that combines multiple leading models with extensions for productivity and workflow automation on macOS.
+  why_it_matters: It gives developers a unified interface to access 30+ LLMs and automate tasks via AI extensions, directly within their operating system.
+  mental_damage: Now you can ask your OS to move PDFs to trash while debating the benefits of ice baths with Claude Opus 4.8.
+  tags:
+    - os-integration
+    - multi-model
+    - productivity
+    - automation
+    - macos
+  confidence: high
+curation:
+  status: included
+  reason: Raycast AI primarily augments the OS and other apps with AI capabilities rather than acting as a standalone coding assistant or IDE.
+  evidence:
+    - Described as 'AI that works with your OS' combining models with extensions
+    - Core functionality includes OS-level integrations (e.g., file management, calendar, Linear) via AI Extensions
+    - Source-list context places it under 'Developer Productivity Tools'
+placement:
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:40.756Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:70346b79ab53150fa7b5f5708523377643f15ee03f7d961e229412e4a05b427d
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: Raycast AI primarily augments the OS and other apps with AI capabilities rather than acting as a standalone coding assistant or IDE.
+      decision_evidence:
+        - Described as 'AI that works with your OS' combining models with extensions
+        - Core functionality includes OS-level integrations (e.g., file management, calendar, Linear) via AI Extensions
+        - Source-list context places it under 'Developer Productivity Tools'
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because the product's main value is OS/host integration and workflow augmentation rather than direct repo-level coding assistance.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.969Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

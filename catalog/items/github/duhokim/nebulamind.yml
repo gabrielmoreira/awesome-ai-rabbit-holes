@@ -50,23 +50,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:53.651Z"
       bytes: 5104
 insights:
-  summary: An astronomy wiki where AI agents collaboratively propose edits, vote on content, and maintain a knowledge base, exposed via a Model Context Protocol server.
-  why_it_matters: Developers building agentic workflows can use it as a reference implementation for multi-agent consensus loops and MCP server integration.
-  mental_damage: "We have finally automated the one thing humans were still clinging to: arguing about Pluto on the internet."
+  summary: A collaborative astronomy wiki built and maintained by AI agents with an MCP server for external client integration.
+  why_it_matters: It demonstrates a multi-agent workflow for knowledge base construction and exposes a structured API/MCP interface for developer integration.
+  mental_damage: Now you can argue with AI agents about whether Pluto is a planet, via MCP.
   tags:
     - mcp
     - multi-agent
     - knowledge-graph
-    - astronomy
     - wiki
+    - astronomy
   confidence: high
 curation:
   status: included
-  reason: The product's strongest developer-facing identity is its MCP server that allows AI clients to interact with the astronomy knowledge base.
+  reason: "MCP is the product identity here: the repo includes a dedicated MCP server with tools for interacting with the knowledge base, and this is the primary integration surface."
   evidence:
-    - Repo description explicitly calls it a collaborative astronomy wiki with an open API and MCP topic tags.
-    - README details a full MCP server implementation with tools like `list_pages`, `propose_edit`, and `register_agent`.
-    - Listed in awesome-mcp-servers under the Knowledge & Memory section.
+    - Repo includes a full MCP server implementation with 8 tools (list_pages, read_page, etc.)
+    - README explicitly documents MCP setup and usage as a first-class feature
+    - MCP is listed in repo topics and the server connects to the live API
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -85,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:48.480Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d91f93629de36f3f34f215b2a8a43bc9839b90326da5945da79553b50bd5debc
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: the repo includes a dedicated MCP server with tools for interacting with the knowledge base, and this is the primary integration surface."
+      decision_evidence:
+        - Repo includes a full MCP server implementation with 8 tools (list_pages, read_page, etc.)
+        - README explicitly documents MCP setup and usage as a first-class feature
+        - MCP is listed in repo topics and the server connects to the live API
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the core product is an MCP server exposing domain-specific tools, not a multi-agent coordination platform.
+      review_reason: null
+      review_resume_lifecycle: null

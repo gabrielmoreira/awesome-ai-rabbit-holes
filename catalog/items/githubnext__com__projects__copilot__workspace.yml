@@ -36,25 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Copilot Workspace is an agentic development environment designed to handle everyday coding tasks.
-  why_it_matters: It positions the AI as the primary environment for planning and executing routine development work rather than just an inline suggestion engine.
-  mental_damage: Just when you thought 'vibe coding' couldn't get more abstract, GitHub offers a dedicated workspace so you can watch an agent handle your daily ticket queue while you check Slack.
+  summary: An agentic development environment designed for everyday coding tasks.
+  why_it_matters: It offers developers a dedicated workspace where AI agents can assist with planning, writing, and managing code-related workflows.
+  mental_damage: Now you can argue with an agent about tabs vs. spaces in a workspace that was probably built by another agent.
   tags:
-    - copilot
-    - agentic
-    - github
+    - agentic-dev
     - workspace
-  confidence: medium
+    - coding-assistant
+  confidence: high
 curation:
   status: included
-  reason: The product is described as an 'agentic dev environment' intended for everyday tasks, fitting the definition of a primary coding assistant rather than an extension or framework.
+  reason: The product is a standalone agentic environment for developers, fitting the definition of a primary coding assistant rather than an extension or integration layer.
   evidence:
-    - Scraped site context describes it as 'An agentic dev environment, designed for everyday tasks.'
-    - Listed in awesome-ai-coding-tools under the 'Coding Agents' section.
-    - The GitHub Next project URL indicates it is a first-party experimental environment from GitHub.
+    - Described as 'An agentic dev environment, designed for everyday tasks' in both source-list context and scraped site description
+    - Listed under 'Coding Agents' in awesome-ai-coding-tools
 placement:
   primary_category: coding-agents
-  section: IDE-Native Assistants
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +67,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:08.627Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2eb92931c518ac3b0e258c163dafa31b611376fe5bbd106f5475e10d6a5ab510
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The product is a standalone agentic environment for developers, fitting the definition of a primary coding assistant rather than an extension or integration layer.
+      decision_evidence:
+        - Described as 'An agentic dev environment, designed for everyday tasks' in both source-list context and scraped site description
+        - Listed under 'Coding Agents' in awesome-ai-coding-tools
+      category_candidates:
+        - coding-agents
+        - ai-ides-editors
+      contrastive_reason: Choose coding-agents over ai-ides-editors because the product is presented as an agentic environment rather than a full IDE surface.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language blog and resource hub covering advanced LLM topics including multimodal generation, agents, auxiliary programming, and model training.
-  why_it_matters: It serves as a centralized knowledge base for developers navigating the rapidly expanding, and often chaotic, landscape of Chinese and global LLM research.
-  mental_damage: Yet another reminder that while you're debugging a null pointer, the rest of the world is publishing tutorials on o1 model architectures and AI peer review.
+  summary: A Chinese-language resource hub summarizing LLM materials including coding assistance, agent workflows, and MCP.
+  why_it_matters: Provides a curated overview of LLM tools and concepts for developers seeking non-English resources.
+  mental_damage: Another directory promising to be the 'world's best' while you still don't know which agent to use for your PR.
   tags:
+    - directory
+    - tutorial
+    - chinese
     - llm-resources
-    - tutorials
-    - chinese-ai
-    - research
   confidence: high
 curation:
   status: excluded
-  reason: The site is a publication and educational resource hub, not a developer-facing tool, agent, or infrastructure component.
+  reason: This is a tutorial/resource directory rather than a developer tool, and its primary value is educational/curational rather than operational.
   evidence:
-    - Listed in awesome-LLM-resources specifically as a '教程 Tutorial' (Tutorial) section.
-    - Description emphasizes 'resources' and 'summary' of LLM knowledge rather than a product or tool.
-    - Lacks a repo description, README, or code signals indicating a buildable/runnable developer tool.
+    - Source-list context describes it as a 'summary of the world's best LLM resources' in a tutorial section
+    - No repo description or README excerpt indicates a standalone tool or product
 placement:
   primary_category: null
   section: null
@@ -69,12 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:47.022Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1a7a358b56e2e802a102d52e1cbda48a6be640acc4723794a4742af1348f9cdd
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a tutorial/resource directory rather than a developer tool, and its primary value is educational/curational rather than operational.
+      decision_evidence:
+        - Source-list context describes it as a 'summary of the world's best LLM resources' in a tutorial section
+        - No repo description or README excerpt indicates a standalone tool or product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

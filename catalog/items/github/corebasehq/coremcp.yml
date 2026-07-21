@@ -47,23 +47,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:26.097Z"
       bytes: 13872
 insights:
-  summary: CoreMCP is an open-source, Go-based MCP server that exposes legacy databases like MSSQL to AI agents with read-only safety, schema discovery, and PII masking.
-  why_it_matters: It allows developers to securely connect AI assistants to legacy or production databases for analysis without risking writes or exposing sensitive data.
-  mental_damage: We have finally bridged the gap between 1998-era MSSQL instances and the latest LLMs, ensuring your AI can now misinterpret your legacy ERP data with unprecedented speed.
+  summary: CoreMCP is an open-source Model Context Protocol (MCP) server that bridges AI assistants with legacy databases like MSSQL.
+  why_it_matters: It lets developers securely expose database schemas and queries to AI agents via MCP, enabling read-only or controlled access to legacy systems without direct code changes.
+  mental_damage: Finally, a way to let your AI assistant query that 20-year-old MSSQL ERP without accidentally dropping the production table.
   tags:
-    - mcp
-    - database
+    - mcp-server
+    - database-bridge
     - legacy-systems
     - golang
     - llm-ops
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server specifically for database connectivity, fitting the MCP Servers & Tooling category.
+  reason: CoreMCP's primary identity is as an MCP server for database operations, fitting the MCP Servers & Tooling category where MCP is the product identity.
   evidence:
-    - "Repo description states: 'CoreMCP: Connect Legacy Databases to AI Agents via Model Context Protocol.'"
-    - README identifies it as a 'Model Context Protocol (MCP) server for database operations'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases'.
+    - Repo description explicitly states it is an MCP server for database operations
+    - README highlights MCP-native design and database connectivity as core features
+    - Already listed in awesome-mcp-servers under Databases section
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -82,12 +82,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:48:12.812Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:46eb2ccbf540b0dedf543e9282fd663e47dd9bcd7a32131f2af5dc0926dd906a
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: CoreMCP's primary identity is as an MCP server for database operations, fitting the MCP Servers & Tooling category where MCP is the product identity.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for database operations
+        - README highlights MCP-native design and database connectivity as core features
+        - Already listed in awesome-mcp-servers under Databases section
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for databases, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

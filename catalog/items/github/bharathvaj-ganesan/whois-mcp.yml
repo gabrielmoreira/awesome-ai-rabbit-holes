@@ -44,23 +44,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:11.424Z"
       bytes: 4018
 insights:
-  summary: An MCP server that exposes WHOIS lookup capabilities (domains, IPs, TLDs, and ASNs) to AI agents like Claude Desktop and Cursor.
-  why_it_matters: Developers can ask their coding agents to check domain availability, registration details, and network ownership without leaving the IDE or interrupting their flow.
-  mental_damage: We have successfully reached the point where our AI assistants need their own dedicated network tooling just to tell us a domain is already taken.
+  summary: MCP server that enables AI agents to perform WHOIS lookups for domain, TLD, IP, and ASN details.
+  why_it_matters: Lets developers query domain registration and ownership details directly from their AI coding assistant without leaving the IDE or terminal.
+  mental_damage: Now your AI can tell you who owns that domain you just typo-squatted during a late-night coding session.
   tags:
-    - mcp
+    - mcp-server
     - whois
-    - networking
-    - cursor
-    - claude
+    - domain-lookup
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product is a purpose-built MCP server for WHOIS lookups, fitting cleanly as protocol infrastructure rather than a generic extension or framework.
+  reason: This is a dedicated MCP server whose primary identity is providing WHOIS lookup capabilities via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states 'MCP Server for whois lookups.'
-    - README demonstrates integration with Cursor, Claude Desktop, and Roo Code as an MCP server.
-    - Listed in awesome-mcp-servers under 'Community Servers' for domain-specific tooling.
+    - Repo description explicitly states 'MCP Server for whois lookups'
+    - README confirms it's a Model Context Protocol server for WHOIS functionality
+    - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -79,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:53.191Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6cd57a5be92d17c9244d141a80ec9b769e40406e9ebfa030c065949438a9f283
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is providing WHOIS lookup capabilities via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states 'MCP Server for whois lookups'
+        - README confirms it's a Model Context Protocol server for WHOIS functionality
+        - Listed in awesome-mcp-servers under 'Community Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

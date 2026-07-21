@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1749
-    forks: 95
+    stars: 1767
+    forks: 96
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: yobix-ai/extractous
+    html_url: https://github.com/yobix-ai/extractous
     created_at: "2024-06-04T08:24:18Z"
     pushed_at: "2024-12-21T10:13:30Z"
     description: Fast and efficient unstructured data extraction. Written in Rust with bindings for many languages.
@@ -51,9 +51,9 @@ metadata:
       - tika
       - unstructured
       - unstructured-data
-    last_checked_at: "2026-05-12T15:06:43.007Z"
+    last_checked_at: "2026-07-21T15:21:21.473Z"
     readme:
-      fetched_at: "2026-05-12T15:06:43.007Z"
+      fetched_at: "2026-07-21T15:21:21.473Z"
       bytes: 12921
 insights:
   summary: null
@@ -79,16 +79,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-12T15:06:43.007Z"
+    updated_at: "2026-07-21T15:21:21.473Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

@@ -1,0 +1,111 @@
+id: webdatasource__com
+kind: website
+name: WebDataSource
+canonical_url: https://webdatasource.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__webdatasource__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: WebDataSource
+        extracted_url: https://webdatasource.com/releases/latest/mcp/index.html
+        surrounding_text: "- **[WebDataSource](https://webdatasource.com/releases/latest/mcp/index.html)** - Web Crawler for AI Agents. Supercharge your AI agents with an MCP-ready web crawler that delivers real-time insights from the web and your private knowledge bases."
+        confidence: high
+    - id: discovery__www__webdatasource__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: WebDataSource
+        extracted_url: https://webdatasource.com/releases/latest/mcp/index.html
+        surrounding_text: "- **[WebDataSource](https://webdatasource.com/releases/latest/mcp/index.html)** - Web Crawler for AI Agents. Supercharge your AI agents with an MCP-ready web crawler that delivers real-time insights from the web and your private knowledge bases."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A pluggable web crawler that integrates Intranet/Internet data into agentic AI workflows via an MCP server.
+  why_it_matters: Developers can feed live web data into their AI agents without building custom scrapers or integrations.
+  mental_damage: Now your agent can crawl your entire codebase's documentation site and still ask why the API doesn't work.
+  tags:
+    - mcp
+    - web-crawler
+    - agent-tools
+    - data-integration
+  confidence: high
+curation:
+  status: included
+  reason: The product's core identity is an MCP server providing web crawling capabilities for agentic systems.
+  evidence:
+    - Described as a 'pluggable web crawler for Agentic AI' with MCP server integration
+    - Exposes 21 MCP tools for job, traversal, scheduling, and retrieval workflows
+    - Listed in awesome-mcp-servers under 'Official Servers'
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:38:59.196Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d36d000985eaaceab3af76a415c3cbef60a9242f1bcb9b9a111f50530c222379
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server providing web crawling capabilities for agentic systems.
+      decision_evidence:
+        - Described as a 'pluggable web crawler for Agentic AI' with MCP server integration
+        - Exposes 21 MCP tools for job, traversal, scheduling, and retrieval workflows
+        - Listed in awesome-mcp-servers under 'Official Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is primarily an MCP server with web crawling capabilities, not an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.971Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

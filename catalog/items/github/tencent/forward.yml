@@ -23,12 +23,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 554
-    forks: 62
+    stars: 556
+    forks: 63
     license: NOASSERTION
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Tencent/Forward
+    html_url: https://github.com/Tencent/Forward
     created_at: "2021-03-11T02:40:04Z"
     pushed_at: "2022-01-29T16:34:05Z"
     description: "A library for high performance deep learning inference on NVIDIA GPUs. "
@@ -46,9 +46,9 @@ metadata:
       - pytorch
       - tensorflow
       - tensorrt
-    last_checked_at: "2026-05-06T22:46:42.615Z"
+    last_checked_at: "2026-07-21T15:20:42.479Z"
     readme:
-      fetched_at: "2026-05-06T22:46:42.615Z"
+      fetched_at: "2026-07-21T15:20:42.479Z"
       bytes: 8661
 insights:
   summary: Forward is a high-performance deep learning inference engine from Tencent that converts models from TensorFlow, PyTorch, Keras, and ONNX into optimized TensorRT engines.
@@ -82,16 +82,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:42.615Z"
+    updated_at: "2026-07-21T15:20:42.479Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

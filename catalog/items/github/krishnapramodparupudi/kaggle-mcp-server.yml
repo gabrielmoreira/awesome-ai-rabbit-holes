@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:37.008Z"
       bytes: 2301
 insights:
-  summary: A minimal MCP server that exposes Kaggle API methods, such as listing competitions, to Claude Desktop and other MCP-compatible clients.
-  why_it_matters: It lets coding agents directly query Kaggle datasets and competitions without forcing developers to context-switch into the Kaggle web UI or manually manage API scripts.
-  mental_damage: We have reached the point where an AI agent needs a dedicated protocol server just to ask what data science competitions are currently open.
+  summary: An MCP server that exposes Kaggle competition data to MCP-compatible clients like Claude Desktop.
+  why_it_matters: Lets developers query Kaggle competitions directly from their AI assistant without leaving the coding environment.
+  mental_damage: Now your AI can remind you that you’re still not winning any Kaggle competitions.
   tags:
     - mcp
     - kaggle
     - data-science
-    - claude
-  confidence: medium
+    - integration
+  confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server providing Kaggle integration, matching the MCP Servers & Tooling category's focus on protocol-specific infrastructure.
+  reason: The product is an MCP server whose primary identity is providing Kaggle API access via MCP, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description states it is 'an MCP (Model Context Protocol) server for interacting with Kaggle competitions'.
-    - README shows the server registers tools like get_competitions_list via the @mcp.tool() decorator for Claude Desktop.
-    - Listed in awesome-mcp-servers under 'Data Science Tools', reinforcing its identity as a domain-specific MCP server.
+    - Repo description explicitly states it is an MCP server for Kaggle
+    - README details MCP tool registration and Claude Desktop integration
+    - Listed in awesome-mcp-servers under Data Science Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:09.476Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fdf8517cb51dc3aad601f97b4b3ec52f68a59a1cd7aa3b04cad5b21bdf5f3fb3
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server whose primary identity is providing Kaggle API access via MCP, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Kaggle
+        - README details MCP tool registration and Claude Desktop integration
+        - Listed in awesome-mcp-servers under Data Science Tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not just an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

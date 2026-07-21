@@ -37,24 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A GitLab-hosted parser for the FIX (Financial Information eXchange) protocol, listed as an MCP server implementation for finance and fintech use cases.
-  why_it_matters: It provides a specialized MCP-compatible interface for developers building AI agents that need to ingest or interact with financial trading data.
-  mental_damage: "We have finally achieved the singularity: an AI agent can now misunderstand complex financial transactions with the blistering speed of a dedicated protocol parser."
-  tags:
-    - mcp
-    - fintech
-    - parser
-    - gitlab
-  confidence: medium
+  summary: A GitLab-hosted project with no description, README, or metadata available.
+  why_it_matters: No actionable information is provided to determine its relevance to developers.
+  mental_damage: The void stares back when you try to figure out what this even is.
+  tags: []
+  confidence: high
 curation:
-  status: included
-  reason: The project is explicitly listed in the awesome-mcp-servers directory under Finance & Fintech, identifying it as a domain-specific MCP server implementation.
+  status: excluded
+  reason: Excluded due to complete lack of descriptive information, making it impossible to assess fit for the catalog.
   evidence:
-    - Listed in 'awesome-mcp-servers' under the section 'Finance & Fintech'.
-    - Repository name 'fixparser' and description indicate a specialized parser for the FIX protocol.
+    - No repo description provided
+    - No README excerpt available
+    - No metadata (stars, license, dates, etc.)
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +66,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:05.209Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:142fb974096207e29cd87fb81d5f50287bac017d8f1b200d2aee984c6ddfb7e9
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Excluded due to complete lack of descriptive information, making it impossible to assess fit for the catalog.
+      decision_evidence:
+        - No repo description provided
+        - No README excerpt available
+        - No metadata (stars, license, dates, etc.)
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

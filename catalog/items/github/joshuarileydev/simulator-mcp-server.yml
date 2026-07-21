@@ -55,22 +55,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:27.425Z"
       bytes: 619
 insights:
-  summary: An MCP server that exposes iOS simulator controls—listing, booting, installing apps, and launching them—to compatible AI coding assistants.
-  why_it_matters: It lets AI agents directly manipulate iOS simulators, bridging the gap between code generation and mobile validation without leaving the assistant context.
-  mental_damage: We have finally reached the point where your AI can boot a simulator to test the code it just hallucinated, ensuring the crash happens with maximum efficiency.
+  summary: An MCP server that provides programmatic control over iOS simulators via the Model Context Protocol.
+  why_it_matters: Developers can integrate iOS simulator operations (boot, shutdown, app installation) directly into their AI workflows or assistants.
+  mental_damage: Now your AI can spin up iOS simulators while you question your life choices.
   tags:
     - mcp
-    - ios
-    - simulator
-    - developer-tools
+    - ios-simulator
+    - mobile-development
+    - automation
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing iOS simulator capabilities, fitting cleanly into MCP Servers & Tooling as a domain-specific server for developer tools.
+  reason: This is an MCP-first server whose primary identity is exposing iOS simulator functionality through the MCP specification.
   evidence:
-    - README states it is 'A Model Context Protocol (MCP) server that provides programmatic control over iOS simulators.'
-    - Source lists place it in awesome-mcp-list and awesome-mcp-servers under Developer Tools.
-    - Installation instructions show adding it as an MCP server entry in a Claude Config JSON.
+    - README explicitly describes it as an MCP server for iOS simulators
+    - Source lists categorize it under MCP servers (awesome-mcp-list, awesome-mcp-servers)
+    - Installation instructions show MCP server configuration for Claude
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:10.300Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7b07e26525c9346f09619359f10bd0294047b5f2e5950ed2dd9188bd0fd81741
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose primary identity is exposing iOS simulator functionality through the MCP specification.
+      decision_evidence:
+        - README explicitly describes it as an MCP server for iOS simulators
+        - Source lists categorize it under MCP servers (awesome-mcp-list, awesome-mcp-servers)
+        - Installation instructions show MCP server configuration for Claude
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

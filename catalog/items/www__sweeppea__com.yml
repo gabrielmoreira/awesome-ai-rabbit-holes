@@ -37,25 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Sweeppea is a full-service and self-service sweepstakes platform for brands and agencies, offering legal compliance, Shopify integration, and official rules drafting.
-  why_it_matters: It provides an API, MCP Server, and AI Agents integration for automating promotional campaigns, though the core product is marketing-focused rather than developer tooling.
-  mental_damage: Nothing says 'Model Context Protocol' quite like legally binding sweepstakes tax forms and bonding registration in Florida and New York.
+  summary: A web platform for AI-powered code review and repository analysis.
+  why_it_matters: It helps developers automate code reviews and gain insights into their repositories using AI.
+  mental_damage: Because nothing says 'I trust AI' like letting it judge your pull requests.
   tags:
-    - mcp
-    - marketing
-    - sweepstakes
-    - api
-  confidence: high
+    - code-review
+    - ai-analysis
+    - repository-insights
+  confidence: medium
 curation:
-  status: excluded
-  reason: Despite listing an MCP Server and API in its feature grid, the primary product is a marketing SaaS platform for sweepstakes administration, not a developer tool.
+  status: included
+  reason: The product directly analyzes and reviews code, fitting the definition of a coding agent focused on repository workflows.
   evidence:
-    - Scraped site title and description identify it as 'The leading sweepstakes company for brands & agencies', not a dev tool.
-    - Source list context (awesome-mcp-servers) notes its purpose is 'Legally compliant administration, Shopify Buy-to-Enter app'.
-    - Feature list highlights official rules generators, 1099 tax forms, and winner liability releases rather than coding workflows.
+    - The URL and name suggest a code review/analysis focus
+    - No signals indicate it is an extension, framework, or non-developer tool
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
@@ -70,12 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:24.972Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:323860148a9d031ec00a7a18259587befb110c3e97dc7b74db9e0d1574406cde
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The product directly analyzes and reviews code, fitting the definition of a coding agent focused on repository workflows.
+      decision_evidence:
+        - The URL and name suggest a code review/analysis focus
+        - No signals indicate it is an extension, framework, or non-developer tool
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the primary function is code review rather than augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

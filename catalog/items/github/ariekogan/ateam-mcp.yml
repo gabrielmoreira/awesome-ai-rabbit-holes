@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:03.749Z"
       bytes: 6910
 insights:
-  summary: An MCP server that connects AI assistants to the ADAS platform to build, validate, and deploy multi-agent systems via natural language.
-  why_it_matters: It lets developers treat ADAS as a native capability of their existing AI tools, removing the need for manual JSON authoring and context switching.
-  mental_damage: We've successfully abstracted away the platform documentation so your AI can now hallucinate your multi-agent deployment configuration instead of you having to read the docs yourself.
+  summary: An MCP server that connects AI assistants to the ADAS platform for building, validating, and deploying multi-agent systems.
+  why_it_matters: It lets developers use their existing AI assistants (Claude, ChatGPT, etc.) to manage the full lifecycle of multi-agent solutions via natural language, eliminating manual configuration and context switching.
+  mental_damage: Now your AI assistant can deploy agents while you wonder if you’re still the developer or just the prompt jockey.
   tags:
-    - mcp
+    - mcp-server
     - multi-agent
     - adas
-    - deploy
-    - integration
+    - deployment
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: it is an MCP server that gives AI assistants access to the ADAS platform's build, validate, and deploy capabilities."
+  reason: "MCP is the product identity here: it is explicitly an MCP server that exposes ADAS platform capabilities to MCP-compatible AI environments."
   evidence:
-    - Repo description explicitly states 'ADAS MCP Server — build, validate, and deploy multi-agent solutions from any AI environment'.
-    - README centers on MCP transport and tooling, listing 12 ADAS tools exposed via MCP to ChatGPT, Claude, Cursor, and others.
-    - Listed in awesome-mcp-servers under Server Implementations > Aggregators, confirming its identity as an MCP server.
+    - "Repo description: 'ADAS MCP Server — build, validate, and deploy multi-agent solutions from any AI environment'"
+    - "README: 'This is an MCP server that connects AI assistants... directly to the ADAS platform'"
+    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'"
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:56.791Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4a874ee6c49c3f72bb0b05e90b4de0e5b2aa14d10a54e20e3eaddc93bc61a230
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: it is explicitly an MCP server that exposes ADAS platform capabilities to MCP-compatible AI environments."
+      decision_evidence:
+        - "Repo description: 'ADAS MCP Server — build, validate, and deploy multi-agent solutions from any AI environment'"
+        - "README: 'This is an MCP server that connects AI assistants... directly to the ADAS platform'"
+        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'"
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the product is an MCP server exposing ADAS capabilities, not a standalone orchestration platform.
+      review_reason: null
+      review_resume_lifecycle: null

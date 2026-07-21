@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:19.227Z"
       bytes: 11737
 insights:
-  summary: A Swift framework for lightweight multi-agent orchestration that enables conversational handoffs between agents using the Chat Completions API.
-  why_it_matters: iOS and Swift developers gain a native, ergonomic toolkit for building multi-agent flows without leaving the Apple ecosystem or switching to Python/Node.js frameworks.
-  mental_damage: Now you can orchestrate agent chaos in Swift, proving once again that no language community is safe from the irresistible urge to build yet another multi-agent framework.
+  summary: Swift framework for lightweight multi-agent orchestration inspired by OpenAI's Swarm library.
+  why_it_matters: Provides Swift engineers with a code-first way to experiment with agent coordination and handoffs in their apps.
+  mental_damage: Finally, a way to turn your iOS app into a swarm of stateless agents arguing over Chat Completions API calls.
   tags:
     - swift
     - multi-agent
     - orchestration
     - framework
-    - ios
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: This is a code-first SDK that Swift developers import and script against to build multi-agent systems, making it a clear fit for Agent Frameworks under Frameworks & SDKs.
+  reason: The product is a code-first framework (Swift library) for agent orchestration, not an operated platform or host integration.
   evidence:
-    - "Repo description: 'Swift framework exploring ergonomic, lightweight multi-agent orchestration.'"
-    - README states it is used via Swift Package Manager and provides AgentRepresentable and ToolResponseHandler abstractions for developers to use in code.
-    - Source list places it under 'Core Frameworks > Swift, Ruby & Elixir Frameworks' in an agent orchestration directory.
+    - "Repo description: 'Swift framework exploring ergonomic, lightweight multi-agent orchestration'"
+    - "README: 'Swift framework... Its main use case is to enable seamless transitions between agents in a conversation'"
+    - "Source-list context: listed under 'Core Frameworks > Swift, Ruby & Elixir Frameworks' in awesome-agent-orchestration"
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:53.736Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a0ced44fb509caef2c46df05850f0fdf1bfa6aeeda5305f3679eafbfe9a3a076
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The product is a code-first framework (Swift library) for agent orchestration, not an operated platform or host integration.
+      decision_evidence:
+        - "Repo description: 'Swift framework exploring ergonomic, lightweight multi-agent orchestration'"
+        - "README: 'Swift framework... Its main use case is to enable seamless transitions between agents in a conversation'"
+        - "Source-list context: listed under 'Core Frameworks > Swift, Ruby & Elixir Frameworks' in awesome-agent-orchestration"
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary identity is a code-first Swift library for developers to import and build with, not an operated workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

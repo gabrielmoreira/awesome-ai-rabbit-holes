@@ -39,21 +39,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:30.171Z"
       bytes: 7225
 insights:
-  summary: An MCP server that gives AI assistants like Claude read and write access to Miro boards, items, and workspace resources.
-  why_it_matters: Developers can now delegate whiteboard cleanup, diagram creation, and board scaffolding directly to their coding assistants instead of clicking through Miro.
-  mental_damage: Your AI assistant can now reorganize your sticky notes, which means you have officially run out of excuses for why your sprint planning board is a disaster.
+  summary: An MCP server that integrates Miro's API to allow AI assistants like Claude to read and manage Miro boards.
+  why_it_matters: Lets coding agents interact with Miro boards for planning, design, or collaboration workflows without leaving the assistant context.
+  mental_damage: Now your AI can rearrange your sticky notes faster than you can explain why the architecture diagram is wrong.
   tags:
     - mcp
     - miro
     - integration
+    - collaboration
+    - ai-assistant
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server providing Miro integration, which fits cleanly as protocol infrastructure for a specific domain rather than a generic extension or framework.
+  reason: "MCP is the product identity: this is a dedicated MCP server for Miro, not a generic extension or framework."
   evidence:
-    - "Repo description explicitly states: 'Miro integration for Model Context Protocol'."
-    - README confirms it is an MCP server that enables AI assistants to access and manage Miro boards.
-    - Listed in awesome-mcp-servers under 'Community Servers', reinforcing its identity as MCP infrastructure.
+    - Repo description explicitly states it is a 'Miro integration for Model Context Protocol'
+    - README confirms it is an MCP server exposing Miro API tools to AI assistants
+    - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -72,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:39.287Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:63fa0cfb5212eaa9f1aebd1fa388b78aa87b442983ad6e3b64f48c81b6d47543
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for Miro, not a generic extension or framework."
+      decision_evidence:
+        - Repo description explicitly states it is a 'Miro integration for Model Context Protocol'
+        - README confirms it is an MCP server exposing Miro API tools to AI assistants
+        - Listed in awesome-mcp-servers under 'Community Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an integration layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

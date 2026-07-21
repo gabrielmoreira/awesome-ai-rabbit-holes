@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:52.969Z"
       bytes: 1813
 insights:
-  summary: An MCP server that exposes system monitoring tools (CPU, memory, disk, network, processes) to Claude Desktop and Claude Code.
-  why_it_matters: It lets developers delegate system diagnostics and process management to Claude, turning natural language into live system introspection without leaving the chat.
-  mental_damage: We have finally reached the point where you can ask your coding assistant to kill Chrome because your laptop is slow, and it will actually do it.
+  summary: MCP server for system monitoring, exposing CPU, memory, disk, network, and process management tools to Claude.
+  why_it_matters: Lets developers query and act on system metrics directly from their coding assistant without switching contexts.
+  mental_damage: Now your AI pair programmer can also judge your Chrome tab count.
   tags:
     - mcp
     - system-monitoring
-    - claude
-    - dev-tools
+    - claude-integration
+    - process-management
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server that exposes system monitoring capabilities to Claude, making MCP its clear product identity.
+  reason: "MCP is the product identity: this is a dedicated MCP server providing system monitoring tools, not merely an adapter or compatibility feature."
   evidence:
-    - Repo description explicitly states 'MCP server for system monitoring'
-    - README documents MCP tools (get_system_overview, get_top_processes, kill_process) and usage with Claude Desktop and Claude Code
-    - Listed in awesome-mcp-servers under Server Implementations > Monitoring
+    - Repo description explicitly states it is an MCP server for system monitoring
+    - README details MCP-specific installation and usage with Claude Desktop/Code
+    - Tool list and example prompts are all framed as MCP tools for Claude
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:39.074Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:54d83dece9347426078774f38d9fd36f4084ea5245cf8c01c358005f269c4f55
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing system monitoring tools, not merely an adapter or compatibility feature."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for system monitoring
+        - README details MCP-specific installation and usage with Claude Desktop/Code
+        - Tool list and example prompts are all framed as MCP tools for Claude
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension layer augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -1,0 +1,112 @@
+id: superagent__sh
+kind: website
+name: Superagent
+canonical_url: https://superagent.sh
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__superagent__sh__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Superagent
+        anchor_text: Superagent
+        extracted_url: https://superagent.sh
+        surrounding_text: "## [Superagent](https://www.superagent.sh/)</details>"
+        confidence: high
+    - id: discovery__www__superagent__sh__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Superagent
+        anchor_text: Superagent
+        extracted_url: https://www.superagent.sh
+        surrounding_text: "## [Superagent](https://www.superagent.sh/)</details>"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An AI security team that finds, patches, and discloses vulnerabilities in code and agents, delivering fixes as PRs.
+  why_it_matters: It automates vulnerability detection and remediation in developer workflows, reducing the time from discovery to patch deployment.
+  mental_damage: Now your security team can finally sleep, knowing the bots are filing PRs at 3 AM.
+  tags:
+    - security
+    - automated-patching
+    - vulnerability-detection
+    - ai-agents
+    - ci-cd
+  confidence: high
+curation:
+  status: included
+  reason: The core job is measuring, surfacing, and documenting unsafe agent behavior through adversarial testing, which aligns with evals and safety tooling rather than coding assistance or orchestration.
+  evidence:
+    - "Site title and description: 'Red Team Testing for AI Agents — We attack your production system to surface data leaks, harmful outputs, and unwanted actions.'"
+    - "Primary excerpt: 'Our Red Team deploys specialized attack agents against your production system. Black-box testing that probes for the failures your users would encounter.'"
+    - "Source-list context: listed under awesome-ai-agents with the purpose of red teaming and surfacing data leaks and harmful outputs."
+placement:
+  primary_category: evals
+  section: null
+lifecycle:
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'coding-agents'"
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:37:32.467Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:48d400a1e356124bc5fc065e9e1cead28b86cebcad3d7e2dd1f903560e0942d3
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: The product directly acts as an autonomous agent that reads code, identifies vulnerabilities, and proposes fixes via PRs, fitting the definition of a coding agent focused on review and repair.
+      decision_evidence:
+        - Described as 'an AI security team that finds, patches, and discloses vulnerabilities'
+        - Delivers fixes as PRs for developer approval
+        - Integrates with CI/CD workflows and runs on PRs or scheduled scans
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the core job is direct code analysis and patching rather than coordinating multiple agents or workflows.
+      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'coding-agents'"
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.970Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

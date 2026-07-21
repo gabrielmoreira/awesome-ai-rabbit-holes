@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hugging Face blog post explaining chat templates, a Jinja-based mechanism for formatting conversation histories to match a model's training format and avoid silent performance degradation.
-  why_it_matters: It documents the `chat_template` attribute in Hugging Face tokenizers, which standardizes how developers format inputs for fine-tuning and inference across disparate chat models.
-  mental_damage: We have reached a point in the ecosystem where formatting your chat messages incorrectly causes 'silent performance degradation' that you only discover after wondering why your model is suddenly terrible at its job.
+  summary: A blog post or resource page about chat templates, likely related to Hugging Face's model interaction formats.
+  why_it_matters: Chat templates standardize how prompts are formatted for LLMs, which can simplify model integration for developers.
+  mental_damage: Another layer of abstraction to remember before your model even sees the prompt.
   tags:
-    - chat-templates
     - prompt-formatting
     - huggingface
-    - llm-inference
+    - chat-templates
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational blog post and documentation page for a feature within the Hugging Face Transformers library, not a standalone developer tool, product, or directory.
+  reason: This is a blog/resource page, not a standalone developer tool, framework, or product.
   evidence:
-    - The source URL is a blog post on hf-mirror.com, not a functional software repository or product.
-    - The content describes a feature (`chat_template`) integrated into the HF Transformers library rather than a standalone tool.
-    - Seen in source lists as a general LLM resource/tip, lacking a standalone product identity.
+    - URL points to a blog post ('/blog/chat-templates')
+    - Scraped page is a redirect notice, not a product page
+    - No repo description, stars, or code artifacts provided
 placement:
   primary_category: null
   section: null
@@ -71,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:30.397Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e0798308777305c75280247888f7ddd41e7d3ea28a4b3bff0db0d3a60db90c66
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a blog/resource page, not a standalone developer tool, framework, or product.
+      decision_evidence:
+        - URL points to a blog post ('/blog/chat-templates')
+        - Scraped page is a redirect notice, not a product page
+        - No repo description, stars, or code artifacts provided
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

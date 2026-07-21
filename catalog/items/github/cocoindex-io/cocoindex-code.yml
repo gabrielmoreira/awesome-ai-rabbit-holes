@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:22.450Z"
       bytes: 38419
 insights:
-  summary: A lightweight, AST-based semantic code search CLI that indexes local codebases to reduce token usage by approximately 70% when used with coding agents.
-  why_it_matters: It integrates with Claude, Codex, and Cursor via CLI, Skill, or MCP to deliver relevant code context without blowing through context windows or API budgets.
-  mental_damage: Yet another clever tool to solve the fundamental problem of feeding an entire codebase to a model that still can't remember what it did three prompts ago.
+  summary: A lightweight AST-based semantic code search CLI that optimizes context for coding agents by reducing token usage.
+  why_it_matters: It helps developers and coding agents work faster by providing precise, token-efficient code search and retrieval for large codebases.
+  mental_damage: Finally, a tool that lets your AI assistant find the right code without burning through your entire context window on irrelevant files.
   tags:
-    - ast
     - code-search
+    - ast
+    - context-engineering
     - token-optimization
     - mcp
-    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: The core novelty is AST-based semantic indexing and retrieval to optimize what context is fed into coding agents, fitting Prompt & Context Engineering over broader agent or extension categories.
+  reason: The core value is context optimization (AST-based semantic search, token saving) for coding agents, not being an agent or extension itself.
   evidence:
-    - Repo description explicitly states it is an 'AST based' code search engine that 'saves 70% token and improves speed for coding agent'.
-    - README emphasizes integration with agents via Skill or MCP, and is listed as a canonical positive in the context-engineering category definition.
-    - Built on the CocoIndex data transformation engine to provide retrieval infrastructure rather than acting as a standalone agent.
+    - "Repo description: 'embedded code search engine CLI (AST based) that just works - improves speed and efficiency for coding agent'"
+    - "README: 'lightweight, effective (AST-based) semantic code search tool... Instant token saving by 70%'"
+    - Topics include 'context-engineering', 'context-window-optimization'
 placement:
   primary_category: context-engineering
   section: Context Retrieval & Fresh Docs
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:43:27.556Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b8a31c3bd3641bd1b7d63c375a7bf0d466add2324fe8bffd7c0a89aa69c63fbe
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core value is context optimization (AST-based semantic search, token saving) for coding agents, not being an agent or extension itself.
+      decision_evidence:
+        - "Repo description: 'embedded code search engine CLI (AST based) that just works - improves speed and efficiency for coding agent'"
+        - "README: 'lightweight, effective (AST-based) semantic code search tool... Instant token saving by 70%'"
+        - Topics include 'context-engineering', 'context-window-optimization'
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the primary novelty is the AST-based retrieval and token optimization system, not the host integration layer.
+      review_reason: null
+      review_resume_lifecycle: null

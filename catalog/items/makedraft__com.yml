@@ -36,22 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Makedraft is a web-based tool that uses AI to generate HTML templates from prompts.
-  why_it_matters: It offers a prompt-driven path to scaffold front-end code, useful for developers looking to bootstrap UI templates quickly.
-  mental_damage: Another entry in the 'vibes to markup' ecosystem, ensuring we can now generate throwaway HTML without ever looking at a DOM.
+  summary: A web-based tool that generates HTML templates from AI prompts.
+  why_it_matters: Developers can quickly scaffold HTML templates without manual coding, accelerating frontend or email template creation.
+  mental_damage: Finally, a way to outsource the part of web development that already felt like outsourcing.
   tags:
-    - html
-    - templates
-    - prompt-to-code
-    - web
-  confidence: medium
+    - prompt-to-html
+    - frontend-scaffolding
+    - web-templates
+  confidence: high
 curation:
   status: included
-  reason: The tool turns prompts into HTML templates/sites rather than acting as a repo-editing coding assistant, making it a clear fit for App Builders.
+  reason: The product's core value is turning prompts into HTML templates, fitting the prompt-to-site/app builder pattern rather than editing existing repos.
   evidence:
-    - "Scraped site title and description state: 'Makedraft' and 'Create HTML templates with AI'."
-    - "Listed in awesome-ai-agents under the purpose: 'Create HTML templates with AI'."
-    - The core workflow is prompt-to-template generation, not editing an existing repository.
+    - Site description explicitly states 'Create HTML templates with AI'
+    - Source-list context categorizes it under AI autonomous agents for template creation
 placement:
   primary_category: app-builders
   section: Prompt-to-Site Builders
@@ -69,12 +67,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:32.191Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ffa1a1f1185eaf93dcc4d6a5720361fc83a37b432fc5a8c626da0683af86a9c5
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product's core value is turning prompts into HTML templates, fitting the prompt-to-site/app builder pattern rather than editing existing repos.
+      decision_evidence:
+        - Site description explicitly states 'Create HTML templates with AI'
+        - Source-list context categorizes it under AI autonomous agents for template creation
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the primary workflow is generating new HTML templates from prompts rather than assisting with existing codebases.
+      review_reason: null
+      review_resume_lifecycle: null

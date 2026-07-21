@@ -48,23 +48,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:17.511Z"
       bytes: 10070
 insights:
-  summary: "An MCP server that exposes the Massive.com financial market data API to LLMs via three composable tools: search, call, and query, with in-memory SQLite storage and built-in financial functions."
-  why_it_matters: It lets coding agents and LLM workflows query live stock, options, crypto, and derivatives data directly via MCP without writing custom API glue code.
-  mental_damage: Now your AI can compute Black-Scholes greeks and still panic-sell your portfolio faster than you can type a semicolon.
+  summary: An MCP server that exposes the Massive.com financial market data API via search, call, and query tools for LLMs.
+  why_it_matters: Lets developers use natural language to access real-time and historical financial data within LLM workflows without building custom API wrappers.
+  mental_damage: Another niche MCP server promising to turn your Claude Code into a Bloomberg terminal, if only your API key weren't rate-limited by noon.
   tags:
     - mcp
-    - finance
-    - market-data
+    - financial-data
     - llm-tools
-    - fintech
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server exposing financial market data, which fits cleanly as a domain-specific MCP server rather than a framework, extension, or coding agent.
+  reason: The project is an MCP server whose core identity is providing financial market data through the Model Context Protocol, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
     - "Repo description: 'An MCP server for Massive.com Financial Market Data'"
-    - "README: 'A Model Context Protocol (MCP) server that provides access to the full Massive.com financial data API through an LLM-friendly interface.'"
-    - "Source list: included in awesome-mcp-servers under Finance & Fintech"
+    - "README: 'A Model Context Protocol (MCP) server that provides access to the full Massive.com financial data API through an LLM-friendly interface'"
+    - Provides three composable MCP tools (search_endpoints, call_api, query_data) specifically for accessing Massive.com's API
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -83,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:18:53.172Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7ce35fb69cb6f6f189983df6a6385949f709d6356c9c3584c5cf46478ef83444
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is an MCP server whose core identity is providing financial market data through the Model Context Protocol, making it a clear fit for the MCP Servers & Tooling category.
+      decision_evidence:
+        - "Repo description: 'An MCP server for Massive.com Financial Market Data'"
+        - "README: 'A Model Context Protocol (MCP) server that provides access to the full Massive.com financial data API through an LLM-friendly interface'"
+        - Provides three composable MCP tools (search_endpoints, call_api, query_data) specifically for accessing Massive.com's API
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's main value is being an MCP server infrastructure rather than augmenting another assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

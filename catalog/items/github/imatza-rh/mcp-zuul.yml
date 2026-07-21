@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:10.943Z"
       bytes: 25168
 insights:
-  summary: An MCP server for Zuul CI that exposes 37 tools, prompt templates, and resources to let LLMs read builds, logs, jobs, and pipeline status directly from Zuul.
-  why_it_matters: It lets developers debug CI failures and inspect pipeline state by asking natural-language questions instead of clicking through Zuul web UIs or grepping raw logs.
-  mental_damage: Finally, an MCP server so your coding agent can explain why your gate job failed while you continue pretending the build system is someone else's problem.
+  summary: An MCP server for Zuul CI that enables debugging build failures, searching logs, managing pipelines, and monitoring jobs from MCP-compatible clients like Claude or Cursor.
+  why_it_matters: Developers can query Zuul CI build statuses, logs, and failures directly from their AI assistant without navigating web UIs.
+  mental_damage: Finally, a way to ask your AI assistant why the CI failed instead of scrolling through 20,000 lines of Ansible output.
   tags:
-    - mcp
+    - mcp-server
+    - zuul-ci
     - ci-cd
-    - zuul
-    - debugging
     - devops
-  confidence: medium
+    - debugging
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server purpose-built for Zuul CI, making MCP the clear primary identity and fitting neatly into Domain Servers.
+  reason: MCP is the product identity here—a server providing Zuul CI integration as its core function, not a compatibility footnote.
   evidence:
-    - "Repo description: 'MCP server for Zuul CI — read-only access to builds, logs, status, and jobs'"
-    - "README: 'An MCP server for Zuul CI. Debug build failures by asking questions, not clicking through web UIs.'"
-    - "Source list: included in awesome-mcp-servers under Server Implementations > Developer Tools"
+    - Repo description explicitly states it is an MCP server for Zuul CI
+    - README details 37 tools for Zuul CI integration via MCP
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -83,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:51.658Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:518726455f2199c43d90f07eca25bf8aba8d24938f8e065c5788dfc66af4198c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a server providing Zuul CI integration as its core function, not a compatibility footnote.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Zuul CI
+        - README details 37 tools for Zuul CI integration via MCP
+        - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -1,0 +1,112 @@
+id: parea__ai
+kind: website
+name: Parea AI
+canonical_url: https://parea.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__parea__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Parea AI
+        extracted_url: https://parea.ai
+        surrounding_text: "| [Parea AI](https://www.parea.ai/)                                  | Platform and SDK for AI Engineers providing tools for LLM evaluation, observability, and a version-controlled enhanced prompt playground.                                                                                                                                                                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/parea-ai/parea-sdk-py?style=flat-square)              |"
+        confidence: high
+    - id: discovery__www__parea__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Parea AI
+        extracted_url: https://www.parea.ai
+        surrounding_text: "| [Parea AI](https://www.parea.ai/)                                  | Platform and SDK for AI Engineers providing tools for LLM evaluation, observability, and a version-controlled enhanced prompt playground.                                                                                                                                                                                                                                                               | ![GitHub Badge](https://img.shields.io/github/stars/parea-ai/parea-sdk-py?style=flat-square)              |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Parea AI is an experimentation, evaluation, and human annotation platform for teams building production LLM applications.
+  why_it_matters: It provides end-to-end tooling for testing, tracking, and deploying prompts, datasets, and evals to ensure LLM apps are reliable and production-ready.
+  mental_damage: Finally, a way to know if your prompt actually works—or if you just got lucky with the first three test cases.
+  tags:
+    - llm-evals
+    - observability
+    - prompt-engineering
+    - experiment-tracking
+    - human-annotation
+  confidence: high
+curation:
+  status: included
+  reason: Core product identity is evaluation, observability, and experiment tracking for LLM systems, which aligns with the Evals & Benchmarks category.
+  evidence:
+    - Primary page excerpt describes it as 'The experimentation and human annotation platform for AI teams'
+    - Features include auto-creating evals, testing/evaluating AI systems, observability, and prompt playgrounds
+    - Source-list context (Awesome-LLMOps) places it under LLMOps, but product identity is eval/observability-first
+placement:
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:25.840Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a7ee4387fbdb17d5af52043afa53c417392229dc927da40e60399f17882aadae
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: Core product identity is evaluation, observability, and experiment tracking for LLM systems, which aligns with the Evals & Benchmarks category.
+      decision_evidence:
+        - Primary page excerpt describes it as 'The experimentation and human annotation platform for AI teams'
+        - Features include auto-creating evals, testing/evaluating AI systems, observability, and prompt playgrounds
+        - Source-list context (Awesome-LLMOps) places it under LLMOps, but product identity is eval/observability-first
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the product's main value is measurement, scoring, and regression-testing of LLM behavior rather than being a code-first SDK.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.968Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

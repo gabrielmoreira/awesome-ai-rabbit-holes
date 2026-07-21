@@ -46,22 +46,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:17.208Z"
       bytes: 12154
 insights:
-  summary: An MCP server that connects AI assistants to codewiki.google, enabling search, documentation fetching, and Q&A for any open-source GitHub repository.
-  why_it_matters: It gives coding agents instant access to AI-generated wiki documentation for third-party repos, reducing the need to context-switch or manually read source code.
-  mental_damage: Another MCP server enters the ring so your agent can explain a ReactFiber reconciler to you in natural language, just in case reading the actual documentation becomes too retro.
+  summary: MCP server that connects AI assistants to codewiki.google for searching, fetching docs, and asking questions about open-source repositories.
+  why_it_matters: Developers can query AI-generated wiki documentation for any GitHub repo directly through MCP-compatible clients, streamlining context gathering for code understanding.
+  mental_damage: Now you can ask an AI about an open-source repo’s docs without leaving your editor, because clicking a browser tab was clearly the bottleneck.
   tags:
-    - mcp
+    - mcp-server
     - documentation
-    - context-retrieval
-    - ai-assistant
+    - codewiki
+    - context-protocol
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that exposes codewiki.google's repo documentation to MCP-compatible clients.
+  reason: "MCP is the product identity here: it is a dedicated MCP server providing access to codewiki.google’s documentation capabilities."
   evidence:
-    - Repo description explicitly states 'MCP server for codewiki.google'.
-    - README confirms it is a Model Context Protocol server with stdio, HTTP, and SSE transports.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Repo description explicitly states it is an MCP server for codewiki.google
+    - README emphasizes MCP integration with multiple client configurations (Cursor, Claude, Windsurf, etc.)
+    - Source-list context places it in an MCP servers directory under Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -80,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:28.697Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:98841bb651df289e6ec6964ec273d0200f0f2d488b2ccd310e46a0cf95949e7f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: it is a dedicated MCP server providing access to codewiki.google’s documentation capabilities."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for codewiki.google
+        - README emphasizes MCP integration with multiple client configurations (Cursor, Claude, Windsurf, etc.)
+        - Source-list context places it in an MCP servers directory under Developer Tools
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server, not a standalone retrieval or context system.
+      review_reason: null
+      review_resume_lifecycle: null

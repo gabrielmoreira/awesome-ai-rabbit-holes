@@ -50,16 +50,16 @@ metadata:
       fetched_at: "2026-07-20T05:17:22.919Z"
       bytes: 8928
 insights:
-  summary: An open-source, multi-agent AI assistant for the full DevOps lifecycle, combining RAG, tool use, and sandboxing to handle tasks from coding to deployment.
-  why_it_matters: It offers a self-hosted alternative to proprietary copilots by integrating private code repositories, knowledge graphs, and DevOps tooling into a single configurable agent platform.
-  mental_damage: Another heroic attempt to wrap LangChain in enough YAML to convince a team that 'private LLM' means 'shipped by Q3'.
+  summary: An open-source AI assistant for the entire software development lifecycle, using a multi-agent framework with DevOps toolkits, code/doc RAG, and sandboxed execution.
+  why_it_matters: It consolidates DevOps workflows (design, coding, testing, deployment, Ops) into a single AI-driven interface, reducing context-switching across disparate tools.
+  mental_damage: Finally, an assistant that promises to replace your entire DevOps stack—just don’t ask it to debug your YAML at 3 AM.
   tags:
     - multi-agent
     - devops
     - rag
-    - self-hosted
-    - private-llm
-  confidence: medium
+    - code-generation
+    - sandboxed-execution
+  confidence: high
 curation:
   status: included
   reason: The project is a developer-facing assistant that plans, writes, and tests code via a multi-agent framework and CLI/WebUI, fitting the primary coding agent definition.
@@ -69,10 +69,10 @@ curation:
     - Source list context places it in 'awesome-ai-agents' under a Code/DevOps agent section.
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (1289) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -85,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:44:33.771Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cfd0ed44bd660d1bb14db343d9af2a4cf70e3c31b5b75411ec68a074265155dd
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: The core product is a multi-agent framework coordinating DevOps workflows, not a primary coding assistant or IDE extension.
+      decision_evidence:
+        - Repo description explicitly calls it a 'Multi-Agent Framework' for the full SDLC
+        - README highlights 'Multi-Agent Schedule Core' and DevOps-specific toolkits as primary differentiators
+        - Source-list context places it in an AI agents directory under 'CodeFuse-ChatBot'
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because the product’s main value is coordinating multiple agents across DevOps workflows rather than directly editing code as a primary assistant.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

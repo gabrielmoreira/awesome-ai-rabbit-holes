@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:53.438Z"
       bytes: 7499
 insights:
-  summary: UploadKit is an open-source TypeScript SDK with 40+ React components and managed Cloudflare R2 storage for handling file uploads, including an MCP server package for AI coding assistants.
-  why_it_matters: It gives developers pre-built upload components and an MCP server so AI assistants can wire up file handling in Next.js, SvelteKit, Remix, or Vite projects without hand-rolling the plumbing.
-  mental_damage: We now have an MCP server dedicated to file uploads, because apparently telling Claude Code to handle a multipart form was the one workflow friction too far.
+  summary: Open-source TypeScript SDK and React components for file uploads with managed or BYOS storage, plus an MCP server for AI assistant integration.
+  why_it_matters: Simplifies file upload workflows for developers with pre-built components and storage flexibility, while offering AI assistant integration via MCP.
+  mental_damage: Because nothing says 'modern web dev' like spending a week choosing between 40 dropzone designs.
   tags:
-    - file-upload
-    - react
-    - mcp
-    - typescript
-    - sdk
-  confidence: medium
+    - file-uploads
+    - react-components
+    - mcp-server
+    - storage
+    - typescript-sdk
+  confidence: high
 curation:
   status: included
-  reason: The project qualifies as an MCP server for file uploads, with a dedicated @uploadkitdev/mcp package that integrates with Claude Code, Cursor, Windsurf, and Zed.
+  reason: MCP is a core part of the product identity (dedicated MCP server package and integration guide), not just a compatibility feature.
   evidence:
-    - README explicitly documents npx -y @uploadkitdev/mcp as the UploadKit MCP server for AI coding assistants
-    - Appears in awesome-mcp-servers under Server Implementations > Developer Tools
-    - Primary product is a file upload SDK, with MCP as a compatibility adapter rather than the core identity
+    - README explicitly highlights MCP server package (`@uploadkitdev/mcp`) and integration with AI assistants
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - MCP server is a first-class offering with dedicated docs and npm package
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:44.388Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:93e7b236b7eab5705044a1a677c29da54a6dfa64eae8b172126dfe2bdd379e77
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is a core part of the product identity (dedicated MCP server package and integration guide), not just a compatibility feature.
+      decision_evidence:
+        - README explicitly highlights MCP server package (`@uploadkitdev/mcp`) and integration with AI assistants
+        - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+        - MCP server is a first-class offering with dedicated docs and npm package
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity includes a dedicated MCP server for AI assistant integration, not just a code-first SDK.
+      review_reason: null
+      review_resume_lifecycle: null

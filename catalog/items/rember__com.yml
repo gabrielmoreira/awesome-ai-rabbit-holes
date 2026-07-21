@@ -1,0 +1,110 @@
+id: rember__com
+kind: website
+name: Rember
+canonical_url: https://rember.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__rember__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Rember
+        extracted_url: https://rember.com
+        surrounding_text: "- **[Rember](https://github.com/rember/rember-mcp)** - Create spaced repetition flashcards in [Rember](https://rember.com) to remember anything you learn in your chats"
+        confidence: high
+    - id: discovery__www__rember__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Rember
+        extracted_url: https://rember.com
+        surrounding_text: "- **[Rember](https://github.com/rember/rember-mcp)** - Create spaced repetition flashcards in [Rember](https://rember.com) to remember anything you learn in your chats"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Rember is an AI-powered flashcard generator that creates spaced repetition cards from various inputs and integrates with MCP-enabled chat apps.
+  why_it_matters: It helps developers and learners capture and retain technical knowledge by automating high-quality flashcard creation from diverse sources like PDFs, AI chats, and videos.
+  mental_damage: Now you can turn your entire AI chat history into a guilt-inducing backlog of things you technically learned but will never review.
+  tags:
+    - flashcards
+    - mcp
+    - learning
+    - knowledge-management
+    - spaced-repetition
+  confidence: high
+curation:
+  status: excluded
+  reason: Rember is a consumer-facing learning tool with an MCP integration, not a developer-tooling product at its core.
+  evidence:
+    - Primary product is an AI canvas for flashcards targeting learners (not developers)
+    - MCP integration is a secondary feature for capturing AI chat content
+    - Listed in awesome-mcp-servers as an MCP server, but core identity is a learning app
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:53.301Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d968e8d9ebba414bd3a405916787b894d3f357140e282a89dc9af4dc5ca47796
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Rember is a consumer-facing learning tool with an MCP integration, not a developer-tooling product at its core.
+      decision_evidence:
+        - Primary product is an AI canvas for flashcards targeting learners (not developers)
+        - MCP integration is a secondary feature for capturing AI chat content
+        - Listed in awesome-mcp-servers as an MCP server, but core identity is a learning app
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.969Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

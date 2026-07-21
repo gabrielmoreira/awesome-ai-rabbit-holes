@@ -39,23 +39,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:52.487Z"
       bytes: 1402
 insights:
-  summary: "A code companion repository for the book 'Large Language Model Practical Guide: Application Practice and Scenario Implementation', containing practical examples for fine-tuning, RAG, and building agents with LangChain and DeepSeek Coder."
-  why_it_matters: It provides developers with concrete, runnable code snippets for common LLM tasks like PEFT fine-tuning and RAG implementation that are usually just abstract theory in documentation.
-  mental_damage: Yet another reminder that while you're debugging a CSS grid, there is an entire ecosystem of people turning DeepSeek into a role-playing SQL expert in 10 lines of code.
+  summary: A Chinese-language practical guide to applied large language models covering real-world scenarios and implementation practices.
+  why_it_matters: Provides developers with structured, scenario-based learning for deploying LLMs in production-like contexts beyond toy examples.
+  mental_damage: Another comprehensive LLM guide that promises to bridge theory and practice while you wonder if any of these scenarios actually match your work.
   tags:
     - llm
-    - fine-tuning
-    - langchain
-    - rag
-    - tutorial
+    - guide
+    - applied-ai
+    - chinese-language
   confidence: high
 curation:
   status: excluded
-  reason: This is a book supplement and educational resource rather than a standalone developer tool, framework, or product.
+  reason: Excluded because it is an educational guide or media resource rather than a developer-facing tool, agent, or infrastructure product.
   evidence:
-    - Repo description identifies this as a '实战指南' (Practical Guide/Book) companion.
-    - README confirms it is a '实战部分代码汇总' (summary of combat/practical code) for a specific book.
-    - Listed in source lists under the '书籍 Book' (Books) section, not as a tool or framework.
+    - "Repo description: '大型语言模型实战指南：应用实践与场景落地' (Practical guide to LLMs: application practice and scenario implementation)"
+    - "Source-list context: Listed in awesome-LLM-resources under the '书籍 Book' section as a book/resource"
+    - No evidence of tooling, agent, framework, or product behavior—purely descriptive/educational content
 placement:
   primary_category: null
   section: null
@@ -74,12 +73,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:07.392Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:672919d197f50ef5b707524bd12151463aad7a7d36f552e4e6832ae66bd2d5bc
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Excluded because it is an educational guide or media resource rather than a developer-facing tool, agent, or infrastructure product.
+      decision_evidence:
+        - "Repo description: '大型语言模型实战指南：应用实践与场景落地' (Practical guide to LLMs: application practice and scenario implementation)"
+        - "Source-list context: Listed in awesome-LLM-resources under the '书籍 Book' section as a book/resource"
+        - No evidence of tooling, agent, framework, or product behavior—purely descriptive/educational content
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -66,15 +66,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A desktop application and local runtime for running open-weight LLMs such as Llama, Gemma, and DeepSeek privately on your own hardware.
-  why_it_matters: Developers can test, iterate on, and serve models locally with an OpenAI-compatible API and SDKs without sending code or data to external providers.
-  mental_damage: You now have a compelling reason to hoard GPUs, run 70B parameter models on a laptop that sounds like a jet engine, and explain to your team why local inference is more reliable than the cloud—until you run out of VRAM.
+  summary: LM Studio Bionic is a local-first AI agent designed for open models, targeting creativity, work, and code.
+  why_it_matters: It provides developers with a native local agent experience for coding and general productivity, reducing reliance on cloud-based alternatives.
+  mental_damage: Another agent promising to be the one ring to rule your local GPU, because apparently your IDE wasn't already crowded enough.
   tags:
     - local-ai
-    - llm
-    - inference
-    - desktop
-    - openai-compatible
+    - coding-agent
+    - open-models
+    - desktop-app
   confidence: high
 curation:
   status: included
@@ -85,10 +84,10 @@ curation:
     - Included in awesome-ai-coding-tools (Local LLM Tools) and awesome-local-ai (Inference UI), reinforcing its identity as a local AI tool.
 placement:
   primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'coding-agents'"
 processing:
   discover:
     status: done
@@ -100,12 +99,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:17.342Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ffbd39cfa7fea95e5a6c4b3a1dafb333519781fad27c65cc25921bf7f6ea53a3
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: The product is a standalone coding assistant/agent (Bionic) that developers can use as a primary assistant for local, open-model workflows, fitting the Coding Agents category.
+      decision_evidence:
+        - Site describes it as 'An Agent made for Open Models. Natively local. Built for creativity, work, and code.'
+        - Source lists categorize it under 'Local LLM Tools' and 'Inference UI', signaling developer-facing agent/tool identity
+        - Product is presented as a downloadable app (LM Studio Bionic) with developer docs and SDKs
+      category_candidates:
+        - coding-agents
+        - local-ai
+      contrastive_reason: Choose coding-agents over local-ai because the primary product identity is an agent for coding/work, not just a local runtime or serving layer.
+      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'coding-agents'"
+      review_resume_lifecycle: null

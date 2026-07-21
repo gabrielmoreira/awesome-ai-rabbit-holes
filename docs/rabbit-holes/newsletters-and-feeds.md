@@ -34,31 +34,40 @@ _These are new or low-traffic entries being watched._
   `newsletter` `langchain` `ai`
   </details>
 
-- **[Chip Huyen](https://huyenchip.com/blog)** A personal blog by Chip Huyen focused on AI system design, production MLOps, and the practical realities of building generative AI applications. <details><summary>More about</summary>
+- **[Chip Huyen](https://huyenchip.com)** Chip Huyen's personal website featuring AI system design writings, tools, and resources. <details><summary>More about</summary>
 
-  It provides deep, practitioner-focused synthesis on LLM application architecture, model routing, and production pitfalls that directly inform how developers build AI tooling.
+  Offers curated insights and micro-tools for AI production workflows from a practicing ML engineer and author.
 
-  _Yet another high-signal reading list to rotate into your 'later' tab, ensuring you feel perpetually behind on the latest production-grade architectural trend while chasing the current agent hype cycle._
+  _Another thought leader with a newsletter signup form and a 'Good AI List'—because the ecosystem wasn't fragmented enough._
 
-  `ai-system-design` `mlops` `llm-guides` `production-ai`
+  `ai-blog` `mlops-resources` `ai-system-design` `curated-tools`
   </details>
 
-- **[Langchain Blog](https://www.langchain.com/blog)** The official LangChain blog publishing tutorials, case studies, and technical insights on building AI agents with LangChain, LangGraph, and LangSmith. <details><summary>More about</summary>
+- **[Chip Huyen](https://huyenchip.com/blog)** Chip Huyen's personal blog covering AI system design, production ML, and generative AI engineering insights. <details><summary>More about</summary>
 
-  Developers building or maintaining LangChain stack applications can follow structured guides, architecture breakdowns, and real-world case studies directly from the framework maintainers.
+  Provides practical, production-focused AI engineering perspectives that help developers understand real-world constraints and architectures.
 
-  _Yet another corporate blog to add to your rotation, ensuring you never run out of reading material while your agents silently fail in production._
+  _Another blog to add to your RSS feed that you'll swear you'll read but will eventually ignore like all the others._
 
-  `langchain` `blog` `agents` `tutorials`
+  `ai-blog` `mlops` `production-ml` `system-design`
   </details>
 
-- **[Unwind AI](https://www.theunwindai.com)** A newsletter and curated digest covering daily AI agent updates, tutorials, and open-source app examples for developers building with LLMs. <details><summary>More about</summary>
+- **[Langchain Blog](https://langchain.com/blog)** The official blog of LangChain, featuring tutorials, case studies, and technical insights on building AI agents with LangSmith, Deep Agents, LangGraph, and LangChain. <details><summary>More about</summary>
 
-  It aggregates practical, runnable AI agent and RAG examples along with daily ecosystem updates, saving developers from hunting across fragmented channels.
+  Provides developers with practical guidance, updates, and deep dives into agent engineering workflows and tools within the LangChain ecosystem.
 
-  _Another daily AI digest promising to keep you current, ensuring you can feel behind on agent frameworks, context windows, and Claude.md trivia before your first coffee._
+  _Another blog to bookmark in the ever-growing graveyard of tabs you’ll never actually read._
 
-  `newsletter` `agents` `llm-apps` `tutorials` `digest`
+  `blog` `langchain` `agent-engineering` `tutorials` `case-studies`
+  </details>
+
+- **[Step-by-step tutorials on Unwind AI](https://theunwindai.com)** A newsletter and tutorial hub for AI developers, covering daily updates, agent workflows, and open-source AI tooling. <details><summary>More about</summary>
+
+  Provides curated, up-to-date insights and practical tutorials for developers building or integrating AI agents and LLM applications.
+
+  _Another feed to convince you that if you’re not shipping multi-agent systems by tomorrow, you’re already obsolete._
+
+  `newsletter` `ai-tutorials` `developer-updates` `agent-workflows`
   </details>
 
 - **[张驰: A Year Inside ByteDance's AI Lab](https://changche.substack.com/p/a-year-inside-bytedances-ai-lab)** A Substack publication detailing ByteDance's AI laboratory operations and research insights over a one-year period. <details><summary>More about</summary>

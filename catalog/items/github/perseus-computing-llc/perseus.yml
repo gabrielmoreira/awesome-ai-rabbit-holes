@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/tcconnally/perseus
         surrounding_text: "- [tcconnally/perseus](https://github.com/tcconnally/perseus) [![tcconnally/perseus MCP server](https://glama.ai/mcp/servers/tcconnally/perseus/badges/score.svg)](https://glama.ai/mcp/servers/tcconnally/perseus) 🐍 - Compile-before-context MCP server with 13 tools. Pre-resolves workspace state (git, services, file ops, memory federation, multi-agent coordination) into markdown briefings. Single-file Python, MIT. Published as io.github.tcconnally/perseus."
         confidence: high
+    - id: discovery__github__tcconnally__perseus__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-06-08T05:39:05.247Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: tcconnally/perseus
+        extracted_url: https://github.com/tcconnally/perseus
+        surrounding_text: "- [tcconnally/perseus](https://github.com/tcconnally/perseus) [![tcconnally/perseus MCP server](https://glama.ai/mcp/servers/tcconnally/perseus/badges/score.svg)](https://glama.ai/mcp/servers/tcconnally/perseus) 🐍 - Compile-before-context MCP server with 13 tools. Pre-resolves workspace state (git, services, file ops, memory federation, multi-agent coordination) into markdown briefings. Single-file Python, MIT. Published as io.github.tcconnally/perseus."
+        confidence: high
 metadata:
   github:
     stars: 22
@@ -31,7 +47,7 @@ metadata:
     full_name: Perseus-Computing-LLC/perseus
     html_url: https://github.com/Perseus-Computing-LLC/perseus
     created_at: "2026-05-18T11:59:16Z"
-    pushed_at: "2026-07-19T19:44:46Z"
+    pushed_at: "2026-07-21T03:06:43Z"
     description: "The memory & context layer for AI agents: load only the context they actually need. Resolves live workspace state into verified facts before the context window opens. 94% fewer prompt tokens, 0 ms overhead, 33 MCP tools. Local-first, MIT. pip install perseus-ctx"
     homepage: https://perseus.observer/
     topics:
@@ -51,9 +67,9 @@ metadata:
       - perseus
       - python
       - workspace-context
-    last_checked_at: "2026-07-20T16:42:32.699Z"
+    last_checked_at: "2026-07-21T15:20:41.501Z"
     readme:
-      fetched_at: "2026-07-20T16:42:32.699Z"
+      fetched_at: "2026-07-21T15:20:41.501Z"
       bytes: 46969
 insights:
   summary: null
@@ -72,6 +88,14 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.825Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0
   discover:
     status: done
     updated_at: "2026-06-18T05:40:04.066Z"
@@ -79,14 +103,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:32.699Z"
+    updated_at: "2026-07-21T15:20:41.501Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:44:20.888Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:44:20.887Z"
-    attempts: 0

@@ -67,15 +67,15 @@ metadata:
       fetched_at: "2026-07-16T05:04:51.283Z"
       bytes: 9319
 insights:
-  summary: Minima is an open-source, on-premises RAG (Retrieval-Augmented Generation) system that runs as configurable Docker containers, allowing developers to query local documents using local LLMs, ChatGPT, or Claude via MCP integration.
-  why_it_matters: It offers a self-contained, privacy-first infrastructure for indexing and querying local codebases or documentation using your choice of local models or external APIs.
-  mental_damage: Yet another 'run it locally with Docker' RAG setup that forces you to choose between debugging docker-compose errors or just pasting the file into ChatGPT like a civilized animal.
+  summary: On-premises conversational RAG system with configurable containers, supporting local LLMs, custom APIs, ChatGPT, and MCP integration.
+  why_it_matters: Developers can self-host a full RAG pipeline with their own data and models, avoiding cloud dependencies while integrating with popular AI assistants.
+  mental_damage: Finally, a way to make your local documents searchable without handing them to every SaaS with a free tier.
   tags:
     - rag
-    - local-ai
+    - self-hosted
     - mcp
+    - local-ai
     - docker
-    - on-premises
   confidence: high
 curation:
   status: included
@@ -86,10 +86,10 @@ curation:
     - Includes an MCP server mode for integration with Claude Desktop, acting as a local serving layer.
 placement:
   primary_category: local-ai
-  section: Local Serving / APIs
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (1047) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'context-engineering'"
 processing:
   discover:
     status: done
@@ -102,12 +102,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:20.242Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1180779b019d3db258cf946a27a253c16f2189f9b564fdda3fe51e3c7c78a5ee
+      proposed_primary_category: context-engineering
+      disagreement: true
+      decision_reason: Core product is a retrieval/embedding pipeline for local documents, fitting context engineering despite MCP compatibility.
+      decision_evidence:
+        - "Repo description: 'On-premises conversational RAG with configurable containers'"
+        - README lists four modes centered on indexing/local retrieval with various LLM backends
+        - Appears in awesome-mcp-servers under Community Servers (MCP is a feature, not the identity)
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the primary identity is a RAG/retrieval system, with MCP as an integration option rather than the core product.
+      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'context-engineering'"
+      review_resume_lifecycle: null

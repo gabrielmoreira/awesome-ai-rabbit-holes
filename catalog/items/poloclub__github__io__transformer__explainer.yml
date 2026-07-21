@@ -36,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An interactive, browser-based visualization tool that runs a live GPT-2 (small) model to demonstrate how transformer architectures process input and generate output.
-  why_it_matters: It lets developers visually trace the transformer pipeline from tokenization to attention maps to output probabilities, making the inner workings of LLMs tangible without setting up a local training environment.
-  mental_damage: Finally, a way to visually confirm that the black box is indeed just matrix multiplications all the way down, right before you prompt an LLM to write code you won't bother to understand.
+  summary: An interactive visualization tool that explains how transformer models (like GPT) work by demonstrating tokenization, attention mechanisms, and next-token prediction in a live GPT-2 model.
+  why_it_matters: Helps developers intuitively grasp the internals of transformer architectures, which is foundational for debugging, fine-tuning, or building with LLMs.
+  mental_damage: Finally, a way to see why your model hallucinates—just watch the attention heads ignore your prompt entirely.
   tags:
+    - education
     - transformers
     - visualization
-    - education
-    - llm-internals
+    - gpt-2
+    - interactive
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational visualization and interactive tutorial for ML architecture concepts, not a developer tool, agent, framework, or infrastructure component.
+  reason: This is an educational visualization tool for understanding transformer internals, not a developer tool for building, integrating, or operating AI workflows.
   evidence:
-    - Scraped site context describes it as 'An interactive visualization tool showing you how transformer models work' rather than a coding tool.
-    - The README excerpt focuses entirely on explaining embedding, attention mechanisms, and MLP layers as a learning resource.
-    - Seen in source lists under a 'Course' section for LLM resources, signaling an educational rather than tooling purpose.
+    - Primary product is an interactive explainer for transformer architecture (GPT-2) with no coding/agent/workflow utility
+    - Source-list context places it under 'Course' (educational) rather than developer tooling
+    - No evidence of repo activity, stars, or developer-facing integration
 placement:
   primary_category: null
   section: null
@@ -71,12 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:36.599Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:01a40e64b00fd3d884248becbfa666aad780f986bd0e68eb42e6ac1bc25bc6ce
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational visualization tool for understanding transformer internals, not a developer tool for building, integrating, or operating AI workflows.
+      decision_evidence:
+        - Primary product is an interactive explainer for transformer architecture (GPT-2) with no coding/agent/workflow utility
+        - Source-list context places it under 'Course' (educational) rather than developer tooling
+        - No evidence of repo activity, stars, or developer-facing integration
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

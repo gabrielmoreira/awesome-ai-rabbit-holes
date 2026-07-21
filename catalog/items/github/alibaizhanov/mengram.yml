@@ -75,22 +75,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:57.997Z"
       bytes: 18365
 insights:
-  summary: A memory layer for AI agents providing semantic, episodic, and procedural memory with Python and JS SDKs, including automatic Claude Code hooks and integrations for LangChain, CrewAI, and MCP.
-  why_it_matters: It gives agents a structured way to learn from past failures and recall context across sessions, aiming to solve the amnesia problem in long-running developer workflows.
-  mental_damage: We have finally built a system that remembers every deployment mistake you made last month, just in case you wanted to feel bad about them again.
+  summary: A memory system for AI agents offering semantic, episodic, and procedural memory with Python/JS SDKs and integrations for LangChain, CrewAI, and MCP.
+  why_it_matters: Developers can give their agents persistent, evolving memory (including workflows that learn from failures) without building retrieval or context systems from scratch.
+  mental_damage: Finally, an AI that remembers your tech stack but still forgets why you chose it.
   tags:
-    - memory-layer
-    - agent-infra
-    - context
-    - sdk
+    - agent-memory
+    - context-engineering
+    - mcp-compatible
+    - langchain-integration
+    - procedural-learning
   confidence: high
 curation:
   status: included
-  reason: The core product is a memory and context system (semantic, episodic, procedural) for agents, fitting Prompt & Context Engineering even though it ships Claude Code hooks.
+  reason: Core novelty is memory infrastructure (semantic/episodic/procedural) and context management, not host integration or primary coding assistance.
   evidence:
-    - Repo description explicitly lists 'Human-like memory for AI agents — semantic, episodic & procedural'.
-    - README highlights memory types as the main innovation and includes SDKs plus Claude Code hooks for auto-recall.
-    - Topics include ai-memory, episodic-memory, procedural-memory, and mcp-server, aligning with context/memory infra.
+    - Repo description explicitly frames it as 'Human-like memory for AI agents' with semantic/episodic/procedural types
+    - README highlights memory as primary value (cognitive profiles, auto-save/recall, failure-driven procedure evolution)
+    - Integrations (LangChain, CrewAI, MCP) are secondary to the memory system itself
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -109,12 +110,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:12.012Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:eedacb676ead5445afcac4c32284c016e090d4ea7a22820abc4aef99e83dce4f
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: Core novelty is memory infrastructure (semantic/episodic/procedural) and context management, not host integration or primary coding assistance.
+      decision_evidence:
+        - Repo description explicitly frames it as 'Human-like memory for AI agents' with semantic/episodic/procedural types
+        - README highlights memory as primary value (cognitive profiles, auto-save/recall, failure-driven procedure evolution)
+        - Integrations (LangChain, CrewAI, MCP) are secondary to the memory system itself
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core product is the memory system itself, not an integration layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

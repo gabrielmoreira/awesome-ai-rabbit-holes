@@ -41,23 +41,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:03.379Z"
       bytes: 56287
 insights:
-  summary: RAG-Anything is a Python framework for building multimodal retrieval-augmented generation pipelines that process text, images, tables, and equations.
-  why_it_matters: It provides developers with a unified, code-first toolkit to ingest and query complex multimodal documents within their own AI applications.
-  mental_damage: Now you can over-engineer your context pipeline to hallucinate just as confidently about diagrams and LaTeX equations as it does about your codebase.
+  summary: RAG-Anything is an all-in-one RAG framework for multi-modal retrieval-augmented generation.
+  why_it_matters: It provides developers with a unified framework to integrate retrieval-augmented generation into applications, simplifying the process of enhancing LLMs with external knowledge.
+  mental_damage: Because nothing says 'production-ready' like a framework that promises to RAG anything, including your sanity.
   tags:
     - rag
-    - multimodal
-    - python
+    - multi-modal
+    - retrieval-augmented-generation
     - framework
-    - retrieval
   confidence: high
 curation:
   status: included
-  reason: This is a code-first Python library for building RAG pipelines, fitting squarely into Frameworks & SDKs as a retrieval infrastructure tool rather than a coding assistant or orchestration platform.
+  reason: The project is a code-first framework for RAG workflows, fitting the developer-tooling scope as a reusable building block for AI applications.
   evidence:
-    - Repo description explicitly calls it an 'All-in-One RAG Framework'.
-    - README highlights Python 3.10 support, PyPI package (raganything), and building on LightRAG.
-    - GitHub topics include 'multi-modal-rag' and 'retrieval-augmented-generation', with 19k+ stars showing strong ecosystem traction.
+    - "Repo description: 'RAG-Anything: All-in-One RAG Framework'"
+    - Topics include multi-modal-rag and retrieval-augmented-generation
+    - High star count (22302) and active development (pushed recently)
 placement:
   primary_category: ai-frameworks
   section: Memory / Retrieval Infrastructure
@@ -76,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:56.172Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:41e36d45aee4a0e4415d307ef114583adbff3c98e6feb1c0c56346d4a9b03992
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The project is a code-first framework for RAG workflows, fitting the developer-tooling scope as a reusable building block for AI applications.
+      decision_evidence:
+        - "Repo description: 'RAG-Anything: All-in-One RAG Framework'"
+        - Topics include multi-modal-rag and retrieval-augmented-generation
+        - High star count (22302) and active development (pushed recently)
+      category_candidates:
+        - ai-frameworks
+        - context-engineering
+      contrastive_reason: Choose ai-frameworks over context-engineering because the primary identity is a reusable RAG framework for developers, not a context management system.
+      review_reason: null
+      review_resume_lifecycle: null

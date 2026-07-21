@@ -39,22 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:15.620Z"
       bytes: 5777
 insights:
-  summary: A fork of Mailpit that adds Postmark API emulation and an MCP server so AI assistants can list, search, and analyze test emails.
-  why_it_matters: It lets agents inspect email flows directly during development, closing the gap between sending messages and debugging them in AI-assisted workflows.
-  mental_damage: We have successfully MCP’d email testing, meaning your coding agent can now debug your password reset flow while you wonder when you became the sidecar in your own stack.
+  summary: MailSandbox is a lightweight email testing tool with SMTP, web UI, Postmark API emulation, and an MCP server for AI-assisted debugging.
+  why_it_matters: Developers can test email workflows locally with AI-powered message analysis via MCP, replacing cloud services during development.
+  mental_damage: Now your AI can debug your emails before your users do, because apparently even SMTP needs a copilot.
   tags:
-    - mcp
     - email-testing
+    - mcp-server
+    - smtp
+    - postmark
     - debugging
-    - developer-tools
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The product is primarily an email testing tool that exposes its core functionality through an MCP server, making MCP the main developer-facing identity for AI workflows.
+  reason: MCP is the primary product identity here (MCP server for AI-assisted debugging), and the tool is explicitly positioned as an MCP server in its README and source-list context.
   evidence:
-    - Repo description explicitly calls it 'a fast, zero-dependency email testing tool & API … with MCP server for AI-assisted debugging'
-    - README documents MCP tools (list_messages, get_message, search_messages, analyze_message) as a first-class feature for AI assistants
-    - Listed in awesome-mcp-servers under 'Official Servers', confirming MCP is the community-adopted framing
+    - Repo description explicitly mentions MCP server for AI-assisted debugging
+    - README details MCP server setup and tools (list_messages, get_message, etc.)
+    - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:34:36.419Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e1e0420944e00346ded9ad38aaec66a0f9a03a0d2cfbc695caf5a478181916e9
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the primary product identity here (MCP server for AI-assisted debugging), and the tool is explicitly positioned as an MCP server in its README and source-list context.
+      decision_evidence:
+        - Repo description explicitly mentions MCP server for AI-assisted debugging
+        - README details MCP server setup and tools (list_messages, get_message, etc.)
+        - Listed in awesome-mcp-servers under Official Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is the MCP server itself, not just an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

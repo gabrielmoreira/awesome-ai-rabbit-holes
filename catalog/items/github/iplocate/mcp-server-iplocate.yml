@@ -70,23 +70,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:14.797Z"
       bytes: 9463
 insights:
-  summary: An MCP server that exposes IP address geolocation, network information, privacy detection, and abuse contact lookups via the IPLocate.io API to compatible MCP clients like Cursor and Claude Desktop.
-  why_it_matters: Developers can offload IP intelligence tasks—like verifying geolocation or flagging VPNs—directly into their coding assistant workflows without leaving the editor.
-  mental_damage: We have successfully reached the point where an AI assistant needs a dedicated protocol server just to figure out that 8.8.8.8 is in the United States.
+  summary: MCP server for IP address geolocation, network info, proxy/VPN detection, and abuse contacts via the IPLocate.io API.
+  why_it_matters: Lets developers query IP intelligence directly from MCP-compatible clients like Cursor or Claude Desktop without leaving their workflow.
+  mental_damage: Now your AI assistant can judge your users by their IP addresses too.
   tags:
     - mcp
     - ip-geolocation
-    - network-tools
-    - cursor
-    - claude-desktop
+    - network-intelligence
+    - security-lookup
   confidence: high
 curation:
   status: included
-  reason: The product's sole identity is an MCP server providing IP intelligence tools, fitting cleanly into the MCP Servers & Tooling category.
+  reason: "MCP is the product identity: this is a dedicated MCP server providing IP intelligence tools."
   evidence:
-    - Repo description explicitly states 'MCP server for looking up IP address geolocation'.
-    - README details integration with Cursor, Claude Desktop, and VS Code via MCP configuration.
-    - Included in multiple awesome-mcp-server lists under Location Services sections.
+    - Repo description explicitly identifies it as an MCP server for IPLocate.io
+    - README details MCP client configuration (Cursor, Claude Desktop, VS Code) and MCP-specific tools/prompts
+    - Already listed in two MCP-focused awesome lists under Location Services/Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -105,12 +104,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:35.202Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6e7045bc87bd291c1dd09cc16dcff0ba96d4a4e3eaa09687d7e055bb614abcf1
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing IP intelligence tools."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for IPLocate.io
+        - README details MCP client configuration (Cursor, Claude Desktop, VS Code) and MCP-specific tools/prompts
+        - Already listed in two MCP-focused awesome lists under Location Services/Official Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain-specific tools, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -60,23 +60,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:06.452Z"
       bytes: 8511
 insights:
-  summary: A self-hosted MCP server written in Go that exposes archived Telegram chat history, messages, and statistics to LLMs via JSON-RPC.
-  why_it_matters: Developers can give coding agents and local assistants direct, searchable access to their Telegram archives for context-aware workflows.
-  mental_damage: We have finally reached the point where your AI assistant can trauma-dump your own 40,000-message Telegram history back at you at 2am.
+  summary: An MCP server that enables LLMs to search, browse, and access archived Telegram history via a Telegram-Archive instance.
+  why_it_matters: It allows AI agents to treat your chat archives as a structured knowledge source for searching messages and browsing chat history.
+  mental_damage: Because apparently, your LLM needs to know exactly what you were arguing about in a group chat three years ago.
   tags:
     - mcp
     - telegram
-    - self-hosted
-    - go
-    - context
+    - mcp-server
+    - chat-history
+    - search
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose primary identity is exposing Telegram archive data to LLMs via the Model Context Protocol.
+  reason: The project's primary identity is an MCP server serving a specific domain (Telegram archives).
   evidence:
-    - "Repo description explicitly states: 'MCP Server for Telegram-Archive — search messages, browse chats, and access archived Telegram history via MCP'."
-    - "README confirms: 'A tiny bridge that exposes any Telegram-Archive instance as an MCP server, enabling LLMs to search messages, browse chats, and access archived Telegram history.'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication', reinforcing its MCP server identity.
+    - Repo description explicitly defines it as an 'MCP Server for Telegram-Archive'
+    - README identifies it as a 'tiny bridge' that exposes Telegram-Archive via MCP
+    - Implementation uses JSON-RPC over stdio/HTTP for MCP transport
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:01:21.562Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f106bc73bb7d7ba7cc307a644e0b815dfb44badfa495bac092dcf0cc92837c36
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server serving a specific domain (Telegram archives).
+      decision_evidence:
+        - Repo description explicitly defines it as an 'MCP Server for Telegram-Archive'
+        - README identifies it as a 'tiny bridge' that exposes Telegram-Archive via MCP
+        - Implementation uses JSON-RPC over stdio/HTTP for MCP transport
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity and value proposition is providing an MCP interface for a specific data domain.
+      review_reason: null
+      review_resume_lifecycle: null

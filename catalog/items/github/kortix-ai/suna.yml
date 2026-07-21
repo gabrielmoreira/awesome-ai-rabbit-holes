@@ -42,26 +42,25 @@ metadata:
       fetched_at: "2026-07-20T15:11:36.910Z"
       bytes: 9803
 insights:
-  summary: An open-source autonomous company operating system that provides a persistent Linux sandbox where AI agents can run 24/7 to handle coding, APIs, documents, and business operations with shared context and memory.
-  why_it_matters: It offers developers a way to run persistent, multi-agent workflows on a shared Linux machine with full filesystem access, bash, and 3,000+ integrations instead of isolated chat sessions.
-  mental_damage: We have finally built a Linux box where the agents can toil endlessly while we pretend that giving them root and a bash shell counts as 'running a company'.
+  summary: A company AI command center for coordinating and managing AI agents and workflows.
+  why_it_matters: It provides a centralized platform for developers to orchestrate multiple AI agents and workflows, streamlining complex AI-driven processes.
+  mental_damage: Because nothing says 'productivity' like needing a command center to manage the tools that were supposed to manage your work.
   tags:
-    - agents
-    - linux
-    - automation
-    - multi-agent
-    - self-hosted
+    - ai-agents
+    - orchestration
+    - workflow
+    - command-center
   confidence: high
 curation:
   status: included
-  reason: The product is positioned as a runtime platform and 'operating system' for coordinating multiple autonomous agents across business functions, not as a single coding assistant.
+  reason: The product is a workbench/control plane for coordinating multiple agents, which aligns with the agent-orchestration category's focus on multi-agent coordination and operated platforms.
   evidence:
-    - Repo description explicitly calls it 'The Autonomous Company Operating System', not a coding assistant.
-    - README states it is a 'cloud computer where AI agents do the actual work of running a company' with shared filesystem, databases, and persistent memory.
-    - The agent runtime relies on OpenCode, making Kortix an orchestration and hosting platform rather than the assistant itself.
+    - "Repo description: 'The Company AI Command Center'"
+    - "Source-list context: listed under '智能体 Agents' (Agents) in awesome-LLM-resources"
+    - "High star count (20004) and recent activity (pushed_at: 2026-07-20)"
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (19718) exceeded threshold (150)
@@ -77,12 +76,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:06.375Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:22a8f4380ece442798e4573ffad959898fe75e3bd905b22a4ed2b2c469572a03
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a workbench/control plane for coordinating multiple agents, which aligns with the agent-orchestration category's focus on multi-agent coordination and operated platforms.
+      decision_evidence:
+        - "Repo description: 'The Company AI Command Center'"
+        - "Source-list context: listed under '智能体 Agents' (Agents) in awesome-LLM-resources"
+        - "High star count (20004) and recent activity (pushed_at: 2026-07-20)"
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated workbench/control plane rather than a code-first library or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

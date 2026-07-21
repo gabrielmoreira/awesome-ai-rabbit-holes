@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:32.895Z"
       bytes: 4166
 insights:
-  summary: An MCP server that captures and stores local development checkpoints (what you were doing, what's next, which files matter) to help AI coding assistants reorient after context is lost.
-  why_it_matters: It reduces the friction of re-explaining context to AI assistants after time away by auto-capturing session state on git commits, branch switches, and inactivity.
-  mental_damage: Another layer of infrastructure dedicated to solving the fact that your AI pair programmer has the short-term memory of a goldfish on a commit bender.
+  summary: An MCP server that provides project memory for AI coding assistants by auto-capturing and retrieving development checkpoints.
+  why_it_matters: It solves the pain of re-onboarding an AI assistant to a project after interruptions by preserving context like last actions, next steps, and blockers.
+  mental_damage: Finally, an AI that remembers what you were doing before you got distracted by the 17th new AI tool announcement.
   tags:
     - mcp
-    - memory
-    - context
-    - local-first
-  confidence: medium
+    - project-memory
+    - context-persistence
+    - ai-assistant
+  confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for project memory that integrates with Claude Code, Cursor, and Windsurf, making MCP its primary identity.
+  reason: MCP is the product identity here—a server that exposes tools for project memory, not just a compatibility feature.
   evidence:
-    - "Repo description states: 'KeepGoing MCP server - Project memory for AI coding assistants'"
-    - "README confirms: 'MCP server for KeepGoing.dev' with setup instructions for Claude Code, Cursor, and Windsurf"
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section
+    - Repo description explicitly calls it an MCP server
+    - README details MCP server setup and tools like get_momentum and get_reentry_briefing
+    - Integration instructions are MCP-first (Claude Code, Cursor, etc.)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:16.155Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7e1b9515fe49c4d54680d9f2a3226a8c5e6e91c0028751cbd42b5be137d86552
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a server that exposes tools for project memory, not just a compatibility feature.
+      decision_evidence:
+        - Repo description explicitly calls it an MCP server
+        - README details MCP server setup and tools like get_momentum and get_reentry_briefing
+        - Integration instructions are MCP-first (Claude Code, Cursor, etc.)
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product is an MCP server exposing memory tools, not a standalone context system.
+      review_reason: null
+      review_resume_lifecycle: null

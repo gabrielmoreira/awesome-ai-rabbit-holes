@@ -24,19 +24,37 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: zzhang82/Agent-Memory-Bridge
+    html_url: https://github.com/zzhang82/Agent-Memory-Bridge
+    created_at: "2026-04-05T23:32:04Z"
+    pushed_at: "2026-07-21T06:48:41Z"
+    description: Persistent engineering memory for coding agents over MCP.
+    homepage: https://glama.ai/mcp/servers/zzhang82/Agent-Memory-Bridge
+    topics:
+      - agent-memory
+      - ai-agents
+      - claude
+      - cline
+      - codex
+      - coding-agents
+      - cursor
+      - developer-tools
+      - llm
+      - local-first
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - persistent-memory
+      - python
+      - sqlite
+    last_checked_at: "2026-07-21T15:21:30.113Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:30.113Z"
+      bytes: 23992
 insights:
   summary: null
   why_it_matters: null
@@ -60,15 +78,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-12T15:06:48.287Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for zzhang82/agent-memory-bridge
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-21T15:21:30.113Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

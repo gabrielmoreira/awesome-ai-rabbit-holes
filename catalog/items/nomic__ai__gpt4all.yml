@@ -81,23 +81,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A desktop application and runtime for running open-source large language models locally on Windows, macOS, and Linux with support for local document chat.
-  why_it_matters: Developers can run, test, and build against LLMs entirely on their own hardware without cloud dependencies or data privacy trade-offs.
-  mental_damage: You can now host a full AI stack on your laptop, provided you enjoy the familiar ritual of waiting for open-source models to tokenize at the speed of a caffeinated snail.
+  summary: A desktop application for running open-source AI models locally on Windows, macOS, and Linux with full customization and document chat capabilities.
+  why_it_matters: Enables developers to run and experiment with LLMs privately on their own hardware without cloud dependency or data leakage.
+  mental_damage: Finally, a way to run models locally without your laptop sounding like a jet engine—until you actually try it.
   tags:
-    - desktop
-    - llm
     - local-ai
-    - offline
+    - desktop
     - privacy
+    - llm-runtime
   confidence: high
 curation:
   status: included
-  reason: The product’s primary identity is a local desktop app and runtime for running LLMs on your own device, which is a canonical fit for the Local AI category.
+  reason: Core identity is a local runtime/desktop app for on-device inference, aligning with the Local AI category's focus on private, self-hosted execution.
   evidence:
-    - "Scraped site title and description: 'GPT4All - Private & Local AI Chatbot' that runs open-source AI models locally on your device."
-    - About text states it 'runs open-source language models on Windows, macOS, and Linux' with local document chat and model customization.
-    - Included in awesome-local-ai under 'Inference UI' and awesome-ai-coding-tools under 'Local LLM Tools' as a local execution tool.
+    - Site description explicitly states 'Run open-source AI models locally on your device' with no cloud required
+    - Source lists categorize it under 'Local LLM Tools' and 'Inference UI'
+    - Product positioning emphasizes local execution, privacy, and developer control
 placement:
   primary_category: local-ai
   section: Desktop Chat / Interfaces
@@ -106,15 +105,31 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:35:42.469Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3630a198e2d4acfdc8258d4d5eb88dfc3441c8cde29b5bee759d2f3f9327cfb5
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: Core identity is a local runtime/desktop app for on-device inference, aligning with the Local AI category's focus on private, self-hosted execution.
+      decision_evidence:
+        - Site description explicitly states 'Run open-source AI models locally on your device' with no cloud required
+        - Source lists categorize it under 'Local LLM Tools' and 'Inference UI'
+        - Product positioning emphasizes local execution, privacy, and developer control
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because the primary value is the end-user desktop app for local inference, not a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T15:10:47.687Z"

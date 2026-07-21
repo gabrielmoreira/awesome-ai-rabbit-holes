@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:04.356Z"
       bytes: 10151
 insights:
-  summary: An MCP server that exposes institutional-grade cryptocurrency orderbook data and market microstructure analysis to AI agents for real-time trading decisions.
-  why_it_matters: It gives AI trading agents low-latency access to Level 2 orderbook physics and liquidity metrics that were previously locked behind expensive institutional terminals.
-  mental_damage: Your AI agent can now confidently detect whale spoofing and liquidity collapses in 29 milliseconds, right before it panic-sells your entire portfolio at a loss.
+  summary: MCP server providing institutional-grade market microstructure and orderflow data for AI trading agents.
+  why_it_matters: Gives AI trading agents real-time, physics-based market intelligence (e.g., orderbook depth, liquidity collapses) instead of lagging indicators.
+  mental_damage: Now your AI trading agent can panic about liquidity collapses faster than you can.
   tags:
     - mcp-server
     - trading
     - orderflow
-    - finance
-    - crypto
+    - quantitative-finance
+    - institutional-data
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server providing market microstructure data to AI agents, fitting cleanly into the MCP Servers & Tooling category.
+  reason: "MCP is the product identity: this is a dedicated MCP server for a specific domain (trading/market data)."
   evidence:
-    - Repo description explicitly states 'Official MCP server for Horus Flow Intelligence'
-    - README positions it as 'A True Market Gravity Engine for Autonomous AI Agents' with 'Native MCP (Plug & Play)' integration
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' section
+    - Repo description explicitly calls it an 'Official MCP server for Horus Flow Intelligence'
+    - README emphasizes MCP readiness and integration as core value
+    - Topics include 'mcp' and 'mcp-server'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:01.997Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1268e538332ee3b34d5e1bd3dec214e3236b805177dc07030aa0e2cedbbe2b46
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for a specific domain (trading/market data)."
+      decision_evidence:
+        - Repo description explicitly calls it an 'Official MCP server for Horus Flow Intelligence'
+        - README emphasizes MCP readiness and integration as core value
+        - Topics include 'mcp' and 'mcp-server'
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server (domain-specific infrastructure) rather than a code-first SDK or framework.
+      review_reason: null
+      review_resume_lifecycle: null

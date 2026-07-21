@@ -60,23 +60,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:01.957Z"
       bytes: 16443
 insights:
-  summary: An MCP server that provides historical stock market data, company profiles, and visualizations from exchanges including NYSE, NASDAQ, LSE, HKEX, Borsa Istanbul, and Moscow Exchange.
-  why_it_matters: Developers building financial AI agents can give their models structured, queryable access to multi-exchange market data without building custom scrapers or API wrappers.
-  mental_damage: Another MCP server appears in the registry, offering your agent the ability to day-trade while it still can't reliably fix a missing semicolon.
+  summary: An MCP server providing historical stock market data from US, UK, Russian, and Turkish exchanges.
+  why_it_matters: Enables LLMs to access real-time and historical financial datasets via the Model Context Protocol for automated financial analysis.
+  mental_damage: Another specialized data pipe to connect to your agent, ensuring your LLM can hallucinate market trends with high-fidelity historical data.
   tags:
     - mcp
-    - finance
+    - financial-data
     - stock-market
-    - data-access
-    - domain-server
+    - ai-agents
+    - data-integration
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server exposing financial market data tools and an HTTP API for GPT Actions and Claude Desktop integration.
+  reason: The tool's identity is a domain-specific MCP server designed to provide structured market data to LLM hosts.
   evidence:
-    - Repo description explicitly states 'The finmap.org MCP server provides comprehensive historical data...'
-    - Provides Claude Desktop configuration examples and a GPT Actions schema, confirming MCP is the primary interface
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its identity as a domain-specific MCP server
+    - README explicitly offers an MCP server configuration for Claude Desktop
+    - Product provides specialized financial data tools (list_exchange_sectors, etc.) via MCP
+    - Main identity is an MCP server provider, not a coding assistant or framework
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:56:46.705Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:efc5ac4369a276c0d84c43be407c576c9bd07bcade31a3e70ac32ff7836b832b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's identity is a domain-specific MCP server designed to provide structured market data to LLM hosts.
+      decision_evidence:
+        - README explicitly offers an MCP server configuration for Claude Desktop
+        - Product provides specialized financial data tools (list_exchange_sectors, etc.) via MCP
+        - Main identity is an MCP server provider, not a coding assistant or framework
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is an MCP server implementation rather than an integration designed to augment a specific coding assistant's existing UI.
+      review_reason: null
+      review_resume_lifecycle: null

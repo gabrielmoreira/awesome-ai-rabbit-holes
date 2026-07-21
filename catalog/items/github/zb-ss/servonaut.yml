@@ -24,19 +24,36 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 20
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: zb-ss/servonaut
+    html_url: https://github.com/zb-ss/servonaut
+    created_at: "2025-04-06T17:52:37Z"
+    pushed_at: "2026-07-18T22:18:43Z"
+    description: Manage AWS, Hetzner, OVH, and custom servers from one TUI — with a built-in AI assistant and MCP server
+    homepage: ""
+    topics:
+      - ai-agent
+      - aws
+      - cli
+      - devops
+      - hetzner
+      - mcp
+      - model-context-protocol
+      - ovh
+      - python
+      - server-management
+      - sre
+      - ssh
+      - terminal
+      - textual
+      - tui
+    last_checked_at: "2026-07-21T15:21:25.559Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:25.559Z"
+      bytes: 33892
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +77,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:21:25.559Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

@@ -71,23 +71,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:24.780Z"
       bytes: 26071
 insights:
-  summary: AnythingLLM is a self-hosted, privacy-focused desktop and server application that lets developers chat with local or cloud LLMs over their own documents using built-in RAG pipelines, vector databases, and configurable AI agents.
-  why_it_matters: It gives developers a private, all-in-one local workspace for document-grounded chat and lightweight agent workflows without wiring together separate LLM, embedding, and vector stores.
-  mental_damage: Yet another miracle app promising to be your private ChatGPT, assuming you have miraculously solved the local model, RAM, and prompt-wrangling treadmill already.
+  summary: AnythingLLM is an all-in-one local-first AI application for private document chatting, agent workflows, and multi-user LLM interaction with minimal setup.
+  why_it_matters: It lets developers run a self-hosted, privacy-preserving AI stack for document RAG and agent automation without managing infrastructure complexity.
+  mental_damage: Yet another 'private ChatGPT' wrapper that quietly hopes you don’t notice it’s just LangChain + a nice Electron shell.
   tags:
     - local-ai
     - rag
-    - llm
+    - ai-agents
     - self-hosted
-    - agents
   confidence: high
 curation:
   status: included
-  reason: The product’s core identity is a local-first desktop and self-hosted chat interface for private LLM workflows, which aligns directly with the Local AI category and its Desktop Chat / Interfaces section.
+  reason: It is primarily a self-hosted desktop application enabling local LLM interaction with documents and agents, making local execution central to its identity rather than coding assistance or agent orchestration.
   evidence:
-    - "Repo description: 'The all-in-one AI productivity accelerator. On device and privacy first with no annoying setup or configuration.'"
-    - "README: 'Chat with your docs. Automate complex workflows with AI Agents. Hyper-configurable, multi-user ready, battle-tested—and runs locally by default with zero setup friction.'"
-    - Topics include local-llm, ollama, rag, vector-database, and mcp, reinforcing the local/private execution identity.
+    - "Repo description: 'Everything you need for a powerful local-first agent experience'"
+    - "README: 'Chat with your docs... runs locally by default with zero setup friction' and 'Download Now' for Mac/Windows/Linux desktop"
+    - "Topics include: local-ai, localai, self-hosted-ai, vector-database, rag"
 placement:
   primary_category: local-ai
   section: Desktop Chat / Interfaces
@@ -106,12 +105,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:21:33.745Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:abeb74ecc8c3ae95df214cf76f43e2118be87c5d930f51472bf94282e1849f35
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: It is primarily a self-hosted desktop application enabling local LLM interaction with documents and agents, making local execution central to its identity rather than coding assistance or agent orchestration.
+      decision_evidence:
+        - "Repo description: 'Everything you need for a powerful local-first agent experience'"
+        - "README: 'Chat with your docs... runs locally by default with zero setup friction' and 'Download Now' for Mac/Windows/Linux desktop"
+        - "Topics include: local-ai, localai, self-hosted-ai, vector-database, rag"
+      category_candidates:
+        - local-ai
+        - agent-orchestration
+      contrastive_reason: Choose local-ai over agent-orchestration because the product is a desktop chat interface for local LLM use rather than a multi-agent coordination workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,25 +40,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:20.832Z"
       bytes: 1737
 insights:
-  summary: An MCP server that bridges local Ollama LLM instances with MCP-compatible clients like Claude Desktop.
-  why_it_matters: It allows developers to use their locally running Ollama models as a backend for MCP-capable coding assistants instead of relying on cloud APIs.
-  mental_damage: Yet another layer in the stack where we tunnel a local model through a protocol bridge so we can whisper to an assistant that tunnels back to the model.
+  summary: An MCP server that bridges local Ollama LLM instances to MCP clients like Claude Desktop.
+  why_it_matters: It enables developers to use locally hosted Ollama models as part of their MCP-enabled workflows without relying on cloud providers.
+  mental_damage: Now you can argue with your local model about why it keeps hallucinating your own codebase.
   tags:
     - mcp
     - ollama
     - local-ai
     - bridge
+    - claude-desktop
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server implementation designed to connect Ollama to MCP clients, fitting the MCP Servers & Tooling category.
+  reason: "MCP is the product identity here: it is explicitly an MCP server bridging Ollama to MCP clients, fitting the MCP Servers & Tooling category."
   evidence:
-    - "Repo description explicitly states: 'MCP Server - Bridge to local Ollama LLM.'"
-    - README demonstrates usage by adding it as an 'mcpServer' in Claude Desktop configuration.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Aggregators'.
+    - Repo description explicitly states it is an MCP Server for Ollama
+    - README shows it is used as an MCP server in Claude Desktop config
+    - Source-list context lists it under MCP servers
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:03.584Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c3abb3cf1648e0bbf782ddae86fbd9851f14b4162110fe8415f62addf8d42482
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: it is explicitly an MCP server bridging Ollama to MCP clients, fitting the MCP Servers & Tooling category."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP Server for Ollama
+        - README shows it is used as an MCP server in Claude Desktop config
+        - Source-list context lists it under MCP servers
+      category_candidates:
+        - mcp
+        - local-ai
+      contrastive_reason: Choose mcp over local-ai because the product's primary identity is as an MCP server rather than a local AI runtime.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -1,0 +1,110 @@
+id: sysdig__com
+kind: website
+name: Sysdig
+canonical_url: https://sysdig.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__sysdig__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Sysdig
+        extracted_url: https://sysdig.com
+        surrounding_text: "- **[Sysdig](https://sysdig.com/)** – Cloud security and monitoring with AI threat detection."
+        confidence: high
+    - id: discovery__www__sysdig__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: Sysdig
+        extracted_url: https://sysdig.com
+        surrounding_text: "- **[Sysdig](https://sysdig.com/)** – Cloud security and monitoring with AI threat detection."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Sysdig is a cloud security platform that uses agentic AI to provide real-time runtime visibility and threat detection.
+  why_it_matters: It aims to move security from reactive dashboard monitoring to proactive, agent-led investigation directly within development workflows.
+  mental_damage: Because why just debug your code when you can have an AI agent debug your entire cloud infrastructure security posture instead?
+  tags:
+    - cloud-security
+    - runtime-security
+    - agentic-ai
+    - cnapp
+    - devops
+  confidence: high
+curation:
+  status: excluded
+  reason: Sysdig is a broad SaaS security and observability platform rather than a developer-focused AI coding tool, framework, or agent.
+  evidence:
+    - Scraped site context describes it as a CNAPP and cloud security platform.
+    - Product focuses on runtime insights, vulnerability management, and cloud workload protection.
+    - Core identity is a security platform, not a tool for building or managing software code.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:37:39.611Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:475cf3438c1b097776c358ae124ae81027adc9621afa847136ae439ccf88d03c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Sysdig is a broad SaaS security and observability platform rather than a developer-focused AI coding tool, framework, or agent.
+      decision_evidence:
+        - Scraped site context describes it as a CNAPP and cloud security platform.
+        - Product focuses on runtime insights, vulnerability management, and cloud workload protection.
+        - Core identity is a security platform, not a tool for building or managing software code.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.970Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -1,0 +1,114 @@
+id: claros__so
+kind: website
+name: Claros AI Shopper
+canonical_url: https://claros.so
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__claros__so__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Claros AI Shopper
+        anchor_text: Claros AI Shopper
+        extracted_url: https://claros.so
+        surrounding_text: "## [Claros AI Shopper](https://www.claros.so/)"
+        confidence: high
+    - id: discovery__www__claros__so__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Claros AI Shopper
+        anchor_text: Claros AI Shopper
+        extracted_url: https://www.claros.so
+        surrounding_text: "## [Claros AI Shopper](https://www.claros.so/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Claros is an AI shopping agent designed to help consumers research and purchase products online.
+  why_it_matters: It represents the growing trend of autonomous agents targeting end-user consumer workflows rather than developer tooling.
+  mental_damage: We have reached the point where 'AI agents' can be found in both your IDE and your shopping cart, yet neither can successfully configure your CI pipeline.
+  tags:
+    - ai-agents
+    - consumer
+    - e-commerce
+  confidence: high
+curation:
+  status: excluded
+  reason: Excluded because the product is a consumer-facing shopping assistant with no developer-tooling angle, despite appearing in a general AI agents list.
+  evidence:
+    - Seen in awesome-ai-agents under section 'Claros AI Shopper', indicating a consumer e-commerce focus.
+    - URL resolves to www.claros.so with no evidence of code, SDK, or developer workflow integration.
+    - No repository description, README, or scraped context suggesting developer utility or IDE/code integration.
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T15:34:59.404Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for claros__so: ```json
+        {
+          "summary": "Claros AI Shopper is an AI agent for autonomous shopping tasks.",
+          "why_it_matters": "It automates e-commerce workflows, which may interest developers building or integrating shopping agents.",
+          "mental_damage": "Now your code can buy things while you sleep, and you’ll wake up to a repo full of receipts.",
+          "tags": ["ai-agents", "e-commerce", "automation"],
+          "should_include": false,
+          "primary_category": null,
+          "section": null,
+          "decision_reason": "The product is an AI agent for shopping, not a developer-tooling product, and lacks any coding, IDE, or workflow integration angle.",
+          "decision_evidence": [
+            "Source-list context describes it as an AI autonomous agent for shopping",
+            "No GitHub repo or developer-facing documentation provided",
+            "No signals of code editing, IDE integration, or developer workflow relevance"
+          ],
+          "category_candidates": [],
+          "contrastive_reason": null,
+          "confidence": "high"
+        }
+        ```
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.963Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

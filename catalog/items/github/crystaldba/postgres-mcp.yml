@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:27.190Z"
       bytes: 37523
 insights:
-  summary: An open-source MCP server that gives AI agents configurable read/write access, schema intelligence, index tuning, and performance analysis for PostgreSQL databases.
-  why_it_matters: It lets coding agents safely interact with production-grade Postgres instances to diagnose slow queries, tune indexes, and validate EXPLAIN plans without leaving the editor.
-  mental_damage: We have successfully abstracted database administration into a prompt surface, meaning your AI can now silently deploy a terrible index while you congratulate yourself on not opening psql.
+  summary: An MCP server providing configurable read/write access, performance analysis, and schema-aware SQL generation for Postgres databases.
+  why_it_matters: It lets AI agents and developers safely interact with Postgres databases, offering index tuning, query plan analysis, and health checks directly through the MCP protocol.
+  mental_damage: Now your AI agent can optimize your database indexes while you’re still trying to remember how JOINs work.
   tags:
     - mcp
     - postgres
     - database
     - performance
-    - agent-tooling
+    - sql
   confidence: high
 curation:
   status: included
-  reason: The product is a domain-specific MCP server whose entire identity is exposing Postgres capabilities to AI agents, making it a textbook fit for MCP Servers & Tooling.
+  reason: The product is explicitly an MCP server for Postgres, with MCP as its primary identity and purpose.
   evidence:
-    - Repo description explicitly states 'Postgres MCP Pro provides configurable read/write access and performance analysis for you and your AI agents.'
-    - README identifies it as 'an open source Model Context Protocol (MCP) server' with database health, index tuning, and query plan features.
-    - Appears in awesome-mcp-servers under Server Implementations > Databases, reinforcing its MCP server identity.
+    - Repo description states it is a Postgres MCP server with read/write access and performance analysis
+    - README explicitly positions it as an MCP server with features like index tuning, explain plans, and schema intelligence
+    - Already listed in awesome-mcp-servers under Database servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:06.099Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:872bcfd2b16c342651f592f337febd656fa2109928de9825d599364df1da8d0d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server for Postgres, with MCP as its primary identity and purpose.
+      decision_evidence:
+        - Repo description states it is a Postgres MCP server with read/write access and performance analysis
+        - README explicitly positions it as an MCP server with features like index tuning, explain plans, and schema intelligence
+        - Already listed in awesome-mcp-servers under Database servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server for Postgres, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

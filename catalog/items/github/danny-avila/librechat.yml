@@ -59,15 +59,15 @@ metadata:
       fetched_at: "2026-07-20T05:17:28.975Z"
       bytes: 12822
 insights:
-  summary: LibreChat is a self-hosted, open-source AI chat platform that unifies access to models from OpenAI, Anthropic, Google, and local providers, featuring built-in agents, MCP support, code interpretation, and artifact generation.
-  why_it_matters: It gives developers a single, private interface to experiment with diverse AI backends and build custom no-code agents without being locked into a single vendor's ecosystem.
-  mental_damage: Yet another heroic open-source effort to unify every AI provider into one chat UI, ensuring you can now write Python, generate React components, and hallucinate at scale without ever leaving the browser tab you're hosting on Railway.
+  summary: Self-hostable ChatGPT-like web UI with multi-provider model access, agents, MCP support, code interpreter, and extensible tooling.
+  why_it_matters: Developers can consolidate AI conversations across providers, build custom agents, and integrate MCP tools in a single self-hosted interface.
+  mental_damage: Finally, a unified chat interface that still requires you to configure 15 different API endpoints.
   tags:
     - self-hosted
-    - chat-ui
-    - multi-model
-    - mcp
+    - multi-provider
+    - mcp-client
     - agents
+    - code-interpreter
   confidence: high
 curation:
   status: included
@@ -78,10 +78,10 @@ curation:
     - "Homepage is librechat.ai and it is actively maintained (pushed_at: 2026-05-06) with 36k+ stars."
 placement:
   primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (36656) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -94,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:49.992Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b0f8ec2382b216576094e7194b405307aac99dfa249b4abaf7857c4f31774d8f
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: LibreChat is primarily a workbench for coordinating multiple agents, models, and tools (including MCP) in a unified interface, fitting Agent Orchestration better than a pure coding agent or extension.
+      decision_evidence:
+        - Repo description explicitly lists Agents, MCP, Skills, and multi-provider model support
+        - README highlights LibreChat Agents, MCP support, and collaborative sharing as core features
+        - Source-list context places it under MCP Clients, but primary identity is a multi-agent workbench
+      category_candidates:
+        - agent-orchestration
+        - mcp
+      contrastive_reason: Choose agent-orchestration over mcp because LibreChat's core value is the multi-agent workbench, not just MCP client functionality.
+      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

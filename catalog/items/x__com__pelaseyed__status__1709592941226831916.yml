@@ -37,20 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An X.com status link that appears to reference the Superagent project in the context of AI agents with sandbox integration, but the page content could not be retrieved.
-  why_it_matters: Superagent is listed among AI apps and agents with sandbox integration, which is relevant for developers exploring autonomous agent tooling.
-  mental_damage: We have reached such peak AI agent hype that even a dead Twitter link is being reviewed as a potential catalog entry.
+  summary: A tweet announcing code execution support for Superagent via integration with e2b.
+  why_it_matters: Enables Superagent users to execute code as part of their agent workflows with minimal setup.
+  mental_damage: Now your agents can run code, which means they can also break your code, but at least it only takes 10 lines to start.
   tags:
-    - ai-agents
-    - sandbox
-  confidence: low
+    - agent-orchestration
+    - code-execution
+    - e2b
+    - superagent
+  confidence: high
 curation:
   status: excluded
-  reason: This is a link to a social media post that could not be scraped, providing no standalone product, code, or usable tooling to evaluate or include.
+  reason: This is a social media announcement, not a standalone product or tool, and thus falls outside the catalog's scope of practical AI tools for developers.
   evidence:
-    - The URL points to x.com and the scraped content returned a privacy-extension error with no project description.
-    - No repository metadata, README, or homepage content is available to verify the product's existence or scope.
-    - Only indirect source-list context mentions 'Superagent' under sandbox-integrated AI agents, but no first-party content is available.
+    - The URL points to a tweet, not a repo or product page
+    - The content is an announcement, not a tool or framework
+    - No actionable developer-facing artifact is provided
 placement:
   primary_category: null
   section: null
@@ -68,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:57.012Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ffc42f7319fa3fc4a377c071e3b95ed14911e996a06da15a90fb3f5255bba2b0
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a social media announcement, not a standalone product or tool, and thus falls outside the catalog's scope of practical AI tools for developers.
+      decision_evidence:
+        - The URL points to a tweet, not a repo or product page
+        - The content is an announcement, not a tool or framework
+        - No actionable developer-facing artifact is provided
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

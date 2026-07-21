@@ -65,23 +65,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:57.163Z"
       bytes: 7653
 insights:
-  summary: A lightweight MCP server that gives Claude and other MCP-aware AI tools the ability to execute AWS CLI commands in a containerized environment for cloud infrastructure management.
-  why_it_matters: It lets developers hand off AWS CLI operations to their coding assistant, wrapping over 200 AWS services through just two MCP tools without building custom API integrations.
-  mental_damage: You can now ask Claude to accidentally provision three EKS clusters and a read-replica in us-east-1 while you sip coffee, secure in the knowledge that your IAM policy is the only thing standing between you and a very educational AWS bill.
+  summary: An MCP server that enables AI assistants like Claude to execute AWS CLI commands in a safe, containerized environment.
+  why_it_matters: It bridges AI coding assistants with AWS infrastructure management, allowing developers to delegate cloud operations to their AI tools while retaining IAM-based access control.
+  mental_damage: Now your AI can spin up EC2 instances while you’re still trying to remember how to spell ‘subnet’.
   tags:
     - mcp
     - aws
-    - devops
     - cli
-    - cloud
+    - infrastructure
+    - devops
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server exposing AWS CLI capabilities to MCP-aware assistants, which aligns directly with the MCP Servers & Tooling category.
+  reason: MCP is the product identity here—a server that exposes AWS CLI capabilities via the Model Context Protocol, not merely an adapter or compatibility feature.
   evidence:
-    - Repo description explicitly states it is 'A lightweight service that enables AI assistants to execute AWS CLI commands through the Model Context Protocol (MCP)'
-    - "README positions it as giving Claude access to 200+ AWS services via MCP with two tools: aws_cli_help and aws_cli_pipeline"
-    - Source lists include it in awesome-mcp-list and awesome-mcp-servers under Cloud Platforms sections
+    - Repo description explicitly states it is an MCP server for AWS CLI
+    - README emphasizes MCP as the core integration layer for Claude and other MCP-aware tools
+    - Project provides MCP-specific features like streamable HTTP transport and server metadata
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -100,12 +100,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:21:57.700Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:63f79d2525f49ebb3e96726cbba3bc955ebd0133339a3e6feb3ce5e89b00458d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a server that exposes AWS CLI capabilities via the Model Context Protocol, not merely an adapter or compatibility feature.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for AWS CLI
+        - README emphasizes MCP as the core integration layer for Claude and other MCP-aware tools
+        - Project provides MCP-specific features like streamable HTTP transport and server metadata
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server (not just an extension for another assistant), and MCP is the core protocol being implemented.
+      review_reason: null
+      review_resume_lifecycle: null

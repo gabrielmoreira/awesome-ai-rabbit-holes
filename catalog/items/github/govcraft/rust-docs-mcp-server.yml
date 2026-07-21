@@ -60,23 +60,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:10.675Z"
       bytes: 14065
 insights:
-  summary: An MCP server that fetches current Rust crate documentation, generates embeddings, and provides an LLM-powered query tool to prevent outdated code suggestions in AI assistants.
-  why_it_matters: It gives coding assistants real-time access to evolving Rust APIs, reducing hallucinations and manual corrections when working with crates like serde, tokio, or reqwest.
-  mental_damage: We have reached the point where we need specialized infrastructure just to stop our AI from confidently inventing 2023-era Rust APIs.
+  summary: An MCP server that fetches current Rust crate documentation and provides accurate context to AI assistants via embeddings and LLM summarization.
+  why_it_matters: It solves the problem of outdated Rust API suggestions from AI assistants by giving them real-time access to up-to-date crate documentation.
+  mental_damage: Finally, a way to stop your AI from confidently suggesting deprecated `serde` methods from 2021.
   tags:
-    - mcp
+    - mcp-server
     - rust
-    - rag
-    - docs
-    - embeddings
+    - documentation
+    - context-engineering
+    - coding-assistant
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone MCP server providing Rust documentation context, making MCP its core identity rather than an adapter or extension layer.
+  reason: MCP is the product identity here—a server that exposes Rust docs as tools/resources for AI assistants.
   evidence:
-    - Repo description explicitly states 'This MCP server fetches current crate docs'
-    - README confirms it 'Runs as a standard MCP server over stdio, exposing tools and resources'
-    - Listed in awesome-mcp-servers under 'Developer Tools' section
+    - Repo description explicitly identifies it as an MCP server
+    - README details its role as a tool provider for AI assistants via MCP
+    - Listed in awesome-mcp-servers under Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:59.314Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3ba3ba0f19c7c5a90bc48cf2719a0c8d8fbf2b759abdd415767909b39cfb70f0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a server that exposes Rust docs as tools/resources for AI assistants.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server
+        - README details its role as a tool provider for AI assistants via MCP
+        - Listed in awesome-mcp-servers under Developer Tools
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server exposing Rust docs as tools, not a general context/retrieval system.
+      review_reason: null
+      review_resume_lifecycle: null

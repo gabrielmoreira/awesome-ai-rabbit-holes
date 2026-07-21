@@ -36,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A no-code platform for building and deploying teams of AI agents that automate workflows, connect to 70+ external tools, and support multiple LLMs.
-  why_it_matters: Developers can define agent behaviors, knowledge bases, and tool integrations through a hosted control plane rather than wiring multi-agent orchestration in code.
-  mental_damage: Yet another 'build your AI team' platform that promises near-perfect reliability while adding another SaaS subscription to the stack you'll still have to debug at 2am.
+  summary: A no-code platform for building and coordinating teams of AI agents with integrations to 70+ tools and multiple LLMs.
+  why_it_matters: Enables developers to automate complex workflows by orchestrating multi-agent systems without writing code, bridging gaps between business tools and AI automation.
+  mental_damage: Finally, a way to replace your entire team with agents that will still argue about meeting times in Slack.
   tags:
-    - multi-agent
+    - agent-orchestration
     - no-code
     - workflow-automation
-    - llm-integration
+    - multi-agent
+    - saas
   confidence: high
 curation:
   status: included
-  reason: The product is a hosted control plane for coordinating multiple AI agents, defining team structures, and managing workflows at scale, which aligns with agent orchestration platforms rather than coding assistants.
+  reason: The product is a hosted platform for coordinating multi-agent workflows with tool integrations, fitting the agent orchestration category as a control plane/workforce platform.
   evidence:
-    - "Scraped site states: 'Build Teams of AI Agents That Work' and 'Fastest way to build tool based agents with all components you need.'"
-    - Explicit 'Flexible Agent Team Structures' and 'AI Teammates' features for multi-agent coordination.
-    - Listed in awesome-ai-agents under section 'Invicta' with purpose 'Build Teams of AI Agents'.
+    - Primary page explicitly markets 'Build Teams of AI Agents That Work'
+    - Supports 70+ tool integrations and multiple LLMs for agent coordination
+    - Offers features like agent team structures, human-in-the-loop controls, and batch mode for scaling
 placement:
   primary_category: agent-orchestration
   section: Control Planes & Workforce Platforms
@@ -69,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:38.866Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6159d665af4afc2a85f73143c858624f63f4e4b0d157a6e7a4a06ce3206fa6a6
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a hosted platform for coordinating multi-agent workflows with tool integrations, fitting the agent orchestration category as a control plane/workforce platform.
+      decision_evidence:
+        - Primary page explicitly markets 'Build Teams of AI Agents That Work'
+        - Supports 70+ tool integrations and multiple LLMs for agent coordination
+        - Offers features like agent team structures, human-in-the-loop controls, and batch mode for scaling
+      category_candidates:
+        - agent-orchestration
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because the core value is coordinating AI agents and workflows rather than generating standalone apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null

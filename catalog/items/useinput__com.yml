@@ -1,0 +1,107 @@
+id: useinput__com
+kind: website
+name: Input
+canonical_url: https://useinput.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__useinput__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Input
+        anchor_text: Input
+        extracted_url: https://useinput.com
+        surrounding_text: "## [Input](https://useinput.com/)"
+        confidence: high
+    - id: discovery__www__useinput__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Input
+        anchor_text: Input
+        extracted_url: https://useinput.com
+        surrounding_text: "## [Input](https://useinput.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Chinese gambling and entertainment website with no relation to AI or software development.
+  why_it_matters: It does not matter to developers.
+  mental_damage: The only thing being developed here is a sense of existential dread about the state of curated lists.
+  tags:
+    - spam
+    - off-topic
+  confidence: high
+curation:
+  status: excluded
+  reason: The URL and scraped content confirm this is a gambling/entertainment site, not a developer tool or AI-related project.
+  evidence:
+    - Scraped site context describes a gambling/entertainment platform ('太阳成集团tyc122ccvip官网-SunCity Group')
+    - No repo description, README, or technical content exists to suggest developer tooling
+    - Source-list context appears to be a mislink or spam entry in an AI agents list
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:38:32.513Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:da3684ed185540db7a9cf2ce0a7456cc6ba5c3e26c5b5da260700a269be94d46
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The URL and scraped content confirm this is a gambling/entertainment site, not a developer tool or AI-related project.
+      decision_evidence:
+        - Scraped site context describes a gambling/entertainment platform ('太阳成集团tyc122ccvip官网-SunCity Group')
+        - No repo description, README, or technical content exists to suggest developer tooling
+        - Source-list context appears to be a mislink or spam entry in an AI agents list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.971Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

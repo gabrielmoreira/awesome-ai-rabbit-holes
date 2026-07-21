@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Magic is an AI research company building frontier code models and ultra-long context systems to automate software engineering and accelerate AI research.
-  why_it_matters: If successful, their 100M+ token context windows and specialized code models could shift how much of the software engineering lifecycle can be fully automated.
-  mental_damage: Yet another AGI startup promising to automate us out of existence, while the rest of us are just trying to get a 100k-token context window to stop hallucinating on our authentication middleware.
+  summary: Magic is an AI research company focused on building frontier code models to automate software engineering and AI research.
+  why_it_matters: It aims to accelerate AI alignment and model improvement through automated code generation and domain-specific reinforcement learning.
+  mental_damage: Another AGI lab promising to solve alignment by writing more code about writing code.
   tags:
-    - agi
-    - code-models
-    - research
-    - long-context
+    - agi-research
+    - code-generation
+    - frontier-models
   confidence: high
 curation:
   status: excluded
-  reason: The site describes a research company and its AGI mission rather than a shipping developer tool, IDE, agent, or library that engineers can use today.
+  reason: The project is a research company/mission statement rather than a developer-facing tool, framework, or product.
   evidence:
-    - Primary page excerpt describes Magic as 'an AI company that is working toward building safe AGI' with no shipping product or CLI.
-    - The content focuses on research updates, funding, and job openings rather than a usable coding assistant or framework.
-    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants', but the underlying site is a corporate research page, not a developer tool.
+    - Site describes Magic as an AI company building AGI, not a tool or product
+    - Primary page excerpt focuses on research goals, funding, and hiring, not a usable developer tool
+    - Source-list context misclassifies it as a coding tool despite the company's actual focus
 placement:
   primary_category: null
   section: null
@@ -69,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:20.688Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4e3c0cf494711c5ef5f0d2c17b00eb33537b9c98b7e06694d767a521d0d74032
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a research company/mission statement rather than a developer-facing tool, framework, or product.
+      decision_evidence:
+        - Site describes Magic as an AI company building AGI, not a tool or product
+        - Primary page excerpt focuses on research goals, funding, and hiring, not a usable developer tool
+        - Source-list context misclassifies it as a coding tool despite the company's actual focus
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

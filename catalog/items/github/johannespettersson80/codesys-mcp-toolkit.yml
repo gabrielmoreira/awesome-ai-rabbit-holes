@@ -39,22 +39,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:26.020Z"
       bytes: 7937
 insights:
-  summary: An MCP server that lets AI clients like Claude Desktop automate project management, code editing, and compilation inside CODESYS V3 industrial automation environments.
-  why_it_matters: It bridges modern LLM workflows with legacy industrial programming tooling, allowing developers to script and manage PLC code through natural language clients.
-  mental_damage: Finally, we can entrust the nuanced logic of factory floor automation to a context window that occasionally forgets what day it is.
+  summary: A Model Context Protocol (MCP) server that connects AI clients to the CODESYS automation platform.
+  why_it_matters: It allows LLMs to programmatically manage PLC projects, edit POU code, and trigger compilations in CODESYS via the Scripting Engine.
+  mental_damage: The dream of AI-driven industrial automation is now just one configuration error in a JSON file away from accidentally rewriting your factory floor logic.
   tags:
     - mcp
-    - industrial-automation
     - codesys
-    - ide-integration
+    - plc
+    - industrial-automation
+    - automation-engineering
   confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server for a specific industrial domain, fitting the 'Domain Servers' section of the MCP category.
+  reason: The product is explicitly an MCP server designed to provide a specific domain (CODESYS) as a toolset for MCP clients.
   evidence:
-    - "Repo description states: 'Model Context Protocol server for CODESYS automation platform'."
-    - README confirms it is 'A Model Context Protocol (MCP) server for CODESYS V3'.
-    - Appears in 'awesome-mcp-servers' under the 'Community Servers' section.
+    - "Repo description: 'Model Context Protocol server for CODESYS automation platform'"
+    - README features specifically list MCP Resources and tools for project/POU management
+    - Included in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:59.584Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-31b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6bcfa02c9e37a78aa4694042df769d3e521cf1be25e6a6eb8b84c0325a20569a
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server designed to provide a specific domain (CODESYS) as a toolset for MCP clients.
+      decision_evidence:
+        - "Repo description: 'Model Context Protocol server for CODESYS automation platform'"
+        - README features specifically list MCP Resources and tools for project/POU management
+        - Included in awesome-mcp-servers under Community Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the project's primary identity is an MCP server implementation rather than a general IDE plugin or workflow add-on.
+      review_reason: null
+      review_resume_lifecycle: null

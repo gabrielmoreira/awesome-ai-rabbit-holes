@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Kilo is an open-source AI coding agent that integrates with VS Code, JetBrains, and the CLI to write, refactor, plan, and debug code across 500+ models.
-  why_it_matters: It offers developers a local-first, model-agnostic coding assistant that can be run in the IDE, terminal, or as a hosted cloud agent with transparent prompt visibility.
-  mental_damage: Yet another open-source 'most popular' coding agent enters the arena, promising to liberate you from Cursor while ensuring your token spend remains as dizzying as ever.
+  summary: Kilo is an open source AI coding agent available in VS Code, JetBrains, CLI, and Cloud, offering access to 500+ models with zero markup and support for local models.
+  why_it_matters: It provides a unified, open-source agent experience across multiple IDEs and platforms, allowing developers to use their own API keys and maintain code privacy with local models.
+  mental_damage: Finally, an AI coding agent that doesn’t force you to choose between your wallet and your privacy.
   tags:
     - coding-agent
+    - multi-ide
     - open-source
-    - vscode
-    - cli
-    - multi-model
+    - local-ai
+    - model-gateway
   confidence: high
 curation:
   status: included
-  reason: Kilo positions itself as a primary coding assistant with specialized agent modes (Code, Architect, Debug) that directly plan, write, and repair code across IDEs and CLI.
+  reason: Kilo is a primary coding assistant that developers delegate repo work to across IDEs, CLI, and cloud, fitting the core definition of a coding agent.
   evidence:
-    - Site describes it as 'The Open Source AI Coding Agent for VS Code, JetBrains, and your CLI'.
-    - "Includes specialized agent modes: Code Mode, Architect Mode, Debug Mode for repo-level work."
-    - Listed in awesome-ai-coding-tools under 'Code Editors and Assistants' as a primary assistant.
+    - Described as 'the open source AI coding agent for VS Code, JetBrains, CLI, and Cloud'
+    - Offers specialized agent modes (Code, Architect, Debug, etc.) for direct coding tasks
+    - Source-list context places it in 'Code Editors and Assistants' section of a curated AI coding tools list
 placement:
   primary_category: coding-agents
   section: IDE-Native Assistants
@@ -70,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:53.448Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7e41eb8b29ce1b85b3575ca0bcf50aa06f2febf835b6cddb271a75b8c1dca347
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Kilo is a primary coding assistant that developers delegate repo work to across IDEs, CLI, and cloud, fitting the core definition of a coding agent.
+      decision_evidence:
+        - Described as 'the open source AI coding agent for VS Code, JetBrains, CLI, and Cloud'
+        - Offers specialized agent modes (Code, Architect, Debug, etc.) for direct coding tasks
+        - Source-list context places it in 'Code Editors and Assistants' section of a curated AI coding tools list
+      category_candidates:
+        - coding-agents
+        - ai-ides-editors
+      contrastive_reason: Choose coding-agents over ai-ides-editors because Kilo is a coding agent that operates across multiple IDEs rather than being a standalone IDE or editor itself.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -41,22 +41,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:07.639Z"
       bytes: 10035
 insights:
-  summary: An official MCP server from Sentry that allows coding assistants like Claude Code and Cursor to query and debug Sentry errors, issues, and traces.
-  why_it_matters: It bridges the gap between AI coding agents and production observability, letting assistants fetch stack traces and performance data without the developer leaving their chat window.
-  mental_damage: We have successfully abstracted away the last remaining excuse for not looking at the error logs by teaching the AI to ignore them for us.
+  summary: An MCP server that provides Sentry debugging and observability tools to coding assistants via the Model Context Protocol.
+  why_it_matters: It lets AI coding agents query Sentry errors, traces, and performance data using natural language, reducing context-switching during debugging workflows.
+  mental_damage: Another tool promising to eliminate the need to open Sentry manually, while adding yet another dependency chain between your agent and your error logs.
   tags:
     - mcp
     - sentry
     - debugging
-    - observability
   confidence: high
 curation:
   status: included
-  reason: MCP is the primary product identity, serving as a specialized server (as seen in awesome-mcp-servers) that integrates Sentry's API with LLMs.
+  reason: The product is an MCP server whose core identity is providing Sentry-specific tooling through the Model Context Protocol, making it a domain-specific MCP server rather than a coding assistant or extension.
   evidence:
-    - Repo description explicitly states 'An MCP server for interacting with Sentry via LLMs.'
-    - Listed in the 'awesome-mcp-servers' directory under the 'Official Servers' section.
-    - README states the service is 'primarily designed for human-in-the-loop coding agents' like Cursor and Claude Code.
+    - "Repo description: 'An MCP server for interacting with Sentry via LLMs.'"
+    - "README: 'This remote MCP server acts as middleware to the upstream Sentry API, optimized for coding assistants like Cursor, Claude Code, and similar development tools.'"
+    - "Source-list context: Listed in 'awesome-mcp-servers' under 'Official Servers' section."
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:02:24.561Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f4dfc1227bdc9231700c1e031854fb4e82747d63f37f9649a03ed52988ca88af
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server whose core identity is providing Sentry-specific tooling through the Model Context Protocol, making it a domain-specific MCP server rather than a coding assistant or extension.
+      decision_evidence:
+        - "Repo description: 'An MCP server for interacting with Sentry via LLMs.'"
+        - "README: 'This remote MCP server acts as middleware to the upstream Sentry API, optimized for coding assistants like Cursor, Claude Code, and similar development tools.'"
+        - "Source-list context: Listed in 'awesome-mcp-servers' under 'Official Servers' section."
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing protocol-native tooling, not primarily an integration layer augmenting another assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

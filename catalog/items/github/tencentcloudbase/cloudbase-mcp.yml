@@ -24,32 +24,32 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1004
-    forks: 125
+    stars: 1062
+    forks: 132
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: TencentCloudBase/CloudBase-MCP
+    html_url: https://github.com/TencentCloudBase/CloudBase-MCP
     created_at: "2025-05-23T08:31:26Z"
-    pushed_at: "2026-05-06T16:48:35Z"
+    pushed_at: "2026-07-21T14:06:26Z"
     description: "   CloudBase MCP - Connect CloudBase to your AI Agent.     Go from AI prompt to live app. "
     homepage: https://docs.cloudbase.net/ai/cloudbase-ai-toolkit/
     topics:
       - ai
       - aicoding
       - cloudbase
-      - cursor
+      - database
       - mcp
       - miniprogram
-      - serverless
+      - postgresql
       - supabase
       - tencent
       - vibe-coding
       - web
-    last_checked_at: "2026-05-06T22:46:43.294Z"
+    last_checked_at: "2026-07-21T15:20:43.212Z"
     readme:
-      fetched_at: "2026-05-06T22:46:43.294Z"
-      bytes: 25549
+      fetched_at: "2026-07-21T15:20:43.212Z"
+      bytes: 29952
 insights:
   summary: An MCP server that lets AI IDEs deploy, configure, and manage Tencent CloudBase resources directly from natural language prompts.
   why_it_matters: It collapses the gap between code generation and cloud deployment by giving AI coding assistants live access to serverless infrastructure, databases, and hosting.
@@ -82,16 +82,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:43.294Z"
+    updated_at: "2026-07-21T15:20:43.213Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

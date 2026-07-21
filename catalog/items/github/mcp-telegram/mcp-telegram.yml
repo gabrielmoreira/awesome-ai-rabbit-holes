@@ -50,26 +50,26 @@ metadata:
       fetched_at: "2026-07-16T05:05:18.833Z"
       bytes: 24820
 insights:
-  summary: An MCP server that connects AI assistants to Telegram via the MTProto protocol as a userbot, exposing over 80 tools for messaging, media, and account management.
-  why_it_matters: Developers can let coding agents search chats, send messages, and manage Telegram accounts directly from their AI workflow without leaving the assistant.
-  mental_damage: Your agent can now summarize group chats and send stickers while you are desperately trying to stop it from refactoring your auth layer.
+  summary: MCP Telegram is an MCP server that connects AI assistants like Claude to Telegram via MTProto, operating as a userbot to access chats, contacts, and message history.
+  why_it_matters: It lets developers integrate Telegram data into AI workflows without bot API limitations, enabling richer context from personal accounts.
+  mental_damage: Finally, a way to make your AI assistant as nosy in your DMs as you are.
   tags:
     - mcp
     - telegram
     - userbot
-    - typescript
-    - integration
+    - mtproto
+    - claude
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: an MCP server built specifically to expose Telegram capabilities to any MCP client."
+  reason: The product is an MCP server first and foremost, with MCP as its core identity, not merely an add-on or compatibility layer.
   evidence:
-    - Repo description explicitly states 'Connect Telegram to Claude AI' as an MCP integration.
-    - README identifies it as 'An MCP (Model Context Protocol) server' with 80+ tools for Telegram.
-    - Listed in awesome-mcp-servers under Server Implementations > Communication.
+    - "Repo description: 'Connect Telegram to Claude AI — messages, media, reactions, polls, scheduled messages & more.'"
+    - "README: 'An MCP (Model Context Protocol) server that connects AI assistants like Claude to Telegram via the MTProto protocol.'"
+    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication"
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -85,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:19:26.699Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4f998cbe11256d2b62665e2665856dcc33d449a2731808b4bc8a09f3178bcd71
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server first and foremost, with MCP as its core identity, not merely an add-on or compatibility layer.
+      decision_evidence:
+        - "Repo description: 'Connect Telegram to Claude AI — messages, media, reactions, polls, scheduled messages & more.'"
+        - "README: 'An MCP (Model Context Protocol) server that connects AI assistants like Claude to Telegram via the MTProto protocol.'"
+        - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

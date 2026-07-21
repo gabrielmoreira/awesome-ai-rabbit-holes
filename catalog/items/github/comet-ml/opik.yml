@@ -83,23 +83,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:24.362Z"
       bytes: 38575
 insights:
-  summary: Opik is an open-source platform for debugging, evaluating, and monitoring LLM applications, RAG systems, and agentic workflows with tracing, automated evaluations, and production dashboards.
-  why_it_matters: It gives developers the observability and evaluation tooling needed to measure prompt quality, trace agent behavior, and ship more reliable LLM-powered features.
-  mental_damage: Yet another pristine dashboard to ignore while your agent confidently hallucinates its way through a production outage.
+  summary: Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic workflows.
+  why_it_matters: It provides comprehensive tracing, automated evaluations, and production-ready dashboards to debug and improve AI applications from prototype to production.
+  mental_damage: Finally, a way to see why your LLM is hallucinating—just in time to realize it was your prompt all along.
   tags:
     - llm-observability
-    - evals
+    - evaluation
     - tracing
     - llmops
-    - monitoring
+    - rag
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, tracing, and evaluating LLM and agent behavior, which aligns directly with the Evals & Benchmarks category.
+  reason: The core product is evaluation, observability, and tracing for LLM applications, which aligns with the Evals & Benchmarks category.
   evidence:
-    - "Repo description explicitly states: 'Debug, evaluate, and monitor your LLM applications, RAG systems, and agentic workflows with comprehensive tracing, automated evaluations, and production-ready dashboards.'"
-    - README excerpt positions Opik as 'Open-source AI Observability, Evaluation, and Optimization' with tracing, evaluation, and prompt optimization.
-    - Listed as a canonical positive example for the evals category and included in Awesome-LLMOps under LLMOps and in awesome-agent-orchestration under Observability & Tracing.
+    - Repo description explicitly states it is for debugging, evaluating, and monitoring LLM applications with tracing and automated evaluations
+    - README emphasizes 'comprehensive tracing, evaluation, and automatic prompt and tool optimization' as primary features
+    - Already listed in Awesome-LLMOps and awesome-agent-orchestration under Observability & Tracing
 placement:
   primary_category: evals
   section: Observability / Tracing / EvalOps
@@ -118,12 +118,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:45:21.644Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5a21978269034f6d9e00099378aa185c659c41d884ff05e64bd042d07db49129
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The core product is evaluation, observability, and tracing for LLM applications, which aligns with the Evals & Benchmarks category.
+      decision_evidence:
+        - Repo description explicitly states it is for debugging, evaluating, and monitoring LLM applications with tracing and automated evaluations
+        - README emphasizes 'comprehensive tracing, evaluation, and automatic prompt and tool optimization' as primary features
+        - Already listed in Awesome-LLMOps and awesome-agent-orchestration under Observability & Tracing
+      category_candidates:
+        - evals
+        - agent-orchestration
+      contrastive_reason: Choose evals over agent-orchestration because the primary value is measurement, tracing, and evaluation rather than multi-agent coordination.
+      review_reason: null
+      review_resume_lifecycle: null

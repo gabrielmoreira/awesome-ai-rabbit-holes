@@ -44,23 +44,21 @@ metadata:
       fetched_at: "2026-07-20T15:11:49.495Z"
       bytes: 9025
 insights:
-  summary: An MCP server that connects an LLM to a personal WhatsApp account via the WhatsApp web multidevice API, enabling message search, contact lookup, and sending media through tools like Claude Desktop or Cursor.
-  why_it_matters: It lets developers wire their personal WhatsApp graph directly into coding assistants so agents can query history, pull media, and send messages without leaving the IDE.
-  mental_damage: We have finally closed the loop where your CI failures and your group chat drama can now be processed by the same context window.
+  summary: WhatsApp MCP Server is a Model Context Protocol server that enables AI assistants to access personal WhatsApp messages and send messages via the WhatsApp web multi-device API.
+  why_it_matters: It lets developers integrate WhatsApp data and messaging capabilities directly into AI workflows, enabling context-aware automation and communication through natural language.
+  mental_damage: Finally, a way to make your AI feel even more intrusive by giving it unrestricted access to your family group chats and embarrassing voice notes.
   tags:
     - mcp
     - whatsapp
-    - integration
-    - assistant-tooling
-    - messaging
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that connects WhatsApp as a domain-specific tool for LLMs, which fits the MCP category's server identity and section guidance.
+  reason: The project's core identity is an MCP server for WhatsApp, making MCP the primary product rather than an extension or agent, and it fits the MCP Servers & Tooling category's definition of domain-specific MCP infrastructure.
   evidence:
-    - Repo description and README explicitly define it as 'WhatsApp MCP server' implementing the Model Context Protocol.
-    - README shows it is configured as an MCP server in Claude Desktop and Cursor via claude_desktop_config.json / mcp.json.
-    - Included in awesome-mcp-servers under 'Server Implementations > Communication', confirming domain server positioning.
+    - "Repo description: 'WhatsApp MCP server'"
+    - "README: 'This is a Model Context Protocol (MCP) server for WhatsApp' and details MCP server implementation"
+    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication"
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -79,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:45.874Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0edd94e01c54f52be609a6955c68dde1a749afbb7b6f1c82f05c2e0e7c47c8c0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's core identity is an MCP server for WhatsApp, making MCP the primary product rather than an extension or agent, and it fits the MCP Servers & Tooling category's definition of domain-specific MCP infrastructure.
+      decision_evidence:
+        - "Repo description: 'WhatsApp MCP server'"
+        - "README: 'This is a Model Context Protocol (MCP) server for WhatsApp' and details MCP server implementation"
+        - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the project is an MCP server implementation as its primary identity, not an extension that augments another assistant with WhatsApp capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

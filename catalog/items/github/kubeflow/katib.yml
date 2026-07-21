@@ -53,22 +53,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:37.994Z"
       bytes: 8206
 insights:
-  summary: Kubeflow Katib is a Kubernetes-native automated machine learning (AutoML) project for hyperparameter tuning, early stopping, and neural architecture search across various ML frameworks.
-  why_it_matters: It allows developers to automate the grind of hyperparameter optimization and neural architecture search directly within their Kubernetes infrastructure.
-  mental_damage: Because nothing says 'streamlined developer experience' quite like spinning up a Kubernetes cluster just to find out your learning rate should have been 0.001.
+  summary: Kubernetes-native automated machine learning (AutoML) system for hyperparameter tuning, neural architecture search, and early stopping.
+  why_it_matters: It automates ML model optimization workflows on Kubernetes, supporting multiple frameworks and search algorithms for developers building or tuning models at scale.
+  mental_damage: Because nothing says 'simple' like tuning hyperparameters with Bayesian Optimization on a Kubernetes cluster.
   tags:
     - automl
     - kubernetes
-    - mlops
     - hyperparameter-tuning
+    - mlops
+    - kubeflow
   confidence: high
 curation:
   status: excluded
-  reason: The project is a general machine learning infrastructure tool for model training and tuning, lacking the specific developer-facing coding assistant, agent, or AI tooling identity required for this catalog.
+  reason: This is a Kubernetes-native AutoML system for ML model optimization, not a developer-tooling product focused on coding agents, workflows, or app-building.
   evidence:
-    - Repo description identifies it as 'Automated Machine Learning on Kubernetes', focusing on model training rather than code generation.
-    - README describes support for Hyperparameter Tuning, Early Stopping, and Neural Architecture Search using TensorFlow, PyTorch, and JAX.
-    - Appears in Awesome-LLMOps under 'AutoML', which is a general MLOps category rather than a specific developer coding tool.
+    - "Repo description: 'Automated Machine Learning on Kubernetes'"
+    - README emphasizes hyperparameter tuning, neural architecture search, and early stopping for ML frameworks
+    - "Source-list context: listed under AutoML in Awesome-LLMOps, not developer-tooling"
 placement:
   primary_category: null
   section: null
@@ -87,12 +88,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:13.391Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:39288ae7a69737a2b4150ce70cc8f1082a3f4e2101c9035b1933d0dc757a0a56
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a Kubernetes-native AutoML system for ML model optimization, not a developer-tooling product focused on coding agents, workflows, or app-building.
+      decision_evidence:
+        - "Repo description: 'Automated Machine Learning on Kubernetes'"
+        - README emphasizes hyperparameter tuning, neural architecture search, and early stopping for ML frameworks
+        - "Source-list context: listed under AutoML in Awesome-LLMOps, not developer-tooling"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

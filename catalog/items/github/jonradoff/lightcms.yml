@@ -60,22 +60,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:26.758Z"
       bytes: 66129
 insights:
-  summary: A Go-powered content management system that exposes 106 MCP tools, allowing coding agents like Claude Code to programmatically read, write, publish, and bulk-import website content.
-  why_it_matters: It turns a CMS into a machine-readable surface so agents can own the full content lifecycle—from bulk AI-generated imports to approval workflows—without a human clicking through admin panels.
-  mental_damage: We have successfully reached the point where the CMS is no longer for humans, and your blog will now be maintained by a Claude instance that demands 106 specific tools to approve its own drafts.
+  summary: Self-hosted CMS with admin UI, REST/MCP APIs, semantic search, site chat, content versioning, and agentic control via 106 MCP tools.
+  why_it_matters: Developers can integrate AI agents directly into content workflows for creation, import, approval, and publishing without leaving their existing tooling.
+  mental_damage: Finally, a CMS that lets your AI agents argue over approvals instead of you.
   tags:
-    - mcp
     - cms
-    - agentic-workflow
-    - go
+    - mcp-server
+    - self-hosted
+    - content-management
+    - agentic
   confidence: high
 curation:
   status: included
-  reason: The product's primary developer-facing identity is the MCP server with 106 tools that let agents control the CMS, placing it firmly in MCP Domain Servers rather than as a generic CMS or coding agent.
+  reason: "MCP is the primary identity here: the product is explicitly built as an MCP server with 106 tools for agentic CMS control, and it appears in MCP-focused directories."
   evidence:
-    - Repo description explicitly states it is 'built for the AI era' with a 'MCP server for agent control'.
-    - README highlights 106 MCP tools for reading, writing, publishing, and bulk-importing content via any MCP client.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools, confirming its MCP server identity.
+    - Repo description highlights MCP APIs and agentic workflows
+    - README emphasizes MCP server capabilities with 106 tools for content management
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -94,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:06.976Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2133edf3e1b07523e29b3dfc821471b895b730a4f23d5c68419d7b6aae352f71
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the primary identity here: the product is explicitly built as an MCP server with 106 tools for agentic CMS control, and it appears in MCP-focused directories."
+      decision_evidence:
+        - Repo description highlights MCP APIs and agentic workflows
+        - README emphasizes MCP server capabilities with 106 tools for content management
+        - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools
+      category_candidates:
+        - mcp
+        - app-builders
+      contrastive_reason: Choose mcp over app-builders because the core product is an MCP server for agentic CMS control, not a prompt-to-app builder.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -53,23 +53,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:03.357Z"
       bytes: 20105
 insights:
-  summary: nanobot is an open-source, ultra-lightweight AI agent for developers that provides a minimal agent loop with chat channels, memory, and MCP support for local or long-running personal assistant setups.
-  why_it_matters: Developers can quickly set up a personal coding and task agent that runs locally, integrates with chat platforms, and supports multiple LLM providers with minimal overhead.
-  mental_damage: Yet another ultra-lightweight personal AI agent enters the terminal, promising to solve the crushing burden of having only six exponentially-hyped agent frameworks installed already.
+  summary: Open-source, lightweight AI agent for tools, chats, and workflows, inspired by OpenClaw, Claude Code, and Codex.
+  why_it_matters: It provides a minimal, readable agent loop with support for chat channels, memory, MCP, and practical deployment paths, enabling developers to run a personal agent from local setup to long-running use.
+  mental_damage: Another agent promising to be the last agent you’ll ever need, while quietly hoping you’ll forget it’s just a wrapper around the same models everyone else uses.
   tags:
-    - cli
-    - agent
-    - mcp
-    - local-ai
-    - chat
+    - ai-agent
+    - terminal-native
+    - claude-code-alternative
+    - mcp-support
+    - open-source
   confidence: high
 curation:
   status: included
-  reason: nanobot presents itself as a standalone terminal-native AI agent in the spirit of Claude Code and OpenClaw, designed to plan, execute tasks, and interact with repos and tools.
+  reason: The product is a standalone, developer-facing coding assistant that directly handles repo work, chat, and workflows, fitting the primary identity of a coding agent.
   evidence:
-    - Repo description explicitly calls it an 'Ultra-Lightweight Personal AI Agent' in the spirit of Claude Code and OpenClaw.
-    - README states it 'keeps the core agent loop small and readable while still supporting chat channels, memory, MCP and practical deployment paths'.
-    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > OpenClaw ecosystem'.
+    - Repo description explicitly calls it a 'lightweight, open-source AI agent for your tools, chats, and workflows'
+    - README positions it as a coding agent in the spirit of Claude Code and Codex, with core agent loop, memory, and MCP support
+    - Source-list context places it under 'Terminal-native coding agents > OpenClaw ecosystem'
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -88,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:54.118Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:40f9d4bb252dceeb5dfd16442119aa2e464990013d94223e136e4897f201e6bd
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The product is a standalone, developer-facing coding assistant that directly handles repo work, chat, and workflows, fitting the primary identity of a coding agent.
+      decision_evidence:
+        - Repo description explicitly calls it a 'lightweight, open-source AI agent for your tools, chats, and workflows'
+        - README positions it as a coding agent in the spirit of Claude Code and Codex, with core agent loop, memory, and MCP support
+        - Source-list context places it under 'Terminal-native coding agents > OpenClaw ecosystem'
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because nanobot is a primary coding assistant (not merely an extension for another assistant) with its own agent loop, deployment paths, and workflow support.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -59,23 +59,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:06.493Z"
       bytes: 11137
 insights:
-  summary: AutoGluon is an AWS-developed AutoML framework that automates training and deployment of machine learning and deep learning models across tabular, image, text, and time series data with minimal code.
-  why_it_matters: It allows developers to quickly build high-accuracy ML models without deep expertise in hyperparameter tuning, ensemble learning, or model selection.
-  mental_damage: Yet another 'three lines of code' promise that gently reminds you how many evenings you wasted manually tuning XGBoost before 2019.
+  summary: AutoGluon is an AutoML library that automates machine learning tasks for tabular, text, time series, and image data.
+  why_it_matters: It enables developers to train and deploy high-accuracy ML models with minimal code, abstracting away hyperparameter tuning and model selection.
+  mental_damage: Now you can build a production-grade model in three lines of code and still spend three weeks explaining to your manager why it’s not magic.
   tags:
     - automl
     - machine-learning
-    - pytorch
+    - python
     - aws
-    - tabular
+    - tabular-data
   confidence: high
 curation:
   status: excluded
-  reason: AutoGluon is a traditional AutoML and data-science framework, not a developer-facing AI tool, agent, or infrastructure component as defined by this catalog's scope.
+  reason: AutoGluon is a general-purpose AutoML framework for data science, not a developer-tooling product focused on coding agents, IDEs, or app-building workflows.
   evidence:
-    - Repo description and README focus on automating ML model training and deployment, not coding assistance or developer workflows.
-    - Topics and documentation center on data science, deep learning, and tabular/time-series forecasting rather than AI tooling for software development.
-    - Listed in Awesome-LLMOps under AutoML, but the catalog explicitly excludes generic ML research and non-developer-tooling AI products.
+    - "Repo description: 'Fast and Accurate ML in 3 Lines of Code'"
+    - "README: 'automates machine learning tasks enabling you to easily achieve strong predictive performance in your applications'"
+    - "Topics: automated-machine-learning, automl, computer-vision, data-science, deep-learning"
 placement:
   primary_category: null
   section: null
@@ -94,12 +94,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:25.252Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:eaff50ef33aff3a7a107f027a7cd73c50337966468295682446fc312c076a344
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: AutoGluon is a general-purpose AutoML framework for data science, not a developer-tooling product focused on coding agents, IDEs, or app-building workflows.
+      decision_evidence:
+        - "Repo description: 'Fast and Accurate ML in 3 Lines of Code'"
+        - "README: 'automates machine learning tasks enabling you to easily achieve strong predictive performance in your applications'"
+        - "Topics: automated-machine-learning, automl, computer-vision, data-science, deep-learning"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A no-code SaaS platform that turns LLM prompts into deployed API endpoints with chaining, versioning, and integration agents.
-  why_it_matters: It lets developers ship LLM-powered API features without writing backend code or managing inference infrastructure.
-  mental_damage: Yet another no-code wrapper promising API delivery in minutes, leaving you to wonder when 'prompt chains' became a substitute for actual backend engineering.
+  summary: TreeScale is a no-code platform for turning LLM prompts into deployable APIs with prompt chaining, context storage, and debugging.
+  why_it_matters: It lets developers create and integrate LLM-powered APIs without writing infrastructure code, focusing on prompt engineering and workflow assembly.
+  mental_damage: Finally, a way to turn your carefully crafted prompts into APIs—so you can stop pretending you’ll ever maintain them.
   tags:
-    - llmops
     - no-code
-    - api-builder
+    - llm-apis
     - prompt-chaining
+    - api-builder
   confidence: high
 curation:
-  status: excluded
-  reason: The product is a no-code SaaS aimed at non-coders building LLM APIs, not a developer-facing coding tool, framework, or workflow product.
+  status: included
+  reason: The core product turns prompts into deployable APIs and apps, fitting the prompt-to-app builder pattern rather than editing existing repos or acting as a coding assistant.
   evidence:
-    - Homepage states 'without writing a single line of code' and targets non-developer personas.
-    - Primary value is a no-code interface to create API endpoints from prompts, not editing repos or generating apps.
-    - Appears in Awesome-LLMOps as an LLMOps platform, but its no-code positioning excludes it from developer-tooling scope.
+    - Described as a 'nocode platform to turn LLM Prompts into powerful integrate APIs'
+    - Focuses on creating API endpoints from prompts, prompt chains, and data storage without coding
+    - Source-list context places it in LLMOps as a platform for building LLM apps
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:11.663Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4e59220c04cba1b32b1c5f8bc66eacdefb41245196e78b20046bcb9d959d3f55
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The core product turns prompts into deployable APIs and apps, fitting the prompt-to-app builder pattern rather than editing existing repos or acting as a coding assistant.
+      decision_evidence:
+        - Described as a 'nocode platform to turn LLM Prompts into powerful integrate APIs'
+        - Focuses on creating API endpoints from prompts, prompt chains, and data storage without coding
+        - Source-list context places it in LLMOps as a platform for building LLM apps
+      category_candidates:
+        - app-builders
+        - agent-orchestration
+      contrastive_reason: Choose app-builders over agent-orchestration because the primary value is prompt-to-API/app generation rather than multi-agent coordination.
+      review_reason: null
+      review_resume_lifecycle: null

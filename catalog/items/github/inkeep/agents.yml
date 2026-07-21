@@ -59,15 +59,15 @@ metadata:
       fetched_at: "2026-07-20T15:11:12.604Z"
       bytes: 4607
 insights:
-  summary: Inkeep Agents is an open-source platform for building AI agents using a no-code visual builder or a TypeScript SDK, featuring full two-way sync between the two.
-  why_it_matters: It enables engineering and non-technical teams to collaboratively build, manage, and deploy multi-agent workflows and chat assistants using either code or drag-and-drop interfaces.
-  mental_damage: Because nothing says 'streamlined developer experience' like needing a visual canvas to manage the TypeScript code you just wrote to define the agent in the first place.
+  summary: A platform for building AI agents with a no-code visual builder or TypeScript SDK, featuring full 2-way sync and multi-agent workflows.
+  why_it_matters: Enables both technical and non-technical teams to collaboratively create, manage, and deploy AI agents for chat assistance or workflow automation.
+  mental_damage: Now you can argue with your PM about whether the agent should be built in drag-and-drop or TypeScript, and the agent will just watch.
   tags:
-    - agents
-    - typescript
+    - agent-framework
     - no-code
+    - typescript-sdk
     - multi-agent
-    - sdk
+    - mcp
   confidence: high
 curation:
   status: included
@@ -78,10 +78,10 @@ curation:
     - Architecture details list `agents-sdk` and `agents-cli` as core developer-facing libraries and tools.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (1123) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -94,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:08.633Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3e0ef07dd412fdb3ba5933878362253ede8d313b6e5dbcffd930e8bf67b9a883
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: The product is a workbench and runtime platform for coordinating multi-agent workflows, with both visual and code-first interfaces, fitting the agent orchestration category.
+      decision_evidence:
+        - "Repo description: 'Create AI Agents in a No-Code Visual Builder or TypeScript SDK with full 2-way sync. For shipping AI assistants and multi-agent AI workflows.'"
+        - README highlights multi-agent architecture, MCP tools, and a platform for building/managing agents collaboratively.
+        - "Source-list context: Listed in awesome-mcp-servers under 'Official Servers' as an agent platform for engineering and business teams."
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the primary identity is a workbench/platform for multi-agent coordination, not just a code-first SDK.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

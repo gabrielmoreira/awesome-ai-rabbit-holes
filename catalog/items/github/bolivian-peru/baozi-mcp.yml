@@ -47,22 +47,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:14.115Z"
       bytes: 13675
 insights:
-  summary: An MCP server providing 68 tools for AI agents to interact with Baozi prediction markets on the Solana blockchain.
-  why_it_matters: It allows coding agents and MCP-compatible IDEs to programmatically create markets, place bets, and claim winnings on Solana without handling private keys.
-  mental_damage: Your coding agent can now autonomously lose your SOL in prediction markets, adding 'algorithmic gambling' to the list of CI/CD failure modes.
+  summary: MCP server providing 76 tools for AI agents to interact with Solana-based prediction markets (Baozi).
+  why_it_matters: Enables AI agents to create markets, place bets, claim winnings, and perform other prediction-market actions on Solana without handling private keys.
+  mental_damage: Because nothing says 'developer productivity' like your AI agent gambling on-chain while you debug.
   tags:
     - mcp
     - solana
-    - defi
     - prediction-markets
-  confidence: medium
+    - ai-agents
+    - blockchain
+  confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server providing domain-specific tools for prediction markets, fitting cleanly into the MCP Domain Servers section.
+  reason: "MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools for Solana prediction markets."
   evidence:
-    - Repo description explicitly states 'MCP server for Baozi prediction markets on Solana - 68 tools for AI agents'.
-    - README demonstrates MCP integration setup for Claude, Cursor, and Windsurf, emphasizing '76 tools are now available to your AI agent'.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section as a server implementation.
+    - Repo description explicitly states it is an MCP server for Baozi prediction markets
+    - README confirms it exposes 76 tools for AI agents via MCP protocol
+    - Source-list context shows it is already curated under MCP servers (Finance & Fintech)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -81,12 +82,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:35.710Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:311b00955b6f64def5d538cec9900013d537e55a976a13927d8eeffbba758623
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools for Solana prediction markets."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Baozi prediction markets
+        - README confirms it exposes 76 tools for AI agents via MCP protocol
+        - Source-list context shows it is already curated under MCP servers (Finance & Fintech)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

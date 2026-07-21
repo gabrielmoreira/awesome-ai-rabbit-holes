@@ -39,23 +39,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:16.953Z"
       bytes: 7753
 insights:
-  summary: An MCP server that lets AI assistants like Claude Desktop read, search, and draft emails in Gmail and manage events across multiple Google Calendars via OAuth2.
-  why_it_matters: It bridges the gap between local coding agents and daily productivity surfaces, allowing developers to query their inbox or update their agenda without leaving the chat interface.
-  mental_damage: "We have finally solved the hardest problem in computer science: asking a large language model to politely draft a reply to an email you have been avoiding for three days."
+  summary: MCP Server to interact with Google Gsuite products.
+  why_it_matters: Lets developers access Gmail and Calendar from MCP clients like Claude Desktop using natural language prompts.
+  mental_damage: Another OAuth dance just to let an AI read your inbox and schedule meetings you’ll forget to attend.
   tags:
     - mcp
     - google-workspace
-    - gmail
-    - calendar
-    - integration
+    - host-integration
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing Google Workspace integration, which fits perfectly as a Domain Server within the MCP category.
+  reason: The product is an MCP server first and foremost, providing Google Workspace access via the Model Context Protocol, making MCP its core identity.
   evidence:
-    - "Repo description states: 'MCP Server to interact with Google Gsuite products'."
-    - README details capabilities for Gmail (query, draft, reply) and Calendar (create, delete events) via MCP.
-    - Seen in the 'awesome-mcp-list' under the MCP servers section.
+    - "Repo description: 'MCP Server to interact with Google Gsuite prodcuts'"
+    - README positions it as an MCP server for Gmail and Calendar with Smithery integration
+    - Listed in awesome-mcp-list under Communication section
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +72,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:18:44.087Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:005723d7b7b4958d9ead8a9c8858e6fa1478cb354ca1f6aeb137cdbe07d0879c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server first and foremost, providing Google Workspace access via the Model Context Protocol, making MCP its core identity.
+      decision_evidence:
+        - "Repo description: 'MCP Server to interact with Google Gsuite prodcuts'"
+        - README positions it as an MCP server for Gmail and Calendar with Smithery integration
+        - Listed in awesome-mcp-list under Communication section
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is as an MCP server providing Google Workspace access, not as an extension augmenting another coding assistant.
+      review_reason: null
+      review_resume_lifecycle: null

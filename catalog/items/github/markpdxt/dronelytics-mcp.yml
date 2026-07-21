@@ -47,23 +47,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:16.938Z"
       bytes: 4916
 insights:
-  summary: An MCP server that exposes 24 tools for US drone airspace intelligence, Part 107 compliance checks, and mission planning to AI assistants like Claude Desktop and Cursor.
-  why_it_matters: It allows developers building drone workflows to delegate complex FAA airspace queries, mission generation, and flight plan exports directly to their coding agent.
-  mental_damage: Now your AI can confidently explain why the Golden Gate Bridge is a no-fly zone while you still can't figure out how to configure the MCP client config.
+  summary: MCP server for US drone airspace intelligence and mission planning with 24 tools for flight validation, mission generation, and airspace queries.
+  why_it_matters: Enables AI assistants to access real-time FAA drone data and planning capabilities, letting developers build aviation-aware tools without implementing airspace logic themselves.
+  mental_damage: Finally, an excuse to let your AI copilot pretend it's a certified drone pilot while you worry about liability waivers.
   tags:
     - mcp
     - drone
     - airspace
-    - mission-planning
     - faa
+    - mission-planning
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server providing domain-specific drone intelligence tools, fitting perfectly into MCP Servers & Tooling.
+  reason: The product is an MCP server providing domain-specific drone airspace and mission planning tools, making MCP its core identity rather than a compatibility feature.
   evidence:
-    - Repo description explicitly states 'MCP server for US drone airspace intelligence and mission planning'.
-    - README details 24 specific MCP tools (e.g., check_airspace, validate_flight) for Claude Desktop, Cursor, and Windsurf.
-    - Listed in awesome-mcp-servers under 'Location Services', confirming its identity as a domain-specific MCP implementation.
+    - "Repo description: 'MCP server for US drone airspace intelligence and mission planning — 24 tools for airspace queries, mission generation, Part 107 compliance, and flight plan export'"
+    - "README: 'MCP (Model Context Protocol) server for the Dronelytics drone mission planning platform' and details 24 MCP tools organized by function"
+    - Setup instructions show MCP client configuration for Claude Desktop, Claude Code, Cursor, and Windsurf via npx
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -82,12 +82,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:18:33.830Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:14ee02b1af87c9f1094643f1a72ba1f89de1bb2d49e0cf7568f7189f5d221f7b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server providing domain-specific drone airspace and mission planning tools, making MCP its core identity rather than a compatibility feature.
+      decision_evidence:
+        - "Repo description: 'MCP server for US drone airspace intelligence and mission planning — 24 tools for airspace queries, mission generation, Part 107 compliance, and flight plan export'"
+        - "README: 'MCP (Model Context Protocol) server for the Dronelytics drone mission planning platform' and details 24 MCP tools organized by function"
+        - Setup instructions show MCP client configuration for Claude Desktop, Claude Code, Cursor, and Windsurf via npx
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing drone-specific tools via the Model Context Protocol, not an extension that augments another assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

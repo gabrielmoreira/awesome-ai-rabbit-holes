@@ -36,26 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web scraping API and SDK suite that uses AI to extract structured data from websites via natural language prompts, with integrations including an MCP server for AI assistants.
-  why_it_matters: It lets developers replace fragile selector-based scrapers with natural language schemas and exposes that capability directly to LLM workflows via MCP, Python, JS, and CLI tooling.
-  mental_damage: Another glorious step forward in our quest to replace three lines of BeautifulSoup with a credit-metered API call and a Slack notification when the rate limit hits.
+  summary: A web scraping API that extracts structured data from websites without requiring proxies, selectors, or maintenance.
+  why_it_matters: Developers can offload web scraping tasks to a managed service that handles the complexity of HTML extraction and data structuring.
+  mental_damage: Finally, a way to scrape the web without writing another fragile BeautifulSoup script that breaks every time a site redesigns.
   tags:
     - web-scraping
-    - mcp-server
-    - structured-data
     - api
-    - context-extraction
+    - data-extraction
+    - ai-era
   confidence: high
 curation:
-  status: included
-  reason: MCP is a first-class, marketed integration surface for the product, and the site explicitly promotes an MCP server that connects AI assistants like Claude and Cursor to live web data.
+  status: excluded
+  reason: The product is a web scraping API, not a developer-tooling product focused on coding agents, workflows, or AI-assisted development.
   evidence:
-    - Site excerpt lists MCP as a top integration with a 'View repo' link and a dedicated 'MCP Server' use case for Claude/Cursor.
-    - Included in awesome-mcp-servers under Community Servers with the description 'The web scraping API built for the AI era.'
-    - Core product is a developer-facing API/SDK platform for AI-powered web extraction, not a generic scraper for end users.
+    - Site description explicitly positions it as a web scraping API for structured data extraction
+    - No indication of integration with coding assistants, IDEs, or developer workflows
+    - Source-list context shows it's included in MCP servers list, but its core identity is scraping, not MCP
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -72,12 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:24.135Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5678f6b930f252e569fd69cca156476c1b73e156dabb28a23fc446e7762efcb7
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a web scraping API, not a developer-tooling product focused on coding agents, workflows, or AI-assisted development.
+      decision_evidence:
+        - Site description explicitly positions it as a web scraping API for structured data extraction
+        - No indication of integration with coding assistants, IDEs, or developer workflows
+        - Source-list context shows it's included in MCP servers list, but its core identity is scraping, not MCP
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

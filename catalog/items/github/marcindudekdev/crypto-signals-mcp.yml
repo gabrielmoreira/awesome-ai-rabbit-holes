@@ -40,22 +40,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:16.094Z"
       bytes: 1830
 insights:
-  summary: An MCP server that connects to a live API to detect and classify volume anomalies, whale movements, and pump signals across 50+ cryptocurrencies.
-  why_it_matters: It lets developers (or their AI assistants) query real-time crypto trading signals directly through the Model Context Protocol without building custom API wrappers.
-  mental_damage: Your AI assistant is now technically capable of texting you 'wen moon' with a CRITICAL anomaly rating at 3 AM, completely unprompted.
+  summary: An MCP server that provides real-time crypto volume anomaly detection for 50+ tokens.
+  why_it_matters: Gives AI assistants direct access to live crypto market signals for trading or research workflows.
+  mental_damage: Another MCP server promising alpha from volume spikes, as if LLMs needed more ways to chase pumps.
   tags:
     - mcp
     - crypto
-    - finance
-    - real-time-data
+    - market-data
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing domain-specific crypto signal data, fitting cleanly into MCP Servers & Tooling as a domain-specific server.
+  reason: The product is an MCP server focused on crypto signal delivery, making MCP its core identity rather than a compatibility feature.
   evidence:
-    - "Repo description states: 'MCP server for real-time crypto volume anomaly detection'."
-    - README shows configuration for Claude Desktop via `claude_desktop_config.json` and uses `fastmcp` as the runtime.
-    - Included in the `awesome-mcp-servers` list under the Finance & Fintech section.
+    - "Repo description: 'MCP server for real-time crypto volume anomaly detection across 50+ tokens'"
+    - "README title and first line: 'CryptoSignals MCP Server' and 'MCP server for real-time crypto volume anomaly detection'"
+    - Usage example shows configuration in Claude Desktop as an MCP server via fastmcp
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:18:14.140Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:82b8e3a97052e900674040f97c6911581c9b0220959d81967a5c6852c02506bd
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server focused on crypto signal delivery, making MCP its core identity rather than a compatibility feature.
+      decision_evidence:
+        - "Repo description: 'MCP server for real-time crypto volume anomaly detection across 50+ tokens'"
+        - "README title and first line: 'CryptoSignals MCP Server' and 'MCP server for real-time crypto volume anomaly detection'"
+        - Usage example shows configuration in Claude Desktop as an MCP server via fastmcp
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an extension that adds capabilities to another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

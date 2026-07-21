@@ -96,11 +96,17 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
+    updated_at: "2026-07-21T15:59:27.319Z"
     cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__frihet-io__frihet-mcp: ```json
+        {
+          "summary": "An MCP server that connects AI assistants to the Frihet ERP for managing invoicing, tax compliance, and business workflows.",
+          "why_it_matters": "It enables developers to manage complex business operations like invoicing and CRM directly through their AI coding assistants via the Model Context Protocol.",
+          "mental_damage": "Because nothing says 'peak developer productivity' quite like managing your company's VAT compliance inside a terminal agent.",
+          "tags":
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

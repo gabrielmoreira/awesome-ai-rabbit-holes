@@ -55,22 +55,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:59.174Z"
       bytes: 4367
 insights:
-  summary: A Model Context Protocol server that exposes MySQL database operations, enabling AI models and MCP-compatible clients to connect, query, and manage MySQL databases through a standardized interface.
-  why_it_matters: It allows coding agents and MCP-enabled tools to directly inspect schemas, run queries, and manipulate data without the developer wiring up custom database integrations.
-  mental_damage: We have successfully abstracted the ancient art of writing SQL into a protocol handshake, so your AI can now hallucinate your schema with official middleware support.
+  summary: An MCP server that enables AI models to perform CRUD operations and inspect schemas on MySQL databases.
+  why_it_matters: It gives LLMs direct, standardized access to relational database state, allowing them to query, update, and explore schemas within a chat interface or IDE.
+  mental_damage: There is no greater thrill than watching an LLM attempt to solve a production bug by hallucinating a SQL join on a table it just discovered.
   tags:
     - mcp
-    - database
     - mysql
-    - integration
+    - sql
+    - database
+    - llm-tools
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server implementation for MySQL, which fits cleanly as domain-specific infrastructure for the Model Context Protocol.
+  reason: The tool is a specialized server designed specifically for the Model Context Protocol to expose MySQL capabilities to LLM clients.
   evidence:
-    - "Repo description states: 'A Model Context Protocol server for MySQL database operations.'"
-    - README documents MCP tools (connect_db, query, execute, list_tables, describe_table) and configuration for Claude Desktop and Codex.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Databases sections.
+    - Repo description identifies it as an 'MCP server for MySQL database operations'
+    - README details specific MCP tools like connect_db, query, and describe_table
+    - Fits the 'Domain Servers' section of the MCP category by providing domain-specific database logic
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:54:45.580Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1b866063812dea89ad26ca2fb978dfdf28702137caa718f7bdbde8edce1d5fb0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is a specialized server designed specifically for the Model Context Protocol to expose MySQL capabilities to LLM clients.
+      decision_evidence:
+        - Repo description identifies it as an 'MCP server for MySQL database operations'
+        - README details specific MCP tools like connect_db, query, and describe_table
+        - Fits the 'Domain Servers' section of the MCP category by providing domain-specific database logic
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the project's primary identity is a protocol server providing standardized tool definitions rather than a host-side extension for a specific IDE.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -44,22 +44,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:12.459Z"
       bytes: 2669
 insights:
-  summary: ArtiVC is a CLI tool for versioning large files and datasets on cloud storage using a Git-like commit model.
-  why_it_matters: It lets developers treat data artifacts the same way they treat code, simplifying snapshotting and rollbacks directly within existing cloud storage environments like S3 or GCS.
-  mental_damage: "Just what we needed: another layer of versioning to manage, proving that no matter how advanced our models get, we still can't decide on a single source of truth for a 50GB CSV."
+  summary: A CLI tool for versioning large data files on cloud storage backends like S3, GCS, Azure Blob, and SSH.
+  why_it_matters: It lets developers snapshot, diff, and switch between versions of large datasets without moving files off their existing storage.
+  mental_damage: Finally, a way to git your terabytes of embeddings without pretending they’re code.
   tags:
     - data-versioning
+    - cloud-storage
     - cli
-    - storage
     - mlops
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a data infrastructure CLI for ML datasets, lacking a direct AI coding, agent, or developer-tooling workflow angle for our catalog.
+  reason: This is a data versioning tool for ML workflows, not a developer-tooling product for coding agents, IDEs, or AI app-building.
   evidence:
-    - Repo description explicitly defines it as 'A version control system to manage large files.'
-    - README centers on data versioning for AWS S3, GCS, and Azure, not code generation or agent orchestration.
-    - Included in Awesome-LLMOps under 'Data > Data Management', confirming its identity as MLOps infrastructure.
+    - "Repo description: 'A version control system to manage large files'"
+    - "README: 'Version your data like versioning code' with focus on cloud storage backends"
+    - "Source-list context: listed under 'Data > Data Management' in Awesome-LLMOps"
 placement:
   primary_category: null
   section: null
@@ -78,12 +78,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:04.288Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e41ddda67204f040b1c00ef616906fb23567fcabdd9879d5c6e29a23b11b33e8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a data versioning tool for ML workflows, not a developer-tooling product for coding agents, IDEs, or AI app-building.
+      decision_evidence:
+        - "Repo description: 'A version control system to manage large files'"
+        - "README: 'Version your data like versioning code' with focus on cloud storage backends"
+        - "Source-list context: listed under 'Data > Data Management' in Awesome-LLMOps"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

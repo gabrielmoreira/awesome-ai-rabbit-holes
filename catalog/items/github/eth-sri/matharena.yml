@@ -41,22 +41,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:57.714Z"
       bytes: 9465
 insights:
-  summary: MathArena is a platform and evaluation harness for benchmarking LLMs on recent math competitions and olympiads, with scripts to run models and view reasoning traces.
-  why_it_matters: It gives developers a reproducible way to measure how models handle rigorous mathematical reasoning rather than just standard coding benchmarks.
-  mental_damage: Yet another arena to remind us that while models can hallucinate a React component in seconds, they still struggle to solve a high-school olympiad problem without dramatic flair.
+  summary: An evaluation platform for testing LLM performance on recent mathematical competitions and olympiads.
+  why_it_matters: It provides standardized benchmarks and reasoning traces to measure how well models handle complex, multi-step mathematical reasoning.
+  mental_damage: Nothing says 'tate of the art' like watching a trillion-parameter model struggle with high school math problems.
   tags:
-    - llm-eval
-    - benchmarks
-    - math
-    - cli
+    - llm-evaluation
+    - mathematical-reasoning
+    - benchmarking
+    - reasoning-traces
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring and benchmarking LLM behavior on math competitions, which aligns directly with evals tooling for developers assessing model reasoning.
+  reason: The tool's core identity is measuring and scoring model behavior on complex reasoning tasks, which aligns perfectly with the Evals category.
   evidence:
-    - "Repo description states: 'Evaluation of LLMs on latest math competitions'"
-    - "README says: 'MathArena is a platform for evaluation of LLMs on latest math competitions and olympiads'"
-    - Active repo with recent pushes and already listed in an Evaluation section of an LLM resources list
+    - Repo description specifically mentions 'Evaluation of LLMs on latest math competitions'
+    - README describes running evaluation scripts to measure model performance across various competition datasets
+    - Provides logs of reasoning traces and solutions for scoring and comparison
 placement:
   primary_category: evals
   section: Agent Benchmarks
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:53:09.802Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:abea13210b7e6e0374100a8e9904bb133a297651efb8b4a62ae057eaa99a02eb
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's core identity is measuring and scoring model behavior on complex reasoning tasks, which aligns perfectly with the Evals category.
+      decision_evidence:
+        - Repo description specifically mentions 'Evaluation of LLMs on latest math competitions'
+        - README describes running evaluation scripts to measure model performance across various competition datasets
+        - Provides logs of reasoning traces and solutions for scoring and comparison
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the primary product identity is the evaluation and measurement of model reasoning rather than a general-purpose developer SDK.
+      review_reason: null
+      review_resume_lifecycle: null

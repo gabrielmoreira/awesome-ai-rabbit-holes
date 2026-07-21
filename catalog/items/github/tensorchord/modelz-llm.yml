@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 277
+    stars: 276
     forks: 27
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: tensorchord/modelz-llm
+    html_url: https://github.com/tensorchord/modelz-llm
     created_at: "2023-05-16T02:34:17Z"
     pushed_at: "2023-10-11T01:47:08Z"
     description: OpenAI compatible API for LLMs and embeddings (LLaMA, Vicuna, ChatGLM and many others)
@@ -39,9 +39,9 @@ metadata:
       - nlp
       - openai-api
       - transformer
-    last_checked_at: "2026-05-06T22:46:43.713Z"
+    last_checked_at: "2026-07-21T15:20:43.719Z"
     readme:
-      fetched_at: "2026-05-06T22:46:43.713Z"
+      fetched_at: "2026-07-21T15:20:43.719Z"
       bytes: 4119
 insights:
   summary: An OpenAI-compatible API server for running self-hosted open-source LLMs like LLaMA and ChatGLM locally or in the cloud.
@@ -75,16 +75,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:43.713Z"
+    updated_at: "2026-07-21T15:20:43.719Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

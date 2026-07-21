@@ -53,14 +53,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 11331
-    forks: 822
+    stars: 11693
+    forks: 949
     license: Apache-2.0
-    archived: false
-    full_name: null
-    html_url: null
+    archived: true
+    full_name: tensorzero/tensorzero
+    html_url: https://github.com/tensorzero/tensorzero
     created_at: "2024-07-16T21:00:53Z"
-    pushed_at: "2026-05-06T22:33:51Z"
+    pushed_at: "2026-06-11T01:48:44Z"
     description: TensorZero is an open-source LLMOps platform that unifies an LLM gateway, observability, evaluation, optimization, and experimentation.
     homepage: https://tensorzero.com
     topics:
@@ -84,10 +84,10 @@ metadata:
       - openai
       - python
       - rust
-    last_checked_at: "2026-05-06T22:46:44.741Z"
+    last_checked_at: "2026-07-21T15:20:44.505Z"
     readme:
-      fetched_at: "2026-05-06T22:46:44.741Z"
-      bytes: 18042
+      fetched_at: "2026-07-21T15:20:44.505Z"
+      bytes: 17963
 insights:
   summary: TensorZero is an open-source LLMOps platform that provides a high-performance Rust-based LLM gateway, observability, evaluations, and prompt optimization for production AI applications.
   why_it_matters: It gives developers a unified API to route across every major LLM provider with <1ms latency overhead while baking in observability, A/B testing, and automated prompt optimization.
@@ -110,8 +110,8 @@ placement:
   primary_category: evals
   section: Observability / Tracing / EvalOps
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (11331) exceeded threshold (150)
+  status: needs_review
+  reason: Repository is archived
 processing:
   discover:
     status: done
@@ -120,16 +120,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:44.741Z"
+    updated_at: "2026-07-21T15:20:44.505Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Powerdrill AI is a multi-agent platform that coordinates a team of AI agents to deliver faster business insights and smarter decision-making.
-  why_it_matters: It offers a conversational interface for non-technical and technical users to query data and generate insights using coordinated agent workflows.
-  mental_damage: "Just what every engineering org needs: another autonomous agent team promising to make decisions smarter while the actual codebase remains untouched."
+  summary: Powerdrill Bloom is an AI workspace with memory that learns from every analysis to improve data exploration and decision-making.
+  why_it_matters: It offers developers a persistent, self-improving workspace for data analysis tasks, reducing repetitive context setup across sessions.
+  mental_damage: Finally, an AI that remembers your last pivot table so you don’t have to re-explain your entire dataset for the 17th time.
   tags:
-    - agents
-    - multi-agent
-    - insights
-    - decision-support
-  confidence: medium
+    - ai-workspace
+    - data-analysis
+    - memory
+    - agent-learning
+  confidence: high
 curation:
   status: excluded
-  reason: The platform is positioned as a business intelligence and decision-support tool for insights rather than a developer-facing coding assistant, framework, or infrastructure component.
+  reason: The product is a general AI workspace for data analysis with memory, not a developer-tooling product focused on code, agents, or workflows.
   evidence:
-    - Scraped site title and description emphasize 'Faster Insights, Smarter Decisions' rather than code editing or developer workflows.
-    - Seen in awesome-ai-agents under a section describing it as an AI agent team for insights, not software development.
-    - No repo description, README, or site context indicates coding, IDE integration, or developer tooling as the primary use case.
+    - Primary page describes it as an 'AI Data Analysis Workspace with Memory'
+    - Features focus on data exploration (e.g., Economic Data Explorer, Financial Market Data) rather than code or development workflows
+    - Source-list context places it in a general AI agents list, not a developer-tooling context
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:35.397Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e3a3069f4c0ecd34085d937dbd3c5701b7c0449a7790b0e68beafde2acd17b8c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a general AI workspace for data analysis with memory, not a developer-tooling product focused on code, agents, or workflows.
+      decision_evidence:
+        - Primary page describes it as an 'AI Data Analysis Workspace with Memory'
+        - Features focus on data exploration (e.g., Economic Data Explorer, Financial Market Data) rather than code or development workflows
+        - Source-list context places it in a general AI agents list, not a developer-tooling context
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

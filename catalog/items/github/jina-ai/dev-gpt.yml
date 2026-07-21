@@ -39,26 +39,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:24.002Z"
       bytes: 20820
 insights:
-  summary: An experimental CLI tool that uses a simulated team of AI agents (Product Manager, Developer, DevOps) to generate, run, and deploy microservices from a text description.
-  why_it_matters: It attempts to automate the full lifecycle of microservice creation, moving beyond code snippets to scaffold, test, and deploy a runnable service via the terminal.
-  mental_damage: Watch in awe as your $3.00 GPT-4 budget evaporates while three virtual coworkers argue for 15 minutes to build a 'Hello World' endpoint.
+  summary: A CLI tool that uses a virtual team of AI agents (Product Manager, Developer, DevOps) to generate, test, and deploy microservices from natural language descriptions.
+  why_it_matters: It automates the end-to-end process of turning a microservice idea into a deployed application, handling planning, coding, and deployment via AI agents.
+  mental_damage: Finally, a way to outsource your entire team to OpenAI API calls and hope the budget holds out.
   tags:
     - cli
     - microservices
-    - multi-agent
-    - scaffolding
-    - jina
-  confidence: medium
+    - ai-agents
+    - deployment
+    - gpt-4
+  confidence: high
 curation:
   status: included
-  reason: The tool turns a prompt into a deployable microservice rather than helping a developer edit an existing repo, fitting the app-builder profile despite the 'agent' branding.
+  reason: The primary value is generating and deploying microservices from prompts, which aligns with prompt-to-app builders rather than a general coding assistant or extension.
   evidence:
-    - "README: 'Tell your AI team what microservice you want to build, and they will do it for you.'"
-    - "README: 'dev-gpt generate --description <description> ... The creation process should take between 5 and 15 minutes.'"
-    - "Repo Description: 'Your Virtual Development Team' with a focus on generation and deployment."
+    - "Repo description: 'Your Virtual Development Team'"
+    - "README: 'Tell your AI team what microservice you want to build, and they will do it for you'"
+    - "CLI workflow: generate, run, deploy microservices from descriptions"
 placement:
   primary_category: app-builders
-  section: Local / Code-Scaffolding Builders
+  section: Prompt-to-App Builders
 lifecycle:
   status: promotion_candidate
   reason: Stars (1865) exceeded threshold (150)
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:34.116Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d88d85b581c102c6de733c251fcbdf9b1ac28792bf550e100c88f3fe16e735b3
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The primary value is generating and deploying microservices from prompts, which aligns with prompt-to-app builders rather than a general coding assistant or extension.
+      decision_evidence:
+        - "Repo description: 'Your Virtual Development Team'"
+        - "README: 'Tell your AI team what microservice you want to build, and they will do it for you'"
+        - "CLI workflow: generate, run, deploy microservices from descriptions"
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the tool's core workflow is creating new microservices from prompts rather than assisting with editing existing codebases.
+      review_reason: null
+      review_resume_lifecycle: null

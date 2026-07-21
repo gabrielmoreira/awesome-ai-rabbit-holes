@@ -59,26 +59,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:36.267Z"
       bytes: 21070
 insights:
-  summary: A single-binary MCP tool server that provides encoding-aware file operations, network utilities, reverse engineering capabilities, and remote access tools for AI coding agents.
-  why_it_matters: It bundles 50+ tools into one install to fix common agent limitations like tab indentation corruption, encoding issues, and missing infrastructure access for Claude Code, Cursor, and other MCP-compatible agents.
-  mental_damage: We have finally reached the point where our AI assistants need their own SSH clients, DAP debuggers, and binary disassemblers because the 'built-in' tools can't even preserve a tab character.
+  summary: MCP tool server for AI coding agents offering encoding-aware file tools, binary analysis, DAP debugger, SSH/SFTP, process memory, and more.
+  why_it_matters: It solves practical gaps in built-in agent tools (e.g., encoding corruption, indentation mismatches) and bundles 50+ capabilities into a single binary for seamless integration with MCP-compatible agents.
+  mental_damage: Finally, an MCP server that lets your agent debug binaries while respecting your tabs-and-EUC-KR legacy project.
   tags:
-    - mcp
-    - encoding
-    - debugging
-    - reverse-engineering
+    - mcp-server
     - developer-tools
+    - file-tools
+    - debugging
+    - encoding-aware
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that extends coding agents with host capabilities, making it a clear fit for MCP Servers & Tooling rather than a standalone coding agent.
+  reason: "MCP is the product identity: this is a server providing domain-specific tools for AI coding agents via the Model Context Protocol."
   evidence:
-    - Repo description explicitly states 'MCP tool server for AI coding agents'
-    - Supported agents list includes Claude Code, Codex CLI, Cursor, Windsurf, Cline, Gemini CLI, and 'any MCP-compatible agent'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+    - Repo description explicitly states it is an MCP tool server for AI coding agents
+    - README details 50+ MCP-compatible tools (Edit, Read, SSH, SFTP, etc.)
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -94,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:52.672Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5a8e182328b89c22801b45531d164746db46480aa259c4411d39cf90300f54ec
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a server providing domain-specific tools for AI coding agents via the Model Context Protocol."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP tool server for AI coding agents
+        - README details 50+ MCP-compatible tools (Edit, Read, SSH, SFTP, etc.)
+        - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing domain tools, not merely extending another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

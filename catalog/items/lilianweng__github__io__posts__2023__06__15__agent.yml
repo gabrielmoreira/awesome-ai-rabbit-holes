@@ -37,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A foundational blog post by Lilian Weng outlining the conceptual architecture, components, and challenges of building LLM-based autonomous agents.
-  why_it_matters: Developers building agentic workflows often use this essay as the canonical mental model for reasoning loops, tool use, and memory systems.
-  mental_damage: Half the 'agentic' products shipping today are just this blog post wrapped in a FastAPI server and a recursive loop.
+  summary: A blog post titled 'Agent' from Lilian Weng's technical blog, discussing AI agent systems and frameworks.
+  why_it_matters: Provides educational insights into AI agent architectures and workflows for developers exploring agentic systems.
+  mental_damage: Another thinkpiece to skim while your actual agents spin in circles.
   tags:
-    - llm-agents
-    - agent-architecture
-    - education
+    - agent-orchestration
+    - tutorial
+    - blog-post
   confidence: high
 curation:
   status: excluded
-  reason: This is a high-quality educational article and conceptual overview, not a standalone developer tool, library, or product.
+  reason: This is a blog post/tutorial rather than a practical developer tool, framework, or product.
   evidence:
-    - URL is a blog post (lilianweng.github.io) rather than a repository or product.
-    - Source-list context places it in 'Learning Resources > Tutorials & Guides'.
-    - No code, CLI, IDE integration, or runnable framework is provided; it is documentation.
+    - URL points to a blog post on Lilian Weng's site
+    - Source-list context lists it under 'Learning Resources > Tutorials & Guides'
+    - No repo, stars, or code artifacts provided
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:56.636Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:387e46e1203c8c9092b25c37789fa1c131bea1e89ac892bb4d91f53d062dce3f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a blog post/tutorial rather than a practical developer tool, framework, or product.
+      decision_evidence:
+        - URL points to a blog post on Lilian Weng's site
+        - Source-list context lists it under 'Learning Resources > Tutorials & Guides'
+        - No repo, stars, or code artifacts provided
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

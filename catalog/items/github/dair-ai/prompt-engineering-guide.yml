@@ -66,23 +66,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:28.330Z"
       bytes: 10961
 insights:
-  summary: A comprehensive, open-source guide and resource hub covering prompt engineering techniques, RAG, context engineering, and AI agent fundamentals, maintained by DAIR.AI.
-  why_it_matters: It provides developers with curated papers, tutorials, and structured techniques needed to effectively design prompts and understand LLM capabilities for building AI applications.
-  mental_damage: Another 74,000-star reassurance that reading about prompt engineering is definitely the same thing as getting your code to work reliably.
+  summary: A comprehensive guide and resource hub for prompt engineering, context engineering, RAG, and AI agents.
+  why_it_matters: Provides developers with structured knowledge and techniques to effectively design and optimize prompts for LLM-based applications.
+  mental_damage: The one guide you bookmark, then forget to read, then panic when your prompts still don’t work.
   tags:
     - prompt-engineering
-    - llm
-    - resources
     - rag
     - ai-agents
+    - learning-resource
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because this is primarily an educational resource, documentation hub, and curated list of papers rather than a standalone developer tool, product, or operational directory.
+  reason: This is a learning resource and guide, not a developer tool, framework, or product that directly fits the catalog's scope of practical AI tools for software developers.
   evidence:
-    - Repo description explicitly lists 'Guides, papers, lessons, notebooks and resources' rather than a tool or product.
-    - README states the project is a 'guide that contains all the latest papers, learning guides, lectures, references, and tools' and links to a web version at promptingguide.ai.
-    - Listed in source lists under 'Learning Resources > Tutorials & Guides' and '教程 Tutorial', confirming its identity as a learning resource.
+    - Repo description explicitly calls it a 'guide' for prompt engineering, context engineering, RAG, and AI Agents
+    - README emphasizes educational content (courses, lectures, references) over tooling
+    - Source-list context places it under 'Learning Resources' or 'Tutorials & Guides'
 placement:
   primary_category: null
   section: null
@@ -101,12 +100,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:29.427Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:efda3dde68b04fdcad7fae72041b1e5069d176054a5cab3a049b1099a98b6bcf
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a learning resource and guide, not a developer tool, framework, or product that directly fits the catalog's scope of practical AI tools for software developers.
+      decision_evidence:
+        - Repo description explicitly calls it a 'guide' for prompt engineering, context engineering, RAG, and AI Agents
+        - README emphasizes educational content (courses, lectures, references) over tooling
+        - Source-list context places it under 'Learning Resources' or 'Tutorials & Guides'
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

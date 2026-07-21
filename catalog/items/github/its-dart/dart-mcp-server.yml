@@ -43,22 +43,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:16.412Z"
       bytes: 7347
 insights:
-  summary: An official MCP server that exposes Dart AI project management features—task and document CRUD, prompts, and resource templates—to MCP-compatible coding assistants.
-  why_it_matters: It lets agents like Claude Code, Cursor, and Windsurf directly read and manipulate project tasks and docs inside Dart without custom glue code.
-  mental_damage: We have successfully abstracted project management into yet another protocol adapter, so your AI can now create tickets faster than your team can ignore them.
+  summary: An MCP server for integrating Dart AI project management capabilities with MCP-compatible clients.
+  why_it_matters: Lets developers connect Dart's task and document management to AI assistants via MCP, enabling prompt-driven project operations.
+  mental_damage: Now your AI can create Jira tickets faster than you can explain why they’re needed.
   tags:
     - mcp
-    - dart
     - project-management
-    - integration
+    - dart
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server for a specific domain (Dart project management), which fits cleanly as a domain server under MCP Servers & Tooling.
+  reason: MCP is the core product identity (a server) and it provides domain-specific tools for Dart project management.
   evidence:
-    - Repo description explicitly states 'Dart AI Model Context Protocol (MCP) server'.
-    - README documents MCP prompts, resource templates, and tools for task/document management.
-    - Listed in awesome-mcp-servers under 'Official Servers' and supports Claude Desktop, Claude Code, Cursor, Cline, and Windsurf.
+    - Repo description explicitly identifies it as a Dart MCP server
+    - README details MCP-specific features (prompts, resource templates, tools)
+    - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -77,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:11.392Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:eb4bbf279913a04887d478aca24663093cfe74705d91520bcc4e134193351673
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the core product identity (a server) and it provides domain-specific tools for Dart project management.
+      decision_evidence:
+        - Repo description explicitly identifies it as a Dart MCP server
+        - README details MCP-specific features (prompts, resource templates, tools)
+        - Listed in awesome-mcp-servers under Official Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

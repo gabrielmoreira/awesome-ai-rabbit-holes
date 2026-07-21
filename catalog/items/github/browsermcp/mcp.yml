@@ -61,22 +61,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:15.176Z"
       bytes: 1518
 insights:
-  summary: Browser MCP is a Model Context Protocol server and Chrome extension that allows AI applications like Claude and Cursor to control and automate the user's existing browser profile.
-  why_it_matters: It enables coding agents to interact with authenticated web sessions for testing, form filling, and scraping without the bot detection issues common with headless automation.
-  mental_damage: We have successfully bridged the gap between 'AI can write the code' and 'AI can click the 'Accept Cookies' button in your actual browser, completing the circle of existential dread.
+  summary: Browser MCP is an MCP server and Chrome extension that enables AI applications to automate and control a user's existing browser.
+  why_it_matters: It allows developers to integrate browser automation into AI workflows while retaining logged-in sessions and avoiding bot detection.
+  mental_damage: Now your AI can click 'I am not a robot' for you, recursively.
   tags:
-    - mcp
+    - mcp-server
     - browser-automation
     - chrome-extension
     - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server designed to provide browser automation capabilities to MCP-compatible clients, fitting the MCP Servers & Tooling category perfectly.
+  reason: MCP is the core product identity, and the tool is explicitly a server implementation for browser automation.
   evidence:
-    - Repo description identifies it as 'a Model Context Provider (MCP) server'.
-    - README states it is 'an MCP server + Chrome extension' for AI applications.
-    - Listed in awesome-mcp-servers under 'Browser Automation'.
+    - Repo description identifies it as a Model Context Provider (MCP) server for browser control
+    - README states it is an MCP server + Chrome extension for AI-driven browser automation
+    - Listed in awesome-mcp-servers under Browser Automation
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:01.648Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dee72d7f201c2fef5effd28e47a7ab536a24ed6e07e75a87a3ff870de5f41cbf
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the core product identity, and the tool is explicitly a server implementation for browser automation.
+      decision_evidence:
+        - Repo description identifies it as a Model Context Provider (MCP) server for browser control
+        - README states it is an MCP server + Chrome extension for AI-driven browser automation
+        - Listed in awesome-mcp-servers under Browser Automation
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server for browser automation, not merely an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

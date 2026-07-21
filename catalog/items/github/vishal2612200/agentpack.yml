@@ -24,19 +24,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 22
+    forks: 12
+    license: AGPL-3.0
+    archived: false
+    full_name: vishal2612200/agentpack
+    html_url: https://github.com/vishal2612200/agentpack
+    created_at: "2026-04-28T17:43:49Z"
+    pushed_at: "2026-07-21T09:20:05Z"
+    description: Local context engine for AI coding agents. Routes tasks to relevant files, tests, rules, and skills, supports prompt caching, and builds compact context packs for Claude Code, Codex, Cursor, MCP, and more.
+    homepage: https://vishal2612200.github.io/agentpack/
+    topics:
+      - ai-coding-agent
+      - claude-code
+      - cli
+      - code-analysis
+      - code-analysis-tool
+      - codex
+      - context-engine
+      - cursor
+      - developer-tools
+      - developer-tools-productivity
+      - first-timers-only
+      - good-first-issue
+      - help-wanted
+      - mcp
+      - prompt-engineering
+      - prompt-engineering-tool
+      - python
+      - windsurf
+    last_checked_at: "2026-07-21T15:21:06.427Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:06.427Z"
+      bytes: 19646
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +80,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:21:06.427Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

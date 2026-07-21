@@ -40,15 +40,15 @@ metadata:
       fetched_at: "2026-07-20T05:17:09.197Z"
       bytes: 5678
 insights:
-  summary: A monorepo containing a terminal-native coding agent CLI, a unified multi-provider LLM API, agent runtime libraries, and UI components for building AI interfaces.
-  why_it_matters: It provides a high-traction, open-source alternative to proprietary coding agents with a modular toolkit approach that separates the agent runtime from the model providers.
-  mental_damage: Just when you thought the terminal agent wars were settled, a monorepo with 45k stars appears to remind you that your shell is the new IDE, and you still haven't finished configuring your .zshrc.
+  summary: AI agent toolkit providing a unified LLM API, agent runtime, TUI, and a coding agent CLI.
+  why_it_matters: Developers can build and extend AI agents with a consistent interface across providers, including a dedicated CLI for coding tasks.
+  mental_damage: Another monorepo to watch, because apparently we needed more ways to argue about agent loops.
   tags:
+    - agent-toolkit
     - coding-agent
+    - unified-llm-api
     - cli
-    - monorepo
-    - llm-api
-    - agent-runtime
+    - tui
   confidence: high
 curation:
   status: included
@@ -60,10 +60,10 @@ curation:
     - High traction with 45,515 stars and recent activity (pushed 2026-05-06).
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (45515) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
@@ -76,12 +76,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:19.152Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c7701f27f0b7cce4249c967d907eb9870129ed7accdcb5d1095bfc17283b4dbd
+      proposed_primary_category: ai-frameworks
+      disagreement: true
+      decision_reason: The core product is a code-first toolkit for building agents, with a unified LLM API and agent runtime, fitting the Frameworks & SDKs category.
+      decision_evidence:
+        - "Repo description: 'AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI'"
+        - README lists packages like '@mariozechner/pi-ai' (unified LLM API) and '@mariozechner/pi-agent-core' (agent runtime)
+        - High star count (72895) and active development (pushed recently)
+      category_candidates:
+        - ai-frameworks
+        - coding-agents
+      contrastive_reason: Choose ai-frameworks over coding-agents because the primary identity is a reusable toolkit for building agents, not a standalone coding assistant.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-frameworks'"
+      review_resume_lifecycle: null

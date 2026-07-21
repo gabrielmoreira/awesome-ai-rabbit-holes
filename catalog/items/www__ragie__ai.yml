@@ -37,26 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Ragie is a fully managed RAG-as-a-Service platform providing APIs and SDKs for multimodal ingestion, indexing, and retrieval, with an MCP server for agent integration.
-  why_it_matters: It lets developers ship context-rich AI features without building and maintaining their own chunking, embedding, and retrieval pipelines.
-  mental_damage: Yet another excuse to pretend your chatbot is enterprise-ready because it can finally hallucinate with citations from a Notion doc.
+  summary: A web-based platform for RAG (Retrieval-Augmented Generation) workflows.
+  why_it_matters: It provides developers with a hosted interface for building, testing, and deploying RAG pipelines without managing infrastructure.
+  mental_damage: Now you can spend less time debugging vector embeddings and more time explaining to your manager why your AI still hallucinates.
   tags:
     - rag
-    - mcp
-    - context
+    - hosted
     - retrieval
-    - sdk
-  confidence: high
+    - ai-workflows
+  confidence: medium
 curation:
-  status: included
-  reason: The core product is a context and retrieval system for agents and apps, with MCP offered as an integration layer rather than the primary identity.
+  status: excluded
+  reason: The product is a hosted RAG platform, which falls outside the catalog's focus on developer-tooling workflows, integrations, or infrastructure directly tied to coding, debugging, or app-building.
   evidence:
-    - Scraped site describes Ragie as 'The Context Engine for Agents, Assistants, and Apps' with indexing, retrieval, and entity extraction.
-    - MCP Server is listed as one feature among many, not the defining product identity.
-    - Source list places it under Knowledge & Memory in awesome-mcp-servers, aligning with retrieval infrastructure.
+    - No repo description or README excerpt provided to confirm developer-tooling focus
+    - URL and name suggest a hosted RAG service rather than a developer tool or integration
+    - No evidence of code-first, IDE, CLI, or agent workflow integration
 placement:
-  primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -71,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:31.959Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:600ef0bea027a94f126f320fd9c18b3632399f9111e0945b9218f01dd240c706
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a hosted RAG platform, which falls outside the catalog's focus on developer-tooling workflows, integrations, or infrastructure directly tied to coding, debugging, or app-building.
+      decision_evidence:
+        - No repo description or README excerpt provided to confirm developer-tooling focus
+        - URL and name suggest a hosted RAG service rather than a developer tool or integration
+        - No evidence of code-first, IDE, CLI, or agent workflow integration
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

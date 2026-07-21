@@ -36,22 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Understanding Deep Learning (udlbook) is an online textbook and educational resource about deep learning concepts and theory.
-  why_it_matters: It provides a foundational reference for developers looking to understand the models and architectures behind the AI tools they are integrating.
-  mental_damage: Yet another pristine resource to bookmark and absolutely never read, sitting quietly atop the 400-tab monument to our own intellectual insecurity.
+  summary: An online book titled 'Understanding Deep Learning' providing educational content on deep learning concepts.
+  why_it_matters: It offers developers a structured resource to deepen their understanding of deep learning principles.
+  mental_damage: Another book to add to the pile of things you’ll never finish reading but will feel guilty about not reading.
   tags:
-    - deep-learning
     - education
+    - deep-learning
     - book
-    - theory
   confidence: high
 curation:
   status: excluded
-  reason: This is a theoretical textbook and educational resource, not a developer-facing tool, agent, framework, or infrastructure product.
+  reason: The project is an educational book, not a practical AI tool, workflow, or developer-facing infrastructure.
   evidence:
-    - Scraped site title is 'Understanding Deep Learning', identifying it as a book.
-    - Listed in awesome-LLM-resources under the section '书籍 Book' (Books).
-    - No code, CLI, IDE, or SDK identity present in the provided context.
+    - Source-list context identifies it as a book under the '书籍 Book' section
+    - Scraped site context confirms it is titled 'Understanding Deep Learning' with no tooling or code-first identity
 placement:
   primary_category: null
   section: null
@@ -69,12 +67,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:24.816Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:90dc15e996843935bbd71d8eb80040db6288b6939e1c1714da674c39ed0b1f63
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is an educational book, not a practical AI tool, workflow, or developer-facing infrastructure.
+      decision_evidence:
+        - Source-list context identifies it as a book under the '书籍 Book' section
+        - Scraped site context confirms it is titled 'Understanding Deep Learning' with no tooling or code-first identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

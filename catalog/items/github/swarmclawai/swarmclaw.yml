@@ -38,14 +38,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 462
-    forks: 89
+    stars: 619
+    forks: 130
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: swarmclawai/swarmclaw
+    html_url: https://github.com/swarmclawai/swarmclaw
     created_at: "2026-02-18T22:21:42Z"
-    pushed_at: "2026-05-06T19:50:12Z"
+    pushed_at: "2026-06-30T20:58:13Z"
     description: Open-source self-hosted AI agent runtime and multi-agent framework for autonomous agent swarms. Agent memory, MCP tools, schedules, delegation, and 23+ LLM providers (Claude, GPT, Gemini, OpenRouter, Ollama). A practical Claude Code and LangChain alternative.
     homepage: https://www.swarmclaw.ai
     topics:
@@ -69,10 +69,10 @@ metadata:
       - openclaw
       - orchestration
       - self-hosted
-    last_checked_at: "2026-05-06T22:46:38.281Z"
+    last_checked_at: "2026-07-21T15:20:37.649Z"
     readme:
-      fetched_at: "2026-05-06T22:46:38.281Z"
-      bytes: 81291
+      fetched_at: "2026-07-21T15:20:37.649Z"
+      bytes: 103566
 insights:
   summary: SwarmClaw is an open-source, self-hosted AI agent runtime and multi-agent framework for running autonomous agent swarms with durable memory, MCP tools, and support for 23+ LLM providers.
   why_it_matters: It provides developers with a self-hosted control plane to coordinate multiple autonomous agents, delegate tasks, and manage agent lifecycles across various LLM backends.
@@ -103,19 +103,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T16:43:06.218Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for swarmclawai/swarmclaw
+    status: done
+    updated_at: "2026-07-21T15:20:37.649Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

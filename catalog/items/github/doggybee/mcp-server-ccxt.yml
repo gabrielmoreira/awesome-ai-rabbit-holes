@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:51.875Z"
       bytes: 10281
 insights:
-  summary: An MCP server that bridges LLMs like Claude with the CCXT library to enable real-time cryptocurrency exchange data access and trading operations.
-  why_it_matters: Developers building crypto trading bots or analytics tools can delegate market data fetching and order execution directly to their LLM workflow without writing custom exchange wrappers.
-  mental_damage: Now your trading bot can panic-sell Bitcoin based on a hallucinated support level from a model that thinks it's still 2023.
+  summary: An MCP server that integrates cryptocurrency exchange APIs via CCXT for use with MCP-compatible LLMs.
+  why_it_matters: Lets developers query real-time market data and execute trades across 20+ exchanges directly from their AI coding workflows.
+  mental_damage: Now your AI can day-trade while you pretend to write unit tests.
   tags:
     - mcp
     - crypto
     - ccxt
+    - trading
     - finance
-    - exchange
   confidence: high
 curation:
   status: included
-  reason: The product's identity is a domain-specific MCP server for cryptocurrency exchanges, fitting the MCP Servers & Tooling category under Domain Servers.
+  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (crypto exchange) capabilities."
   evidence:
-    - Repo description explicitly states 'High-performance CCXT MCP server for cryptocurrency exchange integration'.
-    - README confirms it is an MCP server connecting LLMs to 20+ exchanges via the CCXT library.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section, reinforcing its MCP identity.
+    - Repo description explicitly calls it a 'CCXT MCP server'
+    - README emphasizes MCP standard compatibility and server architecture
+    - Listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:23.241Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:419d3fb4524723a4880c3fdcd60acfb9c6fe3bee9f585854286e9c37414e060b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (crypto exchange) capabilities."
+      decision_evidence:
+        - Repo description explicitly calls it a 'CCXT MCP server'
+        - README emphasizes MCP standard compatibility and server architecture
+        - Listed in awesome-mcp-servers under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:10:55.377Z"
       bytes: 5109
 insights:
-  summary: "An MCP server that provides Magic: The Gathering card search, rules lookup, deck analysis, and Commander intelligence by serving local Scryfall and rules data to AI assistants."
-  why_it_matters: It lets developers integrate structured MTG domain knowledge into MCP-compatible workflows without relying on brittle web scraping or generic LLM hallucinations.
-  mental_damage: "We have finally solved the most pressing infrastructure crisis of our time: giving Claude instant, offline access to Commander staples and combo databases."
+  summary: "An MCP server providing Magic: The Gathering card search, rules lookup, deck analysis, and Commander intelligence for AI assistants."
+  why_it_matters: Developers integrating AI assistants into MTG-related workflows can leverage this to fetch structured card data, rules, and deck insights without external API calls.
+  mental_damage: Now your AI can argue about Commander combos with the same confidence it debugs your code.
   tags:
     - mcp
-    - gaming
-    - domain-server
-    - local-data
+    - magic-the-gathering
+    - game-data
+    - context-provider
   confidence: high
 curation:
   status: included
-  reason: "The product is an MCP server focused on a specific domain (Magic: The Gathering), which fits cleanly into MCP Servers & Tooling as a domain-specific server."
+  reason: "MCP is the product identity: this is a domain-specific MCP server exposing MTG tools to AI assistants."
   evidence:
-    - "Repo description explicitly states 'Magic: The Gathering MCP server' as its identity."
-    - README positions the tool as providing 14 tools to AI assistants via the Model Context Protocol.
-    - Listed in awesome-mcp-servers under Server Implementations > Gaming, reinforcing its MCP domain-server role.
+    - Repo description explicitly identifies it as an MCP server
+    - README details 14 MCP tools for MTG data and analysis
+    - MCP compatibility is central to its purpose (not a secondary feature)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:28.762Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:46dd537a9bef990f6338d6d2478a22448bbdeb2551f6eeb48f5a4cd192cda9c0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing MTG tools to AI assistants."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server
+        - README details 14 MCP tools for MTG data and analysis
+        - MCP compatibility is central to its purpose (not a secondary feature)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

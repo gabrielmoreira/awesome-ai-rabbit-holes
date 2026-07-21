@@ -49,22 +49,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:59.086Z"
       bytes: 4720
 insights:
-  summary: A curated awesome list that catalogs open-source and closed-source AI agents, including coding assistants, orchestration frameworks, and autonomous task agents.
-  why_it_matters: It serves as a broad discovery map for developers trying to navigate the exploding ecosystem of AI agents to find tools relevant to their workflow.
-  mental_damage: Another list to add to your rotation of tabs, ensuring you feel adequately behind on the 40 new agent frameworks released since breakfast.
+  summary: A curated list of AI agents, categorized into open-source and closed-source projects.
+  why_it_matters: Provides developers with a navigable directory of agent frameworks, tools, and platforms to explore or integrate into their workflows.
+  mental_damage: Because nothing says 'productivity' like a list of 100 agent frameworks you’ll never have time to try.
   tags:
-    - awesome-list
-    - ai-agents
     - directory
-    - discovery
+    - ai-agents
+    - curated-list
+    - awesome-list
   confidence: high
 curation:
   status: included
-  reason: The project is a curated directory/list of AI agents rather than a standalone tool, fitting the navigation and discovery role of the awesome-awesomes category.
+  reason: This is a curated directory of AI agents, which fits the 'Awesome Awesomes' category as a navigation aid for developers.
   evidence:
-    - Repo description states it is 'A curated list of awesome top best AI Agents'.
-    - README confirms it is a categorized list of open-source and closed-source projects, not a functional tool itself.
-    - Seen in 'awesome-ai-coding-tools' under the section 'Related Lists'.
+    - Repo description explicitly states it is a curated list of AI agents
+    - README confirms it is a categorized directory of open/closed-source agent projects
+    - Source-list context shows it is already included in 'awesome-ai-coding-tools' under 'Related Lists'
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -83,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:30.602Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d9a92768a73598a31eb70c2ab9c7699755cac8085e8c6cae7637e543e0c9396a
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of AI agents, which fits the 'Awesome Awesomes' category as a navigation aid for developers.
+      decision_evidence:
+        - Repo description explicitly states it is a curated list of AI agents
+        - README confirms it is a categorized directory of open/closed-source agent projects
+        - Source-list context shows it is already included in 'awesome-ai-coding-tools' under 'Related Lists'
+      category_candidates:
+        - awesome-awesomes
+        - agent-orchestration
+      contrastive_reason: Choose awesome-awesomes over agent-orchestration because the primary value is discovery/navigation, not multi-agent coordination.
+      review_reason: null
+      review_resume_lifecycle: null

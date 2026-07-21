@@ -64,23 +64,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:03.603Z"
       bytes: 10601
 insights:
-  summary: Distilabel is a Python framework for building scalable synthetic data generation and AI feedback pipelines to fine-tune and improve LLMs.
-  why_it_matters: It lets developers programmatically synthesize high-quality training datasets and judge model outputs using verified research methodologies instead of manual labeling.
-  mental_damage: Because obviously the most efficient way to solve the 'not enough high-quality data' problem is to write a pipeline that uses expensive LLMs to generate synthetic data to train cheaper LLMs.
+  summary: Distilabel is a Python framework for generating synthetic data and AI feedback pipelines based on verified research papers.
+  why_it_matters: It helps developers create high-quality, scalable datasets for fine-tuning LLMs by synthesizing and judging data with AI feedback.
+  mental_damage: Now you can spend less time collecting data and more time questioning whether your synthetic data is hallucinating its own existence.
   tags:
     - synthetic-data
-    - llm-fine-tuning
-    - python
-    - pipelines
-    - rlhf
+    - ai-feedback
+    - llm-training
+    - python-framework
+    - data-pipelines
   confidence: high
 curation:
   status: included
-  reason: It is a code-first library and SDK used by developers to script data pipelines, fitting the Frameworks & SDKs definition rather than an agent, orchestration platform, or IDE tool.
+  reason: The product is a code-first framework for building synthetic data and AI feedback pipelines, which fits the developer-tooling scope as a reusable SDK.
   evidence:
-    - Repo description defines it as 'a framework for synthetic data and AI feedback for engineers' with a unified API.
-    - README emphasizes a 'programmatic approach' to build scalable pipelines for data generation and AI feedback.
-    - Topics include python, synthetic-dataset-generation, and rlhf, confirming its identity as a developer library.
+    - Repo description explicitly calls it a 'framework for synthetic data and AI feedback'
+    - README emphasizes programmatic pipeline building for data generation and AI feedback
+    - Source-list context places it in Data/Feature enrichment sections
 placement:
   primary_category: ai-frameworks
   section: Workflow / Graph Engines
@@ -99,12 +99,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:49.611Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5ade6c52c7874e2bf1b466c70ace1667508d1e596b3774753263ddb89f5990bf
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The product is a code-first framework for building synthetic data and AI feedback pipelines, which fits the developer-tooling scope as a reusable SDK.
+      decision_evidence:
+        - Repo description explicitly calls it a 'framework for synthetic data and AI feedback'
+        - README emphasizes programmatic pipeline building for data generation and AI feedback
+        - Source-list context places it in Data/Feature enrichment sections
+      category_candidates:
+        - ai-frameworks
+        - evals
+      contrastive_reason: Choose ai-frameworks over evals because the core job is building data pipelines rather than measuring model behavior.
+      review_reason: null
+      review_resume_lifecycle: null

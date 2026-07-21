@@ -39,23 +39,21 @@ metadata:
       fetched_at: "2026-07-20T05:16:58.389Z"
       bytes: 998
 insights:
-  summary: Code and evaluation scripts for the 2024 research paper "Tuning Language Models by Proxy," an academic technique for steering model behavior without direct fine-tuning.
-  why_it_matters: It provides a reference implementation for researchers looking to reproduce or build upon proxy tuning methods for LLMs.
-  mental_damage: Yet another fascinating academic repo that will inspire a thousand Medium posts promising to revolutionize your production stack, while you just wanted autocomplete to stop writing SQL.
+  summary: Code implementation for the research paper 'Tuning Language Models by Proxy' (Liu et al., 2024).
+  why_it_matters: It provides reference implementations for a novel fine-tuning methodology that may influence how developers train or adapt models.
+  mental_damage: Another research repo that will haunt your GitHub stars but never your production stack.
   tags:
-    - llm
     - fine-tuning
     - research
-    - evaluation
-    - academic
+    - proxy-tuning
   confidence: high
 curation:
   status: excluded
-  reason: This is an auxiliary code repository for an academic paper on model training techniques, lacking the developer-facing tooling identity required for the catalog.
+  reason: This is a research codebase tied to a specific paper, not a practical developer tool, workflow, or infrastructure.
   evidence:
     - Repo description explicitly states it is 'Code associated with Tuning Language Models by Proxy (Liu et al., 2024)'
-    - README is exclusively focused on paper evaluation data and citation, not a usable developer product
-    - Listed in awesome-LLM-resources under a 'Fine-Tuning' research section rather than a developer tool section
+    - No evidence of a developer-facing product, workflow, or integration
+    - Listed in source lists under 'Fine-Tuning' (research-oriented)
 placement:
   primary_category: null
   section: null
@@ -74,12 +72,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:12.746Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3e53a63f3b2de68b40de259889146888250f73ff812c28a93517ebe8937e966c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a research codebase tied to a specific paper, not a practical developer tool, workflow, or infrastructure.
+      decision_evidence:
+        - Repo description explicitly states it is 'Code associated with Tuning Language Models by Proxy (Liu et al., 2024)'
+        - No evidence of a developer-facing product, workflow, or integration
+        - Listed in source lists under 'Fine-Tuning' (research-oriented)
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

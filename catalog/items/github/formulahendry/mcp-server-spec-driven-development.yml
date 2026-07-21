@@ -43,14 +43,13 @@ metadata:
       fetched_at: "2026-07-16T05:05:03.640Z"
       bytes: 5449
 insights:
-  summary: An MCP server that provides structured prompts to guide developers through a spec-driven workflow of generating EARS-format requirements, design documents, and implementation code.
-  why_it_matters: It offers a structured alternative to vibe coding by enforcing a requirements-to-design-to-code pipeline directly within MCP-compatible editors and agents.
-  mental_damage: We have successfully abstracted the job of writing code into writing specifications for an AI to write code, which we will then pretend we engineered.
+  summary: MCP server that provides structured prompts for spec-driven development workflows from requirements to design to code generation.
+  why_it_matters: It offers developers a repeatable, spec-first process that reduces ambiguity and improves consistency when translating ideas into implementation.
+  mental_damage: Another MCP server promising to save you from vibe coding by adding yet another prompt layer to your already-overburdened AI-assisted workflow.
   tags:
     - mcp
-    - spec-driven
-    - requirements
-    - workflow
+    - spec-driven-development
+    - prompt-engineering
   confidence: high
 curation:
   status: included
@@ -61,10 +60,10 @@ curation:
     - Found in the 'awesome-spec-driven-development' list under the 'MCP Servers' section.
 placement:
   primary_category: spec-driven-development
-  section: Spec-First Environments
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (431) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'spec-driven-development', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -77,12 +76,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:58:00.875Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d79829996ac0774fd20dc15d8edd3cc48fd4366b86d4edbaf97556cfbad90e73
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The product is an MCP server whose primary identity and value proposition is providing spec-driven development prompts via the Model Context Protocol, making MCP Servers & Tooling the best fit.
+      decision_evidence:
+        - "Repo description: 'Spec-Driven Development MCP Server, not just Vibe Coding'"
+        - "README: 'Model Context Protocol (MCP) server that facilitates spec-driven development workflows'"
+        - "Source-list context: Listed in awesome-spec-driven-development under 'MCP Servers' section"
+      category_candidates:
+        - mcp
+        - spec-driven-development
+      contrastive_reason: Choose mcp over spec-driven-development because the product is fundamentally an MCP server infrastructure rather than a standalone spec-first environment or loop.
+      review_reason: "Categorization review required: placement disagreement: retained 'spec-driven-development', proposed 'mcp'"
+      review_resume_lifecycle: null

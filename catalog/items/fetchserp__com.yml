@@ -1,0 +1,114 @@
+id: fetchserp__com
+kind: website
+name: FetchSERP
+canonical_url: https://fetchserp.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__fetchserp__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: FetchSERP
+        extracted_url: https://fetchserp.com
+        surrounding_text: "- **[FetchSERP](https://github.com/fetchSERP/fetchserp-mcp-server-node)** - All-in-One SEO & Web Intelligence Toolkit API [FetchSERP](https://www.fetchserp.com)"
+        confidence: high
+    - id: discovery__www__fetchserp__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: FetchSERP
+        extracted_url: https://www.fetchserp.com
+        surrounding_text: "- **[FetchSERP](https://github.com/fetchSERP/fetchserp-mcp-server-node)** - All-in-One SEO & Web Intelligence Toolkit API [FetchSERP](https://www.fetchserp.com)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An SEO and web intelligence API providing search engine results, domain rankings, and web scraping capabilities across multiple engines.
+  why_it_matters: It enables developers to integrate real-time search engine data and SEO analytics directly into AI agents and automated content workflows via an API or MCP.
+  mental_damage: Because nothing says 'odern engineering' quite like piping raw SERP data into an LLM to argue about keyword rankings.
+  tags:
+    - seo
+    - api
+    - mcp
+    - web-scraping
+    - search-engine
+  confidence: high
+curation:
+  status: included
+  reason: The product identity is built around providing a specialized data API and its corresponding MCP server for integration into AI clients.
+  evidence:
+    - Provides a dedicated MCP server for Claude Desktop
+    - Offers a comprehensive SEO/Web Intelligence API
+    - Includes SDKs for Node.js, Python, and Ruby to facilitate LLM integration
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:33:59.649Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:81056f93f2474db88dac65c448d997e629e9d13f63b82aa50a61d7819b2e5e4f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is built around providing a specialized data API and its corresponding MCP server for integration into AI clients.
+      decision_evidence:
+        - Provides a dedicated MCP server for Claude Desktop
+        - Offers a comprehensive SEO/Web Intelligence API
+        - Includes SDKs for Node.js, Python, and Ruby to facilitate LLM integration
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's primary integration path and marketing focus is its MCP server for seamless use in AI desktops and agents.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.965Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

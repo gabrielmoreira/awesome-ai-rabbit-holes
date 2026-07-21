@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: SkillHub is a curated community and directory for Chinese users featuring a top-50 list of high-quality AI skills selected through security audits and multi-dimensional evaluation.
-  why_it_matters: It offers developers a pre-vetted, localized shortcut to discover practical AI skills without wading through the usual noise of the broader LLM ecosystem.
-  mental_damage: Just when you thought the AI tooling stack was complete, we now have a directory to help you organize your directories of skills for tools that write code for you.
+  summary: A Chinese-language AI skills community curating and reviewing top AI skills for practical use.
+  why_it_matters: It helps Chinese-speaking developers discover vetted, high-quality AI skills for their workflows.
+  mental_damage: Another directory promising to cut through the noise, while adding to it.
   tags:
-    - skills
     - directory
-    - china
-    - llm-resources
+    - skills
+    - chinese
+    - curated
   confidence: high
 curation:
   status: included
-  reason: The site functions as a curated directory and community index for AI skills rather than a standalone developer tool, fitting the 'Lists & Directories' category.
+  reason: It is a curated directory of AI skills, fitting the scope of navigation aids for developers.
   evidence:
-    - Scraped description identifies it as an 'AI技能社区' (AI skills community) featuring a 'Top 50' list.
-    - Source-list context places it in 'awesome-LLM-resources' under the '技能 Skills' section as a discovery aid.
-    - The core value proposition is curation, security auditing, and evaluation of existing skills, not generating new code.
+    - Described as a Chinese-user-focused AI skills community
+    - Curates Top 50 high-quality AI Skills with safety reviews and multi-dimensional evaluation
+    - Listed in awesome-LLM-resources under 'Skills' section
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -69,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:32.441Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:88eb4240476fa98701b04c6c3812023c46277dad3c96e678e391a809f78ec982
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: It is a curated directory of AI skills, fitting the scope of navigation aids for developers.
+      decision_evidence:
+        - Described as a Chinese-user-focused AI skills community
+        - Curates Top 50 high-quality AI Skills with safety reviews and multi-dimensional evaluation
+        - Listed in awesome-LLM-resources under 'Skills' section
+      category_candidates:
+        - awesome-awesomes
+        - skills
+      contrastive_reason: Choose awesome-awesomes over skills because the primary value is discovery and navigation rather than distributing reusable skill packs.
+      review_reason: null
+      review_resume_lifecycle: null

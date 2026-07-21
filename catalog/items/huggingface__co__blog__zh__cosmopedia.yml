@@ -36,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Cosmopedia is a large-scale synthetic dataset and open pipeline for pretraining small language models using Mixtral-generated textbooks, stories, and instructional content.
-  why_it_matters: It gives developers an open, reproducible way to pretrain capable small models without relying on closed Phi-style data or expensive human-labeled corpora.
-  mental_damage: We have collectively decided that the best way to teach models to reason is to have slightly larger models hallucinate textbooks at industrial scale.
+  summary: Cosmopedia is a large-scale synthetic dataset (25B tokens, 30M+ files) designed for pretraining language models, with open-source code, dataset, and a 1B-parameter model trained on it.
+  why_it_matters: It demonstrates a reproducible pipeline for generating high-quality synthetic pretraining data at scale, offering developers a reference for building or fine-tuning models without proprietary datasets.
+  mental_damage: Finally, a way to train your own Phi-1.5 clone—just don’t ask how many H100s it took to debug the prompt engineering.
   tags:
     - synthetic-data
-    - slm
     - pretraining
-    - huggingface
+    - open-source
+    - dataset
+    - model-training
   confidence: high
 curation:
   status: excluded
-  reason: This is a research dataset and blog post about model pretraining rather than a developer-facing AI tool, agent, workflow, or infrastructure product.
+  reason: Cosmopedia is a synthetic dataset and research artifact for model pretraining, not a developer tool, workflow, or infrastructure for building AI applications.
   evidence:
-    - The link resolves to a Hugging Face blog post explaining the Cosmopedia dataset, not a usable developer tool.
-    - Its primary outputs are a dataset (31M samples) and a 1B pretrained model, not tooling for coding workflows.
-    - Appears in awesome-LLM-resources under 'Small Language Model' as an educational/research resource, not a developer product.
+    - Primary artifact is a dataset (HuggingFaceTB/cosmopedia) and a blog post describing its creation
+    - Focus is on pretraining data generation, not developer-facing tooling or workflows
+    - Source-list context places it under 'Small Language Model' resources, not developer tools
 placement:
   primary_category: null
   section: null
@@ -71,12 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:43.365Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a3045450be570a34f2cb5c405f781cf65909cce2f16730fc823c2d3a9975e8b4
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Cosmopedia is a synthetic dataset and research artifact for model pretraining, not a developer tool, workflow, or infrastructure for building AI applications.
+      decision_evidence:
+        - Primary artifact is a dataset (HuggingFaceTB/cosmopedia) and a blog post describing its creation
+        - Focus is on pretraining data generation, not developer-facing tooling or workflows
+        - Source-list context places it under 'Small Language Model' resources, not developer tools
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

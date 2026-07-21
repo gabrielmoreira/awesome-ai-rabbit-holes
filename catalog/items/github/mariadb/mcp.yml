@@ -41,23 +41,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:16.283Z"
       bytes: 14284
 insights:
-  summary: An MCP server implementation that exposes MariaDB databases—including tables, schemas, SQL queries, and vector stores—to AI assistants via the Model Context Protocol.
-  why_it_matters: It lets AI coding agents safely inspect schemas and run read-only queries or vector searches against MariaDB without developers hand-crafting database access layers.
-  mental_damage: Another pristine MCP server joins the pile, proving that the protocol is thriving even if your agent still can't figure out which index you actually need.
+  summary: MariaDB MCP Server is a Model Context Protocol server implementation exposing database and vector store tools for AI assistants.
+  why_it_matters: It lets AI assistants query MariaDB and perform vector search via a standardized interface, reducing glue code for data workflows.
+  mental_damage: Yet another MCP server to spin up just so your AI can finally run SELECT * FROM users without hallucinating the schema.
   tags:
     - mcp
     - database
-    - vector-search
-    - mariadb
-    - ai-integration
+    - vector-store
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server for MariaDB with no stronger identity as a framework, extension, or orchestration platform, making it a clean fit for MCP Servers & Tooling.
+  reason: It is an MCP server implementation with MCP as its core identity, not merely an adapter or extension, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MariaDB MCP (Model Context Protocol) server implementation'.
-    - Active project with created_at 2025-05-09 and pushed_at 2026-03-09, not archived.
-    - README centers on exposing MariaDB tools (list_tables, execute_sql, vector store) via MCP for AI assistants.
+    - "Repo description: 'MariaDB MCP (Model Context Protocol) server implementation'"
+    - README exposes MCP tools for database operations and vector stores
+    - Listed in awesome-agent-orchestration under Agent Communication Protocols > Model Context Protocol (MCP) > Database & Vector Stores
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -76,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:18:19.167Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:94c1f55e9ece7b2dcf29f631a16a5fff1083b1b9ed250d87f6f65440b3651319
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: It is an MCP server implementation with MCP as its core identity, not merely an adapter or extension, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - "Repo description: 'MariaDB MCP (Model Context Protocol) server implementation'"
+        - README exposes MCP tools for database operations and vector stores
+        - Listed in awesome-agent-orchestration under Agent Communication Protocols > Model Context Protocol (MCP) > Database & Vector Stores
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension augmenting another assistant with MCP compatibility.
+      review_reason: null
+      review_resume_lifecycle: null

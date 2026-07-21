@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:06.496Z"
       bytes: 17836
 insights:
-  summary: AutoCodeRover is an autonomous software engineering tool that combines LLMs with program-structure-aware code search and statistical fault localization to automatically resolve GitHub issues and generate patches.
-  why_it_matters: It demonstrates a reproducible, economical pipeline for autonomous program repair that developers can run against real SWE-bench issues at roughly $0.70 per task.
-  mental_damage: Now that an autonomous rover can fix 46% of verified issues for pocket change, your PR reviews are officially the most expensive part of the deployment pipeline.
+  summary: An autonomous program improvement agent that resolves GitHub issues by combining LLMs with program structure-aware code search and statistical fault localization.
+  why_it_matters: It demonstrates state-of-the-art efficacy on SWE-bench benchmarks while keeping costs low, offering developers a practical path to automated bug fixing and feature addition.
+  mental_damage: Finally, an AI that can fix your bugs for less than the cost of a coffee—if only it could also explain why it broke them in the first place.
   tags:
-    - autonomous-repair
+    - autonomous-coding
+    - bug-fixing
     - swe-bench
+    - program-repair
     - cli-agent
-    - patch-generation
   confidence: high
 curation:
   status: included
-  reason: It is a standalone, repo-aware coding agent that plans, searches, and patches code autonomously, fitting the primary coding assistant definition rather than an extension or framework.
+  reason: It is a primary coding assistant that directly reads, navigates, and patches codebases autonomously, fitting the core definition of a coding agent.
   evidence:
-    - Repo description explicitly calls it 'a project structure aware autonomous software engineer' with SWE-bench verified results.
-    - "README details a two-stage workflow: context retrieval via AST-aware search and patch generation on GitHub issues."
-    - Included in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source' and pushed as recently as 2025-04-24.
+    - Repo description explicitly calls it an 'autonomous software engineer' for program improvement
+    - README highlights autonomous resolution of GitHub issues with concrete SWE-bench efficacy metrics
+    - Source-list context places it in 'Terminal-native coding agents > Open Source'
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:24.912Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:434336e95e734e2be2f016d969ca131d748610d0eec0f622a711b3ff9c762a9e
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a primary coding assistant that directly reads, navigates, and patches codebases autonomously, fitting the core definition of a coding agent.
+      decision_evidence:
+        - Repo description explicitly calls it an 'autonomous software engineer' for program improvement
+        - README highlights autonomous resolution of GitHub issues with concrete SWE-bench efficacy metrics
+        - Source-list context places it in 'Terminal-native coding agents > Open Source'
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool operates as a standalone autonomous agent for repo work rather than augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

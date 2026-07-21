@@ -37,22 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Shareseer is a SaaS platform and Chrome extension for retail investors to track SEC insider trading transactions, view financial filings, and generate investment ideas.
-  why_it_matters: It provides developers interested in finance with real-time insider data APIs and browser integrations to build or inform trading strategies.
-  mental_damage: Finally, an AI tool that empowers you to day-trade with the same conviction as a CEO who just sold 50% of their holdings to buy a villa.
+  summary: ShareSEER is a financial research tool that generates investment ideas by tracking insider transactions and providing real-time alerts, cluster detection, and SEC filing access.
+  why_it_matters: It helps investors and analysts spot potential opportunities by monitoring executive stock trades and financial disclosures.
+  mental_damage: Because nothing says 'developer tooling' like a Chrome extension that turns your browser into a Wall Street surveillance dashboard.
   tags:
-    - fintech
-    - investment
-    - chrome-extension
+    - finance
+    - investment-research
     - sec-filings
+    - insider-trading
   confidence: high
 curation:
   status: excluded
-  reason: This is a consumer-facing investment research tool for retail traders, not a developer-facing AI tool, agent, or infrastructure component.
+  reason: The product is a financial research and investment analysis tool with no developer-tooling angle, AI or otherwise.
   evidence:
-    - Scraped site context describes a 'research tool to generate investment ideas' with 'Real-Time Alerts' and 'Live Dashboards' for traders.
-    - The primary call-to-action is installing a Chrome Extension to see insider trades on financial news sites, targeting investors rather than developers.
-    - Although listed in awesome-mcp-servers under Finance & Fintech, the main product identity is a standalone SaaS investment platform, not MCP infrastructure.
+    - Primary product is a financial research tool for investment ideas
+    - Features focus on insider trading alerts, SEC filings, and stock analysis
+    - No mention of code, development workflows, or AI tooling for developers
 placement:
   primary_category: null
   section: null
@@ -70,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:29.019Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:507f83a75035217e1b8908bf80027f8fae9733453d41b7d3d85808b3d4211a3f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a financial research and investment analysis tool with no developer-tooling angle, AI or otherwise.
+      decision_evidence:
+        - Primary product is a financial research tool for investment ideas
+        - Features focus on insider trading alerts, SEC filings, and stock analysis
+        - No mention of code, development workflows, or AI tooling for developers
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

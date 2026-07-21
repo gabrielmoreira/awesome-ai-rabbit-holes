@@ -36,25 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web directory and discovery hub for finding Model Context Protocol (MCP) servers.
-  why_it_matters: It provides a centralized map for developers navigating the rapidly expanding ecosystem of MCP tool integrations.
-  mental_damage: Yet another layer of abstraction to help you find the abstraction layers that help you abstract your job away.
+  summary: A domain name (mcpservers.net) listed for sale on Spaceship.com.
+  why_it_matters: It does not matter to developers as it is not a tool, library, or service.
+  mental_damage: The only thing being deployed here is a $50,000 invoice.
   tags:
-    - mcp
-    - directory
-    - discovery
-    - tooling
+    - domain-sale
+    - mcp-adjacent
   confidence: high
 curation:
-  status: included
-  reason: The site functions as a navigation and discovery index for MCP servers, fitting the 'Lists & Directories' category rather than a standalone product or server itself.
+  status: excluded
+  reason: This is a domain sale page, not a developer tool, framework, or resource.
   evidence:
-    - URL is https://mcpservers.net, indicating a domain dedicated to MCP server listings.
-    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
-    - No repo description, README, or code artifacts provided; identified purely as a directory site.
+    - Scraped site context shows it is a domain for sale on Spaceship.com
+    - No repo, README, or functional tooling is present
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +66,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:50.614Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f0168c90eaa13a106eb9af78d23a008ca93d375cc4c86b16d093ab8108c32f3f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a domain sale page, not a developer tool, framework, or resource.
+      decision_evidence:
+        - Scraped site context shows it is a domain for sale on Spaceship.com
+        - No repo, README, or functional tooling is present
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

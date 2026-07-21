@@ -55,16 +55,16 @@ metadata:
       fetched_at: "2026-07-16T05:05:07.344Z"
       bytes: 12437
 insights:
-  summary: A high-performance, multi-protocol mock server supporting HTTP, WebSocket, gRPC, MQTT, SSE, GraphQL, and SOAP, distributed as a single Go binary with an integrated MCP server.
-  why_it_matters: It lets developers virtualize almost any service dependency locally while giving AI agents an MCP-compatible interface to generate and manage mocks programmatically.
-  mental_damage: Another essential piece of local infrastructure that will somehow still result in your staging environment being the first place you discover that the API contract changed three weeks ago.
+  summary: A high-performance, multi-protocol mock server supporting HTTP, WebSocket, gRPC, MQTT, SSE, GraphQL, and SOAP in a single binary.
+  why_it_matters: It streamlines backend testing by providing a unified, stateful CLI tool that can simulate diverse communication protocols and even generate mocks via AI agents.
+  mental_damage: Because nothing says 'tress-free development' like trying to debug a distributed system where the mocks are hallucinating MQTT messages.
   tags:
-    - mock-server
-    - mcp
-    - testing
-    - go
+    - api-mocking
     - cli
-  confidence: medium
+    - testing
+    - protocol-simulation
+    - mcp
+  confidence: high
 curation:
   status: included
   reason: mockd is primarily a developer tool for service virtualization, but its explicit inclusion in awesome-mcp-servers and its README highlighting an 'MCP server' capability make the MCP identity a strong fit for this catalog.
@@ -74,10 +74,10 @@ curation:
     - Found in the 'awesome-mcp-servers' list under 'Server Implementations > Developer Tools'.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:02:33.283Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d5f6127d838e31cd80c601fbcd19af9d8b4e46a1100576289456bfe9481b36a1
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: The tool's core identity is a specialized utility that provides capabilities (mocking/protocol simulation) that augment development and testing workflows.
+      decision_evidence:
+        - Supports 7+ protocols (HTTP, gRPC, GraphQL, etc.) in a single binary
+        - Includes built-in MCP server functionality
+        - Features AI agent integration for mock generation
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because MCP is a featured capability of the tool rather than its entire product identity.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

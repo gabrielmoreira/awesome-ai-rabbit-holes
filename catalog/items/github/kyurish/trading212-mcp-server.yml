@@ -53,22 +53,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:44.088Z"
       bytes: 6988
 insights:
-  summary: An MCP server that exposes the Trading 212 brokerage API as 32 tools for portfolio analytics, order management, and market data within AI assistants.
-  why_it_matters: Developers can manage trades, analyze portfolio performance, and export transaction history through natural language conversations in Claude, Cursor, or Windsurf.
-  mental_damage: "We have finally achieved the platonic ideal of the modern developer workflow: wrapping a stock brokerage in an MCP server so you can panic-sell while your AI assistant explains why the rate limiter is being polite about it."
+  summary: An MCP server that connects AI assistants to Trading 212's brokerage API for portfolio analytics, order management, and dividend tracking.
+  why_it_matters: Developers can integrate their AI coding assistants with real-time trading data and actions, enabling natural language control over brokerage operations.
+  mental_damage: Now your AI can day-trade your portfolio while you debug production incidents.
   tags:
-    - mcp
+    - mcp-server
     - trading
+    - brokerage-api
+    - portfolio-analytics
     - finance
-    - ai-tools
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server exposing Trading 212 brokerage capabilities, which fits cleanly into the Domain Servers section of MCP Servers & Tooling.
+  reason: This is a domain-specific MCP server whose primary identity is providing Trading 212 integration via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states 'MCP server for Trading 212' with portfolio analytics and order management capabilities.
-    - README confirms MCP is the product identity with 32 tools, PyPI package, and compatibility with Claude, ChatGPT, Cursor, and Windsurf.
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing the MCP server classification.
+    - Repo description explicitly states it is an MCP server for Trading 212
+    - README details 32 tools covering Trading 212 API with MCP compatibility
+    - Works with multiple MCP-compatible clients (Claude, Cursor, etc.)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -87,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:31.702Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:17f24ab8121e256cdb615a4cbc71f94b674df5e4fbcff68150d9aea306fc9769
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a domain-specific MCP server whose primary identity is providing Trading 212 integration via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Trading 212
+        - README details 32 tools covering Trading 212 API with MCP compatibility
+        - Works with multiple MCP-compatible clients (Claude, Cursor, etc.)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for Trading 212, not merely an extension to another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

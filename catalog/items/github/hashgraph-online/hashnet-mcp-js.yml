@@ -54,23 +54,23 @@ metadata:
       fetched_at: "2026-07-20T15:10:59.669Z"
       bytes: 5536
 insights:
-  summary: A universal MCP server for discovering, chatting with, registering, and orchestrating agents across the HOL Registry Broker ecosystem with stdio and HTTP transports.
-  why_it_matters: Developers using MCP clients can connect to a global registry to find and delegate tasks to remote agents without building custom discovery and routing logic.
-  mental_damage: We have successfully created a protocol to discover agents that were themselves created to automate discovering things, completing the circle with impressive efficiency.
+  summary: Universal MCP server for discovering, connecting, and interacting with agents via the HOL Registry Broker ecosystem.
+  why_it_matters: Developers can use this to integrate agent discovery, chat, registration, and workflow automation into MCP-compatible clients.
+  mental_damage: Now you can find agents on the planet, but good luck explaining to your manager why your codebase depends on a Hedera-based registry.
   tags:
-    - mcp
+    - mcp-server
     - agent-discovery
-    - registry
-    - hedgegraph
-    - multi-agent
-  confidence: medium
+    - registry-broker
+    - hedera
+    - workflow-automation
+  confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose primary identity is agent discovery and registry interaction within the HOL/MCP ecosystem, placing it firmly in MCP Servers & Tooling.
+  reason: This is an MCP-first server whose primary identity is enabling agent discovery and interaction via the Model Context Protocol.
   evidence:
-    - Repo description explicitly calls it a 'Universal MCP Server' for finding and connecting to agents.
-    - README describes tool surface for discovery, chat, registration, and workflows targeting the HOL Registry Broker.
-    - Listed in awesome-mcp-servers under 'Aggregators', confirming its MCP server identity.
+    - Repo description explicitly calls it a 'Universal MCP Server for finding + connecting to agents'
+    - README details MCP transports (stdio, HTTP), tool surfaces (discovery, chat, registration), and HOL Registry Broker integration
+    - Already listed in awesome-mcp-servers under 'Aggregators'
 placement:
   primary_category: mcp
   section: Registries & Discovery
@@ -89,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:08.109Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2a3a3380fb403d109036e569e52c10e6220f4c6c15b0005411e161d3d3f76511
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose primary identity is enabling agent discovery and interaction via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly calls it a 'Universal MCP Server for finding + connecting to agents'
+        - README details MCP transports (stdio, HTTP), tool surfaces (discovery, chat, registration), and HOL Registry Broker integration
+        - Already listed in awesome-mcp-servers under 'Aggregators'
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the product's core identity is as an MCP server for agent discovery, not a multi-agent coordination platform.
+      review_reason: null
+      review_resume_lifecycle: null

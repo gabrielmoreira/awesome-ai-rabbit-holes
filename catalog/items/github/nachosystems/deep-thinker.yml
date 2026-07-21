@@ -54,23 +54,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:05.676Z"
       bytes: 30379
 insights:
-  summary: An MCP server that provides graph-based, metacognitive reasoning strategies—including dialectic, abductive, and first-principles—to augment AI assistants with structured thought management.
-  why_it_matters: Developers can plug advanced reasoning workflows into MCP-compatible assistants, enabling more transparent, auditable, and strategic problem-solving beyond linear chat threads.
-  mental_damage: Your AI now has a directed acyclic graph of thoughts, metacognitive self-critique, and five layers of meta-reasoning—yet somehow still can't figure out why your CI pipeline is failing.
+  summary: An MCP server providing advanced cognitive reasoning capabilities with DAG thought graphs, 10 reasoning strategies, metacognition, and self-critique.
+  why_it_matters: Developers can integrate sophisticated reasoning workflows into their AI agent stacks via MCP, enabling more structured and self-aware problem-solving.
+  mental_damage: Now your AI can overthink things in a DAG, just like you do at 3 AM.
   tags:
-    - cognitive
-    - dag
-    - mcp
-    - metacognition
+    - mcp-server
     - reasoning
-  confidence: medium
+    - cognitive-engine
+    - typescript
+    - metacognition
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that extends assistants with structured reasoning capabilities, making MCP the core product identity.
+  reason: MCP is the product identity here—a server exposing reasoning capabilities via the Model Context Protocol.
   evidence:
-    - Repo description explicitly identifies it as an 'Advanced cognitive reasoning MCP server' with MCP listed as a topic.
-    - README shows this is configured as an MCP server in Claude Desktop and other MCP clients via stdio.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section, confirming its MCP server identity.
+    - Repo description explicitly calls it an 'Advanced cognitive reasoning MCP server'
+    - Topics include 'mcp', 'mcp-server', and 'model-context-protocol'
+    - Package is published as an npm MCP server
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -79,15 +79,31 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:34.303Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d45f302557157fa07f2011c1d4b0705ed55a3ac71814f13a31f5903359fc6ba2
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a server exposing reasoning capabilities via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly calls it an 'Advanced cognitive reasoning MCP server'
+        - Topics include 'mcp', 'mcp-server', and 'model-context-protocol'
+        - Package is published as an npm MCP server
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product is explicitly an MCP server, not a standalone context/prompt system.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-05-06T22:12:15.619Z"

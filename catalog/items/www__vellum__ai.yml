@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Vellum is a multi-platform personal AI assistant focused on long-term episodic, semantic, and procedural memory across web, desktop, CLI, and messaging integrations.
-  why_it_matters: It introduces a developer-facing memory and identity scaffolding model (IDENTITY.md, SOUL.md, skills/*.ts) that can be self-hosted or run locally with configurable autonomy levels.
-  mental_damage: Now you can finally offload your calendar, inbox, and existential dread to an assistant that remembers your preferences better than your actual teammates do.
+  summary: A personal AI assistant platform with memory, app integrations, and automated task execution for email, calendar, and workflow management.
+  why_it_matters: It automates repetitive personal and professional tasks (email triage, scheduling, research) with persistent memory and skill learning, reducing manual overhead for developers who juggle many contexts.
+  mental_damage: Finally, an AI that remembers your preferences—just in time for you to forget which of your 17 assistants is handling what.
   tags:
-    - memory
-    - personal-assistant
-    - self-hosted
-    - cli
-    - multi-platform
+    - personal-ai
+    - automation
+    - memory-systems
+    - workflow-assistant
   confidence: high
 curation:
   status: excluded
-  reason: Despite having CLI and local execution surface, the primary product is a personal productivity assistant for inbox, calendar, and life management rather than a developer tool for coding, infra, or AI workflows.
+  reason: The product is a general-purpose personal AI assistant focused on life/work automation (email, calendar, travel) rather than developer-specific coding, tooling, or workflow integration.
   evidence:
-    - Primary page excerpt highlights inbox cleaning, calendar management, Slack summarization, and personal life automation rather than repo or code workflows.
-    - Under-the-hood workspace files (IDENTITY.md, SOUL.md, USER.md) target personal assistant identity and personality rather than developer tooling or coding assistance.
-    - Awesome-LLMOps listing describes it as 'an assistant that knows you deeply' rather than a developer operations or coding tool.
+    - Primary pitch centers on personal productivity (email triage, calendar management, meeting prep) with no developer-tooling angle
+    - Comparison table positions it against general AI assistants (Hermes, OpenClaw, Claude Cowork) rather than coding tools
+    - Plugin hub includes 'Developer' as one of many categories (4/23), not the core identity
 placement:
   primary_category: null
   section: null
@@ -70,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:28.581Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ea392f8e06c79e89849d29b684befa1d00992c0e41a742be4cf8f37888241400
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a general-purpose personal AI assistant focused on life/work automation (email, calendar, travel) rather than developer-specific coding, tooling, or workflow integration.
+      decision_evidence:
+        - Primary pitch centers on personal productivity (email triage, calendar management, meeting prep) with no developer-tooling angle
+        - Comparison table positions it against general AI assistants (Hermes, OpenClaw, Claude Cowork) rather than coding tools
+        - Plugin hub includes 'Developer' as one of many categories (4/23), not the core identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

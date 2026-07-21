@@ -39,26 +39,25 @@ metadata:
       fetched_at: "2026-07-16T05:05:24.195Z"
       bytes: 5556
 insights:
-  summary: An MCP server that exposes Android device controls via ADB, allowing AI assistants like Claude Desktop and Cursor to execute commands, capture screenshots, and inspect UI layouts.
-  why_it_matters: It lets coding agents directly interact with mobile hardware, bridging the gap between AI code generation and on-device testing or debugging workflows.
-  mental_damage: We have finally achieved the singularity where your AI assistant can automate your phone, just in time to realize you now have to debug both your repo and your ADB bridge configurations.
+  summary: An MCP server that provides programmatic control over Android devices via ADB for use with MCP clients.
+  why_it_matters: Enables developers to automate Android device interactions—like screenshots, package inspection, and UI analysis—through natural language via MCP-compatible assistants.
+  mental_damage: Another MCP server promising to let Claude control your emulator, adding yet another layer to the stack before you can actually test your app.
   tags:
-    - mcp
     - android
+    - mcp
     - adb
-    - mobile-testing
-    - automation
+    - device-control
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server providing Android device capabilities, fitting squarely into the MCP Servers & Tooling category as a domain-specific server.
+  reason: The project's core identity is an MCP server exposing Android device control via ADB, making MCP the primary product rather than a coding agent or extension.
   evidence:
-    - "Repo description explicitly states: 'An MCP server that provides control over Android devices via adb'."
-    - README confirms it exposes tools like execute_adb_command and get_screenshot for MCP clients like Claude Desktop and Cursor.
-    - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
+    - "Repo description: 'An MCP server that provides control over Android devices via adb'"
+    - README emphasizes MCP server functionality and configuration for use with clients like Claude Desktop and Cursor
+    - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (744) exceeded threshold (150)
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:21:17.722Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:319e3e1d26e44b65a2d8dd14661222ba2d629cab9063b42157b13e9d476aafaf
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's core identity is an MCP server exposing Android device control via ADB, making MCP the primary product rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'An MCP server that provides control over Android devices via adb'"
+        - README emphasizes MCP server functionality and configuration for use with clients like Claude Desktop and Cursor
+        - Listed in awesome-mcp-servers under Community Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the project is an MCP server itself, not an extension that augments another coding assistant with Android capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

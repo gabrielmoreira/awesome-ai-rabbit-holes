@@ -58,23 +58,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:32.028Z"
       bytes: 10518
 insights:
-  summary: A TypeScript MCP server that exposes the Postman API as tools for AI assistants like Claude and Cline to manage collections, environments, and APIs.
-  why_it_matters: It allows coding agents to directly orchestrate Postman workflows—creating collections, running requests, and managing environments—without leaving the chat.
-  mental_damage: We have successfully abstracted away the one tab you actually needed to keep open, so your AI can now debug your API auth while you debug why your AI can't find your API auth.
+  summary: An MCP server that provides programmatic access to the Postman API for managing collections, environments, and APIs.
+  why_it_matters: Developers can integrate Postman's API management capabilities directly into MCP-compatible workflows, enabling AI agents to interact with Postman resources.
+  mental_damage: Now your AI can argue with your API schemas instead of just your code.
   tags:
     - mcp
     - postman
-    - api-testing
-    - typescript
-    - integration
+    - api-management
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The product identity is explicitly an MCP server that bridges the Postman API to MCP-compatible assistants, fitting the MCP Servers & Tooling category.
+  reason: The product is explicitly an MCP server whose primary identity is providing Postman API access via MCP, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'An MCP server that provides access to Postman.'"
-    - "README overview: 'TypeScript-based MCP server that integrates with the Postman API, providing comprehensive management of Postman collections, environments, and APIs.'"
-    - "Source lists: Included in awesome-mcp-list and awesome-mcp-servers under Developer Tools sections."
+    - Repo description states it is 'An MCP server that provides access to Postman'
+    - README confirms it is a TypeScript-based MCP server integrating with Postman API
+    - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -93,12 +92,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:34.971Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:de40ffed7f52959d4eee96fa995ada46595514a304d5f0cf2bb4debd0e26606d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose primary identity is providing Postman API access via MCP, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description states it is 'An MCP server that provides access to Postman'
+        - README confirms it is a TypeScript-based MCP server integrating with Postman API
+        - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

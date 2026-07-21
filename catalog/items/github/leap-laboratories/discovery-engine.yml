@@ -40,25 +40,24 @@ metadata:
       fetched_at: "2026-07-20T15:11:47.784Z"
       bytes: 12123
 insights:
-  summary: Discovery Engine (Disco) is a Python SDK and API that finds novel, statistically validated feature interactions and subgroup patterns in tabular data using ML interpretability and literature cross-checks.
-  why_it_matters: It lets data-focused developers uncover non-obvious, FDR-corrected variable interactions and novelty classifications without having to pre-form hypotheses or hand-craft pandas queries.
-  mental_damage: Yet another magical black box that promises to find the insights you should have had, provided you’re comfortable outsourcing your statistical intuition to a pipeline you can’t quite replicate locally.
+  summary: Discovery Engine is a statistical pattern-finding tool that identifies validated, novel feature interactions in tabular data using ML and literature checks.
+  why_it_matters: It helps developers and data scientists uncover hidden, hypothesis-free patterns in data that standard analysis or LLMs would miss.
+  mental_damage: Finally, a tool that automates the anxiety of wondering what important interactions you’re accidentally ignoring in your CSV.
   tags:
     - data-science
-    - ml-interpretability
-    - python-sdk
     - pattern-discovery
-  confidence: high
+    - ml
+  confidence: medium
 curation:
-  status: excluded
-  reason: This is a general-purpose data science and ML interpretability tool for tabular data analysis, not a developer-facing AI coding tool, agent, extension, or infrastructure component.
+  status: included
+  reason: It is a code-first SDK/SDK-like tool for extracting patterns from data, not an assistant, orchestrator, or app builder, fitting best as a reusable framework for ML-based pattern discovery.
   evidence:
-    - "Repo description explicitly states: 'find novel, statistically validated patterns in tabular data'."
-    - README positions it against pandas and hypothesis-driven analysis, targeting data scientists rather than software developers building apps or agents.
-    - No developer-tooling angle such as coding assistance, IDE integration, agent orchestration, or prompt/context engineering is present in the README.
+    - "Repo description: 'Discovery Engine — find novel, statistically validated patterns in tabular data'"
+    - "README: 'You cannot replicate this by writing pandas code or asking an LLM to look at a CSV. It finds structure that hypothesis-driven analysis misses.'"
+    - "Usage: Developers import and script against it via Python SDK (`from discovery import Engine`) as a library."
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:37.718Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8577cea7a8f2947d0707b615360b1023419276625504a6d01bf4673bf7c1a096
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first SDK/SDK-like tool for extracting patterns from data, not an assistant, orchestrator, or app builder, fitting best as a reusable framework for ML-based pattern discovery.
+      decision_evidence:
+        - "Repo description: 'Discovery Engine — find novel, statistically validated patterns in tabular data'"
+        - "README: 'You cannot replicate this by writing pandas code or asking an LLM to look at a CSV. It finds structure that hypothesis-driven analysis misses.'"
+        - "Usage: Developers import and script against it via Python SDK (`from discovery import Engine`) as a library."
+      category_candidates:
+        - ai-frameworks
+        - context-engineering
+      contrastive_reason: Choose ai-frameworks over context-engineering because the product is primarily imported and used as a code-first SDK for pattern extraction, not a prompt or memory system shaping model context.
+      review_reason: null
+      review_resume_lifecycle: null

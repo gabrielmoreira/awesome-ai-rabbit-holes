@@ -45,23 +45,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:05.430Z"
       bytes: 3915
 insights:
-  summary: An MCP server that exposes JupyterCAD operations as tools so LLMs can create, modify, and manipulate 3D CAD models through natural language.
-  why_it_matters: Developers working with computational geometry can now script CAD workflows conversationally instead of manually chaining OpenCascade operations inside JupyterLab.
-  mental_damage: We have successfully abstracted away the last remaining domain where typing actual constraints felt like honest engineering work.
+  summary: An MCP server that enables natural language control of JupyterCAD for CAD operations.
+  why_it_matters: Lets developers programmatically manipulate CAD designs in JupyterLab via LLM-driven commands, bridging AI and parametric design workflows.
+  mental_damage: Now your AI can argue with you about chamfer radii while you pretend to understand OpenCascade.
   tags:
-    - cad
-    - jupyterlab
     - mcp
+    - cad
+    - jupyter
+    - parametric-design
     - llm-integration
-    - opencascade
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server that exposes JupyterCAD capabilities as protocol tools, fitting cleanly as a domain-specific MCP server rather than a general coding agent or extension.
+  reason: "MCP is the core product identity here: it is a dedicated MCP server exposing JupyterCAD tools to LLMs."
   evidence:
-    - Repo description states it is 'An MCP server for JupyterCAD that allows you to control it using LLMs/natural language.'
-    - README lists explicit MCP tools (add_box, add_cylinder, cut, fuse, intersect, etc.) exposed via stdio and streamable-http transports.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture', confirming its identity as a community-recognized MCP server.
+    - Repo description explicitly states it is an MCP server for JupyterCAD
+    - README details MCP transport options (stdio, streamable-http) and tool endpoints
+    - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -80,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:10.788Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1a5e67747180305c783bb58c8449216e5c29e6a02ffc3fa67eb84e9c9595b48c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the core product identity here: it is a dedicated MCP server exposing JupyterCAD tools to LLMs."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for JupyterCAD
+        - README details MCP transport options (stdio, streamable-http) and tool endpoints
+        - Listed in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

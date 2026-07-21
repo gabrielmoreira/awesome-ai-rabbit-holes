@@ -55,23 +55,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:00.931Z"
       bytes: 2873
 insights:
-  summary: Claude Code is a terminal-native AI coding agent that reads your codebase, executes routine tasks, explains complex code, and handles git workflows via natural language commands.
-  why_it_matters: It lets developers offload boilerplate, code navigation, and git rituals to an agent that already lives in the shell they never leave.
-  mental_damage: You now have a senior engineer in your terminal who never sleeps, never complains, and still manages to invent reasons to rebase your branches at 2am.
+  summary: Claude Code is an agentic coding tool that operates in the terminal, understands codebases, and executes coding tasks via natural language commands.
+  why_it_matters: It accelerates developer workflows by automating routine tasks, explaining code, and handling git operations directly in the terminal.
+  mental_damage: Finally, a way to offload git blame to an AI that can’t even blame you back.
   tags:
-    - cli
-    - coding-agent
-    - terminal
-    - git-workflow
+    - terminal-agent
+    - coding-assistant
+    - git-integration
     - anthropic
   confidence: high
 curation:
   status: included
-  reason: Claude Code is the canonical example of a primary coding assistant that operates directly in the terminal and across repos, fitting the coding-agents identity rather than an extension or integration layer.
+  reason: It is a primary coding assistant that developers delegate repo work to, fitting the canonical positive for coding-agents.
   evidence:
-    - Repo description explicitly calls it an 'agentic coding tool that lives in your terminal' and handles git workflows.
-    - README positions it as the primary assistant developers run via `claude` in their terminal or tag on GitHub.
-    - Listed as a closed-source terminal-native coding agent in awesome-cli-coding-agents, matching the catalog's canonical positives.
+    - Repo description explicitly calls it an 'agentic coding tool' for terminal use
+    - README confirms it reads code, plans changes, and handles git workflows via natural language
+    - Source-list context places it under 'Terminal-native coding agents' in a curated directory
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -90,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:15.954Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2451660eb9bef27f67fe884ab6dc4fbceab5fae36f5eedd93cb92ea6dc92ed8e
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a primary coding assistant that developers delegate repo work to, fitting the canonical positive for coding-agents.
+      decision_evidence:
+        - Repo description explicitly calls it an 'agentic coding tool' for terminal use
+        - README confirms it reads code, plans changes, and handles git workflows via natural language
+        - Source-list context places it under 'Terminal-native coding agents' in a curated directory
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because its primary identity is a standalone coding assistant, not an extension augmenting another tool.
+      review_reason: null
+      review_resume_lifecycle: null

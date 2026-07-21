@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A university course page for Introduction to Generative AI (2024 Spring) taught by Hung-yi Lee, featuring lecture slides, videos, and homework assignments on LLMs, agents, and prompt engineering.
-  why_it_matters: It provides a structured, publicly accessible curriculum covering core concepts like prompt engineering, LLM training, and AI agents that developers entering the field often need to understand before using the tools in this catalog.
-  mental_damage: Yet another reminder that while we are shipping autonomous coding agents, the rest of the world is still sitting in lecture halls trying to understand what a Transformer is.
+  summary: A university course page for 'Introduction to Generative AI 2024 Spring' taught by Hung-yi Lee at National Taiwan University.
+  why_it_matters: It provides structured educational content on generative AI principles, including LLM training, prompt engineering, and agent systems, but is not a developer tool.
+  mental_damage: Another course page that will make you question whether you should have gone back to school instead of shipping that Jupyter notebook.
   tags:
     - course
-    - generative-ai
-    - llm-fundamentals
     - education
+    - generative-ai
+    - university
   confidence: high
 curation:
   status: excluded
-  reason: This is a university course page and educational resource, not a developer-facing tool, agent, framework, or infrastructure product, and therefore falls outside the catalog's scope.
+  reason: This is an educational course page, not a practical AI tool, framework, or workflow product for developers.
   evidence:
-    - The page is a course syllabus for 'Introduction to Generative AI 2024 Spring' at NTU, listing lectures, slides, and homework.
-    - Source-list context places this in a 'Course' section of an LLM resources list, not a tooling or software directory.
-    - The content is educational material (videos, PDFs, FAQs) rather than a usable product, SDK, or extension.
+    - The page is a course listing with syllabus, lectures, and homework for a university class
+    - Source-list context places it under '课程 Course' in an LLM resources list
+    - No evidence of a standalone product, tool, or developer-facing workflow
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:00.172Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2b910f66436fa4579a195940fcf9b36206a7353ff38d65e0e13091588273dda0
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational course page, not a practical AI tool, framework, or workflow product for developers.
+      decision_evidence:
+        - The page is a course listing with syllabus, lectures, and homework for a university class
+        - Source-list context places it under '课程 Course' in an LLM resources list
+        - No evidence of a standalone product, tool, or developer-facing workflow
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -51,22 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Glama operates a large, daily-updated registry of over 22,000 MCP servers, clients, connectors, and tools for discovering and integrating Model Context Protocol capabilities.
-  why_it_matters: Developers integrating MCP into editors, agents, or internal tooling can use this as a centralized discovery layer to browse servers by capability, language, and deployment type.
-  mental_damage: There are now 22,921 ways to give your AI agent access to a database, a browser, or a supermarket API, and absolutely no guarantee any of them will work next Tuesday.
+  summary: A comprehensive registry of Model Context Protocol (MCP) servers, clients, tools, and integrations.
+  why_it_matters: Developers can discover and integrate MCP-compatible tools to extend their AI assistants with specialized capabilities.
+  mental_damage: Because nothing says 'ecosystem maturity' like 59,744 ways to make your AI assistant do one more thing it wasn’t designed for.
   tags:
     - mcp
     - registry
     - discovery
-    - developer-tools
+    - protocol
+    - servers
   confidence: high
 curation:
   status: included
-  reason: The product is primarily an MCP registry and discovery surface, making it a strong fit for MCP Servers & Tooling under Registries & Discovery.
+  reason: This is a dedicated MCP registry, and MCP is the primary product identity.
   evidence:
-    - Scraped site title and description explicitly call it 'Everything MCP – servers updated daily. The most comprehensive registry of Model Context Protocol (MCP) servers, clients, tools, and integrations.'
-    - Homepage counts 22,921 servers and allows filtering by attributes like Remote, Python, TypeScript, Developer Tools, and Databases.
-    - Listed in awesome-mcp-servers and awesome-LLM-resources specifically as an MCP registry and directory.
+    - Scraped site context explicitly describes it as 'Everything MCP – servers updated daily. The most comprehensive registry of Model Context Protocol (MCP) servers, clients, tools, and integrations.'
+    - Source-list context confirms it is listed in awesome-mcp-servers and awesome-LLM-resources under MCP sections.
 placement:
   primary_category: mcp
   section: Registries & Discovery
@@ -84,12 +84,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:16.659Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fe7009508fc125e41805373be1d01217f379beebfaa8c86abcc9f66f076a4e88
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP registry, and MCP is the primary product identity.
+      decision_evidence:
+        - Scraped site context explicitly describes it as 'Everything MCP – servers updated daily. The most comprehensive registry of Model Context Protocol (MCP) servers, clients, tools, and integrations.'
+        - Source-list context confirms it is listed in awesome-mcp-servers and awesome-LLM-resources under MCP sections.
+      category_candidates:
+        - mcp
+        - awesome-awesomes
+      contrastive_reason: Choose mcp over awesome-awesomes because the product is an operational registry whose stronger identity is MCP protocol tooling rather than a generic curated list.
+      review_reason: null
+      review_resume_lifecycle: null

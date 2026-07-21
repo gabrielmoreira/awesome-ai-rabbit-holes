@@ -60,23 +60,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:20.018Z"
       bytes: 16847
 insights:
-  summary: Memvid is a serverless, single-file memory system that packages embeddings, search structures, and metadata into a portable file to provide AI agents with long-term memory and instant retrieval.
-  why_it_matters: It replaces complex RAG pipelines and server-based vector databases with a portable, offline-first memory layer that developers can integrate via SDKs in Python and Rust.
-  mental_damage: We have successfully encoded the existential dread of context window limits into a video-inspired file format, proving that no matter the medium, we will still find ways to bloat the context until retrieval latency wins again.
+  summary: Memvid is a portable, single-file memory layer for AI agents that stores embeddings and metadata in an append-only, video-inspired format for fast retrieval.
+  why_it_matters: It gives developers a simple, serverless way to equip AI agents with long-term memory and instant recall without managing RAG pipelines.
+  mental_damage: Another RAG infrastructure.
   tags:
     - memory
-    - rag
     - context-engineering
-    - offline-first
-    - vector-search
+    - ai-agents
   confidence: high
 curation:
   status: included
-  reason: The core product identity is a memory and retrieval infrastructure for AI agents, focusing on context packing, compression, and long-term state rather than being a coding assistant or generic framework.
+  reason: Memvid is primarily a memory and retrieval system designed to improve what goes into AI models, fitting the Prompt & Context Engineering category.
   evidence:
-    - Repo description identifies it explicitly as a 'Memory layer for AI Agents' designed to replace RAG pipelines.
-    - README highlights 'Smart Frames' and a 'Living Memory Engine' with sub-5ms local access and time-travel debugging.
-    - Canonical positives for context-engineering explicitly list 'memvid' as a primary example.
+    - "Repo description: 'Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer.'"
+    - "README: 'Memvid is a portable AI memory system that packages your data, embeddings, search structure, and metadata into a single file.'"
+    - Core concepts include 'Living Memory Engine', 'Smart Recall', and 'Codec Intelligence' focused on memory, retrieval, and compression.
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -95,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:20:00.132Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3e6e40dd656c2a49d83a589ad3a1d04e5f9e8a60773c321a344e4f7b55d01656
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: Memvid is primarily a memory and retrieval system designed to improve what goes into AI models, fitting the Prompt & Context Engineering category.
+      decision_evidence:
+        - "Repo description: 'Memory layer for AI Agents. Replace complex RAG pipelines with a serverless, single-file memory layer.'"
+        - "README: 'Memvid is a portable AI memory system that packages your data, embeddings, search structure, and metadata into a single file.'"
+        - Core concepts include 'Living Memory Engine', 'Smart Recall', and 'Codec Intelligence' focused on memory, retrieval, and compression.
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, and compression infrastructure rather than host integration capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,26 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A planning and codebase-intelligence platform that maps multi-repo systems into a knowledge graph to generate living specs and expose them to coding agents via an MCP server.
-  why_it_matters: It turns weeks of product planning and codebase archaeology into specs that Cursor, Claude Code, and Copilot can actually consume with architectural context.
-  mental_damage: Finally, a tool that promises to fix the fact that your AI agent writes code 10x faster than your team can decide what to build.
+  summary: ProdE is a planning layer for agentic development that turns ideas into coding-agent-ready specs grounded in your codebase.
+  why_it_matters: It standardizes planning across engineering orgs by mapping dependencies, generating specs, and providing context to coding agents via MCP, reducing rework and token costs.
+  mental_damage: Finally, a tool that lets PMs and engineers agree on what 'done' looks like before the agents start guessing.
   tags:
+    - spec-driven-development
     - mcp
-    - spec-driven
-    - planning
     - codebase-intelligence
-    - multi-repo
+    - agent-planning
   confidence: high
 curation:
   status: included
-  reason: The product centers on a spec-first loop where PRDs and engineering specs are the primary artifacts used to ground and govern agentic development.
+  reason: ProdE's core value is creating and maintaining agent-ready specs grounded in the codebase, which aligns with spec-first development workflows.
   evidence:
-    - Scraped site describes it as 'the planning layer built for agentic development' that generates 'coding-agent-ready specs'.
-    - Core workflow is Extract Ideas -> Generate PRD -> Generate Specs -> Execute via MCP, making specs the controlling artifact.
-    - Source list context places it in awesome-mcp-servers under 'Official Servers' as a tool that grounds specs in the codebase.
+    - Described as 'the planning layer built for agentic development' that turns ideas into 'coding-agent-ready specs'
+    - Explicitly positions itself as the layer before coding agents, producing specs grounded in code
+    - Provides MCP server access to specs, requirements, and architectural context for agents
 placement:
   primary_category: spec-driven-development
-  section: Spec-First Environments
+  section: Planning / Task Decomposition
 lifecycle:
   status: incubating
   reason: null
@@ -70,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:44.687Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e757a2f0276ce2c57706e8fa39f9b09dedf873bd6313687d10223e05218bd427
+      proposed_primary_category: spec-driven-development
+      disagreement: false
+      decision_reason: ProdE's core value is creating and maintaining agent-ready specs grounded in the codebase, which aligns with spec-first development workflows.
+      decision_evidence:
+        - Described as 'the planning layer built for agentic development' that turns ideas into 'coding-agent-ready specs'
+        - Explicitly positions itself as the layer before coding agents, producing specs grounded in code
+        - Provides MCP server access to specs, requirements, and architectural context for agents
+      category_candidates:
+        - spec-driven-development
+        - mcp
+      contrastive_reason: Choose spec-driven-development over mcp because the primary product identity is spec generation and planning, not MCP infrastructure itself.
+      review_reason: null
+      review_resume_lifecycle: null

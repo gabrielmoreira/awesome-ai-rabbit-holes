@@ -39,22 +39,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:56.324Z"
       bytes: 5842
 insights:
-  summary: Clippinator is a GPT-4-powered CLI coding assistant that uses a multi-agent architecture to autonomously plan, write, debug, and test software projects.
-  why_it_matters: It lets developers delegate entire project lifecycles to a local agent swarm that can read files, run bash commands, use a browser for testing, and self-correct via linting.
-  mental_damage: You can now watch a swarm of AI minions burn through your OpenAI credits to implement architecture you didn't quite agree to, while you wait with a Ctrl+C prompt to intervene like a nervous middle manager.
+  summary: A multi-agent CLI code assistant that plans, writes, debugs, and tests projects autonomously using GPT-4.
+  why_it_matters: It automates end-to-end development workflows with specialized agents (Architect, Writer, QA, etc.) and tools like file I/O, terminal, browser, and linters.
+  mental_damage: Finally, an AI that can write code faster than you can explain why it’s wrong.
   tags:
-    - cli
     - multi-agent
+    - cli
     - gpt-4
+    - code-generation
     - autonomous
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The primary product identity is a standalone CLI coding assistant that developers delegate repo work to, fitting the core definition of a coding agent.
+  reason: It is a primary coding assistant with autonomous repo-level capabilities, not merely an extension or integration layer.
   evidence:
-    - Repo description defines it explicitly as an 'AI programming assistant'.
-    - README states it 'develop[s] code for or with the user' and can 'plan, write, debug, and test some projects autonomously' via a CLI interface.
-    - Architecture is based on a main 'Taskmaster' CLI agent delegating to specialized subagents (Architect, Writer, QA) using terminal tools.
+    - "Repo description: 'AI programming assistant'"
+    - "README: 'The purpose of Clippinator is to develop code for or with the user. It can plan, write, debug, and test some projects autonomously.'"
+    - Uses multiple specialized agents (Taskmaster, Architect, Writer, etc.) with tools like file I/O, terminal, and linters.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -73,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:29.509Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f752d42e13aee1c22b87f1b2b3949e234c76ed13898d773bf1fa00e3be04ee23
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a primary coding assistant with autonomous repo-level capabilities, not merely an extension or integration layer.
+      decision_evidence:
+        - "Repo description: 'AI programming assistant'"
+        - "README: 'The purpose of Clippinator is to develop code for or with the user. It can plan, write, debug, and test some projects autonomously.'"
+        - Uses multiple specialized agents (Taskmaster, Architect, Writer, etc.) with tools like file I/O, terminal, and linters.
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the primary product identity is a developer-facing coding assistant, not a general multi-agent control plane.
+      review_reason: null
+      review_resume_lifecycle: null

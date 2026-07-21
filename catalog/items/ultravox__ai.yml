@@ -1,0 +1,110 @@
+id: ultravox__ai
+kind: website
+name: Fixie
+canonical_url: https://ultravox.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__ultravox__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Fixie
+        anchor_text: Fixie
+        extracted_url: https://fixie.ai
+        surrounding_text: "## [Fixie](https://www.fixie.ai/)"
+        confidence: high
+    - id: discovery__www__ultravox__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Fixie
+        anchor_text: Fixie
+        extracted_url: https://www.fixie.ai
+        surrounding_text: "## [Fixie](https://www.fixie.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Ultravox is a real-time voice AI infrastructure layer for building fast, natural, and scalable voice agents.
+  why_it_matters: It provides developer-friendly APIs and SDKs to integrate speech-native AI agents into applications, addressing latency and paralinguistic signal loss in traditional speech-to-text systems.
+  mental_damage: Finally, a way to make your AI sound less like a 1990s GPS and more like a human who hasn’t had their third coffee yet.
+  tags:
+    - voice-ai
+    - realtime
+    - speech-native
+    - api
+    - sdk
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a voice AI infrastructure platform for building conversational agents, not a developer-tooling product focused on coding, app-building, or workflow augmentation.
+  evidence:
+    - Primary product is a real-time voice AI infrastructure layer for voice agents
+    - Focus is on speech-native models, telephony, and conversational AI, not developer workflows or code
+    - Source-list context places it in an AI agents list, not a developer-tooling directory
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:38:31.976Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0f663d7847475b442803b1ba7c4ac742e82dfae169912b3d045c42c3f7ff3d94
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a voice AI infrastructure platform for building conversational agents, not a developer-tooling product focused on coding, app-building, or workflow augmentation.
+      decision_evidence:
+        - Primary product is a real-time voice AI infrastructure layer for voice agents
+        - Focus is on speech-native models, telephony, and conversational AI, not developer workflows or code
+        - Source-list context places it in an AI agents list, not a developer-tooling directory
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.971Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

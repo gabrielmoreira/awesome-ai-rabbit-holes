@@ -117,37 +117,55 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: YouTube is a general-purpose video hosting and streaming platform.
-  why_it_matters: It hosts countless tutorials and guides useful for learning AI tools, but is not a developer tool itself.
-  mental_damage: We have officially reached peak enshittification when the world's largest ad-supported video site qualifies as an 'AI Agent framework' resource.
+  summary: A YouTube video playlist covering how to build autonomous agents using the LangChain framework.
+  why_it_matters: It provides educational tutorials for developers looking to implement agentic workflows and orchestration using LangChain.
+  mental_damage: Another tutorial to add to the pile of videos you'll bookmark and never actually finish watching.
   tags:
-    - learning-resource
-    - video
+    - langchain
+    - agentic-ai
+    - tutorials
+    - agent-orchestration
   confidence: high
 curation:
-  status: excluded
-  reason: YouTube is a generic media platform, not a developer-facing AI tool, agent, framework, or infrastructure component.
+  status: included
+  reason: This is a collection of educational video content rather than a standalone developer tool, making it a navigation aid for the ecosystem.
   evidence:
-    - Scraped site description identifies it as a video/music sharing platform, not a dev tool.
-    - Appears in source lists only as a container for external tutorials and playlists, not as a tool itself.
-    - No repo description, code, or developer-tooling identity provided.
+    - Source-list context identifies it as a video playlist
+    - README/Title indicates it is educational content about LangChain agents
+    - URL points to YouTube, a media/hosting platform
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: unknown category candidate(s): publications-and-feeds"
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:58.009Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:418717b5a93b78de01608605bef42dfc3cb9b5fb711b5a8177e156e6c86f1323
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a collection of educational video content rather than a standalone developer tool, making it a navigation aid for the ecosystem.
+      decision_evidence:
+        - Source-list context identifies it as a video playlist
+        - README/Title indicates it is educational content about LangChain agents
+        - URL points to YouTube, a media/hosting platform
+      category_candidates:
+        - awesome-awesomes
+        - publications-and-feeds
+      contrastive_reason: Choose awesome-awesomes over publications-and-feeds because the item is a curated collection of external video resources rather than an ongoing media publication or newsletter.
+      review_reason: "Categorization review required: unknown category candidate(s): publications-and-feeds"
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T15:10:47.685Z"

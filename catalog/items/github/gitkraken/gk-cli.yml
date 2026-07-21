@@ -59,14 +59,14 @@ metadata:
       fetched_at: "2026-07-16T05:05:08.620Z"
       bytes: 5709
 insights:
-  summary: GitKraken CLI (gk) is a terminal tool that manages multi-repo work items, automates git workflows, and provides AI-generated commit messages and pull requests, alongside a bundled MCP server for LLM integrations.
-  why_it_matters: It gives developers a unified CLI surface to coordinate work across multiple repositories with AI-assisted commits and PRs, while exposing git and issue tracking capabilities to MCP-compatible assistants.
-  mental_damage: You can now add 'AI-powered commit message generator' to the growing pile of reasons you no longer have to actually think about what you just hacked together at 4 PM on a Friday.
+  summary: GitKraken CLI is a command-line tool for managing multiple Git repositories with AI-powered commit messages, PR generation, and an MCP server for git and issue hosting integrations.
+  why_it_matters: It streamlines multi-repo workflows and automates commit/PR tasks with AI, while exposing git and provider actions to AI assistants via MCP.
+  mental_damage: Now you can argue with an AI about your commit messages while juggling five repos at once.
   tags:
-    - cli
     - git
-    - mcp
-    - workflow
+    - cli
+    - mcp-server
+    - ai-commits
     - multi-repo
   confidence: high
 curation:
@@ -78,10 +78,10 @@ curation:
     - "Active development: pushed_at 2026-05-05T17:23:07Z and 403 stars indicate a living product rather than an archived or stagnant tool."
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (403) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -94,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:13.200Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:762edb65d8e6ea66122465147c4441c2aac04eccf9c1bb608b14f60a86ebff58
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: The core product is a CLI tool that augments git workflows with AI features and provides an MCP server for integration with AI assistants, making it primarily an extension/integration rather than a standalone coding agent.
+      decision_evidence:
+        - README explicitly describes it as 'GitKraken on the command line' with AI commit/PR generation
+        - Includes an MCP server that wraps git, GitHub, Jira, and GitKraken APIs for AI tools
+        - Listed in awesome-mcp-servers under 'Developer Tools' and 'Official Servers'
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the primary identity is a git CLI tool with AI features, while MCP is a secondary integration capability rather than the core product.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

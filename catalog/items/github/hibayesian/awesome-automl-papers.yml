@@ -43,26 +43,25 @@ metadata:
       fetched_at: "2026-07-20T15:11:01.784Z"
       bytes: 33191
 insights:
-  summary: A curated list of automated machine learning papers, articles, tutorials, slides, and projects covering AutoML techniques like NAS, HPO, and automated feature engineering.
-  why_it_matters: It serves as a centralized research map for developers and ML engineers looking to understand or implement automated model training and optimization techniques.
-  mental_damage: Because what every overworked developer debugging a flaky CI pipeline really needs is a 4,000-paper reading list on neural architecture search from 2017.
+  summary: A curated list of automated machine learning papers, articles, tutorials, slides, and projects.
+  why_it_matters: Provides developers with a centralized resource to track research and developments in AutoML, including techniques like hyperparameter optimization and neural architecture search.
+  mental_damage: Because nothing says 'practical developer tooling' like a 4,000-star list of papers you’ll never have time to read.
   tags:
     - automl
     - research
-    - ml
-    - papers
     - curated-list
+    - machine-learning
   confidence: high
 curation:
-  status: excluded
-  reason: This is a general ML research resource and curated bibliography, not a practical AI tool, agent, or developer-facing infrastructure product.
+  status: included
+  reason: This is a curated directory of AutoML resources, which fits the scope of developer-facing navigation aids under Awesome Awesomes.
   evidence:
-    - Repo description explicitly defines it as 'A curated list of automated machine learning papers, articles, tutorials, slides and projects'.
-    - README content is structured as academic surveys, paper links, and technique overviews (HPO, NAS, AutoFE) rather than tooling.
-    - Source list context places it in 'Awesome Lists' under LLMOps, but it lacks a direct developer-tooling or coding workflow angle.
+    - Repo description explicitly states it is a curated list of AutoML papers, articles, tutorials, slides, and projects
+    - README confirms it is a resource for tracking developments in AutoML research
+    - Source-list context shows it is included in Awesome-LLMOps under 'Awesome Lists'
 placement:
-  primary_category: null
-  section: null
+  primary_category: awesome-awesomes
+  section: Directories & Maps
 lifecycle:
   status: promotion_candidate
   reason: Stars (4147) exceeded threshold (150)
@@ -78,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:45.034Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:aacace3695d7a804c5219a2765b448bb9cc467645ba2ea4df9e623b133ee6e39
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of AutoML resources, which fits the scope of developer-facing navigation aids under Awesome Awesomes.
+      decision_evidence:
+        - Repo description explicitly states it is a curated list of AutoML papers, articles, tutorials, slides, and projects
+        - README confirms it is a resource for tracking developments in AutoML research
+        - Source-list context shows it is included in Awesome-LLMOps under 'Awesome Lists'
+      category_candidates:
+        - awesome-awesomes
+        - newsletters-and-feeds
+      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because the product is a static curated list, not a recurring publication or media surface.
+      review_reason: null
+      review_resume_lifecycle: null

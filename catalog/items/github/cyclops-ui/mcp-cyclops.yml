@@ -46,23 +46,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:27.990Z"
       bytes: 7896
 insights:
-  summary: An MCP server that allows AI agents to safely create and update Kubernetes applications via Cyclops Modules instead of touching raw YAML.
-  why_it_matters: It lets your AI agent manage Kubernetes apps using high-level abstractions, reducing the odds of hallucinated misconfigurations hitting production.
-  mental_damage: Because what every overworked platform team really needed was an AI agent that can now abstract away Kubernetes complexity and then confidently misconfigure your cluster at a higher level.
+  summary: An MCP server that enables AI agents to manage Kubernetes applications via Cyclops.
+  why_it_matters: It lets AI agents safely create and update Kubernetes applications using Cyclops Modules, reducing misconfiguration risks in production.
+  mental_damage: Now your AI agent can deploy to prod while you take a coffee break—what could go wrong?
   tags:
     - mcp
     - kubernetes
-    - devops
-    - cyclops
     - platform-engineering
-  confidence: medium
+    - devops
+  confidence: high
 curation:
   status: included
-  reason: This is an MCP server that gives agents Kubernetes app-management tools via Cyclops, making MCP the core product identity rather than a secondary compatibility feature.
+  reason: MCP is the core product identity, and the server provides domain-specific tools for Kubernetes management via Cyclops.
   evidence:
-    - Repo description explicitly states 'Model Context Protocol server for Cyclops'
-    - README pitches it as an MCP server providing tools so agents can create/update apps safely
-    - Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms
+    - Repo description explicitly identifies it as a Model Context Protocol server for Cyclops
+    - README states it allows AI agents to manage Kubernetes applications via Cyclops Modules
+    - Listed in awesome-mcp-servers under 'Cloud Platforms' section
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -81,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:24.903Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b62157ef9f65048f1c9b6c9825021377af8b46c81a1b7c03769945e3e397847c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the core product identity, and the server provides domain-specific tools for Kubernetes management via Cyclops.
+      decision_evidence:
+        - Repo description explicitly identifies it as a Model Context Protocol server for Cyclops
+        - README states it allows AI agents to manage Kubernetes applications via Cyclops Modules
+        - Listed in awesome-mcp-servers under 'Cloud Platforms' section
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server providing Kubernetes tools, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -1,0 +1,110 @@
+id: broadn__io
+kind: website
+name: broadn
+canonical_url: https://broadn.io
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__broadn__io__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - broadn
+        anchor_text: broadn
+        extracted_url: https://broadn.io
+        surrounding_text: "## [broadn](https://www.broadn.io/?utm_source=awesome-ai-agents)"
+        confidence: high
+    - id: discovery__www__broadn__io__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - broadn
+        anchor_text: broadn
+        extracted_url: https://www.broadn.io
+        surrounding_text: "## [broadn](https://www.broadn.io/?utm_source=awesome-ai-agents)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An AI agent platform that automates quoting and order processing for manufacturing sales operations, integrating with CRM and ERP systems.
+  why_it_matters: It replaces manual RFQ handling with an automated agent that parses requests, generates quotes, and syncs with existing business systems.
+  mental_damage: Finally, a way to turn your inbox into a factory—so your sales team can stop pretending to be one.
+  tags:
+    - sales-automation
+    - manufacturing
+    - erp-integration
+    - ai-agent
+    - b2b
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a vertical SaaS product for manufacturing sales ops, not a developer-facing tool or workflow.
+  evidence:
+    - Primary product is an AI agent for quoting/orders in manufacturing (not developer tooling)
+    - Target users are sales teams, not developers
+    - No code-first, SDK, or developer workflow integration
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:32:49.366Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1207fe302b30910d08afe2585d9d1db1f070616945bed85c0334056bdf112ab0
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a vertical SaaS product for manufacturing sales ops, not a developer-facing tool or workflow.
+      decision_evidence:
+        - Primary product is an AI agent for quoting/orders in manufacturing (not developer tooling)
+        - Target users are sales teams, not developers
+        - No code-first, SDK, or developer workflow integration
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.963Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

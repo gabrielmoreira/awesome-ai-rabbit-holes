@@ -1,0 +1,110 @@
+id: postman__com__postman__postman__public__workspace
+kind: website
+name: Postman API
+canonical_url: https://postman.com/postman/postman-public-workspace
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__postman__com__postman__postman__public__workspace__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Postman API
+        extracted_url: https://postman.com/postman/postman-public-workspace
+        surrounding_text: "- [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server) 📇 ☁️ - Interact with [Postman API](https://www.postman.com/postman/postman-public-workspace/)"
+        confidence: high
+    - id: discovery__www__postman__com__postman__postman__public__workspace__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Postman API
+        extracted_url: https://www.postman.com/postman/postman-public-workspace
+        surrounding_text: "- [delano/postman-mcp-server](https://github.com/delano/postman-mcp-server) 📇 ☁️ - Interact with [Postman API](https://www.postman.com/postman/postman-public-workspace/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Postman is an API development and testing platform.
+  why_it_matters: It provides developers with tools to design, test, and document APIs, streamlining API workflows.
+  mental_damage: Because nothing says 'modern development' like spending half your day manually crafting API requests.
+  tags:
+    - api-development
+    - api-testing
+    - developer-tools
+  confidence: high
+curation:
+  status: excluded
+  reason: Postman is a general API development platform, not a developer-facing AI tool, agent, or workflow specific to AI/ML or coding assistance.
+  evidence:
+    - The scraped site context identifies it as 'Postman' with no AI-specific functionality mentioned
+    - The source-list context shows it listed under MCP servers, but Postman itself is not an MCP-first tool or AI-specific product
+    - No repo description, README, or AI-specific claims are present to justify inclusion
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:33.497Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c67d40bee70dc84d6b58f7e9e2bd19ecbb75c950f788201987f315dd6ac288d5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Postman is a general API development platform, not a developer-facing AI tool, agent, or workflow specific to AI/ML or coding assistance.
+      decision_evidence:
+        - The scraped site context identifies it as 'Postman' with no AI-specific functionality mentioned
+        - The source-list context shows it listed under MCP servers, but Postman itself is not an MCP-first tool or AI-specific product
+        - No repo description, README, or AI-specific claims are present to justify inclusion
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.969Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

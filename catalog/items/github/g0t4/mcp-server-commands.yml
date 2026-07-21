@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:05.277Z"
       bytes: 5588
 insights:
-  summary: An MCP server that exposes a `runProcess` tool allowing LLMs to execute shell commands and scripts on the host machine via stdio transport.
-  why_it_matters: It gives coding assistants and desktop AI tools a standardized way to run arbitrary commands, scripts, and pipelines directly on the developer's machine with user-approved execution.
-  mental_damage: "We have finally achieved the perfect recursive loop: an MCP server to let your AI run the very shell commands that might eventually delete the folder containing the MCP server."
+  summary: An MCP server that provides a `run_process` tool to execute shell commands and direct executables on the host machine.
+  why_it_matters: It bridges the gap between LLMs and the local operating system, allowing agents to execute terminal commands, manage files, and run build scripts directly.
+  mental_damage: It turns your terminal into an LLM-controlled sandbox where one hallucinated `rm -rf` could end your afternoon very abruptly.
   tags:
     - mcp
+    - mcp-server
     - shell
-    - command-execution
-    - local-ai
-    - tooling
+    - automation
+    - llm-tools
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server that provides generic command execution capabilities, making it a clear fit for the MCP Servers & Tooling category as a reusable protocol server.
+  reason: The project's identity is explicitly an MCP server designed to expose host process execution to a protocol client.
   evidence:
-    - Repo description explicitly states 'Model Context Protocol server to run commands'
-    - README details the `runProcess` tool for shell and argv execution with MCP transport
-    - Included in awesome-mcp-list and awesome-mcp-servers directories under MCP sections
+    - Repo description explicitly identifies it as an 'MCP server to run commands'
+    - README focuses on implementing the `runProcess` tool for the Model Context Protocol
+    - Primary function is acting as a middleware/adapter for host execution via MCP
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:00:03.222Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a7db1ebc3f6dd71822d8356fe6912de9dc46df746fb9d65e28533338bd2e835c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's identity is explicitly an MCP server designed to expose host process execution to a protocol client.
+      decision_evidence:
+        - Repo description explicitly identifies it as an 'MCP server to run commands'
+        - README focuses on implementing the `runProcess` tool for the Model Context Protocol
+        - Primary function is acting as a middleware/adapter for host execution via MCP
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol server/middleware rather than a feature addition for a specific host application.
+      review_reason: null
+      review_resume_lifecycle: null

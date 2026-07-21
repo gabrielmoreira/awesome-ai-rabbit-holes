@@ -5,31 +5,31 @@ Tooling where specifications are the primary artifact for planning, validation, 
 
 ## Tools & Resources
 
-- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 121.6k` `updated ≤30d` An open-source CLI toolkit and methodology from GitHub that formalizes spec-driven development, allowing developers to create executable specifications that guide AI coding agents. <details><summary>More about</summary>
+- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 121.6k` `updated ≤30d` Open source toolkit for Spec-Driven Development that turns product specifications into executable implementations. <details><summary>More about</summary>
 
-  It provides a structured workflow and CLI ('specify') to define project constitutions and specs, aiming to replace 'vibe coding' with predictable, outcome-focused development when used alongside agents like Copilot.
+  It shifts development workflows from vibe-coding to structured, spec-first execution, enabling predictable outcomes and reducing ad-hoc implementation decisions.
 
-  _We have officially circled back to writing requirements documents, except now we call them 'executable specs' and the compiler is a large language model with an attitude._
+  _Finally, a way to stop arguing about tabs vs. spaces and start arguing about whether the spec is *actually* executable._
 
-  `spec-driven` `cli` `github` `methodology` `copilot`
+  `spec-driven` `sdd` `cli` `github` `ai-assisted-development`
   </details>
 
-- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 61.1k` `updated ≤30d` OpenSpec is a spec-driven development tool that adds a lightweight artifact layer (proposals, specs, design, tasks) for planning and validating features before delegating implementation to AI coding assistants. <details><summary>More about</summary>
+- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 61.1k` `updated ≤30d` Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation. <details><summary>More about</summary>
 
-  It forces human and AI to agree on structured specs and task checklists before code is written, reducing unpredictable results when using assistants across existing repos.
+  Provides a predictable workflow for aligning humans and AI on requirements before writing code, reducing vague prompts and rework.
 
-  _You now have a pristine folder of proposal.md, specs, and tasks.md documenting the feature that your AI assistant will still confidently misinterpret on the first three tries._
+  _Another spec format to learn while your AI still ignores the docs and ships half-baked features anyway._
 
-  `spec-driven` `planning` `context-engineering` `ai-workflow`
+  `spec-driven-development` `ai-coding-assistants` `workflow`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 50.8k` `updated ≤30d` A structured, open-source framework that provides specialized AI agents and scale-adaptive agile workflows to guide developers through the full lifecycle of software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 50.8k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
 
-  It replaces ad-hoc prompting with a disciplined, spec-driven process featuring domain expert agents (PM, Architect, Developer) that adapt to project complexity from bug fixes to enterprise systems.
+  It provides developers with guided, expert-collaborator workflows for end-to-end project development, from brainstorming to deployment, rather than just generating code.
 
-  _You now have 12 specialized AI personas to argue with about your architecture, ensuring you achieve agile enlightenment provided you can still remember how to write the code yourself._
+  _Finally, a framework that promises to turn your chaotic solo coding sessions into a corporate boardroom meeting with 12 imaginary colleagues._
 
-  `spec-driven` `ai-agents` `agile` `workflow`
+  `spec-driven-development` `agent-orchestration` `workflow-automation` `ai-collaboration` `agile`
   </details>
 
 - **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.1k` `updated ≤180d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
@@ -41,22 +41,22 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `coding-agents` `spec-driven` `context-engineering` `standards`
   </details>
 
-- **[cc-sdd](https://github.com/gotalab/cc-sdd)** `⭐ 3.6k` `updated ≤90d` A spec-driven development harness that installs portable Agent Skills into Claude Code, Cursor, Copilot, and other AI coding agents to turn approved specs into long-running autonomous implementation. <details><summary>More about</summary>
+- **[cc-sdd](https://github.com/gotalab/cc-sdd)** `⭐ 3.6k` `updated ≤90d` A minimal, adaptable spec-driven development harness that turns approved specs into long-running autonomous implementation via Agent Skills for multiple AI coding agents. <details><summary>More about</summary>
 
-  It gives teams a structured SDLC loop—discovery, requirements, design, tasks, and per-task review—that runs across eight different coding agents with the same 17-skill set.
+  It enables developers to delegate spec-to-code workflows across 8 coding agents with structured phase gates, boundary-first design, and autonomous task execution with review and debugging.
 
-  _You can now run an autonomous TDD loop with feature flags and root-cause auto-debug across eight different AI agents, which means your primary new job is deciding which agent's autonomous implementation you're going to regret approving._
+  _Finally, a way to let your AI agents argue over specs while you pretend to understand the File Structure Plan._
 
-  `sdd` `agent-skills` `spec-driven` `multi-agent` `autonomous-impl`
+  `spec-driven-development` `agent-skills` `autonomous-implementation` `multi-agent` `sdd`
   </details>
 
-- **[pilot-shell](https://github.com/maxritter/pilot-shell)** `⭐ 1.8k` `updated ≤30d` A CLI shell that layers spec-driven planning, enforced TDD, persistent memory, and quality gates on top of Claude Code to make AI-generated code production-ready. <details><summary>More about</summary>
+- **[pilot-shell](https://github.com/maxritter/pilot-shell)** `⭐ 1.8k` `updated ≤30d` Pilot Shell is a spec-driven development shell that wraps Claude Code with enforced TDD, persistent memory, and quality gates to make agents production-ready. <details><summary>More about</summary>
 
-  It gives developers a structured workflow to enforce testing, context retention, and quality gates when delegating implementation to Claude Code.
+  It transforms Claude Code from a fast-but-unreliable coder into a structured assistant that plans, tests, and verifies code end-to-end, reducing rework and inconsistency.
 
-  _Yet another tool to manage the tool that is supposed to manage your codebase, because apparently the future of engineering is installing wrappers around your wrappers._
+  _Finally, a way to feel guilty about skipping tests not just as a human, but as an AI agent too._
 
-  `claude-code` `spec-driven` `tdd` `cli` `quality-gates`
+  `spec-driven-development` `claude-code` `tdd` `context-engineering` `shell`
   </details>
 
 - **[Spec Kitty](https://github.com/priivacy-ai/spec-kitty)** `⭐ 1.4k` `updated ≤30d` An open-source CLI that wraps AI coding agents in a spec-driven workflow with git worktrees, task lifecycle management, and a local kanban dashboard. <details><summary>More about</summary>
@@ -68,13 +68,13 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `multi-agent` `git-worktrees` `kanban`
   </details>
 
-- **[haft](https://github.com/m0n0x41d/haft)** `⭐ 1.4k` `updated ≤30d` Haft is a spec-driven engineering governor that integrates with AI coding agents like Claude Code and Codex via MCP and CLI to enforce structured decision-making, evidence tracking, and stale-assumption detection. <details><summary>More about</summary>
+- **[haft](https://github.com/m0n0x41d/haft)** `⭐ 1.4k` `updated ≤30d` Haft is an engineering decisions engine that enforces spec-driven development with evidence decay and parity enforcement for AI-assisted coding. <details><summary>More about</summary>
 
-  It shifts AI-assisted development from prompt-and-pray to governed execution by treating specs, decisions, and evidence as falsifiable contracts rather than ephemeral chat context.
+  It bridges the gap between fast AI-generated code and governed engineering by turning intentions into falsifiable contracts before execution.
 
-  _You now have a tool to govern the engineering decisions of the agents writing your code, which mostly means you'll spend your afternoon YAML-linting the spec that describes the bug the agent introduced in record time._
+  _Finally, a tool that makes you feel guilty for shipping fast without first writing a 200-line spec your agents will ignore anyway._
 
-  `spec-driven` `governance` `mcp` `cli` `decision-engineering`
+  `spec-driven` `mcp` `governance`
   </details>
 
 - **[MoAI-ADK](https://github.com/modu-ai/moai-adk)** `⭐ 1.1k` `updated ≤30d` A Go-based CLI development kit for Claude Code that provides 24 specialized AI agents and 52 skills to enforce TDD/DDD quality gates and spec-driven workflows. <details><summary>More about</summary>
@@ -113,25 +113,16 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `system-engineering` `multi-agent` `governance` `reasoning`
   </details>
 
-- **[mcp-server-spec-driven-development](https://github.com/formulahendry/mcp-server-spec-driven-development)** `⭐ 432` `updated ≤1y` An MCP server that provides structured prompts to guide developers through a spec-driven workflow of generating EARS-format requirements, design documents, and implementation code. <details><summary>More about</summary>
+- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 374` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, including technical documentation, architecture diagrams, and AI coding prompts. <details><summary>More about</summary>
 
-  It offers a structured alternative to vibe coding by enforcing a requirements-to-design-to-code pipeline directly within MCP-compatible editors and agents.
+  It accelerates the planning phase for developers, product managers, and entrepreneurs by generating structured development plans and ready-to-use AI coding prompts in minutes.
 
-  _We have successfully abstracted the job of writing code into writing specifications for an AI to write code, which we will then pretend we engineered._
+  _Now you can spend 180 seconds generating a 10,000-word spec instead of 180 hours writing it yourself._
 
-  `mcp` `spec-driven` `requirements` `workflow`
+  `spec-driven-development` `ai-planning` `prompt-generation` `architecture-diagrams`
   </details>
 
-- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 374` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes. <details><summary>More about</summary>
-
-  It automates the tedious early-stage planning and prompt engineering work, letting developers move from a vague idea to actionable, assistant-ready specs and architecture docs almost instantly.
-
-  _We have successfully optimized the time between 'having an idea' and 'having a 10,000-word document the AI will ignore' down to under three minutes._
-
-  `spec-driven` `planning` `prompt-generation` `architecture`
-  </details>
-
-- **[English Compiler](https://github.com/uilicious/english-compiler)** `⭐ 296` `updated >1y` English Compiler is a proof-of-concept CLI tool that compiles English-language Markdown specifications into functional code via chained AI prompts. <details><summary>More about</summary>
+- **[English Compiler](https://github.com/uilicious/english-compiler)** `⭐ 298` `updated >1y` English Compiler is a proof-of-concept CLI tool that compiles English-language Markdown specifications into functional code via chained AI prompts. <details><summary>More about</summary>
 
   It demonstrates a speculative workflow where developers delegate full code generation to AI based solely on natural-language specs, skipping manual coding.
 
@@ -140,13 +131,13 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `code-generation` `proof-of-concept`
   </details>
 
-- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 273` `updated ≤90d` A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants. <details><summary>More about</summary>
+- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 273` `updated ≤90d` Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support. <details><summary>More about</summary>
 
-  It enforces a spec-first loop where structured plans and task states act as the controlling artifact for AI implementation, rather than relying on ad-hoc prompts.
+  Lets developers use their existing issue trackers (GitHub, ADO, Jira, etc.) as spec backends while adding a unified interface, AI-native workflows, and visualization tools for SDD.
 
-  _Just what we needed: another layer of infrastructure to manage the YAML files that tell our AI agents how to manage the code that used to just be code._
+  _Finally, a way to turn your Jira backlog into something even an AI can pretend to understand._
 
-  `spec-driven` `sdd` `cli` `mcp` `context`
+  `spec-driven-development` `ai-integration` `mcp` `project-management` `workflow`
   </details>
 
 - **[leanspec](https://github.com/codervisor/leanspec)** `⭐ 273` `updated ≤90d` A lightweight, tool-agnostic spec framework that unifies markdown, issue trackers, and work items into a Spec-Driven Development workflow for AI-assisted coding. <details><summary>More about</summary>
@@ -158,13 +149,13 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `sdd` `cli` `mcp` `project-management`
   </details>
 
-- **[spec-kit-command-cursor](https://github.com/madebyaris/spec-kit-command-cursor)** `⭐ 191` `updated ≤30d` A command pack for Cursor IDE that provides spec-driven development workflows via slash commands like /specify, /plan, and /execute-parallel to turn ideas into structured specs, tasks, and code. <details><summary>More about</summary>
+- **[spec-kit-command-cursor](https://github.com/madebyaris/spec-kit-command-cursor)** `⭐ 191` `updated ≤30d` Spec-Driven Development command toolkit for Cursor IDE that provides /specify, /plan, and /tasks commands to turn ideas into structured specifications, plans, and actionable tasks. <details><summary>More about</summary>
 
-  It forces a spec-first discipline directly inside Cursor, giving developers a structured planning and execution loop instead of relying on improvisational prompting.
+  It enforces a spec-first workflow in Cursor, reducing misalignment between planning and implementation by making specs the controlling artifact for code generation and execution.
 
-  _Now you can feel properly guilty about skipping the /specify phase while your subagents politely spawn child subagents to document exactly how little architecture you actually did._
+  _Another layer of process to remember before you're allowed to write code, because vibes-driven development clearly wasn't scalable._
 
-  `cursor` `sdd` `spec-driven` `slash-commands` `task-orchestration`
+  `spec-driven-development` `cursor` `workflow`
   </details>
 
 ## Incubating
@@ -189,13 +180,13 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `agent-toolkits` `token-optimization` `meta-programming`
   </details>
 
-- **[spec-driver](https://github.com/davidlee/spec-driver)** `⭐ 26` `updated ≤90d` A CLI and TUI toolkit that drives Claude Code or Codex using evergreen markdown and YAML specifications to manage the lifecycle of code changes. <details><summary>More about</summary>
+- **[spec-driver](https://github.com/davidlee/spec-driver)** `⭐ 26` `updated ≤90d` A CLI toolkit for spec-driven development that integrates with coding agents like Claude Code to manage evergreen specifications, workflows, and project documentation. <details><summary>More about</summary>
 
-  It creates a structured spec-first loop that treats living documentation as the authoritative source of truth for agent-driven development workflows.
+  It shifts development workflows from disposable research to verifiable, maintainable specs, making agentic coding more deterministic and scalable.
 
-  _You finally solved the problem of keeping documentation in sync by making the stochastic agent responsible for maintaining the very specs that keep it in check._
+  _Finally, a tool that turns your chaotic agent sessions into something you can audit without crying._
 
-  `spec-driven` `cli` `tui` `claude-code`
+  `spec-driven-development` `cli` `claude-code` `agentic-workflows` `documentation`
   </details>
 
 - **[Cosmosmith](https://github.com/devnomad-byte/cosmosmith)** `⭐ 19` `updated ≤30d` Cosmosmith initializes project rules, spec templates, task ledgers, and editor adapters for AI coding agents in one command. <details><summary>More about</summary>
@@ -216,22 +207,22 @@ _These are new or low-traffic entries being watched._
   `spec-driven-development` `skill-pack` `pi-agent`
   </details>
 
-- **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 12` `updated ≤30d` A terminal CLI that scans your codebase, runs AI-guided interviews to generate feature specs, and delegates autonomous implement-test-fix loops to Claude Code or Codex CLI. <details><summary>More about</summary>
+- **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 12` `updated ≤30d` An AI agent CLI that automates feature development by generating technical specifications and running autonomous implement-test-fix loops using Claude Code or Codex. <details><summary>More about</summary>
 
-  It structures the messy gap between a backlog idea and running code by automating spec generation and handing off execution to installed coding agents.
+  It streamlines the transition from a vague backlog item to a completed PR by bridging the gap between high-level requirements and low-level execution via spec-driven loops.
 
-  _You can now outsource the interview phase of feature planning to an AI, leaving you free to stare at a terminal while two AIs argue about your stack until a PR appears._
+  _You'll spend more time interviewing your codebase than actually writing the code you're trying to automate._
 
-  `cli` `spec-driven` `autonomous-loops` `claude-code` `codex`
+  `cli` `autonomous-coding` `spec-driven` `agent` `terminal-ui`
   </details>
 
-- **[tnl](https://github.com/janaraj/tnl)** `⭐ 8` `updated ≤90d` TNL (Typed Natural Language) is a spec-first workflow tool that uses structured English contracts with fixed schemas to plan, approve, and persist feature scope for AI coding agents across sessions. <details><summary>More about</summary>
+- **[tnl](https://github.com/janaraj/tnl)** `⭐ 8` `updated ≤90d` Structured English contracts for AI coding agents to propose, approve, and enforce feature specifications across sessions. <details><summary>More about</summary>
 
-  It replaces ephemeral chat plans with persistent, machine-checkable contracts that enforce scope, bind tests to behaviors, and prevent agents from silently drifting between sessions.
+  It turns ephemeral agent plans into persistent, machine-checkable contracts that prevent drift and context loss between coding sessions.
 
-  _You now have a seven-field YAML-adjacent contract to review before the agent is allowed to touch your repo, which officially makes you the bureaucrat your CI pipeline always wanted._
+  _Finally, a way to make your AI coding agent read the spec before it rewrites your entire architecture._
 
-  `spec-driven` `contracts` `context-engineering` `mcp`
+  `spec-driven` `ai-contracts` `coding-agents` `mcp` `workflow`
   </details>
 
 - **[devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 6` `updated ≤90d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code. <details><summary>More about</summary>
@@ -261,13 +252,13 @@ _These are new or low-traffic entries being watched._
   `claude-code` `spec-driven` `planning` `agent-skills`
   </details>
 
-- **[colign](https://github.com/colign/colign)** `⭐ 5` `updated ≤90d` An open-source spec-driven development platform where teams collaboratively write, review, and manage structured software specifications with AI assistance, featuring an MCP server for integration with coding agents like Claude Code and Cursor. <details><summary>More about</summary>
+- **[colign](https://github.com/colign/colign)** `⭐ 5` `updated ≤90d` An open-source platform for collaborative spec writing and team alignment before handing implementation to AI coding agents. <details><summary>More about</summary>
 
-  It shifts the AI workflow bottleneck from code generation to team alignment by enforcing a structured spec-first loop before autonomous implementation begins.
+  It targets the upstream bottleneck where teams fail to agree on what to build before AI generates code, making structured specs the controlling artifact.
 
-  _Finally, a platform to ensure the entire team agrees on the 30-page document that the AI will inevitably ignore when it writes the code anyway._
+  _We automated code generation only to discover the real bottleneck was getting humans to agree on acceptance criteria, so now there is a kanban board for that._
 
-  `spec-driven` `team-collaboration` `mcp` `sdd` `planning`
+  `spec-driven-development` `ai-collaboration` `team-alignment` `mcp` `spec-writing`
   </details>
 
 - **[patchwarden](https://github.com/jiezeng2004-design/patchwarden)** `⭐ 2` `updated ≤30d` A local-first MCP bridge that provides a safety and verification layer for AI coding agents through workspace confinement and command allowlisting. <details><summary>More about</summary>
@@ -288,47 +279,29 @@ _These are new or low-traffic entries being watched._
   `mcp` `saas-specs` `token-efficiency` `spec-driven`
   </details>
 
-- **[osop-spec](https://github.com/archie0125/osop-spec)** `⭐ 1` `updated ≤30d` OSOP is an open JSON/YAML specification and schema for defining AI agent workflows as directed graphs and logging their execution results. <details><summary>More about</summary>
+- **[osop-spec](https://github.com/archie0125/osop-spec)** `⭐ 1` `updated ≤30d` OSOP v1 JSON Schema and specification for describing and logging AI agent workflows. <details><summary>More about</summary>
 
-  It gives developers a vendor-neutral way to describe multi-step agent processes (agents, APIs, CLIs, humans) and record exactly what happened during execution.
+  It provides a standardized way to define, validate, and log multi-step AI agent workflows, enabling interoperability and reproducibility.
 
-  _We have successfully standardized the chaos of AI workflows into YAML, meaning you can now version-control your agent’s existential crises just like any other deprecated config file._
+  _Finally, a spec for agent workflows—because YAML is the only thing more chaotic than the agents themselves._
 
-  `agent-workflow` `spec` `yaml` `logging` `standard`
+  `workflow-spec` `agent-orchestration` `yaml` `interoperability`
   </details>
 
-- **[BrainGrid](https://www.braingrid.ai)** BrainGrid is a web-based AI product planner that generates structured specs, feature plans, and task breakdowns designed to be consumed by coding agents like Claude Code and Cursor. <details><summary>More about</summary>
+- **[Kiro](https://kiro.dev)** Kiro is an agentic AI platform with IDE, CLI, and web interfaces that turns prompts into executable specs, validates code correctness, and implements tasks with parallel agents. <details><summary>More about</summary>
 
-  It attempts to solve the 'planning gap' by turning vague ideas into scoped tasks and acceptance criteria, reducing the back-and-forth friction when delegating work to AI coding tools.
+  It brings structure to AI-assisted development by enforcing spec-driven workflows, property-based testing, and multi-agent collaboration for complex codebases.
 
-  _We have officially entered the era of needing AI to plan the work so that other AI can build it, ensuring the human's primary job is now managing the project management agent._
+  _Finally, an AI that won’t just vibe-code your way into production—it’ll first write a spec to explain why your vibe was wrong._
 
-  `spec-driven` `planning` `ai-workflow` `product-management`
+  `spec-driven-development` `multi-agent` `ide` `cli` `code-validation`
   </details>
 
-- **[Kiro](https://kiro.dev)** Kiro is an agentic AI development environment (IDE and CLI) that uses spec-driven development to turn natural language prompts into structured requirements, architecture designs, and executable code. <details><summary>More about</summary>
+- **[Prode.ai](https://prode.ai)** ProdE is a planning layer for agentic development that turns ideas into coding-agent-ready specs grounded in your codebase. <details><summary>More about</summary>
 
-  It introduces a spec-first loop (requirements, architecture, task decomposition) to help developers manage intent and automate long-running tasks across large codebases rather than relying on unstructured 'vibe coding'.
+  It standardizes planning across engineering orgs by mapping dependencies, generating specs, and providing context to coding agents via MCP, reducing rework and token costs.
 
-  _Finally, an agent that can write EARS-compliant requirements and architecture docs before ignoring them during implementation, saving you the trouble of pretending to do it yourself._
+  _Finally, a tool that lets PMs and engineers agree on what 'done' looks like before the agents start guessing._
 
-  `spec-driven` `ai-ide` `cli-agent` `agentic-dev`
-  </details>
-
-- **[pmptwiki.com](https://pmptwiki.com)** A platform and CLI for recording, sharing, and cloning structured AI product development journeys, including prompts and project history. <details><summary>More about</summary>
-
-  It lets developers share and reproduce full vibe-coding workflows with structured prompts instead of just dumping finished code.
-
-  _Because what the world definitely needed is yet another way to package, version, and flex about how many times you rewrote the same prompt before the AI stopped hallucinating._
-
-  `prompt-sharing` `cli` `workflow` `reproducibility`
-  </details>
-
-- **[Prode.ai](https://prode.ai)** A planning and codebase-intelligence platform that maps multi-repo systems into a knowledge graph to generate living specs and expose them to coding agents via an MCP server. <details><summary>More about</summary>
-
-  It turns weeks of product planning and codebase archaeology into specs that Cursor, Claude Code, and Copilot can actually consume with architectural context.
-
-  _Finally, a tool that promises to fix the fact that your AI agent writes code 10x faster than your team can decide what to build._
-
-  `mcp` `spec-driven` `planning` `codebase-intelligence` `multi-repo`
+  `spec-driven-development` `mcp` `codebase-intelligence` `agent-planning`
   </details>

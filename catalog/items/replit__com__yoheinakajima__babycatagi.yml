@@ -36,26 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A lightweight, 300-line Replit fork of BabyAGI that iterates on autonomous task execution with a single-task creation agent, looping execution agent, and integrated search and text completion tools.
-  why_it_matters: It offers developers a minimal, readable codebase to understand and modify how autonomous agents handle task dependencies, tool use, and result summarization.
-  mental_damage: Another spiritual successor in the great BabyAGI bloodline, proving that no matter how many layers of 'mod' we add, we still can't stop forking autonomous agents instead of actually shipping features.
+  summary: BabyCatAGI is a lightweight, 300-line Replit-hosted iteration of BabyAGI with task creation, execution loops, and integrated search/scraping tools.
+  why_it_matters: It offers developers a minimal, self-contained agent loop for autonomous task execution with web search and text completion capabilities.
+  mental_damage: Another BabyAGI fork, because the world needed 300 more lines of code to argue about task dependencies.
   tags:
     - autonomous-agents
+    - task-automation
     - replit
-    - babyagi
-    - task-execution
-    - agent-mod
-  confidence: high
+    - babyagi-fork
+  confidence: medium
 curation:
-  status: excluded
-  reason: Excluded because it is primarily an educational demo and a Replit fork of a research toy, lacking the product identity of a practical developer tool or framework.
+  status: included
+  reason: Fits as a lightweight multi-agent runtime platform (task creation + execution agents) rather than a coding assistant or extension.
   evidence:
-    - Described as a 'mod of BabyBeeAGI' and 'continued iteration' with only 300 lines of code, indicating a research/demo rather than a product.
-    - Hosted on Replit as a fork-and-run script rather than a maintained library, CLI, or platform.
-    - Listed in awesome-ai-agents as an autonomous agent example, but does not fit practical developer tooling categories like coding-agents or frameworks.
+    - Described as a mod of BabyBeeAGI/BabyAGI with task creation and execution agents
+    - Hosted on Replit as a runnable template with API key integration
+    - Core functionality centers on agent loops and tool coordination (search, scrape, chunking)
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -70,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:00.619Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2f0fdb1e32e7d1ee8e81b1dd1ddfa5fafdc38886be6bd4a74a596b44ea7f50ba
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: Fits as a lightweight multi-agent runtime platform (task creation + execution agents) rather than a coding assistant or extension.
+      decision_evidence:
+        - Described as a mod of BabyBeeAGI/BabyAGI with task creation and execution agents
+        - Hosted on Replit as a runnable template with API key integration
+        - Core functionality centers on agent loops and tool coordination (search, scrape, chunking)
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated agent loop rather than a code-first library.
+      review_reason: null
+      review_resume_lifecycle: null

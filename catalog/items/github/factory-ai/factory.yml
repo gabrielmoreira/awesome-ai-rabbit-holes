@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:59.511Z"
       bytes: 1831
 insights:
-  summary: Factory (Droid) is a closed-source, agent-native development platform that assists with coding tasks across CLI, web, Slack/Teams, Linear/Jira, and mobile interfaces.
-  why_it_matters: It provides a multi-surface coding agent that developers can delegate repo work to via terminal, IDE extensions, or project management integrations.
-  mental_damage: Yet another agent promises to live in your terminal, IDE, chat app, and ticket queue simultaneously, ensuring you can be interrupted by AI in every possible workflow context.
+  summary: An agent-native development platform that provides a terminal-based AI coding agent named Droid.
+  why_it_matters: It moves beyond simple autocomplete by providing a multi-interface agent (CLI, Web, Slack) capable of executing repo-wide tasks like code reviews and security scans.
+  mental_damage: Because clearly, the only thing missing from your terminal is another autonomous loop capable of deciding your PR descriptions for you.
   tags:
-    - coding-agent
-    - cli
-    - ide-extension
-    - multi-surface
+    - coding-agents
+    - terminal-cli
+    - agentic-workflow
+    - software-development
   confidence: high
 curation:
   status: included
-  reason: The product is a developer-facing coding assistant (Droid) that directly plans and edits code across repos, with a strong CLI presence and IDE integrations, matching the primary coding agent identity.
+  reason: Factory's core identity is its agent 'Droid' which acts as a standalone coding assistant through the CLI and IDEs.
   evidence:
-    - Repo description states 'Factory - Agent-Native Software Development'.
-    - README positions Droid as a coding agent with CLI ('droid'), VS Code extension, and JetBrains/Zed integrations.
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Closed Source'.
+    - README describes Droid as a top-performing terminal-based agent
+    - Offers a CLI installation via curl/npm that initiates a session in a project directory
+    - Includes SDKs and GitHub Actions for automated code reviews and security scans
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:54:54.901Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b883e57a29350f6363b6cdcbd5ff9d012017aeccd91398b6a58a09378b7e4476
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Factory's core identity is its agent 'Droid' which acts as a standalone coding assistant through the CLI and IDEs.
+      decision_evidence:
+        - README describes Droid as a top-performing terminal-based agent
+        - Offers a CLI installation via curl/npm that initiates a session in a project directory
+        - Includes SDKs and GitHub Actions for automated code reviews and security scans
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the primary user interaction is a direct coding assistant in the terminal rather than a multi-agent control plane.
+      review_reason: null
+      review_resume_lifecycle: null

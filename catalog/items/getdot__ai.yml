@@ -1,0 +1,110 @@
+id: getdot__ai
+kind: website
+name: Dot
+canonical_url: https://getdot.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__getdot__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Dot
+        anchor_text: Dot
+        extracted_url: https://getdot.ai
+        surrounding_text: "## [Dot](https://www.getdot.ai/)"
+        confidence: high
+    - id: discovery__www__getdot__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Dot
+        anchor_text: Dot
+        extracted_url: https://www.getdot.ai
+        surrounding_text: "## [Dot](https://www.getdot.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Dot is an AI data analyst SaaS that answers natural language data questions, generates reports, and integrates with tools like Slack and Snowflake.
+  why_it_matters: It enables non-technical teams to perform complex data analysis without writing SQL or building dashboards, saving time and democratizing data access.
+  mental_damage: Finally, a way for executives to ask for pivot tables in Slack and get them in seconds—because nothing says productivity like a 3 AM 'quick revenue check' from your CEO.
+  tags:
+    - data-analysis
+    - ai-saas
+    - business-intelligence
+    - natural-language-query
+    - automated-reporting
+  confidence: high
+curation:
+  status: excluded
+  reason: Dot is a business intelligence and data analysis SaaS product, not a developer-tooling product focused on coding, agents, or workflows for software developers.
+  evidence:
+    - Product is positioned as an AI data analyst for teams (not developers)
+    - Core features are chat-based data Q&A, automated reports, and context agents for business metrics
+    - Integrations target business tools (Slack, Teams, email) and data warehouses (Snowflake, BigQuery), not developer workflows
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:34:19.752Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:194769ac1c4c9ab48217150c4dd7bdbf0f26334d0aed18d6ef2956e8e29cf7b5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Dot is a business intelligence and data analysis SaaS product, not a developer-tooling product focused on coding, agents, or workflows for software developers.
+      decision_evidence:
+        - Product is positioned as an AI data analyst for teams (not developers)
+        - Core features are chat-based data Q&A, automated reports, and context agents for business metrics
+        - Integrations target business tools (Slack, Teams, email) and data warehouses (Snowflake, BigQuery), not developer workflows
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.965Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

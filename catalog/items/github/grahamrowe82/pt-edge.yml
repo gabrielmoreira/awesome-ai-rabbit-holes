@@ -45,23 +45,22 @@ metadata:
       fetched_at: "2026-07-20T15:10:54.286Z"
       bytes: 3932
 insights:
-  summary: A precomputed reasoning cache and directory that tracks, scores, and publishes structured pages for over 220,000 open-source AI projects to help both developers and AI agents make infrastructure decisions.
-  why_it_matters: It provides a machine-readable intelligence layer and 'Demand Radar' that lets developers and their agents quickly assess ecosystem quality without manually digging through GitHub stars and npm downloads.
-  mental_damage: We have now successfully automated the anxiety of choosing which AI tool to use by building an AI that watches what other AIs are watching, turning 'decision fatigue' into 'meta-decision fatigue'.
+  summary: Precomputed reasoning cache and directory site tracking 220K+ AI repos with quality scores and structured data for AI agents and humans.
+  why_it_matters: Developers and AI agents can quickly find and evaluate high-quality open-source AI tools with machine-readable, citable recommendations.
+  mental_damage: Now your AI agent can spend less time crawling GitHub and more time second-guessing your stack choices.
   tags:
-    - directory
-    - mcp
+    - ai-directory
+    - mcp-server
     - developer-tools
-    - scoring
-    - ai-infrastructure
-  confidence: medium
+    - ecosystem-intelligence
+  confidence: high
 curation:
   status: included
-  reason: The project's primary value is a massive 220K+ page directory and scoring system for navigating the open-source AI ecosystem, functioning as a discovery and indexing tool rather than a standalone coding assistant or framework.
+  reason: The primary value is a curated, machine-readable directory of AI ecosystem tools, fitting the navigation/aid scope of awesome-awesomes.
   evidence:
-    - Repo description explicitly calls it a 'precomputed reasoning cache' and 'tracking the open-source AI ecosystem' across 220K+ pages.
-    - README states the system 'publishes the results as a 220,000+ page directory site' designed for both humans and AI agents to find trustworthy recommendations.
-    - Source list context shows it curated under 'awesome-mcp-servers' as a developer tool, reinforcing its identity as a navigational resource.
+    - "Repo description: precomputed reasoning cache for AI infrastructure decisions tracking 220K+ pages"
+    - "README: serves AI agents and humans with structured, citable recommendations across 17 domains"
+    - "Source-list context: listed in awesome-mcp-servers under Developer Tools"
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -80,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:06.818Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d310fd09551f40d63bbb8315bb16d3af223050b423685a7c628952a7560e21af
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The primary value is a curated, machine-readable directory of AI ecosystem tools, fitting the navigation/aid scope of awesome-awesomes.
+      decision_evidence:
+        - "Repo description: precomputed reasoning cache for AI infrastructure decisions tracking 220K+ pages"
+        - "README: serves AI agents and humans with structured, citable recommendations across 17 domains"
+        - "Source-list context: listed in awesome-mcp-servers under Developer Tools"
+      category_candidates:
+        - awesome-awesomes
+        - mcp
+      contrastive_reason: Choose awesome-awesomes over mcp because the core product is a directory/site, not MCP infrastructure itself.
+      review_reason: null
+      review_resume_lifecycle: null

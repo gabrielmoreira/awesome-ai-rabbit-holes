@@ -47,22 +47,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:36.311Z"
       bytes: 3543
 insights:
-  summary: Knowledge is a desktop knowledge management tool that lets users save, search, and chat with websites, documents, and files using LLMs, built on Chromium with a graph-based organization system.
-  why_it_matters: It offers developers a way to build a local, queryable knowledge graph of technical docs and resources with integrated LLM chat, sitting somewhere between a research tool and a personal context engine.
-  mental_damage: Another valiant attempt to solve the 'read later' pile by adding a graph view and a chat box, proving that even with LLMs, we still can't quite deal with our own bookmarks.
+  summary: Knowledge is a tool for saving, searching, accessing, exploring and chatting with websites, documents, and files using LLMs.
+  why_it_matters: It offers developers a way to centralize and interact with their research and documentation through a chat interface and built-in browser.
+  mental_damage: Another tool that promises to turn your chaotic browser tabs into a knowledge graph, because apparently bookmarks were too simple.
   tags:
-    - knowledge-graph
+    - knowledge-management
     - llm-chat
-    - desktop-app
-    - rag
+    - document-search
+    - web-scraping
+    - archived
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived with a banner stating development has ceased, and its primary identity is a personal knowledge management desktop app rather than a developer-facing coding tool, agent, or infrastructure component.
+  reason: The project is archived and no longer being developed, with its primary focus on knowledge management rather than developer-tooling workflows.
   evidence:
-    - "Repo archived: yes, with a README banner stating 'Knowledge is no longer being developed.'"
-    - "Primary description focuses on personal knowledge management: 'saving, searching, accessing, exploring and chatting with all of your favorite websites, documents and files.'"
-    - Listed in awesome-langchain under 'Knowledge Management', indicating it is a LangChain demo/app rather than core dev tooling.
+    - "Repo is archived (archived: yes)"
+    - README explicitly states 'Knowledge is no longer being developed'
+    - Primary function is knowledge management and chat with documents/websites, not developer workflow augmentation
 placement:
   primary_category: null
   section: null
@@ -81,12 +82,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:52.306Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:81f9a4008096f40a627d075f6f2c49a7e9d79a8706c6385e03fae9b521b9fffc
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is archived and no longer being developed, with its primary focus on knowledge management rather than developer-tooling workflows.
+      decision_evidence:
+        - "Repo is archived (archived: yes)"
+        - README explicitly states 'Knowledge is no longer being developed'
+        - Primary function is knowledge management and chat with documents/websites, not developer workflow augmentation
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

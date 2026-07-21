@@ -39,22 +39,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:14.981Z"
       bytes: 43217
 insights:
-  summary: An official MCP server that exposes Mailtrap email sending, sandbox testing, templates, and inbox logging tools to AI coding assistants like Cursor and VS Code.
-  why_it_matters: It lets coding agents send, verify, and debug transactional emails directly inside the repo workflow without leaving the IDE or wiring custom API calls.
-  mental_damage: We have successfully abstracted email testing into a protocol so your agent can silently fail at deliverability while you debug the MCP handshake instead.
+  summary: Official MCP server for Mailtrap that provides tools for sending and testing emails in sandbox via Mailtrap.
+  why_it_matters: Lets developers integrate email sending and testing workflows directly into AI-assisted development environments using the Model Context Protocol.
+  mental_damage: Yet another niche MCP server that makes you wonder if every SaaS needs its own AI plugin before lunch.
   tags:
     - mcp
     - mailtrap
-    - email-testing
-    - ide-integration
+    - email
   confidence: high
 curation:
   status: included
-  reason: The product identity is clearly an MCP server for a specific domain (email via Mailtrap), fitting the MCP Servers & Tooling category.
+  reason: The product is an MCP server providing Mailtrap-specific tools, making MCP the core identity rather than a compatibility feature.
   evidence:
-    - "Repo description states: 'Official mailtrap.io MCP server'"
-    - "README excerpt confirms: 'An MCP server that provides tools for sending and testing in sandbox via Mailtrap'"
-    - "Seen in awesome-mcp-servers directory under section: 'Official Servers'"
+    - "Repo description: 'Official mailtrap.io MCP server'"
+    - "README: 'An MCP server that provides tools for sending and testing in sandbox via Mailtrap'"
+    - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +72,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:59.277Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5445c1f8545d90f35432e094c90a724b2a058547a5aa5a29b4f2265b17f9cc65
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server providing Mailtrap-specific tools, making MCP the core identity rather than a compatibility feature.
+      decision_evidence:
+        - "Repo description: 'Official mailtrap.io MCP server'"
+        - "README: 'An MCP server that provides tools for sending and testing in sandbox via Mailtrap'"
+        - Listed in awesome-mcp-servers under 'Official Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension augmenting another assistant with Mailtrap capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

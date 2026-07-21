@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:10:57.810Z"
       bytes: 13742
 insights:
-  summary: An MCP server that wraps the Claude Code CLI as a subprocess to expose its coding and web search capabilities to other MCP clients like Gemini CLI, Codex, Cursor, and VS Code.
-  why_it_matters: It lets developers use Claude Code's reasoning and web search tools directly inside non-Anthropic environments like Gemini CLI or Cursor without shell access.
-  mental_damage: We have now reached the point where we need a dedicated bridge to let our AI agents impersonate each other inside tools that already claim to be AI-powered.
+  summary: MCP server that wraps Claude Code CLI as a subprocess to expose its capabilities to any MCP-compatible client.
+  why_it_matters: Enables developers to use Claude Code CLI's features (code analysis, web search, structured output) in non-shell environments like Cursor, Windsurf, or VS Code via MCP.
+  mental_damage: Now you can run Claude Code inside Cursor while pretending you’re not just nesting agents like a matryoshka doll of productivity.
   tags:
     - mcp
-    - cli
+    - claude-code
     - bridge
-    - integration
+    - subprocess
+    - multi-client
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that integrates Claude Code capabilities into other MCP-compatible clients, fitting the MCP Servers & Tooling category.
+  reason: "MCP is the product identity: this is a server that bridges Claude Code CLI to MCP clients, not a standalone assistant or extension."
   evidence:
-    - Repo description explicitly states 'MCP server bridging Claude CLI to Gemini CLI, Codex, Cursor'.
-    - README describes it as 'MCP server that wraps Claude Code CLI as a subprocess, exposing its capabilities as Model Context Protocol tools'.
-    - Source list (awesome-mcp-servers) classifies it under Server Implementations > Coding Agents, reinforcing its MCP identity.
+    - Repo description explicitly states it is an MCP server bridging Claude CLI to other clients
+    - README details MCP tool exposure (query, search, structured) and client configurations for Codex, Gemini, Cursor, etc.
+    - Source-list context places it in an MCP servers directory under 'Coding Agents' section
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:47.884Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:293c4f3af764e033dc4b3c34e2db8dba94be02de37164e5a9889cdeb293c1d98
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a server that bridges Claude Code CLI to MCP clients, not a standalone assistant or extension."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server bridging Claude CLI to other clients
+        - README details MCP tool exposure (query, search, structured) and client configurations for Codex, Gemini, Cursor, etc.
+        - Source-list context places it in an MCP servers directory under 'Coding Agents' section
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an integration layer augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

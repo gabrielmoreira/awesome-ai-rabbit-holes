@@ -43,23 +43,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:22.051Z"
       bytes: 1011
 insights:
-  summary: A minimal, single-file MCP server implementation that exposes Cloudbet's sports data and betting tools via the Model Context Protocol for educational and demonstration purposes.
-  why_it_matters: It provides a concrete, runnable example of how to structure an MCP server for sports data, lowering the barrier for developers building domain-specific AI tool integrations.
-  mental_damage: Now you can spend your afternoon explaining to your coding agent why it can't parlay the Premier League fixture list into a deployed microservice.
+  summary: A minimal MCP server exposing Cloudbet's sports data and betting tools via the Model Context Protocol.
+  why_it_matters: Developers can integrate sports data and betting functionality into MCP-compatible clients or agents without building the API layer themselves.
+  mental_damage: Now your coding agent can also tell you the Premier League odds while it’s debugging your loop.
   tags:
-    - mcp
+    - mcp-server
     - sports-data
+    - betting-api
     - go
-    - demo
-    - api
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server implementation for the sports/betting domain, fitting cleanly into MCP Servers & Tooling as a domain-specific example.
+  reason: This is an MCP-first server whose primary identity is exposing sports data via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states 'Cloudbet Sports Data MCP Server' and topics include mcp, mcp-server.
-    - README describes it as 'a single-file, minimal implementation of the Model Context Protocol (MCP) for sports data and betting tool exposure'.
-    - Listed in awesome-mcp-servers under the 'Official Servers' section.
+    - Repo description explicitly identifies it as an MCP server for sports data
+    - README confirms it implements the MCP Server specification
+    - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -78,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:43:23.161Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f8e9b1f30ed9f4de71ec1ba4882668e49ca2fbc120a956157111676a1e3482fc
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose primary identity is exposing sports data via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for sports data
+        - README confirms it implements the MCP Server specification
+        - Listed in awesome-mcp-servers under Official Servers
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server, not a code-first SDK or framework.
+      review_reason: null
+      review_resume_lifecycle: null

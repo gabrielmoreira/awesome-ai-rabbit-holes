@@ -24,28 +24,31 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2
-    forks: 3
+    stars: 3
+    forks: 4
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: TechDocsStudio/biel-mcp
+    html_url: https://github.com/TechDocsStudio/biel-mcp
     created_at: "2025-06-20T16:06:55Z"
-    pushed_at: "2026-04-27T17:37:33Z"
+    pushed_at: "2026-07-18T10:37:58Z"
     description: Connect AI tools like Cursor, VS Code, and Claude to your product docs.
     homepage: https://docs.biel.ai/integrations/mcp-server
     topics:
+      - ask-ai
       - chatbot
       - docs
       - documentation
       - docusaurus
+      - mcp
+      - mcp-server
       - rag
       - rag-as-a-service
       - sphinx
-    last_checked_at: "2026-05-06T22:46:42.202Z"
+    last_checked_at: "2026-07-21T15:20:41.750Z"
     readme:
-      fetched_at: "2026-05-06T22:46:42.202Z"
-      bytes: 2698
+      fetched_at: "2026-07-21T15:20:41.750Z"
+      bytes: 2709
 insights:
   summary: An MCP server that connects AI coding tools like Cursor, VS Code, and Claude Desktop to a Biel.ai-hosted RAG layer of product documentation.
   why_it_matters: It allows coding assistants to query live product docs for accurate code completions and technical answers instead of hallucinating API details.
@@ -77,16 +80,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:42.202Z"
+    updated_at: "2026-07-21T15:20:41.750Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

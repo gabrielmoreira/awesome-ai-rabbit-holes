@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:29.549Z"
       bytes: 2163
 insights:
-  summary: An MCP server that exposes Trino catalogs, tables, and SQL execution as tools and resources for AI models and agents.
-  why_it_matters: It lets coding agents and MCP-compatible assistants query distributed data lakes directly, bridging big data infrastructure with AI-driven development workflows.
-  mental_damage: We have successfully abstracted SQL queries behind yet another protocol layer so your chatbot can accidentally DROP TABLE with enterprise-grade latency.
+  summary: An MCP server that exposes Trino database tables and SQL query execution as MCP resources and tools.
+  why_it_matters: Lets AI assistants interact with Trino databases directly through the Model Context Protocol, enabling query execution and table discovery without custom integration code.
+  mental_damage: Now your AI can join the distributed SQL party without RSVPing to the Trino docs.
   tags:
     - mcp
     - trino
     - database
     - sql
-    - integration
+    - server
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server for Trino, fitting squarely into MCP infrastructure for database access.
+  reason: This is a dedicated MCP server implementation for Trino, making MCP the primary product identity rather than a compatibility feature.
   evidence:
-    - Repo description states 'MCP Server for Trino'.
-    - README describes an MCP server providing Trino tables as resources and SQL execution as a tool.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Databases sections.
+    - Repo description explicitly states 'MCP Server for Trino'
+    - README details MCP resources/tools for Trino table listing and SQL execution
+    - Listed in multiple MCP server directories under Databases
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:05.373Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:58fe61103db3fa5e41cc6474c3dd01147f50de8f7d79fb3c05f588e544106771
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server implementation for Trino, making MCP the primary product identity rather than a compatibility feature.
+      decision_evidence:
+        - Repo description explicitly states 'MCP Server for Trino'
+        - README details MCP resources/tools for Trino table listing and SQL execution
+        - Listed in multiple MCP server directories under Databases
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for Trino, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -53,23 +53,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:04.268Z"
       bytes: 16441
 insights:
-  summary: Horovod is a distributed deep learning training framework for scaling TensorFlow, Keras, PyTorch, and MXNet workloads across multiple GPUs and hosts.
-  why_it_matters: It allows developers to take single-GPU training scripts and scale them to large distributed environments with minimal code changes, optimizing for high throughput and scaling efficiency.
-  mental_damage: While you're busy figuring out how to make your ResNet converge across 512 GPUs, the coding agent has already written the entire training loop and is now arguing with you about the learning rate.
+  summary: Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.
+  why_it_matters: Enables developers to scale single-GPU training scripts to many GPUs or hosts with minimal code changes and high efficiency.
+  mental_damage: Finally, a way to turn your local training script into a distributed nightmare with just a few lines of code.
   tags:
     - distributed-training
+    - deep-learning
     - pytorch
     - tensorflow
-    - deep-learning
-    - ml-infra
+    - scaling
   confidence: high
 curation:
   status: excluded
-  reason: Horovod is a general machine learning infrastructure tool for distributed training, which falls outside the catalog's scope of practical AI tools, coding agents, and developer-facing AI workflows.
+  reason: Horovod is a distributed deep learning training framework, not a developer-facing AI tool, agent, or workflow product for software developers.
   evidence:
-    - Repo description explicitly states it is a 'Distributed training framework for TensorFlow, Keras, PyTorch, and Apache MXNet.'
-    - README confirms the goal is making 'distributed deep learning fast and easy to use' for model training, not developer tooling or coding assistance.
-    - Source list placement is under 'Training > Frameworks for Training' in an LLMOps list, indicating it is ML infrastructure rather than a developer agent or workflow tool.
+    - Repo description explicitly states it is a distributed training framework for deep learning libraries
+    - README emphasizes scaling training scripts across GPUs/hosts, not developer tooling or AI workflows
+    - Source-list context places it under Training > Frameworks for Training, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -88,12 +88,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:06.926Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9c11e09e626fb1ed80383c00a3991ab133f6343e014601d68463e37332908859
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Horovod is a distributed deep learning training framework, not a developer-facing AI tool, agent, or workflow product for software developers.
+      decision_evidence:
+        - Repo description explicitly states it is a distributed training framework for deep learning libraries
+        - README emphasizes scaling training scripts across GPUs/hosts, not developer tooling or AI workflows
+        - Source-list context places it under Training > Frameworks for Training, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

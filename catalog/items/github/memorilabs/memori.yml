@@ -58,22 +58,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:19.991Z"
       bytes: 12703
 insights:
-  summary: Memori is an LLM-agnostic memory infrastructure layer that persists agent execution history and conversation state into structured, queryable memory for production systems.
-  why_it_matters: It offers Python and TypeScript SDKs to automatically capture and recall agent state, reducing prompt size by ~95% compared to full-context prompting while maintaining high benchmark accuracy.
-  mental_damage: Because nothing says 'production-ready agent' like adding a dedicated memory layer to remember what your stateless LLM forgot it was doing five minutes ago.
+  summary: Memori is agent-native memory infrastructure that turns agent execution and conversation into structured, persistent state for production systems.
+  why_it_matters: It gives developers a way to retain long-term context across agent interactions without bloating prompts, reducing token usage while preserving reasoning quality.
+  mental_damage: Another layer of infrastructure to bolt onto your agent stack, promising memory that 'just works' while you debug why it forgot your user's name again.
   tags:
     - memory
     - agent-infrastructure
-    - context-management
-    - sdk
+    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory and context-shaping system that persists and retrieves agent state to reduce context footprint, fitting Prompt & Context Engineering.
+  reason: Memori's core is a memory and context-shaping layer that improves what goes into the model via structured persistence and retrieval, making it a fit for Prompt & Context Engineering rather than a coding agent or orchestration platform.
   evidence:
-    - Repo description explicitly calls it 'agent-native memory infrastructure' and 'structured, persistent state'.
-    - README emphasizes 'Memory from what agents do' and reports reducing context footprint to 4.97% of full-context while outperforming Zep, LangMem, and Mem0 on LoCoMo.
-    - It provides Python and TypeScript SDKs (pip install memori, npm install @memorilabs/memori) and a cloud API, positioning it as a developer-facing context layer.
+    - "Repo description: 'Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.'"
+    - "README: 'Memory from what agents do, not just what they say.' and 'Memori recalls that your favorite color is blue.' showing automatic persistence and recall."
+    - Benchmarks show 81.95% accuracy on LoCoMo with 67% prompt size reduction vs. Zep, proving its context compression and retrieval value.
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -92,12 +91,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:19:48.235Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:872fe1ea1b290654092f81ab0ded3ced938a64b278edcb349378fe5fa5c577d7
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: Memori's core is a memory and context-shaping layer that improves what goes into the model via structured persistence and retrieval, making it a fit for Prompt & Context Engineering rather than a coding agent or orchestration platform.
+      decision_evidence:
+        - "Repo description: 'Memori is agent-native memory infrastructure. A LLM-agnostic layer that turns agent execution and conversation into structured, persistent state for production systems.'"
+        - "README: 'Memory from what agents do, not just what they say.' and 'Memori recalls that your favorite color is blue.' showing automatic persistence and recall."
+        - Benchmarks show 81.95% accuracy on LoCoMo with 67% prompt size reduction vs. Zep, proving its context compression and retrieval value.
+      category_candidates:
+        - context-engineering
+        - ai-frameworks
+      contrastive_reason: Choose context-engineering over ai-frameworks because Memori's primary value is its memory and context retrieval system, not as a code-first SDK or framework for building agents.
+      review_reason: null
+      review_resume_lifecycle: null

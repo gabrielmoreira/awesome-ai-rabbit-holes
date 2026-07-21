@@ -56,23 +56,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:07.807Z"
       bytes: 31915
 insights:
-  summary: A C/C++ implementation for running LLM inference locally, focused on enabling efficient execution of models on consumer hardware.
-  why_it_matters: It provides the foundational runtime that allows developers to run powerful language models privately on their own machines without relying on cloud APIs.
-  mental_damage: You will spend an evening quantizing a model down to 3 bits just to watch it hallucinate at 12 tokens per second while convincing yourself this is definitely 'production ready'.
+  summary: High-performance LLM inference engine written in C/C++ designed for local execution.
+  why_it_matters: It enables developers to run large language models on consumer-grade hardware with high efficiency through quantization.
+  mental_damage: Now you can suffer through massive model downloads on your own GPU instead of paying OpenAI for every token.
   tags:
-    - local-ai
     - inference
+    - local-ai
     - cpp
+    - quantization
     - gguf
-    - llm
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is a local C/C++ runtime for LLM inference, making it a canonical fit for the Local AI category.
+  reason: It is the industry standard for running quantized models on local hardware, making it a foundational local AI runtime.
   evidence:
-    - Repo description explicitly states 'LLM inference in C/C++'.
-    - README details local execution via CLI and server with models like GGUF.
-    - Featured in awesome-local-ai under 'Inference Engine'.
+    - "Repo description: LLM inference in C/C++"
+    - README confirms support for local execution via llama-cli and llama-server
+    - High traction with 120k+ stars
 placement:
   primary_category: local-ai
   section: Local Runtimes
@@ -91,12 +91,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:02:22.502Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:382d63b3f6022941b75b6a14e0058163fe4b2198fc8667552fff539347811ef7
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: It is the industry standard for running quantized models on local hardware, making it a foundational local AI runtime.
+      decision_evidence:
+        - "Repo description: LLM inference in C/C++"
+        - README confirms support for local execution via llama-cli and llama-server
+        - High traction with 120k+ stars
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because its primary identity is the local runtime and serving layer for models on private hardware.
+      review_reason: null
+      review_resume_lifecycle: null

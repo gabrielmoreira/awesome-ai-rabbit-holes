@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:05.237Z"
       bytes: 8677
 insights:
-  summary: An MCP server that connects Claude Code to E2B cloud sandboxes, providing isolated Linux VMs to clone repos, run commands, and execute git operations without touching the local machine.
-  why_it_matters: It lets developers delegate repo work and CI-style testing to disposable cloud VMs directly from Claude Code, while capping noisy terminal output to protect the context window.
-  mental_damage: We have successfully abstracted away the 'it works on my machine' problem by ensuring it now breaks exclusively on someone else's machine.
+  summary: An MCP server that connects Claude Code with E2B cloud sandboxes for isolated GitHub repo work.
+  why_it_matters: Lets developers offload repo operations to disposable cloud VMs, saving tokens and avoiding local setup.
+  mental_damage: Now you can break production in a sandbox instead of your local machine—progress.
   tags:
     - mcp
-    - claude-code
-    - e2b
     - sandbox
     - cloud-dev
+    - claude-code
+    - git-integration
   confidence: high
 curation:
   status: included
-  reason: It is a canonical MCP server that gives Claude Code remote code execution and git capabilities via E2B sandboxes, fitting the MCP Servers & Tooling category.
+  reason: "MCP is the product identity: a server providing sandbox tools to Claude Code via MCP."
   evidence:
-    - "Repo description explicitly states: 'MCP server connecting Claude Code with E2B cloud sandboxes'"
-    - Found in awesome-mcp-servers list under 'Server Implementations > Code Execution'
-    - README details 29 MCP tools for sandbox creation, git operations, and command execution
+    - Repo description explicitly calls it an MCP server
+    - README details 29 MCP tools for sandbox operations
+    - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:08.552Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b876c09c26601bf1708596d7f2a643d601562072d0e041700d991f944cd78bfc
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: a server providing sandbox tools to Claude Code via MCP."
+      decision_evidence:
+        - Repo description explicitly calls it an MCP server
+        - README details 29 MCP tools for sandbox operations
+        - Listed in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not just a Claude Code extension.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -44,22 +44,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:07.006Z"
       bytes: 2140
 insights:
-  summary: A Python framework for distributed hyperparameter optimization implementing Hyperband and BOHB for ML model tuning.
-  why_it_matters: It provides a structured way to automate the expensive search for optimal model hyperparameters across distributed compute environments.
-  mental_damage: "Just what the modern developer needs: yet another sophisticated way to burn CPU cycles tweaking learning rates while the actual business logic remains unimplemented."
+  summary: A distributed Hyperband implementation for hyperparameter optimization in Python.
+  why_it_matters: It provides developers with a framework for distributed hyperparameter tuning, particularly useful for machine learning model training.
+  mental_damage: Because nothing says 'modern development' like spending your days tuning hyperparameters instead of writing code.
   tags:
     - automl
     - hyperparameter-optimization
-    - distributed
-    - machine-learning
+    - bayesian-optimization
+    - distributed-computing
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional machine learning infrastructure library for hyperparameter tuning, not a developer-facing AI tool, agent, or coding workflow product.
+  reason: The project is a framework for hyperparameter optimization in ML, not a developer-tooling product for AI-assisted software development workflows.
   evidence:
-    - Repo description and README focus on distributed hyperparameter optimization, BOHB, and neural architecture search.
-    - Topics include automated-machine-learning, automl, and bayesian-optimization, which are ML research/engineering areas outside the catalog's developer-tooling scope.
-    - The README notes the package is unmaintained and recommends migrating to SMAC3 or DEHB.
+    - Repo description identifies it as a distributed Hyperband implementation for hyperparameter optimization
+    - README explicitly states it is a Python package for distributed hyperparameter optimization
+    - Archived status is not set, but the README declares it is 'Not Maintained Anymore' with recommended successors
 placement:
   primary_category: null
   section: null
@@ -78,12 +78,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:35.952Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1dab425be29c6042addc46aaeec2b581833223a9f50cb7ef1e62ed9efe110991
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a framework for hyperparameter optimization in ML, not a developer-tooling product for AI-assisted software development workflows.
+      decision_evidence:
+        - Repo description identifies it as a distributed Hyperband implementation for hyperparameter optimization
+        - README explicitly states it is a Python package for distributed hyperparameter optimization
+        - Archived status is not set, but the README declares it is 'Not Maintained Anymore' with recommended successors
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

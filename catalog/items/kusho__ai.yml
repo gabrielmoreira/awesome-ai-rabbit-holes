@@ -51,15 +51,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: KushoAI is an AI-native testing and reliability platform that generates and maintains API, security, and end-to-end test suites within CI/CD pipelines.
-  why_it_matters: It automates the creation and self-healing of test infrastructure, allowing developers to shift focus from manual QA maintenance to building features.
-  mental_damage: Finally, an AI agent willing to take the fall for your failing builds so you don't have to manually update that Postman collection from 2019.
+  summary: KushoAI is a CI/CD-native platform that uses autonomous agents to handle API contract testing, security scanning, end-to-end workflow validation, and self-healing test infrastructure.
+  why_it_matters: It automates the generation, maintenance, and execution of tests across APIs, workflows, and UIs, reducing QA time and catching regressions before production.
+  mental_damage: Finally, a way to offload the soul-crushing task of keeping your test suite in sync with your ever-changing APIs.
   tags:
-    - testing
     - ci-cd
-    - qa
-    - api
-    - security
+    - api-testing
+    - autonomous-agents
+    - security-scanning
+    - test-automation
   confidence: high
 curation:
   status: included
@@ -70,10 +70,10 @@ curation:
     - Listed in awesome-ai-agents under sections describing infrastructure for software maintenance.
 placement:
   primary_category: agent-orchestration
-  section: Vertical Orchestration Platforms
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
 processing:
   discover:
     status: done
@@ -85,12 +85,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:55.316Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b5117416d152327e2aafcb2bfd8cc2caec347db9c09250c68d02c50894b3606c
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: The product's core identity is autonomous agents that directly test, validate, and repair software artifacts (APIs, workflows, UIs) in CI/CD pipelines, fitting the 'Review, Testing & Repair Agents' section of Coding Agents.
+      decision_evidence:
+        - Described as 'AI-native infrastructure for software maintenance' with autonomous agents in CI/CD
+        - Core features include API contract testing, security scanning, E2E workflow validation, and self-healing test updates
+        - Listed in 'Testing and QA' sections of curated AI coding tool directories
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the primary product is the autonomous testing agent itself, not an extension augmenting another assistant.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'coding-agents'"
+      review_resume_lifecycle: null

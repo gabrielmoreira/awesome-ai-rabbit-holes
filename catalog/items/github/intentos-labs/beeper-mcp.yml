@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:13.749Z"
       bytes: 3590
 insights:
-  summary: A backend service that exposes Beeper token operations on Binance Smart Chain—balance checks, transfers, swaps, and reward claims—as MCP tools for LLM-driven workflows.
-  why_it_matters: Developers building AI agents that need autonomous on-chain actions can wire this up to let models trade, transfer, and claim rewards without writing custom blockchain glue code.
-  mental_damage: We have finally reached the point where your LLM can drain your BSC wallet at machine speed and you’re expected to feel productive about it.
+  summary: An MCP server that exposes Binance Smart Chain (BSC) blockchain operations as tools for AI assistants.
+  why_it_matters: Lets AI coding assistants directly interact with BSC for wallet management, token swaps, and reward claims without leaving the chat interface.
+  mental_damage: Now your AI pair programmer can also day-trade your BNB while you debug.
   tags:
     - mcp
     - blockchain
-    - defi
-    - binance-smart-chain
-    - finance
+    - bsc
+    - crypto
+    - wallet
   confidence: high
 curation:
   status: included
-  reason: The product’s identity is an MCP server that exposes finance and DeFi operations on BSC, aligning with the MCP category’s allowance for domain-specific servers.
+  reason: "MCP is the product identity here: it is a server exposing BSC operations as MCP tools for AI assistants."
   evidence:
-    - Repo description states it is 'A backend service for executing beeper transactions on Binance Smart Chain'
-    - README explicitly lists MCP tools (get_balance, swap_token, claim_rewards, etc.) and shows JSON config for Claude/Windsurf/Cursor
-    - Listed in awesome-mcp-servers under the Finance & Fintech section
+    - Repo description explicitly calls it a backend service for BSC transactions
+    - README shows it exposes MCP tools for wallet/token operations
+    - Configuration examples target MCP server integration with Claude/Windsurf/Cursor
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:20.995Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d6238577af57597348636cd11ec355c0e684fbe1374e41b0b8f2700dbcc08065
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: it is a server exposing BSC operations as MCP tools for AI assistants."
+      decision_evidence:
+        - Repo description explicitly calls it a backend service for BSC transactions
+        - README shows it exposes MCP tools for wallet/token operations
+        - Configuration examples target MCP server integration with Claude/Windsurf/Cursor
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

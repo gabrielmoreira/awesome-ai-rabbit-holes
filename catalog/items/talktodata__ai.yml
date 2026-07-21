@@ -36,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A natural-language data analysis platform that connects to SQL databases and spreadsheets to generate answers and visualizations without writing code.
-  why_it_matters: It allows non-technical users and analysts to query structured data using conversation instead of SQL or spreadsheet formulas.
-  mental_damage: We have successfully built an AI agent to eliminate the data analyst, but still require a human developer to hook up the database connection it relies on.
+  summary: A SaaS AI data analyst that connects to SQL databases and spreadsheets to answer natural language questions and generate visualizations.
+  why_it_matters: Developers can offload ad-hoc data analysis and visualization tasks to a conversational interface instead of writing queries or using BI tools.
+  mental_damage: Finally, a way to ask your database questions in plain English—just like you always dreamed, before remembering you still need to clean the data first.
   tags:
     - data-analysis
-    - natural-language
-    - sql
+    - natural-language-query
     - visualization
+    - sql
+    - spreadsheets
   confidence: high
 curation:
   status: excluded
-  reason: This is a business intelligence SaaS product for end-users and analysts, not a developer-facing tool, framework, or coding assistant for building software.
+  reason: This is a general-purpose data analysis SaaS for end-users, not a developer-tooling product focused on coding workflows, infrastructure, or app-building.
   evidence:
-    - Primary page excerpt describes 'Your Personal AI Data Analyst' focused on business analytics, not code.
-    - Source-list context identifies it as a 'data analyst ai' and 'chatbot for data analytics' rather than a dev tool.
-    - No developer-facing workflow such as code editing, framework integration, or IDE extension is evident.
+    - Primary product is a conversational AI data analyst for SQL/spreadsheets
+    - Marketed as a business/end-user tool (e.g., 'Trusted By Employees At')
+    - Source-list context places it in a generic AI agents directory, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -69,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:37:46.770Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:409f9133b158e925b94bac3419c568d2087fac389eea372c056b64eae3753787
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a general-purpose data analysis SaaS for end-users, not a developer-tooling product focused on coding workflows, infrastructure, or app-building.
+      decision_evidence:
+        - Primary product is a conversational AI data analyst for SQL/spreadsheets
+        - Marketed as a business/end-user tool (e.g., 'Trusted By Employees At')
+        - Source-list context places it in a generic AI agents directory, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

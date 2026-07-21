@@ -47,23 +47,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:34.535Z"
       bytes: 7485
 insights:
-  summary: An MCP server that connects Spotify to AI assistants so developers can perform bulk playlist creation, library exports, and CSV imports with confidence-scored matching and human-in-the-loop review.
-  why_it_matters: It lets developers script and automate large-scale Spotify library management through Claude Code and other MCP-compatible assistants instead of wrestling with the Spotify API by hand.
-  mental_damage: You can now fix your podcast playlists via Claude Code, which is definitely the most productive use of a $20/month assistant subscription.
+  summary: MCP server for bulk Spotify operations, including batch playlist creation with confidence scoring, library exports, and CSV imports.
+  why_it_matters: Enables developers to programmatically manage Spotify libraries and playlists at scale with human-in-the-loop review for uncertain matches.
+  mental_damage: Finally, a way to turn your podcast show notes into playlists without manually searching for each track—because who has time for that.
   tags:
-    - mcp
-    - spotify
-    - automation
+    - mcp-server
+    - spotify-api
     - bulk-operations
-    - claude
-  confidence: medium
+    - music-management
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose entire identity is exposing Spotify bulk operations to MCP-compatible assistants, making it a clean fit for Domain Servers.
+  reason: This is an MCP-first server with Spotify-specific bulk operations as its core identity, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'MCP server for bulk Spotify operations - batch playlist creation with confidence scoring, library exports, CSV imports, and human-in-the-loop review.'"
-    - "README: 'A Model Context Protocol (MCP) server for bulk Spotify operations - batch playlist creation, library exports, and large-scale library management.'"
-    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture.
+    - Repo description explicitly states it is an MCP server for bulk Spotify operations
+    - README highlights MCP integration (Claude Code settings example) and 18 MCP tools
+    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -82,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:31.189Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0228b8dd6df422dcd180c2d12f13eb6eea0508b864b4e0bbe2c324f5a65db5dd
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server with Spotify-specific bulk operations as its core identity, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for bulk Spotify operations
+        - README highlights MCP integration (Claude Code settings example) and 18 MCP tools
+        - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

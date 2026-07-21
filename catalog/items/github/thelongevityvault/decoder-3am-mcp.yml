@@ -24,20 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: thelongevityvault/decoder-3am-mcp
+    html_url: https://github.com/thelongevityvault/decoder-3am-mcp
     created_at: "2026-04-02T17:50:56Z"
     pushed_at: "2026-04-03T10:57:01Z"
     description: Sleep disruption cause classifier MCP server from The Longevity Vault
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:47.023Z"
+    last_checked_at: "2026-07-21T15:20:46.845Z"
     readme:
-      fetched_at: "2026-05-06T22:46:47.023Z"
+      fetched_at: "2026-07-21T15:20:46.845Z"
       bytes: 5931
 insights:
   summary: An MCP server that classifies the biological cause of sleep disruption using a 5-cause framework built on the Model Context Protocol.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:47.023Z"
+    updated_at: "2026-07-21T15:20:46.845Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

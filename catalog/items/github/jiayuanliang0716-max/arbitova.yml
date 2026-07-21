@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:23.514Z"
       bytes: 7922
 insights:
-  summary: Arbitova is a non-custodial USDC escrow protocol on Base with an AI arbitration engine, TypeScript and Python SDKs, and an MCP server for agent-to-agent commerce.
-  why_it_matters: It provides the missing settlement and dispute-resolution layer for autonomous agent commerce by combining on-chain escrow contracts with AI-driven verdicts that developers can integrate via SDKs or MCP tools.
-  mental_damage: We have successfully built a trustless infrastructure so that two autonomous agents can argue with an AI judge about five dollars of USDC while burning enough gas to fund a small coffee.
+  summary: Arbitova is an AI-powered trade arbitration platform with a non-custodial USDC escrow system and MCP server for agent-to-agent payments on Base.
+  why_it_matters: It provides a deterministic, on-chain settlement primitive for agent commerce, filling the gap where existing A2A specs define communication but not trustless payment resolution.
+  mental_damage: Now your agents can sue each other in Solidity, because even bots need a small claims court.
   tags:
-    - a2a
-    - escrow
-    - base
     - mcp
+    - escrow
     - agent-commerce
-  confidence: medium
+    - on-chain-arbitration
+    - base
+  confidence: high
 curation:
   status: included
-  reason: MCP is a core product identity shipped alongside SDKs and a standalone protocol, making this a domain-specific MCP server for agent financial arbitration rather than just a framework or extension.
+  reason: "MCP is the product identity here: Arbitova ships an MCP server as its primary integration surface for agent-to-agent payments, with SDKs as secondary artifacts."
   evidence:
-    - Repo description explicitly calls it an 'AI-powered trade arbitration platform' with an MCP server and SDKs.
-    - README provides a dedicated MCP client config with six escrow-related tools (createEscrow, dispute, resolve, etc.).
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP server identity.
+    - Repo description explicitly lists 'MCP server' as a core component
+    - README shows MCP server as the primary integration path (Claude/any MCP client example first)
+    - Source-list context places it in 'Server Implementations > Finance & Fintech' for MCP servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:30.380Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:817fccd41bfeab510080f2eee5f9c6dcbad83f6cdaf8d9e5ee5940ad42620a4b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: Arbitova ships an MCP server as its primary integration surface for agent-to-agent payments, with SDKs as secondary artifacts."
+      decision_evidence:
+        - Repo description explicitly lists 'MCP server' as a core component
+        - README shows MCP server as the primary integration path (Claude/any MCP client example first)
+        - Source-list context places it in 'Server Implementations > Finance & Fintech' for MCP servers
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is its MCP server for agent-to-agent payments, not its TypeScript/Python SDKs.
+      review_reason: null
+      review_resume_lifecycle: null

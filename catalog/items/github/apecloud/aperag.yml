@@ -45,15 +45,15 @@ metadata:
       fetched_at: "2026-07-20T05:17:02.311Z"
       bytes: 10528
 insights:
-  summary: ApeRAG is a self-hosted RAG platform combining graph, vector, and full-text search with AI agents and MCP server support for knowledge-base applications.
-  why_it_matters: It gives developers a production-grade, Kubernetes-ready way to build knowledge graphs and retrieval systems that can be plugged directly into MCP-compatible assistants.
-  mental_damage: Yet another reason to spend a weekend wiring a graph database to your IDE instead of actually shipping code.
+  summary: ApeRAG is a production-ready GraphRAG platform combining multi-modal indexing, AI agents, and MCP support with scalable Kubernetes deployment.
+  why_it_matters: It enables developers to build sophisticated AI applications with hybrid retrieval, multimodal document processing, and intelligent agents for autonomous knowledge base reasoning.
+  mental_damage: Finally, a RAG platform that promises to make your knowledge graph as organized as your GitHub issues.
   tags:
-    - rag
     - graphrag
-    - mcp
     - knowledge-graph
-    - self-hosted
+    - context-engineering
+    - mcp
+    - kubernetes
   confidence: high
 curation:
   status: included
@@ -64,10 +64,10 @@ curation:
     - Listed in awesome-mcp-servers under Knowledge & Memory, aligning with its MCP server identity.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (1157) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
 processing:
   discover:
     status: done
@@ -80,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:40.637Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bc8181eb8d4aa2181f0a902a30807670e08227bc5c3630dda36199ce3f012de5
+      proposed_primary_category: context-engineering
+      disagreement: true
+      decision_reason: The core product identity is a context/retrieval system (GraphRAG + hybrid search) for improving what goes into models, not a primary coding assistant or host integration.
+      decision_evidence:
+        - Repo description explicitly calls it a GraphRAG platform with multi-modal indexing and AI agents
+        - README emphasizes knowledge graph, context engineering, and autonomous search/reasoning over knowledge bases
+        - MCP support is a feature, not the primary product identity
+      category_candidates:
+        - context-engineering
+        - ai-frameworks
+      contrastive_reason: Choose context-engineering over ai-frameworks because the primary value is the retrieval/context system (GraphRAG + hybrid search) rather than a code-first SDK or library.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      review_resume_lifecycle: null

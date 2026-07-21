@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:28.051Z"
       bytes: 34357
 insights:
-  summary: A curated list and in-depth analysis of automated deep learning resources, covering neural architecture search, hyper-parameter optimization, and related benchmarks.
-  why_it_matters: It serves as a structured map for ML engineers navigating the fragmented ecosystem of AutoDL libraries, benchmarks, and research papers.
-  mental_damage: Yet another 'awesome' list guaranteeing you will spend three hours reading about neural architecture search instead of actually training a model.
+  summary: A curated list of automated deep learning (AutoDL) resources, including libraries, benchmarks, and research papers focused on neural architecture search and hyperparameter optimization.
+  why_it_matters: Provides developers with a centralized directory of AutoDL tools and research to accelerate model development and experimentation.
+  mental_damage: Because nothing says 'practical' like a 2018 repo that hasn’t been pushed to since 2022 but still insists it’s the end of NAS.
   tags:
     - autodl
     - automl
-    - nas
-    - deep-learning
-    - research
-  confidence: medium
+    - awesome-list
+    - neural-architecture-search
+    - hyperparameter-optimization
+  confidence: high
 curation:
   status: included
-  reason: This is a curated index of AutoDL resources and research, fitting the catalog's navigation aids for developers despite its ML research focus.
+  reason: This is a curated directory of AutoDL resources, which fits the catalog's scope as a navigation aid for developers exploring AI/ML tooling.
   evidence:
-    - Repo description explicitly calls it 'a curated list of AutoDL resources and an in-depth analysis'.
-    - README confirms it is a curated list inspired by other awesome-* lists, containing papers, blogs, and libraries.
-    - Appears in 'Awesome-LLMOps' under the 'Awesome Lists' section, reinforcing its identity as a directory.
+    - Repo description explicitly states it is a curated list of AutoDL resources
+    - README confirms it is an awesome-list-style directory of libraries, benchmarks, and papers
+    - Source-list context shows it is included in Awesome-LLMOps under 'Awesome Lists'
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:26.407Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a2c2f8ec51345675e80798da391ae2d6e03e0418c93ff2eb16a7e70d826a401e
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of AutoDL resources, which fits the catalog's scope as a navigation aid for developers exploring AI/ML tooling.
+      decision_evidence:
+        - Repo description explicitly states it is a curated list of AutoDL resources
+        - README confirms it is an awesome-list-style directory of libraries, benchmarks, and papers
+        - Source-list context shows it is included in Awesome-LLMOps under 'Awesome Lists'
+      category_candidates:
+        - awesome-awesomes
+        - ai-frameworks
+      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the primary value is discovery and curation, not a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

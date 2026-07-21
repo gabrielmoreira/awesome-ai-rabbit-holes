@@ -59,23 +59,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:32.294Z"
       bytes: 11592
 insights:
-  summary: A self-hosted Discord bot that provides a ChatGPT-style interface inside Discord, supporting multi-modal chat, code interpretation via E2B, document Q&A, image generation, and AI moderation.
-  why_it_matters: It lets developer communities deploy a shared, feature-rich AI assistant directly into their Discord servers with persistent memory and code execution capabilities.
-  mental_damage: Because if your open-source community cannot survive without a bot that indexes documents, executes code, and moderates chat simultaneously, the project's organizational health is likely already terminal.
+  summary: A Discord bot providing a ChatGPT-style interface with features like image generation, AI moderation, custom knowledge bases, and code interpretation.
+  why_it_matters: Developers can integrate advanced AI capabilities like code execution, document Q&A, and multi-modal interactions directly into Discord communities.
+  mental_damage: Now your Discord server can have more arguments about tabs vs. spaces, but with AI-generated code snippets.
   tags:
-    - discord
-    - self-hosted
-    - chatbot
-    - code-interpreter
+    - discord-bot
+    - gpt-integration
     - multi-modal
+    - code-interpreter
+    - ai-moderation
   confidence: high
 curation:
   status: excluded
-  reason: This is a community chatbot and moderation tool for Discord, not a developer-facing coding assistant, IDE, framework, or infrastructure component.
+  reason: The project is a Discord bot for general AI interactions, not a developer-tooling product focused on coding workflows, IDEs, or app-building.
   evidence:
-    - Repo description emphasizes 'all-in-one GPT interface for Discord' with chat, image generation, and AI-moderation.
-    - README highlights Discord-specific features like server moderation, document chat in channels, and community engagement rather than repo editing.
-    - No evidence of integration with developer workflows like IDEs, CLIs, or coding agent orchestration.
+    - Repo description and README emphasize Discord integration with ChatGPT-style features, not developer workflows
+    - Core features include image generation, AI moderation, and YouTube summarization, not code editing or repo management
+    - Source-list context places it in 'GPT Discord' under AI agents, but the catalog scope excludes general AI chatbots
 placement:
   primary_category: null
   section: null
@@ -94,12 +94,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:01.289Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ea922048bb8e281d097d7d246aa7fdbd9ea5c886b2759ecfde86e7b50f0bce9d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a Discord bot for general AI interactions, not a developer-tooling product focused on coding workflows, IDEs, or app-building.
+      decision_evidence:
+        - Repo description and README emphasize Discord integration with ChatGPT-style features, not developer workflows
+        - Core features include image generation, AI moderation, and YouTube summarization, not code editing or repo management
+        - Source-list context places it in 'GPT Discord' under AI agents, but the catalog scope excludes general AI chatbots
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

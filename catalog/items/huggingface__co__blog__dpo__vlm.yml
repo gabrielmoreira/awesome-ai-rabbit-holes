@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hugging Face blog post and tutorial demonstrating how to apply Direct Preference Optimization (DPO) to vision-language models like Idefics2 and PaliGemma using the TRL library.
-  why_it_matters: It provides a concrete, memory-optimized training script for developers looking to fine-tune multimodal models to reduce hallucinations using preference data.
-  mental_damage: Nothing says 'practical developer tooling' quite like calculating whether your GPU has 160GB of VRAM or if you need to shave another half-byte off a bfloat16 gradient.
+  summary: A Hugging Face blog post and tutorial on applying Direct Preference Optimization (DPO) to fine-tune Vision Language Models (VLMs) using the TRL library.
+  why_it_matters: It provides developers with a practical guide and code examples for fine-tuning VLMs to better align with human preferences, reducing hallucinations in multimodal outputs.
+  mental_damage: Now you can spend hours tuning a model to prefer '18,000 families' over 'no information'—progress, but still wrong.
   tags:
     - vlm
-    - fine-tuning
-    - trl
     - dpo
-    - multimodal
+    - fine-tuning
+    - huggingface
+    - trl
   confidence: high
 curation:
   status: excluded
-  reason: This is a tutorial article and educational resource explaining how to use the TRL library, not a standalone developer tool, framework, or product.
+  reason: This is a tutorial/blog post, not a standalone developer tool, framework, or product; it does not fit the catalog's scope of practical AI tools or infrastructure.
   evidence:
-    - The source URL is a Hugging Face blog post (huggingface.co/blog/dpo_vlm), not a software repository or product.
-    - The content is a tutorial walkthrough for using the existing TRL/PEFT libraries, lacking a unique product identity.
-    - It appears in source lists under 'Tips' and 'LLM resources', indicating it is curated as knowledge rather than tooling.
+    - The URL points to a Hugging Face blog post, not a repo or product
+    - The content is a step-by-step guide with code snippets, not a reusable tool or library
+    - The source-list context lists it under 'Tips', not as a tool or framework
 placement:
   primary_category: null
   section: null
@@ -72,12 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:39.583Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bcb52bbb28745e4752745f3a2d8146b40a51761313ef1d9e229e42c471f31ee3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a tutorial/blog post, not a standalone developer tool, framework, or product; it does not fit the catalog's scope of practical AI tools or infrastructure.
+      decision_evidence:
+        - The URL points to a Hugging Face blog post, not a repo or product
+        - The content is a step-by-step guide with code snippets, not a reusable tool or library
+        - The source-list context lists it under 'Tips', not as a tool or framework
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:05.725Z"
       bytes: 3900
 insights:
-  summary: An archived MCP server that provided LLM evaluation capabilities via the Atla API, exposing tools to score and critique model responses.
-  why_it_matters: It allowed developers to plug standardized LLM evaluation directly into agent workflows via MCP before the underlying API was shut down.
-  mental_damage: We finally standardized how to judge our models right before the judge itself retired, leaving us with one more lightweight protocol wrapper for a dead endpoint.
+  summary: An archived MCP server that provided a standardized interface for LLMs to interact with the Atla API for LLM evaluation.
+  why_it_matters: It enabled developers to integrate Atla's evaluation models into MCP-compatible workflows for scoring and critiquing LLM responses.
+  mental_damage: Nothing says 'stable ecosystem' like an MCP server for a service that no longer exists.
   tags:
     - mcp
-    - evals
+    - evaluation
+    - llm-judging
     - archived
-    - llm-evaluation
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and the README confirms the Atla API is no longer active, making the tool unusable and unsupportable for developers.
+  reason: The repository is archived and the Atla API is no longer active, making it non-functional and outside the scope of a practical developer tooling catalog.
   evidence:
-    - Repo is archived as of 2025-07-21 and README states 'The Atla API is no longer active.'
-    - The MCP server only exposes evaluation tools and has no standalone value without the upstream API.
-    - Low ecosystem traction with only 18 stars and no active maintenance path.
+    - Repository was archived on July 21, 2025
+    - README explicitly states 'The Atla API is no longer active'
+    - Source-list context shows it was included in awesome-mcp-servers but is now defunct
 placement:
   primary_category: null
   section: null
@@ -73,12 +73,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:20.862Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:af6053bdb79fe32465bc9853cc7a6ab0f7f73e4a1f919c4a06f83a62ae91f924
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is archived and the Atla API is no longer active, making it non-functional and outside the scope of a practical developer tooling catalog.
+      decision_evidence:
+        - Repository was archived on July 21, 2025
+        - README explicitly states 'The Atla API is no longer active'
+        - Source-list context shows it was included in awesome-mcp-servers but is now defunct
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

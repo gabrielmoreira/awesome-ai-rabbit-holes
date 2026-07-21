@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:14.354Z"
       bytes: 4212
 insights:
-  summary: A remote MCP server that lets AI agents authenticate via OAuth to securely query and manage content stored in Box.
-  why_it_matters: Developers building enterprise AI workflows can give agents controlled, token-based access to Box files and Box AI tools without copying data out of the platform.
-  mental_damage: Another pristine OAuth dance designed so your agent can proudly hallucinate your NDA-protected Q3 strategy straight from the source of truth.
+  summary: A remote MCP server that securely connects AI agents to Box content and Box AI without moving data out of Box.
+  why_it_matters: Developers can integrate Box's enterprise content and AI tools into MCP-compatible agents while maintaining data security and OAuth-based access control.
+  mental_damage: Now your AI agent can rummage through your Box files, because nothing says 'enterprise' like giving a model access to your entire document repository.
   tags:
     - mcp
     - box
-    - enterprise
+    - enterprise-integration
     - oauth
-    - files
+    - remote-server
   confidence: high
 curation:
   status: included
-  reason: This is an official, remote MCP server maintained by Box that exposes Box content and AI tools to MCP-compatible agents, fitting cleanly as a domain-specific MCP server.
+  reason: This is a dedicated MCP server implementation for Box, with MCP as its primary identity and purpose.
   evidence:
-    - "Repo description: 'Securely connect AI agents to your enterprise content in Box'"
-    - README states it is 'the remote Box MCP server' with endpoint https://mcp.box.com and OAuth integration
-    - Listed in awesome-mcp-servers under Server Implementations > File Systems
+    - Repo description explicitly states it is an MCP server for Box
+    - README confirms it is a remote MCP server with OAuth-protected Box integration
+    - Already listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:36.919Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dabda0100172dcc72cd2931d9f533f6c30362acef9fc6c4da6366931ee151a5b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server implementation for Box, with MCP as its primary identity and purpose.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Box
+        - README confirms it is a remote MCP server with OAuth-protected Box integration
+        - Already listed in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for Box, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

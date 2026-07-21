@@ -67,23 +67,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:30.225Z"
       bytes: 15461
 insights:
-  summary: An MCP server that exposes OpenAPI and Swagger specifications via resource templates so that MCP clients can explore API schemas without loading entire spec files into the model context window.
-  why_it_matters: It lets coding agents and MCP clients navigate large API definitions on demand, keeping context windows lean while still giving models precise access to paths, methods, and components.
-  mental_damage: We have invented a protocol to help our AI assistants read the API specs we were too tired to read ourselves.
+  summary: An MCP server that exposes OpenAPI/Swagger specs via MCP Resource Templates for token-efficient client-side exploration.
+  why_it_matters: Lets MCP clients like Claude Desktop or Cline explore large API specs without loading entire files into context, using parameterized resource templates for on-demand access.
+  mental_damage: Finally, a way to make OpenAPI specs feel less like a 5000-line JSON tax and more like a first-class citizen in your AI workflow.
   tags:
     - mcp
     - openapi
-    - swagger
-    - context-efficiency
+    - api-specs
+    - resource-templates
     - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The product’s identity is an MCP server focused on OpenAPI/Swagger exploration, which aligns directly with the MCP Servers & Tooling category and its Domain Servers section.
+  reason: "MCP is the core product identity: this is a dedicated MCP server providing domain-specific (OpenAPI) functionality via MCP Resource Templates."
   evidence:
-    - "Repo description explicitly states: 'MCP server providing token-efficient access to OpenAPI/Swagger specs via MCP Resource Templates.'"
-    - README declares the project goal is to let MCP clients explore large OpenAPI specs through MCP Resource Templates.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Community Servers'.
+    - Repo description explicitly identifies it as an MCP server for OpenAPI/Swagger specs
+    - README emphasizes MCP Resource Templates as the primary mechanism for spec access
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -102,12 +102,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:42.808Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:67ae67f96995c00859b0b27b7f95943bdbdc8f3dc1bab396175c8954142a14b8
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the core product identity: this is a dedicated MCP server providing domain-specific (OpenAPI) functionality via MCP Resource Templates."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for OpenAPI/Swagger specs
+        - README emphasizes MCP Resource Templates as the primary mechanism for spec access
+        - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server (not an extension augmenting another assistant).
+      review_reason: null
+      review_resume_lifecycle: null

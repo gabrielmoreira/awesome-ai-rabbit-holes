@@ -62,23 +62,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:30.619Z"
       bytes: 8082
 insights:
-  summary: An official MCP (Model Context Protocol) server from dbt Labs that lets AI agents interact with dbt Core, Fusion, and Platform via tools for SQL execution, discovery, and CLI operations.
-  why_it_matters: It gives coding agents structured, read-only and write-capable access to dbt projects, models, lineage, metrics, and job runs so they can reason about and operate analytics pipelines safely.
-  mental_damage: We have successfully abstracted the warehouse so that your AI can now confidently break your data contracts using a model context protocol instead of a SQL console.
+  summary: An MCP server that exposes dbt project context, SQL execution, semantic layer, discovery, CLI, and admin APIs to AI agents.
+  why_it_matters: Lets AI assistants query, generate, and act on dbt projects (models, metrics, lineage, jobs) without leaving the agent workflow.
+  mental_damage: Now your AI can run `dbt test` while you’re still deciding whether your YAML is indented with spaces or tabs.
   tags:
-    - mcp
+    - mcp-server
     - dbt
     - data-engineering
-    - analytics
-    - agent-tooling
+    - sql
+    - model-context-protocol
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server for dbt, making MCP the core identity rather than a secondary compatibility feature, and it cleanly fits the Domain Servers section.
+  reason: "MCP is the product identity: this is a dedicated MCP server for dbt, not a compatibility footnote."
   evidence:
-    - "Repo description states: 'A MCP (Model Context Protocol) server for interacting with dbt.'"
-    - README lists dozens of MCP tools across SQL, Semantic Layer, Discovery, dbt CLI, and Admin API surfaces.
-    - Listed in awesome-mcp-servers under 'Official Servers' and 'Data Platforms', reinforcing MCP-first identity.
+    - Repo description explicitly states it is a MCP server for interacting with dbt
+    - README details extensive MCP tools for SQL, semantic layer, discovery, CLI, and admin APIs
+    - Already listed in awesome-mcp-servers under Server Implementations > Data Platforms
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -97,12 +97,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:10.574Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:904e97d62f6dd60f6e3bb126a70c00b92d5b6a0c29fdef2d8a4f552ad5408145
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for dbt, not a compatibility footnote."
+      decision_evidence:
+        - Repo description explicitly states it is a MCP server for interacting with dbt
+        - README details extensive MCP tools for SQL, semantic layer, discovery, CLI, and admin APIs
+        - Already listed in awesome-mcp-servers under Server Implementations > Data Platforms
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing dbt capabilities, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:10:55.091Z"
       bytes: 5081
 insights:
-  summary: An MCP server that exposes the Rebrickable LEGO catalog—26k sets, 62k parts, and 17k minifigs—as tools for AI assistants.
-  why_it_matters: Developers building LEGO-adjacent AI features or automating brick inventory workflows can wire structured set, part, and minifig data directly into Claude Code, Cursor, and other MCP-compatible IDEs.
-  mental_damage: We now have a protocol for letting a coding assistant hallucinate fewer minifigure accessories, while the actual production codebase remains untouched.
+  summary: An MCP server providing LEGO sets, parts, minifigs, and inventories for AI assistants.
+  why_it_matters: Developers can query a comprehensive LEGO catalog (26k+ sets, 62k+ parts) directly from MCP-compatible IDEs or assistants without leaving their workflow.
+  mental_damage: Now your AI assistant can debate the merits of 2x4 vs. 2x3 bricks while you're trying to debug a segfault.
   tags:
-    - mcp
+    - mcp-server
     - lego
-    - rebrickable
+    - data-lookup
     - ide-integration
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server for LEGO data, exactly matching the MCP Servers & Tooling category and the Domain Servers section.
+  reason: "MCP is the product identity: this is a domain-specific MCP server exposing LEGO data as tools for AI assistants."
   evidence:
-    - "Repo description states: 'LEGO sets, parts, minifigs, and inventories as an MCP server'"
-    - README describes 10 MCP tools backed by embedded Rebrickable data and lists installation for Claude Code, Cursor, VS Code, Windsurf, and Zed
-    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory
+    - Repo description explicitly states it is an MCP server for LEGO data
+    - README shows 10 MCP tools for querying sets/parts/minifigs with IDE integration examples
+    - Listed on Glama MCP registry with server badges
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:14.662Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1f8c0bfb40d5d9d0883a7da54d1e3cfb723f4e0c8d44faa16785ddeeb23e2531
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing LEGO data as tools for AI assistants."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for LEGO data
+        - README shows 10 MCP tools for querying sets/parts/minifigs with IDE integration examples
+        - Listed on Glama MCP registry with server badges
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (domain data provider) rather than an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

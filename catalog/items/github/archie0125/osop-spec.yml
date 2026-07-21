@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:03.444Z"
       bytes: 3561
 insights:
-  summary: OSOP is an open JSON/YAML specification and schema for defining AI agent workflows as directed graphs and logging their execution results.
-  why_it_matters: It gives developers a vendor-neutral way to describe multi-step agent processes (agents, APIs, CLIs, humans) and record exactly what happened during execution.
-  mental_damage: We have successfully standardized the chaos of AI workflows into YAML, meaning you can now version-control your agent’s existential crises just like any other deprecated config file.
+  summary: OSOP v1 JSON Schema and specification for describing and logging AI agent workflows.
+  why_it_matters: It provides a standardized way to define, validate, and log multi-step AI agent workflows, enabling interoperability and reproducibility.
+  mental_damage: Finally, a spec for agent workflows—because YAML is the only thing more chaotic than the agents themselves.
   tags:
-    - agent-workflow
-    - spec
+    - workflow-spec
+    - agent-orchestration
     - yaml
-    - logging
-    - standard
-  confidence: medium
+    - interoperability
+  confidence: high
 curation:
   status: included
-  reason: The repository defines the OSOP specification itself—JSON Schema, node types, and execution logs—making it a spec-first environment for defining and validating agent workflows rather than a coding agent or extension.
+  reason: The project's core identity is a specification-first format for defining and logging AI agent workflows, fitting the spec-driven development category.
   evidence:
-    - "Repo description: 'OSOP v1 JSON Schema, node types, examples and RFC - Open Standard Operating Process'"
-    - "README: 'The standard format for describing and logging AI agent workflows' with .osop (definition) and .osoplog (execution record) file formats."
-    - Includes schema files (osop-core.schema.json, osop.schema.json, osoplog.schema.json) and conformance levels (L0–L3).
+    - Repo description explicitly states it is a JSON Schema and spec for AI agent workflows
+    - README emphasizes structured workflow definitions (`.osop`) and execution logs (`.osoplog`) as primary artifacts
+    - Ecosystem includes validation tools, editors, and examples centered on the spec
 placement:
   primary_category: spec-driven-development
   section: Spec-First Environments
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:47.426Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ddd9a34240fccf52c55b505cba509e98e50571ebbb848195985f986c893be969
+      proposed_primary_category: spec-driven-development
+      disagreement: false
+      decision_reason: The project's core identity is a specification-first format for defining and logging AI agent workflows, fitting the spec-driven development category.
+      decision_evidence:
+        - Repo description explicitly states it is a JSON Schema and spec for AI agent workflows
+        - README emphasizes structured workflow definitions (`.osop`) and execution logs (`.osoplog`) as primary artifacts
+        - Ecosystem includes validation tools, editors, and examples centered on the spec
+      category_candidates:
+        - spec-driven-development
+        - agent-orchestration
+      contrastive_reason: Choose spec-driven-development over agent-orchestration because the primary artifact is the workflow specification itself, not a runtime platform or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

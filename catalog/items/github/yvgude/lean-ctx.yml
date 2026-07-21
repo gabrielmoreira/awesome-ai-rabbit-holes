@@ -23,19 +23,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 3329
+    forks: 308
+    license: Apache-2.0
+    archived: false
+    full_name: yvgude/lean-ctx
+    html_url: https://github.com/yvgude/lean-ctx
+    created_at: "2026-03-23T19:48:59Z"
+    pushed_at: "2026-07-21T15:02:56Z"
+    description: Control what your AI can see. LeanCTX (Lean Context) is the context intelligence layer for AI agents — one local Rust binary that decides what they read, remembers what they learn, guards what they touch, and proves what they save. 60–90% fewer tokens as the receipt. 76 MCP tools, 30+ agents, local-first.
+    homepage: https://leanctx.com
+    topics:
+      - agentic-coding
+      - ai
+      - ai-agents
+      - ai-coding
+      - claude-code
+      - context-engineering
+      - context-intelligence
+      - context-layer
+      - copilot
+      - cursor
+      - developer-tools
+      - gemini-cli
+      - lean-context
+      - llm
+      - mcp
+      - mcp-server
+      - reduce-token-costs
+      - rust
+      - token-optimization
+    last_checked_at: "2026-07-21T15:21:23.781Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:23.781Z"
+      bytes: 35451
 insights:
   summary: null
   why_it_matters: null
@@ -50,8 +71,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (3329) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -59,13 +80,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:21:23.781Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

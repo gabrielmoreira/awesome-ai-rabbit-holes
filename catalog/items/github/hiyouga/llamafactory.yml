@@ -59,23 +59,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:03.103Z"
       bytes: 69271
 insights:
-  summary: LLaMA Factory is a unified framework and web UI for efficiently fine-tuning 100+ large language and vision models using techniques like LoRA, QLoRA, and RLHF.
-  why_it_matters: It abstracts away the boilerplate of PEFT and quantization, letting developers adapt state-of-the-art models to custom tasks with zero-code CLI or GUI workflows.
-  mental_damage: You now have 70,000 stars worth of incentive to spend three days fine-tuning a 7B model only to discover it still can't reliably increment a loop variable.
+  summary: Unified efficient fine-tuning framework for 100+ LLMs and VLMs.
+  why_it_matters: Developers can fine-tune a wide range of large language and vision-language models with a single, optimized codebase.
+  mental_damage: Because nothing says 'weekend project' like fine-tuning a 70B parameter model on your laptop.
   tags:
     - fine-tuning
     - llm
-    - lora
+    - vlm
     - peft
-    - training-framework
+    - lora
   confidence: high
 curation:
   status: excluded
-  reason: While it has massive traction, it is a model training and fine-tuning framework for ML engineers, not a developer-facing AI tool, agent, or coding workflow product.
+  reason: This is a fine-tuning framework for LLMs/VLMs, not a developer-facing coding assistant, workflow tool, or app-building product.
   evidence:
-    - Repo description explicitly states 'Unified Efficient Fine-Tuning of 100+ LLMs & VLMs'.
-    - README highlights zero-code CLI and Web UI for fine-tuning, LoRA, QLoRA, and RLHF, targeting model training.
-    - GitHub topics include fine-tuning, lora, peft, quantization, and nlp, with no coding-agent or developer-tooling anchors.
+    - Repo description explicitly states it is a fine-tuning framework for LLMs/VLMs
+    - Topics include PEFT, LoRA, QLoRA, and quantization (training-focused)
+    - Source-list context places it under 'Fine-Tuning' in an LLM resources list
 placement:
   primary_category: null
   section: null
@@ -94,12 +94,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:51.302Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b39ce51f9dafd18a4ef49a55c544fbcd93b21f786bf0bcbb6f44564320cf05ce
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a fine-tuning framework for LLMs/VLMs, not a developer-facing coding assistant, workflow tool, or app-building product.
+      decision_evidence:
+        - Repo description explicitly states it is a fine-tuning framework for LLMs/VLMs
+        - Topics include PEFT, LoRA, QLoRA, and quantization (training-focused)
+        - Source-list context places it under 'Fine-Tuning' in an LLM resources list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

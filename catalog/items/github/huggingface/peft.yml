@@ -65,26 +65,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:06.741Z"
       bytes: 12244
 insights:
-  summary: A HuggingFace library providing state-of-the-art Parameter-Efficient Fine-Tuning (PEFT) methods like LoRA to adapt large pretrained models by training only a small subset of parameters.
-  why_it_matters: It allows developers to fine-tune massive models on modest hardware by drastically reducing computational and storage costs compared to full fine-tuning.
-  mental_damage: You now have a 20k-star rationale to spend three weeks hyperparameter-tuning a LoRA adapter instead of just accepting that the base model doesn't know your internal API.
+  summary: PEFT is a Python library for state-of-the-art Parameter-Efficient Fine-Tuning methods like LoRA, enabling adaptation of large pre-trained models with minimal computational and storage costs.
+  why_it_matters: It allows developers to fine-tune large models efficiently by only training a small subset of parameters, reducing resource requirements while maintaining performance.
+  mental_damage: Now you can fine-tune that 70B parameter model on your laptop, or at least pretend you can until your GPU melts.
   tags:
     - fine-tuning
+    - peft
     - lora
-    - huggingface
     - pytorch
-    - llm
+    - huggingface
   confidence: high
 curation:
-  status: excluded
-  reason: This is a core ML research and model-training library for data scientists, not a developer-facing tool for building, orchestrating, or assisting with software development workflows.
+  status: included
+  reason: PEFT is a code-first library/SDK for parameter-efficient fine-tuning, primarily used as a building block in Python code rather than as an operated platform or assistant.
   evidence:
-    - Repo description and README focus on fine-tuning large pretrained models and training adapters, not coding assistance or dev tooling.
-    - Listed in source lists under 'Training' and 'Foundation Model Fine Tuning', targeting ML Ops rather than software engineering.
-    - The quickstart example demonstrates model training and inference wrapping, lacking any IDE, agent, or app-building interface for developers.
+    - Repo description explicitly states it is a library for Parameter-Efficient Fine-Tuning
+    - README shows it is integrated with Transformers, Diffusers, and Accelerate for model training/inference
+    - Source-list context places it under Training > Foundation Model Fine Tuning in LLMOps tools
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (21070) exceeded threshold (150)
@@ -100,12 +100,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:47.507Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f80fb8f40be1b176a2f1dacd5541bfa361dbbe941ad24b61d7bc2d4cd647d2c4
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: PEFT is a code-first library/SDK for parameter-efficient fine-tuning, primarily used as a building block in Python code rather than as an operated platform or assistant.
+      decision_evidence:
+        - Repo description explicitly states it is a library for Parameter-Efficient Fine-Tuning
+        - README shows it is integrated with Transformers, Diffusers, and Accelerate for model training/inference
+        - Source-list context places it under Training > Foundation Model Fine Tuning in LLMOps tools
+      category_candidates:
+        - ai-frameworks
+        - local-ai
+      contrastive_reason: Choose ai-frameworks over local-ai because PEFT is a code-first library for fine-tuning rather than a local runtime or serving layer.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:22.250Z"
       bytes: 2311
 insights:
-  summary: An MCP server that lets AI assistants query Chaitin's global honeypot network to check IP reputations and subscribe to malicious IP databases.
-  why_it_matters: Developers building security workflows can delegate IP threat checks to their coding agents instead of manually cross-referencing intelligence feeds.
-  mental_damage: We have finally reached the point where our AI assistants need their own threat intelligence feeds so they can refuse to debug that suspicious IP you swear is fine.
+  summary: An MCP server providing IP reputation and threat intelligence queries via Chaitin's global honeypot network.
+  why_it_matters: Developers can integrate real-time IP threat intelligence into their workflows or agents without leaving their MCP-enabled environment.
+  mental_damage: Now your coding agent can also judge your users' IPs—because why should security be a separate context switch.
   tags:
-    - mcp
-    - security
+    - mcp-server
     - ip-intelligence
     - threat-detection
+    - security
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for IP intelligence lookups, making MCP infrastructure its primary identity rather than a security tool with MCP as an afterthought.
+  reason: This is an MCP-first server exposing a domain-specific capability (IP intelligence) as a protocol-native tool.
   evidence:
-    - Repo description explicitly states 'chaitin ip intelligence search tool for mcp'
-    - README configuration shows MCP server setup with npx command and mcpServers JSON structure
-    - Listed in awesome-mcp-servers under Community Servers section
+    - Repo description explicitly labels it as an MCP server ('chaitin ip intelligence search tool for mcp')
+    - README provides MCP server configuration snippet and Smithery badge
+    - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:43:29.826Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ad1de48ea73d6e8d020700fdd22a66c74d85d659c442e79111622947f32894cb
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server exposing a domain-specific capability (IP intelligence) as a protocol-native tool.
+      decision_evidence:
+        - Repo description explicitly labels it as an MCP server ('chaitin ip intelligence search tool for mcp')
+        - README provides MCP server configuration snippet and Smithery badge
+        - Listed in awesome-mcp-servers under 'Community Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

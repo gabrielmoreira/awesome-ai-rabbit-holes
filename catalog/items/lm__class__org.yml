@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LM-class is a structured educational course and lecture series covering the fundamentals of contemporary language modeling, from n-gram models to LLMs and instruction tuning.
-  why_it_matters: It provides a coherent, assignment-driven curriculum for developers who want to deeply understand the internals of language models rather than just calling them via API.
-  mental_damage: Yet another pristine curriculum to bookmark while you frantically paste Stack Overflow snippets into an LLM chat window and call it 'upskilling'.
+  summary: LM-class is an educational resource offering lectures and assignments on contemporary language modeling.
+  why_it_matters: It provides structured learning materials for developers and researchers to understand the fundamentals and advanced topics in language modeling.
+  mental_damage: Another day, another lecture series to pretend you'll finish while your backlog of half-read papers grows.
   tags:
     - education
-    - llm
-    - course
-    - machine-learning
+    - language-models
+    - lectures
+    - nlp
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is an educational course and lecture series, not a practical AI tool, agent, workflow, or developer-facing infrastructure.
+  reason: The project is an educational resource (lectures and assignments) rather than a practical AI tool, framework, or workflow product for developers.
   evidence:
-    - Scraped site context explicitly describes it as 'an education resource for contemporary language modeling'.
-    - Source-list context places it in a 'Course' section within an LLM resources list, not a tooling directory.
-    - The content is organized into lectures and assignments (perceptrons, word2vec, transformers) rather than shipping a usable product or integration.
+    - Described as 'an education resource for contemporary language modeling'
+    - Primary content is lectures, assignments, and course materials
+    - Source-list context places it under '课程 Course' (Course)
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:13.950Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8c0665d4da1421e1ab67b65e1796ddf15c928cf465ce5a2becde7e75fbc70ee0
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is an educational resource (lectures and assignments) rather than a practical AI tool, framework, or workflow product for developers.
+      decision_evidence:
+        - Described as 'an education resource for contemporary language modeling'
+        - Primary content is lectures, assignments, and course materials
+        - Source-list context places it under '课程 Course' (Course)
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

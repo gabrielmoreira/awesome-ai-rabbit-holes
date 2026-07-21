@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:11.038Z"
       bytes: 23825
 insights:
-  summary: Tessera is a local-first memory layer for AI assistants that provides 58 MCP tools and 54 REST endpoints for persistent knowledge storage, document search, and contradiction detection with AES-256 encryption.
-  why_it_matters: Developers can give Claude Desktop and other AI tools persistent memory across sessions without API keys, Docker, or cloud dependencies, solving the problem of AI assistants forgetting context between conversations.
-  mental_damage: After installing yet another memory layer to solve the amnesia problem, you'll still spend more time configuring your AI's recall system than actually benefiting from anything it remembers.
+  summary: Tessera is a local-first, encrypted memory layer for AI assistants with 58 MCP tools and 54 REST endpoints.
+  why_it_matters: It gives developers persistent, searchable, and self-maintaining memory for AI workflows without external dependencies or infrastructure.
+  mental_damage: Finally, a way to remember what your AI forgot five minutes ago—now with 58 ways to lose the encryption key.
   tags:
     - memory
     - mcp
     - local-first
-    - knowledge-retrieval
+    - encryption
     - context-engineering
   confidence: high
 curation:
   status: included
-  reason: The core novelty is the memory and context system itself—persistent knowledge storage, document search, contradiction detection, and retrieval infrastructure—rather than being a coding assistant, extension, or MCP-only tool.
+  reason: The core novelty is a memory and retrieval system for AI workflows, not a primary assistant, extension, or orchestration platform.
   evidence:
-    - Repo description explicitly positions it as 'Memory layer for every AI' with 58 MCP tools and local-first architecture
-    - "README emphasizes memory-specific features: contradiction detection, confidence scoring, auto-merging duplicates, and 40+ document type search"
-    - Source list places it in 'Knowledge & Memory' section of awesome-mcp-servers, confirming memory system identity
+    - "Repo description: 'Memory layer for every AI. 58 MCP tools, 54 REST endpoints, local-first, AES-256 encrypted.'"
+    - "README: 'Tessera keeps [AI conversation knowledge]... One knowledge base for Claude Desktop, with an HTTP API for scripts and automation.'"
+    - Architecture details emphasize search, ingestion, embedding, and self-maintaining memory as the primary features.
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:46.353Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:510550d44214e691af5aef1ed9a4ff3240957064dc8ad19c4df03db01d003f2c
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core novelty is a memory and retrieval system for AI workflows, not a primary assistant, extension, or orchestration platform.
+      decision_evidence:
+        - "Repo description: 'Memory layer for every AI. 58 MCP tools, 54 REST endpoints, local-first, AES-256 encrypted.'"
+        - "README: 'Tessera keeps [AI conversation knowledge]... One knowledge base for Claude Desktop, with an HTTP API for scripts and automation.'"
+        - Architecture details emphasize search, ingestion, embedding, and self-maintaining memory as the primary features.
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the product's primary identity is memory/retrieval infrastructure, not MCP-specific tooling.
+      review_reason: null
+      review_resume_lifecycle: null

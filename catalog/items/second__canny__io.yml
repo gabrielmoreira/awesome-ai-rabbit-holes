@@ -37,21 +37,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A private Canny board used by the Second team to collect user feedback on their product.
-  why_it_matters: It provides a channel for users to influence the roadmap of the Second product, though the board itself is currently private and inaccessible.
-  mental_damage: We have successfully reached the point where the feedback board for an AI agent is being cataloged as an AI agent.
+  summary: The URL second.canny.io resolves to a non-existent company page with no functional content.
+  why_it_matters: It does not provide any developer-facing AI tooling or resources.
+  mental_damage: Even the 404 page is a letdown in an ecosystem of overpromised URLs.
   tags:
-    - feedback
-    - meta
-    - canny
+    - dead-link
+    - non-functional
   confidence: high
 curation:
   status: excluded
-  reason: This is a generic feedback portal powered by Canny, not an AI developer tool, agent, or workflow product.
+  reason: The linked page does not describe or provide any AI tooling, developer resources, or functional product.
   evidence:
-    - Scraped site title is 'Second Feedback' with description 'Give feedback to the Second team'.
-    - Primary page excerpt shows a private Canny board login page with no AI tooling functionality.
-    - Source list context confirms this is merely a link to a feedback page, not the tool itself.
+    - Scraped site context shows 'Company Not Found' with no functional content
+    - No repo description, README, or meaningful metadata provided
+    - Source-list context references 'Canny' but the URL resolves to a dead end
 placement:
   primary_category: null
   section: null
@@ -69,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:25.143Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9da12824baa60e85216d8fee7cc015f44c706e3208208b22af2f05f7a12c1b47
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The linked page does not describe or provide any AI tooling, developer resources, or functional product.
+      decision_evidence:
+        - Scraped site context shows 'Company Not Found' with no functional content
+        - No repo description, README, or meaningful metadata provided
+        - Source-list context references 'Canny' but the URL resolves to a dead end
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

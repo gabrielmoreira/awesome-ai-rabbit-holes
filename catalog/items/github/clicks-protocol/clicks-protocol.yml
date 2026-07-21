@@ -56,23 +56,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:21.841Z"
       bytes: 11141
 insights:
-  summary: An SDK and MCP server that lets AI agents automatically split incoming USDC payments on Base into liquid funds and DeFi yield via Aave or Morpho.
-  why_it_matters: Developers building agentic payment flows can add autonomous yield generation to idle agent treasuries with a single SDK call or MCP tool invocation.
-  mental_damage: Your agent is now sophisticated enough to earn yield on its own pocket change, but still can't figure out why the build is failing.
+  summary: A settlement router for AI agents on Base that auto-splits USDC payments into liquid working capital and routed DeFi yield.
+  why_it_matters: Lets autonomous agents earn yield on idle USDC without manual intervention, keeping 80% liquid for immediate payments while the rest auto-routes to Aave or Morpho.
+  mental_damage: Now your agent can be a DeFi yield farmer while pretending to be a software developer.
   tags:
+    - agent-commerce
     - defi
-    - mcp
-    - sdk
+    - mcp-server
     - base
-    - agent-infra
-  confidence: medium
+    - usdc
+  confidence: high
 curation:
   status: included
-  reason: The product identity is a finance-domain MCP server with an accompanying SDK, designed to give agents access to yield-bearing USDC management on Base.
+  reason: "MCP is the primary product identity here: it is explicitly an MCP server with 10 tools for agent commerce, published in the MCP registry."
   evidence:
-    - "Repo description: 'Autonomous yield for AI agents on Base. 80% liquid, 20% earning. No lockup. One SDK call.'"
-    - README includes an MCP Server section and publishes to the MCP Registry, with 10 tools for Claude, Cursor, and LangChain.
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its domain-server identity.
+    - README explicitly lists MCP server with 10 tools and installation via `@clicks-protocol/mcp-server`
+    - Published in MCP registry (badge in README)
+    - "Source-list context: included in awesome-mcp-servers under Finance & Fintech"
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -91,12 +91,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:43:17.341Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3d4271c45066aaa569b12e2d48c5d5f3366b9560082b9214c2b458a2aaced3bc
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the primary product identity here: it is explicitly an MCP server with 10 tools for agent commerce, published in the MCP registry."
+      decision_evidence:
+        - README explicitly lists MCP server with 10 tools and installation via `@clicks-protocol/mcp-server`
+        - Published in MCP registry (badge in README)
+        - "Source-list context: included in awesome-mcp-servers under Finance & Fintech"
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is an MCP server (with SDK as secondary artifact), not a general-purpose framework.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -51,38 +51,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Adept AI builds general-purpose AI agents designed to perform complex digital workflows by directly interacting with software interfaces.
-  why_it_matters: It represents an early and influential attempt to move beyond code completion toward agents that can actually operate desktop and web applications to complete multi-step tasks.
-  mental_damage: "Just what we needed: an agent that can independently navigate enterprise SaaS billing pages while we wonder if 'agentic' is just a fancy word for 'click-happy script.'"
+  summary: Adept AI is a company building general-purpose AI agents for enterprise workflows.
+  why_it_matters: It offers AI systems designed to automate complex, multi-step tasks in enterprise environments, potentially reducing manual work for developers in such contexts.
+  mental_damage: Nothing says 'enterprise-ready' like an AI agent that can navigate your Jira tickets and Confluence docs better than you can.
   tags:
-    - agents
+    - ai-agents
+    - enterprise
     - automation
-    - computer-use
-    - workflow
-  confidence: medium
+  confidence: high
 curation:
-  status: included
-  reason: Adept is a developer-facing AI agent platform focused on computer-use and workflow automation, fitting the 'Browser/Desktop/Computer-Use Agents' definition within Coding Agents.
+  status: excluded
+  reason: Adept AI is a broad enterprise AI agent platform, not a developer-tooling product focused on coding, IDEs, or developer workflows.
   evidence:
-    - Seen in the 'awesome-ai-agents' list under the section 'Adept AI', confirming its identity as an autonomous agent.
-    - The URL (www.adept.ai) and name imply a hosted SaaS platform for AI agents rather than a local library or framework.
+    - Source-list context describes it as an autonomous agent platform (awesome-ai-agents)
+    - No repo description, README, or developer-focused claims are provided
+    - The product identity is enterprise automation, not developer tooling
 placement:
-  primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:12.597Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a5cadd6a6063c3cbf5c99839568a8c7935242247f19fde793160abeecf8d4a74
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Adept AI is a broad enterprise AI agent platform, not a developer-tooling product focused on coding, IDEs, or developer workflows.
+      decision_evidence:
+        - Source-list context describes it as an autonomous agent platform (awesome-ai-agents)
+        - No repo description, README, or developer-focused claims are provided
+        - The product identity is enterprise automation, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T15:10:47.688Z"

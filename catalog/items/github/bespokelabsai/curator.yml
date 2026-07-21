@@ -50,26 +50,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:10.862Z"
       bytes: 25258
 insights:
-  summary: A Python library for building synthetic data pipelines, bulk LLM inference, and structured data extraction used in post-training and fine-tuning workflows.
-  why_it_matters: Developers training or fine-tuning models can use it to generate high-quality reasoning datasets and structured outputs at scale with built-in caching, fault recovery, and batch API support.
-  mental_damage: You now have industrial-grade infrastructure to solve the 'not enough high-quality data' problem, which means the bottleneck is officially your imagination and your API bill.
+  summary: A Python library for synthetic data curation, post-training, and structured data extraction using LLMs.
+  why_it_matters: Developers can generate and refine synthetic datasets for fine-tuning or structured extraction tasks without building the pipeline from scratch.
+  mental_damage: Now you can spend less time wrangling data and more time explaining to your PM why synthetic data is *totally* as good as real data.
   tags:
     - synthetic-data
     - fine-tuning
-    - llm-inference
-    - python
+    - data-extraction
     - post-training
+    - python
   confidence: high
 curation:
-  status: included
-  reason: This is a code-first Python library for building synthetic data and inference pipelines, which fits cleanly as a provider/model abstraction framework rather than a coding agent or orchestration platform.
+  status: excluded
+  reason: The project is focused on synthetic data curation and structured extraction, which is a data/ML workflow tool rather than a developer-tooling product for building, editing, or orchestrating code.
   evidence:
-    - "Repo description states: 'Synthetic data curation for post-training and structured data extraction'"
-    - README describes it as a 'Rich Python based library for generating and curating synthetic data' with LiteLLM and batch API support
-    - Active development with last push in 2026-04-18 and 1673 stars; appears in an LLM resources list under a data section
+    - Repo description explicitly states 'Synthetic data curation for post-training and structured data extraction'
+    - Topics include 'synthetic-data', 'synthetic-dataset-generation', and 'fine-tuning' with no developer-tooling angle
+    - Source-list context places it under '数据 Data' (Data) in a general LLM resources list
 placement:
-  primary_category: ai-frameworks
-  section: Provider / Model Abstractions
+  primary_category: null
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (1673) exceeded threshold (150)
@@ -85,12 +85,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:43.669Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d68a742c4e05a54c40107dd073c4ac033130df967b73f40900767abd47cb9e11
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is focused on synthetic data curation and structured extraction, which is a data/ML workflow tool rather than a developer-tooling product for building, editing, or orchestrating code.
+      decision_evidence:
+        - Repo description explicitly states 'Synthetic data curation for post-training and structured data extraction'
+        - Topics include 'synthetic-data', 'synthetic-dataset-generation', and 'fine-tuning' with no developer-tooling angle
+        - Source-list context places it under '数据 Data' (Data) in a general LLM resources list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

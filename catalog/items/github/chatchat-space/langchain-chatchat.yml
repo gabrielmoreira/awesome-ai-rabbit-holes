@@ -59,14 +59,14 @@ metadata:
       fetched_at: "2026-07-20T05:17:19.444Z"
       bytes: 22275
 insights:
-  summary: Langchain-Chatchat is an open-source, locally deployable RAG and Agent application built on Langchain and local LLMs like ChatGLM, Qwen, and Llama.
-  why_it_matters: It provides a complete, offline-first solution for Chinese-language developers to build private knowledge bases and agent workflows without relying on external APIs.
-  mental_damage: Yet another 'local ChatGPT' stack proving that while we can run the model offline, the real hallucination is thinking we've solved context management with a vector store and a Streamlit UI.
+  summary: Langchain-Chatchat is a local knowledge-based RAG and Agent application built with Langchain and compatible with models like ChatGLM, Qwen, and Llama.
+  why_it_matters: It enables developers to build retrieval-augmented generation and agent workflows with local or open-source LLMs, reducing dependency on closed APIs.
+  mental_damage: Finally, a way to pretend your local LLM knows what it’s talking about—until it hallucinates the docs you fed it.
   tags:
     - rag
-    - local-llm
     - langchain
-    - agent
+    - local-llm
+    - agent-framework
     - knowledge-base
   confidence: high
 curation:
@@ -78,10 +78,10 @@ curation:
     - Featured in source lists under '知识库 RAG' (Knowledge Base RAG), not coding assistance.
 placement:
   primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (37963) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'ai-frameworks'"
 processing:
   discover:
     status: done
@@ -94,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:20.044Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3d3d8c1c636d1766e752bb5295ddebab92930ee247d43856b3132b23f334de5c
+      proposed_primary_category: ai-frameworks
+      disagreement: true
+      decision_reason: The project is a code-first framework for building RAG and agent applications, aligning with the Frameworks & SDKs category.
+      decision_evidence:
+        - Repo description explicitly states it is a RAG and Agent app built with Langchain for local LLMs
+        - Topics include langchain, rag, and llm, signaling a framework identity
+        - Source-list context places it under '知识库 RAG' (Knowledge Base RAG), reinforcing its RAG/agent framework role
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary identity is a code-first Langchain-based framework for RAG/agents, not an operated workbench or runtime platform.
+      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'ai-frameworks'"
+      review_resume_lifecycle: null

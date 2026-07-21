@@ -51,23 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hologres is a real-time data warehouse engine from Alibaba Cloud that is compatible with PostgreSQL and supports OLAP, ad hoc analysis, and high-concurrency data serving.
-  why_it_matters: It provides a unified HSAP platform for developers building real-time analytics pipelines, integrating deeply with Flink, MaxCompute, and BI tools without requiring data movement.
-  mental_damage: Yet another hyperscale cloud warehouse promising sub-second queries, ensuring you can now watch your dashboard refresh in real-time while the real bottleneck remains your own schema design.
+  summary: Hologres is a PostgreSQL-compatible real-time data warehouse engine for OLAP and ad hoc analysis at PB scale.
+  why_it_matters: It enables developers to perform high-concurrency, low-latency analytics on massive datasets without pre-computation, integrating with Flink and MaxCompute for end-to-end real-time data workflows.
+  mental_damage: Because nothing says 'modern data stack' like a warehouse that can finally keep up with your Jira backlog of analytics requests.
   tags:
-    - alibaba-cloud
     - data-warehouse
     - olap
-    - postgresql
     - real-time-analytics
+    - postgresql-compatible
+    - alibaba-cloud
   confidence: high
 curation:
   status: excluded
-  reason: Hologres is a general-purpose cloud data warehouse and analytics platform, not a developer-facing AI tool, agent, or AI infrastructure component.
+  reason: Hologres is a cloud data warehouse product, not a developer-facing AI tool, agent, or workflow infrastructure; it falls outside the catalog's scope of AI/agent/tooling for software developers.
   evidence:
-    - Described as an 'all-in-one real-time data warehouse engine' focused on OLAP and data serving, not AI development.
-    - Primary page excerpt emphasizes data silos, migration, and BI acceleration rather than coding assistance or model infrastructure.
-    - Listed in awesome-mcp-servers only as a 'Official Server' reference, but the product itself is a cloud data platform, not an MCP-native tool.
+    - Product description focuses on real-time data warehouse capabilities (OLAP, PB-scale analytics, Flink/MaxCompute integration)
+    - No AI/agent/tooling identity in the core pitch; it is a data infrastructure product
+    - Source-list context (awesome-mcp-servers) is a false positive—Hologres is not an MCP server, just listed there with a generic data description
 placement:
   primary_category: null
   section: null
@@ -76,15 +76,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:24.647Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dc2eea31257e79091897b5c914e65efa6e8d4a40855f0cfe266aa0de014d9625
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Hologres is a cloud data warehouse product, not a developer-facing AI tool, agent, or workflow infrastructure; it falls outside the catalog's scope of AI/agent/tooling for software developers.
+      decision_evidence:
+        - Product description focuses on real-time data warehouse capabilities (OLAP, PB-scale analytics, Flink/MaxCompute integration)
+        - No AI/agent/tooling identity in the core pitch; it is a data infrastructure product
+        - Source-list context (awesome-mcp-servers) is a false positive—Hologres is not an MCP server, just listed there with a generic data description
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T16:42:15.364Z"

@@ -58,23 +58,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:03.663Z"
       bytes: 10018
 insights:
-  summary: Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes, implemented as a Kubernetes CRD.
-  why_it_matters: It provides scalable, cloud-agnostic DAG and step-based pipeline execution that is widely used to run machine learning, data processing, and CI/CD workloads on Kubernetes.
-  mental_damage: Kubernetes admins can now orchestrate ML pipelines with the same YAML endurance that previously powered their insomnia.
+  summary: Argo Workflows is an open source container-native workflow engine for orchestrating parallel jobs on Kubernetes.
+  why_it_matters: It enables developers to define and run multi-step workflows (including ML pipelines) as DAGs or sequences of containerized tasks on Kubernetes, simplifying complex job orchestration.
+  mental_damage: Finally, a way to turn your Kubernetes cluster into a Rube Goldberg machine for ML pipelines.
   tags:
     - kubernetes
     - workflow-engine
     - mlops
-    - pipelines
-    - cncf
+    - dag
+    - container-native
   confidence: high
 curation:
   status: excluded
-  reason: Argo Workflows is general-purpose Kubernetes infrastructure for batch, ML, and CI/CD pipelines, not a developer-facing AI tool, agent, or AI workflow product.
+  reason: Argo Workflows is a general-purpose workflow engine for Kubernetes with ML as one of many use cases, not a developer-facing AI tool or workflow specific to AI/agent development.
   evidence:
-    - Repo description states 'Workflow Engine for Kubernetes' with no AI-specific focus.
-    - README defines the product as a container-native workflow engine for parallel jobs on Kubernetes, with ML pipelines as one use case among many.
-    - Listed topics and use cases emphasize k8s, DAGs, data processing, and CI/CD rather than AI developer tooling.
+    - "Repo description: 'Workflow Engine for Kubernetes'"
+    - README emphasizes general workflow orchestration (ML pipelines are one use case among CI/CD, data processing, etc.)
+    - "Source-list context: listed under 'Large Scale Deployment > Workflow' in Awesome-LLMOps, but this is a stretch for AI developer tooling scope"
 placement:
   primary_category: null
   section: null
@@ -93,12 +93,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:50.665Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ee842424cfc45e63ee501791565703c986dba27ab304192c7c7de147d3f17bf1
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Argo Workflows is a general-purpose workflow engine for Kubernetes with ML as one of many use cases, not a developer-facing AI tool or workflow specific to AI/agent development.
+      decision_evidence:
+        - "Repo description: 'Workflow Engine for Kubernetes'"
+        - README emphasizes general workflow orchestration (ML pipelines are one use case among CI/CD, data processing, etc.)
+        - "Source-list context: listed under 'Large Scale Deployment > Workflow' in Awesome-LLMOps, but this is a stretch for AI developer tooling scope"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

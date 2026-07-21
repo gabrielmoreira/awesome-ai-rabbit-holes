@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: ThinAirTelematics/thinair-geo
+    html_url: https://github.com/ThinAirTelematics/thinair-geo
     created_at: "2026-04-26T10:01:23Z"
-    pushed_at: "2026-05-05T20:04:19Z"
-    description: Geocoding, routing, traffic, weather & place search — 10 tools via MCP. Powered by ThinAir Telematics
+    pushed_at: "2026-07-14T19:45:30Z"
+    description: ThinAir Geo MCP server for geocoding, routing, traffic, weather, places, and service-area intelligence for fleet-grade AI workflows.
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-06T22:46:48.658Z"
+    last_checked_at: "2026-07-21T15:20:48.434Z"
     readme:
-      fetched_at: "2026-05-06T22:46:48.658Z"
-      bytes: 4998
+      fetched_at: "2026-07-21T15:20:48.434Z"
+      bytes: 6706
 insights:
   summary: An MCP server providing geocoding, routing, traffic, weather, and place search tools to give AI agents geospatial awareness.
   why_it_matters: It allows coding agents to perform location-based tasks with confidence-scored results and specialized vehicle profiles without requiring custom API integrations.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:48.658Z"
+    updated_at: "2026-07-21T15:20:48.434Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

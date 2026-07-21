@@ -24,19 +24,24 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
+    stars: 85
+    forks: 13
+    license: MIT
+    archived: false
+    full_name: ztxtxwd/open-feishu-mcp-server
+    html_url: https://github.com/ztxtxwd/open-feishu-mcp-server
+    created_at: "2025-05-18T13:58:21Z"
+    pushed_at: "2026-01-27T15:00:41Z"
     description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    homepage: https://fms-tapeless.lovable.app
+    topics:
+      - feishu
+      - lark
+      - mcp
+    last_checked_at: "2026-07-21T15:21:29.122Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:29.122Z"
+      bytes: 8940
 insights:
   summary: null
   why_it_matters: null
@@ -60,15 +65,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-12T15:06:47.920Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for ztxtxwd/open-feishu-mcp-server
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-21T15:21:29.122Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

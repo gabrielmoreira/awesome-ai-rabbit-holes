@@ -40,23 +40,24 @@ metadata:
       fetched_at: "2026-07-20T15:11:47.089Z"
       bytes: 3616
 insights:
-  summary: An MCP server that exposes the Alpaca trading API as tools and resources for placing trades, managing portfolios, and accessing market data within MCP-compatible clients like Claude Desktop.
-  why_it_matters: It lets developers treat live trading operations as model-accessible tools, turning a trading API into a conversational workflow inside their existing AI assistants.
-  mental_damage: We have finally unlocked the ability to ask Claude to YOLO a crypto position at 2 AM while telling ourselves it is just a clean MCP integration.
+  summary: Alpaca Trading MCP Server is a Model Context Protocol server that provides access to the Alpaca trading API for managing portfolios, placing trades, and retrieving market data.
+  why_it_matters: It lets developers integrate real-time trading and portfolio management into AI workflows via MCP, enabling agents to interact with financial data and execute trades.
+  mental_damage: Now your AI agent can panic-sell your portfolio during a 3 AM hallucination, complete with proper error handling.
   tags:
     - mcp
     - trading
     - finance
+    - api
     - alpaca
-    - market-data
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server for a specific domain (finance/trading), which clearly fits the MCP Servers & Tooling category as a domain-specific server implementation.
+  reason: The project is an MCP server focused on a specific domain (trading), making it a clear fit for MCP Servers & Tooling under Domain Servers.
   evidence:
-    - Repo description states it is 'MCP for the Alpaca trading API to manage stock and crypto portfolios, place trades, and access market data'.
-    - README confirms it is an MCP server providing trading tools and resources for MCP clients like Claude Desktop.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section as a server implementation.
+    - "Repo description: 'MCP for the Alpaca trading API to manage stock and crypto portfolios, place trades, and access market data'"
+    - "README title and opening line: 'Alpaca Trading MCP Server' and 'A Model Context Protocol (MCP) server that provides an interface to the Alpaca trading API'"
+    - Resources and tools are defined as MCP primitives (e.g., `account://info`, `place_market_order`)
+    - "Actively maintained: pushed 2025-07-14, not archived, MIT licensed"
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +76,29 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:14.763Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e1912a7cc69099fe3081455977a63bd19997db2f91cff1ee868279de75e596bb
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is an MCP server focused on a specific domain (trading), making it a clear fit for MCP Servers & Tooling under Domain Servers.
+      decision_evidence:
+        - "Repo description: 'MCP for the Alpaca trading API to manage stock and crypto portfolios, place trades, and access market data'"
+        - "README title and opening line: 'Alpaca Trading MCP Server' and 'A Model Context Protocol (MCP) server that provides an interface to the Alpaca trading API'"
+        - Resources and tools are defined as MCP primitives (e.g., `account://info`, `place_market_order`)
+        - "Actively maintained: pushed 2025-07-14, not archived, MIT licensed"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is an MCP server, not an extension layer augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -89,13 +89,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-05-06T22:46:46.671Z"
-    cause: null
+    status: failed
+    updated_at: "2026-07-21T15:20:46.572Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: theihtisham/agent-shadow-brain"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    updated_at: "2026-07-21T15:21:35.709Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

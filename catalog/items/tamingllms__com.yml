@@ -1,0 +1,109 @@
+id: tamingllms__com
+kind: website
+name: "Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software"
+canonical_url: https://tamingllms.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__tamingllms__com__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 书籍 Book
+        anchor_text: "Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software"
+        extracted_url: https://tamingllms.com
+        surrounding_text: "17. [Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software ](https://www.tamingllms.com/)"
+        confidence: high
+    - id: discovery__www__tamingllms__com__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 书籍 Book
+        anchor_text: "Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software"
+        extracted_url: https://www.tamingllms.com
+        surrounding_text: "17. [Taming LLMs: A Practical Guide to LLM Pitfalls with Open Source Software ](https://www.tamingllms.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A practical guidebook website covering LLM pitfalls in open source software development.
+  why_it_matters: Helps developers anticipate and mitigate common issues when integrating LLMs into OSS projects.
+  mental_damage: Finally, a field guide for the landmines we’ve all stepped on while trying to make AI do useful things in code.
+  tags:
+    - guide
+    - llm-pitfalls
+    - oss
+    - best-practices
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational guide/resource rather than a developer tool, framework, or workflow product.
+  evidence:
+    - Source-list context lists it under '书籍 Book' (books) in awesome-LLM-resources
+    - URL points to a static guide website (tamingllms.com) with no tooling or code artifact
+    - No repo description, stars, or code signals indicate it is a product rather than content
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:37:36.256Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d820dc44dfdfdaf4c7a1dc7b99de2e3d0cb556dd046946b1d11c72c04664a854
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational guide/resource rather than a developer tool, framework, or workflow product.
+      decision_evidence:
+        - Source-list context lists it under '书籍 Book' (books) in awesome-LLM-resources
+        - URL points to a static guide website (tamingllms.com) with no tooling or code artifact
+        - No repo description, stars, or code signals indicate it is a product rather than content
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.970Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

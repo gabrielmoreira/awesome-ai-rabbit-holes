@@ -24,20 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 13
-    forks: 11
+    stars: 14
+    forks: 12
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: thunderboltsid/mcp-nutanix
+    html_url: https://github.com/thunderboltsid/mcp-nutanix
     created_at: "2025-03-27T18:51:17Z"
     pushed_at: "2026-01-29T09:57:21Z"
     description: MCP Server for Nutanix
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:49.604Z"
+    last_checked_at: "2026-07-21T15:20:49.463Z"
     readme:
-      fetched_at: "2026-05-06T22:46:49.604Z"
+      fetched_at: "2026-07-21T15:20:49.463Z"
       bytes: 5086
 insights:
   summary: An experimental MCP server that lets LLMs like Claude and Cursor list and inspect Nutanix Prism Central resources such as VMs, clusters, and hosts via the Model Context Protocol.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:49.604Z"
+    updated_at: "2026-07-21T15:20:49.463Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

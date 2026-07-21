@@ -45,15 +45,14 @@ metadata:
       fetched_at: "2026-07-16T05:05:21.221Z"
       bytes: 10848
 insights:
-  summary: An MCP server that extracts Figma design data and provides Flutter-specific implementation guidance to coding agents like Cursor.
-  why_it_matters: It bridges the gap between design files and code by giving AI agents structured access to layout, styling, and component data specifically mapped to Flutter widgets.
-  mental_damage: We have successfully abstracted the job of reading a Figma file into 'ask the robot to ask the plugin to ask the API,' ensuring you can now ignore design tokens without ever leaving your IDE.
+  summary: An MCP server that extracts Figma design data to provide guidance and structure for Flutter widget and screen implementation via coding agents.
+  why_it_matters: It lets developers leverage AI coding agents to translate Figma designs into Flutter code suggestions without manually interpreting design files.
+  mental_damage: Hope you enjoy prompting your AI to be a better designer than you are, while still writing all the Flutter logic yourself.
   tags:
-    - mcp
     - figma
     - flutter
+    - mcp
     - design-to-code
-    - cursor
   confidence: high
 curation:
   status: included
@@ -64,10 +63,10 @@ curation:
     - Found in the 'awesome-mcp-servers' list under 'Server Implementations > Developer Tools'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (235) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -80,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:20:15.814Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:903556587737a43a6fef90534545e5f0a85973784320cd8c273069326e2a3fc2
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: The tool is an MCP server that exposes Figma data to coding agents like Cursor, making it an extension that augments another assistant rather than acting as a standalone coding assistant.
+      decision_evidence:
+        - "Repo description: 'An MCP server that provides the coding agents Figma's design token to write Flutter code'"
+        - "README: 'Use Cursor or other AI-powered tools to access Figma's rich files... using [MCP server]'"
+        - "Usage: Requires configuring the server in Cursor MCP settings to function"
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because the product mainly provides Figma data access to another coding agent (like Cursor) rather than directly planning, writing, or editing code itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

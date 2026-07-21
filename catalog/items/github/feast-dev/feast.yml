@@ -50,22 +50,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:00.344Z"
       bytes: 16810
 insights:
-  summary: Feast is an open-source feature store for machine learning that manages and serves features consistently across offline training and online inference environments.
-  why_it_matters: It decouples ML workflows from underlying data infrastructure by providing a single data access layer that prevents data leakage and abstracts feature storage for portable model deployment.
-  mental_damage: Yet another sophisticated piece of infrastructure ensuring your meticulously engineered features are perfectly served right up until the model they feed decides the moon is made of cheese.
+  summary: An open-source feature store for managing and serving machine learning features for training and online inference.
+  why_it_matters: It solves the data leakage and consistency gap between offline model training and real-time production serving.
+  mental_damage: Because nothing says 'peace of mind' quite like debugging point-in-time joins in a massive data pipeline.
   tags:
-    - feature-store
     - mlops
+    - feature-store
     - data-engineering
-    - python
+    - machine-learning
   confidence: high
 curation:
   status: excluded
-  reason: Feast is a general ML data infrastructure tool (feature store) for data scientists and MLOps engineers, lacking the specific developer-facing coding assistant, agent, or AI-tooling workflow focus required for this catalog.
+  reason: The project is a specialized ML infrastructure/data engineering tool, not a developer-facing AI coding, orchestration, or context tool.
   evidence:
-    - "Repo description: 'The Open Source Feature Store for AI/ML'"
-    - README describes managing offline/online stores for ML training/inference, not coding assistants or developer tooling.
-    - Topics include big-data, data-science, machine-learning, and mlops, with no developer-tooling or coding-agent signals.
+    - Repo description identifies it as an 'Open Source Feature Store for AI/ML'
+    - README focuses on offline/online stores and data leakage prevention
+    - Scope is ML/Data engineering rather than developer workflow/coding assistance
 placement:
   primary_category: null
   section: null
@@ -84,12 +84,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:55:29.371Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8a498fb09f127758a57b1bf496ebcce400f0a48179df0ad7e41e80e20c51c0b8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a specialized ML infrastructure/data engineering tool, not a developer-facing AI coding, orchestration, or context tool.
+      decision_evidence:
+        - Repo description identifies it as an 'Open Source Feature Store for AI/ML'
+        - README focuses on offline/online stores and data leakage prevention
+        - Scope is ML/Data engineering rather than developer workflow/coding assistance
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

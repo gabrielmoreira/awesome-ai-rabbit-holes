@@ -51,23 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language video tutorial covering the Agent Skills standard, its technical principles, and how it compares to MCP for cross-platform AI coding tool integration.
-  why_it_matters: It demystifies the Agent Skills open standard and shows developers how to use reusable skill packs across tools like Claude Code, Cursor, and Codex.
-  mental_damage: Just when you had your MCP servers perfectly orchestrated, the ecosystem decided that what you actually need is yet another portable format for telling your agents how to behave.
+  summary: A Bilibili video tutorial explaining Agent Skills (Claude Skills), its concept, technical principles, and practical applications, including comparisons with MCP.
+  why_it_matters: It provides developers with a comprehensive guide to understanding and implementing Agent Skills, a newly standardized cross-platform feature for AI coding assistants.
+  mental_damage: Another day, another standard to learn before your current workflow becomes legacy.
   tags:
-    - agent-skills
-    - claude
-    - mcp
-    - standards
     - tutorial
+    - agent-skills
+    - video
+    - bilibili
+    - education
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational video and auxiliary resource page rather than a standalone developer tool, skill pack, or product.
+  reason: This is a video tutorial, not a standalone developer tool, framework, or product; it falls outside the catalog's scope of practical AI tools and infrastructure.
   evidence:
-    - The URL is a Bilibili video page (BV1HuiyBQE9G), not a repo or product.
-    - "The primary page excerpt describes a tutorial: '从Agent Skills的概念，技术原理，到多场景实战，一个视频看懂'."
-    - Source-list context shows it appears in awesome-LLM-resources as a linked media resource, not as a standalone tool.
+    - The URL points to a Bilibili video, not a GitHub repo or product page
+    - The content is a tutorial/educational resource, not a tool or library
+    - The source-list context shows it categorized under 'Skills' in a general LLM resources list, not as a product
 placement:
   primary_category: null
   section: null
@@ -76,15 +76,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:45.550Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cbcf12361d507d54b91ed083c2f9ee09c59fd07013d49ba924f8524da9f6da49
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a video tutorial, not a standalone developer tool, framework, or product; it falls outside the catalog's scope of practical AI tools and infrastructure.
+      decision_evidence:
+        - The URL points to a Bilibili video, not a GitHub repo or product page
+        - The content is a tutorial/educational resource, not a tool or library
+        - The source-list context shows it categorized under 'Skills' in a general LLM resources list, not as a product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T16:42:15.365Z"

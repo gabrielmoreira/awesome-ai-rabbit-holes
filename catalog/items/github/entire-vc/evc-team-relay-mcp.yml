@@ -45,22 +45,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:56.540Z"
       bytes: 10059
 insights:
-  summary: An MCP server that gives AI agents read/write access to Obsidian vaults via the EVC Team Relay API.
-  why_it_matters: Developers can wire their coding agents into Obsidian notes so the assistant can read context and persist state without leaving the chat.
-  mental_damage: We have successfully rebuilt the filesystem as a note-taking app so your agent can sync todos it still won't complete.
+  summary: MCP server that enables AI agents to read and write Obsidian vault documents via the EVC Team Relay API.
+  why_it_matters: Developers can grant their coding assistants direct, secure access to Obsidian notes for context, documentation, or task tracking without shell-based workarounds.
+  mental_damage: Now your AI can edit your second brain while you’re not looking, and you’ll only notice when the meeting notes start arguing with themselves.
   tags:
-    - mcp
+    - mcp-server
     - obsidian
-    - memory
-    - context
+    - team-relay
+    - document-sync
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server for a specific domain (Obsidian vaults), which fits the MCP Servers & Tooling category.
+  reason: "MCP is the product identity here: this is a dedicated MCP server wrapping a specific domain (Obsidian via Team Relay) for AI tool access."
   evidence:
-    - Repo description explicitly states 'MCP server for reading and writing Obsidian vault documents'.
-    - README pitches it as an MCP server for Claude Code, Codex CLI, and OpenCode with MCP tools like read_file and upsert_file.
-    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
+    - Repo description explicitly labels it as an MCP server for Obsidian vault access
+    - README centers on MCP tooling and client configuration (Claude Code, Codex CLI, OpenCode)
+    - Architecture diagram and security notes emphasize MCP as the integration layer
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -79,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:26.335Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9c99f3e6bf246a0dbe8f7ea42dea2fa925450c09933abef1e970196e8d9c3121
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: this is a dedicated MCP server wrapping a specific domain (Obsidian via Team Relay) for AI tool access."
+      decision_evidence:
+        - Repo description explicitly labels it as an MCP server for Obsidian vault access
+        - README centers on MCP tooling and client configuration (Claude Code, Codex CLI, OpenCode)
+        - Architecture diagram and security notes emphasize MCP as the integration layer
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant), and MCP is its primary identity.
+      review_reason: null
+      review_resume_lifecycle: null

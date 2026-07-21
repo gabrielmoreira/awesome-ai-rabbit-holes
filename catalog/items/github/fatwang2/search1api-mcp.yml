@@ -54,25 +54,24 @@ metadata:
       fetched_at: "2026-07-16T05:05:00.299Z"
       bytes: 4746
 insights:
-  summary: An official MCP server for Search1API that exposes web search, news, crawling, sitemaps, and trending tools to AI assistants like Claude, Cursor, and VS Code.
-  why_it_matters: It gives coding agents and IDEs a unified, multi-source search and crawl backend so they can reason over fresh web content without leaving the assistant context.
-  mental_damage: Because what your agent really needed to solve that bug was the ability to Bing the entirety of Reddit and arXiv before confidently hallucinating a fix.
+  summary: MCP server providing web search, news, crawling, and reasoning tools via Search1API for integration with MCP-compatible clients.
+  why_it_matters: Lets developers access real-time web and news data from within AI coding assistants without leaving their workflow.
+  mental_damage: Another MCP server to add to your growing list of things you'll configure once and forget why you needed.
   tags:
     - mcp
     - search
-    - web-search
-    - agent-tooling
+    - web-tools
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that exposes search, news, crawl, and trending capabilities to MCP-compatible clients, making it a textbook fit for MCP Servers & Tooling.
+  reason: The project is an MCP server that exposes Search1API functionality as MCP tools, making MCP its core identity rather than a mere compatibility feature.
   evidence:
-    - README identifies it as 'the official MCP server for Search1API' with web search, news, crawling, and trending tools.
-    - Provides remote MCP via Streamable HTTP and local stdio modes with configuration examples for Claude, Cursor, VS Code, and Windsurf.
-    - Included in awesome-mcp-list (🔎 Search) and awesome-mcp-servers (Official Servers), reinforcing its MCP identity.
+    - README describes it as 'the official MCP server for Search1API'
+    - Provides MCP-compatible configuration examples for Claude Desktop, Cursor, VS Code, and others
+    - Exposes discrete MCP tools like search, news, crawl, reasoning, and trending
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (172) exceeded threshold (150)
@@ -88,12 +87,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:55:14.573Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:56217eb0c617e80cb3b76aa1265a63ff208d4f0066336891d11fb943db4a2093
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is an MCP server that exposes Search1API functionality as MCP tools, making MCP its core identity rather than a mere compatibility feature.
+      decision_evidence:
+        - README describes it as 'the official MCP server for Search1API'
+        - Provides MCP-compatible configuration examples for Claude Desktop, Cursor, VS Code, and others
+        - Exposes discrete MCP tools like search, news, crawl, reasoning, and trending
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments another assistant with MCP capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

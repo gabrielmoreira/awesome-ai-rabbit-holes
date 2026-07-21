@@ -37,24 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A hosted badge/link directing to the Glama directory entry for the DollhouseMCP MCP server.
-  why_it_matters: It provides a quick visual reference for the existence of a specific MCP server within a broader directory ecosystem.
-  mental_damage: We have now reached the point where the tooling required to navigate the list of tools is itself a tool that needs to be cataloged.
+  summary: An MCP server for generating badges.
+  why_it_matters: Allows developers to integrate badge generation capabilities into MCP-compatible workflows.
+  mental_damage: Because every project needs another badge to prove it exists.
   tags:
     - mcp
-    - directory
-    - badge
+    - badges
+    - server
   confidence: high
 curation:
-  status: excluded
-  reason: This is a supporting badge link to a directory entry for another project (DollhouseMCP), not a standalone developer tool, server, or framework itself.
+  status: included
+  reason: This is an MCP server whose primary identity is providing badge generation as an MCP-compatible service.
   evidence:
-    - The URL points to a badge asset on glama.ai for a specific server (DollhouseMCP/mcp-server).
-    - No repository description, README, or code context is provided; it is an auxiliary link.
-    - Source list context confirms it is merely an entry within the awesome-mcp-servers list.
+    - URL path indicates it is an MCP server ('/mcp/servers/')
+    - Product name and path ('badge') suggest it is a badge generation server
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:15.353Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:334e748e4d496b51b26c45c8254703f311ed310920ef4c1f6c9c9e2ad37a2f83
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP server whose primary identity is providing badge generation as an MCP-compatible service.
+      decision_evidence:
+        - URL path indicates it is an MCP server ('/mcp/servers/')
+        - Product name and path ('badge') suggest it is a badge generation server
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is an MCP server, not an extension for another tool.
+      review_reason: null
+      review_resume_lifecycle: null

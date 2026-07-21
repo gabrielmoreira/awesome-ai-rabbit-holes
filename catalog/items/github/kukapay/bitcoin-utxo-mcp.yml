@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:38.583Z"
       bytes: 4723
 insights:
-  summary: A minimal MCP server that exposes Bitcoin UTXO lookups and block statistics as tools and prompt templates for LLM clients like Claude Desktop.
-  why_it_matters: It lets AI agents query on-chain Bitcoin data directly, enabling wallet analysis, flow tracing, and block insights without custom API glue code.
-  mental_damage: We have finally reached the point where an LLM can check the genesis block UTXOs while you still cannot figure out why your CI pipeline is failing.
+  summary: An MCP server that provides Bitcoin UTXO and block statistics data to AI agents.
+  why_it_matters: Gives AI agents direct access to on-chain Bitcoin data for analysis, enabling workflows like funds flow tracking or network health assessment.
+  mental_damage: Now your AI agent can obsess over Bitcoin UTXOs instead of you.
   tags:
     - mcp
     - bitcoin
-    - on-chain
-    - finance
-    - tools
-  confidence: medium
+    - on-chain-data
+    - ai-agents
+  confidence: high
 curation:
   status: included
-  reason: This is a specialized MCP server for Bitcoin on-chain data, fitting cleanly as a domain-specific server in the MCP category.
+  reason: The product is explicitly an MCP server with Bitcoin-specific tools and prompts, making MCP its primary identity.
   evidence:
-    - "Repo description: 'An MCP server that tracks Bitcoin's Unspent Transaction Outputs (UTXO) and block statistics.'"
-    - README explicitly implements MCP tools (get_utxo, get_block_stats) and a prompt template for Claude Desktop.
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its domain-server identity.
+    - Repo description states it is 'An MCP server that tracks Bitcoin's Unspent Transaction Outputs (UTXO) and block statistics'
+    - README details MCP tools (`get_utxo`, `get_block_stats`) and prompt templates for AI agents
+    - Installation instructions target MCP-compatible clients like Claude Desktop
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:35.481Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1ab8a20e42dff31ca33d6180d3ae8fb00c1298badbcbfebcda3fbf661a2a9ae4
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server with Bitcoin-specific tools and prompts, making MCP its primary identity.
+      decision_evidence:
+        - Repo description states it is 'An MCP server that tracks Bitcoin's Unspent Transaction Outputs (UTXO) and block statistics'
+        - README details MCP tools (`get_utxo`, `get_block_stats`) and prompt templates for AI agents
+        - Installation instructions target MCP-compatible clients like Claude Desktop
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

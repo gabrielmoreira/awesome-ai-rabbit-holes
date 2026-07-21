@@ -39,22 +39,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:08.940Z"
       bytes: 3617
 insights:
-  summary: An MCP server implementation that provides web scraping, structured data extraction, crawling, and browser automation agent access via the Hyperbrowser API.
-  why_it_matters: It lets coding assistants like Claude and Cursor offload messy web tasks—scraping, searching, and browser automation—without wiring up custom browser tooling themselves.
-  mental_damage: You now have three different computer-use agents inside your MCP server, so your assistant can argue with itself about which headless browser should click the cookie banner.
+  summary: An MCP server implementation for Hyperbrowser that provides web scraping, crawling, structured data extraction, and browser agent access.
+  why_it_matters: It gives developers MCP-based access to Hyperbrowser's web automation and data extraction capabilities, integrating with coding assistants like Cursor, Windsurf, and Claude Desktop.
+  mental_damage: Now your AI can browse the web for you, because apparently writing regex to parse HTML was the last straw.
   tags:
     - mcp
     - web-scraping
     - browser-automation
+    - data-extraction
     - hyperbrowser
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: this is explicitly an MCP server providing domain-specific tools for web scraping, crawling, and browser agents."
+  reason: MCP is the product identity here—a server providing web automation tools via the Model Context Protocol.
   evidence:
-    - "Repo description states: 'A MCP server implementation for hyperbrowser'"
-    - README positions this as 'Hyperbrowser's Model Context Protocol (MCP) Server' with MCP configuration examples for Cursor, Windsurf, and Claude Desktop.
-    - "Listed in awesome-mcp-servers under section: Official Servers."
+    - Repo description explicitly states it is an MCP server implementation for Hyperbrowser
+    - README details MCP server setup and tools for web scraping, crawling, and browser agents
+    - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:24.621Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:52cb3a4a05e44fec253362832075109461dcaa81780299fff7e29d698fbff300
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a server providing web automation tools via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server implementation for Hyperbrowser
+        - README details MCP server setup and tools for web scraping, crawling, and browser agents
+        - Listed in awesome-mcp-servers under Official Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

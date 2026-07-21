@@ -59,23 +59,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:21.517Z"
       bytes: 12633
 insights:
-  summary: Filestash is a self-hosted, plugin-driven file management platform that provides universal data access across 20+ storage protocols including FTP, S3, SFTP, and WebDAV, with gateway support for exposing data over protocols like MCP.
-  why_it_matters: It provides developers with a unified interface and API gateway to manage disparate storage backends while offering an MCP gateway for AI tool integration.
-  mental_damage: Yet another self-hosted panacea promising to unify every storage protocol known to humanity, this time with an MCP gateway so your coding agent can theoretically browse your SMB shares.
+  summary: Filestash is a universal file storage client that provides a Dropbox-like web interface for accessing files across numerous protocols including FTP, SFTP, S3, WebDAV, IPFS, and over 20 others through a plugin-driven architecture.
+  why_it_matters: It eliminates the need for multiple specialized file management tools by offering a single interface to work with diverse storage systems, streamlining file operations across hybrid environments.
+  mental_damage: Yet another file browser promising universal compatibility, making developers nostalgic for the simpler days when 'just use scp' was a valid workflow.
   tags:
     - file-management
-    - self-hosted
-    - mcp
     - storage
-    - gateway
+    - plugin-system
+    - universal-client
   confidence: high
 curation:
   status: excluded
-  reason: The core product is a general-purpose file manager and data access layer, not a developer-facing AI tool, despite offering an MCP gateway as one of many integrations.
+  reason: Filestash is a general-purpose file management tool with no specific developer-tooling focus; while it includes a 'dev' plugin for viewing binaries, its core value proposition centers on end-user file access rather than software development workflows.
   evidence:
-    - Repo description and README define it as a 'File Management Platform / Universal Data Access Layer' and 'storage agnostic Dropbox-like file manager', not an AI tool.
-    - MCP is listed as just one of many gateway protocols (SFTP, S3, FTP, WebDAV, MCP, AS2) rather than the product identity.
-    - Appears in awesome-mcp-servers lists, but the decision ladder states primary product identity beats source-list placement.
+    - "Repo description: 'Universal File Storage Client'"
+    - README emphasizes storage agnostic file management across FTP, SFTP, S3, WebDAV, IPFS, and 20+ protocols
+    - Source-list context shows it's listed in awesome-mcp-servers under File Systems, indicating infrastructure/file system relevance rather than developer tooling
 placement:
   primary_category: null
   section: null
@@ -94,12 +93,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:20:19.633Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ddf8a01fe33c1ca4af376b8bd8d964ba339e05e8df3ece4d123ae190646f74ea
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Filestash is a general-purpose file management tool with no specific developer-tooling focus; while it includes a 'dev' plugin for viewing binaries, its core value proposition centers on end-user file access rather than software development workflows.
+      decision_evidence:
+        - "Repo description: 'Universal File Storage Client'"
+        - README emphasizes storage agnostic file management across FTP, SFTP, S3, WebDAV, IPFS, and 20+ protocols
+        - Source-list context shows it's listed in awesome-mcp-servers under File Systems, indicating infrastructure/file system relevance rather than developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -1,0 +1,111 @@
+id: opslevel__com
+kind: website
+name: OpsLevel
+canonical_url: https://opslevel.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__opslevel__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: OpsLevel
+        extracted_url: https://opslevel.com
+        surrounding_text: "- [opslevel/opslevel-mcp](https://github.com/opslevel/opslevel-mcp) 🎖️ 🏎️ ☁️ 🪟 🍎 🐧 - Official MCP Server for [OpsLevel](https://www.opslevel.com)"
+        confidence: high
+    - id: discovery__www__opslevel__com__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: OpsLevel
+        extracted_url: https://www.opslevel.com
+        surrounding_text: "- [opslevel/opslevel-mcp](https://github.com/opslevel/opslevel-mcp) 🎖️ 🏎️ ☁️ 🪟 🍎 🐧 - Official MCP Server for [OpsLevel](https://www.opslevel.com)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: OpsLevel is an internal developer portal that unifies tools, knowledge, and tasks to improve developer experience and software standards.
+  why_it_matters: It helps engineering teams automate code maintenance, enforce standards, and centralize visibility across their tech stack.
+  mental_damage: Because nothing says 'developer autonomy' like another platform to manage your platforms.
+  tags:
+    - internal-developer-portal
+    - software-catalog
+    - dev-productivity
+    - platform-engineering
+  confidence: high
+curation:
+  status: excluded
+  reason: OpsLevel is a broad SaaS platform for internal developer portals and software catalogs, not a developer-facing AI tool, framework, or workflow product.
+  evidence:
+    - Primary product is an internal developer portal (not AI-first)
+    - Source-list context shows it as a general developer tool, not AI-specific
+    - No evidence of AI coding, orchestration, or prompt/context engineering as core functionality
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:03.124Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7145b9a3ea82c2e7bd16b90e61cb7a68a740b570061c217a9ca1efc951d0d26c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: OpsLevel is a broad SaaS platform for internal developer portals and software catalogs, not a developer-facing AI tool, framework, or workflow product.
+      decision_evidence:
+        - Primary product is an internal developer portal (not AI-first)
+        - Source-list context shows it as a general developer tool, not AI-specific
+        - No evidence of AI coding, orchestration, or prompt/context engineering as core functionality
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.968Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -81,23 +81,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: BLACKBOX AI is a multi-surface AI coding platform offering a CLI, VS Code extension, AI-native IDE, cloud agents, API, and mobile app for autonomous coding tasks, code review, testing, and deployment.
-  why_it_matters: Developers can dispatch autonomous coding agents across terminal, editor, cloud, and mobile surfaces to refactor code, generate tests, audit security, and deploy apps with minimal manual intervention.
-  mental_damage: Now you can pay a Chairman LLM to judge which AI agent did the best job writing code you won't have time to read anyway.
+  summary: Blackbox AI is a multi-agent coding platform offering an AI-native IDE, VS Code extension, CLI, and unified inference API for building and shipping software faster.
+  why_it_matters: It enables developers to dispatch autonomous coding agents from terminal, IDE, or API, with parallel execution, evaluation, and encrypted inference across multiple models.
+  mental_damage: Now you can watch 12 agents argue over your rate-limiting middleware while Chairman LLM judges them like a coding Olympics.
   tags:
-    - ai-platform
-    - cli
-    - coding-agents
-    - ide
     - multi-agent
+    - coding-assistant
+    - cli
+    - ide
+    - inference-api
   confidence: high
 curation:
   status: included
-  reason: It is a developer-facing coding assistant that plans, writes, reviews, tests, and deploys code across multiple surfaces, fitting the primary coding assistant definition.
+  reason: Blackbox AI is primarily a developer-facing coding assistant that directly plans, writes, reviews, and deploys code via agents, CLI, and IDE integrations.
   evidence:
-    - BLACKBOX AI presents itself as a multi-agent coding platform with CLI, IDE, cloud, API, and mobile surfaces for autonomous coding tasks.
-    - The product directly reads codebases, plans changes, edits files, runs tests, performs code review, and handles deployment via dispatched agents.
-    - Included in awesome-ai-coding-tools under 'Code Editors and Assistants' and awesome-ai-agents, with linked description matching its coding assistant identity.
+    - Described as 'multi-agent coding, AI-native IDE, VS Code extension, CLI, and a unified inference API'
+    - Demonstrates agent tasks like refactoring, migrations, test generation, and deployments
+    - Source lists categorize it under 'Code Editors and Assistants' and 'AI autonomous agents'
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -106,15 +106,31 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:33:07.938Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5de087365cfc8b115915ddbec0f1eb5f0c68cea93ce65a859cb21c0026bb605c
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Blackbox AI is primarily a developer-facing coding assistant that directly plans, writes, reviews, and deploys code via agents, CLI, and IDE integrations.
+      decision_evidence:
+        - Described as 'multi-agent coding, AI-native IDE, VS Code extension, CLI, and a unified inference API'
+        - Demonstrates agent tasks like refactoring, migrations, test generation, and deployments
+        - Source lists categorize it under 'Code Editors and Assistants' and 'AI autonomous agents'
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the core product is a coding assistant (agents that write/edit code) rather than a general multi-agent coordination platform.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T15:10:47.686Z"

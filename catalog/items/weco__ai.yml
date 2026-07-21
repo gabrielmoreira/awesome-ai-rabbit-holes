@@ -1,0 +1,95 @@
+id: weco__ai
+kind: website
+name: Weco Observe
+canonical_url: https://weco.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__weco__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: Weco Observe
+        extracted_url: https://weco.ai
+        surrounding_text: "| [Weco Observe](https://weco.ai) | Observability and debugging tool for AI research agents. Trace multi-step LLM agent runs, visualize decision trees, and identify failure modes in autonomous research workflows. Cloud hosted with open-source agent integration. |                                                                                                                    |"
+        confidence: high
+    - id: discovery__www__weco__ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+          - Observability
+        anchor_text: Weco Observe
+        extracted_url: https://weco.ai
+        surrounding_text: "| [Weco Observe](https://weco.ai) | Observability and debugging tool for AI research agents. Trace multi-step LLM agent runs, visualize decision trees, and identify failure modes in autonomous research workflows. Cloud hosted with open-source agent integration. |                                                                                                                    |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An autonomous agentic platform that iteratively optimizes code and machine learning pipelines by testing candidate solutions against specific performance metrics.
+  why_it_matters: It automates the tedious, manual trial-and-error loop of hyperparameter tuning, prompt engineering, and code performance optimization.
+  mental_damage: It’s a way to let an agent spend three days and a few cents chasing a 0.01% metric improvement while you contemplate your career choices.
+  tags:
+    - automation
+    - coding-agents
+    - mlops
+    - optimization
+  confidence: high
+curation:
+  status: included
+  reason: It acts as a specialized coding agent that autonomously plans, edits, and tests code to minimize or maximize specific performance metrics.
+  evidence:
+    - Claims to autonomously generate and test candidate solutions, keeping improvements and discarding failed attempts
+    - Offers a CLI and specialized skills for Claude Code and Cursor
+    - Supports code optimization across multiple languages including Python, C++, Rust, and JS
+placement:
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-05-21T05:34:59.037Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.971Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

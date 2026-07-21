@@ -24,19 +24,30 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: velyan/pdf-card-mcp
+    html_url: https://github.com/velyan/pdf-card-mcp
+    created_at: "2026-06-10T06:44:08Z"
+    pushed_at: "2026-06-25T11:49:09Z"
+    description: Local-first MCP tool that converts PDFs into polished standalone card-based HTML readers
+    homepage: https://my-site-64157e52.ploy.build/
+    topics:
+      - accessibility
+      - claude
+      - documents
+      - html
+      - local-first
+      - mcp
+      - model-context-protocol
+      - pdf
+      - reader
+    last_checked_at: "2026-07-21T15:21:02.353Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:02.353Z"
+      bytes: 15769
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +71,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:21:02.353Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

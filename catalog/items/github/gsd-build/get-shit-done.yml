@@ -43,26 +43,26 @@ metadata:
       fetched_at: "2026-07-20T15:10:56.300Z"
       bytes: 329
 insights:
-  summary: A meta-prompting and spec-driven development system that adds context engineering, planning, and execution loops to Claude Code and other AI coding assistants.
-  why_it_matters: It solves context rot by decomposing projects into phases, running plans through fresh subagent contexts, and maintaining a structured spec loop so the assistant doesn't degrade as the window fills.
-  mental_damage: You installed a 60k-star system to manage the context window of the tool you installed to avoid writing code yourself, and you still feel behind on the roadmap.
+  summary: A meta-prompting, context engineering, and spec-driven development system for AI coding assistants like Claude Code.
+  why_it_matters: It solves context rot in AI coding workflows by structuring tasks into phases with fresh context windows, enabling reliable, automated code execution and verification.
+  mental_damage: Finally, a tool that promises to let you stop thinking and just let the AI do the work—until you realize you now have to learn its six-command loop.
   tags:
-    - spec-driven
+    - spec-driven-development
     - context-engineering
-    - claude-code
     - meta-prompting
-    - subagents
+    - claude-code
+    - automation
   confidence: high
 curation:
-  status: included
-  reason: The product centers on a spec-first loop with explicit phases, planning, execution, and verification commands that drive implementation through structured instructions rather than acting as the underlying coding assistant.
+  status: excluded
+  reason: The repository is archived, which is a strong exclusion signal despite its high star count and clear developer-tooling relevance.
   evidence:
-    - "Repo description: 'A light-weight meta-prompting, context engineering and spec-driven development system for Claude Code'."
-    - "README: six-command loop (new-project, discuss-phase, plan-phase, execute-phase, verify-work, ship) with fresh 200k-token subagent contexts."
-    - "Source list: included in awesome-spec-driven-development under 'Specification Tools'."
+    - "Repo is archived (archived: true)"
+    - "High star count (64782) and active pushes (pushed_at: 2026-05-31T17:46:54Z)"
+    - README describes a spec-driven development system for coding assistants
 placement:
-  primary_category: spec-driven-development
-  section: Spec-First Environments
+  primary_category: null
+  section: null
 lifecycle:
   status: needs_review
   reason: Repository is archived
@@ -78,12 +78,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:29.399Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6cf3eedc6e15b0bdeece52f32c09fcfd6a528aef263074aea74999a2349fb806
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is archived, which is a strong exclusion signal despite its high star count and clear developer-tooling relevance.
+      decision_evidence:
+        - "Repo is archived (archived: true)"
+        - "High star count (64782) and active pushes (pushed_at: 2026-05-31T17:46:54Z)"
+        - README describes a spec-driven development system for coding assistants
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

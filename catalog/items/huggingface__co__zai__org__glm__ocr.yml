@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GLM-OCR is a Vision-Language Model hosted on Hugging Face that converts document images into structured text using an image-to-text pipeline.
-  why_it_matters: It provides a high-performing open-weight OCR model with strong multilingual and layout benchmarks that developers can integrate via standard Transformers libraries.
-  mental_damage: Yet another reminder that the hardest part of your AI stack isn't the model, but figuring out which 2GB checkpoint claiming 'State of the Art' actually parses your receipts correctly.
+  summary: GLM-OCR is a vision-language model hosted on Hugging Face for OCR tasks, specializing in text extraction from images and documents.
+  why_it_matters: It provides developers with a high-performance, open-source OCR model for parsing text from images, tables, and scanned documents, useful in document processing workflows.
+  mental_damage: Finally, a model that can read your PDFs better than you can, but still can't explain why it misread that one critical number.
   tags:
     - ocr
     - vision-language-model
-    - huggingface
     - document-parsing
+    - huggingface
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw model checkpoint and data resource, not a developer tool, agent, framework, or infrastructure product within the catalog's scope.
+  reason: GLM-OCR is a specialized OCR model, not a developer tool, framework, or workflow product—it does not fit the catalog's scope of practical AI tools, agents, or infrastructure for software developers.
   evidence:
-    - "Hosted as a model repo on Hugging Face (pipeline_tag: image-to-text) rather than an installable tool or SDK."
-    - Appears in awesome-LLM-resources under a 'Data' section, serving as a resource rather than tooling.
-    - No repo description, README, or code interface provided; the excerpt is purely model configuration and evaluation metadata.
+    - The project is a Hugging Face model repo for OCR tasks, not a tool, SDK, or workflow product
+    - Source-list context places it under 'Data' in a general LLM resource list, not developer tooling
+    - No evidence of developer-facing integrations, APIs, or workflows beyond model inference
 placement:
   primary_category: null
   section: null
@@ -71,12 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:19.723Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0ac7af8548564465ca6c0a90abd59ebeea970ea100f26a7b5d8836aecf1d6917
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: GLM-OCR is a specialized OCR model, not a developer tool, framework, or workflow product—it does not fit the catalog's scope of practical AI tools, agents, or infrastructure for software developers.
+      decision_evidence:
+        - The project is a Hugging Face model repo for OCR tasks, not a tool, SDK, or workflow product
+        - Source-list context places it under 'Data' in a general LLM resource list, not developer tooling
+        - No evidence of developer-facing integrations, APIs, or workflows beyond model inference
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

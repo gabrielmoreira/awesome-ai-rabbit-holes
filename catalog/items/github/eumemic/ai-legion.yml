@@ -54,22 +54,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:58.099Z"
       bytes: 2977
 insights:
-  summary: An early LLM-powered autonomous agent platform that spins up multiple agents to collaborate on tasks via a local console interface.
-  why_it_matters: It offers a historical reference point and a tangible example of multi-agent coordination patterns before the ecosystem standardized on frameworks like CrewAI or AutoGen.
-  mental_damage: Watching gpt-3.5-turbo agents devolve into endless error loops is a humbling reminder that autonomous collaboration often just means paying to watch several bots argue with a missing multiline delimiter.
+  summary: An LLM-powered platform for coordinating multiple autonomous agents to work together on tasks.
+  why_it_matters: It provides a framework for multi-agent collaboration where agents use shared memory and file-based state to complete complex workflows.
+  mental_damage: You'll spend half your time debugging the agents' code and the other half praying they don't enter an infinite loop that burns your entire API budget.
   tags:
-    - agents
     - multi-agent
-    - autonomous
-    - nodejs
-  confidence: medium
+    - autonomous-agents
+    - agent-framework
+    - multi-agent-collaboration
+  confidence: high
 curation:
   status: included
-  reason: The project's core identity is a runtime platform for coordinating multiple autonomous agents to work together, fitting the agent orchestration profile better than a single coding assistant.
+  reason: The tool's core identity is a platform for coordinating multiple agents that work together, fitting the 'operated workbench/runtime platform' definition of orchestration.
   evidence:
-    - Repo description explicitly calls it 'An LLM-powered autonomous agent platform'.
-    - README details spinning up multiple agents that 'work together to accomplish tasks' via a console interface.
-    - Included in awesome-ai-agents under 'AI Legion' and awesome-llm-agents under 'Frameworks'.
+    - README describes it as 'a framework for autonomous agents who can work together'
+    - Features multi-agent state management via a.store directory
+    - Offers a runtime environment via terminal interaction with multiple agents
 placement:
   primary_category: agent-orchestration
   section: Multi-Agent Runtime Platforms
@@ -88,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:53:44.915Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:88ef057bd8d0a0a29e3ec18e62c7232f0f39d66e1eb67803b3ec61f8d04f144f
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The tool's core identity is a platform for coordinating multiple agents that work together, fitting the 'operated workbench/runtime platform' definition of orchestration.
+      decision_evidence:
+        - README describes it as 'a framework for autonomous agents who can work together'
+        - Features multi-agent state management via a.store directory
+        - Offers a runtime environment via terminal interaction with multiple agents
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the project functions as an operated runtime/platform for multiple agents interacting rather than a library primarily used to build other applications.
+      review_reason: null
+      review_resume_lifecycle: null

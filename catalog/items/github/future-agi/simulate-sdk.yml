@@ -46,26 +46,26 @@ metadata:
       fetched_at: "2026-07-16T05:05:05.046Z"
       bytes: 12912
 insights:
-  summary: A Python SDK for simulating and testing voice and text AI agents using persona-driven scenarios, with built-in evaluation hooks.
-  why_it_matters: It lets developers run multi-turn, realistic conversations against their agents before deployment instead of discovering hallucinations in production.
-  mental_damage: You can now orchestrate an entire cast of simulated, frustrated personas to yell at your agent, just to confirm that your guardrails are as fragile as your confidence.
+  summary: A Python SDK for simulating voice and text conversations to test AI agents against persona-driven scenarios.
+  why_it_matters: It allows developers to stress-test agentic behavior and voice interactions in a controlled environment before deploying to real users.
+  mental_damage: Because nothing says 'peace of mind' like realizing your agent's hallucination surfaced during a simulated angry customer call instead of a real one.
   tags:
     - agent-testing
-    - simulation
     - voice-ai
-    - evaluation
-    - sdk
+    - simulation
+    - python-sdk
+    - evals
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring and scoring agent behavior through simulation and evaluation rather than acting as a coding assistant or generic framework.
+  reason: The tool's core identity is facilitating testing and scoring of agent behavior through simulated environments.
   evidence:
-    - "Repo description: 'Enterprise Grade, Voice AI simulation SDK for testing your AI Agents'"
-    - "README: 'Run voice and text agents against persona-driven scenarios… and feed results straight into evals' with 50+ built-in metrics"
-    - Topics include evaluation, testing-tools, and agentic-ai with active development (pushed 2026-04-24)
+    - Repo description defines it as a 'Voice AI simulation SDK for testing your AI Agents'
+    - README states it drives scenarios and hands results to an 'Evaluate' pillar for scoring
+    - Includes helpers to integrate results directly into evaluation frameworks
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  section: Observability / Tracing / EvalOps
 lifecycle:
   status: incubating
   reason: null
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:59:35.448Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c456a5359b5875e0b39fb0bcfe31f666f517f90619d2decb2d7ede377732d666
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's core identity is facilitating testing and scoring of agent behavior through simulated environments.
+      decision_evidence:
+        - Repo description defines it as a 'Voice AI simulation SDK for testing your AI Agents'
+        - README states it drives scenarios and hands results to an 'Evaluate' pillar for scoring
+        - Includes helpers to integrate results directly into evaluation frameworks
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the product's primary job is measuring and scoring agent behavior through simulation rather than providing general-purpose building blocks.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:35.756Z"
       bytes: 3828
 insights:
-  summary: An MCP server that gives AI coding agents the ability to run, inspect, debug, and visually analyze Pyxel retro game programs.
-  why_it_matters: It allows coding agents to autonomously iterate on game logic and visuals by capturing screenshots, inspecting state, and validating scripts without manual intervention.
-  mental_damage: "We have finally automated the hardest part of game development: watching a pixel jump up and down while an LLM wonders why the collision detection is slightly off."
+  summary: MCP server for AI-assisted retro game development with Pyxel, enabling autonomous execution, verification, and iteration of Pyxel game programs.
+  why_it_matters: Lets AI agents directly run, debug, and analyze Pyxel games—capturing screenshots, inspecting state, and validating scripts—without manual intervention.
+  mental_damage: Now your AI can debug your pixel-art game loop while you question your life choices in 16 colors.
   tags:
     - mcp
     - pyxel
-    - retro-game
     - game-dev
+    - retro
     - debugging
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server that exposes Pyxel game engine capabilities as tools and resources for AI agents.
+  reason: "MCP is the product identity: this is a dedicated MCP server exposing Pyxel-specific tools and resources for AI agents."
   evidence:
-    - "Repo description explicitly states: 'MCP server for AI-assisted retro game development with Pyxel'."
-    - README lists multiple MCP tools like `run_and_capture`, `inspect_state`, and exposes `pyxel://` resources.
-    - Listed in awesome-mcp-servers under the Gaming section, confirming its identity as an MCP implementation.
+    - Repo description explicitly states it is an MCP server for Pyxel
+    - README details MCP-specific tools (run_and_capture, inspect_state, etc.) and resources (pyxel://api-reference)
+    - Listed in MCP Registry (io.github.kitao/pyxel-mcp)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -83,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:41.864Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c9563aa6992287f3c3f4fdeecfda7809fb1526fec0966e61dc4281004c2b3bf1
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing Pyxel-specific tools and resources for AI agents."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Pyxel
+        - README details MCP-specific tools (run_and_capture, inspect_state, etc.) and resources (pyxel://api-reference)
+        - Listed in MCP Registry (io.github.kitao/pyxel-mcp)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific capabilities, not merely an extension layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

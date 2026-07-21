@@ -40,26 +40,26 @@ metadata:
       fetched_at: "2026-07-16T05:04:56.231Z"
       bytes: 2013
 insights:
-  summary: Endor is a CLI that spins up instant, private, sandboxed environments for services like MariaDB and PostgreSQL, offering an MCP server mode so AI agents can launch databases on demand.
-  why_it_matters: Agents that plan and write code often need real databases to test against, and Endor gives them disposable, local instances without polluting your actual system.
-  mental_damage: Your AI agent can now confidently spin up a MariaDB instance, run a migration, and then vanish it with CTRL+C, leaving you to wonder if your data ever truly existed.
+  summary: A CLI tool that provides instant, private, sandboxed environments for services like MariaDB and PostgreSQL, with MCP support for AI agent integration.
+  why_it_matters: Developers and AI agents can spin up isolated database or service instances locally in seconds, without installation overhead or system residue.
+  mental_damage: Finally, a way to give your AI agent a database without it immediately trying to `DROP TABLE users`.
   tags:
+    - sandboxed-environments
     - mcp
+    - local-dev
     - cli
-    - sandbox
-    - databases
-    - ai-agents
+    - database-instances
   confidence: high
 curation:
   status: included
-  reason: MCP is the product identity, with a dedicated `endor mcp` mode and explicit guides for Claude Code, Cursor, and other agent tools, making it an MCP-first infrastructure tool.
+  reason: MCP is the primary integration layer and product identity, enabling AI agents to launch and manage sandboxed services via the Model Context Protocol.
   evidence:
-    - README explicitly states 'MCP mode allows the services to be launched and used from AI tools like agents and IDEs' and provides `endor mcp` usage.
-    - Includes configuration guides for Claude Code, Cursor, Windsurf, VSCode, and Goose CLI.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - README explicitly positions MCP mode as a core feature for AI agent integration
+    - Repo description highlights MCP compatibility for agents and IDEs
+    - Source-list context includes it under MCP Servers > Developer Tools
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:22.641Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c241f4caa203daf57707b99bc568f1ed7e09062386b5aff795fd29efc1214d7f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the primary integration layer and product identity, enabling AI agents to launch and manage sandboxed services via the Model Context Protocol.
+      decision_evidence:
+        - README explicitly positions MCP mode as a core feature for AI agent integration
+        - Repo description highlights MCP compatibility for agents and IDEs
+        - Source-list context includes it under MCP Servers > Developer Tools
+      category_candidates:
+        - mcp
+        - local-ai
+      contrastive_reason: Choose mcp over local-ai because the product's core identity is MCP-first tooling for AI agent integration, not just local runtime provisioning.
+      review_reason: null
+      review_resume_lifecycle: null

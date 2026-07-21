@@ -37,23 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LongCat-Video is a 13.6B parameter open-source foundational model for generating long-form video from text prompts, images, or existing video clips.
-  why_it_matters: It provides developers with an efficient, MIT-licensed alternative to proprietary video generation APIs, enabling local high-quality video synthesis with support for minutes-long outputs.
-  mental_damage: "Just what the modern developer needs: another 13.6B parameter model to spin up locally while convincing ourselves we are still 'full-stack' engineers."
+  summary: A foundational video generation model by Meituan capable of text-to-video, image-to-video, and video-continuation tasks.
+  why_it_matters: It provides an open-source alternative for high-quality, long-duration video synthesis using a unified architecture.
+  mental_damage: "Just what your local GPU needed: another 13.6B parameter weight folder to manage while you pretend you're a film director."
   tags:
     - video-generation
-    - diffusers
+    - text-to-video
+    - open-source
     - multimodal
-    - huggingface
-    - torch
   confidence: high
 curation:
   status: excluded
-  reason: This is a foundational video generation model and checkpoint, not a developer-facing tool, agent, framework, or infrastructure component for coding workflows.
+  reason: This is a foundational model/checkpoint rather than a developer-facing tool, agent, or workflow utility.
   evidence:
-    - Model card describes a Text-to-Video/Image-to-Video foundational model with 13.6B parameters, not a coding tool.
-    - Listed in awesome-LLM-resources under '视频 Video > 模型' (Video Models), not under coding or developer tooling sections.
-    - Primary usage involves Diffusers/Transformers pipelines for media generation, with no relevance to repo editing, agent orchestration, or context engineering.
+    - The project is a model repository on Hugging Face, not a developer tool or SDK.
+    - It provides weights for video generation rather than code-editing, orchestration, or deployment infrastructure.
+    - The core functionality is multimodal content generation, which falls outside the scope of developer-centric AI tooling.
 placement:
   primary_category: null
   section: null
@@ -73,12 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:11.717Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:45c9c74047c42d65a5351ae60c644f16a24be8ed13883d60d2d92d56759d90f8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a foundational model/checkpoint rather than a developer-facing tool, agent, or workflow utility.
+      decision_evidence:
+        - The project is a model repository on Hugging Face, not a developer tool or SDK.
+        - It provides weights for video generation rather than code-editing, orchestration, or deployment infrastructure.
+        - The core functionality is multimodal content generation, which falls outside the scope of developer-centric AI tooling.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

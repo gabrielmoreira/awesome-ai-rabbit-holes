@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:10:54.761Z"
       bytes: 2604
 insights:
-  summary: An MCP server that gives LLMs authoritative access to a database of 7,000+ 3D printing filaments and material science knowledge for search, comparison, and troubleshooting.
-  why_it_matters: It lets developers building 3D printing workflows or assistants plug structured filament data and troubleshooting logic directly into their MCP-compatible tools without bolting on a separate API.
-  mental_damage: We have officially reached the point where your slicer can consult an oracle about PLA shrinkage, but your terminal still can’t explain why npm install failed.
+  summary: An MCP server providing LLMs with authoritative access to 7,000+ 3D printing filaments and curated material science knowledge.
+  why_it_matters: Developers building 3D printing workflows or assistants can now query filament specs, material properties, and troubleshooting tips directly through MCP.
+  mental_damage: Finally, a way to ask an LLM whether your PETG is too moist without leaving your terminal.
   tags:
     - mcp
     - 3d-printing
+    - material-science
     - knowledge-base
-    - materials
-    - domain-server
   confidence: high
 curation:
   status: included
-  reason: The product’s core identity is an MCP server providing domain-specific knowledge to LLMs, fitting cleanly into MCP Servers & Tooling.
+  reason: "MCP is the product identity: this is a domain-specific MCP server exposing filament/material knowledge as tools."
   evidence:
-    - "Repo description explicitly states: '3D printing filament and materials knowledge MCP server.'"
-    - README lists 8 MCP tools and shows Claude Desktop MCP configuration as the primary installation path.
-    - Included in awesome-mcp-servers under Knowledge & Memory, reinforcing its protocol-first identity.
+    - Repo description explicitly labels it as an MCP server
+    - README lists 8 MCP tools for filament/material operations
+    - MCP compatibility badge and Glama MCP registry link are prominently featured
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:09.005Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d36423ddc0cd154862c2aacd08c7a82f8cc368baafa04390e9c3384e5fe9c24d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing filament/material knowledge as tools."
+      decision_evidence:
+        - Repo description explicitly labels it as an MCP server
+        - README lists 8 MCP tools for filament/material operations
+        - MCP compatibility badge and Glama MCP registry link are prominently featured
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product is an MCP server first, not a general retrieval or memory system.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered GitHub and GitLab app that reviews pull request diffs, writes descriptive comments, and generates weekly progress reports and changelogs.
-  why_it_matters: It automates the tedious work of writing PR descriptions and summarizing changes for non-technical stakeholders, streamlining the code review workflow.
-  mental_damage: "We have successfully automated the last bastion of human dignity in software development: pretending to carefully review a colleague's 4,000-line diff."
+  summary: An AI-powered GitHub and GitLab app that generates plain-English explanations of pull request diffs and automates PR descriptions, summaries, and changelogs.
+  why_it_matters: It reduces the manual overhead of writing PR descriptions and keeps non-technical stakeholders informed with automated, human-readable summaries of code changes.
+  mental_damage: Finally, a way to stop writing PR descriptions that no one reads anyway.
   tags:
     - code-review
-    - github
-    - gitlab
+    - github-integration
+    - gitlab-integration
     - pr-automation
-    - ai-assistant
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone AI assistant that directly reviews code diffs and refactors minor issues within pull requests, fitting the 'Review, Testing & Repair Agents' section of Coding Agents.
+  reason: It directly reviews diffs, generates PR descriptions, and assists in refactoring, fitting the definition of a coding assistant focused on review and repair workflows.
   evidence:
-    - Site title identifies it as 'What-the-Diff – AI-powered code review assistant'.
-    - Feature list includes 'Inline AI refactoring' and 'Automated PR descriptions' based on reading the git diff.
-    - Included in the 'awesome-ai-coding-tools' list under the 'Code Review and Refactoring' section.
+    - Described as 'The AI assistant for your pull requests' with features like automated PR descriptions and inline AI refactoring
+    - Source-list context places it under 'Code Review and Refactoring' in awesome-ai-coding-tools
+    - Core functionality centers on analyzing and explaining code changes in PRs
 placement:
   primary_category: coding-agents
   section: Review, Testing & Repair Agents
@@ -70,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:09.009Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7f60652d2bb1b26e458844cea8fe0febba66f3d0fe53ec274f864506f848bb14
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It directly reviews diffs, generates PR descriptions, and assists in refactoring, fitting the definition of a coding assistant focused on review and repair workflows.
+      decision_evidence:
+        - Described as 'The AI assistant for your pull requests' with features like automated PR descriptions and inline AI refactoring
+        - Source-list context places it under 'Code Review and Refactoring' in awesome-ai-coding-tools
+        - Core functionality centers on analyzing and explaining code changes in PRs
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a standalone assistant for PR review rather than an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

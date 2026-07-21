@@ -45,23 +45,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:23.662Z"
       bytes: 9374
 insights:
-  summary: A tool-agnostic CLI and MCP framework for managing software specifications across backends like GitHub Issues, ADO, or markdown, designed to feed structured context into AI coding assistants.
-  why_it_matters: It enforces a spec-first loop where structured plans and task states act as the controlling artifact for AI implementation, rather than relying on ad-hoc prompts.
-  mental_damage: "Just what we needed: another layer of infrastructure to manage the YAML files that tell our AI agents how to manage the code that used to just be code."
+  summary: Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support.
+  why_it_matters: Lets developers use their existing issue trackers (GitHub, ADO, Jira, etc.) as spec backends while adding a unified interface, AI-native workflows, and visualization tools for SDD.
+  mental_damage: Finally, a way to turn your Jira backlog into something even an AI can pretend to understand.
   tags:
-    - spec-driven
-    - sdd
-    - cli
+    - spec-driven-development
+    - ai-integration
     - mcp
-    - context
+    - project-management
+    - workflow
   confidence: high
 curation:
   status: included
-  reason: The product identity is centered on specifications as the primary artifact for driving AI-powered development workflows, fitting the spec-driven-development category perfectly.
+  reason: Core product identity is a spec-first framework for planning, validation, and AI-assisted development workflows.
   evidence:
-    - Repo description explicitly states 'Lightweight, flexible Spec-Driven Development (SDD) for modern AI-powered development'.
-    - README defines it as 'a spec coding framework' that provides 'structured spec data for any AI coding assistant' via CLI or MCP.
-    - Listed in the 'awesome-spec-driven-development' directory under the 'Specification Tools' section.
+    - Repo description explicitly calls it 'Spec-Driven Development (SDD)'
+    - README emphasizes tool-agnostic spec backends (GitHub, ADO, Jira, markdown) with unified AI integration
+    - Includes MCP server, CLI, and UI for spec visualization and management
 placement:
   primary_category: spec-driven-development
   section: Spec-First Environments
@@ -80,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:44:44.945Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:833758abfe444341845ae0f5ef6fd736479243ac0eb54edd4cc0b3eda2620251
+      proposed_primary_category: spec-driven-development
+      disagreement: false
+      decision_reason: Core product identity is a spec-first framework for planning, validation, and AI-assisted development workflows.
+      decision_evidence:
+        - Repo description explicitly calls it 'Spec-Driven Development (SDD)'
+        - README emphasizes tool-agnostic spec backends (GitHub, ADO, Jira, markdown) with unified AI integration
+        - Includes MCP server, CLI, and UI for spec visualization and management
+      category_candidates:
+        - spec-driven-development
+        - ai-frameworks
+      contrastive_reason: Choose spec-driven-development over ai-frameworks because the primary artifact is the spec-first loop and workflow, not a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

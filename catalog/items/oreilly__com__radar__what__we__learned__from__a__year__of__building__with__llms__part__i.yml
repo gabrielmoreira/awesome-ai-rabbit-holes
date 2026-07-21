@@ -1,0 +1,111 @@
+id: oreilly__com__radar__what__we__learned__from__a__year__of__building__with__llms__part__i
+kind: website
+name: What We Learned from a Year of Building with LLMs (Part I)
+canonical_url: https://oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__oreilly__com__radar__what__we__learned__from__a__year__of__building__with__llms__part__i__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: What We Learned from a Year of Building with LLMs (Part I)
+        extracted_url: https://oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i
+        surrounding_text: 1. [What We Learned from a Year of Building with LLMs (Part I)](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/)
+        confidence: high
+    - id: discovery__www__oreilly__com__radar__what__we__learned__from__a__year__of__building__with__llms__part__i__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 技巧 Tips
+        anchor_text: What We Learned from a Year of Building with LLMs (Part I)
+        extracted_url: https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i
+        surrounding_text: 1. [What We Learned from a Year of Building with LLMs (Part I)](https://www.oreilly.com/radar/what-we-learned-from-a-year-of-building-with-llms-part-i/)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An O'Reilly Radar article sharing tactical lessons and best practices for building real-world applications with LLMs.
+  why_it_matters: It distills practical, hard-won insights on prompting, RAG, evaluation, and workflow design for developers shipping LLM-powered products.
+  mental_damage: Reading this will make you question every 2,000-token frankenprompt you’ve ever written.
+  tags:
+    - llm-best-practices
+    - rag
+    - prompt-engineering
+    - lessons-learned
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a long-form article/essay, not a developer tool, framework, or product.
+  evidence:
+    - The URL and scraped context confirm it is an O'Reilly Radar blog post, not a repo or tool
+    - The content is educational commentary, not a standalone product or library
+    - Source-list context places it in a 'Tips' section, not a tooling category
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:03.859Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3241d203065318e0e4764fc59ac3e87af6e4ae6cc1429e63347228764f17e8b6
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a long-form article/essay, not a developer tool, framework, or product.
+      decision_evidence:
+        - The URL and scraped context confirm it is an O'Reilly Radar blog post, not a repo or tool
+        - The content is educational commentary, not a standalone product or library
+        - Source-list context places it in a 'Tips' section, not a tooling category
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.968Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

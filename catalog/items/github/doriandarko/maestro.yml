@@ -39,23 +39,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:52.545Z"
       bytes: 6928
 insights:
-  summary: A Python framework that uses an orchestrator LLM to break an objective into sub-tasks, delegates them to sub-agents, and refines the results into a final output.
-  why_it_matters: It provides a local, model-agnostic scripting layer for developers to experiment with multi-agent decomposition and execution using Anthropic, OpenAI, Gemini, or local models via Ollama.
-  mental_damage: Yet another local script promising agent orchestration, ensuring you can now debug a recursive loop of LLMs arguing about your to-do list instead of just writing the code yourself.
+  summary: A Python framework for orchestrating subagents using Claude Opus, GPT, or local LLMs to break down and execute tasks.
+  why_it_matters: It lets developers delegate complex, multi-step objectives to a hierarchy of specialized agents, automating task decomposition, execution, and refinement.
+  mental_damage: Now you can argue with a team of AI subagents about whether your task is actually done.
   tags:
     - multi-agent
     - orchestration
-    - litellm
-    - local-ai
     - python
+    - task-decomposition
+    - llm
   confidence: high
 curation:
   status: included
-  reason: The project's core identity is a scripted runtime that coordinates an orchestrator model and sub-agents to decompose and execute tasks, fitting a multi-agent runtime platform rather than a primary coding assistant.
+  reason: The core product is a runtime framework for coordinating multiple agents (orchestrator, sub-agents, refiner) to solve complex tasks, fitting the multi-agent orchestration category.
   evidence:
-    - "Repo description explicitly states: 'A framework for Claude Opus to intelligently orchestrate subagents.'"
-    - README details a workflow where an orchestrator model breaks objectives into sub-tasks executed by sub-agents, then refines results.
-    - Supports multi-model orchestration via LiteLLM, Ollama, and LMStudio, emphasizing the coordination layer over single-agent coding.
+    - Repo description explicitly calls it a framework for orchestrating subagents
+    - README details a workflow where Opus breaks down tasks, Haiku executes them, and Opus refines results
+    - Supports multiple model providers (Anthropic, OpenAI, Gemini, Groq, Ollama, LMStudio) via LiteLLM
 placement:
   primary_category: agent-orchestration
   section: Multi-Agent Runtime Platforms
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:31.588Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9052e1b71ff5b05d51512d24e6bf5d8afc4b400138bce7fed389517776a79446
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The core product is a runtime framework for coordinating multiple agents (orchestrator, sub-agents, refiner) to solve complex tasks, fitting the multi-agent orchestration category.
+      decision_evidence:
+        - Repo description explicitly calls it a framework for orchestrating subagents
+        - README details a workflow where Opus breaks down tasks, Haiku executes them, and Opus refines results
+        - Supports multiple model providers (Anthropic, OpenAI, Gemini, Groq, Ollama, LMStudio) via LiteLLM
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the primary value is the operated multi-agent workflow (orchestrator/sub-agents/refiner) rather than a code-first library for embedding models.
+      review_reason: null
+      review_resume_lifecycle: null

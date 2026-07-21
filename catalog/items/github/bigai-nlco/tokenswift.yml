@@ -47,22 +47,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:11.648Z"
       bytes: 7928
 insights:
-  summary: TokenSwift is a plug-and-play inference framework that uses speculative decoding and n-gram retrieval to generate ultra-long sequences (up to 100K tokens) 3x faster with no loss in output quality.
-  why_it_matters: Developers running local or self-hosted LLMs can drastically reduce the time and compute required to generate long-form outputs like novels, documentation, or complex reasoning chains.
-  mental_damage: We have successfully accelerated the generation of text so long that no human will ever realistically read it in one sitting.
+  summary: TokenSwift is a research method for lossless acceleration of ultra long sequence generation in LLMs.
+  why_it_matters: It offers a way to speed up inference for very long sequences without sacrificing accuracy, which is relevant for developers working with large context windows.
+  mental_damage: Another paper with a name that sounds like a fintech startup but is actually about making LLMs go brrr.
   tags:
     - inference
     - speculative-decoding
-    - llm-serving
-    - long-context
+    - llm-optimization
+    - research
   confidence: high
 curation:
   status: excluded
-  reason: This is a model inference optimization and research framework (ICML 2025 paper implementation) rather than a developer-facing tool for coding, orchestration, or workflow automation.
+  reason: This is a research paper/method (ICML 2025) focused on inference optimization, not a developer tool, framework, or workflow product.
   evidence:
-    - Repo description explicitly states 'Lossless Acceleration of Ultra Long Sequence Generation', focusing on inference mechanics.
-    - README focuses on speculative decoding, KV cache management, and benchmarks for 100K token generation, not developer workflows.
-    - Source list context places it in '推理 Inference' (Inference) under a general LLM resources list, not a developer tooling list.
+    - Repo description explicitly identifies it as an ICML 2025 paper on lossless acceleration of ultra long sequence generation
+    - Topics include speculative-decoding and llm-inference, indicating a research focus rather than a developer tool
+    - No evidence of a usable product, SDK, or workflow tool for developers
 placement:
   primary_category: null
   section: null
@@ -81,12 +81,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:55.560Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2ac7b3069798b2b0bc2eed03199c8c1db8e170daf58dba59420c5e398c60ff18
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a research paper/method (ICML 2025) focused on inference optimization, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - Repo description explicitly identifies it as an ICML 2025 paper on lossless acceleration of ultra long sequence generation
+        - Topics include speculative-decoding and llm-inference, indicating a research focus rather than a developer tool
+        - No evidence of a usable product, SDK, or workflow tool for developers
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

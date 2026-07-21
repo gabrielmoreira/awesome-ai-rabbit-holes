@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:10.817Z"
       bytes: 9822
 insights:
-  summary: An archived Model Context Protocol server that allows AI tools to inspect Gradle projects and execute tasks via the Gradle Tooling API.
-  why_it_matters: It enables coding agents to understand build structures and run tests directly within Gradle projects without manual CLI intervention.
-  mental_damage: "We have successfully automated the one part of Gradle that was previously immune to AI interference: the build configuration itself."
+  summary: An archived Model Context Protocol (MCP) server for enabling AI tools to interact with Gradle projects programmatically.
+  why_it_matters: It allows AI assistants to query Gradle project structures, execute tasks, and run tests with structured outputs, bridging AI workflows with Gradle-based builds.
+  mental_damage: Nothing says 'stable foundation' like a deprecated MCP server for a build tool that already feels like a second job.
   tags:
     - mcp
     - gradle
     - build-tools
-    - java
+    - deprecated
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and points users to a replacement project (gradle-mcp), making it obsolete for the catalog.
+  reason: The project is archived and explicitly deprecated in favor of another repo, making it unsuitable for active curation.
   evidence:
-    - "Repo status is 'archived: yes' with a deprecation notice in the README."
-    - README explicitly directs users to use 'gradle-mcp' (https://github.com/rnett/gradle-mcp) instead.
-    - Project identity is a standard MCP server, fitting the 'mcp' category, but the archived status overrides inclusion.
+    - "Repo is archived (archived: true)"
+    - README explicitly states deprecation and redirects to gradle-mcp
+    - Last push (2026-03-14) is likely a maintenance artifact, not active development
 placement:
   primary_category: null
   section: null
@@ -74,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:54.318Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1b1294f7e7bf965fe7464e6818864347993adf55d787f3ec8c02bfd9be3c3de2
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is archived and explicitly deprecated in favor of another repo, making it unsuitable for active curation.
+      decision_evidence:
+        - "Repo is archived (archived: true)"
+        - README explicitly states deprecation and redirects to gradle-mcp
+        - Last push (2026-03-14) is likely a maintenance artifact, not active development
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,21 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated, auto-updating directory of open source LLM tools and developers, now hosted at GoodAIList.com.
-  why_it_matters: Developers can quickly discover trending local AI repositories and look up tool creators by geography when evaluating self-hosted options.
-  mental_damage: Yet another beautifully curated map of the AI ecosystem that will make you realize how many unmaintained LLM wrappers you have bookmarked.
+  summary: A curated list of open source LLM tools, now redirected to GoodAIList.com.
+  why_it_matters: Provides developers with a navigable directory of trending open source AI tools and repositories.
+  mental_damage: Another list of lists, because the only thing harder than finding AI tools is finding the list of lists that contains them.
   tags:
-    - local-ai
     - directory
-    - discovery
+    - open-source
+    - llm-tools
+    - curated-list
   confidence: high
 curation:
   status: included
-  reason: This is a discovery and navigation resource for open source LLM tooling, not a standalone developer product, making it a fit for the Lists & Directories category.
+  reason: This is a curated directory of AI tools, which fits the scope of navigation aids for developers.
   evidence:
-    - The page describes itself as a list of 'Open Source LLM Tools' that updates every 12 hours.
-    - The content has moved to GoodAIList.com and allows browsing trending repos and developers by location.
-    - It was found in the awesome-local-ai list under the 'Lists' section.
+    - Page explicitly describes itself as a list of open source LLM tools
+    - Source-list context shows it is included in awesome-local-ai under Lists
+    - Content is now hosted at GoodAIList.com as a dedicated directory
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -68,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:31.614Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:314d41be63df1701852ade9d0f272eb6ad52f5e689699841f63e774289326197
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of AI tools, which fits the scope of navigation aids for developers.
+      decision_evidence:
+        - Page explicitly describes itself as a list of open source LLM tools
+        - Source-list context shows it is included in awesome-local-ai under Lists
+        - Content is now hosted at GoodAIList.com as a dedicated directory
+      category_candidates:
+        - awesome-awesomes
+        - newsletters-and-feeds
+      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because the primary value is discovery via a curated directory rather than recurring commentary or media.
+      review_reason: null
+      review_resume_lifecycle: null

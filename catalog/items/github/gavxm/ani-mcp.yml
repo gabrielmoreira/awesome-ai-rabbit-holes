@@ -46,23 +46,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:06.024Z"
       bytes: 12062
 insights:
-  summary: An MCP server that adds a taste-aware intelligence layer on top of the AniList API for personalized anime and manga recommendations, watch analytics, and list management.
-  why_it_matters: It gives Claude Desktop and other MCP clients a ready-made way to reason about a user's media preferences instead of just proxying raw API calls.
-  mental_damage: "We have finally solved the hardest engineering problem of our time: asking a state-of-the-art coding assistant what anime to watch next without leaving the IDE."
+  summary: An MCP server for AniList that provides taste-aware recommendations, watch analytics, and list management for LLM clients.
+  why_it_matters: It extends the capabilities of AI assistants like Claude Desktop with specialized domain knowledge and stateful interaction for anime and manga enthusiasts.
+  mental_damage: Now your LLM can judge your anime watch list with the same intensity as your friends on social media.
   tags:
     - mcp
     - anilist
-    - recommendation
-    - entertainment
-    - domain-server
+    - ai-integration
+    - recommendations
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for AniList, fitting squarely into the MCP Servers & Tooling category as a domain-specific server.
+  reason: The project's identity is explicitly an MCP server designed to provide a specific domain's data and logic to LLM hosts.
   evidence:
-    - Repo description states it is an 'MCP server for AniList' with recommendations and list management.
-    - README confirms it is an MCP server adding an 'intelligence layer' for AniList and works with Claude Desktop/Code.
-    - Listed in the awesome-mcp-servers directory under 'Art & Culture' domain servers.
+    - Repo description identifies it as an 'MCP server for AniList'
+    - README focuses on MCP integration for Claude Desktop and Claude Code
+    - Offers specialized 'intelligence layer' on top of raw API calls via MCP
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -81,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:01:02.085Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:60a7b68b3572a07ed3bb7247eddb331ee47d1bc9e5a60578715c5c4cacf77268
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's identity is explicitly an MCP server designed to provide a specific domain's data and logic to LLM hosts.
+      decision_evidence:
+        - Repo description identifies it as an 'MCP server for AniList'
+        - README focuses on MCP integration for Claude Desktop and Claude Code
+        - Offers specialized 'intelligence layer' on top of raw API calls via MCP
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, providing domain-specific capabilities through the protocol rather than being a general host extension.
+      review_reason: null
+      review_resume_lifecycle: null

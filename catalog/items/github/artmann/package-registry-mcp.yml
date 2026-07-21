@@ -55,22 +55,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:04.898Z"
       bytes: 11769
 insights:
-  summary: An MCP server that lets AI assistants search NPM, PyPI, crates.io, NuGet, and Go module registries and retrieve real-time package details and vulnerability advisories.
-  why_it_matters: Developers using agents can get live dependency information and security advisories instead of relying on stale training data when choosing or debugging packages.
-  mental_damage: We have invented a protocol so your AI can check if that npm package is abandonware before it confidently pastes the import statement.
+  summary: An MCP server that enables AI assistants to search and retrieve up-to-date package information from NPM, Cargo, PyPI, NuGet, and Go registries.
+  why_it_matters: Developers can now query package metadata, versions, and vulnerabilities directly from their AI coding environment without switching contexts.
+  mental_damage: Finally, a way to ask your AI assistant 'what’s the latest version of react?' without it hallucinating a semver number from the void.
   tags:
     - mcp
-    - dependencies
-    - security
     - package-registry
+    - developer-tools
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing package-registry tooling for AI assistants, which fits cleanly as domain-specific MCP infrastructure.
+  reason: This is a dedicated MCP server whose primary identity is providing package registry access via MCP, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for searching and getting up-to-date information about NPM, Cargo, PyPi, and NuGet packages.'
-    - README states 'A Model Context Protocol (MCP) server that enables AI assistants and agents (Claude, Cursor, Copilot, etc.) to search package registries.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools' and 'Community Servers'.
+    - Repo description explicitly states it is an MCP server for package registries
+    - README details MCP-specific setup for Cursor, Claude Code, and Claude Desktop
+    - Source-list context places it in MCP server directories
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:07.202Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:be82bfebe7acc6df7b8a4fecc8ea550d676765e8ed6144491da6aea31b6bf38e
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is providing package registry access via MCP, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for package registries
+        - README details MCP-specific setup for Cursor, Claude Code, and Claude Desktop
+        - Source-list context places it in MCP server directories
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant).
+      review_reason: null
+      review_resume_lifecycle: null

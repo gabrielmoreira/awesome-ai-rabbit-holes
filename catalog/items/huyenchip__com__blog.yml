@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A personal blog by Chip Huyen focused on AI system design, production MLOps, and the practical realities of building generative AI applications.
-  why_it_matters: It provides deep, practitioner-focused synthesis on LLM application architecture, model routing, and production pitfalls that directly inform how developers build AI tooling.
-  mental_damage: Yet another high-signal reading list to rotate into your 'later' tab, ensuring you feel perpetually behind on the latest production-grade architectural trend while chasing the current agent hype cycle.
+  summary: Chip Huyen's personal blog covering AI system design, production ML, and generative AI engineering insights.
+  why_it_matters: Provides practical, production-focused AI engineering perspectives that help developers understand real-world constraints and architectures.
+  mental_damage: Another blog to add to your RSS feed that you'll swear you'll read but will eventually ignore like all the others.
   tags:
-    - ai-system-design
+    - ai-blog
     - mlops
-    - llm-guides
-    - production-ai
+    - production-ml
+    - system-design
   confidence: high
 curation:
   status: included
-  reason: The primary value is ongoing educational publishing and commentary on AI system design rather than a standalone developer tool or product.
+  reason: This is a recurring publication/blog focused on AI system design and production insights, which fits the Publications & Feeds category for developer-facing educational media.
   evidence:
-    - "Scraped site description states: 'I work to bring AI into production. I write about AI system design.'"
-    - The site is a blog with posts on topics like 'Building LLM applications for production' and 'Common pitfalls when building generative AI applications'.
-    - Listed in awesome-LLM-resources under the '教程 Tutorial' (Tutorial) section as a learning resource.
+    - "Site description explicitly states: 'I work to bring AI into production. I write about AI system design.'"
+    - Content includes posts on generative AI platforms, LLM applications, and production ML workflows.
+    - Source-list context places it in a 'Tutorial' section of an LLM resources list.
 placement:
   primary_category: newsletters-and-feeds
   section: null
@@ -69,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:30.286Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5ab11cf30a65388c56eeb04f8b1160b8d7fa0c4ba9968f6a5f07644c78b85b03
+      proposed_primary_category: newsletters-and-feeds
+      disagreement: false
+      decision_reason: This is a recurring publication/blog focused on AI system design and production insights, which fits the Publications & Feeds category for developer-facing educational media.
+      decision_evidence:
+        - "Site description explicitly states: 'I work to bring AI into production. I write about AI system design.'"
+        - Content includes posts on generative AI platforms, LLM applications, and production ML workflows.
+        - Source-list context places it in a 'Tutorial' section of an LLM resources list.
+      category_candidates:
+        - newsletters-and-feeds
+        - awesome-awesomes
+      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because the primary value is ongoing educational content rather than a curated directory.
+      review_reason: null
+      review_resume_lifecycle: null

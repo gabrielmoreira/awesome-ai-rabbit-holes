@@ -47,26 +47,25 @@ metadata:
       fetched_at: "2026-07-20T15:11:49.839Z"
       bytes: 28557
 insights:
-  summary: A deep learning framework that organizes PyTorch code to automate training infrastructure, enabling pretraining and finetuning of AI models at scale from 1 to 10,000+ GPUs.
-  why_it_matters: It abstracts away repetitive engineering overhead like mixed precision and distributed training, letting developers focus on model logic while scaling across hardware without code changes.
-  mental_damage: Yet another layer of abstraction promising to save you from PyTorch boilerplate, ensuring you can now spend all your time debugging why your model mysteriously stopped converging at 10,000 GPUs instead of 1.
+  summary: PyTorch Lightning is a framework that automates PyTorch training engineering like backpropagation, mixed precision, and multi-GPU scaling while preserving full model control.
+  why_it_matters: It lets developers focus on model science instead of repetitive training infrastructure code, scaling from CPU to thousands of GPUs without changing core logic.
+  mental_damage: You’ll spend less time debugging distributed training loops and more time wondering why your model still won’t converge.
   tags:
     - pytorch
     - deep-learning
-    - training
-    - framework
-    - distributed
+    - training-framework
+    - ai-infrastructure
   confidence: high
 curation:
-  status: excluded
-  reason: Excluded because it is a general deep learning and model training framework for PyTorch, not a developer-facing AI tool, agent, or productivity workflow relevant to the catalog's scope.
+  status: included
+  reason: PyTorch Lightning is a code-first framework used as a library to structure and scale AI training workflows, not a coding agent, orchestrator, or app builder.
   evidence:
-    - Repo description explicitly states it is for pretraining/finetuning ANY AI model on GPUs, targeting data scientists and ML engineers.
-    - README describes it as a deep learning framework to organize PyTorch code, automate training infrastructure, and scale across hardware.
-    - Topics include ai, machine-learning, deep-learning, and python, with no coding-agent, IDE, extension, or developer-tooling angle.
+    - "Repo description: 'Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes'"
+    - "README: 'PyTorch Lightning organizes PyTorch code to automate this infrastructure while keeping full control over your model logic'"
+    - "Core identity: Developers import and script against it as a framework (e.g., LightningModule, Trainer), not operate it as a control plane"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Workflow / Graph Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (31114) exceeded threshold (150)
@@ -82,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:57.081Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7f7926c1b2f6c6527ade4d7b7355dc15f70c154287d2557a244dfb419721cad1
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: PyTorch Lightning is a code-first framework used as a library to structure and scale AI training workflows, not a coding agent, orchestrator, or app builder.
+      decision_evidence:
+        - "Repo description: 'Pretrain, finetune ANY AI model of ANY size on 1 or 10,000+ GPUs with zero code changes'"
+        - "README: 'PyTorch Lightning organizes PyTorch code to automate this infrastructure while keeping full control over your model logic'"
+        - "Core identity: Developers import and script against it as a framework (e.g., LightningModule, Trainer), not operate it as a control plane"
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers primarily import and script against PyTorch Lightning as a library in code, rather than operating it as a multi-agent workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

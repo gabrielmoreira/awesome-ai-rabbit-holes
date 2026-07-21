@@ -1,0 +1,109 @@
+id: heightsplatform__com
+kind: website
+name: Heights Platform
+canonical_url: https://heightsplatform.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__heightsplatform__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Heights Platform
+        anchor_text: Heights Platform
+        extracted_url: https://heightsplatform.com
+        surrounding_text: "## [Heights Platform](https://www.heightsplatform.com/)"
+        confidence: high
+    - id: discovery__www__heightsplatform__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Heights Platform
+        anchor_text: Heights Platform
+        extracted_url: https://www.heightsplatform.com
+        surrounding_text: "## [Heights Platform](https://www.heightsplatform.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An all-in-one AI-powered platform for creators to build, sell, and grow online courses, communities, and coaching programs.
+  why_it_matters: It offers AI tools to help creators draft courses, review content, and get coaching, but it is not developer-focused.
+  mental_damage: Another SaaS promising to turn your expertise into passive income, now with AI sprinkles.
+  tags:
+    - course-creation
+    - creator-tools
+    - ai-coaching
+    - saas
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a creator-focused SaaS for online course and community building, not a developer-tooling product.
+  evidence:
+    - Scraped site context describes it as 'AI online course creation software platform' for creators
+    - Primary page excerpt emphasizes course creation, community building, and coaching for non-developers
+    - Source-list context places it in 'AI autonomous agents' but the actual product is a creator platform
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:34:58.793Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f8dcad4af6f2ed9c29be17074d858ff756ef113c309b09d13314f15013a9e2b1
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a creator-focused SaaS for online course and community building, not a developer-tooling product.
+      decision_evidence:
+        - Scraped site context describes it as 'AI online course creation software platform' for creators
+        - Primary page excerpt emphasizes course creation, community building, and coaching for non-developers
+        - Source-list context places it in 'AI autonomous agents' but the actual product is a creator platform
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.966Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

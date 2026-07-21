@@ -51,40 +51,56 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Ability.ai is a consultancy and service provider that builds custom, technology-agnostic agentic AI automation systems for mid-market business workflows like support, sales, and recruiting.
-  why_it_matters: It offers a model for outsourcing the build of custom agentic workflows and owning the resulting infrastructure, rather than subscribing to a generic platform.
-  mental_damage: Yet another sign that 'agentic AI' has become a fancy buzzword for 'we will write custom scripts for your CRM and call it a digital employee.'
+  summary: An applied AI lab offering a self-improving cognitive core (Cornelius) and an open-source production runtime (Trinity) for sovereign agentic systems.
+  why_it_matters: Provides developers with a production-grade runtime and cognitive core for building and operating self-improving agents that compound knowledge over time.
+  mental_damage: Finally, a runtime that promises agents that improve instead of decaying—just don’t ask how many YAML files it takes to configure one.
   tags:
-    - agentic-ai
-    - automation
-    - consultancy
-    - mid-market
-    - no-code
+    - agent-runtime
+    - self-improving-agents
+    - sovereign-ai
+    - open-source
+    - production-agents
   confidence: high
 curation:
-  status: excluded
-  reason: The primary offering is a service-based consultancy and custom automation agency for business operations, not a developer-facing tool, framework, or infrastructure product.
+  status: included
+  reason: The core product is a runtime platform (Trinity) and cognitive core (Cornelius) for coordinating and operating multiple agents in production, fitting the agent orchestration category.
   evidence:
-    - The site describes itself as an 'Agentic AI solution provider' focusing on 'mid-market automation' and 'Custom systems'.
-    - The workflow involves booking strategy calls and fixed-cost projects where 'We build it in your environment', not a product you import or install.
-    - It focuses on business functions like support, sales, and recruiting rather than developer tooling or code editing.
+    - Trinity is described as an open-source production runtime for agents, with scheduling, auditing, and sovereign deployment
+    - Cornelius is a self-improving cognitive core that compounds knowledge and upgrades agent fleets
+    - The platform is positioned as infrastructure for running agentic systems in production, not as a coding assistant or IDE
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:11.966Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:71bee03ea4947fab59de2e6ab5913755a2359b7ff6f795c23fe37f138c938fc1
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The core product is a runtime platform (Trinity) and cognitive core (Cornelius) for coordinating and operating multiple agents in production, fitting the agent orchestration category.
+      decision_evidence:
+        - Trinity is described as an open-source production runtime for agents, with scheduling, auditing, and sovereign deployment
+        - Cornelius is a self-improving cognitive core that compounds knowledge and upgrades agent fleets
+        - The platform is positioned as infrastructure for running agentic systems in production, not as a coding assistant or IDE
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated runtime platform for agents, not a code-first library or SDK.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T15:10:47.688Z"

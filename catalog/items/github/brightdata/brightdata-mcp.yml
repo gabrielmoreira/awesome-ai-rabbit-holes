@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:14.999Z"
       bytes: 20014
 insights:
-  summary: A Model Context Protocol server providing AI assistants with real-time web access, including scraping, browser automation, and package metadata lookups for npm and PyPI.
-  why_it_matters: It allows coding agents like Claude Code and Cursor to fetch live web data and dependency info without getting blocked by anti-bot measures.
-  mental_damage: Your agent can now hallucinate about the current state of npm packages with the confidence of a human who only reads marketing blogs.
+  summary: An MCP server that provides real-time web access, package metadata lookup, and AI brand visibility tools for AI agents.
+  why_it_matters: Developers can integrate live web data, npm/PyPI package info, and LLM brand insights directly into their AI workflows without scraping or blocking issues.
+  mental_damage: Finally, your AI agent can browse the web without pretending it’s a human in 2012.
   tags:
     - mcp-server
     - web-scraping
-    - ai-agent
-    - brightdata
+    - package-metadata
+    - ai-integration
     - real-time-data
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server designed to give LLMs web access and package data, fitting squarely into the MCP Servers & Tooling category.
+  reason: The product is explicitly an MCP server with MCP as its primary identity, offering domain-specific tools (web access, package data, GEO) for AI agents.
   evidence:
-    - Repo description explicitly states it is a 'Model Context Protocol (MCP) server'.
-    - README pitches 'The Web MCP' as a gateway to give AI assistants web capabilities via MCP.
-    - Listed in 'awesome-mcp-servers' under the 'Official Servers' section.
+    - "Repo description: 'A powerful Model Context Protocol (MCP) server that provides an all-in-one solution for public web access'"
+    - README highlights MCP server functionality (web, code, GEO tool groups) and integration with MCP-compatible agents
+    - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:56.169Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1c6b407914a781337cfe42a1999932d054e4f7ed14136501baa4143e0442d5a0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server with MCP as its primary identity, offering domain-specific tools (web access, package data, GEO) for AI agents.
+      decision_evidence:
+        - "Repo description: 'A powerful Model Context Protocol (MCP) server that provides an all-in-one solution for public web access'"
+        - README highlights MCP server functionality (web, code, GEO tool groups) and integration with MCP-compatible agents
+        - Listed in awesome-mcp-servers under 'Official Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not just an extension for another assistant) with MCP as its primary identity.
+      review_reason: null
+      review_resume_lifecycle: null

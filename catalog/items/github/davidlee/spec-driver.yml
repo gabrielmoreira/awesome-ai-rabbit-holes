@@ -46,22 +46,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:30.194Z"
       bytes: 9404
 insights:
-  summary: A CLI and TUI toolkit that drives Claude Code or Codex using evergreen markdown and YAML specifications to manage the lifecycle of code changes.
-  why_it_matters: It creates a structured spec-first loop that treats living documentation as the authoritative source of truth for agent-driven development workflows.
-  mental_damage: You finally solved the problem of keeping documentation in sync by making the stochastic agent responsible for maintaining the very specs that keep it in check.
+  summary: A CLI toolkit for spec-driven development that integrates with coding agents like Claude Code to manage evergreen specifications, workflows, and project documentation.
+  why_it_matters: It shifts development workflows from disposable research to verifiable, maintainable specs, making agentic coding more deterministic and scalable.
+  mental_damage: Finally, a tool that turns your chaotic agent sessions into something you can audit without crying.
   tags:
-    - spec-driven
+    - spec-driven-development
     - cli
-    - tui
     - claude-code
+    - agentic-workflows
+    - documentation
   confidence: high
 curation:
   status: included
-  reason: The project centers on a specification-first loop where markdown and YAML specs drive the agent's execution, validation, and repair workflow.
+  reason: The core product identity is a spec-first loop for planning, execution, and validation, with specs as the primary artifact driving implementation.
   evidence:
-    - "Repo description states: 'You install it. Claude drives the CLI tool.'"
-    - README defines it as 'specification-driving development toolkit' with 'evergreen specs' and 'agentic memory'.
-    - Listed in awesome-spec-driven-development under 'Specification Tools' section.
+    - README explicitly positions it as a 'specification-driving development toolkit'
+    - Designed for 'evergreen specs' and 'spec-driven development with Claude Code & friends'
+    - Listed in 'awesome-spec-driven-development' under 'Specification Tools'
 placement:
   primary_category: spec-driven-development
   section: Spec-First Environments
@@ -80,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:07.039Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:91d0863425900983b5135bb5e91236ab3568d10cf7667ca65861e8f4bab8a8f4
+      proposed_primary_category: spec-driven-development
+      disagreement: false
+      decision_reason: The core product identity is a spec-first loop for planning, execution, and validation, with specs as the primary artifact driving implementation.
+      decision_evidence:
+        - README explicitly positions it as a 'specification-driving development toolkit'
+        - Designed for 'evergreen specs' and 'spec-driven development with Claude Code & friends'
+        - Listed in 'awesome-spec-driven-development' under 'Specification Tools'
+      category_candidates:
+        - spec-driven-development
+        - ai-dev-extensions
+      contrastive_reason: Choose spec-driven-development over ai-dev-extensions because the primary value is the spec-first workflow and artifact management, not merely augmenting another assistant with host integrations.
+      review_reason: null
+      review_resume_lifecycle: null

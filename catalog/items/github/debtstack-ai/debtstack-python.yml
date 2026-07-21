@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:31.108Z"
       bytes: 10909
 insights:
-  summary: A Python SDK and MCP server providing normalized corporate credit and bond data through an API designed for AI agents to query financial metrics and entity relationships.
-  why_it_matters: Developers building fintech agents no longer need to scrape SEC filings manually to answer questions about leverage ratios, guarantor chains, or bond pricing.
-  mental_damage: We have finally built the inevitable infrastructure to let AI agents worry about debt-to-equity ratios at 3 AM instead of us.
+  summary: Python SDK, LangChain tools, and MCP server providing corporate credit data for AI agents.
+  why_it_matters: Developers building financial or credit-analysis agents can query normalized corporate debt structures, guarantor chains, and covenant details without parsing SEC filings manually.
+  mental_damage: Finally, a way to ask an AI agent about bond covenants without it hallucinating a Yahoo Finance for debt.
   tags:
     - finance
-    - mcp
-    - python
-    - sdk
+    - mcp-server
     - langchain
+    - credit-data
+    - python-sdk
   confidence: high
 curation:
   status: included
-  reason: The repo's primary identity is a Python SDK and MCP server exposing corporate credit data, fitting cleanly into the MCP Domain Servers section with its own server implementation and LangChain tooling.
+  reason: "MCP is the product identity here: the repo explicitly ships an MCP server alongside its Python SDK and LangChain tools, and it is already listed in an MCP server registry."
   evidence:
-    - Repo description explicitly states 'Python SDK, LangChain tools, and MCP server'.
-    - README details an MCP server implementation with <100ms response times for AI agent queries.
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming ecosystem fit.
+    - Repo description explicitly states it is a Python SDK, LangChain tools, and MCP server for corporate credit data
+    - README highlights MCP server badge and Glama registry link
+    - Listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -84,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:14.245Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:063bb7d357d46938d6d23489c683e7c13ce2367abe72fa01332bda0490b8fdf5
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: the repo explicitly ships an MCP server alongside its Python SDK and LangChain tools, and it is already listed in an MCP server registry."
+      decision_evidence:
+        - Repo description explicitly states it is a Python SDK, LangChain tools, and MCP server for corporate credit data
+        - README highlights MCP server badge and Glama registry link
+        - Listed in awesome-mcp-servers under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is as an MCP server (with SDK and LangChain tools as secondary interfaces), not a general-purpose framework.
+      review_reason: null
+      review_resume_lifecycle: null

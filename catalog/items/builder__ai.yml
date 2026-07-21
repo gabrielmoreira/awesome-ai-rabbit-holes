@@ -1,0 +1,109 @@
+id: builder__ai
+kind: website
+name: Builder.ai
+canonical_url: https://builder.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__builder__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Builder.ai
+        extracted_url: https://builder.ai
+        surrounding_text: "- **[Builder.ai](https://www.builder.ai/)** – AI-driven custom software development for web and mobile."
+        confidence: high
+    - id: discovery__www__builder__ai__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - App Builders
+        anchor_text: Builder.ai
+        extracted_url: https://www.builder.ai
+        surrounding_text: "- **[Builder.ai](https://www.builder.ai/)** – AI-driven custom software development for web and mobile."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Builder.ai is a platform for generating and deploying apps from prompts.
+  why_it_matters: It allows developers to create apps, sites, or internal tools by describing what they want in natural language, reducing the need for manual coding.
+  mental_damage: Finally, a way to turn your half-baked app idea into a half-baked app.
+  tags:
+    - app-builder
+    - prompt-to-app
+    - no-code
+    - ai-generated
+  confidence: high
+curation:
+  status: included
+  reason: The product's core value is turning prompts into deployed apps, which aligns with the App Builders category.
+  evidence:
+    - Seen in awesome-ai-coding-tools under App Builders
+    - Primary product identity is prompt-to-app generation
+placement:
+  primary_category: app-builders
+  section: Prompt-to-App Builders
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:32:53.472Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6005913e4407a5c3304b893115f7680b89be4276a7592907b1b6b97c4043a413
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product's core value is turning prompts into deployed apps, which aligns with the App Builders category.
+      decision_evidence:
+        - Seen in awesome-ai-coding-tools under App Builders
+        - Primary product identity is prompt-to-app generation
+      category_candidates:
+        - app-builders
+        - ai-frameworks
+      contrastive_reason: Choose app-builders over ai-frameworks because the main surface is prompt-to-app generation rather than a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.963Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

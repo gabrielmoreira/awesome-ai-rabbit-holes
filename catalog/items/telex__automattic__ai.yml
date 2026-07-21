@@ -36,24 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-assisted authoring environment that transforms ideas into fully functional WordPress projects.
-  why_it_matters: It targets developers and agencies building on WordPress by automating the creation of entire project scaffolds from prompts.
-  mental_damage: Yet another reminder that while AI can scaffold your entire WordPress project in seconds, you'll still spend the next three hours debugging a conflict between two plugins from 2018.
+  summary: Telex is an AI-assisted authoring environment for WordPress that transforms ideas into fully functional WordPress projects.
+  why_it_matters: It enables developers to rapidly scaffold and deploy WordPress projects from natural language prompts, reducing boilerplate and setup time.
+  mental_damage: Finally, a way to turn your half-baked WordPress plugin idea into a half-baked WordPress plugin in record time.
   tags:
     - wordpress
-    - app-builder
     - prompt-to-app
-  confidence: medium
+    - scaffolding
+    - ai-assisted
+  confidence: high
 curation:
   status: included
-  reason: The product's core promise is turning ideas into fully functional WordPress projects, which aligns with prompt-to-app generation rather than editing existing repos or acting as a general coding agent.
+  reason: Telex's core value is prompt-to-WordPress project generation, which aligns with the app-builders category for prompt-to-site tools.
   evidence:
-    - Scraped site title describes it as an 'AI-Assisted Authoring Environment for WordPress'.
-    - Description states it can 'Transform ideas into fully functional WordPress projects with Telex'.
-    - Seen in awesome-ai-agents under a section explicitly linking to its prompt-to-project capability.
+    - Scraped site context describes it as an 'AI-Assisted Authoring Environment for WordPress' that 'transforms ideas into fully functional WordPress projects'
+    - Source-list context places it under 'CodeWP' in an AI agents list, emphasizing its WordPress project generation role
 placement:
   primary_category: app-builders
-  section: Prompt-to-App Builders
+  section: Prompt-to-Site Builders
 lifecycle:
   status: incubating
   reason: null
@@ -68,12 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:37:53.473Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:eb38be572f2b35d42536e044e8d05d7a72bcbc7813b6b9338aa5daa007e91b6f
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: Telex's core value is prompt-to-WordPress project generation, which aligns with the app-builders category for prompt-to-site tools.
+      decision_evidence:
+        - Scraped site context describes it as an 'AI-Assisted Authoring Environment for WordPress' that 'transforms ideas into fully functional WordPress projects'
+        - Source-list context places it under 'CodeWP' in an AI agents list, emphasizing its WordPress project generation role
+      category_candidates:
+        - app-builders
+        - ai-dev-extensions
+      contrastive_reason: Choose app-builders over ai-dev-extensions because the primary product identity is prompt-to-site generation rather than augmenting another assistant or editor.
+      review_reason: null
+      review_resume_lifecycle: null

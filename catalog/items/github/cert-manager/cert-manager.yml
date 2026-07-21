@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:18.785Z"
       bytes: 7020
 insights:
-  summary: cert-manager is a Kubernetes add-on that automates the provisioning, renewal, and management of TLS certificates from sources like Let's Encrypt and HashiCorp Vault using custom resource definitions.
-  why_it_matters: It removes the operational toil of manual certificate rotation in Kubernetes, allowing developers to secure ingress resources and services without worrying about expiry outages.
-  mental_damage: You have mastered the bleeding edge of LLM-assisted coding, yet your production outage is still caused by a Let's Encrypt cert you forgot to renew three months ago.
+  summary: Automatically provisions and manages TLS certificates in Kubernetes clusters.
+  why_it_matters: Simplifies obtaining, renewing, and maintaining TLS certificates for Kubernetes workloads, reducing operational toil and outage risk.
+  mental_damage: Because nothing says 'modern infrastructure' like spending a week debugging why your Let's Encrypt certs expired at 3 AM.
   tags:
     - kubernetes
     - tls
     - certificates
-    - infrastructure
-    - devops
+    - letsencrypt
+    - infra
   confidence: high
 curation:
   status: excluded
-  reason: This is a general Kubernetes infrastructure tool for TLS management; it has no AI capabilities, coding-agent features, or developer-facing AI workflow integration.
+  reason: This is a Kubernetes-native certificate management tool, not an AI/ML or developer-tooling product for AI workflows.
   evidence:
-    - Repo description states it 'Automatically provision and manage TLS certificates in Kubernetes' with no mention of AI.
-    - README describes issuing certificates from Let's Encrypt, Vault, and CyberArk, functioning as standard infrastructure automation.
-    - Listed in awesome-mcp-servers source list, but the project itself is a core Kubernetes operator with no MCP server implementation in its description or README.
+    - Repo description explicitly states it is for TLS certificate management in Kubernetes
+    - README confirms focus on certificate issuance/renewal, not AI/ML or developer tooling
+    - Source-list context shows it appears in MCP servers list but only as a cloud platform integration, not as an AI tool
 placement:
   primary_category: null
   section: null
@@ -81,12 +81,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:12.994Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e78cc18408384893c543d4a77b5fc574ddcfbfabc4bbc9212825e033f15607d3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a Kubernetes-native certificate management tool, not an AI/ML or developer-tooling product for AI workflows.
+      decision_evidence:
+        - Repo description explicitly states it is for TLS certificate management in Kubernetes
+        - README confirms focus on certificate issuance/renewal, not AI/ML or developer tooling
+        - Source-list context shows it appears in MCP servers list but only as a cloud platform integration, not as an AI tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

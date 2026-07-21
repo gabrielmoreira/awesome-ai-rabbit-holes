@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: PaddleOCR-VL-1.5 is a 0.9B vision-language model fine-tuned for high-accuracy document parsing, including OCR, table extraction, formula recognition, and layout analysis.
-  why_it_matters: It provides developers with a compact, open-source model capable of parsing complex, real-world document images into structured formats like Markdown and JSON.
-  mental_damage: "Just what we needed: another 0.9B model to self-host so we can stop using proprietary APIs for documents that probably should have been PDFs to begin with."
+  summary: A 0.9B parameter vision-language model for robust document parsing, OCR, and multilingual text extraction from images.
+  why_it_matters: Developers can integrate this model to extract structured text, tables, and layouts from documents, invoices, or screenshots with high accuracy across multiple languages.
+  mental_damage: Finally, a model that can read your PDFs better than you can, but still can't explain why your printer jammed.
   tags:
     - ocr
     - document-parsing
-    - vlm
-    - paddlepaddle
-    - multimodal
+    - vision-language-model
+    - multilingual
+    - paddleocr
   confidence: high
 curation:
   status: excluded
-  reason: This is a raw model checkpoint and research artifact for document parsing, not a developer-facing tool, agent, framework, or infrastructure component that fits the catalog's scope.
+  reason: This is a raw model checkpoint (vision-language OCR) without a developer-tooling surface, framework, or workflow integration; it belongs to model repositories rather than developer tooling.
   evidence:
-    - "Hosted on Hugging Face as a model checkpoint (pipeline_tag: image-text-to-text) with no standalone CLI, SDK, or developer tool surface."
-    - Source list context places it in a general LLM resources list under 'Data', not a developer tooling or coding agent directory.
-    - The README describes model architecture, benchmarks, and inference usage via the PaddleOCR library, but the model itself is not a developer product.
+    - "Hugging Face page identifies it as a model (repoType: model) for image-to-text and document parsing"
+    - Primary artifact is a model checkpoint (safetensors) with usage examples via PaddleOCR library, not a standalone tool
+    - Source-list context places it under 'Data' in a general LLM resources list, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -72,12 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:01.970Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b6b265925db4a6d660f3cdc8fdb2309e36338a3e6567b12b8bec832403366df8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a raw model checkpoint (vision-language OCR) without a developer-tooling surface, framework, or workflow integration; it belongs to model repositories rather than developer tooling.
+      decision_evidence:
+        - "Hugging Face page identifies it as a model (repoType: model) for image-to-text and document parsing"
+        - Primary artifact is a model checkpoint (safetensors) with usage examples via PaddleOCR library, not a standalone tool
+        - Source-list context places it under 'Data' in a general LLM resources list, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

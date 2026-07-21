@@ -58,23 +58,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:37.715Z"
       bytes: 4751
 insights:
-  summary: A Model Context Protocol server that exposes DuckDB database operations as tools, allowing LLMs to execute SQL queries and inspect schemas via MCP-compatible clients.
-  why_it_matters: It lets AI coding assistants directly query and analyze local DuckDB databases, turning a fast analytical engine into a live context source for agent workflows.
-  mental_damage: Another pristine MCP server to install so your agent can SELECT * FROM chaos while you pretend giving it read-only mode counts as data governance.
+  summary: An MCP server implementation for DuckDB that enables database interaction capabilities through the Model Context Protocol.
+  why_it_matters: It allows developers to integrate DuckDB database operations directly into MCP-compatible AI workflows, enabling local data analysis without leaving their coding environment.
+  mental_damage: Now your AI can query your local DuckDB files, because apparently writing SQL by hand was the last straw.
   tags:
     - mcp
     - duckdb
     - database
     - local-ai
-    - tools
+    - server
   confidence: high
 curation:
   status: included
-  reason: This is a canonical MCP server implementation that gives MCP clients a DuckDB database interface, fitting squarely into MCP infrastructure rather than being a generic extension or framework.
+  reason: This is a dedicated MCP server whose primary identity is providing DuckDB database interaction via MCP, fitting squarely in the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'A Model Context Protocol (MCP) server implementation for DuckDB'"
-    - "README: implements a single query tool exposing DuckDB SQL operations through MCP"
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Databases sections
+    - Repo description explicitly states it is an MCP server for DuckDB
+    - README confirms it implements MCP tools for database operations
+    - Listed in multiple MCP server directories under Databases
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -93,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:10.171Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6c8acd11513c10a1fee7f63b0fecac5e34ad8112e9261729e121ec21d7c049da
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is providing DuckDB database interaction via MCP, fitting squarely in the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for DuckDB
+        - README confirms it implements MCP tools for database operations
+        - Listed in multiple MCP server directories under Databases
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

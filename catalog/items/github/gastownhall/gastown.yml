@@ -40,26 +40,25 @@ metadata:
       fetched_at: "2026-07-16T05:05:05.801Z"
       bytes: 30506
 insights:
-  summary: A multi-agent workspace manager that orchestrates Claude Code, GitHub Copilot, and other AI agents with persistent, git-backed work tracking and dispatch.
-  why_it_matters: It lets developers coordinate 20–30 coding agents across multiple repos without losing context, with built-in merge queues, escalation, and scheduling.
-  mental_damage: You now have a Mayor, Polecats, Hooks, a Deacon, and a Wasteland to manage—so your biggest bug is no longer the code, but your agent society.
+  summary: Gas Town is a multi-agent orchestration system that coordinates AI coding agents like Claude Code and GitHub Copilot with persistent work tracking via git-backed storage.
+  why_it_matters: It solves context loss and coordination chaos when scaling AI agents, enabling reliable multi-agent workflows without manual handoffs.
+  mental_damage: Finally, a way to feel productive while watching 30 AI interns argue over who forgot to save their work.
   tags:
     - multi-agent
     - orchestration
-    - cli
     - git-backed
-    - workspace
+    - workspace-manager
   confidence: high
 curation:
   status: included
-  reason: This is an operated runtime platform for coordinating multiple coding agents with persistent state, scheduling, escalation, and merge queues, not a standalone coding assistant.
+  reason: Gas Town is a workbench for coordinating multiple AI agents with persistent identities, task handoffs, and scalable workflows, making it a control plane rather than a coding agent or extension.
   evidence:
     - "Repo description: 'Gas Town - multi-agent workspace manager'"
-    - "README: 'orchestrate multiple AI coding agents… with persistent work tracking' and explains Mayor, Polecats, Rigs, Refinery, Scheduler, and Deacon"
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Orchestrators & autonomous loops'
+    - "README: 'Multi-agent orchestration system for Claude Code, GitHub Copilot, and other AI agents with persistent work tracking'"
+    - Architecture shows Mayor (AI Coordinator), Towns, Rigs, Polecats (worker agents), and Convoys for work tracking
 placement:
   primary_category: agent-orchestration
-  section: Multi-Agent Runtime Platforms
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (15000) exceeded threshold (150)
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:00:49.249Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:717b3c48f235cb1660573d7cf8607e9a6af4443e61cecdc08e0968ac6c3c0837
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: Gas Town is a workbench for coordinating multiple AI agents with persistent identities, task handoffs, and scalable workflows, making it a control plane rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'Gas Town - multi-agent workspace manager'"
+        - "README: 'Multi-agent orchestration system for Claude Code, GitHub Copilot, and other AI agents with persistent work tracking'"
+        - Architecture shows Mayor (AI Coordinator), Towns, Rigs, Polecats (worker agents), and Convoys for work tracking
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because Gas Town’s core value is coordinating multiple agents with persistent work tracking, not acting as a primary coding assistant that edits code directly.
+      review_reason: null
+      review_resume_lifecycle: null

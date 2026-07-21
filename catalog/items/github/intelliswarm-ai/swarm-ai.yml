@@ -60,23 +60,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:13.622Z"
       bytes: 16172
 insights:
-  summary: A Java-based multi-agent orchestration framework built on Spring AI and Spring Boot that coordinates agents using declarative YAML workflows, dynamic skill generation, and enterprise guardrails like budget enforcement and RBAC.
-  why_it_matters: It gives JVM teams a typed, enterprise-grade agent runtime with governance, approval gates, and observability baked in, without forcing a move to Python-based orchestration stacks.
-  mental_damage: "Just what every Java shop needed: another YAML-driven abstraction layer to manage, except now it spins up RL-powered agents that dynamically generate their own skills and judge whether they succeeded."
+  summary: A Java-based multi-agent orchestration framework built on Spring AI that enables dynamic skill generation, runtime capability detection, and enterprise-grade governance for agent workflows.
+  why_it_matters: It gives JVM teams an opinionated agent layer with built-in budget enforcement, RBAC, and approval gates for production-grade multi-agent systems.
+  mental_damage: Finally, a way to make Java developers feel like they’re in a sci-fi swarm intelligence movie while debugging Spring Boot configs.
   tags:
     - java
-    - spring-ai
     - multi-agent
-    - orchestration
+    - spring-ai
     - enterprise
-  confidence: medium
+    - orchestration
+  confidence: high
 curation:
   status: included
-  reason: The product is a code-first SDK and framework that developers import and script against in Java, not an operated control plane or standalone coding assistant.
+  reason: The product is a code-first framework for building multi-agent systems, primarily used as a library/SDK in Java/Spring applications.
   evidence:
-    - Repo description states it is a 'Spring AI framework for Java' with agents that execute and improve themselves.
-    - README emphasizes Maven artifacts (swarmai-core), Java Builder APIs, and YAML DSLs for declaring workflows in code.
-    - Comparison table positions it directly against LangGraph, langchain4j, and Spring AI as a framework-level building block.
+    - Repo description explicitly calls it a 'Spring AI framework for Java' with agent orchestration capabilities
+    - README positions it as a 'multi-agent orchestration framework for Java, designed for enterprise use' with YAML/builder APIs
+    - Source-list context places it under 'Core Frameworks > PHP & Java Frameworks' in an agent orchestration directory
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:21.305Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ea47f39fe563daf2f216eb9c65ca1d7bb96b6dcdd9c46f1155d37568ab1cce7c
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The product is a code-first framework for building multi-agent systems, primarily used as a library/SDK in Java/Spring applications.
+      decision_evidence:
+        - Repo description explicitly calls it a 'Spring AI framework for Java' with agent orchestration capabilities
+        - README positions it as a 'multi-agent orchestration framework for Java, designed for enterprise use' with YAML/builder APIs
+        - Source-list context places it under 'Core Frameworks > PHP & Java Frameworks' in an agent orchestration directory
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary identity is a Java/Spring library for developers to import and code against, not an operated workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

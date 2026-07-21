@@ -40,26 +40,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:21.222Z"
       bytes: 13923
 insights:
-  summary: A Dockerized MCP server that reads OpenAPI/Swagger specifications and automatically generates corresponding MCP tool definitions so AI agents can interact with any documented API.
-  why_it_matters: It lets developers give coding agents instant, zero-code access to any API with existing docs, bridging the gap between static specs and live agent tooling.
-  mental_damage: We have reached the point where we are writing protocol adapters so our protocol-adapter-compatible assistants can finally understand the REST APIs we wrote ten years ago.
+  summary: Dockerized MCP server that generates tool definitions from OpenAPI or Swagger specifications so AI agents can call REST APIs without custom wrappers.
+  why_it_matters: Developers can instantly expose any documented REST API to MCP-compatible agents without manually configuring each endpoint or writing proxy code.
+  mental_damage: Now your agent can hallucinate its way through every microservice your company forgot to document properly, using the very spec nobody kept up to date.
   tags:
     - mcp
     - openapi
+    - swagger
+    - api
     - docker
-    - api-integration
-    - tooling
   confidence: high
 curation:
   status: included
-  reason: The product’s core identity is an MCP server that converts OpenAPI specs into MCP tools, making it a canonical fit for MCP Servers & Tooling.
+  reason: It is an MCP server implementation whose core identity is converting OpenAPI specifications into MCP tools, fitting squarely in MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly states 'Dockerized MCP Server to allow your AI agent to access any API with existing api docs'.
-    - README confirms it 'reads a swagger.json or openapi.yaml file and generates a corresponding MCP toolset'.
-    - Listed in awesome-mcp-servers under Server Implementations, reinforcing its MCP server identity.
+    - Repo description explicitly calls it a 'Dockerized MCP Server' for AI agent API access.
+    - README states it 'generates MCP tool definitions directly from a Swagger/OpenAPI specification file.'
+    - Active repository (188 stars, pushed 2026-03-21) listed in awesome-mcp-servers.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Domain Servers
 lifecycle:
   status: promotion_candidate
   reason: Stars (185) exceeded threshold (150)
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:43:24.348Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:87a77a3af0667f23ad1126fe2987723988e9af3f52ae0f01f2e23fc081bee3b7
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: It is an MCP server implementation whose core identity is converting OpenAPI specifications into MCP tools, fitting squarely in MCP Servers & Tooling.
+      decision_evidence:
+        - Repo description explicitly calls it a 'Dockerized MCP Server' for AI agent API access.
+        - README states it 'generates MCP tool definitions directly from a Swagger/OpenAPI specification file.'
+        - Active repository (188 stars, pushed 2026-03-21) listed in awesome-mcp-servers.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the entire product is an MCP server, not an add-on that augments another assistant's host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

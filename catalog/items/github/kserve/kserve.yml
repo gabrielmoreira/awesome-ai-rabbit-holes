@@ -60,26 +60,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:37.558Z"
       bytes: 6064
 insights:
-  summary: KServe is a CNCF incubating platform for standardizing and scaling generative and predictive AI model inference on Kubernetes.
-  why_it_matters: It provides a unified, OpenAI-compatible serving layer with optimized backends like vLLM, enabling developers to deploy and autoscale LLMs and ML models across multi-framework environments.
-  mental_damage: You can now orchestrate thousands of GPUs to serve a model that your team will spend the next six months trying to prompt into writing a simple CRUD endpoint.
+  summary: Standardized distributed generative and predictive AI inference platform for scalable, multi-framework deployment on Kubernetes.
+  why_it_matters: It provides a unified, Kubernetes-native way to deploy and scale both generative and predictive AI models with advanced features like autoscaling, GPU acceleration, and model explainability.
+  mental_damage: Because nothing says 'simple deployment' like a Kubernetes-based inference platform with canary rollouts, inference pipelines, and KV cache offloading.
   tags:
     - kubernetes
+    - model-serving
     - inference
     - mlops
-    - llm-serving
-    - cncf
+    - genai
   confidence: high
 curation:
-  status: excluded
-  reason: KServe is a Kubernetes-native MLOps and model-serving infrastructure platform, which falls outside the catalog's scope of developer-facing coding tools, agents, and IDE workflows.
+  status: included
+  reason: KServe is primarily a code-first framework/SDK for deploying and managing AI inference workloads on Kubernetes, fitting the 'Frameworks & SDKs' category.
   evidence:
-    - Repo description identifies it as a 'Standardized Distributed Generative and Predictive AI Inference Platform' for Kubernetes.
-    - Topics and README focus on ML platforms, model serving, and infrastructure (k8s, istio, knative, vllm), not coding assistance.
-    - Listed in Awesome-LLMOps under 'Large Scale Deployment > ML Platforms', confirming its identity as backend infrastructure.
+    - Repo description explicitly calls it a 'Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes'
+    - README highlights features like multi-framework support, autoscaling, and Kubernetes-native deployment
+    - Source-list context places it under 'Large Scale Deployment > ML Platforms' in Awesome-LLMOps
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: promotion_candidate
   reason: Stars (5427) exceeded threshold (150)
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:08.802Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c07b5fc21d559946fa19a0c1dc563758474358bb3bae17fb680d2f8f83fe69f9
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: KServe is primarily a code-first framework/SDK for deploying and managing AI inference workloads on Kubernetes, fitting the 'Frameworks & SDKs' category.
+      decision_evidence:
+        - Repo description explicitly calls it a 'Standardized Distributed Generative and Predictive AI Inference Platform for Scalable, Multi-Framework Deployment on Kubernetes'
+        - README highlights features like multi-framework support, autoscaling, and Kubernetes-native deployment
+        - Source-list context places it under 'Large Scale Deployment > ML Platforms' in Awesome-LLMOps
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because KServe is a code-first SDK/framework for model serving rather than a control plane for coordinating agents.
+      review_reason: null
+      review_resume_lifecycle: null

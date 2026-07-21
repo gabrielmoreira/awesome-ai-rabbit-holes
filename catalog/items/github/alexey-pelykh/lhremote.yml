@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:57.308Z"
       bytes: 49888
 insights:
-  summary: A CLI and MCP server that lets AI assistants like Claude control LinkedHelper to automate LinkedIn outreach campaigns, profile enrichment, and engagement actions.
-  why_it_matters: It turns a desktop LinkedIn automation tool into a programmable surface so developers can orchestrate outbound workflows directly from their AI coding environment.
-  mental_damage: "We have finally automated the one human interaction developers were already famously great at: sending connection requests on LinkedIn."
+  summary: CLI and MCP server for controlling LinkedHelper to automate LinkedIn outreach tasks via AI assistants.
+  why_it_matters: Lets developers integrate LinkedIn automation workflows (campaigns, messaging, profile enrichment) into AI agent toolchains without manual UI interaction.
+  mental_damage: Now your AI can cold-email recruiters on LinkedIn while you pretend to be in a meeting.
   tags:
-    - mcp
-    - linkedin
-    - automation
+    - mcp-server
+    - linkedin-automation
+    - ai-integration
     - cli
-    - marketing
+    - outreach
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server that exposes LinkedHelper automation as tools for AI assistants, fitting cleanly as a domain-specific MCP server rather than a generic extension or framework.
+  reason: "MCP is the product identity: it is explicitly an MCP server for LinkedHelper automation, not just a compatibility feature."
   evidence:
-    - Repo description explicitly states 'CLI and MCP server for LinkedHelper automation — let AI assistants control LinkedIn outreach'.
-    - README documents 68 MCP tools for campaigns, messaging, profile queries, and LinkedIn engagement exposed to Claude Desktop.
-    - Listed in awesome-mcp-servers under Server Implementations > Marketing, confirming domain-server identity.
+    - Repo description explicitly states 'CLI and MCP server for LinkedHelper automation'
+    - README details 68+ MCP tools for LinkedIn control (campaigns, messaging, profile queries)
+    - Claude Desktop integration example shows MCP server configuration
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -84,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:21:56.969Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c479f9da118b7c828f9a373a93d74d911d51ba678185b63ecc64231aff9ce051
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: it is explicitly an MCP server for LinkedHelper automation, not just a compatibility feature."
+      decision_evidence:
+        - Repo description explicitly states 'CLI and MCP server for LinkedHelper automation'
+        - README details 68+ MCP tools for LinkedIn control (campaigns, messaging, profile queries)
+        - Claude Desktop integration example shows MCP server configuration
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing LinkedHelper capabilities, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,15 +39,16 @@ metadata:
       fetched_at: "2026-07-20T15:11:37.816Z"
       bytes: 9360
 insights:
-  summary: DevOpsGPT is a multi-agent system that combines LLMs with DevOps tools to convert natural language requirements into working software across existing projects and languages.
-  why_it_matters: It attempts to automate the full lifecycle from requirements clarification and interface generation to CI/CD deployment, aiming to reduce manual overhead in enterprise development workflows.
-  mental_damage: Just when you thought 'vibe coding' was the peak of automation, we now have agents arguing with each other to deploy your Java SpringBoot API while you practice explaining requirements to a chatbot.
+  summary: Multi-agent system that combines LLMs with DevOps tools to convert natural language requirements into working software.
+  why_it_matters: It automates the end-to-end process of clarifying requirements, generating code, and deploying software, reducing development cycles and communication overhead.
+  mental_damage: Finally, a tool that lets you skip writing requirement documents and jump straight to arguing with the AI about why your 'simple feature' is actually a distributed systems nightmare.
   tags:
     - multi-agent
     - devops
+    - automation
     - code-generation
-    - llm
-  confidence: medium
+    - deployment
+  confidence: high
 curation:
   status: included
   reason: The product positions itself as a primary AI-driven assistant that reads requirements, generates code, and integrates with DevOps pipelines, fitting the coding agent profile better than a thin extension or framework.
@@ -57,10 +58,10 @@ curation:
     - Listed in awesome-ai-agents under the DevOpsGPT entry, aligning with its multi-agent coding assistant identity.
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (5958) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -73,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:23.087Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:17906cc953b5c8266e6dddc992439efd8371a6a8373547daee4aca6695d57458
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: The core product is a multi-agent system coordinating LLMs and DevOps tools to automate software development workflows, fitting the orchestration identity over coding agents or extensions.
+      decision_evidence:
+        - Repo description explicitly calls it a 'multi agent system for AI-driven software development'
+        - README emphasizes end-to-end automation from requirements to deployment using multiple agents and DevOps tools
+        - Source-list context (awesome-ai-agents) places it under DevOpsGPT as an autonomous agent
+      category_candidates:
+        - agent-orchestration
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because the primary value is coordinating multiple agents and DevOps tools to automate development workflows, not just turning prompts into deployed apps.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

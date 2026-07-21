@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:17.634Z"
       bytes: 37008
 insights:
-  summary: A terminal-native AI coding agent for the terminal that supports hash-anchored edits, an optimized tool harness, LSP integration, Python, browser automation, and subagents.
-  why_it_matters: It offers developers a locally runnable, multi-provider coding assistant with deep terminal integration and extensible tooling for repo-level work.
-  mental_damage: Yet another fork in the terminal agent gold rush, proving that the fastest way to build a coding assistant is to fork an existing one and add more flags.
+  summary: Terminal-native AI coding agent with hash-anchored edits, LSP, Python, browser, subagents, and multi-provider support.
+  why_it_matters: Developers get a CLI-first coding assistant that integrates deeply with terminal workflows, offering features like session management, context compaction, and autonomous memory for repo-scale tasks.
+  mental_damage: Finally, a coding agent that remembers your bash history better than you do.
   tags:
-    - terminal
-    - cli
+    - terminal-ai
     - coding-agent
-    - rust
-    - typescript
+    - multi-provider
+    - lsp
+    - cli
   confidence: high
 curation:
   status: included
-  reason: This is a standalone terminal coding agent that reads code, plans changes, and edits files, matching the primary product identity of a coding assistant rather than an extension or framework.
+  reason: The product is a standalone terminal-native coding assistant that directly plans, edits, and manages code workflows, fitting the core definition of a coding agent.
   evidence:
-    - Repo description explicitly calls it an 'AI Coding agent for the terminal' with hash-anchored edits and tool harness.
-    - README positions it as a primary coding assistant with sessions, context compaction, branching, and autonomous memory.
-    - Listed in awesome-cli-coding-agents under Terminal-native coding agents > Open Source.
+    - Repo description explicitly calls it an 'AI Coding agent for the terminal'
+    - README highlights terminal setup, LSP, Python, browser, and subagents as core features
+    - Source-list context places it under 'Terminal-native coding agents > Open Source'
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:41.950Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dabe89dc816bf584bd3d30bc8ac33a516e3f4155eff1db41398591bc7ecda8d1
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The product is a standalone terminal-native coding assistant that directly plans, edits, and manages code workflows, fitting the core definition of a coding agent.
+      decision_evidence:
+        - Repo description explicitly calls it an 'AI Coding agent for the terminal'
+        - README highlights terminal setup, LSP, Python, browser, and subagents as core features
+        - Source-list context places it under 'Terminal-native coding agents > Open Source'
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the primary identity is a standalone terminal coding assistant, not an extension augmenting another host.
+      review_reason: null
+      review_resume_lifecycle: null

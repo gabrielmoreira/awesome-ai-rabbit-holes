@@ -60,25 +60,26 @@ metadata:
       fetched_at: "2026-07-16T05:04:55.886Z"
       bytes: 17545
 insights:
-  summary: A comprehensive MCP server providing 43 tools for filesystem access, process management, interactive shell sessions, and async file search, featuring safe delete to Recycle Bin/Trash.
-  why_it_matters: It gives coding agents deep local system access with safety features like reversible deletes and background search, reducing the risk of agents accidentally nuking your filesystem.
-  mental_damage: We have now reached the point where we need a specialized middleware layer just to let our AI assistants safely move files to the trash, because apparently we cannot trust them with permanent deletion.
+  summary: A Model Context Protocol (MCP) server providing 44 filesystem and system tools for AI assistants, including safe delete, process management, interactive sessions, async search, OCR, ZIP, and Markdown/PDF export.
+  why_it_matters: It gives AI coding assistants deep, safe, and cross-platform filesystem and system access without requiring custom integrations.
+  mental_damage: Finally, an MCP server that lets your AI delete files safely—because nothing says 'trust' like a Recycle Bin full of regrets.
   tags:
-    - mcp
+    - mcp-server
     - filesystem
     - process-management
-    - local-system
+    - local-ai
+    - agent-tools
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server with a clear protocol-first identity, offering 43 tools for system interaction, which fits squarely into MCP Servers & Tooling.
+  reason: MCP is the core product identity, and the server provides domain-specific filesystem and system tools for AI assistants.
   evidence:
-    - Repo description explicitly states 'Comprehensive MCP server with 29 tools'.
-    - README positions it as 'A comprehensive Model Context Protocol (MCP) server' with 43 tools.
-    - Listed in awesome-mcp-servers under 'Server Implementations > File Systems'.
+    - Repo description explicitly identifies it as an MCP server with filesystem and system tools
+    - README highlights 44 MCP tools for filesystem access, process management, and more
+    - Already listed in awesome-mcp-servers under File Systems
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -94,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:17.539Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:807d6b88d0e1ac09261e7270795f9d3aca773eb73d35a195c1c60cfc35bf8416
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the core product identity, and the server provides domain-specific filesystem and system tools for AI assistants.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server with filesystem and system tools
+        - README highlights 44 MCP tools for filesystem access, process management, and more
+        - Already listed in awesome-mcp-servers under File Systems
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

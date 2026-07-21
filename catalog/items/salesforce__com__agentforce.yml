@@ -1,0 +1,110 @@
+id: salesforce__com__agentforce
+kind: website
+name: Airkit.ai
+canonical_url: https://salesforce.com/agentforce
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__salesforce__com__agentforce__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Airkit.ai
+        anchor_text: Airkit.ai
+        extracted_url: https://airkit.ai
+        surrounding_text: "## [Airkit.ai](https://www.airkit.ai)"
+        confidence: high
+    - id: discovery__www__salesforce__com__agentforce__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Airkit.ai
+        anchor_text: Airkit.ai
+        extracted_url: https://www.airkit.ai
+        surrounding_text: "## [Airkit.ai](https://www.airkit.ai)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A Salesforce platform for building and customizing autonomous AI agents with full Salesforce ecosystem integration.
+  why_it_matters: Enables developers to create AI agents that interact with Salesforce data and workflows for customer and employee support.
+  mental_damage: Because nothing says 'developer productivity' like locking your agents into a CRM vendor’s walled garden.
+  tags:
+    - salesforce
+    - ai-agents
+    - enterprise
+    - saas
+    - crm
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a Salesforce-specific SaaS platform for building AI agents, not a developer-tooling product focused on coding workflows, local execution, or general-purpose AI tooling.
+  evidence:
+    - Primary page excerpt describes it as a platform for building AI agents integrated with Salesforce ecosystem
+    - Source-list context places it in a general AI agents list, not developer-tooling
+    - No GitHub repo or code-first identity; purely a hosted Salesforce product
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:37:14.929Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:126f0c9014d41c2efe06e036f40faadc0152fb935640929ca0ec8c6249204215
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a Salesforce-specific SaaS platform for building AI agents, not a developer-tooling product focused on coding workflows, local execution, or general-purpose AI tooling.
+      decision_evidence:
+        - Primary page excerpt describes it as a platform for building AI agents integrated with Salesforce ecosystem
+        - Source-list context places it in a general AI agents list, not developer-tooling
+        - No GitHub repo or code-first identity; purely a hosted Salesforce product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.970Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -23,21 +23,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1611
-    forks: 129
+    stars: 1867
+    forks: 145
     license: NOASSERTION
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Tencent-Hunyuan/HunyuanOCR
+    html_url: https://github.com/Tencent-Hunyuan/HunyuanOCR
     created_at: "2025-11-18T04:06:24Z"
-    pushed_at: "2026-04-08T06:06:50Z"
+    pushed_at: "2026-07-21T12:53:51Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:42.969Z"
+    last_checked_at: "2026-07-21T15:20:42.824Z"
     readme:
-      fetched_at: "2026-05-06T22:46:42.969Z"
-      bytes: 19740
+      fetched_at: "2026-07-21T15:20:42.824Z"
+      bytes: 20218
 insights:
   summary: HunyuanOCR is a 1B parameter vision-language model from Tencent for end-to-end OCR, supporting document parsing, multilingual text extraction, and image-to-text translation.
   why_it_matters: Developers can self-host a lightweight, state-of-the-art OCR model that handles complex documents and over 100 languages with a single inference call via vLLM.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:42.969Z"
+    updated_at: "2026-07-21T15:20:42.824Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

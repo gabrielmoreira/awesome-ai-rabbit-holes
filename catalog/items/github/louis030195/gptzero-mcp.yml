@@ -40,25 +40,24 @@ metadata:
       fetched_at: "2026-07-20T15:11:55.507Z"
       bytes: 2830
 insights:
-  summary: An MCP server that provides a bridge to the GPTZero API so LLMs like Claude can detect AI-generated text with confidence scores and multilingual support.
-  why_it_matters: It lets developers integrate AI-content detection directly into their LLM-driven workflows without leaving the chat interface.
-  mental_damage: We have reached the point where we need an MCP server so the AI can help us detect whether the AI we are talking to was used to write the text we are asking it to analyze.
+  summary: An MCP server that exposes GPTZero's AI text detection API for use with MCP-compatible clients like Claude Desktop.
+  why_it_matters: Lets developers check for AI-generated text directly from their coding assistant workflow without leaving the chat interface.
+  mental_damage: Because nothing says 'I trust my AI pair programmer' like running its output through another AI to see if it’s lying.
   tags:
     - mcp
     - ai-detection
-    - gptzero
-    - extension
-  confidence: medium
+    - cli-tool
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server for a specific domain (AI detection), fitting cleanly into MCP Servers & Tooling as a domain-specific implementation.
+  reason: The project is an MCP server as its core identity, providing access to GPTZero's detection API via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - "README states: 'MCP (Model Context Protocol) server for GPTZero AI detection API.'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
-    - Provides MCP tools like `gptzero_detect` and `gptzero_model_versions` for LLM integration.
+    - README describes it as an 'MCP (Model Context Protocol) server for GPTZero AI detection API'
+    - Provides installation and usage instructions specifically for MCP clients like Claude Desktop and Claude Code
+    - Lists MCP-specific tools (`gptzero_detect`, `gptzero_model_versions`) as the main functionality
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:25.842Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c3b63fa15528e144e8bd8adab7f1e440938537cd52fd2ea521ac9d06a7c470e2
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is an MCP server as its core identity, providing access to GPTZero's detection API via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+      decision_evidence:
+        - README describes it as an 'MCP (Model Context Protocol) server for GPTZero AI detection API'
+        - Provides installation and usage instructions specifically for MCP clients like Claude Desktop and Claude Code
+        - Lists MCP-specific tools (`gptzero_detect`, `gptzero_model_versions`) as the main functionality
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server first and foremost, not an extension that augments another assistant with workflow capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

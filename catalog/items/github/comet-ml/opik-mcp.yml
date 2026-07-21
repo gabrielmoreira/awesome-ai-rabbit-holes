@@ -74,22 +74,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:24.373Z"
       bytes: 18427
 insights:
-  summary: An MCP server that exposes Opik's prompt management, trace exploration, metrics, and dataset operations to MCP-compatible clients like Cursor, VS Code, and Windsurf.
-  why_it_matters: It lets developers query and manage LLM observability data directly from their coding assistant instead of context-switching to the Opik dashboard.
-  mental_damage: You can now debug your prompt regression issues without leaving the IDE, which mostly means you'll ruin your flow state faster than before.
+  summary: Model Context Protocol (MCP) server implementation for Opik, enabling IDE integration and unified access to prompts, projects, traces, and metrics.
+  why_it_matters: Developers can integrate Opik's prompt lifecycle, workspace exploration, and metrics capabilities directly into MCP-compatible clients like Cursor or VS Code.
+  mental_damage: Now your IDE can juggle prompts, traces, and metrics like a circus performer with too many hats.
   tags:
-    - mcp
+    - mcp-server
     - opik
-    - observability
     - ide-integration
+    - typescript
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server implementation that gives MCP clients access to Opik's observability and prompt features, fitting cleanly as MCP infrastructure.
+  reason: This is an MCP server implementation whose primary identity is MCP infrastructure, not a compatibility footnote.
   evidence:
-    - Repo description explicitly states 'Model Context Protocol (MCP) implementation for Opik'.
-    - README shows configuration examples for Cursor, VS Code, and Windsurf as MCP clients.
-    - Active development with last push in 2026-03-17 and 202 stars confirms it is a live MCP tool.
+    - Repo description explicitly states it is an MCP implementation for Opik
+    - README confirms it is an MCP server with stdio and streamable-http transports
+    - Listed in multiple MCP-focused awesome lists under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -108,12 +109,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:46:17.620Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e731663a483962849ac32f32c91a91f171c00c4979d25f8475c311d02fd3cb49
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP server implementation whose primary identity is MCP infrastructure, not a compatibility footnote.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP implementation for Opik
+        - README confirms it is an MCP server with stdio and streamable-http transports
+        - Listed in multiple MCP-focused awesome lists under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is the MCP server itself, not an extension layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:43.242Z"
       bytes: 9948
 insights:
-  summary: Join.cloud is a platform and SDK that provides real-time collaboration rooms where AI agents exchange messages, share files via git, and review each other's work using standard protocols like MCP and A2A.
-  why_it_matters: It gives developers a structured runtime to coordinate multi-agent workflows, validation loops, and remote agent collaboration without building custom message-passing infrastructure.
-  mental_damage: We have finally built virtual watercooler spaces for agents to chat, which means your CI pipeline can now theoretically hold a grudge against your linter.
+  summary: Join.cloud is a real-time collaboration platform where AI agents can work together in shared rooms, exchanging messages, committing files, and optionally reviewing each other's work via MCP and A2A protocols.
+  why_it_matters: It enables multi-agent workflows where agents with different roles can coordinate, validate, and share artifacts in a shared workspace.
+  mental_damage: Now your agents can have meetings too.
   tags:
-    - agent-collaboration
+    - multi-agent
     - mcp
     - a2a
-    - multi-agent
-    - orchestration
+    - collaboration
+    - self-hostable
   confidence: high
 curation:
   status: included
-  reason: The core product is a runtime platform and workbench for coordinating multiple agents in shared rooms with messaging, file sharing, and review loops, which aligns with Agent Orchestration over a code-first framework or single assistant.
+  reason: The core product is a workbench for coordinating multiple agents in shared rooms, which aligns with the agent-orchestration category's focus on multi-agent coordination platforms.
   evidence:
-    - Repo description states it lets AI agents work together in real-time rooms via MCP and A2A.
-    - README pitches a shared workspace for agents to message, collaborate on tasks, and share files via git.
-    - Source list places it in awesome-mcp-servers under Communication, but the product itself is a multi-agent coordination platform.
+    - Repo description explicitly states it lets AI agents work together in real-time rooms via MCP and A2A
+    - README highlights multi-agent collaboration, file sharing, and room-based workflows as primary use cases
+    - Source-list context places it under MCP servers, but primary identity is multi-agent coordination
 placement:
   primary_category: agent-orchestration
   section: Workbenches & Collaboration Surfaces
@@ -84,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:23.865Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:50f9be30ad03ca59b51cd81bf550cedeb5e872ee3ea474536ee5c3229d3d29b8
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The core product is a workbench for coordinating multiple agents in shared rooms, which aligns with the agent-orchestration category's focus on multi-agent coordination platforms.
+      decision_evidence:
+        - Repo description explicitly states it lets AI agents work together in real-time rooms via MCP and A2A
+        - README highlights multi-agent collaboration, file sharing, and room-based workflows as primary use cases
+        - Source-list context places it under MCP servers, but primary identity is multi-agent coordination
+      category_candidates:
+        - agent-orchestration
+        - mcp
+      contrastive_reason: Choose agent-orchestration over mcp because the product's main value is multi-agent coordination in shared rooms, not just MCP server functionality.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,26 +40,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:21.075Z"
       bytes: 35102
 insights:
-  summary: A Rust-powered MCP server and embeddable library providing patch-based file edits, Unix shell command execution, and kernel-enforced path confinement to reduce token usage for AI agents.
-  why_it_matters: It dramatically cuts context overhead by using unified diffs and familiar Unix tools instead of naive full-file read/writes, making agent file operations cheaper and safer.
-  mental_damage: Yet another reminder that our agents are currently so token-poor we need a specialized Rust tool just to teach them how to sed a file without rewriting the entire repo.
+  summary: Rust-powered precision file tools for AI agents with patch-based edits and kernel-enforced path confinement, available as an MCP server or embeddable library.
+  why_it_matters: It dramatically reduces token usage for file operations by using diffs and Unix-native tools, making agent file edits more efficient and predictable.
+  mental_damage: Finally, an MCP server that treats your context window like it’s on a data plan.
   tags:
     - mcp
-    - file-operations
-    - context-efficiency
+    - file-tools
+    - token-efficiency
     - rust
-    - agent-infrastructure
-  confidence: medium
+    - agent-infra
+  confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server and toolkit for file operations, explicitly listed in awesome-mcp-servers and built around the Model Context Protocol.
+  reason: "MCP is the primary product identity: it is a server implementation with MCP-first tooling for file operations."
   evidence:
-    - Repo description explicitly states 'MCP Server or embeddable, bring your own MCP'
-    - Listed in awesome-mcp-servers under 'Server Implementations > File Systems'
-    - README highlights MCP badges and states 'MCP server with tools' as core identity
+    - Repo description explicitly calls it an MCP server or embeddable
+    - README highlights MCP server badge and `.mcpb` bundle support
+    - Listed in awesome-mcp-servers under File Systems
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:43:06.462Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0770a9e25aa25f1f1446089c21bfe491452e8650dbe010bddb229fa7aff7f246
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the primary product identity: it is a server implementation with MCP-first tooling for file operations."
+      decision_evidence:
+        - Repo description explicitly calls it an MCP server or embeddable
+        - README highlights MCP server badge and `.mcpb` bundle support
+        - Listed in awesome-mcp-servers under File Systems
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server for file operations, not a general context management system.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -37,25 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A2A is a protocol specification and documentation site from Google for enabling communication and interoperability between different AI agents.
-  why_it_matters: It defines a standardized way for agents built on different frameworks to discover each other's capabilities and exchange tasks or context.
-  mental_damage: We have successfully introduced another three-letter acronym into the stack, ensuring that your agents can now fail to talk to each other with official standardized headers.
+  summary: A2A is Google's Agent-to-Agent (A2A) protocol for enabling communication and coordination between AI agents.
+  why_it_matters: It provides a standardized way for developers to build multi-agent systems where agents can delegate tasks, share information, and collaborate.
+  mental_damage: Now your agents can argue with each other in a standardized format.
   tags:
+    - multi-agent
     - protocol
-    - agent-interop
     - google
-    - spec
-  confidence: medium
+    - a2a
+    - agent-communication
+  confidence: high
 curation:
-  status: excluded
-  reason: This is a protocol specification and documentation site, not a standalone developer tool, framework, or product that fits the catalog's scope.
+  status: included
+  reason: A2A is a protocol specifically designed for agent-to-agent communication, fitting squarely in the agent orchestration space as infrastructure for multi-agent systems.
   evidence:
-    - URL points to google.github.io/A2A, indicating a documentation/project site rather than a usable tool or repo.
-    - Listed in awesome-agent-orchestration only as an SEO keyword under 'Popular Protocols', not as an operable tool.
-    - No repo description, README, or code context provided to suggest a runnable product or SDK.
+    - Source-list context explicitly lists it under 'Popular Protocols' in an agent orchestration directory
+    - The project is Google's A2A protocol, focused on agent communication
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -70,12 +70,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:22.658Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:98785aeac38ae37befb6477f09d5c0617b039e8e97d898422cede1f7ccf9ac9a
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: A2A is a protocol specifically designed for agent-to-agent communication, fitting squarely in the agent orchestration space as infrastructure for multi-agent systems.
+      decision_evidence:
+        - Source-list context explicitly lists it under 'Popular Protocols' in an agent orchestration directory
+        - The project is Google's A2A protocol, focused on agent communication
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because A2A is a protocol for agent coordination rather than a code-first library or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

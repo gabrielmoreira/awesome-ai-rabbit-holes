@@ -39,23 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:03.819Z"
       bytes: 2723
 insights:
-  summary: An MCP server that lets coding assistants schedule and trigger reminders via Slack or Telegram using cron-job.org as an external scheduler.
-  why_it_matters: Developers can ask their AI assistant to set reminders that fire even when the local session is closed, bridging assistant context with external notification channels.
-  mental_damage: "We have finally solved the hardest problem in computer science: getting a chatbot to remind you to call Alice, via a cron service, a webhook, and a protocol layer."
+  summary: An MCP server that schedules and triggers reminders via Slack or Telegram using an external cron service.
+  why_it_matters: Developers can integrate time-based notifications into MCP-enabled workflows without maintaining a persistent server.
+  mental_damage: Now your AI can nag you about deadlines even when your local server is napping.
   tags:
     - mcp
-    - notifications
     - reminders
     - slack
     - telegram
+    - cron
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose core identity is exposing reminder scheduling to MCP-compatible assistants, making it a clear fit for MCP Servers & Tooling.
+  reason: The product is explicitly an MCP server with MCP as its primary identity, providing domain-specific functionality (reminders) via the protocol.
   evidence:
-    - "Repo description: 'A MCP server for scheduling and triggering reminders via Slack or Telegram.'"
-    - "README states: 'A MCP server for scheduling and triggering reminders via Slack or Telegram.'"
-    - Listed in awesome-mcp-servers under Community Servers with MCP purpose.
+    - Repo description states it is 'A MCP server for scheduling and triggering reminders via Slack or Telegram'
+    - README confirms MCP server identity and external cron service integration
+    - Listed in awesome-mcp-servers under 'Community Servers'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:52.518Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b5203bc470e3c4cb688e53f226cc190f41b5dd79207f661da51e7e6e396ef26d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server with MCP as its primary identity, providing domain-specific functionality (reminders) via the protocol.
+      decision_evidence:
+        - Repo description states it is 'A MCP server for scheduling and triggering reminders via Slack or Telegram'
+        - README confirms MCP server identity and external cron service integration
+        - Listed in awesome-mcp-servers under 'Community Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

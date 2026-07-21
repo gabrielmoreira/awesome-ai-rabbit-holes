@@ -40,26 +40,24 @@ metadata:
       fetched_at: "2026-07-20T15:11:47.763Z"
       bytes: 38707
 insights:
-  summary: Luotuo is an open-source project releasing a collection of Chinese-tuned LLMs, embedding models, and supporting datasets built on top of LLaMA and other base models.
-  why_it_matters: It provides developers building Chinese-language applications with localized model variants, embedding tools, and data pipelines without relying on English-centric defaults.
-  mental_damage: Yet another reminder that the open-source LLM ecosystem is less 'build once, run anywhere' and more 'fork, LoRA, and pray your dialect survives the next merge conflict.'
+  summary: Luotuo is an open-source Chinese large language model project that includes base models, embeddings, QA, and derivative applications.
+  why_it_matters: Provides developers with Chinese-language LLMs and related tooling for building or adapting Chinese AI applications.
+  mental_damage: Yet another Chinese LLM project where the real challenge is explaining why this isn’t just another Llama fork with a camel theme.
   tags:
-    - llm
-    - chinese-models
-    - embedding
-    - lora
-    - nlp
-  confidence: high
+    - chinese-llm
+    - open-source-model
+    - local-ai
+  confidence: medium
 curation:
-  status: excluded
-  reason: This is a collection of model checkpoints and research-oriented sub-projects rather than a practical AI tool, agent, or developer infrastructure for building software.
+  status: included
+  reason: Luotuo is primarily a collection of Chinese language models and local tooling (embeddings, QA, etc.) meant for self-hosted use, fitting the Local AI category as a runtime and model repository with clear developer-facing utility.
   evidence:
-    - Repo description explicitly states it is 'Open Sourced Chinese Language Models' with no developer-tooling angle.
-    - README focuses on model variants, embeddings, QA models, and data pipelines rather than coding agents, IDEs, or dev workflows.
-    - Listed in Awesome-LLMOps under 'Model > Large Language Model', which aligns with model research rather than the catalog's developer-tooling scope.
+    - "Repo description: 'Open Sourced Chinese Language Models'"
+    - "README: Includes models, embeddings, QA, and derivative apps like Chat凉宫春日 and 驼嵌入"
+    - "Source-list context: Listed in Awesome-LLMOps under Model > Large Language Model"
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local Runtimes
 lifecycle:
   status: promotion_candidate
   reason: Stars (3611) exceeded threshold (150)
@@ -75,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:20.892Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:809a27de7344f15db0711c825328bf590adb86d4cc1c244032d1ead9009450af
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: Luotuo is primarily a collection of Chinese language models and local tooling (embeddings, QA, etc.) meant for self-hosted use, fitting the Local AI category as a runtime and model repository with clear developer-facing utility.
+      decision_evidence:
+        - "Repo description: 'Open Sourced Chinese Language Models'"
+        - "README: Includes models, embeddings, QA, and derivative apps like Chat凉宫春日 and 驼嵌入"
+        - "Source-list context: Listed in Awesome-LLMOps under Model > Large Language Model"
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because Luotuo is primarily a model repository and local runtime toolkit, not a code-first framework or SDK for embedding AI into software.
+      review_reason: null
+      review_resume_lifecycle: null

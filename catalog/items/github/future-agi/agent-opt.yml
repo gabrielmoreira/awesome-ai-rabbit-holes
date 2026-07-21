@@ -61,22 +61,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:04.844Z"
       bytes: 13078
 insights:
-  summary: agent-opt is an open-source Python library that automates the optimization of AI agent prompts using six algorithms, any LLM via LiteLLM, and custom or built-in metrics.
-  why_it_matters: It lets developers automatically tune prompts against datasets and metrics instead of hand-tuning them every time a model changes, closing the loop between evaluation and prompt generation.
-  mental_damage: You can now mathematically optimize the prompts you were previously rewriting by vibes, adding another layer of rigorous automation to the already towering stack of AI workflow tooling.
+  summary: An open-source library for automated prompt optimization using various algorithms and metrics.
+  why_it_matters: It automates the tedious process of prompt engineering by iterating on prompts to maximize performance against specific metrics.
+  mental_damage: Now you can outsource the frustration of prompt tuning to a Bayesian search instead of doing it yourself.
   tags:
     - prompt-optimization
-    - agent-evals
-    - llm
+    - llm-ops
     - automation
+    - ai-agents
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, scoring, and automatically optimizing prompts and agent workflows against datasets and metrics, which aligns directly with evals-focused tooling rather than a coding agent or framework.
+  reason: The tool's core purpose is measuring and optimizing prompt behavior against metrics, which aligns with the Evals category.
   evidence:
-    - Repo description states it is an 'Open Source Library for Automated Optimization of AI Agent Workflows' with optimization-algorithms and evaluation topics.
-    - README pitches six prompt-optimization algorithms that score against 50+ metrics and return improved prompts using datasets.
-    - Source lists include it under 'Optimizations' in Awesome-LLMOps and 'Frameworks' in awesome-llm-agents, reinforcing its eval-and-optimization identity.
+    - README claims to 'Close the loop' by returning prompts that beat manual versions.
+    - Uses 50+ metrics from ai-evaluation for scoring.
+    - Implements algorithms like Bayesian Search and ProTeGi to optimize prompt performance.
 placement:
   primary_category: evals
   section: Prompt Regression & Experimentation
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:59:38.072Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f1c27dc7402dd705725e79b6cf21eb6108d5f5e608e5f2c899b55b6aa8835afe
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's core purpose is measuring and optimizing prompt behavior against metrics, which aligns with the Evals category.
+      decision_evidence:
+        - README claims to 'Close the loop' by returning prompts that beat manual versions.
+        - Uses 50+ metrics from ai-evaluation for scoring.
+        - Implements algorithms like Bayesian Search and ProTeGi to optimize prompt performance.
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the primary value proposition is the measurement and iterative optimization of model behavior rather than providing general-purpose building blocks.
+      review_reason: null
+      review_resume_lifecycle: null

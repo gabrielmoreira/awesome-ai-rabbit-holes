@@ -48,23 +48,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:17.326Z"
       bytes: 10045
 insights:
-  summary: A collection of open-source Model Context Protocol servers providing AI agents with structured access to Czech government and business data, including business registers, FX rates, sanctions lists, and insolvency records.
-  why_it_matters: It gives developers building Czech-focused fintech or KYC workflows a plug-and-play way to ground their agents in live, legally relevant local data sources.
-  mental_damage: We have officially reached the point where an AI agent can now autonomously discover that a company is insolvent before the developer realizes they haven't been paid.
+  summary: cz-agents-mcp is a set of Model Context Protocol servers providing Czech government and business data for due diligence and KYC/AML compliance.
+  why_it_matters: It gives AI agents native access to Czech registries like ARES, ČNB, ISIR, and sanctions lists, enabling automated compliance checks in developer workflows.
+  mental_damage: Hope you enjoy explaining to your auditor why your AI agent approved a transaction based on live data from a Czech VAT payer mirror.
   tags:
     - mcp
     - kyc
-    - fintech
     - czech-republic
-    - data-access
+    - due-diligence
   confidence: high
 curation:
   status: included
-  reason: The product's identity is a suite of MCP servers for specific Czech data domains, fitting the Domain Servers section of the MCP category.
+  reason: The project is primarily an MCP server implementation for domain-specific data access, fitting the MCP Servers & Tooling category as infrastructure for the Model Context Protocol.
   evidence:
-    - "Repo description explicitly states: 'Open-source Model Context Protocol servers for Czech government & business data'."
-    - README details six specific MCP server packages (ARES, CNB, sanctions, ISIR, ADIS, DD) with tool definitions.
-    - Listed in the awesome-mcp-servers directory under 'Finance & Fintech'.
+    - Repo description identifies it as 'Czech & EU due-diligence / KYC-AML MCP servers'
+    - README provides MCP server configurations for Claude Desktop/Cursor and remote HTTP endpoints
+    - Listed in the official MCP Registry and awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -83,12 +82,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:18:46.549Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b9f0727136c68776f6d6d78ea218b58edc708befffcda34a91cf9324ae075d24
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is primarily an MCP server implementation for domain-specific data access, fitting the MCP Servers & Tooling category as infrastructure for the Model Context Protocol.
+      decision_evidence:
+        - Repo description identifies it as 'Czech & EU due-diligence / KYC-AML MCP servers'
+        - README provides MCP server configurations for Claude Desktop/Cursor and remote HTTP endpoints
+        - Listed in the official MCP Registry and awesome-mcp-servers under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is providing MCP servers for data access, not augmenting another assistant with host integrations.
+      review_reason: null
+      review_resume_lifecycle: null

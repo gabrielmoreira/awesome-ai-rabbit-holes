@@ -51,22 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Magic Loops is a no-code/low-code platform that combines LLMs and code to help users build AI-native apps and simple automations without writing traditional code.
-  why_it_matters: It allows developers and non-developers alike to quickly scaffold functional AI apps and internal tools, bypassing the usual setup and boilerplate.
-  mental_damage: Just when you thought you could finally justify your existence by writing CRUD apps, a platform arrives that lets anyone build them with a prompt and a dream.
+  summary: A no-code platform for building AI-native apps by combining LLMs and code into simple automations.
+  why_it_matters: Lets developers and non-developers create and deploy AI-powered apps without writing code, focusing on prompt-to-app workflows.
+  mental_damage: Finally, a way to build apps without coding—just in time for everyone to realize they still need to debug the LLM’s hallucinations.
   tags:
-    - app-builder
     - no-code
-    - automation
-    - llm
+    - app-builder
+    - ai-automation
+    - prompt-to-app
   confidence: high
 curation:
   status: included
-  reason: The platform's primary surface is turning prompts into deployed apps and automations rather than editing existing repos or acting as a coding assistant.
+  reason: The product's core identity is turning prompts into deployed apps, aligning with the App Builders category's focus on prompt-to-app workflows.
   evidence:
-    - "Site description states: 'Combine LLMs and code to create simple automations' and 'Build Apps without coding'."
-    - Featured examples include 'Project Generator' and 'Expense Tracker', which are prompt-to-app use cases.
-    - Listed under 'App Builders' in the awesome-ai-coding-tools directory.
+    - "Site description: 'Combine LLMs and code to create simple automations'"
+    - "Tagline: 'Build Apps without coding'"
+    - "Source-list context: Listed under 'App Builders' in awesome-ai-coding-tools"
 placement:
   primary_category: app-builders
   section: Prompt-to-App Builders
@@ -84,12 +84,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:21.498Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:117694e25897fbd72848165934f1c1340f0792a75959be2b2e43af1256bb0f78
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product's core identity is turning prompts into deployed apps, aligning with the App Builders category's focus on prompt-to-app workflows.
+      decision_evidence:
+        - "Site description: 'Combine LLMs and code to create simple automations'"
+        - "Tagline: 'Build Apps without coding'"
+        - "Source-list context: Listed under 'App Builders' in awesome-ai-coding-tools"
+      category_candidates:
+        - app-builders
+        - agent-orchestration
+      contrastive_reason: Choose app-builders over agent-orchestration because the primary value is creating end-user apps from prompts, not coordinating multiple agents.
+      review_reason: null
+      review_resume_lifecycle: null

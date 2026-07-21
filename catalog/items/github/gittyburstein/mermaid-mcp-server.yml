@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:08.773Z"
       bytes: 13097
 insights:
-  summary: An MCP server that lets agents list files, read code, and render Mermaid diagrams as PNGs from local projects or GitHub repositories.
-  why_it_matters: It gives coding agents a structured pipeline to visualize project structure and flow without guessing paths or inventing architecture from thin context.
-  mental_damage: We’ve built an MCP server so your agent can generate a diagram of the codebase it’s already failing to understand.
+  summary: MCP server that generates Mermaid diagrams from local or GitHub projects and renders them as PNG images via Kroki.
+  why_it_matters: Enables agents to visualize codebase structure and flow without manual path discovery or structure guessing.
+  mental_damage: Now your AI can draw architecture diagrams while you pretend to understand them.
   tags:
-    - mcp
+    - mcp-server
+    - mermaid
+    - code-visualization
+    - kroki
     - diagrams
-    - architecture
-    - agent-tooling
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server purpose-built to expose diagram-generation tools to agents, making MCP its core identity.
+  reason: "MCP is the product identity: a server exposing tools for diagram generation and rendering, fitting the MCP Servers & Tooling category."
   evidence:
-    - Repo description explicitly states 'MCP server for generating Mermaid diagrams from projects (local/GitHub) and rendering via Kroki.'
-    - "README defines the project as 'an MCP server that helps agents turn large codebases … into Mermaid diagrams' with three MCP tools: list_files, read_file, render_mermaid."
-    - Listed in awesome-mcp-servers under Server Implementations > Architecture & Design, reinforcing its MCP server identity.
+    - Repo description explicitly identifies it as an MCP server
+    - README details MCP tools (list_files, read_file, render_mermaid) and MCP-specific workflow
+    - Already listed in awesome-mcp-servers under Architecture & Design
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:13.033Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4e3b9b89174244df4b3cdcfe8cd3b6aeb8d9898e5e39303de4405a82e7063798
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: a server exposing tools for diagram generation and rendering, fitting the MCP Servers & Tooling category."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server
+        - README details MCP tools (list_files, read_file, render_mermaid) and MCP-specific workflow
+        - Already listed in awesome-mcp-servers under Architecture & Design
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server with domain-specific tools rather than an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

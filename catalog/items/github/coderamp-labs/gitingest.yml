@@ -44,22 +44,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:23.448Z"
       bytes: 14527
 insights:
-  summary: A tool that converts Git repositories or local directories into prompt-ready text digests with file structure, size stats, and token counts.
-  why_it_matters: It gives developers a quick way to package entire codebases into a format that LLMs can actually ingest without manual copying or context overflow.
-  mental_damage: We have officially reached the point where preparing your code for the AI takes almost as much tooling as writing the code itself.
+  summary: A tool that converts GitHub repository URLs into prompt-friendly text digests for LLM consumption.
+  why_it_matters: Developers can quickly feed entire codebases into LLMs without manual context curation, improving prompt relevance and reducing token waste.
+  mental_damage: Now you can finally stop pretending you read the entire repo before asking the LLM to fix it.
   tags:
     - context-engineering
-    - cli
-    - llm-ingest
-    - developer-tool
+    - code-ingestion
+    - llm-prompting
+    - github-integration
   confidence: high
 curation:
   status: included
-  reason: The core novelty is context packaging and prompt preparation rather than acting as a coding assistant, IDE, or extension.
+  reason: Core novelty is transforming raw codebases into optimized LLM context, which is prompt/context engineering territory.
   evidence:
-    - Repo description states it turns GitHub URLs into 'prompt-friendly extract[s] of a codebase'.
-    - "README explicitly pitches: 'Turn any Git repository into a prompt-friendly text ingest for LLMs' with token count and structure stats."
-    - Listed as a canonical positive in the context-engineering category definition.
+    - Repo description explicitly states it turns Git repos into 'prompt-friendly extract'
+    - README highlights 'Easy code context' and 'Smart Formatting' for LLM prompts
+    - Canonical positives for context-engineering include gitingest
 placement:
   primary_category: context-engineering
   section: Context Retrieval & Fresh Docs
@@ -78,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:45:36.441Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4a71baef232cd4b2a97f1967b8d535b1a36fe70a0f7e1297d4bf0ad332c8113b
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: Core novelty is transforming raw codebases into optimized LLM context, which is prompt/context engineering territory.
+      decision_evidence:
+        - Repo description explicitly states it turns Git repos into 'prompt-friendly extract'
+        - README highlights 'Easy code context' and 'Smart Formatting' for LLM prompts
+        - Canonical positives for context-engineering include gitingest
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the main value is prompt-optimized codebase extraction rather than augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

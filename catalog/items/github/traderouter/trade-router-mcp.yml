@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2
+    stars: 3
     forks: 1
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: TradeRouter/trade-router-mcp
+    html_url: https://github.com/TradeRouter/trade-router-mcp
     created_at: "2026-02-21T03:57:34Z"
     pushed_at: "2026-04-28T10:20:35Z"
     description: Non-custodial Solana swap & limit-order MCP server for AI agents. 21 tools (swap, limit, trailing, TWAP, DCA, combo orders) across Raydium, PumpSwap, Orca, Meteora. Jito MEV-protected. Ed25519 server-message verification. `npx -y @traderouter/trade-router-mcp`
@@ -51,9 +51,9 @@ metadata:
       - trading
       - trailing-stop
       - twap
-    last_checked_at: "2026-05-06T22:46:54.497Z"
+    last_checked_at: "2026-07-21T15:20:54.484Z"
     readme:
-      fetched_at: "2026-05-06T22:46:54.497Z"
+      fetched_at: "2026-07-21T15:20:54.484Z"
       bytes: 8142
 insights:
   summary: A non-custodial MCP server that exposes 21 Solana trading tools—including swaps, limit orders, TWAP, and DCA—to AI agents via Raydium, Orca, Meteora, and PumpSwap with Jito MEV protection.
@@ -87,16 +87,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:54.497Z"
+    updated_at: "2026-07-21T15:20:54.484Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

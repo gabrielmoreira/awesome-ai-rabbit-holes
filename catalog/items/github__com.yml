@@ -37,22 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GitHub is the world's most widely adopted developer platform and source-code host, offering AI-powered features including GitHub Copilot, GitHub Spark, and an MCP Registry.
-  why_it_matters: It serves as the primary hub where developers store code, automate workflows via Actions, and increasingly integrate AI agents and MCP tooling into their daily development lifecycle.
-  mental_damage: We have successfully centralized the entire open-source ecosystem into a single platform that now wants to sell you an AI agent to write the code you used to enjoy writing yourself.
+  summary: GitHub is an AI-powered developer platform for building, collaborating on, and shipping software.
+  why_it_matters: It provides an integrated ecosystem for developers to write, review, test, and deploy code with AI assistance and automation tools.
+  mental_damage: The platform now promises to let you delegate entire workflows to Copilot, because apparently writing code was the easy part.
   tags:
     - developer-platform
-    - ai-hub
-    - mcp-registry
-    - copilot
+    - ai-assisted-coding
+    - collaboration
+    - ci-cd
+    - version-control
   confidence: high
 curation:
   status: excluded
-  reason: GitHub is a massive general-purpose developer platform and source-code host, not a specific AI tool, agent, framework, or developer-facing product that fits the catalog's scope.
+  reason: GitHub is a broad developer platform and SaaS product, not a focused AI tool, agent, or workflow component within the catalog's scope.
   evidence:
-    - The scraped site context describes GitHub as a broad 'developer platform' with features like Actions, Codespaces, and Issues, not a standalone AI tool.
-    - The URL provided is the root github.com domain, representing the entire platform rather than a specific repository or AI product.
-    - Appears in awesome-mcp-servers lists only because it hosts an MCP Registry, but the platform itself is not an MCP server or AI tool.
+    - Primary identity is a general developer platform (version control, CI/CD, project management)
+    - AI features (Copilot, MCP Registry) are integrated but not the core product identity
+    - Source-list context shows it appears in an MCP registry list, but MCP is only a feature, not the product identity
 placement:
   primary_category: null
   section: null
@@ -72,12 +73,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:07.734Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a7ca2a79ba89a82ac8ec084a7da71fdf166c78b92c65f4c1ce7451b9547d831e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: GitHub is a broad developer platform and SaaS product, not a focused AI tool, agent, or workflow component within the catalog's scope.
+      decision_evidence:
+        - Primary identity is a general developer platform (version control, CI/CD, project management)
+        - AI features (Copilot, MCP Registry) are integrated but not the core product identity
+        - Source-list context shows it appears in an MCP registry list, but MCP is only a feature, not the product identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

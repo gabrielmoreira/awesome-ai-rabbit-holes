@@ -36,21 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Windsurf is an AI-native code editor and IDE designed to help developers write, edit, and navigate code with integrated AI assistance.
-  why_it_matters: It provides a dedicated development environment where AI assistance is built directly into the editing surface, changing how developers interact with their codebase.
-  mental_damage: Just when you thought you had settled on an AI editor, here comes another IDE promising to refactor your workflow while you refactor your dotfiles.
+  summary: Devin Desktop (formerly Windsurf) is a desktop IDE and command center for managing fleets of local and cloud coding agents with shared context and workflows.
+  why_it_matters: It lets developers coordinate multiple agents, review their work, and maintain flow within a single editor surface, reducing context-switching overhead.
+  mental_damage: Now you can watch a dozen agents argue about learning rate warmup phases while you pretend to understand the code.
   tags:
-    - ai-ide
-    - code-editor
-    - ai-assistant
+    - multi-agent
+    - ide
+    - coding-agents
+    - agent-orchestration
+    - desktop
   confidence: high
 curation:
   status: included
-  reason: Windsurf is listed as a canonical positive example for the AI IDEs & Editors category, fitting the profile of a development environment built around coding assistance rather than a plugin or terminal agent.
+  reason: The primary product is an AI-native IDE/editor surface with integrated agent management, not a standalone coding agent or orchestration platform.
   evidence:
-    - Listed as a canonical positive example in the ai-ides-editors category definition (Windsurf).
-    - Included in the awesome-ai-coding-tools list under the section 'Code Editors and Assistants'.
-    - The URL windsurf.com and product name strongly align with the IDE and editor surface identity.
+    - Described as 'the home for every agent you run' with a full IDE included
+    - Positioned as a desktop app for managing agents within an editor
+    - Formerly Windsurf, explicitly listed as a canonical positive for IDEs & Editors
 placement:
   primary_category: ai-ides-editors
   section: Full IDEs & Editors
@@ -68,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:03.234Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6b398c9636a448381884029972e92b52502bbf89f17972c5d78814a3d261a7b2
+      proposed_primary_category: ai-ides-editors
+      disagreement: false
+      decision_reason: The primary product is an AI-native IDE/editor surface with integrated agent management, not a standalone coding agent or orchestration platform.
+      decision_evidence:
+        - Described as 'the home for every agent you run' with a full IDE included
+        - Positioned as a desktop app for managing agents within an editor
+        - Formerly Windsurf, explicitly listed as a canonical positive for IDEs & Editors
+      category_candidates:
+        - ai-ides-editors
+        - agent-orchestration
+      contrastive_reason: Choose ai-ides-editors over agent-orchestration because the core product is the editor surface with agent management as a feature, not a standalone multi-agent control plane.
+      review_reason: null
+      review_resume_lifecycle: null

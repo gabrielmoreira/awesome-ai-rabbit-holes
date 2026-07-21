@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:32.923Z"
       bytes: 1989
 insights:
-  summary: A desktop app that records your screen to build contextual understanding of your workflow and surfaces automation opportunities queryable via MCP in any AI chat.
-  why_it_matters: It attempts to automate the tedious context-gathering phase of AI assistance by watching you work and feeding relevant history directly into your coding agent.
-  mental_damage: We have finally reached the point where your computer watches you code so it can tell the AI what you were trying to do before you gave up and asked for help.
+  summary: A desktop app that records screen activity to build work context and surfaces automation opportunities, queryable via MCP in AI chats.
+  why_it_matters: It turns passive observation of developer workflows into structured context that can be fed into AI assistants for smarter automation suggestions.
+  mental_damage: Now your AI knows you spent 20 minutes renaming a variable and will judge you silently.
   tags:
-    - desktop-app
-    - context-recording
     - mcp
-    - automation
-    - screen-capture
+    - workflow-automation
+    - context-building
+    - desktop-app
   confidence: high
 curation:
   status: included
-  reason: The core product is a desktop host integration that captures screen context and feeds it into other AI chats via MCP, augmenting the assistant rather than being the primary coding agent.
+  reason: The core value is augmenting AI chats with context derived from screen observation, making it an extension rather than a standalone assistant.
   evidence:
-    - README states it 'sees what you see, builds context... and surfaces automation opportunities — all queryable from any AI chat via MCP.'
-    - Found in awesome-mcp-servers under 'Knowledge & Memory', aligning with its MCP integration identity.
-    - Distributed as a desktop app (macOS/Windows) and CLI, acting as a bridge/layer rather than a standalone repo-editing agent.
+    - README describes it as a desktop app that builds context from screen recording and surfaces automation opportunities
+    - Explicitly states context is queryable from any AI chat via MCP
+    - Provides CLI and desktop app downloads, positioning it as a companion tool
 placement:
   primary_category: ai-dev-extensions
   section: Memory & Context Add-ons
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:46.370Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:51bba1da22c1d18afef565ef7ba4dfb903bf0409f4bc38cca119f817f46da7d3
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The core value is augmenting AI chats with context derived from screen observation, making it an extension rather than a standalone assistant.
+      decision_evidence:
+        - README describes it as a desktop app that builds context from screen recording and surfaces automation opportunities
+        - Explicitly states context is queryable from any AI chat via MCP
+        - Provides CLI and desktop app downloads, positioning it as a companion tool
+      category_candidates:
+        - ai-dev-extensions
+        - context-engineering
+      contrastive_reason: Choose ai-dev-extensions over context-engineering because the primary identity is the MCP-integrated desktop tool that feeds context to AI chats, not a standalone context system.
+      review_reason: null
+      review_resume_lifecycle: null

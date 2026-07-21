@@ -55,22 +55,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:52.527Z"
       bytes: 9827
 insights:
-  summary: Claude Engineer is an interactive CLI and web interface powered by Claude 3.5 Sonnet that can autonomously generate, implement, and manage its own tools to expand its coding capabilities during conversation.
-  why_it_matters: It allows developers to delegate coding tasks to an agent that actively identifies capability gaps and writes new tools to solve them, reducing the need for manual extension setup.
-  mental_damage: Now your AI can identify its own limitations, write code to fix them, and leave you wondering if you are still the senior engineer in the room.
+  summary: Claude Engineer is a CLI and web interface that uses Claude 3.5 Sonnet to assist with software development tasks, featuring autonomous tool generation and self-improving capabilities.
+  why_it_matters: It enables developers to delegate repo work to an AI assistant that can dynamically create and manage its own tools during conversations, expanding its capabilities over time.
+  mental_damage: Finally, an AI that writes its own tools so you can spend more time debugging the tools it wrote.
   tags:
     - cli
-    - agent
+    - coding-agent
     - self-improving
+    - claude
     - tool-generation
   confidence: high
 curation:
   status: included
-  reason: The project is a standalone CLI and web-based coding assistant that reads code, plans changes, and autonomously creates tools to complete development tasks, fitting the primary coding assistant definition.
+  reason: It is a primary coding assistant that developers delegate repo work to, with both CLI and web interfaces, and it directly plans, writes, and manages tools for software development tasks.
   evidence:
-    - Repo description states it is an interactive CLI leveraging Claude 3.5-Sonnet to assist with software development tasks.
-    - README describes dynamic tool creation and loading, allowing the agent to expand its own capabilities through conversation.
-    - Included in the awesome-cli-coding-agents list under 'Terminal-native coding agents > Open Source'.
+    - Repo description explicitly states it is an interactive CLI for software development tasks using Claude 3.5 Sonnet
+    - README highlights autonomous tool creation, dynamic capability expansion, and direct repo workflow integration
+    - Source-list context includes it in 'Terminal-native coding agents > Open Source'
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -89,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:37.419Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f039303fa94d7776fafc6274052fe3c4fa4a69e39ef893b116001c5cc18628c5
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a primary coding assistant that developers delegate repo work to, with both CLI and web interfaces, and it directly plans, writes, and manages tools for software development tasks.
+      decision_evidence:
+        - Repo description explicitly states it is an interactive CLI for software development tasks using Claude 3.5 Sonnet
+        - README highlights autonomous tool creation, dynamic capability expansion, and direct repo workflow integration
+        - Source-list context includes it in 'Terminal-native coding agents > Open Source'
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a standalone primary assistant for repo work, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

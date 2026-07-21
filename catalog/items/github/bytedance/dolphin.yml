@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:16.331Z"
       bytes: 9509
 insights:
-  summary: Dolphin is an open-source, lightweight vision-language model from ByteDance that parses complex document images—including PDFs, tables, formulas, and code blocks—into structured outputs using a two-stage heterogeneous anchor prompting architecture.
-  why_it_matters: It gives developers a high-performance, 3B-parameter alternative to heavy OCR pipelines for extracting structured data from messy real-world documents, with support for vLLM and TensorRT-LLM acceleration.
-  mental_damage: Yet another reminder that while we build agents to write code, the industry is still funneling massive research energy into teaching models how to correctly read a PDF without hallucinating the table headers.
+  summary: Dolphin is a document image parsing model using heterogeneous anchor prompting, released by ByteDance with versions up to 3B parameters.
+  why_it_matters: It improves document parsing (text, tables, formulas, code blocks) for both digital and photographed documents, which can be useful for developers needing OCR or structured document extraction.
+  mental_damage: Another model that turns your PDFs into structured data, because apparently typing is still too hard.
   tags:
     - ocr
     - document-parsing
     - vlm
     - pdf
-    - bytedance
+    - python
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because Dolphin is a research-oriented document image parsing model and OCR toolkit, not a developer-facing AI tool, agent, workflow, or infrastructure component for building software.
+  reason: This is a research-focused document parsing model (VLM/OCR) with no direct developer-tooling workflow integration, coding assistance, or app-building capability.
   evidence:
-    - "Repo description explicitly frames it as a research paper implementation ('Dolphin: Document Image Parsing via Heterogeneous Anchor Prompting', ACL 2025)."
-    - README focuses on document layout analysis, PDF parsing, formula/table extraction, and benchmark performance, with no coding-agent or developer-workflow utility.
-    - Source list context places it in a generic 'LLM resources / Data' section, indicating it is treated as a data model rather than a developer tool.
+    - Repo description identifies it as a document image parsing model for ACL 2025
+    - README focuses on model architecture, benchmarks, and inference deployment (TensorRT-LLM, vLLM)
+    - Topics include OCR, PDF parsing, and VLM-OCR, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -83,12 +83,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:18.580Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:83075509b6c8ff5654635adc7188ec6e85936a55e246bd9e231b456831b2553b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a research-focused document parsing model (VLM/OCR) with no direct developer-tooling workflow integration, coding assistance, or app-building capability.
+      decision_evidence:
+        - Repo description identifies it as a document image parsing model for ACL 2025
+        - README focuses on model architecture, benchmarks, and inference deployment (TensorRT-LLM, vLLM)
+        - Topics include OCR, PDF parsing, and VLM-OCR, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

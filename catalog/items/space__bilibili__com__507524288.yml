@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili personal profile page for NICE Academic, serving as a video and content hub for AI sharing by global young scholars.
-  why_it_matters: It aggregates academic talks and resources focused on the AI 'academic-landing-entrepreneurship' loop for Chinese-speaking developers and researchers.
-  mental_damage: Yet another curated 'best of LLM' resource list, ensuring you can spend three hours browsing instead of writing a single line of code.
+  summary: A Bilibili creator space providing video, article, and social updates on various AI topics including Agents, MCP, and model training.
+  why_it_matters: It serves as an educational resource for developers looking to follow academic-to-industry trends in the rapidly evolving AI landscape.
+  mental_damage: Another high-quality content feed to add to the infinite scroll of tutorials you'll definitely watch... eventually.
   tags:
-    - ai-resources
-    - academic
-    - video-content
-    - "-chinese"
+    - tutorials
+    - education
+    - chinese-resources
+    - llm-trends
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal video profile page and media channel, not a developer tool, framework, agent, or reusable software artifact.
+  reason: This is a content creator's social space for sharing tutorials and news rather than a standalone developer tool or software product.
   evidence:
-    - The URL points to a Bilibili personal space (space.bilibili.com), not a software repository or product.
-    - Source list context describes it as a video/audio/article hub for academic sharing, not a tool.
-    - No repo description, README, code, or executable product exists in the provided inputs.
+    - Scraped site context describes it as a personal space for sharing videos, articles, and updates.
+    - Source-list context places it in a 'Tutorial' section of an awesome list.
+    - It lacks a primary product identity as a piece of software, SDK, or platform.
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:04.282Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b63e544a11d54aaff6420e0dda64abc314b767925137d4676943b0ea7391b312
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a content creator's social space for sharing tutorials and news rather than a standalone developer tool or software product.
+      decision_evidence:
+        - Scraped site context describes it as a personal space for sharing videos, articles, and updates.
+        - Source-list context places it in a 'Tutorial' section of an awesome list.
+        - It lacks a primary product identity as a piece of software, SDK, or platform.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

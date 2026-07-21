@@ -22,31 +22,50 @@ provenance:
         extracted_url: https://github.com/viperjuice/mcp-gateway
         surrounding_text: "- [ViperJuice/mcp-gateway](https://github.com/ViperJuice/mcp-gateway) 🐍 🏠 🍎 🪟 🐧 - A meta-server for minimal Claude Code tool bloat with progressive disclosure and dynamic server provisioning. Exposes 9 stable meta-tools, auto-starts Playwright and Context7, and can dynamically provision 25+ MCP servers on-demand from a curated manifest."
         confidence: high
+    - id: discovery__github__viperjuice__pmcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: ViperJuice/mcp-gateway
+        extracted_url: https://github.com/viperjuice/mcp-gateway
+        surrounding_text: "- [ViperJuice/mcp-gateway](https://github.com/ViperJuice/mcp-gateway) 🐍 🏠 🍎 🪟 🐧 - A meta-server for minimal Claude Code tool bloat with progressive disclosure and dynamic server provisioning. Exposes 9 stable meta-tools, auto-starts Playwright and Context7, and can dynamically provision 25+ MCP servers on-demand from a curated manifest."
+        confidence: high
 metadata:
   github:
-    stars: 15
+    stars: 17
     forks: 5
     license: MIT
     archived: false
+    full_name: Consiliency/pmcp
+    html_url: https://github.com/Consiliency/pmcp
     created_at: "2025-12-27T23:27:30Z"
-    pushed_at: "2026-07-15T03:29:18Z"
+    pushed_at: "2026-07-18T23:09:50Z"
     description: MCP Gateway - A meta-server for minimal Claude Code tool bloat with progressive disclosure
     homepage: null
     topics: []
-    last_checked_at: "2026-07-16T05:04:50.507Z"
+    last_checked_at: "2026-07-21T15:21:06.512Z"
     readme:
-      fetched_at: "2026-07-16T05:04:50.507Z"
-      bytes: 55886
+      fetched_at: "2026-07-21T15:21:06.512Z"
+      bytes: 55887
 insights:
   summary: An MCP meta-server that uses progressive disclosure to prevent context bloat by lazily provisioning downstream tools on demand.
   why_it_matters: It prevents Claude Code and other MCP clients from being overwhelmed by dozens of tool schemas, saving tokens and reducing cognitive load.
   mental_damage: Finally, a way to manage the existential dread of seeing a 50-tool JSON schema dump every time you ask a simple question.
   tags:
-    - mcp
-    - context-management
     - claude-code
-    - tool-discovery
+    - context-bloat
+    - context-management
+    - mcp
     - middleware
+    - tool-discovery
   confidence: high
 curation:
   status: included
@@ -55,6 +74,9 @@ curation:
     - README describes it as an 'MCP Gateway' and a 'eta-server'
     - Purpose is to solve context bloat via progressive disclosure of tool schemas
     - Acts as a single intermediary between clients like Claude Code and downstream servers
+    - "Repo description: 'MCP Gateway - A meta-server for minimal Claude Code tool bloat with progressive disclosure'"
+    - "README: 'PMCP acts as a single MCP server that Claude Code connects to' and provides '26 stable meta-tools' instead of exposing 50+ underlying tools directly"
+    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Aggregators"
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -62,16 +84,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-07-16T05:04:50.507Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-07-16T05:13:51.076Z"
@@ -79,4 +91,14 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-07-16T05:04:46.714Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-21T15:21:06.512Z"
+    cause: null
     next_retry_at: null

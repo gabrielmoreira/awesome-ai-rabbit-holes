@@ -37,22 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hawaii travel booking site that uses an AI concierge named Nani to generate personalized Oahu itineraries and book tours.
-  why_it_matters: It serves as an example of a domain-specific AI agent application, though it is aimed at tourists rather than developers.
-  mental_damage: We have successfully built an AI agent that can plan your luau down to the minute, but we still can't automate a PR review without three manual retries.
+  summary: A travel planning website for Hawaii tours and activities with an AI concierge named Nani that builds custom itineraries.
+  why_it_matters: It does not matter to software developers as it is a consumer-facing travel planning tool.
+  mental_damage: The only code this will debug is the HTML for its own booking buttons.
   tags:
     - travel
     - ai-concierge
-    - tourism
-    - misclassified
+    - consumer-tool
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the product is a consumer-facing travel booking site for Hawaii tourists, lacking any developer-tooling, coding, or infrastructure angle.
+  reason: This is a consumer travel planning service with an AI assistant for trip itineraries, not a developer tool or workflow.
   evidence:
-    - Scraped site context describes 'Nani is your AI concierge' for booking snorkeling, helicopters, and luaus on Oahu.
-    - Primary page excerpt focuses entirely on travel itineraries, restaurants, and neighborhood guides with no developer workflows.
-    - Listed in awesome-mcp-servers under 'Location Services', but the tool itself is a consumer travel app, not a developer utility.
+    - Site title and description explicitly describe Hawaii tours and activities
+    - Primary page excerpt focuses on travel planning, bookings, and local guides
+    - No mention of developer tools, coding, or software workflows
 placement:
   primary_category: null
   section: null
@@ -70,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:18.206Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:73f1b34cab7191cd0a817dc5be973e57a468cde53d19b69654dc3455ce741010
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a consumer travel planning service with an AI assistant for trip itineraries, not a developer tool or workflow.
+      decision_evidence:
+        - Site title and description explicitly describe Hawaii tours and activities
+        - Primary page excerpt focuses on travel planning, bookings, and local guides
+        - No mention of developer tools, coding, or software workflows
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

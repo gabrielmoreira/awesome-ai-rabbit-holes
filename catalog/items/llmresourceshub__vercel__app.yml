@@ -36,21 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated directory of Large Language Model resources, tools, and learning materials covering everything from model training to auxiliary programming.
-  why_it_matters: It serves as a centralized map for developers trying to navigate the overwhelming ecosystem of LLM tooling and educational content.
-  mental_damage: "Just what every developer needs: another meta-list to browse for three hours while convincing themselves they are 'evaluating the ecosystem.'"
+  summary: A curated directory of LLM resources, tools, and learning materials for developers.
+  why_it_matters: Provides a centralized hub for developers to discover AI/ML tools, frameworks, and educational content relevant to their workflows.
+  mental_damage: Another directory to bookmark in the ever-growing graveyard of 'definitive' AI resource lists.
   tags:
     - directory
-    - llm
-    - resources
-    - learning
-  confidence: medium
+    - llm-resources
+    - curated-list
+  confidence: high
 curation:
   status: included
-  reason: The project is a discovery and navigation aid collecting LLM resources and tools, which fits the 'Lists & Directories' category rather than a standalone developer product.
+  reason: This is a curated directory of LLM resources, which fits the scope of navigation aids for developers under the awesome-awesomes category.
   evidence:
     - Scraped site context describes it as 'A comprehensive collection of Large Language Model (LLM) resources, tools, and learning materials.'
-    - Seen in the 'awesome-LLM-resources' list where it is linked as a collection of LLM resources and courses.
+    - Source-list context places it in a curated list of LLM resources under the 'Course' section.
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -68,12 +67,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:10.818Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a65f36cd325e0883aa40662d8e9d3deeea90af77c95767d9ff4469e821162e53
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of LLM resources, which fits the scope of navigation aids for developers under the awesome-awesomes category.
+      decision_evidence:
+        - Scraped site context describes it as 'A comprehensive collection of Large Language Model (LLM) resources, tools, and learning materials.'
+        - Source-list context places it in a curated list of LLM resources under the 'Course' section.
+      category_candidates:
+        - awesome-awesomes
+        - newsletters-and-feeds
+      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because the primary value is discovery and navigation of resources, not recurring commentary or updates.
+      review_reason: null
+      review_resume_lifecycle: null

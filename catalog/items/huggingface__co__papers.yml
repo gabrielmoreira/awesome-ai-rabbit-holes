@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A daily-updated feed of AI research papers hosted by Hugging Face, aggregating trending ML and LLM publications with summaries and community discussion.
-  why_it_matters: Developers building AI-powered tooling can track emerging techniques and benchmarks without manually trawling arXiv or conference proceedings.
-  mental_damage: Yet another curated firehose that turns 'keeping up with the field' into a full-time job with no clear stopping condition.
+  summary: A daily digest of trending AI research papers curated by AK and the Hugging Face community.
+  why_it_matters: Keeps developers updated on cutting-edge AI research that may influence future tooling or methodologies.
+  mental_damage: Another feed to make you feel like you're falling behind on the literature while you're just trying to ship code.
   tags:
-    - research
+    - ai-research
+    - newsletter
     - papers
-    - feed
     - huggingface
   confidence: high
 curation:
   status: excluded
-  reason: This is a general AI research publication feed and paper aggregator, not a developer-facing tool, framework, agent, or engineering utility within the catalog's scope.
+  reason: This is a research paper digest/feed, not a developer tool, framework, or workflow product.
   evidence:
-    - Scraped page title and description describe it as 'Your daily dose of AI research from AK', focused on research papers.
-    - Sample papers include medical AI, Gaussian splatting, and multi-agent RL with no developer-tooling product angle.
-    - Seen in awesome-LLM-resources under a papers section, reinforcing its identity as a research digest rather than a tool.
+    - Scraped site context describes it as 'Your daily dose of AI research from AK'
+    - Source-list context places it under '论文 Paper' (Papers) section
+    - Primary page excerpt shows a list of research papers with summaries and upvotes
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:09.130Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ce6bcc586126dbf6f092aa87236a7047d1148cbe06a4f890309a3db91d1ff4d6
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a research paper digest/feed, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - Scraped site context describes it as 'Your daily dose of AI research from AK'
+        - Source-list context places it under '论文 Paper' (Papers) section
+        - Primary page excerpt shows a list of research papers with summaries and upvotes
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

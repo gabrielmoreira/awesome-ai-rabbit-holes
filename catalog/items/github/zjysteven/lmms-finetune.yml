@@ -23,19 +23,33 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 373
+    forks: 44
+    license: Apache-2.0
+    archived: false
+    full_name: zjysteven/lmms-finetune
+    html_url: https://github.com/zjysteven/lmms-finetune
+    created_at: "2024-07-20T16:57:19Z"
+    pushed_at: "2026-02-28T02:54:35Z"
+    description: A minimal codebase for finetuning large multimodal models, supporting llava-1.5/1.6, llava-interleave, llava-next-video, llava-onevision, llama-3.2-vision, qwen-vl, qwen2-vl, phi3-v etc.
+    homepage: ""
+    topics:
+      - finetuning
+      - foundation-models
+      - instruction-tuning
+      - large-language-model
+      - large-multimodal-models
+      - llava
+      - llava-next
+      - multimodal
+      - multimodal-large-language-models
+      - qwen-vl
+      - vision-language
+      - visual-instruction-tuning
+    last_checked_at: "2026-07-21T15:21:28.772Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:28.772Z"
+      bytes: 12106
 insights:
   summary: null
   why_it_matters: null
@@ -50,8 +64,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (373) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -59,15 +73,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-12T15:06:47.475Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for zjysteven/lmms-finetune
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-21T15:21:28.772Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

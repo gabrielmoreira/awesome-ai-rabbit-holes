@@ -50,22 +50,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:20.762Z"
       bytes: 5899
 insights:
-  summary: An MCP server that exposes the Sovereign AI Blog's 60+ articles on self-hosted AI and NVIDIA DGX Spark setups to coding agents via search, retrieval, and SGLang diagnostics.
-  why_it_matters: It gives agents structured, version-current access to niche hardware troubleshooting and benchmarks that are typically missing from stale training data.
-  mental_damage: We have now successfully abstracted the act of reading a blog into a protocol, so your agent can hallucinate solutions to ARM64 problems using slightly fresher context.
+  summary: MCP server exposing the Sovereign AI Blog for agent access to self-hosted AI documentation on NVIDIA DGX Spark.
+  why_it_matters: Gives coding agents direct, structured access to niche hardware setup docs (GB10/SM121A, SGLang on ARM64) to reduce hallucinations in specialized environments.
+  mental_damage: Finally, a way for your AI to stop guessing about your obscure GPU stack and just read the manual.
   tags:
-    - mcp
-    - self-hosted
-    - knowledge-base
+    - mcp-server
+    - self-hosted-ai
     - nvidia-dgx
-  confidence: medium
+    - knowledge-base
+    - sglang
+  confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server providing domain-specific knowledge retrieval and diagnostics, which fits the MCP Servers & Tooling category.
+  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific tooling for AI agents."
   evidence:
-    - Repo description explicitly states 'MCP server for the Sovereign AI Blog'.
-    - README details tools like search_blog and diagnose_sglang exposed via FastMCP with Streamable HTTP transport.
-    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory.
+    - Repo description explicitly identifies it as an MCP server
+    - README details MCP tools, transport (Streamable HTTP), and client integration
+    - Listed in MCP Registry (badges in README)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -84,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:48.953Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e3d3d5b721e69bf19e2ba869801fa563c0e6a7af9a711db3a148b1da82acf996
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific tooling for AI agents."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server
+        - README details MCP tools, transport (Streamable HTTP), and client integration
+        - Listed in MCP Registry (badges in README)
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server, not a general retrieval/memory system.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -1,0 +1,97 @@
+id: github__teolex2020__aura-memory
+kind: github-repo
+name: teolex2020/AuraSDK
+canonical_url: https://github.com/teolex2020/aura-memory
+identity:
+  github_repo: teolex2020/aura-memory
+provenance:
+  discoveries:
+    - id: discovery__github__teolex2020__aurasdk__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: teolex2020/AuraSDK
+        extracted_url: https://github.com/teolex2020/aurasdk
+        surrounding_text: "- [teolex2020/AuraSDK](https://github.com/teolex2020/AuraSDK) [![teolex2020-aurasdk MCP server](https://glama.ai/mcp/servers/teolex2020-aurasdk/badges/score.svg)](https://glama.ai/mcp/servers/teolex2020-aurasdk) 🐍 🏠 — Persistent cognitive memory for Claude Desktop. Sub-ms recall, offline, encrypted."
+        confidence: high
+metadata:
+  github:
+    stars: 73
+    forks: 7
+    license: MIT
+    archived: false
+    full_name: teolex2020/aura-memory
+    html_url: https://github.com/teolex2020/aura-memory
+    created_at: "2026-02-23T13:08:35Z"
+    pushed_at: "2026-07-18T15:30:56Z"
+    description: Cognitive memory for AI agents. Pure Rust, <1ms recall, 2.7MB, zero cloud. Patent Pending.
+    homepage: https://aurasdk.dev
+    topics:
+      - agent
+      - ai
+      - ai-agents
+      - cognitive
+      - embedded
+      - encryption
+      - llm
+      - memory
+      - offline
+      - python
+      - rust
+    last_checked_at: "2026-07-21T15:20:44.949Z"
+    readme:
+      fetched_at: "2026-07-21T15:20:44.949Z"
+      bytes: 31216
+insights:
+  summary: AuraSDK is a local, pure-Rust cognitive memory runtime that adds durable, sub-millisecond recall, governed correction, and self-adaptation to frozen AI models without cloud training or fine-tuning.
+  why_it_matters: It gives developers a lightweight, offline-first way to add structured, inspectable memory and bounded recall reranking to any agent or model runtime with a simple Python SDK.
+  mental_damage: Because your agent still can’t ship a clean PR, but now it will remember every time you told it to deploy to staging first.
+  tags:
+    - local-ai
+    - memory
+    - offline
+    - rust
+    - sdk
+  confidence: medium
+curation:
+  status: included
+  reason: The core novelty is a local memory and context-shaping system for agents, which maps directly to Prompt & Context Engineering rather than orchestration or extension layers.
+  evidence:
+    - "Repo description: 'Cognitive memory for AI agents. Pure Rust, <1ms recall, 2.7MB, zero cloud.'"
+    - "README: 'AuraSDK is a local cognitive runtime that runs alongside any frozen model. It gives agents durable memory, explainability, governed correction, bounded recall reranking...'"
+    - "Python SDK usage: brain.store() and brain.recall() via pip install aura-memory."
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.651Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-21T15:20:44.949Z"
+    cause: null
+    next_retry_at: null

@@ -40,25 +40,24 @@ metadata:
       fetched_at: "2026-07-20T15:11:56.315Z"
       bytes: 108867
 insights:
-  summary: An MCP server that rewrites vague prompts into platform-optimized versions for 58+ AI tools by pulling context from workspace files like CLAUDE.md and .cursorrules.
-  why_it_matters: It sits between you and your AI tools to automatically inject the right syntax, parameters, and project context so you don't have to memorize platform-specific prompt dialects.
-  mental_damage: We have now reached the point where we need an AI tool to optimize our prompts for the AI tools that are optimizing the prompts we use to talk to AI tools.
+  summary: ClarifyPrompt MCP is an MCP server that compiles vague prompts into platform-specific prompts using workspace context and model capabilities.
+  why_it_matters: It lets developers write one intent and get optimized prompts for 58+ AI platforms, reducing manual prompt tuning across models.
+  mental_damage: Finally, a tool that acknowledges your prompt engineering skills are as brittle as a house of cards in a hurricane.
   tags:
     - mcp
-    - prompt-optimization
-    - context-awareness
-    - multi-platform
+    - prompt-engineering
+    - context-aware
   confidence: medium
 curation:
   status: included
-  reason: The product is explicitly an MCP server for prompt compilation, and MCP is its core identity rather than a compatibility footnote.
+  reason: The tool is an MCP server whose core identity is providing MCP-based prompt compilation, making MCP Servers & Tooling the best fit over extensions or context engineering.
   evidence:
-    - Repo name is 'clarifyprompt-mcp' and README describes it as a 'context-aware MCP prompt compiler'.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
-    - Active development as of 2026-04-28 with recent eval-driven releases.
+    - README describes it as a 'context-aware MCP prompt compiler' that transforms vague prompts into platform-optimized prompts
+    - Source-list context shows it is included in awesome-mcp-servers under Server Implementations > Developer Tools
+    - The product exposes MCP tools and resources, with no indication it is primarily a thin wrapper or integration layer for another assistant
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:37.396Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0f95c28c5f234297440ced4ce06c3174e3eaea276cc3ce6cf74b7c5e2ae26159
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is an MCP server whose core identity is providing MCP-based prompt compilation, making MCP Servers & Tooling the best fit over extensions or context engineering.
+      decision_evidence:
+        - README describes it as a 'context-aware MCP prompt compiler' that transforms vague prompts into platform-optimized prompts
+        - Source-list context shows it is included in awesome-mcp-servers under Server Implementations > Developer Tools
+        - The product exposes MCP tools and resources, with no indication it is primarily a thin wrapper or integration layer for another assistant
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is an MCP server infrastructure, not a standalone context or memory system.
+      review_reason: null
+      review_resume_lifecycle: null

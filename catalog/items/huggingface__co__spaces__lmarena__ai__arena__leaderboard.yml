@@ -36,22 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hugging Face Space that displays the LMArena leaderboard in a full-screen view for tracking LLM rankings.
-  why_it_matters: It provides developers with a quick, no-setup way to check the latest language model performance rankings when evaluating models for their own tooling.
-  mental_damage: Yet another beautifully rendered dashboard to consult before convincing yourself that the slightly higher-ranked model will finally fix your context window woes.
+  summary: A Hugging Face Space that displays the LMArena leaderboard in a full-screen iframe view.
+  why_it_matters: Provides a convenient, no-input-required way to browse LLM rankings for developers tracking model performance.
+  mental_damage: Because nothing says 'cutting-edge AI' like an iframe wrapping a leaderboard.
   tags:
-    - llm
     - leaderboard
-    - benchmark
-    - evals
+    - llm-comparison
+    - huggingface-space
   confidence: high
 curation:
   status: excluded
-  reason: This is a passive dashboard for viewing benchmark rankings rather than a developer tool, framework, or workflow product that fits the catalog scope.
+  reason: This is a passive leaderboard viewer, not a developer tool, framework, or workflow component.
   evidence:
-    - Scraped site context describes it as 'displays the LMArena leaderboard in a full‑screen view' with no developer workflow integration.
-    - Appears in awesome-local-ai only as a passive viewing tool under 'LLM Leaderboard', not as a local AI runtime or developer product.
-    - No repo description, README, or code evidence provided to suggest it is a usable developer tool, SDK, or integration.
+    - The Space loads the LMArena leaderboard in an iframe with no interactive input
+    - Source-list context places it under 'LLM Leaderboard' in a local AI tools directory, not as a developer tool
 placement:
   primary_category: null
   section: null
@@ -69,12 +67,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:20.672Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:da447423c5250cae6ab6c392491116ba08fb320394a3d63bec0fe699278cac84
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a passive leaderboard viewer, not a developer tool, framework, or workflow component.
+      decision_evidence:
+        - The Space loads the LMArena leaderboard in an iframe with no interactive input
+        - Source-list context places it under 'LLM Leaderboard' in a local AI tools directory, not as a developer tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

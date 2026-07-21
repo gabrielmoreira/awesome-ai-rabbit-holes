@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili personal profile page for a Zhejiang University researcher sharing videos, articles, and resources on LLM teaching, research, and popular science.
-  why_it_matters: Provides a stream of educational content and curated resources for developers looking to understand the theory and application of large language models.
-  mental_damage: Yet another signal that the most valuable part of the AI ecosystem is currently a chronological feed of videos you will bookmark but never watch.
+  summary: Personal Bilibili space of a Zhejiang University professor sharing AI/large model educational content.
+  why_it_matters: Provides Chinese-language tutorials and resources on large models for developers and researchers.
+  mental_damage: Another day, another professor’s video feed competing with your backlog of unread AI papers.
   tags:
-    - llm
     - education
-    - resources
     - tutorial
+    - chinese
+    - bilibili
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal video profile and educational feed, not a developer-facing tool, infrastructure, or product.
+  reason: This is a personal content creator's page, not a developer tool, framework, or workflow product.
   evidence:
-    - URL points to a Bilibili personal space (space.bilibili.com), not a tool repo or product.
-    - Source list context describes it as a tutorial/resource hub for LLM content, not a software tool.
-    - Scraped site context confirms it is a personal page for a researcher sharing videos and articles.
+    - URL points to a Bilibili personal space (哔哩哔哩毛玉仁老师的个人空间)
+    - Source-list context describes it as a tutorial resource, not a tool
+    - No repo, code, or product identity—purely educational media
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:48.637Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7efc880a2b08e4cc6d0db6dd42aca8c551d9521ced7196bf748345702c35d1ec
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a personal content creator's page, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - URL points to a Bilibili personal space (哔哩哔哩毛玉仁老师的个人空间)
+        - Source-list context describes it as a tutorial resource, not a tool
+        - No repo, code, or product identity—purely educational media
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LinkAI Portal is an enterprise-grade platform for building and deploying multi-modal AI agents with RAG knowledge bases, workflows, and no-code integrations into platforms like WeChat and DingTalk.
-  why_it_matters: It provides developers with a control plane to orchestrate complex agent behaviors, manage knowledge retrieval, and deploy conversational apps across multiple enterprise channels without writing core agent logic.
-  mental_damage: Another 'all-in-one' platform promising to solve enterprise AI adoption via drag-and-drop workflows, ensuring you can orchestrate a thousand agents while your own backlog remains untouched.
+  summary: LinkAI is an enterprise-grade all-in-one AI agent platform that aggregates multimodal models, RAG knowledge bases, databases, plugins, and workflows for building and deploying AI agents.
+  why_it_matters: It enables developers to create and manage AI agents with zero-code integration into websites, enterprise messaging, and collaboration platforms, streamlining AI adoption in business workflows.
+  mental_damage: Another platform promising to turn your enterprise into an AI utopia, because nothing says 'productivity' like a 10-tab interface for configuring agents.
   tags:
-    - agent-platform
+    - ai-agents
     - enterprise
     - no-code
-    - multi-agent
-    - rag
+    - multimodal
+    - workflow-automation
   confidence: high
 curation:
   status: included
-  reason: The product is a hosted control plane and workbench for building, managing, and deploying multiple agents across various channels, fitting the 'Agent Orchestration' definition better than a coding agent or framework.
+  reason: The product is a platform for coordinating and deploying multiple AI agents with workflow, plugin, and multimodal capabilities, fitting the agent orchestration category.
   evidence:
-    - Description identifies it as a '企业级一站式AI智能体平台' (enterprise-grade one-stop AI agent platform).
-    - Feature list includes '应用工作流知识库数据库插件模型管理渠道接入' (apps, workflows, knowledge bases, databases, plugins, model management, channel access).
-    - Source list context confirms it is an 'Agent核心能力' (Agent core capability) platform focused on solutions, not writing repo code.
+    - Described as an 'enterprise-level one-stop AI agent platform' with RAG, databases, plugins, and workflows
+    - Supports zero-code integration into multiple enterprise channels (WeChat, DingTalk, etc.)
+    - Source-list context places it under 'Agents' in a curated LLM resources list
 placement:
   primary_category: agent-orchestration
   section: Control Planes & Workforce Platforms
@@ -70,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:03.171Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:28b8b057c7aa409e4cf440cc6b400bdb172552a62de2ef9348a69bc02379c4b2
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a platform for coordinating and deploying multiple AI agents with workflow, plugin, and multimodal capabilities, fitting the agent orchestration category.
+      decision_evidence:
+        - Described as an 'enterprise-level one-stop AI agent platform' with RAG, databases, plugins, and workflows
+        - Supports zero-code integration into multiple enterprise channels (WeChat, DingTalk, etc.)
+        - Source-list context places it under 'Agents' in a curated LLM resources list
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated platform for building and managing agents, not a code-first library or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

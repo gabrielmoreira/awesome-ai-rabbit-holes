@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:53.759Z"
       bytes: 5471
 insights:
-  summary: An MCP server that provides tools for structural analysis of systems using EN Diagram's graph theory engine, allowing AI assistants to analyze system shapes, invariants, and deadlock risks.
-  why_it_matters: It lets coding agents mathematically verify system structures and detect risks like deadlocks or unbounded cycles without relying on probabilistic AI reasoning for the analysis itself.
-  mental_damage: Finally, a way to let your AI agent invoke graph theory theorems about your architecture while you still have no formal proof that your own code actually compiles.
+  summary: MCP server for EN Diagram that provides deterministic structural analysis of systems using graph theory.
+  why_it_matters: Developers can analyze system architectures, detect risks like deadlocks or single points of failure, and validate invariants without relying on AI-generated insights.
+  mental_damage: Finally, a tool that lets you prove your system won’t deadlock—just in time for your next 3 AM outage.
   tags:
-    - mcp
-    - structural-analysis
+    - mcp-server
+    - system-analysis
     - graph-theory
-    - developer-tools
+    - deterministic
+    - structural-validation
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server that exposes EN Diagram's structural analysis capabilities as tools for MCP-compatible clients like Claude Code and Cursor, making MCP its core product identity.
+  reason: The product's core identity is an MCP server providing domain-specific structural analysis capabilities, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for EN Diagram'
-    - README provides connection instructions for Claude Code, Claude Desktop, Cursor, HTTP transport, and Smithery
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - Repo description explicitly states it is an MCP server for EN Diagram
+    - README details MCP installation and integration with Claude Code, Cursor, and Smithery
+    - Source-list context shows it is already curated in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:45.340Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9719e64f4f68ac2c475545d4a9a0f7fa8c03b671422e56764d602e540a9e7609
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server providing domain-specific structural analysis capabilities, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for EN Diagram
+        - README details MCP installation and integration with Claude Code, Cursor, and Smithery
+        - Source-list context shows it is already curated in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is the MCP server itself, not an extension layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

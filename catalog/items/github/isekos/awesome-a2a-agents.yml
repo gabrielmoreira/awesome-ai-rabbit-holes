@@ -45,23 +45,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:16.118Z"
       bytes: 64018
 insights:
-  summary: A curated list of tools, frameworks, and projects built on Google's Agent-to-Agent (A2A) communication protocol.
-  why_it_matters: It serves as a discovery hub for developers looking to build or integrate interoperable, multi-agent systems using the emerging A2A standard.
-  mental_damage: Another protocol enters the ring, promising to solve the 'my agent won't talk to your agent' problem while we all pretend we have the bandwidth to refactor our single-agent workflows into a diplomatic corps.
+  summary: A curated list of tools, frameworks, and projects built on the Agent-to-Agent (A2A) communication protocol.
+  why_it_matters: It helps developers explore and adopt interoperable agent systems by showcasing A2A-compatible tools and best practices.
+  mental_damage: Because nothing says 'ecosystem maturity' like a protocol for agents to argue with each other.
   tags:
     - a2a
-    - agents
-    - protocol
+    - agent-communication
     - directory
     - multi-agent
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory/list ('awesome' list) focused on a specific developer-facing protocol ecosystem, making it a navigation aid rather than a standalone tool.
+  reason: This is a curated directory focused on navigating the A2A ecosystem, which fits the scope of developer-facing navigation aids.
   evidence:
-    - Repo description explicitly states it is a 'curated list of tools, frameworks, and projects'.
-    - README follows the 'Awesome' list format, categorizing agents by framework (e.g., CrewAI).
-    - Source-list context confirms placement in an 'awesome-agent-orchestration' list.
+    - Repo description explicitly states it is a curated list of A2A tools/frameworks
+    - README confirms it is a collection of A2A-compatible agents and tools
+    - Source-list context shows it is already included in agent-orchestration directories under Agent Communication Protocols
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -80,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:55.287Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d7538005761228b573ddd82aa0dc7a0e23a6d43f04b7b95c7d0f4af0f6ab2cb0
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory focused on navigating the A2A ecosystem, which fits the scope of developer-facing navigation aids.
+      decision_evidence:
+        - Repo description explicitly states it is a curated list of A2A tools/frameworks
+        - README confirms it is a collection of A2A-compatible agents and tools
+        - Source-list context shows it is already included in agent-orchestration directories under Agent Communication Protocols
+      category_candidates:
+        - awesome-awesomes
+        - agent-orchestration
+      contrastive_reason: Choose awesome-awesomes over agent-orchestration because the primary value is discovery and navigation of the ecosystem rather than operating as a coordination platform.
+      review_reason: null
+      review_resume_lifecycle: null

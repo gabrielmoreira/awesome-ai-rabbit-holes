@@ -54,23 +54,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:21.580Z"
       bytes: 5485
 insights:
-  summary: A runtime-free MCP server that converts source code into ASTs using tree-sitter, distributed as a standalone binary for integration with MCP clients like Claude Desktop.
-  why_it_matters: It gives LLMs structured, accurate syntax trees across multiple languages without requiring language-specific runtimes, improving code analysis capabilities within MCP workflows.
-  mental_damage: We have successfully abstracted the act of understanding code into a protocol handshake with a binary that builds its own syntax trees so the model doesn't have to hallucinate the difference between a pointer and a variable.
+  summary: A runtime-free MCP server that converts source code into language-agnostic AST trees using tree-sitter.
+  why_it_matters: It gives LLMs accurate code structure understanding without requiring language-specific runtimes or dependencies.
+  mental_damage: Yet another MCP server promising perfect LLM code cognition while we still struggle to get them to not invent APIs.
   tags:
     - mcp
     - ast
-    - syntax-analysis
     - tree-sitter
-    - llm-tooling
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server that provides AST generation capabilities to MCP clients, fitting cleanly into MCP infrastructure rather than being a coding agent or extension.
+  reason: The tool is fundamentally an MCP server providing AST conversion as a service to MCP clients, making MCP its core identity rather than a coding agent or extension.
   evidence:
-    - Repo description explicitly states 'A runtime-free MCP server that converts source code into AST'
-    - README documents configuration for Claude Desktop as the primary usage pattern via MCP server setup
-    - Topics include mcp, mcp-server, mcp-tools, confirming MCP as the core product identity
+    - "Repo description: 'A runtime-free MCP server that converts source code into AST🌲, regardless of language.'"
+    - "README: Explicitly positions itself as an MCP server with goals to 'Give LLMs the capability of accurately converting source code into AST' and be a 'standalone binary' for MCP clients."
+    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Coding Agents' section."
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -89,12 +87,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:20:22.202Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1542ffd8a8b8bc20ca9c6f36c72d41872ca65197ec8cff06a60022f4bc07a1ad
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is fundamentally an MCP server providing AST conversion as a service to MCP clients, making MCP its core identity rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'A runtime-free MCP server that converts source code into AST🌲, regardless of language.'"
+        - "README: Explicitly positions itself as an MCP server with goals to 'Give LLMs the capability of accurately converting source code into AST' and be a 'standalone binary' for MCP clients."
+        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Coding Agents' section."
+      category_candidates:
+        - mcp
+        - coding-agents
+      contrastive_reason: Choose mcp over coding-agents because the product's primary identity is providing AST conversion via MCP protocol, not acting as a standalone coding assistant that plans or edits code.
+      review_reason: null
+      review_resume_lifecycle: null

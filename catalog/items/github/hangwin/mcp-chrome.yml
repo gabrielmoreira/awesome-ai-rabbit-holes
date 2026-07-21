@@ -41,22 +41,23 @@ metadata:
       fetched_at: "2026-07-20T15:10:58.126Z"
       bytes: 13102
 insights:
-  summary: A Chrome extension-based MCP server that exposes browser functionality—including automation, semantic search, and content analysis—to AI assistants using your existing login states and configurations.
-  why_it_matters: It lets agents control your actual daily browser with its cookies and sessions intact, removing the friction of spinning up clean Playwright instances for every automation task.
-  mental_damage: We’ve successfully reached the point where your AI agent needs its own Chrome extension so it can pretend to be you browsing the web, only with more tokens and slightly more confidence.
+  summary: Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server that exposes Chrome browser functionality to AI assistants like Claude for automation and content analysis.
+  why_it_matters: It lets developers delegate browser automation, content extraction, and semantic search to AI assistants while reusing their existing Chrome sessions, login states, and configurations.
+  mental_damage: Now your AI can open 50 tabs of Stack Overflow answers just like you do, but with the confidence of a senior engineer who never closes them.
   tags:
     - mcp
     - browser-automation
     - chrome-extension
-    - agent-tooling
+    - ai-integration
+    - local-first
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server exposing Chrome browser capabilities, which fits cleanly as a domain-specific MCP server rather than a generic extension or framework.
+  reason: "MCP is the product identity: this is a dedicated MCP server exposing Chrome capabilities, not merely an MCP-compatible extension."
   evidence:
-    - Repo description explicitly states 'Chrome MCP Server is a Chrome extension-based Model Context Protocol (MCP) server'
-    - README positions it as turning Chrome into an MCP server for AI assistants like Claude with 20+ browser tools
-    - Source list places it under 'Agent Communication Protocols > Model Context Protocol (MCP) > Browser & Automation'
+    - Repo description explicitly identifies it as a Chrome extension-based MCP server
+    - README emphasizes MCP as the core protocol and Chrome integration as the domain
+    - Source-list context places it under MCP > Browser & Automation
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +76,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:50.147Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a10f9e9a0c68d86674b40093937774df09a3d26dcca506451fb62c6a66782699
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing Chrome capabilities, not merely an MCP-compatible extension."
+      decision_evidence:
+        - Repo description explicitly identifies it as a Chrome extension-based MCP server
+        - README emphasizes MCP as the core protocol and Chrome integration as the domain
+        - Source-list context places it under MCP > Browser & Automation
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is as an MCP server (not just a Chrome extension that happens to use MCP).
+      review_reason: null
+      review_resume_lifecycle: null

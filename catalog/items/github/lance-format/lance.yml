@@ -56,23 +56,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:44.840Z"
       bytes: 9595
 insights:
-  summary: Lance is an open lakehouse format and file format for multimodal AI that provides high-performance vector search, full-text search, and random access on object storage, compatible with Pandas, DuckDB, Polars, and PyTorch.
-  why_it_matters: It gives developers a single columnar format for storing embeddings, images, audio, and structured data with versioning and hybrid search without rebuilding their ML data stack.
-  mental_damage: Yet another Arrow-compatible data format to evaluate at 2am while telling yourself this time you’ll finally pick the one format that won’t be obsolete by your next vector search prototype.
+  summary: Lance is an open lakehouse format for multimodal AI that provides fast random access, vector search, and ACID transactions on object storage.
+  why_it_matters: It lets developers build high-performance ML pipelines and feature stores by replacing slower formats like Parquet with a format optimized for AI workloads.
+  mental_damage: Yet another data format promising to solve your ML infra headaches while you quietly wonder if you’ll ever stop converting between formats.
   tags:
-    - vector-search
-    - lakehouse
     - data-format
+    - lakehouse
+    - vector-search
     - multimodal
-    - rust
+    - ml-infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: Lance is a data storage format and library for multimodal ML/AI workloads rather than a developer-facing AI tool, agent, IDE, extension, or application-building product.
+  reason: Lance is a data storage format, not a developer-facing AI tool, agent, workflow, or infrastructure that directly aids in coding, prompt engineering, or AI-assisted development.
   evidence:
-    - Repo description and README emphasize lakehouse format, vector index, data versioning, and compatibility with Pandas, DuckDB, Polars, PyArrow, and PyTorch.
-    - Topics and README focus on data-science, ML training, embeddings, and feature stores rather than coding assistants, agent orchestration, or developer tooling workflows.
-    - Listed in Awesome-LLMOps under Data > Data Storage, which confirms its identity as a data-layer product rather than a developer AI tool.
+    - "Repo description: 'Open Lakehouse Format for Multimodal AI' focused on file/table format and storage performance"
+    - README emphasizes use cases like ML training, feature stores, and hybrid search — all data infrastructure, not developer tooling
+    - "Source-list context: appears in Awesome-LLMOps under Data > Data Storage, confirming its role as storage infrastructure"
 placement:
   primary_category: null
   section: null
@@ -91,12 +91,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:40.114Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:82588688756206fd8e1fc7550ab3067d9ad2eef5fd64689a29316031e6a8f5e2
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Lance is a data storage format, not a developer-facing AI tool, agent, workflow, or infrastructure that directly aids in coding, prompt engineering, or AI-assisted development.
+      decision_evidence:
+        - "Repo description: 'Open Lakehouse Format for Multimodal AI' focused on file/table format and storage performance"
+        - README emphasizes use cases like ML training, feature stores, and hybrid search — all data infrastructure, not developer tooling
+        - "Source-list context: appears in Awesome-LLMOps under Data > Data Storage, confirming its role as storage infrastructure"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

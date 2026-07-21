@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:44.369Z"
       bytes: 9038
 insights:
-  summary: FastGPT is a self-hostable AI agent and knowledge-base platform that provides visual workflow orchestration, RAG retrieval, and data processing capabilities for building complex question-answering systems.
-  why_it_matters: It gives developers a visual workbench to orchestrate multi-agent workflows, wire up knowledge bases, and expose LLM-powered apps through OpenAPI endpoints without building RAG infrastructure from scratch.
-  mental_damage: Yet another reminder that you could build your own internal AI platform over a weekend, if only you had eight weekends in a row and no tech debt to maintain.
+  summary: FastGPT is a knowledge-based AI agent platform for building and deploying complex Q&A systems with visual workflow orchestration, RAG retrieval, and data processing.
+  why_it_matters: It lets developers create and deploy AI workflows with minimal setup, combining RAG, agent orchestration, and MCP support in a single platform.
+  mental_damage: Finally, a platform that lets you build AI agents faster than you can explain to your manager why you need it.
   tags:
-    - rag
     - agent-orchestration
-    - self-hosted
+    - rag
     - workflow
-    - knowledge-base
+    - mcp
+    - self-hosted
   confidence: high
 curation:
   status: included
-  reason: The core product is a visual workbench and control plane for orchestrating agents, workflows, and knowledge bases, which aligns with Agent Orchestration rather than a coding assistant or framework.
+  reason: FastGPT is primarily a workbench for orchestrating AI workflows, agents, and RAG pipelines, fitting the agent orchestration category.
   evidence:
-    - "Repo description: 'knowledge-based platform built on the LLMs, offers ... visual AI workflow orchestration'"
-    - "README: 'FastGPT 是一个 AI Agent 构建平台，提供开箱即用的数据处理、模型调用等能力，同时可以通过 Flow 可视化进行工作流编排'"
-    - Topics include agent, rag, workflow, mcp; seen in awesome-LLM-resources under 知识库 RAG
+    - "Repo description: 'knowledge-based platform built on LLMs with RAG retrieval and visual AI workflow orchestration'"
+    - "README: 'AI Agent construction platform with flow visualization for complex application scenarios'"
+    - Features include agent mode planning, workflow orchestration, and MCP support
 placement:
   primary_category: agent-orchestration
   section: Workbenches & Collaboration Surfaces
@@ -84,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:40.805Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:29fa2efda71c657142f0bd521dd80558e52b1c27adeacf4f0686fcc1426b427b
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: FastGPT is primarily a workbench for orchestrating AI workflows, agents, and RAG pipelines, fitting the agent orchestration category.
+      decision_evidence:
+        - "Repo description: 'knowledge-based platform built on LLMs with RAG retrieval and visual AI workflow orchestration'"
+        - "README: 'AI Agent construction platform with flow visualization for complex application scenarios'"
+        - Features include agent mode planning, workflow orchestration, and MCP support
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the primary product is an operated workbench for coordinating agents and workflows, not a code-first library.
+      review_reason: null
+      review_resume_lifecycle: null

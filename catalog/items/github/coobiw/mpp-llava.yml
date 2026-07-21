@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:25.783Z"
       bytes: 10247
 insights:
-  summary: A personal research project enabling developers to train and run multimodal LLMs (image/video) like LLaVA using pipeline parallelism on consumer GPUs such as the RTX 3090/4090.
-  why_it_matters: It lowers the hardware barrier for developers to fine-tune 8B/14B multimodal models locally, eliminating the dependency on expensive enterprise-grade compute clusters.
-  mental_damage: Finally, a way to train a 14B vision model in your bedroom, ensuring your electricity bill spikes faster than your validation loss drops.
+  summary: A personal project for multimodal pipeline parallel training of Qwen-based vision-language models (e.g., LLaVA-like) on consumer GPUs like RTX 3090/4090 24GB.
+  why_it_matters: Enables developers to fine-tune or pretrain their own multimodal models (video/image/multi-image) with limited hardware, lowering the barrier to entry for custom MLLM experimentation.
+  mental_damage: Finally, a way to train your own LLaVA on a GPU that also mines crypto in its spare time.
   tags:
-    - multimodal
+    - multimodal-llm
     - fine-tuning
-    - local-ai
+    - pipeline-parallel
+    - local-training
     - qwen
-    - model-parallel
   confidence: high
 curation:
   status: excluded
-  reason: The project is a personal research implementation for training MLLMs, falling under general ML research and model training infrastructure rather than a practical developer-facing AI tool, agent, or workflow product.
+  reason: This is a model training framework/repo focused on multimodal LLM fine-tuning, not a developer-tooling product for coding workflows, extensions, or app-building.
   evidence:
-    - Repo description explicitly labels this as a 'Personal Project' focused on training MPP-Qwen/LLaVA-like models.
-    - Topics and README focus on deepspeed, pretraining, SFT, and pipeline parallelism for vision-language models, not developer tooling workflows.
-    - Seen in 'awesome-LLM-resources' under general tips and resources, not as a specific developer tool or agent.
+    - Repo description explicitly frames it as a personal project for training MLLMs (Qwen/LLaVA-like) on consumer GPUs
+    - Topics include deepspeed, fine-tuning, pipeline-parallelism, and multimodal models—no developer-tooling angle
+    - Source-list context places it under 'Tips' in a general LLM resources list, not a dev-tooling category
 placement:
   primary_category: null
   section: null
@@ -84,12 +84,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:48:02.299Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c95d9da95064f3e8ce7b8ae239b902457249302992c2f326ba67150c112e4760
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a model training framework/repo focused on multimodal LLM fine-tuning, not a developer-tooling product for coding workflows, extensions, or app-building.
+      decision_evidence:
+        - Repo description explicitly frames it as a personal project for training MLLMs (Qwen/LLaVA-like) on consumer GPUs
+        - Topics include deepspeed, fine-tuning, pipeline-parallelism, and multimodal models—no developer-tooling angle
+        - Source-list context places it under 'Tips' in a general LLM resources list, not a dev-tooling category
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

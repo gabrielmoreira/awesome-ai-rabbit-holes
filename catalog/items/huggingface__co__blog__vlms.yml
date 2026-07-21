@@ -36,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hugging Face blog post explaining what vision language models are, surveying open-source VLMs, and demonstrating how to run inference and fine-tune them using transformers and TRL.
-  why_it_matters: Developers evaluating or fine-tuning multimodal models get a single reference for model selection, benchmarks, and practical code samples.
-  mental_damage: Another reminder that while you're wiring up yet another LLM wrapper, entire classes of models are evolving that can actually see the tickets you keep ignoring.
+  summary: A Hugging Face blog post explaining Vision Language Models (VLMs), their architectures, use cases, and fine-tuning workflows.
+  why_it_matters: It provides developers with a technical overview of VLMs, including how to select, use, and fine-tune them for tasks like visual question answering and document understanding.
+  mental_damage: Another day, another multimodal model to fine-tune—because your codebase wasn’t already drowning in YAML configs.
   tags:
     - vision-language-models
     - multimodal
     - fine-tuning
-    - huggingface
+    - hugging-face
+    - educational
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational blog post and ecosystem overview, not a standalone developer tool, product, or reusable toolkit.
+  reason: This is an educational blog post, not a standalone developer tool, framework, or product.
   evidence:
-    - The source is a Hugging Face blog post titled 'Vision Language Models Explained', not a repo or product.
-    - Content is documentation and tutorials for using transformers/TRL, not a tool with its own identity.
-    - Listed in awesome-LLM-resources as a general resource under 'Tips', not as a product or directory.
+    - The URL and scraped context confirm it is a Hugging Face blog post, not a repo or product
+    - The content is explanatory (e.g., 'What is a Vision Language Model?', 'Technical Details') rather than a usable tool
+    - Source-list context places it under 'Tips' in a general LLM resources list, not as a developer tool
 placement:
   primary_category: null
   section: null
@@ -71,12 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:41.931Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0f4a648afd7ffb410dcadc7eaa95206c212ca899dd279780c96cab40622f2a66
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational blog post, not a standalone developer tool, framework, or product.
+      decision_evidence:
+        - The URL and scraped context confirm it is a Hugging Face blog post, not a repo or product
+        - The content is explanatory (e.g., 'What is a Vision Language Model?', 'Technical Details') rather than a usable tool
+        - Source-list context places it under 'Tips' in a general LLM resources list, not as a developer tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

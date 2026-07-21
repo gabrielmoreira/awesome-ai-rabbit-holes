@@ -40,23 +40,21 @@ metadata:
       fetched_at: "2026-07-20T15:11:23.840Z"
       bytes: 22532
 insights:
-  summary: A training repository and toolkit for fine-tuning and LoRA-adapting the Higgs Audio v2 text-to-speech foundation model.
-  why_it_matters: It gives developers a concrete, reproducible path to fine-tune a 3.6B LLM + 2.2B audio adapter on custom voices and languages with as little as 16GB of VRAM.
-  mental_damage: Yet another reminder that while your coding agent struggles to center a div, we are out here meticulously annotating speaker emotions and reference tones for models that speak better than we do.
+  summary: A text-audio foundation model from Boson AI.
+  why_it_matters: It provides a multimodal model for developers working with audio and text, potentially useful for speech-to-text or audio generation tasks.
+  mental_damage: Another foundation model to keep track of in the ever-expanding zoo of AI checkpoints.
   tags:
-    - tts
-    - fine-tuning
-    - audio-generation
-    - lora
+    - text-to-audio
+    - foundation-model
     - multimodal
   confidence: high
 curation:
   status: excluded
-  reason: The project is a model training and data-processing toolkit for a speech-generation foundation model, which falls outside the catalog's scope of developer-facing AI tooling, agents, and infrastructure.
+  reason: This is a raw model repo without a strong developer-tooling identity, runtime, or app surface; it falls outside the catalog's scope of practical AI tools, workflows, or infrastructure for developers.
   evidence:
-    - Repo description states it is a 'Text-audio foundation model from Boson AI', not a developer tool or agent.
-    - README focuses entirely on data formatting, LoRA training scripts, and audio adapter fine-tuning, with no coding-agent or developer-workflow angle.
-    - Seen only in an awesome-LLM-resources list under a TTS/speech section, not in any developer-tooling or coding-agent directory.
+    - Repo description identifies it as a text-audio foundation model
+    - No evidence of a runtime, SDK, or developer-facing tool beyond the model itself
+    - Source-list context places it under 'Speech > TTS', reinforcing its model-first identity
 placement:
   primary_category: null
   section: null
@@ -75,12 +73,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:30.682Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:48cb97739492bd7e8f62bf8f1d21cd6ce109d51f5b83056a994083b4a2cb6239
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a raw model repo without a strong developer-tooling identity, runtime, or app surface; it falls outside the catalog's scope of practical AI tools, workflows, or infrastructure for developers.
+      decision_evidence:
+        - Repo description identifies it as a text-audio foundation model
+        - No evidence of a runtime, SDK, or developer-facing tool beyond the model itself
+        - Source-list context places it under 'Speech > TTS', reinforcing its model-first identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

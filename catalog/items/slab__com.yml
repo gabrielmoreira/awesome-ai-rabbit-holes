@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Slab is a knowledge base and wiki platform for teams to create, organize, and search internal documentation with integrations for tools like GitHub and Slack.
-  why_it_matters: It provides a centralized place for teams to document code reviews, culture, and internal processes, integrating with developer workflows via GitHub and other tools.
-  mental_damage: Yet another silo promising to finally capture the tribal knowledge that every team swears they will document right after they finish migrating to the next new stack.
+  summary: Slab is a knowledge base and wiki software for creating, organizing, and discovering organizational knowledge.
+  why_it_matters: It centralizes documentation and integrates with tools like GitHub, but it is not a developer-tooling product.
+  mental_damage: Another place to write docs that no one will read until the onboarding checklist demands it.
   tags:
-    - documentation
     - knowledge-base
-    - team-collaboration
-    - wiki
+    - documentation
+    - collaboration
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose team wiki and knowledge base SaaS product, not a developer-facing AI tool, coding agent, or specialized technical infrastructure.
+  reason: Slab is a general knowledge base/wikis product, not a developer-tooling product focused on AI-assisted coding workflows.
   evidence:
-    - Scraped site context describes it as 'Knowledge Base & Wiki Software' for 'non-technical to tech-savvy' teams, not developers specifically.
-    - Features highlighted are editing, organizing, and searching general company knowledge, with no mention of AI coding assistance or developer tooling.
-    - Listed in awesome-ai-coding-tools under 'Documentation', but the product itself is a generic wiki, not an AI coding tool.
+    - Site describes itself as 'knowledge base & wiki software'
+    - Primary value is content creation, organization, and discovery for teams
+    - Source-list context places it under 'Documentation' in a general AI coding tools list, but the product itself is not AI-native or developer-specific
 placement:
   primary_category: null
   section: null
@@ -69,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:37.259Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b66dacd50db3b9a6131d5398bf5d6713772140b9fd4dc38f4d3bb9af0ff6c484
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Slab is a general knowledge base/wikis product, not a developer-tooling product focused on AI-assisted coding workflows.
+      decision_evidence:
+        - Site describes itself as 'knowledge base & wiki software'
+        - Primary value is content creation, organization, and discovery for teams
+        - Source-list context places it under 'Documentation' in a general AI coding tools list, but the product itself is not AI-native or developer-specific
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

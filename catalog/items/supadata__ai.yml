@@ -36,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An API service that extracts transcripts, metadata, and structured data from web pages, YouTube, TikTok, Instagram, X, and Facebook content for AI training and retrieval pipelines.
-  why_it_matters: Developers building RAG pipelines, AI training sets, or social media analysis tools can reliably turn messy video and web content into clean JSON with a single API call.
-  mental_damage: Because nothing says 'production-grade AI infrastructure' like a Rick Astley transcript confirming your API key works at 2am.
+  summary: Supadata is an API service that extracts transcripts, metadata, and structured data from web and social media videos (YouTube, TikTok, Instagram, etc.) for AI training and retrieval.
+  why_it_matters: Developers can programmatically access video content and metadata as clean JSON, enabling AI workflows that depend on video-derived data without manual scraping.
+  mental_damage: Now you can finally feed an LLM every TikTok trend, because nothing says 'production-ready' like a model trained on the entire 'Never Gonna Give You Up' corpus.
   tags:
+    - video-transcription
     - api
-    - web-scraping
-    - youtube
+    - data-extraction
+    - ai-training
     - social-media
-    - rag
-  confidence: medium
+  confidence: high
 curation:
-  status: included
-  reason: This is a developer-facing API and data extraction toolkit for building retrieval pipelines, fitting cleanly as a code-first building block for memory and retrieval infrastructure.
+  status: excluded
+  reason: The product is a general-purpose API for video data extraction, not a developer-tooling product focused on coding workflows, agent orchestration, or AI-assisted development.
   evidence:
-    - The site describes a 'Simple, reliable API for developers & makers' with curl usage examples and JSON output.
-    - Core capabilities include video transcripts, social media metadata, and web scraping/crawling for any URL.
-    - Listed in awesome-mcp-servers as a server, but the primary product identity is the API and data extraction service itself.
+    - Primary product is a video-to-text API for social media content
+    - Positioned as a data pipeline for AI training/retrieval, not developer tooling
+    - No coding agent, IDE, framework, or developer workflow integration
 placement:
-  primary_category: ai-frameworks
-  section: Memory / Retrieval Infrastructure
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -70,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:37:18.817Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ed46dc0eb70b089e65364c1fa1a576dca10f23e6921f7a87d79c43817c0db0d0
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a general-purpose API for video data extraction, not a developer-tooling product focused on coding workflows, agent orchestration, or AI-assisted development.
+      decision_evidence:
+        - Primary product is a video-to-text API for social media content
+        - Positioned as a data pipeline for AI training/retrieval, not developer tooling
+        - No coding agent, IDE, framework, or developer workflow integration
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:14.606Z"
       bytes: 32367
 insights:
-  summary: An MCP server that enables AI assistants like Claude to programmatically create, read, validate, and save Stella system dynamics models in the XMILE format.
-  why_it_matters: It connects natural language interfaces to niche scientific modeling workflows, letting developers and researchers rapidly prototype complex system dynamics simulations via conversation.
-  mental_damage: We have finally achieved the singularity where an LLM can architect the collapse of a biogeochemical model, provided you already own a Stella Professional license.
+  summary: An MCP server for creating and manipulating Stella system dynamics models in XMILE format.
+  why_it_matters: It lets AI assistants programmatically build, read, validate, and save Stella models, enabling natural language-driven system dynamics modeling workflows.
+  mental_damage: Now your AI can argue about stock-and-flow diagrams while you question your life choices.
   tags:
     - mcp
     - system-dynamics
+    - stella
     - xmile
     - modeling
-    - scientific
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for a specific domain (Stella system dynamics), fitting cleanly into the MCP Servers & Tooling category.
+  reason: The product is explicitly an MCP server whose primary identity is providing Stella modeling capabilities via MCP.
   evidence:
-    - "Repo description states: 'MCP server for Stella'."
-    - "README confirms: 'A Model Context Protocol (MCP) server for creating and manipulating Stella system dynamics models'."
-    - Configuration examples show integration with Claude Desktop and Claude Code via `mcpServers`.
+    - "Repo description: 'MCP server for Stella'"
+    - "README: 'A Model Context Protocol (MCP) server for creating and manipulating Stella system dynamics models'"
+    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Data Science Tools'"
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:40.069Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:eaa129a46abc2996360059d45d89a122b1db8c89d7dc2ab86e8b82dce6f5c91d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose primary identity is providing Stella modeling capabilities via MCP.
+      decision_evidence:
+        - "Repo description: 'MCP server for Stella'"
+        - "README: 'A Model Context Protocol (MCP) server for creating and manipulating Stella system dynamics models'"
+        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Data Science Tools'"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

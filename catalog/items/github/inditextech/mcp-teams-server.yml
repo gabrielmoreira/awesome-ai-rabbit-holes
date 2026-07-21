@@ -44,22 +44,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:11.774Z"
       bytes: 4834
 insights:
-  summary: An MCP server that connects AI assistants to Microsoft Teams, enabling them to read channels, post messages, reply to threads, and mention members.
-  why_it_matters: It lets coding agents and other MCP-compatible tools interact directly with Teams channels, bridging internal chat ops with automated development workflows.
-  mental_damage: Because what your CI pipeline really needed was the ability to passive-aggressively mention you in a Teams thread at 3 PM on a Friday.
+  summary: An MCP server implementation for Microsoft Teams integration, enabling reading, creating, and replying to messages, and mentioning members.
+  why_it_matters: Developers can integrate Microsoft Teams messaging capabilities into their MCP-based workflows, allowing AI agents to interact with Teams channels and threads programmatically.
+  mental_damage: Now your AI can ping you in Teams about the ping it just sent to Slack about the email it forwarded from Outlook.
   tags:
     - mcp
-    - teams
+    - microsoft-teams
     - integration
-    - communication
+    - server
+    - python
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server for Microsoft Teams integration, matching the MCP Servers & Tooling category with a clear domain-specific server role.
+  reason: The product is explicitly an MCP server implementation for Microsoft Teams, making MCP its primary identity and fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'An MCP (Model Context Protocol) server implementation for Microsoft Teams integration'"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication', confirming its MCP server identity
-    - "README details MCP server capabilities: read messages, create messages, reply to messages, mention members via Teams"
+    - Repo description explicitly states it is an MCP server for Microsoft Teams
+    - README confirms it provides Teams-specific capabilities (read/create/reply to messages, mention members)
+    - Already listed in awesome-mcp-servers under Server Implementations > Communication
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -78,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:58.787Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:113fd7ab0c1ea2a4aadaa928566932aeaa56571d215425f2cb658ed4ac3aef3b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server implementation for Microsoft Teams, making MCP its primary identity and fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Microsoft Teams
+        - README confirms it provides Teams-specific capabilities (read/create/reply to messages, mention members)
+        - Already listed in awesome-mcp-servers under Server Implementations > Communication
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

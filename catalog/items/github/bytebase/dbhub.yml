@@ -74,23 +74,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:16.307Z"
       bytes: 7217
 insights:
-  summary: A zero-dependency, token-efficient MCP server that connects AI coding assistants to PostgreSQL, MySQL, SQL Server, MariaDB, and SQLite databases with built-in safety controls.
-  why_it_matters: It gives coding agents direct, read-safe access to live database schemas and queries without bloating the context window or requiring developers to build custom database bridges.
-  mental_damage: Another essential piece of infrastructure so your agent can confidently SELECT * FROM users while you pray the read-only guardrail actually works.
+  summary: Zero-dependency, token-efficient MCP server for connecting AI assistants to Postgres, MySQL, SQL Server, MariaDB, and SQLite databases.
+  why_it_matters: It lets developers expose database access to MCP-compatible clients (like Claude Code, Cursor, or VS Code) with safety controls and multi-database support, turning any AI assistant into a database-aware tool.
+  mental_damage: Now your AI can finally explain why your JOIN is slow, but only after it rewrites your schema in a way you’ll spend the next three days debugging.
   tags:
-    - mcp
+    - mcp-server
     - database
-    - agent-tooling
+    - sql
+    - ai-integration
     - token-efficient
-    - bytebase
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server purpose-built to give AI agents database access, making it a textbook fit for the MCP Servers & Tooling category.
+  reason: "MCP is the core product identity: it is a dedicated MCP server for databases, not a compatibility footnote or extension layer."
   evidence:
-    - Repo description explicitly states it is a 'database MCP server' with MCP topics and MCP tooling in the README.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under database sections, confirming ecosystem recognition as MCP infrastructure.
-    - Active development with recent pushes (2026-04-21) and 2697 stars for a repo created in March 2025.
+    - Repo description explicitly states it is a 'database MCP server'
+    - README emphasizes MCP server interface and tools (execute_sql, search_objects)
+    - Listed in multiple MCP-focused directories (awesome-mcp-list, awesome-mcp-servers)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -109,12 +109,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:34:40.515Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cbf4777ce7d2807816da2a0ae903c46fe6a89aa16679ae3cb06002f2e70da5f5
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the core product identity: it is a dedicated MCP server for databases, not a compatibility footnote or extension layer."
+      decision_evidence:
+        - Repo description explicitly states it is a 'database MCP server'
+        - README emphasizes MCP server interface and tools (execute_sql, search_objects)
+        - Listed in multiple MCP-focused directories (awesome-mcp-list, awesome-mcp-servers)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server for databases, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

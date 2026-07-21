@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:01.105Z"
       bytes: 5309
 insights:
-  summary: A Python MCP server that exposes Google Sheets operations (CRUD, automation) to MCP-compatible clients like Claude Desktop and Continue.dev via a Google Service Account.
-  why_it_matters: It lets coding agents and IDE integrations treat spreadsheets as a live, writable data layer instead of forcing developers to hand-craft Sheets API calls.
-  mental_damage: We have successfully abstracted the abstraction, so your agent can now hallucinate spreadsheet data with the full blessing of the Model Context Protocol.
+  summary: A Python MCP server that enables Google Sheets automation through MCP-compatible clients.
+  why_it_matters: Developers can integrate Google Sheets CRUD operations directly into their MCP-based workflows, enabling spreadsheet automation within AI assistant environments.
+  mental_damage: Now your AI assistant can finally edit that spreadsheet you swore you’d never touch again.
   tags:
     - mcp
     - google-sheets
-    - integrations
     - automation
+    - python
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose entire identity is exposing Google Sheets to MCP-compatible clients, which fits the MCP Servers & Tooling category.
+  reason: MCP is the core product identity, and the server provides domain-specific (Google Sheets) functionality as an MCP server.
   evidence:
-    - "Repo description: 'Python package of google sheet mcp'"
-    - "README states: 'Google Sheets MCP Server provides seamless integration of Google Sheets with any MCP-compatible client.'"
-    - "Source list: included in awesome-mcp-servers under 'Server Implementations > Databases'"
+    - Repo description explicitly states it is a 'Python package of google sheet mcp'
+    - README confirms it is an MCP server for Google Sheets automation
+    - Already listed in awesome-mcp-servers under 'Server Implementations > Databases'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:27.459Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1a88846ab15228dd09b0eae56e42163c3788338225cd44dd1a535110fc25f031
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the core product identity, and the server provides domain-specific (Google Sheets) functionality as an MCP server.
+      decision_evidence:
+        - Repo description explicitly states it is a 'Python package of google sheet mcp'
+        - README confirms it is an MCP server for Google Sheets automation
+        - Already listed in awesome-mcp-servers under 'Server Implementations > Databases'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an extension for another tool.
+      review_reason: null
+      review_resume_lifecycle: null

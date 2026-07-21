@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:11.481Z"
       bytes: 12162
 insights:
-  summary: An MCP server that exposes Cardano blockchain wallet interactions as tools for AI agents and automation systems.
-  why_it_matters: Developers building AI agents can delegate on-chain tasks like submitting transactions, checking balances, and managing UTxOs without writing custom blockchain integration code.
-  mental_damage: You can now instruct your coding agent to drain your own wallet with the same casual confidence it uses to delete your node_modules.
+  summary: MCP server for interacting with the Cardano blockchain from AI agents and automation systems.
+  why_it_matters: Enables AI agents to submit transactions, retrieve wallet data, and interact with Cardano DeFi tools via the Model Context Protocol.
+  mental_damage: Now your AI can lose its ADA just like the rest of us.
   tags:
     - mcp
     - cardano
     - blockchain
-    - wallet-tools
+    - wallet
+    - ai-agents
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: it is explicitly built and distributed as an MCP server to give agents wallet access to the Cardano blockchain."
+  reason: MCP is the product identity, and this is a domain-specific MCP server for Cardano blockchain interactions.
   evidence:
-    - Repo description states 'Cardano MCP server for handling wallet interactions'.
-    - README excerpt says 'MCP server for interacting with the Cardano blockchain from AI agents... via the Model Context Protocol'.
-    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
+    - Repo description explicitly states it is a Cardano MCP server
+    - README confirms it is an MCP server for Cardano blockchain interactions
+    - Part of the Indigo AI Stack with explicit MCP integration
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:59.475Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3154ea85340b036cdebfe3c5fb29fdf657ec6bd98fae7823a69ab8125ad1ce6a
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity, and this is a domain-specific MCP server for Cardano blockchain interactions.
+      decision_evidence:
+        - Repo description explicitly states it is a Cardano MCP server
+        - README confirms it is an MCP server for Cardano blockchain interactions
+        - Part of the Indigo AI Stack with explicit MCP integration
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because MCP is the primary product identity, not just an integration layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

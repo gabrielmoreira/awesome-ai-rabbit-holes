@@ -54,23 +54,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:30.588Z"
       bytes: 2346
 insights:
-  summary: A terminal-based Kanban board that orchestrates AI coding agents in isolated git worktrees with a mandatory human review gate before merging.
-  why_it_matters: It adds a structured workflow and safety rails for teams delegating tasks to multiple coding agents by enforcing human approval and isolating agent work.
-  mental_damage: We have successfully built a project-management tool to manage the ghosts in the machine, because apparently watching one AI edit your code wasn't anxious enough—now you need a board for five of them.
+  summary: Kanban TUI for AI coding agents with a structural human review gate, enforcing explicit approval before merges.
+  why_it_matters: It introduces a workflow where AI agents operate in isolated git worktrees and require human approval before merging, adding governance to agentic development.
+  mental_damage: Finally, a way to make your AI agent wait for permission like a well-trained intern.
   tags:
     - kanban
-    - agent-orchestration
+    - ai-agents
+    - git-workflow
+    - review-gate
     - tui
-    - git-worktree
-    - human-review
   confidence: high
 curation:
   status: included
-  reason: The product is a control-plane workbench that coordinates multiple coding agents (Claude Code, Codex, Gemini CLI, etc.) through a state-machine Kanban board rather than acting as a coding assistant itself.
+  reason: The product is a workbench for coordinating agent tasks with a structured review workflow, fitting the orchestration category better than a pure coding agent or extension.
   evidence:
-    - "Repo description explicitly states: 'The Orchestration Layer for AI Coding Agents'."
-    - README describes a Kanban TUI that manages runs for Claude Code, Codex, Gemini CLI, and 11+ other agents in isolated git worktrees.
-    - Includes an MCP server to let external agents drive the board, plus a VS Code extension and web dashboard as companion surfaces.
+    - "Repo description: 'OpenCode Plugin for supervised agentic software development on a Kanban board'"
+    - "README: 'Kanban TUI for AI coding agents with a structural human review gate'"
+    - Supports multiple agents (Claude Code, Codex, etc.) and enforces a state machine for task lifecycle
 placement:
   primary_category: agent-orchestration
   section: Workbenches & Collaboration Surfaces
@@ -89,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:45.042Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:104b1a176061a76b9c83a16b7575227b7a4cd78a870f2515785da855a12c52f5
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a workbench for coordinating agent tasks with a structured review workflow, fitting the orchestration category better than a pure coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'OpenCode Plugin for supervised agentic software development on a Kanban board'"
+        - "README: 'Kanban TUI for AI coding agents with a structural human review gate'"
+        - Supports multiple agents (Claude Code, Codex, etc.) and enforces a state machine for task lifecycle
+      category_candidates:
+        - agent-orchestration
+        - ai-dev-extensions
+      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the core value is the Kanban workflow and multi-agent coordination, not merely extending another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

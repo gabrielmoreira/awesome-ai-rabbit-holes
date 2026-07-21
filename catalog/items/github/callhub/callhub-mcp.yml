@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:17.300Z"
       bytes: 7224
 insights:
-  summary: A Python-based MCP server that lets Claude manage CallHub resources, including contacts, phonebooks, agents, teams, and call center campaigns via the CallHub API.
-  why_it_matters: Developers working with CallHub can now manage call center operations and bulk campaigns conversationally through Claude instead of wrestling with raw API calls.
-  mental_damage: Your AI assistant can now activate call center agents and manage DNC lists, because apparently there weren't enough ways for Claude to get involved in your outbound dialing strategy.
+  summary: An MCP server that exposes CallHub API functions to Claude for managing contacts, campaigns, and other CallHub resources.
+  why_it_matters: Lets developers use Claude to programmatically interact with CallHub's telephony and SMS infrastructure without writing direct API code.
+  mental_damage: Now your AI can cold-call your users for you, because nothing says 'scalable' like automated outbound dialing.
   tags:
-    - mcp
+    - mcp-server
     - callhub
-    - api-integration
-    - claude
+    - claude-integration
+    - telephony-api
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server that exposes CallHub API operations as tools for Claude, fitting cleanly as a domain-specific MCP server.
+  reason: "MCP is the product identity here: it's a dedicated server exposing CallHub API capabilities through the Model Context Protocol."
   evidence:
-    - "README states: 'CallHub MCP is a Python-based tool that allows you to interact with the CallHub API through Claude'"
-    - Appears in awesome-mcp-servers under section 'Official Servers'
-    - Configuration instructions show adding it as an MCP server entry in Claude's config with a command and args pointing to server.py
+    - README explicitly describes it as a 'Claude-powered tool for managing CallHub resources via API'
+    - Project is listed in awesome-mcp-servers under 'Official Servers'
+    - Core functionality is exposing CallHub API tools to Claude via MCP
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:32.927Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:13f730e66cc872863abbb116d086a2ca4e7ad74f1dc3f0672a253199ab88d060
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: it's a dedicated server exposing CallHub API capabilities through the Model Context Protocol."
+      decision_evidence:
+        - README explicitly describes it as a 'Claude-powered tool for managing CallHub resources via API'
+        - Project is listed in awesome-mcp-servers under 'Official Servers'
+        - Core functionality is exposing CallHub API tools to Claude via MCP
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server for CallHub API access, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

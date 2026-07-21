@@ -1,0 +1,114 @@
+id: truefoundry__com
+kind: website
+name: TrueFoundry
+canonical_url: https://truefoundry.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__truefoundry__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: TrueFoundry
+        extracted_url: https://truefoundry.com
+        surrounding_text: "| [TrueFoundry](https://www.truefoundry.com/)                        | Deploy LLMOps tools like Vector DBs, Embedding server etc on your own Kubernetes (EKS,AKS,GKE,On-prem) Infra including deploying, Fine-tuning, tracking Prompts and serving Open Source LLM Models with full Data Security and Optimal GPU Management. Train and Launch your LLM Application at Production scale with best Software Engineering practices.                                              |                                                                                                           |"
+        confidence: high
+    - id: discovery__www__truefoundry__com__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: TrueFoundry
+        extracted_url: https://www.truefoundry.com
+        surrounding_text: "| [TrueFoundry](https://www.truefoundry.com/)                        | Deploy LLMOps tools like Vector DBs, Embedding server etc on your own Kubernetes (EKS,AKS,GKE,On-prem) Infra including deploying, Fine-tuning, tracking Prompts and serving Open Source LLM Models with full Data Security and Optimal GPU Management. Train and Launch your LLM Application at Production scale with best Software Engineering practices.                                              |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Enterprise AI Gateway and MCP Gateway platform for deploying, securing, and scaling LLMs and AI agents with rate limiting, observability, and compliance.
+  why_it_matters: Provides a unified control plane for managing agentic AI workflows, MCP servers, and prompt lifecycles in production environments.
+  mental_damage: Finally, a way to make your agents behave like they’ve read the compliance handbook.
+  tags:
+    - ai-gateway
+    - mcp
+    - llmops
+    - enterprise-ai
+    - agent-orchestration
+  confidence: high
+curation:
+  status: included
+  reason: The product is a control plane for coordinating AI agents, MCP servers, and workflows, fitting the agent orchestration category.
+  evidence:
+    - Described as an 'Enterprise AI Gateway & MCP Gateway' for deploying and scaling LLMs and agents
+    - Includes features like agent memory management, tool orchestration, and MCP server deployment
+    - Source-list context places it in LLMOps under 'Deploy, secure, and scale LLMs and AI agents'
+placement:
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:38:24.050Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b828f93ff449fdacc12649cbecd13d33850c8645ec41cb8f6f6f15c085308a3c
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a control plane for coordinating AI agents, MCP servers, and workflows, fitting the agent orchestration category.
+      decision_evidence:
+        - Described as an 'Enterprise AI Gateway & MCP Gateway' for deploying and scaling LLMs and agents
+        - Includes features like agent memory management, tool orchestration, and MCP server deployment
+        - Source-list context places it in LLMOps under 'Deploy, secure, and scale LLMs and AI agents'
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated workbench/control plane rather than a code-first library or SDK.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.971Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -1,0 +1,111 @@
+id: usetusk__ai
+kind: website
+name: Tusk
+canonical_url: https://usetusk.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__usetusk__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Tusk
+        anchor_text: Tusk
+        extracted_url: https://usetusk.ai
+        surrounding_text: "## [Tusk](https://usetusk.ai/)"
+        confidence: high
+    - id: discovery__www__usetusk__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Tusk
+        anchor_text: Tusk
+        extracted_url: https://usetusk.ai
+        surrounding_text: "## [Tusk](https://usetusk.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AI testing platform for API, unit, and integration testing that generates and maintains tests using live traffic and business context.
+  why_it_matters: It automates test generation and maintenance to prevent regressions and boost code coverage, particularly useful for teams scaling test suites with AI assistance.
+  mental_damage: Finally, a way to offload writing tests to AI—until you realize you now have to debug the AI-generated tests.
+  tags:
+    - testing
+    - ai-automation
+    - regression-prevention
+    - code-coverage
+  confidence: high
+curation:
+  status: included
+  reason: Tusk is a developer-facing tool that directly generates, runs, and maintains tests, fitting the role of a specialized coding agent for testing workflows.
+  evidence:
+    - Described as 'AI testing tool for API testing, unit testing, and integration testing'
+    - Generates test cases from live traffic and business context
+    - Autonomously maintains and self-heals test suites
+placement:
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:38:37.419Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b63b4e18a059ae15465a3015d94dfb70b043dbb5099250aeadd49d17a5b97399
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Tusk is a developer-facing tool that directly generates, runs, and maintains tests, fitting the role of a specialized coding agent for testing workflows.
+      decision_evidence:
+        - Described as 'AI testing tool for API testing, unit testing, and integration testing'
+        - Generates test cases from live traffic and business context
+        - Autonomously maintains and self-heals test suites
+      category_candidates:
+        - coding-agents
+        - evals
+      contrastive_reason: Choose coding-agents over evals because Tusk primarily acts as an agent that writes and maintains tests rather than measuring or benchmarking model behavior.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.971Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

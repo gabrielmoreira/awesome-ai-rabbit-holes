@@ -54,26 +54,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:43.178Z"
       bytes: 24511
 insights:
-  summary: Kurtosis is a container orchestration platform for packaging and launching ephemeral backend stacks on Docker or Kubernetes, with a dedicated skills pack teaching Claude Code how to manage its environments.
-  why_it_matters: It lets developers and AI agents reproducibly spin up complex dev and test stacks with one-liner commands, bridging local prototyping and CI testing.
-  mental_damage: We’ve successfully abstracted Docker Compose into a platform so that your coding agent can debug a Redis voting app enclave while you wonder what layer of the stack is actually yours.
+  summary: A platform for packaging and launching ephemeral blockchain infrastructure stacks, abstracting Docker Compose and Kubernetes for reproducible dev/test environments.
+  why_it_matters: Developers can spin up complex backend stacks (e.g., blockchain nodes) with one-liners, reuse stack definitions across local dev, CI, and k8s, and avoid manual configuration hell.
+  mental_damage: Finally, a way to make blockchain dev feel as simple as a Docker Compose file—until you remember you’re still debugging a distributed system.
   tags:
-    - devops
-    - infra
-    - claude-skills
-    - containers
-    - testing
+    - blockchain-infra
+    - dev-environments
+    - docker-compose
+    - kubernetes
+    - ephemeral-stacks
   confidence: high
 curation:
-  status: included
-  reason: The repository includes a comprehensive set of structured Claude Code skills for building, debugging, and managing Kurtosis enclaves, making it a reusable skill pack for a coding tool.
+  status: excluded
+  reason: Kurtosis is a devops/infrastructure tool for blockchain stacks, not an AI developer tool or workflow—its core value is environment orchestration, not AI-assisted coding, agents, or prompt/context engineering.
   evidence:
-    - README explicitly includes a 'Claude Code Skills' section with 21 structured skills in the skills/ directory.
-    - Skills cover operational workflows like docker-debug, k8s-debug-pods, and run-package for Kurtosis environments.
-    - Primary product is Kurtosis infra platform, but the skills pack is the clear developer-facing AI artifact for this catalog.
+    - Repo description explicitly frames it as 'docker compose for blockchain'
+    - README emphasizes packaging/launching backend stacks, not AI workflows
+    - Topics are backend, CI/CD, containerization, deploy, devops—no AI/ML signals
 placement:
-  primary_category: skills
-  section: Domain & Workflow Skill Packs
+  primary_category: null
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (539) exceeded threshold (150)
@@ -89,12 +89,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:21.802Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0501c168481d4c3ef782911c4e8c227b8f2298b1260ea25d928e17e6631ce916
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Kurtosis is a devops/infrastructure tool for blockchain stacks, not an AI developer tool or workflow—its core value is environment orchestration, not AI-assisted coding, agents, or prompt/context engineering.
+      decision_evidence:
+        - Repo description explicitly frames it as 'docker compose for blockchain'
+        - README emphasizes packaging/launching backend stacks, not AI workflows
+        - Topics are backend, CI/CD, containerization, deploy, devops—no AI/ML signals
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

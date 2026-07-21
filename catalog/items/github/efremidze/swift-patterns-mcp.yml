@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:54.928Z"
       bytes: 15884
 insights:
-  summary: An MCP server that provides searchable, auto-updating Swift and SwiftUI best practices and code patterns sourced from leading iOS educators.
-  why_it_matters: It lets iOS developers keep their AI coding assistant current with trusted community patterns without leaving the IDE or manually hunting through blogs.
-  mental_damage: We have now successfully abstracted the experience of reading a high-quality Swift blog into a tool that queries a cache of that same blog via an AI assistant that is also reading your code.
+  summary: An MCP server that provides curated Swift and SwiftUI best practices from leading iOS sources with search, retrieval, and memory features.
+  why_it_matters: It gives iOS developers instant access to vetted patterns and architecture guidance from trusted educators directly within their MCP-compatible IDE or assistant.
+  mental_damage: Now your AI can argue about MVVM vs. TCA with the same confidence as a senior iOS dev in a design review.
   tags:
-    - mcp
+    - mcp-server
     - swift
     - swiftui
     - ios
-    - context
-  confidence: medium
+    - best-practices
+  confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server whose identity and distribution are centered on the Model Context Protocol, delivering domain-specific context to MCP-compatible assistants.
+  reason: The product is explicitly an MCP server whose primary identity is serving Swift/SwiftUI best practices via MCP, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description states it is 'An MCP server providing curated Swift and SwiftUI best practices'.
-    - README confirms 'This repo is an MCP server only' and lists compatibility with Claude Desktop, Cursor, Windsurf, and VS Code.
-    - Listed in awesome-mcp-servers under 'Developer Tools', reinforcing its identity as an MCP implementation.
+    - Repo description explicitly states it is an MCP server for Swift/SwiftUI best practices
+    - README emphasizes MCP compatibility and runtime tooling (search, retrieval, memory)
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -83,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:06.866Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5b3c588c0b55a699e59be5c94fa7101ff579d57ef611f98bd3ca782326e09c91
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose primary identity is serving Swift/SwiftUI best practices via MCP, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Swift/SwiftUI best practices
+        - README emphasizes MCP compatibility and runtime tooling (search, retrieval, memory)
+        - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the core product is an MCP server (not a standalone retrieval/memory system) and MCP is the primary adopted identity.
+      review_reason: null
+      review_resume_lifecycle: null

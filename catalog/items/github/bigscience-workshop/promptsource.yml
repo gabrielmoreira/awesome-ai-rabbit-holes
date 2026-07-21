@@ -42,26 +42,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:11.985Z"
       bytes: 9587
 insights:
-  summary: A toolkit and library for creating, sharing, and using structured natural language prompt templates, primarily designed for NLP research and dataset preparation.
-  why_it_matters: It provides a standardized way to manage prompt templates using Jinja, allowing developers to apply consistent prompt logic across Hugging Face datasets.
-  mental_damage: Because nothing says 'accelerating developer productivity' like spending an afternoon crafting the perfect Jinja template to ask a model if 'Carlyle Looks Toward Commercial Aerospace' is business news.
+  summary: Toolkit for creating, sharing and using natural language prompts with a public pool of 2000+ prompts for 170+ datasets.
+  why_it_matters: Developers can programmatically apply and manage prompts for NLP datasets, enabling consistent zero-shot and few-shot experimentation.
+  mental_damage: Finally, a way to turn your dataset into a prompt zoo where every example gets its own Jinja2 circus act.
   tags:
-    - prompts
+    - prompt-engineering
     - nlp
-    - templates
+    - datasets
+    - jinja2
     - huggingface
-    - toolkit
   confidence: high
 curation:
-  status: excluded
-  reason: This is a general NLP research tool for prompt engineering on datasets, lacking the specific developer-infrastructure or coding-workflow focus required for this catalog.
+  status: included
+  reason: Core novelty is prompt creation, sharing, and templating (Jinja2) for NLP datasets, fitting Prompt & Context Engineering.
   evidence:
-    - Repo description explicitly states it is for 'natural language prompts' rather than code generation or developer tooling.
-    - README examples focus on NLP classification tasks (e.g., AG News, SNLI) and dataset manipulation, not repo editing or coding agents.
-    - Topics and context ('bigscience-workshop', 'machine-learning', 'nlp') signal a research/ML audience rather than a software developer tooling audience.
+    - "Repo description: 'Toolkit for creating, sharing and using natural language prompts'"
+    - "README: 'PromptSource is a toolkit for creating, sharing and using natural language prompts' with P3 public pool of prompts"
+    - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Prompt Assets & Templating
 lifecycle:
   status: promotion_candidate
   reason: Stars (3010) exceeded threshold (150)
@@ -77,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:03.209Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5b2df9a06dfa86a0db7e4884ccc94d35a9aeff7537d7c99f4427441f166478e7
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: Core novelty is prompt creation, sharing, and templating (Jinja2) for NLP datasets, fitting Prompt & Context Engineering.
+      decision_evidence:
+        - "Repo description: 'Toolkit for creating, sharing and using natural language prompts'"
+        - "README: 'PromptSource is a toolkit for creating, sharing and using natural language prompts' with P3 public pool of prompts"
+        - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
+      category_candidates:
+        - context-engineering
+        - ai-frameworks
+      contrastive_reason: Choose context-engineering over ai-frameworks because the primary value is prompt assets and templating rather than a code-first framework for building agents or workflows.
+      review_reason: null
+      review_resume_lifecycle: null

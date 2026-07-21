@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Reader-LM is a pair of compact, long-context language models (0.5B and 1.5B parameters) trained to convert raw, noisy HTML into clean markdown for downstream LLM grounding.
-  why_it_matters: Developers can self-host or run these small models at the edge to reliably clean and structure web content for RAG pipelines without relying on heuristic scrapers or large, expensive LLMs.
-  mental_damage: We have officially reached the point where we train custom neural networks just to avoid writing one more regular expression.
+  summary: Reader-LM is a pair of small language models (0.5B and 1.5B parameters) designed to convert raw, noisy HTML from the web into clean markdown.
+  why_it_matters: It offers developers a lightweight, long-context alternative to larger models for preprocessing web content into LLM-friendly markdown, improving grounding and reducing noise.
+  mental_damage: Because nothing says 'modern web scraping' like replacing regex and heuristics with a 1.5B parameter model that still can't handle your corporate footer.
   tags:
     - html-to-markdown
     - small-language-models
-    - data-cleaning
-    - rag
+    - web-scraping
+    - long-context
     - jina-ai
   confidence: high
 curation:
   status: excluded
-  reason: This is a hosted model release and research announcement rather than a reusable developer tool, framework, or local runtime, and it lacks a standalone product surface suitable for this catalog.
+  reason: The project is a specialized model for HTML-to-markdown conversion, not a developer tool, framework, or workflow product—it's a model artifact with no direct developer-tooling surface.
   evidence:
-    - The input is a Jina AI press release and model announcement, not a usable CLI, SDK, or developer tool.
-    - Models are hosted on Hugging Face and cloud marketplaces (AWS/Azure) with no standalone developer-facing product or runtime.
-    - Listed in awesome-LLM-resources as a resource/tip, not as a developer tooling product.
+    - Core product is two SLMs (0.5B and 1.5B) for HTML-to-markdown conversion, not a tool or workflow
+    - Primary use case is preprocessing web content for LLMs, not developer workflow augmentation
+    - No repo, CLI, SDK, or integration layer—just model checkpoints and a Colab notebook
 placement:
   primary_category: null
   section: null
@@ -72,12 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:44.070Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b4a19f19307f6a35947a01e0a781a4ffe1d2f998a909b82986cd146f75c18d26
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a specialized model for HTML-to-markdown conversion, not a developer tool, framework, or workflow product—it's a model artifact with no direct developer-tooling surface.
+      decision_evidence:
+        - Core product is two SLMs (0.5B and 1.5B) for HTML-to-markdown conversion, not a tool or workflow
+        - Primary use case is preprocessing web content for LLMs, not developer workflow augmentation
+        - No repo, CLI, SDK, or integration layer—just model checkpoints and a Colab notebook
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

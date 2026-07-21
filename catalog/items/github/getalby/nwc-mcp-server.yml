@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:07.159Z"
       bytes: 3991
 insights:
-  summary: An archived MCP server that connects a Bitcoin Lightning wallet to LLMs using Nostr Wallet Connect for on-chain payments.
-  why_it_matters: It allows developers to build LLM-powered agents that can send and receive Bitcoin payments directly through a standardized protocol.
-  mental_damage: Your AI agent can now independently pay its own Lightning invoices, removing the last barrier between your code and irreversible financial chaos.
+  summary: An MCP server that connects Bitcoin Lightning wallets to LLMs via Nostr Wallet Connect.
+  why_it_matters: It enables AI agents to interact with decentralized financial protocols through the Model Context Protocol.
+  mental_damage: Because having an LLM manage your Lightning wallet is the logical endpoint of the 'agentic finance' rabbit hole.
   tags:
     - mcp
     - bitcoin
-    - lightning
+    - lightning-network
     - nostr
-    - payments
+    - fintech
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and deprecated in favor of 'Alby MCP', making it a dead-end project that should not be featured in a curated catalog.
+  reason: The repository is explicitly marked as deprecated and has been replaced by a different project.
   evidence:
-    - "README header states: '⚠️ DEPRECATED ⚠️ Please use Alby MCP instead!'"
-    - "The repo is marked as 'archived: yes' in the metadata."
-    - Source list context confirms it is superseded by a newer Alby implementation.
+    - README prominently displays a '⚠️ DEPRECATED ⚠️' banner
+    - README instructs users to use Alby MCP instead
+    - Repo is archived
 placement:
   primary_category: null
   section: null
@@ -75,12 +75,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:01:55.722Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:628df62b4b9424664a93a121e8efa19377edf72e141756b819643531b3bf732c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is explicitly marked as deprecated and has been replaced by a different project.
+      decision_evidence:
+        - README prominently displays a '⚠️ DEPRECATED ⚠️' banner
+        - README instructs users to use Alby MCP instead
+        - Repo is archived
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

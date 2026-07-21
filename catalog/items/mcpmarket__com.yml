@@ -36,14 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated directory for discovering and navigating Model Context Protocol (MCP) servers and tools.
-  why_it_matters: It provides a centralized map for developers trying to find the right MCP integrations to extend their AI coding assistants.
-  mental_damage: "Just what the ecosystem needed: another layer of navigation for the protocol that was supposed to simplify how we connect tools to models."
+  summary: A directory and marketplace for discovering Model Context Protocol (MCP) servers and related tooling.
+  why_it_matters: It helps developers find and integrate MCP servers to extend their AI assistants with new capabilities.
+  mental_damage: Because nothing says 'modern development' like spending an afternoon shopping for the perfect MCP server to make your AI finally understand your legacy codebase.
   tags:
     - mcp
     - directory
     - discovery
-    - ecosystem
+    - marketplace
   confidence: high
 curation:
   status: included
@@ -54,10 +54,10 @@ curation:
     - No repo description, README, or code signals found; the identity is a directory/listing site.
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -69,12 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:42.335Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5dc1526b0ef4b38915c91641cc9253faec9046b3d209490ca317791c7140b661
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The product is explicitly a directory/marketplace for MCP servers, which aligns with the MCP Servers & Tooling category where MCP is the primary identity.
+      decision_evidence:
+        - Seen in awesome-ai-coding-tools under 'MCP Servers and Directories'
+        - URL and name (mcpmarket.com) indicate a marketplace/directory focus for MCP
+      category_candidates:
+        - mcp
+        - awesome-awesomes
+      contrastive_reason: Choose mcp over awesome-awesomes because the product's core identity is MCP-specific infrastructure (a registry/marketplace) rather than a general AI tooling directory.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      review_resume_lifecycle: null

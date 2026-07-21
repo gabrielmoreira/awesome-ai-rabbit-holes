@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Rosebud AI is a prompt-to-app platform that generates and instantly deploys 3D games, creative apps, and web projects from text descriptions.
-  why_it_matters: It allows developers and creators to scaffold interactive games and web applications using natural language, removing the initial friction of boilerplate and setup.
-  mental_damage: Yet another reminder that while we automate the creation of entire 3D worlds, we still manually configure CORS headers and debug dependency conflicts in the projects we build ourselves.
+  summary: A web platform for creating and deploying playable games from AI prompts without coding.
+  why_it_matters: It enables non-developers or developers to prototype and deploy games quickly using natural language descriptions.
+  mental_damage: Now you can build a game in an afternoon, but you’ll still spend the next six months tweaking the prompt to get the NPCs to stop walking through walls.
   tags:
-    - game-dev
+    - game-development
     - prompt-to-app
-    - vibe-coding
-    - web-apps
+    - no-code
+    - ai-generation
   confidence: high
 curation:
   status: included
-  reason: The core product identity is turning prompts into deployed games and web apps rather than editing an existing codebase, fitting the App Builders category.
+  reason: The product's core value is turning prompts into deployable games, fitting the prompt-to-app builder category rather than a coding assistant or IDE.
   evidence:
-    - Source list 'awesome-ai-coding-tools' classifies it under 'App Builders' with the description 'Build and instantly deploy games and creative apps without coding.'
-    - Site title and description explicitly state 'Make 3D Games & Worlds with Vibe Coding' and 'Build and instantly deploy games and creative apps without coding.'
-    - Site features list 'AI Code Generator', 'AI Website Builder', and '3D Game Maker' as prompt-driven creation tools.
+    - Site description explicitly states 'Create playable games with AI prompts. Describe your idea or choose a template, then build and deploy your game. No coding required.'
+    - Source-list context places it in 'App Builders' section of awesome-ai-coding-tools.
 placement:
   primary_category: app-builders
   section: Prompt-to-App Builders
@@ -69,12 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:12.375Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e21e68241c37b7590f569129bdf45ea232457a03035106a4014626c4e78c908d
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product's core value is turning prompts into deployable games, fitting the prompt-to-app builder category rather than a coding assistant or IDE.
+      decision_evidence:
+        - Site description explicitly states 'Create playable games with AI prompts. Describe your idea or choose a template, then build and deploy your game. No coding required.'
+        - Source-list context places it in 'App Builders' section of awesome-ai-coding-tools.
+      category_candidates:
+        - app-builders
+        - ai-frameworks
+      contrastive_reason: Choose app-builders over ai-frameworks because the primary surface is a hosted prompt-to-app builder, not a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

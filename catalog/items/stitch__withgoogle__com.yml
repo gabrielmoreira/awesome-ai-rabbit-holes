@@ -36,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Stitch is a Google AI experiment that generates mobile and web UI designs from prompts or images to accelerate design ideation.
-  why_it_matters: It provides developers and designers with a rapid way to jumpstart UI scaffolding before diving into hand-coding or design tools.
-  mental_damage: Another tool to generate mockups that look great in the demo but will inevitably be rewritten from scratch when the developer realizes CSS is still a thing.
+  summary: Stitch is an AI tool that generates UIs for mobile and web applications to accelerate design ideation.
+  why_it_matters: It helps developers and designers quickly prototype and iterate on UI concepts without manual coding or design work.
+  mental_damage: Now you can spend more time arguing about button placement than actually building the app.
   tags:
-    - ui-generation
+    - ui-generator
     - design-ideation
-    - google-ai
-    - frontend
+    - prompt-to-ui
+    - prototype
   confidence: high
 curation:
   status: included
-  reason: The product converts prompts into UI designs and application layouts rather than editing an existing codebase, fitting the prompt-to-site builder profile.
+  reason: The product's core value is generating UIs from prompts, which aligns with app builders rather than coding agents or extensions.
   evidence:
-    - Scraped site description states 'Stitch generates UIs for mobile and web applications, making design ideation fast and easy.'
-    - Listed in awesome-ai-coding-tools under the 'UI Generators' section.
-    - Product identity is turning prompts/images into frontend designs, not repo-level coding assistance.
+    - Source-list context describes it as a UI generator for mobile and web apps
+    - Scraped site context confirms it generates UIs for design ideation
 placement:
   primary_category: app-builders
-  section: Prompt-to-Site Builders
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:07.271Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3e4355d9026c7160622bb0969f4ac3dd9dc0a783b5ad29193dd576de8fbe1505
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product's core value is generating UIs from prompts, which aligns with app builders rather than coding agents or extensions.
+      decision_evidence:
+        - Source-list context describes it as a UI generator for mobile and web apps
+        - Scraped site context confirms it generates UIs for design ideation
+      category_candidates:
+        - app-builders
+        - ai-dev-extensions
+      contrastive_reason: Choose app-builders over ai-dev-extensions because the primary function is prompt-to-UI generation rather than augmenting another coding tool.
+      review_reason: null
+      review_resume_lifecycle: null

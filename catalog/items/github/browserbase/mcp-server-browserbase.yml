@@ -62,22 +62,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:15.141Z"
       bytes: 7707
 insights:
-  summary: An MCP server that gives LLM applications cloud browser automation capabilities by connecting them to Browserbase and Stagehand for web navigation, interaction, and data extraction.
-  why_it_matters: It lets coding agents and AI workflows automate real browser sessions—navigating pages, clicking elements, and extracting data—without wiring up Playwright or Puppeteer by hand.
-  mental_damage: We have successfully abstracted the browser so that your AI can now confidently misclick cookie banners at cloud scale.
+  summary: An MCP server that enables LLMs to control a browser via Browserbase and Stagehand for web automation and interaction.
+  why_it_matters: Developers can integrate browser automation into their AI workflows, allowing LLMs to navigate, act, and extract data from web pages programmatically.
+  mental_damage: Now your AI can open 47 tabs to debug why your AI opened 47 tabs.
   tags:
     - mcp
     - browser-automation
-    - stagehand
+    - web-scraping
     - llm-tools
+    - playwright
   confidence: high
 curation:
   status: included
-  reason: The product’s identity is an MCP server for browser automation, listed in awesome-mcp-servers under Browser Automation and Official Servers, and explicitly built to expose Browserbase/Stagehand as MCP tools.
+  reason: This is an MCP-first server whose primary identity is providing browser automation capabilities via the Model Context Protocol.
   evidence:
-    - "Repo description: 'Allow LLMs to control a browser with Browserbase and Stagehand' with topics including mcp and browser."
-    - "README states: 'This server provides cloud browser automation capabilities using Browserbase and Stagehand' and exposes 6 MCP tools (start, end, navigate, act, observe, extract)."
-    - Listed in awesome-mcp-servers under 'Server Implementations > Browser Automation' and 'Official Servers' sections.
+    - Repo description explicitly states it is an MCP server for browser control
+    - README details MCP tools for browser session management, navigation, and data extraction
+    - Listed in awesome-mcp-servers under Browser Automation
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -96,12 +97,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:06.238Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:03857193c81fcbad4c1070edef13786989e24f625682cf2b5203fc34c1cdd954
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose primary identity is providing browser automation capabilities via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for browser control
+        - README details MCP tools for browser session management, navigation, and data extraction
+        - Listed in awesome-mcp-servers under Browser Automation
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

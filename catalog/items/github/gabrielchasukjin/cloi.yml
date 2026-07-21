@@ -39,26 +39,26 @@ metadata:
       fetched_at: "2026-07-16T05:05:05.395Z"
       bytes: 6801
 insights:
-  summary: A terminal-based local debugging agent that uses RAG to find relevant code and can apply fixes directly to your codebase using local Ollama models or Anthropic APIs.
-  why_it_matters: It lets developers debug inside the terminal with private, local models while automatically indexing and retrieving context from their codebase.
-  mental_damage: Yet another CLI agent promising to fix your errors, provided you sit through a 500 MB CodeBERT download and trust a beta that admits it may break your code.
+  summary: A terminal-based debugging agent that uses local or cloud models to analyze errors and apply fixes to your codebase.
+  why_it_matters: It automates the tedious loop of error reproduction and patch application while keeping data private via local model support.
+  mental_damage: Nothing prepares you for the existential dread of watching a CLI agent automatically index your entire codebase to explain why your code is broken.
   tags:
-    - terminal
+    - cli
     - debugging
+    - terminal
     - local-ai
     - rag
-    - cli-agent
   confidence: high
 curation:
   status: included
-  reason: Cloi is a standalone terminal debugging agent that reads code, plans fixes, and edits files, making it a primary coding assistant rather than an extension or integration layer.
+  reason: The tool is a standalone terminal agent that directly reads code and applies fixes to repair failures.
   evidence:
-    - "Repo description states: 'Local debugging agent that runs in your terminal'"
-    - README says Cloi 'analyze[s] errors and apply[s] fixes directly to your codebase' and 'Auto-fix errors using AI models'
-    - Primary CLI commands include /debug, /index, and /model, acting as a standalone assistant rather than augmenting another tool
+    - "Repo description: 'Local debugging agent that runs in your terminal'"
+    - "README: 'With your permission, Cloi can analyze errors and apply fixes directly to your codebase.'"
+    - "README: 'Automates debugging process... works with Ollama models'"
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (395) exceeded threshold (150)
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:00:25.528Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c5a9cd5a6d9c54eff246b5aac7fabf8411bac034fe877723ed4d165b96a34c2c
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The tool is a standalone terminal agent that directly reads code and applies fixes to repair failures.
+      decision_evidence:
+        - "Repo description: 'Local debugging agent that runs in your terminal'"
+        - "README: 'With your permission, Cloi can analyze errors and apply fixes directly to your codebase.'"
+        - "README: 'Automates debugging process... works with Ollama models'"
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because it acts as a primary terminal agent that performs end-to-end repair cycles rather than just augmenting an existing editor's capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,22 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language marketplace and community hub for discovering, sharing, and installing reusable Agent Skills, plugins, triggers, and communication adapters.
-  why_it_matters: It provides a structured registry where developers can extend their agents with community-built capabilities and configuration packs instead of writing them from scratch.
-  mental_damage: Just when you thought dependency hell was contained to npm, we now have a burgeoning app store for giving your AI agents new personality quirks and browser plugins.
+  summary: A marketplace for sharing and installing skills, plugins, triggers, and communicators to extend AI agents.
+  why_it_matters: Developers can enhance their agents with reusable capabilities like code extensions, event triggers, and messaging adapters.
+  mental_damage: Finally, a place where your agent can learn to fish instead of just being told to fish.
   tags:
     - agent-skills
     - marketplace
-    - community
     - plugins
+    - triggers
+    - communicators
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly a registry and discovery hub ('新时代的 App Store') for Agent assets like skills, plugins, and triggers, which aligns with the Agent Skills category.
+  reason: The product is a registry/marketplace for reusable agent skills and extensions, matching the Agent Skills category's focus on skill packs and directories.
   evidence:
-    - Site title and description identify it as a marketplace ('水产市场') for skills, plugins, triggers, and communicators.
-    - The page excerpt explicitly lists '经验/集合', '技能', '插件', and '触发器' as the primary asset types available for agents.
-    - Source list context places it under '技能 Skills' as a place to share skills, experiences, plugins, and triggers.
+    - Site describes itself as a marketplace for skills, plugins, triggers, and communicators for agents
+    - Source-list context places it in a 'Skills' section of an LLM resource directory
+    - Primary value is discovery and distribution of agent capabilities
 placement:
   primary_category: skills
   section: Skill Registries & Directories
@@ -69,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:39.111Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0731c99fd8b1c7aeaf38cc0bb851232d7c30473048ae1986d56eda3107845ccd
+      proposed_primary_category: skills
+      disagreement: false
+      decision_reason: The product is a registry/marketplace for reusable agent skills and extensions, matching the Agent Skills category's focus on skill packs and directories.
+      decision_evidence:
+        - Site describes itself as a marketplace for skills, plugins, triggers, and communicators for agents
+        - Source-list context places it in a 'Skills' section of an LLM resource directory
+        - Primary value is discovery and distribution of agent capabilities
+      category_candidates:
+        - skills
+        - agent-orchestration
+      contrastive_reason: Choose skills over agent-orchestration because the core product is a skill registry/marketplace rather than a multi-agent coordination platform.
+      review_reason: null
+      review_resume_lifecycle: null

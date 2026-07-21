@@ -1,0 +1,111 @@
+id: theunwindai__com
+kind: website
+name: Step-by-step tutorials on Unwind AI
+canonical_url: https://theunwindai.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__theunwindai__com__awesome-list__shubhamsaboo__awesome-llm-apps
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: Shubhamsaboo/awesome-llm-apps
+        url: https://github.com/shubhamsaboo/awesome-llm-apps
+        repository: Shubhamsaboo/awesome-llm-apps
+      extraction:
+        mode: parsed
+        section_path:
+          - README
+        anchor_text: Step-by-step tutorials on Unwind AI
+        extracted_url: https://theunwindai.com
+        surrounding_text: "**[Step-by-step tutorials on Unwind AI](https://www.theunwindai.com)** · **[Quick start](#-run-one-now)** · **[Browse all templates](#-browse-all-templates)**"
+        confidence: high
+    - id: discovery__www__theunwindai__com__awesome-list__shubhamsaboo__awesome-llm-apps
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: Shubhamsaboo/awesome-llm-apps
+        url: https://github.com/shubhamsaboo/awesome-llm-apps
+        repository: Shubhamsaboo/awesome-llm-apps
+      extraction:
+        mode: parsed
+        section_path:
+          - 💡 Why this exists
+        anchor_text: Unwind AI
+        extracted_url: https://www.theunwindai.com
+        surrounding_text: "- 📚 **Step-by-step tutorials** - every featured template has a free walkthrough on [Unwind AI](https://www.theunwindai.com)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A newsletter and tutorial hub for AI developers, covering daily updates, agent workflows, and open-source AI tooling.
+  why_it_matters: Provides curated, up-to-date insights and practical tutorials for developers building or integrating AI agents and LLM applications.
+  mental_damage: Another feed to convince you that if you’re not shipping multi-agent systems by tomorrow, you’re already obsolete.
+  tags:
+    - newsletter
+    - ai-tutorials
+    - developer-updates
+    - agent-workflows
+  confidence: high
+curation:
+  status: included
+  reason: The primary value is recurring commentary, updates, and educational content for developers, not a standalone tool or platform.
+  evidence:
+    - Site describes itself as an 'Open-source Ecosystem for High-Leverage AI Builders' with daily/weekly updates and tutorials
+    - Content includes news digests (e.g., 'Daily Unwind') and step-by-step tutorials (e.g., 'Build a Multimodal Agentic RAG App')
+    - Source-list context (awesome-llm-apps) references it as part of a curated ecosystem, but the core product is media, not tooling
+placement:
+  primary_category: newsletters-and-feeds
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:38:04.726Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:163e2030adb654086c5e944e538decbc9dc94f8b4a1c386f7402a128cf04e26b
+      proposed_primary_category: newsletters-and-feeds
+      disagreement: false
+      decision_reason: The primary value is recurring commentary, updates, and educational content for developers, not a standalone tool or platform.
+      decision_evidence:
+        - Site describes itself as an 'Open-source Ecosystem for High-Leverage AI Builders' with daily/weekly updates and tutorials
+        - Content includes news digests (e.g., 'Daily Unwind') and step-by-step tutorials (e.g., 'Build a Multimodal Agentic RAG App')
+        - Source-list context (awesome-llm-apps) references it as part of a curated ecosystem, but the core product is media, not tooling
+      category_candidates:
+        - newsletters-and-feeds
+        - awesome-awesomes
+      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because the main value is recurring commentary and tutorials, not a curated directory of tools.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.971Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

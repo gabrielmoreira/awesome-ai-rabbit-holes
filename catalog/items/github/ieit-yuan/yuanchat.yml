@@ -48,26 +48,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:10.030Z"
       bytes: 10578
 insights:
-  summary: YuanChat is a self-hosted, Vue and FastAPI-based chat interface and desktop client for interacting with locally or remotely deployed Yuan-2.0 large language models.
-  why_it_matters: It provides developers with a ready-made web UI and Windows executable to test, evaluate, and integrate Yuan-2.0 inference endpoints without building a custom frontend.
-  mental_damage: Just when you thought the ecosystem had enough generic chat wrappers, we now have a fully Dockerized Vue app dedicated to making one specific family of models feel like ChatGPT.
+  summary: A web-based chat interface for interacting with large language models, built with FastAPI, Vue.js, and Hugging Face.
+  why_it_matters: Provides developers with a self-hostable UI to test and interact with LLMs locally or via APIs.
+  mental_damage: Another chat UI in a sea of chat UIs, because the world needed one more way to type prompts into a text box.
   tags:
-    - local-ai
-    - llm
-    - self-hosted
     - chat-interface
-    - yuan-2
-  confidence: medium
+    - llm-inference
+    - self-hosted
+    - fastapi
+    - vuejs
+  confidence: high
 curation:
-  status: included
-  reason: The project is a local/self-hosted desktop and web chat interface purpose-built for running and interacting with a specific local LLM runtime, fitting the Local AI category.
+  status: excluded
+  reason: The project is a generic LLM chat interface rather than a developer-tooling product with a clear coding, orchestration, or infrastructure focus.
   evidence:
-    - README describes it as a client application for the Yuan-2.0 project with Docker and Windows .exe deployment options.
-    - Topics include fastapi, huggingface, inference, llm, and python, indicating a local inference and serving stack.
-    - Roadmap highlights local features like CPU-only operation, Ollama support, and RAG retrieval.
+    - Repo description and topics indicate a web-based chat UI for LLMs
+    - No evidence of coding assistance, agent orchestration, or developer workflow integration
+    - Source-list context places it under 'Inference' in a general LLM resources list, not developer tooling
 placement:
-  primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -83,12 +83,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:39.088Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c89f51907ab40fe05ce30c223a398776cde2c27a8d23b0593dd69dd902d381e5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a generic LLM chat interface rather than a developer-tooling product with a clear coding, orchestration, or infrastructure focus.
+      decision_evidence:
+        - Repo description and topics indicate a web-based chat UI for LLMs
+        - No evidence of coding assistance, agent orchestration, or developer workflow integration
+        - Source-list context places it under 'Inference' in a general LLM resources list, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

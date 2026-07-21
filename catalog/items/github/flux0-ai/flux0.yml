@@ -45,23 +45,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:03.048Z"
       bytes: 5431
 insights:
-  summary: A Python framework for deploying and managing AI agents with multi-agent support, session management, and real-time event streaming via JSON patches.
-  why_it_matters: It provides developers with a unified backend to orchestrate agents from LangGraph or PydanticAI while handling the tricky parts of stateful sessions and streaming UIs.
-  mental_damage: Another valiant attempt to wrap the chaos of modern agent frameworks into a single 'unified' backend, ensuring you can now debug your streaming JSON patches at scale.
+  summary: Flux0 is a framework for deploying and orchestrating AI agents with real-time streaming, session management, and LLM-agnostic integration.
+  why_it_matters: It reduces boilerplate for developers building real-time, multi-agent AI applications by unifying agent deployment, streaming, and UI tooling.
+  mental_damage: Another framework promising to solve the 'complexity of AI apps' while adding yet another layer of abstraction to learn.
   tags:
     - agent-framework
+    - real-time
     - multi-agent
-    - session-management
-    - streaming
-    - llm-agnostic
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The product is a code-first SDK and server framework used to build and deploy agentic applications, fitting the 'Frameworks & SDKs' profile rather than an orchestration platform or coding assistant.
+  reason: Flux0 is a code-first framework for building and deploying AI agents, used via Python SDK and server CLI, making it a reusable toolkit rather than an operated workbench or coding assistant.
   evidence:
-    - Repo description and README define it as a 'framework for deploying AI agents' with SDKs like flux0-client-python and @flux0-ai/react.
-    - Developers interact via Python imports and server configuration (flux0-server) rather than operating a visual control plane.
-    - Listed in 'awesome-agent-orchestration' under 'Core Frameworks > Type-Safe & Modern Frameworks', aligning with the framework identity.
+    - "Repo description: 'A powerful framework for deploying AI agents with multi-agent support, session management, event streaming, and LLM-agnostic integration.'"
+    - "README: 'Flux0 is a powerful framework for building and deploying AI-powered applications.' and 'Whether you're building a chatbot, agent system, or AI copilot — Flux0 provides the foundation.'"
+    - "Usage: Developers install via PyPI, import logic, and run `flux0-server` as a backend, indicating code-first integration."
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -80,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:57:43.223Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:059cf738c480a504a8a866dc20c231bdd6af829c691bb92f01efaeb01d9c8edc
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: Flux0 is a code-first framework for building and deploying AI agents, used via Python SDK and server CLI, making it a reusable toolkit rather than an operated workbench or coding assistant.
+      decision_evidence:
+        - "Repo description: 'A powerful framework for deploying AI agents with multi-agent support, session management, event streaming, and LLM-agnostic integration.'"
+        - "README: 'Flux0 is a powerful framework for building and deploying AI-powered applications.' and 'Whether you're building a chatbot, agent system, or AI copilot — Flux0 provides the foundation.'"
+        - "Usage: Developers install via PyPI, import logic, and run `flux0-server` as a backend, indicating code-first integration."
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers import and script against Flux0 as a library/SDK (e.g., flux0_ai Python package, @flux0-ai/react) rather than operate it as a control plane or workbench.
+      review_reason: null
+      review_resume_lifecycle: null

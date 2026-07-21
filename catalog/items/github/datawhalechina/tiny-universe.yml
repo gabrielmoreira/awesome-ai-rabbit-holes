@@ -46,23 +46,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:29.764Z"
       bytes: 14798
 insights:
-  summary: A Chinese-language, from-scratch educational guide that rebuilds LLM core components—including models, RAG, agents, and evaluation—using only PyTorch and NumPy.
-  why_it_matters: It provides developers with a transparent, code-level look at how LLMs, RAG systems, and agents actually work under the hood, moving beyond black-box API usage.
-  mental_damage: Just when you thought you could abstract away the math forever, here comes a guide to hand-coding your own Transformer—because who doesn't want to debug their own attention mechanism at 2 AM?
+  summary: A Chinese guide and hands-on implementation for building a 'Tiny-Universe' large model white box.
+  why_it_matters: Provides developers with practical insights and code for constructing and understanding large model architectures from scratch.
+  mental_damage: Because nothing says 'weekend project' like hand-rolling your own transformer from the ground up.
   tags:
-    - llm
-    - rag
-    - agent
-    - education
-    - from-scratch
+    - llm-guide
+    - model-construction
+    - chinese
+    - educational
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational tutorial and learning resource, not a developer tool, framework, or product that fits into the catalog's tooling categories.
+  reason: This is an educational guide/resource rather than a developer tool, framework, or workflow product.
   evidence:
-    - README states the project is a 'guide' and 'tutorial' aimed at learners building from 'pure hand-crafted' code for educational purposes.
-    - Project identity is a '白盒子构建指南' (white-box construction guide) with no operational tool, CLI, SDK, or platform surface.
-    - Appears in source lists under 'LLM resources' and 'Tips', reinforcing its identity as a learning resource rather than a product.
+    - Repo description identifies it as a guide ('《大模型白盒子构建指南》')
+    - Topics include agent, diffusion, evaluation-metrics but no tooling/product identity
+    - Source-list context places it under '技巧 Tips' (tips/tricks) in a resource summary
 placement:
   primary_category: null
   section: null
@@ -81,12 +80,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:02.483Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:98496b4df3cc958a214346871af60dc538a7248f72972fe427702324dbec3262
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational guide/resource rather than a developer tool, framework, or workflow product.
+      decision_evidence:
+        - Repo description identifies it as a guide ('《大模型白盒子构建指南》')
+        - Topics include agent, diffusion, evaluation-metrics but no tooling/product identity
+        - Source-list context places it under '技巧 Tips' (tips/tricks) in a resource summary
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

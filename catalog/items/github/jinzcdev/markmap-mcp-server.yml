@@ -48,22 +48,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:24.818Z"
       bytes: 4785
 insights:
-  summary: An MCP server that converts Markdown text into interactive mind maps and exports them as PNG, JPG, or SVG images.
-  why_it_matters: It gives coding agents and MCP clients a standardized tool to visualize structured text, specs, or planning docs as interactive diagrams without leaving the workflow.
-  mental_damage: We have successfully abstracted Markdown—which was already a simplification of HTML—into a protocol server that renders a mind map, because apparently reading nested bullet points is now a context-window crisis.
+  summary: An MCP server that converts Markdown to interactive mind maps with export support for PNG/JPG/SVG.
+  why_it_matters: Developers can integrate mind-mapping visualization into their MCP-enabled workflows for planning, documentation, or brainstorming directly from Markdown.
+  mental_damage: Now you can turn your TODO.md into a mind map, because apparently bullet points weren’t chaotic enough.
   tags:
-    - mcp
-    - mindmap
+    - mcp-server
     - markdown
+    - mindmap
     - visualization
+    - export
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server built to expose markmap visualization capabilities to MCP-compatible clients, fitting cleanly into MCP Servers & Tooling.
+  reason: "MCP is the product identity: this is a dedicated MCP server for a specific domain (Markdown-to-mindmap conversion)."
   evidence:
-    - Repo description explicitly states 'An MCP server for converting Markdown to interactive mind maps'.
-    - README details MCP server setup, configuration for Claude Desktop, and exposes a markdown-to-mindmap tool.
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' server implementations.
+    - Repo description explicitly states it is an MCP server for Markdown-to-mindmap conversion
+    - README details MCP client configuration and tool exposure (markdown-to-mindmap)
+    - Project is actively maintained (pushed_at 2026-03-18)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -82,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:38.787Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:503b70b458b42aab91173232420765fec2df46db84363adf0dd888e53199a5e3
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for a specific domain (Markdown-to-mindmap conversion)."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Markdown-to-mindmap conversion
+        - README details MCP client configuration and tool exposure (markdown-to-mindmap)
+        - Project is actively maintained (pushed_at 2026-03-18)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific tooling) rather than an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

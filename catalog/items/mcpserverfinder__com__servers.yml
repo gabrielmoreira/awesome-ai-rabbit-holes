@@ -1,0 +1,109 @@
+id: mcpserverfinder__com__servers
+kind: website
+name: MCP Server Finder
+canonical_url: https://mcpserverfinder.com/servers
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__mcpserverfinder__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: MCP Server Finder
+        extracted_url: https://mcpserverfinder.com/servers
+        surrounding_text: "- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)** – Discover and browse MCP servers."
+        confidence: high
+    - id: discovery__www__mcpserverfinder__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: MCP Server Finder
+        extracted_url: https://www.mcpserverfinder.com/servers
+        surrounding_text: "- **[MCP Server Finder](https://www.mcpserverfinder.com/servers)** – Discover and browse MCP servers."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory for discovering MCP servers.
+  why_it_matters: Helps developers find and integrate Model Context Protocol servers into their workflows.
+  mental_damage: Because nothing says 'modern development' like spending an afternoon hunting for the right MCP server to make your AI finally understand your filesystem.
+  tags:
+    - mcp
+    - directory
+    - discovery
+  confidence: high
+curation:
+  status: included
+  reason: The URL and source-list context clearly identify this as a directory for navigating MCP servers, which fits the 'Lists & Directories' category as a discovery aid rather than a standalone product or server itself.
+  evidence:
+    - URL path is mcpserverfinder.com/servers, indicating a server directory
+    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'
+    - No repo description, README, or code artifacts provided, confirming it is a directory page rather than a tool
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:35:34.897Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4ff48a7f3048b78e5427e65384d7df6eb628a49cfbd20e46ff0dbd27eafac9ee
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The product is a directory specifically for MCP servers, which fits the MCP Servers & Tooling category as a discovery resource.
+      decision_evidence:
+        - URL explicitly identifies it as a server finder for MCP
+        - Seen in awesome-ai-coding-tools under MCP Servers and Directories
+      category_candidates:
+        - mcp
+        - awesome-awesomes
+      contrastive_reason: Choose mcp over awesome-awesomes because the product is a focused MCP server directory rather than a general AI tooling list.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.967Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

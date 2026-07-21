@@ -47,23 +47,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:56.921Z"
       bytes: 19538
 insights:
-  summary: A persistent, searchable context storage system for Claude Code that uses SQLite with FTS5 to save and recall session history, decisions, and code patterns across terminal sessions.
-  why_it_matters: It solves the ephemeral nature of Claude Code sessions by giving developers a fast, structured way to retrieve past decisions, bugs, and code patterns without re-explaining context.
-  mental_damage: We have finally built a memory palace for our AI assistant so that, somewhere between the 47th token and the heat death of the universe, it might remember why we chose JWT over sessions.
+  summary: Persistent, searchable context storage plugin for Claude Code that uses SQLite + FTS5 to maintain memory across sessions.
+  why_it_matters: Eliminates the need to re-explain context in every new Claude Code session by providing recallable, structured summaries of past work, decisions, and code patterns.
+  mental_damage: Finally, a way to stop pretending you remember why you chose JWT over sessions three months ago.
   tags:
     - claude-code
     - memory
     - context
     - sqlite
-    - fts5
+    - plugin
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory and retrieval system designed to preserve and surface context across Claude Code sessions, which aligns with Prompt & Context Engineering.
+  reason: The core novelty is a memory and retrieval system for context persistence, not the host integration layer.
   evidence:
-    - Repo description explicitly states 'Persistent, searchable context storage across Claude Code sessions using SQLite + FTS5'.
-    - README emphasizes memory retrieval features like /recall, auto-save hooks, and FTS5 search rather than acting as a primary coding assistant.
-    - Although listed under awesome-mcp-servers, the product identity is a memory system, not MCP infrastructure.
+    - Repo description explicitly states it is 'Persistent, searchable context storage across Claude Code sessions using SQLite + FTS5'
+    - README emphasizes structured AI summaries, full-text search, and cross-session memory as primary features
+    - Includes MCP server as a secondary feature, but memory system is the main product identity
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -82,12 +82,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:40.974Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:48dd997c4d7570246db8bf69e6a17011d157b713e0bcdd134a4222b905dce8c1
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core novelty is a memory and retrieval system for context persistence, not the host integration layer.
+      decision_evidence:
+        - Repo description explicitly states it is 'Persistent, searchable context storage across Claude Code sessions using SQLite + FTS5'
+        - README emphasizes structured AI summaries, full-text search, and cross-session memory as primary features
+        - Includes MCP server as a secondary feature, but memory system is the main product identity
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory and retrieval infrastructure rather than the Claude Code integration layer.
+      review_reason: null
+      review_resume_lifecycle: null

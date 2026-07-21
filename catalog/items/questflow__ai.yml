@@ -36,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Questflow is a platform for designing and deploying swarms of AI agents that automate tasks and execute trades across on-chain markets like Polymarket and OKX.
-  why_it_matters: It provides a developer platform (Builder) and A2A Hub for teams looking to orchestrate multiple autonomous agents for real-time financial data tracking and execution.
-  mental_damage: Just when you thought your Cursor setup was complex, now you need a swarm of AI clones to manage your on-chain gambling portfolio 24/7.
+  summary: An AI finance agent platform for investment analysis, strategy execution, and portfolio management across markets.
+  why_it_matters: It offers developers a domain-specific agentic framework for financial data integration, strategy modeling, and automated trading workflows.
+  mental_damage: Because nothing says 'developer tooling' like an AI that can lose your life savings faster than a segfault in production.
   tags:
-    - agent-swarm
+    - finance
+    - agent-platform
     - trading
-    - a2a
-    - on-chain
-  confidence: medium
+    - domain-specific
+  confidence: high
 curation:
-  status: included
-  reason: The product positions itself as a platform for designing and deploying AI swarms and coordinating agents via an A2A Hub, fitting the vertical orchestration model rather than a generic coding assistant.
+  status: excluded
+  reason: The product is a vertical finance-focused AI agent platform, not a developer-tooling product for software development workflows.
   evidence:
-    - Scraped site describes a 'Developer Platform' to 'Design and deploy your own AI swarm'.
-    - Features an 'A2A Hub' specifically for discovering and deploying AI agents.
-    - Source list context highlights the product as a tool for trading across markets using AI clones/agents.
+    - Primary product identity is an AI finance agent for investment (scraped site context)
+    - Core features center on trading, portfolio management, and financial data integration (README excerpt)
+    - Source-list context places it in an AI agents list but for finance, not developer tooling
 placement:
-  primary_category: agent-orchestration
-  section: Vertical Orchestration Platforms
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:53.193Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4e30afeb06771ebc6e813f202ccc878a81779b87d15ecd9dc745a1c1c0e93898
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a vertical finance-focused AI agent platform, not a developer-tooling product for software development workflows.
+      decision_evidence:
+        - Primary product identity is an AI finance agent for investment (scraped site context)
+        - Core features center on trading, portfolio management, and financial data integration (README excerpt)
+        - Source-list context places it in an AI agents list but for finance, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

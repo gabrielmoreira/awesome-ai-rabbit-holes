@@ -39,23 +39,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:01.584Z"
       bytes: 15685
 insights:
-  summary: An MCP server that provides web scraping, site crawling, and search engine result processing capabilities to AI clients like Cursor and Claude.
-  why_it_matters: It gives coding agents the ability to fetch live web content and search results in multiple formats without leaving the MCP workflow.
-  mental_damage: We have successfully abstracted the ancient art of 'reading the documentation' into a protocol server thatrequires an API key to scrape a static HTML page.
+  summary: An MCP server that provides web scraping, crawling, and SERP capabilities for LLM clients like Cursor and Claude.
+  why_it_matters: Developers can integrate web data extraction directly into their AI workflows without leaving their coding environment.
+  mental_damage: Now your AI can crawl the web while you pretend to understand the DOM it just scraped.
   tags:
-    - mcp
-    - scraping
-    - web-crawling
-    - cursor
-    - context
-  confidence: medium
+    - mcp-server
+    - web-scraping
+    - crawling
+    - serp
+    - llm-integration
+  confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server providing web scraping and crawling capabilities to LLM clients.
+  reason: The product is explicitly an MCP server with web scraping/crawling as its core identity, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'AnyCrawl MCP Server, with Scrape, Crawl and SERP.'"
-    - "README: 'Powerful web scraping and crawling for Cursor, Claude, and other LLM clients via the Model Context Protocol (MCP).'"
-    - Listed in awesome-mcp-servers under 'Official Servers' section.
+    - Repo description identifies it as 'AnyCrawl MCP Server, with Scrape, Crawl and SERP'
+    - README explicitly positions it as an MCP server for LLM clients like Cursor and Claude
+    - Source-list context shows it's included in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:22.864Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:989155d378cfb24c0296375811613343afd9c7f6c104762d867651a70109bc5c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server with web scraping/crawling as its core identity, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description identifies it as 'AnyCrawl MCP Server, with Scrape, Crawl and SERP'
+        - README explicitly positions it as an MCP server for LLM clients like Cursor and Claude
+        - Source-list context shows it's included in awesome-mcp-servers under 'Official Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not merely an extension for another tool.
+      review_reason: null
+      review_resume_lifecycle: null

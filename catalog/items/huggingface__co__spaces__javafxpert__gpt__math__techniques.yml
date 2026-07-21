@@ -37,21 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hugging Face Space exploring or demonstrating GPT-based math techniques that currently has a build error and is not operational.
-  why_it_matters: It offers no usable tooling or workflow integration for developers in its current state.
-  mental_damage: Yet another demo space that breaks, teaching us that clicking 'like 34' is the closest we get to reproducible ML infrastructure.
+  summary: A Hugging Face Space hosting a math-focused GPT application.
+  why_it_matters: It provides a specialized interface for mathematical problem-solving using LLMs, which may be useful for developers working on math-heavy tasks.
+  mental_damage: Because nothing says 'production-ready' like a Hugging Face Space with a build error.
   tags:
     - math
-    - huggingface
-    - demo
+    - huggingface-space
+    - gpt
   confidence: high
 curation:
   status: excluded
-  reason: The project is a Hugging Face Space with a build error and no description, README, or developer-tooling identity; it is neither a product nor a usable extension, and does not fit any catalog category.
+  reason: The project is a niche demo/app rather than a developer tool, framework, or workflow component, and its build error suggests it is not actively maintained or reliable.
   evidence:
-    - Scraped site shows 'Build error' and 'Unexpected build error' with no functional app.
-    - No repo description, README excerpt, topics, stars, or license information provided.
-    - Listed in awesome-langchain under 'Other / Chatbots' as a community ML app discoverable page, not a developer tool.
+    - Hugging Face Space with a build error (not functional)
+    - No repo description, stars, or clear developer-tooling angle
+    - Listed in an 'awesome-langchain' directory under 'Other / Chatbots', not a developer tool
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:12.516Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a773aa0823841de1f9d3a2779091e41ac97c59020e4cf315a79b78c8b8be4352
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a niche demo/app rather than a developer tool, framework, or workflow component, and its build error suggests it is not actively maintained or reliable.
+      decision_evidence:
+        - Hugging Face Space with a build error (not functional)
+        - No repo description, stars, or clear developer-tooling angle
+        - Listed in an 'awesome-langchain' directory under 'Other / Chatbots', not a developer tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

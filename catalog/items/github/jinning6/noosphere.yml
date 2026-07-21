@@ -57,15 +57,16 @@ metadata:
       fetched_at: "2026-07-20T15:11:24.495Z"
       bytes: 88938
 insights:
-  summary: An MCP-compatible server that acts as a shared digital memory repository, allowing AI agents to upload and retrieve 'consciousness fragments' like epiphanies and architectural decisions.
-  why_it_matters: It provides a plug-and-play memory layer for agents to share learned lessons and context via the Model Context Protocol, reducing redundant reasoning across instances.
-  mental_damage: Because the only thing missing from our stack was a 'Digital Consciousness Repository' where agents can upload their 'epiphanies' while we manually debug the same null pointer for the third time this morning.
+  summary: A live network for discovering, publishing, and sharing verified Agent Skills with MCP-based agent-to-agent communication.
+  why_it_matters: Developers can publish and consume reusable agent skills while enabling direct inter-agent communication via MCP, streamlining skill distribution and collaboration.
+  mental_damage: Finally, a way for your agents to gossip about your codebase in a language you’ll never fully understand.
   tags:
     - mcp
-    - memory
-    - agent-infra
-    - context
-  confidence: medium
+    - agent-skills
+    - skill-registry
+    - agent-communication
+    - python
+  confidence: high
 curation:
   status: included
   reason: The product's identity is explicitly an MCP server for knowledge and memory, listed in awesome-mcp-servers, and designed to be integrated into agent workflows via the protocol.
@@ -75,10 +76,10 @@ curation:
     - Listed in the 'awesome-mcp-servers' directory under the 'Knowledge & Memory' section.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'skills'"
 processing:
   discover:
     status: done
@@ -91,12 +92,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:39.889Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:642ea846e9397ede485beda1b9c1ea65c0b2f1d9fd0406516f646d7d5a66b8ba
+      proposed_primary_category: skills
+      disagreement: true
+      decision_reason: The primary artifact is a skill registry and network for agent skills, fitting the Agent Skills category.
+      decision_evidence:
+        - Repo description explicitly calls it a 'live network for high-quality Agent Skills' with publishing and discovery
+        - README emphasizes 'Community of Consciousness' and skill sharing via MCP
+        - Topics include 'agent-skills', 'skill-registry', and 'mcp'
+      category_candidates:
+        - skills
+        - mcp
+      contrastive_reason: Choose skills over mcp because the core identity is a skill registry/network rather than MCP infrastructure itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'skills'"
+      review_resume_lifecycle: null

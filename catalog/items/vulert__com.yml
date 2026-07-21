@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Vulert is a no-install software composition analysis platform that scans manifest files and SBOMs to detect vulnerabilities, manage open source license compliance, and monitor Docker containers without accessing source code.
-  why_it_matters: It lets developers offload dependency vulnerability scanning and license compliance checks into CI/CD and dashboards without granting code access or installing agents.
-  mental_damage: Yet another zero-trust security SaaS to integrate so you can prove to compliance that your dependency tree is someone else’s fault.
+  summary: Vulert is a SaaS platform for software composition analysis (SCA) that monitors dependencies via manifest/SBOM files and provides real-time vulnerability and license compliance alerts without code access.
+  why_it_matters: It lets developers and security teams continuously scan for vulnerabilities and license risks across projects without installing agents or exposing source code.
+  mental_damage: Finally, a security tool that won’t ask for your SSH keys—just your package-lock.json and your soul.
   tags:
-    - security
     - sca
-    - compliance
-    - ci-cd
+    - vulnerability-scanning
+    - license-compliance
     - sbom
+    - devsecops
   confidence: high
 curation:
   status: excluded
-  reason: Vulert is a traditional software composition analysis and compliance SaaS, not a developer-facing AI coding tool, agent, extension, or AI infrastructure product.
+  reason: Vulert is a security/compliance SaaS platform, not a developer-tooling product focused on AI-assisted coding, agents, or workflows.
   evidence:
-    - Scraped site positions Vulert entirely around SCA, SBOM monitoring, license compliance, and vulnerability alerts with no mention of AI-assisted coding.
-    - Seen in awesome-ai-coding-tools under a Security section, but the product itself does not act as a coding assistant, agent, or AI workflow tool.
-    - No AI coding, prompt engineering, agent orchestration, or model-centric workflow is described in the site excerpt or description.
+    - Primary product is SCA and vulnerability monitoring, not AI-powered coding assistance
+    - Source-list context places it under 'Security' in a general AI coding tools list, but the tool itself is not AI-native
+    - No AI agent, framework, or developer workflow augmentation mentioned in its core pitch
 placement:
   primary_category: null
   section: null
@@ -70,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:48.758Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:316628bcaa4c49ca62fe411cccaac9fbcd6333864c1fcb8e3acbcaa3743d5479
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Vulert is a security/compliance SaaS platform, not a developer-tooling product focused on AI-assisted coding, agents, or workflows.
+      decision_evidence:
+        - Primary product is SCA and vulnerability monitoring, not AI-powered coding assistance
+        - Source-list context places it under 'Security' in a general AI coding tools list, but the tool itself is not AI-native
+        - No AI agent, framework, or developer workflow augmentation mentioned in its core pitch
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

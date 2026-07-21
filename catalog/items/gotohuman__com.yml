@@ -81,22 +81,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A platform-agnostic control plane that lets developers insert human review, editing, and approval checkpoints into AI agent workflows via SDKs, integrations, and an MCP server.
-  why_it_matters: It gives teams a way to gate high-stakes AI outputs with human feedback loops and versioned approvals without building custom review infrastructure.
-  mental_damage: You now have a dashboard to babysit the agents that were supposed to stop you from needing a dashboard in the first place.
+  summary: A platform for adding human-in-the-loop supervision to AI agent workflows via review templates, notifications, and approvals.
+  why_it_matters: It lets developers insert human review checkpoints into automated AI workflows to validate, edit, or approve critical outputs before they propagate.
+  mental_damage: Finally, a way to make your AI agents pause and ask for permission before they embarrass you in front of the entire company.
   tags:
-    - agent-orchestration
     - human-in-the-loop
-    - mcp
-    - workflow-governance
+    - ai-workflows
+    - approvals
+    - orchestration
+    - mcp-server
   confidence: high
 curation:
   status: included
-  reason: Its core product identity is a central control plane for coordinating human-in-the-loop reviews across multi-step, event-driven AI workflows and agents.
+  reason: The product is a control plane for coordinating human supervision in multi-step AI workflows, not a coding assistant, framework, or extension.
   evidence:
-    - Scraped site describes it as 'a central control plane for your team to approve actions and provide input' with inbox, notifications, and workflow metadata.
-    - Provides multi-agent workflow controls including multi-step navigation, manual triggers, and artifact versioning rather than being a single coding assistant.
-    - Includes SDKs, n8n/Make integrations, and an MCP server, positioning it as a platform that wraps around other agents rather than replacing them.
+    - Primary page describes it as a platform for human supervision of AI agents with workflows, templates, and approvals
+    - Integrations include n8n, Make, SDKs, and an MCP server, positioning it as a coordination layer
+    - Source lists categorize it under LLMOps and MCP servers, signaling orchestration/control-plane identity
 placement:
   primary_category: agent-orchestration
   section: Control Planes & Workforce Platforms
@@ -105,15 +106,31 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:34:49.189Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:356ae0ab8b189c8a348f6160686ee21d61001491bcf67fad18bf193af2c90922
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a control plane for coordinating human supervision in multi-step AI workflows, not a coding assistant, framework, or extension.
+      decision_evidence:
+        - Primary page describes it as a platform for human supervision of AI agents with workflows, templates, and approvals
+        - Integrations include n8n, Make, SDKs, and an MCP server, positioning it as a coordination layer
+        - Source lists categorize it under LLMOps and MCP servers, signaling orchestration/control-plane identity
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated platform for human-in-the-loop workflows, not a code-first library or SDK.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T15:10:47.687Z"

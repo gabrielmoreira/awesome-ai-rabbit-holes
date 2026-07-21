@@ -36,15 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Wopee.io is an AI-powered web testing platform that autonomously explores applications, generates Playwright test scripts, and self-heals tests when UI changes occur.
-  why_it_matters: It shifts web testing from manual script maintenance to autonomous agent-driven coverage, integrating directly into CI/CD pipelines with support for Playwright, Cypress, and Robot Framework.
-  mental_damage: You can finally stop pretending you enjoy fixing broken CSS selectors, right before the AI agent decides to refactor the entire test suite while you're on call.
+  summary: Wopee.io is a SaaS platform that uses AI agents to autonomously explore web apps, generate Playwright tests, execute them across browsers, and self-heal tests when the UI changes.
+  why_it_matters: It lets developers achieve high test coverage for web apps without writing or maintaining test scripts, reducing QA overhead.
+  mental_damage: Finally, a way to offload the soul-crushing task of updating brittle locators to an AI that might still blame you when it fails.
   tags:
-    - testing
-    - qa
-    - ai-agents
+    - web-testing
     - playwright
-    - ci-cd
+    - ai-agents
+    - self-healing-tests
+    - qa-automation
   confidence: high
 curation:
   status: included
@@ -55,10 +55,10 @@ curation:
     - Offers an MCP Server and CI/CD integrations (GitHub Actions, Jenkins, GitLab), acting as a primary testing agent.
 placement:
   primary_category: coding-agents
-  section: Review, Testing & Repair Agents
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -70,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:16.141Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5921bf40830079100b6a0c1b539c42d129d1f2b76f6f59ee7bcecefa55c81cd4
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: The product is a hosted testing service that augments existing testing workflows (Playwright, Cypress, etc.) rather than being a primary coding assistant or standalone agent.
+      decision_evidence:
+        - Source-list context places it in 'Testing and QA' for AI-powered coding tools
+        - Primary value is generating and maintaining tests for web apps, not direct code editing or repo management
+        - Integrates with existing testing frameworks (Playwright, Cypress) and CI/CD pipelines
+      category_candidates:
+        - ai-dev-extensions
+        - evals
+      contrastive_reason: Choose ai-dev-extensions over evals because the core job is test generation and maintenance rather than measurement or scoring of model/agent behavior.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

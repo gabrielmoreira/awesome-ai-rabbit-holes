@@ -37,24 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server implementation in the @contextstream namespace focused on knowledge and memory capabilities.
-  why_it_matters: It provides the plumbing for coding assistants to offload context and retrieval into a dedicated memory server.
-  mental_damage: Finally, a dedicated server to remember what you were doing before you context-switched into oblivion.
+  summary: An npm package providing an MCP server implementation.
+  why_it_matters: Enables developers to expose tools or resources to MCP-compatible clients, integrating them into AI workflows.
+  mental_damage: Another protocol to learn, another server to run, another YAML config to debug at 2 AM.
   tags:
     - mcp
-    - memory
-    - knowledge
-    - context
-  confidence: medium
+    - server
+    - npm-package
+    - protocol
+    - integration
+  confidence: high
 curation:
   status: included
-  reason: The package is explicitly an MCP server for knowledge and memory, directly matching the MCP Servers & Tooling category.
+  reason: The package is explicitly an MCP server, making MCP its primary identity rather than a compatibility feature.
   evidence:
-    - Package name is @contextstream/mcp-server on npm, indicating an MCP implementation.
-    - Listed in awesome-mcp-servers under the 'Knowledge & Memory' section.
+    - Package name is '@contextstream/mcp-server'
+    - Published on npm as an MCP server implementation
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +70,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:32.098Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d771bf3657cc812523e64d6b1687a8f67bc87eaeb8a60305f31e8cd767d2944c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The package is explicitly an MCP server, making MCP its primary identity rather than a compatibility feature.
+      decision_evidence:
+        - Package name is '@contextstream/mcp-server'
+        - Published on npm as an MCP server implementation
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general-purpose framework or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

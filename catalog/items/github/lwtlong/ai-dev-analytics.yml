@@ -40,15 +40,14 @@ metadata:
       fetched_at: "2026-07-16T05:05:13.714Z"
       bytes: 16556
 insights:
-  summary: An open-source, local-first MCP server that silently observes AI coding sessions, visualizes deviations and task metrics via a dashboard, and auto-generates project rules to improve future AI output.
-  why_it_matters: It gives developers structured observability into vibe coding sessions and turns repeated AI deviations into actionable project rules without leaving the local machine.
-  mental_damage: Finally, quantitative proof that your AI writes 23 deviations per session, so you can add rules, watch the chart go down, and pretend you are doing engineering.
+  summary: ai-dev-analytics is an open-source MCP-based observability layer that silently tracks AI coding sessions and turns deviations into project rules.
+  why_it_matters: It gives developers visibility into AI coding behavior, enabling data-driven improvements to code quality and reducing repeated mistakes.
+  mental_damage: Finally, a way to quantify the guilt of letting AI write your code while pretending you’re in control.
   tags:
-    - mcp
     - observability
-    - local-first
-    - rules
-    - analytics
+    - mcp
+    - ai-coding
+    - dev-productivity
   confidence: medium
 curation:
   status: included
@@ -59,10 +58,10 @@ curation:
     - Source list placement in awesome-mcp-servers under 'Server Implementations > Developer Tools' aligns with its MCP infrastructure role.
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:38.864Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:654a3c6eee3c4d9ee772177e067c04bc5b186d9622072d0462724cf2064fde6a
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: The tool is an MCP server that augments existing coding assistants (like Claude Code, Cursor) with observability and rule-learning capabilities, making it an extension rather than a standalone coding assistant.
+      decision_evidence:
+        - "Repo description: 'An open-source AI coding observability layer. Silently tracks vibe coding sessions via MCP and codifies AI deviations into project rules. 100% local.'"
+        - "README: Describes integration via .mcp.json for tools like Cursor, VS Code Copilot, Windsurf, and Lingma, positioning itself as a silent data collector during AI-assisted coding."
+        - "Core function: Collects structured data from AI coding sessions (tasks, deviations, bugs, file changes) and feeds insights back as project rules — enhancing, not replacing, the host assistant."
+      category_candidates:
+        - ai-dev-extensions
+        - context-engineering
+      contrastive_reason: Choose ai-dev-extensions over context-engineering because the tool’s main value lies in integrating with and augmenting existing coding assistants via MCP to add observability and workflow feedback, not in pioneering memory, retrieval, or prompt-shaping infrastructure as its core novelty.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

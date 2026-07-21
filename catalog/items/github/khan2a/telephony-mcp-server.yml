@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:34.113Z"
       bytes: 8593
 insights:
-  summary: A minimalist MCP server that exposes telephony tools like voice calls and SMS via the Vonage API for integration with LLM applications.
-  why_it_matters: It lets developers wire real-world phone and messaging capabilities directly into Claude Desktop, GitHub Copilot, and other MCP-compatible assistants without building custom API wrappers.
-  mental_damage: Because nothing says 'agentic future' like your LLM independently burning Vonage credits to cold-call your product manager while you debug a prompt.
+  summary: An MCP server providing telephony tools (voice calls, SMS) via Vonage API for LLM applications.
+  why_it_matters: Enables LLMs to initiate real-world telephony actions like calls and SMS, extending their utility beyond text generation.
+  mental_damage: Now your AI can cold-call your ex to explain why your PR was rejected.
   tags:
     - mcp
     - telephony
     - vonage
     - llm-tools
-    - python
+    - server
   confidence: high
 curation:
   status: included
-  reason: The product’s core identity is an MCP server providing domain-specific telephony capabilities, fitting cleanly into MCP Servers & Tooling.
+  reason: "MCP is the product identity: a server exposing telephony tools for LLM integration, fitting the MCP Servers & Tooling category."
   evidence:
-    - "Repo description explicitly states: 'A very simple no-fuss minimalist MCP Server with telephony tools.'"
-    - README demonstrates integration with Claude Desktop and GitHub Copilot as an MCP tool provider.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Communication', confirming its protocol-first identity.
+    - Repo description explicitly states it is an MCP Server with telephony tools
+    - README demonstrates integration with Claude Desktop and GitHub Copilot as MCP tools
+    - Listed in awesome-mcp-servers under Communication servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:21.843Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c27130573ee8cc9a18757d6f166bda81270d97b2f754aa53d02973197d6eff9d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: a server exposing telephony tools for LLM integration, fitting the MCP Servers & Tooling category."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP Server with telephony tools
+        - README demonstrates integration with Claude Desktop and GitHub Copilot as MCP tools
+        - Listed in awesome-mcp-servers under Communication servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing telephony capabilities, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

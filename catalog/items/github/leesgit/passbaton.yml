@@ -60,14 +60,13 @@ metadata:
       fetched_at: "2026-07-20T15:11:48.356Z"
       bytes: 30905
 insights:
-  summary: An MCP server and hook system for Claude Code that automatically captures session context, decisions, and error-fix pairs to eliminate re-explanation on new sessions.
-  why_it_matters: It removes the recurring overhead of re-explaining project state, conventions, and past decisions every time a Claude Code session starts.
-  mental_damage: We have now built persistent memory so you can feel productive across sessions, right before the model forgets what a Next.js App Router is two prompts later.
+  summary: "Session continuity for AI coding agents — your agent picks up where it left off. Persistent memory for Claude Code, OpenAI Codex CLI & Google Gemini CLI, sharing one local db: auto context injection, compaction handover, semantic search (KO/EN/JA), error→solution recall."
+  why_it_matters: It reduces context loss between coding sessions, letting developers maintain persistent memory across agents without manual re-prompting or context rebuilding.
+  mental_damage: Finally, a way to feel less guilty about closing your terminal — until you realize your agent now remembers every dumb mistake you made last Tuesday.
   tags:
-    - claude-code
-    - context-continuity
+    - session-continuity
     - mcp
-    - session-memory
+    - local-memory
   confidence: medium
 curation:
   status: included
@@ -78,21 +77,37 @@ curation:
     - Listed in awesome-mcp-servers under Knowledge & Memory, aligning with memory and context management rather than primary assistant or generic extension.
 placement:
   primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'ai-dev-extensions'"
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:26.426Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:df86c4566f21ef1cab0c12ee2b7d3e8f98c387b357d2a05bd5d13e1b5b39053a
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: It is primarily an integration layer that adds persistent memory and context injection to existing coding agents like Claude Code, Codex CLI, and Gemini CLI, rather than being a standalone coding assistant or framework.
+      decision_evidence:
+        - "Repo description: 'Session continuity for AI coding agents — your agent picks up where it left off.'"
+        - "README: 'Persistent memory for Claude Code, OpenAI Codex CLI & Google Gemini CLI, sharing one local db.'"
+        - "Topics include: mcp, mcp-server, memory, context-injection, session-continuity"
+      category_candidates:
+        - ai-dev-extensions
+        - context-engineering
+      contrastive_reason: Choose ai-dev-extensions over context-engineering because the main value is integrating with and augmenting existing coding agents via MCP, not inventing a novel memory or retrieval system.
+      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-05-06T22:12:15.626Z"

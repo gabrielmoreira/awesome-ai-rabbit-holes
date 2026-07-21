@@ -37,22 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: MovieLens 1M is a stable benchmark dataset containing 1 million movie ratings from 6000 users on 4000 movies, released in 2003 by GroupLens.
-  why_it_matters: It provides a long-standing, stable baseline for evaluating recommendation algorithms and agents designed to predict user preferences.
-  mental_damage: We have reached a point where a static CSV from 2003 is considered a critical benchmark for the cutting edge of autonomous AI agents.
+  summary: MovieLens 1M is a stable benchmark dataset containing 1 million movie ratings from 6,000 users on 4,000 movies, released in 2003.
+  why_it_matters: It provides a standardized dataset for evaluating recommendation systems, which can be useful for developers building or testing AI-driven recommendation workflows.
+  mental_damage: Nothing says 'cutting-edge AI' like a 20-year-old dataset of Blockbuster-era movie ratings.
   tags:
     - dataset
     - benchmark
-    - recommendation
-    - ml
+    - recommendation-systems
   confidence: high
 curation:
   status: excluded
-  reason: This is a static benchmark dataset and research resource, not a developer-facing AI tool, agent, workflow, or infrastructure component.
+  reason: This is a dataset for recommendation system research, not a developer tool, framework, or workflow product within the catalog's scope.
   evidence:
-    - The source page describes it as a 'Stable benchmark dataset' with 1 million ratings, released in 2003.
-    - It appears in awesome-ai-agents only as a data resource for 'Agent4Rec', not as a tool itself.
-    - The page contains no software, CLI, SDK, or agentic workflow—only a download link for ml-1m.zip.
+    - The project is a static dataset (1M movie ratings) with no developer-tooling functionality
+    - Source-list context places it under 'Agent4Rec' in an AI agents list, but the product itself is not a tool or agent
+    - No evidence of code, SDK, runtime, or workflow integration for developers
 placement:
   primary_category: null
   section: null
@@ -70,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:26.112Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1deaa43f250ebaae9a926490a8a8ae9995de2b440cfaed707040be0b8c02cddf
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a dataset for recommendation system research, not a developer tool, framework, or workflow product within the catalog's scope.
+      decision_evidence:
+        - The project is a static dataset (1M movie ratings) with no developer-tooling functionality
+        - Source-list context places it under 'Agent4Rec' in an AI agents list, but the product itself is not a tool or agent
+        - No evidence of code, SDK, runtime, or workflow integration for developers
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

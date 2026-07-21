@@ -23,28 +23,33 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1339
-    forks: 55
+    stars: 1359
+    forks: 57
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: ThousandBirdsInc/chidori
+    html_url: https://github.com/ThousandBirdsInc/chidori
     created_at: "2023-07-19T23:21:46Z"
-    pushed_at: "2026-04-30T20:28:08Z"
-    description: A reactive runtime for building durable AI agents
+    pushed_at: "2026-07-21T07:58:09Z"
+    description: The agent framework where every run is durable, replayable, and resumable by default.
     homepage: https://docs.thousandbirds.ai
     topics:
+      - agent-framework
       - agents
       - ai
-      - debugging
-      - framework
-      - llmops
-      - llms
-      - orchestration
-    last_checked_at: "2026-05-06T22:46:49.228Z"
+      - checkpointing
+      - deterministic
+      - durable-execution
+      - javascript-engine
+      - llm
+      - replay
+      - resumable
+      - rust
+      - typescript
+    last_checked_at: "2026-07-21T15:20:48.827Z"
     readme:
-      fetched_at: "2026-05-06T22:46:49.228Z"
-      bytes: 12642
+      fetched_at: "2026-07-21T15:20:48.827Z"
+      bytes: 24328
 insights:
   summary: A Rust-based reactive runtime for building durable AI agents using deterministic Starlark scripts with built-in checkpointing, replay, and HTTP server capabilities.
   why_it_matters: It gives developers a way to write agent logic that looks like Python but executes deterministically with zero-cost checkpointing, replay-based debugging, and human-in-the-loop pauses.
@@ -77,16 +82,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:49.228Z"
+    updated_at: "2026-07-21T15:20:48.827Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OneAI is a hosted SaaS platform that provides AI-powered phone, SMS, and WhatsApp agents for automating sales calls, lead qualification, and meeting scheduling.
-  why_it_matters: It offers developers a full API and CRM integrations to embed voice-based AI agents into business workflows without building telephony infrastructure from scratch.
-  mental_damage: We've successfully automated the part of sales where a human used to cold-call you, so now your AI agent can awkwardly negotiate with their AI agent until both hit a token limit.
+  summary: A SaaS platform for AI phone call agents that automate outbound/inbound calls, lead qualification, and meeting scheduling across phone, SMS, and WhatsApp.
+  why_it_matters: It does not directly assist developers with coding, debugging, or building software.
+  mental_damage: Finally, a way to offload your sales calls to AI—just when you were hoping to offload your code reviews.
   tags:
-    - voice-agents
+    - ai-agents
     - sales-automation
     - telephony
-    - hosted-saas
+    - saas
   confidence: high
 curation:
   status: excluded
-  reason: This is a vertical SaaS product for sales and lead generation, not a developer tool, coding agent, or AI infrastructure component.
+  reason: This is a business/telephony automation product (AI call agents for sales workflows) with no developer-tooling angle, coding assistance, or adjacent infrastructure for software developers.
   evidence:
-    - "Primary page excerpt focuses entirely on sales use-cases: 'qualify leads, book meetings, and drive revenue' across phone, SMS, and WhatsApp."
-    - The feature set is business-facing (CRM sync, dialer, analytics) with no evidence of code editing, repo workflows, or developer environment integration.
-    - Listed in awesome-local-ai under 'Developer tools', but the linked page describes a hosted sales platform, not a local AI tool or library.
+    - Scraped site context describes AI phone call agents for lead qualification, meeting scheduling, and revenue driving
+    - Source-list context places it under 'Developer tools' in a local AI directory, but the product itself is sales/telephony-focused
+    - No repo, code, SDK, or developer-facing integration surface is presented
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:18.007Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:40a222ce90aeddade56ffc57f357717f32ac8dcd9327feeaf42b2cb616087e27
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a business/telephony automation product (AI call agents for sales workflows) with no developer-tooling angle, coding assistance, or adjacent infrastructure for software developers.
+      decision_evidence:
+        - Scraped site context describes AI phone call agents for lead qualification, meeting scheduling, and revenue driving
+        - Source-list context places it under 'Developer tools' in a local AI directory, but the product itself is sales/telephony-focused
+        - No repo, code, SDK, or developer-facing integration surface is presented
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

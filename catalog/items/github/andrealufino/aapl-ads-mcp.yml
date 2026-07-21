@@ -46,22 +46,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:00.311Z"
       bytes: 6990
 insights:
-  summary: A self-hosted MCP server that exposes read-only tools for querying Apple Search Ads API v5 data, such as campaigns, keywords, and performance reports.
-  why_it_matters: It lets developers ask natural-language questions about their ad performance directly inside MCP-compatible clients like Claude Desktop instead of wrestling with the official ASA dashboards.
-  mental_damage: You can now outsource your ad-hoc Apple Search Ads reporting to a chatbot, while the real damage remains that you are still running Apple Search Ads.
+  summary: An MCP server that connects AI assistants to Apple Search Ads API v5 for read-only queries.
+  why_it_matters: Lets developers query Apple Search Ads data in natural language via MCP-compatible clients like Claude Desktop.
+  mental_damage: Now you can ask your AI assistant about ad spend instead of squinting at Apple’s dashboard.
   tags:
     - mcp
     - apple-search-ads
     - self-hosted
-    - marketing
+    - read-only
+    - api-integration
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: a self-hosted, read-only MCP server built specifically to expose Apple Search Ads API v5 tools to MCP-compatible clients."
+  reason: This is an MCP-first server providing domain-specific API access, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for Apple Search Ads API v5 — read-only, self-hosted'.
-    - README positions the project as an MCP server implementing stdio transport with 9 read-only tools for ASA data.
-    - Listed in awesome-mcp-servers under Server Implementations > Marketing, which aligns with its MCP-first identity.
+    - Repo description explicitly identifies it as an MCP server for Apple Search Ads API v5
+    - README confirms it implements MCP stdio transport and exposes 9 read-only tools for ASA data
+    - MCP is the primary product identity, not a compatibility footnote
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -80,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:01.791Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:aa2e382dd7ffbbda9502f6bdd3f1a61279fa8e2560139d8c3158dcc432337d73
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server providing domain-specific API access, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for Apple Search Ads API v5
+        - README confirms it implements MCP stdio transport and exposes 9 read-only tools for ASA data
+        - MCP is the primary product identity, not a compatibility footnote
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

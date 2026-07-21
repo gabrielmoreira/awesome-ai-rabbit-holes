@@ -45,23 +45,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:33.446Z"
       bytes: 3500
 insights:
-  summary: KerasTuner is a hyperparameter optimization library for Keras that provides built-in search algorithms like Bayesian Optimization and Hyperband to automate model tuning.
-  why_it_matters: It allows developers to define a search space with a define-by-run syntax and leverage scalable algorithms to find optimal hyperparameter values for deep learning models.
-  mental_damage: The perfect tool for when you want to automate the one part of deep learning where you used to rely on intuition, only to replace your gut feeling with a 5,000-trial RandomSearch that finds a 0.001% improvement at 3 AM.
+  summary: A hyperparameter tuning library for Keras that automates the search for optimal model configurations.
+  why_it_matters: It streamlines the tedious process of hyperparameter optimization for deep learning models, saving developers time and improving model performance.
+  mental_damage: Because nothing says 'modern development' like spending hours tuning hyperparameters only to realize you could have automated it.
   tags:
-    - deep-learning
-    - keras
     - hyperparameter-tuning
+    - keras
     - automl
+    - deep-learning
     - tensorflow
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional deep learning/ML infrastructure library for hyperparameter tuning, which falls outside the catalog's scope of practical AI tools, agents, and developer-facing infrastructure.
+  reason: KerasTuner is a code-first AutoML library for hyperparameter optimization, which falls outside the catalog's scope of practical AI tools, agents, workflows, and infrastructure directly relevant to software developers' daily workflows.
   evidence:
-    - Repo description explicitly identifies it as 'A Hyperparameter Tuning Library for Keras' focused on deep learning.
-    - Topics include automl, deep-learning, hyperparameter-optimization, keras, machine-learning, tensorflow, with no LLM or developer-tooling signals.
-    - Source list context places it under 'AutoML' in an LLMOps list, but the tool itself is a standard ML library without an AI-assisted coding or developer workflow angle.
+    - Repo description explicitly states it is a hyperparameter tuning library for Keras
+    - README emphasizes its role as a framework for hyperparameter search in deep learning models
+    - Source-list context places it under AutoML, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -80,12 +80,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:18.579Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7a81046801cf6f7ff07cbbe127a0a6ce068215d987bbdfb64e6f40b44875504c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: KerasTuner is a code-first AutoML library for hyperparameter optimization, which falls outside the catalog's scope of practical AI tools, agents, workflows, and infrastructure directly relevant to software developers' daily workflows.
+      decision_evidence:
+        - Repo description explicitly states it is a hyperparameter tuning library for Keras
+        - README emphasizes its role as a framework for hyperparameter search in deep learning models
+        - Source-list context places it under AutoML, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

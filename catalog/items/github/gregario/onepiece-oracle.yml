@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:10:55.466Z"
       bytes: 2744
 insights:
-  summary: An MCP server that provides tools for searching cards, browsing sets, and analyzing decks for the One Piece Card Game.
-  why_it_matters: It allows developers building TCG tooling or agents to retrieve structured One Piece card data programmatically via the Model Context Protocol.
-  mental_damage: We have officially reached the point where the Model Context Protocol is being used to optimize deck-building for a manga-based trading card game, in case you were wondering how far the abstraction layers would go.
+  summary: An MCP server providing card search, deck analysis, and set browsing for the One Piece Card Game.
+  why_it_matters: It exposes structured game data to AI assistants via MCP, enabling developers to build or query One Piece TCG tools programmatically.
+  mental_damage: Now your AI can tell you why your Donquixote deck still loses to Luffy.
   tags:
-    - mcp
-    - tcg
-    - one-piece
-    - game-dev
+    - mcp-server
+    - game-data
+    - one-piece-tcg
+    - deck-analysis
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing domain-specific tools for the One Piece TCG, fitting the MCP Servers & Tooling category.
+  reason: "MCP is the product identity: this is a domain-specific MCP server exposing card data and analysis tools."
   evidence:
-    - Repo description explicitly states 'One Piece TCG MCP server'.
-    - README lists MCP tools like `search_cards` and `analyze_cost_curve`.
-    - Listed in awesome-mcp-servers under 'Gaming'.
+    - Repo description explicitly labels it as a 'One Piece TCG MCP server'
+    - README details MCP tools like search_cards, browse_sets, and analyze_cost_curve
+    - Includes MCP compatibility badge and installation instructions for Claude Desktop/Code
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:15.301Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c3d0728eae60d9c99470e766604a13707e491dd7e7655962a4a83471f683ce41
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a domain-specific MCP server exposing card data and analysis tools."
+      decision_evidence:
+        - Repo description explicitly labels it as a 'One Piece TCG MCP server'
+        - README details MCP tools like search_cards, browse_sets, and analyze_cost_curve
+        - Includes MCP compatibility badge and installation instructions for Claude Desktop/Code
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

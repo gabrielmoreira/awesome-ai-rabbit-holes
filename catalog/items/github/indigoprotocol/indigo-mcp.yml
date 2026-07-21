@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:11.539Z"
       bytes: 38203
 insights:
-  summary: An MCP server that exposes Indigo Protocol DeFi data, including iAsset prices, CDP analytics, and governance data, to LLM agents via the Model Context Protocol.
-  why_it_matters: Developers building Cardano DeFi agents can plug 57 financial tools directly into Claude, Cursor, or Windsurf without writing custom API integrations.
-  mental_damage: We have successfully built a 57-tool MCP server to help an AI manage a Cardano CDP, because apparently the existential risk of liquidation wasn't stressful enough without an LLM involved.
+  summary: MCP server that exposes Indigo Protocol's Cardano DeFi data (iAssets, prices, CDP/loan analytics) to LLM agents via the Model Context Protocol.
+  why_it_matters: Lets developers query real-time Cardano DeFi metrics and execute protocol operations directly from AI coding environments like Claude Desktop or Cursor.
+  mental_damage: Because nothing says 'productive' like debugging a liquidation risk calculation in your prompt.
   tags:
     - mcp
     - cardano
     - defi
-    - finance
-    - indigo
+    - blockchain
+    - protocol
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server for a specific domain (finance/DeFi), fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
+  reason: "MCP is the product identity: this is a domain-specific MCP server for Indigo Protocol data, not a compatibility footnote."
   evidence:
-    - "Repo description explicitly states: 'MCP for connecting LLMs to Indigo Protocol data'."
-    - "README confirms identity: 'MCP server for Indigo Protocol — exposes Indigo iAsset data... to LLM agents via the Model Context Protocol'."
-    - Listed in awesome-mcp-servers under 'Finance & Fintech', reinforcing its MCP server identity.
+    - Repo description explicitly states 'MCP for connecting LLMs to Indigo Protocol data'
+    - README details 63 MCP tools exposing DeFi data and operations
+    - Supports automatic setup for Claude Desktop, Claude Code, Cursor, Windsurf
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:55.646Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:faf16b451d9c3917c7378d372eb000c14cec5e77bc74f54ccec0de3d98ae1d48
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a domain-specific MCP server for Indigo Protocol data, not a compatibility footnote."
+      decision_evidence:
+        - Repo description explicitly states 'MCP for connecting LLMs to Indigo Protocol data'
+        - README details 63 MCP tools exposing DeFi data and operations
+        - Supports automatic setup for Claude Desktop, Claude Code, Cursor, Windsurf
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain data, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

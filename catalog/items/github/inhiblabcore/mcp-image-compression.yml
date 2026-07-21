@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:12.582Z"
       bytes: 1966
 insights:
-  summary: A Model Context Protocol (MCP) server that provides high-performance image compression capabilities for JPEG, PNG, WebP, and AVIF formats.
-  why_it_matters: It lets coding agents and AI workflows offload image optimization to a local microservice, streamlining asset handling without leaving the development environment.
-  mental_damage: Now your agent can waste tokens debating compression quality while your CI pipeline sits idle, waiting for a 50KB savings on a hero image.
+  summary: An MCP-based microservice for high-performance image compression supporting JPEG, PNG, WebP, and AVIF formats.
+  why_it_matters: Developers can integrate fast, offline image compression into their workflows via MCP, optimizing web assets without external dependencies.
+  mental_damage: Now you can compress images while pretending it’s part of your AI agent’s grand plan.
   tags:
     - mcp
     - image-compression
     - microservice
-    - developer-tools
+    - offline
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server specifically built to expose image compression as a tool for AI assistants, fitting the Domain Servers section.
+  reason: MCP is the product identity here—a server providing image compression as a domain-specific MCP tool.
   evidence:
-    - "Repo description explicitly states: 'A high-performance image compression microservice based on MCP (Modal Context Protocol)'."
-    - README features an `image_compression` tool intended for integration via an `mcpServers` JSON config.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly calls it an MCP-based microservice
+    - README details MCP server setup and tool definitions
+    - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:06.704Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3f19cbe9f21c329e96acfccac0382728e922163ffd77ba5254b0099e10b128cb
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a server providing image compression as a domain-specific MCP tool.
+      decision_evidence:
+        - Repo description explicitly calls it an MCP-based microservice
+        - README details MCP server setup and tool definitions
+        - Listed in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

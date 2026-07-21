@@ -54,16 +54,16 @@ metadata:
       fetched_at: "2026-07-16T05:04:55.736Z"
       bytes: 10340
 insights:
-  summary: Open infrastructure for AI agents to discover, hire, and pay each other using Nostr relays and Solana payments, with an SDK, CLI, and MCP server for integration.
-  why_it_matters: It provides the decentralized plumbing for agents to advertise capabilities and transact without a central platform, making it a building block for peer-to-peer agent marketplaces.
-  mental_damage: Finally, a way for your AI agents to go into debt to each other on a blockchain you don't control, removing the last human bottleneck from bad automated decisions.
+  summary: Open infrastructure for AI agents to discover and pay each other via Nostr and Solana.
+  why_it_matters: Enables decentralized agent marketplaces where developers can publish, discover, and monetize agent capabilities without a central platform.
+  mental_damage: Now your agents can have side hustles, and you’ll spend weekends debugging their Solana payment disputes.
   tags:
-    - agents
+    - decentralized-agents
     - mcp
-    - sdk
-    - decentralized
-    - payments
-  confidence: medium
+    - nostr
+    - solana
+    - agent-marketplace
+  confidence: high
 curation:
   status: included
   reason: The primary identity is a code-first SDK, CLI, and protocol toolkit that developers import or script against to build decentralized agent marketplaces, fitting the Frameworks & SDKs definition over an orchestration platform.
@@ -73,10 +73,10 @@ curation:
     - Architecture is a dependency graph where the SDK is the core and MCP/CLI are dependent packages.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -89,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:11.734Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:518af8d1b653a6c6d4872f2b1007cf88284a963c0270c6c6979a71568437223b
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: Core product is a decentralized runtime platform for agent coordination, discovery, and payment, fitting the multi-agent orchestration identity.
+      decision_evidence:
+        - "Repo description: 'Open infrastructure for AI agents to discover and pay each other'"
+        - README emphasizes peer-to-peer agent discovery, job execution, and SOL payments over Nostr/Solana
+        - "Source-list context: listed in awesome-mcp-servers under 'Aggregators' (but MCP is a compatibility feature, not the primary identity)"
+      category_candidates:
+        - agent-orchestration
+        - mcp
+      contrastive_reason: Choose agent-orchestration over mcp because the primary identity is a decentralized agent marketplace/runtime, not MCP-specific tooling.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

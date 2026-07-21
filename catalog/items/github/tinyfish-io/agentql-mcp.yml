@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 162
-    forks: 36
+    stars: 175
+    forks: 40
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: tinyfish-io/agentql-mcp
+    html_url: https://github.com/tinyfish-io/agentql-mcp
     created_at: "2024-12-21T01:12:55Z"
-    pushed_at: "2026-04-22T21:05:55Z"
+    pushed_at: "2026-07-20T03:22:29Z"
     description: Model Context Protocol server that integrates AgentQL's data extraction capabilities.
     homepage: https://docs.agentql.com/integrations/mcp
     topics:
@@ -51,9 +51,9 @@ metadata:
       - web-scrapping
       - webagent
       - windsurf
-    last_checked_at: "2026-05-06T22:46:50.842Z"
+    last_checked_at: "2026-07-21T15:20:50.819Z"
     readme:
-      fetched_at: "2026-05-06T22:46:50.842Z"
+      fetched_at: "2026-07-21T15:20:50.818Z"
       bytes: 5981
 insights:
   summary: An MCP server that exposes AgentQL's web data extraction and structured scraping capabilities to AI assistants like Claude, Cursor, and Windsurf.
@@ -87,16 +87,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:50.842Z"
+    updated_at: "2026-07-21T15:20:50.819Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

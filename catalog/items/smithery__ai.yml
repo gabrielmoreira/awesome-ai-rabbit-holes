@@ -36,28 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Smithery.ai is a directory and discovery hub for Model Context Protocol (MCP) servers.
-  why_it_matters: It centralizes the rapidly fragmenting ecosystem of MCP servers, making it easier for developers to find the right tool integrations for their AI coding assistants.
-  mental_damage: Just when you thought you had your tooling stack figured out, you now need a dedicated directory just to navigate the directories that connect your AI to its tools.
+  summary: smithery.ai is a platform listed under MCP (Model Context Protocol) resources in a curated LLM directory.
+  why_it_matters: It appears to provide MCP-related functionality, which can help developers integrate or extend AI tools with standardized context protocols.
+  mental_damage: Another MCP entry in the ecosystem, because apparently we need a protocol for our protocols.
   tags:
     - mcp
-    - directory
-    - discovery
-    - integrations
-  confidence: high
+    - protocol
+    - developer-tools
+  confidence: low
 curation:
-  status: included
-  reason: It functions as a discovery and navigation layer for the MCP ecosystem, fitting the 'Lists & Directories' category better than a product tooling category.
+  status: excluded
+  reason: The project's identity and purpose are unclear from the provided inputs, and the only signal is its inclusion in an MCP section of a broad LLM resource list, which is insufficient to confirm a developer-tooling fit.
   evidence:
-    - URL is https://smithery.ai, indicating a web-based directory rather than a code repository.
-    - Listed in awesome-LLM-resources under the '模型上下文协议 MCP' (Model Context Protocol MCP) section.
-    - No repo description, stars, or code-level signals provided; the identity is a curated registry.
+    - No repo description, README, or homepage context provided
+    - Only appears in a generic LLM resource list under MCP section
+    - No concrete evidence of developer-facing tooling or functionality
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -69,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:39.468Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cbb1019d27f4267330813923fa677b126ed56d4d1ced0e02941c9a2eb52f16bb
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project's identity and purpose are unclear from the provided inputs, and the only signal is its inclusion in an MCP section of a broad LLM resource list, which is insufficient to confirm a developer-tooling fit.
+      decision_evidence:
+        - No repo description, README, or homepage context provided
+        - Only appears in a generic LLM resource list under MCP section
+        - No concrete evidence of developer-facing tooling or functionality
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

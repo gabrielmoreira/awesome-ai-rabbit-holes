@@ -43,22 +43,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:10.737Z"
       bytes: 7992
 insights:
-  summary: An MCP server that exposes Winston AI's detection capabilities—AI text detection, AI image detection, plagiarism checking, and text comparison—to compatible coding assistants and IDEs.
-  why_it_matters: Developers can vet generated content for AI detection and plagiarism risk directly from their assistant workflow instead of switching to a separate SaaS dashboard.
-  mental_damage: We have finally built the infrastructure to let your AI assistant nervously check whether its own output sounds too much like itself.
+  summary: MCP server providing Winston AI's AI detection, plagiarism detection, and text comparison capabilities via the Model Context Protocol.
+  why_it_matters: Developers can integrate Winston AI's content verification tools directly into MCP-compatible assistants or workflows.
+  mental_damage: Now your AI assistant can tell you if your AI-generated code was written by AI, which is either deeply useful or deeply existential.
   tags:
-    - mcp
+    - mcp-server
     - ai-detection
-    - plagiarism
-    - content-verification
+    - plagiarism-detection
+    - text-comparison
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose identity and adoption are centered on the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+  reason: This is an MCP-first server exposing Winston AI's detection capabilities, making MCP the product identity.
   evidence:
-    - Repo description is 'Winston AI MCP Server' and topics include mcp-server.
-    - README explicitly positions it as a Model Context Protocol (MCP) Server for Winston AI with Claude/Cursor config examples.
-    - Listed in awesome-mcp-servers under 'Official Servers', reinforcing MCP-first identity.
+    - Repo description explicitly identifies it as 'Winston AI MCP Server'
+    - README details MCP server setup and integration with Claude Desktop/Cursor
+    - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -77,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:49.614Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3d804d928ea32f5d71da1cbe148357e89c065f5d165cd594b06afa4427bf4e98
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server exposing Winston AI's detection capabilities, making MCP the product identity.
+      decision_evidence:
+        - Repo description explicitly identifies it as 'Winston AI MCP Server'
+        - README details MCP server setup and integration with Claude Desktop/Cursor
+        - Listed in awesome-mcp-servers under 'Official Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

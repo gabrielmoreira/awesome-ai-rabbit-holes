@@ -53,22 +53,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:24.566Z"
       bytes: 4001
 insights:
-  summary: Command Code is a terminal-based coding agent that builds, tests, and refactors full-stack projects while learning a personalized 'taste' profile from the developer's code review choices.
-  why_it_matters: It aims to reduce the friction of AI code generation by adapting to your specific coding style and preferences through a feedback loop of accepts, rejects, and edits.
-  mental_damage: We've successfully replaced the tedious task of writing code with the equally tedious task of training a model to mimic our own inconsistent coding habits.
+  summary: A terminal-native coding agent that builds software and learns developer coding preferences over time.
+  why_it_matters: It adapts to a developer's coding style through continuous feedback, offering a personalized assistant for full-stack development, bug fixes, and refactoring.
+  mental_damage: Finally, an AI that learns your taste—just in time for you to question whether your taste was ever good to begin with.
   tags:
     - cli
     - coding-agent
-    - taste-learning
-    - terminal
+    - personalized-ai
+    - terminal-native
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone CLI coding agent designed to be the primary assistant for developers, directly handling repo work, not merely extending another tool.
+  reason: It is a primary coding assistant that directly edits code, runs commands, and learns from developer interactions, fitting the core definition of a coding agent.
   evidence:
-    - Repo description identifies it as 'Command Code AI' and topics include 'cli' and 'coding-agent'.
-    - README states it is 'The coding agent that learns your coding taste' and ships features, fixes bugs, and writes tests.
-    - Source list 'awesome-cli-coding-agents' classifies it under 'Terminal-native coding agents > Closed Source'.
+    - "Repo description: 'Command Code AI'"
+    - "README: 'The coding agent that learns your coding taste' with CLI installation and usage"
+    - "Source-list context: Listed under 'Terminal-native coding agents' in awesome-cli-coding-agents"
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -87,12 +87,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:45:32.846Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:db62b5eefae74ed210051ce40b6aa86606c8850512d6d3bb1d548637b53847f6
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a primary coding assistant that directly edits code, runs commands, and learns from developer interactions, fitting the core definition of a coding agent.
+      decision_evidence:
+        - "Repo description: 'Command Code AI'"
+        - "README: 'The coding agent that learns your coding taste' with CLI installation and usage"
+        - "Source-list context: Listed under 'Terminal-native coding agents' in awesome-cli-coding-agents"
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a standalone terminal-native assistant, not an extension augmenting another tool.
+      review_reason: null
+      review_resume_lifecycle: null

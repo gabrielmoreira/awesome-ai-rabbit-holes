@@ -41,23 +41,21 @@ metadata:
       fetched_at: "2026-07-20T15:11:24.565Z"
       bytes: 136410
 insights:
-  summary: A from-scratch tutorial and minimalist PyTorch implementation for training a 64M parameter language model in roughly two hours on a single consumer GPU.
-  why_it_matters: It strips away high-level abstractions to give developers a fully transparent, low-cost pathway into LLM pretraining, SFT, RLHF, and agentic RL internals.
-  mental_damage: You will now spend a weekend training a 64M model just to prove you understand transformers, only to immediately return to prompting a 200B model to fix your CSS.
+  summary: A repository demonstrating how to train a 64M-parameter LLM from scratch in 2 hours.
+  why_it_matters: It provides a practical, minimal example for developers to understand and experiment with LLM training workflows.
+  mental_damage: Because nothing says 'weekend project' like training your own LLM from scratch in the time it takes to watch a movie.
   tags:
     - llm-training
-    - pytorch
-    - tutorial
-    - local-ai
-    - education
+    - educational
+    - from-scratch
   confidence: high
 curation:
   status: excluded
-  reason: While very popular, this is an educational tutorial and model-training repo for understanding LLM internals, not a developer-facing AI tool, agent, or infrastructure product.
+  reason: This is an educational LLM training demo, not a developer tool, framework, or workflow product.
   evidence:
-    - "Repo description explicitly frames it as a tutorial: 'Train a 64M-parameter LLM from scratch in just 2h!'"
-    - "README states: 'This is not only a large language model full-stage open-source reproduction project, but also a set of tutorials for LLM introduction and practice.'"
-    - Seen in awesome-LLM-resources under 'Tips', which is a general ML/LLM learning list, not a developer-tooling directory.
+    - Repo description focuses on training a small LLM from scratch
+    - Topics are AI/ML research-oriented (artificial-intelligence, large-language-model)
+    - No developer-tooling workflow, integration, or product identity
 placement:
   primary_category: null
   section: null
@@ -76,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:34.991Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2b6d4e597e91fe60fba5f42bfd03418d39a9065744e5b5b6b5354128a4deb624
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational LLM training demo, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - Repo description focuses on training a small LLM from scratch
+        - Topics are AI/ML research-oriented (artificial-intelligence, large-language-model)
+        - No developer-tooling workflow, integration, or product identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

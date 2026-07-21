@@ -81,22 +81,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Wordware is a San Francisco-based AI lab building Sauna, an AI assistant designed to learn user taste, detect patterns, and augment deep work through compounding context.
-  why_it_matters: It pitches a 'context lab' approach where the AI proactively anticipates tasks and eliminates busywork, aiming to replace shallow workflows with augmented deep work.
-  mental_damage: Another YC-backed startup wants to augment your brain with compounding context while you patiently wait for the $30M seed round to ship a product that isn't just a landing page.
+  summary: Wordware is an AI context lab whose main product is Sauna, an AI assistant focused on compounding context and proactive collaboration.
+  why_it_matters: It promises to augment deep work by learning user preferences, detecting patterns, and anticipating next steps in a workspace.
+  mental_damage: Finally, an assistant that claims to do your deep work so you can focus on the shallow work of explaining to it what deep work is.
   tags:
     - ai-assistant
-    - context
-    - future-of-work
-    - yc
+    - workspace
+    - context-engineering
+    - productivity
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the product is a vague, consumer-facing 'AI assistant for deep work' with no visible developer-facing tooling, APIs, or coding workflow integration despite appearing in some autonomous agent lists.
+  reason: The product is a general-purpose AI assistant/workspace (Sauna) with no clear developer-tooling focus, and its primary identity is not a coding agent, IDE, extension, or developer infrastructure.
   evidence:
-    - Primary page excerpt describes Sauna as 'an intelligent workspace' for deep work and eliminating busywork, with no mention of code editing, IDE integration, or developer APIs.
-    - No GitHub repo, stars, or code-level artifact is provided; the only inputs are a marketing site and appearances in broad 'AI agents' and 'LLMOps' lists.
-    - The company frames itself as 'an AI context lab' with a vision around 'words are the next programming language,' but offers no concrete developer tooling surface to include.
+    - Primary product is Sauna, described as an 'intelligent workspace' for general productivity, not developer-specific workflows
+    - No mention of code editing, repo interaction, or developer tooling in the scraped context
+    - Source lists categorize it under broad AI agents/LLMOps, not developer tools
 placement:
   primary_category: null
   section: null
@@ -105,15 +105,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:13.550Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d059455f49ed102a932bad8793b573338634c95ef316333304bdc0d2569a9217
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a general-purpose AI assistant/workspace (Sauna) with no clear developer-tooling focus, and its primary identity is not a coding agent, IDE, extension, or developer infrastructure.
+      decision_evidence:
+        - Primary product is Sauna, described as an 'intelligent workspace' for general productivity, not developer-specific workflows
+        - No mention of code editing, repo interaction, or developer tooling in the scraped context
+        - Source lists categorize it under broad AI agents/LLMOps, not developer tools
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T15:10:47.688Z"

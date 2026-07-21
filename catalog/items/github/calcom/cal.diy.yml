@@ -51,22 +51,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:17.085Z"
       bytes: 36824
 insights:
-  summary: Cal.diy is a community-maintained, MIT-licensed fork of Cal.com that removes enterprise features for individuals who want to self-host their own scheduling infrastructure.
-  why_it_matters: It gives developers a fully open-source, self-hostable scheduling stack they can fork, customize, and run without commercial dependencies or license keys.
-  mental_damage: You now have 42,000 stars of temptation to self-host yet another complex Next.js + PostgreSQL + Prisma scheduling stack just to avoid a hosted calendar.
+  summary: Cal.diy is the open-source, self-hosted community edition of Cal.com, a scheduling infrastructure platform.
+  why_it_matters: It provides developers with a fully open-source, MIT-licensed alternative to hosted scheduling solutions, enabling self-hosting for full control over infrastructure.
+  mental_damage: Because nothing says 'developer productivity' like spending a weekend debugging PostgreSQL instead of just using Calendly.
   tags:
     - scheduling
     - self-hosted
-    - nextjs
     - open-source
+    - nextjs
+    - prisma
   confidence: high
 curation:
   status: excluded
-  reason: Cal.diy is a general-purpose scheduling and calendaring platform, not a developer-facing AI tool, agent, workflow, or AI infrastructure product.
+  reason: This is a scheduling platform (SaaS/self-hosted infrastructure) with no AI, coding assistant, or developer-tooling angle beyond being a web app built with common dev tools.
   evidence:
-    - "Repo description: 'Scheduling infrastructure for absolutely everyone.'"
-    - "README: 'The community-driven, fully open-source scheduling platform — a fork of Cal.com with all enterprise/commercial code removed.'"
-    - No mention of AI, agents, coding assistance, LLMs, MCP, or AI developer workflows in the description or README excerpt.
+    - "Repo description: 'Scheduling infrastructure for absolutely everyone'"
+    - "README: 'Cal.diy is the community-driven, fully open-source scheduling platform'"
+    - No AI, coding, or developer-tooling functionality mentioned
 placement:
   primary_category: null
   section: null
@@ -85,12 +86,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:26.584Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:579c173dd190f94358a80e23af5ece51395c9061ab6df7c85cd227211bdb8e54
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a scheduling platform (SaaS/self-hosted infrastructure) with no AI, coding assistant, or developer-tooling angle beyond being a web app built with common dev tools.
+      decision_evidence:
+        - "Repo description: 'Scheduling infrastructure for absolutely everyone'"
+        - "README: 'Cal.diy is the community-driven, fully open-source scheduling platform'"
+        - No AI, coding, or developer-tooling functionality mentioned
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

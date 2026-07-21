@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An embedded trading infrastructure platform that provides APIs, SDKs, and an MCP server for linking brokerages and executing trades across stock, crypto, and options markets.
-  why_it_matters: Developers building AI agents or investing products can give their users the ability to place real trades directly from chat interfaces or apps without building brokerage integrations from scratch.
-  mental_damage: Your AI agent can now YOLO your entire portfolio across eight brokerages before you've finished reading its rationale.
+  summary: Embedded trading infrastructure enabling stock, crypto, ETF, and options trading via linked brokerages for websites, AI agents, newsletters, and Discord servers.
+  why_it_matters: Developers can integrate real trading capabilities into their apps or AI workflows without building brokerage connections from scratch.
+  mental_damage: Now your AI agent can day-trade on your behalf, because nothing says 'responsible development' like automated crypto orders.
   tags:
-    - mcp
-    - fintech
     - trading
-    - embedded
-    - agent-infrastructure
+    - mcp-server
+    - finance
+    - embedded-infra
+    - brokerage-api
   confidence: high
 curation:
   status: included
-  reason: It is an MCP server that gives AI agents access to real brokerage trading capabilities, making it a domain-specific MCP tool rather than a generic agent or framework.
+  reason: The product's core identity is an MCP server for trading, explicitly marketed as a way to give AI agents (Claude, ChatGPT, etc.) trading capabilities via MCP.
   evidence:
-    - Listed in awesome-mcp-servers under 'Official Servers' with the purpose of launching embedded trading.
-    - "Site explicitly advertises 'Agentic: MCP Server' as a first-class integration path for Claude, ChatGPT, and other MCP clients."
-    - Core product is a non-custodial trading infrastructure with MCP as a primary developer integration surface.
+    - "Primary page excerpt explicitly mentions 'Agentic: MCP Server' as one of three launch paths"
+    - Describes connecting Trade It to 'custom AI agents and chatbots like ChatGPT, Claude, & Gemini'
+    - MCP is presented as a first-class integration, not a compatibility footnote
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -70,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:10.127Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:36681ab02119999ec125abca729c7b5e5079f69e1b1f6b901c5c9119fce87eb7
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server for trading, explicitly marketed as a way to give AI agents (Claude, ChatGPT, etc.) trading capabilities via MCP.
+      decision_evidence:
+        - "Primary page excerpt explicitly mentions 'Agentic: MCP Server' as one of three launch paths"
+        - Describes connecting Trade It to 'custom AI agents and chatbots like ChatGPT, Claude, & Gemini'
+        - MCP is presented as a first-class integration, not a compatibility footnote
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is an MCP server for trading, not a general SDK or framework.
+      review_reason: null
+      review_resume_lifecycle: null

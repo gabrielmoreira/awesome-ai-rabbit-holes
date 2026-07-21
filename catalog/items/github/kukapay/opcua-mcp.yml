@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:41.506Z"
       bytes: 2757
 insights:
-  summary: An MCP server that connects AI agents to OPC UA-enabled industrial systems to read and write real-time operational data.
-  why_it_matters: It allows developers to bridge AI-driven workflows with industrial automation hardware using natural language via MCP clients like Claude Desktop.
-  mental_damage: Finally, your AI agent can hallucinate a factory shutdown command with the same confidence it brings to writing a React component.
+  summary: An MCP server that enables AI agents to interact with OPC UA-enabled industrial systems for real-time monitoring and control.
+  why_it_matters: It bridges AI workflows with industrial automation by allowing agents to read, write, and browse OPC UA nodes, making operational data actionable in real time.
+  mental_damage: Now your AI can argue with a PLC about whether the temperature setpoint is *really* optimal.
   tags:
     - mcp
-    - industrial
-    - iot
+    - industrial-iot
     - opc-ua
-    - automation
+    - real-time-control
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server for a specific industrial protocol, making it a textbook fit for the MCP Servers & Tooling category.
+  reason: The product is explicitly an MCP server whose primary identity is providing OPC UA integration via the Model Context Protocol.
   evidence:
-    - "Repo description states: 'An MCP server that connects to OPC UA-enabled industrial systems.'"
-    - README confirms it exposes tools like read_opcua_node and write_opcua_node for MCP clients.
-    - Included in the awesome-mcp-servers list under 'Embedded System' server implementations.
+    - "Repo description: 'An MCP server that connects to OPC UA-enabled industrial systems.'"
+    - "README: Exposes OPC UA tools (read/write/browse nodes) for MCP clients like Claude Desktop."
+    - "Source-list context: Listed in awesome-mcp-servers under 'Embedded System' servers."
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:03.926Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f3f35f12e4d0a4a9b4060ac9be207e8810b22fa0d1efbeb5d92333f4c6e3a5cf
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose primary identity is providing OPC UA integration via the Model Context Protocol.
+      decision_evidence:
+        - "Repo description: 'An MCP server that connects to OPC UA-enabled industrial systems.'"
+        - "README: Exposes OPC UA tools (read/write/browse nodes) for MCP clients like Claude Desktop."
+        - "Source-list context: Listed in awesome-mcp-servers under 'Embedded System' servers."
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

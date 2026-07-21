@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 134
-    forks: 31
+    stars: 143
+    forks: 34
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: tacticlaunch/mcp-linear
+    html_url: https://github.com/tacticlaunch/mcp-linear
     created_at: "2025-03-23T15:27:19Z"
-    pushed_at: "2026-05-03T22:15:14Z"
+    pushed_at: "2026-06-07T13:05:31Z"
     description: MCP server that enables AI assistants to interact with Linear project management system through natural language, allowing users to retrieve, create, and update issues, projects, and teams.
     homepage: ""
     topics:
@@ -38,10 +38,10 @@ metadata:
       - cursor
       - linear
       - mcp
-    last_checked_at: "2026-05-06T22:46:39.520Z"
+    last_checked_at: "2026-07-21T15:20:38.956Z"
     readme:
-      fetched_at: "2026-05-06T22:46:39.520Z"
-      bytes: 5132
+      fetched_at: "2026-07-21T15:20:38.956Z"
+      bytes: 5708
 insights:
   summary: An MCP server that connects AI assistants to Linear, enabling natural language retrieval, creation, and updates of issues, projects, teams, cycles, and roadmaps via the Linear GraphQL API.
   why_it_matters: It lets developers manage project management workflows directly from their MCP-aware coding agents without switching context to the Linear UI.
@@ -73,16 +73,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:39.520Z"
+    updated_at: "2026-07-21T15:20:38.956Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

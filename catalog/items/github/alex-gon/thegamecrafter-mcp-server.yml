@@ -45,22 +45,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:56.689Z"
       bytes: 6919
 insights:
-  summary: An MCP server that connects AI assistants like Claude to The Game Crafter API, enabling users to design, manage, and price tabletop game projects through natural language.
-  why_it_matters: It allows board game designers to automate API-driven tasks like component selection, artwork uploads, and pricing estimates directly within their AI assistant workflow.
-  mental_damage: "We have finally achieved the singularity: an MCP server for tabletop game manufacturing so you can argue with Claude about cardboard prices instead of using a website."
+  summary: An MCP server that connects AI assistants to The Game Crafter API for designing, managing, and pricing tabletop games.
+  why_it_matters: Lets developers integrate tabletop game design workflows into AI assistant environments via MCP.
+  mental_damage: Now your AI can price out your board game while you question your life choices.
   tags:
-    - mcp
-    - tabletop
-    - board-games
+    - mcp-server
+    - tabletop-games
     - api-integration
+    - game-design
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server implementation for a specific domain (The Game Crafter), fitting the MCP Servers & Tooling category.
+  reason: "MCP is the product identity: this is a dedicated MCP server for The Game Crafter API, not a compatibility footnote."
   evidence:
-    - Repo description explicitly states 'MCP server for The Game Crafter API'.
-    - README claims the tool 'connects AI assistants to The Game Crafter API' via MCP.
-    - Listed in 'awesome-mcp-servers' under the Gaming section.
+    - Repo description explicitly states it is an MCP server for The Game Crafter API
+    - README details MCP server setup, tools, and resources for AI assistant integration
+    - Listed in MCP Registry and Glama Connectors
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -79,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:21:57.329Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c9c8fcde812667ac4abb05f27459bccb755e7222fbd3c64e71306d2f6406bc74
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for The Game Crafter API, not a compatibility footnote."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for The Game Crafter API
+        - README details MCP server setup, tools, and resources for AI assistant integration
+        - Listed in MCP Registry and Glama Connectors
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

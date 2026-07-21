@@ -54,23 +54,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:32.443Z"
       bytes: 36506
 insights:
-  summary: Depwire builds a deterministic, tree-sitter-powered dependency graph across 12+ languages and exposes it via 17 MCP tools so coding assistants can simulate changes and assess blast radius before editing code.
-  why_it_matters: It replaces probabilistic RAG guesses with compiler-grade symbol tracking, letting AI agents know exactly what will break before they delete that one innocent-looking utility file.
-  mental_damage: We have finally built infrastructure to stop the AI from confidently deleting the one function that silently powers 30 downstream files, though we still haven't solved the part where we let it delete things in the first place.
+  summary: A deterministic dependency graph builder for AI-assisted refactoring that provides exact symbol-level code analysis across multiple languages.
+  why_it_matters: It solves the blind spot of AI coding assistants by mapping exact dependencies before changes are made, preventing broken builds from uninformed edits.
+  mental_damage: Finally, an AI tool that knows more about your codebase than you do—without hallucinating.
   tags:
-    - mcp
-    - context-engineering
     - dependency-graph
-    - cli
-    - tree-sitter
+    - code-analysis
+    - ai-context
+    - mcp
+    - refactoring
   confidence: high
 curation:
   status: included
-  reason: The core novelty is a deterministic context and retrieval system that maps symbol-level dependencies to improve what AI assistants know about a codebase, served through MCP as a context layer rather than acting as the primary assistant.
+  reason: The core novelty is deterministic context extraction (symbol-level dependency graphs) for AI assistants, which is a context engineering problem rather than a primary assistant or extension.
   evidence:
-    - Repo description explicitly calls it 'The missing context layer for AI-assisted refactoring'.
-    - README states Depwire 'is the context and safety layer for AI-generated code' and serves pre-computed graph data via 17 MCP tools.
-    - Built on tree-sitter for deterministic symbol-level parsing across 12 languages, not embeddings or probabilistic RAG.
+    - "Repo description: 'The missing context layer for AI-assisted refactoring'"
+    - "README: 'Depwire builds a DETERMINISTIC, NOT PROBABILISTIC dependency graph of your codebase' using tree-sitter"
+    - Serves pre-computed graph data via 17 MCP tools to AI assistants
 placement:
   primary_category: context-engineering
   section: Context Retrieval & Fresh Docs
@@ -89,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:44.463Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3136f27729ca2d8ff55b50376955769387795222082c74186376a960a60578de
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core novelty is deterministic context extraction (symbol-level dependency graphs) for AI assistants, which is a context engineering problem rather than a primary assistant or extension.
+      decision_evidence:
+        - "Repo description: 'The missing context layer for AI-assisted refactoring'"
+        - "README: 'Depwire builds a DETERMINISTIC, NOT PROBABILISTIC dependency graph of your codebase' using tree-sitter"
+        - Serves pre-computed graph data via 17 MCP tools to AI assistants
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the primary identity is the context layer (dependency graph) rather than MCP being the product itself.
+      review_reason: null
+      review_resume_lifecycle: null

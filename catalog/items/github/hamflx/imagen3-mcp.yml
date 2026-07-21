@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:10:57.812Z"
       bytes: 4289
 insights:
-  summary: An MCP server that exposes Google's Imagen 3.0 image generation API to compatible AI coding assistants like Cursor and Cherry Studio.
-  why_it_matters: It allows developers to generate images directly from their AI assistant by bridging Google's latest image model into the MCP ecosystem.
-  mental_damage: We have successfully abstracted image generation so deeply that we now need a protocol server just to ask a bot to draw a tech-themed apple while we debug CSS.
+  summary: An MCP server that provides image generation capabilities using Google's Imagen 3.0 via the Model Context Protocol.
+  why_it_matters: Developers can integrate Imagen 3.0's image generation into MCP-compatible workflows, enabling AI assistants to generate images programmatically.
+  mental_damage: Now your coding agent can generate images of running dogs while you debug, because why not.
   tags:
     - mcp
-    - imagen
-    - google-gemini
     - image-generation
-    - cursor
+    - google-imagen
+    - mcp-server
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server exposing Google Imagen 3.0 capabilities, fitting the 'Domain Servers' section of MCP Servers & Tooling.
+  reason: The project is explicitly an MCP server implementation, with MCP as its primary identity, providing a domain-specific (image generation) capability.
   evidence:
-    - README identifies it as 'providing services through MCP (Model Control Protocol)'
-    - "Installation steps explicitly target MCP clients: Cherry Studio and Cursor"
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations'
+    - README explicitly describes it as an MCP-based image generation tool for Google Imagen 3.0
+    - Source-list context includes it in 'awesome-mcp-servers' under Server Implementations
+    - Installation instructions detail MCP server configuration for Cherry Studio and Cursor
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:46.502Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:59a8f538572f1e679ab5aca0e1ee2e7d468356f5baa8e6deb360ef5e1cc36750
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server implementation, with MCP as its primary identity, providing a domain-specific (image generation) capability.
+      decision_evidence:
+        - README explicitly describes it as an MCP-based image generation tool for Google Imagen 3.0
+        - Source-list context includes it in 'awesome-mcp-servers' under Server Implementations
+        - Installation instructions detail MCP server configuration for Cherry Studio and Cursor
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

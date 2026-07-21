@@ -55,26 +55,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:09.772Z"
       bytes: 518
 insights:
-  summary: An MCP server that exposes onchain tools for the Base network and Coinbase API, letting MCP clients like Claude Desktop and Cursor interact with wallets, smart contracts, and NFTs.
-  why_it_matters: It turns any MCP-compatible coding assistant into a crypto-native operator that can deploy contracts, move funds, and manage onchain assets without leaving the chat.
-  mental_damage: We have finally bridged the gap between 'vibe coding an app' and 'accidentally transferring your life savings to a smart contract via a hallucinated wallet address'.
+  summary: An MCP server providing onchain tools for LLMs to interact with the Base network and Coinbase API.
+  why_it_matters: Developers can integrate blockchain interactions (wallet management, smart contracts, NFTs, etc.) directly into AI workflows via MCP-compatible clients like Claude Desktop or Cursor.
+  mental_damage: Now your AI can deploy a smart contract while you’re still trying to remember how to spell 'Ethereum'.
   tags:
     - mcp
-    - web3
-    - crypto
-    - base
-    - onchain-tools
+    - blockchain
+    - base-network
+    - coinbase-api
+    - smart-contracts
   confidence: high
 curation:
-  status: included
-  reason: The product's primary identity is an MCP server providing domain-specific (Base network/Coinbase) tools to MCP clients, fitting cleanly into MCP Servers & Tooling.
+  status: excluded
+  reason: The repository is archived, which is a strong exclusion signal despite its clear MCP identity and developer relevance.
   evidence:
-    - Repo description explicitly states 'A Model Context Protocol (MCP) server that provides onchain tools for LLMs'.
-    - README confirms it 'extends any MCP client's capabilities' and is listed in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech.
-    - Active development with recent push date (2025-06-17) and MIT license.
+    - Repo description explicitly identifies it as an MCP server for Base network/Coinbase API interactions
+    - README details extensive onchain tooling (wallet ops, smart contracts, NFTs, etc.) for MCP clients
+    - Archived flag is true
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: needs_review
   reason: Repository is archived
@@ -90,12 +90,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:28.221Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:234b0c78a1b7c2067a0741ece8dca17bcc1741fce7725b2ca408eef2a6955e5c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is archived, which is a strong exclusion signal despite its clear MCP identity and developer relevance.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for Base network/Coinbase API interactions
+        - README details extensive onchain tooling (wallet ops, smart contracts, NFTs, etc.) for MCP clients
+        - Archived flag is true
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

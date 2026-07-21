@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A landscape and opinion piece analyzing the MCP ecosystem in 2025, covering trends, community metrics, and the evolving infrastructure of Model Context Protocol tooling.
-  why_it_matters: Developers building MCP servers or integrating them into agents can use this to understand which categories are consolidating, which monetization models are emerging, and where the protocol is heading next.
-  mental_damage: Another year, another ecosystem map telling us that while 11,000 MCP servers exist, half the companies building them have already pivoted to something that might actually make money.
+  summary: An opinion piece analyzing the MCP ecosystem's trends, challenges, and opportunities in 2025.
+  why_it_matters: Provides developers with a high-level overview of the MCP landscape, including adoption patterns, monetization models, and emerging use cases like background agents and MCP Apps.
+  mental_damage: Reading this will make you question whether you should build an MCP server, host one, or just wait for the next pivot.
   tags:
     - mcp
-    - landscape
+    - ecosystem-analysis
+    - trends
     - opinion
-    - ecosystem
   confidence: high
 curation:
   status: excluded
-  reason: This is a blog post and opinion piece, not a standalone product, tool, or operational directory, and therefore falls outside the catalog's developer-tooling scope.
+  reason: This is a one-off opinion article/blog post, not a standalone product, tool, or recurring feed, so it falls outside the catalog's scope of practical AI tools and infrastructure.
   evidence:
-    - The linked URL is a Glama blog post titled 'The State of MCP in 2025', not a product or repo.
-    - The content is described as 'an opinion piece about the MCP ecosystem' with landscape trends and community stats.
-    - Appears in awesome-mcp-servers as a linked page, but source-list context is evidence, not destiny for non-tools.
+    - The page is explicitly labeled as an opinion piece ('This is an opinion piece about the MCP ecosystem based on my observations and research').
+    - The content is analytical commentary, not a tool, framework, or platform.
+    - The canonical positives for 'Publications & Feeds' explicitly exclude one-off articles unless they are landmark essays, and this does not qualify as a recurring feed.
 placement:
   primary_category: null
   section: null
@@ -71,12 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:14.351Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:99afdfa0920b85eef54ae4fcb713755738dc172405dc401c7c9ad98779563436
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a one-off opinion article/blog post, not a standalone product, tool, or recurring feed, so it falls outside the catalog's scope of practical AI tools and infrastructure.
+      decision_evidence:
+        - The page is explicitly labeled as an opinion piece ('This is an opinion piece about the MCP ecosystem based on my observations and research').
+        - The content is analytical commentary, not a tool, framework, or platform.
+        - The canonical positives for 'Publications & Feeds' explicitly exclude one-off articles unless they are landmark essays, and this does not qualify as a recurring feed.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

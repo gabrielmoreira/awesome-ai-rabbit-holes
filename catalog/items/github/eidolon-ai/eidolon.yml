@@ -47,23 +47,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:54.923Z"
       bytes: 8742
 insights:
-  summary: An open-source Python SDK and deployment server for building, customizing, and running modular agentic services with built-in HTTP APIs and agent-to-agent communication.
-  why_it_matters: It gives developers a modular framework and runtime to define, swap, and deploy LLM agents as services without rewriting core application logic.
-  mental_damage: Yet another framework promising to future-proof your agent stack, right before the next framework claims the same thing next Tuesday.
+  summary: Eidolon is an open-source pluggable Agent SDK and deployment server for building and deploying agent-based services.
+  why_it_matters: It simplifies agent deployment, inter-agent communication, and modular component customization, helping developers adapt to the rapidly changing AI landscape without vendor lock-in.
+  mental_damage: Finally, a way to deploy agents as services—because nothing says 'production-ready' like turning your AI into a microservice.
   tags:
-    - agents
-    - sdk
+    - agent-sdk
+    - deployment-server
+    - modular-agents
     - python
-    - services
-    - modular
-  confidence: medium
+    - open-source
+  confidence: high
 curation:
   status: included
-  reason: The project is primarily a code-first SDK and server used by developers to script and run agentic services, fitting the Frameworks & SDKs identity rather than a standalone coding assistant or orchestration platform.
+  reason: Eidolon is primarily a code-first SDK and framework for building and deploying agent-based services, fitting the 'Frameworks & SDKs' category.
   evidence:
-    - Repo description explicitly calls it a 'pluggable Agent SDK and enterprise ready, deployment server for Agentic applications'.
-    - README states 'Eidolon helps developers build and deploy agent-based services' and emphasizes swapping LLMs, RAG, and tools as modular components.
-    - Published as PyPI packages (eidolon-ai-sdk, eidolon-ai-client) and used as a development library and runtime.
+    - "Repo description: 'The first AI Agent Server, Eidolon is a pluggable Agent SDK and enterprise ready, deployment server for Agentic applications'"
+    - "README: 'Eidolon helps developers build and deploy agent-based services' with focus on modularity and HTTP server deployment"
+    - "Source-list context: Listed in awesome-ai-agents under 'Agentic Framework'"
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -82,12 +82,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:02.820Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c68ae6ecbf1396b8460775ab670de4f831292322593d22892716834b7a8a4f50
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: Eidolon is primarily a code-first SDK and framework for building and deploying agent-based services, fitting the 'Frameworks & SDKs' category.
+      decision_evidence:
+        - "Repo description: 'The first AI Agent Server, Eidolon is a pluggable Agent SDK and enterprise ready, deployment server for Agentic applications'"
+        - "README: 'Eidolon helps developers build and deploy agent-based services' with focus on modularity and HTTP server deployment"
+        - "Source-list context: Listed in awesome-ai-agents under 'Agentic Framework'"
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because Eidolon is primarily a code-first SDK for building agents, not a control plane or runtime platform for coordinating multiple agents.
+      review_reason: null
+      review_resume_lifecycle: null

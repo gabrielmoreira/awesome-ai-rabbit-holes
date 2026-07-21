@@ -49,14 +49,15 @@ metadata:
       fetched_at: "2026-07-20T05:17:19.756Z"
       bytes: 21975
 insights:
-  summary: Cherry Studio is a cross-platform desktop client that provides a unified interface for chatting with and managing multiple LLM providers, local models, and pre-configured AI assistants.
-  why_it_matters: It allows developers to centralize access to frontier APIs, local runtimes like Ollama, and 300+ assistants within a single desktop environment.
-  mental_damage: Yet another Electron wrapper promising to unify the AI ecosystem, ensuring you can now context-switch between twelve different LLMs without ever leaving your desktop.
+  summary: AI productivity studio offering smart chat, autonomous agents, and 300+ assistants with unified access to frontier LLMs.
+  why_it_matters: Developers can delegate tasks across a unified interface with access to multiple models and pre-built assistants, streamlining AI-driven workflows.
+  mental_damage: Now you can argue with 300+ assistants about whether your code is actually done.
   tags:
-    - desktop-client
-    - multi-llm
-    - local-models
-    - chat-interface
+    - ai-studio
+    - multi-agent
+    - llm-access
+    - productivity
+    - autonomous-agents
   confidence: high
 curation:
   status: included
@@ -67,10 +68,10 @@ curation:
     - Features include local model support via Ollama/LM Studio and a dedicated MCP Server section, acting as a host interface.
 placement:
   primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (45112) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -83,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:29.929Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:34dad6fc134b550fa1e2586fbf25ce2e420b4b7f5529f223b7cc766ae13c1428
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: The product is a workbench for coordinating multiple agents and assistants, fitting the agent orchestration category.
+      decision_evidence:
+        - "Repo description: AI productivity studio with smart chat, autonomous agents, and 300+ assistants"
+        - Topics include agent-skills, ai-agent, and hermes-agent
+        - High star count (48771) and active development (pushed recently)
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because the core value is multi-agent coordination and a unified studio interface rather than direct repo-level coding assistance.
+      review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

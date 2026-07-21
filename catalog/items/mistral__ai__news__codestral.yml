@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Codestral is a 22B open-weight generative AI model from Mistral AI explicitly designed for code generation, completion, and fill-in-the-middle tasks across 80+ programming languages.
-  why_it_matters: Developers can run it locally or call it via API to power IDE plugins, autocomplete, and code-centric applications without being locked into a single proprietary vendor.
-  mental_damage: Another 22B reason to spend three days benchmarking latency charts just to feel unsatisfied and switch back to the model you were using on Tuesday.
+  summary: Codestral is Mistral AI's first open-weight code generation model, designed for coding tasks across 80+ programming languages.
+  why_it_matters: It enables developers to generate, complete, and interact with code via a shared instruction and fill-in-the-middle API endpoint, improving productivity and reducing errors.
+  mental_damage: Another model to benchmark against, because nothing says 'productivity' like spending a week evaluating which LLM saves you 10 minutes.
   tags:
-    - code-model
-    - mistral
-    - open-weight
-    - autocomplete
+    - code-generation
+    - mistral-ai
+    - open-weights
     - fill-in-the-middle
+    - api
   confidence: high
 curation:
   status: excluded
-  reason: This is a base model checkpoint and API endpoint rather than a developer-facing product, IDE, agent, or tool that fits our catalog's scope.
+  reason: Codestral is a raw model release, not a developer tool, framework, or product with a distinct workflow or integration identity.
   evidence:
-    - Described as 'a 22B open-weight generative AI model' trained for code generation and completion.
-    - Distributed as a model on HuggingFace with API endpoints, not as a developer tool or agent.
-    - awesome-ai-coding-tools lists it under 'Code Models', which is a model category rather than a developer tool.
+    - The page describes Codestral as a model, not a tool or product with a distinct developer workflow.
+    - The primary artifact is the model itself (available on HuggingFace) and its API endpoints, not a standalone assistant, IDE, or framework.
+    - Source-list context places it under 'Code Models', reinforcing its identity as a model rather than a tool.
 placement:
   primary_category: null
   section: null
@@ -70,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:58.112Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8b5e1c41163ee26d48e0416ba0f034956c5aa2f25fb5da0884e993f66898df68
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Codestral is a raw model release, not a developer tool, framework, or product with a distinct workflow or integration identity.
+      decision_evidence:
+        - The page describes Codestral as a model, not a tool or product with a distinct developer workflow.
+        - The primary artifact is the model itself (available on HuggingFace) and its API endpoints, not a standalone assistant, IDE, or framework.
+        - Source-list context places it under 'Code Models', reinforcing its identity as a model rather than a tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

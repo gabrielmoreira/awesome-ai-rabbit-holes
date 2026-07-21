@@ -44,14 +44,15 @@ metadata:
       fetched_at: "2026-07-20T05:17:25.023Z"
       bytes: 12433
 insights:
-  summary: A desktop and web UI application for converting domain documents into structured datasets for LLM fine-tuning, RAG pipelines, and model evaluation.
-  why_it_matters: It provides a visual workflow to generate QA pairs, manage label trees, and run automated evaluations, streamlining the data preparation phase of model customization.
-  mental_damage: Finally, a dedicated workbench to solve the 'I need 10,000 high-quality QA pairs by Monday' crisis, ensuring you can fine-tune a model to hallucinate with perfect domain-specific accuracy.
+  summary: A tool for creating datasets for LLM fine-tuning, RAG, and evaluation.
+  why_it_matters: Developers can efficiently prepare high-quality datasets for training, retrieval, or benchmarking LLMs without manual data wrangling.
+  mental_damage: Because nothing says 'fun' like realizing your fine-tuning data is the reason your model now writes Python in haikus.
   tags:
     - dataset
     - fine-tuning
-    - eval
     - rag
+    - llm
+    - evaluation
   confidence: high
 curation:
   status: included
@@ -62,10 +63,10 @@ curation:
     - "Features include generating specific eval dataset types: 'true/false, single-choice, multiple-choice, short-answer, and open-ended questions'."
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (14154) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'context-engineering'"
 processing:
   discover:
     status: done
@@ -78,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:46:50.995Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:38be4466744cd7d386150061bc6ba23bf4ca08deee53e3102f5f45763bb770ae
+      proposed_primary_category: context-engineering
+      disagreement: true
+      decision_reason: The tool's core value is dataset creation for LLM workflows, which aligns with context preparation and retrieval infrastructure rather than direct coding assistance or orchestration.
+      decision_evidence:
+        - Repo description explicitly states it is for creating datasets for LLM fine-tuning, RAG, and Eval
+        - Topics include dataset, fine-tuning, and RAG
+        - Source-list context places it under '数据 Data' (Data) in a curated LLM resources list
+      category_candidates:
+        - context-engineering
+        - ai-frameworks
+      contrastive_reason: Choose context-engineering over ai-frameworks because the primary identity is dataset preparation for LLM workflows rather than a code-first SDK or library.
+      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'context-engineering'"
+      review_resume_lifecycle: null

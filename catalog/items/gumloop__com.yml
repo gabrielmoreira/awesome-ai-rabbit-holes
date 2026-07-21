@@ -1,0 +1,111 @@
+id: gumloop__com
+kind: website
+name: Gumloop
+canonical_url: https://gumloop.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gumloop__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Gumloop
+        anchor_text: Gumloop
+        extracted_url: https://gumloop.com
+        surrounding_text: "## [Gumloop](https://www.gumloop.com/)"
+        confidence: high
+    - id: discovery__www__gumloop__com__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Gumloop
+        anchor_text: Gumloop
+        extracted_url: https://www.gumloop.com
+        surrounding_text: "## [Gumloop](https://www.gumloop.com/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Gumloop is a multiplayer AI agent builder platform for teams to create, deploy, and manage agents with various AI models and integrations.
+  why_it_matters: It enables non-developers and developers alike to build and orchestrate specialized agents for workflows like data analysis, CRM, and support, with enterprise-grade controls.
+  mental_damage: Now your entire company can build agents faster than you can explain why they shouldn’t.
+  tags:
+    - agent-orchestration
+    - enterprise-ai
+    - multi-agent
+    - workflow-automation
+  confidence: high
+curation:
+  status: included
+  reason: Gumloop is a platform for coordinating and deploying multiple agents with shared workflows, fitting the agent orchestration category.
+  evidence:
+    - Described as 'the multiplayer AI agent builder' for teams to build agents with any AI model and integration
+    - Supports multi-agent workflows, enterprise controls, and integrations like Slack, Teams, and CRM systems
+    - Positioned as a control plane for agent deployment and management in the scraped site context
+placement:
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:34:44.022Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5eda201d854f473ff7f9bf8a97c7bfb42ae31556196ef2901fb929f5f11619e4
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: Gumloop is a platform for coordinating and deploying multiple agents with shared workflows, fitting the agent orchestration category.
+      decision_evidence:
+        - Described as 'the multiplayer AI agent builder' for teams to build agents with any AI model and integration
+        - Supports multi-agent workflows, enterprise controls, and integrations like Slack, Teams, and CRM systems
+        - Positioned as a control plane for agent deployment and management in the scraped site context
+      category_candidates:
+        - agent-orchestration
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because Gumloop’s core value is coordinating and deploying agents, not generating standalone apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.966Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

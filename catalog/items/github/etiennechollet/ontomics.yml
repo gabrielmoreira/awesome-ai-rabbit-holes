@@ -52,16 +52,16 @@ metadata:
       fetched_at: "2026-07-16T05:04:57.896Z"
       bytes: 8615
 insights:
-  summary: A Rust-based MCP server that indexes a codebase's domain concepts, naming conventions, and behavioral similarities to provide instant semantic context for coding agents, reducing tool calls and token usage by roughly 20x.
-  why_it_matters: It allows coding agents like Claude Code and Codex to answer domain-specific questions with a single tool call instead of crawling a repo for minutes, making large or unfamiliar codebases navigable without burning through context windows.
-  mental_damage: We have successfully abstracted away understanding the code by building a machine that understands the code, so we can now spend our time debugging the machine that understands the code.
+  summary: An MCP server that indexes codebase domain knowledge, naming conventions, and behavioral similarities to optimize LLM context usage.
+  why_it_matters: It significantly reduces token consumption and latency by replacing dozens of generic search queries with a single, semantically-aware domain lookup.
+  mental_damage: Finally, a way to prove that your codebase's naming conventions are actually just accidental clusters of semantic similarity.
   tags:
-    - mcp
+    - mcp-server
     - context-engineering
+    - agentic-coding
     - semantic-search
-    - rust
-    - token-optimization
-  confidence: medium
+    - code-analysis
+  confidence: high
 curation:
   status: included
   reason: The core novelty is a semantic indexing and retrieval system that packs domain knowledge into the context window, fitting Prompt & Context Engineering even though it is delivered as an MCP server.
@@ -71,10 +71,10 @@ curation:
     - Benchmark shows 1 tool call with ~3.7k tokens vs 19 calls with ~76k tokens for domain questions.
 placement:
   primary_category: context-engineering
-  section: Context Retrieval & Fresh Docs
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -87,12 +87,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:53:41.624Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:445e89724e087aa840484512bdd22b4887b991e5aaaeac5fb811e3559bac0989
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The product's identity is centered on being an MCP server that provides specialized domain context to hosts like Claude Code.
+      decision_evidence:
+        - README explicitly provides installation instructions for MCP clients like Claude Code and Codex
+        - Primary value proposition is a single MCP tool call replacing multiple standard search calls
+        - Functionality focuses on semantic indexing of domain concepts and behavioral similarity via embeddings
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the tool's primary interface and delivery mechanism is the Model Context Protocol.
+      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+      review_resume_lifecycle: null

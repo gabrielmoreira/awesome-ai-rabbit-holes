@@ -64,23 +64,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:07.837Z"
       bytes: 202894
 insights:
-  summary: A suite of AWS-maintained MCP servers that expose AWS services, documentation, and infrastructure capabilities to MCP-compatible coding assistants and agents.
-  why_it_matters: It gives developers a standardized way to let their AI tools directly interact with AWS, from infrastructure deployment to real-time documentation lookups, without writing custom integrations.
-  mental_damage: Yet another opportunity to discover that your agent has quietly spun up three DynamoDB tables, a Lambda, and a fresh S3 bucket while you were reading its justification.
+  summary: Open source MCP servers for AWS that provide specialized integrations with AWS services via the Model Context Protocol.
+  why_it_matters: Developers can use these servers to grant AI assistants direct, structured access to AWS resources, documentation, and workflows without manual API wrangling.
+  mental_damage: Now your AI assistant can spin up an EKS cluster while you’re still trying to remember how to spell 'IAM'.
   tags:
-    - aws
     - mcp
+    - aws
     - server
-    - agent-integration
-    - infrastructure
+    - integration
+    - model-context-protocol
   confidence: high
 curation:
   status: included
-  reason: The repository's primary identity is a collection of MCP servers for AWS services, making it a textbook fit for the MCP Servers & Tooling category.
+  reason: This is a suite of MCP servers whose primary identity is providing AWS-specific MCP infrastructure, fitting squarely in the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'Open source MCP Servers for AWS'.
-    - README is structured entirely around individual MCP server offerings for various AWS domains (AI/ML, Data, Developer Tools, etc.).
-    - GitHub topics are heavily weighted toward 'mcp-server', 'mcp-tools', and 'modelcontextprotocol'.
+    - Repo description explicitly states 'Open source MCP Servers for AWS'
+    - README details multiple MCP servers for AWS services and transport mechanisms
+    - Listed in awesome-mcp-servers under 'Official Servers' and 'Cloud Platforms'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -99,12 +99,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:43.146Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:23205051fc6a78ce38364219925a2a9b36c3cc46e0ccb545cc44811a93c9920d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a suite of MCP servers whose primary identity is providing AWS-specific MCP infrastructure, fitting squarely in the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states 'Open source MCP Servers for AWS'
+        - README details multiple MCP servers for AWS services and transport mechanisms
+        - Listed in awesome-mcp-servers under 'Official Servers' and 'Cloud Platforms'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is MCP-first infrastructure (servers for AWS) rather than a host integration layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -45,14 +45,15 @@ metadata:
       fetched_at: "2026-07-20T05:17:05.680Z"
       bytes: 2867
 insights:
-  summary: A toolkit providing an MCP server and Claude Code plugin for searching, governing, and managing Atlan data assets via natural language.
-  why_it_matters: It connects Claude Code directly to your data catalog, letting developers query lineage, governance, and data quality rules without leaving the agent loop.
-  mental_damage: We have successfully abstracted away learning the UI of yet another data platform by teaching our coding agent how to click through it for us.
+  summary: An MCP server and Claude Code plugin for interacting with Atlan's data catalog services via AI agents.
+  why_it_matters: Enables developers to search, explore, and govern data assets through natural language in their coding workflows.
+  mental_damage: Now your AI agent can trace data lineage while you pretend to understand your own database schema.
   tags:
     - mcp
     - data-catalog
-    - claude-code
-    - plugin
+    - claude-code-plugin
+    - ai-agents
+    - atlan
   confidence: high
 curation:
   status: included
@@ -63,10 +64,10 @@ curation:
     - The core features are driven by a hosted MCP server at 'mcp.atlan.com/mcp' providing 15 tools for data asset interaction.
 placement:
   primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -79,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:20.326Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:108bef8d5e3381189ec87c754c2a5fb91f1c6d7e50c33341f4582347166ab09c
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The project's core identity is an MCP server for Atlan services, with MCP as the primary adopted protocol.
+      decision_evidence:
+        - Repo description explicitly identifies it as an 'Atlan AI Agent Toolkit'
+        - README highlights an MCP server as the main component for Atlan service interaction
+        - Included in awesome-mcp-servers under 'Official Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is the MCP server infrastructure, not just a host integration layer.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'mcp'"
+      review_resume_lifecycle: null

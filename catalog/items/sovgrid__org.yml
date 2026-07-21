@@ -37,22 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A blog and documentation site detailing the setup, fixes, and architecture of a self-hosted 119B parameter AI stack running on DGX Spark hardware.
-  why_it_matters: It provides real-world, battle-tested documentation for developers attempting to run massive local models and avoid the cloud subscription treadmill.
-  mental_damage: Yet another reminder that while you're fighting with a 7B quantized model in a Colab notebook, someone else is debugging EAGLE decoding on a DGX in their garage.
+  summary: A blog documenting a self-hosted AI stack running a 119B parameter model on local hardware, with technical articles on setup, fixes, and operational insights.
+  why_it_matters: Provides practical, firsthand documentation for developers attempting to run large models locally without cloud dependencies.
+  mental_damage: Finally, a blog that proves you can burn through electricity like a Bitcoin miner while pretending it's for productivity.
   tags:
-    - local-ai
-    - self-hosted
-    - infrastructure
+    - self-hosted-ai
+    - local-inference
     - blog
+    - documentation
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal blog and documentation site, not a standalone developer tool, framework, or product.
+  reason: This is a blog/publication, not a developer tool, framework, or product; it falls outside the catalog's scope of practical AI tools and infrastructure.
   evidence:
-    - Primary page excerpt describes a blog with articles, insights, and stack exploration, not a tool to install.
-    - The source-list context in awesome-mcp-servers points to a blog URL (sovgrid.org) rather than a server implementation.
-    - The site content focuses on setup guides and fixes (e.g., Alby Hub, Voxtral patches) rather than distributing a reusable MCP server or toolkit.
+    - Primary page describes it as a 'Sovereign AI Blog' with articles on self-hosted AI setups
+    - Content is educational/media (articles, guides) rather than a usable tool or library
+    - No evidence of a codebase, SDK, or developer-facing product
 placement:
   primary_category: null
   section: null
@@ -70,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:42.150Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b1fc99dd256190f9d88c9975c65056d9fd1a5e2273b59187a0899e8453df230c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a blog/publication, not a developer tool, framework, or product; it falls outside the catalog's scope of practical AI tools and infrastructure.
+      decision_evidence:
+        - Primary page describes it as a 'Sovereign AI Blog' with articles on self-hosted AI setups
+        - Content is educational/media (articles, guides) rather than a usable tool or library
+        - No evidence of a codebase, SDK, or developer-facing product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

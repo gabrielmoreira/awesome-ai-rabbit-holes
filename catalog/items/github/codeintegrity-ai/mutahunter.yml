@@ -46,15 +46,14 @@ metadata:
       fetched_at: "2026-07-20T05:17:23.095Z"
       bytes: 2533
 insights:
-  summary: Mutahunter is an open-source, language-agnostic CLI tool that uses LLMs to perform mutation testing by generating code mutants and verifying test suite strength.
-  why_it_matters: It automates the tedious task of measuring test coverage quality by having an AI introduce bugs and checking if your unit tests actually catch them.
-  mental_damage: "Just what the workflow needed: another layer where an AI intentionally breaks your code to see if your already-flaky tests were merely hallucinating their coverage numbers."
+  summary: Open-source, language-agnostic mutation testing tool that uses LLMs to generate and evaluate code mutants.
+  why_it_matters: It automates mutation testing by leveraging LLMs to create and assess code variants, helping developers measure test suite quality without manual effort.
+  mental_damage: Now your tests can fail in ways you never imagined, thanks to an AI that’s better at breaking code than you are.
   tags:
     - mutation-testing
     - llm-testing
-    - cli
     - code-quality
-    - evals
+    - automated-testing
   confidence: high
 curation:
   status: included
@@ -65,10 +64,10 @@ curation:
     - It appears in 'awesome-ai-agents' but its primary function is QA measurement, not autonomous repo planning or editing.
 placement:
   primary_category: evals
-  section: Agent Benchmarks
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (296) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'coding-agents'"
 processing:
   discover:
     status: done
@@ -81,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:45:03.808Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9c2ad98591c64da5ea3701678a2ccf68ae0e5083929d9cb310f8bf6724c544e5
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: It is a developer-facing tool that directly analyzes, modifies, and tests code using LLMs, fitting the definition of a coding agent specialized in testing workflows.
+      decision_evidence:
+        - Repo description explicitly states it is LLM-based mutation testing
+        - README shows CLI usage for running mutation tests on code files
+        - Primary function is code analysis and test evaluation, not extension or orchestration
+      category_candidates:
+        - coding-agents
+        - evals
+      contrastive_reason: Choose coding-agents over evals because the tool's core job is active code mutation and test execution rather than passive measurement or benchmarking of model behavior.
+      review_reason: "Categorization review required: placement disagreement: retained 'evals', proposed 'coding-agents'"
+      review_resume_lifecycle: null

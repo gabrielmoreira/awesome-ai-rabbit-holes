@@ -39,22 +39,21 @@ metadata:
       fetched_at: "2026-07-20T05:17:31.657Z"
       bytes: 5060
 insights:
-  summary: DeepSeek-OCR 2 is a visual-language model and inference toolkit for high-fidelity document OCR, converting images and PDFs into structured markdown.
-  why_it_matters: Developers building document ingest pipelines can use this model to extract structured text from complex layouts without relying on closed-source OCR APIs.
-  mental_damage: We have reached the point where we train multi-billion parameter causal flows just to stop fighting with Tesseract and PDF parsers that choke on two-column layouts.
+  summary: An open-source OCR model for visual causal flow tasks.
+  why_it_matters: It provides developers with a specialized OCR capability for extracting and processing text from visual data in workflows requiring structured document understanding.
+  mental_damage: Now you can finally OCR your Jira tickets into your codebase, because why not automate the chaos.
   tags:
     - ocr
-    - vlm
-    - document-extraction
-    - inference
+    - computer-vision
+    - document-processing
   confidence: high
 curation:
   status: excluded
-  reason: This is a visual-language model release and inference toolkit for document OCR, which falls under general ML research and model infrastructure rather than a developer-facing AI tool, agent, or workflow product.
+  reason: The project is a specialized OCR model, not a developer tool, framework, or workflow product for software development.
   evidence:
-    - Repo description is 'Visual Causal Flow', and README centers on model download, vLLM/Transformers inference, and benchmark evaluation for OCR.
-    - No evidence of IDE integration, coding assistance, agent orchestration, app building, or developer workflow tooling.
-    - Appears in awesome-LLM-resources under a data section, reinforcing its identity as an ML model resource rather than a developer tool.
+    - Repo description identifies it as 'Visual Causal Flow' (OCR model)
+    - No evidence of developer-tooling integration or workflow support
+    - Source-list context places it under '数据 Data' (data resources), not developer tools
 placement:
   primary_category: null
   section: null
@@ -73,12 +72,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:28.253Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d372101f66a29ec771ded91f130332e38b4b804f86e87a1e083d5c71da26a705
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a specialized OCR model, not a developer tool, framework, or workflow product for software development.
+      decision_evidence:
+        - Repo description identifies it as 'Visual Causal Flow' (OCR model)
+        - No evidence of developer-tooling integration or workflow support
+        - Source-list context places it under '数据 Data' (data resources), not developer tools
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

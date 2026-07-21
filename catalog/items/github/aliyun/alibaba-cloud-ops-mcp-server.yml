@@ -44,22 +44,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:58.473Z"
       bytes: 8174
 insights:
-  summary: An Alibaba Cloud MCP server that exposes ECS, VPC, RDS, OSS, and Cloud Monitor APIs so AI assistants can manage cloud resources and deploy applications.
-  why_it_matters: It lets developers control Alibaba Cloud infrastructure and deploy apps directly from MCP-compatible assistants like Cursor, Cline, and Qoder without leaving the coding workflow.
-  mental_damage: You can now ask your AI assistant to accidentally delete a production RDS instance and it will happily reach into Alibaba Cloud to do it for you.
+  summary: An MCP server that integrates Alibaba Cloud APIs to enable AI assistants to manage cloud resources like ECS, VPC, RDS, and OSS.
+  why_it_matters: Developers can now delegate Alibaba Cloud infrastructure tasks (e.g., instance management, deployments) directly to AI assistants via MCP.
+  mental_damage: Finally, a way to let your AI assistant spin up cloud resources you’ll forget to delete.
   tags:
     - mcp
-    - cloudops
     - alibaba-cloud
+    - cloud-ops
     - infrastructure
+    - server
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing cloud operations as tools, which fits the MCP Servers & Tooling category's domain servers section.
+  reason: MCP is the core product identity, and the server provides domain-specific cloud operations capabilities.
   evidence:
-    - Repo description explicitly states 'AlibabaCloud CloudOps MCP Server'
-    - README states it is 'a Model Context Protocol (MCP) server that provides seamless integration with Alibaba Cloud APIs'
-    - Featured in awesome-mcp-servers under 'Cloud Platforms' section
+    - Repo description explicitly identifies it as an MCP server for Alibaba Cloud Ops
+    - README details MCP integration and cloud resource management features
+    - Listed in awesome-mcp-servers under Cloud Platforms
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -78,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:19.535Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d66d63bb7ff7579924adff2ff4cd57a001dc39fa0119ad019a7816ffce1a649d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the core product identity, and the server provides domain-specific cloud operations capabilities.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for Alibaba Cloud Ops
+        - README details MCP integration and cloud resource management features
+        - Listed in awesome-mcp-servers under Cloud Platforms
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server (not an extension for another assistant).
+      review_reason: null
+      review_resume_lifecycle: null

@@ -41,25 +41,24 @@ metadata:
       fetched_at: "2026-07-16T05:05:19.716Z"
       bytes: 6527
 insights:
-  summary: An MCP server that exposes Membrane integration actions as tools for connected AI agents via HTTP and SSE transports.
-  why_it_matters: It lets developers give their AI agents direct, authenticated access to Membrane-connected services without writing custom integration glue code.
-  mental_damage: Another day, another MCP server that promises to turn yet another SaaS wrapper into a tool your agent will politely ignore.
+  summary: MCP Server for Membrane that exposes Membrane integrations as Model Context Protocol tools via HTTP or SSE transports.
+  why_it_matters: It lets developers connect AI agents to Membrane's integration ecosystem using a standardized protocol, avoiding custom glue code.
+  mental_damage: Another MCP server to deploy and manage, just to let your agent send an email through Gmail without writing the OAuth flow yourself.
   tags:
     - mcp
     - membrane
     - integration
-    - agent-tools
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that exposes Membrane integrations as tools, making MCP the core identity rather than a compatibility footnote.
+  reason: The product is an MCP server as its core identity, providing Membrane integrations as MCP tools, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'MCP Server for Membrane' with topics mcp and mcp-server."
-    - README describes it as 'a Model Context Protocol (MCP) server, it provides actions for connected integrations on Membrane as tools.'
-    - Listed in awesome-mcp-servers under 'Official Servers', confirming its MCP identity.
+    - "Repo description: 'MCP Server for Membrane'"
+    - "README: 'The Membrane MCP Server is a Model Context Protocol (MCP) server, it provides actions for connected integrations on Membrane as tools.'"
+    - "Source-list context: Listed in awesome-mcp-servers under 'Official Servers'"
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:19:44.653Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c46d116866f08e941e85a3d89cb3f91da6aa7291e5445c8529e03e147a9bcc1c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server as its core identity, providing Membrane integrations as MCP tools, making it a clear fit for the MCP Servers & Tooling category.
+      decision_evidence:
+        - "Repo description: 'MCP Server for Membrane'"
+        - "README: 'The Membrane MCP Server is a Model Context Protocol (MCP) server, it provides actions for connected integrations on Membrane as tools.'"
+        - "Source-list context: Listed in awesome-mcp-servers under 'Official Servers'"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is an MCP server infrastructure, not an extension that augments another coding assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

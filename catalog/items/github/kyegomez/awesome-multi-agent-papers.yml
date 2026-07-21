@@ -54,22 +54,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:43.788Z"
       bytes: 38638
 insights:
-  summary: A curated list of academic research papers focused on multi-agent systems, LLM collaboration, and swarm intelligence.
-  why_it_matters: It serves as a centralized research map for developers building or evaluating multi-agent orchestration frameworks who want to ground their architecture in current academic trends.
-  mental_damage: Another reminder that while you are struggling to get two agents to stop looping, there is a paper describing a system with 128,000 agents that somehow works on the first try.
+  summary: A curated list of research papers on multi-agent systems and swarm intelligence for AI agents.
+  why_it_matters: Provides developers with a centralized resource to explore cutting-edge research in multi-agent collaboration, system design, and orchestration.
+  mental_damage: Another list to bookmark and never revisit, because who has time to read papers when you're busy shipping agents.
   tags:
     - multi-agent
-    - research
-    - papers
+    - research-papers
     - awesome-list
+    - swarms
+    - agent-orchestration
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory of academic papers rather than a standalone tool, framework, or agent, making it a navigation aid for developers.
+  reason: This is a curated directory of research papers, which fits the 'Awesome Awesomes' category as a navigation aid for developers exploring multi-agent systems.
   evidence:
-    - Repo description explicitly states it is 'A compilation of the best multi-agent papers'.
-    - README confirms it is an 'awesome list' formatted as [Paper Name] [Description] [Link].
-    - Source-list context places it in 'awesome-agent-orchestration' under 'Related Awesome Lists'.
+    - Repo description explicitly states it is a compilation of multi-agent papers
+    - README confirms it is an 'awesome list' of research papers curated by the Swarms team
+    - Source-list context shows it is included in 'awesome-agent-orchestration' under 'Related Awesome Lists'
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -88,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:27.432Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3e783cce56a97ea1b8f59ea9dbf52aea8f3607d29c3e2eee7b080d27f362dea9
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of research papers, which fits the 'Awesome Awesomes' category as a navigation aid for developers exploring multi-agent systems.
+      decision_evidence:
+        - Repo description explicitly states it is a compilation of multi-agent papers
+        - README confirms it is an 'awesome list' of research papers curated by the Swarms team
+        - Source-list context shows it is included in 'awesome-agent-orchestration' under 'Related Awesome Lists'
+      category_candidates:
+        - awesome-awesomes
+        - agent-orchestration
+      contrastive_reason: Choose awesome-awesomes over agent-orchestration because the primary value is discovery and navigation of research, not an operational orchestration platform.
+      review_reason: null
+      review_resume_lifecycle: null

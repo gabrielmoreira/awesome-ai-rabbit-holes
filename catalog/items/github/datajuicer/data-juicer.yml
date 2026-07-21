@@ -53,23 +53,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:29.456Z"
       bytes: 18458
 insights:
-  summary: Data-Juicer is a modular, cloud-native data processing toolkit providing 200+ operators to clean, synthesize, and analyze multimodal data for LLM pre-training, fine-tuning, and agent workflows.
-  why_it_matters: It lets developers build composable, YAML-based data pipelines to curate high-quality datasets and agent traces at scale, from laptops to thousand-node Ray clusters.
-  mental_damage: Because even with the perfect 70B-sample dataset deduplicated in 2.8 hours, your model will still confidently hallucinate that Data-Juicer is a citrus-based cocktail recipe.
+  summary: A data processing pipeline toolkit for preparing and managing datasets for foundation models, including instruction tuning and synthetic data generation.
+  why_it_matters: It helps developers preprocess, transform, and optimize datasets for training or fine-tuning large language models, addressing a critical bottleneck in AI workflows.
+  mental_damage: Because nothing says 'fun' like realizing your model's hallucinations could have been fixed with better data juicing.
   tags:
-    - data-pipeline
+    - data-processing
     - llm-training
-    - multimodal
-    - ray
     - synthetic-data
+    - instruction-tuning
   confidence: high
 curation:
   status: excluded
-  reason: Exclude because it is primarily a data science and ML training infrastructure library, not a developer-facing AI tool for coding, agents, or app-building workflows.
+  reason: The project is a data processing toolkit for foundation models, not a developer-facing coding assistant, IDE, extension, or workflow tool.
   evidence:
-    - "Repo description and README focus on foundation model data processing: pre-training, fine-tuning, RL, and data curation, not developer tooling."
-    - Topics (data-pipeline, data-science, pre-training, instruction-tuning) and operators (TextLengthFilter, WhitespaceNormalizationMapper) target ML engineering, not coding assistants or IDEs.
-    - Source list places it under '数据 Data' (Data) in an LLM resources list, confirming its identity as a data tool rather than a developer productivity product.
+    - Repo description focuses on data processing for foundation models
+    - Topics include data-pipeline, instruction-tuning, synthetic-data, and pre-training
+    - Source-list context places it under '数据 Data' (data resources), not developer tooling
 placement:
   primary_category: null
   section: null
@@ -88,12 +87,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:51.889Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4417c15975438ad086a86cdad80d5d866cd3c39e594f79a22d939671b955e6ca
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a data processing toolkit for foundation models, not a developer-facing coding assistant, IDE, extension, or workflow tool.
+      decision_evidence:
+        - Repo description focuses on data processing for foundation models
+        - Topics include data-pipeline, instruction-tuning, synthetic-data, and pre-training
+        - Source-list context places it under '数据 Data' (data resources), not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

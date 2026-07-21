@@ -45,22 +45,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:02.380Z"
       bytes: 13826
 insights:
-  summary: Higress is a cloud-native API gateway built on Istio and Envoy that provides unified management for LLM APIs and supports hosting MCP (Model Context Protocol) servers.
-  why_it_matters: It allows developers to standardize and manage AI model traffic alongside MCP tool services in a single infrastructure layer with Wasm plugin extensibility.
-  mental_damage: Yet another piece of infrastructure promising to tame your AI sprawl, because clearly what every team needs right now is another Envoy-based gateway to configure before they can debug why their model calls are failing.
+  summary: AI-native API gateway built on Envoy and Istio that supports MCP server hosting and unified management of LLM and MCP APIs.
+  why_it_matters: Developers can use it to expose, manage, and scale AI model APIs and MCP servers with cloud-native reliability and plugin extensibility.
+  mental_damage: Now you can turn any OpenAPI spec into an MCP server and pretend your legacy APIs were always part of the agent ecosystem.
   tags:
-    - ai-gateway
+    - api-gateway
     - mcp
     - cloud-native
+    - ai-infra
     - envoy
   confidence: high
 curation:
   status: included
-  reason: Higress is a cloud-native API gateway whose AI-native identity includes hosting MCP servers as a first-class feature, making it MCP infrastructure rather than a generic gateway or framework.
+  reason: MCP server hosting and unified MCP API management is a core, explicit capability, making MCP the primary product identity.
   evidence:
-    - Repo description explicitly states 'AI Native API Gateway' with MCP-related topics.
-    - README states it 'supports hosting MCP (Model Context Protocol) Servers through its plugin mechanism' and provides an MCP Server QuickStart link.
-    - Includes a hosted MCP platform at mcp.higress.ai for experiencing remote MCP servers firsthand.
+    - README explicitly highlights MCP server hosting via plugin mechanism and provides a dedicated MCP quickstart guide
+    - Homepage and docs promote Higress as a platform for hosting remote MCP servers (e.g., mcp.higress.ai)
+    - Project is actively maintained (pushed_at 2026-07-17) and has significant traction (8892 stars)
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -79,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:38.280Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9abede6514eecd6af1c3524029cfd60d32d52f189c64fd1dce666075f527cb9d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP server hosting and unified MCP API management is a core, explicit capability, making MCP the primary product identity.
+      decision_evidence:
+        - README explicitly highlights MCP server hosting via plugin mechanism and provides a dedicated MCP quickstart guide
+        - Homepage and docs promote Higress as a platform for hosting remote MCP servers (e.g., mcp.higress.ai)
+        - Project is actively maintained (pushed_at 2026-07-17) and has significant traction (8892 stars)
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is MCP server hosting and MCP API management, not a general-purpose AI framework or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

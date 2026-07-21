@@ -40,26 +40,25 @@ metadata:
       fetched_at: "2026-07-16T05:05:15.913Z"
       bytes: 7123
 insights:
-  summary: An MCP server that wraps JetBrains dotMemory to capture .NET memory snapshots and return AI-actionable code fix suggestions via a heuristic rule engine.
-  why_it_matters: Developers can ask their AI assistant to profile running .NET processes and get concrete fix suggestions for leaks and allocation issues without leaving the chat.
-  mental_damage: You can now watch your AI assistant discover you wired up event handlers like it's 2008, and then politely suggest you fix it.
+  summary: MemoryLens MCP is an MCP server that wraps JetBrains dotMemory to provide .NET memory profiling with AI-actionable code fix suggestions.
+  why_it_matters: It turns raw .NET memory diagnostics into concrete, rule-based coding guidance that developers can act on directly in their IDE or terminal.
+  mental_damage: Finally, a tool that tells you not just that your app is leaking, but exactly which static collection to guilt-trip into behaving.
   tags:
     - mcp
-    - dotnet
-    - profiling
-    - memory
+    - .net
+    - memory-profiling
     - dotmemory
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server that gives AI assistants access to .NET memory profiling and fix suggestions, fitting cleanly as a domain-specific MCP server.
+  reason: The product is an MCP server as its core identity, providing .NET memory profiling via the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
   evidence:
-    - "Repo description states: 'MCP server for .NET memory profiling with AI-actionable code fix suggestions, powered by JetBrains dotMemory'."
-    - README lists MCP tools including snapshot, compare_snapshots, and analyze with a built-in rule engine (ML001–ML010).
-    - Appears in awesome-mcp-servers under 'Developer Tools', reinforcing its MCP server identity.
+    - "Repo description: 'MCP server for .NET memory profiling with AI-actionable code fix suggestions, powered by JetBrains dotMemory'"
+    - "README: 'MemoryLens MCP' header, hosted deployment via Glama.ai MCP server badge, and MCP tools like `snapshot`, `analyze`, and `ensure_dotmemory`"
+    - "Source-list context: included in awesome-mcp-servers under 'Server Implementations > Developer Tools'"
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:18:13.861Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8a958cec8899db0dfa954ff3492739fc6d44eb9de0b38acc997f43e35c346df0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server as its core identity, providing .NET memory profiling via the Model Context Protocol, making MCP the primary product identity rather than a compatibility feature.
+      decision_evidence:
+        - "Repo description: 'MCP server for .NET memory profiling with AI-actionable code fix suggestions, powered by JetBrains dotMemory'"
+        - "README: 'MemoryLens MCP' header, hosted deployment via Glama.ai MCP server badge, and MCP tools like `snapshot`, `analyze`, and `ensure_dotmemory`"
+        - "Source-list context: included in awesome-mcp-servers under 'Server Implementations > Developer Tools'"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server whose main value is the MCP interface itself, not augmenting another assistant with host integrations.
+      review_reason: null
+      review_resume_lifecycle: null

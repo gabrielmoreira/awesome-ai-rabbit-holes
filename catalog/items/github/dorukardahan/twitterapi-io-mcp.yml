@@ -52,22 +52,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:52.576Z"
       bytes: 12096
 insights:
-  summary: An MCP server that bundles the full TwitterAPI.io documentation locally so Claude, Cursor, VS Code Copilot, and other AI assistants can query endpoints, guides, and blog posts without a live API key.
-  why_it_matters: Developers integrating Twitter/X APIs can let their assistant look up current v2 endpoints, parameters, and response schemas offline instead of pasting docs or guessing against deprecated interfaces.
-  mental_damage: We have now reached the point where our AI assistants need their own offline documentation servers so they can pretend to read the docs we were too busy to read ourselves.
+  summary: An MCP server providing offline TwitterAPI.io documentation for AI assistants like Claude.
+  why_it_matters: Developers integrating Twitter/X APIs can query complete, up-to-date endpoint docs, guides, and blog posts directly from their AI assistant without needing an API key.
+  mental_damage: Now your AI assistant can argue with you about Twitter API rate limits using the same docs you’re too lazy to read.
   tags:
-    - mcp
+    - mcp-server
     - twitter-api
     - offline-docs
-    - context-engineering
-  confidence: medium
+    - ai-assistant-integration
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose entire identity is exposing TwitterAPI.io documentation to MCP-compatible assistants, which fits MCP Servers & Tooling cleanly.
+  reason: This is a dedicated MCP server whose primary identity is serving TwitterAPI.io documentation via the Model Context Protocol.
   evidence:
-    - "Repo description: 'TwitterAPI.io MCP server: offline docs for Claude and other AI assistants.'"
-    - "README states: 'An MCP server that gives Claude, Cursor, VS Code Copilot, and other AI assistants instant, offline access to TwitterAPI.io documentation.'"
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Repo description explicitly states it is a 'TwitterAPI.io MCP server'
+    - README confirms it is an MCP server for offline docs access in AI assistants
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -86,12 +86,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:35.899Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:81001bafdcb9dd21a447efcb9b0a3d7cbba77470fadcfe42cad44734baff57ab
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is serving TwitterAPI.io documentation via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is a 'TwitterAPI.io MCP server'
+        - README confirms it is an MCP server for offline docs access in AI assistants
+        - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

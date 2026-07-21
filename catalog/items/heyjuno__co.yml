@@ -1,0 +1,109 @@
+id: heyjuno__co
+kind: website
+name: Juno
+canonical_url: https://heyjuno.co
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__heyjuno__co__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Juno
+        anchor_text: Juno
+        extracted_url: https://heyjuno.co
+        surrounding_text: "## [Juno](https://heyjuno.co/)"
+        confidence: high
+    - id: discovery__www__heyjuno__co__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Juno
+        anchor_text: Juno
+        extracted_url: https://heyjuno.co
+        surrounding_text: "## [Juno](https://heyjuno.co/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Juno is an AI researcher platform that recruits and interviews real people to turn qualitative conversations into market research insights.
+  why_it_matters: It automates expert-level qualitative research for teams needing rapid, scalable user insights.
+  mental_damage: Finally, a way to outsource the part of product development where you pretend to care about user feedback.
+  tags:
+    - market-research
+    - qualitative-analysis
+    - ai-interviews
+    - user-insights
+  confidence: high
+curation:
+  status: excluded
+  reason: Juno is a market research SaaS platform for qualitative insights, not a developer-tooling product for coding, agents, or workflows.
+  evidence:
+    - Primary page excerpt describes recruiting/interviewing real people for market research
+    - Source-list context places it under AI autonomous agents but for research, not developer workflows
+    - No developer-facing tooling, SDKs, or integrations mentioned
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:35:00.072Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9cd33d4e902dba9c9527b2cdf3887d5ffa08bd0580e5d937c4f623b47db0f31b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Juno is a market research SaaS platform for qualitative insights, not a developer-tooling product for coding, agents, or workflows.
+      decision_evidence:
+        - Primary page excerpt describes recruiting/interviewing real people for market research
+        - Source-list context places it under AI autonomous agents but for research, not developer workflows
+        - No developer-facing tooling, SDKs, or integrations mentioned
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.966Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

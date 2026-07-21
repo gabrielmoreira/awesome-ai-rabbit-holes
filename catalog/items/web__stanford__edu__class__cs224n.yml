@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Stanford CS224N is a university course on Natural Language Processing with Deep Learning that covers NLP fundamentals, transformers, and large language models using PyTorch.
-  why_it_matters: It provides a structured, academic deep dive into the models and techniques that today's developer-facing AI tools are built upon.
-  mental_damage: You will spend weeks implementing word2vec from scratch just in time to watch a new 50-line wrapper library make your project obsolete overnight.
+  summary: Stanford's CS224N is a graduate-level course on Natural Language Processing with Deep Learning, covering neural networks, transformers, and LLMs.
+  why_it_matters: It provides foundational and cutting-edge knowledge for developers working on NLP and LLM-based applications.
+  mental_damage: The only thing harder than implementing GPT-2 from scratch is realizing you still have three more assignments due.
   tags:
-    - nlp
-    - deep-learning
-    - llm
     - course
-    - pytorch
+    - nlp
+    - education
+    - stanford
+    - deep-learning
   confidence: high
 curation:
   status: excluded
-  reason: This is an academic course and educational resource, not a practical AI tool, agent, or developer-facing infrastructure product.
+  reason: This is an academic course, not a developer tool, framework, or workflow product.
   evidence:
-    - Primary page excerpt describes a Stanford course with lectures, assignments, and final projects, not a software tool.
-    - Source-list context places it in a '课程 Course' (Course) section of an LLM resources list.
-    - No code repo, CLI, IDE plugin, or developer tooling surface is present; it is a syllabus and teaching site.
+    - The page explicitly describes it as a Stanford course on NLP with Deep Learning
+    - The content is lecture-based with assignments and projects, not a tool or product
+    - Source-list context places it under '课程 Course' (Course) section
 placement:
   primary_category: null
   section: null
@@ -70,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:06.238Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8baa275b3590523b7da39814d0acd04a99d533a090d10affcacc539041516333
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an academic course, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - The page explicitly describes it as a Stanford course on NLP with Deep Learning
+        - The content is lecture-based with assignments and projects, not a tool or product
+        - Source-list context places it under '课程 Course' (Course) section
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

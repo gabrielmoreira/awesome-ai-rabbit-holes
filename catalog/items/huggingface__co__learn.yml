@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Hugging Face's official learning hub offering free, structured courses on LLMs, context engineering for code agents, agent building, and core ML topics using the HF ecosystem.
-  why_it_matters: It provides developers with the canonical, hands-on curriculum needed to understand and implement everything from context engineering to agent deployment using industry-standard tools.
-  mental_damage: Another opportunity to add 'Completed Hugging Face Course' to your LinkedIn while your production code still relies on a 4,000-line prompt and a prayer.
+  summary: Hugging Face's official learning hub offering courses on LLMs, context engineering, agents, robotics, and other AI/ML topics.
+  why_it_matters: Provides structured educational resources for developers to upskill in AI/ML, including practical topics like context engineering for code agents.
+  mental_damage: Another day, another course to pretend you'll finish while your backlog of half-learned frameworks judges you silently.
   tags:
     - education
-    - agents
-    - context-engineering
-    - llm-course
+    - courses
+    - ai-ml
+    - huggingface
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational resource hub and course platform, not a standalone developer tool, agent, framework, or infrastructure product.
+  reason: This is an educational resource hub, not a developer tool, framework, or workflow product.
   evidence:
-    - Scraped site context identifies the page as 'Hugging Face - Learn' featuring multiple 'Courses' (LLM, Context, Agents, etc.).
-    - Source-list context places it in a '课程 Course' (Course) section of an awesome list, not a tooling section.
-    - The primary page excerpt lists educational content like 'Learn context engineering for code agents' rather than distributable software.
+    - Primary page excerpt lists courses (LLM Course, Context Course, Agents Course, etc.) as the main offering
+    - Source-list context places it under '课程 Course' (Course) section
+    - No indication of a standalone tool, SDK, or workflow product
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:48.440Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f8532e56fd4e04d2a4f260037aa7c8fdcb3edc174f09290cb741f51e0f034a9e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational resource hub, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - Primary page excerpt lists courses (LLM Course, Context Course, Agents Course, etc.) as the main offering
+        - Source-list context places it under '课程 Course' (Course) section
+        - No indication of a standalone tool, SDK, or workflow product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,16 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language directory and resource hub for discovering and sharing Model Context Protocol (MCP) servers and tools.
-  why_it_matters: It provides a centralized, localized map for developers navigating the rapidly expanding ecosystem of MCP-compatible tooling.
-  mental_damage: Another essential layer of discovery infrastructure for a protocol that is rapidly becoming the USB-C of AI tooling, ensuring you spend more time browsing directories than actually shipping code.
+  summary: A Chinese-language directory and registry for MCP (Model Context Protocol) servers and resources.
+  why_it_matters: Provides a curated starting point for developers looking to discover and integrate MCP-compatible tools in their workflows.
+  mental_damage: Because nothing says 'standardization' like a dozen regional registries for the same protocol.
   tags:
     - mcp
     - directory
-    - china
-    - discovery
-    - resources
-  confidence: medium
+    - chinese
+    - registry
+  confidence: high
 curation:
   status: included
   reason: The site functions as a curated directory and map for MCP resources, fitting the 'Lists & Directories' category as a navigation aid for developers.
@@ -55,10 +54,10 @@ curation:
     - No repo description, stars, or code artifacts provided; the identity is a resource/list site, not a code-first tool.
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -70,12 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:30.899Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:662662b80874ad61fc977c22ff9d70200e355692641211971255d1fda4ad4375
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The product is explicitly a registry/directory for MCP resources, which fits the MCP Servers & Tooling category where MCP is the primary identity.
+      decision_evidence:
+        - Listed in awesome-LLM-resources under '模型上下文协议 MCP' (Model Context Protocol MCP)
+        - URL and name (sharemcp.cn) strongly indicate MCP-focused registry/discovery purpose
+      category_candidates:
+        - mcp
+        - awesome-awesomes
+      contrastive_reason: Choose mcp over awesome-awesomes because the product's core identity is MCP-specific infrastructure (registry) rather than a general AI tooling directory.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      review_resume_lifecycle: null

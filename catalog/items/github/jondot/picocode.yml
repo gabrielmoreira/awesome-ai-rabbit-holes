@@ -43,23 +43,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:26.761Z"
       bytes: 7507
 insights:
-  summary: A minimal, Rust-based CLI coding agent that supports multiple LLM providers and can run interactive chats, single prompts, and automated recipes for CI and codemods.
-  why_it_matters: It offers developers a fast, single-binary alternative to heavier assistants like Claude Code, with multi-provider support and scriptable automation for repo tasks.
-  mental_damage: Another weekend Rust project promising to be the lightweight Claude Code killer, proving that the real CI pipeline bottleneck was simply waiting for Node modules to install.
+  summary: A minimal, Rust-based CLI coding agent for CI workflows and small codemods, supporting multiple LLM providers.
+  why_it_matters: It offers a lightweight, hackable alternative to heavier coding assistants, with persona-driven behavior and recipe-based automation for CI/CD.
+  mental_damage: Finally, a coding agent that fits in your back pocket and still judges your code like a grumpy sysadmin.
   tags:
     - cli
+    - coding-agent
     - rust
     - multi-llm
     - automation
-    - codemods
-  confidence: low
+  confidence: high
 curation:
   status: included
-  reason: The project is a standalone CLI coding assistant that reads code, edits files, and runs automated recipes, fitting the primary coding agent identity.
+  reason: It is a standalone coding assistant that directly reads, edits, and automates code workflows, fitting the primary assistant identity.
   evidence:
-    - Repo description states it is 'a minimal, Rust-based coding agent focused at CI workflows and small codemods, similar to Claude Code'.
-    - README describes interactive chat, single prompts, and 'Recipes' for non-interactive CI/CD execution.
-    - Source list 'awesome-cli-coding-agents' includes it under 'Terminal-native coding agents > Open Source'.
+    - "Repo description: 'a minimal, Rust-based coding agent focused at CI workflows and small codemods, similar to Claude Code'"
+    - "README: 'picocode is a minimal, high-performance Rust-based coding agent' with filesystem, search, and system tools"
+    - "Source-list context: listed under 'Terminal-native coding agents > Open Source' in awesome-cli-coding-agents"
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -78,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:05.285Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e60e732b14786ab83317179e4e9c9692ea1d5ffdf2e92836340d1583d6369c6b
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a standalone coding assistant that directly reads, edits, and automates code workflows, fitting the primary assistant identity.
+      decision_evidence:
+        - "Repo description: 'a minimal, Rust-based coding agent focused at CI workflows and small codemods, similar to Claude Code'"
+        - "README: 'picocode is a minimal, high-performance Rust-based coding agent' with filesystem, search, and system tools"
+        - "Source-list context: listed under 'Terminal-native coding agents > Open Source' in awesome-cli-coding-agents"
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because picocode is a primary coding assistant, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

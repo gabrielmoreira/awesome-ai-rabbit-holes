@@ -60,23 +60,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:30.014Z"
       bytes: 8292
 insights:
-  summary: A native Rust MCP server that exposes the full OVH API (v1 and v2) to LLM clients like Claude and Cursor for endpoint exploration and execution via sandboxed JavaScript.
-  why_it_matters: It lets developers manage OVH cloud resources through natural language by translating LLM prompts into authenticated API calls validated against the live OpenAPI spec.
-  mental_damage: You can now manage your entire cloud infrastructure through a chat window, because nothing says 'safe production deploy' like letting a probabilistic autocomplete mutate your DNS records via QuickJS.
+  summary: MCP server that provides access to the OVH API for LLM clients like Claude and Cursor.
+  why_it_matters: Allows developers to interact with OVH cloud infrastructure directly from their AI coding assistant.
+  mental_damage: Now your LLM can spin up OVH servers while you're still trying to remember your API keys.
   tags:
     - mcp
-    - ovh
-    - cloud-api
+    - ovh-api
+    - cloud-infrastructure
     - rust
-    - infrastructure
+    - sandboxed
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is a specialized MCP server for a specific cloud provider, fitting cleanly into the Domain Servers section of MCP tooling.
+  reason: This is a dedicated MCP server whose primary identity is providing OVH API access via MCP protocol.
   evidence:
-    - Repo description explicitly identifies it as 'MCP server for the OVH API'.
-    - README confirms it 'exposes two MCP tools' (search and execute) for OVH endpoints.
-    - Listed in awesome-mcp-servers under 'Cloud Platforms', reinforcing its identity as an MCP implementation.
+    - Repo description explicitly states it's an MCP server for OVH API
+    - README details MCP tools for searching and executing OVH endpoints
+    - Already listed in awesome-mcp-servers under Cloud Platforms
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:05.696Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:05014c456741a70a53ad9f9946ee130c0f91c572fddf0db76b24c9bced420e31
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is providing OVH API access via MCP protocol.
+      decision_evidence:
+        - Repo description explicitly states it's an MCP server for OVH API
+        - README details MCP tools for searching and executing OVH endpoints
+        - Already listed in awesome-mcp-servers under Cloud Platforms
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server rather than an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

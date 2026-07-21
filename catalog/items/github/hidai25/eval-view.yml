@@ -74,22 +74,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:01.959Z"
       bytes: 6517
 insights:
-  summary: A Python CLI and testing framework that snapshots AI agent tool calls and outputs to catch behavior regressions across model or provider updates in CI.
-  why_it_matters: It gives developers a regression gate for agent behavior, distinguishing provider drift from real system regressions when normal tests still pass.
-  mental_damage: We have finally built Playwright for hallucinations, so you can watch your agent quietly change its mind in CI while your status badge stays green.
+  summary: Open-source regression testing tool for AI agents that snapshots behavior, diffs tool calls, and catches regressions in CI.
+  why_it_matters: It gives developers a way to detect silent regressions in agent behavior (e.g., tool choice changes, output drift) before they reach users, with deterministic replay and CI integration.
+  mental_damage: Finally, a way to know if your agent broke because you changed it or because the model provider changed it under you.
   tags:
     - agent-testing
-    - regression-gate
-    - ci
-    - eval
+    - regression-detection
+    - ci-integration
+    - evals
+    - python
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, scoring, and regression-testing agent behavior across model and provider changes, which aligns directly with the evals category.
+  reason: The core product is a regression testing framework for AI agents, focused on measuring, diffing, and classifying behavior changes—squarely in the evals/observability domain.
   evidence:
-    - "Repo description states: 'Regression testing for AI agents. Snapshot behavior, diff tool calls, catch regressions in CI.'"
-    - README pitches 'The open-source behavior regression gate for AI agents' and compares it to Playwright for tool-calling and multi-turn agents.
-    - Output examples show behavior diffs, confidence grading, and ship/don't-ship verdicts rather than acting as a coding assistant.
+    - Repo description explicitly states 'Regression testing for AI agents. Snapshot behavior, diff tool calls, catch regressions in CI.'
+    - README positions it as 'the open-source behavior regression gate for AI agents' with deterministic replay and CI integration.
+    - Topics include agent-benchmark, agent-evaluation, regression-testing, pytest, and it works with LangGraph, CrewAI, etc.
 placement:
   primary_category: evals
   section: Prompt Regression & Experimentation
@@ -108,12 +109,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:34.167Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f6d618d4ccd05832647d175271019df29b119e6eeefdbf8b8a8e49374c252c92
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The core product is a regression testing framework for AI agents, focused on measuring, diffing, and classifying behavior changes—squarely in the evals/observability domain.
+      decision_evidence:
+        - Repo description explicitly states 'Regression testing for AI agents. Snapshot behavior, diff tool calls, catch regressions in CI.'
+        - README positions it as 'the open-source behavior regression gate for AI agents' with deterministic replay and CI integration.
+        - Topics include agent-benchmark, agent-evaluation, regression-testing, pytest, and it works with LangGraph, CrewAI, etc.
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the primary job is regression testing and behavior diffing for agents, not providing a general-purpose agent framework or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

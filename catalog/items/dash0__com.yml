@@ -1,0 +1,110 @@
+id: dash0__com
+kind: website
+name: Dash0
+canonical_url: https://dash0.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__dash0__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Dash0
+        extracted_url: https://dash0.com
+        surrounding_text: "- **[Dash0](https://github.com/dash0hq/mcp-dash0)** - Navigate your OpenTelemetry resources, investigate incidents and query metrics, logs and traces on [Dash0](https://www.dash0.com/)."
+        confidence: high
+    - id: discovery__www__dash0__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Dash0
+        extracted_url: https://www.dash0.com
+        surrounding_text: "- **[Dash0](https://github.com/dash0hq/mcp-dash0)** - Navigate your OpenTelemetry resources, investigate incidents and query metrics, logs and traces on [Dash0](https://www.dash0.com/)."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Dash0 is an OpenTelemetry-native observability platform for monitoring AI agents, code, and production systems with cost control.
+  why_it_matters: It closes the feedback loop between AI-driven development and production by providing unified observability for both coding agents and runtime systems.
+  mental_damage: Now your AI agents can watch your AI agents, while you watch the bill.
+  tags:
+    - observability
+    - opentelemetry
+    - ai-agents
+    - production-monitoring
+    - cost-control
+  confidence: high
+curation:
+  status: excluded
+  reason: Dash0 is primarily an observability platform for production systems and AI agents, not a developer tool for building, extending, or orchestrating AI workflows.
+  evidence:
+    - Core product is OpenTelemetry-native observability with APM, RUM, and infra monitoring
+    - Focuses on production monitoring, cost control, and incident response rather than developer tooling
+    - Source-list context shows it as an MCP server, but MCP is a compatibility feature, not the product identity
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:33:36.828Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0d9f933e3b38e54a3a520c9a9131996ebf7c5f84a218bd89a7ed82b623b68401
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Dash0 is primarily an observability platform for production systems and AI agents, not a developer tool for building, extending, or orchestrating AI workflows.
+      decision_evidence:
+        - Core product is OpenTelemetry-native observability with APM, RUM, and infra monitoring
+        - Focuses on production monitoring, cost control, and incident response rather than developer tooling
+        - Source-list context shows it as an MCP server, but MCP is a compatibility feature, not the product identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.964Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -68,26 +68,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:04.876Z"
       bytes: 35355
 insights:
-  summary: A deep learning framework for distributed training and inference of large AI models across heterogeneous GPU clusters.
-  why_it_matters: It provides the parallelism and scaling primitives needed to train and serve foundation models without requiring enterprise-scale budgets or proprietary infrastructure.
-  mental_damage: Yet another heroic infrastructure project promising to make multi-billion-parameter models accessible, right up until you realize your team's entire GPU budget would still only cover the README benchmarks.
+  summary: A framework for making large AI models cheaper, faster, and more accessible via distributed training and inference.
+  why_it_matters: Enables developers to train and deploy large-scale models efficiently with parallelism strategies like data, model, and pipeline parallelism.
+  mental_damage: Because nothing says 'accessible' like needing a PhD in distributed systems to use it.
   tags:
     - distributed-training
-    - deep-learning
+    - large-models
     - hpc
-    - inference
-    - foundation-models
+    - framework
+    - parallelism
   confidence: high
 curation:
-  status: excluded
-  reason: Excluded because it is a general deep learning and model-training framework for ML infrastructure, not a developer-facing AI tool, agent, IDE, or workflow product.
+  status: included
+  reason: Colossal-AI is a code-first framework for distributed training and inference of large models, fitting the developer-tooling scope as a reusable SDK/library.
   evidence:
     - "Repo description: 'Making large AI models cheaper, faster and more accessible'"
-    - Topics include deep-learning, distributed-computing, data-parallelism, foundation-models, and inference
-    - README focuses on large-scale model training benchmarks and GPU cloud promotion, not developer tooling workflows
+    - README emphasizes distributed training, parallelism, and benchmarking for large-scale models
+    - "Source-list context: listed under 'Frameworks for Training' in Awesome-LLMOps"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (41374) exceeded threshold (150)
@@ -103,12 +103,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:19.238Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9621c8233c0e02c52cf4014949ef4da06c448d23b149bb107773909262185073
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: Colossal-AI is a code-first framework for distributed training and inference of large models, fitting the developer-tooling scope as a reusable SDK/library.
+      decision_evidence:
+        - "Repo description: 'Making large AI models cheaper, faster and more accessible'"
+        - README emphasizes distributed training, parallelism, and benchmarking for large-scale models
+        - "Source-list context: listed under 'Frameworks for Training' in Awesome-LLMOps"
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is a code-first library for distributed training, not a multi-agent coordination platform.
+      review_reason: null
+      review_resume_lifecycle: null

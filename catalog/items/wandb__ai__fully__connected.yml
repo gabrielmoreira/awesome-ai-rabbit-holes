@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Fully Connected is a community-run publication and article hub from Weights & Biases for sharing ML news, papers, findings, and reports.
-  why_it_matters: It aggregates tutorial and research content across LLMs, agents, and辅助编程, helping developers discover practical resources without scraping Twitter.
-  mental_damage: Yet another beautifully curated corner of the internet that will make you feel behind on three new model architectures before you have even finished your morning standup.
+  summary: A community and publication hub by Weights & Biases where ML practitioners share news, papers, findings, and reports.
+  why_it_matters: It helps developers stay updated on the latest machine learning research and practical insights from the community.
+  mental_damage: Another feed to distract you from actually shipping code while convincing yourself it's professional development.
   tags:
     - ml-community
-    - tutorials
-    - research
-    - news
+    - publication
+    - news-feed
   confidence: high
 curation:
   status: excluded
-  reason: This is a publication and tutorial hub rather than developer-facing tooling, so it belongs in media feeds instead of a curated catalog of AI tools and infrastructure.
+  reason: This is a publication/feed focused on ML news and research, not a developer tool, framework, or workflow product.
   evidence:
-    - Scraped site describes it as a community for sharing news, papers, findings and reports.
-    - Source-list context places it under 教程 Tutorial in an LLM resources list.
-    - No evidence of a product, SDK, extension, or developer tool—only articles and tutorials.
+    - Described as a community for sharing ML news, papers, and findings
+    - Source-list context places it under 'Tutorial' in a general LLM resources list
+    - No indication of developer-tooling functionality or workflow integration
 placement:
   primary_category: null
   section: null
@@ -69,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:55.200Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d6ecd08d54f5d70a8cf5f07ae1907ebe5da0ac44ea2eed7b7ef8614f8ce772e3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a publication/feed focused on ML news and research, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - Described as a community for sharing ML news, papers, and findings
+        - Source-list context places it under 'Tutorial' in a general LLM resources list
+        - No indication of developer-tooling functionality or workflow integration
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

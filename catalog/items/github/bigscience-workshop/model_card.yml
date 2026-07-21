@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:11.882Z"
       bytes: 20550
 insights:
-  summary: A deprecated model card repository documenting the BLOOM large language model, now superseded by the live Hugging Face model page.
-  why_it_matters: It serves as a static reference for the architecture, training data, and carbon impact of one of the first large open-access multilingual models.
-  mental_damage: We have reached peak AI ecosystem maturity when the documentation for a 176-billion-parameter model is itself deprecated and redirected within months of creation.
+  summary: Deprecated model card repository for the BigScience BLOOM multilingual language model.
+  why_it_matters: It provides standardized documentation for a large open-access multilingual language model, which was a significant community effort in 2022.
+  mental_damage: The repo is deprecated, pointing to Hugging Face, because even model cards have a half-life shorter than a startup’s runway.
   tags:
-    - llm
-    - documentation
-    - bloom
     - model-card
+    - documentation
     - deprecated
+    - bloom
+    - multilingual
   confidence: high
 curation:
   status: excluded
-  reason: This is a static documentation artifact and model card for a research model, not a developer tool, agent, framework, or infrastructure component.
+  reason: This is a deprecated documentation artifact for a specific model, not a developer tool, framework, or workflow product.
   evidence:
-    - Repo explicitly states 'DEPRECATED. This is now live at https://huggingface.co/bigscience/bloom'.
-    - Content is a model card (architecture, training data, risks) rather than a usable tool or library.
-    - Last push was 2022-07-11, and it lives under the Awesome-LLMOps 'Model > Large Language Model' section, indicating a resource/documentation fit rather than tooling.
+    - README explicitly states 'DEPRECATED. This is now live at https://huggingface.co/bigscience/bloom'
+    - Repo is a model card (documentation) rather than a tool, library, or runtime
+    - No active development (last push in 2022, archived status not set but effectively superseded)
 placement:
   primary_category: null
   section: null
@@ -75,12 +75,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:04.951Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2a74f5b07b9e99fc182d7e1d37bef2b4b2a8af5524fb65d54362fb4e797c6f79
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a deprecated documentation artifact for a specific model, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - README explicitly states 'DEPRECATED. This is now live at https://huggingface.co/bigscience/bloom'
+        - Repo is a model card (documentation) rather than a tool, library, or runtime
+        - No active development (last push in 2022, archived status not set but effectively superseded)
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

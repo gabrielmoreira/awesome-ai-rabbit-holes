@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:12.235Z"
       bytes: 24037
 insights:
-  summary: An MCP server that exposes 130+ Apache Superset operations via the Model Context Protocol, letting AI assistants manage dashboards, charts, SQL Lab, and security configurations programmatically.
-  why_it_matters: Developers can now delegate entire BI workflows — from dataset creation to row-level security audits — to coding agents instead of clicking through Superset's UI.
-  mental_damage: We’ve finally reached the point where an AI agent can mismanage your dashboards and lock your analysts out of their own charts with 137 distinct tools.
+  summary: MCP server providing 137 tools for managing Apache Superset, including dashboards, charts, datasets, SQL Lab, and access control.
+  why_it_matters: Enables AI assistants to programmatically control and automate Superset instances, from dashboard management to security and permissions.
+  mental_damage: Now your AI can spin up dashboards faster than you can explain why the last one was wrong.
   tags:
     - mcp
-    - apache-superset
-    - bi
-    - data-platforms
-    - fastmcp
+    - superset
+    - data-visualization
+    - automation
+    - security
   confidence: high
 curation:
   status: included
-  reason: "MCP is the product identity: a full-featured MCP server for Apache Superset with 137 tools, multiple transports, and safety controls, exactly matching the Domain Servers section."
+  reason: MCP is the core product identity, and the server provides domain-specific tools for Apache Superset.
   evidence:
-    - Repo description explicitly states 'MCP server for managing Apache Superset — 128+ tools'
-    - README identifies it as 'A comprehensive Model Context Protocol (MCP) server for Apache Superset' with 137 tools
-    - Listed in awesome-mcp-servers under 'Server Implementations > Data Platforms'
+    - Repo description explicitly states it is an MCP server for Apache Superset
+    - README highlights 137 MCP tools for Superset management
+    - Listed in awesome-mcp-servers under Data Platforms
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -84,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:07.118Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2a57eefc3dcbe3f4829f82919d366f9be61c363c05e021e48f5d36b45ea16cfc
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the core product identity, and the server provides domain-specific tools for Apache Superset.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Apache Superset
+        - README highlights 137 MCP tools for Superset management
+        - Listed in awesome-mcp-servers under Data Platforms
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a standalone MCP server with domain-specific functionality, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

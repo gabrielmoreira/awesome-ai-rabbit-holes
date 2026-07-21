@@ -39,22 +39,23 @@ metadata:
       fetched_at: "2026-07-20T15:10:56.951Z"
       bytes: 8596
 insights:
-  summary: An MCP server that uses Playwright to capture structured accessibility snapshots, network activity, and console logs from web pages for LLM consumption.
-  why_it_matters: It gives coding agents and MCP clients the ability to visually and technically inspect live web pages without leaving the assistant context.
-  mental_damage: We have successfully abstracted the browser so your agent can hallucinate about a DOM it never actually saw.
+  summary: An MCP server that captures structured website snapshots for LLM consumption using Playwright.
+  why_it_matters: Enables LLMs to analyze web pages through accessibility trees, network monitoring, and console logs, making web content actionable for AI workflows.
+  mental_damage: Now your AI can read the web for you, which is great until you realize it still can't explain why your CSS is broken.
   tags:
     - mcp
+    - web-scraping
+    - llm-tools
     - playwright
-    - web-snapshot
-    - accessibility-tree
-  confidence: medium
+    - browser-automation
+  confidence: high
 curation:
   status: included
-  reason: The project is an MCP server providing web snapshot capabilities, and MCP is its core product identity rather than a compatibility footnote.
+  reason: This is a dedicated MCP server whose primary identity is providing web snapshot capabilities via the Model Context Protocol.
   evidence:
-    - "Repo description states: 'Take snapshot of websites and deliver it to LLM tools.'"
-    - README explicitly defines it as 'A Model Context Protocol (MCP) server that provides comprehensive website snapshot capabilities.'
-    - Seen in awesome-mcp-servers under 'Community Servers', reinforcing its MCP identity.
+    - Repo description explicitly states it is an MCP server for website snapshots
+    - README details MCP client integration (VS Code, Cursor, etc.) and server configuration
+    - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:55.087Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ecde51335921240f1796c674b9cabbae2fb99a49f07c535153b7ebecffd02aa2
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is providing web snapshot capabilities via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for website snapshots
+        - README details MCP client integration (VS Code, Cursor, etc.) and server configuration
+        - Listed in awesome-mcp-servers under Community Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

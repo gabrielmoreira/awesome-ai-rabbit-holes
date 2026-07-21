@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A visual, newsletter-based guide explaining how Mixture of Experts (MoE) architectures work in Large Language Models using over 50 diagrams and detailed component breakdowns.
-  why_it_matters: Helps developers understand the trade-offs between sparse and active parameters so they can choose and run MoE models like Mixtral 8x7B more effectively.
-  mental_damage: Yet another opportunity to feel intellectually inadequate because you understand transformers but still can't explain why your sparse model just dropped a token.
+  summary: A visual guide explaining Mixture of Experts (MoE) in Large Language Models through detailed illustrations and technical breakdowns.
+  why_it_matters: It helps developers understand the architectural and performance implications of MoE, a key technique in modern LLM design.
+  mental_damage: Finally, a 50-visualization deep dive to explain why your GPU fans sound like a jet engine when running Mixtral.
   tags:
-    - moe
+    - educational
     - llm-architecture
-    - education
-    - newsletter
+    - mixture-of-experts
+    - visual-guide
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational article and newsletter post explaining MoE architecture, not a developer tool, framework, or product.
+  reason: This is an educational article/newsletter post, not a developer tool, framework, or workflow product.
   evidence:
-    - Source is a Substack newsletter post titled 'A Visual Guide to Mixture of Experts (MoE)', not a software tool.
-    - Content is purely educational, containing over 50 visualizations explaining router mechanisms, expert capacity, and load balancing.
-    - Found in awesome-LLM-resources under 'Tips' section as a learning resource, not as a tool or SDK.
+    - The URL is a Substack newsletter post, not a repo or tool
+    - The content is a long-form explanation with visualizations, not a functional product
+    - Source-list context places it under 'Tips' in a resource summary, not as a tool
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:07.388Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9354efcdda41b3ea1a46151b13e4ac08c533f3c4e5d2c416e8bff69c99b8dcac
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational article/newsletter post, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - The URL is a Substack newsletter post, not a repo or tool
+        - The content is a long-form explanation with visualizations, not a functional product
+        - Source-list context places it under 'Tips' in a resource summary, not as a tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

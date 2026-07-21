@@ -46,22 +46,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:51.303Z"
       bytes: 4577
 insights:
-  summary: XGBoost is a scalable, portable, and distributed gradient boosting library (GBDT/GBM) supporting Python, R, Java, Scala, C++, and major distributed environments like Spark and Kubernetes.
-  why_it_matters: It remains a foundational, high-performance machine learning library for training and inference in data science workflows, though it predates the modern generative AI tooling wave.
-  mental_damage: Developers will spend hours debating tree parameters while the LLM agents they built on top quietly hallucinate the rest of the pipeline.
+  summary: Scalable, portable, and distributed gradient boosting (GBDT/GBM) library for Python, R, Java, Scala, C++, and more, running on single machines or distributed environments like Hadoop, Spark, and Dask.
+  why_it_matters: It provides a highly efficient and flexible implementation of gradient boosting algorithms, enabling developers to solve large-scale machine learning problems across diverse environments.
+  mental_damage: Because nothing says 'modern developer workflow' like a 2014 ML library that still outruns your latest AI hype.
   tags:
-    - gradient-boosting
     - machine-learning
-    - distributed-systems
-    - data-science
+    - gradient-boosting
+    - distributed-computing
+    - python
+    - sdk
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a traditional machine learning library for gradient boosting, not a developer-facing AI tool, agent, or infrastructure relevant to modern AI-assisted coding workflows.
+  reason: XGBoost is a general-purpose machine learning framework for training models, not a developer-tooling product focused on coding agents, workflows, or AI-assisted development.
   evidence:
-    - Repo description defines it as a 'distributed Gradient Boosting Library' for Python, R, Java, Scala, C++, not an AI coding or agent tool.
-    - README excerpt describes it as an optimized GBDT/GBM library for data science problems, with no mention of LLMs, coding agents, or AI developer tooling.
-    - Source list placement is under 'Training > Frameworks for Training' in Awesome-LLMOps, which reflects ML training infrastructure rather than the AI developer tooling scope of this catalog.
+    - Repo description explicitly identifies it as a gradient boosting library for ML, not a developer tool
+    - README emphasizes its role as a distributed ML algorithm implementation, not a coding assistant or workflow tool
+    - Source-list context places it under 'Training > Frameworks for Training', confirming its ML framework identity
 placement:
   primary_category: null
   section: null
@@ -80,12 +81,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:21.048Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bbb01a1a085209a443c86a9fca1a957a20acaefa6d54b82cb2f7c2116ca0145e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: XGBoost is a general-purpose machine learning framework for training models, not a developer-tooling product focused on coding agents, workflows, or AI-assisted development.
+      decision_evidence:
+        - Repo description explicitly identifies it as a gradient boosting library for ML, not a developer tool
+        - README emphasizes its role as a distributed ML algorithm implementation, not a coding assistant or workflow tool
+        - Source-list context places it under 'Training > Frameworks for Training', confirming its ML framework identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

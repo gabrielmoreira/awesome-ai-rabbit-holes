@@ -24,19 +24,35 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 10
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: Zandereins/schliff
+    html_url: https://github.com/Zandereins/schliff
+    created_at: "2026-03-19T18:50:02Z"
+    pushed_at: "2026-07-21T14:04:30Z"
+    description: Deterministic quality scorer for AI agent instruction files — 8-dimension scoring with security, multi-format (SKILL.md, CLAUDE.md, .cursorrules, AGENTS.md), anti-gaming detection, zero dependencies
+    homepage: https://pypi.org/project/schliff/
+    topics:
+      - agents-md
+      - ai-agents
+      - autoresearch
+      - claude
+      - claude-code
+      - cli
+      - code-quality
+      - cursorrules
+      - deterministic
+      - developer-tools
+      - linter
+      - multi-format
+      - python
+      - security-scoring
+    last_checked_at: "2026-07-21T15:21:25.240Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:25.240Z"
+      bytes: 17881
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +76,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:21:25.240Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

@@ -40,24 +40,25 @@ metadata:
       fetched_at: "2026-07-16T05:05:06.823Z"
       bytes: 4008
 insights:
-  summary: An MCP server that converts GPS coordinates into AI-ready location context, including place names, categories, and real-time opening hours.
-  why_it_matters: It gives coding assistants the ability to reason about the user's physical location, enabling context-aware responses without manual lookups.
-  mental_damage: Your agent can now tell you that the Walmart you're standing in front of closes in 47 minutes, which is somehow both impressive and a sign that we've successfully automated the last remaining scraps of human situational awareness.
+  summary: An MCP server that converts GPS coordinates into structured location context including place names, categories, and real-time opening hours.
+  why_it_matters: It enables AI agents to bridge the gap between raw coordinate data and actionable, human-readable location intelligence.
+  mental_damage: Your coding agent now knows exactly when the local coffee shop closes, so it can remind you that your deadline is approaching faster than your espresso is cooling.
   tags:
     - mcp
-    - location-services
-    - context-tooling
+    - location-intelligence
+    - agent-tools
+    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server specifically built to provide location context to MCP-compatible assistants, making it a clear fit for Domain Servers under MCP Servers & Tooling.
+  reason: The project's entire product identity is an MCP server designed to provide a specific capability to MCP-compatible assistants.
   evidence:
-    - "Repo description explicitly states: 'MCP server for GeoLabel — GPS coordinates to AI-ready location context'."
-    - README frames the tool as an integration for Claude Desktop, Claude Code, Hermes Agent, and OpenClaw via MCP configuration.
-    - Listed in awesome-mcp-servers under 'Location Services', confirming its identity as an MCP domain server.
+    - Repo description explicitly identifies as an 'MCP server'
+    - README focuses on integration with Claude Desktop, Claude Code, and Hermes via MCP
+    - Product provides a specific domain-specific tool (get_location_label) via the MCP protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -73,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:01:42.705Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:41df6b86c41eeda854223c46aedc3a8257a71b38d250d0c0737b4927f77c56d6
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's entire product identity is an MCP server designed to provide a specific capability to MCP-compatible assistants.
+      decision_evidence:
+        - Repo description explicitly identifies as an 'MCP server'
+        - README focuses on integration with Claude Desktop, Claude Code, and Hermes via MCP
+        - Product provides a specific domain-specific tool (get_location_label) via the MCP protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is built specifically as an MCP server implementation rather than a general plugin for a specific IDE.
+      review_reason: null
+      review_resume_lifecycle: null

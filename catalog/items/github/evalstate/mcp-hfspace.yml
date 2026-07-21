@@ -39,25 +39,26 @@ metadata:
       fetched_at: "2026-07-16T05:04:58.259Z"
       bytes: 10752
 insights:
-  summary: An MCP server that connects Claude Desktop and other MCP clients to Hugging Face Spaces, allowing AI assistants to invoke hosted models like FLUX.1 and Qwen for image generation, vision, and text-to-speech tasks.
-  why_it_matters: It bridges the gap between local coding assistants and the vast ecosystem of hosted Hugging Face models without requiring developers to build custom API integration layers.
-  mental_damage: We have successfully abstracted the act of prompting an image generator into a protocol that wraps a wrapper, ensuring we can generate cat pictures from Claude without ever leaving our IDE.
+  summary: An MCP server that allows Claude Desktop to interact with Hugging Face Spaces, including Gradio endpoints.
+  why_it_matters: It expands the capabilities of desktop AI assistants by bridging them to specialized models and tools hosted on Hugging Face.
+  mental_damage: One more bridge to cross in the increasingly fragmented architecture of model endpoints and host protocols.
   tags:
     - mcp
     - huggingface
-    - integrations
     - claude-desktop
+    - gradio
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server designed to give clients access to Hugging Face Spaces, fitting the MCP Servers & Tooling category's focus on protocol infrastructure.
+  reason: The project's primary identity is an MCP server designed to provide specific capabilities to a host assistant.
   evidence:
-    - "Repo description explicitly states: 'MCP Server to Use HuggingFace spaces'."
-    - Listed in 'awesome-mcp-servers' under the 'Community Servers' section.
-    - README demonstrates configuration via 'mcpServers' in 'claude_desktop_config.json'.
+    - Repo description explicitly identifies it as an 'MCP Server'
+    - README details configuration for Claude Desktop via MCP protocols
+    - Provides access to Hugging Face Spaces via the Model Context Protocol
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (388) exceeded threshold (150)
@@ -73,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:53:44.586Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d21d46af7f8350ef9d34b253a6ec906f4d22d6c9ae36c0925d8dfaeb67ddfa96
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server designed to provide specific capabilities to a host assistant.
+      decision_evidence:
+        - Repo description explicitly identifies it as an 'MCP Server'
+        - README details configuration for Claude Desktop via MCP protocols
+        - Provides access to Hugging Face Spaces via the Model Context Protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is specifically an MCP server rather than a general Claude extension.
+      review_reason: null
+      review_resume_lifecycle: null

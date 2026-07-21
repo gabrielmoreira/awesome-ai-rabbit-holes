@@ -36,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Julius is an AI agent platform that uses natural language to analyze, visualize, and model data across connected spreadsheets and databases.
-  why_it_matters: It allows developers and analysts to query and visualize data using prompts instead of writing SQL or Python, shortening the loop between a question and a chart.
-  mental_damage: Another helpful assistant that will gladly generate a 200-line Plotly chart before you realize you should have just opened the CSV in a terminal.
+  summary: Julius is an AI agent platform listed in awesome-ai-agents as a standalone autonomous agent.
+  why_it_matters: It offers developers a way to deploy or interact with AI agents for automated tasks, potentially streamlining workflows beyond manual coding.
+  mental_damage: Another agent that promises to do your work for you, while you spend hours configuring it to do your work for you.
   tags:
-    - data-analysis
-    - ai-agent
-    - visualization
-  confidence: high
+    - ai-agents
+    - automation
+    - workflow
+  confidence: low
 curation:
   status: excluded
-  reason: Julius is a general-purpose data analysis and visualization agent aimed at analysts and business users, not a developer-facing coding tool, IDE, extension, or infrastructure component.
+  reason: The project's identity as an 'AI autonomous agent' is too vague to confirm a developer-tooling fit, and no concrete evidence (README, repo description, or site context) clarifies its role in coding workflows.
   evidence:
-    - Seen in awesome-ai-agents under a general autonomous agents list, not a developer-tooling specific collection.
-    - No repo description, README, or site context provided that frames it as a coding assistant, IDE, extension, or dev infrastructure.
-    - Product identity centers on data analysis and visualization rather than repo editing, coding workflows, or developer tooling.
+    - No repo description, README, or site context provided to confirm developer-tooling relevance
+    - Listed in awesome-ai-agents under 'Julius' with no further details
+    - No signals (stars, dates, topics) to establish traction or activity
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   discover:
     status: done
@@ -68,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:51.112Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b30d2ab7c82e79a05fbc0cdacf5bdcc85174e213f079e9767d56b91209eec973
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project's identity as an 'AI autonomous agent' is too vague to confirm a developer-tooling fit, and no concrete evidence (README, repo description, or site context) clarifies its role in coding workflows.
+      decision_evidence:
+        - No repo description, README, or site context provided to confirm developer-tooling relevance
+        - Listed in awesome-ai-agents under 'Julius' with no further details
+        - No signals (stars, dates, topics) to establish traction or activity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null

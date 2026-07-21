@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:10.734Z"
       bytes: 2230
 insights:
-  summary: An official MCP server that lets AI assistants query and manage alerts and incidents within the ilert platform.
-  why_it_matters: It allows developers to incorporate incident response and alerting workflows directly into AI coding assistants without leaving the chat interface.
-  mental_damage: Your AI assistant can now page the on-call engineer while you're still trying to figure out why the build broke, completing the cycle of automated chaos.
+  summary: MCP server for ilert that enables AI assistants to access alerting and incident management resources.
+  why_it_matters: Developers can integrate ilert's incident management capabilities directly into their AI coding workflows via MCP.
+  mental_damage: Now your AI assistant can page you about the pager, recursively.
   tags:
     - mcp
     - incident-management
-    - ilert
-    - devops
+    - alerting
+    - integration
   confidence: high
 curation:
   status: included
-  reason: This is a dedicated MCP server for a specific domain (incident management), fitting perfectly into the MCP Servers & Tooling category as a 'Domain Server'.
+  reason: This is an MCP-first server providing domain-specific (ilert) integration, matching the MCP Servers & Tooling category identity.
   evidence:
-    - Repo description explicitly states 'MCP server for ilert'.
-    - README confirms it is 'The official Model Context Protocol (MCP) server for ilert'.
-    - Listed in awesome-mcp-servers under 'Official Servers'.
+    - Repo description explicitly identifies it as an MCP server for ilert
+    - README confirms it enables AI assistants to navigate ilert resources via MCP
+    - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:43.013Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e3e2a54a28f6daa6521cd4579dfa94cb0b6024c8d0b52ede4706a83883db1ffd
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server providing domain-specific (ilert) integration, matching the MCP Servers & Tooling category identity.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for ilert
+        - README confirms it enables AI assistants to navigate ilert resources via MCP
+        - Listed in awesome-mcp-servers under Official Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not just an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

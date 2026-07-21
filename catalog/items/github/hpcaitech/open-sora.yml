@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:05.028Z"
       bytes: 36451
 insights:
-  summary: Open-Sora is an open-source implementation of video generation models designed to democratize efficient, high-quality video production.
-  why_it_matters: It provides developers with the building blocks and training infrastructure to run or fine-tune Sora-like video generation capabilities locally or in their own infrastructure.
-  mental_damage: Just when you thought the ecosystem had enough 'open-source implementations of closed models' to fill a hard drive, we now have the infrastructure to turn terabytes of GPU time into 3-second clips of a dancing robot.
+  summary: Open-Sora is an open-source framework designed for efficient, high-quality video generation.
+  why_it_matters: It provides developers with a way to democratize video production through programmable, scalable generative models.
+  mental_damage: Because now you can programmatically generate high-fidelity video content just to fill the void in your automated social media presence.
   tags:
     - video-generation
-    - multimodal
     - open-source
-    - model-training
+    - multimodal
+    - generative-ai
   confidence: high
 curation:
   status: excluded
-  reason: This is a generative media model implementation and research project, not a developer tool for building software, coding agents, or developer infrastructure.
+  reason: The project is a generative model/research framework for video production rather than a developer-facing coding tool or workflow utility.
   evidence:
-    - Repo description explicitly states 'Democratizing Efficient Video Production for All', targeting content creation rather than code.
-    - README focuses on video generation models, gallery results, and links to a commercial AI video product (Video Ocean).
-    - Seen in source lists under '视频 Video > 模型' (Video Models), confirming its identity as a model/research resource, not a dev tool.
+    - Repo description focuses on 'democratizing efficient video production'
+    - The tool is fundamentally about multimodal video generation, not software engineering/coding workflows
+    - Does not assist in writing, testing, or debugging code
 placement:
   primary_category: null
   section: null
@@ -74,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:21.980Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:14272b9b4a05c3e63b16cfe5759483778e685bd6e647c0c01d35a5fafc8aad70
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a generative model/research framework for video production rather than a developer-facing coding tool or workflow utility.
+      decision_evidence:
+        - Repo description focuses on 'democratizing efficient video production'
+        - The tool is fundamentally about multimodal video generation, not software engineering/coding workflows
+        - Does not assist in writing, testing, or debugging code
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

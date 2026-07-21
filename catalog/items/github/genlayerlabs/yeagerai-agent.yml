@@ -40,22 +40,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:06.638Z"
       bytes: 2934
 insights:
-  summary: A discontinued LangChain-based CLI tool for interactively building, testing, and deploying AI agents with session-persistent memory.
-  why_it_matters: It offered an early, developer-friendly way to prototype LangChain agents directly from the terminal before the ecosystem standardized on newer orchestration frameworks.
-  mental_damage: A pioneering agent builder that courageously abandoned the field just in time to avoid the 2024 agent orchestration gold rush.
+  summary: An interactive CLI tool for building, prototyping, and deploying AI-powered agents using the LangChain ecosystem.
+  why_it_matters: It simplifies the agent prototyping lifecycle by providing session persistence and a quick-start CLI for testing tools and agents on-the-fly.
+  mental_damage: It promises a seamless journey from 'hello world' agent to deployed production, provided you don't mind the looming 'DISCONTINUED' warning.
   tags:
     - langchain
-    - cli
     - agent-builder
+    - cli
     - prototyping
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the project is explicitly discontinued and has seen minimal maintenance since mid-2024, making it a poor fit for an active developer tooling catalog.
+  reason: The project is explicitly marked as DISCONTINUED in the README, making it unsuitable for a curated catalog of active tools.
   evidence:
-    - "README banner clearly states 'WARNING: DISCONTINUED'."
-    - Last push was 2024-09-18, with no active development since.
-    - Appears in awesome-ai-agents, but primarily as a historical LangChain utility rather than a living tool.
+    - "README contains a prominent '[ WARNING: DISCONTINUED ]' banner"
+    - The tool's lifecycle has reached its end, making it unreliable for a developer's workflow
 placement:
   primary_category: null
   section: null
@@ -74,12 +73,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:01:22.174Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:397b08da491c5a3f100094f2dac03e3140560e395ae87c8cd8b22dfead5d607f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is explicitly marked as DISCONTINUED in the README, making it unsuitable for a curated catalog of active tools.
+      decision_evidence:
+        - "README contains a prominent '[ WARNING: DISCONTINUED ]' banner"
+        - The tool's lifecycle has reached its end, making it unreliable for a developer's workflow
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -24,19 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 7
+    forks: 3
+    license: AGPL-3.0
+    archived: false
+    full_name: tlennon-ie/neurodock
+    html_url: https://github.com/tlennon-ie/neurodock
+    created_at: "2026-05-15T19:16:02Z"
+    pushed_at: "2026-07-21T09:40:26Z"
+    description: A local-first cognitive substrate for neurodivergent professionals. Gives Claude memory, a sense of time, a translator for corporate ambiguity, and a guardrail that refuses to amplify rumination, hyperfocus, or sycophancy. MCP-native. No telemetry. AGPL-3.0-or-later. Self-ID sufficient — no diagnosis gating.
+    homepage: https://neurodock.org/
+    topics:
+      - accessibility
+      - adhd
+      - agpl
+      - anthropic
+      - audhd
+      - autism
+      - browser-extension
+      - claude
+      - claude-desktop
+      - cognitive-substrate
+      - dyslexia
+      - executive-function
+      - local-first
+      - mcp
+      - model-context-protocol
+      - neurodivergent
+      - neurodiversity
+      - ocd
+      - python
+      - typescript
+    last_checked_at: "2026-07-21T15:20:51.312Z"
+    readme:
+      fetched_at: "2026-07-21T15:20:51.312Z"
+      bytes: 20649
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +82,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:20:51.312Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:42.689Z"
       bytes: 2381
 insights:
-  summary: An MCP server that delivers real-time token prices from Uniswap V3 across Ethereum, Polygon, Arbitrum, and Optimism for AI agents and DeFi automation.
-  why_it_matters: It gives coding agents and MCP-compatible clients a standardized way to query on-chain token prices without writing custom Web3 logic.
-  mental_damage: Another hyper-specific MCP server appears, proving that no matter how niche the data, someone will wrap it so your agent can day-trade from a chat window.
+  summary: An MCP server that provides real-time token prices from Uniswap V3 across multiple blockchain networks.
+  why_it_matters: Developers building AI agents for DeFi can fetch live token prices programmatically without managing blockchain RPCs or price feeds themselves.
+  mental_damage: Now your AI agent can finally answer 'how much is my LINK worth?' without pretending it doesn’t know what Polygon is.
   tags:
-    - mcp
-    - uniswap
+    - mcp-server
     - defi
-    - price-feed
+    - uniswap
     - blockchain
-  confidence: medium
+    - price-feed
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing Uniswap V3 price data, making it a clear fit for the MCP Servers & Tooling category under Domain Servers.
+  reason: This is a domain-specific MCP server whose primary identity is serving Uniswap price data via the Model Context Protocol.
   evidence:
-    - Repo description states it is 'An MCP server that delivers real-time token prices from Uniswap V3 across multiple chains.'
-    - README includes MCP client configuration JSON and demonstrates MCP tool usage like getTokenPrice.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section.
+    - Repo description explicitly states it is an MCP server for Uniswap V3 token prices
+    - README details MCP-compatible client configuration and tool usage
+    - Core functionality is delivering real-time token prices across multiple chains
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:18.073Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:54c928a668ed31dfa9de355694b9a0b503509ca02c831fa4427c6df7d79f67f2
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a domain-specific MCP server whose primary identity is serving Uniswap price data via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Uniswap V3 token prices
+        - README details MCP-compatible client configuration and tool usage
+        - Core functionality is delivering real-time token prices across multiple chains
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server (protocol infrastructure) rather than a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

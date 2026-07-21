@@ -36,21 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Lobby AI is an autonomous agent that learns a user's workflow patterns and automates routine tasks, beginning with email management.
-  why_it_matters: It aims to offload repetitive operational workflows by observing user behavior, potentially reducing the manual overhead of daily administrative tasks.
-  mental_damage: "Just what we needed: an AI that watches how we handle email procrastination and then automates the excuses for us."
+  summary: Lobby is a SaaS platform offering a predictive email workflow agent that models user judgment and coordinates work without prompts.
+  why_it_matters: It aims to reduce cognitive load by automating email workflows across existing tools, targeting users overwhelmed by information and coordination demands.
+  mental_damage: Finally, an AI that will approve your emails so you can stop pretending to read them.
   tags:
     - email-automation
-    - workflow
-    - autonomous-agents
+    - workflow-agent
+    - cognitive-augmentation
+    - saas
   confidence: high
 curation:
   status: excluded
-  reason: The product focuses on end-user routine workflows and email automation rather than developer-facing coding assistance, infrastructure, or tooling.
+  reason: The product is a consumer/enterprise email workflow automation tool with no developer-tooling angle, despite its 'cognitive extension' framing.
   evidence:
-    - Scraped site description states it 'learns how you work and handle your routine workflow end-to-end, starting with your emails.'
-    - Source list context (awesome-ai-agents) notes the focus is on emails and routine workflows, not code.
-    - No evidence of repo editing, IDE integration, or developer infrastructure in the provided inputs.
+    - Primary product is a predictive email workflow agent for end-users
+    - No developer-facing features, SDKs, or integrations mentioned
+    - Source-list context describes it as a consumer agent, not a dev tool
 placement:
   primary_category: null
   section: null
@@ -68,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:06.329Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1b804b02cbb47d6d5e9e65a0d37cb28a02411917fc8d2e1f65fcc00b5ef5bb6c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a consumer/enterprise email workflow automation tool with no developer-tooling angle, despite its 'cognitive extension' framing.
+      decision_evidence:
+        - Primary product is a predictive email workflow agent for end-users
+        - No developer-facing features, SDKs, or integrations mentioned
+        - Source-list context describes it as a consumer agent, not a dev tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -47,23 +47,22 @@ metadata:
       fetched_at: "2026-07-20T05:16:59.337Z"
       bytes: 4829
 insights:
-  summary: EvalML is a Python AutoML library that automates the construction, optimization, and evaluation of end-to-end machine learning pipelines.
-  why_it_matters: It handles data quality checks, feature engineering, and model selection automatically, allowing developers to deploy sklearn-compatible pipelines without manual tuning.
-  mental_damage: You can now automate your way out of understanding why the model works, replacing the anxiety of tuning hyperparameters with the existential dread of AutoML black boxes.
+  summary: EvalML is an AutoML library in Python that builds, optimizes, and evaluates machine learning pipelines.
+  why_it_matters: It automates model selection, hyperparameter tuning, and feature engineering, reducing manual effort in ML workflows.
+  mental_damage: Finally, a library that lets you skip the part where you pretend to understand your model.
   tags:
     - automl
     - machine-learning
     - python
     - pipeline-optimization
-    - data-science
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a traditional AutoML library for data science workflows, lacking the AI-assisted coding, agent, or developer-infrastructure focus required for this catalog.
+  reason: EvalML is an AutoML library for traditional machine learning, not a developer-facing AI tool for code generation, assistance, or workflow automation.
   evidence:
-    - Repo description explicitly defines it as 'an AutoML library written in python' for machine learning pipelines, not code generation.
-    - README focuses on model selection, feature engineering, and data checks rather than assisting developers in writing or debugging software.
-    - Appears in Awesome-LLMOps under 'AutoML', but aligns with general ML infrastructure rather than the specific developer-tooling scope of this catalog.
+    - Repo description explicitly states it is an AutoML library for ML pipelines
+    - README emphasizes automation of ML tasks (feature engineering, model selection, hyperparameter tuning)
+    - Topics include machine-learning, AutoML, and optimization, not developer tooling or AI assistance
 placement:
   primary_category: null
   section: null
@@ -82,12 +81,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:28.549Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fd4b849aeaabd6bd1b6202de4481d4e20ce2198a9652fe5da954dbe4e2b8afee
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: EvalML is an AutoML library for traditional machine learning, not a developer-facing AI tool for code generation, assistance, or workflow automation.
+      decision_evidence:
+        - Repo description explicitly states it is an AutoML library for ML pipelines
+        - README emphasizes automation of ML tasks (feature engineering, model selection, hyperparameter tuning)
+        - Topics include machine-learning, AutoML, and optimization, not developer tooling or AI assistance
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

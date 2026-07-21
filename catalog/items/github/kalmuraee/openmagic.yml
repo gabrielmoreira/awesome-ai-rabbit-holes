@@ -59,23 +59,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:31.047Z"
       bytes: 14352
 insights:
-  summary: OpenMagic is a local Node.js reverse proxy that injects a floating AI coding toolbar into any running web app, allowing developers to select elements, capture context, and apply AI-generated code patches via their own LLM API keys.
-  why_it_matters: It lets frontend developers modify components and styles directly from the browser preview with real-time diffs and HMR, without needing an IDE plugin or account.
-  mental_damage: Finally, a way to let a language model edit your hot-reloading frontend from a floating toolbar, because apparently we needed to recreate the browser dev tools experience with an API key and a leap of faith.
+  summary: OpenMagic is an AI coding toolbar that injects into any web app via a reverse proxy, allowing developers to select elements, describe changes, review diffs, and edit source code directly.
+  why_it_matters: It enables in-context, visual editing of web apps without IDE plugins or framework-specific tooling, streamlining UI/UX tweaks and code modifications.
+  mental_damage: Finally, a way to edit your app while pretending you’re just browsing it.
   tags:
-    - ai-toolbar
+    - ai-coding
+    - web-development
+    - visual-editor
     - reverse-proxy
-    - frontend
-    - local-first
-    - hot-reload
-  confidence: medium
+    - diff-review
+  confidence: high
 curation:
   status: included
-  reason: The product acts as a primary coding assistant that directly reads code, captures UI context, plans changes, and edits files through a browser-based interface, fitting the coding-agents category over an extension.
+  reason: OpenMagic acts as a primary coding assistant that directly reads, plans, and edits code in a developer's repo via a visual interface, fitting the core definition of a coding agent.
   evidence:
-    - Repo description states it is an 'AI-powered coding toolbar' that modifies codebases in real-time.
-    - README describes a standalone local server that handles file I/O and LLM calls as the primary interface, not as a plugin to another assistant.
-    - Active as of 2026-05-02 with recent development, presented as an independent tool rather than an augmentation.
+    - Repo description explicitly states it is an 'AI coding toolbar' for editing real source code
+    - "README details workflow: select element, describe change, review diff, approve edits"
+    - Operates as a standalone assistant (not an extension for another tool) with its own reverse proxy and file I/O
 placement:
   primary_category: coding-agents
   section: Browser/Desktop/Computer-Use Agents
@@ -94,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:49.424Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e8dfd2d5133e304740e350c78ab3c1d6dc365df7a021f87a634bb8361109bd6c
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: OpenMagic acts as a primary coding assistant that directly reads, plans, and edits code in a developer's repo via a visual interface, fitting the core definition of a coding agent.
+      decision_evidence:
+        - Repo description explicitly states it is an 'AI coding toolbar' for editing real source code
+        - "README details workflow: select element, describe change, review diff, approve edits"
+        - Operates as a standalone assistant (not an extension for another tool) with its own reverse proxy and file I/O
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because OpenMagic is the primary assistant performing code edits, not merely augmenting another assistant or editor.
+      review_reason: null
+      review_resume_lifecycle: null

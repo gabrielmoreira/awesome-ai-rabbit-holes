@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:53.039Z"
       bytes: 5550
 insights:
-  summary: A JavaScript MCP server that exposes The Movie Database (TMDB) search, detail, and trending endpoints as tools for AI clients via the Model Context Protocol.
-  why_it_matters: It lets coding agents and MCP-compatible IDEs enrich conversations with structured movie, TV, and person data without hand-rolling TMDB API calls.
-  mental_damage: Another coffee-break MCP server that proves we’re building an integration economy before we’ve agreed on what the agents are actually supposed to be doing.
+  summary: An MCP server in JavaScript that exposes The Movie Database (TMDB) search and retrieval tools to AI clients via the Model Context Protocol.
+  why_it_matters: Developers can integrate TMDB data into AI workflows without custom API glue, using a standardized protocol.
+  mental_damage: Now your AI can argue about whether Dune Part Two was better than the first one, directly in your terminal.
   tags:
-    - mcp
+    - mcp-server
     - tmdb
     - javascript
-    - ai-integration
-    - entertainment-data
-  confidence: medium
+    - model-context-protocol
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose identity and README are entirely about exposing TMDB as MCP tools, fitting the MCP Servers & Tooling category.
+  reason: This is a domain-specific MCP server whose primary identity is providing TMDB data via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states it is 'an MCP (Model Context Protocol) server implemented in JavaScript' for TMDB data.
-    - README usage and integration sections show stdio-based MCP server setup and MCP tool call examples.
-    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture, reinforcing its MCP server identity.
+    - Repo description explicitly states it is an MCP server for TMDB
+    - README details MCP tool calls and integration steps
+    - Already listed in awesome-mcp-servers under Server Implementations > Art & Culture
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:38.940Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3574267f1ef8a120f1b1d1307bfa58f6a2e5ab014c67b8430203263b2805b0d4
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a domain-specific MCP server whose primary identity is providing TMDB data via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for TMDB
+        - README details MCP tool calls and integration steps
+        - Already listed in awesome-mcp-servers under Server Implementations > Art & Culture
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

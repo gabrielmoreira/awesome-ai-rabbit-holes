@@ -1,0 +1,108 @@
+id: second__dev
+kind: website
+name: Second
+canonical_url: https://second.dev
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__second__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Second
+        anchor_text: Second
+        extracted_url: https://second.dev
+        surrounding_text: "## [Second](https://www.second.dev/)"
+        confidence: high
+    - id: discovery__www__second__dev__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Second
+        anchor_text: Second
+        extracted_url: https://www.second.dev
+        surrounding_text: "## [Second](https://www.second.dev/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Second is an AI agent platform listed in awesome-ai-agents as an autonomous agent.
+  why_it_matters: It offers developers a way to deploy or interact with AI agents for automated workflows.
+  mental_damage: Another agent platform promising autonomy, because apparently we haven’t automated enough yet.
+  tags:
+    - ai-agents
+    - automation
+    - workflow
+  confidence: medium
+curation:
+  status: included
+  reason: The product is positioned as a primary coding assistant that autonomously handles repo work and shipping tasks, fitting the core definition of a coding agent.
+  evidence:
+    - Listed in 'awesome-ai-agents' under the purpose 'A list of AI autonomous agents'.
+    - The domain 'second.dev' implies a developer-focused tool rather than a generic consumer AI product.
+placement:
+  primary_category: coding-agents
+  section: null
+lifecycle:
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:37:14.113Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:937fcee1c82313a96b510a067da0be79d2bcddf11783570d8737e21177a2e775
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: The product is identified as an autonomous agent in a curated list, aligning with multi-agent coordination or platform use cases rather than a single coding assistant or extension.
+      decision_evidence:
+        - Listed in awesome-ai-agents under 'Second' as an AI autonomous agent
+        - No repo description or README to contradict the agent platform identity
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because the source-list context frames it as an autonomous agent platform rather than a primary coding assistant.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.970Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -39,17 +39,19 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 17068
-    forks: 1781
+    stars: 28976
+    forks: 2755
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: topoteretes/cognee
+    html_url: https://github.com/topoteretes/cognee
     created_at: "2023-08-16T16:16:33Z"
-    pushed_at: "2026-05-06T20:16:30Z"
-    description: Memory control plane for AI Agents in 6 lines of code
+    pushed_at: "2026-07-21T13:22:03Z"
+    description: Cognee is the open-source AI memory platform for agents. Give your AI agents persistent long-term memory across sessions with a self-hosted knowledge graph engine.
     homepage: https://www.cognee.ai
     topics:
+      - agent-memory
+      - agent-skills
       - ai
       - ai-agents
       - ai-memory
@@ -61,19 +63,16 @@ metadata:
       - good-first-pr
       - graph-database
       - graph-rag
-      - graphrag
       - help-wanted
       - knowledge
       - knowledge-graph
-      - neo4j
+      - memory-management
       - open-source
-      - openai
-      - rag
       - vector-database
-    last_checked_at: "2026-05-06T22:46:53.522Z"
+    last_checked_at: "2026-07-21T15:20:53.333Z"
     readme:
-      fetched_at: "2026-05-06T22:46:53.522Z"
-      bytes: 12733
+      fetched_at: "2026-07-21T15:20:53.333Z"
+      bytes: 18853
 insights:
   summary: Cognee is an open-source memory control plane that combines embeddings, knowledge graphs, and cognitive science approaches to give AI agents persistent, searchable memory of data, decisions, and workflows.
   why_it_matters: It provides developers with unified ingestion and retrieval infrastructure so agents can maintain context, learn from feedback, and share knowledge across sessions instead of resetting every run.
@@ -106,16 +105,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:53.522Z"
+    updated_at: "2026-07-21T15:20:53.333Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

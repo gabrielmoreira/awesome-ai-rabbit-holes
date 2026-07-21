@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:08.138Z"
       bytes: 16470
 insights:
-  summary: A Python CLI and MCP server that lets developers control smart TVs, stream media by name, and manage multi-room setups using natural language commands.
-  why_it_matters: It provides an MCP interface and CLI skills that allow coding agents to control physical and streaming media environments without leaving the terminal.
-  mental_damage: "We have finally achieved the platonic ideal of modern development: a 2am coding session where the AI writes the code and then changes the TV channel so you don't have to look away from the stack trace."
+  summary: A CLI tool and MCP server to control smart TVs (LG, Samsung, Roku, Android) with natural language commands, including platform-specific content playback.
+  why_it_matters: Lets developers integrate TV control into their workflows or AI agent ecosystems via a programmatic interface, reducing friction for home automation or multi-device coordination.
+  mental_damage: Now your AI agent can binge-watch Netflix while you debug at 3 AM, because why should you have all the fun.
   tags:
-    - mcp-server
     - cli
+    - mcp-server
     - home-automation
     - smart-tv
-    - developer-tools
+    - natural-language
   confidence: high
 curation:
   status: included
-  reason: The primary product identity is a domain-specific MCP server (21 tools) for controlling TVs, listed in the awesome-mcp-servers directory under home automation.
+  reason: MCP is the primary product identity here, as evidenced by the explicit MCP server branding, 21 MCP tools, and integration with MCP clients like Claude Code.
   evidence:
-    - Repo description explicitly states 'MCP server' for controlling smart TVs via natural language.
-    - README highlights 'Also available as an MCP server (21 tools) for Claude Code, Codex...' as a core feature.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Home Automation'.
+    - Repo description explicitly lists 'MCP server' as a core identity
+    - README highlights MCP tools (21) and MCP client compatibility (Claude Code, Codex, Antigravity)
+    - Listed in awesome-mcp-servers, reinforcing MCP-first identity
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:12.947Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:475d6137d872d5edd43fc834368a1e79570dc076544a7097330e1ccb1a478e0e
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the primary product identity here, as evidenced by the explicit MCP server branding, 21 MCP tools, and integration with MCP clients like Claude Code.
+      decision_evidence:
+        - Repo description explicitly lists 'MCP server' as a core identity
+        - README highlights MCP tools (21) and MCP client compatibility (Claude Code, Codex, Antigravity)
+        - Listed in awesome-mcp-servers, reinforcing MCP-first identity
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server with domain-specific tools, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

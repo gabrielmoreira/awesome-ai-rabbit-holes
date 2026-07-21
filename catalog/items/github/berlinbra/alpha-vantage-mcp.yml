@@ -55,22 +55,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:10.738Z"
       bytes: 19989
 insights:
-  summary: An MCP server that exposes Alpha Vantage financial market data—including stock quotes, crypto rates, options chains, and earnings calendars—to compatible AI assistants like Claude Desktop.
-  why_it_matters: It gives local or desktop coding agents direct, structured access to real-time financial data without requiring developers to hand-craft API wrappers or manage rate limiting themselves.
-  mental_damage: Your agent can now explain why your portfolio is down while it silently burns your API quota and your Alpha Vantage free-tier limit in the same breath.
+  summary: An MCP server that provides real-time financial market data via the Alpha Vantage API.
+  why_it_matters: Developers can integrate live stock, crypto, options, and ETF data into their MCP-enabled workflows without building custom API clients.
+  mental_damage: Now your coding agent can day-trade while it refactors your legacy code.
   tags:
     - mcp
     - finance
-    - data-access
+    - api
+    - data
     - alpha-vantage
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing domain-specific financial data access, which aligns directly with the MCP Servers & Tooling category’s domain servers section.
+  reason: This is a dedicated MCP server whose primary identity is exposing financial data via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states 'MCP Server for Alpha Advantage API'.
-    - README details a server implementing the Model Context Protocol to surface stock, crypto, ETF, and earnings data.
-    - Included in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections.
+    - Repo description explicitly states it is an MCP Server for Alpha Vantage API
+    - README details MCP server implementation with standardized interface for financial data
+    - Listed in multiple MCP server directories under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:42.531Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5943c1190b67ee715335681322e0806646d7c4a54f93d998c1a9890c1948ac57
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is exposing financial data via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP Server for Alpha Vantage API
+        - README details MCP server implementation with standardized interface for financial data
+        - Listed in multiple MCP server directories under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

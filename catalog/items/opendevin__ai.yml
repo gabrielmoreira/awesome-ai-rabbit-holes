@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: OpenDevin is a platform for running AI agents that can write code, use the command line, and browse the web to complete software development tasks autonomously.
-  why_it_matters: It provides a sandboxed environment where developers can delegate multi-step engineering tasks to an agent capable of interacting with a terminal and browser.
-  mental_damage: Finally, an agent complex enough to open a browser tab, get distracted by a Stack Overflow thread, and silently abandon your feature branch.
+  summary: OpenDevin is an AI-powered coding agent that autonomously plans, writes, and debugs code in a sandboxed environment.
+  why_it_matters: It allows developers to delegate end-to-end coding tasks to an autonomous agent that can handle complex workflows without constant human oversight.
+  mental_damage: Finally, an AI that can write code while you stare at your terminal wondering if it’s actually working or just generating infinite loops.
   tags:
-    - coding-agent
-    - autonomous
-    - sandbox
-  confidence: medium
+    - autonomous-coding
+    - sandboxed-agents
+    - ai-development
+  confidence: high
 curation:
   status: included
-  reason: The tool is a standalone coding assistant designed to autonomously plan, write, and test code using a sandboxed environment with browser and CLI access.
+  reason: OpenDevin is a standalone coding agent that directly plans, writes, and debugs code, fitting the primary identity of a coding assistant rather than an extension or integration.
   evidence:
-    - Seen in awesome-ai-coding-tools under the 'Coding Agents' section.
-    - Project identity is a developer-facing coding assistant that operates across repo, CLI, and browser workflows.
+    - Seen in source lists under 'Coding Agents' (awesome-ai-coding-tools)
+    - Product identity aligns with autonomous coding agents like Claude Code or OpenCode
 placement:
   primary_category: coding-agents
-  section: Browser/Desktop/Computer-Use Agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
@@ -67,12 +67,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:19.920Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:be74600a91ddc8cd1831688e3949a669be2d999a1af77961e71295c83fce48a3
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: OpenDevin is a standalone coding agent that directly plans, writes, and debugs code, fitting the primary identity of a coding assistant rather than an extension or integration.
+      decision_evidence:
+        - Seen in source lists under 'Coding Agents' (awesome-ai-coding-tools)
+        - Product identity aligns with autonomous coding agents like Claude Code or OpenCode
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because OpenDevin is a primary coding assistant, not an add-on for another tool.
+      review_reason: null
+      review_resume_lifecycle: null

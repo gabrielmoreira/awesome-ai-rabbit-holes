@@ -39,25 +39,25 @@ metadata:
       fetched_at: "2026-07-16T05:05:01.618Z"
       bytes: 1990
 insights:
-  summary: An MCP server that lets AI agents securely check wallet balances and pay for offers via the Fewsats API.
-  why_it_matters: It gives coding agents a standardized way to handle payments and wallet operations without developers building custom payment integrations.
-  mental_damage: "We have finally closed the loop: your agent can now autonomously drain your wallet while you debug why it bought the wrong API tier."
+  summary: An MCP server that integrates Fewsats to allow AI agents to securely perform financial transactions and check wallet balances.
+  why_it_matters: It enables AI agents to move beyond mere text generation by providing them with the specialized tools needed to execute secure payments and manage financial state.
+  mental_damage: The moment an LLM decides it's time to 'optimize' your wallet balance by spending your entire credit limit.
   tags:
     - mcp
-    - payments
     - agent-tooling
-    - fewsats
-  confidence: medium
+    - payments
+    - ai-agents
+  confidence: high
 curation:
   status: included
-  reason: MCP is the product identity; it is a standalone MCP server for payments, listed in the official awesome-mcp-servers directory under 'Official Servers'.
+  reason: The tool's identity is explicitly an MCP server designed to provide specific financial capabilities to host AI models.
   evidence:
-    - "Repo description: 'Fewsats MCP server'"
-    - "README: 'This MCP server integrates with Fewsats and allows AI Agents to purchase anything in a secure way.'"
-    - Listed in awesome-mcp-servers under Official Servers section
+    - Repo description explicitly defines it as an 'MCP server'
+    - README details specific tools (balance, pay_offer) for agent execution
+    - Provides direct installation instructions for Claude Desktop MCP configuration
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:56:31.730Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c9a9a83daa2ff749153df843855576c8900a268bf084897769d2d5123f9b2a0d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's identity is explicitly an MCP server designed to provide specific financial capabilities to host AI models.
+      decision_evidence:
+        - Repo description explicitly defines it as an 'MCP server'
+        - README details specific tools (balance, pay_offer) for agent execution
+        - Provides direct installation instructions for Claude Desktop MCP configuration
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol-specific server rather than a host-side integration or plugin for an editor.
+      review_reason: null
+      review_resume_lifecycle: null

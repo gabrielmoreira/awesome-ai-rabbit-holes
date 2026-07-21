@@ -43,22 +43,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:17.156Z"
       bytes: 11888
 insights:
-  summary: VibeDoc is an AI tool that transforms product ideas into complete development plans, architecture diagrams, and ready-to-use coding prompts for assistants like Claude and Cursor in under three minutes.
-  why_it_matters: It automates the tedious early-stage planning and prompt engineering work, letting developers move from a vague idea to actionable, assistant-ready specs and architecture docs almost instantly.
-  mental_damage: We have successfully optimized the time between 'having an idea' and 'having a 10,000-word document the AI will ignore' down to under three minutes.
+  summary: VibeDoc is an AI tool that transforms product ideas into complete development plans, including technical documentation, architecture diagrams, and AI coding prompts.
+  why_it_matters: It accelerates the planning phase for developers, product managers, and entrepreneurs by generating structured development plans and ready-to-use AI coding prompts in minutes.
+  mental_damage: Now you can spend 180 seconds generating a 10,000-word spec instead of 180 hours writing it yourself.
   tags:
-    - spec-driven
-    - planning
+    - spec-driven-development
+    - ai-planning
     - prompt-generation
-    - architecture
+    - architecture-diagrams
   confidence: high
 curation:
   status: included
-  reason: The tool centers on generating structured specifications, technical documentation, and task breakdowns that drive implementation, fitting the spec-first loop definition perfectly.
+  reason: VibeDoc's core value is generating structured development plans and specs from ideas, which aligns with spec-driven development workflows.
   evidence:
-    - Repo description states it 'Transform[s] ideas into complete development plans with AI coding prompts'.
-    - README outlines features for generating Product Overviews, Technical Solutions, Development Plans, and AI Coding Prompts for Cursor/Claude.
-    - Explicitly listed in the 'awesome-spec-driven-development' list under the 'Workflow Management' section.
+    - Repo description explicitly positions it as a tool for transforming ideas into development plans with AI prompts
+    - README highlights generation of product overviews, technical solutions, development plans, and deployment strategies
+    - Seen in awesome-spec-driven-development under Workflow Management
 placement:
   primary_category: spec-driven-development
   section: Planning / Task Decomposition
@@ -77,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:28.817Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2bb6fc40dc1e9891c03540feb34d931100a539f84340199e926e7f3742789008
+      proposed_primary_category: spec-driven-development
+      disagreement: false
+      decision_reason: VibeDoc's core value is generating structured development plans and specs from ideas, which aligns with spec-driven development workflows.
+      decision_evidence:
+        - Repo description explicitly positions it as a tool for transforming ideas into development plans with AI prompts
+        - README highlights generation of product overviews, technical solutions, development plans, and deployment strategies
+        - Seen in awesome-spec-driven-development under Workflow Management
+      category_candidates:
+        - spec-driven-development
+        - app-builders
+      contrastive_reason: Choose spec-driven-development over app-builders because the primary output is structured development plans and specs rather than deployed apps or scaffolds.
+      review_reason: null
+      review_resume_lifecycle: null

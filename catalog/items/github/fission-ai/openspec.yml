@@ -49,22 +49,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:02.050Z"
       bytes: 10638
 insights:
-  summary: OpenSpec is a spec-driven development tool that adds a lightweight artifact layer (proposals, specs, design, tasks) for planning and validating features before delegating implementation to AI coding assistants.
-  why_it_matters: It forces human and AI to agree on structured specs and task checklists before code is written, reducing unpredictable results when using assistants across existing repos.
-  mental_damage: You now have a pristine folder of proposal.md, specs, and tasks.md documenting the feature that your AI assistant will still confidently misinterpret on the first three tries.
+  summary: Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation.
+  why_it_matters: Provides a predictable workflow for aligning humans and AI on requirements before writing code, reducing vague prompts and rework.
+  mental_damage: Another spec format to learn while your AI still ignores the docs and ships half-baked features anyway.
   tags:
-    - spec-driven
-    - planning
-    - context-engineering
-    - ai-workflow
+    - spec-driven-development
+    - ai-coding-assistants
+    - workflow
   confidence: high
 curation:
   status: included
-  reason: The product centers on a spec-first loop where structured artifacts (proposal, specs, design, tasks) drive planning, execution, and archival rather than being a standalone coding assistant or thin extension.
+  reason: OpenSpec is a spec-first tool that drives AI-assisted implementation through structured artifacts like proposals, specs, design, and tasks, matching the core definition of spec-driven development tooling.
   evidence:
-    - "Repo description: 'Spec-driven development (SDD) for AI coding assistants.'"
-    - README demo shows /opsx:propose → specs/tasks.md → /opsx:apply → /opsx:archive as the core workflow.
-    - Source list placement in awesome-spec-driven-development under 'Specification Tools' aligns with its primary identity.
+    - "Repo description: 'Spec-driven development (SDD) for AI coding assistants'"
+    - README shows slash commands like /opsx:propose generating proposal.md, specs/, design.md, tasks.md
+    - Philosophy emphasizes 'fluid not rigid', 'iterative not waterfall', and 'agree before you build'
 placement:
   primary_category: spec-driven-development
   section: Spec-First Environments
@@ -83,12 +82,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:56:56.922Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:47a81b53a27aadec1f469b8c7b84bac80544e7b157494113f330de265c2fe806
+      proposed_primary_category: spec-driven-development
+      disagreement: false
+      decision_reason: OpenSpec is a spec-first tool that drives AI-assisted implementation through structured artifacts like proposals, specs, design, and tasks, matching the core definition of spec-driven development tooling.
+      decision_evidence:
+        - "Repo description: 'Spec-driven development (SDD) for AI coding assistants'"
+        - README shows slash commands like /opsx:propose generating proposal.md, specs/, design.md, tasks.md
+        - Philosophy emphasizes 'fluid not rigid', 'iterative not waterfall', and 'agree before you build'
+      category_candidates:
+        - spec-driven-development
+        - coding-agents
+      contrastive_reason: Choose spec-driven-development over coding-agents because OpenSpec's primary artifact is the spec workflow (proposals, specs, design, tasks) rather than directly writing, editing, or debugging code itself.
+      review_reason: null
+      review_resume_lifecycle: null

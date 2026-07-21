@@ -84,11 +84,38 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
+    updated_at: "2026-07-21T15:42:49.324Z"
     cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__civai-technologies__cursor-agent: ```json
+        {
+          "summary": "A Python-based AI agent that replicates Cursor-style coding assistance via function calling, file operations, and terminal command execution, supporting Claude, OpenAI, and local Ollama models.",
+          "why_it_matters": "It gives developers a self-hosted, model-flexible terminal agent for generating, editing, and executing code across projects without tying them to a specific editor.",
+          "mental_damage": "Replicates a commercial IDE's headline agent as a pip-installable package, proving that developer independence now means spending API credits to avoid a subscription fee.",
+          "tags": [
+            "coding-agent",
+            "terminal",
+            "python",
+            "multi-model",
+            "open-source"
+          ],
+          "should_include": true,
+          "primary_category": "coding-agents",
+          "section": "Terminal & CLI Agents",
+          "decision_reason": "The repo is an active, open-source terminal-native coding agent that directly handles file edits, code generation, and command execution, matching the coding-agents category definition.",
+          "decision_evidence": [
+            "Repo description explicitly states it is an AI agent replicating Cursor's coding assistant capabilities with function calling and code generation.",
+            "README lists direct file operations, terminal command execution, and codebase search as core built-in agent tools rather than extension hooks.",
+            "Curated in awesome-cli-coding-agents under Terminal-native coding agents > Open Source.",
+            "Active development with last push in July 2025 and MIT license."
+          ],
+          "category_candidates": [
+            "coding-agents",
+            "ai-frameworks"
+          ],
+          "contrastive_reason": "Choose coding-agents over ai-frameworks because the product is marketed and used as a primary coding assistant with built-in file, search, and terminal tools rather than as code
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

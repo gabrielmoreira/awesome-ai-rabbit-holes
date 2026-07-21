@@ -1,0 +1,109 @@
+id: cykel__ai
+kind: website
+name: Cykel
+canonical_url: https://cykel.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__cykel__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Cykel
+        anchor_text: Cykel
+        extracted_url: https://cykel.ai
+        surrounding_text: "## [Cykel](https://www.cykel.ai/)"
+        confidence: high
+    - id: discovery__www__cykel__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Cykel
+        anchor_text: Cykel
+        extracted_url: https://www.cykel.ai
+        surrounding_text: "## [Cykel](https://www.cykel.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A SaaS platform offering AI 'digital workers' for recruitment, sales, and research tasks.
+  why_it_matters: It automates repetitive business workflows like candidate sourcing, sales outreach, and market research for non-developer teams.
+  mental_damage: Now your sales team can outsource their LinkedIn spam to an AI that works 24/7, because human dignity was the real bottleneck.
+  tags:
+    - ai-agents
+    - business-automation
+    - saas
+    - vertical-agents
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a business-focused SaaS platform for vertical agents (recruitment, sales, research) rather than a developer-tooling product.
+  evidence:
+    - Site describes 'digital workers' for recruitment, sales, and research (Lucy, Eve, Samson)
+    - Target audience is business teams (talent, sales, advisory) not developers
+    - No developer workflow, code editing, or technical integration as primary value
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:33:21.873Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a7da48dd6c4eced8a5b0d503e9529fa0fc60895fcd6aea1a8d29531c1af375c5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a business-focused SaaS platform for vertical agents (recruitment, sales, research) rather than a developer-tooling product.
+      decision_evidence:
+        - Site describes 'digital workers' for recruitment, sales, and research (Lucy, Eve, Samson)
+        - Target audience is business teams (talent, sales, advisory) not developers
+        - No developer workflow, code editing, or technical integration as primary value
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.964Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

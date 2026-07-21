@@ -42,26 +42,24 @@ metadata:
       fetched_at: "2026-07-16T05:05:22.143Z"
       bytes: 14987
 insights:
-  summary: JARVIS (HuggingGPT) is a research system that uses an LLM as a controller to decompose complex AI tasks and route them to expert models hosted on Hugging Face.
-  why_it_matters: It demonstrates a multi-agent orchestration pattern where a planning LLM dynamically selects and executes specialized models to solve tasks beyond single-model capabilities.
-  mental_damage: Yet another framework promising AGI that requires 284GB of disk space, 24GB of VRAM, and the unwavering belief that your local GPU can actually serve a dozen expert models simultaneously.
+  summary: JARVIS (HuggingGPT) is a research system that uses an LLM as a controller to plan tasks and invoke expert models from Hugging Face Hub for execution.
+  why_it_matters: It demonstrates a framework for composing specialized AI models via language models, showing how developers can chain ML capabilities for complex tasks without training new models.
+  mental_damage: It turns every AI task into a model-hunting expedition across Hugging Face, where your LLM becomes a travel agent for neural networks.
   tags:
-    - multi-agent
-    - llm-orchestration
-    - huggingface
+    - llm-agents
+    - model-composition
     - research
-    - microsoft
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: Exclude because JARVIS is a research prototype for general AI task automation (image, audio, video models) rather than a developer-facing tool for coding, repo work, or developer infrastructure.
+  status: included
+  reason: JARVIS functions as a workbench that coordinates multiple expert models as collaborative executors under an LLM controller, making agent orchestration the best fit despite its research origins.
   evidence:
-    - Repo description explicitly states it is 'a system to connect LLMs with ML community' rather than a coding assistant.
-    - README overview describes routing to Hugging Face models for general AI tasks (image-to-text, stable diffusion, etc.), not code editing or repo workflows.
-    - Topics listed are deep-learning, platform, and pytorch, with no developer-tooling or coding-agent signals.
+    - README describes a system with 'an LLM as the controller' and 'numerous expert models as collaborative executors' from Hugging Face Hub
+    - "Workflow consists of four stages: task planning, model selection, task execution, and response generation"
+    - Listed in awesome-ai-agents under the JARVIS section as an AI autonomous agent
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (24693) exceeded threshold (150)
@@ -77,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:20:30.183Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:659cccf6e42bce619660cffbaaa7b96a5d6df77912161a46cfce151d8e8644cb
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: JARVIS functions as a workbench that coordinates multiple expert models as collaborative executors under an LLM controller, making agent orchestration the best fit despite its research origins.
+      decision_evidence:
+        - README describes a system with 'an LLM as the controller' and 'numerous expert models as collaborative executors' from Hugging Face Hub
+        - "Workflow consists of four stages: task planning, model selection, task execution, and response generation"
+        - Listed in awesome-ai-agents under the JARVIS section as an AI autonomous agent
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because JARVIS coordinates multiple AI models as executors rather than directly planning, writing, or debugging code in a developer's repository.
+      review_reason: null
+      review_resume_lifecycle: null

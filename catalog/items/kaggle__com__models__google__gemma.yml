@@ -1,0 +1,111 @@
+id: kaggle__com__models__google__gemma
+kind: website
+name: Gemma
+canonical_url: https://kaggle.com/models/google/gemma
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__kaggle__com__models__google__gemma__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Large Language Model
+        anchor_text: Gemma
+        extracted_url: https://kaggle.com/models/google/gemma
+        surrounding_text: "| [Gemma](https://www.kaggle.com/models/google/gemma)                     | Gemma is a family of lightweight, open models built from the research and technology that Google used to create the Gemini models.                                                         |                                                                                                           |"
+        confidence: high
+    - id: discovery__www__kaggle__com__models__google__gemma__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Model
+          - Large Language Model
+        anchor_text: Gemma
+        extracted_url: https://www.kaggle.com/models/google/gemma
+        surrounding_text: "| [Gemma](https://www.kaggle.com/models/google/gemma)                     | Gemma is a family of lightweight, open models built from the research and technology that Google used to create the Gemini models.                                                         |                                                                                                           |"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Gemma is a family of lightweight, open models derived from Google's research and technology used to create the Gemini models.
+  why_it_matters: It provides developers with accessible, open-weight models for experimentation and integration into applications.
+  mental_damage: Another model family to benchmark against, because your existing 17 local LLMs weren't enough.
+  tags:
+    - open-models
+    - google
+    - lightweight
+    - gemini-derived
+  confidence: high
+curation:
+  status: excluded
+  reason: Gemma is a raw model family, not a developer tool, framework, or workflow product.
+  evidence:
+    - Described as a family of lightweight, open models
+    - No evidence of developer-tooling, SDK, or runtime identity
+    - Listed in Awesome-LLMOps under 'Model > Large Language Model' (not tooling)
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:35:07.667Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7327d6a2657af823c2b8e0178c9d0cf93a8add62cabd7f2fdf4582924d534363
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Gemma is a raw model family, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - Described as a family of lightweight, open models
+        - No evidence of developer-tooling, SDK, or runtime identity
+        - Listed in Awesome-LLMOps under 'Model > Large Language Model' (not tooling)
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.966Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

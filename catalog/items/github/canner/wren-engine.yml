@@ -56,23 +56,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:17.702Z"
       bytes: 11391
 insights:
-  summary: An archived open-source semantic context engine for AI agents that models business definitions, metrics, and relationships to provide governed data context across 15+ data sources, built on Rust and Apache DataFusion.
-  why_it_matters: It gives developers a way to stop feeding raw SQL tables to agents and instead model trusted business logic, metrics, and governance so data agents can reason over shared company context.
-  mental_damage: Yet another reminder that your agents do not actually understand what 'net revenue' means, and fixing that now requires learning a semantic layer, MDL, and an archived engine merged into a larger repo.
+  summary: An open-source context engine for AI agents that turns business data into agent-usable semantic context.
+  why_it_matters: It solves the gap where agents can connect to databases but lack business definitions, metrics, and governance context to answer data questions correctly.
+  mental_damage: Finally, an engine that lets your AI agent understand 'net revenue' without you having to explain your entire company’s data model in the prompt.
   tags:
     - context-engineering
-    - semantic-layer
     - mcp
-    - data-agents
-    - archived
+    - semantic-layer
+    - business-intelligence
+    - data-analytics
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly archived and merged into Canner/WrenAI, meaning this is no longer an active standalone product and should not be listed independently.
+  reason: The repository is archived and has been merged into Canner/WrenAI, making it no longer an active standalone project.
   evidence:
-    - "README header states: 'This repository has been merged into Canner/WrenAI under the core/ directory and is now archived (read-only).'"
-    - GitHub archived flag is true, indicating no further development will occur here.
-    - All new issues and PRs are directed to the successor repo, so this entry is a historical artifact rather than usable tooling.
+    - Repo description states it has been merged into Canner/WrenAI under the core/ directory
+    - Archived flag is true
 placement:
   primary_category: null
   section: null
@@ -91,12 +90,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:42.274Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9be93114d996a1fcd4b09c5dbd887296b496e8c0b0d3686faf11a90b467ac2d5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is archived and has been merged into Canner/WrenAI, making it no longer an active standalone project.
+      decision_evidence:
+        - Repo description states it has been merged into Canner/WrenAI under the core/ directory
+        - Archived flag is true
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

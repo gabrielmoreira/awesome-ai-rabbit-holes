@@ -46,23 +46,21 @@ metadata:
       fetched_at: "2026-07-20T15:11:50.205Z"
       bytes: 26649
 insights:
-  summary: LTX-Video (and the newer LTX-2) is a DiT-based foundation model for generating synchronized audio and video from text or images, supporting up to 4K resolution and 50 FPS.
-  why_it_matters: Developers building generative media pipelines can leverage its open weights, multi-GPU inference stack, and integrations with ComfyUI and Diffusers to embed high-fidelity video generation into their applications.
-  mental_damage: "Just what the modern developer needs: another reason to spend an afternoon tuning LoRAs because the pitch deck demanded 'cinematic AI-generated explainer videos' by Friday."
+  summary: LTX-Video is a diffusion-based video generation model for text-to-video and image-to-video tasks.
+  why_it_matters: It enables developers to generate video content from prompts or images using open-source weights, supporting local and customizable video synthesis workflows.
+  mental_damage: Another model repo where you trade GPU hours for mildly coherent clips of people doing uncanny things in silent loops.
   tags:
     - video-generation
-    - diffusion-models
-    - dit
-    - multimodal
-    - generative-ai
+    - diffusion
+    - text-to-video
   confidence: high
 curation:
   status: excluded
-  reason: This is a media generation model and research artifact, which falls outside the catalog's scope of developer-facing coding tools, agents, and infrastructure.
+  reason: LTX-Video is a raw model repository focused on video generation capabilities, not a developer-facing tool, agent, framework, or workflow product that changes how software is built or maintained.
   evidence:
-    - Repo description and README focus on text-to-video, image-to-video, and audio generation (e.g., 'first DiT-based audio-video foundation model').
-    - Topics include diffusion-models, dit, and video generation, with no mention of coding assistance, IDEs, or developer workflows.
-    - Appears in source lists under '视频 Video > 模型' (Video Models), confirming its identity as a generative media model rather than a developer tool.
+    - "Repo description: 'Official repository for LTX-Video'"
+    - "Topics: diffusion-models, dit, image-to-video, text-to-video-generation"
+    - No evidence of CLI, SDK, editor integration, or developer workflow automation in inputs
 placement:
   primary_category: null
   section: null
@@ -81,12 +79,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:55.962Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:72fde53ffcfbc364aec28ca1deb688ab412c8f3713be4f234f4c9eb2841d08b2
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: LTX-Video is a raw model repository focused on video generation capabilities, not a developer-facing tool, agent, framework, or workflow product that changes how software is built or maintained.
+      decision_evidence:
+        - "Repo description: 'Official repository for LTX-Video'"
+        - "Topics: diffusion-models, dit, image-to-video, text-to-video-generation"
+        - No evidence of CLI, SDK, editor integration, or developer workflow automation in inputs
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

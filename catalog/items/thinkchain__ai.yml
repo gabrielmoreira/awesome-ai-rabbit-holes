@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ThinkChain.ai is a cloud-hosted MCP server bundle platform that packages tool integrations into .mcpb files for one-click installation into AI clients like Claude Desktop.
-  why_it_matters: It removes the friction of running and configuring local MCP servers by providing a hosted, auto-updating bundle infrastructure with centralized credential management.
-  mental_damage: Another layer of abstraction has arrived to save you from the terrifying complexity of reading your own tool's README and running a local server.
+  summary: A platform offering AI-powered qualitative research tools (AgentInterviews) and cloud-hosted MCP server bundles for AI assistant integrations.
+  why_it_matters: Provides developers and researchers with tools to automate interviews and connect AI assistants to external tools via MCP.
+  mental_damage: Now you can outsource your user interviews to AI, because nothing says 'human touch' like a bot asking follow-up questions.
   tags:
     - mcp
-    - integrations
-    - cloud-hosted
-    - tool-bundles
-  confidence: medium
+    - research-automation
+    - agent-interviews
+    - ai-integration
+  confidence: high
 curation:
   status: included
-  reason: The product's core identity is MCP infrastructure—specifically cloud-hosted MCP server bundles and .mcpb files—making it a fit for MCP Servers & Tooling.
+  reason: The MCP Bundles product is a cloud-hosted MCP server infrastructure, which fits the MCP Servers & Tooling category as the primary identity.
   evidence:
-    - Site excerpt explicitly describes 'Cloud-hosted MCP server bundles' and '.mcpb file installation for Claude Desktop'.
-    - Primary value proposition is 'Multi-provider tool aggregation with no local server setup' via MCP URLs.
-    - Source list (awesome-ai-agents) links to the same product page focused on MCP Bundles and Agent Interviews.
+    - Offers cloud-hosted MCP server bundles for AI assistants like ChatGPT and Claude
+    - Provides .mcpb files for one-click installation in Claude Desktop
+    - MCP is a core product offering, not just a compatibility feature
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -69,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:05.894Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6ac214aa2ce9b934dbc875eac8f8f47a1d558d23049d15c2b0daead24a4e8a3f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The MCP Bundles product is a cloud-hosted MCP server infrastructure, which fits the MCP Servers & Tooling category as the primary identity.
+      decision_evidence:
+        - Offers cloud-hosted MCP server bundles for AI assistants like ChatGPT and Claude
+        - Provides .mcpb files for one-click installation in Claude Desktop
+        - MCP is a core product offering, not just a compatibility feature
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the primary product identity is MCP server infrastructure rather than multi-agent coordination.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:20.350Z"
       bytes: 27533
 insights:
-  summary: A curated list of compiler projects and academic papers focused on tensor computation and deep learning optimization.
-  why_it_matters: It serves as a research map for developers building high-performance ML infrastructure rather than those looking for coding assistants.
-  mental_damage: Yet another taxonomy to distract you while your actual model training job silently OOMs on an unoptimized matrix multiplication.
+  summary: A curated list of compiler projects and papers for tensor computation and deep learning.
+  why_it_matters: It helps developers discover and learn about tensor compiler infrastructure used to optimize machine learning workloads.
+  mental_damage: Spends hours diving into compiler IRs only to realize your model still runs slow because you forgot to pin the batch size.
   tags:
     - compilers
-    - tensor
     - deep-learning
+    - tensor
+    - machine-learning
     - research
-    - awesome-list
   confidence: high
 curation:
   status: included
-  reason: It is a curated directory of compiler research and projects, fitting the 'Lists & Directories' category as a navigation aid for ML infrastructure developers.
+  reason: It is an awesome list serving as a discovery resource for tensor compiler projects, fitting the catalog's scope for curated developer-facing directories.
   evidence:
-    - "Repo description explicitly states: 'A list of awesome compiler projects and papers for tensor computation and deep learning.'"
-    - README is structured as a navigational index with sections for Open Source Projects, Papers, and Tutorials.
-    - Seen in Awesome-LLMOps under the 'Awesome Lists' section, confirming its identity as a curated directory.
+    - "Repo description: 'A list of awesome compiler projects and papers for tensor computation and deep learning.'"
+    - README positions it as an awesome list with sections for open source projects, papers, tutorials, and contributions.
+    - Listed in source-list context under Awesome-LLMOps in the 'Awesome Lists' section.
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:19:52.765Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bbdd96308bd996b406a89ef5baef9d5c19643f2e42896a912281b66aa10198f0
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: It is an awesome list serving as a discovery resource for tensor compiler projects, fitting the catalog's scope for curated developer-facing directories.
+      decision_evidence:
+        - "Repo description: 'A list of awesome compiler projects and papers for tensor computation and deep learning.'"
+        - README positions it as an awesome list with sections for open source projects, papers, tutorials, and contributions.
+        - Listed in source-list context under Awesome-LLMOps in the 'Awesome Lists' section.
+      category_candidates:
+        - awesome-awesomes
+        - context-engineering
+      contrastive_reason: Choose awesome-awesomes over context-engineering because the project is a curated discovery list rather than a tool for memory, retrieval, or prompt management.
+      review_reason: null
+      review_resume_lifecycle: null

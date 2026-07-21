@@ -56,26 +56,24 @@ metadata:
       fetched_at: "2026-07-16T05:05:13.997Z"
       bytes: 15355
 insights:
-  summary: Haft is a spec-driven engineering governor that integrates with AI coding agents like Claude Code and Codex via MCP and CLI to enforce structured decision-making, evidence tracking, and stale-assumption detection.
-  why_it_matters: It shifts AI-assisted development from prompt-and-pray to governed execution by treating specs, decisions, and evidence as falsifiable contracts rather than ephemeral chat context.
-  mental_damage: You now have a tool to govern the engineering decisions of the agents writing your code, which mostly means you'll spend your afternoon YAML-linting the spec that describes the bug the agent introduced in record time.
+  summary: Haft is an engineering decisions engine that enforces spec-driven development with evidence decay and parity enforcement for AI-assisted coding.
+  why_it_matters: It bridges the gap between fast AI-generated code and governed engineering by turning intentions into falsifiable contracts before execution.
+  mental_damage: Finally, a tool that makes you feel guilty for shipping fast without first writing a 200-line spec your agents will ignore anyway.
   tags:
     - spec-driven
-    - governance
     - mcp
-    - cli
-    - decision-engineering
+    - governance
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is a spec-first governance layer that treats structured specifications, parity checks, and evidence decay as the controlling artifacts for agent execution.
+  reason: Haft's core identity is enforcing spec-first workflows with evidence-based decision contracts, not acting as a coding assistant or host integration.
   evidence:
-    - Repo description explicitly positions it as an 'Engineering decisions engine' for Claude Code, Cursor, and other agents with 'evidence decay and parity enforcement'.
-    - README states 'Specify → Think → Run → Govern' and positions Haft as 'the handle between the tool and the hand' focused on formal specification and governed decisions.
-    - Listed in awesome-spec-driven-development under 'Specification Tools', aligning with its spec-first workflow identity.
+    - "README: 'Specify → Think → Run → Govern.' and 'record decisions as falsifiable contracts'"
+    - "Repo description: 'Engineering decisions engine that know when they're stale. Frame, compare, decide — with evidence decay and parity enforcement.'"
+    - "Source-list context: listed in awesome-spec-driven-development under 'Specification Tools'"
 placement:
   primary_category: spec-driven-development
-  section: Spec-First Environments
+  section: Governance / Validation
 lifecycle:
   status: promotion_candidate
   reason: Stars (1313) exceeded threshold (150)
@@ -91,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:42.995Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:830f1c251a986396357f2c345a1bec7fdba5a0f97c3eeb6eaba8bba6be939063
+      proposed_primary_category: spec-driven-development
+      disagreement: false
+      decision_reason: Haft's core identity is enforcing spec-first workflows with evidence-based decision contracts, not acting as a coding assistant or host integration.
+      decision_evidence:
+        - "README: 'Specify → Think → Run → Govern.' and 'record decisions as falsifiable contracts'"
+        - "Repo description: 'Engineering decisions engine that know when they're stale. Frame, compare, decide — with evidence decay and parity enforcement.'"
+        - "Source-list context: listed in awesome-spec-driven-development under 'Specification Tools'"
+      category_candidates:
+        - spec-driven-development
+        - ai-dev-extensions
+      contrastive_reason: Choose spec-driven-development over ai-dev-extensions because Haft's main value is spec enforcement and decision governance, not augmenting another assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

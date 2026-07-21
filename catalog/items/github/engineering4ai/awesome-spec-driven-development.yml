@@ -43,22 +43,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:56.287Z"
       bytes: 9453
 insights:
-  summary: A curated awesome list aggregating tools, frameworks, standards, and IDE integrations for practicing spec-driven development with AI agents.
-  why_it_matters: It acts as a central map for developers trying to shift from vibe-coding to disciplined, specification-first workflows that align AI agents with business requirements.
-  mental_damage: We’ve reached the point where we need a curated list of tools just to manage the tools that help us pretend we still write specifications.
+  summary: A curated list of tools and resources for spec-driven development (SDD).
+  why_it_matters: Helps developers discover frameworks, standards, and workflows for writing specifications first to improve alignment, testing, and documentation in AI-assisted development.
+  mental_damage: Because nothing says 'productive' like arguing with an LLM about whether your spec is *actually* a spec.
   tags:
-    - spec-driven
-    - resources
-    - awesome-list
-    - ai-workflow
+    - spec-driven-development
+    - curated-list
+    - ai-workflows
+    - developer-tooling
   confidence: high
 curation:
   status: included
-  reason: This is a curated discovery index ('awesome list') for SDD tooling rather than a standalone product, making it a fit for Lists & Directories.
+  reason: This is a curated directory of SDD resources, which fits the catalog's scope as a navigation aid for developers exploring spec-first tooling.
   evidence:
-    - "Repo description explicitly states: 'A curated list of awesome resources for spec-driven development (SDD)'"
-    - README structure is a categorized index of external tools like Kiro, OpenSpec, and BMAD-METHOD rather than a runnable product.
-    - "Marked as 'Direct awesome list source: yes' in the inputs, confirming its identity as a navigation aid."
+    - Repo description explicitly states it is a curated list for spec-driven development
+    - README confirms it aggregates tools, standards, and frameworks for SDD
+    - Source-list context marks it as a direct awesome list
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -77,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:26.199Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5b7cbd2f9bf93bff1661ced6ef1647347d80b80e03b3e97b19d613147ab6c151
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of SDD resources, which fits the catalog's scope as a navigation aid for developers exploring spec-first tooling.
+      decision_evidence:
+        - Repo description explicitly states it is a curated list for spec-driven development
+        - README confirms it aggregates tools, standards, and frameworks for SDD
+        - Source-list context marks it as a direct awesome list
+      category_candidates:
+        - awesome-awesomes
+        - spec-driven-development
+      contrastive_reason: Choose awesome-awesomes over spec-driven-development because the primary value is discovery and navigation of the ecosystem rather than delivering a standalone spec-first tool.
+      review_reason: null
+      review_resume_lifecycle: null

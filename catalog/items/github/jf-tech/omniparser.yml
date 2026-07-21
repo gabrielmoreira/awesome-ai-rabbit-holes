@@ -58,23 +58,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:23.184Z"
       bytes: 7123
 insights:
-  summary: Omniparser is a native Go streaming ETL library for parsing and transforming CSV, JSON, XML, EDI, and fixed-length data formats into JSON using declarative schemas.
-  why_it_matters: It gives developers a lightweight, streaming-first alternative to heavy Java ETL tooling for building data pipelines entirely in Go.
-  mental_damage: Because what the world definitely needed in 2025 was yet another reminder that even our ETL pipelines are now being repackaged as fresh LLM-adjacent resources.
+  summary: A native Golang ETL streaming parser and transform library for CSV, JSON, XML, EDI, text, and other formats.
+  why_it_matters: Developers can efficiently parse and transform structured data streams in Go without external dependencies.
+  mental_damage: Finally, a library that lets you parse EDI files without selling your soul to enterprise middleware.
   tags:
-    - etl
     - golang
+    - etl
     - parser
     - streaming
     - data-transform
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose data parsing and ETL library with no AI, LLM, coding-agent, or developer-AI-tooling angle beyond appearing in a broad LLM resources list.
+  reason: This is a general-purpose data parsing/ETL library, not an AI developer tool or workflow.
   evidence:
-    - Repo description and README describe a native Golang ETL streaming parser with no mention of AI, LLMs, or coding assistants.
-    - Topics and docs focus on CSV, EDI, XML, JSON transforms and Go SDK usage, not AI workflows.
-    - Listed in awesome-LLM-resources under a generic data section, but the tool itself has no AI-facing functionality.
+    - Repo description explicitly identifies it as a Golang ETL streaming parser library
+    - No AI/ML/LLM functionality mentioned in description or topics
+    - Source-list context shows it's categorized under 'Data' in a general LLM resources list, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -93,12 +93,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:27.465Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:10e01e848adabd4a02f2e4c70904195ec8bfb25da115d1247b8a67a2b9bad371
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a general-purpose data parsing/ETL library, not an AI developer tool or workflow.
+      decision_evidence:
+        - Repo description explicitly identifies it as a Golang ETL streaming parser library
+        - No AI/ML/LLM functionality mentioned in description or topics
+        - Source-list context shows it's categorized under 'Data' in a general LLM resources list, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A personal blog and article list page aggregating AI and developer resources from the TechDIYLife creator.
-  why_it_matters: It serves as a supplemental content hub pointing to YouTube videos, GitHub code, and free e-books for developers interested in AI DIY projects.
-  mental_damage: Yet another beautifully cluttered personal index proving that organizing the AI ecosystem is now a hobby distinct from actually using the tools.
+  summary: A collection of blog posts and resources covering various LLM topics including multi-modal generation, agents, and MCP.
+  why_it_matters: Provides a curated stream of technical content and tutorials for developers keeping up with rapidly evolving AI paradigms like MCP and agentic workflows.
+  mental_damage: Just another high-signal rabbit hole to add to the infinite scroll of 'ust-read' AI tutorials.
   tags:
-    - blog
-    - resources
-    - newsletter
     - tutorials
+    - llm
+    - ai-development
+    - educational
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal blog article list and content hub, not a standalone developer tool, framework, or product; it is documentation/supporting content rather than usable tooling.
+  reason: The project is a collection of blog posts and tutorials rather than a standalone developer tool or platform.
   evidence:
-    - The scraped site context describes it as '文章列表' (article list) and a hub for YouTube, GitHub, and e-books.
-    - Listed in awesome-LLM-resources under a tutorial/resource section, not as a tool or product.
-    - No repo description, code, or product functionality is present—only a static HTML blog list.
+    - Site title indicates it is a blog list ('文章列表')
+    - Source-list context identifies it as a 'Tutorial' resource
+    - Primary content is educational media rather than a product or tool
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:38:02.295Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e0faeea83bc26df0f875e6402a02fe3823ba6b194b8231533c4030ed88298cca
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a collection of blog posts and tutorials rather than a standalone developer tool or platform.
+      decision_evidence:
+        - Site title indicates it is a blog list ('文章列表')
+        - Source-list context identifies it as a 'Tutorial' resource
+        - Primary content is educational media rather than a product or tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

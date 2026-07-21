@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 14
-    forks: 14
+    stars: 15
+    forks: 15
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: tatumio/blockchain-mcp
+    html_url: https://github.com/tatumio/blockchain-mcp
     created_at: "2025-07-08T09:56:09Z"
-    pushed_at: "2025-08-08T08:07:19Z"
+    pushed_at: "2026-06-01T21:00:37Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:41.197Z"
+    last_checked_at: "2026-07-21T15:20:40.792Z"
     readme:
-      fetched_at: "2026-05-06T22:46:41.197Z"
-      bytes: 3914
+      fetched_at: "2026-07-21T15:20:40.792Z"
+      bytes: 5534
 insights:
   summary: An MCP server that exposes Tatum's blockchain data API and RPC gateway tools to LLMs across 130+ networks.
   why_it_matters: Developers can let coding agents natively query balances, transaction history, and NFT metadata without leaving the MCP-compatible editor or CLI.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:41.197Z"
+    updated_at: "2026-07-21T15:20:40.792Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

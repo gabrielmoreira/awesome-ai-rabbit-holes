@@ -58,23 +58,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:17.255Z"
       bytes: 18663
 insights:
-  summary: An MCP server providing 26 on-chain tools across 7 EVM chains for querying token prices, gas, balances, and DeFi data without API keys.
-  why_it_matters: It allows AI coding agents to answer real-time blockchain queries directly within the IDE or terminal instead of hallucinating current ETH prices.
-  mental_damage: We have successfully abstracted away the last remaining excuse for not checking token balances before deploying a smart contract.
+  summary: MCP server and CLI toolkit providing 26 EVM blockchain intelligence tools across 7 chains for AI agents and developers.
+  why_it_matters: Gives AI agents and developers direct access to real-time on-chain data (prices, balances, DeFi metrics, etc.) without API keys or setup.
+  mental_damage: Finally, your AI can answer 'What's the ETH price?' without pretending it's 2021.
   tags:
     - mcp
-    - evm
     - blockchain
-    - defi
+    - evm
     - cli
-  confidence: medium
+    - ai-agents
+  confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is providing blockchain data tools to AI agents via the Model Context Protocol.
+  reason: "MCP is the product identity: a server providing domain-specific tools (EVM blockchain data) for AI agents via the Model Context Protocol."
   evidence:
-    - Repo description explicitly states 'EVM blockchain intelligence toolkit for AI agents — 23 MCP tools'.
-    - README emphasizes MCP server setup for Claude Code, Claude Desktop, and Cursor as the primary integration mode.
-    - Included in the 'awesome-mcp-servers' list under the Finance & Fintech section.
+    - Repo description explicitly identifies it as an 'EVM blockchain intelligence toolkit for AI agents — 23 MCP tools'
+    - README emphasizes MCP server mode as primary integration path for AI agents (Claude, Cursor, etc.)
+    - Already listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -93,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:30.537Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a02be5f40211e3e89952bf328e94b2b390f0d7e045b6e5aae1c592bd61d19365
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: a server providing domain-specific tools (EVM blockchain data) for AI agents via the Model Context Protocol."
+      decision_evidence:
+        - Repo description explicitly identifies it as an 'EVM blockchain intelligence toolkit for AI agents — 23 MCP tools'
+        - README emphasizes MCP server mode as primary integration path for AI agents (Claude, Cursor, etc.)
+        - Already listed in awesome-mcp-servers under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain tools, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -60,15 +60,15 @@ metadata:
       fetched_at: "2026-07-20T05:17:32.631Z"
       bytes: 22272
 insights:
-  summary: Connapse is an open-source, self-hosted knowledge backend that gives AI agents persistent, searchable memory via hybrid vector and keyword search, exposing 11 MCP tools for document ingestion and retrieval.
-  why_it_matters: Developers can stop re-uploading the same PDFs to Claude and give their agents a private, containerized memory that survives across sessions.
-  mental_damage: We have successfully abstracted the problem of 'the model forgot my README' into a .NET 10 container that needs its own embedding provider, chunking config, and runtime tuning.
+  summary: Open-source, self-hosted knowledge backend for AI agents with hybrid search, MCP server, and multiple connectors.
+  why_it_matters: Gives AI agents persistent, searchable memory across sessions by indexing documents and enabling retrieval via MCP, REST, or CLI.
+  mental_damage: Finally, a way to stop your AI from forgetting everything the moment you close the chat window.
   tags:
-    - mcp
+    - knowledge-management
+    - mcp-server
+    - hybrid-search
     - self-hosted
     - rag
-    - memory
-    - vector-search
   confidence: high
 curation:
   status: included
@@ -79,10 +79,10 @@ curation:
     - Listed in awesome-mcp-servers under 'Knowledge & Memory' section.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
 processing:
   discover:
     status: done
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:39.756Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:338791861db50a63d93781a1b7ebbbe8debf1c862003374d4321e09699125bad
+      proposed_primary_category: context-engineering
+      disagreement: true
+      decision_reason: Core product is a retrieval and memory system for AI agents, not an extension or assistant.
+      decision_evidence:
+        - "Repo description: 'Open-source, self-hosted knowledge backend for AI agents — hybrid search (vector + keyword), MCP server, 5 connectors, Docker-ready'"
+        - "README: 'Connapse is an open-source knowledge backend that gives agents persistent, searchable memory'"
+        - MCP server is a feature, not the primary identity
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the primary identity is a knowledge backend with retrieval capabilities, not MCP infrastructure.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      review_resume_lifecycle: null

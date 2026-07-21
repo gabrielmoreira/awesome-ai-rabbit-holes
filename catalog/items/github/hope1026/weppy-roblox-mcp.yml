@@ -59,15 +59,15 @@ metadata:
       fetched_at: "2026-07-20T15:11:05.386Z"
       bytes: 17339
 insights:
-  summary: An MCP server and Roblox Studio plugin that lets AI coding agents directly create and edit game instances, scripts, terrain, lighting, and assets inside a live Studio session with bidirectional sync and automated playtests.
-  why_it_matters: It gives Claude Code, Cursor, Codex, and Gemini real-time control over Roblox Studio so developers can describe game changes in natural language instead of manually pasting generated code.
-  mental_damage: We have finally reached the point where your AI agent can reshape an entire boss arena while you sip coffee, leaving you to wonder if 'Roblox developer' still means knowing how to use the properties panel.
+  summary: MCP server and Roblox Studio plugin enabling AI coding agents to directly control and modify Roblox Studio projects.
+  why_it_matters: Lets developers use AI assistants like Claude or Cursor to edit scripts, terrain, assets, and UI in Roblox Studio without manual copy-pasting.
+  mental_damage: Finally, a way to make AI build your Roblox game while you watch it silently judge your terrain skills.
   tags:
-    - roblox
     - mcp
-    - game-dev
-    - ai-agent
-    - studio-integration
+    - roblox
+    - game-development
+    - ai-integration
+    - claude-code
   confidence: high
 curation:
   status: included
@@ -78,10 +78,10 @@ curation:
     - Listed in awesome-mcp-servers under Server Implementations > Gaming, reinforcing its MCP domain-server identity
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -94,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:04.417Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:14afa7869eb2a33523afbc62019685a277934ddf8f0445699974b1120032723b
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: This is an MCP-based integration layer that extends AI coding agents (Claude, Cursor, etc.) with Roblox Studio capabilities, not a standalone coding assistant.
+      decision_evidence:
+        - Repo description explicitly calls it an MCP server & plugin for Claude Code, Cursor, Codex, and Gemini
+        - README emphasizes bridging AI agents and Roblox Studio via MCP tools
+        - Supports multiple AI clients (Claude, Cursor, etc.) as hosts
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the core value is the Roblox Studio integration for AI agents, not MCP infrastructure itself.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

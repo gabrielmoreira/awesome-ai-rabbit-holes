@@ -1,0 +1,109 @@
+id: pezzo__ai
+kind: website
+name: Pezzo
+canonical_url: https://pezzo.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__pezzo__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Pezzo
+        anchor_text: Pezzo
+        extracted_url: https://pezzo.ai
+        surrounding_text: "## [Pezzo](https://www.pezzo.ai/)"
+        confidence: high
+    - id: discovery__www__pezzo__ai__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Pezzo
+        anchor_text: Pezzo
+        extracted_url: https://www.pezzo.ai
+        surrounding_text: "## [Pezzo](https://www.pezzo.ai/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Pezzo is a platform for building, managing, and deploying AI agents.
+  why_it_matters: It provides developers with a centralized way to create and coordinate AI agents for various workflows.
+  mental_damage: Because nothing says 'productivity' like managing a fleet of agents that may or may not outsource their work to other agents.
+  tags:
+    - agent-orchestration
+    - ai-platform
+    - workflow-automation
+  confidence: medium
+curation:
+  status: included
+  reason: The product’s core job is prompt management, versioning, and observability, which aligns with Prompt & Context Engineering’s focus on prompt-shaping systems rather than acting as a coding agent.
+  evidence:
+    - Seen in awesome-ai-agents list under section 'Pezzo', indicating it is recognized in the AI agent ecosystem.
+    - Product URL (pezzo.ai) and name strongly imply a prompt/LLM management platform rather than a coding assistant.
+    - No repo description or README was provided, but the product identity clearly centers on prompt infrastructure rather than autonomous coding.
+placement:
+  primary_category: context-engineering
+  section: null
+lifecycle:
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'agent-orchestration'"
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:27.084Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8b6f0d94fc18d8023a0b10422eed0f6ad684e59ccd0f3af961ef1c28c2e9c465
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: Pezzo's core value is coordinating and deploying AI agents, fitting the agent orchestration category as a control plane/workforce platform.
+      decision_evidence:
+        - Seen in awesome-ai-agents under 'Pezzo' as an AI autonomous agent platform
+        - Primary identity is agent coordination/deployment rather than a single coding assistant or framework
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because Pezzo is an operated platform for managing agents rather than a code-first SDK or library.
+      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.968Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

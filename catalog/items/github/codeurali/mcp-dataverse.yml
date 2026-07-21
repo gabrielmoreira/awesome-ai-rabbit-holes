@@ -45,23 +45,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:23.699Z"
       bytes: 8146
 insights:
-  summary: An MCP server that gives AI coding assistants real-time access to Microsoft Dataverse environments, exposing 79 tools for schema inspection, querying, and CRUD operations.
-  why_it_matters: It eliminates the schema-hallucination problem for developers building agents that need to interact with Dataverse tables, metadata, and records.
-  mental_damage: Another weekend project proving that, given enough MCP servers, your AI assistant will eventually need a CRM just to remember which CRM it is connected to.
+  summary: An MCP server providing real-time access to Microsoft Dataverse Web API for AI agents.
+  why_it_matters: Eliminates schema hallucinations and broken OData queries by giving AI agents direct, structured access to Dataverse metadata, records, and operations.
+  mental_damage: Finally, a way to stop your AI from inventing column names like it’s playing Mad Libs with your database.
   tags:
-    - mcp
-    - dataverse
-    - microsoft
-    - crm
-    - server
+    - mcp-server
+    - microsoft-dataverse
+    - power-platform
+    - model-context-protocol
+    - database-integration
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server implementation for Microsoft Dataverse, fitting squarely into the MCP Servers & Tooling category under Domain Servers.
+  reason: MCP is the core product identity, and the server provides domain-specific Dataverse integration as its primary function.
   evidence:
-    - Repo description explicitly states 'MCP server for Microsoft Dataverse Web API for devs !'
-    - README pitches it as 'The most complete MCP server for Microsoft Dataverse' with 79 tools and 4 resources.
-    - Listed in awesome-mcp-servers under Server Implementations > Databases.
+    - Repo description explicitly states it is an MCP server for Microsoft Dataverse Web API
+    - README emphasizes MCP as the protocol and lists 79 tools, 4 resources, and 10 workflows for Dataverse
+    - Already curated in awesome-mcp-servers under Server Implementations > Databases
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -80,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:44:51.887Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:282e62c9f0aa4dca678ff60e9841339a16fbeb29e3980928b11ce73befadfc12
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the core product identity, and the server provides domain-specific Dataverse integration as its primary function.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Microsoft Dataverse Web API
+        - README emphasizes MCP as the protocol and lists 79 tools, 4 resources, and 10 workflows for Dataverse
+        - Already curated in awesome-mcp-servers under Server Implementations > Databases
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

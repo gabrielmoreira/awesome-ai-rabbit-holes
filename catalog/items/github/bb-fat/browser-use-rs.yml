@@ -42,23 +42,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:10.009Z"
       bytes: 1484
 insights:
-  summary: A lightweight Rust library for browser automation via Chrome DevTools Protocol that includes a built-in MCP server for AI-driven automation workflows.
-  why_it_matters: It gives developers a zero-dependency, native way to wire browser control into MCP-compatible coding agents without dragging in Node.js or heavy browser frameworks.
-  mental_damage: Yet another wheel reinvented in Rust because someone refused to trust the Node.js ecosystem, now neatly packaged for agents that don't actually know how to use it yet.
+  summary: A Rust library for browser automation via Chrome DevTools Protocol with built-in Model Context Protocol (MCP) server integration.
+  why_it_matters: Developers can programmatically control browsers and expose browser automation capabilities to AI agents through MCP without Node.js dependencies.
+  mental_damage: Now your AI can click buttons in Chrome while you question your life choices in Rust.
   tags:
-    - rust
     - browser-automation
+    - rust
     - mcp
-    - cdp
-    - library
-  confidence: medium
+    - chrome-devtools
+    - ai-integration
+  confidence: high
 curation:
   status: included
-  reason: The product’s primary identity is a browser automation library whose main developer-facing value is its built-in MCP server for AI-driven workflows, fitting cleanly as an MCP domain server.
+  reason: MCP is the primary product identity here as a browser automation server implementation, not just a compatibility feature.
   evidence:
-    - Repo description explicitly calls it a Rust library with 'built-in AI integration through Model Context Protocol (MCP)'
-    - README highlights 'MCP Integration - Built-in Model Context Protocol server for AI-driven automation' as a core feature
-    - Listed in awesome-mcp-servers under 'Browser Automation' as a server implementation
+    - Repo description explicitly states it's a Rust library with built-in MCP integration
+    - README highlights MCP server as a core feature ('Run the built-in MCP server for AI-driven automation')
+    - Already listed in awesome-mcp-servers under Browser Automation
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -77,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:32.926Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4d64946dec4abf539a672adc5942887d0dc0ee8070591983d53a247ee049c2bf
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the primary product identity here as a browser automation server implementation, not just a compatibility feature.
+      decision_evidence:
+        - Repo description explicitly states it's a Rust library with built-in MCP integration
+        - README highlights MCP server as a core feature ('Run the built-in MCP server for AI-driven automation')
+        - Already listed in awesome-mcp-servers under Browser Automation
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server for browser automation rather than a general-purpose SDK.
+      review_reason: null
+      review_resume_lifecycle: null

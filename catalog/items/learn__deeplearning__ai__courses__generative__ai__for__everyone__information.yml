@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A non-technical, introductory online course by Andrew Ng that teaches how generative AI works, how to use it in daily work, and how to develop basic AI strategies without requiring coding skills.
-  why_it_matters: It provides business leaders and non-engineering professionals with the foundational literacy needed to evaluate AI tools and workflows that developers are building.
-  mental_damage: Nothing instills confidence in an engineering roadmap quite like a strategy built on a three-hour course explicitly designed for people who don't know how to code.
+  summary: An introductory online course by Andrew Ng teaching generative AI fundamentals, use cases, and business/societal impacts.
+  why_it_matters: Provides non-technical professionals and business leaders with foundational knowledge of generative AI, including practical applications and strategic considerations.
+  mental_damage: Another course promising to make you AI-literate without writing a line of code, because apparently knowing how to prompt is now a career skill.
   tags:
     - course
     - education
     - generative-ai
-    - beginner
+    - non-technical
   confidence: high
 curation:
   status: excluded
-  reason: This is a general introductory course for non-technical audiences, not a developer-facing tool, agent, framework, or infrastructure component.
+  reason: This is an educational course, not a developer tool, framework, or workflow product; it falls outside the catalog's scope of practical AI tools for software developers.
   evidence:
-    - Course description states it 'doesn’t require any coding skills or prior knowledge of AI' and is 'for everyone'.
-    - Source list categorizes this item under '课程 Course' (Courses), not under tooling or software.
-    - The content focuses on business strategy and basic prompt engineering concepts rather than providing a reusable developer tool or workflow.
+    - Course description explicitly targets non-developers ('no coding skills or prior knowledge of AI required')
+    - Primary value is education and strategy, not developer-tooling or workflow augmentation
+    - No evidence of code-first artifacts, SDKs, or developer-facing integrations
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:59.695Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1666caf14abc9725b7ca8e4c4b75dcf3673de95af7ed876ebb44ffd1bc0d9b54
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational course, not a developer tool, framework, or workflow product; it falls outside the catalog's scope of practical AI tools for software developers.
+      decision_evidence:
+        - Course description explicitly targets non-developers ('no coding skills or prior knowledge of AI required')
+        - Primary value is education and strategy, not developer-tooling or workflow augmentation
+        - No evidence of code-first artifacts, SDKs, or developer-facing integrations
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

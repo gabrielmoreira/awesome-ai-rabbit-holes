@@ -40,26 +40,24 @@ metadata:
       fetched_at: "2026-07-16T05:05:15.905Z"
       bytes: 2894
 insights:
-  summary: md-to-pdf-mcp is a Python-based MCP server that converts Markdown files into styled, interactive PDFs with support for syntax highlighting and table of contents generation.
-  why_it_matters: It allows AI assistants like Claude Desktop to programmatically generate professional PDF documentation, reports, and manuals directly from markdown sources.
-  mental_damage: Another vital piece of infrastructure so your agent can finally export that README you just wrote into a PDF that no one asked for.
+  summary: MCP server for converting Markdown to PDF with interactive table of contents via the Model Context Protocol.
+  why_it_matters: Developers can use AI assistants to generate and retrieve styled PDF documentation from Markdown without leaving their workflow.
+  mental_damage: Another MCP server to remember when your AI assistant suddenly offers to make your docs print-ready.
   tags:
     - mcp
-    - markdown
     - pdf
-    - documentation
-    - server
-  confidence: medium
+    - markdown
+  confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server implementation designed to give AI assistants the capability to convert Markdown to PDF.
+  reason: The project is an MCP server whose primary identity is providing Markdown-to-PDF conversion as an MCP tool, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'MCP server for Claude Desktop'."
-    - README lists 'MCP Integration' as a feature and provides an 'mcp-server/md_to_pdf_mcp.py' implementation.
-    - Listed in awesome-mcp-servers under 'Server Implementations > File Systems'.
+    - "Repo description: 'Convert Markdown to professional PDFs with customizable themes - MCP server for Claude Desktop'"
+    - README shows MCP server wrapper (md_to_pdf_mcp.py) and MCP tool definitions like convert_markdown_to_pdf
+    - Listed in awesome-mcp-servers under Server Implementations > File Systems
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:18:09.959Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:838e2f658058e9dfc4f74d524d58edb2247763bd8ebb6cd91d9612267a53149d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is an MCP server whose primary identity is providing Markdown-to-PDF conversion as an MCP tool, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - "Repo description: 'Convert Markdown to professional PDFs with customizable themes - MCP server for Claude Desktop'"
+        - README shows MCP server wrapper (md_to_pdf_mcp.py) and MCP tool definitions like convert_markdown_to_pdf
+        - Listed in awesome-mcp-servers under Server Implementations > File Systems
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server providing a domain-specific conversion service, not primarily an extension that augments another coding assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

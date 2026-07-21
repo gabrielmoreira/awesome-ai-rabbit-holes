@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Pieces is a local-first desktop AI companion that captures and indexes work context across browsers, IDEs, and communication tools to provide long-term memory and snippet management for developers.
-  why_it_matters: It attempts to solve the context-switching tax by automatically retaining code snippets, documentation, and workflow history so developers can query their own 'digital memory' instead of starting from scratch.
-  mental_damage: Now you can outsource your forgetfulness to a local AI that remembers the 40 tabs you opened on Tuesday, proving that the modern developer stack includes an external hard drive for your short-term memory.
+  summary: Pieces is a desktop application that builds a searchable artificial memory from a developer's work across applications, enabling context recovery and integration with AI tools.
+  why_it_matters: It helps developers resume work, recover past decisions, and bring real context into AI assistants by capturing and indexing activity from IDEs, browsers, chats, and other tools.
+  mental_damage: Finally, a way to remember why you wrote that regex six months ago—assuming Pieces was running when you did.
   tags:
-    - memory
-    - local-ai
+    - memory-layer
     - context-retrieval
-    - snippets
-    - productivity
+    - developer-productivity
+    - mcp-server
+    - cross-app-indexing
   confidence: high
 curation:
   status: included
-  reason: The core product identity is an OS-level memory engine (LTM-2) that captures, compresses, and retrieves context for LLMs, fitting the definition of prompt and context engineering over a generic coding agent.
+  reason: The core product is a memory and context system that captures, indexes, and retrieves developer work across tools, fitting the context-engineering category better than extensions or agents.
   evidence:
-    - "Scraped site describes 'LTM-2: Long-Term Memory Engine' and 'OS-Level' memory capture."
-    - Primary pitch is 'Infinite Artificial Memory' and 'Real-Time Context for your favorite LLMs'.
-    - Source list placed it in 'Code Search and Navigation', highlighting its context-retrieval nature.
+    - Described as 'artificial memory from your work' for context recovery in AI tools
+    - Captures and indexes activity from IDEs, browsers, chats, and AI assistants
+    - Offers an MCP server to carry history into AI tools like Claude and Cursor
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -70,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:31.564Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:143e98ddb84d79ce9171e82ba19b62de36d89a7bda8f1e0bd5f22503c4c9a768
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core product is a memory and context system that captures, indexes, and retrieves developer work across tools, fitting the context-engineering category better than extensions or agents.
+      decision_evidence:
+        - Described as 'artificial memory from your work' for context recovery in AI tools
+        - Captures and indexes activity from IDEs, browsers, chats, and AI assistants
+        - Offers an MCP server to carry history into AI tools like Claude and Cursor
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the primary novelty is the memory and retrieval system itself, not just host integrations.
+      review_reason: null
+      review_resume_lifecycle: null

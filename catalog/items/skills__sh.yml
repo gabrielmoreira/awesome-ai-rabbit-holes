@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A CLI-driven directory and registry for discovering, installing, and managing reusable skill packs that extend AI coding agents with procedural knowledge.
-  why_it_matters: It gives developers a centralized way to equip agents like Claude Code or GitHub Copilot with curated, domain-specific capabilities using a single command.
-  mental_damage: We have now successfully abstracted software development into installing enough 'skills' that the agent can theoretically rebuild the LinkedIn infrastructure before lunch.
+  summary: A directory and registry for discovering and installing reusable skills for AI agents.
+  why_it_matters: Developers can extend their AI agents with pre-built, shareable capabilities for specific workflows or domains.
+  mental_damage: Now you can spend hours browsing skills instead of writing code, because why solve problems when you can curate them?
   tags:
-    - agent-skills
-    - registry
-    - cli
-    - reusable-capabilities
-    - skills-management
+    - skills-registry
+    - ai-agents
+    - reusable-components
+    - workflow-automation
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is a registry and CLI for discovering and installing reusable agent skill packs, matching the skills category definition precisely.
+  reason: The primary artifact is a registry/directory of reusable agent skills, which fits the 'Agent Skills' category's focus on skill packs and registries.
   evidence:
-    - Scraped site title and description identify it as 'The Agent Skills Directory' for discovering and installing skills.
-    - Leaderboard lists specific skills from owners like vercel-labs, anthropics, and microsoft with install counts (e.g., 'npx skills add <owner/repo>').
-    - Source list context confirms it is linked as a skills directory for AI agents.
+    - Site title and description explicitly identify it as 'The Agent Skills Directory' for discovering/installing skills
+    - Page excerpt describes skills as 'reusable capabilities for AI agents' with install commands
+    - Shows leaderboard and search functionality for skills from multiple providers
 placement:
   primary_category: skills
   section: Skill Registries & Directories
@@ -70,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:34.150Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a59fadc73410935c69c0c897841a336d804af1b6a3988d2c9f6de832615b297f
+      proposed_primary_category: skills
+      disagreement: false
+      decision_reason: The primary artifact is a registry/directory of reusable agent skills, which fits the 'Agent Skills' category's focus on skill packs and registries.
+      decision_evidence:
+        - Site title and description explicitly identify it as 'The Agent Skills Directory' for discovering/installing skills
+        - Page excerpt describes skills as 'reusable capabilities for AI agents' with install commands
+        - Shows leaderboard and search functionality for skills from multiple providers
+      category_candidates:
+        - skills
+        - awesome-awesomes
+      contrastive_reason: Choose skills over awesome-awesomes because the product is an operational registry with installable artifacts, not just a discovery list.
+      review_reason: null
+      review_resume_lifecycle: null

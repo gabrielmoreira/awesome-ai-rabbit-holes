@@ -55,22 +55,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:20.482Z"
       bytes: 12391
 insights:
-  summary: An official MCP server that connects AI assistants like Claude and Cursor to the Buildable platform for project context, task management, and progress tracking.
-  why_it_matters: It allows developers to delegate task execution and progress reporting to their AI assistant directly within the Buildable project management environment.
-  mental_damage: "We have finally achieved the zenith of modern engineering: an AI wrapper for a project management tool, so your chatbot can politely ask you why the 'Implement Auth' task has been 'In Progress' for three weeks."
+  summary: An MCP server that enables AI assistants to interact with Buildable, an AI-powered development platform for project planning and task management.
+  why_it_matters: Developers can delegate project context retrieval, task management, and progress tracking to their AI assistants within Buildable projects.
+  mental_damage: Now your AI can start tasks, update progress, and ask you questions—because apparently, project management wasn’t already a full-time job.
   tags:
-    - mcp
+    - mcp-server
+    - project-management
+    - ai-integration
     - buildable
-    - task-management
-    - integration
+    - task-automation
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server designed to integrate AI assistants with the Buildable platform, fitting the MCP Servers & Tooling category.
+  reason: "MCP is the product identity here: this is a dedicated MCP server for Buildable, not just an adapter or compatibility feature."
   evidence:
-    - GitHub repo name is 'bldbl-mcp' and README confirms it is the 'Official MCP client for Buildable'.
-    - Source list context shows inclusion in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
-    - Features are exposed as MCP tools (get_project_context, start_task, update_progress) for Claude and Cursor.
+    - README explicitly describes it as an MCP client/server for Buildable
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+    - Provides MCP-specific tools (get_project_context, get_next_task, etc.) for AI assistants
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:54.404Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5523f89e5717f0b3986011718faf67c70ae9e56dd1d4b641063efbe182ee7c2f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: this is a dedicated MCP server for Buildable, not just an adapter or compatibility feature."
+      decision_evidence:
+        - README explicitly describes it as an MCP client/server for Buildable
+        - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+        - Provides MCP-specific tools (get_project_context, get_next_task, etc.) for AI assistants
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a dedicated MCP server for Buildable, not merely an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

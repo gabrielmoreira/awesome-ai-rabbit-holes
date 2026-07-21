@@ -52,23 +52,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:07.581Z"
       bytes: 12659
 insights:
-  summary: A Model Context Protocol server that exposes Langfuse observability data—including traces, sessions, exceptions, and prompts—to AI agents and coding assistants like Claude Code and Codex.
-  why_it_matters: It lets coding agents directly query their own observability data to debug errors and analyze sessions without leaving the terminal.
-  mental_damage: We have finally built the tool that lets your AI agent inspect its own crash logs, presumably so it can hallucinate an apology faster.
+  summary: An MCP server for Langfuse that enables AI agents to query trace data, debug errors, and analyze sessions for observability.
+  why_it_matters: Developers can integrate Langfuse's observability features directly into their AI agent workflows via MCP, enabling richer debugging and trace analysis.
+  mental_damage: Now your AI agents can debug their own debugging tools, because why stop at one layer of meta.
   tags:
     - mcp
     - observability
-    - langfuse
     - debugging
-    - cli
+    - langfuse
+    - tracing
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server for the Langfuse observability platform, exposing 37 tools to MCP-compatible clients.
+  reason: The product's core identity is as an MCP server for Langfuse, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
   evidence:
-    - Repo description explicitly states 'A Model Context Protocol (MCP) server for Langfuse'.
-    - README highlights integration with Claude Code and Codex CLI via `claude mcp add` and `codex mcp add`.
-    - Listed in awesome-mcp-servers under 'Monitoring', confirming its identity as a domain-specific MCP server.
+    - Repo description explicitly states it is an MCP server for Langfuse
+    - README details 37 MCP tools for traces, observations, sessions, etc.
+    - "Project is actively maintained (pushed_at: 2026-06-27)"
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -87,12 +87,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:42.259Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:119775c97d50f7fb2860e456e1923744b0fad5b86bcf64057ba8ce376fbccc35
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is as an MCP server for Langfuse, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Langfuse
+        - README details 37 MCP tools for traces, observations, sessions, etc.
+        - "Project is actively maintained (pushed_at: 2026-06-27)"
+      category_candidates:
+        - mcp
+        - evals
+      contrastive_reason: Choose mcp over evals because the primary product is an MCP server for observability, not a standalone evaluation or benchmarking framework.
+      review_reason: null
+      review_resume_lifecycle: null

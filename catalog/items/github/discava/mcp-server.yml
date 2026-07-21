@@ -40,22 +40,21 @@ metadata:
       fetched_at: "2026-07-20T15:10:51.902Z"
       bytes: 1126
 insights:
-  summary: An MCP server that exposes local business search, details, rankings, and autocomplete via the Discava API for AI agents.
-  why_it_matters: It lets coding agents and assistants query a global business directory directly, turning natural-language requests into structured local-business data without custom API glue.
-  mental_damage: "We have finally achieved the future: an AI agent can now settle arguments about which coffee shop has the highest demand score while you are trying to ship a pull request."
+  summary: An MCP server that enables AI agents to search local businesses worldwide via the Discava API.
+  why_it_matters: Developers can integrate business directory search capabilities into their AI agents or workflows through a standardized MCP interface.
+  mental_damage: Now your AI agent can argue with you about which coffee shop to work from next.
   tags:
     - mcp
-    - business-data
-    - agent-integration
-    - local-search
+    - business-directory
+    - api-integration
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose sole identity is exposing Discava's business directory to MCP-compatible agents, which fits the MCP Servers & Tooling category.
+  reason: The product's primary identity is as an MCP server providing business directory search functionality, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'mcp server' and the README shows Claude Desktop and Claude Code MCP setup instructions.
-    - "Provides MCP tools: search_businesses, get_business, get_rankings, suggest, and send_feedback backed by the Discava API."
-    - Listed in awesome-mcp-servers under 'Location Services', confirming its role as a domain-specific MCP implementation.
+    - Repo description explicitly identifies it as an MCP server for Discava API
+    - README details MCP server setup and tools for business search
+    - Project is actively maintained (pushed recently, not archived)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:05.803Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:896fe0219cc1a006fc3d19ff4f241e33b1dd02a1a89d710fbdbecd5b3e926701
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's primary identity is as an MCP server providing business directory search functionality, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for Discava API
+        - README details MCP server setup and tools for business search
+        - Project is actively maintained (pushed recently, not archived)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific functionality rather than an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:31.921Z"
       bytes: 4266
 insights:
-  summary: An MCP server that exposes ByteDance's VikingDB vector database for upserting and searching information within MCP-compatible coding assistants like Claude Desktop.
-  why_it_matters: It lets developers connect LLM workflows directly to a high-performance vector store without writing custom integration glue code.
-  mental_damage: Because what the modern developer truly needs is another three-letter vector database adapter in a protocol ecosystem that now requires its own package manager.
+  summary: An MCP server that enables store and search operations for VikingDB, a high-performance vector database by ByteDance.
+  why_it_matters: Developers can integrate VikingDB's vector search capabilities directly into MCP-compatible workflows, enabling AI agents to query and manage vector data.
+  mental_damage: Now your AI agent can also lose sleep over which vector database to use.
   tags:
     - mcp
     - vector-database
     - vikingdb
-    - bytedance
-    - integration
-  confidence: medium
+    - search
+    - byteance
+  confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server for a specific vector database, fitting squarely into the MCP Servers & Tooling category as a domain-specific server.
+  reason: The product is explicitly an MCP server for VikingDB, making MCP its primary identity rather than a compatibility feature.
   evidence:
-    - Repo description explicitly states 'a mcp server for vikingdb store and search'.
-    - README lists tools like 'vikingdb-upsert-information' and 'vikingdb-search-information' for MCP hosts.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Databases sections.
+    - Repo description states it is 'a mcp server for vikingdb store and search'
+    - README confirms it implements MCP tools for VikingDB operations
+    - Listed in multiple MCP server directories under Databases
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:06.157Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f26bffa0a72db34210794fddf4ca4dd00c57da046c4e8a0fc0e19e59786b01a0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server for VikingDB, making MCP its primary identity rather than a compatibility feature.
+      decision_evidence:
+        - Repo description states it is 'a mcp server for vikingdb store and search'
+        - README confirms it implements MCP tools for VikingDB operations
+        - Listed in multiple MCP server directories under Databases
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general SDK or framework.
+      review_reason: null
+      review_resume_lifecycle: null

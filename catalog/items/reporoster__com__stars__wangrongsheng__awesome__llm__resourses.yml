@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A broad, manually curated list of LLM resources covering multimodal generation, agents, coding assistance, model training, and inference.
-  why_it_matters: It serves as a high-level map for developers trying to navigate the sprawling ecosystem of LLM tools, from training libraries to MCP implementations.
-  mental_damage: Yet another 'awesome' list to bookmark and never read, ensuring you feel academically inadequate about the 40 different model architectures you haven't personally fine-tuned.
+  summary: A curated list of LLM resources covering multimodal generation, agents, coding assistance, AI review, data processing, model training, inference, o1 models, MCP, small language models, and vision-language models.
+  why_it_matters: Provides developers with a centralized starting point to discover and navigate the fragmented landscape of LLM tools and research.
+  mental_damage: Because nothing says 'productive afternoon' like falling down a rabbit hole of 37 different ways to make LLMs do your laundry.
   tags:
-    - llm
-    - resources
-    - directory
-    - multimodal
-    - training
+    - curated-list
+    - llm-resources
+    - developer-navigation
+    - awesome-list
   confidence: high
 curation:
   status: included
-  reason: This is a curated index of resources rather than a standalone developer tool, making it a navigational aid for the ecosystem.
+  reason: This is a curated directory of LLM resources, which fits the scope of navigation aids for developers under the awesome-awesomes category.
   evidence:
-    - Seen in source lists as 'Summary of the world's best LLM resources' (awesome-LLM-resources).
-    - Covers a wide range of topics including '辅助编程' (coding assistance), 'MCP', and '模型训练' (model training).
-    - Repository name 'awesome-LLM-resourses' follows the standard 'awesome-*' list curation format.
+    - Source-list context describes it as a summary of the world's best LLM resources
+    - Covers developer-relevant topics like coding assistance, MCP, and model training
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -70,12 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:04.365Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:26b4adf3806a755c121e257ec88bb80bb4f3f4b88fb5064fc6313ba17184f94c
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of LLM resources, which fits the scope of navigation aids for developers under the awesome-awesomes category.
+      decision_evidence:
+        - Source-list context describes it as a summary of the world's best LLM resources
+        - Covers developer-relevant topics like coding assistance, MCP, and model training
+      category_candidates:
+        - awesome-awesomes
+        - newsletters-and-feeds
+      contrastive_reason: Choose awesome-awesomes over newsletters-and-feeds because it is a static curated list rather than a recurring publication or feed.
+      review_reason: null
+      review_resume_lifecycle: null

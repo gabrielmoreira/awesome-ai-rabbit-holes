@@ -60,26 +60,26 @@ metadata:
       fetched_at: "2026-07-16T05:05:06.385Z"
       bytes: 8813
 insights:
-  summary: A Go-based MCP server that exposes a Spinnaker instance as a Model Context Protocol endpoint, allowing LLMs and agents to manage applications, pipelines, and deployments via JSON-RPC.
-  why_it_matters: It lets AI coding agents and orchestration platforms directly trigger pipelines, inspect executions, and manage cloud infrastructure without leaving the MCP ecosystem.
-  mental_damage: We have successfully abstracted the CD pipeline so that an LLM can now break production deployments with the same effortless confidence it brings to writing buggy code.
+  summary: An MCP server that exposes Spinnaker's Gate API to LLMs for managing applications, pipelines, and deployments.
+  why_it_matters: It allows AI agents to interact directly with your continuous delivery infrastructure to trigger, pause, or debug deployment pipelines.
+  mental_damage: Because nothing says 'peaceful Friday deployment' like giving a LLM the power to cancel your production rollouts via a chat prompt.
   tags:
     - mcp
-    - spinnaker
     - ci-cd
+    - spinnaker
     - devops
-    - go
+    - automation
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server for a specific domain (Spinnaker), fitting cleanly into MCP Servers & Tooling as a domain-specific implementation.
+  reason: The product's core identity is a Model Context Protocol server designed to bridge Spinnaker to AI agents.
   evidence:
-    - Repo description explicitly states 'MCP Server for Spinnaker'.
-    - README confirms it 'exposes any Spinnaker instance as an MCP v1 server'.
-    - Listed in awesome-mcp-servers under 'Cloud Platforms'.
+    - Repo description explicitly states 'MCP Server for Spinnaker'
+    - README defines the tool as a bridge exposing Spinnaker via JSON-RPC over MCP
+    - Provides specific tool definitions like 'trigger_pipeline' and 'cancel_execution' for LLM consumption
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:01:36.023Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a7c5b295d69c39ebfb3558818395253b02fa023c89a41fca9f1a7ff431ebb2ab
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is a Model Context Protocol server designed to bridge Spinnaker to AI agents.
+      decision_evidence:
+        - Repo description explicitly states 'MCP Server for Spinnaker'
+        - README defines the tool as a bridge exposing Spinnaker via JSON-RPC over MCP
+        - Provides specific tool definitions like 'trigger_pipeline' and 'cancel_execution' for LLM consumption
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is a protocol implementation (MCP server) rather than a plugin for a specific existing assistant.
+      review_reason: null
+      review_resume_lifecycle: null

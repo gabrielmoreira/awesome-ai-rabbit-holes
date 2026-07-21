@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A no-code Hugging Face platform that automatically trains, evaluates, and deploys machine learning models, including LLM finetuning.
-  why_it_matters: It allows developers to spin up custom-trained models and LLM finetunes directly from data uploads without writing training loops or managing infrastructure.
-  mental_damage: Yet another 'no-code' promise that lets you trade writing training scripts for the unique thrill of debugging a black-box AutoML job you have zero visibility into.
+  summary: AutoTrain is Hugging Face's no-code tool for automatically training, evaluating, and deploying state-of-the-art ML models.
+  why_it_matters: It lets developers and non-researchers fine-tune and deploy models (including LLMs) without writing training code, accelerating experimentation and productionization.
+  mental_damage: Finally, a way to fine-tune models without remembering whether it's `transformers.Trainer` or `transformers.TrainingArguments` that needs the `output_dir`.
   tags:
-    - ml
-    - finetuning
     - automl
+    - fine-tuning
     - huggingface
-    - deployment
+    - model-deployment
   confidence: high
 curation:
   status: excluded
-  reason: This is a general AutoML SaaS for training and deploying ML models, which falls outside the catalog's scope of developer-facing coding tools, agents, and infrastructure.
+  reason: AutoTrain is a no-code AutoML platform for model training/deployment, not a developer-tooling product for coding workflows, IDEs, agents, or app-building.
   evidence:
-    - Scraped site context describes it as 'Create powerful AI models without code' and 'automatic way to train... state-of-the-art Machine Learning models'.
-    - Source-list context places it under '微调 Fine-Tuning' (Fine-Tuning) in a general LLM resources list, not a developer tooling list.
-    - The listed tasks (Image Classification, Translation, Tabular Regression) confirm a general ML product, not a coding-agent or developer-infrastructure product.
+    - Primary page excerpt describes it as a no-code tool for training and deploying ML models
+    - Tasks include LLM finetuning, image classification, text classification, etc., not code editing or repo workflows
+    - Source-list context places it under 'Fine-Tuning', reinforcing its ML training focus
 placement:
   primary_category: null
   section: null
@@ -70,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:27:45.213Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8cc5335ed8760fe50a8bb1557d8cbdd4503a43fc7b0dc72cc82e2ed92fb59d07
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: AutoTrain is a no-code AutoML platform for model training/deployment, not a developer-tooling product for coding workflows, IDEs, agents, or app-building.
+      decision_evidence:
+        - Primary page excerpt describes it as a no-code tool for training and deploying ML models
+        - Tasks include LLM finetuning, image classification, text classification, etc., not code editing or repo workflows
+        - Source-list context places it under 'Fine-Tuning', reinforcing its ML training focus
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

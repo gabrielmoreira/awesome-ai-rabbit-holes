@@ -43,22 +43,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:06.898Z"
       bytes: 10542
 insights:
-  summary: Auto-PyTorch is an open-source framework for automatic neural architecture search and hyperparameter optimization on PyTorch, focused on tabular and time series deep learning tasks.
-  why_it_matters: It lets developers skip the manual grind of tuning network architectures and training hyperparameters by automating the full AutoDL pipeline with proven meta-learning portfolios.
-  mental_damage: Another reminder that while we automate architecture search, we still manually prompt Claude Code to fix a missing semicolon.
+  summary: Automatic architecture search and hyperparameter optimization framework for PyTorch, focused on tabular and time series data.
+  why_it_matters: Automates the design and tuning of deep learning models for developers working with structured data, reducing manual experimentation.
+  mental_damage: Finally, a way to stop guessing neural network architectures—now you can just argue with the optimizer instead.
   tags:
     - automl
     - pytorch
-    - deep-learning
     - hyperparameter-optimization
+    - neural-architecture-search
+    - tabular-data
   confidence: high
 curation:
   status: excluded
-  reason: The project is a traditional AutoML research framework for deep learning on tabular and time series data, with no meaningful developer-tooling, coding-agent, or AI-workflow angle for this catalog.
+  reason: This is an AutoML framework for PyTorch, not a developer-tooling product in the catalog's scope (coding agents, IDEs, extensions, etc.).
   evidence:
-    - Repo description and README focus on neural architecture search and hyperparameter optimization for PyTorch, not developer-facing AI tooling.
-    - Topics and documentation emphasize AutoML, deep learning, and tabular/time series use cases rather than coding assistants, agents, or workflows.
-    - Appears in Awesome-LLMOps under AutoML, which reflects general ML ops scope rather than the curated developer-tooling focus of this catalog.
+    - Repo description explicitly states it is for automatic architecture search and hyperparameter optimization for PyTorch
+    - README confirms focus on tabular/time series AutoDL, not developer workflow tooling
+    - Source-list context places it under AutoML, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -77,12 +78,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:29.926Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:66e9db92211413d5cd633c77ad888d175d596c0ccd1d6a0ec27d144ec8433c6d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an AutoML framework for PyTorch, not a developer-tooling product in the catalog's scope (coding agents, IDEs, extensions, etc.).
+      decision_evidence:
+        - Repo description explicitly states it is for automatic architecture search and hyperparameter optimization for PyTorch
+        - README confirms focus on tabular/time series AutoDL, not developer workflow tooling
+        - Source-list context places it under AutoML, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -45,23 +45,23 @@ metadata:
       fetched_at: "2026-07-20T15:10:56.458Z"
       bytes: 3183
 insights:
-  summary: A Next.js application that allows users to upload files and have conversations with their content using LangChainJS and a Supabase vector database for embeddings.
-  why_it_matters: It provides a reference implementation for developers looking to build document-based RAG (Retrieval-Augmented Generation) applications using the JavaScript/TypeScript stack.
-  mental_damage: Yet another 'Chat with your PDF' boilerplate proving that in 2024, gluing a vector store to a chat UI is considered a full-stack revolution.
+  summary: A web app for chatting with multiple files using GPT and embeddings, built with LangChainJS and Supabase vector DB.
+  why_it_matters: Lets developers upload documents and query them conversationally, useful for exploring codebases or documentation without manual searching.
+  mental_damage: Because nothing says 'I trust this code' like asking an LLM to explain the PDF you just uploaded.
   tags:
-    - rag
-    - langchain
-    - nextjs
-    - supabase
     - document-chat
+    - rag
+    - file-query
+    - langchain
+    - supabase
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is a general-purpose document chatbot for end-users rather than a tool that assists developers in writing, debugging, or managing code.
+  reason: This is a general-purpose document chatbot rather than a developer-tooling product; its primary use case is not developer workflow augmentation.
   evidence:
-    - Repo description explicitly states 'Document Chatbot' and the README focuses on uploading files to 'have a conversation with it'.
-    - Listed in awesome-langchain under 'Knowledge Management', which targets general RAG use cases rather than developer workflow automation.
-    - The tech stack (Next.js, Tailwind, Vercel) and features describe a consumer-facing chat app, not a coding agent or dev infrastructure.
+    - "Repo description: 'Document Chatbot — multiple files. Powered by GPT / Embedding.'"
+    - "README: 'Upload your file and have a conversation with it.'"
+    - "Source-list context: listed under 'Knowledge Management' in awesome-langchain"
 placement:
   primary_category: null
   section: null
@@ -80,12 +80,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:31.153Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6b1a7d7584a724e7cb6a138a03b6c7a42b4e627a649752abc0398cf6a2aaf047
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a general-purpose document chatbot rather than a developer-tooling product; its primary use case is not developer workflow augmentation.
+      decision_evidence:
+        - "Repo description: 'Document Chatbot — multiple files. Powered by GPT / Embedding.'"
+        - "README: 'Upload your file and have a conversation with it.'"
+        - "Source-list context: listed under 'Knowledge Management' in awesome-langchain"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

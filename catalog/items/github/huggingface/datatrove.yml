@@ -39,26 +39,25 @@ metadata:
       fetched_at: "2026-07-20T15:11:06.123Z"
       bytes: 39633
 insights:
-  summary: DataTrove is a library and pipeline framework from Hugging Face for processing, filtering, and deduplicating large-scale text datasets used in LLM training.
-  why_it_matters: It provides developers with prebuilt, customizable pipeline blocks and scalable executors (local, Slurm, Ray) to handle massive data preparation workloads without writing ad-hoc scripts.
-  mental_damage: Yet another reminder that while we have infinite ways to generate synthetic text, we still need an entire framework just to figure out what to do with the terabytes of garbage we already scraped.
+  summary: A platform-agnostic library providing customizable pipeline processing blocks for data processing.
+  why_it_matters: It helps developers escape ad-hoc scripting for data pipelines by offering reusable, modular components.
+  mental_damage: Finally, a way to process data without writing the same glue code for the 100th time—until you realize you still need to write the glue to connect the blocks.
   tags:
-    - data-processing
-    - llm-training
-    - pipelines
+    - data-pipelines
+    - modular-processing
     - huggingface
-    - dataset
+    - python
   confidence: high
 curation:
-  status: excluded
-  reason: This is a data engineering library for LLM pre-training datasets, which falls under general ML infrastructure and data processing rather than a developer-facing AI tool, agent, or coding workflow product.
+  status: included
+  reason: The product is a code-first library for building data processing pipelines, fitting the Frameworks & SDKs category as a reusable building block for AI workflows.
   evidence:
-    - Repo description explicitly states it is for 'processing, filtering and deduplicating text data at a very large scale' for 'LLM's training data'.
-    - README focuses on pipeline blocks, executors (Slurm/Ray), and data formats (warc, parquet) rather than coding assistance or developer tooling.
-    - Source list context places it under '数据 Data' (Data) in an LLM resources list, confirming its identity as a data tool rather than a coding tool.
+    - "Repo description: 'Freeing data processing from scripting madness by providing a set of platform-agnostic customizable pipeline processing blocks.'"
+    - High star count (3214) and active development (pushed recently).
+    - "Source-list context: listed under '数据 Data' in a curated LLM resources list."
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Workflow / Graph Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (3032) exceeded threshold (150)
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:42.664Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a0b3e94575688d12866c454ad3241ea9ad5093de363c95883467141995356d1e
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The product is a code-first library for building data processing pipelines, fitting the Frameworks & SDKs category as a reusable building block for AI workflows.
+      decision_evidence:
+        - "Repo description: 'Freeing data processing from scripting madness by providing a set of platform-agnostic customizable pipeline processing blocks.'"
+        - High star count (3214) and active development (pushed recently).
+        - "Source-list context: listed under '数据 Data' in a curated LLM resources list."
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the core value is a code-first pipeline library, not a multi-agent coordination platform.
+      review_reason: null
+      review_resume_lifecycle: null

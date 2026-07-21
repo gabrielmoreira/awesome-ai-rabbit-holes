@@ -51,21 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: B2 AI is a general-purpose autonomous AI agent platform appearing in AI agent directories.
-  why_it_matters: It represents the growing ecosystem of autonomous agents that developers may evaluate for task automation beyond traditional coding workflows.
-  mental_damage: Another autonomous agent platform enters the arena, promising to think so you don't have to, while your real job becomes evaluating whether its chain-of-thought is merely confident hallucination.
+  summary: B2 AI is a platform for autonomous AI agents.
+  why_it_matters: It offers developers a way to deploy or coordinate AI agents for workflow automation.
+  mental_damage: Another day, another agent platform promising to automate all the things you still have to babysit.
   tags:
     - ai-agents
-    - autonomous
-    - general-purpose
+    - automation
+    - workflow
   confidence: medium
 curation:
   status: excluded
-  reason: Excluded because this is a general-purpose autonomous AI agent platform with no clear developer-tooling angle, no repository or README to verify its claims, and only a vague directory listing as evidence.
+  reason: The project is listed as an AI autonomous agent platform, but lacks concrete developer-tooling specifics (no repo, no README, no clear coding/IDE/CLI integration) to justify inclusion in this catalog.
   evidence:
-    - Listed in awesome-ai-agents under 'B2 AI' with purpose 'A list of AI autonomous agents' but no repo or description provided
-    - No repository, README, repo description, or scraped site context available to verify developer-facing functionality
-    - URL points to www.b2.work which has no provided site context, description, or technical details
+    - Source-list context identifies it as an AI autonomous agent in 'awesome-ai-agents'
+    - No repo description, README, or technical details provided
+    - No clear developer-tooling angle (e.g., coding, IDE, CLI, or framework) in available signals
 placement:
   primary_category: null
   section: null
@@ -74,15 +74,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:38.111Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b6e848cd3288d877ad29749f7ad7430d90f7e49fdf07916e1ec7e2e9dc0984fd
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is listed as an AI autonomous agent platform, but lacks concrete developer-tooling specifics (no repo, no README, no clear coding/IDE/CLI integration) to justify inclusion in this catalog.
+      decision_evidence:
+        - Source-list context identifies it as an AI autonomous agent in 'awesome-ai-agents'
+        - No repo description, README, or technical details provided
+        - No clear developer-tooling angle (e.g., coding, IDE, CLI, or framework) in available signals
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T16:42:15.364Z"

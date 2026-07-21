@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 33
-    forks: 5
+    stars: 38
+    forks: 6
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: themesberg/flowbite-mcp
+    html_url: https://github.com/themesberg/flowbite-mcp
     created_at: "2025-11-24T16:40:35Z"
     pushed_at: "2026-01-04T17:45:37Z"
     description: Convert Figma design to code with the official Flowbite MCP server
@@ -46,9 +46,9 @@ metadata:
       - mcp-server
       - mcp-stdio
       - ui-mcp
-    last_checked_at: "2026-05-06T22:46:47.237Z"
+    last_checked_at: "2026-07-21T15:20:47.016Z"
     readme:
-      fetched_at: "2026-05-06T22:46:47.237Z"
+      fetched_at: "2026-07-21T15:20:47.016Z"
       bytes: 8882
 insights:
   summary: An official MCP server that gives AI assistants access to Flowbite's Tailwind CSS component library and converts Figma designs into code.
@@ -82,16 +82,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:47.237Z"
+    updated_at: "2026-07-21T15:20:47.016Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -55,23 +55,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:17.566Z"
       bytes: 4596
 insights:
-  summary: An MCP server that provides SQL static analysis, linting, dialect conversion, and table/column reference extraction using SQLGlot.
-  why_it_matters: It lets AI coding assistants validate, convert, and reason about SQL queries across dialects before they ship broken database code.
-  mental_damage: We now have an MCP server to help the AI catch SQL errors that the AI itself introduced while we were busy configuring yet another MCP server.
+  summary: An MCP server that provides SQL static analysis, linting, and dialect conversion using SQLGlot.
+  why_it_matters: It lets AI assistants validate, transpile, and analyze SQL queries across dialects, reducing syntax errors and improving database-specific guidance.
+  mental_damage: Now your AI can argue with you about SQL dialects instead of just guessing them.
   tags:
     - mcp
     - sql
     - static-analysis
-    - database
-    - developer-tools
+    - dialect-conversion
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server providing SQL analysis capabilities, making it a clear fit for the MCP Servers & Tooling category under Domain Servers.
+  reason: The product is explicitly an MCP server with SQL analysis as its core identity, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'MCP server for SQL static analysis.'"
-    - "README confirms: 'A Model Context Protocol (MCP) server that provides SQL analysis, linting, and dialect conversion capabilities.'"
-    - Included in awesome-mcp-servers under 'Server Implementations > Developer Tools' and awesome-mcp-list under 'Utilities'.
+    - Repo description states it is an MCP server for SQL static analysis
+    - README details tools like lint_sql, transpile_sql, and reference extraction
+    - Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:20.423Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a39b93120725f8a1fd9d5c3ed2df988a80a4c27b80e7d3da55a8390b7fca80fe
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server with SQL analysis as its core identity, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description states it is an MCP server for SQL static analysis
+        - README details tools like lint_sql, transpile_sql, and reference extraction
+        - Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server, not an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

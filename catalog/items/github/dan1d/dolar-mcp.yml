@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:28.553Z"
       bytes: 3975
 insights:
-  summary: An MCP server that gives AI agents real-time access to Argentine exchange rates, currency conversions, and spread calculations via DolarAPI.
-  why_it_matters: Developers building LATAM-focused financial agents can plug in Argentine peso exchange data without writing API wrappers or managing keys.
-  mental_damage: We have reached the point where AI agents need a dedicated protocol server just to figure out what the dollar blue is trading at today.
+  summary: An MCP server providing real-time Argentine exchange rates (DolarAPI) for AI agents.
+  why_it_matters: Developers can integrate live currency data into AI workflows without API keys or manual scraping.
+  mental_damage: Now your AI can finally explain why your savings are worth less today than yesterday.
   tags:
-    - mcp
+    - mcp-server
     - finance
+    - currency
     - argentina
-    - exchange-rates
-    - node
+    - dolarapi
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server for a specific domain (Argentine finance), fitting cleanly as domain-specific MCP infrastructure rather than a generic tool or extension.
+  reason: This is an MCP-first server providing domain-specific financial data, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description: 'Argentine exchange rates MCP server. Dollar blue, oficial, CCL, crypto and all currencies via DolarAPI.'"
-    - "README states: 'MCP server that gives AI agents real-time access to Argentine exchange rates via DolarAPI.'"
-    - Listed in awesome-mcp-servers under Server Implementations > Finance & Fintech.
+    - Repo description explicitly states it is an Argentine exchange rates MCP server
+    - README confirms it is an MCP server with tools for currency conversion and rate queries
+    - Already listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:39.562Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f626351d9164996b2b3ad01db2cc96a821b9d14db8a7c202652362a264d6c752
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server providing domain-specific financial data, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an Argentine exchange rates MCP server
+        - README confirms it is an MCP server with tools for currency conversion and rate queries
+        - Already listed in awesome-mcp-servers under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is the MCP server itself, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

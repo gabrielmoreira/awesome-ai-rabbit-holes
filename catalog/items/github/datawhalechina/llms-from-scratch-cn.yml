@@ -44,23 +44,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:29.750Z"
       bytes: 13169
 insights:
-  summary: A hands-on educational tutorial and codebase for building large language models like GPT, GLM4, Llama3, and RWKV6 from scratch using PyTorch.
-  why_it_matters: It provides a structured, code-first learning path for developers who want to deeply understand LLM architecture and training mechanics beyond just calling APIs.
-  mental_damage: Yet another heroic attempt to convince yourself that spending three weeks debugging a custom attention mask will somehow make you a better API caller.
+  summary: A Chinese-language educational repository for building large language models from scratch in Python, covering GLM4, Llama3, and RWKV6 architectures.
+  why_it_matters: Helps developers deeply understand LLM internals by implementing models step-by-step, bridging theory and practice.
+  mental_damage: Finally, a way to spend your weekend reimplementing Llama3 instead of actually shipping features.
   tags:
     - llm
     - education
+    - from-scratch
+    - chinese
     - pytorch
-    - training
-    - tutorial
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course and accompanying notebooks for learning LLM internals, not a developer-facing tool, agent, or infrastructure product.
+  reason: This is an educational resource (course/tutorial) rather than a developer tool, framework, or workflow product.
   evidence:
-    - "Repo description explicitly states it is for learning: '从0构建大语言模型' (building LLMs from scratch) and '深入理解大模型原理' (deep understanding of model principles)."
-    - README clarifies the 'Education purpose' and 'practice-oriented' nature, focusing on tutorials and notebooks rather than shipping tooling.
-    - Source list context places it in a '课程 Course' (Course) section, confirming its identity as a learning resource.
+    - Repo description explicitly states it's a from-scratch LLM building guide in Chinese
+    - Source-list context places it under '课程 Course' (course section)
+    - No evidence of a runnable tool, SDK, or workflow product
 placement:
   primary_category: null
   section: null
@@ -79,12 +79,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:06.103Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:abee19999cb9d214245fac966be577f1e71bb488d99bb6ac016c5f730dfef93c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational resource (course/tutorial) rather than a developer tool, framework, or workflow product.
+      decision_evidence:
+        - Repo description explicitly states it's a from-scratch LLM building guide in Chinese
+        - Source-list context places it under '课程 Course' (course section)
+        - No evidence of a runnable tool, SDK, or workflow product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

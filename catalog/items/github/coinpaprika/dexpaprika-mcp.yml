@@ -66,23 +66,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:24.051Z"
       bytes: 10536
 insights:
-  summary: A Model Context Protocol server that exposes real-time and historical DeFi and DEX trading data from DexPaprika for AI assistants like Claude.
-  why_it_matters: Developers building crypto-aware agents can give their assistants live token, pool, and DEX analytics without writing custom API integrations.
-  mental_damage: Your agent still can't predict the next rug pull, but now it can confidently over-leverage your portfolio with up-to-the-second on-chain data.
+  summary: dexpaprika-mcp is an MCP server that exposes real-time cryptocurrency token, DEX trading, and DeFi analytics data across multiple blockchains to AI assistants.
+  why_it_matters: It lets developers plug live on-chain data directly into coding assistants like Claude with zero configuration, enabling crypto-aware workflows without writing glue code.
+  mental_damage: Brings live DEX data directly into your coding assistant, blurring the line between infrastructure monitoring and checking if your bags are safe.
   tags:
     - mcp
-    - defi
     - crypto
+    - defi
+    - data-api
     - claude
-    - data
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: This is an MCP server providing domain-specific crypto data, fitting cleanly into MCP Servers & Tooling as a domain server.
+  reason: This is explicitly an MCP server built to expose crypto and DeFi data to AI assistants, fitting squarely in MCP Servers & Tooling under Domain Servers.
   evidence:
-    - Repo description explicitly states 'DexPaprika MCP server allows access real-time and historical data... through a standardized interface.'
-    - README states 'A Model Context Protocol (MCP) server that provides on-demand access to DexPaprika's cryptocurrency and DEX data API.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Finance & Fintech' and 'Official Servers'.
+    - Repository name and description identify it as the 'DexPaprika MCP server' for real-time crypto token and DEX data.
+    - README centers entirely on MCP protocol setup, Claude Desktop MCP configuration, and hosted MCP endpoints.
+    - Listed in awesome-mcp-servers under Finance & Fintech and Official Servers sections.
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -101,12 +101,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:45:44.202Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5dabaf4bf33e820ed747fe7183e85e7eb3c765c21d84b9259c9fb4eb4523cc95
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is explicitly an MCP server built to expose crypto and DeFi data to AI assistants, fitting squarely in MCP Servers & Tooling under Domain Servers.
+      decision_evidence:
+        - Repository name and description identify it as the 'DexPaprika MCP server' for real-time crypto token and DEX data.
+        - README centers entirely on MCP protocol setup, Claude Desktop MCP configuration, and hosted MCP endpoints.
+        - Listed in awesome-mcp-servers under Finance & Fintech and Official Servers sections.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is explicitly built as and marketed as an MCP server with MCP in its name and protocol implementation, making MCP its primary identity rather than a thin integration layer on another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

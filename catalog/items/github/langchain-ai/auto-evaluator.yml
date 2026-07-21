@@ -40,25 +40,24 @@ metadata:
       fetched_at: "2026-07-20T15:11:45.258Z"
       bytes: 8395
 insights:
-  summary: An archived LangChain app that auto-generates QA test sets from documents and uses model-graded evaluation to score and improve retrieval and answer quality.
-  why_it_matters: It gives developers a structured way to measure and tune QA chain parameters like chunk size, retriever choice, and prompts instead of guessing.
-  mental_damage: Yet another reminder that your RAG pipeline’s real problem isn’t the model—it’s that you’ve never actually measured whether any of this works.
+  summary: Auto-evaluator is a LangChain-based app that auto-generates QA test sets and performs model-graded evaluation of retrieval-augmented question answering chains.
+  why_it_matters: It helps developers systematically evaluate and improve QA system quality by replacing manual answer checking with automated, model-driven assessment of retrieval relevance and answer correctness.
+  mental_damage: Another tool that promises to fix hallucinations with more LLMs, because clearly the problem was insufficient model-to-model grading.
   tags:
     - evals
     - rag
-    - langchain
     - qa
-  confidence: high
+  confidence: medium
 curation:
-  status: excluded
-  reason: The repo is archived and focused on document QA evaluation rather than core developer coding workflows, making it a poor fit for the catalog.
+  status: included
+  reason: The tool's core function is automated evaluation of QA chains via model-graded metrics, making it an evals product rather than a coding agent or extension.
   evidence:
-    - Repo is marked archived, indicating it is no longer maintained.
-    - README centers on document Question-Answering evaluation, not coding assistance or developer tooling.
-    - Appears in awesome-langchain under Services, but the use case is QA chains rather than coding agents or dev infra.
+    - "Archived: yes"
+    - README emphasizes auto-generating test sets and model-graded evaluation of retrieval and answer quality
+    - Source-lists it under awesome-langchain in Tools > Services as an evaluation utility
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Agent Benchmarks
 lifecycle:
   status: needs_review
   reason: Repository is archived
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:45.925Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:53e7bb3e3c5783480d9d30c868f33f2d7d9f6b0a9787156fbeea63d86c566e3b
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's core function is automated evaluation of QA chains via model-graded metrics, making it an evals product rather than a coding agent or extension.
+      decision_evidence:
+        - "Archived: yes"
+        - README emphasizes auto-generating test sets and model-graded evaluation of retrieval and answer quality
+        - Source-lists it under awesome-langchain in Tools > Services as an evaluation utility
+      category_candidates:
+        - evals
+        - context-engineering
+      contrastive_reason: Choose evals over context-engineering because the primary value is measuring QA system behavior via automated scoring, not improving retrieval or prompt context itself.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:16.691Z"
       bytes: 5008
 insights:
-  summary: An MCP server that exposes the expr-lang expression evaluation engine to Claude Desktop for in-chat data manipulation and calculations.
-  why_it_matters: It lets developers delegate quick data transformations and arithmetic to Claude without leaving the chat, using a sandboxed expression language.
-  mental_damage: We have successfully reached the point where we need a specialized network protocol just to ask the AI to calculate 10 + 5 * 3.
+  summary: An MCP server that integrates the expr-lang expression evaluation engine with Claude Desktop.
+  why_it_matters: Enables developers to perform complex data manipulations, calculations, and transformations directly within Claude conversations using a powerful expression language.
+  mental_damage: Now you can offload your mental math to Claude, but good luck explaining to your teammates why your PR includes a 15-line expr-lang one-liner.
   tags:
     - mcp
-    - claude
-    - expression-eval
-    - integration
+    - expression-evaluation
+    - claude-integration
+    - data-transformation
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that gives Claude Desktop access to the expr-lang expression engine, making MCP the core identity.
+  reason: MCP is the product identity here, as it is a dedicated server wrapping expr-lang for MCP-compatible clients like Claude Desktop.
   evidence:
-    - Repo description states it is an 'MCP Server around https://expr-lang.org'.
-    - README describes it as 'A powerful expression evaluation tool for Claude Desktop using the Model Context Protocol (MCP)'.
-    - Listed in awesome-mcp-servers under the 'Community Servers' section.
+    - Repo description explicitly states it is an MCP Server around expr-lang.org
+    - README confirms it is a tool for Claude Desktop using MCP
+    - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:12.331Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0c47778e0009af22ef8e75f974ef0d3da805fa67c350720ce0e377d57d895e46
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here, as it is a dedicated server wrapping expr-lang for MCP-compatible clients like Claude Desktop.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP Server around expr-lang.org
+        - README confirms it is a tool for Claude Desktop using MCP
+        - Listed in awesome-mcp-servers under Community Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server, not an extension layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

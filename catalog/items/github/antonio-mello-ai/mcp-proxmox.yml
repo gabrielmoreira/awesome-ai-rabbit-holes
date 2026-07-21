@@ -50,23 +50,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:01.311Z"
       bytes: 9858
 insights:
-  summary: An MCP server that lets AI assistants like Claude and Cursor manage Proxmox VE clusters, including provisioning VMs, managing snapshots, and browsing storage.
-  why_it_matters: It gives developers a natural language interface to control homelab or on-prem virtualization infrastructure directly from their coding assistant.
-  mental_damage: You can now debug your VM provisioning by arguing with Claude, which is definitely the career progression you signed up for.
+  summary: MCP server for managing Proxmox VE clusters through AI assistants.
+  why_it_matters: Lets developers provision, manage, and monitor Proxmox infrastructure via natural language in assistants like Claude, Cursor, and Cline.
+  mental_damage: Now your homelab can be as chaotic as your prompt history.
   tags:
     - mcp
     - proxmox
+    - virtualization
     - homelab
     - infrastructure
-    - virtualization
   confidence: high
 curation:
   status: included
-  reason: The product is a domain-specific MCP server for Proxmox, which fits cleanly under MCP Servers & Tooling as a virtualization management tool.
+  reason: "MCP is the product identity: this is a dedicated MCP server for Proxmox VE, not a compatibility footnote."
   evidence:
-    - "Repo description: 'MCP server for managing Proxmox VE clusters through AI assistants'."
-    - README states it is an MCP server for Claude, Cursor, and Cline to manage Proxmox infrastructure.
-    - Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms.
+    - Repo description explicitly states it is an MCP server for Proxmox VE
+    - README details MCP server setup, tools, and integration with Claude/Cursor/Cline
+    - Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -85,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:18.115Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:37acf26818819397666b2ddd1c8fe4c0c057ae2f1e66a1fa0a373ad1e362e05b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for Proxmox VE, not a compatibility footnote."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Proxmox VE
+        - README details MCP server setup, tools, and integration with Claude/Cursor/Cline
+        - Listed in awesome-mcp-servers under Server Implementations > Cloud Platforms
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

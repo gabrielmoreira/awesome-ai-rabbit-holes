@@ -51,39 +51,50 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: APIMatic is a SaaS platform for generating SDKs, API docs, and integration code from API definitions, and is listed as an official MCP server for exposing API specs to AI models.
-  why_it_matters: It lets developers turn existing API definitions into ready-to-use SDKs and gives AI agents structured access to API capabilities via MCP.
-  mental_damage: One more indirection layer between your API and the AI that is now confidently generating integration code you’ll be debugging next sprint.
+  summary: APIMatic is an API development and management platform.
+  why_it_matters: It helps developers design, build, and manage APIs efficiently.
+  mental_damage: Because nothing says 'developer productivity' like another layer of abstraction between you and your endpoints.
   tags:
-    - api
-    - integrations
-    - mcp
-    - sdk-generation
-  confidence: medium
+    - api-development
+    - api-management
+    - developer-tools
+  confidence: high
 curation:
-  status: included
-  reason: APIMatic is included as an MCP server that exposes API definitions and SDK generation capabilities to AI models, fitting the MCP Servers & Tooling category.
+  status: excluded
+  reason: APIMatic is an API development and management platform, not a practical AI tool, agent, workflow, or infrastructure relevant to AI-assisted software development.
   evidence:
-    - "Listed in awesome-mcp-servers under section: Official Servers"
-    - Product is a SaaS platform for SDK and API docs generation, not a generic AI directory or research project
-    - MCP server identity is the stated relevance in source-list context
+    - The product is an API development and management platform, not AI-focused
+    - No evidence of AI-specific functionality or developer-tooling angle in the provided context
 placement:
-  primary_category: mcp
-  section: Domain Servers
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:27.776Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6c9361ab041948f5e826da2e54e4bdc77ac56cc235fef4e6ceaf5f7231e9d941
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: APIMatic is an API development and management platform, not a practical AI tool, agent, workflow, or infrastructure relevant to AI-assisted software development.
+      decision_evidence:
+        - The product is an API development and management platform, not AI-focused
+        - No evidence of AI-specific functionality or developer-tooling angle in the provided context
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T16:42:15.364Z"

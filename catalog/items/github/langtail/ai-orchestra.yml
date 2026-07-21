@@ -54,23 +54,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:46.327Z"
       bytes: 12949
 insights:
-  summary: A lightweight TypeScript library for orchestrating multiple AI agents with state transitions, built around Vercel's streamText as a simpler alternative to LangGraph.
-  why_it_matters: Developers building multi-agent workflows get a minimal, streaming-first orchestration layer with clear state control and low overhead compared to heavier graph frameworks.
-  mental_damage: Another proud entry in the growing genre where we wrap a three-file TypeScript library around an SDK and declare victory over the agent orchestration problem.
+  summary: AI Orchestra is a lightweight TypeScript library for orchestrating AI agents with state transitions and handoffs using Vercel's streamText.
+  why_it_matters: It lets developers coordinate multiple AI agents with explicit control over workflows and streaming, offering a simpler alternative to LangGraph or Swarm.
+  mental_damage: Yet another agent orchestration library promising to reduce complexity while adding yet another dependency to your AI stack.
   tags:
     - agent-orchestration
     - typescript
-    - state-machine
+    - streaming
     - vercel-ai-sdk
-    - multi-agent
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The project is primarily a code-first library (imported and scripted in TypeScript) for building multi-agent workflows, making it a clear fit for Frameworks & SDKs rather than an operated platform.
+  reason: AI Orchestra is a code-first library developers import and script against to build agent workflows, making it a framework/SDK rather than an operated control plane or extension.
   evidence:
-    - Readme shows npm install ai-orchestra and imports like createOrchestra, createToolResponse, processStream.
-    - Repo description explicitly calls it 'simple orchestration for AI Agents built around Vercel's streamText'.
-    - Source list places it under 'Core Frameworks > TypeScript & Node.js Frameworks' in an agent-orchestration repo.
+    - "Repo description: 'Simple orchestration for AI Agents built around Vercel's streamText. Lightweight alternative to LangGraph for agent handoffs and state transitions.'"
+    - "README: Provides `createOrchestra`, `createToolResponse`, `processStream` functions for developers to import and use in TypeScript code."
+    - "Source-list context: Listed in awesome-agent-orchestration under 'Core Frameworks > TypeScript & Node.js Frameworks'."
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -89,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:13.019Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8a733964529cd59b3c949a9edcbf21e068df6668b09ff9be9812f4b9f01c4c6a
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: AI Orchestra is a code-first library developers import and script against to build agent workflows, making it a framework/SDK rather than an operated control plane or extension.
+      decision_evidence:
+        - "Repo description: 'Simple orchestration for AI Agents built around Vercel's streamText. Lightweight alternative to LangGraph for agent handoffs and state transitions.'"
+        - "README: Provides `createOrchestra`, `createToolResponse`, `processStream` functions for developers to import and use in TypeScript code."
+        - "Source-list context: Listed in awesome-agent-orchestration under 'Core Frameworks > TypeScript & Node.js Frameworks'."
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers import and script against AI Orchestra as a library/SDK rather than operating it as a control plane or workbench.
+      review_reason: null
+      review_resume_lifecycle: null

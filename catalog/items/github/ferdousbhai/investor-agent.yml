@@ -55,22 +55,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:01.021Z"
       bytes: 914
 insights:
-  summary: A Model Context Protocol server that exposes financial market data tools—including stock fundamentals, options, earnings calendars, and technical indicators—for use by AI assistants.
-  why_it_matters: It allows coding agents to query live financial data directly via MCP, turning a general-purpose assistant into a capable long-term investment research tool.
-  mental_damage: We have successfully virtualized the tedious part of day trading, yet somehow still expect the AI to outperform the market while we debug its OHLCV tool calls.
+  summary: An MCP server that provides financial research tools including stock fundamentals, price history, and market indicators.
+  why_it_matters: It allows AI agents to access real-time financial data, fundamental analysis, and technical indicators via the Model Context Protocol.
+  mental_damage: Another way for your LLM to hallucinate a stock tip that sounds suspiciously like a rug pull.
   tags:
     - mcp
     - finance
-    - data-tools
-    - investment
+    - fintech
+    - data-retrieval
+    - investing
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server providing financial data tools, fitting cleanly into the Domain Servers section of MCP Servers & Tooling.
+  reason: The project's identity is explicitly an MCP server designed to provide specific domain-driven tools to an MCP client.
   evidence:
-    - "Repo description explicitly states: 'A Model Context Protocol server for building an investor agent'."
-    - README defines it as a 'Financial research MCP server' with tools like get_stock_info and earnings_calendar.
-    - Featured in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections.
+    - Repo description defines it as a 'Model Context Protocol server'
+    - README specifies setup via 'cpServers' configuration block
+    - Provides a specific suite of financial 'Tools' for agent consumption
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:55:48.229Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0fba190fbe5edcd1e31b96c8c9efe2e64e657d472883e13e70643c33a7b3eae5
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's identity is explicitly an MCP server designed to provide specific domain-driven tools to an MCP client.
+      decision_evidence:
+        - Repo description defines it as a 'Model Context Protocol server'
+        - README specifies setup via 'cpServers' configuration block
+        - Provides a specific suite of financial 'Tools' for agent consumption
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol-specific server rather than a host integration meant to augment a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null

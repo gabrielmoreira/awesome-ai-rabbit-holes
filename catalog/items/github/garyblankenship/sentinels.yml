@@ -50,23 +50,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:05.774Z"
       bytes: 34344
 insights:
-  summary: A Laravel package for building agent-based task orchestration pipelines with invokable agents, event-driven workflows, and transparent async execution.
-  why_it_matters: It lets Laravel developers decompose monolithic service classes into testable, observable agents that can run sequentially or in parallel without learning new async patterns.
-  mental_damage: You can now orchestrate AI agents inside the same framework that is already orchestrating your weekends into sprint retrospectives.
+  summary: A Laravel package for orchestrating agentic tasks using pipelines, agents, and event-driven workflows.
+  why_it_matters: It allows PHP developers to decompose monolithic service classes into traceable, testable, and observable agent-based pipelines.
+  mental_damage: Because nothing says 'odern architecture' quite like turning a simple method into a distributed graph of tiny, autonomous agents.
   tags:
     - laravel
-    - agent-orchestration
     - php
-    - workflow
-    - pipeline
-  confidence: medium
+    - agent-orchestration
+    - workflow-engine
+    - event-driven
+  confidence: high
 curation:
   status: included
-  reason: This is a code-first Laravel package used as a library to build agent-driven workflows, fitting the Frameworks & SDKs category rather than a control plane or standalone coding assistant.
+  reason: The tool is a code-first SDK/library that developers import into their Laravel applications to build agentic workflows.
   evidence:
-    - Repo description states it is a 'Laravel package for agent-based task orchestration with invokable agents, pipelines, and event-driven workflows'.
-    - README shows developers import and script pipelines via Sentinels::pipeline()->pipe(...) in PHP code, not operating a runtime platform.
-    - Source list places it under 'Core Frameworks > Workflow & Pipeline Frameworks' in awesome-agent-orchestration.
+    - Repo description identifies it as a 'Laravel package'
+    - README describes usage via Composer installation and PHP class definitions
+    - Core functionality is composing 'agents' within a code-based pipeline
 placement:
   primary_category: ai-frameworks
   section: Workflow / Graph Engines
@@ -85,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:00:18.541Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6b9ec4576102c33f487b5e5a782b9b8789b7fc06a634aa4b7662d723435f240d
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The tool is a code-first SDK/library that developers import into their Laravel applications to build agentic workflows.
+      decision_evidence:
+        - Repo description identifies it as a 'Laravel package'
+        - README describes usage via Composer installation and PHP class definitions
+        - Core functionality is composing 'agents' within a code-based pipeline
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the tool is primarily used as an imported library/SDK within existing code rather than an operated workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

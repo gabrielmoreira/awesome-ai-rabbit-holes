@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web-based playground for testing and tuning AI models through the Tune Studio interface.
-  why_it_matters: It provides developers with a hosted environment to experiment with model behavior and prompt configurations without local setup.
-  mental_damage: Yet another browser tab where you'll endlessly tweak temperature sliders while convincing yourself this is 'critical R&D work'.
+  summary: A web-based playground for experimenting with AI models hosted on Tune Studio.
+  why_it_matters: Provides developers a hands-on interface to test and interact with AI models without local setup.
+  mental_damage: Another playground where you can watch your prompts disappear into the void of model hallucinations.
   tags:
-    - playground
-    - model-tuning
+    - ai-playground
+    - model-testing
     - web-interface
   confidence: high
 curation:
   status: excluded
-  reason: This is a hosted SaaS playground for model tuning and experimentation, not a developer-facing tool for coding, agents, or local AI workflows.
+  reason: The tool is a generic AI model playground without a clear developer-tooling workflow or integration angle.
   evidence:
-    - URL points to studio.tune.app/playground, indicating a hosted web playground, not a developer tool or local runtime.
-    - Listed in awesome-local-ai under 'Developer tools', but the product itself is a cloud playground, not local AI infrastructure.
-    - No repo description, README, or other signals indicating it serves as a coding agent, framework, extension, or local execution environment.
+    - URL points to a web playground (studio.tune.app/playground)
+    - No repo description or README excerpt provided to indicate developer-specific functionality
+    - Source-list context describes it as a 'Developer tools' entry in a local AI directory, but the product itself is not developer-tooling focused
 placement:
   primary_category: null
   section: null
@@ -68,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:07.126Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a9ec6ff4117213ad85b1b3c1de5cc8714c26deba0142227f893deecfe97c2d38
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a generic AI model playground without a clear developer-tooling workflow or integration angle.
+      decision_evidence:
+        - URL points to a web playground (studio.tune.app/playground)
+        - No repo description or README excerpt provided to indicate developer-specific functionality
+        - Source-list context describes it as a 'Developer tools' entry in a local AI directory, but the product itself is not developer-tooling focused
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

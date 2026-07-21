@@ -61,23 +61,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:01.512Z"
       bytes: 14113
 insights:
-  summary: A Model Context Protocol server that provides over 25 chart generation tools using the AntV visualization library for data analysis and charting workflows.
-  why_it_matters: It allows coding agents and LLM applications to programmatically generate standard visualizations without needing to manually implement charting logic.
-  mental_damage: We have successfully abstracted away the last remaining justification for opening a spreadsheet, replacing the terrifying blank canvas of data with the equally terrifying blank canvas of a prompt.
+  summary: An MCP server that provides 25+ chart generation and data analysis tools using AntV visualization libraries.
+  why_it_matters: Developers can integrate chart generation and data visualization capabilities into their AI workflows via MCP, enabling programmatic creation of diverse chart types from prompts or code.
+  mental_damage: Now your AI can generate fishbone diagrams while you still can't decide which chart type to use in your next PR.
   tags:
-    - mcp
+    - mcp-server
     - visualization
     - antv
-    - charts
     - data-analysis
+    - chart-generation
   confidence: high
 curation:
   status: included
-  reason: The product identity is a standalone MCP server providing chart generation capabilities, fitting cleanly into the Domain Servers section of MCP Servers & Tooling.
+  reason: The product is explicitly an MCP server whose primary identity is providing visualization tools via the Model Context Protocol, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'A visualization mcp & skills' and the README confirms it is a 'TypeScript-based MCP server'.
-    - Listed in awesome-mcp-servers under 'Server Implementations' and 'Official Servers'.
-    - Provides 26+ distinct MCP tools like generate_area_chart and generate_bar_chart using the @antvis library.
+    - Repo description identifies it as a visualization MCP server with 25+ charts
+    - README confirms it is a TypeScript-based MCP server for chart generation and data analysis
+    - Already listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -96,12 +96,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:19.055Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6106ed1fef58c2d564f31b1a7ec14f6d9b26975a58ad34b439f5ccb298c7602f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose primary identity is providing visualization tools via the Model Context Protocol, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description identifies it as a visualization MCP server with 25+ charts
+        - README confirms it is a TypeScript-based MCP server for chart generation and data analysis
+        - Already listed in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - skills
+      contrastive_reason: Choose mcp over skills because the core product is an MCP server infrastructure for visualization, not a reusable skill pack or registry.
+      review_reason: null
+      review_resume_lifecycle: null

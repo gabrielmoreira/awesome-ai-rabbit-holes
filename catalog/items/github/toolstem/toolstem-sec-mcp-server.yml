@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: toolstem/toolstem-sec-mcp-server
+    html_url: https://github.com/toolstem/toolstem-sec-mcp-server
     created_at: "2026-04-28T02:48:06Z"
-    pushed_at: "2026-05-05T03:07:06Z"
+    pushed_at: "2026-06-22T17:53:51Z"
     description: Agent-ready SEC filing intelligence MCP server — insider signals, institutional flow, material events digest. Pre-computed signals over raw filings.
     homepage: https://github.com/toolstem/toolstem-sec-mcp-server
     topics: []
-    last_checked_at: "2026-05-06T22:46:53.159Z"
+    last_checked_at: "2026-07-21T15:20:53.304Z"
     readme:
-      fetched_at: "2026-05-06T22:46:53.159Z"
-      bytes: 11555
+      fetched_at: "2026-07-21T15:20:53.304Z"
+      bytes: 14696
 insights:
   summary: An agent-ready MCP server that exposes pre-computed SEC EDGAR signals—such as insider activity, institutional flow, and material events—as structured JSON tools for AI agents.
   why_it_matters: It lets coding agents and financial workflows query curated, high-signal SEC filing intelligence without parsing raw EDGAR data or managing rate limits themselves.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:53.159Z"
+    updated_at: "2026-07-21T15:20:53.304Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

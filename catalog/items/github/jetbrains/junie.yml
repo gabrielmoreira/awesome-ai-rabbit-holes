@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:22.839Z"
       bytes: 3784
 insights:
-  summary: An LLM-agnostic AI coding agent by JetBrains that operates via terminal, IDE integration, and CI/CD pipelines to plan, write, review, and repair code.
-  why_it_matters: It lets developers delegate coding tasks across their repo, IDE, and CI using their choice of models, including BYOK providers like Anthropic, OpenAI, and OpenRouter.
-  mental_damage: JetBrains joins the terminal agent party, proving that no matter how many IDEs we build, we still want a chatbot fixing our failing tests at 2am.
+  summary: An LLM-agnostic AI coding agent by JetBrains that operates in the terminal, IDE, or CI/CD pipelines to plan, write, and ship code.
+  why_it_matters: Developers can delegate repo tasks (bug fixes, feature implementation, PR reviews) to Junie across multiple environments, using their preferred LLM provider.
+  mental_damage: Now you can argue with an AI about your code in the terminal, the IDE, *and* CI/CD—because consistency is overrated.
   tags:
     - coding-agent
-    - cli
-    - ide-integration
-    - ci-cd
+    - terminal-native
+    - jetbrains
     - llm-agnostic
+    - ci-cd
   confidence: high
 curation:
   status: included
-  reason: Junie is a standalone coding assistant that developers use as the primary agent to plan, implement, and review code across terminal, IDE, and CI workflows.
+  reason: Junie is a primary coding assistant that directly plans, writes, and ships code across terminal, IDE, and CI/CD workflows, fitting the core definition of a coding agent.
   evidence:
-    - Repo description explicitly calls it 'An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline'.
-    - "README demonstrates direct repo work: 'fix a bug, implement a feature, review a PR' and 'Fix the failing tests in the auth module'."
-    - Source list places it in 'Terminal-native coding agents > Closed Source', and it supports multiple install methods including CLI, npm, and Homebrew.
+    - "Repo description: 'An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline'"
+    - "README: 'Junie is an AI coding agent that lives in your terminal, integrates with your IDE and CI/CD pipelines, and helps you ship code faster'"
+    - "Source-list context: Listed under 'Terminal-native coding agents' in awesome-cli-coding-agents"
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:21.536Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dd4cd080487a754095d53beeabbe9ed2e44f10eb6135ef45c2593a82738b82ec
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Junie is a primary coding assistant that directly plans, writes, and ships code across terminal, IDE, and CI/CD workflows, fitting the core definition of a coding agent.
+      decision_evidence:
+        - "Repo description: 'An AI coding agent by JetBrains that ships code from your terminal, IDE, or CI/CD pipeline'"
+        - "README: 'Junie is an AI coding agent that lives in your terminal, integrates with your IDE and CI/CD pipelines, and helps you ship code faster'"
+        - "Source-list context: Listed under 'Terminal-native coding agents' in awesome-cli-coding-agents"
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Junie is a standalone primary assistant, not an extension augmenting another tool.
+      review_reason: null
+      review_resume_lifecycle: null

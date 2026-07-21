@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:41.400Z"
       bytes: 4251
 insights:
-  summary: An MCP server that enables AI agents to execute token swaps on the Solana blockchain via Jupiter's Ultra API.
-  why_it_matters: It gives coding agents and LLM tools a structured way to interact with Solana DeFi protocols without the developer writing custom blockchain integration code.
-  mental_damage: We have finally reached the point where your coding agent can rug-pull your own wallet via a standardized context protocol, eliminating the need for human error entirely.
+  summary: An MCP server for executing token swaps on the Solana blockchain using Jupiter's Ultra API.
+  why_it_matters: Developers can integrate Solana token swap functionality into MCP-compatible workflows without building the blockchain interaction layer from scratch.
+  mental_damage: Now your AI assistant can trade SOL for USDC while you pretend to understand slippage tolerance.
   tags:
     - mcp
     - solana
-    - defi
     - blockchain
-    - finance
+    - token-swap
+    - jupiter-api
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server for a specific domain (Solana/DeFi), fitting cleanly into the MCP Servers & Tooling category.
+  reason: The product is explicitly an MCP server with Solana/Jupiter-specific tooling, making MCP its primary identity.
   evidence:
-    - Repo description explicitly states 'An MCP server for executing token swaps on the Solana blockchain'.
-    - README configuration shows this is a tool added to an `mcpServers` JSON config block.
-    - Included in the `awesome-mcp-servers` list under 'Finance & Fintech'.
+    - Repo description states it is 'An MCP server for executing token swaps on the Solana blockchain using Jupiter's new Ultra API'
+    - README details MCP server setup and tools (`get-ultra-order`, `execute-ultra-order`) for Solana swaps
+    - Project is actively maintained (pushed 2025-06-14) and not archived
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:06.682Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ae63a340132d6655da409b022145515ab2c2b580440a4f1980afee8664e770e8
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server with Solana/Jupiter-specific tooling, making MCP its primary identity.
+      decision_evidence:
+        - Repo description states it is 'An MCP server for executing token swaps on the Solana blockchain using Jupiter's new Ultra API'
+        - README details MCP server setup and tools (`get-ultra-order`, `execute-ultra-order`) for Solana swaps
+        - Project is actively maintained (pushed 2025-06-14) and not archived
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server, not a general-purpose SDK or framework.
+      review_reason: null
+      review_resume_lifecycle: null

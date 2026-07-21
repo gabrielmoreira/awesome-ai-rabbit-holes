@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:15.128Z"
       bytes: 783
 insights:
-  summary: A now-archived LangChain.js starter template for training custom LLMs on local markdown files using OpenAI embeddings and a vector store.
-  why_it_matters: It offered a simple, code-first starting point for developers wanting to build early RAG-style apps before the ecosystem standardized on higher-level frameworks.
-  mental_damage: A perfect monument to 2023, when we all thought the future of AI tooling was cloning a repo, dumping markdown files in a folder, and praying our vector store survived the afternoon.
+  summary: An archived LangChain.js template for training a custom LLM on user-provided markdown data using OpenAI.
+  why_it_matters: It offers a simple workflow for developers to fine-tune a model on their own data using LangChain.js and vector stores.
+  mental_damage: Because nothing says 'production-ready' like an archived repo that still promises to train your own LLM.
   tags:
     - langchain
-    - rag
-    - starter-template
-    - vector-store
+    - llm-training
+    - template
+    - archived
   confidence: high
 curation:
   status: excluded
-  reason: The repository has been archived since early 2023 and shows no meaningful activity since April 2023, making it a stale artifact rather than a living developer tool.
+  reason: The repo is archived with no recent activity, and its core value (a training template) is not a developer tool but a one-off scaffold with no maintained infrastructure or workflow integration.
   evidence:
-    - "Archived: yes"
-    - "Last push: 2023-04-01T13:40:55Z"
-    - README describes a basic local training setup using OpenAI API keys and markdown files
+    - "Repo is archived (archived: yes)"
+    - Last push was 2023-04-01, over a year ago
+    - Primary artifact is a static template, not an active tool or framework
 placement:
   primary_category: null
   section: null
@@ -74,12 +74,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:36.053Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cd55ead08e8d6e200a2297a70f46582126ce741cafee27835cc6e0ffc9a38a77
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repo is archived with no recent activity, and its core value (a training template) is not a developer tool but a one-off scaffold with no maintained infrastructure or workflow integration.
+      decision_evidence:
+        - "Repo is archived (archived: yes)"
+        - Last push was 2023-04-01, over a year ago
+        - Primary artifact is a static template, not an active tool or framework
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

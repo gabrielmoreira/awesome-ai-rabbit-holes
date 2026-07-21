@@ -60,15 +60,15 @@ metadata:
       fetched_at: "2026-07-16T05:05:19.023Z"
       bytes: 9494
 insights:
-  summary: An MCP server that uses Playwright and ffmpeg to record browser interactions as polished GIFs or videos with auto-zoom and cinematic effects for product demos.
-  why_it_matters: It lets developers delegate README demo creation to their AI coding assistant, automatically generating updated screen captures when UIs change without manual screen recording or video editing.
-  mental_damage: We have finally reached the point where the AI records its own demo of the app it just broke, so you can watch the failure in cinematic pan mode.
+  summary: Record any browser page as GIF or video via MCP — powered by Playwright + ffmpeg.
+  why_it_matters: Automates creation of polished product demos from AI-driven browser interactions, eliminating manual screen recording and editing.
+  mental_damage: Now you can outsource the tediousness of making demos to an AI, so your only remaining workflow anxiety is explaining why the GIF loop looks janky.
   tags:
+    - screen-recording
     - mcp
-    - browser-recording
-    - demo-automation
-    - playwright
-    - screen-capture
+    - developer-tools
+    - automation
+    - gif
   confidence: high
 curation:
   status: included
@@ -79,10 +79,10 @@ curation:
     - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', aligning with its MCP-first identity
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:19:27.614Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fec832c60979240957d4457df1043e34593e534fdce44d86616913c412ef247b
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: Pagecast is an MCP server that augments AI assistants like Claude Code with browser recording and export capabilities, making it an extension rather than a standalone coding agent.
+      decision_evidence:
+        - "Repo description: 'Record any browser page as GIF or video via MCP — powered by Playwright + ffmpeg'"
+        - "README: 'You tell your AI: \"Record a demo of localhost:3000 for my GitHub README\"' and shows integration via 'claude mcp add pagecast'"
+        - Seen in awesome-mcp-servers under Developer Tools, confirming its role as an MCP server extending assistant functionality
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because Pagecast mainly augments another assistant (e.g., Claude Code) with browser recording and export features rather than acting as the primary coding assistant that plans, writes, or debugs code.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

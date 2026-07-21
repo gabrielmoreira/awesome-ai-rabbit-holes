@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Reflect is a cloud-based, no-code end-to-end testing platform that uses generative AI to create and maintain web, mobile, and API tests from plain-English instructions.
-  why_it_matters: It attempts to eliminate the maintenance burden of flaky selectors by using AI to adapt tests to UI changes, allowing non-developers to build regression suites faster.
-  mental_damage: We've successfully automated the creation of more tests that we'll still inevitably ignore when the build fails at 4 PM on a Friday.
+  summary: SmartBear Reflect is an AI-powered, codeless web and mobile testing platform for automated UI, API, and visual testing.
+  why_it_matters: It lets teams create and maintain automated tests without writing code, reducing test maintenance overhead as UIs evolve.
+  mental_damage: Finally, a way to make your UI tests break less often—unless the AI decides your app is now a sentient toaster.
   tags:
     - testing
     - qa
-    - no-code
-    - e2e
-    - ai-automation
+    - codeless-automation
+    - ai-testing
+    - web-testing
   confidence: high
 curation:
   status: excluded
-  reason: The product is a no-code SaaS platform for QA testers, not a developer-facing coding tool, agent, or framework.
+  reason: This is a QA/testing SaaS product for end-to-end test automation, not a developer-tooling product for building, extending, or orchestrating AI agents or workflows.
   evidence:
-    - Scraped site context describes it as a 'no-code, AI-driven automation' platform aimed at 'Functional Testers', not developers.
-    - The core workflow is record-and-play and English prompts for test steps, rather than repo editing, code generation, or IDE integration.
-    - Seen in awesome-ai-coding-tools under 'Testing and QA', but the product identity is a generic testing SaaS, not a coding assistant or dev tool.
+    - Product is positioned as 'AI-powered, codeless web and mobile testing' for application integrity
+    - Core value is test automation (web, mobile, API, visual) without code, not developer tooling for AI workflows
+    - Source-list context places it in 'Testing and QA' section of a general AI coding tools list
 placement:
   primary_category: null
   section: null
@@ -70,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:00.267Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d707fd60488dcf76b689b3da03d3e23c46ab6d43585f50d146fffe0fc790b161
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a QA/testing SaaS product for end-to-end test automation, not a developer-tooling product for building, extending, or orchestrating AI agents or workflows.
+      decision_evidence:
+        - Product is positioned as 'AI-powered, codeless web and mobile testing' for application integrity
+        - Core value is test automation (web, mobile, API, visual) without code, not developer tooling for AI workflows
+        - Source-list context places it in 'Testing and QA' section of a general AI coding tools list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

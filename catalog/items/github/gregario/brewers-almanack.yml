@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:10:54.809Z"
       bytes: 6692
 insights:
-  summary: An MCP server providing structured brewing knowledge—including beer styles, ingredients, off-flavour diagnosis, and recipe guidance—for AI assistants.
-  why_it_matters: It allows developers to integrate reliable, hallucination-free brewing datasets into any MCP-compatible IDE or agent with zero configuration.
-  mental_damage: We have successfully abstracted the ancient craft of brewing into a stdio protocol, ensuring your AI can now debug your beer while it debugs your code.
+  summary: An MCP server providing brewing knowledge (beer styles, ingredients, off-flavour diagnosis, water chemistry, and recipe guidance) for AI assistants.
+  why_it_matters: Developers building AI brewing assistants can integrate domain-specific brewing data and tools without hallucinations or external API dependencies.
+  mental_damage: Now your AI can diagnose why your homebrew tastes like regret, but your code still can't.
   tags:
-    - mcp
+    - mcp-server
+    - domain-specific
     - brewing
-    - knowledge-base
-    - domain-server
-    - npx
+    - context-provider
   confidence: high
 curation:
   status: included
-  reason: The product identity is a specialized MCP server providing domain-specific knowledge (brewing) to AI assistants, fitting the Domain Servers section perfectly.
+  reason: "MCP is the product identity: this is a domain-specific MCP server providing structured tools and data for brewing workflows."
   evidence:
-    - Repo description explicitly states 'A brewing knowledge MCP server'.
-    - README lists 6 specific tools (search_styles, diagnose_off_flavour, suggest_recipe) exposed via MCP.
-    - Listed in 'awesome-mcp-servers' under Knowledge & Memory, confirming ecosystem placement.
+    - Repo description explicitly identifies it as a 'brewing knowledge MCP server'
+    - README emphasizes MCP compatibility and provides installation/configuration for multiple MCP-compatible IDEs
+    - All functionality is exposed as MCP tools (search_styles, diagnose_off_flavour, etc.)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:10.776Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8ccb4757cbeeac6a4d2e247de5d9534cb7f01263d4878e181bb51ed097b7b63b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a domain-specific MCP server providing structured tools and data for brewing workflows."
+      decision_evidence:
+        - Repo description explicitly identifies it as a 'brewing knowledge MCP server'
+        - README emphasizes MCP compatibility and provides installation/configuration for multiple MCP-compatible IDEs
+        - All functionality is exposed as MCP tools (search_styles, diagnose_off_flavour, etc.)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server providing domain tools, not as an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

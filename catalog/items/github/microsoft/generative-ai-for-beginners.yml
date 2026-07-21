@@ -53,23 +53,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:21.949Z"
       bytes: 24587
 insights:
-  summary: A 21-lesson open-source course by Microsoft teaching developers the fundamentals of building generative AI applications.
-  why_it_matters: It provides a structured, multi-language curriculum covering prompt engineering and application development fundamentals for developers entering the generative AI ecosystem.
-  mental_damage: Another high-quality course to star, clone, and feel productive about while your actual AI-powered PR languishes in code review for a week.
+  summary: Microsoft's beginner-friendly GitHub course with 21 lessons on building generative AI applications using Azure, OpenAI, and related technologies.
+  why_it_matters: Provides structured, hands-on learning for developers new to generative AI, lowering the barrier to entry for practical LLM application development.
+  mental_damage: Another 'for beginners' repo that assumes you’ll stick around past lesson 3 when the real tutorial is the GitHub issues tab.
   tags:
-    - education
-    - course
-    - microsoft
-    - generative-ai
-    - beginners
+    - tutorial
+    - azure
+    - openai
+    - llm
+    - beginner
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational curriculum and documentation resource, not a developer-facing tool, agent, framework, or infrastructure product.
+  reason: This is an educational tutorial series, not a developer-facing AI tool, agent, framework, or infrastructure product.
   evidence:
-    - Repo description states it is '21 Lessons, Get Started Building with Generative AI', identifying it as a course.
-    - README confirms the product is a '21-lesson comprehensive course', not a software tool or CLI.
-    - Source list context categorizes it under '课程 Course' (Course), aligning with its identity as learning material.
+    - "Repo description: '21 Lessons, Get Started Building with Generative AI'"
+    - "Source-list context: Listed under '课程 Course' in awesome-LLM-resources"
+    - "README excerpt (implied): Focuses on lessons and learning, not on providing a reusable tool or platform"
 placement:
   primary_category: null
   section: null
@@ -88,12 +88,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:20:28.850Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ba2993eeb0a8bcc3639f59084bd169ff37e64cfa410357a6d52a94133b06922d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational tutorial series, not a developer-facing AI tool, agent, framework, or infrastructure product.
+      decision_evidence:
+        - "Repo description: '21 Lessons, Get Started Building with Generative AI'"
+        - "Source-list context: Listed under '课程 Course' in awesome-LLM-resources"
+        - "README excerpt (implied): Focuses on lessons and learning, not on providing a reusable tool or platform"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

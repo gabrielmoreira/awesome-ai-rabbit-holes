@@ -51,22 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Documentation page for Cody, an AI coding assistant by Sourcegraph that provides chat, code completion, and context-aware coding help across VS Code, JetBrains, Visual Studio, and the web.
-  why_it_matters: It explains how to set up and use Cody, a multi-LLM coding assistant that pulls context from local and remote codebases via Sourcegraph's Search API.
-  mental_damage: Because nothing says productivity like spending an afternoon reading docs to properly configure yet another AI assistant that promises to understand your entire codebase.
+  summary: Documentation for Sourcegraph's Cody, an AI coding assistant integrated with Sourcegraph's code intelligence platform.
+  why_it_matters: It provides developers with an AI assistant that leverages Sourcegraph's advanced search to deliver context-aware code completions, edits, and debugging across local and remote codebases.
+  mental_damage: Now you can debug code you didn’t write, in a codebase you don’t understand, with an AI that might hallucinate the parts it can’t find.
   tags:
     - ai-coding-assistant
+    - code-intelligence
     - sourcegraph
-    - cody
-    - documentation
+    - context-aware
+    - ide-integration
   confidence: high
 curation:
   status: excluded
-  reason: This entry links to a documentation page rather than a standalone product, and Cody itself is already a well-known coding assistant that would need its own product entry if included.
+  reason: This is documentation for Cody, not the standalone product itself; the catalog tracks products, not their docs.
   evidence:
-    - URL points to sourcegraph.com/docs, which is a documentation page, not a product repo or tool.
-    - Scraped content is the Cody documentation describing features like chat, autocomplete, and context filters.
-    - Source lists reference 'Cody by Sourcegraph' but the link itself is only the docs, not the tool or extension.
+    - The URL and scraped context confirm this is the documentation site for Cody, not the product repo or a standalone tool.
+    - The page explicitly describes itself as 'Documentation for Sourcegraph, the code intelligence platform.'
 placement:
   primary_category: null
   section: null
@@ -84,12 +84,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:41.739Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:11bb0c25778b7e041a3f0627270291613cc95247c974e5d05314aae7a828d102
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is documentation for Cody, not the standalone product itself; the catalog tracks products, not their docs.
+      decision_evidence:
+        - The URL and scraped context confirm this is the documentation site for Cody, not the product repo or a standalone tool.
+        - The page explicitly describes itself as 'Documentation for Sourcegraph, the code intelligence platform.'
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

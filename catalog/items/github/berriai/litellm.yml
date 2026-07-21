@@ -100,23 +100,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:10.746Z"
       bytes: 35121
 insights:
-  summary: LiteLLM is an open-source AI gateway and Python SDK that provides a unified OpenAI-compatible interface for calling 100+ LLM APIs, with built-in cost tracking, load balancing, and logging.
-  why_it_matters: It removes provider-specific SDK friction and gives teams a single proxy layer to manage auth, spend tracking, and reliability across every major LLM provider.
-  mental_damage: We have successfully abstracted the abstraction, so you can now introduce a single point of failure that breaks your entire AI stack in one beautifully unified way.
+  summary: Open source AI gateway that provides a unified interface to call 100+ LLM providers using the OpenAI format, with cost tracking, guardrails, load balancing, and logging.
+  why_it_matters: Developers can standardize LLM calls across providers without rewriting code, reducing fragmentation and operational overhead.
+  mental_damage: Finally, a way to stop juggling 12 different SDKs just to switch from OpenAI to Anthropic and back again.
   tags:
     - ai-gateway
+    - llm-proxy
+    - provider-abstraction
+    - openai-compatible
     - llmops
-    - proxy
-    - sdk
-    - multi-provider
   confidence: high
 curation:
   status: included
-  reason: LiteLLM is primarily a code-first SDK and self-hosted proxy that developers import or deploy as infrastructure to standardize LLM calls, fitting Provider / Model Abstractions under Frameworks & SDKs.
+  reason: LiteLLM is primarily a code-first SDK and gateway for abstracting LLM provider APIs, fitting the Frameworks & SDKs category as a provider abstraction layer.
   evidence:
-    - Repo description explicitly calls it a 'Python SDK, Proxy Server (AI Gateway)' for 100+ LLMs.
-    - README positions it as both a library integration and a deployable gateway with virtual keys, spend tracking, and load balancing.
-    - Listed in awesome-ai-coding-tools under 'AI Frameworks and SDKs' and in Awesome-LLMOps under 'LLMOps'.
+    - Repo description explicitly calls it an 'AI Gateway' with Python SDK for 100+ LLM APIs
+    - README emphasizes unified API, OpenAI compatibility, and production-ready gateway features
+    - Source-list context includes it under 'AI Frameworks and SDKs' and 'LLMOps'
 placement:
   primary_category: ai-frameworks
   section: Provider / Model Abstractions
@@ -135,12 +135,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:49.570Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d7c3a77fd82aca8a24ff20961d4ccdd0340fdc0c6305de1c3a38c6bcc69bfd83
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: LiteLLM is primarily a code-first SDK and gateway for abstracting LLM provider APIs, fitting the Frameworks & SDKs category as a provider abstraction layer.
+      decision_evidence:
+        - Repo description explicitly calls it an 'AI Gateway' with Python SDK for 100+ LLM APIs
+        - README emphasizes unified API, OpenAI compatibility, and production-ready gateway features
+        - Source-list context includes it under 'AI Frameworks and SDKs' and 'LLMOps'
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because LiteLLM is a code-first provider abstraction layer rather than a multi-agent coordination platform.
+      review_reason: null
+      review_resume_lifecycle: null

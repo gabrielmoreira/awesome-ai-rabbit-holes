@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:20.157Z"
       bytes: 6630
 insights:
-  summary: An MCP server that lets AI assistants query, read, and move data on DICOM medical imaging servers (PACS) via standard DICOM network operations.
-  why_it_matters: It gives coding agents and LLMs structured access to medical imaging archives so they can answer questions about patient studies, reports, and image volumes without custom DICOM glue code.
-  mental_damage: We have finally reached the point where the AI can read the radiologist’s report, measure the spleen, and still ask you to confirm the patient’s name before moving their entire imaging archive.
+  summary: An MCP server that enables AI assistants to query, read, and move data on DICOM servers (PACS, VNA, etc.).
+  why_it_matters: It allows developers to integrate medical imaging data workflows into AI assistant environments via MCP.
+  mental_damage: Now your AI can ask for your spleen volume like it’s just another API call.
   tags:
     - mcp
-    - medical-imaging
     - dicom
+    - medical-imaging
     - pacs
     - healthcare
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server purpose-built to expose DICOM server capabilities to MCP-compatible clients, making MCP its primary identity.
+  reason: MCP is the product identity, and the server provides domain-specific DICOM/PACS integration as its core value.
   evidence:
-    - "Repo description: 'Model Context Protocol (MCP) for interacting with dicom servers (PACS etc.)'"
-    - "README: 'The dicom-mcp server enables AI assistants to query, read, and move data on DICOM servers' with MCP client configuration examples"
-    - Listed in awesome-mcp-servers under 'Server Implementations > Databases'
+    - Repo description explicitly states it is an MCP server for DICOM servers
+    - README details MCP integration and DICOM-specific tools as primary functionality
+    - Already listed in awesome-mcp-servers under Server Implementations > Databases
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:49.202Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4f30383736a33131e66edb1fc4530ff8dff877704badca8ba2d46eb21eabf49b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity, and the server provides domain-specific DICOM/PACS integration as its core value.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for DICOM servers
+        - README details MCP integration and DICOM-specific tools as primary functionality
+        - Already listed in awesome-mcp-servers under Server Implementations > Databases
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server for DICOM, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

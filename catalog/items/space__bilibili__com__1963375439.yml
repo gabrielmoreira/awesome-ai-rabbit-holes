@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili personal channel hosting AI tutorial videos, articles, and course promotion for the creator '小黑黑讲AI'.
-  why_it_matters: It aggregates educational content on LLMs, agents, and auxiliary programming for developers looking to upskill via video tutorials.
-  mental_damage: Yet another signal that the most valuable real estate in AI isn't the tooling itself, but the endless stream of people explaining how to use it.
+  summary: A Bilibili personal space for '小黑黑讲AI' offering AI-related videos, articles, and course content.
+  why_it_matters: Provides educational AI content for developers, but does not offer a practical developer tool or workflow.
+  mental_damage: Another tutorial hub in a sea of AI explainers, where the real tooling is always just one more video away.
   tags:
-    - tutorials
-    - video-content
-    - llm-resources
-    - chinese-ai-content
+    - tutorial
+    - bilibili
+    - ai-education
   confidence: high
 curation:
   status: excluded
-  reason: This is a personal video channel and educational media page, not a developer tool, framework, or infrastructure product.
+  reason: This is a personal media space for AI tutorials and courses, not a practical developer tool, framework, or workflow product.
   evidence:
-    - The URL points to a Bilibili personal space (space.bilibili.com) containing videos and articles.
-    - Source-list context identifies it as a tutorial resource (教程 Tutorial) within a list of LLM resources.
-    - No code, CLI, SDK, or deployable product is described; the main value is content consumption.
+    - Source-list context identifies it as a tutorial resource ('教程 Tutorial')
+    - Scraped site context confirms it is a personal space for videos, articles, and course content
+    - No repo, code, or tooling artifact is present
 placement:
   primary_category: null
   section: null
@@ -69,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:44.916Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a566c597e2c192a528648e986732cb45530d41cad1861653899b1c781542014e
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a personal media space for AI tutorials and courses, not a practical developer tool, framework, or workflow product.
+      decision_evidence:
+        - Source-list context identifies it as a tutorial resource ('教程 Tutorial')
+        - Scraped site context confirms it is a personal space for videos, articles, and course content
+        - No repo, code, or tooling artifact is present
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:40.606Z"
       bytes: 2810
 insights:
-  summary: An MCP server that exposes DexScreener trending token data for BSC and Solana chains as a tool and prompt template for MCP-compatible clients.
-  why_it_matters: Developers building crypto-trading agents or chat interfaces can fetch real-time trending pairs directly via the Model Context Protocol without writing custom API glue.
-  mental_damage: We have reached the point where checking which Solana tokens are mooning requires a dedicated Model Context Protocol server and a Claude Desktop config edit.
+  summary: An MCP server that provides real-time trending tokens from DexScreener for BSC and Solana chains.
+  why_it_matters: Developers can integrate live DeFi token data into their MCP-enabled workflows for analysis or monitoring.
+  mental_damage: Now your AI can panic about memecoins in real-time, just like you do.
   tags:
     - mcp
-    - crypto
-    - dexscreener
-    - finance
-    - data-tool
+    - defi
+    - real-time-data
+    - blockchain
+    - trending-tokens
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server providing DexScreener market data, fitting cleanly into MCP Servers & Tooling as a domain-specific server.
+  reason: The product is explicitly an MCP server with DexScreener as its domain focus, fitting the MCP-first identity requirement.
   evidence:
-    - "Repo description states: 'An MCP server that provides real-time trending tokens from DexScreener.'"
-    - README confirms it exposes `get_trending_pairs` tool and `analyze_trending_token` prompt for MCP clients like Claude Desktop.
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its identity as an MCP server.
+    - Repo description states it is 'An MCP server that provides real-time trending tokens from DexScreener'
+    - README confirms it exposes MCP tools (`get_trending_pairs`) and prompt templates
+    - Installation instructions target MCP clients like Claude Desktop
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:58.644Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e2c059e534989e3e7c26bc83af1652bce58c8500d6a6a07abf8200709679c94c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server with DexScreener as its domain focus, fitting the MCP-first identity requirement.
+      decision_evidence:
+        - Repo description states it is 'An MCP server that provides real-time trending tokens from DexScreener'
+        - README confirms it exposes MCP tools (`get_trending_pairs`) and prompt templates
+        - Installation instructions target MCP clients like Claude Desktop
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

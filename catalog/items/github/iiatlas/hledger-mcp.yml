@@ -43,23 +43,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:10.393Z"
       bytes: 13706
 insights:
-  summary: A local MCP server that exposes HLedger CLI functionality, allowing AI assistants to query balances, generate financial reports, and manage journal entries via the Model Context Protocol.
-  why_it_matters: It lets developers query and manipulate plaintext accounting ledgers through their existing AI coding assistants without leaving the chat interface.
-  mental_damage: You can now ask your AI agent to explain why you are broke in natural language, while it simultaneously edits the ledger to make the numbers look better.
+  summary: An MCP server that exposes HLedger CLI accounting functionality to AI assistants via the Model Context Protocol.
+  why_it_matters: Lets AI assistants directly query, analyze, and modify HLedger plaintext accounting data through a standardized interface.
+  mental_damage: Now your AI can judge your spending habits as harshly as your partner does.
   tags:
     - mcp
     - hledger
+    - plaintext-accounting
     - finance
-    - local-server
-    - accounting
+    - server
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server implementation for HLedger, fitting squarely into the Domain Servers section of MCP tooling.
+  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (finance/accounting) capabilities to AI clients."
   evidence:
-    - "Repo description explicitly states: 'A local MCP server for interacting with the HLedger cli'."
-    - README identifies it as 'A Model Context Protocol (MCP) server that provides AI assistants (MCP Clients) with direct access to HLedger'.
-    - Listed in 'awesome-mcp-servers' under the Finance & Fintech section, confirming its identity as an MCP server.
+    - Repo description explicitly states it is 'A local MCP server for interacting with the HLedger cli'
+    - README confirms it implements MCP server protocol to expose HLedger functionality
+    - Already listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -78,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:37.468Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:485a0c4454e08056be66a6b70cc89974e408493a2dd69024e1272c3031dfc7a9
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (finance/accounting) capabilities to AI clients."
+      decision_evidence:
+        - Repo description explicitly states it is 'A local MCP server for interacting with the HLedger cli'
+        - README confirms it implements MCP server protocol to expose HLedger functionality
+        - Already listed in awesome-mcp-servers under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -56,23 +56,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:59.644Z"
       bytes: 18745
 insights:
-  summary: DeepFabric is a Python framework and CLI tool that generates high-quality synthetic training data, evaluates model behavior, and supports fine-tuning pipelines for agentic systems.
-  why_it_matters: It lets developers move beyond prompt-tweaking by programmatically generating diverse, schema-validated datasets to train and evaluate agents with tool-calling and reasoning capabilities.
-  mental_damage: Because the only thing more comforting than hallucinating code is training a model to hallucinate code with scientific precision.
+  summary: A pipeline for generating high-quality synthetic data, training models, and evaluating agent behavior with topic-graph guided sampling and schema-constrained outputs.
+  why_it_matters: It lets developers create domain-specific, tool-aware datasets for training and evaluating agentic systems with strict schema adherence and built-in validation.
+  mental_damage: Now you can spend more time curating synthetic data pipelines than writing the code that actually uses them.
   tags:
     - synthetic-data
+    - agent-evaluation
     - fine-tuning
-    - evals
-    - agents
-    - cli
+    - dataset-generation
+    - mcp-compatible
   confidence: high
 curation:
   status: included
-  reason: DeepFabric's core job is generating data to measure and improve agent behavior via training and evaluation loops, fitting the evals category better than a generic framework label.
+  reason: Core job is generating synthetic datasets for agent training and evaluation with built-in scoring/validation, fitting the evals category better than frameworks or context engineering.
   evidence:
-    - README states it 'generates synthetic training data' and includes a 'built-in evaluation engine assesses model performance'.
-    - "Repo description explicitly lists: 'Generate High-Quality Synthetics, Train, Measure, and Evaluate in a Single Pipeline'."
-    - Topics include 'evaluation', 'dataset', 'synthetic-data', and 'fine-tuning', with active pushes as of 2026-05-05.
+    - "Repo description: 'Generate High-Quality Synthetics, Train, Measure, and Evaluate in a Single Pipeline'"
+    - "README: 'DeepFabric's built-in evaluation engine assesses model performance... covering evaluation-only questions, answers, and tool traces'"
+    - "Topics include: evaluation, fine-tuning, synthetic-data, agents"
 placement:
   primary_category: evals
   section: Agent Benchmarks
@@ -91,12 +91,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:30.462Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d16c623d83ebd168b8978bb02785920b2fcd5070f1eb77d72fcba2c7d5a99409
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: Core job is generating synthetic datasets for agent training and evaluation with built-in scoring/validation, fitting the evals category better than frameworks or context engineering.
+      decision_evidence:
+        - "Repo description: 'Generate High-Quality Synthetics, Train, Measure, and Evaluate in a Single Pipeline'"
+        - "README: 'DeepFabric's built-in evaluation engine assesses model performance... covering evaluation-only questions, answers, and tool traces'"
+        - "Topics include: evaluation, fine-tuning, synthetic-data, agents"
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the primary value is dataset generation and evaluation for agentic systems rather than being a general-purpose SDK for building agents.
+      review_reason: null
+      review_resume_lifecycle: null

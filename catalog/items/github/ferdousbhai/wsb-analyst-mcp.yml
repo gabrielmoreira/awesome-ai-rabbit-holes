@@ -40,23 +40,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:01.102Z"
       bytes: 5818
 insights:
-  summary: An MCP server that fetches and analyzes real-time WallStreetBets posts, comments, and trending stock tickers for LLM clients like Claude Desktop.
-  why_it_matters: It provides a ready-made bridge between Reddit's retail-investor sentiment and local LLM workflows, allowing developers to build financial analysis agents without wrestling with the Reddit API directly.
-  mental_damage: Finally, a tool to ensure your AI agent can lose money in the stock market with the same uninformed confidence as a stranger on the internet.
+  summary: An MCP server that provides real-time WallStreetBets Reddit data for analysis within LLM clients like Claude Desktop.
+  why_it_matters: It enables LLMs to ingest niche, high-velocity social sentiment data to perform real-time market trend analysis.
+  mental_damage: Nothing says 'odern developer workflow' like letting an LLM interpret subreddit chaos to predict the next market mover.
   tags:
     - mcp
-    - finance
     - reddit
-    - data-integration
-    - llm-tooling
+    - market-analysis
+    - data-ingestion
   confidence: high
 curation:
   status: included
-  reason: The project's primary identity is an MCP server providing WallStreetBets data to LLM clients, fitting the Domain Servers section of the MCP category.
+  reason: The project is explicitly an MCP server designed to provide specific domain data to a host assistant.
   evidence:
-    - "Repo description explicitly states: 'MCP server for analyzing WallStreetBets'."
-    - README confirms it is 'A Model Context Protocol (MCP) server' with 'MCP Integration' for Claude Desktop.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' section.
+    - Repo description identifies it as an 'MCP server for analyzing WallStreetBets'
+    - README details specific MCP tools like `find_top_posts` and `get_trending_tickers` for Claude Desktop integration
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +73,27 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:56:23.460Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6be939522bcdee56e7317b3b8458860a1226c6b9153962e661fe4431f77a4aa5
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server designed to provide specific domain data to a host assistant.
+      decision_evidence:
+        - Repo description identifies it as an 'MCP server for analyzing WallStreetBets'
+        - README details specific MCP tools like `find_top_posts` and `get_trending_tickers` for Claude Desktop integration
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol-based server that provides domain-specific data via the Model Context Protocol.
+      review_reason: null
+      review_resume_lifecycle: null

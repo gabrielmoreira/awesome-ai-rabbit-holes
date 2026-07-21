@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 170
-    forks: 31
+    stars: 180
+    forks: 30
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: sxhxliang/mcp-access-point
+    html_url: https://github.com/sxhxliang/mcp-access-point
     created_at: "2025-04-06T15:35:00Z"
     pushed_at: "2026-03-11T03:03:01Z"
     description: Turn a web server into an MCP server in one click without making any code changes.
@@ -39,9 +39,9 @@ metadata:
       - mcp
       - mcp-servers
       - proxy
-    last_checked_at: "2026-05-06T22:46:38.808Z"
+    last_checked_at: "2026-07-21T15:20:38.192Z"
     readme:
-      fetched_at: "2026-05-06T22:46:38.808Z"
+      fetched_at: "2026-07-21T15:20:38.192Z"
       bytes: 14994
 insights:
   summary: A lightweight gateway that converts existing HTTP services into MCP-compatible servers without requiring any server-side code changes.
@@ -74,19 +74,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T16:43:06.544Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for sxhxliang/mcp-access-point
+    status: done
+    updated_at: "2026-07-21T15:20:38.192Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:40.851Z"
       bytes: 4619
 insights:
-  summary: An MCP server that exposes crypto ETF flow data from CoinGlass to AI agents via a `get_etf_flow` tool and prompt guidance.
-  why_it_matters: Developers wiring up finance-aware agents can plug in historical BTC and ETH ETF flow data without building their own CoinGlass API integration.
-  mental_damage: Your agent can now tell you that IBIT raked in $327M while you’re still trying to get Claude Desktop to acknowledge the hammer icon exists.
+  summary: An MCP server that provides crypto ETF flow data to AI agents for decision-making.
+  why_it_matters: Developers building financial or trading agents can integrate real-time ETF flow data without custom API plumbing.
+  mental_damage: Now your AI agent can panic about BTC outflows just like you do at 2 AM.
   tags:
-    - mcp
-    - finance
-    - etf
-    - data-tool
+    - mcp-server
+    - financial-data
+    - crypto
+    - etf-flows
+    - agent-tools
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server purpose-built to expose a specific data domain to MCP-compatible clients, fitting the MCP Servers category cleanly.
+  reason: This is an MCP-first server providing domain-specific (crypto ETF flow) data to agents, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description states: 'An MCP server that delivers crypto ETF flow data to power AI agents' decision-making.'"
-    - README documents `get_etf_flow` tool, `etf_flow_prompt`, and Claude Desktop MCP integration.
-    - Listed in awesome-mcp-servers under Finance & Fintech, confirming its MCP server identity.
+    - Repo description explicitly states it is an MCP server for crypto ETF flow data
+    - README details MCP server integration with Claude Desktop and tool usage
+    - Product identity is centered on MCP infrastructure (server) rather than a broader framework or extension
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:00.384Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9aefda4e5986055069ecf821f379de3020063fdf1acdb5bc269cec29da973bfe
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server providing domain-specific (crypto ETF flow) data to agents, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for crypto ETF flow data
+        - README details MCP server integration with Claude Desktop and tool usage
+        - Product identity is centered on MCP infrastructure (server) rather than a broader framework or extension
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -70,23 +70,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:05.021Z"
       bytes: 13393
 insights:
-  summary: An MCP server that provides AI assistants with structured Maven Central dependency intelligence, including version checks, CVE data, and license metadata for JVM build tools.
-  why_it_matters: It allows coding agents to make safer, grounded dependency upgrade decisions using live metadata instead of scraping web pages or guessing versions.
-  mental_damage: We have successfully abstracted the pain of reading release notes into the need for a specialized protocol server just to ask an AI if our transitive dependencies are haunted.
+  summary: MCP server providing JVM dependency intelligence from Maven Central for use with AI assistants and build tools.
+  why_it_matters: Gives developers and AI agents structured, current dependency metadata (versions, stability, CVEs, licenses) without scraping web pages, enabling safer upgrade decisions and dependency audits.
+  mental_damage: Finally, a way to stop your AI from hallucinating Maven versions like it’s a creative writing exercise.
   tags:
     - mcp-server
-    - jvm
-    - dependencies
     - maven-central
-    - spring-boot
+    - java
+    - dependency-management
+    - context7
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server providing JVM dependency intelligence, fitting the MCP Servers & Tooling category as a domain-specific server.
+  reason: "MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools for JVM dependency intelligence."
   evidence:
-    - Repo description explicitly states 'MCP server providing AI assistants with Maven Central dependency intelligence'.
-    - The README details 10 exposed MCP tools like get_latest_version and analyze_project_health.
-    - Listed in awesome-mcp-servers under 'Developer Tools' and 'Community Servers'.
+    - Repo description explicitly states it is an MCP server for Maven Central dependency intelligence
+    - README details 10 MCP tools for version checks, dependency analysis, and Context7 integration
+    - Already listed in awesome-mcp-servers under Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -105,12 +105,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:14.268Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:28ce33719db2b15e1ae29a3a10efdf2dd46339f2bf052b8539d2b1cf64727fa3
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing domain-specific tools for JVM dependency intelligence."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Maven Central dependency intelligence
+        - README details 10 MCP tools for version checks, dependency analysis, and Context7 integration
+        - Already listed in awesome-mcp-servers under Developer Tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific tooling, not merely an extension layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

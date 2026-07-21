@@ -55,22 +55,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:08.316Z"
       bytes: 16905
 insights:
-  summary: An MCP server that exposes Hydrolix database operations—such as running SQL queries, listing databases, and inspecting table schemas—to MCP-compatible AI assistants like Claude Desktop and Claude Code.
-  why_it_matters: It lets developers query and inspect their Hydrolix data warehouses directly from their AI coding assistant instead of switching to a separate database client.
-  mental_damage: Another critical piece of infrastructure that will sit quietly in your MCP config until you forget it exists, only to rediscover it three months later when Claude confidently hallucinates your schema anyway.
+  summary: An MCP server that exposes Hydrolix database operations as tools for AI assistants.
+  why_it_matters: Lets developers query and explore Hydrolix databases directly from Claude Desktop or Code via MCP, turning database interactions into conversational workflows.
+  mental_damage: Now your AI assistant can run SQL queries on your logs, which means you’ll finally have someone to blame when the query times out.
   tags:
-    - mcp
+    - mcp-server
     - database
     - hydrolix
-    - integration
+    - sql
+    - claude-integration
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server specifically built to give AI assistants access to Hydrolix databases, which fits squarely into MCP Servers & Tooling.
+  reason: "MCP is the product identity here: it is a dedicated server implementing the Model Context Protocol to expose Hydrolix database capabilities."
   evidence:
-    - Repo description explicitly states 'An MCP server for Hydrolix'.
-    - README documents tools like run_select_query, list_databases, and list_tables exposed via MCP to Claude Desktop and Claude Code.
-    - Included in the awesome-mcp-servers list under Server Implementations > Databases.
+    - Repo description explicitly states 'An MCP server for Hydrolix'
+    - README details MCP server setup for Claude Desktop/Code with Hydrolix-specific tools (list_databases, run_select_query, etc.)
+    - Already listed in awesome-mcp-servers under 'Server Implementations > Databases'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:11.896Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:42f9c3374fcfa4cd251d8b2a79c6cb2b4719f0c31adde29bb62985a49331d383
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: it is a dedicated server implementing the Model Context Protocol to expose Hydrolix database capabilities."
+      decision_evidence:
+        - Repo description explicitly states 'An MCP server for Hydrolix'
+        - README details MCP server setup for Claude Desktop/Code with Hydrolix-specific tools (list_databases, run_select_query, etc.)
+        - Already listed in awesome-mcp-servers under 'Server Implementations > Databases'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant), and MCP is its primary identity.
+      review_reason: null
+      review_resume_lifecycle: null

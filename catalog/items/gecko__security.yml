@@ -1,0 +1,109 @@
+id: gecko__security
+kind: website
+name: Gecko Security
+canonical_url: https://gecko.security
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__gecko__security__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Gecko Security
+        extracted_url: https://gecko.security
+        surrounding_text: "- **[Gecko Security](https://gecko.security/)** – AI security analysis for code."
+        confidence: high
+    - id: discovery__www__gecko__security__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Gecko Security
+        extracted_url: https://gecko.security
+        surrounding_text: "- **[Gecko Security](https://gecko.security/)** – AI security analysis for code."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: An AI-native security engine that performs semantic analysis of code, logic, and infrastructure to detect complex business logic flaws and multi-step vulnerabilities.
+  why_it_matters: It moves beyond simple pattern-matching to identify deep architectural risks and cross-service vulnerabilities that traditional SAST tools often miss.
+  mental_damage: Finally, an AI that can prove your business logic is as broken as your legacy code.
+  tags:
+    - security
+    - saas
+    - semantic-analysis
+    - devsecops
+  confidence: high
+curation:
+  status: excluded
+  reason: The tool is a specialized vertical security product rather than a general-purpose developer productivity, coding, or orchestration tool.
+  evidence:
+    - Focuses on business logic flaws and multi-step vulnerabilities
+    - Primary function is security scanning and remediation
+    - Operates as a standalone security intelligence platform
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:34:18.914Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e0fd19fa1da8df9dd3ba309838e433845da640524f8e314846c3616891512062
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a specialized vertical security product rather than a general-purpose developer productivity, coding, or orchestration tool.
+      decision_evidence:
+        - Focuses on business logic flaws and multi-step vulnerabilities
+        - Primary function is security scanning and remediation
+        - Operates as a standalone security intelligence platform
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.965Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -55,22 +55,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:20.086Z"
       bytes: 1492
 insights:
-  summary: An MCP server that lets AI assistants like Claude and Cursor search, summarize, and explore any OpenAPI specification using natural language.
-  why_it_matters: It turns massive, unwieldy API specs into something a coding agent can actually navigate without pasting thousands of lines of YAML into context.
-  mental_damage: We have successfully abstracted reading documentation into a three-step process that still requires an AI to read the documentation for us.
+  summary: An MCP server that enables AI assistants to search and explore OpenAPI specifications through natural language summaries.
+  why_it_matters: Developers can now query complex OpenAPI docs conversationally instead of manually parsing dense spec files.
+  mental_damage: Finally, a way to ask an API what it does instead of reading 500 lines of YAML to find out it just returns a 404.
   tags:
     - mcp
     - openapi
-    - api-integration
-    - context-retrieval
+    - api-documentation
+    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server designed to give AI assistants structured access to OpenAPI specifications, fitting the MCP Servers & Tooling category.
+  reason: "MCP is the product identity: this is a dedicated MCP server for OpenAPI specifications, not just an adapter or compatibility feature."
   evidence:
-    - Repo description explicitly states 'A Model Context Protocol (MCP) server for Claude/Cursor'.
-    - Source lists confirm placement in 'awesome-mcp-list' and 'awesome-mcp-servers' under Developer Tools.
-    - Active development indicated by recent push date (2026-02-21) and 891 stars.
+    - Repo description explicitly identifies it as an MCP server for Claude/Cursor
+    - README details a 3-step MCP workflow for OpenAPI exploration
+    - Listed in multiple MCP-focused awesome lists under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:56.830Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c64076238566161c590b74ca4874e219b0898a4ae2853a255e9736f37433e238
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for OpenAPI specifications, not just an adapter or compatibility feature."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for Claude/Cursor
+        - README details a 3-step MCP workflow for OpenAPI exploration
+        - Listed in multiple MCP-focused awesome lists under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server for OpenAPI specs, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:06.778Z"
       bytes: 16105
 insights:
-  summary: An MCP server that exposes SVGMaker's API to AI assistants, enabling text-to-SVG generation, natural language editing, and image-to-SVG conversion directly within IDEs like Cursor and VS Code.
-  why_it_matters: It allows developers to generate and iterate on vector assets conversationally inside their coding environment without switching to design tools or manual editing.
-  mental_damage: We have successfully abstracted away the need to open a vector editor, ensuring your AI can now produce SVGs that look exactly like the ones you would have botched yourself in five minutes.
+  summary: An MCP server that enables AI assistants to generate, edit, and convert SVG images via the SVGMaker API.
+  why_it_matters: It provides LLMs with a direct capability to handle vector graphics, allowing for seamless visual asset generation within conversational workflows like Claude Desktop or Cursor.
+  mental_damage: Because explaining SVG paths to a chatbot was hard enough, now you can just watch it hallucinate a minimalist mountain range in real-time.
   tags:
     - mcp
     - svg
-    - design
-    - ide-integration
+    - asset-generation
+    - vector-graphics
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server that provides SVG generation capabilities to host assistants, fitting the Domain Servers section of the MCP category.
+  reason: The product identity is explicitly an MCP server designed to provide specific domain capabilities (SVG manipulation) to host AI environments.
   evidence:
-    - Repo description explicitly states 'Model Context Protocol server for SVGMaker'.
-    - README demonstrates integration configs for Claude Desktop, Cursor, VS Code, and WindSurf as the primary usage mode.
-    - Listed in awesome-mcp-servers under the 'Art & Culture' section, confirming its identity as an MCP tool.
+    - Repo description explicitly identifies it as a 'Model Context Protocol server'
+    - README highlights integration with Claude Desktop, Cursor, and VS Code via MCP
+    - Primary functionality is providing tools (generate, edit, convert) to an LLM via MCP protocol
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:01:36.616Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6f1c4d45c4eb75961c5eadd2f0282131178f08d79ccb74bb9cff17e52fbe2943
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is explicitly an MCP server designed to provide specific domain capabilities (SVG manipulation) to host AI environments.
+      decision_evidence:
+        - Repo description explicitly identifies it as a 'Model Context Protocol server'
+        - README highlights integration with Claude Desktop, Cursor, and VS Code via MCP
+        - Primary functionality is providing tools (generate, edit, convert) to an LLM via MCP protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the MCP server implementation rather than a general editor plugin.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -1,0 +1,109 @@
+id: modelscope__cn__mcp
+kind: website
+name: modelscope/mcp
+canonical_url: https://modelscope.cn/mcp
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__modelscope__cn__mcp__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 模型上下文协议 MCP
+        anchor_text: modelscope/mcp
+        extracted_url: https://modelscope.cn/mcp
+        surrounding_text: 15. [modelscope/mcp](https://modelscope.cn/mcp)
+        confidence: high
+    - id: discovery__www__modelscope__cn__mcp__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 模型上下文协议 MCP
+        anchor_text: modelscope/mcp
+        extracted_url: https://modelscope.cn/mcp
+        surrounding_text: 15. [modelscope/mcp](https://modelscope.cn/mcp)
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A curated directory of MCP (Model Context Protocol) resources hosted on ModelScope.
+  why_it_matters: Provides developers with a centralized discovery hub for MCP servers, tools, and integrations to extend AI assistant capabilities.
+  mental_damage: Because nothing says 'ecosystem maturity' like a directory of directories for a protocol that’s still explaining itself.
+  tags:
+    - mcp
+    - directory
+    - discovery
+    - model-context-protocol
+  confidence: high
+curation:
+  status: included
+  reason: This is a curated directory of MCP resources, fitting the 'Awesome Awesomes' category as its primary value is discovery and navigation of the ecosystem.
+  evidence:
+    - Scraped site context describes it as '聚合优质MCP资源，拓展智能边界！' (Aggregating high-quality MCP resources, expanding intelligent boundaries)
+    - Source-list context places it in a section for MCP resources in an LLM resource summary list
+placement:
+  primary_category: awesome-awesomes
+  section: Directories & Maps
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:35:45.513Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d03c7e7d14ea078751d9bd8173bf7eea98a8c4e0779f4474ed4b2c425867bd1d
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of MCP resources, fitting the 'Awesome Awesomes' category as its primary value is discovery and navigation of the ecosystem.
+      decision_evidence:
+        - Scraped site context describes it as '聚合优质MCP资源，拓展智能边界！' (Aggregating high-quality MCP resources, expanding intelligent boundaries)
+        - Source-list context places it in a section for MCP resources in an LLM resource summary list
+      category_candidates:
+        - awesome-awesomes
+        - mcp
+      contrastive_reason: Choose awesome-awesomes over mcp because the product is a directory of MCP resources rather than MCP infrastructure itself.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.967Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

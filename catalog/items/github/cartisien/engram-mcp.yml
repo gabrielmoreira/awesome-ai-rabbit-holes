@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:18.325Z"
       bytes: 2945
 insights:
-  summary: An MCP server that gives Claude Desktop, Cursor, and Windsurf persistent semantic memory via local Ollama embeddings and SQLite storage.
-  why_it_matters: Developers can retain cross-session context and user preferences locally without API keys, embeddings, or cloud dependencies.
-  mental_damage: We have finally built a memory system for AI agents that is so local and self-contained it might actually remember your TypeScript preference longer than you do.
+  summary: MCP server providing persistent semantic memory for AI agents via SQLite storage and local Ollama embeddings.
+  why_it_matters: Gives MCP-compatible clients like Claude Desktop or Cursor persistent, searchable memory across sessions without cloud dependencies.
+  mental_damage: Now your AI can remember you hate TypeScript, but only if you also remember to run Ollama.
   tags:
     - mcp
     - memory
-    - local-ai
     - semantic-search
-    - typescript
-  confidence: medium
+    - local-ai
+    - sqlite
+  confidence: high
 curation:
   status: included
-  reason: This is an MCP server providing persistent memory capabilities, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
+  reason: "MCP is the product identity here: this is a dedicated MCP server for memory functionality, not a compatibility footnote or broader platform."
   evidence:
-    - "Repo description: 'MCP server for @cartisien/engram — persistent semantic memory for AI agents'"
-    - "README: 'Exposes 5 tools to any MCP client' including remember, recall, history, forget, and stats"
-    - "Source list: listed in awesome-mcp-servers under 'Knowledge & Memory' section"
+    - Repo description explicitly states it is an MCP server for persistent semantic memory
+    - README shows it exposes MCP tools (remember, recall, history, forget, stats) to MCP clients
+    - Core functionality is memory management via MCP protocol, not a broader assistant or framework
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -83,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:05.459Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ea1a997b0c3994177550eb62bd703464f890354156d3e86672009f1f5bcfb012
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: this is a dedicated MCP server for memory functionality, not a compatibility footnote or broader platform."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for persistent semantic memory
+        - README shows it exposes MCP tools (remember, recall, history, forget, stats) to MCP clients
+        - Core functionality is memory management via MCP protocol, not a broader assistant or framework
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is as an MCP server, not a standalone memory system.
+      review_reason: null
+      review_resume_lifecycle: null

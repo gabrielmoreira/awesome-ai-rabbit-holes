@@ -1,0 +1,126 @@
+id: ycombinator__com__companies__tusk
+kind: website
+name: Y-combinator company
+canonical_url: https://ycombinator.com/companies/tusk
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__www__ycombinator__com__companies__tusk__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Tusk
+          - Description
+        anchor_text: Y-combinator company
+        extracted_url: https://www.ycombinator.com/companies/tusk
+        surrounding_text: "- Tusk is a [Y-combinator company](https://www.ycombinator.com/companies/tusk)"
+        confidence: high
+    - id: discovery__ycombinator__com__companies__tusk__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Tusk
+          - Description
+        anchor_text: Y-combinator company
+        extracted_url: https://ycombinator.com/companies/tusk
+        surrounding_text: "- Tusk is a [Y-combinator company](https://www.ycombinator.com/companies/tusk)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Tusk is an AI agent that integrates with CI pipelines to automatically generate and validate unit and integration tests for pull requests.
+  why_it_matters: It allows engineering teams to increase test coverage and catch regressions without diverting developer time away from feature shipping.
+  mental_damage: We have successfully automated the part of programming that developers hate, leaving them with more uninterrupted time to prompt the AI that writes the code that needs the tests.
+  tags:
+    - ci-cd
+    - code-quality
+    - pr-automation
+    - testing
+    - yc-w24
+  confidence: high
+curation:
+  status: included
+  reason: The product is a coding agent specifically designed to plan, write, run, and repair tests within a codebase workflow, fitting the 'Review, Testing & Repair Agents' section.
+  evidence:
+    - Y Combinator description confirms it is an 'AI agent that generates unit and integration tests'.
+    - Product functions as a non-blocking PR check that runs and iterates on generated tests in a sandbox.
+    - Found in the 'awesome-ai-agents' list under a testing/generation context.
+placement:
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T15:40:47.218Z"
+    cause:
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for ycombinator__com__companies__tusk: ```json
+        {
+          "summary": "An AI agent that automatically generates unit and integration tests for pull requests using codebase context.",
+          "why_it_matters": "It automates the tedious task of writing test coverage by running tests in ephemeral sandboxes to ensure they actually work before they hit your PR.",
+          "mental_damage": "Because nothing says 'peak developer experience' like offloading the one task everyone ignores to an agent that actually runs the code it writes.",
+          "tags": [
+            "test-generation",
+            "ci-cd",
+            "unit-testing",
+            "integration-testing",
+            "ai-agents"
+          ],
+          "should_include": true,
+          "primary_category": "coding-agents",
+          "section": "Review, Testing & Repair Agents",
+          "decision_reason": "The product is a specialized agent that acts as a non-blocking PR check to perform testing tasks automatically.",
+          "decision_evidence": [
+            "README states it generates unit and integration tests with codebase context",
+            "It runs tests in an ephemeral sandbox to verify output before submission",
+            "Functions as a non-blocking PR check for engineering teams"
+          ],
+          "category_candidates": [
+            "coding-agents",
+            "ai-dev-extensions"
+          ],
+          "contrastive_reason": "Choose coding-agents over ai-dev-extensions because the tool acts as a standalone agent that plans, runs, and iterates on testing logic rather than just being a plugin for an existing editor.",
+          "confidence": "high"
+        }
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: "77e831995030"
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.971Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

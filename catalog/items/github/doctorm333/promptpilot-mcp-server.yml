@@ -40,21 +40,21 @@ metadata:
       fetched_at: "2026-07-16T05:04:51.728Z"
       bytes: 3388
 insights:
-  summary: An MCP server that lets Claude Code, Cursor, Windsurf, and other MCP-compatible agents generate images, video, and audio via the Pollinations API.
-  why_it_matters: It gives coding agents direct access to multimedia generation without leaving the IDE, bridging repo work and creative asset creation in one loop.
-  mental_damage: Your coding agent can now drain your API balance generating cyberpunk cityscapes while you are just trying to fix a CSS bug.
+  summary: MCP server for PromptPilot.club that enables image, video, and audio generation via Pollinations API in MCP-compatible AI agents.
+  why_it_matters: Lets developers generate media directly from their coding assistants (Claude Code, Cursor, Windsurf) without leaving their workflow.
+  mental_damage: Now your coding agent can also moonlight as a meme factory.
   tags:
-    - mcp
-    - multimedia
-    - pollinations
+    - mcp-server
+    - media-generation
+    - pollinations-api
     - agent-integration
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that exposes image, video, and audio generation tools to MCP-compatible agents, making MCP its core identity.
+  reason: MCP is the product identity here—a server exposing media generation tools to MCP-compatible agents.
   evidence:
-    - "Repo description: 'MCP server for PromptPilot.club — generate images, video, and audio via Pollinations API'"
-    - "README: 'Generate images, video, and audio directly in Claude Code, Cursor, Windsurf, or any MCP-compatible AI agent.'"
+    - Repo description explicitly identifies it as an MCP server for PromptPilot.club
+    - README shows installation and usage as an MCP server in multiple agents (Claude Code, Cursor, Windsurf)
     - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
 placement:
   primary_category: mcp
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:26.106Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:504bd74c4d0491ef8fe37b434a38910291b94491c76ebf56cc2d2d7889d76645
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a server exposing media generation tools to MCP-compatible agents.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for PromptPilot.club
+        - README shows installation and usage as an MCP server in multiple agents (Claude Code, Cursor, Windsurf)
+        - Listed in awesome-mcp-servers under Server Implementations > Art & Culture
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

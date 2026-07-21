@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:56.860Z"
       bytes: 9403
 insights:
-  summary: An MCP server that connects AI Diagram Maker to Cursor, Claude Desktop, and Claude Code, enabling developers to generate flowcharts, sequence diagrams, ERDs, and UML from natural language, code, or Mermaid inside their AI agent chats.
-  why_it_matters: It lets developers produce and iterate on standard software diagrams without leaving their AI-assisted workflow, turning plain English or code into editable diagrams inline.
-  mental_damage: Another carefully engineered bridge so your AI assistant can draw boxes and arrows while your actual architecture slides further into entropy.
+  summary: An MCP server that integrates AI Diagram Maker with MCP-compatible AI agents to generate software engineering diagrams from natural language, code, ASCII, images, or Mermaid.
+  why_it_matters: Developers can generate and embed professional diagrams directly in their AI agent workflows without leaving the chat interface.
+  mental_damage: Now you can argue with your AI about UML instead of just code.
   tags:
     - mcp
     - diagrams
+    - software-architecture
     - cursor
     - claude
-    - architecture
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: This is an MCP server that gives agents access to diagram-generation capabilities, which aligns directly with the MCP Servers & Tooling category and its Domain Servers section.
+  reason: The product is explicitly an MCP server whose primary identity is providing diagram generation capabilities via MCP protocol to AI agents.
   evidence:
-    - Repo name and README explicitly define it as 'MCP server for AI Diagram Maker'.
-    - Supported transports include stdio and HTTP/Streamable HTTP for MCP-compatible clients.
-    - Listed in awesome-mcp-servers under Server Implementations > Architecture & Design.
+    - README describes it as an MCP server for AI Diagram Maker
+    - Supports stdio and HTTP/Streamable HTTP transports
+    - Listed in awesome-mcp-servers under Architecture & Design
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:33.889Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:42f313e63c3b73077aaf764a65e29da5b1ca7f5bc8524418406acc712608a859
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose primary identity is providing diagram generation capabilities via MCP protocol to AI agents.
+      decision_evidence:
+        - README describes it as an MCP server for AI Diagram Maker
+        - Supports stdio and HTTP/Streamable HTTP transports
+        - Listed in awesome-mcp-servers under Architecture & Design
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not merely an extension for another AI tool.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:27.320Z"
       bytes: 3837
 insights:
-  summary: A CLI tool and MCP server for sending read-tracked emails via Gmail, allowing developers and AI agents to send and monitor tracked emails from the terminal.
-  why_it_matters: It provides a programmable interface for email open tracking that integrates directly into terminal workflows and agent toolchains via MCP.
-  mental_damage: "We have finally unified the two most productive forces in modern software development: the terminal and the read receipt."
+  summary: CLI and MCP server for email read tracking via Gmail using the DoubleTick backend.
+  why_it_matters: Lets developers send and track email opens from the terminal or via AI agents, integrating with Gmail and DoubleTick's backend.
+  mental_damage: Now your AI agent can obsessively check if Jane opened that email, so you don’t have to.
   tags:
+    - mcp-server
+    - email-tracking
     - cli
-    - mcp
-    - email
     - gmail
-    - tracking
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server exposing email tracking tools for AI agents, alongside a standalone CLI, fitting squarely into MCP domain servers.
+  reason: "MCP is the product identity here: it is explicitly an MCP server for email tracking, with CLI as a secondary interface."
   evidence:
-    - Repo description explicitly states 'CLI and MCP server for DoubleTick email read tracking'.
-    - README details MCP setup for Claude Desktop and exposes tools like send_tracked_email and check_tracking_status.
-    - Listed in awesome-mcp-servers under 'Communication' as a server implementation.
+    - Repo description explicitly states it is a CLI and MCP server for DoubleTick email read tracking
+    - README details MCP server setup and tools (send_tracked_email, check_tracking_status, list_tracked_emails)
+    - Listed in awesome-mcp-servers under Communication
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:11.814Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2d7c700f1ef68e1fb26bf7882e2e5c3b3df1e950405c88bbcb23ba74d5033e39
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: it is explicitly an MCP server for email tracking, with CLI as a secondary interface."
+      decision_evidence:
+        - Repo description explicitly states it is a CLI and MCP server for DoubleTick email read tracking
+        - README details MCP server setup and tools (send_tracked_email, check_tracking_status, list_tracked_emails)
+        - Listed in awesome-mcp-servers under Communication
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server for email tracking, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -54,23 +54,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:25.613Z"
       bytes: 12367
 insights:
-  summary: A developer tool that extracts hardcoded UI text and docs from a codebase into structured, git-backed content files, exposing itself to AI agents via a Model Context Protocol server.
-  why_it_matters: It lets teams delegate the tedious job of normalizing and translating scattered copy to agents while enforcing schema, review, and portable JSON/Markdown output.
-  mental_damage: We have finally built an agentic workflow to solve the ancient tragedy of hardcoding strings, and it still requires a human to review the PR.
+  summary: Repo-native content governance for AI agents that extracts, reviews, and delivers UI text, docs, and structured content from Git.
+  why_it_matters: It turns hardcoded strings in codebases into a governed, reviewable content layer that agents can manage while enforcing schemas and Git workflows.
+  mental_damage: Finally, a way to stop your AI from inventing new button labels every time it touches a component.
   tags:
-    - mcp
     - content-governance
+    - mcp-server
     - i18n
-    - git
-    - typescript
-  confidence: medium
+    - git-integration
+    - developer-tools
+  confidence: high
 curation:
   status: included
-  reason: The product identity is a content-governance tool that exposes 17 MCP tools to agents like Claude Code and Cursor, making MCP the primary adopted interface rather than a footnote.
+  reason: "MCP is the product identity here: it provides a server with 17 tools for content governance, and the README explicitly frames it as an MCP-first toolkit."
   evidence:
-    - Repo description states 'Repo-native content governance for AI agents' with MCP-related topics including mcp-server and model-context-protocol.
-    - README diagram shows Agent → MCP (17 tools) → .contentrain/ as the core workflow.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Repo description explicitly states 'Repo-native content governance for AI agents' with MCP in topics
+    - README shows MCP as core integration with 17 tools and agent workflow
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:48:40.321Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:021badc380e3cf61e7edde8f0c6ddb4dc07e562cb73000bc2ea09a98b38d8b1b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: it provides a server with 17 tools for content governance, and the README explicitly frames it as an MCP-first toolkit."
+      decision_evidence:
+        - Repo description explicitly states 'Repo-native content governance for AI agents' with MCP in topics
+        - README shows MCP as core integration with 17 tools and agent workflow
+        - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server with content governance tools, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

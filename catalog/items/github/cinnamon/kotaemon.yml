@@ -43,23 +43,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:20.657Z"
       bytes: 18355
 insights:
-  summary: An open-source, self-hosted RAG UI for chatting with documents, offering a customizable pipeline for end-users and a Gradio-based framework for developers building document QA systems.
-  why_it_matters: It provides a ready-to-deploy interface and a modular Python framework for developers needing to build or host document-specific question-answering tools with multi-modal and citation support.
-  mental_damage: "Just what the ecosystem needed: another pristine RAG interface to distract you from the fact that your own codebase documentation is still a black hole."
+  summary: An open-source RAG-based tool for chatting with your documents.
+  why_it_matters: Developers can use it to build or integrate document-grounded chat experiences without reinventing retrieval pipelines.
+  mental_damage: Finally, a way to ask your PDFs questions—just like you always dreamed of doing in 2024.
   tags:
     - rag
-    - document-qa
-    - self-hosted
-    - gradio
-    - llm-ui
+    - document-chat
+    - open-source
+    - llms
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the primary focus is a general-purpose document QA/RAG UI, which falls outside the catalog's scope of developer-facing coding tools, agents, and infrastructure.
+  reason: The tool is a general-purpose RAG chat system for documents, not a developer-tooling product focused on coding workflows, IDEs, or app-building.
   evidence:
-    - Repo description explicitly states it is an 'open-source RAG-based tool for chatting with your documents', not a coding assistant.
-    - Source list context places it in a '知识库 RAG' (Knowledge Base RAG) section, separate from coding or agent tools.
-    - README highlights features like PDF viewing, multi-modal QA, and document collections, targeting document interaction rather than code editing or repo management.
+    - Repo description explicitly states it is a RAG-based tool for chatting with documents
+    - Source-list context places it under '知识库 RAG' (Knowledge Base RAG), not developer tooling
+    - No evidence of code editing, repo assistance, or developer workflow integration
 placement:
   primary_category: null
   section: null
@@ -78,12 +77,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:45.879Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2621e555e50dd5234a34b2a9cd34cc00a27c26ce3247f4a6a2ada3f8cf1049a1
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a general-purpose RAG chat system for documents, not a developer-tooling product focused on coding workflows, IDEs, or app-building.
+      decision_evidence:
+        - Repo description explicitly states it is a RAG-based tool for chatting with documents
+        - Source-list context places it under '知识库 RAG' (Knowledge Base RAG), not developer tooling
+        - No evidence of code editing, repo assistance, or developer workflow integration
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:40.208Z"
       bytes: 4372
 insights:
-  summary: An MCP server that fetches and formats trending cryptocurrency data from CoinGecko for use with MCP-compatible clients like Claude Desktop.
-  why_it_matters: It allows developers to query real-time crypto market trends using natural language within their existing AI coding assistants.
-  mental_damage: Because what every严肃 developer workflow needed was a seamless bridge between Claude Code and meme-coin market cap tables.
+  summary: An MCP server that provides real-time trending cryptocurrency data from CoinGecko via tools and prompts for MCP clients.
+  why_it_matters: Developers can integrate live crypto market data into their AI workflows without leaving their coding environment.
+  mental_damage: Now your coding assistant can tell you which memecoin to YOLO into between debugging sessions.
   tags:
-    - mcp
-    - crypto
-    - finance
-    - data-tools
-  confidence: medium
+    - mcp-server
+    - crypto-data
+    - coin-gecko
+    - real-time
+    - python
+  confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server providing financial data, fitting the Domain Servers section of the MCP category.
+  reason: This is an MCP-first server whose primary identity is providing domain-specific (crypto) data via MCP tools and prompts.
   evidence:
-    - Repo description states it is 'An MCP server that tracks and monitors the latest trending tokens on CoinGecko.'
-    - README confirms it is 'An MCP server' designed for 'Seamless Integration' with 'Claude Desktop'.
-    - Listed in 'awesome-mcp-servers' under the 'Finance & Fintech' section.
+    - Repo description explicitly states it is an MCP server for CoinGecko trending tokens
+    - README details MCP tools (`get_trending_md_doc`) and prompts (`parse_trending_md_doc`) for MCP clients
+    - Designed for integration with Claude Desktop via MCP protocol
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:51.294Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0e3986b7b4ea66870709f0f8dcd345e96d260200567fadc755dc70005a6dcc9a
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose primary identity is providing domain-specific (crypto) data via MCP tools and prompts.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for CoinGecko trending tokens
+        - README details MCP tools (`get_trending_md_doc`) and prompts (`parse_trending_md_doc`) for MCP clients
+        - Designed for integration with Claude Desktop via MCP protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server providing domain data, not as an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -50,23 +50,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:15.625Z"
       bytes: 12829
 insights:
-  summary: CrossFin is a financial router and MCP server that gives AI agents access to Asian crypto markets, routing engine optimization, and x402 crypto payments across 14 exchanges.
-  why_it_matters: Developers building AI agents that need to interact with Korean and Asian crypto exchanges no longer have to wrestle with Korean-language APIs, IP restrictions, and fragmented exchange data.
-  mental_damage: Your AI agent can now autonomously arbitrage the kimchi premium while you're still figuring out how to get a verified account on Bithumb.
+  summary: An MCP server that provides AI agents with access to Asian crypto markets via a routing engine and x402 payments across 14 exchanges.
+  why_it_matters: It enables AI agents to interact with region-locked, language-restricted Asian crypto exchanges and perform cross-exchange routing, which is otherwise inaccessible to automated workflows.
+  mental_damage: Now your agent can arbitrage the kimchi premium while you pretend to understand what a bridge coin is.
   tags:
     - mcp
     - crypto
-    - agents
     - finance
-    - typescript
+    - routing
+    - x402
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server that exposes crypto market routing and exchange data to AI agents, fitting cleanly as a domain-specific MCP server rather than a general dev tool or coding assistant.
+  reason: "MCP is the product identity: it is a server implementation providing domain-specific tools (crypto routing, premiums, payments) for AI agents via MCP."
   evidence:
-    - README explicitly instructs users to 'Add this to your MCP client config' with an npx-based MCP server setup.
-    - Lists 16 MCP tools including find_optimal_route, get_kimchi_premium, and call_paid_service for AI agent consumption.
-    - Repo topics include 'mcp' and it is already listed in awesome-mcp-servers under Finance & Fintech.
+    - Repo description explicitly identifies it as an MCP server for AI agents accessing Asian crypto markets
+    - README details 16 MCP tools and installation via MCP client config
+    - Listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -85,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:34:29.844Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a63adcee76eea190cf6c981b1b4cd8191d4d88fc7d3a07ba04f4a5e9498cd5d6
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: it is a server implementation providing domain-specific tools (crypto routing, premiums, payments) for AI agents via MCP."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for AI agents accessing Asian crypto markets
+        - README details 16 MCP tools and installation via MCP client config
+        - Listed in awesome-mcp-servers under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server providing domain-specific tools, not a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null

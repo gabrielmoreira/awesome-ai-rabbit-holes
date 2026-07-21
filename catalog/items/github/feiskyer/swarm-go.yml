@@ -44,23 +44,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:00.807Z"
       bytes: 5729
 insights:
-  summary: An ergonomic, lightweight multi-agent orchestration framework for Go, inspired by OpenAI's Swarm, that enables developers to build event-driven, composable systems with native function calls.
-  why_it_matters: It provides Go developers with a minimalistic, native way to orchestrate multiple LLM-powered agents without the overhead of larger Python-centric frameworks.
-  mental_damage: Another day, another framework proving that the hottest new programming language is definitely Go, as long as you wrap it around a GPT-4o call.
+  summary: A lightweight multi-agent orchestration framework for Go, inspired by OpenAI's Swarm.
+  why_it_matters: It allows Go developers to build complex, event-driven multi-agent systems and handoff workflows using native Go function calls.
+  mental_damage: Because apparently, the only thing missing from the Go ecosystem was a way to implement OpenAI's specific architectural patterns in typed code.
   tags:
     - go
     - multi-agent
     - orchestration
-    - framework
-    - event-driven
-  confidence: medium
+    - agentic-workflows
+  confidence: high
 curation:
   status: included
-  reason: The project is a code-first library and SDK for building agent systems in Go, fitting the definition of Frameworks & SDKs where developers import and script against the toolkit.
+  reason: The project is a code-first SDK designed to be imported and scripted by developers to build agentic systems.
   evidence:
-    - Repo description explicitly states 'ergonomic, lightweight multi-agent orchestration in Go'.
-    - README demonstrates code-first usage via 'go get' and direct agent instantiation in Go code (e.g., swarm.NewAgent).
-    - Listed in awesome-agent-orchestration under 'Core Frameworks > Go Frameworks'.
+    - README describes it as a 'ulti-agent orchestration framework' designed for simplicity and efficiency
+    - Usage involves importing the package via 'github.com/feiskyer/swarm-go' and calling library functions
+    - The core functionality revolves around defining agents and functions in Go code
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -79,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:55:48.483Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c056e47c46acf108e3ccd8e640bbb7d4913f45716f717daa95dc6401a4d117ad
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The project is a code-first SDK designed to be imported and scripted by developers to build agentic systems.
+      decision_evidence:
+        - README describes it as a 'ulti-agent orchestration framework' designed for simplicity and efficiency
+        - Usage involves importing the package via 'github.com/feiskyer/swarm-go' and calling library functions
+        - The core functionality revolves around defining agents and functions in Go code
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers primarily interact with this as a library/SDK within their existing Go code rather than through an operated control plane.
+      review_reason: null
+      review_resume_lifecycle: null

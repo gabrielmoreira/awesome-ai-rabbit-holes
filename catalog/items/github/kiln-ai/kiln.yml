@@ -74,26 +74,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:34.717Z"
       bytes: 10487
 insights:
-  summary: Kiln is a desktop app and open-source library for building, evaluating, and optimizing AI systems, with support for evals, RAG, fine-tuning, synthetic data generation, and agent workflows.
-  why_it_matters: It gives developers a privacy-first, visual workbench to measure model quality, optimize prompts, and manage datasets without wiring together a dozen separate scripts.
-  mental_damage: You now have a dedicated desktop app for evaluating the AI tools you bought a desktop app to help you build, which is exactly the kind of recursion that ensures you will ship nothing this quarter.
+  summary: Kiln is a desktop app and open-source library for building, evaluating, and optimizing AI systems with features like evals, RAG, agents, fine-tuning, synthetic data generation, and MCP support.
+  why_it_matters: It provides an end-to-end workflow for developers to iterate on AI systems with measurable improvements, from prompt optimization to fine-tuning and evaluation.
+  mental_damage: Finally, a tool that lets you fine-tune your fine-tuning process—because nothing says 'productivity' like optimizing your optimization loop.
   tags:
     - evals
     - fine-tuning
     - rag
-    - agents
-    - desktop-app
+    - ai-agents
+    - mcp
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, optimizing, and iterating on AI system quality through evals, prompt optimization, and fine-tuning workflows rather than acting as a coding assistant or orchestration platform.
+  reason: Kiln's core identity is its evaluation and optimization framework for AI systems, with strong emphasis on measurable iteration, making it a clear fit for the Evals & Benchmarks category.
   evidence:
-    - Repo description explicitly lists 'Build, Evaluate, and Optimize AI Systems' with evals, fine-tuning, and synthetic data as primary features.
-    - README highlights Evals, Optimizers, Fine Tuning, and Synthetic Data Generation as top features, with a 'Measure, Improve, Repeat' workflow.
-    - Active project with 4803 stars and recent pushes (2026-05-06), with a downloadable desktop app for Windows, MacOS, and Linux.
+    - Repo description explicitly highlights 'Evals, RAG, agents, fine-tuning, synthetic data generation' as core features
+    - README emphasizes 'Evals & Specs', 'Prompt Optimizer', and 'measure, improve, repeat' as primary workflows
+    - Source-list context includes it under 'Frameworks' in awesome-llm-agents and 'Fine-Tuning' in awesome-LLM-resources
 placement:
   primary_category: evals
-  section: Observability / Tracing / EvalOps
+  section: Prompt Regression & Experimentation
 lifecycle:
   status: promotion_candidate
   reason: Stars (4803) exceeded threshold (150)
@@ -109,12 +109,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:32.650Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:acfff22978defee9174e591807d056ff6dbed0b458cf8405448f33b0cae94fdc
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: Kiln's core identity is its evaluation and optimization framework for AI systems, with strong emphasis on measurable iteration, making it a clear fit for the Evals & Benchmarks category.
+      decision_evidence:
+        - Repo description explicitly highlights 'Evals, RAG, agents, fine-tuning, synthetic data generation' as core features
+        - README emphasizes 'Evals & Specs', 'Prompt Optimizer', and 'measure, improve, repeat' as primary workflows
+        - Source-list context includes it under 'Frameworks' in awesome-llm-agents and 'Fine-Tuning' in awesome-LLM-resources
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because Kiln's primary value proposition is evaluation and optimization of AI systems, not just providing code-first building blocks.
+      review_reason: null
+      review_resume_lifecycle: null

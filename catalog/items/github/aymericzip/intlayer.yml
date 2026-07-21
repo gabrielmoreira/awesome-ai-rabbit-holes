@@ -70,23 +70,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:08.350Z"
       bytes: 29622
 insights:
-  summary: A per-component internationalization framework for JavaScript apps that provides TypeScript autocompletion, AI-powered translations, and a visual CMS editor.
-  why_it_matters: It simplifies the usually painful i18n workflow by colocating translations with components and automating the heavy lifting with AI.
-  mental_damage: "Just what we needed: another layer of tooling to manage the multi-lingual sprawl of our React apps, now with an AI co-pilot to help us realize how many strings we forgot to translate."
+  summary: A per-component internationalization (i18n) solution for JavaScript applications with AI-powered translation, visual editing, and a multilingual CMS.
+  why_it_matters: It streamlines localization workflows for developers by combining type-safe i18n, AI translation, and a visual editor to reduce the friction of managing multilingual content.
+  mental_damage: Finally, an i18n library that remembers you’re not just translating strings—you’re also fighting with JSON keys at 3 AM.
   tags:
     - i18n
     - localization
+    - javascript
+    - ai-translation
     - cms
-    - typescript
-    - react
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because, while it uses AI for translations, its core identity is a standard web development library (i18n/CMS) rather than a dedicated AI developer tool, agent, or infrastructure component.
+  reason: The project is a developer tool for i18n/localization, not a coding agent, framework, or AI workflow tool—its AI translation is a feature, not its primary identity in the catalog's scope.
   evidence:
-    - Repo description and README define it as a 'Per-component Internationalisation solution' and 'modern i18n solution', not an AI agent or coding tool.
-    - AI is used as a feature for translation within a broader localization framework, lacking the primary identity of an AI coding assistant or agent orchestration.
-    - Appears in awesome-mcp-servers lists, but as an MCP adapter for a non-AI tool, which does not override its primary product identity.
+    - Repo description and README emphasize i18n/localization as the core product, not AI assistance
+    - Primary value is per-component i18n with CMS/visual editor, not coding assistance or agent workflows
+    - Source-list context (MCP servers) is misleading; MCP is not the product identity here
 placement:
   primary_category: null
   section: null
@@ -105,12 +105,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:03.245Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4618e19633670ecaf9b6dfa4be79b6c6b1ac4427366add75a31df1d530435f66
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a developer tool for i18n/localization, not a coding agent, framework, or AI workflow tool—its AI translation is a feature, not its primary identity in the catalog's scope.
+      decision_evidence:
+        - Repo description and README emphasize i18n/localization as the core product, not AI assistance
+        - Primary value is per-component i18n with CMS/visual editor, not coding assistance or agent workflows
+        - Source-list context (MCP servers) is misleading; MCP is not the product identity here
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

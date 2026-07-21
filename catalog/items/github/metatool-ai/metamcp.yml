@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:20.830Z"
       bytes: 24960
 insights:
-  summary: MetaMCP is a self-hosted MCP proxy that aggregates multiple MCP servers into a unified endpoint and applies middleware, acting as a gateway for any MCP client.
-  why_it_matters: It lets developers manage, secure, and unify a sprawling stack of MCP servers behind a single SSE endpoint with auth, rate limiting, and tool overrides.
-  mental_damage: You now have a gateway to manage your gateways, because apparently the natural response to tool sprawl is yet another docker container to orchestrate the tools that orchestrate the tools.
+  summary: MetaMCP is a Dockerized MCP aggregator, orchestrator, middleware, and gateway that unifies multiple MCP servers into a single MCP server endpoint.
+  why_it_matters: It simplifies MCP client configuration by letting developers connect to many MCP servers through one unified interface, reducing integration complexity.
+  mental_damage: Yet another MCP abstraction layer that turns protocol interoperability into a YAML-configurable microservices nightmare.
   tags:
     - mcp
+    - orchestration
     - middleware
-    - self-hosted
-    - gateway
-    - aggregation
+    - docker
+    - aggregator
   confidence: high
 curation:
   status: included
-  reason: "The product's core identity is MCP infrastructure: a proxy, aggregator, and middleware for the Model Context Protocol, not a generic framework or extension."
+  reason: MetaMCP is an MCP-native infrastructure product whose core identity is as an aggregator and middleware for MCP servers, fitting squarely in the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'MCP Aggregator, Orchestrator, Middleware, Gateway in one docker'."
-    - README defines MetaMCP as 'a MCP proxy that lets you dynamically aggregate MCP servers into a unified MCP server, and apply middlewares'.
-    - GitHub topics are heavily MCP-focused (mcp-gateway, mcp-middleware, mcp-server, model-context-protocol, etc.).
+    - "Repo description: 'MCP Aggregator, Orchestrator, Middleware, Gateway in one docker'"
+    - "README: 'MetaMCP is a MCP proxy that lets you dynamically aggregate MCP servers into a unified MCP server, and apply middlewares. MetaMCP itself is a MCP server'"
+    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'"
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:20:07.802Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:44065af5e0d3f98998fe4231626bae8c5e6a2d3784b8e73194d89aa5fe1cb3c8
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MetaMCP is an MCP-native infrastructure product whose core identity is as an aggregator and middleware for MCP servers, fitting squarely in the MCP Servers & Tooling category.
+      decision_evidence:
+        - "Repo description: 'MCP Aggregator, Orchestrator, Middleware, Gateway in one docker'"
+        - "README: 'MetaMCP is a MCP proxy that lets you dynamically aggregate MCP servers into a unified MCP server, and apply middlewares. MetaMCP itself is a MCP server'"
+        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'"
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because MetaMCP is fundamentally an MCP server and middleware layer, not a general multi-agent workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -57,23 +57,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:16.681Z"
       bytes: 16520
 insights:
-  summary: An archived, open-source educational course teaching developers to build and deploy a real-time financial advisor LLM system using fine-tuning, RAG, and LLMOps tooling.
-  why_it_matters: It provides a hands-on, production-oriented curriculum for learning LLM training, vector databases, and deployment pipelines using tools like LangChain, Qdrant, and Comet ML.
-  mental_damage: You can now fine-tune a Falcon 7B to give financial advice you can't afford, while the course authors have already moved on to a remastered version elsewhere.
+  summary: A hands-on educational repository for learning about LLMs, LLMOps, and vector databases by building a real-time financial advisor system with source code, videos, and reading materials.
+  why_it_matters: Provides developers with a practical, project-based approach to understanding LLM workflows, fine-tuning, and deployment in a real-world scenario.
+  mental_damage: Because nothing says 'I understand LLMs' like deploying a financial advisor that might advise you to short your own career.
   tags:
     - llmops
-    - fine-tuning
-    - rag
-    - course
-    - education
+    - educational
+    - financial-ai
+    - hands-on
+    - tutorial
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational course and codebase, not a developer tool, agent, or infrastructure product; it is also archived and superseded by a newer course.
+  reason: This is an educational resource/tutorial repository, not a developer tool, framework, or product that fits the catalog's scope of practical AI tools, agents, or workflows.
   evidence:
-    - Repo description and README explicitly position this as a course with video, articles, and source code, not a standalone developer tool.
-    - The README contains a prominent banner stating the course is archived and remastered elsewhere (LLM Twin course).
-    - Source-list context places this under '课程 Course' (Course) in an LLM resources list, confirming its identity as learning material.
+    - Repo description explicitly frames it as a learning resource ('Learn about LLMs, LLMOps, and vector DBs for free')
+    - Archived status indicates no active development
+    - Source-list context places it under 'Course' in awesome-LLM-resources
 placement:
   primary_category: null
   section: null
@@ -92,12 +92,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:03.441Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:50199f36266867c01e216d9921ce2d3ccc2a006c6088a4e660fed4f9711fad29
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational resource/tutorial repository, not a developer tool, framework, or product that fits the catalog's scope of practical AI tools, agents, or workflows.
+      decision_evidence:
+        - Repo description explicitly frames it as a learning resource ('Learn about LLMs, LLMOps, and vector DBs for free')
+        - Archived status indicates no active development
+        - Source-list context places it under 'Course' in awesome-LLM-resources
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

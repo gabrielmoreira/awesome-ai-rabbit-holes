@@ -39,19 +39,27 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 174
-    forks: 42
+    stars: 183
+    forks: 45
     license: MIT
     archived: false
+    full_name: tumf/mcp-shell-server
+    html_url: https://github.com/tumf/mcp-shell-server
     created_at: "2024-12-10T13:09:04Z"
-    pushed_at: "2026-04-02T03:44:19Z"
-    description: null
+    pushed_at: "2026-07-21T07:49:40Z"
+    description: Secure MCP server for whitelisted shell command execution with stdin, argv pipelines, timeouts, and structured audit logging.
     homepage: null
-    topics: []
-    last_checked_at: "2026-05-12T15:06:27.577Z"
+    topics:
+      - audit-log
+      - command-whitelist
+      - mcp
+      - model-context-protocol
+      - security
+      - shell
+    last_checked_at: "2026-07-21T15:20:57.162Z"
     readme:
-      fetched_at: "2026-05-12T15:06:27.577Z"
-      bytes: 6120
+      fetched_at: "2026-07-21T15:20:57.162Z"
+      bytes: 12478
 insights:
   summary: MCP shell server is a Model Context Protocol server that enables secure, whitelisted shell command execution with stdin support and timeout control.
   why_it_matters: It lets AI assistants like Claude safely run local shell commands through a standardized MCP interface, extending their ability to interact with developer environments.
@@ -83,7 +91,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-12T15:06:27.578Z"
+    updated_at: "2026-07-21T15:20:57.162Z"
     cause: null
     next_retry_at: null
   categorize:

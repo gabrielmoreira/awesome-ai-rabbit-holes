@@ -62,26 +62,25 @@ metadata:
       fetched_at: "2026-07-16T05:04:58.744Z"
       bytes: 29006
 insights:
-  summary: An official MCP server that connects AI assistants to Exa's web search, code search, and company research capabilities.
-  why_it_matters: It gives coding agents and IDEs a standardized way to perform real-time web and code lookups without leaving the MCP protocol.
-  mental_damage: Yet another MCP server to configure so your agent can finally confirm what you already knew by opening a browser tab.
+  summary: An MCP server that connects AI assistants to Exa's web search, code search, and company research capabilities.
+  why_it_matters: It provides LLMs with real-time, high-quality web and code search context through a standardized protocol.
+  mental_damage: Because your coding assistant didn't have enough ways to hallucinate facts from the live internet before.
   tags:
     - mcp
     - web-search
-    - code-search
-    - exa
-    - integration
+    - search-api
+    - context-retrieval
   confidence: high
 curation:
   status: included
-  reason: This is an official MCP server from Exa Labs, making MCP the product identity and fitting squarely into MCP Servers & Tooling.
+  reason: The project's primary identity is an MCP server providing search capabilities to existing hosts.
   evidence:
-    - Repo description explicitly states 'Exa MCP for web search and web crawling!'
-    - README centers on connecting AI assistants via MCP with configs for Cursor, Claude, VS Code, and many others
-    - Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections
+    - README describes it as an MCP server to connect assistants to Exa's search
+    - Repo topics specifically include 'cp' and 'cp-server'
+    - Provides configuration for multiple MCP-compliant clients like Cursor, Claude Desktop, and Zed
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (4395) exceeded threshold (150)
@@ -97,12 +96,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:54:23.533Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:049ec5c3fcdfdefdb989ed4caaf7af2362806834b7ca5d47c1d1a804f8a7826a
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server providing search capabilities to existing hosts.
+      decision_evidence:
+        - README describes it as an MCP server to connect assistants to Exa's search
+        - Repo topics specifically include 'cp' and 'cp-server'
+        - Provides configuration for multiple MCP-compliant clients like Cursor, Claude Desktop, and Zed
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product's core identity is the MCP protocol implementation rather than the underlying retrieval logic.
+      review_reason: null
+      review_resume_lifecycle: null

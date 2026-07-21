@@ -36,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An open source applied AI lab building next-generation developer tools, including a terminal designed for coding agents.
-  why_it_matters: It is developing cmux, an open source terminal purpose-built to host and interact with coding agents.
-  mental_damage: Yet another research lab promising the future of devtools while we are still trying to get our current agents to stop deleting the .git folder.
+  summary: Open source applied AI lab building next-gen devtools, including cmux (a terminal built for coding agents).
+  why_it_matters: Developers gain access to experimental devtools like cmux, which is explicitly designed to support coding agent workflows in the terminal.
+  mental_damage: Another lab promising to reinvent the terminal, because apparently the 50-year-old Unix philosophy needed a coding-agent-shaped sledgehammer.
   tags:
+    - ai-lab
+    - devtools
     - terminal
     - coding-agents
-    - devtools
-    - open-source
-  confidence: medium
+  confidence: high
 curation:
-  status: included
-  reason: The project is building cmux, a terminal specifically designed as a surface for coding agents, which aligns with the Terminal & CLI Agents section of the coding-agents category.
+  status: excluded
+  reason: Manaflow is a lab/umbrella organization, not a discrete developer tool; its only concrete product (cmux) is not directly presented here, and the page itself does not describe a usable tool.
   evidence:
-    - Scraped site context describes it as 'Open source applied AI lab building next-gen devtools'.
-    - Primary page excerpt highlights 'cmux [github] - The open source terminal built for coding agents.'
-    - Listed in awesome-ai-agents under a section dedicated to autonomous agents.
+    - Page describes itself as an 'open source applied AI lab building next-gen devtools'
+    - No direct tool or product is offered on the page—only a link to cmux
+    - Source-list context lists it under 'Manaflow' in an AI agents directory, but the page itself is not a tool
 placement:
-  primary_category: coding-agents
-  section: Terminal & CLI Agents
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:32.759Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c0d84558b8b5f266d4786160bf0328ad708b155ca0e53a183b08988db2722c79
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Manaflow is a lab/umbrella organization, not a discrete developer tool; its only concrete product (cmux) is not directly presented here, and the page itself does not describe a usable tool.
+      decision_evidence:
+        - Page describes itself as an 'open source applied AI lab building next-gen devtools'
+        - No direct tool or product is offered on the page—only a link to cmux
+        - Source-list context lists it under 'Manaflow' in an AI agents directory, but the page itself is not a tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,23 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Windsurf Editor is an AI-native IDE that integrates an agentic coding assistant (Cascade) and a cloud-based autonomous agent (Devin) into a single development environment.
-  why_it_matters: It attempts to merge local coding assistance with cloud-based task delegation and an 'Agent Command Center' to manage multiple AI workflows without leaving the editor.
-  mental_damage: Just when you thought 'flow state' meant uninterrupted coding, we now have a Kanban board for your autonomous agents to ensure the machine delegation pipeline never interrupts your vibe.
+  summary: Windsurf Editor is an AI agent-powered IDE designed to integrate AI assistance directly into the coding workflow.
+  why_it_matters: It offers developers a unified environment where AI agents like Cascade and Devin can plan, code, and manage tasks without leaving the editor.
+  mental_damage: Now you can delegate debugging to an agent while you pretend to understand the codebase.
   tags:
-    - ide
-    - agentic
-    - editor
-    - mcp
-    - devin
+    - ai-ide
+    - agentic-coding
+    - code-assistant
+    - multi-agent
   confidence: high
 curation:
   status: included
-  reason: The primary product surface is the Windsurf Editor itself, an AI-native IDE and VS Code fork, which places it squarely in IDEs & Editors rather than a plugin or terminal agent.
+  reason: The primary product is an AI-native IDE/editor surface, not a plugin, terminal agent, or framework.
   evidence:
-    - Scraped site context identifies it as 'The first agentic IDE' and a 'Windsurf Editor' download for Mac, Windows, and Linux.
-    - "Marketing copy explicitly positions it as an editor: 'Not just the best AI-powered editor, but the best editor — period'."
-    - Includes built-in features like Cascade and Devin integration, distinguishing it as a standalone environment rather than an extension.
+    - Described as 'the first AI agent-powered IDE' with integrated AI workflows
+    - Includes features like Cascade (AI assistant), Devin (cloud agent), and Agent Command Center
+    - Positioned as a full development environment, not an extension or add-on
 placement:
   primary_category: ai-ides-editors
   section: Full IDEs & Editors
@@ -70,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:02.550Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0af472401ede37906f869daa452f2096c1b3a865feae1da3bbce6a7a634b3480
+      proposed_primary_category: ai-ides-editors
+      disagreement: false
+      decision_reason: The primary product is an AI-native IDE/editor surface, not a plugin, terminal agent, or framework.
+      decision_evidence:
+        - Described as 'the first AI agent-powered IDE' with integrated AI workflows
+        - Includes features like Cascade (AI assistant), Devin (cloud agent), and Agent Command Center
+        - Positioned as a full development environment, not an extension or add-on
+      category_candidates:
+        - ai-ides-editors
+        - coding-agents
+      contrastive_reason: Choose ai-ides-editors over coding-agents because the product's core identity is the IDE itself, not just the assistant functionality.
+      review_reason: null
+      review_resume_lifecycle: null

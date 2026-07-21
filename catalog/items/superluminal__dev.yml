@@ -36,20 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Superluminal is a developer tool for building, deploying, and managing AI agents.
-  why_it_matters: It provides a dedicated environment for developers to operationalize agent workflows beyond simple prompt-and-response loops.
-  mental_damage: "Just what the ecosystem needed: another platform to manage the agents that are currently managing the platforms we used to manage ourselves."
+  summary: Superluminal is a platform for autonomous AI agents.
+  why_it_matters: It provides a way to deploy and manage AI agents that can perform tasks independently, potentially streamlining developer workflows.
+  mental_damage: Because nothing says 'automation' like an agent that might automate itself out of a job.
   tags:
-    - agents
-    - orchestration
-    - platform
-  confidence: low
+    - autonomous-agents
+    - ai-platform
+    - workflow-automation
+  confidence: medium
 curation:
   status: included
-  reason: The product is positioned as a platform for building and managing AI agents, fitting the control plane definition for agent orchestration.
+  reason: The product is listed in awesome-ai-agents under 'Superluminal' as an autonomous agent platform, fitting the agent orchestration category for coordinating multiple agents.
   evidence:
-    - Seen in the 'awesome-ai-agents' list under the section 'Superluminal'.
-    - The URL and name suggest a dedicated platform/service rather than a library or extension.
+    - "Seen in source lists: awesome-ai-agents | section: Superluminal"
+    - "Purpose: A list of AI autonomous agents"
 placement:
   primary_category: agent-orchestration
   section: Control Planes & Workforce Platforms
@@ -67,12 +67,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:37:26.765Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3e6f0debd21a653e75100dc6d4f15899b1888f715380d35165cdbf43ed796954
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is listed in awesome-ai-agents under 'Superluminal' as an autonomous agent platform, fitting the agent orchestration category for coordinating multiple agents.
+      decision_evidence:
+        - "Seen in source lists: awesome-ai-agents | section: Superluminal"
+        - "Purpose: A list of AI autonomous agents"
+      category_candidates:
+        - agent-orchestration
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because the core identity is coordinating autonomous agents rather than generating apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null

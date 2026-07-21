@@ -53,23 +53,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:25.413Z"
       bytes: 37758
 insights:
-  summary: An MCP server that turns Claude into a personal tutor for the Claude Certified Architect exam using 390 scenario-based questions, spaced repetition, and a guided capstone build.
-  why_it_matters: It gives developers a structured, local-first way to study for Anthropic's certification without courses, slides, or cloud accounts.
-  mental_damage: Nothing says 'building the future' quite like gamifying a vendor certification exam with spaced repetition algorithms and glassmorphism dashboards.
+  summary: An MCP server providing free, interactive certification prep for the Claude Certified Architect exam with 390 questions, spaced repetition, and a progress dashboard.
+  why_it_matters: Developers preparing for the Claude Certified Architect exam can use this to study with structured, interactive content directly within their MCP-enabled workflow.
+  mental_damage: Now you can cram for a certification exam while pretending you're just debugging a server.
   tags:
-    - mcp
-    - education
-    - certification
+    - mcp-server
+    - certification-prep
     - claude
-    - study-tool
-  confidence: medium
+    - education
+    - spaced-repetition
+  confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server that exposes exam prep as tools to Claude, fitting the MCP Servers & Tooling category.
+  reason: The product's core identity is an MCP server, explicitly built for the Model Context Protocol, and its primary function is educational certification prep delivered via MCP.
   evidence:
-    - "Repo description: 'Free certification prep for the Claude Certified Architect exam. 390 questions. Spaced repetition.'"
-    - "README: 'Architect Cert is a free, open-source MCP server that turns Claude into your personal certification tutor.'"
-    - "Source list: included in awesome-mcp-servers under Education."
+    - Repo description explicitly states it is a free certification prep MCP server for the Claude Certified Architect exam
+    - README highlights it as an MCP server with interactive UI, spaced repetition, and progress tracking
+    - Source-list context places it in awesome-mcp-servers under Education
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -88,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:47:56.261Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:06d9fdee6134ae08863ec5113661d3bba9843790264396d069a9fb362caca86a
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server, explicitly built for the Model Context Protocol, and its primary function is educational certification prep delivered via MCP.
+      decision_evidence:
+        - Repo description explicitly states it is a free certification prep MCP server for the Claude Certified Architect exam
+        - README highlights it as an MCP server with interactive UI, spaced repetition, and progress tracking
+        - Source-list context places it in awesome-mcp-servers under Education
+      category_candidates:
+        - mcp
+        - skills
+      contrastive_reason: Choose mcp over skills because the product is an MCP server first, not a reusable skill pack or command registry.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -44,23 +44,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:11.248Z"
       bytes: 69410
 insights:
-  summary: An archived, OpenAI-compatible LM inference server built on llama.cpp and stable-diffusion.cpp for running local LLMs and diffusion models.
-  why_it_matters: It provides a local, API-compatible serving layer for developers who want to run custom LLMs and multimodal models across multiple GPUs or RPC backends.
-  mental_damage: We now maintain a thriving ecosystem of inference servers for the models we downloaded but never actually integrated into a shipping product.
+  summary: An archived LM inference server implementation based on llama.cpp and stable-diffusion.cpp, offering OpenAI-compatible APIs for text, vision, audio, and embeddings.
+  why_it_matters: It provides a self-hosted, OpenAI-compatible API layer for running local LLMs and diffusion models, useful for developers needing private inference endpoints.
+  mental_damage: Nothing says 'stable' like an archived repo that still pushes commits while telling you to use llama.cpp directly.
   tags:
-    - local-ai
-    - inference
-    - openai-compatible
-    - cpp
-    - gguf
+    - local-inference
+    - openai-api
+    - llama.cpp
+    - archived
   confidence: high
 curation:
   status: excluded
-  reason: The project is archived and explicitly unmaintained by its authors, making it a poor fit for a curated catalog of active developer tooling.
+  reason: The project is archived and explicitly redirects users to llama.cpp, indicating it is no longer maintained as a standalone product.
   evidence:
-    - The repo is marked as archived on GitHub.
-    - The README includes a caution banner stating 'This project is not longer actively maintained' and redirects users to llama.cpp.
-    - It is primarily a local model runtime/server, which leans toward infrastructure rather than a direct developer-facing AI tool.
+    - "Repo is archived (archived: yes)"
+    - README explicitly states 'This project is not longer actively maintained. Please consider using llama.cpp directly.'
+    - Last push (2025-11-24) is likely cleanup/maintenance, not active development
 placement:
   primary_category: null
   section: null
@@ -79,12 +78,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:11.429Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b752a8bbddb41ce082e0b38eed24bb718100dc3303103c7e2655c1d07741be57
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is archived and explicitly redirects users to llama.cpp, indicating it is no longer maintained as a standalone product.
+      decision_evidence:
+        - "Repo is archived (archived: yes)"
+        - README explicitly states 'This project is not longer actively maintained. Please consider using llama.cpp directly.'
+        - Last push (2025-11-24) is likely cleanup/maintenance, not active development
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -73,23 +73,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:23.912Z"
       bytes: 9076
 insights:
-  summary: An MCP server that lets AI agents launch the Godot editor, run projects, capture debug output, and manage scenes and project structures programmatically.
-  why_it_matters: It closes the feedback loop between AI coding agents and the Godot engine, letting agents actually see and react to runtime errors instead of guessing in the dark.
-  mental_damage: We have finally reached the point where the AI can debug your indie game faster than you can minimise the window to pretend you are not crying.
+  summary: An MCP server that enables AI agents to interact with the Godot game engine, including launching the editor, running projects, and capturing debug output.
+  why_it_matters: It bridges AI agents and Godot development by providing programmatic control and feedback for debugging and code generation in game projects.
+  mental_damage: Now your AI can debug your Godot game while you question why you ever thought making games was a good idea.
   tags:
     - mcp
     - godot
     - game-dev
-    - agent-integration
     - debugging
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server built to give agents structured access to Godot engine capabilities, fitting cleanly into the MCP Servers & Tooling category.
+  reason: The product's core identity is as an MCP server specifically for Godot, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
   evidence:
-    - Repo description explicitly states 'MCP server for interfacing with Godot game engine.'
-    - README introduces it as 'A Model Context Protocol (MCP) server for interacting with the Godot game engine.'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Gaming', confirming strong MCP ecosystem placement.
+    - Repo description explicitly states it is an MCP server for Godot
+    - README details MCP-specific features like launching editor, running projects, and capturing debug output
+    - Listed in multiple MCP-focused directories (awesome-mcp-list, awesome-mcp-servers)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -108,12 +108,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:45:06.907Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:750fb8df4f0b162ba0d191a3b6e0bb1109cc4c2b4616cbd5b6fe5b77a14b1db7
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is as an MCP server specifically for Godot, fitting the MCP Servers & Tooling category where MCP is the primary adopted thing.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Godot
+        - README details MCP-specific features like launching editor, running projects, and capturing debug output
+        - Listed in multiple MCP-focused directories (awesome-mcp-list, awesome-mcp-servers)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server for Godot rather than an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

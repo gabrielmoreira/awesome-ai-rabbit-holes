@@ -36,24 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: E2B is a code interpreting infrastructure platform designed to provide secure, sandboxed execution environments for AI applications and agents.
-  why_it_matters: Developers building AI agents can delegate code execution and file system operations to E2B's sandboxes, removing the need to manage their own isolated runtimes.
-  mental_damage: We have now successfully abstracted the act of running code so far away from the developer that the code executes in a sandbox, inside a container, inside a cloud, just to tell us if a sorting algorithm works.
+  summary: E2B provides cloud-based sandboxed compute environments for AI agents to execute code and tasks securely.
+  why_it_matters: Developers can offload agentic workloads to isolated, scalable sandboxes, enabling secure execution of untrusted code or multi-step workflows without local resource constraints.
+  mental_damage: Now your AI agent can spin up a billion sandboxes while you question whether any of them are actually doing useful work.
   tags:
-    - code-interpreting
-    - sandbox
-    - ai-infrastructure
-    - agents
-  confidence: medium
+    - sandboxing
+    - agent-infrastructure
+    - cloud-compute
+    - secure-execution
+  confidence: high
 curation:
   status: included
-  reason: E2B provides the underlying SDK and infrastructure (sandboxes) that developers import and script against to give their AI apps execution capabilities, fitting the 'code-first building blocks' definition.
+  reason: E2B is primarily a code-first infrastructure provider for agent execution, fitting best as a framework/SDK-style abstraction for developers to integrate into their agent workflows.
   evidence:
-    - Listed in awesome-ai-agents as 'Code Interpreting for AI apps', indicating its role as foundational infrastructure.
-    - The product identity is a platform for executing code on behalf of AI agents, not a primary coding assistant itself.
+    - Source-list context describes it as 'Machines for AI agents' and 'Code Interpreting for AI apps'
+    - X profile and posts emphasize sandbox infrastructure for production AI agents (e.g., '1 billion sandboxes created on E2B')
+    - Integrations with LangChain Open SWE and Stripe Projects position it as a backend service for agent tooling
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: incubating
   reason: null
@@ -68,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:39:35.973Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:01aba855e8d0c447bce22ac3e354e6fb4f0f49edc33f2daa101e29d7727605e0
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: E2B is primarily a code-first infrastructure provider for agent execution, fitting best as a framework/SDK-style abstraction for developers to integrate into their agent workflows.
+      decision_evidence:
+        - Source-list context describes it as 'Machines for AI agents' and 'Code Interpreting for AI apps'
+        - X profile and posts emphasize sandbox infrastructure for production AI agents (e.g., '1 billion sandboxes created on E2B')
+        - Integrations with LangChain Open SWE and Stripe Projects position it as a backend service for agent tooling
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because E2B is a provider abstraction (sandbox infrastructure) rather than a multi-agent coordination platform.
+      review_reason: null
+      review_resume_lifecycle: null

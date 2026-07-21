@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Potpie.ai is an AI-powered coding tool positioned as a coding agent for software development workflows.
-  why_it_matters: It aims to automate coding tasks by acting as an intelligent assistant that can plan and execute changes across a codebase.
-  mental_damage: Another day, another autonomous agent promising to refactor your repo while you bravely watch your terminal, wondering if this is the one that finally deletes node_modules on purpose.
+  summary: A web-based AI coding assistant that helps developers write, review, and debug code.
+  why_it_matters: It provides an accessible, browser-based interface for AI-assisted coding workflows, reducing local setup friction.
+  mental_damage: Another tab to keep open while you pretend you’re not just copy-pasting from Stack Overflow.
   tags:
-    - coding-agent
-    - ai-coding
-    - developer-tools
+    - coding-assistant
+    - web-based
+    - ai-development
   confidence: medium
 curation:
   status: included
-  reason: Potpie.ai is listed in awesome-ai-coding-tools under the 'Coding Agents' section and presents itself as an AI coding assistant, fitting the profile of a tool developers delegate repo work to.
+  reason: It is a standalone coding assistant that directly helps developers with code tasks, fitting the primary identity of a coding agent.
   evidence:
-    - Listed in awesome-ai-coding-tools with the purpose 'A curated list of AI-powered coding tools' under the section 'Coding Agents'.
-    - Homepage URL is https://potpie.ai, indicating a standalone product rather than a plugin or extension.
+    - Listed in awesome-ai-coding-tools under Coding Agents
+    - URL and naming suggest a dedicated AI coding tool
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
@@ -67,12 +67,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:38.423Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e0ed6227412382084e266d7784898ff46e73c78a4cfb8e7a426c6bbf091a9694
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a standalone coding assistant that directly helps developers with code tasks, fitting the primary identity of a coding agent.
+      decision_evidence:
+        - Listed in awesome-ai-coding-tools under Coding Agents
+        - URL and naming suggest a dedicated AI coding tool
+      category_candidates:
+        - coding-agents
+        - ai-ides-editors
+      contrastive_reason: Choose coding-agents over ai-ides-editors because the product is a coding assistant rather than a full IDE or editor surface.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -52,15 +52,15 @@ metadata:
       fetched_at: "2026-07-20T05:17:04.614Z"
       bytes: 31940
 insights:
-  summary: DocSentinel is an AI-powered Secure Software Development Lifecycle (SSDLC) platform that uses LangGraph and LangChain to automate security assessments across all six phases of development, from requirements to operations.
-  why_it_matters: It shifts security left by automating threat modeling, compliance gap analysis, and SAST/DAST triage using LLMs and RAG, reducing manual review bottlenecks for security teams.
-  mental_damage: Finally, an AI agent to help you pretend you read the 400-page compliance PDF you uploaded to its knowledge base.
+  summary: MCP server and AI-powered platform for automating security assessments across the entire SSDLC using LangGraph orchestration and RAG knowledge bases.
+  why_it_matters: It shifts security left by automating threat modeling, compliance checks, and remediation suggestions across all six SSDLC phases, reducing manual review bottlenecks.
+  mental_damage: Finally, a tool that turns your security team’s backlog of PDFs and Word docs into a LangGraph-powered compliance factory.
   tags:
+    - mcp-server
     - ssdlc
-    - security
+    - security-assessment
+    - compliance
     - langgraph
-    - rag
-    - mcp
   confidence: high
 curation:
   status: included
@@ -71,10 +71,10 @@ curation:
     - Built as a headless API + MCP service intended to integrate into CI/CD pipelines and existing security workflows.
 placement:
   primary_category: agent-orchestration
-  section: Vertical Orchestration Platforms
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -87,12 +87,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:05.525Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c09f088edcfb123f23a31b3308802524273873e90dde3ea3fa02ede040f75123
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: "MCP is the product identity here: it is explicitly an MCP server for security assessment workflows, not just an MCP-compatible tool."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for AI agent cybersecurity workflows
+        - README highlights MCP readiness and integration with AI agents (Claude Desktop, Cursor, OpenClaw)
+        - Built as a headless API + MCP service for SSDLC automation
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product is explicitly an MCP server for security workflows, not a general-purpose framework or SDK.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'mcp'"
+      review_resume_lifecycle: null

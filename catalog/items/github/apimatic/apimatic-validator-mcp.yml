@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:02.661Z"
       bytes: 2122
 insights:
-  summary: An MCP server that validates OpenAPI 2.0 and 3.0 specifications by calling the APIMatic validation API from within MCP-compatible assistants like Claude Desktop.
-  why_it_matters: It lets developers validate API specs directly inside their AI assistant workflow instead of switching to external tooling or manual CLI commands.
-  mental_damage: We have successfully abstracted OpenAPI validation into a protocol adapter so your AI can argue with you about your typo in `paths` without you ever leaving the chat window.
+  summary: An MCP server that validates OpenAPI 2.0 and 3.0 specifications using APIMatic's API.
+  why_it_matters: Developers can validate OpenAPI specs directly from their MCP-enabled assistant, streamlining API contract checks without leaving their workflow.
+  mental_damage: Now your AI assistant can judge your API specs, because apparently writing them wasn't painful enough.
   tags:
     - mcp
     - openapi
     - validation
-    - api
+    - api-contracts
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server whose primary identity is exposing OpenAPI validation via the Model Context Protocol, fitting cleanly into MCP Servers & Tooling.
+  reason: "MCP is the product identity here: it is a dedicated MCP server for OpenAPI validation, not a compatibility footnote."
   evidence:
-    - Repo description explicitly states 'APIMatic Validator MCP Server for validating OpenAPI specs via APIMatic's API with MCP'.
-    - README demonstrates MCP as the product identity, with integration instructions for Claude Desktop using the MCP server config.
-    - Listed in awesome-mcp-servers under the 'Official Servers' section.
+    - Repo description explicitly states it is an MCP server for validating OpenAPI specs
+    - README confirms it implements MCP and integrates with Claude Desktop as an MCP server
+    - Source-list context shows it is curated under awesome-mcp-servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:42.279Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2367f296527d1a50ac3a39c7eba3fc7111fca309f42bfaaa278f6d12e4914594
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: it is a dedicated MCP server for OpenAPI validation, not a compatibility footnote."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for validating OpenAPI specs
+        - README confirms it implements MCP and integrates with Claude Desktop as an MCP server
+        - Source-list context shows it is curated under awesome-mcp-servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

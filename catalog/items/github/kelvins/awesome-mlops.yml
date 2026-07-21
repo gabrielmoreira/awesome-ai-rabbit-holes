@@ -47,22 +47,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:32.886Z"
       bytes: 41288
 insights:
-  summary: A curated list of MLOps tools covering the full lifecycle of machine learning workflows, including AutoML, CI/CD, data management, model serving, and monitoring.
-  why_it_matters: It serves as a consolidated map for developers navigating the fragmented ecosystem of tools required to operationalize and maintain ML models.
-  mental_damage: Yet another comprehensive list guaranteeing you will spend a Friday afternoon evaluating seventeen feature stores instead of writing code.
+  summary: A curated list of MLOps tools and resources for machine learning engineering workflows.
+  why_it_matters: Provides a navigable map of the MLOps ecosystem, helping developers discover tools for CI/CD, data management, model serving, and other ML lifecycle stages.
+  mental_damage: Because nothing says 'productive afternoon' like diving into a 50-section list of tools you’ll never have time to evaluate.
   tags:
     - mlops
-    - awesome-list
+    - curated-list
     - machine-learning
-    - devops
+    - directory
+    - awesome
   confidence: high
 curation:
   status: included
-  reason: This is a curation directory for MLOps tooling, fitting the 'Lists & Directories' category as a navigation aid for developers, despite its general ML focus.
+  reason: This is a curated directory of MLOps tools, which fits the catalog's scope as a navigation aid for developers exploring AI/ML workflow tooling.
   evidence:
-    - Repo description explicitly states 'A curated list of awesome MLOps tools'.
-    - README is structured entirely as a categorized index of external tools (AutoML, CI/CD, Data Catalog, etc.).
-    - Seen in 'Awesome-LLMOps' source list under the 'Awesome Lists' section.
+    - Repo description explicitly states it is a 'curated list of awesome MLOps tools'
+    - README confirms it is a categorized directory of tools across the ML lifecycle
+    - Source-list context shows it is already included in Awesome-LLMOps under 'Awesome Lists'
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -81,12 +82,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:17.803Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5188053c31116d3a74ebf46b6c7be7a656aa3cc3aa33e6bf62205569ae8ce5d2
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of MLOps tools, which fits the catalog's scope as a navigation aid for developers exploring AI/ML workflow tooling.
+      decision_evidence:
+        - Repo description explicitly states it is a 'curated list of awesome MLOps tools'
+        - README confirms it is a categorized directory of tools across the ML lifecycle
+        - Source-list context shows it is already included in Awesome-LLMOps under 'Awesome Lists'
+      category_candidates:
+        - awesome-awesomes
+        - ai-frameworks
+      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the primary value is discovery and navigation of the ecosystem, not a code-first building block.
+      review_reason: null
+      review_resume_lifecycle: null

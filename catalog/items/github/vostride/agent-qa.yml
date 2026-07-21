@@ -24,19 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 162
+    forks: 10
+    license: NOASSERTION
+    archived: false
+    full_name: vostride/agent-qa
+    html_url: https://github.com/vostride/agent-qa
+    created_at: "2026-05-07T20:17:57Z"
+    pushed_at: "2026-06-14T19:19:55Z"
+    description: The self-improving QA agent for software teams. A test harness with memory. Write tests in natural language for web and mobile. agent-qa learns from every run, adapts to UI changes, and catches regressions before you ship.
+    homepage: https://vostride.com/agent-qa
+    topics:
+      - agents
+      - ai
+      - ai-agents
+      - ai-testing
+      - appium
+      - chatgpt
+      - claude-code
+      - clawdbot
+      - codex
+      - developer-tools
+      - end-to-end-testing
+      - frontend
+      - llm
+      - mcp
+      - memory
+      - moltbot
+      - openclaw
+      - playwright
+      - testing
+      - webdriverio
+    last_checked_at: "2026-07-21T15:21:08.423Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:08.423Z"
+      bytes: 4053
 insights:
   summary: null
   why_it_matters: null
@@ -51,8 +73,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (162) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,13 +82,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:21:08.423Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

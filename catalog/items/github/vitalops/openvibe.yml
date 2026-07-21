@@ -23,19 +23,25 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 1453
+    forks: 131
     license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    archived: false
+    full_name: vitalops/openvibe
+    html_url: https://github.com/vitalops/openvibe
+    created_at: "2023-04-14T22:11:29Z"
+    pushed_at: "2026-07-03T09:29:12Z"
+    description: Modular Auto-GPT Framework
+    homepage: ""
+    topics:
+      - chatgpt
+      - gpt
+      - gpt4
+      - llms
+    last_checked_at: "2026-07-21T15:21:06.668Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:06.668Z"
+      bytes: 1233
 insights:
   summary: null
   why_it_matters: null
@@ -50,8 +56,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1453) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -59,13 +65,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:21:06.668Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

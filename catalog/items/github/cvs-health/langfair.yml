@@ -57,23 +57,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:27.760Z"
       bytes: 16578
 insights:
-  summary: LangFair is a Python library for conducting use-case-level bias and fairness assessments on LLM outputs using a Bring Your Own Prompts approach.
-  why_it_matters: It allows developers to measure and govern fairness risks specific to their prompts and use cases rather than relying on generic, static benchmarks.
-  mental_damage: Yet another tool proving that even after we finish shipping the feature, we still have to statistically audit our prompts for accidentally building a discriminatory dystopia.
+  summary: LangFair is a Python library for conducting use-case level LLM bias and fairness assessments.
+  why_it_matters: It enables developers to tailor bias and fairness evaluations to specific LLM use cases with a BYOP (Bring Your Own Prompts) approach, ensuring real-world relevance.
+  mental_damage: Finally, a way to quantify the bias in your AI that you were too polite to ask about.
   tags:
     - llm-evaluation
-    - bias-testing
+    - bias-detection
     - fairness
-    - python-library
+    - python
     - responsible-ai
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, scoring, and testing LLM behavior for bias and fairness, which aligns directly with the Evals & Benchmarks category.
+  reason: The core job is measuring and assessing LLM behavior (bias/fairness) rather than acting as a primary assistant, framework, or orchestration tool.
   evidence:
-    - Repo description explicitly states it is a library for 'LLM bias and fairness assessments'.
-    - README emphasizes a 'Bring Your Own Prompts (BYOP) approach' for tailored output-based metrics and governance audits.
-    - Topics include llm-evaluation, fairness-testing, and ethical-ai, confirming its identity as an eval tool.
+    - Repo description explicitly states it is a Python library for LLM bias and fairness assessments
+    - README emphasizes use-case level evaluations with BYOP approach and output-based metrics
+    - Topics include llm-evaluation, llm-evaluation-framework, and llm-evaluation-metrics
 placement:
   primary_category: evals
   section: Safety / Fairness / Data Quality
@@ -92,12 +92,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:20.658Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:25e3b384a74f3ed08e2cfa090859fde5643fae0d37b5f43667bcdbe7d4add764
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The core job is measuring and assessing LLM behavior (bias/fairness) rather than acting as a primary assistant, framework, or orchestration tool.
+      decision_evidence:
+        - Repo description explicitly states it is a Python library for LLM bias and fairness assessments
+        - README emphasizes use-case level evaluations with BYOP approach and output-based metrics
+        - Topics include llm-evaluation, llm-evaluation-framework, and llm-evaluation-metrics
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the primary value is measurement/assessment of model behavior rather than code-first building blocks for embedding models.
+      review_reason: null
+      review_resume_lifecycle: null

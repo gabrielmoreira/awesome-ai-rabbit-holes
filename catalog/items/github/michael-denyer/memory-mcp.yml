@@ -40,16 +40,15 @@ metadata:
       fetched_at: "2026-07-16T05:05:21.274Z"
       bytes: 6531
 insights:
-  summary: An MCP server that provides persistent, engram-inspired memory to AI assistants via a two-tier hot cache and semantic cold storage system.
-  why_it_matters: It eliminates the repetitive context-loading tax by auto-injecting frequently used memories into the context window, reducing tool-call latency and token bloat.
-  mental_damage: You can now stop pasting your architecture diagram into the chat for the fifth time today, though you'll still need to explain to your team why you're running a local SQLite instance just to remind the AI that your auth service uses JWTs.
+  summary: Memory MCP is an MCP server providing a two-tier memory system with hot cache and semantic search for AI assistants.
+  why_it_matters: It reduces repetitive context injection and tool-call overhead by auto-promoting frequently used knowledge into the assistant's context.
+  mental_damage: Finally, a memory system that remembers your project better than you remember where you put your coffee mug.
   tags:
     - mcp
     - memory
-    - context
-    - claude-code
-    - local
-  confidence: medium
+    - context-engineering
+    - ai-dev-extensions
+  confidence: high
 curation:
   status: included
   reason: The product's identity is explicitly an MCP server for memory management, fitting the 'Domain Servers' section of the MCP category.
@@ -59,10 +58,10 @@ curation:
     - Listed in awesome-mcp-servers under 'Knowledge & Memory'.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
 processing:
   discover:
     status: done
@@ -75,12 +74,29 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:20:18.224Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e08de1cf28fbee9b8fe713de506fac35c1329d01937d31751c9b76d26eac1da4
+      proposed_primary_category: context-engineering
+      disagreement: true
+      decision_reason: Memory MCP's core value is its memory and retrieval system—hot cache, semantic search, knowledge graph, and auto-promotion—making it a context-shaping infrastructure rather than a host integration or coding agent.
+      decision_evidence:
+        - "Repo description: 'Engram-inspired memory MCP server with hot cache and pattern mining'"
+        - "README: 'Hot cache (0ms) — Frequently-used knowledge auto-injected into context before Claude even starts thinking'"
+        - "README: 'Cold storage (~50ms) — Everything else, searchable by meaning via semantic similarity'"
+        - "README: 'The system learns what you use and promotes it automatically'"
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, compression, and auto-promotion—not augmenting another assistant with host capabilities like debugger or browser access.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      review_resume_lifecycle: null

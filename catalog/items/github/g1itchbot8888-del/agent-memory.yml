@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:05.340Z"
       bytes: 11847
 insights:
-  summary: A local-first Python memory system for autonomous agents that uses a three-layer architecture (identity, active, archive) and exposes itself as an MCP server for tools like Claude Code, Cursor, and OpenClaw.
-  why_it_matters: It gives coding agents a way to persist identity and task context across sessions using local SQLite and embeddings, reducing the token cost of reconstructing state.
-  mental_damage: We have successfully built a memory system so that our amnesia-prone agents can finally remember they were supposed to be fixing a bug before the context window reset.
+  summary: A local-first memory system for autonomous agents using SQLite and local embeddings.
+  why_it_matters: It provides a lightweight, private way for agents to maintain continuity across sessions via a three-layer memory architecture (identity, active, and archive).
+  mental_damage: Finally, a way to ensure your agent remembers exactly which hallucination it decided to stick with during the last session.
   tags:
-    - memory
+    - local-ai
+    - agent-memory
+    - sqlite
+    - embeddings
     - mcp
-    - local-first
-    - context
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The core novelty is a memory and context-shaping system designed to manage identity, active context, and archive layers for agents, which maps directly to Prompt & Context Engineering.
+  reason: The core novelty and utility of the project is its three-layer memory architecture for context management rather than acting as a coding assistant itself.
   evidence:
-    - README states core architecture is 'Three layers, loaded strategically to minimize token burn' (identity, active, surfaced, archive).
-    - Describes itself as a 'Memory system for autonomous agents' and explicitly compares against Mem0 and Letta in the memory space.
-    - Provides MCP server setup commands for Claude Code, Cursor, and OpenClaw, but MCP is an adapter for the underlying memory product.
+    - README describes a 'three-layer architecture' (identity, active, archive) to manage token burn.
+    - Uses SQLite and local embeddings for semantic retrieval.
+    - Focuses on 'learning from errors' and context-shaping for agents.
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:00:33.507Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fb8da1bf671bf3790049c2d3f26a1f80ac62bd99bc4fecafbe57c658ee0129ea
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core novelty and utility of the project is its three-layer memory architecture for context management rather than acting as a coding assistant itself.
+      decision_evidence:
+        - README describes a 'three-layer architecture' (identity, active, archive) to manage token burn.
+        - Uses SQLite and local embeddings for semantic retrieval.
+        - Focuses on 'learning from errors' and context-shaping for agents.
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core innovation is the memory retrieval and context management logic rather than just being a host integration.
+      review_reason: null
+      review_resume_lifecycle: null

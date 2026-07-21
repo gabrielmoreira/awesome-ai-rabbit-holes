@@ -24,24 +24,24 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 12061
-    forks: 1239
+    stars: 12350
+    forks: 1280
     license: NOASSERTION
     archived: false
-    full_name: null
-    html_url: null
+    full_name: Tencent-Hunyuan/HunyuanVideo
+    html_url: https://github.com/Tencent-Hunyuan/HunyuanVideo
     created_at: "2024-11-28T08:38:31Z"
-    pushed_at: "2025-11-21T06:36:57Z"
+    pushed_at: "2026-06-29T09:33:50Z"
     description: "HunyuanVideo: A Systematic Framework For Large Video Generation Model"
     homepage: https://aivideo.hunyuan.tencent.com
     topics:
       - diffusion-models
       - diffusion-transformer
       - video-generation
-    last_checked_at: "2026-05-06T22:46:43.179Z"
+    last_checked_at: "2026-07-21T15:20:43.050Z"
     readme:
-      fetched_at: "2026-05-06T22:46:43.179Z"
-      bytes: 28835
+      fetched_at: "2026-07-21T15:20:43.050Z"
+      bytes: 29010
 insights:
   summary: HunyuanVideo is an open-source PyTorch framework and model release for large-scale, text-to-video generation using diffusion-transformer architectures.
   why_it_matters: It provides developers with the model definitions, pre-trained weights, and inference code necessary to run or fine-tune high-quality video generation locally or via Diffusers.
@@ -74,16 +74,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:43.179Z"
+    updated_at: "2026-07-21T15:20:43.050Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

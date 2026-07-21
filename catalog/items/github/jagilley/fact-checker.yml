@@ -42,25 +42,25 @@ metadata:
       fetched_at: "2026-07-20T15:11:18.204Z"
       bytes: 1448
 insights:
-  summary: A Python script that demonstrates fact-checking LLM outputs by prompting the model to self-interrogate its assumptions and sequentially verify their truth.
-  why_it_matters: It provides a concrete, code-first example of prompt chaining to reduce hallucinations, serving as a reference implementation for building more reliable LLM workflows.
-  mental_damage: Because clearly the best way to fix a model that makes things up is to ask the same model to politely fact-check itself.
+  summary: A Python demonstration of fact-checking LLM outputs using self-ask prompt chaining.
+  why_it_matters: Shows developers how to implement a self-verification loop for LLM answers, which can improve reliability in AI-assisted workflows.
+  mental_damage: Now you can spend more time debugging your AI’s hallucinations than your own code.
   tags:
-    - prompt-chaining
     - fact-checking
+    - prompt-chaining
     - llm-reliability
-    - langchain
+    - python
   confidence: high
 curation:
-  status: included
-  reason: This is a code-first demonstration of a prompt chaining pattern using Python, fitting the Frameworks & SDKs category as a building block for LLM workflows rather than a standalone product.
+  status: excluded
+  reason: This is a proof-of-concept demo rather than a reusable tool, framework, or developer-facing product; it lacks the scope and identity to fit any catalog category.
   evidence:
-    - "Repo description states: 'Fact-checking LLM outputs with self-ask'."
-    - "README describes a Python script/notebook workflow: 'python3 fact_checker.py' and 'fact_checker.ipynb'."
-    - Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots', indicating a tooling/code context.
+    - Repo description and README explicitly call it a 'simple demonstration'
+    - No reusable library, CLI, or integration—just a single script and notebook
+    - Last push was in 2023 and no evidence of active maintenance
 placement:
-  primary_category: ai-frameworks
-  section: Workflow / Graph Engines
+  primary_category: null
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (305) exceeded threshold (150)
@@ -76,12 +76,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:34.622Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e86e99960a82283c50971c2084b489f21a5ea4a4708df7917b141a2238f4a6be
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a proof-of-concept demo rather than a reusable tool, framework, or developer-facing product; it lacks the scope and identity to fit any catalog category.
+      decision_evidence:
+        - Repo description and README explicitly call it a 'simple demonstration'
+        - No reusable library, CLI, or integration—just a single script and notebook
+        - Last push was in 2023 and no evidence of active maintenance
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

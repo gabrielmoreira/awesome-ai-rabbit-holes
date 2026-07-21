@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:29.554Z"
       bytes: 6694
 insights:
-  summary: An MCP server that fetches web pages, strips noise using Mozilla Readability, and converts content to clean Markdown for token-efficient consumption by AI agents and IDEs.
-  why_it_matters: It integrates directly into Claude Code, Cursor, and VS Code to eliminate slow crawls and bloated token usage when agents need to read live web content.
-  mental_damage: We have now optimized the part of the workflow where an AI agent reads a webpage, proving that no latency is too small and no token is too sacred to escape our engineering obsession.
+  summary: An MCP server that quickly reads webpages and converts them to clean Markdown for token-efficient web scraping.
+  why_it_matters: Developers can fetch and process web content with minimal token usage, preserving links and structure for AI agent workflows.
+  mental_damage: Because nothing says 'modern development' like teaching your AI assistant to politely obey robots.txt while it hoovers up the internet.
   tags:
-    - mcp
+    - mcp-server
     - web-scraping
     - markdown
-    - context-efficiency
-    - ide-integration
+    - token-efficiency
+    - crawling
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly built and distributed as an MCP server for web content extraction, and MCP is its core identity rather than a compatibility footnote.
+  reason: This is an MCP-first server whose primary identity is providing web content extraction as an MCP-compatible tool.
   evidence:
-    - Repo description states it is for 'fast, token efficient web scraping' as an MCP server.
-    - README provides explicit install commands for Claude Code, VS Code, Cursor, and JetBrains as an MCP server.
-    - Appears in awesome-mcp-servers under 'Community Servers', confirming the MCP-native identity.
+    - Repo description explicitly states it is an MCP server for web scraping
+    - README emphasizes MCP integration with Claude Code, VS Code, Cursor, and JetBrains IDEs
+    - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -83,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:39.984Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f11f6460ecdd16e5df653460fb58d55bfe0421c334ca6db4f68801f1542ed10c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose primary identity is providing web content extraction as an MCP-compatible tool.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for web scraping
+        - README emphasizes MCP integration with Claude Code, VS Code, Cursor, and JetBrains IDEs
+        - Listed in awesome-mcp-servers under Community Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

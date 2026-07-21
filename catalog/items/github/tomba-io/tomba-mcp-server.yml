@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7
-    forks: 2
+    stars: 8
+    forks: 4
     license: NOASSERTION
     archived: false
-    full_name: null
-    html_url: null
+    full_name: tomba-io/tomba-mcp-server
+    html_url: https://github.com/tomba-io/tomba-mcp-server
     created_at: "2025-09-22T15:37:08Z"
     pushed_at: "2026-04-02T14:32:39Z"
     description: MCP Server for Tomba.io API integration
@@ -45,9 +45,9 @@ metadata:
       - mcp-tools
       - tomba
       - verification
-    last_checked_at: "2026-05-06T22:46:52.433Z"
+    last_checked_at: "2026-07-21T15:20:52.341Z"
     readme:
-      fetched_at: "2026-05-06T22:46:52.433Z"
+      fetched_at: "2026-07-21T15:20:52.341Z"
       bytes: 32475
 insights:
   summary: A Model Context Protocol server that exposes Tomba.io's email discovery, verification, and enrichment APIs as tools, resources, and prompts for LLM clients.
@@ -80,16 +80,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:52.433Z"
+    updated_at: "2026-07-21T15:20:52.341Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

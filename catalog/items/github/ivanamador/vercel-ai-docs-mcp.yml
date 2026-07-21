@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:16.745Z"
       bytes: 7107
 insights:
-  summary: An MCP server that indexes Vercel AI SDK documentation and exposes semantic search and AI-powered Q&A tools to MCP-compatible clients like Claude Desktop and Cursor.
-  why_it_matters: It lets developers query official Vercel AI SDK docs directly from their assistant or editor instead of context-switching to a browser during development.
-  mental_damage: We have successfully built infrastructure so you can ask an AI about an AI SDK without ever leaving the AI assistant that is already helping you use the AI SDK.
+  summary: An MCP server that enables AI-powered search and querying of the Vercel AI SDK documentation.
+  why_it_matters: Developers can ask natural language questions about the Vercel AI SDK and receive contextualized answers directly from the official docs.
+  mental_damage: Now you can ask an AI about an AI SDK’s docs while using an AI assistant—meta enough for you?
   tags:
     - mcp
     - vercel-ai-sdk
-    - documentation
-    - semantic-search
+    - documentation-search
+    - typescript
+    - gemini
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server providing domain-specific documentation search for the Vercel AI SDK, making it a clear fit for MCP Servers & Tooling.
+  reason: MCP is the core product identity, and the server provides domain-specific documentation search capabilities for the Vercel AI SDK.
   evidence:
-    - Repo description explicitly states it is a Model Context Protocol (MCP) server for Vercel AI SDK documentation.
-    - README details MCP tools (agent-query, direct-query, clear-memory) and integration instructions for Claude Desktop and Cursor.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Repo description explicitly states it is an MCP server for Vercel AI SDK documentation
+    - README details MCP server architecture and integration with Claude Desktop and Cursor
+    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:12.534Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bf2edd8b7145ef956138735ae8930b28e60a0684be234a77eb81e3cf91a34958
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the core product identity, and the server provides domain-specific documentation search capabilities for the Vercel AI SDK.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Vercel AI SDK documentation
+        - README details MCP server architecture and integration with Claude Desktop and Cursor
+        - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the primary identity is an MCP server, not a standalone retrieval or memory system.
+      review_reason: null
+      review_resume_lifecycle: null

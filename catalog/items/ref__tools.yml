@@ -36,13 +36,14 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A shared workspace for teams to plan, review, and manage coding agents across their projects.
-  why_it_matters: It gives teams a centralized control plane to coordinate and govern autonomous coding agents instead of managing them ad hoc.
-  mental_damage: Because nothing says velocity like adding a review layer on top of the agents that were supposed to save us from review layers.
+  summary: A shared workspace for reviewing AI-generated plans before code changes are applied, enabling accountability in AI-driven development workflows.
+  why_it_matters: It addresses the gap between AI-generated code suggestions and human oversight by providing a collaborative space to validate changes before they become diffs.
+  mental_damage: Finally, a way to make AI slow down and explain itself before it rewrites your entire codebase at 3 AM.
   tags:
-    - agent-management
-    - team-workflow
-    - control-plane
+    - code-review
+    - ai-accountability
+    - collaboration
+    - workflow
   confidence: medium
 curation:
   status: included
@@ -52,10 +53,10 @@ curation:
     - Listed in awesome-mcp-servers under Official Servers with the same control-plane description.
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'spec-driven-development'"
 processing:
   discover:
     status: done
@@ -67,12 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:56.894Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8824192e38014efecb0daec9ff0e9669a30bf029052ef21df2d9601b6d1cb277
+      proposed_primary_category: spec-driven-development
+      disagreement: true
+      decision_reason: The product centers on a spec-first loop for reviewing AI-generated plans before execution, making it a fit for spec-driven development rather than a generic coding assistant or extension.
+      decision_evidence:
+        - "Site description: 'A shared workspace to review the plan before the diff, so AI creates accountability without slowing people down.'"
+        - "Source-list context: Listed under MCP servers but the core value is plan review, not MCP infrastructure."
+      category_candidates:
+        - spec-driven-development
+        - ai-dev-extensions
+      contrastive_reason: Choose spec-driven-development over ai-dev-extensions because the core novelty is the plan-review workflow, not augmenting another assistant with host integrations.
+      review_reason: "Categorization review required: placement disagreement: retained 'agent-orchestration', proposed 'spec-driven-development'"
+      review_resume_lifecycle: null

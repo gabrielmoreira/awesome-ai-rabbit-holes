@@ -87,11 +87,14 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
+    updated_at: "2026-07-21T15:47:51.097Z"
     cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__constantineb6__comfy-pilot: ```json
+        {
+          "summary":
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

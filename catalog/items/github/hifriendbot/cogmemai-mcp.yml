@@ -58,23 +58,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:02.171Z"
       bytes: 26719
 insights:
-  summary: CogmemAi is an MCP-compatible memory layer that gives coding assistants persistent, cross-session recall with autonomous capture and benchmark-topping long-term memory scores.
-  why_it_matters: It offloads memory management to the infrastructure layer so your AI assistant remembers architectural decisions and prior attempts without being explicitly told to save.
-  mental_damage: We've successfully automated the one thing developers are supposed to be good at—remembering why we made terrible decisions six hours ago.
+  summary: CogmemAi is a portable memory layer that provides persistent recall across sessions for AI systems, including coding assistants, with benchmark-topping accuracy.
+  why_it_matters: It solves the critical developer pain of AI assistants forgetting context between sessions, automatically capturing and surfacing relevant memories without manual intervention.
+  mental_damage: Finally, an AI that remembers your architectural decisions longer than you do.
   tags:
-    - mcp
-    - memory
-    - context
-    - persistent-recall
-    - benchmark
-  confidence: medium
+    - ai-memory
+    - mcp-server
+    - context-engineering
+    - coding-assistant
+    - persistent-memory
+  confidence: high
 curation:
   status: included
-  reason: The core novelty is the memory and context system itself—autonomous capture, semantic retrieval, principle extraction, and compression—making it a fit for Prompt & Context Engineering rather than a host integration or general MCP server.
+  reason: The core product is a memory and retrieval system for AI assistants, not a primary coding agent or extension.
   evidence:
-    - README states CogmemAi is 'a portable memory layer that gives any Ai system persistent recall across sessions' with autonomous capture at the infrastructure level (v3.15).
-    - Topics include ai-memory, knowledge-graph, semantic-search, and mcp-server, with benchmark claims of 95.10% on LongMemEval and 91% on LoCoMo.
-    - Active as of 2026-04-28 with recent version updates focused on memory intelligence rather than MCP protocol tooling alone.
+    - README emphasizes persistent memory and autonomous knowledge capture as the primary value
+    - Supports MCP-compatible tools but is not itself an MCP-first toolkit
+    - Benchmark claims (95.10% LongMemEval, 91% LoCoMo) focus on memory performance
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -93,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:36.329Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f7e2ab53863d6c28ba8ed848d8fea18d2c55cbbbb2a11948a6dcf0d6b4ea2abf
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core product is a memory and retrieval system for AI assistants, not a primary coding agent or extension.
+      decision_evidence:
+        - README emphasizes persistent memory and autonomous knowledge capture as the primary value
+        - Supports MCP-compatible tools but is not itself an MCP-first toolkit
+        - Benchmark claims (95.10% LongMemEval, 91% LoCoMo) focus on memory performance
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the product identity is memory infrastructure rather than MCP-specific tooling.
+      review_reason: null
+      review_resume_lifecycle: null

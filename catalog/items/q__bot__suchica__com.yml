@@ -36,21 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An officially approved Slack app that brings a ChatGPT-like conversational assistant into Slack workspaces with file/URL reading and team-specific custom instructions.
-  why_it_matters: It lets teams brainstorm, review code, and generate content contextually inside Slack without leaving the workspace or training models on their data.
-  mental_damage: Yet another opportunity to rebrand your daily standup as a 'GPT-powered collaborative workflow' while the actual code remains unwritten.
+  summary: Q is a Slack app powered by OpenAI that provides ChatGPT-like functionality within Slack workspaces, with URL and file reading capabilities.
+  why_it_matters: It allows teams to interact with GPT models directly in Slack, enabling workflows like document summarization, brainstorming, and coding assistance without leaving the chat interface.
+  mental_damage: Now you can debug your existential crisis in the same channel where you debug your code.
   tags:
-    - slack
-    - chatgpt
-    - team-assistant
+    - slack-integration
+    - chatgpt-wrapper
+    - team-collaboration
+    - document-processing
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose team chat assistant for Slack focused on business content, emails, and brainstorming, not a developer-facing coding tool, IDE, extension, or infrastructure component.
+  reason: The product is a Slack-integrated chat assistant rather than a developer-focused coding tool, IDE, or workflow infrastructure.
   evidence:
-    - The site describes it as 'ChatGPT for your Slack' with use cases like emails, translations, tweet/blog content creation, and copywriting.
-    - Although it mentions 'coding and testing based on your internal info', this is a side feature of a broad team chat assistant, not its primary developer-tooling identity.
-    - Source-list context confirms it is listed under 'ChatGPT for Slack' in an autonomous agents list, which does not align with our developer-tooling scope.
+    - Described as 'ChatGPT for Slack' with focus on team chat and document processing
+    - Primary use cases include summarization, brainstorming, and Q&A rather than code editing or repo workflows
+    - Source-list context places it under 'AI autonomous agents' for Slack, not developer tooling
 placement:
   primary_category: null
   section: null
@@ -68,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:51.379Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fdd320e98ceb2fc2e65d6010fa02cd910878cd2bdafa6b52afb920e639990b08
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a Slack-integrated chat assistant rather than a developer-focused coding tool, IDE, or workflow infrastructure.
+      decision_evidence:
+        - Described as 'ChatGPT for Slack' with focus on team chat and document processing
+        - Primary use cases include summarization, brainstorming, and Q&A rather than code editing or repo workflows
+        - Source-list context places it under 'AI autonomous agents' for Slack, not developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

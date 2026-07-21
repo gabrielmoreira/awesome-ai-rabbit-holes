@@ -47,22 +47,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:31.226Z"
       bytes: 27642
 insights:
-  summary: A collection of MCP-compatible notary servers that provide deterministic refund, cancel, return, and trial policy decisions via API for support teams and AI agents.
-  why_it_matters: Developers building support automation or agentic workflows can delegate policy-heavy decisions to a stateless, auditable service instead of hardcoding vendor rules.
-  mental_damage: We have successfully abstracted customer support policy into a stateless HTTP endpoint, so now your AI agent can confidently deny a refund with the same bureaucratic rigidity as a human, but with a request-level audit trail.
+  summary: Source-backed, fail-closed policy checks for refunds, cancellations, returns, and trials via four read-only MCP tools and a deterministic Decision API engine.
+  why_it_matters: Developers can integrate deterministic policy checks into agent workflows or customer support systems without writing vendor-specific logic.
+  mental_damage: Finally, a way to offload the 'is this refund allowed?' rabbit hole to an MCP server instead of your own soul.
   tags:
     - mcp
-    - support-automation
-    - policy-decisions
-    - api
+    - policy-automation
+    - deterministic-api
+    - customer-support
   confidence: high
 curation:
   status: included
-  reason: The primary product identity is a set of MCP notary servers for deterministic decision-making, fitting cleanly into MCP Servers & Tooling as domain-specific servers.
+  reason: "The product's core identity is MCP-first: it provides four MCP servers for policy checks, with MCP as the primary integration surface."
   evidence:
-    - Repo description explicitly states 'API + MCP' for deterministic policy decisions.
-    - README presents four distinct MCP servers (Refund, Cancel, Return, Trial Notary) with tool definitions and installation badges for Cursor, VS Code, Claude, etc.
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its identity as an MCP server implementation.
+    - Repo description explicitly states 'Four read-only MCP tools plus the deterministic Decision API engine'
+    - README highlights MCP server installation as the primary integration method
+    - Already listed in awesome-mcp-servers under 'Finance & Fintech' section
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:25.179Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:21704eece6c897be4f1991575b5411f368313d549f09b6e40bc8e23893d52add
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "The product's core identity is MCP-first: it provides four MCP servers for policy checks, with MCP as the primary integration surface."
+      decision_evidence:
+        - Repo description explicitly states 'Four read-only MCP tools plus the deterministic Decision API engine'
+        - README highlights MCP server installation as the primary integration method
+        - Already listed in awesome-mcp-servers under 'Finance & Fintech' section
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's primary identity is MCP servers, not a code-first SDK or framework.
+      review_reason: null
+      review_resume_lifecycle: null

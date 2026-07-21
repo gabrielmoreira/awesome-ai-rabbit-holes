@@ -54,23 +54,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:58.456Z"
       bytes: 8484
 insights:
-  summary: Evidently is an open-source Python framework for evaluating, testing, and monitoring ML and LLM-powered systems, offering over 100 built-in metrics for data quality, drift detection, and generative AI evaluations.
-  why_it_matters: It provides developers with both offline evaluation reports and live monitoring dashboards to validate AI system behavior from experimentation through production.
-  mental_damage: Another reassuring dashboard to convince ourselves that the stochastic parrot we shipped to production is merely having a deterministic crisis.
+  summary: An open-source observability framework for evaluating, testing, and monitoring machine learning and LLM-powered systems.
+  why_it_matters: It provides developers with the metrics and visualization needed to track model drift, data quality, and LLM performance from experimentation through production.
+  mental_damage: Nothing says 'peace of mind' like a dashboard confirming your LLM is hallucinating at a statistically significant rate.
   tags:
-    - llm-evals
     - mlops
+    - llmops
     - observability
-    - python
+    - evaluation
     - monitoring
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, scoring, and monitoring model and LLM behavior across experiments and production, which aligns precisely with the Evals & Benchmarks category.
+  reason: The tool's primary function is measuring and monitoring the quality and behavior of ML/LLM systems.
   evidence:
-    - "Repo description: 'open-source ML and LLM observability framework' with evaluate, test, and monitor capabilities"
-    - "README: '100+ built-in metrics from data drift detection to LLM judges' and support for both offline evals and live monitoring"
-    - Source list placement in Awesome-LLMOps Observability section confirms developer-tooling fit
+    - README defines it as a framework to evaluate, test, and monitor ML and LLM systems
+    - Supports 100+ built-in metrics for tasks like RAG and classification
+    - Offers both offline evaluation and live monitoring capabilities
 placement:
   primary_category: evals
   section: Observability / Tracing / EvalOps
@@ -89,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:54:12.972Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5ac7b1683e72ba9a2f4ba8a15f66ca9301e8d0b58aa5137388eaf1f4dfb9a68b
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's primary function is measuring and monitoring the quality and behavior of ML/LLM systems.
+      decision_evidence:
+        - README defines it as a framework to evaluate, test, and monitor ML and LLM systems
+        - Supports 100+ built-in metrics for tasks like RAG and classification
+        - Offers both offline evaluation and live monitoring capabilities
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because its core novelty and value proposition is the measurement and scoring of model behavior rather than providing the building blocks for the model itself.
+      review_reason: null
+      review_resume_lifecycle: null

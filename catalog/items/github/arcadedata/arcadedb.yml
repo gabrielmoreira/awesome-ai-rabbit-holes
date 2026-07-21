@@ -58,22 +58,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:03.149Z"
       bytes: 19441
 insights:
-  summary: ArcadeDB is a multi-model Java database supporting SQL, Cypher, Gremlin, and vector embeddings, designed as a high-performance conceptual fork of OrientDB.
-  why_it_matters: It provides developers with a single ACID-compliant system that handles graph, document, and vector workloads, simplifying the stack for AI applications needing similarity search.
-  mental_damage: Yet another database promising to be the single source of truth for your graph, documents, and vectors, ensuring you only have one complex system to debug at 2 AM instead of three.
+  summary: ArcadeDB is a multi-model database supporting SQL, Cypher, Gremlin, HTTP/JSON, MongoDB, Redis, and vector embeddings.
+  why_it_matters: It provides a unified database for developers needing graph, document, key-value, and vector search capabilities in a single system.
+  mental_damage: Finally, a database that speaks every query language except the one you actually remember.
   tags:
-    - database
-    - vector-search
     - multi-model
-    - java
+    - vector-database
+    - graph-database
+    - document-database
+    - sql
   confidence: high
 curation:
   status: excluded
-  reason: ArcadeDB is a general-purpose database management system; it lacks a primary AI developer-tooling identity such as a coding agent, framework, or MCP server, despite supporting vector embeddings.
+  reason: ArcadeDB is a general-purpose multi-model database with vector support, not a developer-tooling product focused on AI workflows, coding assistance, or agent infrastructure.
   evidence:
-    - Repo description identifies it as a 'Multi-Model Database' and 'DBMS', not an AI tool.
-    - README focuses on performance, ACID transactions, and SQL/Gremlin/Cypher support, with vector support as just one of many features.
-    - Listed in awesome-mcp-servers only as a database implementation, but no MCP server implementation is present in the provided repo details.
+    - Repo description identifies it as a multi-model DBMS with vector embeddings support
+    - README emphasizes database performance and multi-model capabilities, not AI-specific tooling
+    - Source-list context shows it in MCP servers list, but MCP is not the product identity
 placement:
   primary_category: null
   section: null
@@ -92,12 +93,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:45.123Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:78afc931c88872d2e5a70a09df836b0e63aefdf6b14a1beb7b0d6dd7d415d291
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: ArcadeDB is a general-purpose multi-model database with vector support, not a developer-tooling product focused on AI workflows, coding assistance, or agent infrastructure.
+      decision_evidence:
+        - Repo description identifies it as a multi-model DBMS with vector embeddings support
+        - README emphasizes database performance and multi-model capabilities, not AI-specific tooling
+        - Source-list context shows it in MCP servers list, but MCP is not the product identity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

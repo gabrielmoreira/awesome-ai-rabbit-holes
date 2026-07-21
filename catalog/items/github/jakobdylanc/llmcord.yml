@@ -53,26 +53,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:18.340Z"
       bytes: 7181
 insights:
-  summary: A lightweight Python Discord bot that turns Discord into a shared frontend for any OpenAI-compatible LLM, supporting remote APIs and local runtimes like Ollama with reply-based branching conversations.
-  why_it_matters: It gives teams a zero-friction way to collaborate around LLMs directly inside Discord, with easy model switching and support for both cloud and local inference.
-  mental_damage: Finally, a way to escalate your team’s AI prompting habits into a shared Discord channel where everyone can branch, reply, and collectively wonder why the bot is using gpt-5 to debug a CSS margin.
+  summary: A Discord bot that turns Discord into a collaborative LLM frontend, supporting any OpenAI-compatible API.
+  why_it_matters: Developers can deploy a shared LLM chat interface in Discord, enabling team collaboration with models like OpenAI, Mistral, or local Ollama instances.
+  mental_damage: Now your team can argue with the LLM in real-time, just like they argue with each other.
   tags:
-    - discord
+    - discord-bot
     - llm-frontend
-    - local-ai
-    - chatbot
+    - collaborative-chat
     - openai-compatible
+    - ollama
   confidence: high
 curation:
-  status: included
-  reason: The project is a self-hosted Discord bot whose core value is providing a local- or self-hosted chat interface for LLMs, directly aligning with the Local AI category’s desktop/chat interfaces section.
+  status: excluded
+  reason: The tool is a Discord bot for collaborative LLM chat, not a developer-tooling product focused on coding, building, or workflow augmentation.
   evidence:
-    - "Repo description: 'Make Discord your LLM frontend - Supports any OpenAI compatible API (Ollama, xAI, Gemini, OpenRouter and more)'"
-    - "README excerpt emphasizes local runtimes: 'Or run local models with: Ollama, LM Studio, vLLM... Or use any other OpenAI compatible API server.'"
-    - "Seen in awesome-local-ai under section: User Tools"
+    - "Repo description: 'Make Discord your LLM frontend - Supports any OpenAI compatible API'"
+    - README emphasizes Discord chat features (reply chains, threads, model switching) with no coding/IDE/agent workflow integration
+    - "Source-list context: listed under 'User Tools' in awesome-local-ai, not developer tooling"
 placement:
-  primary_category: local-ai
-  section: Desktop Chat / Interfaces
+  primary_category: null
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (794) exceeded threshold (150)
@@ -88,12 +88,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:43.243Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3dfd618e25f14cc88a02e6749cb9da7a550bbabaabee345a2957397bcda2d9cc
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a Discord bot for collaborative LLM chat, not a developer-tooling product focused on coding, building, or workflow augmentation.
+      decision_evidence:
+        - "Repo description: 'Make Discord your LLM frontend - Supports any OpenAI compatible API'"
+        - README emphasizes Discord chat features (reply chains, threads, model switching) with no coding/IDE/agent workflow integration
+        - "Source-list context: listed under 'User Tools' in awesome-local-ai, not developer tooling"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

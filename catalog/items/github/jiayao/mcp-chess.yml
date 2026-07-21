@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:23.450Z"
       bytes: 1713
 insights:
-  summary: An MCP server that lets developers play chess against LLMs by exposing board state, move validation, and PGN analysis tools.
-  why_it_matters: It demonstrates how to wrap a classic game engine into a model-accessible tool, giving developers a clear reference for building interactive, stateful MCP servers.
-  mental_damage: We have finally solved the critical developer problem of tricking a 100-billion-parameter reasoning model into hanging its queen on move six.
+  summary: MCP server that enables playing chess against any LLM via the Model Context Protocol.
+  why_it_matters: Developers can integrate chess-playing capabilities into their MCP-enabled workflows, allowing LLMs to act as chess opponents or analysts.
+  mental_damage: Now your AI can beat you at chess while also judging your code.
   tags:
     - mcp
     - chess
-    - game
-    - tool-server
     - llm-integration
-  confidence: medium
+    - game-server
+  confidence: high
 curation:
   status: included
-  reason: The project's identity is an MCP server for chess, fitting squarely into the MCP Servers & Tooling category as a domain-specific tool server.
+  reason: This is an MCP-first server whose primary identity is providing chess capabilities via the Model Context Protocol.
   evidence:
-    - "Repo description states: 'MCP server for playing chess against AI'."
-    - README instructs users to add it to their 'MCP config' to expose chess tools to LLMs.
-    - Listed in 'awesome-mcp-servers' under the Gaming section.
+    - Repo description explicitly states it is an MCP server for playing chess against AI
+    - README details MCP configuration and tool endpoints (e.g., get_board_visualization, make_move)
+    - Project is actively maintained (pushed_at 2025-05-05)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:29.185Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:93c22ccf4b116d880a27828e03067eaf815976fc50fa835a8832c9b7882db5dd
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose primary identity is providing chess capabilities via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for playing chess against AI
+        - README details MCP configuration and tool endpoints (e.g., get_board_visualization, make_move)
+        - Project is actively maintained (pushed_at 2025-05-05)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

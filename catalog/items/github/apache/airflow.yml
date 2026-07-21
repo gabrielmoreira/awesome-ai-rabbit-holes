@@ -76,23 +76,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:01.714Z"
       bytes: 40561
 insights:
-  summary: Apache Airflow is a platform to programmatically author, schedule, and monitor data pipelines and workflows.
-  why_it_matters: It provides the standard DAG-based orchestration layer used to schedule and observe data, ML, and automation workflows at scale.
-  mental_damage: You will spend weeks modeling your pipelines as YAML-friendly Python just to discover that your AI agent now needs its own daily ETL job to stay context-aware.
+  summary: Apache Airflow is a platform to programmatically author, schedule, and monitor workflows.
+  why_it_matters: It enables developers to define, automate, and track complex data pipelines and workflows as code.
+  mental_damage: Because nothing says 'modern development' like debugging a DAG at 3 AM.
   tags:
-    - airflow
     - workflow-orchestration
     - data-pipelines
-    - python
     - scheduler
+    - python
+    - mlops
   confidence: high
 curation:
   status: excluded
-  reason: Although Airflow appears in some AI/LLMOps lists, it is a general-purpose data and workflow orchestration platform with no meaningful AI-native developer-tooling identity for this catalog.
+  reason: Airflow is a general-purpose workflow orchestration platform for data pipelines, not a developer-facing AI tool, agent, or workflow specific to AI/ML development.
   evidence:
-    - Repo description and README define it as a generic workflow orchestration platform, not an AI developer tool.
-    - Topics and homepage focus on ETL, data engineering, and scheduling rather than AI coding, agents, or prompt engineering.
-    - Appears in awesome-mcp-servers and Awesome-LLMOps only as a general platform, not as an MCP-first or AI-first product.
+    - Repo description explicitly states it is a platform for authoring, scheduling, and monitoring workflows
+    - Topics include data-engineering, ETL, and MLops but not AI developer tooling or coding assistance
+    - Source-list context places it under workflow orchestration, not AI-specific tooling
 placement:
   primary_category: null
   section: null
@@ -111,12 +111,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:23.005Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0728b4354eb42e5fc6b4215d33d15e479962e19410edc8a75390d48854fc9488
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Airflow is a general-purpose workflow orchestration platform for data pipelines, not a developer-facing AI tool, agent, or workflow specific to AI/ML development.
+      decision_evidence:
+        - Repo description explicitly states it is a platform for authoring, scheduling, and monitoring workflows
+        - Topics include data-engineering, ETL, and MLops but not AI developer tooling or coding assistance
+        - Source-list context places it under workflow orchestration, not AI-specific tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

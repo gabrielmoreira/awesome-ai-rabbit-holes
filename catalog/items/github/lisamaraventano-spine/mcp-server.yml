@@ -40,26 +40,24 @@ metadata:
       fetched_at: "2026-07-20T15:11:51.969Z"
       bytes: 948
 insights:
-  summary: An MCP server that exposes 23 tools for interacting with The Underground Cultural District, including free developer utilities like hash generation, JWT handling, and regex helpers, plus a paid catalog of digital goods accessible via Stripe checkout.
-  why_it_matters: It bundles a set of developer utilities into an MCP-compatible surface so agents can generate hashes, inspect JWTs, and browse a proprietary digital marketplace without leaving the assistant context.
-  mental_damage: We have successfully reached the point where buying a pet rock lobster and verifying the receipt is a natively exposed tool in your coding agent's context window.
+  summary: MCP server providing 19 tools for accessing digital goods and developer utilities from the Underground Cultural District, including agent-mesh and agent-identity for local tool installation.
+  why_it_matters: Offers developers a curated MCP server with free and paid digital assets, enabling AI agents to access developer tools and content via standardized protocol.
+  mental_damage: Another MCP server promising 'free dev tools' while quietly upselling a Stripe-powered catalog of niche digital goods, adding to the fatigue of evaluating yet another agent-accessible storefront.
   tags:
     - mcp
     - developer-tools
-    - npm
     - digital-goods
-    - utilities
-  confidence: high
+  confidence: medium
 curation:
   status: included
-  reason: The product identity is an MCP server that exposes developer tools and a digital marketplace as MCP-compatible endpoints for AI agents.
+  reason: The project is an MCP server offering tools for accessing digital goods and developer utilities, making MCP its core identity rather than a compatibility feature.
   evidence:
-    - Repo description explicitly states 'MCP server for Underground Cultural District — 23 tools, 218+ digital goods for AI agents.'
-    - README confirms 19 tools including hash gen, JWT, regex, and marketplace tools like buy-from-underground and verify-receipt.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', aligning with its MCP-first identity.
+    - "Repo description: 'MCP server for Underground Cultural District — 23 tools, 218+ digital goods for AI agents'"
+    - "README: Lists 19 tools including browse-underground, search-underground, get-free-content, buy-from-underground, agent-mesh, agent-identity"
+    - "Source-list context: Included in awesome-mcp-servers under 'Developer Tools' section"
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -75,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:16:32.171Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:39668d1146353dbc02bca78ed183eb7e6b406ac3aa68758b529b91bea51a8298
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is an MCP server offering tools for accessing digital goods and developer utilities, making MCP its core identity rather than a compatibility feature.
+      decision_evidence:
+        - "Repo description: 'MCP server for Underground Cultural District — 23 tools, 218+ digital goods for AI agents'"
+        - "README: Lists 19 tools including browse-underground, search-underground, get-free-content, buy-from-underground, agent-mesh, agent-identity"
+        - "Source-list context: Included in awesome-mcp-servers under 'Developer Tools' section"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing protocol-level tools, not an extension augmenting another assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

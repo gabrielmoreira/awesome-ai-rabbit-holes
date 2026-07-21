@@ -44,26 +44,24 @@ metadata:
       fetched_at: "2026-07-16T05:05:24.888Z"
       bytes: 7416
 insights:
-  summary: An MCP server that exposes OS process listing and termination tools to LLM clients like Claude Desktop and Cursor for natural language system management.
-  why_it_matters: It lets developers delegate the tedious hunting and killing of rogue processes to their AI assistant instead of manually running ps or taskkill.
-  mental_damage: You now have an AI agent that can confidently nuke your system processes, which is exactly the kind of capability we swore we would never give it.
+  summary: kill-process-mcp is an MCP server that exposes natural language tools to list and terminate OS processes.
+  why_it_matters: It lets developers kill rogue processes via conversational commands in MCP clients like Claude Desktop or Cursor without dropping to the terminal.
+  mental_damage: Finally, an AI that can do what I’ve been screaming at my terminal to do for years.
   tags:
     - mcp
     - system-tools
     - process-management
-    - cursor
-    - claude
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that exposes OS process tools, making it a clear fit for the MCP Servers & Tooling category.
+  reason: The product is an MCP server first and foremost, with its core identity rooted in exposing process management via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - Repo description states it is a 'cross-platform MCP server exposing LLM-accessible tools to list and terminate OS processes'.
-    - README shows configuration examples for Claude Desktop and Cursor as MCP clients.
-    - Source list context places it in 'awesome-mcp-servers' under Server Implementations.
+    - "Repo description: 'AI-powered cross-platform MCP server exposing LLM-accessible tools to list and terminate OS processes via natural language queries'"
+    - "README: Explicitly positions itself as an MCP server with tools like `process_list` and `process_kill` for LLM clients"
+    - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -79,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:21:28.764Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:64770d9cbe5779fbed40fb417a77670d12cfa9cd9b0a38afeb959e178b1f9e37
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server first and foremost, with its core identity rooted in exposing process management via the Model Context Protocol, making it a clear fit for MCP Servers & Tooling.
+      decision_evidence:
+        - "Repo description: 'AI-powered cross-platform MCP server exposing LLM-accessible tools to list and terminate OS processes via natural language queries'"
+        - "README: Explicitly positions itself as an MCP server with tools like `process_list` and `process_kill` for LLM clients"
+        - Listed in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server infrastructure, not as an extension that augments another assistant’s capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:56.939Z"
       bytes: 5381
 insights:
-  summary: A Node.js MCP server that wraps the Storacha (web3.storage) `w3` CLI to let AI models and MCP clients upload, download, and manage data on IPFS.
-  why_it_matters: It allows developers to give coding agents decentralized storage capabilities, enabling workflows where AI-generated assets or data are persisted to IPFS via the Model Context Protocol.
-  mental_damage: Your AI agent can now independently upload its own hallucinations to a permanent, decentralized ledger, ensuring your technical debt is distributed globally and immutable.
+  summary: An MCP server that wraps the w3 CLI to enable language models to interact with storacha.network/IPFS for space, data, and delegation management.
+  why_it_matters: Developers can now delegate IPFS storage operations (upload/download, space management, delegations) to AI agents via MCP without manual CLI intervention.
+  mental_damage: Finally, a way to make your AI agent argue with IPFS about missing CAR files instead of you.
   tags:
     - mcp
     - ipfs
     - storage
     - decentralized
-    - nodejs
+    - w3-cli
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server implementation designed to give MCP clients access to the Storacha/IPFS ecosystem, fitting the MCP Servers & Tooling category.
+  reason: MCP is the product identity here—a server that exposes IPFS/w3 functionality as MCP tools, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description identifies it explicitly as 'MCP IPFS Server'.
-    - README states it implements the Model Context Protocol to interact with storacha.network via MCP tools.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations', confirming its identity as a protocol server.
+    - Repo description explicitly identifies it as an MCP server
+    - README details MCP tool implementations wrapping w3 CLI commands
+    - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -84,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:21:58.686Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:42cd10a005d36c8f060525e0b645b8dddd60b167c746eb43ae9e852ac734fa42
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a server that exposes IPFS/w3 functionality as MCP tools, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server
+        - README details MCP tool implementations wrapping w3 CLI commands
+        - Listed in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server exposing IPFS capabilities, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:20.252Z"
       bytes: 8605
 insights:
-  summary: A Node.js library and MCP server that provides headless terminal automation, allowing AI agents to launch CLI applications, send input, and capture ASCII output via pseudo-terminals.
-  why_it_matters: It gives coding agents a way to interact with interactive terminal tools like vim, python, or git that normally require a display and keyboard.
-  mental_damage: We have finally built the infrastructure required to let a $200/month LLM try to `:wq` its way out of Vim on your behalf.
+  summary: A headless terminal automation library for AI agents that enables interaction with CLI applications via ASCII text capture and keyboard input.
+  why_it_matters: It allows AI agents to programmatically control and extract output from any terminal-based tool, enabling automation of workflows involving git, npm, Python, or other CLI apps.
+  mental_damage: Now your AI agent can finally pretend to be a 10x developer by typing `vim` commands at 1000 WPM.
   tags:
-    - terminal
-    - automation
-    - mcp
+    - terminal-automation
+    - mcp-server
+    - cli-integration
     - headless
     - node-pty
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is extending agents with terminal host capabilities via an MCP server and library, rather than acting as a standalone coding assistant.
+  reason: The tool is primarily an integration layer that augments AI agents with terminal automation capabilities, rather than being a standalone coding assistant.
   evidence:
-    - "Repo description states: 'Automate terminals for agents'."
-    - README explicitly markets it as 'Headless terminal automation for AI agents' and provides an MCP server for Claude Code.
-    - The library exists to let LLMs 'interact with any CLI application' rather than editing repos itself.
+    - "Repo description: 'Automate terminals for agents'"
+    - "README: 'Headless terminal automation for AI agents' with MCP server integration"
+    - "Source-list context: listed under 'Harnesses & orchestration > Agent infrastructure' in awesome-cli-coding-agents"
 placement:
   primary_category: ai-dev-extensions
   section: Host Integrations & Automation
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:06.969Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5612e2c6243d529df36297fcaa7b0b6442d2b9453f77c049eebc0ad6e16a96e0
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool is primarily an integration layer that augments AI agents with terminal automation capabilities, rather than being a standalone coding assistant.
+      decision_evidence:
+        - "Repo description: 'Automate terminals for agents'"
+        - "README: 'Headless terminal automation for AI agents' with MCP server integration"
+        - "Source-list context: listed under 'Harnesses & orchestration > Agent infrastructure' in awesome-cli-coding-agents"
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the core product is terminal automation for agents, with MCP as a secondary integration feature rather than the primary identity.
+      review_reason: null
+      review_resume_lifecycle: null

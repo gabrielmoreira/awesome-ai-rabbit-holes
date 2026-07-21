@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:05.646Z"
       bytes: 6585
 insights:
-  summary: A now-archived, Docker-based local chatbot assistant that ran multiple generative AI tasks including text generation, RAG pipelines, image generation, and audio processing using local models.
-  why_it_matters: It offered developers a single self-hosted container stack to experiment with local LLMs, RAG, and multimodal models without relying on external APIs.
-  mental_damage: A valiant attempt to be the Swiss Army knife of local AI that was mothballed before it could finish enumerating its own feature list.
+  summary: A Docker-based local chatbot assistant offering multiple AI tasks (text, image, audio, video, RAG) via a web UI.
+  why_it_matters: Provides a self-hosted, multi-modal AI interface for developers wanting local inference without cloud dependencies.
+  mental_damage: Because nothing says 'local AI' like a 15-step Docker Compose ritual to summarize a PDF.
   tags:
     - local-ai
-    - chatbot
     - docker
+    - multi-modal
     - rag
-    - multimodal
+    - self-hosted
   confidence: high
 curation:
   status: excluded
-  reason: The repository is archived and primarily functioned as a general-purpose local chatbot interface rather than a tool focused on developer workflows or coding assistance.
+  reason: Archived repository with no active maintenance, and its primary identity is a local end-user chat interface rather than a developer-tooling workflow.
   evidence:
-    - Repo is marked as archived with no pushes since June 2024.
-    - Description and README position it as a 'local chatbot assistant' for tasks like image generation and summarization, not coding.
-    - Listed in awesome-local-ai under 'Inference UI', confirming its identity as a general local AI UI rather than a developer tool.
+    - "Repo is archived (archived: true)"
+    - Primary product is a local chat UI for multi-modal tasks, not a developer workflow tool
+    - Last push was 2024-06-18 with no subsequent activity
 placement:
   primary_category: null
   section: null
@@ -90,12 +90,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:13.623Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:938294a25e3331b6c12f142010128093fdcc6131bd3eba569f33e644f302514f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Archived repository with no active maintenance, and its primary identity is a local end-user chat interface rather than a developer-tooling workflow.
+      decision_evidence:
+        - "Repo is archived (archived: true)"
+        - Primary product is a local chat UI for multi-modal tasks, not a developer workflow tool
+        - Last push was 2024-06-18 with no subsequent activity
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

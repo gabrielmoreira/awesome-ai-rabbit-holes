@@ -24,19 +24,26 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 221
+    forks: 42
+    license: Apache-2.0
+    archived: false
+    full_name: ZhuLinsen/FastDatasets
+    html_url: https://github.com/ZhuLinsen/FastDatasets
+    created_at: "2025-04-25T13:38:53Z"
+    pushed_at: "2025-08-31T06:40:43Z"
+    description: A powerful tool for creating high-quality training datasets for Large Language Models (LLMs)（一个快速生成高质量LLM微调训练数据集的工具）
+    homepage: ""
+    topics:
+      - asyncio
+      - dataset-generation
+      - datasets
+      - llm
+      - python
+    last_checked_at: "2026-07-21T15:21:27.339Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:27.339Z"
+      bytes: 8059
 insights:
   summary: null
   why_it_matters: null
@@ -51,8 +58,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (221) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,15 +67,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-12T15:06:46.567Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for zhulinsen/fastdatasets
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-21T15:21:27.339Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

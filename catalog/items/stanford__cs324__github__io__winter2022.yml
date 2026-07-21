@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Stanford course site covering the fundamentals, modeling, ethics, and systems aspects of large language models, including hands-on projects for evaluating and training them.
-  why_it_matters: Developers building AI tooling benefit from understanding the underlying modeling, scaling, and safety concepts taught through its lectures, readings, and project work.
-  mental_damage: Yet another reminder that while you are chasing the latest agent framework, the people who actually understand what’s happening under the hood are still assigning paper reviews.
+  summary: Stanford CS324 course website for Understanding and Developing Large Language Models.
+  why_it_matters: Provides structured educational content on LLMs, including hands-on projects for evaluating and building models.
+  mental_damage: The only thing harder than building LLMs is grading Stanford students who think they can.
   tags:
+    - course
     - education
-    - llm-course
-    - nlp
-    - model-training
+    - llm
+    - stanford
   confidence: high
 curation:
   status: excluded
-  reason: This is an academic course site and auxiliary educational resource rather than a standalone developer tool, platform, or product.
+  reason: This is an educational course website, not a developer tool, framework, or workflow product.
   evidence:
-    - "The page is the syllabus and course site for Stanford CS324: 'Understanding and developing large language models.'"
-    - Content is lectures, paper reviews, and class projects rather than a reusable tool, framework, or product.
-    - It is listed in an awesome list under '课程 Course' (Courses), confirming its identity as an educational resource.
+    - The site is a course page for CS324 at Stanford, focused on teaching LLMs
+    - Primary content is lectures, paper reviews, and student projects, not a tool or library
+    - Source-list context places it under 'Course' section, confirming its educational nature
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:06.056Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fd8c5d017f31e5620019d875011467a8d3069c66fa9c88be8cdbb0112ad33243
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational course website, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - The site is a course page for CS324 at Stanford, focused on teaching LLMs
+        - Primary content is lectures, paper reviews, and student projects, not a tool or library
+        - Source-list context places it under 'Course' section, confirming its educational nature
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

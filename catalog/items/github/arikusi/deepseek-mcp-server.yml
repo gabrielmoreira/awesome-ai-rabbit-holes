@@ -49,26 +49,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:03.872Z"
       bytes: 31146
 insights:
-  summary: An MCP server that exposes DeepSeek chat and reasoning models to MCP-compatible clients like Claude Code, Cursor, and Windsurf, with multi-turn sessions, function calling, and cost tracking.
-  why_it_matters: Developers can route DeepSeek's reasoning and coding models directly into their existing MCP-enabled workflows without building custom API integrations.
-  mental_damage: Now you can orchestrate a committee of models from different providers, each with its own billing meter and failure mode, all from the comfort of your terminal.
+  summary: MCP server for DeepSeek V4 models enabling chat, reasoning, function calling, thinking mode, and cost tracking in MCP-compatible clients.
+  why_it_matters: Lets developers integrate DeepSeek's latest models into their existing MCP workflows (Claude Code, Cursor, etc.) with features like multi-turn sessions and tool use.
+  mental_damage: Now you can watch DeepSeek think through problems in your terminal while your MCP client tries to remember which API key you set where.
   tags:
     - mcp
     - deepseek
-    - llm
+    - server
     - typescript
-    - integration
+    - api-integration
   confidence: high
 curation:
   status: included
-  reason: This is a purpose-built MCP server exposing DeepSeek models to MCP-compatible clients, making MCP its core product identity.
+  reason: This is a dedicated MCP server implementation whose primary identity is providing DeepSeek model access via MCP protocol.
   evidence:
-    - "Repo description states: 'MCP Server for DeepSeek API - enables MCP clients to use DeepSeek Chat and Reasoner models'"
-    - README explicitly lists compatibility with Claude Code, Gemini CLI, Cursor, Windsurf, and any MCP-compatible client
-    - Listed in awesome-mcp-servers under 'Server Implementations > Aggregators'
+    - Repo description explicitly states it's an MCP server for DeepSeek V4
+    - README confirms MCP compatibility with multiple clients and official MCP registry listing
+    - Source-list context shows it's included in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -84,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:53.198Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e724e1c1644bdee52983bd8ccddb598a21e03698c7f3ec0388eadfd1b9061cb5
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server implementation whose primary identity is providing DeepSeek model access via MCP protocol.
+      decision_evidence:
+        - Repo description explicitly states it's an MCP server for DeepSeek V4
+        - README confirms MCP compatibility with multiple clients and official MCP registry listing
+        - Source-list context shows it's included in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server implementation rather than an extension for another tool.
+      review_reason: null
+      review_resume_lifecycle: null

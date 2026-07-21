@@ -45,22 +45,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:45.636Z"
       bytes: 39485
 insights:
-  summary: LangServe is a Python library integrated with FastAPI for deploying LangChain runnables and chains as REST APIs with automatic schema inference and streaming endpoints.
-  why_it_matters: It provides the plumbing to turn local LangChain experiments into callable HTTP services with docs, batching, and streaming without writing custom server code.
-  mental_damage: Another official LangChain deployment story that was deprecated within a year, leaving engineers to migrate yet again from one preferred server to the next.
+  summary: LangServe is a deprecated LangChain library for deploying LangChain runnables and chains as a REST API using FastAPI.
+  why_it_matters: It allowed developers to expose LangChain agents as HTTP endpoints for integration into apps and services.
+  mental_damage: The relief of deploying your chain as an API is quickly undercut by realizing it's abandoned in favor of LangGraph Platform.
   tags:
     - langchain
     - deployment
     - fastapi
-    - rest-api
+    - api
+    - deprecated
   confidence: high
 curation:
   status: excluded
-  reason: The project is archived and explicitly deprecated by the maintainers, who now direct users to LangGraph Platform instead.
+  reason: LangServe is archived and officially deprecated, with maintainers recommending migration to LangGraph Platform, indicating it is no longer a viable or actively maintained tool for developers.
   evidence:
-    - Repo is marked archived with a DEPRECATED warning in the README as of Nov 18, 2024.
-    - "Maintainers state: 'We recommend using LangGraph Platform rather than LangServe for new projects.'"
-    - Primary identity is a LangChain deployment library, which fits best as a framework/SDK, but the deprecation and archive status make it a poor inclusion today.
+    - "Repo description: 'LangServe 🦜️🏓'"
+    - "Archived: yes"
+    - "README excerpt: 'DEPRECATED' This project has been deprecated since Nov 18, 2024... We recommend using LangGraph Platform rather than LangServe for new projects."
 placement:
   primary_category: null
   section: null
@@ -79,12 +80,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:14:50.710Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9362af99ebab43854c2d5009288c723c0f08a53148382b2e2c47b83f25bee91d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: LangServe is archived and officially deprecated, with maintainers recommending migration to LangGraph Platform, indicating it is no longer a viable or actively maintained tool for developers.
+      decision_evidence:
+        - "Repo description: 'LangServe 🦜️🏓'"
+        - "Archived: yes"
+        - "README excerpt: 'DEPRECATED' This project has been deprecated since Nov 18, 2024... We recommend using LangGraph Platform rather than LangServe for new projects."
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

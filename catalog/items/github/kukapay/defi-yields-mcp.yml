@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:40.765Z"
       bytes: 2421
 insights:
-  summary: An MCP server that exposes DeFi yield pool data from DefiLlama to AI agents, allowing them to fetch and analyze APY metrics via tools and prompts.
-  why_it_matters: It lets coding agents and LLMs query real-time DeFi yield data directly within their workflow instead of forcing developers to glue together REST calls and JSON parsing.
-  mental_damage: Because what every seasoned developer truly needed was a specialized MCP server to ask an LLM whether Lido's 30-day mean APY is worth the gas fees on Ethereum.
+  summary: An MCP server that lets AI agents fetch and analyze DeFi yield pool data from DefiLlama.
+  why_it_matters: Developers building DeFi-focused agents can now query and analyze yield opportunities programmatically through a standardized MCP interface.
+  mental_damage: Because nothing says 'practical developer tooling' like teaching your AI to chase yield in a bear market.
   tags:
-    - mcp
+    - mcp-server
     - defi
+    - yield-analysis
     - finance
-    - agent-tooling
-    - data-fetching
+    - blockchain
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing DeFi yield data to AI agents, which aligns perfectly with the MCP Servers & Tooling category's focus on protocol-specific servers.
+  reason: This is an MCP-first server providing domain-specific DeFi data access, making MCP its primary identity.
   evidence:
-    - "Repo description states: 'An MCP server for AI agents to explore DeFi yield opportunities, powered by DefiLlama.'"
-    - README confirms it is a server run with `uvx defi-yields-mcp` and configured for Claude Desktop as an MCP server.
-    - Listed in awesome-mcp-servers under the Finance & Fintech section as a server implementation.
+    - Repo description explicitly states it is 'An MCP server for AI agents to explore DeFi yield opportunities'
+    - README details MCP tooling (`get_yield_pools`) and integration with Claude Desktop via MCP
+    - Project is actively maintained (created and pushed in April 2025)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:57.390Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:083be5f5d2784c221a4ef16bc1757f65f874af1a87bbbde3627e7bf8bade9345
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server providing domain-specific DeFi data access, making MCP its primary identity.
+      decision_evidence:
+        - Repo description explicitly states it is 'An MCP server for AI agents to explore DeFi yield opportunities'
+        - README details MCP tooling (`get_yield_pools`) and integration with Claude Desktop via MCP
+        - Project is actively maintained (created and pushed in April 2025)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

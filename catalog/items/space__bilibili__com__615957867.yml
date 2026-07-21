@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili personal profile page for a content creator sharing videos and articles about AI and Web3 knowledge.
-  why_it_matters: It serves as a content hub for developers looking to keep up with AI trends and Web3 integration through video tutorials and community posts.
-  mental_damage: Another bookmark to a content creator's profile that you will subscribe to, forget exists, and then feel guilty about when the algorithm finally surfaces it three months later.
+  summary: A Bilibili personal space hosted by 'Wuli墩茶社' containing curated AI video, article, and resource content.
+  why_it_matters: It serves as a multi-modal educational repository covering topics like Agents, MCP, and model reasoning.
+  mental_damage: Just when you thought your browser tabs were full, here comes a video-based rabbit hole to ensure you never actually write any code.
   tags:
-    - video
-    - education
-    - community
-    - web3
+    - tutorials
+    - video-resources
+    - educational-media
   confidence: high
 curation:
   status: excluded
-  reason: This is a social media profile page for a content creator, not a developer tool, framework, or infrastructure product.
+  reason: The project is an educational media profile/tutorial hub rather than a standalone developer tool or directory.
   evidence:
-    - The URL points to a Bilibili personal space (space.bilibili.com/615957867), which is a user profile page.
-    - The scraped site context describes it as a space for sharing videos, audio, and articles, identifying it as a content hub rather than a tool.
-    - It was found in an awesome list under a 'Tutorial' section, indicating it is an educational resource, not a software product.
+    - Scraped content describes it as a space for sharing videos, audio, and articles
+    - Source-list context identifies it under the 'Tutorial' section of an awesome list
+    - No actual developer tooling, SDK, or software product is provided
 placement:
   primary_category: null
   section: null
@@ -69,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:59.437Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:af3e4c7f8d3f8fb392dfcf0599ecfa9a69aef85e1414e01f71c671c089c921cc
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is an educational media profile/tutorial hub rather than a standalone developer tool or directory.
+      decision_evidence:
+        - Scraped content describes it as a space for sharing videos, audio, and articles
+        - Source-list context identifies it under the 'Tutorial' section of an awesome list
+        - No actual developer tooling, SDK, or software product is provided
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

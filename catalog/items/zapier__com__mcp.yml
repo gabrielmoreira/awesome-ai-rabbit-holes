@@ -36,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Zapier MCP is a hosted MCP server that exposes over 30,000 actions across 9,000+ apps to AI clients like Claude, ChatGPT, and Cursor via the Model Context Protocol.
-  why_it_matters: It gives developers a no-code bridge to connect any MCP-compatible AI tool to a massive library of pre-authenticated business and productivity apps without managing individual OAuth flows or server configs.
-  mental_damage: We have successfully abstracted the abstraction by wrapping the entire SaaS ecosystem in a single protocol, ensuring your AI can now confidently mark your Slack messages as unread across nine thousand apps.
+  summary: Zapier MCP is a Model Context Protocol server that connects AI assistants like Claude, ChatGPT, and Cursor to 9,000+ apps via Zapier's integration ecosystem.
+  why_it_matters: It enables AI agents to perform actions across thousands of SaaS apps without custom code, bridging the gap between AI reasoning and real-world workflow automation.
+  mental_damage: Finally, your AI can do your busywork—until you realize you now have to audit its busywork.
   tags:
     - mcp
-    - integrations
+    - automation
     - zapier
-    - hosted-server
-    - no-code
+    - ai-integration
+    - workflow
   confidence: high
 curation:
   status: included
-  reason: Zapier MCP is a canonical MCP server product that exposes the Zapier ecosystem via the Model Context Protocol, fitting the MCP Servers & Tooling category.
+  reason: "MCP is the product identity here: Zapier MCP is explicitly a Model Context Protocol server that exposes Zapier's app integrations to AI clients."
   evidence:
-    - Product page explicitly brands itself as 'Zapier MCP' and explains how it 'connects Claude, ChatGPT, and other tools to 30,000+ actions'.
-    - Listed in the 'awesome-mcp-servers' directory under 'Official Servers', confirming its identity as an MCP server.
-    - "Core value proposition is acting as an MCP middleware layer: 'One setup. Every app. Every AI.'"
+    - Source-list context lists it under 'Official Servers' in awesome-mcp-servers
+    - Scraped site context explicitly describes it as 'Zapier MCP connects Claude, ChatGPT, and other tools to 30,000+ actions across 9,000+ apps'
+    - The product's core value is MCP-based integration, not a broader platform or extension
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -70,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:08.870Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:afba861100ca71813eee29d7a5f20889b6b966f41d15702f5086b4bff4e9cb41
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: Zapier MCP is explicitly a Model Context Protocol server that exposes Zapier's app integrations to AI clients."
+      decision_evidence:
+        - Source-list context lists it under 'Official Servers' in awesome-mcp-servers
+        - Scraped site context explicitly describes it as 'Zapier MCP connects Claude, ChatGPT, and other tools to 30,000+ actions across 9,000+ apps'
+        - The product's core value is MCP-based integration, not a broader platform or extension
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server exposing Zapier's integrations, not merely an extension for another AI tool.
+      review_reason: null
+      review_resume_lifecycle: null

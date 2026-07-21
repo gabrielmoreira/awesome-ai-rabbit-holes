@@ -37,22 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: QNim is a Hugging Face community Space that appears to be intended as an AI agent or chatbot demo using LangChain.
-  why_it_matters: It represents a low-friction way to experiment with LangChain-based agent implementations via the Hugging Face Spaces hosting environment.
-  mental_damage: Nothing says 'production-ready developer tooling' quite like a container that spent 30 minutes failing to wake up before timing out.
+  summary: A Hugging Face Space named QNim with no clear description or functional status, currently failing to launch.
+  why_it_matters: It does not currently demonstrate any developer-relevant functionality or value.
+  mental_damage: Another Hugging Face Space that times out before it can even tell you what it does.
   tags:
-    - langchain
     - huggingface
-    - agent-demo
-    - chatbot
+    - unclear-purpose
+    - non-functional
   confidence: high
 curation:
   status: excluded
-  reason: The project is a non-functional, runtime-erroring Hugging Face demo Space with no description, README, or clear developer-tooling utility beyond being a generic chatbot example.
+  reason: The project has no clear description, functional status, or developer-tooling relevance, and is currently non-operational.
   evidence:
-    - The Space is currently in a 'Runtime error' state with 'Launch timed out, space was not healthy after 30 min'.
-    - No repository description, README excerpt, or clear technical documentation was provided.
-    - It was listed in awesome-langchain under 'Other / Chatbots', suggesting a generic demo rather than a developer tool.
+    - No repo description or README excerpt provided
+    - Hugging Face Space shows runtime errors and launch timeouts
+    - No evidence of developer-tooling focus or practical AI utility
 placement:
   primary_category: null
   section: null
@@ -70,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:15.378Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:31d0cf549dbf5a57c177e96bd00e282cf6a01d60fb7cee8247f06d6599a53b76
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project has no clear description, functional status, or developer-tooling relevance, and is currently non-operational.
+      decision_evidence:
+        - No repo description or README excerpt provided
+        - Hugging Face Space shows runtime errors and launch timeouts
+        - No evidence of developer-tooling focus or practical AI utility
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

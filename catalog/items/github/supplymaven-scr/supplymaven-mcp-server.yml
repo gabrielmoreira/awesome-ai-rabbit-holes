@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: NOASSERTION
     archived: false
-    full_name: null
-    html_url: null
+    full_name: SupplyMaven-SCR/supplymaven-mcp-server
+    html_url: https://github.com/SupplyMaven-SCR/supplymaven-mcp-server
     created_at: "2026-03-14T03:26:08Z"
-    pushed_at: "2026-04-27T15:22:16Z"
+    pushed_at: "2026-06-25T17:32:15Z"
     description: "MCP server for real-time supply chain intelligence — 24 tools: Global Disruption Index, Manufacturing Index, commodity prices, port congestion, border delays, chokepoints, air cargo, trade policy, energy, rail, freight, economic indicators, predictive signals, and AI intelligence briefs"
     homepage: null
     topics: []
-    last_checked_at: "2026-05-06T22:46:38.062Z"
+    last_checked_at: "2026-07-21T15:20:37.076Z"
     readme:
-      fetched_at: "2026-05-06T22:46:38.062Z"
-      bytes: 14133
+      fetched_at: "2026-07-21T15:20:37.076Z"
+      bytes: 15145
 insights:
   summary: An MCP server that exposes 24 real-time supply chain intelligence tools, including global disruption indices, commodity prices, port congestion, and predictive signals to AI agents.
   why_it_matters: Developers building agentic workflows for logistics, trading, or supply chain visibility can plug live economic and disruption data directly into Claude, Cursor, or any MCP-compatible client without building custom scrapers.
@@ -70,19 +70,17 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-20T16:43:05.926Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for supplymaven-scr/supplymaven-mcp-server
+    status: done
+    updated_at: "2026-07-21T15:20:37.076Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

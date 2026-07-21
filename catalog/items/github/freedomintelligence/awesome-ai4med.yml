@@ -47,22 +47,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:04.043Z"
       bytes: 19360
 insights:
-  summary: A curated directory of medical LLMs, multimodal models, datasets, and benchmarks for the AI4Med research community.
-  why_it_matters: It provides developers and researchers with a structured, navigable index of specialized medical models and evaluation resources to accelerate building healthcare AI applications.
-  mental_damage: Because what the modern developer truly needs is yet another taxonomy of niche LLMs to contemplate while wondering if their general-purpose model just hallucinated the Hippocratic Oath.
+  summary: A curated collection of medical LLMs, multimodal systems, datasets, and benchmarks.
+  why_it_matters: Provides a structured map of specialized medical models and datasets for developers building domain-specific AI applications.
+  mental_damage: Another layer of abstraction to navigate when you realize 'general intelligence' still struggles with basic medical nuances.
   tags:
-    - awesome-list
     - medical-ai
     - llm-resources
+    - datasets
     - benchmarks
+    - curated-list
   confidence: high
 curation:
   status: included
-  reason: This is a classic curation / directory repo that maps the medical AI ecosystem, fitting the navigation-aid mandate of the awesome-awesomes category.
+  reason: The project is a high-quality curated directory of specialized AI resources, fitting the 'Awesome' pattern for ecosystem navigation.
   evidence:
-    - Repo description explicitly calls it 'A curated list of medical LLMs, multimodal systems, datasets, benchmarks'.
-    - README states the goal is to 'systematically curate research resources... providing a clean, structured, and easy-to-navigate collection'.
-    - Listed in awesome-LLM-resources as a core LLM resource directory.
+    - Repo description identifies it as a curated list of medical LLMs, datasets, and benchmarks.
+    - High star count (2840) indicates significant community traction and curation value.
+    - README structure follows the standard 'awesome-list' pattern for navigating research and models.
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -81,12 +82,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:58:29.903Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:019d343f0ec0e5b5b5a11faeaa1d8eef45a68f827f1d8585d5dea1de5eb0e3a7
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The project is a high-quality curated directory of specialized AI resources, fitting the 'Awesome' pattern for ecosystem navigation.
+      decision_evidence:
+        - Repo description identifies it as a curated list of medical LLMs, datasets, and benchmarks.
+        - High star count (2840) indicates significant community traction and curation value.
+        - README structure follows the standard 'awesome-list' pattern for navigating research and models.
+      category_candidates:
+        - awesome-awesomes
+        - evals
+      contrastive_reason: Choose awesome-awesomes over evals because the project is a broad navigational directory of resources rather than a specific toolkit for measuring model performance.
+      review_reason: null
+      review_resume_lifecycle: null

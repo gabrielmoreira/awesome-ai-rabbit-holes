@@ -37,23 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A free MCP server that provides real-time LLM pricing, benchmark, and latency data directly inside Claude Code, Cursor, Windsurf, and other MCP-enabled coding assistants.
-  why_it_matters: It lets developers compare model costs and performance benchmarks without leaving their coding workflow, making it easier to pick the right model for a given task or budget.
-  mental_damage: You can now spend even more time obsessing over whether a 0.2s TTFT difference justifies an extra $0.0004 per token, all without ever actually shipping code.
+  summary: An MCP server providing real-time LLM pricing, benchmark, and latency data for integration with Claude Code, Cursor, Windsurf, and other MCP-enabled assistants.
+  why_it_matters: Developers can query and compare model costs and performance metrics directly within their coding workflow without switching contexts.
+  mental_damage: Now you can argue about token pricing while your code still doesn’t work.
   tags:
-    - mcp
+    - mcp-server
     - pricing
-    - benchmarks
-    - llm
-    - integration
+    - llm-benchmarks
+    - model-comparison
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server providing a specific domain capability (LLM pricing and benchmarks), fitting cleanly into MCP Servers & Tooling as a Domain Server.
+  reason: The product's core identity is an MCP server providing domain-specific (pricing/benchmark) data, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - Listed in awesome-mcp-servers under Finance & Fintech as a free MCP server for real-time LLM pricing data.
-    - Scraped site describes it as an MCP server providing pricing, benchmark, and speed data to Claude Code, Cursor, Windsurf, and other MCP-enabled assistants.
-    - Setup instructions are provided for Claude Code, Cursor, Claude Desktop, and Windsurf using standard MCP server configuration.
+    - Product is explicitly an MCP server for LLM pricing/benchmark data
+    - Integrates with multiple MCP-enabled assistants (Claude Code, Cursor, Windsurf)
+    - Provides domain-specific tools (get_all_models, compare_models, get_benchmarks)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -71,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:42.966Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a525019ac0d9415e0101b5b21e0d6f1acb1dec1b83790b451e27c733007a8f39
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server providing domain-specific (pricing/benchmark) data, making it a clear fit for MCP Servers & Tooling.
+      decision_evidence:
+        - Product is explicitly an MCP server for LLM pricing/benchmark data
+        - Integrates with multiple MCP-enabled assistants (Claude Code, Cursor, Windsurf)
+        - Provides domain-specific tools (get_all_models, compare_models, get_benchmarks)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server providing domain data, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

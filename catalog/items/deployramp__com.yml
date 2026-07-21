@@ -1,0 +1,109 @@
+id: deployramp__com
+kind: website
+name: DeployRamp
+canonical_url: https://deployramp.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__deployramp__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: DeployRamp
+        extracted_url: https://deployramp.com
+        surrounding_text: "- **[DeployRamp](https://www.deployramp.com)** – AI-powered feature flagging platform that can automatically wrap PRs in feature flags."
+        confidence: high
+    - id: discovery__www__deployramp__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - DevOps and Infrastructure
+        anchor_text: DeployRamp
+        extracted_url: https://www.deployramp.com
+        surrounding_text: "- **[DeployRamp](https://www.deployramp.com)** – AI-powered feature flagging platform that can automatically wrap PRs in feature flags."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AI-powered feature flag management service that automatically wraps risky PRs in feature flags, monitors rollouts, and cleans up flags.
+  why_it_matters: It automates the tedious parts of progressive delivery—flagging risky changes, monitoring for errors, and removing flag debt—so developers can ship faster with less manual oversight.
+  mental_damage: Finally, a way to stop pretending you’ll remember to clean up that feature flag from three sprints ago.
+  tags:
+    - devops
+    - feature-flags
+    - ai-automation
+    - deployment-safety
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a DevOps/SaaS product for feature flag automation, not a developer tooling product in the catalog's scope (coding agents, IDEs, frameworks, etc.).
+  evidence:
+    - Primary product is a hosted feature flag management service with AI automation
+    - Source-list context places it under 'DevOps and Infrastructure'
+    - Core value is deployment safety workflow, not developer-tooling for coding/building
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:33:40.570Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5e95e025eb9a551a8e1071ec4a8151bd67007fce42c2215c3005222ceb3e9698
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a DevOps/SaaS product for feature flag automation, not a developer tooling product in the catalog's scope (coding agents, IDEs, frameworks, etc.).
+      decision_evidence:
+        - Primary product is a hosted feature flag management service with AI automation
+        - Source-list context places it under 'DevOps and Infrastructure'
+        - Core value is deployment safety workflow, not developer-tooling for coding/building
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.964Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

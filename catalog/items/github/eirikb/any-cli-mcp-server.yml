@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:55.039Z"
       bytes: 1531
 insights:
-  summary: A CLI tool that automatically converts any command-line interface with --help support into an MCP server by mapping commands to tools.
-  why_it_matters: It allows developers to instantly expose existing CLI tools (like gh, az, or git) to MCP-compatible AI assistants without writing custom server code.
-  mental_damage: Another layer of indirection so your AI agent can finally run git commands with the same confidence it brings to rewriting your entire authentication stack.
+  summary: A tool that converts any CLI with --help output into an MCP server with auto-mapped tools.
+  why_it_matters: Lets developers expose arbitrary command-line tools to MCP-compatible assistants without writing custom server code.
+  mental_damage: Now every CLI you’ve ever installed can haunt your agent’s context menu.
   tags:
     - mcp
     - cli
-    - tooling
+    - server
     - automation
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is converting CLI tools into MCP servers, making it a classic MCP infrastructure tool rather than a coding agent or generic framework.
+  reason: "MCP is the product identity: it is a server implementation that turns CLIs into MCP tools."
   evidence:
-    - "Repo description explicitly states: 'Convert any (whatever) CLI to proper MCP server with tools mapped based on CLI help'"
-    - README confirms the product 'Turn any CLI tool into an MCP server' and shows MCP server configuration examples
-    - Active development evidenced by created_at 2025-07-01 and pushed_at 2025-09-04
+    - "Repo description: 'Convert any (whatever) CLI to proper MCP server with tools mapped based on CLI help'"
+    - "README: 'Turn any CLI tool into an MCP server. Uses the --help to build MCP tools.'"
+    - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:06.411Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6b6780b73b4bee4581789d99ab696d97be4cdc6c3e16ba443f7538713f04ec0d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: it is a server implementation that turns CLIs into MCP tools."
+      decision_evidence:
+        - "Repo description: 'Convert any (whatever) CLI to proper MCP server with tools mapped based on CLI help'"
+        - "README: 'Turn any CLI tool into an MCP server. Uses the --help to build MCP tools.'"
+        - "Source-list context: listed in awesome-mcp-servers under Server Implementations"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation, not an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

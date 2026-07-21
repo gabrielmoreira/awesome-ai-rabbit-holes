@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:25.781Z"
       bytes: 6329
 insights:
-  summary: A Keras-based proof-of-concept for genetic neural architecture search that evolves model structures for classification problems.
-  why_it_matters: It automates the trial-and-error of designing deep learning architectures, letting developers evolve optimal layer configurations instead of hand-tuning them.
-  mental_damage: Just when you thought prompt engineering was the peak of abstraction, we're back to letting genetic algorithms randomly mutate convolutional layers until the MNIST accuracy looks impressive.
+  summary: Early proof of concept for genetic neural architecture search in Keras for classification problems.
+  why_it_matters: Demonstrates automated model architecture optimization via evolutionary algorithms, potentially saving manual tuning effort for deep learning practitioners.
+  mental_damage: Finally, a way to let Darwinism design your neural networks while you question your own existence.
   tags:
     - automl
-    - keras
     - neural-architecture-search
+    - keras
     - genetic-algorithm
-    - deep-learning
+    - computer-vision
   confidence: high
 curation:
   status: excluded
-  reason: This is a traditional deep learning research tool for neural architecture search, not a practical AI tool, agent, or developer-facing infrastructure relevant to modern AI-assisted coding workflows.
+  reason: This is a research-oriented AutoML/NAS project for neural network architecture optimization, not a developer-tooling product in the catalog's scope (coding agents, IDEs, workflows, etc.).
   evidence:
-    - Repo description explicitly states 'Genetic neural architecture search with Keras', targeting ML researchers rather than software developers building with AI.
-    - README demonstrates a classification-focused demo on the MNIST dataset using Keras, with no mention of coding assistance, agent orchestration, or developer tooling.
-    - Topics and content are centered on computer-vision, deep-learning, and automl, which fall outside the catalog's scope of practical AI developer tools.
+    - Repo description explicitly calls it a 'genetic neural architecture search' POC
+    - README focuses on Keras-based model evolution for classification, not developer workflows
+    - Source-list context places it in AutoML, which is outside the catalog's practical developer-tooling scope
 placement:
   primary_category: null
   section: null
@@ -81,12 +81,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:49.281Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b66d63b73caf5eaa1583d330baed0b43fa424480cb732c9ad953496a552da562
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a research-oriented AutoML/NAS project for neural network architecture optimization, not a developer-tooling product in the catalog's scope (coding agents, IDEs, workflows, etc.).
+      decision_evidence:
+        - Repo description explicitly calls it a 'genetic neural architecture search' POC
+        - README focuses on Keras-based model evolution for classification, not developer workflows
+        - Source-list context places it in AutoML, which is outside the catalog's practical developer-tooling scope
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

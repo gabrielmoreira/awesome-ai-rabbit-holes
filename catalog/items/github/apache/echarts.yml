@@ -64,23 +64,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:01.902Z"
       bytes: 4194
 insights:
-  summary: Apache ECharts is a long-established, pure JavaScript charting and visualization library for building interactive browser-based charts.
-  why_it_matters: It remains a foundational client-side dependency for developers who need highly customizable, production-grade data visualizations without adopting AI-first tooling.
-  mental_damage: While everyone else is debating which LLM can hallucinate a dashboard fastest, you are still hand-tuning canvas renderers like it’s 2013.
+  summary: Apache ECharts is a JavaScript-based charting and data visualization library for browsers.
+  why_it_matters: It provides developers with an easy way to add interactive, customizable charts to web applications.
+  mental_damage: Because nothing says 'modern web dev' like spending three days tweaking a pie chart’s hover state.
   tags:
-    - charts
     - data-visualization
     - javascript
+    - charting-library
     - browser
-    - apache
   confidence: high
 curation:
   status: excluded
-  reason: Although it appears in an awesome-mcp-servers list, ECharts is a traditional data visualization library with no AI-specific developer-tooling identity, making it a classic false positive.
+  reason: ECharts is a general-purpose data visualization library, not an AI tool, agent, or developer workflow product.
   evidence:
-    - Repo description clearly defines it as a 'charting and data visualization library for browser', with no mention of AI.
-    - README excerpt focuses entirely on npm installs, canvas rendering, and chart configuration, with zero AI, agent, or prompt references.
-    - Appears in awesome-mcp-servers lists only as a linked library page, not as an actual MCP server implementation.
+    - Repo description explicitly identifies it as a charting and data visualization library
+    - README confirms it is a pure JavaScript library for browser-based charts
+    - No AI, agent, or developer-tooling functionality is described or implied
 placement:
   primary_category: null
   section: null
@@ -99,12 +98,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:28.772Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:87e5435183f6264917ac5e5a4939d45735875e6771b89ae9f3ab4a757ebd8570
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: ECharts is a general-purpose data visualization library, not an AI tool, agent, or developer workflow product.
+      decision_evidence:
+        - Repo description explicitly identifies it as a charting and data visualization library
+        - README confirms it is a pure JavaScript library for browser-based charts
+        - No AI, agent, or developer-tooling functionality is described or implied
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

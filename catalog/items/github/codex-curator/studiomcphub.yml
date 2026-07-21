@@ -53,23 +53,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:23.841Z"
       bytes: 5033
 insights:
-  summary: A Model Context Protocol server providing 32 creative AI tools for image generation, upscaling, background removal, vectorization, and art dataset access, with per-call payments via x402, Stripe, or GCX credits.
-  why_it_matters: Developers building creative agents or MCP-native workflows can integrate advanced image processing and a 53,000+ artwork museum dataset directly into their toolchain without managing API keys or multiple service accounts.
-  mental_damage: We have successfully standardized on a protocol that lets autonomous agents spend fifty cents to vectorize a JPEG and mint an NFT before the developer has finished writing the prompt.
+  summary: An MCP server providing 32 creative AI tools (18 free) for image generation, upscaling, provenance, and art dataset access, with pay-per-call pricing via x402/Stripe/GCX.
+  why_it_matters: Developers can integrate creative AI workflows (e.g., image generation, vectorization, or provenance tracking) into agentic systems without managing separate APIs or accounts.
+  mental_damage: Now your agent can mint NFTs and charge you for it in the same breath.
   tags:
-    - mcp
+    - mcp-server
     - creative-ai
     - image-generation
-    - x402
-    - agent-tools
+    - provenance
+    - pay-per-call
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server exposing creative and art-dataset tools for agents, placing it squarely in Domain Servers under MCP Servers & Tooling.
+  reason: "MCP is the core product identity: a streamable HTTP server exposing 32 tools under the MCP protocol, with explicit MCP discovery endpoints and integration guidance."
   evidence:
-    - Repo description explicitly identifies it as a 'Creative AI MCP server' with 32 tools.
-    - README positions it as a production MCP server with streamable-http transport and MCP discovery endpoints.
-    - Listed in awesome-mcp-servers under Server Implementations > Art & Culture, reinforcing its MCP server identity.
+    - Repo description explicitly labels it as a 'Creative AI MCP server'
+    - README highlights MCP endpoints (e.g., `/mcp`, `/.well-known/mcp.json`) and one-click Cursor integration
+    - Source-list context includes it under 'Server Implementations > Art & Culture' in awesome-mcp-servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -88,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:44:56.422Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7503b1188c85235ce460e3cd6415a4481ffd1b423a081391b09b6b529caf5d5f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the core product identity: a streamable HTTP server exposing 32 tools under the MCP protocol, with explicit MCP discovery endpoints and integration guidance."
+      decision_evidence:
+        - Repo description explicitly labels it as a 'Creative AI MCP server'
+        - README highlights MCP endpoints (e.g., `/mcp`, `/.well-known/mcp.json`) and one-click Cursor integration
+        - Source-list context includes it under 'Server Implementations > Art & Culture' in awesome-mcp-servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a standalone MCP server with its own toolset and protocol identity, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

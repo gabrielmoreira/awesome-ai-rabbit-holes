@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:00.315Z"
       bytes: 19165
 insights:
-  summary: A JetBrains IDE plugin that exposes a Model Context Protocol (MCP) server, allowing AI coding assistants to programmatically control the debugger, set breakpoints, and inspect variables.
-  why_it_matters: It enables AI agents to autonomously debug applications within the familiar JetBrains environment, bridging the gap between IDE tooling and agentic workflows.
-  mental_damage: Now your AI can step through your code, judge your variable names, and fail to find the bug just as effectively as you can, but without the emotional baggage.
+  summary: A JetBrains IDE plugin that exposes an MCP server for AI assistants to programmatically control the debugger.
+  why_it_matters: Enables AI coding assistants to autonomously debug code by setting breakpoints, stepping through execution, inspecting variables, and evaluating expressions.
+  mental_damage: Now your AI can debug your code while you debug why your AI is debugging your code.
   tags:
-    - jetbrains
     - mcp
-    - debugging
+    - jetbrains
+    - debugger
     - ide-plugin
-    - agent-integration
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The plugin's primary value is extending AI assistants with host debugger capabilities inside a JetBrains IDE, fitting the extension model rather than acting as the primary assistant.
+  reason: The tool is an extension that augments AI coding assistants with debugger control via MCP, rather than being a primary assistant itself.
   evidence:
-    - README states it 'exposes an MCP server, giving AI coding assistants full programmatic control over the debugger.'
-    - Active development indicated by created_at 2025-12-01 and pushed_at 2026-04-02.
-    - Listed in awesome-mcp-servers under 'Developer Tools', confirming its integration identity.
+    - README explicitly states it is a JetBrains IDE plugin exposing an MCP server for debugger control
+    - Source-list context places it under MCP Server Implementations > Developer Tools
+    - Core functionality is host integration (debugger control) for another assistant
 placement:
   primary_category: ai-dev-extensions
   section: IDE / UI / Workflow Add-ons
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:05:20.638Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cc7567a5dd7469b061f06979bd0a26657f46184e20008af644d1173b19ff30fc
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool is an extension that augments AI coding assistants with debugger control via MCP, rather than being a primary assistant itself.
+      decision_evidence:
+        - README explicitly states it is a JetBrains IDE plugin exposing an MCP server for debugger control
+        - Source-list context places it under MCP Server Implementations > Developer Tools
+        - Core functionality is host integration (debugger control) for another assistant
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the primary identity is an IDE plugin that extends AI assistants with debugger capabilities, not MCP infrastructure itself.
+      review_reason: null
+      review_resume_lifecycle: null

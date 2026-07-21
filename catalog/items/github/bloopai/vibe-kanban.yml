@@ -44,23 +44,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:13.639Z"
       bytes: 7427
 insights:
-  summary: A local web UI that adds kanban planning, workspaces, and review surfaces to run and manage multiple coding agents like Claude Code, Codex, and Gemini CLI.
-  why_it_matters: It gives developers a structured loop for planning issues, running agents in isolated branches, reviewing diffs, and merging PRs without leaving a single control surface.
-  mental_damage: We have successfully abstracted the job of writing code into dragging cards on a board so that we can feel productive while supervising a small swarm of agents we no longer fully understand.
+  summary: A kanban-based task manager and workspace orchestrator for coordinating multiple coding agents like Claude Code, Codex, and Gemini CLI.
+  why_it_matters: It streamlines planning, execution, and review workflows for developers using AI coding agents by providing a unified interface for task management and agent coordination.
+  mental_damage: Now you can spend less time herding cats and more time herding coding agents.
   tags:
+    - agent-orchestration
+    - task-management
+    - coding-agents
     - kanban
     - multi-agent
-    - cli
-    - review
-    - workflow
   confidence: high
 curation:
   status: included
-  reason: The product is an operated workbench and control plane for coordinating multiple coding agents across workspaces, review, and merge workflows, rather than being a standalone coding assistant itself.
+  reason: The product's core value is coordinating multiple coding agents in a shared workspace with kanban-style task management, fitting the agent orchestration category.
   evidence:
-    - README states it runs Claude Code, Codex, Gemini CLI, and 10+ other agents inside workspaces with branches, terminals, and dev servers.
-    - Core workflow is kanban planning, agent execution, diff review, and PR creation from a single UI surface.
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Session managers & parallel runners' and in awesome-spec-driven-development under 'Workflow Management'.
+    - README describes it as a tool to 'get 10X more out of Claude Code, Codex or any coding agent' with kanban planning and multi-agent workspace execution
+    - Supports 10+ coding agents (Claude Code, Codex, Gemini CLI, etc.) in a unified interface
+    - Source-list context places it in 'Harnesses & orchestration' and 'Workflow Management' sections
 placement:
   primary_category: agent-orchestration
   section: Workbenches & Collaboration Surfaces
@@ -79,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:24.294Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:415db5d0218b386a583026dfbff27eef223c4475eebad4c4334b6517dddfecba
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product's core value is coordinating multiple coding agents in a shared workspace with kanban-style task management, fitting the agent orchestration category.
+      decision_evidence:
+        - README describes it as a tool to 'get 10X more out of Claude Code, Codex or any coding agent' with kanban planning and multi-agent workspace execution
+        - Supports 10+ coding agents (Claude Code, Codex, Gemini CLI, etc.) in a unified interface
+        - Source-list context places it in 'Harnesses & orchestration' and 'Workflow Management' sections
+      category_candidates:
+        - agent-orchestration
+        - ai-dev-extensions
+      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the primary product identity is a multi-agent workbench rather than a thin extension for a single assistant.
+      review_reason: null
+      review_resume_lifecycle: null

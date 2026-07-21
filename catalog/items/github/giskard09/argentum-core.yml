@@ -41,26 +41,25 @@ metadata:
       fetched_at: "2026-07-16T05:05:08.161Z"
       bytes: 23577
 insights:
-  summary: An MCP server that implements a karma economy and verifiable 'Mycelium Trails' (recipes of MCP calls) for AI agents and humans, with Lightning network integration.
-  why_it_matters: It provides a protocol-native way for agents to build reputation, verify actions, and monetize composable workflows via the MCP standard.
-  mental_damage: We have successfully formalized the GitHub contribution graph into a pay-to-verify Lightning economy so that your agent can worry about its credit score while it debugs.
+  summary: An MCP server providing a karma-based reputation economy and verifiable action trails for AI agents and humans.
+  why_it_matters: It introduces a protocol for measuring and verifying agent/human actions through a decentralized reputation system integrated via MCP.
+  mental_damage: Nothing says 'production-ready' quite like turning agentic workflows into a high-stakes game of social credit and blockchain-adjacent karma.
   tags:
-    - mcp
-    - karma
-    - reputation
-    - lightning
-    - agents
-  confidence: medium
+    - mcp-server
+    - agent-reputation
+    - verifiable-actions
+    - karma-economy
+  confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server exposing karma and trail tools, aligning perfectly with the MCP Servers & Tooling category.
+  reason: The project's identity is explicitly an MCP server designed to provide tools for agents to interact with a karma economy.
   evidence:
-    - Repo description explicitly states 'ARGENTUM core — karma economy for agents and humans' and the README titles it 'ARGENTUM — MCP Server'.
-    - README details 10 specific MCP tools (submit_action, attest_action, register_trail, etc.) and provides MCP config JSON for integration.
-    - Listed in the 'awesome-mcp-servers' directory under 'Finance & Fintech', confirming its role as a domain-specific server.
+    - README explicitly identifies as an 'MCP Server'
+    - Provides a set of 10 specific MCP tools for karma and action tracking
+    - Product identity is the MCP interface for the Argentum system
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -76,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:02:48.105Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:00f3ea1a0da94036d095f43928ae1688f2c6f32c19cd66eacbc5125866c0cf0e
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's identity is explicitly an MCP server designed to provide tools for agents to interact with a karma economy.
+      decision_evidence:
+        - README explicitly identifies as an 'MCP Server'
+        - Provides a set of 10 specific MCP tools for karma and action tracking
+        - Product identity is the MCP interface for the Argentum system
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the primary mode of delivery and interaction is through the Model Context Protocol rather than an operated workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -53,23 +53,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:32.661Z"
       bytes: 4749
 insights:
-  summary: Determined is an open-source machine learning platform that simplifies distributed training, hyperparameter tuning, experiment tracking, and resource management for PyTorch and TensorFlow workloads.
-  why_it_matters: It provides a unified CLI, Python API, and Web UI to manage deep learning experiments and cluster resources, reducing the boilerplate of scaling and tracking model training.
-  mental_damage: Yet another all-in-one ML platform promising to tame your GPU spend, for when you’ve decided the best way to do deep learning is to deploy a Kubernetes cluster instead of writing a training loop.
+  summary: Determined is an open-source machine learning platform for distributed training, hyperparameter tuning, experiment tracking, and resource management with PyTorch and TensorFlow support.
+  why_it_matters: It streamlines ML workflows by automating distributed training, hyperparameter optimization, and experiment tracking, reducing cloud costs and improving reproducibility for developers working with deep learning models.
+  mental_damage: Finally, a way to spend less time babysitting GPU clusters and more time pretending your hyperparameter search was intentional all along.
   tags:
-    - ml-infrastructure
+    - ml-platform
     - distributed-training
-    - mlops
-    - pytorch
-    - tensorflow
+    - hyperparameter-tuning
+    - experiment-tracking
+    - pytorch-tensorflow
   confidence: high
 curation:
   status: excluded
-  reason: This is a general machine learning infrastructure and MLOps platform focused on model training and tuning, not a developer-facing AI tool, coding agent, or AI workflow product.
+  reason: This is a general ML platform for distributed training and hyperparameter tuning, not a developer-tooling product focused on coding agents, IDEs, or AI workflows for software development.
   evidence:
-    - Repo description explicitly focuses on distributed training, hyperparameter tuning, and resource management for PyTorch/TensorFlow.
-    - README demonstrates a deep learning platform with CLI, Python APIs, and Web UI for experiment tracking rather than AI-assisted coding.
-    - Topics and documentation center on data-science, deep-learning, and mlops rather than AI tooling for software developers.
+    - Repo description explicitly positions it as a machine learning platform for distributed training and hyperparameter tuning
+    - README emphasizes PyTorch/TensorFlow compatibility and ML-specific features like experiment tracking and resource management
+    - Source-list context places it in AutoML, not developer-tooling categories
 placement:
   primary_category: null
   section: null
@@ -88,12 +88,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:39.948Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a3239fd9b8486be709f5c73db117153d19dbdb55bcc516190b6036fb00f7f378
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a general ML platform for distributed training and hyperparameter tuning, not a developer-tooling product focused on coding agents, IDEs, or AI workflows for software development.
+      decision_evidence:
+        - Repo description explicitly positions it as a machine learning platform for distributed training and hyperparameter tuning
+        - README emphasizes PyTorch/TensorFlow compatibility and ML-specific features like experiment tracking and resource management
+        - Source-list context places it in AutoML, not developer-tooling categories
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

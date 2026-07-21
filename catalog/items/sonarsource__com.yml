@@ -1,0 +1,110 @@
+id: sonarsource__com
+kind: website
+name: SonarQube
+canonical_url: https://sonarsource.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__sonarsource__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: SonarQube
+        extracted_url: https://sonarsource.com
+        surrounding_text: "- **[SonarQube](https://github.com/SonarSource/sonarqube-mcp-server)** - Provides seamless integration with [SonarQube](https://www.sonarsource.com/) Server or Cloud, and enables analysis of code snippets directly within the agent context"
+        confidence: high
+    - id: discovery__www__sonarsource__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: SonarQube
+        extracted_url: https://www.sonarsource.com
+        surrounding_text: "- **[SonarQube](https://github.com/SonarSource/sonarqube-mcp-server)** - Provides seamless integration with [SonarQube](https://www.sonarsource.com/) Server or Cloud, and enables analysis of code snippets directly within the agent context"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: SonarQube is a static analysis platform for continuous code quality and security inspection, with AI-assisted code review and verification features.
+  why_it_matters: It helps developers catch quality and security issues early in CI/CD workflows and IDEs, now extending into AI agent workflows via MCP integration.
+  mental_damage: Now your AI agents can also be haunted by the same SonarQube warnings that keep you up at night.
+  tags:
+    - static-analysis
+    - code-quality
+    - security
+    - mcp-integration
+    - ci-cd
+  confidence: high
+curation:
+  status: excluded
+  reason: SonarQube is primarily a static analysis and code quality platform, not an AI-native developer tool or workflow; its MCP server is a secondary integration feature, not its core identity.
+  evidence:
+    - Core product is static analysis (SonarQube Server/Cloud/IDE) for code quality/security
+    - MCP Server is listed as one of many integrations, not the primary product
+    - Source-list context shows it in an MCP servers list, but the product itself is not MCP-first
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:37:16.168Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:68153d2a4b3ef918455d84bec579edc2769869c061e121d13d79e720b3a149cb
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: SonarQube is primarily a static analysis and code quality platform, not an AI-native developer tool or workflow; its MCP server is a secondary integration feature, not its core identity.
+      decision_evidence:
+        - Core product is static analysis (SonarQube Server/Cloud/IDE) for code quality/security
+        - MCP Server is listed as one of many integrations, not the primary product
+        - Source-list context shows it in an MCP servers list, but the product itself is not MCP-first
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.970Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -1,0 +1,109 @@
+id: comet__com__site__llm__course
+kind: website
+name: "LLM Evaluation: A Complete Course"
+canonical_url: https://comet.com/site/llm-course
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__comet__com__site__llm__course__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: "LLM Evaluation: A Complete Course"
+        extracted_url: https://comet.com/site/llm-course
+        surrounding_text: "47. [LLM Evaluation: A Complete Course](https://www.comet.com/site/llm-course/)"
+        confidence: high
+    - id: discovery__www__comet__com__site__llm__course__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 课程 Course
+        anchor_text: "LLM Evaluation: A Complete Course"
+        extracted_url: https://www.comet.com/site/llm-course
+        surrounding_text: "47. [LLM Evaluation: A Complete Course](https://www.comet.com/site/llm-course/)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A free beginner-level course focused on applied LLM evaluation techniques, including tools like Opik and LLM-as-a-judge metrics.
+  why_it_matters: Teaches developers and data scientists how to test, evaluate, and monitor LLM applications in production workflows.
+  mental_damage: Because nothing says 'modern software' like spending a week learning to evaluate the tools that were supposed to save you time.
+  tags:
+    - course
+    - llm-evaluation
+    - observability
+    - opik
+  confidence: high
+curation:
+  status: excluded
+  reason: This is an educational course, not a developer tool, framework, or product that fits the catalog's practical AI tooling scope.
+  evidence:
+    - Primary page describes it as a 'FREE COURSE' on LLM evaluation
+    - Source-list context places it under '课程 Course' (course section)
+    - Core value is teaching, not a usable tool or workflow
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:33:21.997Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:15c11250e05ace091ffefdaca195acd67c8741c780795dd73d9fac7be7355369
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational course, not a developer tool, framework, or product that fits the catalog's practical AI tooling scope.
+      decision_evidence:
+        - Primary page describes it as a 'FREE COURSE' on LLM evaluation
+        - Source-list context places it under '课程 Course' (course section)
+        - Core value is teaching, not a usable tool or workflow
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.964Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

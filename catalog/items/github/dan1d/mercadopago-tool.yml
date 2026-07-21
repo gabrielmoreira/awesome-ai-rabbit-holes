@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:28.758Z"
       bytes: 8595
 insights:
-  summary: An open-source MCP server and SDK toolkit that exposes Mercado Pago payment operations—creating links, searching payments, and issuing refunds—to AI agents, chat bots, and automation platforms.
-  why_it_matters: Developers can integrate payment collection directly into Claude, Cursor, or LangChain agents without writing custom API wrappers for Mercado Pago.
-  mental_damage: We have finally reached the point where your AI agent can issue a refund faster than you can find the 'Settings' menu in a fintech dashboard.
+  summary: An MCP server that exposes Mercado Pago payment tools (create links, search/refund payments) for AI agents, Telegram, WhatsApp, and automation platforms.
+  why_it_matters: Lets developers integrate Mercado Pago payments directly into AI agent workflows or chat bots without custom API plumbing.
+  mental_damage: Now your AI agent can invoice clients while it’s also writing the code they didn’t pay for.
   tags:
-    - mcp
-    - fintech
-    - mercadopago
-    - agent-tools
+    - mcp-server
     - payments
+    - fintech
+    - ai-integration
+    - mercado-pago
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server for Mercado Pago, explicitly designed to be added to Claude, Cursor, and Windsurf, with adapters for LangChain and OpenAI function calling.
+  reason: "MCP is the product identity: it is a server exposing Mercado Pago tools via the Model Context Protocol."
   evidence:
-    - Repo description states it is a 'Mercado Pago tool connector for AI agents' and an 'MCP (Model Context Protocol) server'.
-    - README provides explicit setup instructions for Claude Desktop, Claude Code, Cursor, and Windsurf via mcpServers config.
-    - Includes LangChain (Python) and OpenAI Function Calling (TypeScript) adapter packages.
+    - README explicitly states it is an MCP server with 5 tools for Mercado Pago
+    - Source-list context lists it under MCP servers in Finance & Fintech
+    - Repo description identifies it as a Mercado Pago tool connector for AI agents
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:31.310Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6a4b76fd8113a9dcf810eb39a03d7990767ce52fb2867abbaf4b48f2502b8dde
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: it is a server exposing Mercado Pago tools via the Model Context Protocol."
+      decision_evidence:
+        - README explicitly states it is an MCP server with 5 tools for Mercado Pago
+        - Source-list context lists it under MCP servers in Finance & Fintech
+        - Repo description identifies it as a Mercado Pago tool connector for AI agents
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

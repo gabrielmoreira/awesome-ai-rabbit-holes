@@ -36,21 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Bilibili profile page for the TechBeat AI community, hosting general AI video talks, articles, and learning resources rather than a developer tool.
-  why_it_matters: While it links to broad AI educational content, it does not provide a standalone tool, framework, or IDE integration for developers to use in their workflows.
-  mental_damage: Another reminder that curating a list of resources is easier than integrating any of them into your actual build pipeline.
+  summary: Bilibili personal space for TechBeat AI community, hosting videos, articles, and updates.
+  why_it_matters: It does not matter to developers as a tooling resource; it is a media hub for AI content consumption.
+  mental_damage: Another reminder that 'AI resources' can mean anything from a CLI agent to a YouTube channel.
   tags:
-    - education
-    - video
-    - content
+    - media
+    - community
+    - non-developer-tooling
   confidence: high
 curation:
   status: excluded
-  reason: This is a social media profile and content hub for AI education, not a developer-facing tool, agent, framework, or directory, and therefore falls outside the catalog's scope.
+  reason: This is a media/personal space for AI content, not a developer-facing tool, framework, or workflow product.
   evidence:
-    - URL points to a Bilibili personal space (space.bilibili.com/209732435), not a product or tool repo.
-    - Scraped context describes video, audio, and article sharing for general AI learning, not developer tooling.
-    - Appears in awesome-LLM-resources under a Tutorial section, indicating it is a learning resource rather than a tool.
+    - URL points to a Bilibili personal space (space.bilibili.com)
+    - Scraped context describes it as a content hub for videos, articles, and updates
+    - Source-list context places it under 'Tutorial' in a general LLM resources list
 placement:
   primary_category: null
   section: null
@@ -68,12 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:31:47.572Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d8a045cde3fc92a9193bc83a9d152b2c7f1fc25af68417ceba22e90be6e71407
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a media/personal space for AI content, not a developer-facing tool, framework, or workflow product.
+      decision_evidence:
+        - URL points to a Bilibili personal space (space.bilibili.com)
+        - Scraped context describes it as a content hub for videos, articles, and updates
+        - Source-list context places it under 'Tutorial' in a general LLM resources list
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

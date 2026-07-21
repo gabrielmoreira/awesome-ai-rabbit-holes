@@ -60,23 +60,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:56.031Z"
       bytes: 17985
 insights:
-  summary: An MCP server that connects data sources like Shopify, Stripe, and CSV files to AI clients, using a pipeline of specialist agents to generate reusable, interactive analysis reports with citable methodology.
-  why_it_matters: It allows developers to hand off ad-hoc data analysis and report generation to a standing team of agents, retrieving structured insights directly inside their MCP-compatible editor or chat client.
-  mental_damage: Finally, an AI tool that handles the 'please explain this churn report' meetings so you can go back to ignoring the actual data infrastructure it depends on.
+  summary: An MCP server that generates citable, reproducible data analysis modules from user-provided data and questions, queryable from MCP clients like Claude or Cursor.
+  why_it_matters: Developers can offload ad-hoc data analysis tasks to a specialized agent pipeline and own the resulting reusable, rerunnable modules.
+  mental_damage: Now you can outsource your statistical guilt to an agent that will also write the methodology section for you.
   tags:
-    - mcp
-    - data-analytics
-    - agents
-    - bi
-    - reports
-  confidence: medium
+    - mcp-server
+    - data-analysis
+    - reproducible-research
+    - agent-pipeline
+    - interactive-reports
+  confidence: high
 curation:
   status: included
-  reason: The product’s core identity is an MCP server exposing analytics capabilities to clients like Claude and Cursor, fitting the Domain Servers section of MCP Servers & Tooling.
+  reason: "MCP is the product identity: it is a server that exposes analytics capabilities via the Model Context Protocol, not merely an MCP-compatible tool."
   evidence:
-    - Repo description explicitly states 'MCP server for data analytics' and lists compatibility with Claude and Cursor.
-    - README describes the product as 'MCP-native' and details MCP tools for querying a private library of analysis modules.
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Customer Data Platforms'.
+    - Repo description explicitly states it works in Claude, Cursor, and any MCP client
+    - README emphasizes MCP-native integration and private library queryable from MCP clients
+    - Listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:52:20.193Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a64d42afac4392c970dfa32245cee74a49b475cad5e0df24deed42d6b8678deb
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: it is a server that exposes analytics capabilities via the Model Context Protocol, not merely an MCP-compatible tool."
+      decision_evidence:
+        - Repo description explicitly states it works in Claude, Cursor, and any MCP client
+        - README emphasizes MCP-native integration and private library queryable from MCP clients
+        - Listed in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server providing domain-specific analytics capabilities rather than an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

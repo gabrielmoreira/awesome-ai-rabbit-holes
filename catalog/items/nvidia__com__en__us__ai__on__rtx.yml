@@ -1,0 +1,109 @@
+id: nvidia__com__en__us__ai__on__rtx
+kind: website
+name: NVIDIA ChatRTX
+canonical_url: https://nvidia.com/en-us/ai-on-rtx
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__nvidia__com__en__us__ai__on__rtx__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: NVIDIA ChatRTX
+        extracted_url: https://nvidia.com/en-us/ai-on-rtx/chatrtx
+        surrounding_text: "11. [NVIDIA ChatRTX](https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/): ChatRTX is a demo app that lets you personalize a GPT large language model (LLM) connected to your own content—docs, notes, or other data."
+        confidence: high
+    - id: discovery__www__nvidia__com__en__us__ai__on__rtx__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: NVIDIA ChatRTX
+        extracted_url: https://www.nvidia.com/en-us/ai-on-rtx/chatrtx
+        surrounding_text: "11. [NVIDIA ChatRTX](https://www.nvidia.com/en-us/ai-on-rtx/chatrtx/): ChatRTX is a demo app that lets you personalize a GPT large language model (LLM) connected to your own content—docs, notes, or other data."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: NVIDIA's marketing page for RTX AI PCs, positioning local AI acceleration for gaming, creativity, and productivity.
+  why_it_matters: It signals hardware-level support for running AI workloads locally on consumer-grade GPUs, which can impact developer tooling choices for on-device inference.
+  mental_damage: Nothing says 'developer tool' like a regional selector dropdown and a wall of product categories.
+  tags:
+    - nvidia
+    - rtx
+    - local-ai-hardware
+    - marketing-page
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a corporate marketing page for AI-capable hardware, not a developer tool, framework, or workflow product.
+  evidence:
+    - Page is a product catalog for RTX AI PCs with no actionable developer tooling
+    - Scraped content is entirely navigation and regional selectors
+    - Source-list context places it under 'Inference' in a broad LLM resource list, not as a tool
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:35:56.981Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b5d8f04e2a4812b3efcc8a7ed010f970755e505f5cbac0c50a83175735fb9c2d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a corporate marketing page for AI-capable hardware, not a developer tool, framework, or workflow product.
+      decision_evidence:
+        - Page is a product catalog for RTX AI PCs with no actionable developer tooling
+        - Scraped content is entirely navigation and regional selectors
+        - Source-list context places it under 'Inference' in a broad LLM resource list, not as a tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.968Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

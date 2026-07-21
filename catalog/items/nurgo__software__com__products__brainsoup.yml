@@ -1,0 +1,112 @@
+id: nurgo__software__com__products__brainsoup
+kind: website
+name: BrainSoup
+canonical_url: https://nurgo-software.com/products/brainsoup
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__nurgo__software__com__products__brainsoup__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - BrainSoup
+        anchor_text: BrainSoup
+        extracted_url: https://nurgo-software.com/products/brainsoup
+        surrounding_text: "## [BrainSoup](https://www.nurgo-software.com/products/brainsoup)"
+        confidence: high
+    - id: discovery__www__nurgo__software__com__products__brainsoup__awesome-list__e2b-dev__awesome-ai-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: e2b-dev/awesome-ai-agents
+        url: https://github.com/e2b-dev/awesome-ai-agents
+        repository: e2b-dev/awesome-ai-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - BrainSoup
+        anchor_text: BrainSoup
+        extracted_url: https://www.nurgo-software.com/products/brainsoup
+        surrounding_text: "## [BrainSoup](https://www.nurgo-software.com/products/brainsoup)"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: BrainSoup is a desktop application for creating and coordinating custom AI agents that automate tasks and workflows using natural language.
+  why_it_matters: It lets developers and non-developers alike build multi-agent systems that integrate with local/remote LLMs, tools, and data while keeping control over privacy and execution.
+  mental_damage: Now you can fire your intern and replace them with a team of AI agents that argue in chat rooms instead.
+  tags:
+    - multi-agent
+    - workflow-automation
+    - desktop-ai
+    - local-llm
+    - privacy-first
+  confidence: high
+curation:
+  status: included
+  reason: The core product is a workbench for creating, coordinating, and deploying multiple AI agents with shared workflows, which aligns with Agent Orchestration's focus on multi-agent coordination as the primary value.
+  evidence:
+    - Primary page describes 'custom AI agents' that 'seamlessly work together' in 'goal-oriented chat rooms' for complex projects
+    - Explicitly supports multi-agent collaboration, tool integration (APIs, scripts, web browsing), and local/remote LLM backends
+    - Positioned as a 'personal AI platform' for task automation and workflow transformation, not a coding assistant or IDE
+placement:
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:35:46.974Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:df2c48159272fec02477378dcff189e9d54121e973895cbd4c194dcdd71eebc0
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The core product is a workbench for creating, coordinating, and deploying multiple AI agents with shared workflows, which aligns with Agent Orchestration's focus on multi-agent coordination as the primary value.
+      decision_evidence:
+        - Primary page describes 'custom AI agents' that 'seamlessly work together' in 'goal-oriented chat rooms' for complex projects
+        - Explicitly supports multi-agent collaboration, tool integration (APIs, scripts, web browsing), and local/remote LLM backends
+        - Positioned as a 'personal AI platform' for task automation and workflow transformation, not a coding assistant or IDE
+      category_candidates:
+        - agent-orchestration
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because the product centers on coordinating AI agents and workflows rather than generating standalone apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.968Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

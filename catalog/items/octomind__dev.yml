@@ -52,23 +52,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI-powered end-to-end testing platform that creates, runs, and self-heals Playwright and Cypress tests, integrating directly into CI/CD workflows.
-  why_it_matters: It automates the most tedious parts of QA—selector maintenance and flaky test debugging—allowing small engineering teams to maintain high coverage without dedicated QA staff.
-  mental_damage: "Just what we needed: another 'AI' layer promising to heal the fragile E2E tests we wrote while pretending we don't need dedicated QA."
+  summary: Octomind is an AI-powered QA platform that creates, runs, and auto-fixes end-to-end tests for web apps.
+  why_it_matters: It automates test creation, execution, and maintenance, reducing debugging time and flaky tests for engineering teams.
+  mental_damage: Finally, a tool that promises to make QA engineers obsolete—just like AI was supposed to do for developers.
   tags:
-    - e2e-testing
-    - qa
-    - ci-cd
-    - self-healing
-    - playwright
+    - ai-testing
+    - e2e-tests
+    - qa-automation
+    - self-healing-tests
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone SaaS platform for testing rather than a primary coding assistant, but its core value is augmenting the development workflow with automated QA capabilities, fitting the 'Testing & QA Add-ons' section of Extensions & Integrations.
+  reason: Octomind is a testing and QA tool that integrates with workflows, fitting best as an extension/add-on for developer tooling rather than a primary coding agent or standalone platform.
   evidence:
-    - Scraped site describes it as an 'AI-powered QA platform' that creates, runs, and auto-fixes end-to-end tests for web apps.
-    - Product integrates with GitHub and Azure DevOps CI/CD pipelines and generates standard Playwright code.
-    - Listed under 'Testing and QA' in the awesome-ai-coding-tools directory.
+    - Described as 'AI-powered testing that integrates with your workflow, debugs instantly, and heals itself'
+    - Listed in awesome-ai-coding-tools under 'Testing and QA'
+    - Listed in awesome-mcp-servers under 'Developer Tools' with MCP compatibility noted
 placement:
   primary_category: ai-dev-extensions
   section: Testing & QA Add-ons
@@ -86,12 +85,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:12.109Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f8b1019442e8730cabbe1774bd1d4bcb8162c6a2cc2705f74efcdbd245e25443
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: Octomind is a testing and QA tool that integrates with workflows, fitting best as an extension/add-on for developer tooling rather than a primary coding agent or standalone platform.
+      decision_evidence:
+        - Described as 'AI-powered testing that integrates with your workflow, debugs instantly, and heals itself'
+        - Listed in awesome-ai-coding-tools under 'Testing and QA'
+        - Listed in awesome-mcp-servers under 'Developer Tools' with MCP compatibility noted
+      category_candidates:
+        - ai-dev-extensions
+        - app-builders
+      contrastive_reason: Choose ai-dev-extensions over app-builders because Octomind's core value is augmenting existing workflows with AI-powered testing rather than generating new apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null

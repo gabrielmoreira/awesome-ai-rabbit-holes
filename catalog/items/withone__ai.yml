@@ -1,0 +1,116 @@
+id: withone__ai
+kind: website
+name: Pica
+canonical_url: https://withone.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__withone__ai__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Pica
+        extracted_url: https://picaos.com
+        surrounding_text: "- [picahq/mcp](https://github.com/picahq/mcp) 🎖️ 🦀 📇 ☁️ - One MCP for all your integrations — powered by [Pica](https://www.picaos.com), the infrastructure for intelligent, collaborative agents."
+        confidence: high
+    - id: discovery__www__withone__ai__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: Pica
+        extracted_url: https://www.picaos.com
+        surrounding_text: "- [picahq/mcp](https://github.com/picahq/mcp) 🎖️ 🦀 📇 ☁️ - One MCP for all your integrations — powered by [Pica](https://www.picaos.com), the infrastructure for intelligent, collaborative agents."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: One is an agent infrastructure platform that connects AI agents to 500+ apps with managed auth, memory, scheduling, and tool integrations via a CLI.
+  why_it_matters: It lets developers give agents production-safe access to external platforms without drowning the context window in tool schemas.
+  mental_damage: Finally, a way to stop your agent from hallucinating API fields while still pretending it can use every SaaS under the sun.
+  tags:
+    - agent-infrastructure
+    - tool-integration
+    - cli
+    - auth-management
+    - workflow-automation
+  confidence: high
+curation:
+  status: included
+  reason: The product is a runtime platform for coordinating agent workflows across 500+ integrations, not a coding assistant or extension.
+  evidence:
+    - Described as 'agent infrastructure' with managed auth, memory, and scheduling for agents
+    - CLI enables multi-step workflows across platforms (HubSpot, Linear, Slack, Gmail, etc.)
+    - Listed in awesome-mcp-servers under 'Developer Tools' as a server implementation
+placement:
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:39:06.834Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9f4e7a8986994b4977ca0acc6171c958b97fd33213a1a694fc9912910b5d9417
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a runtime platform for coordinating agent workflows across 500+ integrations, not a coding assistant or extension.
+      decision_evidence:
+        - Described as 'agent infrastructure' with managed auth, memory, and scheduling for agents
+        - CLI enables multi-step workflows across platforms (HubSpot, Linear, Slack, Gmail, etc.)
+        - Listed in awesome-mcp-servers under 'Developer Tools' as a server implementation
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated runtime platform for agents, not a code-first SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.971Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

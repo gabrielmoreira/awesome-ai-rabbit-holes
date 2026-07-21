@@ -51,39 +51,52 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Airplane Autopilot is an AI agent designed to build internal tools and workflows by writing, testing, and deploying code within the Airplane platform.
-  why_it_matters: It allows developers to generate and ship internal operational tools from prompts, automating the tedious boilerplate of task and workflow creation.
-  mental_damage: Yet another 'agent' that promises to write the code you could have copy-pasted from Stack Overflow in 2004, but now requires a dedicated platform subscription.
+  summary: Airplane Autopilot is an AI agent platform for automating workflows and tasks.
+  why_it_matters: It enables developers to delegate repetitive or complex workflows to autonomous agents, reducing manual intervention in operational tasks.
+  mental_damage: Now you can spend more time debugging the agent that was supposed to save you time.
   tags:
+    - agent-orchestration
+    - workflow-automation
     - ai-agents
-    - airplane
-    - automation
-    - internal-tools
   confidence: medium
 curation:
-  status: excluded
-  reason: Excluded because Autopilot is a feature of the Airplane.dev platform (a general internal-tool SaaS), not a standalone developer tool, coding agent, or framework suitable for a curated AI tooling catalog.
+  status: included
+  reason: The product is a platform for coordinating autonomous agents to perform workflows, fitting the agent orchestration category.
   evidence:
-    - URL points to https://www.airplane.dev/autopilot, indicating it is a product feature or hosted SaaS rather than a standalone developer tool or repo.
-    - Listed in awesome-ai-agents under 'Airplane Autopilot', but the listing context describes a platform for building internal tools, not a generic coding assistant.
-    - No repo description, README, or code-level inputs provided to suggest it is a reusable library, CLI agent, or IDE extension.
+    - Listed in awesome-ai-agents under 'Airplane Autopilot'
+    - Product identity aligns with multi-agent coordination and workflow automation
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:32:18.537Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4a9ea079aee02f4dc1a0452c826a6939b864d207834b18ef99ae34de093ab424
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a platform for coordinating autonomous agents to perform workflows, fitting the agent orchestration category.
+      decision_evidence:
+        - Listed in awesome-ai-agents under 'Airplane Autopilot'
+        - Product identity aligns with multi-agent coordination and workflow automation
+      category_candidates:
+        - agent-orchestration
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because the core value is coordinating agents for workflows rather than generating apps from prompts.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T16:42:15.364Z"

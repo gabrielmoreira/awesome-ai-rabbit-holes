@@ -24,19 +24,37 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
+    stars: 1
+    forks: 1
     license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
+    archived: false
+    full_name: zw008/VMware-AVI
+    html_url: https://github.com/zw008/VMware-AVI
+    created_at: "2026-04-01T15:42:52Z"
+    pushed_at: "2026-07-21T11:41:41Z"
+    description: AVI (NSX Advanced Load Balancer) management and AKO Kubernetes operations tool
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - agent-skills
+      - ai-skill
+      - ako
+      - automation
+      - avi-controller
+      - claude-code
+      - codex
+      - gemini-cli
+      - homelab
+      - infrastructure
+      - kubernetes-ingress
+      - load-balancer
+      - mcp
+      - nsx-alb
+      - vmware
+      - vsphere
+    last_checked_at: "2026-07-21T15:21:29.333Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:29.333Z"
+      bytes: 18270
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +78,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:21:29.333Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

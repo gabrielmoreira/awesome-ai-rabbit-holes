@@ -51,23 +51,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:06.688Z"
       bytes: 18689
 insights:
-  summary: BioMCP is a biomedical MCP server and CLI tool that unifies queries across PubMed, clinical trials, and genomics databases into a single grammar for researchers and AI agents.
-  why_it_matters: It gives coding agents and developers a standardized MCP interface to query live biomedical literature and patient data without wrestling with disparate APIs and identifiers.
-  mental_damage: Now your agent can confidently hallucinate oncology advice with the authority of a unified, peer-reviewed literature search.
+  summary: BioMCP is a Model Context Protocol (MCP) server that provides unified access to biomedical data sources like PubMed and Europe PMC.
+  why_it_matters: It enables AI agents to perform complex biomedical research, literature searches, and cross-entity pivots using a single command grammar instead of navigating disparate APIs.
+  mental_damage: Because why manually parse PubMed when you can let an agent hallucinate a medical hypothesis based on a single command?
   tags:
     - mcp
+    - bioinformatics
     - biomedical
-    - cli
-    - domain-server
-    - agent-tooling
+    - research
+    - data-integration
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is a domain-specific MCP server for biomedical data, explicitly designed to be consumed by agents via the Model Context Protocol.
+  reason: The product identity is an MCP server designed to provide specific domain-driven data access to host assistants.
   evidence:
-    - "Repo description states 'BioMCP: Biomedical Model Context Protocol' and topics include 'mcp-server'."
-    - "README provides MCP client configuration: 'command: biomcp, args: [serve]'."
-    - Listed in 'awesome-mcp-servers' under the Biology, Medicine and Bioinformatics section.
+    - Repo description explicitly defines it as 'Biomedical Model Context Protocol'
+    - README details implementation as an MCP server for Claude Desktop and other clients
+    - Provides domain-specific 'kills' and command grammar for biomedical research
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -86,12 +86,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:01:29.626Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:385735fd2ce4f5c0c7a574f386eb3e53ea102c0f1722352c0db4996fceaae12c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product identity is an MCP server designed to provide specific domain-driven data access to host assistants.
+      decision_evidence:
+        - Repo description explicitly defines it as 'Biomedical Model Context Protocol'
+        - README details implementation as an MCP server for Claude Desktop and other clients
+        - Provides domain-specific 'kills' and command grammar for biomedical research
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity and distribution method is as a Model Context Protocol server, not just a workflow add-on.
+      review_reason: null
+      review_resume_lifecycle: null

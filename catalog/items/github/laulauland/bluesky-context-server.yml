@@ -70,22 +70,21 @@ metadata:
       fetched_at: "2026-07-20T15:11:47.129Z"
       bytes: 5897
 insights:
-  summary: An MCP server that lets AI assistants like Claude Desktop query Bluesky profiles, timelines, and search posts via the Model Context Protocol.
-  why_it_matters: It turns a social feed into a queryable context source so coding assistants can pull live Bluesky data without leaving the chat.
-  mental_damage: We have successfully built infrastructure so your AI can doom-scroll Bluesky on your behalf while you pretend it is research.
+  summary: Bluesky Context Server is an MCP server that enables Claude Desktop and similar clients to interact with Bluesky for profile queries, post searches, and timeline access.
+  why_it_matters: It lets developers query and search Bluesky directly from their AI assistant without leaving the chat interface.
+  mental_damage: Another niche MCP server that turns your AI assistant into a Bluesky stalker with extra steps.
   tags:
     - mcp
     - bluesky
-    - context-server
-    - social
+    - social-media
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose entire identity is exposing Bluesky as a tool to MCP clients, making it a textbook fit for MCP Servers & Tooling.
+  reason: The product is explicitly an MCP server whose core identity is providing Bluesky access via the Model Context Protocol, making it a clear fit for the MCP Servers & Tooling category.
   evidence:
-    - Repo description is 'Bluesky MCP server', explicitly naming MCP as the product identity.
-    - README states it is 'A Model Context Protocol (MCP) server that enables MCP clients like Claude Desktop to interact with Bluesky'.
-    - Included in awesome-mcp-servers lists under Server Implementations and Community Servers sections.
+    - "Repo description: 'Bluesky MCP server'"
+    - "README: 'A Model Context Protocol (MCP) server that enables MCP clients like Claude Desktop to interact with Bluesky'"
+    - Listed in multiple MCP-specific awesome lists under communication/server sections
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -104,12 +103,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:15:17.669Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5876c96797519df43bb9a74e28751b3d5cb2e8b06175b5444691fb906b53e60e
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose core identity is providing Bluesky access via the Model Context Protocol, making it a clear fit for the MCP Servers & Tooling category.
+      decision_evidence:
+        - "Repo description: 'Bluesky MCP server'"
+        - "README: 'A Model Context Protocol (MCP) server that enables MCP clients like Claude Desktop to interact with Bluesky'"
+        - Listed in multiple MCP-specific awesome lists under communication/server sections
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's main value is being an MCP server infrastructure rather than extending another assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

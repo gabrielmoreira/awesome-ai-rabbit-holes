@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:13.877Z"
       bytes: 5112
 insights:
-  summary: An MCP server that indexes 269 episodes of Lenny's Podcast and exposes transcript search tools to Claude Code, Cursor, and other MCP-compatible assistants.
-  why_it_matters: It lets developers query product management advice and leadership quotes from top tech leaders directly inside their coding assistant while writing PRDs or planning roadmaps.
-  mental_damage: We have now successfully optimized the workflow of asking a coding agent about Brian Chesky's design philosophy instead of actually shipping code.
+  summary: An MCP server that enables AI assistants to search and retrieve insights from Lenny's Podcast transcripts.
+  why_it_matters: Developers and product managers can query 269 episodes of product management wisdom directly from their AI coding environment without leaving their workflow.
+  mental_damage: Now you can ask your coding assistant for product advice instead of actually listening to podcasts.
   tags:
-    - mcp
+    - mcp-server
+    - podcast-transcripts
     - product-management
-    - knowledge-base
-    - local-search
+    - context-engineering
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server that exposes podcast transcript search as a tool, fitting cleanly as a domain-specific MCP server rather than a general extension or framework.
+  reason: This is an MCP-first toolkit whose primary identity is as a domain-specific MCP server for podcast content retrieval.
   evidence:
-    - "README states: 'MCP Server for AI-Powered Product Management Insights' and queries Lenny's Podcast from Claude Code/Cursor."
-    - "Source list context: listed in awesome-mcp-servers under Knowledge & Memory."
-    - Provides MCP tools like search_quotes, list_guests, and get_episode backed by 51,000+ indexed transcript segments.
+    - README explicitly identifies it as an MCP server for AI assistants
+    - Provides tools like search_quotes and get_episode for transcript access
+    - Designed for integration with Claude Code, Cursor, or any MCP-compatible assistant
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:28.522Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6363bfb3fbb6330c7196b892e13274ea95b33627ddfde1a7bab82eeaa42db541
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first toolkit whose primary identity is as a domain-specific MCP server for podcast content retrieval.
+      decision_evidence:
+        - README explicitly identifies it as an MCP server for AI assistants
+        - Provides tools like search_quotes and get_episode for transcript access
+        - Designed for integration with Claude Code, Cursor, or any MCP-compatible assistant
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product's core identity is as an MCP server rather than a general context/retrieval system.
+      review_reason: null
+      review_resume_lifecycle: null

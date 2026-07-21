@@ -58,26 +58,26 @@ metadata:
       fetched_at: "2026-07-20T15:11:17.392Z"
       bytes: 45289
 insights:
-  summary: A secure, local filesystem MCP server that exposes 18 file operation tools—including read, write, search, diff, and patch—to AI assistants via stdio or HTTP transport.
-  why_it_matters: It gives coding agents and IDEs controlled, sandboxed access to the local filesystem with structured output and path-traversal protection, avoiding the need to grant broad shell access.
-  mental_damage: We have invented a standardized protocol just to let an AI safely open a file, as if the concept of a file handle was the real problem all along.
+  summary: A local filesystem MCP server that enables LLMs and AI agents to read, write, search, diff, patch, and manage files with security controls.
+  why_it_matters: It provides a secure, structured way for AI assistants to interact with local filesystems, addressing the common need for controlled file operations in development workflows.
+  mental_damage: Finally, a way to let your AI touch your files without it immediately deleting your node_modules.
   tags:
     - mcp
     - filesystem
     - local-ai
+    - developer-tools
     - security
-    - typescript
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server providing filesystem access to AI assistants, which fits cleanly into MCP Servers & Tooling under generic servers.
+  reason: The product is explicitly an MCP server whose primary identity is providing filesystem access via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states it is 'A local filesystem MCP server' built for MCP-based agent interaction.
-    - README emphasizes MCP surface (18 tools, resources, prompts) and dual transport (stdio and Node Streamable HTTP).
-    - Listed in awesome-mcp-servers under 'File Systems', confirming ecosystem placement as an MCP server.
+    - Repo description identifies it as a filesystem MCP server
+    - README emphasizes MCP as the core protocol and filesystem operations as the main capability
+    - Already listed in awesome-mcp-servers under File Systems
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -93,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:09:23.524Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ac3f36f6d3cea0100f8bb31ac52b93e0071dd5c012909b3ef41828857524ed89
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose primary identity is providing filesystem access via the Model Context Protocol.
+      decision_evidence:
+        - Repo description identifies it as a filesystem MCP server
+        - README emphasizes MCP as the core protocol and filesystem operations as the main capability
+        - Already listed in awesome-mcp-servers under File Systems
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -54,15 +54,14 @@ metadata:
       fetched_at: "2026-07-16T05:05:03.848Z"
       bytes: 8242
 insights:
-  summary: OpenManus is an open-source, general-purpose LLM agent framework that allows developers to run autonomous tasks using configurable LLM backends without invite-only restrictions.
-  why_it_matters: It provides a transparent, code-first alternative to closed-agent products like Manus, letting developers experiment with and extend autonomous agent loops locally.
-  mental_damage: "Just what the ecosystem needed: another 'open' agent framework launched in three hours to ensure we can all spend our weekends configuring config.toml files for models that hallucinate the same stack traces."
+  summary: OpenManus is an open-source implementation of a general-purpose AI agent designed to execute complex tasks autonomously.
+  why_it_matters: It provides a transparent, open-source alternative to proprietary general-purpose agents, allowing developers to run and inspect autonomous task execution locally.
+  mental_damage: Another autonomous agent to watch while you contemplate whether you're actually coding or just supervising a very expensive distraction.
   tags:
-    - llm-agent
-    - framework
-    - python
-    - autonomous
+    - agents
     - open-source
+    - automation
+    - autonomous-agents
   confidence: high
 curation:
   status: included
@@ -73,10 +72,10 @@ curation:
     - Included in 'awesome-llm-agents' under the 'Frameworks' section, reinforcing its identity as a developer building block.
 placement:
   primary_category: ai-frameworks
-  section: Agent Frameworks
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (56044) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'coding-agents'"
 processing:
   discover:
     status: done
@@ -89,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:58:27.308Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0ecf9d286281eea6fd646ab8ab24f0289f822aca8d817b7b2bd839f99ac8c593
+      proposed_primary_category: coding-agents
+      disagreement: true
+      decision_reason: It is a standalone autonomous agent capable of planning and executing complex workflows, rather than a library or an extension to another editor.
+      decision_evidence:
+        - README describes it as an implementation of a general-purpose agent (Manus)
+        - Capable of browser automation via Playwright
+        - High ecosystem traction with over 57k stars
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the tool presents itself as a functional, end-user-facing autonomous agent rather than a developer-facing orchestration framework or library.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'coding-agents'"
+      review_resume_lifecycle: null

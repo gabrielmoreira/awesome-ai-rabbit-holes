@@ -37,9 +37,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Hugging Face Space demonstrating a chatbot built by combining ChatGPT with the LangChain framework.
-  why_it_matters: It serves as a reference implementation for developers looking to wire LangChain agents into conversational interfaces.
-  mental_damage: A pristine artifact from the era when stacking two buzzwords in a repo name was considered a sufficient architecture diagram.
+  summary: A Hugging Face Space hosting a chatbot built with LangChain and ChatGPT.
+  why_it_matters: Demonstrates a practical integration of LangChain with ChatGPT for conversational AI, offering developers a reference implementation.
+  mental_damage: Another chatbot demo in a sea of chatbot demos, but at least it’s on Hugging Face.
   tags:
     - langchain
     - chatbot
@@ -48,11 +48,11 @@ insights:
   confidence: high
 curation:
   status: excluded
-  reason: This is a demo application and educational resource hosted on Hugging Face, not a reusable developer tool, framework, or infrastructure component.
+  reason: This is a demo/chatbot implementation rather than a developer tool, framework, or workflow product.
   evidence:
-    - Hosted on Hugging Face Spaces (huggingface.co/spaces/JavaFXpert/Chat-GPT-LangChain), indicating a demo app rather than a library or tool.
-    - Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots', categorizing it as a chatbot project rather than a dev tool.
-    - No repository description, README excerpt, or code-first signals provided to suggest it is a framework, SDK, or agent.
+    - Hosted on Hugging Face as a Space (demo/experimental project)
+    - Described as a chatbot built with LangChain and ChatGPT
+    - Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots'
 placement:
   primary_category: null
   section: null
@@ -70,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:10.921Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d20ce38478eda2fbbd1711e17f6af30190260a9f88167a6665f2c10f157df4f6
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a demo/chatbot implementation rather than a developer tool, framework, or workflow product.
+      decision_evidence:
+        - Hosted on Hugging Face as a Space (demo/experimental project)
+        - Described as a chatbot built with LangChain and ChatGPT
+        - Listed in awesome-langchain under 'Open Source Projects > Other / Chatbots'
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

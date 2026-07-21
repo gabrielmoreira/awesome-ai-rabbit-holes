@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: ModelScope is a Chinese open-source community and hosting platform for discovering, hosting, and deploying machine learning models across various domains.
-  why_it_matters: It provides a centralized hub for developers to explore, fine-tune, and deploy models, serving as a major alternative ecosystem to Hugging Face for ML practitioners.
-  mental_damage: Just when you thought the 'one true model hub' debate was settled, you now have to decide if your pipeline dependencies should be doomed by the Great Firewall or the HF rate limiter.
+  summary: ModelScope is a Chinese community platform aggregating advanced machine learning models with one-stop services for exploration, inference, training, deployment, and application.
+  why_it_matters: It provides developers with a centralized hub to discover, customize, and deploy models across domains, streamlining the ML workflow from experimentation to production.
+  mental_damage: Another model zoo where you’ll spend more time comparing versions than actually shipping anything.
   tags:
-    - models
-    - community
-    - ml-ops
-    - huggingface-alternative
+    - model-hub
+    - mlops
+    - chinese-community
+    - model-deployment
   confidence: high
 curation:
   status: excluded
-  reason: ModelScope is a general ML model hosting community and infrastructure platform, not a developer-facing AI tool, agent, or coding workflow product.
+  reason: The platform is a general ML model hub and community, not a developer-tooling product focused on coding agents, workflows, or adjacent infrastructure.
   evidence:
-    - Description states it is a community for 'machine learning models' offering 'training, deployment and application' services, not coding tools.
-    - Source list context identifies it as a community hub for LLM resources, specifically '模型开源社区' (model open-source community).
-    - No evidence of coding agent capabilities, IDE integrations, or developer infrastructure tooling in the provided context.
+    - Described as a 'one-stop service' for model exploration, inference, training, deployment, and application
+    - Positioned as a community for discovering and sharing models, not a coding tool or workflow
+    - Source-list context places it under 'Community' rather than developer tooling
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:30:03.809Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ca33ea554d89e7de24b3a346674bf92c7fd7a8afe66ae88d2744ee4640d748bf
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The platform is a general ML model hub and community, not a developer-tooling product focused on coding agents, workflows, or adjacent infrastructure.
+      decision_evidence:
+        - Described as a 'one-stop service' for model exploration, inference, training, deployment, and application
+        - Positioned as a community for discovering and sharing models, not a coding tool or workflow
+        - Source-list context places it under 'Community' rather than developer tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

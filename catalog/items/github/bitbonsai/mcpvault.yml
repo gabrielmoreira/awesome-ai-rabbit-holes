@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:12.269Z"
       bytes: 25399
 insights:
-  summary: A lightweight MCP server that provides safe read/write access to Obsidian vaults for any MCP-compatible AI assistant.
-  why_it_matters: It lets developers connect AI coding assistants like Claude Code and Cursor directly to their Obsidian knowledge base, enabling note search, editing, and vault operations without leaving the coding workflow.
-  mental_damage: Because apparently the natural endpoint of AI tooling is granting your coding agent full write access to the markdown files where you store your deepest, most unfulfilled side-project ideas.
+  summary: A lightweight Model Context Protocol (MCP) server for safe read/write access to Obsidian vaults.
+  why_it_matters: It lets developers connect any MCP-compatible AI assistant (Claude, ChatGPT, etc.) to their Obsidian notes as a unified knowledge base.
+  mental_damage: Now your AI can finally read your half-baked project notes and judge you silently.
   tags:
     - mcp
     - obsidian
     - knowledge-base
-    - integration
+    - context-protocol
   confidence: high
 curation:
   status: included
-  reason: This is a domain-specific MCP server providing Obsidian vault access, making it a textbook fit for the MCP Servers & Tooling category under Domain Servers.
+  reason: "MCP is the product identity: this is a dedicated MCP server for Obsidian vaults, not a compatibility footnote."
   evidence:
-    - "Repo description explicitly states: 'A lightweight Model Context Protocol (MCP) server for safe Obsidian vault access'"
-    - README lists 14 MCP methods for vault operations and highlights 'Universal AI Compatibility' with Claude, Cursor, Windsurf, and other MCP-compatible assistants
-    - Listed in awesome-mcp-servers under 'Knowledge & Memory' section, confirming its identity as an MCP server implementation
+    - Repo description explicitly states it is an MCP server for Obsidian vault access
+    - README emphasizes universal MCP compatibility with multiple AI assistants
+    - Product is a server providing MCP tools (14 methods) for vault operations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:06.185Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3b3aa50800759f3c67ec24e6e558fc67f9f3c1b2049ef8b2b8eb7567b904c914
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for Obsidian vaults, not a compatibility footnote."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Obsidian vault access
+        - README emphasizes universal MCP compatibility with multiple AI assistants
+        - Product is a server providing MCP tools (14 methods) for vault operations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific infrastructure) rather than an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

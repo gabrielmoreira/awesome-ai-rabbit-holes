@@ -41,23 +41,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:21.465Z"
       bytes: 10681
 insights:
-  summary: JAX is a Python library for accelerator-oriented array computation and program transformation, enabling automatic differentiation, JIT compilation to GPU/TPU via XLA, and vectorization for high-performance numerical computing and large-scale machine learning.
-  why_it_matters: It provides the foundational numerical and autodiff primitives that many modern ML and LLM training frameworks are built upon, allowing developers to define and scale complex models efficiently.
-  mental_damage: Yet another reason to postpone learning that one stubborn PyTorch model, comforted by the promise that XLA compilation will surely speed up the code you haven't written yet.
+  summary: JAX is a Python library for accelerator-oriented array computation and program transformation, enabling automatic differentiation, JIT compilation, and vectorization for high-performance numerical computing and machine learning.
+  why_it_matters: It allows developers to write pure Python/NumPy code that can be automatically optimized for GPUs/TPUs and differentiated for machine learning workflows.
+  mental_damage: Finally, a way to make your NumPy code run faster by doing less work yourself.
   tags:
     - numerical-computing
     - autodiff
-    - accelerator
-    - ml-framework
-    - python
+    - jit-compilation
+    - machine-learning
+    - xla
   confidence: high
 curation:
   status: excluded
-  reason: JAX is a foundational numerical computing and ML research library, not a developer-facing AI tool, agent, workflow, or infrastructure product as defined by this catalog's scope.
+  reason: JAX is a numerical computing framework for ML research and high-performance array operations, not a developer-tooling product in the catalog's scope (coding agents, IDEs, extensions, orchestration, etc.).
   evidence:
-    - Repo description describes it as 'Composable transformations of Python+NumPy programs', a library identity rather than a developer tool.
-    - README states JAX is 'a Python library for accelerator-oriented array computation' and 'really an extensible system for composable function transformations', targeting ML researchers.
-    - Catalog scope excludes 'general ML research' and 'broad AI news', focusing instead on practical AI tools, agents, and developer infrastructure.
+    - "Repo description: 'Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more'"
+    - "README: 'JAX is a Python library for accelerator-oriented array computation and program transformation, designed for high-performance numerical computing and large-scale machine learning'"
+    - "Source-list context: Listed under 'Training > Frameworks for Training' in Awesome-LLMOps, confirming its ML framework identity"
 placement:
   primary_category: null
   section: null
@@ -76,12 +76,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:10:10.520Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:89eacf1356134bf9978c8e5528cdf2d5498a2392213bb2758b0a56c57b4b3320
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: JAX is a numerical computing framework for ML research and high-performance array operations, not a developer-tooling product in the catalog's scope (coding agents, IDEs, extensions, orchestration, etc.).
+      decision_evidence:
+        - "Repo description: 'Composable transformations of Python+NumPy programs: differentiate, vectorize, JIT to GPU/TPU, and more'"
+        - "README: 'JAX is a Python library for accelerator-oriented array computation and program transformation, designed for high-performance numerical computing and large-scale machine learning'"
+        - "Source-list context: Listed under 'Training > Frameworks for Training' in Awesome-LLMOps, confirming its ML framework identity"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

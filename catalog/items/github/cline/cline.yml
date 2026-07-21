@@ -70,23 +70,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:21.839Z"
       bytes: 9106
 insights:
-  summary: Cline is a VS Code extension that acts as an autonomous coding agent, capable of creating and editing files, executing terminal commands, and interacting with a headless browser to complete development tasks with user approval.
-  why_it_matters: It allows developers to delegate complex, multi-step repo tasks to an agent that can see the file structure, run the terminal, and debug visual issues directly within the IDE.
-  mental_damage: You now have a GUI to politely supervise an AI that spends your API budget clicking through a headless browser because you didn't feel like fixing the CSS yourself.
+  summary: Cline is an autonomous coding agent available as an SDK, IDE extension, or CLI assistant that can use CLI and editor tools to perform complex software development tasks.
+  why_it_matters: It enables developers to delegate multi-step coding tasks with human-in-the-loop approval for file changes and terminal commands, supporting a wide range of API providers and local models.
+  mental_damage: Finally, an AI that can click buttons in your browser for you—because manually refreshing the page was clearly the bottleneck in your workflow.
   tags:
-    - vscode
     - coding-agent
-    - autonomous
-    - ide-extension
-    - llm
+    - vscode-extension
+    - terminal-integration
+    - mcp-support
+    - multi-model
   confidence: high
 curation:
   status: included
-  reason: Cline is the primary coding assistant within the IDE, directly planning and executing file changes and commands, fitting the canonical 'Cline' example in the coding-agents category.
+  reason: Cline is a primary coding assistant that directly plans, writes, and executes code changes across IDE and CLI environments, fitting the core definition of a coding agent.
   evidence:
-    - "Repo description: 'Autonomous coding agent right in your IDE, capable of creating/editing files, executing commands, using the browser'."
-    - "README states: 'Cline can handle complex software development tasks step-by-step... create & edit files, explore large projects, use the browser, and execute terminal commands'."
-    - Listed as a canonical positive example in the coding-agents category definition.
+    - Repo description explicitly states it is an 'autonomous coding agent as an SDK, IDE extension, or CLI assistant'
+    - README highlights capabilities like file editing, terminal command execution, and browser interaction as core features
+    - Source-list context consistently places it in coding agent categories (e.g., awesome-ai-coding-tools, awesome-cli-coding-agents)
 placement:
   primary_category: coding-agents
   section: IDE-Native Assistants
@@ -105,12 +105,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:43:20.812Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e91ef6e97867036cabb13e21ff31af8d5ce4a8907883b9147d153017478815b4
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Cline is a primary coding assistant that directly plans, writes, and executes code changes across IDE and CLI environments, fitting the core definition of a coding agent.
+      decision_evidence:
+        - Repo description explicitly states it is an 'autonomous coding agent as an SDK, IDE extension, or CLI assistant'
+        - README highlights capabilities like file editing, terminal command execution, and browser interaction as core features
+        - Source-list context consistently places it in coding agent categories (e.g., awesome-ai-coding-tools, awesome-cli-coding-agents)
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Cline is a standalone primary assistant rather than merely augmenting another assistant with host integrations.
+      review_reason: null
+      review_resume_lifecycle: null

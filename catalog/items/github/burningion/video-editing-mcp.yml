@@ -55,22 +55,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:15.954Z"
       bytes: 7194
 insights:
-  summary: An MCP server that lets developers upload, search, and generate video edits through Video Jungle directly from LLM clients like Claude Desktop.
-  why_it_matters: It turns natural language prompts into executable video-editing workflows, bridging LLM chat surfaces with a standalone video generation and editing platform.
-  mental_damage: We have finally unlocked the ability to prompt-engineer a skateboard montage while Claude politely asks for permission to scan your entire Photos library.
+  summary: An MCP server that integrates Video Jungle's video editing and generation capabilities with LLM workflows.
+  why_it_matters: Lets developers trigger video uploads, edits, searches, and generative edits directly from an LLM chat via MCP tools.
+  mental_damage: Now your AI can edit videos while you pretend to understand OpenTimelineIO.
   tags:
     - mcp
     - video-editing
-    - claude-desktop
-    - media-automation
+    - llm-integration
+    - video-jungle
   confidence: high
 curation:
   status: included
-  reason: The product’s identity is an MCP server providing video editing, search, and generation tools for LLM clients, which fits cleanly under MCP Servers & Tooling.
+  reason: "MCP is the product identity: this is a server exposing Video Jungle's video editing tools via MCP protocol."
   evidence:
-    - Repo description and README explicitly define it as an 'MCP Interface' and 'Video Editor MCP server' for Video Jungle.
-    - Installation instructions are centered on configuring it as an MCP server in Claude Desktop.
-    - It is already curated in awesome-mcp-list and awesome-mcp-servers under art and culture MCP servers.
+    - Repo description explicitly states it is an MCP Interface for Video Jungle
+    - README details MCP server tools like add-video, generate-edit-from-videos, search-videos
+    - Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:34:37.331Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c0d5c34eb991cf97a66f64f0bbcf2338b64d47cb16bbed6092ccb1a8407eed21
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a server exposing Video Jungle's video editing tools via MCP protocol."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP Interface for Video Jungle
+        - README details MCP server tools like add-video, generate-edit-from-videos, search-videos
+        - Listed in awesome-mcp-list and awesome-mcp-servers under MCP server sections
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

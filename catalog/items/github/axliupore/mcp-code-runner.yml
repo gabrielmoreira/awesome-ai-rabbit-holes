@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:08.041Z"
       bytes: 429
 insights:
-  summary: An MCP server that executes code securely inside Docker containers for AI agents and coding assistants that support the Model Context Protocol.
-  why_it_matters: It gives MCP-compatible coding agents a sandboxed execution environment, allowing them to run and verify generated code without touching the host system.
-  mental_damage: We have successfully abstracted the act of running code so many times that we now need a protocol server to ask a container to run the code that the AI just hallucinated.
+  summary: An MCP server that provides a Docker-based code execution environment.
+  why_it_matters: It allows MCP-compatible LLM clients to safely execute code within isolated containers to verify outputs.
+  mental_damage: Because why trust your local environment when you can delegate execution to a ephemeral container controlled by an LLM?
   tags:
     - mcp
-    - code-execution
     - docker
-    - sandbox
-  confidence: medium
+    - code-execution
+    - sandboxing
+    - llm-tools
+  confidence: high
 curation:
   status: included
-  reason: This is an MCP server implementation providing code execution via Docker, fitting squarely into the MCP category as protocol infrastructure rather than a standalone assistant or extension.
+  reason: The project's primary identity is an MCP server designed to provide specific execution capabilities to a host.
   evidence:
-    - Repo name is 'mcp-code-runner' and README states it is '基于 MCP 协议的代码执行器' (A code executor based on MCP protocol).
-    - Listed in 'awesome-mcp-servers' under 'Server Implementations > Developer Tools'.
-    - Execution is handled via Docker, providing a sandboxed tool for MCP clients.
+    - README claims it is an 'MCP protocol-based code executor'
+    - Uses Docker for safe code execution
+    - Found in awesome-mcp-servers
 placement:
   primary_category: mcp
   section: Generic Servers & Middleware
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:00.451Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7aefb4037527652d9c71e69cad757623a0c722edd64906b2ed9476a88164c5fa
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server designed to provide specific execution capabilities to a host.
+      decision_evidence:
+        - README claims it is an 'MCP protocol-based code executor'
+        - Uses Docker for safe code execution
+        - Found in awesome-mcp-servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity and distribution model is as an MCP server implementation rather than a host-specific integration.
+      review_reason: null
+      review_resume_lifecycle: null

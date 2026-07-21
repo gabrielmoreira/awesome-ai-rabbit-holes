@@ -47,25 +47,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:23.322Z"
       bytes: 3353
 insights:
-  summary: Run VS Code on any machine and access it through a browser-based interface, separating the editor from local hardware constraints.
-  why_it_matters: It allows developers to use a familiar IDE environment from any device with a browser, enabling consistent remote development workflows.
-  mental_damage: Now you can drain your laptop battery watching a browser tab spin while your actual code compiles on a server you have to maintain yourself.
+  summary: Self-hosted VS Code that runs on a remote server and is accessed via a browser for cloud-based development.
+  why_it_matters: Provides a consistent IDE on any device while offloading heavy compute to more powerful remote machines, preserving local battery and resources.
+  mental_damage: The future of development is apparently running an Electron app inside a browser tab on a rented CPU so your laptop can stay cool—no AI required, just more cloud.
   tags:
-    - ide
     - remote-development
-    - vscode
     - browser-ide
-  confidence: medium
+    - vscode
+    - cloud-ide
+    - dev-environment
+  confidence: high
 curation:
-  status: included
-  reason: The product is a remote development environment that hosts VS Code in the browser, fitting the IDE/Editor category for remote surfaces, though it is a conventional IDE wrapper rather than an AI-native tool.
+  status: excluded
+  reason: code-server is a generic remote development environment with no AI-specific identity or coding assistance features; it is explicitly listed as a common false positive for AI IDEs & Editors.
   evidence:
-    - Repo description states 'VS Code in the browser'
-    - README highlights running VS Code on any machine and accessing it via browser
-    - Listed in Awesome-LLMOps under 'Training > IDEs and Workspaces'
+    - Repo description and README pitch remote VS Code access with zero mention of AI, agents, or code assistance.
+    - Explicitly listed as a common_false_positive under the ai-ides-editors category.
+    - Source-list placement in Awesome-LLMOps is incidental workflow utility, not an AI product identity.
 placement:
-  primary_category: ai-ides-editors
-  section: Remote / Hosted Editor Surfaces
+  primary_category: null
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (77423) exceeded threshold (150)
@@ -81,12 +82,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:45:04.732Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:44d258647529355f0d52edc5c105e80b3934125fcdba02492e033d34a537e480
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: code-server is a generic remote development environment with no AI-specific identity or coding assistance features; it is explicitly listed as a common false positive for AI IDEs & Editors.
+      decision_evidence:
+        - Repo description and README pitch remote VS Code access with zero mention of AI, agents, or code assistance.
+        - Explicitly listed as a common_false_positive under the ai-ides-editors category.
+        - Source-list placement in Awesome-LLMOps is incidental workflow utility, not an AI product identity.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

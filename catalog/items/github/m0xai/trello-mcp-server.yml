@@ -39,22 +39,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:14.085Z"
       bytes: 8471
 insights:
-  summary: A Python-based MCP server that exposes Trello board, list, and card operations to AI hosts like Claude Desktop and Cursor.
-  why_it_matters: It lets developers manage Trello project tasks directly through their AI assistant rather than switching contexts to the Trello UI.
-  mental_damage: You can now ask Claude to move a card from 'In Progress' to 'Done' while you continue avoiding the actual work inside the card.
+  summary: Trevo MCP Server is an MCP server that provides AI hosts with tools to interact with Trello boards, lists, and cards via standard Model Context Protocol endpoints.
+  why_it_matters: It enables AI coding assistants like Claude or Cursor to read and modify Trello data through a standardized interface, reducing context-switching for developers who manage work in Trello.
+  mental_damage: Another MCP server that turns your project board into a prompt-injection surface for AI agents that may or may not understand your sprint goals.
   tags:
     - mcp
     - trello
-    - integration
-    - python
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server for a specific domain (Trello), fitting cleanly into MCP Servers & Tooling.
+  reason: The product's core identity is an MCP server exposing Trello functionality, making it a domain-specific MCP infrastructure tool rather than an extension, agent, or app builder.
   evidence:
-    - Repo description explicitly states 'A simple yet powerful MCP server for Trello.'
-    - README details MCP server modes including Claude App Mode and SSE Server Mode for Cursor.
-    - Listed in awesome-mcp-servers under 'Community Servers'.
+    - "Repo description: 'A simple yet powerful MCP server for Trello'"
+    - README emphasizes MCP server modes (Claude App, SSE, Docker) and Trello API integration via standard MCP capabilities
+    - Listed in awesome-mcp-servers under 'Community Servers' section
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +72,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:43.481Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8f7843c7417169b168d1feda50742b528062ce164b1994b2d083629a0edf80fa
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server exposing Trello functionality, making it a domain-specific MCP infrastructure tool rather than an extension, agent, or app builder.
+      decision_evidence:
+        - "Repo description: 'A simple yet powerful MCP server for Trello'"
+        - README emphasizes MCP server modes (Claude App, SSE, Docker) and Trello API integration via standard MCP capabilities
+        - Listed in awesome-mcp-servers under 'Community Servers' section
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server infrastructure first, not primarily an add-on that augments another assistant with Trello-specific workflow capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

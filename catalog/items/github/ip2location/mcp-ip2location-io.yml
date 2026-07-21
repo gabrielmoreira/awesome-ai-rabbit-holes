@@ -63,23 +63,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:14.520Z"
       bytes: 7374
 insights:
-  summary: An MCP server that exposes the IP2Location.io API to provide detailed geolocation, network, and security data for IPv4 and IPv6 addresses to compatible AI assistants like Claude Desktop.
-  why_it_matters: Developers can delegate IP analysis and network reconnaissance directly to their coding agents without leaving the chat interface or writing custom API integration scripts.
-  mental_damage: We have successfully abstracted away the trivial effort of opening a browser to check an IP address into a multi-step MCP server setup and configuration file edit.
+  summary: An MCP server that provides IP geolocation data via the IP2Location.io API.
+  why_it_matters: Developers can integrate IP geolocation lookups directly into their MCP-enabled workflows, enabling context-aware tools without leaving their coding environment.
+  mental_damage: Now your AI can tell you where your users are, because apparently knowing their timezone wasn’t enough.
   tags:
     - mcp
     - geolocation
-    - claude-desktop
-    - networking
-    - fastmcp
+    - ip-lookup
+    - api-integration
   confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server implementation for a specific API, serving as a tool provider for host assistants rather than acting as a standalone assistant or framework.
+  reason: This is a dedicated MCP server whose primary identity is providing IP geolocation capabilities via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states 'IP Geolocation MCP server using IP2Location.io API'.
-    - README confirms it is a 'simple Model Context Protocol (MCP) server implementation' built as a FastMCP tool.
-    - Listed in awesome-mcp-servers under 'Location Services' and 'Official Servers' sections.
+    - Repo description explicitly states it is an 'IP Geolocation MCP server using IP2Location.io API'
+    - README confirms it is a FastMCP-based server for Claude Desktop integration
+    - Listed in awesome-mcp-servers under 'Official Servers'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -98,12 +97,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:31.867Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:48c4b7d912f4f13fb220dcb4c5b0c62fb16b872914a199c953376a52abddd111
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is providing IP geolocation capabilities via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an 'IP Geolocation MCP server using IP2Location.io API'
+        - README confirms it is a FastMCP-based server for Claude Desktop integration
+        - Listed in awesome-mcp-servers under 'Official Servers'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

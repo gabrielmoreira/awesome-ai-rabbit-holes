@@ -40,23 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:10:55.093Z"
       bytes: 4222
 insights:
-  summary: An MCP server that exposes D&D 5e SRD data—monsters, spells, equipment, and rules—as tools for AI assistants via a bundled SQLite database.
-  why_it_matters: It lets developers building AI integrations or playing with MCP quickly ground model outputs in structured game data instead of rolling the dice on hallucinations.
-  mental_damage: "We have finally solved the hardest problem in developer tooling: giving Claude Desktop the power to calculate goblin encounter XP budgets while your actual codebase remains untouched."
+  summary: An MCP server providing D&D 5e SRD data tools for monster search, spell lookup, encounter building, and character analysis.
+  why_it_matters: Developers building AI assistants for tabletop gaming can integrate authoritative D&D 5e data without hallucination risk.
+  mental_damage: Now your AI dungeon master can finally stop making up spell descriptions.
   tags:
-    - mcp
-    - gaming
-    - srd
-    - tools
-    - npx
+    - mcp-server
+    - dnd-5e
+    - srd-data
+    - tabletop-gaming
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server for a specific domain (D&D 5e), making it a textbook fit for the MCP Servers & Tooling category under Domain Servers.
+  reason: MCP is the product identity here—a domain-specific server exposing D&D 5e SRD data via MCP tools.
   evidence:
-    - Repo description explicitly states 'D&D 5e SRD MCP server' with tool definitions.
-    - README highlights MCP compatibility badges and shows Claude Desktop / Claude Code MCP installation steps.
-    - Listed in awesome-mcp-servers under Server Implementations > Gaming, confirming its MCP identity.
+    - Repo description explicitly identifies it as a 'D&D 5e SRD MCP server'
+    - README details MCP tool integration (Claude Desktop/Code config examples)
+    - All functionality is delivered through MCP-compatible tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:04:11.918Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:db775268e6143d7a407290f4c71d23e8c8a2842cc83fd8763e54675229f68287
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a domain-specific server exposing D&D 5e SRD data via MCP tools.
+      decision_evidence:
+        - Repo description explicitly identifies it as a 'D&D 5e SRD MCP server'
+        - README details MCP tool integration (Claude Desktop/Code config examples)
+        - All functionality is delivered through MCP-compatible tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

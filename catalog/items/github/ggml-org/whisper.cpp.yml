@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:07.948Z"
       bytes: 36779
 insights:
-  summary: A plain C/C++ port of OpenAI's Whisper speech recognition model optimized for high-performance, cross-platform, and on-device inference.
-  why_it_matters: It provides developers with a lightweight, dependency-free runtime to integrate offline speech-to-text capabilities into applications across platforms like iOS, Android, and WebAssembly.
-  mental_damage: Yet another reminder that while your coding agent struggles to center a div, a 75 MiB model on a Raspberry Pi can transcribe human speech faster than you can dictate a Jira ticket.
+  summary: High-performance C/C++ implementation of OpenAI's Whisper automatic speech recognition model.
+  why_it_matters: Enables efficient, low-latency, and offline audio transcription directly on diverse hardware like Apple Silicon, Linux, and mobile devices.
+  mental_damage: Now you have one more way to turn your voice memos into perfectly transcribed text that you'll still never actually read.
   tags:
     - speech-to-text
-    - local-inference
-    - cpp
-    - offline
+    - inference
     - whisper
+    - c-cpp
+    - local-ai
   confidence: high
 curation:
   status: included
-  reason: The project is a high-performance, local runtime for running the Whisper model entirely on-device, fitting the Local AI category's focus on local execution runtimes.
+  reason: It is a specialized local runtime for performing high-performance inference on a specific model type.
   evidence:
-    - Repo description identifies it as a 'Port of OpenAI's Whisper model in C/C++'.
-    - README highlights 'Zero memory allocations at runtime' and 'fully offline, on-device' execution on platforms like iOS and Raspberry Pi.
-    - Source list context places it under 'Serving > Large Model Serving' in Awesome-LLMOps.
+    - High-performance C/C++ implementation for local inference
+    - Supports diverse hardware including Apple Silicon (Metal), AVX, and Vulkan
+    - Focuses on zero memory allocation at runtime for efficiency
 placement:
   primary_category: local-ai
   section: Local Runtimes
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:02:33.158Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6970bf87e139c187c462867593b6a1265ea63084666b4ba983b99b5a2bbfe01f
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: It is a specialized local runtime for performing high-performance inference on a specific model type.
+      decision_evidence:
+        - High-performance C/C++ implementation for local inference
+        - Supports diverse hardware including Apple Silicon (Metal), AVX, and Vulkan
+        - Focuses on zero memory allocation at runtime for efficiency
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because the project's core identity is a highly optimized runtime for local, on-device execution rather than a general-purpose developer SDK.
+      review_reason: null
+      review_resume_lifecycle: null

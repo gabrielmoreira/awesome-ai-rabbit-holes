@@ -39,14 +39,15 @@ metadata:
       fetched_at: "2026-07-20T05:17:10.272Z"
       bytes: 35102
 insights:
-  summary: A curated directory of reusable skill packs and prompt rules designed to extend the capabilities of Claude-based coding assistants like Claude Code.
-  why_it_matters: It provides a centralized map for developers to discover and install specialized behaviors—from TDD workflows to Azure DevOps management—without writing custom prompts from scratch.
-  mental_damage: Just when you thought 'prompt engineering' was the peak of meta-work, we now have directories for the directories of skills that tell the AI how to pretend it knows how to use git worktrees.
+  summary: A curated list of Claude Skills for various domains including development, code tools, data analysis, and more.
+  why_it_matters: Developers can discover and adopt reusable skill packs to extend Claude's capabilities for specific workflows like testing, debugging, or infrastructure automation.
+  mental_damage: Because nothing says 'productivity' like spending an hour curating skills to avoid spending two hours writing the same prompts repeatedly.
   tags:
     - claude
     - skills
-    - directory
-    - prompt-engineering
+    - curated-list
+    - developer-tools
+    - ai-agents
   confidence: high
 curation:
   status: included
@@ -57,10 +58,10 @@ curation:
     - Seen in source lists under 'awesome-LLM-resources' specifically categorized as '技能 Skills' (Skills).
 placement:
   primary_category: awesome-awesomes
-  section: Directories & Maps
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (8942) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'skills'"
 processing:
   discover:
     status: done
@@ -73,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:38.561Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4a0954ce4fcd713f76d850516efc92d97657808f0c9371b966f3f311369802e1
+      proposed_primary_category: skills
+      disagreement: true
+      decision_reason: This is a curated directory of reusable skill packs for Claude, which fits the 'Agent Skills' category as a skill registry.
+      decision_evidence:
+        - Repo description explicitly states it is a curated list of Claude Skills
+        - README shows a structured directory of skills across multiple domains including development and code tools
+        - Source-list context includes it under 'Skills' in a major LLM resource directory
+      category_candidates:
+        - skills
+        - awesome-awesomes
+      contrastive_reason: Choose skills over awesome-awesomes because the primary artifact is a reusable skill registry for a specific agent ecosystem rather than a general navigation aid.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'skills'"
+      review_resume_lifecycle: null

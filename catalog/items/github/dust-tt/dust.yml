@@ -43,23 +43,22 @@ metadata:
       fetched_at: "2026-07-16T05:04:53.784Z"
       bytes: 259
 insights:
-  summary: Dust is an open-source platform for building and running custom AI agents to automate work tasks using large language models.
-  why_it_matters: It provides a developer platform and UI for designing agentic workflows that go beyond simple code completion, bridging the gap between raw LLM capabilities and business automation.
-  mental_damage: "Just what the ecosystem needed: another 'platform' to help you automate your job while you spend three weeks configuring the perfect agent to do it for you."
+  summary: Custom AI agent platform for building and deploying agents to speed up work.
+  why_it_matters: Developers can create and run custom agents to automate or augment workflows beyond code editing.
+  mental_damage: Now you can replace your entire team with agents, except the part where you still have to explain to the agents what the team was supposed to do.
   tags:
-    - agents
-    - platform
+    - agent-platform
+    - workflow-automation
     - rust
-    - workflow
-    - llm
-  confidence: medium
+    - multi-agent
+  confidence: high
 curation:
   status: included
-  reason: The product is a platform for building and running custom AI agents to speed up work, fitting the 'operated workbench or control plane' definition of agent orchestration rather than a single coding assistant.
+  reason: The product is a platform for building and coordinating custom AI agents, fitting the agent orchestration category as a control plane/workforce platform.
   evidence:
-    - "Repo description explicitly states: 'Custom AI agent platform to speed up your work.'"
-    - Listed in awesome-langchain under 'Other LLM Frameworks', indicating a platform/framework identity.
-    - Topics include 'agents' and 'large-language-models', and the homepage is dust.tt, suggesting a SaaS/platform surface.
+    - "Repo description: 'Custom AI agent platform to speed up your work'"
+    - "README: 'Custom AI agent platform to speed up your work' with docs link"
+    - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
 placement:
   primary_category: agent-orchestration
   section: Control Planes & Workforce Platforms
@@ -78,12 +77,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:47.362Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:df4c7e3ba26eb8e93f548be4c7ecd109ce16a1fd9e1f8798bba4c275094aacc2
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a platform for building and coordinating custom AI agents, fitting the agent orchestration category as a control plane/workforce platform.
+      decision_evidence:
+        - "Repo description: 'Custom AI agent platform to speed up your work'"
+        - "README: 'Custom AI agent platform to speed up your work' with docs link"
+        - "Source-list context: listed under 'Other LLM Frameworks' in awesome-langchain"
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the product is an operated platform for building/running agents rather than a code-first library.
+      review_reason: null
+      review_resume_lifecycle: null

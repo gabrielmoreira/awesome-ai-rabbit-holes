@@ -36,24 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A personal site and blog by Chip Huyen focused on bringing AI into production, covering AI system design, MLOps, and the author's books including Designing Machine Learning Systems and AI Engineering.
-  why_it_matters: Developers building AI systems can follow in-depth, practitioner-authored writing on production patterns, system design, and the evolving AI engineering discipline.
-  mental_damage: Yet another authoritative signal in the noise suggesting that if you just read enough thoughtful essays, you too could stop gluing LLMs together and finally understand what you are doing.
+  summary: Chip Huyen's personal website featuring AI system design writings, tools, and resources.
+  why_it_matters: Offers curated insights and micro-tools for AI production workflows from a practicing ML engineer and author.
+  mental_damage: Another thought leader with a newsletter signup form and a 'Good AI List'—because the ecosystem wasn't fragmented enough.
   tags:
-    - ai-engineering
-    - production
-    - mlops
-    - blog
+    - ai-blog
+    - mlops-resources
+    - ai-system-design
+    - curated-tools
   confidence: high
 curation:
-  status: excluded
-  reason: This is a personal blog and publication site, not a developer-facing tool, product, framework, or directory, and therefore falls outside the catalog's scope of practical AI tooling.
+  status: included
+  reason: Primary identity is a personal publication surface (blog, books, guides) with recurring commentary and educational content for developers.
   evidence:
-    - Primary page excerpt describes Chip Huyen as a writer and computer scientist who blogs and writes books, not a tool author.
-    - Site description states 'I work to bring AI into production. I write about AI system design.' with no product or tooling surface.
-    - "Seen in awesome-local-ai only as a 'purpose: An awesome repository of local AI tools | section: Lists' linked page, not as a tool itself."
+    - Site describes itself as 'I work to bring AI into production. I write about AI system design.'
+    - Includes sections like 'Blog', 'Books', 'Events', 'AI Guide', 'List 100'
+    - Source-list context places it in 'Lists' section of awesome-local-ai, but core identity is publication
 placement:
-  primary_category: null
+  primary_category: newsletters-and-feeds
   section: null
 lifecycle:
   status: incubating
@@ -71,12 +71,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:34.898Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:210c30691b4440656c9d55659362959fa6ee6209e9295b160082e363f669beef
+      proposed_primary_category: newsletters-and-feeds
+      disagreement: false
+      decision_reason: Primary identity is a personal publication surface (blog, books, guides) with recurring commentary and educational content for developers.
+      decision_evidence:
+        - Site describes itself as 'I work to bring AI into production. I write about AI system design.'
+        - Includes sections like 'Blog', 'Books', 'Events', 'AI Guide', 'List 100'
+        - Source-list context places it in 'Lists' section of awesome-local-ai, but core identity is publication
+      category_candidates:
+        - newsletters-and-feeds
+        - awesome-awesomes
+      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because the primary value is recurring educational content and commentary rather than directory-style navigation.
+      review_reason: null
+      review_resume_lifecycle: null

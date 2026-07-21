@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LLMPriceCheck is a web-based tool for comparing API pricing, context windows, and capabilities across leading LLM providers like OpenAI, Anthropic, and Google.
-  why_it_matters: It helps developers optimize AI budgets by providing a centralized, up-to-date reference for model costs and specs before integrating a specific API.
-  mental_damage: Yet another dashboard to consult while pretending that comparing $0.15 vs $0.14 per million tokens is the primary blocker to shipping your feature.
+  summary: A web tool for comparing and calculating LLM API pricing across providers like OpenAI, Anthropic, Google, and others.
+  why_it_matters: Helps developers optimize AI budgets by providing up-to-date pricing comparisons for major LLM APIs.
+  mental_damage: Because nothing says 'modern development' like staring at a spreadsheet of token costs instead of writing code.
   tags:
-    - llm
     - pricing
+    - llm
     - comparison
-    - api
+    - cost-optimization
   confidence: high
 curation:
   status: excluded
-  reason: The site is a generic pricing reference and directory for LLM APIs, lacking a direct developer-tooling, coding, or infrastructure product identity required for this catalog.
+  reason: This is a cost comparison tool for LLM APIs, not a developer-tooling product that fits the catalog's scope of practical AI tools, agents, workflows, or infrastructure for software developers.
   evidence:
-    - Scraped site context describes it purely as a price comparison and calculator tool for LLM APIs.
-    - Listed in awesome-LLM-resources under 'Inference', a general ML resource bucket rather than a developer tool section.
-    - No code, CLI, IDE integration, or extensible infrastructure surface is present in the provided inputs.
+    - The tool's primary function is comparing LLM API pricing, not assisting with development workflows
+    - No evidence of code editing, debugging, orchestration, or other developer-centric capabilities
+    - Source-list context places it under 'Inference' in a general LLM resources list, not a developer-tooling category
 placement:
   primary_category: null
   section: null
@@ -69,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:16.839Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:775116f05ff283fcd20a449c1d3898226bd6f471015dc035fedcb5f829b6f140
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a cost comparison tool for LLM APIs, not a developer-tooling product that fits the catalog's scope of practical AI tools, agents, workflows, or infrastructure for software developers.
+      decision_evidence:
+        - The tool's primary function is comparing LLM API pricing, not assisting with development workflows
+        - No evidence of code editing, debugging, orchestration, or other developer-centric capabilities
+        - Source-list context places it under 'Inference' in a general LLM resources list, not a developer-tooling category
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

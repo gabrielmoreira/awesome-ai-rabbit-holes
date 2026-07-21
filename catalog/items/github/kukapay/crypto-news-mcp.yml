@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:39.493Z"
       bytes: 3729
 insights:
-  summary: An MCP server that exposes real-time cryptocurrency news from NewsData as tools and prompts for AI agents and MCP-compatible clients like Claude Desktop.
-  why_it_matters: It lets coding agents and MCP clients pull fresh crypto news directly into their context without developers wiring up external API calls themselves.
-  mental_damage: We have reached the point where we are building protocol-compliant middleware just to ask an LLM what Bitcoin is doing today.
+  summary: An MCP server that provides real-time cryptocurrency news from NewsData for AI agents.
+  why_it_matters: Developers can integrate live crypto news feeds into their AI agents or workflows without building the data pipeline themselves.
+  mental_damage: Now your AI agent can panic about Bitcoin ETFs in real-time, just like you do.
   tags:
-    - mcp
-    - crypto
-    - news
-    - server
+    - mcp-server
+    - crypto-news
+    - real-time-data
+    - ai-agents
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing crypto news to AI agents, making it a textbook fit for the MCP Domain Servers section.
+  reason: The product is explicitly an MCP server with domain-specific functionality (crypto news), making MCP its primary identity.
   evidence:
     - Repo description states it is 'An MCP server that provides real-time cryptocurrency news'
-    - README shows tool definitions (get_latest_news, get_crypto_news) and MCP client installation instructions
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its identity as a domain-specific MCP server
+    - README details MCP tools (`get_latest_news`, `get_crypto_news`) and installation via Smithery/MCP CLI
+    - Project is actively maintained (pushed_at 2025-12-10)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:47.224Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:22a6738aec1969e62004630171a9cc7364ba5a068a6fbeea1bea5b0a3647a2a9
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server with domain-specific functionality (crypto news), making MCP its primary identity.
+      decision_evidence:
+        - Repo description states it is 'An MCP server that provides real-time cryptocurrency news'
+        - README details MCP tools (`get_latest_news`, `get_crypto_news`) and installation via Smithery/MCP CLI
+        - Project is actively maintained (pushed_at 2025-12-10)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (domain-specific) rather than an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

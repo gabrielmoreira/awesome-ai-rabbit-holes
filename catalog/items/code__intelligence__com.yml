@@ -1,0 +1,111 @@
+id: code__intelligence__com
+kind: website
+name: Code Intelligence CI Fuzz
+canonical_url: https://code-intelligence.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__code__intelligence__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Code Intelligence CI Fuzz
+        extracted_url: https://code-intelligence.com
+        surrounding_text: "- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)** – AI-automated fuzz testing for C/C++."
+        confidence: high
+    - id: discovery__www__code__intelligence__com__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - Security
+        anchor_text: Code Intelligence CI Fuzz
+        extracted_url: https://www.code-intelligence.com
+        surrounding_text: "- **[Code Intelligence CI Fuzz](https://www.code-intelligence.com/)** – AI-automated fuzz testing for C/C++."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: AI-automated coverage-guided fuzz testing solution for finding bugs and vulnerabilities in code.
+  why_it_matters: Automates security testing with minimal developer effort, uncovering hidden bugs and vulnerabilities early in the development process.
+  mental_damage: Finally, a way to find bugs you didn’t even know you had—because the bugs didn’t know they existed either.
+  tags:
+    - fuzz-testing
+    - security
+    - automated-testing
+    - vulnerability-detection
+  confidence: high
+curation:
+  status: excluded
+  reason: This is a security testing tool (fuzzing) rather than a developer-tooling product focused on AI-assisted coding, workflows, or infrastructure.
+  evidence:
+    - Product is an AI-automated fuzz testing solution for security vulnerabilities
+    - Primary value is bug/vulnerability detection, not coding assistance or workflow augmentation
+    - Source-list context places it under 'Security' in awesome-ai-coding-tools
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:33:10.261Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:db98c855c80a28e21e657d89a16e15d0d1ef2115a0233c103d1548d52273c47b
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a security testing tool (fuzzing) rather than a developer-tooling product focused on AI-assisted coding, workflows, or infrastructure.
+      decision_evidence:
+        - Product is an AI-automated fuzz testing solution for security vulnerabilities
+        - Primary value is bug/vulnerability detection, not coding assistance or workflow augmentation
+        - Source-list context places it under 'Security' in awesome-ai-coding-tools
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.964Z"
+    cause:
+      type: ambiguous_canonicalization
+      message: Kept the website URL because multiple GitHub repository links were present and no confident canonical match could be selected.
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

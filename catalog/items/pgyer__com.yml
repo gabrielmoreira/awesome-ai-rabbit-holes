@@ -1,0 +1,109 @@
+id: pgyer__com
+kind: website
+name: PGYER
+canonical_url: https://pgyer.com
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__pgyer__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: PGYER
+        extracted_url: https://pgyer.com
+        surrounding_text: "- **[PGYER](https://github.com/PGYER/pgyer-mcp-server)** - MCP Server for [PGYER](https://www.pgyer.com/) platform, supports uploading, querying apps, etc."
+        confidence: high
+    - id: discovery__www__pgyer__com__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: PGYER
+        extracted_url: https://www.pgyer.com
+        surrounding_text: "- **[PGYER](https://github.com/PGYER/pgyer-mcp-server)** - MCP Server for [PGYER](https://www.pgyer.com/) platform, supports uploading, querying apps, etc."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: Pgyer is a beta app distribution platform for mobile developers, offering app upload, testing, and distribution services.
+  why_it_matters: It streamlines mobile app beta testing and distribution workflows for developers, including UDID management, API integrations, and compliance tools.
+  mental_damage: Because nothing says 'modern development' like wrestling with iOS UDIDs and app store compliance while pretending it's AI-related.
+  tags:
+    - mobile-dev
+    - beta-distribution
+    - app-testing
+    - ci-cd
+  confidence: high
+curation:
+  status: excluded
+  reason: Pgyer is a mobile app distribution and testing platform, not an AI tool, framework, or developer workflow product in the catalog's scope.
+  evidence:
+    - Primary product is beta app distribution (not AI-focused)
+    - No AI/ML, coding agents, or developer-tooling angle in its core offering
+    - Source-list context (awesome-mcp-servers) appears to be a misclassification
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:28.597Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:be67b0aeea0c9be0a1d181e56a397e192b9201e9e66726985e69c6dd979ef116
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Pgyer is a mobile app distribution and testing platform, not an AI tool, framework, or developer workflow product in the catalog's scope.
+      decision_evidence:
+        - Primary product is beta app distribution (not AI-focused)
+        - No AI/ML, coding agents, or developer-tooling angle in its core offering
+        - Source-list context (awesome-mcp-servers) appears to be a misclassification
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.968Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

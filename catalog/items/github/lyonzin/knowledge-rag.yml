@@ -60,26 +60,26 @@ metadata:
       fetched_at: "2026-07-16T05:05:13.783Z"
       bytes: 79034
 insights:
-  summary: A fully local MCP server that indexes documents and code into a hybrid search stack (BM25, embeddings, reranking) so Claude Code can query them via 12 MCP tools without cloud APIs or external servers.
-  why_it_matters: Developers can point Claude Code at large private knowledge bases and repos with zero cloud dependencies, getting fast, code-aware retrieval inside their existing coding workflow.
-  mental_damage: Yet another opportunity to discover that your meticulously curated local docs still can’t compete with the model’s tendency to hallucinate a confident answer from thin air.
+  summary: Local RAG MCP server for Claude Code that provides hybrid search (semantic + BM25), cross-encoder reranking, and 12 MCP tools for searching local documents and code.
+  why_it_matters: Enables developers to search their local codebase and documentation using Claude Code without external APIs or cloud dependencies.
+  mental_damage: Another MCP server promising zero-config local search while you manually index 39K chunks and hope the cross-encoder doesn’t lag your laptop.
   tags:
     - mcp
     - rag
     - local-ai
+    - search
     - claude-code
-    - knowledge
   confidence: high
 curation:
   status: included
-  reason: The product’s identity is an MCP server purpose-built for knowledge retrieval and RAG, distributed as a package and listed in awesome-mcp-servers under Knowledge & Memory.
+  reason: The project is an MCP server whose core identity is providing MCP tools for local RAG search, making MCP the primary product identity rather than a coding agent or extension.
   evidence:
-    - "Repo description: 'Drop docs, search instantly from Claude Code — 12 MCP tools, 20 format parsers, hybrid search + reranking. Zero servers, zero API keys, 100% local.'"
-    - "README states: 'Your docs, your machine, zero cloud. Claude Code searches them natively' and documents 12 MCP tools and hybrid search."
-    - Listed in awesome-mcp-servers under Server Implementations > Knowledge & Memory as an MCP server.
+    - "Repo description: 'Local RAG MCP server for Claude Code — hybrid search (semantic + BM25), cross-encoder reranking, 13 MCP tools'"
+    - "README: 'Drop your PDFs, markdown, code, notebooks... Everything runs locally via ONNX. No Docker, no Ollama, no API keys, no data leaves your machine.'"
+    - "Stars: 228, pushed 2026-07-15, not archived, MIT license"
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (219) exceeded threshold (150)
@@ -95,12 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:43.190Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cdfb30ac39d425f6099efe263bb25c56b918a2c15c1c3a95e76d354e9107b7d1
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is an MCP server whose core identity is providing MCP tools for local RAG search, making MCP the primary product identity rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'Local RAG MCP server for Claude Code — hybrid search (semantic + BM25), cross-encoder reranking, 13 MCP tools'"
+        - "README: 'Drop your PDFs, markdown, code, notebooks... Everything runs locally via ONNX. No Docker, no Ollama, no API keys, no data leaves your machine.'"
+        - "Stars: 228, pushed 2026-07-15, not archived, MIT license"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing MCP-native tools for local search, not an extension that augments another assistant with host capabilities like debugger or browser access.
+      review_reason: null
+      review_resume_lifecycle: null

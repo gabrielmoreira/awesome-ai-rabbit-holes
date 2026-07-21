@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:39.187Z"
       bytes: 11013
 insights:
-  summary: An MCP server that provides AI agents with structured, real-time data on cryptocurrency investment funds via the Cryptorank API.
-  why_it_matters: It gives agents a structured way to perform due diligence and portfolio analysis on crypto funds without resorting to scraping or hallucinated data.
-  mental_damage: Now your autonomous agent can confidently misallocate your seed round by quoting ASCII tables from a protocol that turns coffee into venture capital at 500x retail ROI.
+  summary: An MCP server that provides AI agents with structured, real-time data on cryptocurrency investment funds.
+  why_it_matters: Enables AI agents to perform deeper due diligence and portfolio intelligence by querying fund metrics, team details, and investment data.
+  mental_damage: Now your AI agent can tell you which VC fund is actually just a rug pull in a suit.
   tags:
-    - mcp
+    - mcp-server
     - crypto
     - finance
-    - agent-tool
-  confidence: medium
+    - data-access
+  confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server delivering domain-specific data (crypto funds) to AI agents, which matches the MCP Servers & Tooling category.
+  reason: The product is explicitly an MCP server providing domain-specific data access, making MCP its primary identity.
   evidence:
-    - "Repo description states: 'An MCP server that provides AI agents with structured, real-time data on cryptocurrency investment funds.'"
-    - README shows it is installed and configured directly as an MCP server for Claude Desktop.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' as a server implementation.
+    - Repo description states it is 'An MCP server that provides AI agents with structured, real-time data on cryptocurrency investment funds'
+    - README details MCP tool calls (e.g., get_all_funds, search_funds) and installation via MCP
+    - Project is active (pushed 2025-09-25) and not archived
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:39.190Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:94da6864ac477191f16d47f56a06c64ac61e5514faa9d8aa63f49fc982e313a3
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server providing domain-specific data access, making MCP its primary identity.
+      decision_evidence:
+        - Repo description states it is 'An MCP server that provides AI agents with structured, real-time data on cryptocurrency investment funds'
+        - README details MCP tool calls (e.g., get_all_funds, search_funds) and installation via MCP
+        - Project is active (pushed 2025-09-25) and not archived
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

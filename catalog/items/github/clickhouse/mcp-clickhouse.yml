@@ -70,22 +70,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:21.791Z"
       bytes: 26598
 insights:
-  summary: An official MCP server that lets AI assistants run SQL queries, browse schemas, and inspect ClickHouse databases via the Model Context Protocol.
-  why_it_matters: It turns a live ClickHouse cluster into a first-class tool that AI agents can query, introspect, and reason over without custom glue code.
-  mental_damage: Because nothing says developer productivity like convincing a language model to SHOW TABLES on a petabyte-scale column store at 2 a.m.
+  summary: An MCP server that connects ClickHouse databases to AI assistants, enabling SQL query execution and database introspection.
+  why_it_matters: Developers can grant their AI assistants direct, controlled access to ClickHouse data for querying and schema exploration without manual context injection.
+  mental_damage: Now your AI assistant can finally stop pretending it remembers your table schema from that one conversation three weeks ago.
   tags:
     - mcp
     - clickhouse
-    - database
-    - integration
+    - database-integration
+    - sql
+    - ai-assistant
   confidence: high
 curation:
   status: included
-  reason: The product’s entire identity is an MCP server for ClickHouse, with tool definitions, auth modes, and health endpoints built around the protocol.
+  reason: "MCP is the product identity: this is a dedicated MCP server for ClickHouse, not a compatibility footnote or adapter."
   evidence:
-    - "Repo description states: 'Connect ClickHouse to your AI assistants.'"
-    - README describes 'An MCP server for ClickHouse' with run_query, list_databases, and list_tables tools.
-    - Included in awesome-mcp-servers under official servers and databases sections.
+    - Repo description explicitly states 'Connect ClickHouse to your AI assistants'
+    - README details MCP server tools for ClickHouse (run_query, list_databases, list_tables)
+    - Listed in multiple MCP-focused awesome lists under Databases section
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -104,12 +105,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:43:10.990Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:264919f5f3b0510faabe6aa5e38c54614ad1c88b03474ae1fa0f0783be052d09
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for ClickHouse, not a compatibility footnote or adapter."
+      decision_evidence:
+        - Repo description explicitly states 'Connect ClickHouse to your AI assistants'
+        - README details MCP server tools for ClickHouse (run_query, list_databases, list_tables)
+        - Listed in multiple MCP-focused awesome lists under Databases section
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server for ClickHouse, not an extension layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

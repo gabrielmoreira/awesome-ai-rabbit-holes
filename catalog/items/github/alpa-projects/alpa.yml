@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:58.975Z"
       bytes: 4526
 insights:
-  summary: Alpa is an archived system for automatically parallelizing and serving large-scale neural networks across distributed clusters using JAX and XLA.
-  why_it_matters: It automates complex distributed training and model serving with minimal code changes, though its core algorithms have been upstreamed into XLA.
-  mental_damage: We spent years celebrating the breakthrough of auto-parallelization, only to neatly archive it and pretend the distributed training crisis is someone else's XLA problem now.
+  summary: A system for training and serving large-scale neural networks with automatic parallelization.
+  why_it_matters: It automates distributed training and serving of large models, reducing the complexity of scaling neural networks to billions of parameters.
+  mental_damage: Because nothing says 'simple' like a decorator that turns your single-device code into a distributed cluster nightmare.
   tags:
-    - auto-parallelization
     - distributed-training
+    - auto-parallelization
     - jax
     - llm-serving
-    - research-artifact
+    - high-performance-computing
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the repository is archived, the maintainers explicitly state it is not actively maintained, and its core value has been merged into XLA, making it a research artifact rather than a practical developer tool.
+  reason: The project is archived and explicitly states it is no longer actively maintained, with its core algorithm merged into XLA, making it a research artifact rather than a practical developer tool.
   evidence:
-    - Repository is marked as archived on GitHub.
-    - "README contains a note: 'Alpa is not actively maintained currently. It is available as a research artifact.'"
-    - "The README states: 'The core algorithm in Alpa has been merged into XLA, which is still being maintained.'"
+    - Repo is archived
+    - README states 'Alpa is not actively maintained currently. It is available as a research artifact.'
+    - Core algorithm merged into XLA
 placement:
   primary_category: null
   section: null
@@ -84,12 +84,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:22.723Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:09fc5919d9a55c9761704ef26b6484aafea0b56da25f9a3ced1aa6df89c25e81
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is archived and explicitly states it is no longer actively maintained, with its core algorithm merged into XLA, making it a research artifact rather than a practical developer tool.
+      decision_evidence:
+        - Repo is archived
+        - README states 'Alpa is not actively maintained currently. It is available as a research artifact.'
+        - Core algorithm merged into XLA
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

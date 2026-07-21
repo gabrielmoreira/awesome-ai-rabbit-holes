@@ -59,23 +59,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:20.235Z"
       bytes: 15994
 insights:
-  summary: A Swift framework for building agents and multi-agent workflows, supporting both on-device Foundation Models and cloud providers like Anthropic and OpenAI.
-  why_it_matters: It lets Swift developers build type-safe, crash-resilient multi-agent systems using native concurrency and familiar tooling across Apple platforms and Linux.
-  mental_damage: The industry has successfully ported the multi-agent orchestration hype cycle into Swift, ensuring even your WatchOS apps can now over-engineer simple tasks across distributed agent pipelines.
+  summary: A Swift framework for building stateful AI agent workflows natively on Apple and Linux platforms.
+  why_it_matters: It lets Swift developers build type-safe, durable agent workflows with Swift concurrency, tools, and multi-provider model support.
+  mental_damage: Now you can write agents in Swift, because apparently the ecosystem needed another way to argue about async/await.
   tags:
     - swift
-    - agents
+    - agent-framework
+    - workflows
     - multi-agent
     - on-device
-    - framework
   confidence: high
 curation:
   status: included
-  reason: This is a code-first SDK and library that developers import to build agent systems in Swift, matching the core identity of Frameworks & SDKs rather than an operated orchestration platform.
+  reason: It is a code-first Swift framework for building agent workflows, fitting the Frameworks & SDKs category as a reusable building block.
   evidence:
-    - Repo description states it is a 'Swift Agent Orchestration Framework' and topics include swift-library and swift-agents.
-    - "README shows code-first usage via .package(url: ...) import and Swift macros like @Tool for building agents in code."
-    - Source list places it under 'Core Frameworks > Swift, Ruby & Elixir Frameworks', aligning with a frameworks identity.
+    - "Repo description: 'LangGraph for Swift — build stateful AI agent workflows natively on Apple/Linux platforms.'"
+    - "README: 'A Swift framework for building agents and multi-agent workflows.' with code-first API examples."
+    - "Source-list context: listed under 'Core Frameworks > Swift, Ruby & Elixir Frameworks' in awesome-agent-orchestration."
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -94,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:41.806Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4db6f75d6b9549236a9827191b44a9a258ebc020f107873701feda8b0c160716
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first Swift framework for building agent workflows, fitting the Frameworks & SDKs category as a reusable building block.
+      decision_evidence:
+        - "Repo description: 'LangGraph for Swift — build stateful AI agent workflows natively on Apple/Linux platforms.'"
+        - "README: 'A Swift framework for building agents and multi-agent workflows.' with code-first API examples."
+        - "Source-list context: listed under 'Core Frameworks > Swift, Ruby & Elixir Frameworks' in awesome-agent-orchestration."
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is a code-first library (Swift framework) rather than an operated workbench or runtime platform.
+      review_reason: null
+      review_resume_lifecycle: null

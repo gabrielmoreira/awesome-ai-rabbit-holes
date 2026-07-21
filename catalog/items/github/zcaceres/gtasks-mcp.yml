@@ -39,20 +39,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 133
-    forks: 53
+    stars: 153
+    forks: 59
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: zcaceres/gtasks-mcp
+    html_url: https://github.com/zcaceres/gtasks-mcp
     created_at: "2024-12-17T21:44:26Z"
-    pushed_at: "2026-03-10T18:29:53Z"
+    pushed_at: "2026-06-08T09:48:39Z"
     description: A Google Tasks Model Context Protocol Server for Claude
     homepage: null
     topics: []
-    last_checked_at: "2026-05-12T15:06:45.544Z"
+    last_checked_at: "2026-07-21T15:21:25.778Z"
     readme:
-      fetched_at: "2026-05-12T15:06:45.544Z"
+      fetched_at: "2026-07-21T15:21:25.778Z"
       bytes: 3657
 insights:
   summary: null
@@ -68,8 +68,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (153) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -78,16 +78,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-12T15:06:45.544Z"
+    updated_at: "2026-07-21T15:21:25.778Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022

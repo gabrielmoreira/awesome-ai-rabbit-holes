@@ -24,19 +24,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: x402node/x402-mcp
+    html_url: https://github.com/x402node/x402-mcp
+    created_at: "2026-05-24T22:18:23Z"
+    pushed_at: "2026-07-18T20:36:16Z"
+    description: "MCP server bringing 100+ x402-paid APIs to AI agents. Auto-syncs from CDP Bazaar. Stablecoin micropayments via x402 protocol across multi-chain (Base, Solana, Polygon, BNB, EVM). Built for agentic commerce: developer utilities, validators, encoders, generators, M2M payments, autonomous workflows. Works with Claude, Cursor, and any MCP-aware client."
+    homepage: ""
+    topics:
+      - agentic
+      - agentic-commerce
+      - ai-agent
+      - base-network
+      - claude
+      - cursor
+      - m2m-payment
+      - machine-to-machine
+      - mcp
+      - mcp-server
+      - micropayment
+      - model-context-protocol
+      - multi-chain
+      - pay-per-call
+      - polygon
+      - solana
+      - stablecoin
+      - usdc
+      - x402
+      - x402-payment
+    last_checked_at: "2026-07-21T15:21:16.570Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:16.570Z"
+      bytes: 1864
 insights:
   summary: null
   why_it_matters: null
@@ -60,13 +82,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:21:16.571Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

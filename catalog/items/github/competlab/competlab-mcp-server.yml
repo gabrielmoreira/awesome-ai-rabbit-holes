@@ -82,11 +82,21 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
+    updated_at: "2026-07-21T15:46:33.626Z"
     cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__competlab__competlab-mcp-server: ```json
+        {
+          "summary": "An MCP server that exposes competitive intelligence data—AI brand rankings, competitor dashboards, and alerts—to MCP-compatible clients such as Claude and Cursor.",
+          "why_it_matters": "Developers building sales or marketing automations can query live competitive intelligence directly from their coding assistant instead of switching to a separate SaaS dashboard.",
+          "mental_damage": "Now your coding assistant can judge your brand's AI Visibility while you debug, blurring the line between infrastructure and marketing analytics until nothing feels real.",
+          "tags": ["mcp-server", "competitive-intelligence", "brand-monitoring", "saas"],
+          "should_include": false,
+          "primary_category": null,
+          "section": null,
+          "decision_reason": "This
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -40,24 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:04.385Z"
       bytes: 6101
 insights:
-  summary: An MCP server that exposes 34 Spot.io API tools for managing Ocean clusters, VNGs, Elastigroups, costs, and right-sizing across AWS and Azure accounts.
-  why_it_matters: Developers can inspect, scale, and cost-optimize Kubernetes infrastructure across multiple cloud accounts directly from their MCP-compatible coding assistant instead of switching to the Spot console.
-  mental_damage: Your coding agent can now gracefully drain production pods by strategy name, which is either empowering infrastructure-as-code progress or the fastest path to a very expensive afternoon.
+  summary: MCP server for the Spot.io (Spotinst) API, providing tools to manage Ocean clusters, VNGs, Elastigroups, costs, and right-sizing across AWS and Azure.
+  why_it_matters: Developers can integrate Spotinst infrastructure management directly into their MCP-enabled workflows, enabling programmatic control of cloud resources from their coding environment.
+  mental_damage: Now you can drain and replace Kubernetes nodes from the same prompt where you’re debugging your microservice.
   tags:
     - mcp
+    - cloud-infrastructure
     - spotinst
-    - ocean
-    - kubernetes
     - aws
     - azure
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server first and foremost, designed to plug Spot.io infrastructure operations into MCP-compatible assistants with 34 well-documented tools.
+  reason: The product is explicitly an MCP server for Spotinst API, making MCP its primary identity.
   evidence:
-    - Repo description explicitly states 'MCP server for Spot.io (Spotinst) API'
-    - README shows Claude Code config example and 34 tools covering clusters, VNGs, costs, and roll operations
-    - Listed in awesome-mcp-servers under Cloud Platforms, confirming MCP server identity
+    - Repo description states it is an MCP server for Spot.io API
+    - README details 34+ tools for Spotinst resource management via MCP
+    - Listed in awesome-mcp-servers under Cloud Platforms
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -76,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:24:04.049Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:80bee073ea0799e98fad3218521dfe2cbba03bba3f9861f7644668c92a826581
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server for Spotinst API, making MCP its primary identity.
+      decision_evidence:
+        - Repo description states it is an MCP server for Spot.io API
+        - README details 34+ tools for Spotinst resource management via MCP
+        - Listed in awesome-mcp-servers under Cloud Platforms
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -59,22 +59,24 @@ metadata:
       fetched_at: "2026-07-20T15:11:12.558Z"
       bytes: 6976
 insights:
-  summary: PipeRider is a CLI tool that profiles dbt models and generates comparison reports to validate data changes during pull request reviews.
-  why_it_matters: It automates data impact analysis for dbt projects, allowing teams to merge PRs with confidence by visualizing exactly how schema or logic changes affect downstream data.
-  mental_damage: Finally, a tool to ensure your dbt PR doesn't turn the billing pipeline into a confidence interval of zero, assuming you migrate to its successor before the repo gathers dust.
+  summary: A code review tool for data pipelines in dbt that profiles models, compares data changes, and integrates with CI for PR validation.
+  why_it_matters: It automates data impact analysis for dbt projects, helping teams catch downstream data changes before merging PRs.
+  mental_damage: Because nothing says 'confidence' like a tool that tells you your data changes broke something *after* you’ve already shipped it.
   tags:
     - dbt
-    - data-observability
+    - data-profiling
+    - ci-integration
+    - data-quality
     - code-review
-    - cli
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because PipeRider is a data observability and data quality tool for dbt, lacking a meaningful AI or LLM-driven developer tooling angle required by the catalog scope.
+  reason: The tool is a data pipeline observability and PR validation product for dbt, not a developer-facing AI coding assistant, framework, or workflow tool.
   evidence:
-    - Repo description and README focus entirely on data profiling, dbt model comparison, and data reliability with no mention of AI, LLMs, or coding agents.
-    - The project README explicitly states it has been superseded by Recce and will no longer be updated on a regular basis.
-    - Source list placement in 'Awesome-LLMOps | Data > Data Tracking' reflects a general ops category, not a specific AI developer-tooling fit.
+    - "Repo description: 'Code review for data in dbt'"
+    - README focuses on profiling dbt models, comparing data changes, and CI integration for PRs
+    - "Archived/superseded notice: 'PipeRider has been superseded by Recce'"
+    - "Source-list context: listed under 'Data > Data Tracking' in Awesome-LLMOps"
 placement:
   primary_category: null
   section: null
@@ -93,12 +95,27 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:06.614Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4d427ebad2f4f5742ca5daaa5d313232b200056bfc723ed562463920444e95df
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a data pipeline observability and PR validation product for dbt, not a developer-facing AI coding assistant, framework, or workflow tool.
+      decision_evidence:
+        - "Repo description: 'Code review for data in dbt'"
+        - README focuses on profiling dbt models, comparing data changes, and CI integration for PRs
+        - "Archived/superseded notice: 'PipeRider has been superseded by Recce'"
+        - "Source-list context: listed under 'Data > Data Tracking' in Awesome-LLMOps"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

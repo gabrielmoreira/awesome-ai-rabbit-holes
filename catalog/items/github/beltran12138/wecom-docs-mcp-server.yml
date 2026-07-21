@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:10.367Z"
       bytes: 5848
 insights:
-  summary: An MCP server that enables AI agents to perform CRUD operations on WeCom (Enterprise WeChat) documents and Smartsheets via the @wecom/cli API.
-  why_it_matters: It lets developers automate internal documentation workflows in WeCom directly from MCP-compatible assistants like Claude Desktop and Cursor, filling a gap left by message-only WeCom integrations.
-  mental_damage: You can now delegate updating Q2 reports to an agent, right after you finish debugging why node.exe refuses to talk to WSL.
+  summary: MCP server for WeCom (Enterprise WeChat) document operations, enabling create, read, and edit of Docs and Smartsheets via MCP-compatible AI agents.
+  why_it_matters: Fills a gap in the WeCom MCP ecosystem by providing document CRUD operations, which existing servers lack, allowing agents to interact with WeCom Docs and Smartsheets programmatically.
+  mental_damage: Because nothing says 'enterprise workflow' like debugging UNC paths and Chinese encoding in WSL just to edit a spreadsheet.
   tags:
-    - mcp
+    - mcp-server
     - wecom
     - enterprise-wechat
-    - document-automation
+    - document-operations
     - python
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server whose sole identity is exposing WeCom document operations to MCP-compatible clients, making it a textbook fit for MCP Servers & Tooling.
+  reason: This is an MCP-first server providing domain-specific (WeCom Docs/Smartsheets) tooling, making MCP its primary identity.
   evidence:
-    - Repo description explicitly states 'MCP server for WeCom (Enterprise WeChat) document operations'.
-    - README confirms compatibility with Claude Desktop, Hermes Agent, and Cursor as an MCP server.
-    - Listed in awesome-mcp-servers under Server Implementations > Communication.
+    - Repo description explicitly states it is an MCP server for WeCom document operations
+    - README details 9 MCP tools for WeCom Docs/Smartsheets CRUD
+    - Listed in awesome-mcp-servers under Communication section
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -83,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:39.447Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:57d7f9bd9c16fbe592cdf55b1f6c0ad16195599d6613c67310ef95d167edcd79
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server providing domain-specific (WeCom Docs/Smartsheets) tooling, making MCP its primary identity.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for WeCom document operations
+        - README details 9 MCP tools for WeCom Docs/Smartsheets CRUD
+        - Listed in awesome-mcp-servers under Communication section
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

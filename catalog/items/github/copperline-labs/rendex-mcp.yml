@@ -51,22 +51,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:26.042Z"
       bytes: 14222
 insights:
-  summary: An MCP server that exposes Rendex's screenshot and PDF rendering API to AI agents in Claude, Cursor, and Windsurf.
-  why_it_matters: Developers can let coding agents visually capture pages, invoices, or UI states directly from the agent workflow instead of manually stitching together headless browsers.
-  mental_damage: We have successfully abstracted away the last remnants of actually looking at a webpage ourselves.
+  summary: MCP server for Rendex that enables AI agents to capture screenshots, generate PDFs, and render HTML to images of any webpage.
+  why_it_matters: Developers can integrate webpage capture and rendering capabilities directly into their AI agent workflows via MCP, enabling automated visual documentation or testing.
+  mental_damage: Now your AI agent can take screenshots of Hacker News in dark mode while you question your life choices.
   tags:
-    - mcp
-    - screenshot
-    - pdf
+    - mcp-server
+    - web-capture
+    - screenshot-api
+    - pdf-generation
     - browser-automation
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server that gives agents access to a specialized web-capture API, fitting cleanly as domain-specific MCP infrastructure.
+  reason: MCP is the primary product identity, and the server provides domain-specific webpage capture/rendering tools for AI agents.
   evidence:
-    - "Repo description: 'MCP server for Rendex — capture screenshots and render PDFs of any webpage via AI agents.'"
-    - "README: implements `rendex_screenshot` tool designed for Claude, Cursor, and Windsurf MCP clients."
-    - Listed in awesome-mcp-servers under Server Implementations > Browser Automation.
+    - Repo description explicitly identifies it as an MCP server for Rendex
+    - README details MCP client configuration and tool parameters for webpage capture
+    - Listed in awesome-mcp-servers under Browser Automation
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -85,12 +86,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:48:05.243Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:41597a79aa09ef603204a89b12f967b68860d357be9c4c2540fe1462d6c9ef53
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the primary product identity, and the server provides domain-specific webpage capture/rendering tools for AI agents.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for Rendex
+        - README details MCP client configuration and tool parameters for webpage capture
+        - Listed in awesome-mcp-servers under Browser Automation
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server providing domain-specific tools, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

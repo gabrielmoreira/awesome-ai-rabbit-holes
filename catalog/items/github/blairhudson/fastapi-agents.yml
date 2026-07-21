@@ -45,23 +45,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:13.082Z"
       bytes: 6911
 insights:
-  summary: A FastAPI extension that provides a uniform way to register, serve, and secure AI agents built with frameworks like PydanticAI, LlamaIndex, and CrewAI.
-  why_it_matters: It lets developers quickly expose multiple agent frameworks behind a single, high-performance FastAPI surface with built-in authentication and OpenAPI docs.
-  mental_damage: Because what the modern stack really needed was another abstraction layer to help us serve our proliferating agent frameworks from a single, overextended Python router.
+  summary: A FastAPI extension for integrating and serving AI agent frameworks like PydanticAI, LlamaIndex, Smolagents, and CrewAI.
+  why_it_matters: It lets developers expose multiple agent frameworks as secure, documented API endpoints with minimal boilerplate.
+  mental_damage: Now you can turn your FastAPI app into an agent zoo, because why choose one framework when you can have them all fighting in production.
   tags:
     - fastapi
-    - agents
-    - deployment
+    - agent-frameworks
+    - api-integration
     - python
-    - api
-  confidence: medium
+    - microservices
+  confidence: high
 curation:
   status: included
-  reason: The project is a code-first library and FastAPI extension that developers import and script against to serve agents, making it a framework/SDK play rather than an orchestration platform or extension of another assistant.
+  reason: The product is a code-first library/extension for embedding agent frameworks into FastAPI applications, fitting the Frameworks & SDKs category.
   evidence:
-    - Repo description states it is 'A FastAPI extension for integrating common AI agent frameworks.'
-    - "Installation and Quick Start show developers importing and using it as a Python library: `from fastapi_agents import FastAPIAgents`."
-    - Source list places it under 'Tools & Infrastructure > Deployment & Infrastructure' in an agent orchestration list, reinforcing its infra/framework role.
+    - "Repo description: 'A FastAPI extension for integrating common AI agent frameworks'"
+    - "README: Core value is registering/serving agents (PydanticAI, LlamaIndex, etc.) as FastAPI endpoints"
+    - "Source-list context: Listed under 'Deployment & Infrastructure' in an agent orchestration directory"
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -80,12 +80,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:18.574Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d287b419ed3dbc6e8b304aa5b6458ff2a52a7c496d6f6d117d93d33cad792676
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The product is a code-first library/extension for embedding agent frameworks into FastAPI applications, fitting the Frameworks & SDKs category.
+      decision_evidence:
+        - "Repo description: 'A FastAPI extension for integrating common AI agent frameworks'"
+        - "README: Core value is registering/serving agents (PydanticAI, LlamaIndex, etc.) as FastAPI endpoints"
+        - "Source-list context: Listed under 'Deployment & Infrastructure' in an agent orchestration directory"
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary identity is a code-first FastAPI extension for agent integration, not an operated control plane or multi-agent runtime.
+      review_reason: null
+      review_resume_lifecycle: null

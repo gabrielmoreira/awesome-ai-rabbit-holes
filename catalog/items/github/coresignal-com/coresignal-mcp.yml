@@ -40,21 +40,21 @@ metadata:
       bytes: 1852
 insights:
   summary: An MCP server that exposes Coresignal's B2B data APIs (companies, employees, job postings) to AI assistants via the Model Context Protocol.
-  why_it_matters: Developers can connect AI assistants directly to 74M+ company records, 823M+ employee profiles, and 399M+ job postings without writing custom API integration code.
-  mental_damage: We've终于 reached the point where your coding agent can enumerate 800 million employees but still can't figure out why your build failed.
+  why_it_matters: Lets developers query fresh multi-source B2B datasets directly from AI chat interfaces without leaving their workflow.
+  mental_damage: Now your AI can cold-call 74M companies for you, but you still have to explain to your manager why.
   tags:
-    - mcp
-    - data-integration
+    - mcp-server
     - b2b-data
-    - remote-server
+    - api-integration
+    - context-protocol
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server providing access to a specific domain's data APIs, making it a clear fit for the MCP Servers & Tooling category under Domain Servers.
+  reason: "MCP is the product identity: this is a dedicated MCP server exposing domain-specific data APIs to AI assistants."
   evidence:
-    - Repo name is 'coresignal-mcp' and README explicitly describes 'The Coresignal MCP Server' as the product.
-    - Listed in awesome-mcp-servers under the 'Official Servers' section.
-    - Provides MCP configuration JSON and exposes Company, Employee, and Jobs APIs via MCP protocol.
+    - README explicitly describes it as an MCP server for Coresignal's data
+    - Provides MCP client configuration and tool endpoints
+    - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:48:13.791Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:27c9b871a1f02a5b300571c8aa8e51f9b8cb6d33ba07efd9be711bd148a67791
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing domain-specific data APIs to AI assistants."
+      decision_evidence:
+        - README explicitly describes it as an MCP server for Coresignal's data
+        - Provides MCP client configuration and tool endpoints
+        - Listed in awesome-mcp-servers under Official Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain data, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

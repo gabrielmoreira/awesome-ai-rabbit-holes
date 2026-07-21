@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:09.857Z"
       bytes: 9945
 insights:
-  summary: A terminal user interface that provides a unified shell and session manager for running multiple AI coding agents such as Claude, Gemini, and Codex concurrently.
-  why_it_matters: It lets developers interleave a real shell workflow with prompts to different agents while managing concurrent sessions and file context from a single TUI.
-  mental_damage: You now have a terminal dashboard to orchestrate a small army of bots, because keeping track of which AI is hallucinating in which directory was the missing piece of your workflow.
+  summary: A terminal-native unified interface for interacting with multiple coding agents via a TUI.
+  why_it_matters: Developers can switch between agents like Claude, Gemini, and Codex without leaving their terminal, with full shell integration and session management.
+  mental_damage: Finally, a way to juggle five different AI coding assistants in one terminal, because apparently one wasn't enough.
   tags:
     - terminal
     - tui
-    - coding-agents
-    - session-manager
-    - cli
+    - multi-agent
+    - coding-assistant
+    - agent-client-protocol
   confidence: high
 curation:
   status: included
-  reason: This is a terminal-native interface that acts as a primary coding assistant surface by hosting and managing multiple agents, fitting the Terminal & CLI Agents section of coding-agents.
+  reason: Toad is a primary coding assistant interface that directly orchestrates multiple agents in a terminal workflow, fitting the core definition of a coding agent.
   evidence:
-    - Repo description states it is 'A unified interface for AI in your terminal.'
-    - README explicitly says 'Toad is an interface to coding agents, such as Claude, Gemini, Codex, OpenHand, and many more.'
-    - Source list places it under 'Harnesses & orchestration > Session managers & parallel runners' for CLI coding agents.
+    - "Repo description: 'A unified interface for AI in your terminal'"
+    - "README: 'Toad is an interface to coding agents, such as Claude, Gemini, Codex, OpenHand, and many more'"
+    - "Source-list context: Listed under 'Harnesses & orchestration > Session managers & parallel runners' in awesome-cli-coding-agents"
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -84,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:32.801Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:890c0eca2a66864db36b663db8550ca2cbd369da3fe9388daacfea2c2ef44c7c
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Toad is a primary coding assistant interface that directly orchestrates multiple agents in a terminal workflow, fitting the core definition of a coding agent.
+      decision_evidence:
+        - "Repo description: 'A unified interface for AI in your terminal'"
+        - "README: 'Toad is an interface to coding agents, such as Claude, Gemini, Codex, OpenHand, and many more'"
+        - "Source-list context: Listed under 'Harnesses & orchestration > Session managers & parallel runners' in awesome-cli-coding-agents"
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because Toad's primary identity is a developer-facing terminal agent interface rather than a multi-agent control plane.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -41,22 +41,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:58.562Z"
       bytes: 23776
 insights:
-  summary: An MCP server that connects AI assistants to Alibaba Cloud's Yunxiao DevOps platform for managing repositories, projects, pipelines, and merge requests.
-  why_it_matters: It enables AI coding agents to autonomously handle DevOps workflows like code reviews, task management, and CI/CD operations within the Alibaba Cloud ecosystem.
-  mental_damage: Your AI assistant can now iterate on requirements and submit merge requests, which is slightly more efficient than doing it yourself but twice as humiliating when it breaks the pipeline.
+  summary: An MCP server that enables AI assistants to interact with Alibaba Cloud's Yunxiao DevOps platform for managing repositories, projects, pipelines, and more.
+  why_it_matters: Developers using MCP-compatible assistants can now automate and integrate DevOps workflows (code repos, CI/CD, task management) directly from their AI tooling.
+  mental_damage: Finally, a way to let your AI assistant argue with your pipeline YAML instead of you.
   tags:
     - mcp-server
     - devops
-    - alibaba-cloud
+    - alibabacloud
     - yunxiao
+    - automation
   confidence: high
 curation:
   status: included
-  reason: This is a protocol-native MCP server specifically built to expose Yunxiao DevOps capabilities to any MCP-compatible AI assistant, making it a textbook fit for the MCP Servers & Tooling category.
+  reason: This is an MCP-first server providing domain-specific DevOps tooling for the Yunxiao platform, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states it is a 'Yunxiao MCP Server' providing tools for AI assistants to interact with the platform.
-    - Listed in the 'awesome-mcp-servers' list under the 'Official Servers' section.
-    - README usage examples show configuration as an MCP server for clients like Cursor, Claude Desktop, and iFlow.
+    - Repo description explicitly states it is an MCP Server for Yunxiao platform interaction
+    - README details MCP server configuration and tool capabilities for DevOps workflows
+    - Listed in awesome-mcp-servers under Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +76,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:20.835Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:17e6a15b1806a1460b345f9e69839bcf4d1c0c27063ab21a61f126c268f7e1e0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server providing domain-specific DevOps tooling for the Yunxiao platform, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP Server for Yunxiao platform interaction
+        - README details MCP server configuration and tool capabilities for DevOps workflows
+        - Listed in awesome-mcp-servers under Official Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is an MCP server (not just an extension) and MCP is the primary adopted protocol.
+      review_reason: null
+      review_resume_lifecycle: null

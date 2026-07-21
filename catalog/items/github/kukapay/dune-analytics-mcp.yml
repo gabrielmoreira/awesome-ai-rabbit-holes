@@ -55,22 +55,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:40.804Z"
       bytes: 2446
 insights:
-  summary: A Model Context Protocol server that exposes Dune Analytics query execution and results retrieval to AI agents as callable tools.
-  why_it_matters: Developers can connect agents to on-chain data without building custom API wrappers, letting models query Dune dashboards directly during conversations.
-  mental_damage: Another MCP server appears so your agent can explain Ethereum gas spikes to you in CSV while you pretend you're still a backend engineer.
+  summary: An MCP server that exposes Dune Analytics query execution and results retrieval to AI agents.
+  why_it_matters: Developers can now let their agents fetch and process on-chain or financial data from Dune without leaving their coding workflow.
+  mental_damage: Because nothing says 'modern development' like your AI assistant casually running SQL against Ethereum blocks while you debug a frontend.
   tags:
     - mcp
-    - crypto
-    - data
-    - analytics
+    - dune-analytics
+    - finance
+    - data-retrieval
+    - python
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server providing Dune Analytics data to agents, making MCP Servers & Tooling the correct fit.
+  reason: The product is explicitly an MCP server whose primary identity is bridging Dune Analytics data to AI agents via MCP.
   evidence:
-    - Repo description states 'A mcp server that bridges Dune Analytics data to AI agents.'
-    - README shows two MCP tools (get_latest_result, run_query) returning CSV-formatted results.
-    - Included in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech sections.
+    - Repo description states it is 'A mcp server that bridges Dune Analytics data to AI agents'
+    - README confirms MCP server functionality with tools like get_latest_result and run_query
+    - Listed in awesome-mcp-list under Finance & Fintech section
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:55.563Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:39e31b1dec609cd3a3702e56a0d8b6a926fbe3ba3d35e742534a0e1c9eed95c3
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server whose primary identity is bridging Dune Analytics data to AI agents via MCP.
+      decision_evidence:
+        - Repo description states it is 'A mcp server that bridges Dune Analytics data to AI agents'
+        - README confirms MCP server functionality with tools like get_latest_result and run_query
+        - Listed in awesome-mcp-list under Finance & Fintech section
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant).
+      review_reason: null
+      review_resume_lifecycle: null

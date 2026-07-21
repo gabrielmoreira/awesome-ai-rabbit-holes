@@ -64,23 +64,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:08.624Z"
       bytes: 7528
 insights:
-  summary: An MCP server that lets AI assistants control Android devices via ADB to manage apps, automate UI interactions, and analyze system logs.
-  why_it_matters: It closes the loop for agentic workflows by allowing coding assistants to directly install, debug, and interact with mobile apps on real hardware.
-  mental_damage: We have finally reached the point where your AI assistant can tap 'Accept Cookies' on your phone so you don't have to.
+  summary: An MCP server that enables AI assistants to control and interact with Android devices via ADB.
+  why_it_matters: Developers can integrate Android device control into their AI workflows, enabling automated testing, debugging, and UI interactions through natural language.
+  mental_damage: Now your AI can tap, swipe, and crash your Android app before you even finish your coffee.
   tags:
     - mcp
     - android
     - adb
-    - debugging
-    - automation
+    - device-control
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server that acts as a bridge between AI models and Android devices using the Model Context Protocol.
+  reason: DroidMind's primary identity is as an MCP server for Android device control, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - "Repo description explicitly states: 'Control your Android devices with AI using Model Context Protocol'."
-    - "README states: 'By implementing the Model Context Protocol (MCP), DroidMind allows AI models to directly interact with Android devices'."
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Developer Tools sections.
+    - Repo description explicitly states it is for controlling Android devices with AI using MCP
+    - README highlights MCP as the core protocol and lists MCP-compatible clients (Claude, Cursor, Cline)
+    - Source-list context places it in MCP server directories under Developer Tools
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -99,12 +99,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:13.025Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:56a99d599ad1349c208202f3a4eac05f1a7ea07cc7964c2f3dab924eab078223
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: DroidMind's primary identity is as an MCP server for Android device control, making it a clear fit for MCP Servers & Tooling.
+      decision_evidence:
+        - Repo description explicitly states it is for controlling Android devices with AI using MCP
+        - README highlights MCP as the core protocol and lists MCP-compatible clients (Claude, Cursor, Cline)
+        - Source-list context places it in MCP server directories under Developer Tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server for Android device control, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -1,0 +1,110 @@
+id: scrapeless__com__en
+kind: website
+name: Scrapeless
+canonical_url: https://scrapeless.com/en
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__scrapeless__com__en__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Scrapeless
+        extracted_url: https://scrapeless.com/en
+        surrounding_text: "- **[Scrapeless](https://github.com/scrapeless-ai/scrapeless-mcp-server)** - Integrate real-time [Scrapeless](https://www.scrapeless.com/en) Google SERP(Google Search, Google Flight, Google Map, Google Jobs....) results into your LLM applications. This server enables dynamic context retrieval for AI workflows, chatbots, and research tools."
+        confidence: high
+    - id: discovery__www__scrapeless__com__en__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Scrapeless
+        extracted_url: https://www.scrapeless.com/en
+        surrounding_text: "- **[Scrapeless](https://github.com/scrapeless-ai/scrapeless-mcp-server)** - Integrate real-time [Scrapeless](https://www.scrapeless.com/en) Google SERP(Google Search, Google Flight, Google Map, Google Jobs....) results into your LLM applications. This server enables dynamic context retrieval for AI workflows, chatbots, and research tools."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A full-stack web scraping toolkit offering APIs, cloud browsers, proxies, and anti-bot solutions for data extraction and AI agent operations.
+  why_it_matters: Developers can offload complex scraping, anti-detection, and proxy management to a unified service, reducing infrastructure overhead for data pipelines or AI agent workflows.
+  mental_damage: Finally, a way to scrape the web without getting blocked—until the scraped sites realize you’re using Scrapeless.
+  tags:
+    - web-scraping
+    - ai-agents
+    - proxies
+    - anti-detection
+    - data-extraction
+  confidence: high
+curation:
+  status: excluded
+  reason: The product is a general-purpose web scraping SaaS with AI agent use cases, not a developer-tooling product focused on coding workflows, agent orchestration, or MCP-first infrastructure.
+  evidence:
+    - Primary identity is a web scraping toolkit (APIs, browsers, proxies) for data extraction
+    - MCP server is a secondary feature, not the core product identity
+    - Source-list context places it under MCP servers, but the product itself is broader SaaS scraping
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:37:17.001Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e8ce36e02cb1c774da1aada62f71625a1d14ebd054d434b14a40aef036190985
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a general-purpose web scraping SaaS with AI agent use cases, not a developer-tooling product focused on coding workflows, agent orchestration, or MCP-first infrastructure.
+      decision_evidence:
+        - Primary identity is a web scraping toolkit (APIs, browsers, proxies) for data extraction
+        - MCP server is a secondary feature, not the core product identity
+        - Source-list context places it under MCP servers, but the product itself is broader SaaS scraping
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.970Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

@@ -43,23 +43,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:21.366Z"
       bytes: 27885
 insights:
-  summary: Infinity is a high-throughput, low-latency REST API server for running text-embedding, reranking, CLIP, CLAP, and ColPali models locally or in self-hosted environments.
-  why_it_matters: Developers building RAG pipelines or semantic search can deploy any HuggingFace embedding model with OpenAI-compatible APIs and hardware acceleration without managing raw inference code.
-  mental_damage: Yet another opportunity to spend three days tuning a self-hosted embedding stack just to discover that your 'high-throughput' setup is still slower than the vendor API you were trying to replace.
+  summary: Infinity is a high-throughput, low-latency REST API for serving text-embeddings, reranking, and multimodal models from HuggingFace.
+  why_it_matters: It lets developers deploy embedding and reranking models with minimal setup, enabling fast semantic search and retrieval in AI applications.
+  mental_damage: Yet another model serving API that makes you wonder if we really needed yet another way to serve BERT variants over HTTP.
   tags:
+    - model-serving
     - embeddings
-    - self-hosted
-    - inference
-    - rest-api
-    - local-ai
+    - inference-api
   confidence: high
 curation:
   status: included
-  reason: Infinity is a self-hosted serving runtime for embeddings and reranking models with OpenAI-compatible APIs, fitting cleanly as local AI infrastructure rather than a coding assistant or framework.
+  reason: Infinity is a self-hostable inference server for embedding and reranking models, making it a local serving tool rather than a coding assistant, framework, or orchestrator.
   evidence:
-    - Repo description explicitly defines it as a 'high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali'.
-    - README highlights self-hosted deployment with Docker, FastAPI, and support for NVIDIA CUDA, AMD ROCM, CPU, and Apple MPS accelerators.
-    - Listed in Awesome-LLMOps under 'Serving > Large Model Serving', reinforcing its identity as model-serving infrastructure.
+    - "Repo description: 'Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali'"
+    - "README: 'Infinity is a high-throughput, low-latency REST API for serving text-embeddings, reranking models, clip, clap and colpali'"
+    - "Source-list context: listed in Awesome-LLMOps under Serving > Large Model Serving"
 placement:
   primary_category: local-ai
   section: Local Serving / APIs
@@ -78,12 +76,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:20:20.043Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bdd227cfcbda25c601d9e2c763d92f0539006d8938451942928364bddf7bc33e
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: Infinity is a self-hostable inference server for embedding and reranking models, making it a local serving tool rather than a coding assistant, framework, or orchestrator.
+      decision_evidence:
+        - "Repo description: 'Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali'"
+        - "README: 'Infinity is a high-throughput, low-latency REST API for serving text-embeddings, reranking models, clip, clap and colpali'"
+        - "Source-list context: listed in Awesome-LLMOps under Serving > Large Model Serving"
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because Infinity is primarily a deployable inference server for local/self-hosted execution, not a code-first library or SDK for building AI workflows.
+      review_reason: null
+      review_resume_lifecycle: null

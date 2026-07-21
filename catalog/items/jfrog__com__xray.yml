@@ -36,23 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: JFrog Xray is an enterprise-grade software composition analysis (SCA) tool that detects vulnerabilities, manages licenses, and mitigates open-source risks in software and AI artifacts.
-  why_it_matters: It integrates security and compliance scanning directly into the CI/CD pipeline, helping developers identify and remediate open-source and AI supply chain risks before shipping.
-  mental_damage: Now your AI agents can inherit the same paralyzing vulnerability paralysis usually reserved for human-led DevOps teams.
+  summary: JFrog Xray is an enterprise-grade software composition analysis (SCA) tool for detecting vulnerabilities, managing licenses, and mitigating open-source risks in real-time.
+  why_it_matters: It helps developers identify, prioritize, and remediate security and compliance issues in dependencies early in the development cycle.
+  mental_damage: Because nothing says 'modern development' like a tool that reminds you your entire supply chain is one log4j away from chaos.
   tags:
+    - security
     - sca
     - devsecops
-    - supply-chain
-    - security
-    - jfrog
+    - compliance
+    - dependency-management
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because JFrog Xray is a traditional DevSecOps and software composition analysis tool that lacks a primary developer-facing AI coding assistant, agent, or AI-native workflow identity.
+  reason: Xray is a security and compliance tool for software supply chains, not a developer-facing AI tool, agent, or workflow product.
   evidence:
-    - Product description defines it as an SCA tool for vulnerabilities and license compliance, not an AI coding tool.
-    - JFrog site positions Xray under DevSecOps/SCA, with AI mentioned only in the context of governing models and MCP servers.
-    - Source list placed it in a Security section, indicating it is a security scanner rather than a core AI coding assistant.
+    - Primary product identity is SCA (Software Composition Analysis) for vulnerabilities and license compliance
+    - Source-list context places it under 'Security' in a general AI coding tools list, not as an AI-native developer tool
+    - No AI-specific functionality described in the core product pitch
 placement:
   primary_category: null
   section: null
@@ -70,12 +70,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:46.904Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1184b70405e3944c8f7e4fb4632282102f56048a4ac502e7b08f830bdb66d123
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Xray is a security and compliance tool for software supply chains, not a developer-facing AI tool, agent, or workflow product.
+      decision_evidence:
+        - Primary product identity is SCA (Software Composition Analysis) for vulnerabilities and license compliance
+        - Source-list context places it under 'Security' in a general AI coding tools list, not as an AI-native developer tool
+        - No AI-specific functionality described in the core product pitch
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

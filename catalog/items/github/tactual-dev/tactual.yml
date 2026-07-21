@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: tactual-dev/tactual
+    html_url: https://github.com/tactual-dev/tactual
     created_at: "2026-04-05T07:51:17Z"
-    pushed_at: "2026-05-03T17:54:05Z"
+    pushed_at: "2026-06-28T17:53:23Z"
     description: Screen-reader navigation cost analyzer — models the real effort to discover, reach, and operate interactive web content
     homepage: https://tactual.sh
     topics:
@@ -45,10 +45,10 @@ metadata:
       - sarif
       - screen-reader
       - wcag
-    last_checked_at: "2026-05-06T22:46:39.910Z"
+    last_checked_at: "2026-07-21T15:20:39.112Z"
     readme:
-      fetched_at: "2026-05-06T22:46:39.910Z"
-      bytes: 49594
+      fetched_at: "2026-07-21T15:20:39.112Z"
+      bytes: 57857
 insights:
   summary: A screen-reader navigation cost analyzer that models the real effort required to discover, reach, and operate interactive web content via Playwright and optional MCP server integration.
   why_it_matters: It shifts accessibility testing from static conformance checks to measuring actual user effort, outputting actionable findings with selectors and remediation candidates for CI and local workflows.
@@ -81,16 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:39.911Z"
+    updated_at: "2026-07-21T15:20:39.112Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

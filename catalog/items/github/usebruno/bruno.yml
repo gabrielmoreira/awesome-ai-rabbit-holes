@@ -24,19 +24,35 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 45774
+    forks: 2700
+    license: MIT
+    archived: false
+    full_name: usebruno/bruno
+    html_url: https://github.com/usebruno/bruno
+    created_at: "2022-09-27T20:51:45Z"
+    pushed_at: "2026-07-21T14:02:34Z"
+    description: Opensource IDE For Exploring and Testing API's (lightweight alternative to Postman/Insomnia)
+    homepage: https://www.usebruno.com/
+    topics:
+      - api-client
+      - api-testing
+      - automation
+      - developer-tools
+      - git
+      - graphql-client
+      - http-client
+      - javascript
+      - openapi
+      - openapi3
+      - opensource
+      - rest-api
+      - testing
+      - testing-tools
+    last_checked_at: "2026-07-21T15:21:00.243Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:00.243Z"
+      bytes: 8412
 insights:
   summary: null
   why_it_matters: null
@@ -51,8 +67,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (45774) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,13 +76,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-07-21T15:21:00.243Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

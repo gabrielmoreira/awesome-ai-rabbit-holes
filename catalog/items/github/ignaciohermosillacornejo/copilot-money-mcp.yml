@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:10.248Z"
       bytes: 15808
 insights:
-  summary: An MCP server that exposes locally cached Copilot Money personal finance data to AI assistants via 17 read-only tools for spending, investments, budgets, and goals.
-  why_it_matters: Developers who self-host their financial life through Copilot Money can now query their own data locally using Claude, Cursor, or any MCP client without sending queries to a third-party finance API.
-  mental_damage: We have successfully reached the point where your AI assistant needs a dedicated protocol server just to judge your avocado toast spending habits with zero network requests.
+  summary: An MCP server that enables AI assistants to query locally cached Copilot Money personal finance data.
+  why_it_matters: Developers can integrate personal finance data into AI workflows without cloud dependencies, enabling privacy-first financial queries.
+  mental_damage: Now your AI can judge your spending habits as harshly as your partner does.
   tags:
     - mcp
     - personal-finance
-    - local-first
+    - local-data
     - typescript
     - bun
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server that gives AI assistants access to a specific domain (personal finance), fitting cleanly into MCP Domain Servers.
+  reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (personal finance) tooling."
   evidence:
-    - Repo description explicitly states 'MCP server for Copilot Money App' as the primary identity.
-    - Included in awesome-mcp-servers under Finance & Fintech, confirming domain-server positioning.
-    - README details 17 read tools that expose local LevelDB data to MCP-compatible clients like Claude and Cursor.
+    - Repo description explicitly identifies it as an MCP server for Copilot Money
+    - README details 17 read tools for finance data and emphasizes local-only operation
+    - Project is actively maintained (pushed_at 2026-07-20)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:37.981Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8b66494c05c1dd3c31acdab4658806ab0673342c475aa3c0ef7a42df75b92f6d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing domain-specific (personal finance) tooling."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for Copilot Money
+        - README details 17 read tools for finance data and emphasizes local-only operation
+        - Project is actively maintained (pushed_at 2026-07-20)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server (not just an extension for another tool).
+      review_reason: null
+      review_resume_lifecycle: null

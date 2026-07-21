@@ -56,23 +56,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:57.394Z"
       bytes: 12853
 insights:
-  summary: An MCP server that lets AI assistants check deployment status, logs, and history across Vercel, Netlify, and Cloudflare Pages from within the chat.
-  why_it_matters: Developers can track and debug deployments across multiple platforms without leaving their AI chat session or switching to hosting dashboards.
-  mental_damage: We have successfully built an MCP server so your AI assistant can nervously refresh your deployment status for you, eliminating the need to do it yourself like a savage.
+  summary: Universal deployment tracker for AI assistants that checks deployment status across platforms like Vercel, Netlify, and Cloudflare Pages without leaving the AI chat.
+  why_it_matters: Developers can monitor deployments in real-time directly within their AI assistant workflow, eliminating context-switching to external dashboards.
+  mental_damage: Finally, a way to ask your AI assistant if the build is done yet, instead of refreshing the Vercel dashboard like a nervous parent at a school play.
   tags:
     - mcp
-    - deployment
-    - monitoring
-    - ci-cd
+    - deployment-monitoring
+    - ai-integration
+    - vercel
     - netlify
   confidence: high
 curation:
   status: included
-  reason: This is an MCP-native server providing deployment tracking capabilities, fitting cleanly as a domain-specific MCP server rather than a generic extension or framework.
+  reason: The product is an MCP server whose primary identity is providing deployment tracking capabilities via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states 'Universal deployment tracker for AI assistants' with MCP topic tags.
-    - README shows it runs as `npx deploy-mcp` and is configured under `mcpServers` for AI assistant integration.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', confirming MCP server identity.
+    - Repo description explicitly states it is a 'Universal deployment tracker for AI assistants'
+    - README confirms it is an MCP server with `npx deploy-mcp` as the entrypoint
+    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -91,12 +91,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:07.763Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:69c09c4de7543bafa376fb065f612b356083d1972df69f4f3a2a7569d23b9eb5
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server whose primary identity is providing deployment tracking capabilities via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is a 'Universal deployment tracker for AI assistants'
+        - README confirms it is an MCP server with `npx deploy-mcp` as the entrypoint
+        - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is an MCP server providing deployment tracking, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

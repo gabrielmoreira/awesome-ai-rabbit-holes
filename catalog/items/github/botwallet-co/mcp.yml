@@ -50,23 +50,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:14.337Z"
       bytes: 9416
 insights:
-  summary: An MCP server that gives AI agents a USDC wallet with FROST threshold signing, spending guard rails, and x402 paid API access.
-  why_it_matters: Developers can let agents handle payments, create invoices, and pay for APIs while enforcing human approval on larger transactions.
-  mental_damage: We have finally built the financial infrastructure to let a hallucinating agent accidentally donate your stablecoins to a nonexistent consulting session.
+  summary: MCP server that enables AI agents to manage USDC wallets with FROST threshold signing, x402 paid API access, and spending guardrails.
+  why_it_matters: Lets developers give AI agents financial autonomy (invoicing, API payments, wallet management) while retaining human oversight via spending limits and approval workflows.
+  mental_damage: Now your agent can pay for its own API calls, and you’ll only find out when it starts invoicing your clients.
   tags:
     - mcp
     - payments
     - wallet
-    - agent-infrastructure
     - fintech
+    - agent-autonomy
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that adds wallet and payment capabilities to MCP-compatible clients, making MCP the clear product identity.
+  reason: "MCP is the product identity: this is a dedicated MCP server for financial operations, not a compatibility footnote or broader platform."
   evidence:
-    - "Repo description: 'MCP server for Botwallet — Give any AI agent a wallet via Model Context Protocol.'"
-    - "README: 'Works with Claude Desktop, Cursor, Windsurf, Cline, and any MCP-compatible client.'"
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
+    - Repo description explicitly identifies it as an MCP server for Botwallet
+    - README details MCP client configuration and server capabilities
+    - Already listed in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -85,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:26:46.006Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:665fa5bebe1a0425e6231ecaeb1bd863cedaafa044eed7e4100a9f2583777e36
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for financial operations, not a compatibility footnote or broader platform."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for Botwallet
+        - README details MCP client configuration and server capabilities
+        - Already listed in awesome-mcp-servers under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (financial domain) rather than an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

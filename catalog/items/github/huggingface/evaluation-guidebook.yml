@@ -46,9 +46,9 @@ metadata:
       fetched_at: "2026-07-20T15:11:06.259Z"
       bytes: 6880
 insights:
-  summary: A comprehensive guidebook from Hugging Face covering practical and theoretical methods for evaluating LLMs, including automated benchmarks, human evaluation, and LLM-as-a-judge techniques.
-  why_it_matters: It provides developers with structured methodologies to objectively measure model performance and design custom evaluations for production tasks.
-  mental_damage: Yet another meta-layer of abstraction where we spend more time scientifically proving the AI is confused than actually fixing the bugs it wrote.
+  summary: A guidebook sharing practical insights and theoretical knowledge about LLM evaluation, including benchmarks, human evaluation, and LLM-as-a-judge methodologies.
+  why_it_matters: It provides developers with structured guidance on designing, troubleshooting, and improving LLM evaluations for their specific tasks.
+  mental_damage: Finally, a guide to evaluating LLMs that doesn’t just say 'it depends' and leave you there.
   tags:
     - evaluation
     - llm
@@ -57,15 +57,15 @@ insights:
     - huggingface
   confidence: high
 curation:
-  status: excluded
-  reason: This is a documentation resource and educational guide rather than a standalone developer tool, framework, or product.
+  status: included
+  reason: The project is a comprehensive resource focused on LLM evaluation methodologies, which aligns with the Evals & Benchmarks category's emphasis on measuring and improving model behavior.
   evidence:
-    - README explicitly states 'THIS GUIDEBOOK IS NO LONGER MAINTAINED' and redirects to a Hugging Face space.
-    - Repository description defines it as a sharing of 'practical insights and theoretical knowledge', not a software tool.
-    - Source list context places it in an 'awesome-LLM-resources' list under 'Evaluation', identifying it as a learning resource.
+    - Repo description explicitly states it shares insights about LLM evaluation
+    - README details chapters on automated benchmarks, human evaluation, and LLM-as-a-judge
+    - Source-list context places it in an 'Evaluation' section
 placement:
-  primary_category: null
-  section: null
+  primary_category: evals
+  section: Agent Benchmarks
 lifecycle:
   status: promotion_candidate
   reason: Stars (2102) exceeded threshold (150)
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:32.724Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:710a78ec3e4e8e0314d6cf96a7c4cfcbd12125030c10519c0ddb12a02d99cb8a
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The project is a comprehensive resource focused on LLM evaluation methodologies, which aligns with the Evals & Benchmarks category's emphasis on measuring and improving model behavior.
+      decision_evidence:
+        - Repo description explicitly states it shares insights about LLM evaluation
+        - README details chapters on automated benchmarks, human evaluation, and LLM-as-a-judge
+        - Source-list context places it in an 'Evaluation' section
+      category_candidates:
+        - evals
+        - awesome-awesomes
+      contrastive_reason: Choose evals over awesome-awesomes because the core value is actionable evaluation guidance rather than ecosystem navigation.
+      review_reason: null
+      review_resume_lifecycle: null

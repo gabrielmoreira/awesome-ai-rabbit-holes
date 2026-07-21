@@ -55,22 +55,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:18.112Z"
       bytes: 3174
 insights:
-  summary: An MCP server that exposes 20 structured datasets—including NPI, SEC, PACER, weather, and crypto intelligence—to AI agents via the Model Context Protocol.
-  why_it_matters: It lets coding agents natively query real-time government, financial, and crypto datasets without custom API glue code or manual data plumbing.
-  mental_damage: Yet another MCP server so your agent can hallucinate SEC filings and DeFi liquidations with official-looking confidence.
+  summary: MCP server providing access to 20 structured datasets (NPI, SEC, PACER, Weather, OTC, crypto, prediction markets) for AI agents via the Model Context Protocol.
+  why_it_matters: Developers can query real-time government, business, crypto, and prediction market data directly from their AI agents without custom API integrations.
+  mental_damage: Now your agent can argue with you about SEC filings while also knowing which Polymarket whales are about to get liquidated.
   tags:
-    - mcp
-    - data-access
-    - ai-agents
-    - crypto
-    - government-data
+    - mcp-server
+    - data-api
+    - model-context-protocol
+    - structured-data
+    - x402-payments
   confidence: high
 curation:
   status: included
-  reason: The product identity is an MCP server exposing domain-specific datasets to agents, which is a direct fit for the MCP Domain Servers section.
+  reason: This is a dedicated MCP server whose primary identity is exposing datasets via the Model Context Protocol, fitting the MCP Servers & Tooling category.
   evidence:
-    - "Repo description explicitly states: 'MCP server for Verilex Data — query NPI, SEC, PACER, Weather, and OTC datasets from AI agents'"
-    - "README confirms: 'MCP server for Verilex Data — 20 structured datasets accessible from AI agents via the Model Context Protocol'"
+    - Repo description explicitly states it is an MCP server for Verilex Data
+    - README details 20 structured datasets accessible via MCP
     - Listed in awesome-mcp-servers under Server Implementations > Data Platforms
 placement:
   primary_category: mcp
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:40:50.741Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:28169aa1991e6082087f0863434600eff1daf37bcde470fd883d4b67996cd172
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is exposing datasets via the Model Context Protocol, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Verilex Data
+        - README details 20 structured datasets accessible via MCP
+        - Listed in awesome-mcp-servers under Server Implementations > Data Platforms
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server exposing datasets, not as a general-purpose SDK or framework.
+      review_reason: null
+      review_resume_lifecycle: null

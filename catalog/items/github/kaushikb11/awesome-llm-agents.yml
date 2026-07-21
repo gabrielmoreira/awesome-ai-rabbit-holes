@@ -42,23 +42,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:32.302Z"
       bytes: 22532
 insights:
-  summary: A curated, frequently updated awesome list indexing LLM agent frameworks, orchestration tools, and development platforms.
-  why_it_matters: It serves as a centralized map for developers trying to navigate the rapidly expanding and often redundant ecosystem of agent frameworks.
-  mental_damage: Because nothing says 'I am optimizing my workflow' quite like spending three hours browsing a list of tools that all promise to do the exact same thing.
+  summary: A curated list of LLM agent frameworks and development tools.
+  why_it_matters: Provides developers with a navigable map of agent frameworks, saving time in discovering and comparing options for building AI agents.
+  mental_damage: Because nothing says 'productivity' like spending an afternoon choosing between 20 agent frameworks that all claim to be the one ring to rule them all.
   tags:
-    - agents
+    - curated-list
+    - agent-frameworks
+    - discovery
     - awesome-list
-    - directory
-    - frameworks
-    - llm
   confidence: high
 curation:
   status: included
-  reason: The project is a curated directory and index of other tools rather than a standalone product, framework, or agent itself.
+  reason: This is a curated directory of agent frameworks, which fits the 'Awesome Awesomes' category as its primary value is ecosystem navigation for developers.
   evidence:
-    - "Repo description explicitly states: 'A curated list of awesome LLM agents frameworks.'"
-    - README confirms it is a list containing entries for CrewAI, Langchain, AutoGen, etc., with star counts and descriptions.
-    - Direct awesome list source is marked as 'yes', confirming its identity as a navigation aid.
+    - Repo description explicitly states it is a curated list of LLM agents frameworks
+    - README confirms it is a curated list with structured entries for frameworks like CrewAI, LangChain, AutoGen, etc.
+    - Direct awesome list source flag is true
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -77,12 +76,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:12:00.445Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:60b62cd040cca69b2ca5e1da02848f6ed2cd3a49688f83de0211dfc842fab0c2
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: This is a curated directory of agent frameworks, which fits the 'Awesome Awesomes' category as its primary value is ecosystem navigation for developers.
+      decision_evidence:
+        - Repo description explicitly states it is a curated list of LLM agents frameworks
+        - README confirms it is a curated list with structured entries for frameworks like CrewAI, LangChain, AutoGen, etc.
+        - Direct awesome list source flag is true
+      category_candidates:
+        - awesome-awesomes
+        - ai-frameworks
+      contrastive_reason: Choose awesome-awesomes over ai-frameworks because the product is a directory of frameworks, not a framework itself.
+      review_reason: null
+      review_resume_lifecycle: null

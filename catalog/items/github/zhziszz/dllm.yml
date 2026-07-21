@@ -23,19 +23,24 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 2652
+    forks: 280
+    license: Apache-2.0
+    archived: false
+    full_name: ZHZisZZ/dllm
+    html_url: https://github.com/ZHZisZZ/dllm
+    created_at: "2025-09-14T06:17:11Z"
+    pushed_at: "2026-07-17T21:15:25Z"
+    description: "dLLM: Simple Diffusion Language Modeling"
+    homepage: https://arxiv.org/pdf/2602.22661
+    topics:
+      - discrete-diffusion-models
+      - llm
+      - nlp
+    last_checked_at: "2026-07-21T15:21:27.642Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:27.642Z"
+      bytes: 16713
 insights:
   summary: null
   why_it_matters: null
@@ -50,8 +55,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (2652) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -59,15 +64,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-12T15:06:46.826Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for zhziszz/dllm
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-21T15:21:27.642Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

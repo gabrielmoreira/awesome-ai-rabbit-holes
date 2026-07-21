@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:20.106Z"
       bytes: 5837
 insights:
-  summary: An MCP server that provides AI assistants with live access to prop firm discount codes, firm comparisons, and challenge pricing across 20+ proprietary trading firms.
-  why_it_matters: Developers building trading workflows or evaluating prop firms can query real-time deal data directly from their AI assistant instead of scraping sites manually.
-  mental_damage: "We have successfully solved the most pressing infrastructure crisis of our time: letting Claude tell you which futures prop firm has the deepest discount code."
+  summary: An MCP server that enables AI assistants to query live prop firm discount codes, compare firms, and find the cheapest challenges across 20+ proprietary trading firms.
+  why_it_matters: Developers integrating AI assistants into trading workflows can now programmatically access real-time prop firm deal data without manual scraping or API wrangling.
+  mental_damage: Because nothing says 'developer productivity' like your AI assistant suddenly pivoting to day-trading advice.
   tags:
-    - mcp
-    - trading
-    - fintech
-    - tooling
+    - mcp-server
+    - finance
+    - prop-trading
+    - api-integration
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server whose primary identity is exposing prop firm deal data to MCP-compatible assistants, making it a clear fit for the MCP Servers & Tooling category.
+  reason: This is a domain-specific MCP server whose primary identity is providing prop firm data via MCP protocol, fitting the MCP Servers & Tooling category.
   evidence:
-    - Repo description explicitly states 'MCP server for Prop Firm Deal Finder'
-    - README lists MCP tools like pfdf_get_deals and pfdf_compare_firms for AI assistants
-    - Published on the Official MCP Registry and Smithery as an MCP server
+    - Repo description explicitly identifies it as an MCP server for prop firm deal data
+    - README details MCP tools, transports (stdio/HTTP), and registry listings
+    - Source-list context shows it's curated in awesome-mcp-servers under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:38.511Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:37af05e788bf35ee27b50d250c5602f9ee5935e2b7ab71a93dc6f65ae42d6b1a
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a domain-specific MCP server whose primary identity is providing prop firm data via MCP protocol, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for prop firm deal data
+        - README details MCP tools, transports (stdio/HTTP), and registry listings
+        - Source-list context shows it's curated in awesome-mcp-servers under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not an extension augmenting another assistant).
+      review_reason: null
+      review_resume_lifecycle: null

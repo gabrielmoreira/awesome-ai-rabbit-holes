@@ -40,22 +40,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:16.697Z"
       bytes: 3005
 insights:
-  summary: An MCP server that lets AI assistants query Amazon Advertising data, manage campaigns, and generate reports using natural language.
-  why_it_matters: It allows developers to integrate Amazon Ads account management directly into MCP-compatible workflows like Claude Desktop or LibreChat without writing custom API wrappers.
-  mental_damage: "We have finally achieved the future: an AI agent that canDSP bid adjustments on Sponsored Brands campaigns while you debug a React hook, truly maximizing the overlap between your ad spend and your context window."
+  summary: MCP Server to interact with Amazon Ads via the Model Context Protocol.
+  why_it_matters: Lets developers query Amazon Advertising data through natural language in MCP-compatible assistants like Claude Desktop.
+  mental_damage: Another MCP server for another SaaS platform, because every ad account now needs its own AI translator.
   tags:
     - mcp
     - amazon-ads
-    - marketing
-    - integration
+    - api
   confidence: high
 curation:
   status: included
-  reason: The project's identity is an MCP server implementation for a specific domain (Amazon Advertising), fitting the MCP Servers & Tooling category.
+  reason: It is an MCP server whose core purpose is exposing Amazon Ads data through the Model Context Protocol, making MCP the product identity rather than a compatibility feature.
   evidence:
-    - Repo description explicitly states 'MCP Server to interact with Amazon Ads'.
-    - README provides configuration examples for Claude Desktop and LibreChat as an MCP server.
-    - Listed in 'awesome-mcp-servers' under the Marketing section.
+    - "Repo description: 'MCP Server to interact with Amazon Ads'"
+    - README provides MCP server configuration examples for Claude Desktop and LibreChat
+    - Project offers both stdio and streamable-HTTP MCP server modes
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:18:28.856Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2ca58ff7b23c07c08f1199e3354f7b56b9e678ad2a551f0b41b43a3ab82ba6f1
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: It is an MCP server whose core purpose is exposing Amazon Ads data through the Model Context Protocol, making MCP the product identity rather than a compatibility feature.
+      decision_evidence:
+        - "Repo description: 'MCP Server to interact with Amazon Ads'"
+        - README provides MCP server configuration examples for Claude Desktop and LibreChat
+        - Project offers both stdio and streamable-HTTP MCP server modes
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is an MCP server itself, not an extension that adds capabilities to another coding assistant.
+      review_reason: null
+      review_resume_lifecycle: null

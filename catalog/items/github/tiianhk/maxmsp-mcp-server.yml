@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 211
-    forks: 22
+    stars: 252
+    forks: 28
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: tiianhk/MaxMSP-MCP-Server
+    html_url: https://github.com/tiianhk/MaxMSP-MCP-Server
     created_at: "2025-04-18T15:43:58Z"
-    pushed_at: "2025-11-10T22:44:14Z"
+    pushed_at: "2026-05-12T21:51:54Z"
     description: MCP (Model Context Protocol) Server for Max (Max/MSP/Jitter)
     homepage: ""
     topics: []
-    last_checked_at: "2026-05-06T22:46:49.871Z"
+    last_checked_at: "2026-07-21T15:20:49.745Z"
     readme:
-      fetched_at: "2026-05-06T22:46:49.871Z"
-      bytes: 2768
+      fetched_at: "2026-07-21T15:20:49.745Z"
+      bytes: 2925
 insights:
   summary: An MCP server that lets LLMs directly understand, explain, generate, and debug Max/MSP/Jitter patches via integration with hosts like Claude and Cursor.
   why_it_matters: It bridges the gap between generative models and visual audio programming environments, allowing developers to treat Max patches as readable, modifiable code.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:49.871Z"
+    updated_at: "2026-07-21T15:20:49.745Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

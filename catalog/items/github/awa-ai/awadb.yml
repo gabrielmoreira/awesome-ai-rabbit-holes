@@ -46,26 +46,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:07.560Z"
       bytes: 4982
 insights:
-  summary: AwaDB is an AI-native database designed for storing and searching embedding vectors, usable as a local Python library or as a self-hosted service via gRPC and REST.
-  why_it_matters: It provides developers with a simplified, schema-free vector database for LLM-powered applications, derived from years of production experience with Vearch.
-  mental_damage: "Just what the stack needed: another vector database to evaluate at 2am while wondering if this one finally nails the 'millisecond latency' promise everyone claims."
+  summary: AwaDB is an AI-native vector database for storing and searching embeddings with real-time indexing and low-latency retrieval.
+  why_it_matters: It simplifies vector storage and search for developers building LLM applications, eliminating manual schema and indexing overhead.
+  mental_damage: Another vector database to add to your stack, because apparently embedding vectors are the new JSON.
   tags:
-    - vectordb
+    - vector-database
     - embeddings
-    - llmops
-    - python
-    - local-ai
+    - ai-native
+    - retrieval
+    - python-sdk
   confidence: high
 curation:
-  status: excluded
-  reason: While it has developer utility, AwaDB is a general-purpose vector database and infrastructure component, which falls outside the catalog's scope of curated AI rabbit holes for developer-facing tooling.
+  status: included
+  reason: AwaDB is a code-first vector database SDK/framework for embedding storage and retrieval, fitting the developer-tooling scope as infrastructure for AI workflows.
   evidence:
-    - Repo description identifies it as a general 'AI Native database for embedding vectors', not a developer workflow tool.
-    - The README demonstrates a Python SDK and service for vector storage/retrieval, fitting the mold of infrastructure rather than an AI coding tool.
-    - Appears in Awesome-LLMOps under 'Search > Vector search', confirming its identity as a data infrastructure component.
+    - Repo description explicitly states it is an 'AI Native database for embedding vectors'
+    - README demonstrates Python SDK usage for vector storage/search with SentenceTransformer/OpenAI embeddings
+    - Source-list context places it in 'Vector search' under LLMOps tools
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
   reason: Stars (175) exceeded threshold (150)
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:03.022Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:902b74eda39be70c0a462297e8301a55f47477a5ba096f80d4bef94f8860b43b
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: AwaDB is a code-first vector database SDK/framework for embedding storage and retrieval, fitting the developer-tooling scope as infrastructure for AI workflows.
+      decision_evidence:
+        - Repo description explicitly states it is an 'AI Native database for embedding vectors'
+        - README demonstrates Python SDK usage for vector storage/search with SentenceTransformer/OpenAI embeddings
+        - Source-list context places it in 'Vector search' under LLMOps tools
+      category_candidates:
+        - ai-frameworks
+        - context-engineering
+      contrastive_reason: Choose ai-frameworks over context-engineering because the primary identity is a reusable vector database SDK/framework rather than a context-shaping system.
+      review_reason: null
+      review_resume_lifecycle: null

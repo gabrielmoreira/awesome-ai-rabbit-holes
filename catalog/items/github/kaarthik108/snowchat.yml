@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:30.270Z"
       bytes: 3701
 insights:
-  summary: snowChat is a Streamlit-based natural language interface that translates user questions into SQL queries and executes them against Snowflake databases.
-  why_it_matters: It allows developers and analysts to query Snowflake data using conversational language without writing raw SQL, bridging the gap between business questions and database schemas.
-  mental_damage: Yet another reminder that the modern data stack now requires a LangChain agent, Supabase bucket, Cloudflare KV store, and a Streamlit UI just to ask 'how many rows are in this table?'
+  summary: A Streamlit app that translates natural language queries into SQL for Snowflake databases using LLMs.
+  why_it_matters: It lets developers and analysts query Snowflake data without writing SQL, reducing friction in data access workflows.
+  mental_damage: Now you can ask your database questions like it’s a chatbot, because apparently SQL is too hard for humans.
   tags:
-    - text-to-sql
+    - sql-generation
     - snowflake
-    - langchain
     - streamlit
-    - data-querying
+    - natural-language-query
+    - data-access
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the tool is an end-user data querying app for Snowflake, not a developer-facing coding assistant, framework, or infrastructure tool.
+  reason: The tool is a data-access application (natural language to SQL) rather than a developer-tooling product focused on coding, agent orchestration, or workflow infrastructure.
   evidence:
     - "Repo description: 'Chat snowflake - Text to SQL'"
-    - README states the value is for users to 'interact with their Snowflake data using natural language queries' rather than editing code or building apps.
-    - Listed in awesome-langchain under 'Chatbots', indicating it is a demo/showcase app rather than a developer tool.
+    - "README: 'allows users to interact with their Snowflake data using natural language queries'"
+    - Primary surface is a Streamlit app for end-user data querying, not a developer tool
 placement:
   primary_category: null
   section: null
@@ -84,12 +84,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:11:41.857Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4fbfb6cb69ad79a9c33ce1e17be4423eccaf03beb4b324f6139f898dd9c79496
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a data-access application (natural language to SQL) rather than a developer-tooling product focused on coding, agent orchestration, or workflow infrastructure.
+      decision_evidence:
+        - "Repo description: 'Chat snowflake - Text to SQL'"
+        - "README: 'allows users to interact with their Snowflake data using natural language queries'"
+        - Primary surface is a Streamlit app for end-user data querying, not a developer tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

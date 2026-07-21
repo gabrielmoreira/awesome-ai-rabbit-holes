@@ -37,23 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: LTX-2 is a DiT-based, open-weight audio-video foundation model designed to generate synchronized video and audio from text, images, or existing video inputs.
-  why_it_matters: It provides developers with a local-first, code-accessible stack (Diffusers, PyTorch, ComfyUI) for building generative video features directly into applications without relying on hosted APIs.
-  mental_damage: Our IDEs can now generate 121 frames of a man playing guitar, yet they still can't figure out why the staging environment is down.
+  summary: An efficient joint audio-visual foundation model designed for synchronized video and audio generation.
+  why_it_matters: It enables developers to generate high-fidelity, synchronized multimedia assets from text, images, or audio using a single DiT-based model.
+  mental_damage: Now you have to decide if the glitchy audio-visual desync is a bug or a new aesthetic choice for your generative pipeline.
   tags:
-    - video-generation
-    - diffusion
     - multimodal
-    - local-ai
-    - pytorch
+    - video-generation
+    - audio-visual
+    - diffusion-models
+    - foundation-model
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because LTX-2 is a generative media model and checkpoint repository, lacking the developer-tooling, coding-agent, or infrastructure identity required for this catalog.
+  reason: The project is a raw model architecture and weights, which does not constitute a developer-facing tool, IDE, or SDK within the catalog's scope.
   evidence:
-    - Model card identifies LTX-2 as a 'DiT-based audio-video foundation model' for text/image-to-video generation, not a coding tool.
-    - GitHub description and README focus on media generation pipelines (Diffusers, ComfyUI) with no code-editing, agent, or dev-infra capabilities.
-    - Source list context places it under '视频 Video > 模型' (Video Models), categorizing it as a media resource rather than a developer utility.
+    - Project is a foundation model (DiT-based audio-video) rather than a tool for coding or app development.
+    - The README describes model checkpoints and inference pipelines for media generation, not software development workflows.
+    - Primary identity is a research-oriented foundation model for multimedia, not developer infrastructure.
 placement:
   primary_category: null
   section: null
@@ -71,12 +71,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:28:11.805Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:09b9b2ce7f068470a96c4ddea52e654a4339ef095557ee28f027ef7d3ff479e0
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a raw model architecture and weights, which does not constitute a developer-facing tool, IDE, or SDK within the catalog's scope.
+      decision_evidence:
+        - Project is a foundation model (DiT-based audio-video) rather than a tool for coding or app development.
+        - The README describes model checkpoints and inference pipelines for media generation, not software development workflows.
+        - Primary identity is a research-oriented foundation model for multimedia, not developer infrastructure.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

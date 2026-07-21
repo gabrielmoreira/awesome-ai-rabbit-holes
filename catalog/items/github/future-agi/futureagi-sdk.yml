@@ -50,23 +50,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:05.060Z"
       bytes: 14955
 insights:
-  summary: An open-source SDK for Python and TypeScript that provides automated AI evaluations, prompt management, observability, and sub-100ms guardrails without human-in-the-loop requirements.
-  why_it_matters: It gives developers a unified code-first way to measure, score, and regression-test model and prompt behavior across 50+ frameworks with OpenTelemetry-native tracing.
-  mental_damage: You can now automate the discovery that your agent has been confidently hallucinating refund policies, just in time to explain it to the C-suite with latency charts.
+  summary: An open-source SDK for AI evaluation, prompt management, and observability, supporting Python and TypeScript.
+  why_it_matters: It provides the necessary infrastructure to measure model performance, manage prompt versioning, and implement real-time guardrails in production agent workflows.
+  mental_damage: Because nothing says 'table production deployment' like running 50+ metrics and sub-100ms guardrails to catch the agent's inevitable hallucinations.
   tags:
     - evals
     - observability
     - prompt-management
-    - sdk
     - guardrails
+    - mlops
   confidence: high
 curation:
   status: included
-  reason: The core job is measuring, scoring, tracing, and regression-testing model, prompt, and agent behavior via a developer-facing SDK, which aligns squarely with the Evals & Benchmarks category.
+  reason: The core identity of the product is measuring and tracing model behavior through evaluations and observability metrics.
   evidence:
-    - "Repo description explicitly states: 'Production-grade AI evaluation, prompt management & observability SDK. Automated evaluations with sub-100ms guardrails.'"
-    - README excerpts highlight evaluation metrics, guardrails, prompt versioning, and OpenTelemetry-native observability as primary features.
-    - Listed in Awesome-LLMOps under Security > Observability, reinforcing its identity as evaluation and observability infrastructure.
+    - Repo description explicitly identifies it as 'AI evaluation, prompt management & observability SDK'.
+    - README features 'Evaluations', 'Guardrails', and 'Analytics' as core pillars.
+    - Includes 'OpenTelemetry-native tracing' for observability.
 placement:
   primary_category: evals
   section: Observability / Tracing / EvalOps
@@ -85,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:59:20.030Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6417799f58f5d15873fd0dc2ccd439b16239b14e323824a97df9925da2682b10
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The core identity of the product is measuring and tracing model behavior through evaluations and observability metrics.
+      decision_evidence:
+        - Repo description explicitly identifies it as 'AI evaluation, prompt management & observability SDK'.
+        - README features 'Evaluations', 'Guardrails', and 'Analytics' as core pillars.
+        - Includes 'OpenTelemetry-native tracing' for observability.
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the primary value proposition is measuring and scoring model behavior rather than providing general-purpose agent building blocks.
+      review_reason: null
+      review_resume_lifecycle: null

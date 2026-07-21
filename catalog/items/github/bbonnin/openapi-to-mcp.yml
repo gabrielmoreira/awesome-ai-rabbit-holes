@@ -44,26 +44,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:10.036Z"
       bytes: 1957
 insights:
-  summary: A Java-based MCP server that automatically converts any OpenAPI or Swagger specification into a set of callable MCP tools for AI agents.
-  why_it_matters: It lets developers instantly expose existing REST APIs to MCP-compatible agents without writing custom tool integration code.
-  mental_damage: Yet another solution to the problem of making the AI talk to the API we already wrote, because apparently documenting the endpoints wasn't enough.
+  summary: OpenApiMCPServer is an MCP server that converts OpenAPI/Swagger specifications into MCP tools for AI agent integration.
+  why_it_matters: It lets AI agents interact with any OpenAPI-based REST API without manual tool coding, bridging API specs and MCP ecosystems.
+  mental_damage: Now your AI can spin up VMs via Swagger docs, because why write a client when you can just describe one.
   tags:
     - mcp
     - openapi
-    - swagger
+    - api-integration
+    - server
     - java
-    - integration
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: The primary product identity is an MCP server that dynamically translates OpenAPI specs into MCP tools, fitting cleanly into MCP Servers & Tooling.
+  reason: "MCP is the product identity: it is a server that exposes OpenAPI endpoints as MCP tools, fitting the MCP-first tooling category."
   evidence:
-    - Repo description states it is 'an MCP server that automatically converts any OpenAPI/Swagger specification into a set of usable MCP tools'.
-    - README confirms the application is an MCP server that dynamically loads Swagger content and provides API functions through the MCP protocol.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools'.
+    - Repo description explicitly states it is an MCP server converting OpenAPI/Swagger specs to MCP tools
+    - README confirms it dynamically loads OpenAPI specs and provides them as MCP tools for AI agents
+    - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -79,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:25:39.198Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6d25863493d13c70cb881f09fdd5fffe7f5c8001a6a8416ee2864a67d7c8992c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: it is a server that exposes OpenAPI endpoints as MCP tools, fitting the MCP-first tooling category."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server converting OpenAPI/Swagger specs to MCP tools
+        - README confirms it dynamically loads OpenAPI specs and provides them as MCP tools for AI agents
+        - Already listed in awesome-mcp-servers under Server Implementations > Developer Tools
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

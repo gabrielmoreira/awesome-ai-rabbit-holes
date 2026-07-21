@@ -55,22 +55,22 @@ metadata:
       fetched_at: "2026-07-20T15:11:39.186Z"
       bytes: 3398
 insights:
-  summary: An MCP server that provides real-time and historical Crypto Fear & Greed Index data from Alternative.me for integration into MCP-compatible clients like Claude Desktop.
-  why_it_matters: It gives coding assistants direct access to crypto market sentiment data, enabling them to analyze trends and contextualize financial decisions without leaving the chat.
-  mental_damage: We now have a protocol server for a sentiment indicator that is essentially a vibe check with a decimal point, ensuring your AI can worry about Bitcoin with the same rigor as a day trader on X.
+  summary: An MCP server providing real-time and historical Crypto Fear & Greed Index data for integration with MCP-compatible clients.
+  why_it_matters: Developers can embed live crypto sentiment data into their AI workflows without leaving their MCP-enabled environment.
+  mental_damage: Now your coding assistant can tell you whether the market is in 'Fear' or 'Greed' while you debug.
   tags:
-    - mcp
+    - mcp-server
     - crypto
     - finance
-    - data
+    - data-integration
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server built with the MCP Python SDK specifically to expose crypto sentiment data to MCP-compatible clients, making it a textbook fit for the Domain Servers section.
+  reason: This is a domain-specific MCP server whose primary identity is serving Fear & Greed Index data via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states 'Providing real-time and historical Crypto Fear & Greed Index data' via MCP.
-    - README identifies it as 'A mcp server' built with the MCP Python SDK for integration into clients like Claude Desktop.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Finance & Fintech.
+    - Repo description explicitly states it is an MCP server for Crypto Fear & Greed Index data
+    - README details MCP resources, tools, and installation for MCP clients like Claude Desktop
+    - Listed in awesome-mcp-list under Finance & Fintech
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:13:42.428Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ae47876ea29ae11577dd36e290640547608e3910f207fe02137ff0389335d086
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a domain-specific MCP server whose primary identity is serving Fear & Greed Index data via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Crypto Fear & Greed Index data
+        - README details MCP resources, tools, and installation for MCP clients like Claude Desktop
+        - Listed in awesome-mcp-list under Finance & Fintech
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,23 +39,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:19.293Z"
       bytes: 121777
 insights:
-  summary: A curated library of biomedical-specific agentic workflows, skills, and MCP servers designed to orchestrate tasks in genomics, clinical operations, and drug discovery.
-  why_it_matters: It provides reusable, domain-specific agent skills and operational patterns that developers can adapt to build life-science AI applications rather than starting from scratch.
-  mental_damage: You now have a 'Biomedical OS' with 150+ tools, which is fantastic, provided you were initially worried that your Stack Overflow addiction wasn't domain-specific enough for a hematology lab.
+  summary: A biomedical-focused agentic skills repository with MCP servers and AI provider integrations for clinical, genomics, and drug discovery workflows.
+  why_it_matters: Provides reusable, domain-specific agent skills and MCP servers that developers can adapt for healthcare AI applications like clinical trial matching or genomics analysis.
+  mental_damage: The anxiety of realizing your weekend side project now needs to compete with a PhD-licensed Biomedical OS that includes its own copyright enforcement.
   tags:
     - biomedical
     - agent-skills
     - mcp
-    - life-sciences
-    - workflows
+    - clinical-ai
   confidence: medium
 curation:
   status: included
-  reason: The repository is primarily a collection of reusable skill packs, agentic workflows, and MCP server configurations tailored for the biomedical domain, fitting the Agent Skills category.
+  reason: The project is primarily a curated, reusable collection of agent skills and MCP servers for biomedical domains, making it a skills pack rather than a coding agent or orchestrator.
   evidence:
-    - README describes a library of 'skills, agents, and mathematical foundations' including specific directories like `Skills/Genomics` and `Skills/Clinical`.
-    - Includes specific MCP infrastructure like `BioMCP` server and provider operations skills for Claude Code, OpenAI, and Google ADK.
-    - Seen in awesome-LLM-resources under the '技能 Skills' section, aligning with its identity as a skills repository.
+    - README emphasizes a 'library of skills, agents, and mathematical foundations' and describes deploying 'high-performance agents across key domains' via the SKILL.md metadata standard
+    - Contains structured skill directories like BioMaster, ChatEHR, MAGE, KRAGEN, and BioMCP, each with specific biomedical functions
+    - Listed in awesome-LLM-resources under the '技能 Skills' section, indicating recognition as a skill/resource collection
 placement:
   primary_category: skills
   section: Domain & Workflow Skill Packs
@@ -74,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:19:31.461Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:72c0034dec145bc5ee70fe50a3c79ab65d90f9de3771fd09ee90204c3d36eb31
+      proposed_primary_category: skills
+      disagreement: false
+      decision_reason: The project is primarily a curated, reusable collection of agent skills and MCP servers for biomedical domains, making it a skills pack rather than a coding agent or orchestrator.
+      decision_evidence:
+        - README emphasizes a 'library of skills, agents, and mathematical foundations' and describes deploying 'high-performance agents across key domains' via the SKILL.md metadata standard
+        - Contains structured skill directories like BioMaster, ChatEHR, MAGE, KRAGEN, and BioMCP, each with specific biomedical functions
+        - Listed in awesome-LLM-resources under the '技能 Skills' section, indicating recognition as a skill/resource collection
+      category_candidates:
+        - skills
+        - agent-orchestration
+      contrastive_reason: Choose skills over agent-orchestration because the project delivers reusable skill packs and domain-specific agents rather than a workbench or control plane for coordinating multiple agents.
+      review_reason: null
+      review_resume_lifecycle: null

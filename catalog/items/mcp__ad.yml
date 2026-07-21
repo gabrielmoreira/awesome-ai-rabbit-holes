@@ -36,24 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web directory for discovering MCP servers and tooling.
-  why_it_matters: It provides a centralized map for developers to find and evaluate Model Context Protocol servers as the ecosystem rapidly fragments.
-  mental_damage: Yet another navigation aid for an ecosystem that now requires a navigation aid to navigate the navigation aids.
+  summary: A premium 3-letter .ad domain name for sale, marketed as a brand identity for Model Context Protocol (MCP) platforms and AI integration tools.
+  why_it_matters: It does not matter to developers as a tool, but as a speculative branding asset for MCP-related projects.
+  mental_damage: The only thing being connected here is a seller to your wallet.
   tags:
+    - domain
+    - branding
     - mcp
-    - directory
-    - discovery
-  confidence: low
+    - speculation
+  confidence: high
 curation:
-  status: included
-  reason: While the URL suggests an MCP focus, the available evidence points to it being a listing/discovery site rather than a server or toolkit itself, fitting the Lists & Directories category.
+  status: excluded
+  reason: This is a domain name for sale, not a practical AI tool, framework, or developer-facing product.
   evidence:
-    - URL is mcp.ad, suggesting a directory or index site rather than a tool.
-    - Included in awesome-LLM-resources under the '模型上下文协议 MCP' (Model Context Protocol MCP) section as a resource link.
-    - No repo description, README, or code indicators provided to suggest it is a server, client, or framework.
+    - The page explicitly states it is a domain for sale at $87,888
+    - The content describes it as a 'brand-ready .Ad domain' for MCP-related branding, not a functional tool
+    - No code, SDK, runtime, or developer workflow is provided or implied
 placement:
-  primary_category: awesome-awesomes
-  section: Directories & Maps
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -68,12 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:37.316Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e622816e669c8f8eb164b8a4709cffc6608d5068097a575178711f9b56879d86
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a domain name for sale, not a practical AI tool, framework, or developer-facing product.
+      decision_evidence:
+        - The page explicitly states it is a domain for sale at $87,888
+        - The content describes it as a 'brand-ready .Ad domain' for MCP-related branding, not a functional tool
+        - No code, SDK, runtime, or developer workflow is provided or implied
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -44,23 +44,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:29.354Z"
       bytes: 13298
 insights:
-  summary: Clawith is an open-source multi-agent collaboration platform that gives AI agents persistent identities, long-term memory, and individual workspaces to work together as a coordinated team.
-  why_it_matters: It provides a control plane for organizations to deploy autonomous digital employees with self-evolving capabilities, runtime tool discovery, and organization-grade RBAC.
-  mental_damage: Finally, a platform to manage the interpersonal relationships and organizational drama of your growing fleet of AI digital employees, complete with an org chart they can actually read.
+  summary: Clawith is an open-source multi-agent collaboration platform where AI agents have persistent identities, long-term memory, and workspaces to operate as a coordinated team.
+  why_it_matters: It enables developers to deploy digital employees that can autonomously manage tasks, share knowledge, and integrate with organizational workflows like Slack or CI/CD.
+  mental_damage: Now your agents can hold meetings without you, and you’ll still be the one blamed when they break production.
   tags:
     - multi-agent
-    - orchestration
-    - digital-employees
-    - autonomous-agents
-    - rbac
+    - workflow-automation
+    - ai-orchestration
+    - openclaw
+    - enterprise-ai
   confidence: high
 curation:
   status: included
-  reason: The product is a multi-agent collaboration platform and control plane for coordinating digital employees with persistent identities and organization-grade governance, fitting the agent orchestration criteria.
+  reason: The core product is a multi-agent coordination platform with persistent identities, memory, and organizational workflows, fitting the agent-orchestration category.
   evidence:
-    - Repo description states 'Your Agent Company' and README describes it as an 'open-source multi-agent collaboration platform'.
-    - Features include multi-tenant RBAC, approval workflows, audit logs, and agents that work together 'as a crew' rather than a single coding assistant.
-    - Source list placement in 'Terminal-native coding agents > OpenClaw ecosystem' refers to its lineage, but its primary identity is a workforce platform, not a single repo-editing agent.
+    - README describes it as a multi-agent collaboration platform with persistent identity, memory, and workspaces
+    - Features include multi-tenant RBAC, channel integrations, and approval workflows for organizational control
+    - Source-list context places it in the OpenClaw ecosystem under terminal-native coding agents, but primary identity is orchestration
 placement:
   primary_category: agent-orchestration
   section: Control Planes & Workforce Platforms
@@ -79,12 +79,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:49:51.420Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:54a770eff4d1414de717f33926ecd71948533ab3453667d81a1a3c44003c85a7
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The core product is a multi-agent coordination platform with persistent identities, memory, and organizational workflows, fitting the agent-orchestration category.
+      decision_evidence:
+        - README describes it as a multi-agent collaboration platform with persistent identity, memory, and workspaces
+        - Features include multi-tenant RBAC, channel integrations, and approval workflows for organizational control
+        - Source-list context places it in the OpenClaw ecosystem under terminal-native coding agents, but primary identity is orchestration
+      category_candidates:
+        - agent-orchestration
+        - ai-dev-extensions
+      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the primary value is coordinating multiple agents with persistent identities and organizational workflows, not augmenting a single assistant.
+      review_reason: null
+      review_resume_lifecycle: null

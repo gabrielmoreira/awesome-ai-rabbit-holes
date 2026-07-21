@@ -1,0 +1,110 @@
+id: pulsemcp__com__servers
+kind: website
+name: PulseMCP
+canonical_url: https://pulsemcp.com/servers
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__pulsemcp__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: PulseMCP
+        extracted_url: https://pulsemcp.com/servers
+        surrounding_text: "- **[PulseMCP](https://www.pulsemcp.com/servers)** – Large, frequently updated directory of MCP servers."
+        confidence: high
+    - id: discovery__www__pulsemcp__com__servers__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: parsed
+        section_path:
+          - MCP Servers and Directories
+        anchor_text: PulseMCP
+        extracted_url: https://www.pulsemcp.com/servers
+        surrounding_text: "- **[PulseMCP](https://www.pulsemcp.com/servers)** – Large, frequently updated directory of MCP servers."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: A directory of MCP servers for the Model Context Protocol.
+  why_it_matters: Provides developers with a centralized discovery point for MCP-compatible servers to extend their AI workflows.
+  mental_damage: Because nothing says 'modern development' like needing a directory to find the plugins for your plugin protocol.
+  tags:
+    - mcp
+    - directory
+    - servers
+    - discovery
+  confidence: high
+curation:
+  status: included
+  reason: The site is a navigation and discovery hub for MCP servers rather than a standalone product, server, or framework itself.
+  evidence:
+    - URL is https://www.pulsemcp.com/servers, indicating a browsing/discovery interface.
+    - Listed in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
+    - Matches the definition of a directory/mapping tool rather than an operational server or client.
+placement:
+  primary_category: awesome-awesomes
+  section: null
+lifecycle:
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:36:44.614Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:471b2cc72128aee17b265207db48cd5477f491334eaf216051e09f09aa17af0a
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The product is explicitly a directory of MCP servers, making MCP its primary identity and fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - URL explicitly references '/servers' for MCP
+        - Source-list context places it under 'MCP Servers and Directories'
+      category_candidates:
+        - mcp
+        - awesome-awesomes
+      contrastive_reason: Choose mcp over awesome-awesomes because the product is a functional MCP server directory, not just a general curated list.
+      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'mcp'"
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.969Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

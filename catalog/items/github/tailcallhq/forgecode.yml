@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7221
-    forks: 1422
+    stars: 7460
+    forks: 1443
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: tailcallhq/forgecode
+    html_url: https://github.com/tailcallhq/forgecode
     created_at: "2024-12-08T20:33:37Z"
-    pushed_at: "2026-05-06T10:20:22Z"
+    pushed_at: "2026-07-21T11:47:44Z"
     description: AI enabled pair programmer for Claude, GPT, O Series, Grok, Deepseek, Gemini and 300+ models
     homepage: https://forgecode.dev
     topics:
@@ -51,10 +51,10 @@ metadata:
       - openai
       - qwen
       - shell
-    last_checked_at: "2026-05-06T22:46:39.920Z"
+    last_checked_at: "2026-07-21T15:20:39.402Z"
     readme:
-      fetched_at: "2026-05-06T22:46:39.920Z"
-      bytes: 39804
+      fetched_at: "2026-07-21T15:20:39.402Z"
+      bytes: 40245
 insights:
   summary: A terminal-native AI coding agent and CLI that integrates with 300+ models including Claude, GPT, and Gemini to plan, write, review, and debug code directly in the shell.
   why_it_matters: It gives developers a model-agnostic, TUI-based coding assistant that works across OpenRouter and major providers without locking into a single vendor's CLI.
@@ -87,16 +87,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:39.920Z"
+    updated_at: "2026-07-21T15:20:39.402Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.987Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.823Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

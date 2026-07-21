@@ -24,19 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 79
+    forks: 8
+    license: Apache-2.0
+    archived: false
+    full_name: zillow/auto-mobile
+    html_url: https://github.com/zillow/auto-mobile
+    created_at: "2025-06-22T20:29:37Z"
+    pushed_at: "2026-03-10T00:38:11Z"
+    description: Mobile automation suite of tools including an MCP and libraries for test authoring & execution
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-07-21T15:21:28.050Z"
+    readme:
+      fetched_at: "2026-07-21T15:21:28.050Z"
+      bytes: 2462
 insights:
   summary: null
   why_it_matters: null
@@ -60,15 +62,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-05-12T15:06:47.193Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for zillow/auto-mobile
-  categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-07-21T15:21:28.050Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
+    cause:
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
+    attempts: 0

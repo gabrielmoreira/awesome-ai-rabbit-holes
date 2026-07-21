@@ -40,25 +40,25 @@ metadata:
       fetched_at: "2026-07-20T15:11:15.265Z"
       bytes: 7183
 insights:
-  summary: An MCP server and CLI tool that lets LLMs and humans see, manage, and restart long-running development processes like web servers.
-  why_it_matters: It eliminates the tedious copy-paste loop between terminal errors and AI agents by giving tools like Cursor and Claude Code direct access to live process output and control.
-  mental_damage: We have finally built a middleware bridge so that three different AI agents can simultaneously fail to understand why your dev server is crashing.
+  summary: MCP server and CLI tool for managing and inspecting long-running processes for AI agents.
+  why_it_matters: Reduces manual copy-pasting of logs and errors between terminals and AI coding assistants by letting agents directly monitor and control processes.
+  mental_damage: Finally, a way to stop playing telephone between your terminal and your AI pair programmer.
   tags:
     - mcp
     - process-management
-    - multi-agent
-    - cli-tool
+    - ai-integration
+    - developer-workflow
   confidence: high
 curation:
   status: included
-  reason: The product's identity is explicitly an MCP server designed to bridge LLMs and local processes, fitting the MCP Servers & Tooling category perfectly.
+  reason: The product's core identity is as an MCP server providing process management capabilities, not as an extension or coding agent.
   evidence:
-    - "Repo description states: 'MCP server to allow LLMs to manage and inspect long-running processes'."
-    - README identifies it as 'an MCP server and command line tool' exposing standard MCP tools (ctrl, list, output).
-    - Project is very new (created 2025-07-01) and active (pushed 2025-07-18), showing early-stage but clear intent.
+    - Repo description explicitly states it is an MCP server for process management
+    - README emphasizes MCP server functionality and multi-agent workflow use cases
+    - Source-list context shows it in an MCP servers collection
 placement:
   primary_category: mcp
-  section: Generic Servers & Middleware
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:08:39.184Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4f909e856487f264363c833a37cd72655a4aa4eb847a19c6a92a0485ba4e9ffb
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is as an MCP server providing process management capabilities, not as an extension or coding agent.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for process management
+        - README emphasizes MCP server functionality and multi-agent workflow use cases
+        - Source-list context shows it in an MCP servers collection
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension layer for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

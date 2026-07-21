@@ -1,0 +1,108 @@
+id: daisys__ai
+kind: website
+name: DAISYS
+canonical_url: https://daisys.ai
+identity: {}
+provenance:
+  discoveries:
+    - id: discovery__daisys__ai__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-07-21T15:20:21.961Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: DAISYS
+        extracted_url: https://daisys.ai
+        surrounding_text: "- **[DAISYS](https://github.com/daisys-ai/daisys-mcp)** - Generate high-quality text-to-speech and text-to-voice outputs using the [DAISYS](https://www.daisys.ai/) platform."
+        confidence: high
+    - id: discovery__www__daisys__ai__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: DAISYS
+        extracted_url: https://www.daisys.ai
+        surrounding_text: "- **[DAISYS](https://github.com/daisys-ai/daisys-mcp)** - Generate high-quality text-to-speech and text-to-voice outputs using the [DAISYS](https://www.daisys.ai/) platform."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: DAISYS is an MCP server listed in the official Model Context Protocol servers directory.
+  why_it_matters: It provides a standardized way for AI assistants to interact with external tools or data sources via the MCP protocol.
+  mental_damage: Another MCP server to add to your ever-growing list of things your AI assistant might need to know about.
+  tags:
+    - mcp
+    - protocol
+    - server
+  confidence: high
+curation:
+  status: included
+  reason: MCP is the primary identity of the product, as evidenced by its inclusion in the official MCP servers list.
+  evidence:
+    - Listed in awesome-mcp-servers under Official Servers
+    - Product identity is an MCP server
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:33:24.594Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c6b7e95400110ad55ea71420bd28fc1bc84d95596515f535f39f95001636e306
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the primary identity of the product, as evidenced by its inclusion in the official MCP servers list.
+      decision_evidence:
+        - Listed in awesome-mcp-servers under Official Servers
+        - Product identity is an MCP server
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because MCP is the core product identity, not just an integration layer.
+      review_reason: null
+      review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-07-21T15:20:21.964Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null

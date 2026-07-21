@@ -55,22 +55,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:09.735Z"
       bytes: 5819
 insights:
-  summary: An MCP server that exposes InfluxDB v2 instances to AI assistants via resources, tools, and prompt templates for querying and managing time-series data.
-  why_it_matters: It allows developers to interact with InfluxDB directly through MCP-compatible assistants like Claude Desktop, removing the need to switch contexts to the CLI or UI for common database operations.
-  mental_damage: We have successfully abstracted away the `influx` CLI into a natural language conversation, ensuring that 'querying the database' now involves two layers of indirection and a token budget.
+  summary: An MCP server that exposes InfluxDB v2 instance access via the Model Context Protocol.
+  why_it_matters: Lets developers query and manage InfluxDB time-series data directly from MCP-compatible clients like Claude Desktop.
+  mental_damage: Now your AI assistant can finally understand why your metrics are on fire.
   tags:
     - mcp
     - influxdb
-    - database
     - time-series
+    - database
+    - server
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server implementation for a specific database domain, fitting cleanly into the MCP Servers & Tooling category.
+  reason: MCP is the primary product identity, and the server specifically exposes InfluxDB capabilities through MCP.
   evidence:
-    - "Repo description explicitly states: 'An MCP Server for querying InfluxDB'."
-    - README confirms it is 'A Model Context Protocol (MCP) server that exposes access to an InfluxDB v2 instance'.
-    - Listed in 'awesome-mcp-servers' under Databases, confirming ecosystem identity as an MCP implementation.
+    - Repo description explicitly states it is an MCP Server for querying InfluxDB
+    - README details MCP-specific resources, tools, and prompts for InfluxDB operations
+    - Listed in multiple MCP-focused awesome lists under Databases section
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -89,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:29.469Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:22aa79647c6531c785a9fb75ca7d96764baec84d402a2a7f0fc0190d8591c90b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the primary product identity, and the server specifically exposes InfluxDB capabilities through MCP.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP Server for querying InfluxDB
+        - README details MCP-specific resources, tools, and prompts for InfluxDB operations
+        - Listed in multiple MCP-focused awesome lists under Databases section
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server providing database access, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

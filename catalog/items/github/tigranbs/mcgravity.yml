@@ -24,12 +24,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 96
-    forks: 11
+    stars: 101
+    forks: 13
     license: null
     archived: false
-    full_name: null
-    html_url: null
+    full_name: tigranbs/mcgravity
+    html_url: https://github.com/tigranbs/mcgravity
     created_at: "2025-04-13T00:02:41Z"
     pushed_at: "2026-02-15T00:17:45Z"
     description: Fast TUI that orchestrates AI coding tools (Claude Code, Codex, Gemini) in a plan→execute→review loop. Breaks work into atomic tasks for easier verification and course-correction.
@@ -40,9 +40,9 @@ metadata:
       - codex
       - gemini
       - vibe-coding
-    last_checked_at: "2026-05-06T22:46:49.815Z"
+    last_checked_at: "2026-07-21T15:20:49.706Z"
     readme:
-      fetched_at: "2026-05-06T22:46:49.815Z"
+      fetched_at: "2026-07-21T15:20:49.706Z"
       bytes: 10337
 insights:
   summary: A fast terminal UI that orchestrates external AI coding tools (Claude Code, Codex, Gemini) in a structured plan→execute→review loop to break large tasks into atomic, verifiable units.
@@ -76,16 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-05-06T22:46:49.815Z"
+    updated_at: "2026-07-21T15:20:49.706Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-07-20T16:43:08.988Z"
+    status: deferred
+    updated_at: "2026-07-21T16:21:35.824Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
-    next_retry_at: null
+      type: budget_exhausted
+      message: Categorization budget expired before this item was claimed
+    next_retry_at: "2026-07-21T17:21:35.821Z"
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

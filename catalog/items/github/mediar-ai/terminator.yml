@@ -51,15 +51,15 @@ metadata:
       fetched_at: "2026-07-16T05:05:19.426Z"
       bytes: 9134
 insights:
-  summary: A Windows-native desktop automation layer that exposes the full OS environment as an MCP server so AI assistants can control apps, browsers, and workflows without taking over the user's cursor.
-  why_it_matters: It lets developers hand off cross-application desktop tasks to coding agents by giving them deterministic, pixel-to-accessibility-tree control over the local machine.
-  mental_damage: We have finally built a tool that lets your AI agent silently click through your GCP console while you pray it doesn't decide to 'optimize' your production infrastructure.
+  summary: Terminator is an MCP server that enables AI assistants to control a Windows desktop via DOM, accessibility tree, and pixel-level interaction.
+  why_it_matters: It lets developers automate cross-desktop tasks with AI agents without disrupting their workflow or re-authenticating in apps.
+  mental_damage: Finally, an AI that can click through your company's legacy Windows software so you don't have to — welcome to the new RPA.
   tags:
     - mcp
-    - computer-use
     - desktop-automation
+    - computer-use
     - windows
-    - agent-integration
+    - ai-agent
   confidence: high
 curation:
   status: included
@@ -70,10 +70,10 @@ curation:
     - Source list places it in awesome-mcp-servers under Coding Agents, but its MCP integration identity and host-control scope align better with Extensions & Integrations.
 placement:
   primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (1431) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -86,12 +86,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:19:37.772Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7b83113a963540c0af0a29f6c07572d251796c2961ab498cd00c0de90147aac5
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: Terminator is an MCP server whose core identity is providing desktop control to AI assistants via the Model Context Protocol, making it MCP-first tooling rather than a coding agent or extension.
+      decision_evidence:
+        - "Repo description: 'playwright for windows computer use'"
+        - "README: 'Computer Use MCP that controls your entire desktop' and provides MCP config for Claude Code, Cursor, VS Code"
+        - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Coding Agents"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because Terminator's primary identity is an MCP server enabling desktop control, not merely extending another assistant with integrations.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-dev-extensions', proposed 'mcp'"
+      review_resume_lifecycle: null

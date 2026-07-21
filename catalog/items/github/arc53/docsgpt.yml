@@ -59,26 +59,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:03.082Z"
       bytes: 8398
 insights:
-  summary: An open-source AI platform for building private agents and assistants with an Agent Builder, document analysis across multiple formats, and API connectivity for enterprise search and orchestration workflows.
-  why_it_matters: Developers can self-host a complete agent and knowledge-base stack with multi-model support, deep research tools, and extensible integrations instead of patching together RAG pipelines and chat widgets.
-  mental_damage: Another open-source platform promises to be your private AI brain, but you will still spend three sprints wiring SharePoint connectors before anyone asks it a useful question.
+  summary: Open-source AI platform for building intelligent agents, assistants, and enterprise search with document analysis, multi-model support, and API connectivity.
+  why_it_matters: Developers can deploy private, customizable agents with deep research and document analysis capabilities, integrating multiple data sources and models.
+  mental_damage: Finally, a way to turn your entire knowledge base into an agent that might still hallucinate but will cite its sources.
   tags:
-    - agents
-    - rag
-    - enterprise-search
-    - self-hosted
     - agent-builder
+    - enterprise-search
+    - document-analysis
+    - multi-model
+    - rag
   confidence: high
 curation:
   status: included
-  reason: The product is a self-hosted platform and workbench for building, running, and coordinating multiple agents and assistants with document ingestion, APIs, and enterprise integrations, which fits agent orchestration as a control plane.
+  reason: The product is a platform for building and coordinating agents with workflows, document analysis, and multi-model support, fitting the agent orchestration category.
   evidence:
-    - "Repo description: 'Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis...'"
-    - "README: 'open-source AI platform for building intelligent agents and assistants' with Agent Workflow Builder and multi-agent tooling on the roadmap."
-    - "Active project: created 2023-02-02, last pushed 2026-05-05, 17,870 stars, not archived."
+    - "Repo description: 'Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents.'"
+    - "README highlights: Agent Workflow Builder, multi-model support, API connectivity, and enterprise-grade deployment."
+    - "Source-list context: Listed in awesome-langchain under 'Open Source Projects > Knowledge Management' as a tool for building agents."
 placement:
   primary_category: agent-orchestration
-  section: Control Planes & Workforce Platforms
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
   reason: Stars (17870) exceeded threshold (150)
@@ -94,12 +94,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:43.996Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c4ead35c12f6bea495b6a6e58bc304da0fd2a6892790177807c26239c0265eb4
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The product is a platform for building and coordinating agents with workflows, document analysis, and multi-model support, fitting the agent orchestration category.
+      decision_evidence:
+        - "Repo description: 'Private AI platform for agents, assistants and enterprise search. Built-in Agent Builder, Deep research, Document analysis, Multi-model support, and API connectivity for agents.'"
+        - "README highlights: Agent Workflow Builder, multi-model support, API connectivity, and enterprise-grade deployment."
+        - "Source-list context: Listed in awesome-langchain under 'Open Source Projects > Knowledge Management' as a tool for building agents."
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because the primary product is an operated workbench for building and coordinating agents, not a code-first library or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

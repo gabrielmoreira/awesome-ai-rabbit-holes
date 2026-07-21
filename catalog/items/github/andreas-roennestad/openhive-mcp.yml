@@ -40,22 +40,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:00.300Z"
       bytes: 2675
 insights:
-  summary: An MCP server that connects AI agents to OpenHive, a shared, decentralized knowledge base of problem-solution pairs discovered and posted by coding assistants.
-  why_it_matters: It allows coding agents to search a growing corpus of real-world fixes contributed by other agents, reducing redundant debugging and hallucinated solutions.
-  mental_damage: We have successfully built a hive mind where your AI agent can now argue with another agent's half-baked fix from three weeks ago instead of just arguing with you.
+  summary: MCP server that connects AI agents to OpenHive, a shared knowledge base of AI-discovered problem-solution pairs for developers.
+  why_it_matters: Lets coding agents search, retrieve, and contribute real-world problem-solution pairs directly from their workflow, reducing redundant problem-solving.
+  mental_damage: Now your AI can spend its time arguing with other AIs about whose Docker networking solution is superior.
   tags:
-    - mcp
+    - mcp-server
     - knowledge-base
-    - agent-integration
-    - context-retrieval
+    - problem-solving
+    - ai-collaboration
   confidence: high
 curation:
   status: included
-  reason: The product is explicitly an MCP server designed to give agents access to a specific knowledge base, making it a textbook fit for the MCP Servers & Tooling category.
+  reason: "MCP is the product identity here: it is a server that exposes OpenHive's knowledge base via MCP tools, not merely an adapter or compatibility feature."
   evidence:
-    - "Repo description states: 'MCP server for OpenHive — search and contribute to a shared knowledge base'"
-    - README explicitly lists compatibility with Claude Desktop, Cursor, Cline, and other MCP-compatible clients.
-    - Listed in 'awesome-mcp-servers' under the 'Knowledge & Memory' section for server implementations.
+    - Repo description explicitly identifies it as an MCP server for OpenHive
+    - README details MCP configuration and tools (search_solutions, get_solution, post_solution)
+    - Works with multiple MCP-compatible clients (Claude Desktop, Cursor, Kiro, etc.)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:45.225Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:07049bc26085533aae11b89500926488bb5a43666339250c4d551635481469d9
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity here: it is a server that exposes OpenHive's knowledge base via MCP tools, not merely an adapter or compatibility feature."
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for OpenHive
+        - README details MCP configuration and tools (search_solutions, get_solution, post_solution)
+        - Works with multiple MCP-compatible clients (Claude Desktop, Cursor, Kiro, etc.)
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product's core identity is as an MCP server exposing a domain-specific knowledge base, not a general context/retrieval system.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:29.934Z"
       bytes: 5011
 insights:
-  summary: A small Node.js MCP server that provides timezone-aware date, time, and DST conversion tools for AI assistants like Claude Desktop.
-  why_it_matters: It fixes the common failure mode where LLMs confidently hallucinate the current date or botch timezone math during meeting scheduling and travel planning.
-  mental_damage: We have reached the point where we need a dedicated protocol server just to teach the assistant what time it is, as if time itself were a context window limitation.
+  summary: An MCP server that provides timezone-aware date and time operations for AI assistants.
+  why_it_matters: Solves the common problem of AI assistants returning incorrect date/time information due to timezone confusion.
+  mental_damage: Finally, an AI that knows what time it is in your timezone—unlike your distributed team.
   tags:
-    - mcp
+    - mcp-server
     - timezone
+    - date-time
     - nodejs
-    - claude-desktop
+    - claude-integration
   confidence: high
 curation:
   status: included
-  reason: The product is a purpose-built MCP server whose entire identity is exposing timezone and date-time tools to MCP-compatible assistants.
+  reason: This is a dedicated MCP server whose primary identity is providing timezone-aware date/time operations via the Model Context Protocol.
   evidence:
-    - Repo description explicitly states 'MCP server for timezone-aware date and time operations'.
-    - README details a Model Context Protocol server with tools like get_current_time and convert_time for Claude Desktop.
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools.
+    - Repo description explicitly states it is an MCP server for timezone-aware date/time operations
+    - README details its role as a server addressing AI assistant timezone confusion
+    - Already listed in awesome-mcp-servers under Server Implementations
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:50:08.663Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5f0156908f2b05a8cdec148cf9e707f071d728bc023295623e9f30e9ee6ad3c1
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a dedicated MCP server whose primary identity is providing timezone-aware date/time operations via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for timezone-aware date/time operations
+        - README details its role as a server addressing AI assistant timezone confusion
+        - Already listed in awesome-mcp-servers under Server Implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

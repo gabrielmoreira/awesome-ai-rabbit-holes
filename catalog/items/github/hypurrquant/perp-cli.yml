@@ -52,23 +52,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:09.356Z"
       bytes: 13752
 insights:
-  summary: A CLI and MCP server for trading perpetual futures across multiple DEXs including Pacifica, Hyperliquid, Lighter, and Aster, exposing 18 tools for AI agent integration.
-  why_it_matters: It packages multi-chain DeFi trading operations into a structured MCP interface, letting developers wire AI agents directly into portfolio management, arbitrage, and strategy execution.
-  mental_damage: You’ve automated your funding-rate arb, your TWAP grid, and your cross-chain rebalance, leaving you free to stare at the terminal and wonder when the CLI became the most competent trader on the team.
+  summary: A multi-DEX perpetual futures CLI with MCP server support for AI-powered trading across Pacifica, Hyperliquid, Lighter, and Aster.
+  why_it_matters: Developers building AI trading agents can use this CLI to interact with multiple DEXs, manage portfolios, and execute strategies programmatically.
+  mental_damage: Now your AI agent can lose money on Solana, Ethereum, and BNB Chain simultaneously.
   tags:
+    - trading
     - mcp-server
+    - cli
     - defi
-    - trading-cli
-    - multi-dex
-    - solana
+    - perpetual-futures
   confidence: high
 curation:
   status: included
-  reason: The project’s core identity is an MCP server exposing 18 trading tools for AI agents, fitting cleanly as a domain-specific MCP server rather than a generic CLI or extension.
+  reason: MCP is the product identity here, with 18 MCP tools explicitly designed for AI-powered trading, making it a domain-specific MCP server.
   evidence:
-    - Repo description explicitly calls it an MCP server with 18 MCP tools for AI-powered trading.
-    - README highlights agent-first design with --json, --fields, and runtime schema introspection for AI integration.
-    - Listed in awesome-mcp-servers under Finance & Fintech, reinforcing its MCP domain identity.
+    - Repo description explicitly states it is a 'Multi-DEX perpetual futures CLI + MCP server'
+    - README highlights '18 MCP tools for AI-powered trading' and agent-first design features like --json and --dry-run
+    - Topics include 'mcp-server' and 'ai-agent'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -87,12 +87,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:07:22.851Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:db6fb316564f1904c890fe081de904b74d7df476e873f86ecaf70e998ddda35e
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here, with 18 MCP tools explicitly designed for AI-powered trading, making it a domain-specific MCP server.
+      decision_evidence:
+        - Repo description explicitly states it is a 'Multi-DEX perpetual futures CLI + MCP server'
+        - README highlights '18 MCP tools for AI-powered trading' and agent-first design features like --json and --dry-run
+        - Topics include 'mcp-server' and 'ai-agent'
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server with domain-specific tools, not a general-purpose SDK or framework.
+      review_reason: null
+      review_resume_lifecycle: null

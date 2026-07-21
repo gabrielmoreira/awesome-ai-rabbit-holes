@@ -70,22 +70,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:22.034Z"
       bytes: 8114
 insights:
-  summary: A collection of official Model Context Protocol servers from Cloudflare that expose services like Workers, DNS, Radar, and AI Gateway to MCP-compatible clients such as Cursor and Claude.
-  why_it_matters: Developers can manage Cloudflare infrastructure, debug workers, and query analytics using natural language through their existing AI coding assistants.
-  mental_damage: You can now ask your LLM to debug a Workers deployment, only to realize you've successfully offloaded your infrastructure anxiety to a context window that resets every 200k tokens.
+  summary: Official Cloudflare MCP servers providing domain-specific and general-purpose tools for interacting with Cloudflare services via MCP clients.
+  why_it_matters: Developers can use natural language to query, debug, and manage Cloudflare services (Workers, Radar, DNS, Observability, etc.) directly from MCP-compatible clients like Cursor or Claude.
+  mental_damage: Now you can ask an AI to spin up a Cloudflare Worker while it also explains why your DNS analytics look like a Rorschach test.
   tags:
     - mcp
     - cloudflare
+    - server
     - infrastructure
-    - context-protocol
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The repository is a suite of official MCP servers for Cloudflare services, making MCP the primary product identity rather than a secondary feature.
+  reason: This is a first-party collection of MCP servers where MCP is the core product identity, providing domain-specific and general Cloudflare integrations.
   evidence:
-    - Repository name is 'mcp-server-cloudflare' and the README explicitly describes 'several MCP servers allowing you to connect to Cloudflare's service from an MCP client'.
-    - Includes 14 domain-specific servers covering Workers, Observability, DNS, AI Gateway, and Browser Rendering under the *.mcp.cloudflare.com domain.
-    - Listed in awesome-mcp-list and awesome-mcp-servers directories under 'Cloud Platforms' and 'Official Servers' sections.
+    - README explicitly describes it as MCP servers for Cloudflare services
+    - Listed in multiple MCP-focused awesome lists under Cloud Platforms/Domain Servers
+    - Repository contains multiple MCP server implementations (e.g., Workers, Radar, Observability)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -104,12 +105,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:43:21.424Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7cbac7e80bf8b82884b9a48961f875efb902b5f046a59d43c224289359fdd902
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a first-party collection of MCP servers where MCP is the core product identity, providing domain-specific and general Cloudflare integrations.
+      decision_evidence:
+        - README explicitly describes it as MCP servers for Cloudflare services
+        - Listed in multiple MCP-focused awesome lists under Cloud Platforms/Domain Servers
+        - Repository contains multiple MCP server implementations (e.g., Workers, Radar, Observability)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is MCP servers for Cloudflare, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

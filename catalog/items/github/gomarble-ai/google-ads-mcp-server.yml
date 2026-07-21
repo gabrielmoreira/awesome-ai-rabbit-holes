@@ -55,23 +55,23 @@ metadata:
       fetched_at: "2026-07-16T05:05:09.573Z"
       bytes: 18040
 insights:
-  summary: A FastMCP-powered server that connects the Google Ads API to MCP clients like Claude Desktop for querying performance data, managing accounts, and researching keywords.
-  why_it_matters: It allows developers to query GAQL and manage ad accounts directly through chat interfaces without building custom API wrappers or leaving their workflow.
-  mental_damage: You can now debug underperforming ad campaigns via Claude Desktop instead of fixing the actual code, completing the circle of developer procrastination.
+  summary: An MCP server that integrates Google Ads API with AI assistants via FastMCP, offering OAuth 2.0 authentication, GAQL querying, and keyword research.
+  why_it_matters: Lets developers connect Claude Desktop or other MCP clients directly to Google Ads data for programmatic analysis and automation.
+  mental_damage: Now your AI assistant can finally explain why your ad spend is vanishing into the void.
   tags:
-    - mcp
+    - mcp-server
     - google-ads
     - api-integration
+    - oauth
     - fastmcp
-    - marketing
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server providing Google Ads API access, making it a textbook fit for the MCP Servers & Tooling category.
+  reason: "MCP is the product identity: this is a dedicated MCP server for Google Ads API integration, not a compatibility footnote."
   evidence:
-    - Repo description states it is a server to analyze Google Ads performance data via MCP.
-    - README explicitly identifies it as a 'FastMCP-powered Model Context Protocol server' for Claude Desktop.
-    - Listed in awesome-mcp-servers under 'Server Implementations > Marketing'.
+    - Repo explicitly describes itself as a FastMCP-powered MCP server for Google Ads API
+    - Listed in awesome-mcp-servers under Community Servers
+    - Features focus on MCP-specific capabilities (OAuth 2.0, GAQL, Claude Desktop integration)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:29.393Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b99d10466c16f2e50d9600c2203febb06a871c872c992b48c40ec6970579140d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server for Google Ads API integration, not a compatibility footnote."
+      decision_evidence:
+        - Repo explicitly describes itself as a FastMCP-powered MCP server for Google Ads API
+        - Listed in awesome-mcp-servers under Community Servers
+        - Features focus on MCP-specific capabilities (OAuth 2.0, GAQL, Claude Desktop integration)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server (not an extension augmenting another assistant).
+      review_reason: null
+      review_resume_lifecycle: null

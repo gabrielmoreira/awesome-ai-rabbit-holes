@@ -64,23 +64,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:06.933Z"
       bytes: 14691
 insights:
-  summary: A Rust and Python inference server from Hugging Face for deploying and serving large language models with production features like continuous batching, tensor parallelism, and quantization.
-  why_it_matters: It provides the high-performance serving layer needed to self-host popular open-source LLMs like Llama and StarCoder with OpenAI-compatible APIs.
-  mental_damage: The README now directs you to other inference engines, meaning your carefully tuned TGI deployment is effectively a legacy system before you even finish the Docker pull.
+  summary: A Rust, Python, and gRPC server for deploying and serving large language models for text generation inference.
+  why_it_matters: Enables high-performance, production-ready serving of popular open-source LLMs with features like tensor parallelism, continuous batching, and quantization.
+  mental_damage: Just when you thought you could ignore inference engines, Hugging Face hands you a maintenance-mode server and a list of newer alternatives to migrate to.
   tags:
-    - inference
+    - inference-engine
     - llm-serving
-    - self-hosted
+    - production-ready
     - huggingface
-    - rust
+    - tgi
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because the repository is explicitly in maintenance mode and archived, and it functions as a backend model-serving infrastructure rather than a developer-facing AI tool, agent, or coding workflow product.
+  reason: The project is archived and in maintenance mode, with the README explicitly recommending newer alternatives like vLLM and SGLang.
   evidence:
-    - Repo description identifies it as 'Large Language Model Text Generation Inference', a serving engine rather than a developer tool.
-    - README states the project is 'now in maintenance mode' and archived, recommending users migrate to vllm or SGLang.
-    - Source lists categorize it under 'Inference Engine' and 'Large Model Serving', which falls outside the catalog's scope of IDEs, agents, and developer workflows.
+    - Archived flag is true
+    - README states TGI is in maintenance mode and recommends using vLLM, SGLang, or other downstream engines
+    - Last push is in 2026 (likely a system artifact) but the project is no longer actively developed
 placement:
   primary_category: null
   section: null
@@ -99,12 +99,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:55.027Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:39dcfe155fab5f902f6e89e5af3d1936bbd37a894c5887bc7c9ddd63e2ffea83
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is archived and in maintenance mode, with the README explicitly recommending newer alternatives like vLLM and SGLang.
+      decision_evidence:
+        - Archived flag is true
+        - README states TGI is in maintenance mode and recommends using vLLM, SGLang, or other downstream engines
+        - Last push is in 2026 (likely a system artifact) but the project is no longer actively developed
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

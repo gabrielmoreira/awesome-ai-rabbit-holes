@@ -57,22 +57,22 @@ metadata:
       fetched_at: "2026-07-20T05:17:15.836Z"
       bytes: 2413
 insights:
-  summary: An official MCP server from Buildkite that exposes pipeline, build, job, and test data to AI tooling and editors.
-  why_it_matters: It lets coding agents and editors query live CI/CD state directly, so developers can ask AI to diagnose failing pipelines without leaving their workflow.
-  mental_damage: Another pristine MCP server enters the registry, promising that your AI will finally understand why your builds are broken, while you quietly wonder if the build was actually broken or just misunderstood by the context window.
+  summary: Official MCP server exposing Buildkite data (pipelines, builds, jobs, tests) to AI tooling and editors.
+  why_it_matters: Lets AI assistants query Buildkite CI/CD state directly for context-aware workflows.
+  mental_damage: Now your AI can blame the build pipeline instead of you.
   tags:
-    - mcp
+    - mcp-server
     - buildkite
     - ci-cd
     - developer-tools
   confidence: high
 curation:
   status: included
-  reason: The product is an official MCP server for Buildkite, making MCP its primary identity and fitting cleanly as a domain-specific server.
+  reason: "MCP is the product identity: this is an official MCP server for Buildkite, not a compatibility footnote."
   evidence:
-    - Repo description states 'Official MCP Server for Buildkite.'
-    - README says it is 'a Model Context Protocol (MCP) server exposing Buildkite data to AI tooling and editors.'
-    - Listed in awesome-mcp-servers under 'Official Servers' and 'Developer Tools' sections.
+    - "Repo description: 'Official MCP Server for Buildkite'"
+    - "README: 'MCP server exposing Buildkite data to AI tooling and editors'"
+    - Listed in awesome-mcp-servers under 'Official Servers' and 'Developer Tools'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -91,12 +91,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.715Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:34:35.967Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d94ba2c8cd66160d746831c3c3548a6016498785434f77cb0658ca2a530d2376
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is an official MCP server for Buildkite, not a compatibility footnote."
+      decision_evidence:
+        - "Repo description: 'Official MCP Server for Buildkite'"
+        - "README: 'MCP server exposing Buildkite data to AI tooling and editors'"
+        - Listed in awesome-mcp-servers under 'Official Servers' and 'Developer Tools'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because MCP is the primary product identity, not a host integration layer.
+      review_reason: null
+      review_resume_lifecycle: null

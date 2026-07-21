@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-07-20T05:16:59.596Z"
       bytes: 11476
 insights:
-  summary: A lightweight daemon and CLI protocol that lets multiple AI coding agents declare intents, lock code symbols, and detect conflicts before writing to a shared repository.
-  why_it_matters: It prevents merge conflicts across concurrent AI agent sessions by coordinating work scope at the intent and symbol level rather than relying on git to untangle the mess after the fact.
-  mental_damage: We have finally reached the point where the greatest threat to your codebase is not a junior developer, but three Claude Code instances fighting over the same function like seagulls on a chip.
+  summary: Agent coordination protocol that declares intents, locks symbols, and detects conflicts before code is written to prevent merge conflicts in shared codebases.
+  why_it_matters: It prevents multi-agent coding collisions by letting AI assistants announce plans and reserve code symbols before editing, reducing merge conflicts in team or parallel-agent workflows.
+  mental_damage: Finally, a way to stop your three Claude Code instances from silently rewriting the same function into a fight club.
   tags:
-    - agent-coordination
     - multi-agent
-    - cli
-    - conflict-prevention
-    - git
+    - coordination
+    - merge-conflicts
+    - git-integration
+    - claude-code
   confidence: high
 curation:
   status: included
-  reason: The core product is a coordination protocol and daemon for managing multiple AI agents working in the same repo, which aligns with Agent Orchestration's focus on control planes and runtime platforms for multi-agent workflows.
+  reason: The core product is a coordination protocol and runtime for multiple agents working on shared codebases, fitting the multi-agent orchestration identity.
   evidence:
-    - Repo description explicitly states 'Agent coordination protocol — declare intents, lock symbols, detect conflicts before code is written'.
-    - README states 'Wit coordinates multiple AI coding agents working on the same repository simultaneously' and runs as a background daemon with JSON-RPC.
-    - Listed in awesome-cli-coding-agents under 'Harnesses & orchestration > Agent infrastructure'.
+    - "Repo description: 'Agent coordination protocol — declare intents, lock symbols, detect conflicts before code is written'"
+    - "README: 'Wit coordinates multiple AI coding agents working on the same repository simultaneously'"
+    - "Source-list context: listed under 'Harnesses & orchestration > Agent infrastructure' in awesome-cli-coding-agents"
 placement:
   primary_category: agent-orchestration
   section: Multi-Agent Runtime Platforms
@@ -84,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:22:34.692Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:634499088db940270c03d666954991ae8f1d9eae6306e75d7fb1d907bd2709e2
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The core product is a coordination protocol and runtime for multiple agents working on shared codebases, fitting the multi-agent orchestration identity.
+      decision_evidence:
+        - "Repo description: 'Agent coordination protocol — declare intents, lock symbols, detect conflicts before code is written'"
+        - "README: 'Wit coordinates multiple AI coding agents working on the same repository simultaneously'"
+        - "Source-list context: listed under 'Harnesses & orchestration > Agent infrastructure' in awesome-cli-coding-agents"
+      category_candidates:
+        - agent-orchestration
+        - ai-dev-extensions
+      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because the primary value is multi-agent coordination (intents, locks, conflicts) rather than merely extending another assistant with host integrations.
+      review_reason: null
+      review_resume_lifecycle: null

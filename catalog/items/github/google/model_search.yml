@@ -39,23 +39,22 @@ metadata:
       fetched_at: "2026-07-16T05:05:09.765Z"
       bytes: 10734
 insights:
-  summary: Model Search is an archived Google framework that implements AutoML algorithms to automatically search for optimal neural network architectures for classification problems.
-  why_it_matters: It allows researchers to automate the exploration of DNN architectures, ensembles, and distilled models without manually tuning layers and structures.
-  mental_damage: We automated the architecture search so you can spend your newfound free time debating whether AutoML is just a fancy way of admitting we don't know why our models work either.
+  summary: An archived AutoML framework for searching and comparing neural network architectures for classification problems.
+  why_it_matters: It automates the exploration of model architectures, ensembles, and distilled models for researchers working on classification tasks.
+  mental_damage: Because nothing says 'cutting edge' like an archived AutoML framework from 2021 that still gets commits in 2024.
   tags:
     - automl
     - neural-architecture-search
-    - tensorflow
     - classification
-    - google
+    - tensorflow
   confidence: high
 curation:
   status: excluded
-  reason: Excluded because it is an archived, TensorFlow-based AutoML research framework for neural architecture search, which falls outside the catalog's scope of practical AI developer tooling, coding agents, and modern LLM infrastructure.
+  reason: The project is archived and primarily targets ML researchers for AutoML model architecture search, not developer workflows or tooling.
   evidence:
-    - "Repository is archived (archived: yes)."
-    - README focuses on AutoML and neural architecture search for classification problems, not LLM or coding workflows.
-    - Identified in Awesome-LLMOps under 'AutoML', which is a research/ML operations context rather than developer-facing AI tooling.
+    - Archived flag is true
+    - README describes it as an AutoML framework for model architecture search, not a developer tool
+    - Source-list context places it in LLMOps/AutoML, not developer-tooling
 placement:
   primary_category: null
   section: null
@@ -74,12 +73,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:03:33.504Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4d1e52a36f352c74a0d7c5d2fc6aa6a72237a4a30c18c6e74f8b8c70b8b7dc1d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is archived and primarily targets ML researchers for AutoML model architecture search, not developer workflows or tooling.
+      decision_evidence:
+        - Archived flag is true
+        - README describes it as an AutoML framework for model architecture search, not a developer tool
+        - Source-list context places it in LLMOps/AutoML, not developer-tooling
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

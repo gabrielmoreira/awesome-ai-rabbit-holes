@@ -52,23 +52,21 @@ metadata:
       fetched_at: "2026-07-16T05:05:13.571Z"
       bytes: 13887
 insights:
-  summary: Auto Browser is an open-source, MCP-native browser control plane that gives AI agents a shared Playwright browser with human takeover, reusable auth profiles, and built-in safety rails.
-  why_it_matters: It lets developers wire reliable, login-aware browser automation into any MCP client or REST workflow without rebuilding auth and session handling from scratch.
-  mental_damage: You now have the perfect excuse to claim a human-in-the-loop browser session is actually 'agent-driven development' while you quietly solve the CAPTCHA yourself.
+  summary: Auto Browser is an open-source MCP-native browser agent providing MCP clients with a Playwright-based browser, human takeover, auth profiles, and local deployment.
+  why_it_matters: Gives AI agents reliable, authenticated browser access for workflows needing real web interaction, not just HTML fetching.
+  mental_damage: Finally, an agent that can log into your internal tools without you having to babysit the 2FA prompts every time.
   tags:
     - mcp
-    - browser-automation
-    - playwright
-    - local-first
-    - agent-tooling
+    - browser
+    - automation
   confidence: high
 curation:
   status: included
-  reason: The product’s core identity is an MCP server that exposes browser automation to agents and MCP clients, making it a textbook fit for MCP Servers & Tooling.
+  reason: Auto Browser is an MCP-native server whose core identity is providing browser automation as an MCP service, making it a clear fit for MCP Servers & Tooling.
   evidence:
-    - Repo description explicitly calls it 'MCP-native browser agent' and topics include mcp and browser-automation.
-    - README states 'MCP-native from day one' and exposes the browser surface as an MCP server over HTTP and stdio.
-    - Listed in awesome-mcp-servers under Browser Automation, aligning with its primary product identity.
+    - "Repo description: 'Give your AI agent a real browser — with a human in the loop. Open-source MCP-native browser agent.'"
+    - "README: 'Auto Browser is an MCP-native browser control plane for authorized workflows.'"
+    - Listed in awesome-mcp-servers under Browser Automation as an MCP server implementation
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -87,12 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.718Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:17:38.125Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a50877ca849604749c2774c041ee3be35225170f21ab285f938730699e328fb8
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: Auto Browser is an MCP-native server whose core identity is providing browser automation as an MCP service, making it a clear fit for MCP Servers & Tooling.
+      decision_evidence:
+        - "Repo description: 'Give your AI agent a real browser — with a human in the loop. Open-source MCP-native browser agent.'"
+        - "README: 'Auto Browser is an MCP-native browser control plane for authorized workflows.'"
+        - Listed in awesome-mcp-servers under Browser Automation as an MCP server implementation
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because Auto Browser's primary identity is as an MCP server providing browser automation, not as an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

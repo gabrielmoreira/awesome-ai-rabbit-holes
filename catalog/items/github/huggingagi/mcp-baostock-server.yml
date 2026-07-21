@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-07-20T15:11:05.527Z"
       bytes: 2269
 insights:
-  summary: An MCP server that exposes BaoStock stock market data, including K-line history, financial indicators, and industry classifications, to AI models and agents.
-  why_it_matters: Developers building finance-oriented AI agents can connect to this server to give their models structured access to Chinese A-share market data without writing custom crawlers or parsers.
-  mental_damage: We have now successfully abstracted the volatile nature of the stock market into a standardized protocol, ensuring your AI agent can lose money in Python with unprecedented interoperability.
+  summary: An MCP server providing stock market data APIs for Chinese equities via the BaoStock library.
+  why_it_matters: Developers building financial analysis tools or AI agents can integrate real-time and historical Chinese stock market data through a standardized MCP interface.
+  mental_damage: Now your AI agent can day-trade A-shares while you pretend to write unit tests.
   tags:
-    - mcp
-    - finance
-    - data-server
+    - mcp-server
+    - financial-data
     - stock-market
+    - baostock
+    - python
   confidence: high
 curation:
   status: included
-  reason: The project's identity is explicitly an MCP server implementation for the finance domain, matching the MCP Servers & Tooling category.
+  reason: This is a domain-specific MCP server whose primary identity is exposing stock market data via the Model Context Protocol.
   evidence:
-    - Repository name is 'mcp-baostock-server' and the README explicitly describes '基于BaoStock的股票数据服务器'.
-    - Listed in the 'awesome-mcp-servers' directory under the 'Finance & Fintech' section.
-    - The usage command is 'uv run mcp-baostock-server', confirming it is a runnable MCP server instance.
+    - README explicitly describes it as a BaoStock-based stock data server with MCP interface
+    - Provides multiple stock data endpoints (K-line, financials, dividends, etc.)
+    - Repository is active (pushed March 2026) and not archived
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.717Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T16:06:34.317Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7e58cd6c5ea331d4dc3da97b1301988a33a38f30f9c8d655e32f9397a7394f1f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a domain-specific MCP server whose primary identity is exposing stock market data via the Model Context Protocol.
+      decision_evidence:
+        - README explicitly describes it as a BaoStock-based stock data server with MCP interface
+        - Provides multiple stock data endpoints (K-line, financials, dividends, etc.)
+        - Repository is active (pushed March 2026) and not archived
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product's core identity is as an MCP server exposing domain data, not a general-purpose framework or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -37,22 +37,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A landmark technical blog post by Lilian Weng that decomposes LLM-powered autonomous agents into planning, memory, and tool-use components with case studies.
-  why_it_matters: It remains a foundational reference for developers building agents, distilling practical patterns like ReAct, Reflexion, and external memory into a single readable architecture overview.
-  mental_damage: Reading this essay in 2023 convinced an entire generation of developers that glueing a vector store to a while-loop made them AI researchers.
+  summary: A long-form technical blog post by Lilian Weng explaining the architecture and components of LLM-powered autonomous agents.
+  why_it_matters: Provides a comprehensive conceptual framework for developers building or understanding agent systems, covering planning, memory, and tool use.
+  mental_damage: Reading this will make you question whether your agent is actually autonomous or just a very expensive TODO list.
   tags:
-    - agents
-    - planning
-    - memory
-    - tool-use
+    - llm-agents
+    - conceptual-guide
+    - autonomous-agents
+    - research-overview
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational blog post and reference article, not a standalone developer tool, framework, or product, and therefore does not fit the catalog's product-first scope.
+  reason: This is a blog post/educational resource, not a practical developer tool, framework, or product.
   evidence:
-    - The URL points to a Lil'Log blog post dated June 23, 2023, not a tool repository or product.
-    - The content is a technical essay discussing agent components, with citations to ReAct, Reflexion, and HuggingGPT, rather than shipping executable tooling.
-    - It appears in awesome-ai-agents as a descriptive reference (ChemCrow > Description) rather than as a tool entry.
+    - The URL and scraped context confirm it is a blog post on Lil'Log
+    - The content is a detailed explanation of LLM-powered agent systems, not a usable tool or library
+    - Source-list context shows it is referenced as an example in an awesome list, not as a standalone product
 placement:
   primary_category: null
   section: null
@@ -72,12 +72,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.714Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:29:00.105Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2fd5db34f4b9f713d2d9a6fefb5c4c3cf7729cb4e5b1c5ca9c91118fb8b75cad
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a blog post/educational resource, not a practical developer tool, framework, or product.
+      decision_evidence:
+        - The URL and scraped context confirm it is a blog post on Lil'Log
+        - The content is a detailed explanation of LLM-powered agent systems, not a usable tool or library
+        - Source-list context shows it is referenced as an example in an awesome list, not as a standalone product
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

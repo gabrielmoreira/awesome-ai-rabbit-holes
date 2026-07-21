@@ -47,23 +47,23 @@ metadata:
       fetched_at: "2026-07-20T05:17:20.488Z"
       bytes: 6327
 insights:
-  summary: An MCP server that connects Claude to Apple Music, enabling catalog search, library management, playlist creation, and personalized recommendations via the MusicKit API.
-  why_it_matters: Developers can hand off music discovery and playlist curation to their coding assistant, integrating personal listening habits into the same prompt surface they use for repo work.
-  mental_damage: You now have a coding assistant capable of refactoring your backend and curating a rainy Sunday playlist, yet somehow neither task feels any less urgent.
+  summary: An MCP server that integrates Apple Music with Claude, enabling catalog search, library management, and playlist operations.
+  why_it_matters: Lets developers delegate music-related tasks (e.g., playlist curation, library analysis) to Claude via structured tools rather than manual API calls.
+  mental_damage: Now your AI can judge your taste in music while also judging your code.
   tags:
     - mcp
     - apple-music
     - claude
-    - musickit
-    - fastmcp
+    - server
+    - integration
   confidence: high
 curation:
   status: included
-  reason: The product is a domain-specific MCP server that gives Claude access to Apple Music capabilities, fitting cleanly as an MCP Server implementation.
+  reason: "MCP is the product identity: this is a dedicated MCP server providing Apple Music integration, not a secondary adapter or compatibility feature."
   evidence:
-    - "Repo description explicitly states: 'Full Apple Music integration for Claude via MCP'"
-    - README identifies it as 'An MCP (Model Context Protocol) server that gives Claude full access to your Apple Music account'
-    - Listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'
+    - Repo description explicitly states 'Full Apple Music integration for Claude via MCP'
+    - README details 11 MCP tools for Apple Music operations
+    - Already listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -82,12 +82,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:41:46.107Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:794e644956692c48b1b5d85ae166572c9db3bbf2eb6675600cd66cd9ee3b4219
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server providing Apple Music integration, not a secondary adapter or compatibility feature."
+      decision_evidence:
+        - Repo description explicitly states 'Full Apple Music integration for Claude via MCP'
+        - README details 11 MCP tools for Apple Music operations
+        - Already listed in awesome-mcp-servers under 'Server Implementations > Art & Culture'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server (not just an extension for another assistant).
+      review_reason: null
+      review_resume_lifecycle: null

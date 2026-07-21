@@ -53,25 +53,26 @@ metadata:
       fetched_at: "2026-07-20T05:17:02.049Z"
       bytes: 3494
 insights:
-  summary: Apache TVM is an open machine learning compiler framework that optimizes and deploys models across diverse hardware backends like GPUs and specialized accelerators.
-  why_it_matters: It provides Python-first customization of ML compiler pipelines, serving as foundational infrastructure for building vertical compilers, such as those targeting LLMs.
-  mental_damage: Yet another opportunity to spend three weeks tuning compiler passes just to shave 4ms off a matrix multiplication that nobody will ever notice.
+  summary: Open Machine Learning Compiler Framework for optimizing and deploying ML models across hardware backends.
+  why_it_matters: Enables developers to compile and optimize machine learning models for diverse hardware targets, from GPUs to mobile devices, with Python-first customization.
+  mental_damage: Finally, a compiler that lets you argue with your GPU about how to run your model.
   tags:
     - ml-compiler
-    - infrastructure
+    - cross-platform
     - performance
-    - deep-learning
+    - python-first
+    - apache
   confidence: high
 curation:
-  status: excluded
-  reason: Excluded because TVM is a general machine learning compiler and infrastructure tool, lacking the specific developer-facing AI coding assistant, agent, or prompt-engineering angle required for this catalog.
+  status: included
+  reason: TVM is a code-first framework for compiling and optimizing ML models, fitting the developer-tooling scope as a reusable building block rather than an end-user product or assistant.
   evidence:
-    - Repo description identifies it as an 'Open Machine Learning Compiler Framework', not a coding tool.
-    - README emphasizes 'Python-first development' for 'machine learning compiler pipelines' and 'Universal deployment' of models, not code editing.
-    - Listed in Awesome-LLMOps under 'Performance > ML Compiler', which is infrastructure ops rather than direct developer tooling.
+    - "Repo description: 'Open Machine Learning Compiler Framework'"
+    - "README: 'Apache TVM is an open machine learning compilation framework' with Python-first development and universal deployment"
+    - "Source-list context: Listed under 'Performance > ML Compiler' in Awesome-LLMOps"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Workflow / Graph Engines
 lifecycle:
   status: promotion_candidate
   reason: Stars (13333) exceeded threshold (150)
@@ -87,12 +88,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.713Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:23:30.472Z"
+    cause: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-20T17:12:09.713Z"
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:30a7c35a7b6c714c2ffe07d17f504445988c2fee16159dc753170b9e48fb33b9
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: TVM is a code-first framework for compiling and optimizing ML models, fitting the developer-tooling scope as a reusable building block rather than an end-user product or assistant.
+      decision_evidence:
+        - "Repo description: 'Open Machine Learning Compiler Framework'"
+        - "README: 'Apache TVM is an open machine learning compilation framework' with Python-first development and universal deployment"
+        - "Source-list context: Listed under 'Performance > ML Compiler' in Awesome-LLMOps"
+      category_candidates:
+        - ai-frameworks
+        - local-ai
+      contrastive_reason: Choose ai-frameworks over local-ai because TVM is primarily a code-first compiler framework, not a local runtime or inference engine.
+      review_reason: null
+      review_resume_lifecycle: null

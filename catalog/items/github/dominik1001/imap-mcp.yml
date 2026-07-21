@@ -43,23 +43,23 @@ metadata:
       fetched_at: "2026-07-16T05:04:52.367Z"
       bytes: 2368
 insights:
-  summary: An MCP server that exposes IMAP operations, allowing AI assistants to create draft emails via connections to IMAP-compatible servers like Gmail and Outlook.
-  why_it_matters: It gives coding agents and AI assistants the ability to interact with email servers directly, enabling automated draft creation and email workflow integration.
-  mental_damage: "We have finally solved the hardest problem in computer science: letting a Claude instance save a draft to your Gmail account so you don't have to."
+  summary: An IMAP Model Context Protocol (MCP) server that exposes IMAP operations as tools for AI assistants.
+  why_it_matters: Lets AI assistants interact with email servers via IMAP, enabling draft creation and other email operations directly from assistant workflows.
+  mental_damage: Now your AI assistant can draft emails you’ll never send, just like you always wanted.
   tags:
     - mcp
     - imap
     - email
     - typescript
-    - integration
+    - ai-integration
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server implementation for email, fitting squarely into the MCP Servers & Tooling category as a domain-specific server.
+  reason: MCP is the primary product identity, and the server exposes IMAP operations as MCP tools for AI assistants.
   evidence:
-    - Repo description explicitly states it is 'An IMAP Model Context Protocol (MCP) server'.
-    - README lists 'MCP Compatible' as a core feature and provides the mcpServers JSON configuration block for setup.
-    - Listed in the 'awesome-mcp-servers' directory under the 'Community Servers' section.
+    - Repo description explicitly states it is an IMAP MCP server
+    - README confirms MCP compatibility and IMAP tool exposure
+    - Listed in awesome-mcp-servers under Community Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -78,12 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-20T16:12:09.716Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-20T17:12:09.713Z"
-    attempts: 1
+    status: done
+    updated_at: "2026-07-21T15:51:29.135Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:de72bed760aa4e13674e35491c18bd679dd73a3e41ac4d2de754e160ab9f5054
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the primary product identity, and the server exposes IMAP operations as MCP tools for AI assistants.
+      decision_evidence:
+        - Repo description explicitly states it is an IMAP MCP server
+        - README confirms MCP compatibility and IMAP tool exposure
+        - Listed in awesome-mcp-servers under Community Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null
