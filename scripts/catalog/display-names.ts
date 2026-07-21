@@ -113,9 +113,13 @@ export function selectBestCatalogDisplayName(candidates: string[], targetKeys: I
 export function resolveCatalogDisplayNameTargetKeys(canonicalUrl: string, githubRepo: string | null | undefined): string[] {
   const targetKeys = new Set<string>();
   const github = parseGitHubUrl(canonicalUrl);
-  if (github) targetKeys.add(github.repo);
+  if (github) {
+    targetKeys.add(github.repo);
+    targetKeys.add(`${github.owner}/${github.repo}`);
+  }
   const explicitRepo = trimDisplayNameCandidate(githubRepo);
   if (explicitRepo) {
+    targetKeys.add(explicitRepo);
     const repo = explicitRepo.split("/").at(-1);
     if (repo) targetKeys.add(repo);
   }

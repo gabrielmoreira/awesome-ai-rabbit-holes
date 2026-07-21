@@ -14,7 +14,7 @@ function makeItem(overrides: Partial<CatalogItem> & { canonical_url: string; nam
   return {
     id: overrides.id ?? makeItemId(overrides.canonical_url),
     kind: overrides.kind ?? (github ? "github-repo" : "website"),
-    name: overrides.name ?? (github ? github.split("/")[1]! : overrides.canonical_url),
+    name: overrides.name ?? (github ? github : overrides.canonical_url),
     canonical_url: overrides.canonical_url,
     identity: overrides.identity ?? (github ? { github_repo: github } : {}),
     provenance: overrides.provenance ?? { discoveries: [] },
@@ -213,7 +213,7 @@ describe("catalog repair planning", () => {
     expect(plan.changedItems[0]).toMatchObject({
       canonical_url: "https://github.com/kirodotdev/kiro",
       identity: { github_repo: "kirodotdev/kiro" },
-      name: "kiro",
+      name: "kirodotdev/kiro",
       curation: { status: "included", reason: "Spec-driven environment." },
       placement: { primary_category: "spec-driven-development", section: "Spec-First Environments" },
     });
@@ -263,7 +263,7 @@ describe("catalog repair planning", () => {
     const aliasOld = makeItem({ canonical_url: "https://github.com/joaomdmoura/crewai", identity: { github_repo: "joaomdmoura/crewai" }, name: "crewai" });
     const aliasNew = makeItem({ canonical_url: "https://github.com/crewaiinc/crewai", identity: { github_repo: "crewaiinc/crewai" }, name: "crewai" });
     const websiteDuplicate = makeItem({ canonical_url: "https://crewai.io", name: "crewai.io" });
-    const unrelatedGitHub = makeItem({ canonical_url: "https://github.com/example/solo-tool", identity: { github_repo: "example/solo-tool" }, name: "solo-tool" });
+    const unrelatedGitHub = makeItem({ canonical_url: "https://github.com/example/solo-tool", identity: { github_repo: "example/solo-tool" }, name: "example/solo-tool" });
     const unrelatedWebsite = makeItem({ canonical_url: "https://example.com/no-match", name: "Example" });
 
     const candidates = selectRepairCandidates([aliasOld, aliasNew, websiteDuplicate, unrelatedGitHub, unrelatedWebsite]);

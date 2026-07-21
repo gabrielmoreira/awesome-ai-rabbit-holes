@@ -79,7 +79,7 @@ export function buildNewCatalogItem(
   return {
     id: makeItemId(url),
     kind: github ? "github-repo" : "website",
-    name: github ? github.repo : url.split("/").pop() ?? url,
+    name: github ? `${github.owner}/${github.repo}` : url.split("/").pop() ?? url,
     canonical_url: url,
     identity: github ? { github_repo: `${github.owner}/${github.repo}` } : {},
     provenance: { discoveries: [discovery] },

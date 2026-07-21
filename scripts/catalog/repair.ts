@@ -134,11 +134,16 @@ function chooseMergedName(preferred: CatalogItem, items: CatalogItem[], canonica
   const canonicalGithub = parseGitHubUrl(canonicalUrl);
   const targetKeys = resolveCatalogDisplayNameTargetKeys(canonicalUrl, canonicalGithub ? `${canonicalGithub.owner}/${canonicalGithub.repo}` : preferred.identity.github_repo);
   const mergedName = selectBestCatalogDisplayName(
-    items.flatMap((item) => collectCatalogDisplayNameCandidates(item)),
+    items.flatMap((item) => [
+      ...collectCatalogDisplayNameCandidates(item),
+      // During repair, also consider the full owner/repo form so existing
+      // items with a bare repo name can be upgraded to the qualified form.
+      ...(item.identity.github_repo ? [item.identity.github_repo] : []),
+    ]),
     targetKeys,
   );
   if (mergedName) return mergedName;
-  if (canonicalGithub) return canonicalGithub.repo;
+  if (canonicalGithub) return `${canonicalGithub.owner}/${canonicalGithub.repo}`;
   return preferred.name;
 }
 
@@ -340,7 +345,10 @@ export function selectRepairCandidates(
         || (nameKey != null && (githubNameCounts.get(nameKey) ?? 0) > 1);
       const hasWebsiteMatch = (repoKey != null && websiteSignals.has(repoKey))
         || (nameKey != null && websiteSignals.has(nameKey));
-      return needsNameRepair || hasAliasProneGitHubMatch || hasWebsiteMatch;
+      // Detect bare repo names (no owner qualifier) that should be upgraded to owner/repo.
+      const needsGitHubNameQualification =
+        !item.name.includes("/") && item.name === github.repo;
+      return needsNameRepair || needsGitHubNameQualification || hasAliasProneGitHubMatch || hasWebsiteMatch;
     }
     if (item.kind !== "website") return needsNameRepair;
     const hostLabel = resolveCatalogUrlHostLabel(item.canonical_url);
