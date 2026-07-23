@@ -60,15 +60,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-07-21T15:20:34.119Z"
+    status: deferred
+    updated_at: "2026-07-23T05:09:46.597Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: scotia1973-bot/api-hub"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for scotia1973-bot/api-hub
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-07-21T15:21:35.709Z"
+    updated_at: "2026-07-23T05:09:49.525Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

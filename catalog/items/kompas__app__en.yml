@@ -70,11 +70,21 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T15:28:51.393Z"
+    updated_at: "2026-07-23T05:11:38.473Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for kompas__app__en: Invalid AI response structure: Included responses must provide exactly two ranked category_candidates"
-    attempts: 2
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for kompas__app__en: ```json
+        {
+          "summary": "Kompas is a local-first desktop application for capturing notes, connecting ideas into a graph, and using AI to retrieve past thoughts for writing and research.",
+          "why_it_matters": "While it offers private, local-first AI retrieval for personal notes, it targets essayists, researchers, and founders rather than software development or coding workflows.",
+          "mental_damage": "Because your own ideas weren't compounding fast enough, now you need a local-first graph database and a bring-your-own-key Claude Code subscription just to remember what you think.",
+          "tags": ["knowledge-management", "note-taking", "local-first", "writing-assistant"],
+          "should_include": false,
+          "primary_category": null,
+          "section": null,
+          "decision_reason": "It is a consumer-grade personal knowledge management and writing application, not a developer-facing AI tool for coding, orchestration, app building, or adjacent
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
     next_retry_at: null

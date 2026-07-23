@@ -32,7 +32,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `cursor` `cursorrules` `config` `awesome-list` `ide`
   </details>
 
-- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 36.6k` `updated ≤30d` A community-curated collection of agents, instructions, skills, and plugins for extending GitHub Copilot. <details><summary>More about</summary>
+- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 36.9k` `updated ≤30d` A community-curated collection of agents, instructions, skills, and plugins for extending GitHub Copilot. <details><summary>More about</summary>
 
   It aggregates reusable Copilot customizations in one discoverable place, reducing the friction of finding and installing enhancements.
 
@@ -41,7 +41,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `github-copilot` `agent-skills`
   </details>
 
-- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 28.8k` `updated ≤30d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 29k` `updated ≤30d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
 
   It provides developers with a structured, discoverable map of the AI agent ecosystem, saving time in finding relevant tools for building or integrating agents.
 
@@ -77,7 +77,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mlops` `machine-learning` `deployment` `monitoring` `open-source`
   </details>
 
-- **[awesome-mlops](https://github.com/visenger/awesome-mlops)** `⭐ 14k` `updated >1y` A curated list of references for MLOps (Machine Learning Operations). <details><summary>More about</summary>
+- **[visenger/awesome-mlops](https://github.com/visenger/awesome-mlops)** `⭐ 14k` `updated >1y` A curated list of references for MLOps (Machine Learning Operations). <details><summary>More about</summary>
 
   Helps developers discover MLOps tools, practices, and learning resources to productionize ML systems.
 
@@ -131,15 +131,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llmops` `awesome-list` `mlops` `directory`
   </details>
 
-- **[Awesome-Video-Diffusion](https://github.com/showlab/awesome-video-diffusion)** `⭐ 5.7k` `updated ≤90d` A curated list of recent diffusion models for video generation, editing, restoration, and related research applications. <details><summary>More about</summary>
-
-  It serves as a centralized map for developers and researchers navigating the rapidly expanding ecosystem of video diffusion models and toolboxes.
-
-  _Another meticulously organized directory ensuring you can spend three hours researching generative video models instead of fixing the bug in your actual product._
-
-  `video-generation` `diffusion-models` `research` `awesome-list`
-  </details>
-
 - **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)** `⭐ 5.7k` `updated ≤1y` awesome-ai-tools is a curated GitHub list of various artificial intelligence tools and resources. <details><summary>More about</summary>
 
   It helps developers discover AI tools across categories like coding, image, video, audio, and marketing in one browsable list.
@@ -149,7 +140,16 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `ai-tools` `developer-resources`
   </details>
 
-- **[awesome-mlops](https://github.com/kelvins/awesome-mlops)** `⭐ 5.2k` `updated ≤90d` A curated list of MLOps tools and resources for machine learning engineering workflows. <details><summary>More about</summary>
+- **[Awesome-Video-Diffusion](https://github.com/showlab/awesome-video-diffusion)** `⭐ 5.7k` `updated ≤90d` A curated list of recent diffusion models for video generation, editing, restoration, and related research applications. <details><summary>More about</summary>
+
+  It serves as a centralized map for developers and researchers navigating the rapidly expanding ecosystem of video diffusion models and toolboxes.
+
+  _Another meticulously organized directory ensuring you can spend three hours researching generative video models instead of fixing the bug in your actual product._
+
+  `video-generation` `diffusion-models` `research` `awesome-list`
+  </details>
+
+- **[kelvins/awesome-mlops](https://github.com/kelvins/awesome-mlops)** `⭐ 5.2k` `updated ≤90d` A curated list of MLOps tools and resources for machine learning engineering workflows. <details><summary>More about</summary>
 
   Provides a navigable map of the MLOps ecosystem, helping developers discover tools for CI/CD, data management, model serving, and other ML lifecycle stages.
 
@@ -266,7 +266,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `multi-agent` `research-papers` `awesome-list` `swarms` `agent-orchestration`
   </details>
 
-- **[awesome-vector-search](https://github.com/currentslab/awesome-vector-search)** `⭐ 1.6k` `updated ≤30d` A curated list of vector search frameworks, engines, libraries, cloud services, and research papers. <details><summary>More about</summary>
+- **[currentslab/awesome-vector-search](https://github.com/currentslab/awesome-vector-search)** `⭐ 1.6k` `updated ≤30d` A curated list of vector search frameworks, engines, libraries, cloud services, and research papers. <details><summary>More about</summary>
 
   Helps developers navigate the fragmented landscape of vector search and similarity search tools for AI applications.
 
@@ -320,22 +320,22 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `automl` `awesome-list` `research`
   </details>
 
-- **[awesome-mcp-list](https://github.com/mobinx/awesome-mcp-list)** `⭐ 881` `updated ≤180d` A curated directory of Model Context Protocol (MCP) servers organized by domain, including browser control, art, cloud platforms, and other integrations. <details><summary>More about</summary>
-
-  It serves as a centralized map for developers navigating the rapidly expanding ecosystem of MCP-compatible tools and servers.
-
-  _We have now reached the stage of AI tooling where we need a dedicated list just to keep track of the lists that index the servers for the protocol that helps our assistants talk to the tools._
-
-  `mcp` `directory` `ecosystem` `developer-tools`
-  </details>
-
-- **[llm-course](https://github.com/andysingal/llm-course)** `⭐ 880` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
+- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 880` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
 
   Provides a centralized starting point for developers to navigate the rapidly shifting landscape of LLM architectures and agentic patterns.
 
   _The sheer velocity of these resources ensures you'll be learning yesterday's breakthroughs by the time you finish the first chapter._
 
   `llm` `learning-resources` `agents` `multimodal`
+  </details>
+
+- **[awesome-mcp-list](https://github.com/mobinx/awesome-mcp-list)** `⭐ 880` `updated ≤180d` A curated directory of Model Context Protocol (MCP) servers organized by domain, including browser control, art, cloud platforms, and other integrations. <details><summary>More about</summary>
+
+  It serves as a centralized map for developers navigating the rapidly expanding ecosystem of MCP-compatible tools and servers.
+
+  _We have now reached the stage of AI tooling where we need a dedicated list just to keep track of the lists that index the servers for the protocol that helps our assistants talk to the tools._
+
+  `mcp` `directory` `ecosystem` `developer-tools`
   </details>
 
 - **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 835` `updated ≤30d` Curated directory of terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
@@ -392,7 +392,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `models` `training` `benchmarks` `directory`
   </details>
 
-- **[awesome-x402](https://github.com/xpaysh/awesome-x402)** `⭐ 265` `updated ≤30d` A curated list of resources for the HTTP 402 Payment Required protocol, focused on crypto micropayments and AI agent integration. <details><summary>More about</summary>
+- **[xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)** `⭐ 265` `updated ≤30d` A curated list of resources for the HTTP 402 Payment Required protocol, focused on crypto micropayments and AI agent integration. <details><summary>More about</summary>
 
   Helps developers implement blockchain-based micropayments for AI agents and APIs with minimal code using USDC on Base.
 
@@ -401,7 +401,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `x402` `micropayments` `ai-agents` `crypto` `awesome-list`
   </details>
 
-- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 205` `updated ≤30d` A curated list of tools and resources for spec-driven development (SDD). <details><summary>More about</summary>
+- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 213` `updated ≤30d` A curated list of tools and resources for spec-driven development (SDD). <details><summary>More about</summary>
 
   Helps developers discover frameworks, standards, and workflows for writing specifications first to improve alignment, testing, and documentation in AI-assisted development.
 
@@ -468,7 +468,7 @@ _These are new or low-traffic entries being watched._
   `directory` `agent-frameworks` `curated-list` `awesome-list`
   </details>
 
-- **[satring](https://github.com/toadlybroodle/satring)** `⭐ 7` `updated ≤90d` A curated, health-monitored web directory for discovering and rating paid APIs that accept Bitcoin Lightning (L402), USDC on Base (x402), or Stripe/Tempo (MPP) payments for the agent economy. <details><summary>More about</summary>
+- **[toadlyBroodle/satring](https://github.com/toadlybroodle/satring)** `⭐ 7` `updated ≤90d` A curated, health-monitored web directory for discovering and rating paid APIs that accept Bitcoin Lightning (L402), USDC on Base (x402), or Stripe/Tempo (MPP) payments for the agent economy. <details><summary>More about</summary>
 
   It provides the missing discovery layer for developers building autonomous agents that need to find and pay for external API services programmatically.
 
@@ -477,7 +477,7 @@ _These are new or low-traffic entries being watched._
   `api-directory` `agent-economy` `l402` `lightning-network` `payments`
   </details>
 
-- **[pt-edge](https://github.com/grahamrowe82/pt-edge)** `⭐ 6` `updated ≤180d` Precomputed reasoning cache and directory site tracking 220K+ AI repos with quality scores and structured data for AI agents and humans. <details><summary>More about</summary>
+- **[grahamrowe82/pt-edge](https://github.com/grahamrowe82/pt-edge)** `⭐ 6` `updated ≤180d` Precomputed reasoning cache and directory site tracking 220K+ AI repos with quality scores and structured data for AI agents and humans. <details><summary>More about</summary>
 
   Developers and AI agents can quickly find and evaluate high-quality open-source AI tools with machine-readable, citable recommendations.
 
@@ -655,15 +655,6 @@ _These are new or low-traffic entries being watched._
   _Because apparently, even with a trillion-parameter model, we still need a crowdsourced manual to figure out how to make it act like a senior architect._
 
   `github-copilot` `custom-agents` `skills` `instructions` `productivity`
-  </details>
-
-- **[Manag.ai](https://www.manag.ai)** A curated list of LLMOps tools and resources aimed at developers building and operating LLM-powered applications. <details><summary>More about</summary>
-
-  It serves as a centralized map for developers navigating the fragmented landscape of tools required to productionize and maintain LLM workflows.
-
-  _Yet another 'awesome' list to make you realize that managing a simple prompt now requires a toolchain longer than your actual codebase._
-
-  `llmops` `directory` `devops` `awesome-list`
   </details>
 
 - **[modelscope/mcp](https://modelscope.cn/mcp)** A curated directory of MCP (Model Context Protocol) resources hosted on ModelScope. <details><summary>More about</summary>

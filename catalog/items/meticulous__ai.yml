@@ -77,21 +77,11 @@ lifecycle:
 processing:
   categorize:
     status: deferred
-    updated_at: "2026-07-21T15:36:24.574Z"
+    updated_at: "2026-07-23T05:14:03.579Z"
     cause:
       type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for meticulous__ai: ```json
-        {
-          "summary": "Meticulous is an automated platform that generates and maintains visual frontend browser tests by recording user sessions.",
-          "why_it_matters": "It eliminates the manual effort of writing and updating end-to-end tests by automatically evolving the test suite as the application changes.",
-          "mental_damage": "Finally, a way to automate the anxiety of broken UIs and the endless cycle of fixing flaky tests.",
-          "tags": ["automated-testing", "visual-regression", "frontend", "qa-automation"],
-          "should_include": true,
-          "primary_category": "coding-agents",
-          "section": "Review, Testing & Repair Agents",
-          "decision_reason": "It
-    attempts: 2
+      message: "Catalog LLM categorization failed for meticulous__ai: Mistral API error (401): {\"detail\":\"Unauthorized\"}"
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
     next_retry_at: null

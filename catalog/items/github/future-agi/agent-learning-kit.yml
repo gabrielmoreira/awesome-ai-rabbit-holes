@@ -1,6 +1,6 @@
 id: github__future-agi__agent-learning-kit
 kind: github-repo
-name: agent-learning-kit
+name: future-agi/agent-learning-kit
 canonical_url: https://github.com/future-agi/agent-learning-kit
 identity:
   github_repo: future-agi/agent-learning-kit
@@ -21,14 +21,31 @@ provenance:
         extracted_url: https://github.com/future-agi/ai-evaluation
         surrounding_text: "| [ai-evaluation](https://github.com/future-agi/ai-evaluation) | Evaluation framework for automated, reproducible scoring of LLM, agent, and workflow performance. | ![GitHub Badge](https://img.shields.io/github/stars/future-agi/ai-evaluation?style=flat-square) |"
         confidence: high
+    - id: discovery__github__future-agi__ai-evaluation__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - LLMOps
+        anchor_text: Future AGI
+        extracted_url: https://github.com/future-agi/ai-evaluation
+        surrounding_text: "| [Future AGI](https://github.com/future-agi/ai-evaluation) | Evaluation framework for automated, reproducible scoring of LLM, agent, and workflow performance. | ![GitHub Badge](https://img.shields.io/github/stars/future-agi/ai-evaluation?style=flat-square) |"
+        confidence: high
 metadata:
   github:
-    stars: 114
+    stars: 115
     forks: 43
     license: Apache-2.0
     archived: false
+    full_name: future-agi/agent-learning-kit
+    html_url: https://github.com/future-agi/agent-learning-kit
     created_at: "2025-06-11T10:34:59Z"
-    pushed_at: "2026-06-30T00:11:49Z"
+    pushed_at: "2026-07-21T05:51:42Z"
     description: "Evaluation Framework for all your AI related Workflows "
     homepage: https://futureagi.com
     topics:
@@ -38,20 +55,24 @@ metadata:
       - cicd
       - evaluation
       - ml
-    last_checked_at: "2026-07-16T05:05:04.813Z"
+    last_checked_at: "2026-07-23T05:09:06.929Z"
     readme:
-      fetched_at: "2026-07-16T05:05:04.813Z"
+      fetched_at: "2026-07-23T05:09:06.929Z"
       bytes: 17928
 insights:
   summary: An evaluation framework and SDK for scoring AI workflows using a mix of 72 local metrics and LLM-as-judge refinement.
   why_it_matters: It provides a unified `evaluate()` API to catch hallucinations and safety violations before they hit production, with support for RAG, function calling, and agent trajectories.
   mental_damage: The peace of mind knowing your LLM passed 72 local metrics right before it manages to hallucinate a new way to delete your production database.
   tags:
+    - ai-observability
+    - benchmarking
     - evals
+    - guardrails
+    - llm-evaluation
     - llmops
     - rag
-    - benchmarking
-    - guardrails
+    - sdks
+    - testing
   confidence: high
 curation:
   status: included
@@ -60,6 +81,9 @@ curation:
     - Repo description identifies it as an 'Evaluation Framework for all your AI related Workflows'
     - README emphasizes local metrics, LLM-as-Judge, and OpenTelemetry integration
     - Included in Awesome-LLMOps under the LLMOps section
+    - README explicitly identifies as an 'Evaluation Framework'
+    - Provides 72 local metrics including faithfulness, hallucination, and function calling accuracy
+    - Includes features for streaming assessment and OpenTelemetry integration
 placement:
   primary_category: evals
   section: Observability / Tracing / EvalOps
@@ -67,6 +91,32 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:59:17.919Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:15e3c5c183e31aa2f47b47127a3890cfbb1175404c4eb0642b8faab2b3ff79ba
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The core product identity is a specialized toolkit for measuring and scoring model/agent behavior via an SDK.
+      decision_evidence:
+        - README explicitly identifies as an 'Evaluation Framework'
+        - Provides 72 local metrics including faithfulness, hallucination, and function calling accuracy
+        - Includes features for streaming assessment and OpenTelemetry integration
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the tool's primary purpose is measuring and scoring model behavior rather than serving as a general-purpose building block for AI workflows.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-06-11T05:37:56.130Z"
@@ -74,14 +124,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-16T05:05:04.813Z"
+    updated_at: "2026-07-23T05:09:06.929Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-06-25T05:27:55.838Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022

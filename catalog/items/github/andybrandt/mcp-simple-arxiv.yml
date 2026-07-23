@@ -39,9 +39,9 @@ metadata:
       fetched_at: "2026-07-20T05:17:00.536Z"
       bytes: 3781
 insights:
-  summary: An MCP server that lets LLM clients like Claude Desktop search arXiv, retrieve paper metadata, and extract full-text Markdown from PDFs.
-  why_it_matters: It gives coding assistants direct access to the latest research, letting developers query and summarize papers without leaving their AI workflow.
-  mental_damage: You can now procrastinate on your actual coding tasks by having your LLM agent summarize a dozen arXiv papers on attention mechanisms instead.
+  summary: An MCP server that exposes arXiv search, paper metadata, and full-text PDF-to-Markdown retrieval to LLM clients.
+  why_it_matters: It plugs academic literature directly into the coding-assistant workflow, letting developers search and read papers without leaving their agent chat.
+  mental_damage: We have now protocolized the final link between 'I should read the paper' and 'Claude, just tell me if it's worth my weekend.'
   tags:
     - mcp
     - arxiv
@@ -50,11 +50,11 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server providing arXiv access to LLM clients, which fits squarely into MCP Servers & Tooling.
+  reason: The repository is explicitly an MCP server for arXiv access, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
   evidence:
-    - Repo description explicitly states it is 'a Tool to work with arXiv' via MCP for LLMs.
-    - README confirms it is 'An MCP server that provides access to arXiv papers' with stdio and web modes.
-    - Listed in awesome-mcp-list under the Search section, confirming its MCP ecosystem role.
+    - Repository is named 'mcp-simple-arxiv' and README frames it entirely as an MCP server with arXiv search and PDF retrieval tools.
+    - Curated in awesome-mcp-list under Search, confirming ecosystem recognition as MCP infrastructure.
+    - Installation and usage docs target Claude Desktop and other MCP clients, not a standalone app or generic IDE plugin.
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-21T15:23:06.429Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__andybrandt__mcp-simple-arxiv: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It is an M\"... is not valid JSON"
-    attempts: 2
+    status: done
+    updated_at: "2026-07-23T05:10:38.379Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7f3c071eb720d2b6a709d12682d9b8d65f773de86854bea48be98b44c4e02a63
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The repository is explicitly an MCP server for arXiv access, fitting cleanly into the MCP Servers & Tooling category as a domain-specific server.
+      decision_evidence:
+        - Repository is named 'mcp-simple-arxiv' and README frames it entirely as an MCP server with arXiv search and PDF retrieval tools.
+        - Curated in awesome-mcp-list under Search, confirming ecosystem recognition as MCP infrastructure.
+        - Installation and usage docs target Claude Desktop and other MCP clients, not a standalone app or generic IDE plugin.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the repository is an MCP server first, distributing protocol infrastructure for arXiv access rather than augmenting a specific editor or assistant with general host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

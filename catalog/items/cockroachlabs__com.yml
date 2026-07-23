@@ -83,22 +83,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: CockroachDB is a distributed SQL database designed for cloud applications requiring high availability, global scale, and PostgreSQL compatibility.
-  why_it_matters: Developers building AI-driven applications can use it as a resilient, strongly consistent backing store that scales to petabytes without manual sharding.
-  mental_damage: Now your agentic workflows can achieve 'unmatched uptime' while they hallucinate their way through your distributed transactions.
+  summary: CockroachDB is a cloud-agnostic, PostgreSQL-compatible distributed SQL database built for global scale, high availability, and strong consistency.
+  why_it_matters: It offers a resilient OLTP datastore for business-critical apps, but as general-purpose database infrastructure rather than a purpose-built AI developer tool.
+  mental_damage: The creeping realization that your weekend LLM side-project now 'requires' a globally distributed, serializable database is exactly how a three-week prototype becomes a three-year platform migration.
   tags:
-    - cloud
-    - database
-    - distributed-sql
-    - postgresql
+    - distributed-database
+    - sql
+    - infrastructure
   confidence: high
 curation:
   status: excluded
-  reason: CockroachDB is a general-purpose distributed database with no core AI-tooling identity; it is infrastructure, not a developer-facing AI agent, framework, or extension.
+  reason: This is a general-purpose distributed SQL database, not an AI developer tool, coding agent, or AI-specific infrastructure component; its placement in MCP server lists reflects a community adapter, not its product identity.
   evidence:
-    - Scraped site context describes it as a 'distributed database with standard SQL for cloud applications', not an AI tool.
-    - The product page focuses on resilience, scale, and compliance for fintech and cloud apps, with AI mentioned only as a use case.
-    - Appears in awesome-mcp-servers only as a database server implementation, not as a primary AI developer product.
+    - Scraped site and description identify it as a cloud-agnostic, PostgreSQL-compatible database for OLTP and business-critical systems.
+    - Source-list placement in awesome-mcp-servers reflects a domain-specific MCP server bridge, but the primary product is the database itself.
+    - No catalog category covers general-purpose transactional databases; inclusion would turn the list into a generic software directory.
 placement:
   primary_category: null
   section: null
@@ -107,21 +106,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-21T15:34:02.928Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for cockroachlabs__com: ```json
-        {
-          "summary": "CockroachDB is a distributed, PostgreSQL-compatible SQL database designed for high availability and global scalability.",
-          "why_it_matters": "It provides the resilient, consistent data layer required to support stateful AI agents and large-scale production applications across multiple regions.",
-          "mental_damage": "Nothing tests your architectural sanity quite like trying to manage distributed consensus while your LLM is hallucinating a schema change.",
-          "tags": ["distributed-sql", "postgresql-compatible", "distributed-database", "
-    attempts: 2
+    status: done
+    updated_at: "2026-07-23T05:13:02.493Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:21dc12875736b6df4c3ee3b93f48658b5edc76c976c7127b064027c9dd6389f1
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a general-purpose distributed SQL database, not an AI developer tool, coding agent, or AI-specific infrastructure component; its placement in MCP server lists reflects a community adapter, not its product identity.
+      decision_evidence:
+        - Scraped site and description identify it as a cloud-agnostic, PostgreSQL-compatible database for OLTP and business-critical systems.
+        - Source-list placement in awesome-mcp-servers reflects a domain-specific MCP server bridge, but the primary product is the database itself.
+        - No catalog category covers general-purpose transactional databases; inclusion would turn the list into a generic software directory.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-20T15:10:47.686Z"

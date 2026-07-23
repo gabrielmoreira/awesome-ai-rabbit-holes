@@ -1,11 +1,27 @@
 id: github__mifunedev__a2a-langgraph
 kind: github-repo
-name: a2a-langgraph
+name: mifune-dev/a2a-langgraph
 canonical_url: https://github.com/mifunedev/a2a-langgraph
 identity:
   github_repo: mifunedev/a2a-langgraph
 provenance:
   discoveries:
+    - id: discovery__github__mifune-dev__a2a-langgraph__awesome-list__vivy-yi__awesome-agent-orchestration
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: vivy-yi/awesome-agent-orchestration
+        url: https://github.com/vivy-yi/awesome-agent-orchestration
+        repository: vivy-yi/awesome-agent-orchestration
+      extraction:
+        mode: parsed
+        section_path:
+          - Agent Communication Protocols
+          - Agent-to-Agent (A2A)
+        anchor_text: a2a-langgraph
+        extracted_url: https://github.com/ruska-ai/a2a-langgraph
+        surrounding_text: "| [a2a-langgraph](https://github.com/ruska-ai/a2a-langgraph) | A2A protocol built on LangGraph | ![Stars](https://img.shields.io/github/stars/ruska-ai/a2a-langgraph) |"
+        confidence: high
     - id: discovery__github__mifunedev__a2a-langgraph__awesome-list__vivy-yi__awesome-agent-orchestration
       discovered_at: "2026-05-12T15:06:19.300Z"
       source:
@@ -24,10 +40,12 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 31
+    stars: 32
     forks: 5
     license: null
     archived: false
+    full_name: mifunedev/a2a-langgraph
+    html_url: https://github.com/mifunedev/a2a-langgraph
     created_at: "2025-04-12T04:09:24Z"
     pushed_at: "2025-04-12T12:37:37Z"
     description: "🤖💬🤖 Agent-to-Agent (A2A Protocol) built on top of LangGraph "
@@ -49,9 +67,9 @@ metadata:
       - python
       - uvicorn
       - vertex
-    last_checked_at: "2026-07-16T05:05:22.801Z"
+    last_checked_at: "2026-07-23T05:09:34.402Z"
     readme:
-      fetched_at: "2026-07-16T05:05:22.801Z"
+      fetched_at: "2026-07-23T05:09:34.402Z"
       bytes: 6146
 insights:
   summary: A2A Protocol implementation built on LangGraph that exposes a currency conversion agent via the Agent-to-Agent protocol.
@@ -59,23 +77,35 @@ insights:
   mental_damage: Yet another protocol wrapper that makes you wonder if we're building agents or just endless layers of abstraction on top of LangGraph.
   tags:
     - a2a
-    - langgraph
     - agent-protocol
+    - langgraph
+    - multi-agent
+    - protocol
+    - python
   confidence: medium
 curation:
-  status: included
-  reason: This is an A2A protocol implementation that augments LangGraph with external communication capabilities rather than being a standalone coding assistant or primary agent framework.
+  status: pending
+  reason: Conflicting duplicate curation or placement requires review.
   evidence:
+    - Repo description states it is an 'Agent-to-Agent (A2A Protocol) built on top of LangGraph'.
+    - README details a technical implementation using 'LangGraph ReAct Agent' with 'A2A Protocol Integration' and streaming support.
+    - Source list context places it under 'Agent Communication Protocols > Agent-to-Agent (A2A)' in an agent orchestration list.
+    - "included: The repo is a code-first sample exposing a LangGraph agent via the A2A protocol, fitting best as a developer building block for agent communication rather than a standalone orchestration platform."
     - "Repo description states: 'Agent-to-Agent (A2A Protocol) built on top of LangGraph'"
     - README shows it exposes a LangGraph ReAct agent via A2A protocol for currency conversion
     - Listed in awesome-agent-orchestration under 'Agent Communication Protocols > Agent-to-Agent (A2A)'
+    - "included: This is an A2A protocol implementation that augments LangGraph with external communication capabilities rather than being a standalone coding assistant or primary agent framework."
 placement:
-  primary_category: ai-dev-extensions
-  section: Host Integrations & Automation
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null
   discover:
     status: done
     updated_at: "2026-05-12T15:06:19.301Z"
@@ -83,14 +113,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-16T05:05:22.801Z"
+    updated_at: "2026-07-23T05:09:34.402Z"
     cause: null
-    next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-12T15:59:18.915Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
     next_retry_at: null

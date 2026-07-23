@@ -104,7 +104,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `streamlit` `langgraph` `template` `deployment` `chatbot`
   </details>
 
-- **[contracts-wizard](https://github.com/openzeppelin/contracts-wizard)** `⭐ 293` `updated ≤30d` An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents. <details><summary>More about</summary>
+- **[OpenZeppelin/contracts-wizard](https://github.com/openzeppelin/contracts-wizard)** `⭐ 293` `updated ≤30d` An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents. <details><summary>More about</summary>
 
   It lets developers scaffold secure, standards-based smart contracts in Solidity, Cairo, and Stellar without memorizing OpenZeppelin APIs or copy-pasting boilerplate.
 
@@ -153,7 +153,7 @@ _These are new or low-traffic entries being watched._
   `prompt-to-app` `nodejs` `gpt-4` `scaffolding`
   </details>
 
-- **[cloudwright](https://github.com/xmpuspus/cloudwright)** `⭐ 32` `updated ≤30d` Cloudwright is a CLI tool that generates Terraform, cost estimates, and compliance reports from natural-language cloud architecture descriptions. <details><summary>More about</summary>
+- **[xmpuspus/cloudwright](https://github.com/xmpuspus/cloudwright)** `⭐ 32` `updated ≤30d` Cloudwright is a CLI tool that generates Terraform, cost estimates, and compliance reports from natural-language cloud architecture descriptions. <details><summary>More about</summary>
 
   It lets developers design and validate cloud infrastructure with a single prompt, reducing manual effort in IaC creation and compliance checks.
 

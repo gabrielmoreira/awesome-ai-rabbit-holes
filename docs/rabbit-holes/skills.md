@@ -5,7 +5,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 ## Tools & Resources
 
-- **[skills](https://github.com/mattpocock/skills)** `⭐ 172.7k` `updated ≤30d` A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in coding assistants. <details><summary>More about</summary>
+- **[skills](https://github.com/mattpocock/skills)** `⭐ 182.9k` `updated ≤30d` A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in coding assistants. <details><summary>More about</summary>
 
   It provides structured workflows, such as 'grilling sessions' and shared domain language, to reduce agent misalignment and verbosity.
 
@@ -14,7 +14,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `slash-commands` `workflows` `prompt-engineering`
   </details>
 
-- **[skills](https://github.com/anthropics/skills)** `⭐ 162.8k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
+- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 162.8k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
 
   It enables developers to create reusable, portable skill packs that teach Claude (and other compatible agents) how to handle specific workflows, from document editing to technical automation.
 
@@ -23,7 +23,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `reusable-skills` `workflow-automation`
   </details>
 
-- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 78.6k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 79.9k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
 
   It provides a standardized set of professional engineering guardrails (spec-first, test-driven, incremental builds) that prevent AI agents from hallucinating their way through a codebase without a plan.
 
@@ -117,7 +117,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 _These are new or low-traffic entries being watched._
 
-- **[credit-optimizer-v5](https://github.com/rafsilva85/credit-optimizer-v5)** `⭐ 47` `updated ≤90d` A Manus AI cost-optimization toolkit that routes prompts to cheaper models, uses faster web scraping, and compresses context to reduce credit usage. <details><summary>More about</summary>
+- **[rafsilva85/credit-optimizer-v5](https://github.com/rafsilva85/credit-optimizer-v5)** `⭐ 47` `updated ≤90d` A Manus AI cost-optimization toolkit that routes prompts to cheaper models, uses faster web scraping, and compresses context to reduce credit usage. <details><summary>More about</summary>
 
   It claims to automate model routing, chat-mode detection, and context hygiene to save roughly 47% on Manus credits without degrading output quality.
 
@@ -126,7 +126,7 @@ _These are new or low-traffic entries being watched._
   `manus-ai` `cost-optimization` `mcp` `credit-optimizer` `prompt-routing`
   </details>
 
-- **[open-agreements](https://github.com/open-agreements/open-agreements)** `⭐ 44` `updated ≤30d` A reusable agent skill and MCP server that fills 40+ standard legal agreement templates and produces signable DOCX files for tools like Claude Code, Gemini CLI, and Cursor. <details><summary>More about</summary>
+- **[open-agreements/open-agreements](https://github.com/open-agreements/open-agreements)** `⭐ 44` `updated ≤30d` A reusable agent skill and MCP server that fills 40+ standard legal agreement templates and produces signable DOCX files for tools like Claude Code, Gemini CLI, and Cursor. <details><summary>More about</summary>
 
   Developers can generate NDAs, SAFEs, and contractor agreements directly from the terminal or chat without leaving their coding environment or manually formatting legal docs.
 
@@ -144,7 +144,7 @@ _These are new or low-traffic entries being watched._
   `memory` `context` `mcp` `knowledge-graph` `cli`
   </details>
 
-- **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 30` `updated ≤90d` A biomedical-focused agentic skills repository with MCP servers and AI provider integrations for clinical, genomics, and drug discovery workflows. <details><summary>More about</summary>
+- **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 31` `updated ≤90d` A biomedical-focused agentic skills repository with MCP servers and AI provider integrations for clinical, genomics, and drug discovery workflows. <details><summary>More about</summary>
 
   Provides reusable, domain-specific agent skills and MCP servers that developers can adapt for healthcare AI applications like clinical trial matching or genomics analysis.
 
@@ -162,7 +162,7 @@ _These are new or low-traffic entries being watched._
   `git-analysis` `agent-skills` `codebase-health`
   </details>
 
-- **[citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 17` `updated ≤90d` An AI-powered SEO content automation agent skill for trend scouting, competitor analysis, multilingual article generation, and social media adaptations. <details><summary>More about</summary>
+- **[Citedy/citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 17` `updated ≤90d` An AI-powered SEO content automation agent skill for trend scouting, competitor analysis, multilingual article generation, and social media adaptations. <details><summary>More about</summary>
 
   Developers and marketers can integrate this skill into AI agents to automate end-to-end SEO content workflows, from research to multi-platform publishing.
 
@@ -180,7 +180,7 @@ _These are new or low-traffic entries being watched._
   `skills` `cli` `prompt-engineering` `ai-assistants` `slash-commands`
   </details>
 
-- **[agent-skills](https://github.com/emblemcompany/agent-skills)** `⭐ 12` `updated ≤90d` A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking. <details><summary>More about</summary>
+- **[EmblemCompany/Agent-skills](https://github.com/emblemcompany/agent-skills)** `⭐ 12` `updated ≤90d` A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking. <details><summary>More about</summary>
 
   It provides a standardized way to give agents complex, multi-chain execution capabilities without developers having to write custom integration logic for every blockchain.
 

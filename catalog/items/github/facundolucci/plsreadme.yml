@@ -28,16 +28,16 @@ metadata:
     forks: 1
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: FacundoLucci/plsreadme
+    html_url: https://github.com/FacundoLucci/plsreadme
     created_at: "2025-12-21T18:32:41Z"
     pushed_at: "2026-04-06T01:10:47Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-16T05:04:59.598Z"
+    last_checked_at: "2026-07-23T05:08:58.817Z"
     readme:
-      fetched_at: "2026-07-16T05:04:59.598Z"
+      fetched_at: "2026-07-23T05:08:58.817Z"
       bytes: 23604
 insights:
   summary: A Cloudflare Workers-hosted service that renders markdown as shareable web pages and exposes an MCP server for creating docs from editors like Claude and Cursor.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-16T05:04:59.598Z"
+    updated_at: "2026-07-23T05:08:58.817Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T15:55:09.042Z"
+    updated_at: "2026-07-23T05:16:12.817Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__facundolucci__plsreadme: Invalid AI response format: SyntaxError: Expected ',' or '}' after property value in JSON at position 30 (line 2 column 29)"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__facundolucci__plsreadme: Mistral API error (401): {\"detail\":\"Unauthorized\"}"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

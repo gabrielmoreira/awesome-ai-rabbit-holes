@@ -36,18 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A website with no available description, repository, or context.
-  why_it_matters: No discernible value proposition for developers based on provided inputs.
-  mental_damage: The void stares back when you try to catalog it.
-  tags: []
+  summary: Unidentifiable project; no description, README, or site context was provided for https://www.anything.com.
+  why_it_matters: We cannot assess developer relevance without any product signals, documentation, or stated workflow.
+  mental_damage: Reviewing a bare domain with zero context is like pair-programming with a loading spinner—eventually you question whether the tool, or your will to curate, actually exists.
+  tags:
+    - unknown
+    - placeholder
+    - insufficient-data
   confidence: high
 curation:
   status: excluded
-  reason: No actionable information about the project's purpose, functionality, or developer relevance could be extracted from the inputs.
+  reason: With no repo description, README excerpt, or scraped site context, there is no evidence this is a developer-facing AI tool, so safe abstain is the only option.
   evidence:
-    - No repo description, README, or scraped site context provided
-    - No source-list context or curation signals
-    - No evidence of developer-tooling scope or practical AI workflow relevance
+    - Repo description is empty.
+    - No README excerpt or scraped site context available.
+    - Stars, topics, dates, and license are all unknown.
 placement:
   primary_category: null
   section: null
@@ -66,24 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:39:14.295Z"
+    updated_at: "2026-07-23T05:13:45.201Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:500e32476f47fc5838c3450f5ab9568459cf8532bf11c7a648b0d479ca264551
       proposed_primary_category: null
       disagreement: false
-      decision_reason: No actionable information about the project's purpose, functionality, or developer relevance could be extracted from the inputs.
+      decision_reason: With no repo description, README excerpt, or scraped site context, there is no evidence this is a developer-facing AI tool, so safe abstain is the only option.
       decision_evidence:
-        - No repo description, README, or scraped site context provided
-        - No source-list context or curation signals
-        - No evidence of developer-tooling scope or practical AI workflow relevance
+        - Repo description is empty.
+        - No README excerpt or scraped site context available.
+        - Stars, topics, dates, and license are all unknown.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

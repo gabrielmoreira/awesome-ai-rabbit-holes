@@ -1,6 +1,6 @@
 id: github__ggml-org__llama-macos
 kind: github-repo
-name: llama-macos
+name: ggml-org/llama-macos
 canonical_url: https://github.com/ggml-org/llama-macos
 identity:
   github_repo: ggml-org/llama-macos
@@ -21,14 +21,31 @@ provenance:
         extracted_url: https://github.com/ggml-org/llamabarn
         surrounding_text: "51. [LlamaBarn](https://github.com/ggml-org/LlamaBarn): Run local LLMs on your Mac with a simple menu bar app."
         confidence: high
+    - id: discovery__github__ggml-org__llamabarn__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: LlamaBarn
+        extracted_url: https://github.com/ggml-org/llamabarn
+        surrounding_text: "51. [LlamaBarn](https://github.com/ggml-org/LlamaBarn): Run local LLMs on your Mac with a simple menu bar app."
+        confidence: high
 metadata:
   github:
-    stars: 1386
-    forks: 85
+    stars: 1399
+    forks: 87
     license: MIT
     archived: false
+    full_name: ggml-org/Llama-macOS
+    html_url: https://github.com/ggml-org/Llama-macOS
     created_at: "2025-06-30T11:05:34Z"
-    pushed_at: "2026-07-15T13:03:51Z"
+    pushed_at: "2026-07-22T11:20:51Z"
     description: A cosy home for your LLMs.
     homepage: ""
     topics:
@@ -37,19 +54,21 @@ metadata:
       - llms
       - macos
       - swift
-    last_checked_at: "2026-07-16T05:05:07.731Z"
+    last_checked_at: "2026-07-23T05:09:11.642Z"
     readme:
-      fetched_at: "2026-07-16T05:05:07.731Z"
-      bytes: 2499
+      fetched_at: "2026-07-23T05:09:11.642Z"
+      bytes: 3035
 insights:
   summary: A macOS menu bar application for running local LLMs via a background server.
   why_it_matters: It provides a zero-config way to host an OpenAI-compatible API locally, enabling developers to plug local models into VS Code, Zed, and CLI agents without managing manual server setups.
   mental_damage: The joy of discovering that your 'lightweight' menu bar app is actually just a very polite wrapper for the 12GB of RAM your local model is currently eating.
   tags:
-    - macos
-    - local-llm
+    - inference-server
     - llama-cpp
+    - local-llm
+    - macos
     - openai-api
+    - openai-compatible
     - self-hosted
   confidence: high
 curation:
@@ -59,6 +78,9 @@ curation:
     - README explicitly states it runs a local server at localhost:8080/v1
     - Built on llama.cpp and focuses on '100% local' execution
     - Provides an OpenAI-compatible API for other editors and CLI tools to consume
+    - Runs a local server at localhost:2276/v1
+    - Built on llama.cpp by the GGML org
+    - Native macOS menu bar app for local model management
 placement:
   primary_category: local-ai
   section: Local Serving / APIs
@@ -66,6 +88,32 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (1348) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T16:02:39.574Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:85146608558a5aa7d2a59227e5641b531dc5c30c6dd0639a42ec98e7e1bb5435
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: The project's identity is a local runtime/serving layer for running models on-device.
+      decision_evidence:
+        - Runs a local server at localhost:2276/v1
+        - Built on llama.cpp by the GGML org
+        - Native macOS menu bar app for local model management
+      category_candidates:
+        - local-ai
+        - ai-dev-extensions
+      contrastive_reason: Choose local-ai over ai-dev-extensions because the core identity is the local inference runtime and model management, rather than just augmenting an existing editor.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-06-18T05:40:04.066Z"
@@ -73,14 +121,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-16T05:05:07.731Z"
+    updated_at: "2026-07-23T05:09:11.642Z"
     cause: null
     next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-06-25T05:28:30.974Z"
-    cause: null
-    next_retry_at: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022

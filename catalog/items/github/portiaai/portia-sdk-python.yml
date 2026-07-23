@@ -59,15 +59,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-07-21T15:20:33.107Z"
+    status: deferred
+    updated_at: "2026-07-23T05:09:46.006Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: portiaai/portia-sdk-python"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for portiaai/portia-sdk-python
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-07-21T15:21:35.709Z"
+    updated_at: "2026-07-23T05:09:49.525Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

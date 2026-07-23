@@ -76,11 +76,24 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T15:44:10.656Z"
+    updated_at: "2026-07-23T05:16:47.891Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__codebuffai__codebuff: Invalid AI response structure: Included responses must use 'Choose X over Y because...' with X and Y matching ranked category_candidates"
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__codebuffai__codebuff: ```json
+        {
+          "summary": "Open-source AI coding assistant that runs in the terminal and coordinates specialized agents to plan, edit, and review codebases via natural language.",
+          "why_it_matters": "It offers developers an open-source, terminal-native alternative to Claude Code that uses a multi-agent pipeline for planning, editing, and reviewing changes, with an ad-supported free tier requiring no subscription or configuration.",
+          "mental_damage": "Your bash prompt is now the world’s smallest middle-management layer, delegating file picks and code edits to four internal agents instead of one model.",
+          "tags": ["cli", "coding-agent", "multi-agent", "open-source", "terminal"],
+          "should_include": true,
+          "primary_category": "coding-agents",
+          "section": "Terminal & CLI Agents",
+          "decision_reason": "It is a standalone terminal-native coding assistant that developers invoke as their primary agent to read, plan, edit, and test code, fitting squarely in Terminal & CLI Agents.",
+          "decision_evidence": [
+            "Repo description: 'Generate code from the terminal!'",
+            "README frames it as a standalone open-source competitor to Claude Code, invoked via `codebuff` or `freebuff` CLI in project directories.",
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

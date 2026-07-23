@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 7036
-    forks: 1213
+    stars: 7048
+    forks: 1211
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: flwrlabs/flower
+    html_url: https://github.com/flwrlabs/flower
     created_at: "2020-02-17T11:51:29Z"
-    pushed_at: "2026-07-15T20:01:06Z"
+    pushed_at: "2026-07-23T00:40:50Z"
     description: "Flower: A Friendly Federated AI Framework"
     homepage: https://flower.ai
     topics:
@@ -54,9 +54,9 @@ metadata:
       - raspberry-pi
       - scikit-learn
       - tensorflow
-    last_checked_at: "2026-07-16T05:05:03.119Z"
+    last_checked_at: "2026-07-23T05:09:03.942Z"
     readme:
-      fetched_at: "2026-07-16T05:05:03.119Z"
+      fetched_at: "2026-07-23T05:09:03.942Z"
       bytes: 11686
 insights:
   summary: Flower is an open-source framework for building federated learning systems that allows developers to train models across decentralized devices using various ML libraries like PyTorch and TensorFlow.
@@ -90,16 +90,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-16T05:05:03.119Z"
+    updated_at: "2026-07-23T05:09:03.942Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T15:57:53.891Z"
+    updated_at: "2026-07-23T05:16:13.346Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__flwrlabs__flower: Invalid AI response format: SyntaxError: Unexpected token 'F', ...\"_reason\": Flower is \"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__flwrlabs__flower: Mistral API error (401): {\"detail\":\"Unauthorized\"}"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

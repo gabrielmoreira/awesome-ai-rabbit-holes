@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 6076
+    stars: 6109
     forks: 303
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: getsentry/XcodeBuildMCP
+    html_url: https://github.com/getsentry/XcodeBuildMCP
     created_at: "2025-03-09T17:31:18Z"
-    pushed_at: "2026-07-12T19:22:37Z"
+    pushed_at: "2026-07-22T15:37:40Z"
     description: A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.
     homepage: https://www.xcodebuildmcp.com
     topics:
@@ -41,10 +41,10 @@ metadata:
       - tag-production
       - xcode
       - xcodebuild
-    last_checked_at: "2026-07-16T05:05:07.723Z"
+    last_checked_at: "2026-07-23T05:09:11.190Z"
     readme:
-      fetched_at: "2026-07-16T05:05:07.723Z"
-      bytes: 5413
+      fetched_at: "2026-07-23T05:09:11.190Z"
+      bytes: 5783
 insights:
   summary: An MCP server and CLI that lets AI coding agents build, run, and manage iOS and macOS projects via Xcode.
   why_it_matters: It gives agents reliable, programmatic access to the Xcode toolchain so they can build, install to simulators, and debug Apple platform apps without manual Xcode interaction.
@@ -77,16 +77,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-16T05:05:07.723Z"
+    updated_at: "2026-07-23T05:09:11.190Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:02:30.886Z"
+    updated_at: "2026-07-23T05:16:15.673Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__getsentry__xcodebuildmcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__getsentry__xcodebuildmcp: Mistral API error (401): {\"detail\":\"Unauthorized\"}"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

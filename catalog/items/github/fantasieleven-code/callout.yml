@@ -28,16 +28,16 @@ metadata:
     forks: 2
     license: MIT
     archived: false
-    full_name: null
-    html_url: null
+    full_name: fantasieleven-code/callout
+    html_url: https://github.com/fantasieleven-code/callout
     created_at: "2026-03-06T13:13:49Z"
     pushed_at: "2026-03-11T06:31:16Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-16T05:04:59.834Z"
+    last_checked_at: "2026-07-23T05:08:59.181Z"
     readme:
-      fetched_at: "2026-07-16T05:04:59.834Z"
+      fetched_at: "2026-07-23T05:08:59.181Z"
       bytes: 8206
 insights:
   summary: Callout is an MCP server that provides multi-perspective project reviews, idea scoring, and documentation binding to catch over-engineering and blind spots inside Claude Code, Cursor, VS Code, and Windsurf.
@@ -70,22 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-16T05:04:59.834Z"
+    updated_at: "2026-07-23T05:08:59.181Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T15:55:47.208Z"
+    updated_at: "2026-07-23T05:16:13.078Z"
     cause:
       type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__fantasieleven-code__callout: ```json
-        {
-          "summary": "An MCP server that provides multi-perspective code reviews and project analysis using technical, business, and founder personas.",
-          "why_it_matters": "It automates the 'anity check' phase of AI-driven development by auditing code for over-engineering and misalignment with project goals.",
-          "mental_damage": "Nothing humbles a developer quite like having an AI persona explain that 60% of their weekend sprint was just unnecessary complexity.",
-          "tags": [
+      message: "Catalog LLM categorization failed for github__fantasieleven-code__callout: Mistral API error (401): {\"detail\":\"Unauthorized\"}"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

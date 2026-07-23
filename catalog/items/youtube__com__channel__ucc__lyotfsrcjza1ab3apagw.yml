@@ -51,20 +51,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A YouTube channel linked from the awesome-langchain directory, with no description, README, or repo metadata available.
-  why_it_matters: It does not provide any discoverable tool, framework, or workflow value to developers beyond being a URL in a list.
-  mental_damage: We have reached the point where a YouTube channel ID with zero context qualifies as a candidate entry in a curated developer tooling catalog.
+  summary: An unidentified YouTube channel with no available description, README, or content metadata.
+  why_it_matters: Insufficient information to determine relevance to developer workflows.
+  mental_damage: Discovering a bare channel ID in a tooling catalog evokes the same optimism as starring a repo you will never clone.
   tags:
-    - langchain
-    - youtube
+    - youtube-channel
+    - unknown
+    - unverified
   confidence: high
 curation:
   status: excluded
-  reason: The item is a YouTube channel URL with no description, README, code, or product surface, making it an auxiliary link rather than a standalone developer tool.
+  reason: No evidence this is a developer tool, framework, or curated publication; it is an unidentified YouTube channel with no description or README, so it falls outside the catalog scope.
   evidence:
-    - URL is a YouTube channel (youtube.com/channel/UCC-lyoTfSrcJzA1ab3APAgw) with no repo description or README.
-    - "No repo metadata: stars, topics, license, archive status, creation or push dates are unknown."
-    - Seen only as a link in awesome-langchain with no evidence of a standalone product, framework, or tool.
+    - URL is a YouTube channel with no provided title, description, or content context.
+    - Repository metadata is entirely unknown (no description, stars, dates, license, or README).
+    - Source-list placement in awesome-langchain is insufficient to establish identity as a practical developer tool or recurring developer publication.
 placement:
   primary_category: null
   section: null
@@ -73,15 +74,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-21T15:40:08.740Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for youtube__com__channel__ucc__lyotfsrcjza1ab3apagw: Invalid AI response structure: Missing required field: why_it_matters"
-    attempts: 2
+    status: done
+    updated_at: "2026-07-23T05:15:11.486Z"
+    cause: null
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b4651aaeae46c2531c5a8def4c375b04955b122ea50c17c9612a4a4f2f2b9133
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: No evidence this is a developer tool, framework, or curated publication; it is an unidentified YouTube channel with no description or README, so it falls outside the catalog scope.
+      decision_evidence:
+        - URL is a YouTube channel with no provided title, description, or content context.
+        - Repository metadata is entirely unknown (no description, stars, dates, license, or README).
+        - Source-list placement in awesome-langchain is insufficient to establish identity as a practical developer tool or recurring developer publication.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-21T15:20:21.972Z"

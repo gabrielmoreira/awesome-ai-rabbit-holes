@@ -37,18 +37,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Google AI Studio app accessible at osop-editor.vercel.app.
-  why_it_matters: Unknown; the page provides no description or README to clarify its purpose for developers.
-  mental_damage: Another AI Studio app with no explanation, because the future is just links with vibes.
-  tags: []
+  summary: A Vercel-hosted web app whose only discernible identity is the title 'My Google AI Studio App'; no description, README, or product claims are available.
+  why_it_matters: There is no extractable developer value proposition from the provided signals.
+  mental_damage: When the entire product page is just the default title of an exported Google AI Studio app, you start to suspect the rabbit hole has collapsed into a singularity.
+  tags:
+    - unverified
   confidence: high
 curation:
   status: excluded
-  reason: No actionable information about the tool's functionality, developer relevance, or product identity is available from the provided inputs.
+  reason: "Extreme absence of substance: zero description, zero README claims, a scraped placeholder title, and unknown metadata make this an unforced fit for a curated developer tooling catalog."
   evidence:
-    - No repo description, README, or site description provided
-    - Scraped site context only shows 'My Google AI Studio App' with no details
-    - No clear developer-tooling angle or category fit can be inferred
+    - Repo description is '(none)' and no README excerpt was provided.
+    - Scraped site context shows only the title 'My Google AI Studio App' with no description, indicating a placeholder or unpublished page rather than a defined product.
+    - All credibility signals — stars, created_at, pushed_at, license, topics — are unknown.
 placement:
   primary_category: null
   section: null
@@ -67,24 +68,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-21T15:30:20.955Z"
+    updated_at: "2026-07-23T05:12:21.292Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
     classification:
-      answering_model: mistral/mistral-medium-2604
+      answering_model: cloudflare/@cf/moonshotai/kimi-k2.6
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:f45bd9b26235ec610857a616e8404a65ae30d69fce3a75d97840f7282c9dc159
       proposed_primary_category: null
       disagreement: false
-      decision_reason: No actionable information about the tool's functionality, developer relevance, or product identity is available from the provided inputs.
+      decision_reason: "Extreme absence of substance: zero description, zero README claims, a scraped placeholder title, and unknown metadata make this an unforced fit for a curated developer tooling catalog."
       decision_evidence:
-        - No repo description, README, or site description provided
-        - Scraped site context only shows 'My Google AI Studio App' with no details
-        - No clear developer-tooling angle or category fit can be inferred
+        - Repo description is '(none)' and no README excerpt was provided.
+        - Scraped site context shows only the title 'My Google AI Studio App' with no description, indicating a placeholder or unpublished page rather than a defined product.
+        - All credibility signals — stars, created_at, pushed_at, license, topics — are unknown.
       category_candidates: []
       contrastive_reason: null
       review_reason: null

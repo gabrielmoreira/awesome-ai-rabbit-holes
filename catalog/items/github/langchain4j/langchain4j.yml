@@ -95,11 +95,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:14:57.134Z"
+    updated_at: "2026-07-23T05:16:16.710Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__langchain4j__langchain4j: Invalid AI response format: SyntaxError: Unexpected token 'L', ...\"_reason\": LangChain4\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__langchain4j__langchain4j: Mistral API error (401): {\"detail\":\"Unauthorized\"}"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

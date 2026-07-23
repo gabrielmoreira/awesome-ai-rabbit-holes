@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/repowise-dev/repowise
         surrounding_text: "- **[Repowise](https://github.com/repowise-dev/repowise)** - Open-source codebase intelligence tool that indexes repos into dependency graphs, git history, auto-generated docs, and architectural decisions via 7 MCP tools."
         confidence: high
+    - id: discovery__github__repowise-dev__repowise__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-23T05:08:37.088Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: repowise-dev/repowise
+        extracted_url: https://github.com/repowise-dev/repowise
+        surrounding_text: "- [repowise-dev/repowise](https://github.com/repowise-dev/repowise) [![repowise-dev/repowise MCP server](https://glama.ai/mcp/servers/repowise-dev/repowise/badges/score.svg)](https://glama.ai/mcp/servers/repowise-dev/repowise) 🐍 🏠 ☁️ - Codebase intelligence for AI coding agents. Indexes a repo into a dependency graph, git history, defect-risk code health, auto-generated docs, and architectural decisions, served as 9 task-shaped MCP tools across 15 languages. Runs 100% local; hosted option available."
+        confidence: high
 metadata:
   github:
     stars: 3814
@@ -80,7 +96,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.645Z"
+    updated_at: "2026-07-23T05:08:37.089Z"
     cause: null
     next_retry_at: null
   stars:

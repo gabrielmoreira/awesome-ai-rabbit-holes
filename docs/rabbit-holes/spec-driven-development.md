@@ -5,7 +5,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
 
 ## Tools & Resources
 
-- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 121.6k` `updated ≤30d` Open source toolkit for Spec-Driven Development that turns product specifications into executable implementations. <details><summary>More about</summary>
+- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 123.3k` `updated ≤30d` Open source toolkit for Spec-Driven Development that turns product specifications into executable implementations. <details><summary>More about</summary>
 
   It shifts development workflows from vibe-coding to structured, spec-first execution, enabling predictable outcomes and reducing ad-hoc implementation decisions.
 
@@ -14,7 +14,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `sdd` `cli` `github` `ai-assisted-development`
   </details>
 
-- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 61.1k` `updated ≤30d` Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation. <details><summary>More about</summary>
+- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 62.2k` `updated ≤30d` Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation. <details><summary>More about</summary>
 
   Provides a predictable workflow for aligning humans and AI on requirements before writing code, reducing vague prompts and rework.
 
@@ -149,7 +149,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `sdd` `cli` `mcp` `project-management`
   </details>
 
-- **[spec-kit-command-cursor](https://github.com/madebyaris/spec-kit-command-cursor)** `⭐ 191` `updated ≤30d` Spec-Driven Development command toolkit for Cursor IDE that provides /specify, /plan, and /tasks commands to turn ideas into structured specifications, plans, and actionable tasks. <details><summary>More about</summary>
+- **[spec-kit-command-cursor](https://github.com/madebyaris/spec-kit-command-cursor)** `⭐ 192` `updated ≤90d` Spec-Driven Development command toolkit for Cursor IDE that provides /specify, /plan, and /tasks commands to turn ideas into structured specifications, plans, and actionable tasks. <details><summary>More about</summary>
 
   It enforces a spec-first workflow in Cursor, reducing misalignment between planning and implementation by making specs the controlling artifact for code generation and execution.
 
@@ -189,7 +189,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven-development` `cli` `claude-code` `agentic-workflows` `documentation`
   </details>
 
-- **[Cosmosmith](https://github.com/devnomad-byte/cosmosmith)** `⭐ 19` `updated ≤30d` Cosmosmith initializes project rules, spec templates, task ledgers, and editor adapters for AI coding agents in one command. <details><summary>More about</summary>
+- **[Cosmosmith](https://github.com/devnomad-byte/cosmosmith)** `⭐ 20` `updated ≤30d` Cosmosmith initializes project rules, spec templates, task ledgers, and editor adapters for AI coding agents in one command. <details><summary>More about</summary>
 
   It gives AI agents a structured workflow with role-based responsibilities and evidence gates to reduce drifting and rework.
 
@@ -198,7 +198,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven-development` `ai-dev-extensions` `agent-skills`
   </details>
 
-- **[pi-sdd-kit](https://github.com/felipefontoura/pi-sdd-kit)** `⭐ 13` `updated ≤30d` A skill pack for the Pi coding agent that implements a spec-driven development workflow with explicit artifacts, human gates, and a .status file as the single source of truth. <details><summary>More about</summary>
+- **[pi-sdd-kit](https://github.com/felipefontoura/pi-sdd-kit)** `⭐ 16` `updated ≤30d` A skill pack for the Pi coding agent that implements a spec-driven development workflow with explicit artifacts, human gates, and a .status file as the single source of truth. <details><summary>More about</summary>
 
   It reduces rework and scope creep by enforcing a disciplined spec-first loop where code only follows approved specifications.
 
@@ -207,7 +207,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven-development` `skill-pack` `pi-agent`
   </details>
 
-- **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 12` `updated ≤30d` An AI agent CLI that automates feature development by generating technical specifications and running autonomous implement-test-fix loops using Claude Code or Codex. <details><summary>More about</summary>
+- **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 13` `updated ≤90d` An AI agent CLI that automates feature development by generating technical specifications and running autonomous implement-test-fix loops using Claude Code or Codex. <details><summary>More about</summary>
 
   It streamlines the transition from a vague backlog item to a completed PR by bridging the gap between high-level requirements and low-level execution via spec-driven loops.
 
@@ -216,7 +216,7 @@ _These are new or low-traffic entries being watched._
   `cli` `autonomous-coding` `spec-driven` `agent` `terminal-ui`
   </details>
 
-- **[tnl](https://github.com/janaraj/tnl)** `⭐ 8` `updated ≤90d` Structured English contracts for AI coding agents to propose, approve, and enforce feature specifications across sessions. <details><summary>More about</summary>
+- **[janaraj/tnl](https://github.com/janaraj/tnl)** `⭐ 8` `updated ≤90d` Structured English contracts for AI coding agents to propose, approve, and enforce feature specifications across sessions. <details><summary>More about</summary>
 
   It turns ephemeral agent plans into persistent, machine-checkable contracts that prevent drift and context loss between coding sessions.
 
@@ -225,7 +225,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `ai-contracts` `coding-agents` `mcp` `workflow`
   </details>
 
-- **[devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 6` `updated ≤90d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code. <details><summary>More about</summary>
+- **[mmorris35/devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 6` `updated ≤90d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code. <details><summary>More about</summary>
 
   It enforces a structured spec-first workflow by turning vague project ideas into validated, copy-pasteable implementation plans with built-in progress tracking.
 
@@ -234,7 +234,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `claude-code` `planning` `spec-driven` `task-management`
   </details>
 
-- **[pmpt-cli](https://github.com/pmptwiki/pmpt-cli)** `⭐ 6` `updated ≤180d` A CLI tool that guides developers through five questions to generate structured AI prompts, then tracks, versions, and publishes the resulting product development journey. <details><summary>More about</summary>
+- **[pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli)** `⭐ 6` `updated ≤180d` A CLI tool that guides developers through five questions to generate structured AI prompts, then tracks, versions, and publishes the resulting product development journey. <details><summary>More about</summary>
 
   It standardizes the fragile transition from vague idea to actionable prompt and adds version control for the AI-driven build process itself.
 
@@ -261,7 +261,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven-development` `ai-collaboration` `team-alignment` `mcp` `spec-writing`
   </details>
 
-- **[patchwarden](https://github.com/jiezeng2004-design/patchwarden)** `⭐ 2` `updated ≤30d` A local-first MCP bridge that provides a safety and verification layer for AI coding agents through workspace confinement and command allowlisting. <details><summary>More about</summary>
+- **[jiezeng2004-design/PatchWarden](https://github.com/jiezeng2004-design/patchwarden)** `⭐ 2` `updated ≤30d` A local-first MCP bridge that provides a safety and verification layer for AI coding agents through workspace confinement and command allowlisting. <details><summary>More about</summary>
 
   It prevents AI agents from executing arbitrary shell commands or accessing sensitive files by enforcing a strict plan-verify-execute loop within a sandboxed workspace.
 
@@ -270,7 +270,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `ai-security` `coding-agents` `local-first` `verification`
   </details>
 
-- **[briefkit-mcp-server](https://github.com/mithun4elp/briefkit-mcp-server)** `⭐ 1` `updated ≤90d` An MCP server that generates structured SaaS specifications like database schemas and design systems to guide AI coding assistants. <details><summary>More about</summary>
+- **[mithun4elp/briefkit-mcp-server](https://github.com/mithun4elp/briefkit-mcp-server)** `⭐ 1` `updated ≤90d` An MCP server that generates structured SaaS specifications like database schemas and design systems to guide AI coding assistants. <details><summary>More about</summary>
 
   It improves implementation reliability and slashes token costs by providing engineer-grade specs instead of letting AI reason through architecture from scratch.
 

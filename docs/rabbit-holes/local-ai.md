@@ -23,7 +23,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `self-hosted` `local-ai` `webui` `rag` `ollama`
   </details>
 
-- **[llama.cpp](https://github.com/ggml-org/llama.cpp)** `⭐ 120.5k` `updated ≤30d` High-performance LLM inference engine written in C/C++ designed for local execution. <details><summary>More about</summary>
+- **[llama.cpp](https://github.com/ggml-org/llama.cpp)** `⭐ 121.3k` `updated ≤30d` High-performance LLM inference engine written in C/C++ designed for local execution. <details><summary>More about</summary>
 
   It enables developers to run large language models on consumer-grade hardware with high efficiency through quantization.
 
@@ -59,7 +59,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `fine-tuning` `llm` `self-hosted`
   </details>
 
-- **[Anything LLM](https://github.com/mintplex-labs/anything-llm)** `⭐ 63.4k` `updated ≤30d` AnythingLLM is an all-in-one local-first AI application for private document chatting, agent workflows, and multi-user LLM interaction with minimal setup. <details><summary>More about</summary>
+- **[Anything LLM](https://github.com/mintplex-labs/anything-llm)** `⭐ 63.7k` `updated ≤30d` AnythingLLM is an all-in-one local-first AI application for private document chatting, agent workflows, and multi-user LLM interaction with minimal setup. <details><summary>More about</summary>
 
   It lets developers run a self-hosted, privacy-preserving AI stack for document RAG and agent automation without managing infrastructure complexity.
 
@@ -77,7 +77,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `chatbot` `cost-effective` `self-hosted`
   </details>
 
-- **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** `⭐ 51.8k` `updated ≤30d` High-performance C/C++ implementation of OpenAI's Whisper automatic speech recognition model. <details><summary>More about</summary>
+- **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** `⭐ 52.2k` `updated ≤30d` High-performance C/C++ implementation of OpenAI's Whisper automatic speech recognition model. <details><summary>More about</summary>
 
   Enables efficient, low-latency, and offline audio transcription directly on diverse hardware like Apple Silicon, Linux, and mobile devices.
 
@@ -86,7 +86,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `speech-to-text` `inference` `whisper` `c-cpp` `local-ai`
   </details>
 
-- **[LocalAI](https://github.com/mudler/localai)** `⭐ 47.6k` `updated ≤30d` LocalAI is an open-source local inference engine that runs LLMs, vision, voice, and image models on any hardware with drop-in OpenAI and Anthropic API compatibility. <details><summary>More about</summary>
+- **[LocalAI](https://github.com/mudler/localai)** `⭐ 47.8k` `updated ≤30d` LocalAI is an open-source local inference engine that runs LLMs, vision, voice, and image models on any hardware with drop-in OpenAI and Anthropic API compatibility. <details><summary>More about</summary>
 
   It lets developers run a private, local AI stack that behaves like OpenAI or Anthropic APIs, making it easy to test, build, and deploy without sending data to external providers.
 
@@ -140,7 +140,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `single-binary` `offline` `inference`
   </details>
 
-- **[AirLLM](https://github.com/lyogavin/airllm)** `⭐ 22.7k` `updated ≤30d` AirLLM enables running 70B parameter large language models on a single 4GB GPU using memory optimization techniques. <details><summary>More about</summary>
+- **[AirLLM](https://github.com/lyogavin/airllm)** `⭐ 23.9k` `updated ≤30d` AirLLM enables running 70B parameter large language models on a single 4GB GPU using memory optimization techniques. <details><summary>More about</summary>
 
   It lowers hardware barriers for developers to run and experiment with large models locally, enabling accessible LLM inference without expensive infrastructure.
 
@@ -221,7 +221,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `ios` `macos` `ollama` `chat-interface`
   </details>
 
-- **[Shimmy](https://github.com/michael-a-kuykendall/shimmy)** `⭐ 5.6k` `updated ≤30d` Shimmy is a single-binary OpenAI-compatible inference server for GGUF models running on WebGPU with no Python or llama.cpp dependencies. <details><summary>More about</summary>
+- **[Shimmy](https://github.com/michael-a-kuykendall/shimmy)** `⭐ 5.7k` `updated ≤30d` Shimmy is a single-binary OpenAI-compatible inference server for GGUF models running on WebGPU with no Python or llama.cpp dependencies. <details><summary>More about</summary>
 
   It lets developers run local LLMs with zero configuration using existing OpenAI SDKs and tools, preserving privacy and avoiding API costs.
 
@@ -230,7 +230,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `inference-server` `openai-compatible` `gguf` `webgpu`
   </details>
 
-- **[GPUStack](https://github.com/gpustack/gpustack)** `⭐ 5.3k` `updated ≤30d` gpustack is a GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment. <details><summary>More about</summary>
+- **[GPUStack](https://github.com/gpustack/gpustack)** `⭐ 5.4k` `updated ≤30d` gpustack is a GPU cluster manager that configures and orchestrates inference engines like vLLM and SGLang for high-performance AI model deployment. <details><summary>More about</summary>
 
   It simplifies scaling LLM serving across heterogeneous GPU hardware, reducing operational overhead for developers deploying production AI workloads.
 
@@ -356,22 +356,13 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `macos` `local-ai` `llama` `desktop-chat` `llama-cpp`
   </details>
 
-- **[llama-macos](https://github.com/ggml-org/llama-macos)** `⭐ 1.4k` `updated ≤30d` A macOS menu bar application for running local LLMs via a background server. <details><summary>More about</summary>
+- **[ggml-org/llama-macos](https://github.com/ggml-org/llama-macos)** `⭐ 1.4k` `updated ≤30d` A macOS menu bar application for running local LLMs via a background server. <details><summary>More about</summary>
 
   It provides a zero-config way to host an OpenAI-compatible API locally, enabling developers to plug local models into VS Code, Zed, and CLI agents without managing manual server setups.
 
   _The joy of discovering that your 'lightweight' menu bar app is actually just a very polite wrapper for the 12GB of RAM your local model is currently eating._
 
-  `macos` `local-llm` `llama-cpp` `openai-api` `self-hosted`
-  </details>
-
-- **[LlamaBarn](https://github.com/ggml-org/llamabarn)** `⭐ 1.4k` `updated ≤30d` A macOS menu bar application for running local LLMs via a local OpenAI-compatible server. <details><summary>More about</summary>
-
-  It provides a zero-config bridge to run models locally on Mac hardware, allowing any OpenAI-compatible client like VS Code or Claude Code to use local inference.
-
-  _Now you have no excuse for your privacy concerns, since the only thing leaving your machine is your un-quantized, highly-specific debugging queries._
-
-  `macos` `local-llm` `llama-cpp` `openai-compatible` `inference-server`
+  `inference-server` `llama-cpp` `local-llm` `macos` `openai-api` `openai-compatible` `self-hosted`
   </details>
 
 - **[llama2.rs](https://github.com/srush/llama2.rs)** `⭐ 1.1k` `updated >1y` A fast, pure-Rust implementation of the Llama 2 inference decoder for running quantized models locally on CPU. <details><summary>More about</summary>

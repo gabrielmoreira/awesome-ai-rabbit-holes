@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 41
-    forks: 12
+    stars: 44
+    forks: 13
     license: NOASSERTION
     archived: false
-    full_name: null
-    html_url: null
+    full_name: MikkoParkkola/mcp-gateway
+    html_url: https://github.com/MikkoParkkola/mcp-gateway
     created_at: "2026-01-25T00:55:03Z"
-    pushed_at: "2026-07-16T01:11:02Z"
+    pushed_at: "2026-07-23T00:41:51Z"
     description: One endpoint in front of unlimited MCP servers and REST APIs. The agent sees a fixed ~15-tool surface however many you connect, so tool-list token cost stays flat (about 89% less on a 100-tool stack) and the savings climb as you add more. Single Rust binary.
     homepage: https://crates.io/crates/mcp-gateway
     topics:
@@ -45,10 +45,10 @@ metadata:
       - multiplexer
       - proxy
       - rust
-    last_checked_at: "2026-07-16T05:05:23.236Z"
+    last_checked_at: "2026-07-23T05:09:34.998Z"
     readme:
-      fetched_at: "2026-07-16T05:05:23.236Z"
-      bytes: 40377
+      fetched_at: "2026-07-23T05:09:34.998Z"
+      bytes: 40996
 insights:
   summary: A Rust-based gateway that multiplexes multiple MCP servers and REST APIs behind a single Meta-MCP interface to drastically reduce context window token usage.
   why_it_matters: Developers can expose 110+ REST capabilities and backend tools to AI clients through a minimal tool surface, avoiding context bloat that slows down responses.
@@ -81,7 +81,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-16T05:05:23.236Z"
+    updated_at: "2026-07-23T05:09:34.998Z"
     cause: null
     next_retry_at: null
   categorize:
