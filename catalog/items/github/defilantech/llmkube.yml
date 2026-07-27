@@ -24,12 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 175
-    forks: 25
+    stars: 179
+    forks: 26
     license: Apache-2.0
     archived: false
+    full_name: defilantech/LLMKube
+    html_url: https://github.com/defilantech/LLMKube
     created_at: "2025-11-12T22:53:23Z"
-    pushed_at: "2026-07-20T03:32:58Z"
+    pushed_at: "2026-07-26T22:23:47Z"
     description: "Kubernetes operator for self-hosted LLM inference across a heterogeneous GPU fleet: NVIDIA CUDA, AMD Vulkan, and Apple Silicon Metal. Runtimes: llama.cpp, vLLM, TGI, mlx-server. Multi-GPU sharding, model caching, OpenAI-compatible endpoints. Apache-2.0, run across homelab and on-prem fleets, actively developed."
     homepage: https://llmkube.com
     topics:
@@ -53,10 +55,10 @@ metadata:
       - self-hosted
       - tgi
       - vllm
-    last_checked_at: "2026-07-20T05:17:32.024Z"
+    last_checked_at: "2026-07-27T05:21:35.055Z"
     readme:
-      fetched_at: "2026-07-20T05:17:32.024Z"
-      bytes: 26119
+      fetched_at: "2026-07-27T05:21:35.055Z"
+      bytes: 26242
 insights:
   summary: Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API.
   why_it_matters: It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
@@ -89,7 +91,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T05:17:32.024Z"
+    updated_at: "2026-07-27T05:21:35.055Z"
     cause: null
     next_retry_at: null
   categorize:

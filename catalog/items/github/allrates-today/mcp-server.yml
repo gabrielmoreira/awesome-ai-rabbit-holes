@@ -1,6 +1,6 @@
 id: github__allrates-today__mcp-server
 kind: github-repo
-name: mcp-server
+name: allrates-today/mcp-server
 canonical_url: https://github.com/allrates-today/mcp-server
 identity:
   github_repo: allrates-today/mcp-server
@@ -22,14 +22,32 @@ provenance:
         extracted_url: https://github.com/cahthuranag/mcp-server
         surrounding_text: "- [cahthuranag/mcp-server](https://github.com/cahthuranag/mcp-server) [![cahthuranag/mcp-server MCP server](https://glama.ai/mcp/servers/cahthuranag/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/cahthuranag/mcp-server) 📇 ☁️ - AllRatesToday currency exchange rates: real-time mid-market rates for 160+ currencies (Reuters/Refinitiv), historical data (1d/7d/30d/1y), currency list, and multi-target lookups. Free tier, no key needed for the simple-rate endpoint. Install: `npx @allratestoday/mcp-server`."
         confidence: high
+    - id: discovery__github__cahthuranag__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: cahthuranag/mcp-server
+        extracted_url: https://github.com/cahthuranag/mcp-server
+        surrounding_text: "- [cahthuranag/mcp-server](https://github.com/cahthuranag/mcp-server) [![cahthuranag/mcp-server MCP server](https://glama.ai/mcp/servers/cahthuranag/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/cahthuranag/mcp-server) 📇 ☁️ - AllRatesToday currency exchange rates: real-time mid-market rates for 160+ currencies (Reuters/Refinitiv), historical data (1d/7d/30d/1y), currency list, and multi-target lookups. Free tier, no key needed for the simple-rate endpoint. Install: `npx @allratestoday/mcp-server`."
+        confidence: high
 metadata:
   github:
     stars: 2
     forks: 1
     license: MIT
     archived: false
+    full_name: AllRates-Today/mcp-server
+    html_url: https://github.com/AllRates-Today/mcp-server
     created_at: "2026-04-21T10:01:34Z"
-    pushed_at: "2026-06-20T21:32:34Z"
+    pushed_at: "2026-07-26T21:14:51Z"
     description: MCP server bringing live FX rates, historical data, and multi-currency lookups from AllRatesToday to Claude Code, Cursor, Claude Desktop, and Windsurf. Free API key required.
     homepage: https://allratestoday.com
     topics:
@@ -46,20 +64,23 @@ metadata:
       - mcp-server
       - real-time-rates
       - windsurf
-    last_checked_at: "2026-07-20T05:16:58.879Z"
+    last_checked_at: "2026-07-27T05:21:21.232Z"
     readme:
-      fetched_at: "2026-07-20T05:16:58.879Z"
+      fetched_at: "2026-07-27T05:21:21.232Z"
       bytes: 15235
 insights:
   summary: An MCP server that provides real-time and historical foreign exchange rates to MCP-compatible AI assistants.
   why_it_matters: It enables developers to pull live financial market data directly into their AI coding workflows for tasks like currency conversion or financial data analysis.
   mental_damage: Another layer of configuration to ensure your coding assistant knows exactly how much a Euro is worth before it tries to refactor your fintech app.
   tags:
-    - mcp
-    - forex
-    - finance
     - api
     - currency
+    - currency-api
+    - finance
+    - forex
+    - function-calling
+    - mcp
+    - real-time-data
   confidence: high
 curation:
   status: included
@@ -68,6 +89,9 @@ curation:
     - Repo description explicitly identifies it as an MCP server for Claude Code, Cursor, and Windsurf.
     - README defines specific MCP tools like get_exchange_rate and get_historical_rates.
     - The product is a dedicated server implementation for the Model Context Protocol.
+    - Repo description explicitly states it is an MCP server for FX data
+    - README confirms it exposes 4 tools for currency data via MCP 1.x protocol
+    - Supports multiple MCP clients (Claude Code, Cursor, Windsurf, etc.)
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,6 +99,32 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:40:25.403Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:957469baf786fcba88eed72025a9271dc0a1f00a2645bab0c3809fbe9d6cc1d3
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server providing domain-specific (FX) data to MCP-compatible clients, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for FX data
+        - README confirms it exposes 4 tools for currency data via MCP 1.x protocol
+        - Supports multiple MCP clients (Claude Code, Cursor, Windsurf, etc.)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server (domain-specific data provider) rather than an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-05-28T05:28:09.818Z"
@@ -82,14 +132,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T05:16:58.879Z"
+    updated_at: "2026-07-27T05:21:21.232Z"
     cause: null
-    next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-28T05:35:09.949Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
     next_retry_at: null

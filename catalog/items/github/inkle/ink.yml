@@ -1,0 +1,74 @@
+id: github__inkle__ink
+kind: github-repo
+name: inkle/ink
+canonical_url: https://github.com/inkle/ink
+identity:
+  github_repo: inkle/ink
+provenance:
+  discoveries:
+    - id: discovery__github__inkle__ink__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-27T05:20:52.308Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: ink
+        extracted_url: https://github.com/inkle/ink
+        surrounding_text: "- [chaoz23/inkcheck](https://github.com/chaoz23/inkcheck) [![chaoz23/inkcheck MCP server](https://glama.ai/mcp/servers/chaoz23/inkcheck/badges/score.svg)](https://glama.ai/mcp/servers/chaoz23/inkcheck) 📇 🏠 🍎 🪟 🐧 - CI for [ink](https://github.com/inkle/ink) interactive-fiction stories. Compiles, exhaustively playtests every branch, and finds runtime errors (with a repro path), unreachable knots, and every distinct ending — so an agent can verify the story it wrote. Writes no prose. `claude mcp add inkcheck -- npx -y inkcheck mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-27T05:20:52.310Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: deferred
+    updated_at: "2026-07-27T05:21:38.346Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for inkle/ink
+  categorize:
+    status: skipped
+    updated_at: "2026-07-27T05:21:40.924Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__composio-community__open-claude-cowork
 kind: github-repo
-name: open-claude-cowork
+name: composio-community/open-claude-cowork
 canonical_url: https://github.com/composio-community/open-claude-cowork
 identity:
   github_repo: composio-community/open-claude-cowork
@@ -22,12 +22,30 @@ provenance:
         extracted_url: https://github.com/composiohq/open-claude-cowork
         surrounding_text: "- **[open-claude-cowork](https://github.com/ComposioHQ/open-claude-cowork)** `⭐ 4.1k` — Open-source version of Claude Cowork with 500+ SaaS app integrations."
         confidence: high
+    - id: discovery__github__composiohq__open-claude-cowork__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: open-claude-cowork
+        extracted_url: https://github.com/composiohq/open-claude-cowork
+        surrounding_text: "- **[open-claude-cowork](https://github.com/ComposioHQ/open-claude-cowork)** `⭐ 4.1k` — Open-source version of Claude Cowork with 500+ SaaS app integrations."
+        confidence: high
 metadata:
   github:
-    stars: 4312
+    stars: 4320
     forks: 741
     license: MIT
     archived: false
+    full_name: composio-community/open-claude-cowork
+    html_url: https://github.com/composio-community/open-claude-cowork
     created_at: "2026-01-13T03:14:23Z"
     pushed_at: "2026-05-23T11:52:19Z"
     description: Open Source version of Claude Cowork with 500+ SaaS app integrations
@@ -41,34 +59,46 @@ metadata:
       - eclectron-app
       - opencode
       - workflow-automation
-    last_checked_at: "2026-07-20T05:17:24.794Z"
+    last_checked_at: "2026-07-27T05:21:28.597Z"
     readme:
-      fetched_at: "2026-07-20T05:17:24.794Z"
+      fetched_at: "2026-07-27T05:21:28.597Z"
       bytes: 6684
 insights:
   summary: Open Claude Cowork is an open-source desktop chat application powered by the Claude Agent SDK and Composio Tool Router, featuring 500+ SaaS integrations and a messaging bot variant.
   why_it_matters: It lets developers automate work across desktop and messaging apps using a unified AI interface with broad tool access.
   mental_damage: Another Electron app promising to replace your entire workflow while you juggle five different AI assistants just to send a Slack message.
   tags:
-    - desktop-app
+    - claude-agent-sdk
     - claude-sdk
     - composio
+    - desktop-app
+    - electron
     - integrations
-  confidence: medium
+    - saas-integrations
+    - workflow-automation
+  confidence: high
 curation:
-  status: included
-  reason: It functions as a standalone coding assistant with file editing, tool use, and persistent sessions, not merely an extension to another agent.
+  status: pending
+  reason: Conflicting duplicate curation or placement requires review.
   evidence:
     - "Repo description: 'Open Source version of Claude Cowork with 500+ SaaS app integrations'"
     - "README: 'Full-featured desktop chat interface' for 'Work automation, multi-chat sessions'"
     - "Features: 'Persistent Sessions', 'Tool Visualization', 'Skills Support', and direct code-related tooling via Composio"
+    - "included: It functions as a standalone coding assistant with file editing, tool use, and persistent sessions, not merely an extension to another agent."
+    - "README: 'An open-source desktop chat application powered by Claude Agent SDK and Composio Tool Router. Automate your work end-to-end across desktop and all your work apps in one place.'"
+    - Features include persistent sessions, tool visualization, and multi-provider support (Claude Agent SDK/Opencode)
+    - "included: The primary product is a standalone desktop assistant that directly automates work across apps and maintains context, fitting the coding-agent identity despite its desktop UI."
 placement:
-  primary_category: coding-agents
+  primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (4142) exceeded threshold (150)
 processing:
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null
   discover:
     status: done
     updated_at: "2026-05-12T15:06:19.301Z"
@@ -76,14 +106,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T05:17:24.794Z"
+    updated_at: "2026-07-27T05:21:28.597Z"
     cause: null
-    next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-12T15:59:13.424Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
     next_retry_at: null

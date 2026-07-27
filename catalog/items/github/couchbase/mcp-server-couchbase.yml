@@ -1,6 +1,6 @@
 id: github__couchbase__mcp-server-couchbase
 kind: github-repo
-name: mcp-server-couchbase
+name: couchbase/mcp-server-couchbase
 canonical_url: https://github.com/couchbase/mcp-server-couchbase
 identity:
   github_repo: couchbase/mcp-server-couchbase
@@ -37,33 +37,67 @@ provenance:
         extracted_url: https://github.com/couchbase-ecosystem/mcp-server-couchbase
         surrounding_text: "- **[Couchbase](https://github.com/Couchbase-Ecosystem/mcp-server-couchbase)** - Interact with the data stored in Couchbase clusters using natural language."
         confidence: high
+    - id: discovery__github__couchbase-ecosystem__mcp-server-couchbase__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: Couchbase-Ecosystem/mcp-server-couchbase
+        extracted_url: https://github.com/couchbase-ecosystem/mcp-server-couchbase
+        surrounding_text: "- [Couchbase-Ecosystem/mcp-server-couchbase](https://github.com/Couchbase-Ecosystem/mcp-server-couchbase) 🎖️ 🐍 ☁️ 🏠 - Couchbase MCP server provides unfied access to both Capella cloud and self-managed clusters for document operations, SQL++ queries and natural language data analysis."
+        confidence: high
+    - id: discovery__github__couchbase-ecosystem__mcp-server-couchbase__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Official Servers
+        anchor_text: Couchbase
+        extracted_url: https://github.com/couchbase-ecosystem/mcp-server-couchbase
+        surrounding_text: "- **[Couchbase](https://github.com/Couchbase-Ecosystem/mcp-server-couchbase)** - Interact with the data stored in Couchbase clusters using natural language."
+        confidence: high
 metadata:
   github:
     stars: 34
     forks: 32
     license: Apache-2.0
     archived: false
+    full_name: couchbase/mcp-server-couchbase
+    html_url: https://github.com/couchbase/mcp-server-couchbase
     created_at: "2025-03-26T18:04:52Z"
-    pushed_at: "2026-07-17T10:18:24Z"
+    pushed_at: "2026-07-24T12:44:47Z"
     description: MCP Server to interact with data in Couchbase Clusters
     homepage: https://mcp-server.couchbase.com/
     topics:
       - couchbase
       - hacktoberfest
       - mcp
-    last_checked_at: "2026-07-20T05:17:26.330Z"
+    last_checked_at: "2026-07-27T05:21:29.954Z"
     readme:
-      fetched_at: "2026-07-20T05:17:26.330Z"
+      fetched_at: "2026-07-27T05:21:29.954Z"
       bytes: 38231
 insights:
   summary: An MCP server that enables LLMs to interact directly with Couchbase clusters.
   why_it_matters: It allows AI assistants to query, manage, and manipulate NoSQL data in Couchbase without the developer manually copying and pasting JSON dumps into a chat window.
   mental_damage: Now your AI can accidentally drop a production bucket while trying to 'help' you debug a query.
   tags:
-    - mcp
-    - nosql
     - couchbase
     - database-integration
+    - mcp
+    - model-context-protocol
+    - nosql
   confidence: high
 curation:
   status: included
@@ -72,6 +106,9 @@ curation:
     - "Repo description: 'MCP Server to interact with the data in Couchbase'"
     - "README: 'An MCP server implementation of Couchbase that allows LLMs to interact with Couchbase clusters'"
     - Included in awesome-mcp-servers under 'Databases'
+    - "Repo description: 'MCP Server to interact with data in Couchbase Clusters'"
+    - "README: 'An MCP server implementation of Couchbase that allows LLMs to directly interact with Couchbase clusters'"
+    - Topics include 'mcp' and 'couchbase'
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -79,6 +116,32 @@ lifecycle:
   status: incubating
   reason: null
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:49:12.011Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e8079cfc639291fea78df759e87bb5086855a38a59385fcc14878beb4265b472
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the core product identity, and this is explicitly a domain-specific MCP server for Couchbase.
+      decision_evidence:
+        - "Repo description: 'MCP Server to interact with data in Couchbase Clusters'"
+        - "README: 'An MCP server implementation of Couchbase that allows LLMs to directly interact with Couchbase clusters'"
+        - Topics include 'mcp' and 'couchbase'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a dedicated MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-06-04T05:40:27.161Z"
@@ -86,14 +149,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T05:17:26.330Z"
+    updated_at: "2026-07-27T05:21:29.954Z"
     cause: null
-    next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-06-04T05:42:46.313Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
     next_retry_at: null

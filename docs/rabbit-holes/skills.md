@@ -14,7 +14,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `slash-commands` `workflows` `prompt-engineering`
   </details>
 
-- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 162.8k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
+- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 164.4k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
 
   It enables developers to create reusable, portable skill packs that teach Claude (and other compatible agents) how to handle specific workflows, from document editing to technical automation.
 
@@ -32,7 +32,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `workflow-automation` `prompt-engineering` `cursor-rules` `claude-code`
   </details>
 
-- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 68.1k` `updated ≤90d` A curated list of 1000+ production-ready Claude Skills and plugins for enhancing AI agent workflows across coding assistants like Claude Code, Cursor, and others. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 71k` `updated ≤30d` A curated list of 1000+ production-ready Claude Skills and plugins for enhancing AI agent workflows across coding assistants like Claude Code, Cursor, and others. <details><summary>More about</summary>
 
   Developers can discover reusable skill packs to extend their AI coding assistants with domain-specific workflows, integrations, and guardrails without reinventing the wheel.
 
@@ -153,7 +153,7 @@ _These are new or low-traffic entries being watched._
   `biomedical` `agent-skills` `mcp` `clinical-ai`
   </details>
 
-- **[codebase-recon-skill](https://github.com/yujiachen-y/codebase-recon-skill)** `⭐ 29` `updated ≤90d` A coding agent skill that analyzes git history to understand a codebase before reading any code. <details><summary>More about</summary>
+- **[codebase-recon-skill](https://github.com/yujiachen-y/codebase-recon-skill)** `⭐ 29` `updated ≤180d` A coding agent skill that analyzes git history to understand a codebase before reading any code. <details><summary>More about</summary>
 
   Helps developers quickly assess project health, risk areas, and team dynamics without manually running git commands.
 
@@ -171,7 +171,7 @@ _These are new or low-traffic entries being watched._
   `agent-skills` `seo-automation` `content-marketing` `mcp-server` `ai-agent`
   </details>
 
-- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** `⭐ 13` `updated ≤90d` A CLI tool and library for installing, managing, and sharing 50,000+ reusable skill files and slash commands across AI coding assistants like Claude Code, Cursor, and Cline. <details><summary>More about</summary>
+- **[Omni Skills Forge](https://github.com/theihtisham/omni-skills-forge)** `⭐ 13` `updated ≤180d` A CLI tool and library for installing, managing, and sharing 50,000+ reusable skill files and slash commands across AI coding assistants like Claude Code, Cursor, and Cline. <details><summary>More about</summary>
 
   It lets developers inject expert-level domain knowledge and patterns into their AI assistants instantly, moving them beyond generic coding advice without manual prompt engineering.
 

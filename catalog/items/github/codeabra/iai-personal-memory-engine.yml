@@ -1,11 +1,27 @@
 id: github__codeabra__iai-personal-memory-engine
 kind: github-repo
-name: iai-personal-memory-engine
+name: codeabra/iai-personal-memory-engine
 canonical_url: https://github.com/codeabra/iai-personal-memory-engine
 identity:
   github_repo: codeabra/iai-personal-memory-engine
 provenance:
   discoveries:
+    - id: discovery__github__codeabra__iai-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-28T05:28:09.816Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🧠 <a name="knowledge--memory"></a>Knowledge & Memory
+        anchor_text: CodeAbra/iai-mcp
+        extracted_url: https://github.com/codeabra/iai-mcp
+        surrounding_text: "- [CodeAbra/iai-mcp](https://github.com/CodeAbra/iai-mcp) [![CodeAbra/iai-mcp MCP server](https://glama.ai/mcp/servers/CodeAbra/iai-mcp/badges/score.svg)](https://glama.ai/mcp/servers/CodeAbra/iai-mcp) 🐍 🏠 🍎 🐧 - Local memory daemon with three-tier storage (episodic/semantic/procedural), vector search via LanceDB + bge-small-en-v1.5, graph-based recall reranking, and sleep-cycle consolidation. AES-256 encrypted at rest. Verbatim recall >=99% at 10k records, p95 <100ms. Ambient capture via Claude Code Stop hook."
+        confidence: high
     - id: discovery__github__codeabra__iai-personal-memory-engine__awesome-list__punkpeye__awesome-mcp-servers
       discovered_at: "2026-06-04T05:40:27.160Z"
       source:
@@ -24,13 +40,15 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 348
-    forks: 46
+    stars: 396
+    forks: 48
     license: MIT
     archived: false
+    full_name: CodeAbra/iai-personal-memory-engine
+    html_url: https://github.com/CodeAbra/iai-personal-memory-engine
     created_at: "2026-05-06T08:04:52Z"
-    pushed_at: "2026-07-19T21:50:50Z"
-    description: Independent Autistic Intelligence — a cyber brain for your AI. It never forgets a detail, remembers exactly what you said, and learns how you work over time. Free, local, works with Cursor, Claude Code, Codex, OpenClaw, Hermes and more. MIT.
+    pushed_at: "2026-07-25T18:12:15Z"
+    description: A cyber brain for your AI. It never forgets a detail, remembers exactly what you said, and learns how you work over time. Free, local, works with Cursor, Claude Code, Codex, OpenClaw, Hermes and more. MIT.
     homepage: null
     topics:
       - agent-memory
@@ -53,25 +71,30 @@ metadata:
       - rag-alternative
       - sqlite
       - vector-database
-    last_checked_at: "2026-07-20T05:17:22.597Z"
+    last_checked_at: "2026-07-27T05:21:26.436Z"
     readme:
-      fetched_at: "2026-07-20T05:17:22.597Z"
+      fetched_at: "2026-07-27T05:21:26.436Z"
       bytes: 30449
 insights:
   summary: A local memory server that provides long-term, verbatim conversation recall for Claude and other MCP-compatible assistants.
   why_it_matters: It removes the need to manually remind assistants of previous context by automatically capturing and injecting relevant historical conversation slices into new sessions.
   mental_damage: The relief of not having to say 'remember that thing from three days ago' is slightly offset by the anxiety of a local database recording every single prompt you've ever sent.
   tags:
-    - mcp
-    - long-term-memory
-    - local-ai
     - claude-code
+    - context-engineering
+    - local-ai
+    - long-term-memory
+    - mcp
+    - memory
     - retrieval
   confidence: high
 curation:
   status: included
-  reason: The core novelty is the memory and retrieval system (capturing, organizing, and serving memory slices) rather than the MCP protocol itself or the agent integration.
+  reason: The tool's core novelty is a memory and retrieval system designed to shape the context provided to an LLM.
   evidence:
+    - Claims verbatim recall >= 99% via a local LanceDB and embedding-based architecture
+    - Uses capture and recall hooks to automate context injection at session start
+    - Primary identity is a 'memory system' rather than a generic MCP implementation
     - README describes it as a 'local memory layer' that captures session turns and serves a 'small slice of relevant memory'
     - Focuses on technical metrics like 'verbatim recall' and 'p95 latency'
     - Provides an automated pipeline for embed -> dedup -> encrypted insert
@@ -82,16 +105,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (289) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-06-04T05:40:27.161Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-07-20T05:17:22.597Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-06-04T05:42:37.358Z"
@@ -99,4 +112,14 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-06-04T05:40:27.161Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-27T05:21:26.436Z"
+    cause: null
     next_retry_at: null

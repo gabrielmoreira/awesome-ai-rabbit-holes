@@ -90,11 +90,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-07-23T05:09:17.183Z"
+    status: deferred
+    updated_at: "2026-07-27T05:21:37.804Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: hashlock-tech/hashlock-mcp"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for hashlock-tech/hashlock-mcp
     next_retry_at: null
   categorize:
     status: done

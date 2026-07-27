@@ -1,0 +1,83 @@
+id: github__cohexa-ai__agent-coherence
+kind: github-repo
+name: cohexa-ai/agent-coherence
+canonical_url: https://github.com/cohexa-ai/agent-coherence
+identity:
+  github_repo: cohexa-ai/agent-coherence
+provenance:
+  discoveries:
+    - id: discovery__github__cohexa-ai__agent-coherence__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-27T05:20:52.308Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="file-systems"></a>File Systems
+        anchor_text: Cohexa-ai/agent-coherence
+        extracted_url: https://github.com/cohexa-ai/agent-coherence
+        surrounding_text: "- [Cohexa-ai/agent-coherence](https://github.com/Cohexa-ai/agent-coherence) [![Cohexa-ai/agent-coherence MCP server](https://glama.ai/mcp/servers/Cohexa-ai/agent-coherence/badges/score.svg)](https://glama.ai/mcp/servers/Cohexa-ai/agent-coherence) 🐍 🏠 - Coherence guard for shared files: when two agents write the same file, the stale writer is denied instead of silently overwriting, then reacquires and retries. Single-host, TLA+-verified. Install: `uvx --from \"agent-coherence[mcp]\" stale-write-guard-fs`."
+        confidence: high
+metadata:
+  github:
+    stars: 10
+    forks: 1
+    license: NOASSERTION
+    archived: false
+    full_name: Cohexa-ai/agent-coherence
+    html_url: https://github.com/Cohexa-ai/agent-coherence
+    created_at: "2026-03-04T13:43:03Z"
+    pushed_at: "2026-07-21T14:44:28Z"
+    description: The coordination layer for Multiplayer AI
+    homepage: https://agent-coherence.dev/
+    topics:
+      - agent-memory
+      - ai-agent
+      - autogen
+      - cache-coherence
+      - crewai
+      - langchain
+      - llm-agent
+      - multi-agent-systems
+      - python
+      - state-synchronization
+      - token-efficiency
+    last_checked_at: "2026-07-27T05:21:27.704Z"
+    readme:
+      fetched_at: "2026-07-27T05:21:27.704Z"
+      bytes: 33202
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-27T05:20:52.309Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-27T05:21:27.704Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

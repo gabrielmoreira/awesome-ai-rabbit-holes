@@ -105,9 +105,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-20T05:17:25.467Z"
-    cause: null
+    status: failed
+    updated_at: "2026-07-27T05:21:28.911Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: connerlambden/helium-mcp"
     next_retry_at: null
   categorize:
     status: done

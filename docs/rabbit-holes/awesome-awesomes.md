@@ -95,7 +95,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llms` `open-source` `commercial-use` `models`
   </details>
 
-- **[awesome-langchain](https://github.com/kyrolabs/awesome-langchain)** `⭐ 9.5k` `updated ≤90d` Curated list of tools, projects, and resources built with or for the LangChain framework. <details><summary>More about</summary>
+- **[awesome-langchain](https://github.com/kyrolabs/awesome-langchain)** `⭐ 9.5k` `updated ≤180d` Curated list of tools, projects, and resources built with or for the LangChain framework. <details><summary>More about</summary>
 
   Helps developers navigate the rapidly expanding LangChain ecosystem to find libraries, ports, templates, and learning materials.
 
@@ -203,7 +203,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `compilers` `deep-learning` `tensor` `machine-learning` `research`
   </details>
 
-- **[Awesome Argo](https://github.com/akuity/awesome-argo)** `⭐ 2.5k` `updated ≤90d` A curated list of projects and resources related to Argo, a CNCF graduated project for Kubernetes-native workflows, CD, rollouts, and event management. <details><summary>More about</summary>
+- **[Awesome Argo](https://github.com/akuity/awesome-argo)** `⭐ 2.5k` `updated ≤30d` A curated list of projects and resources related to Argo, a CNCF graduated project for Kubernetes-native workflows, CD, rollouts, and event management. <details><summary>More about</summary>
 
   Developers working with Kubernetes and GitOps can use this as a starting point to discover Argo ecosystem tools for workflow orchestration, continuous delivery, and deployment strategies.
 
@@ -239,6 +239,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `local-ai` `curated-list` `inference-engines` `self-hosted`
   </details>
 
+- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.9k` `updated ≤180d` A curated directory of AI-powered coding tools including editors, agents, and productivity utilities. <details><summary>More about</summary>
+
+  It provides a central navigation point to discover the rapidly evolving ecosystem of AI-native development tools.
+
+  _It's a map of a territory that changes shape faster than you can finish reading the legend._
+
+  `curated-list` `directory` `ai-coding` `developer-tools`
+  </details>
+
 - **[awesome-LangGraph](https://github.com/vonzosten/awesome-langgraph)** `⭐ 1.9k` `updated ≤30d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps. <details><summary>More about</summary>
 
   Helps developers navigate the rapidly expanding LangGraph and LangChain ecosystem by providing a curated map of frameworks, integrations, and learning resources.
@@ -246,15 +255,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _Another awesome list to star, forget about, and rediscover three months later when you're knee-deep in agent orchestration YAML._
 
   `awesome-list` `ecosystem` `langgraph`
-  </details>
-
-- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.9k` `updated ≤90d` A curated directory of AI-powered coding tools including editors, agents, and productivity utilities. <details><summary>More about</summary>
-
-  It provides a central navigation point to discover the rapidly evolving ecosystem of AI-native development tools.
-
-  _It's a map of a territory that changes shape faster than you can finish reading the legend._
-
-  `curated-list` `directory` `ai-coding` `developer-tools`
   </details>
 
 - **[awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers)** `⭐ 1.6k` `updated ≤30d` A curated list of research papers on multi-agent systems and swarm intelligence for AI agents. <details><summary>More about</summary>
@@ -320,7 +320,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `automl` `awesome-list` `research`
   </details>
 
-- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 880` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
+- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 883` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
 
   Provides a centralized starting point for developers to navigate the rapidly shifting landscape of LLM architectures and agentic patterns.
 
@@ -338,7 +338,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `developer-tools`
   </details>
 
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 835` `updated ≤30d` Curated directory of terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 875` `updated ≤30d` Curated directory of terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
 
   Developers can discover and compare CLI-based coding agents and their orchestration tools in one place.
 
@@ -347,7 +347,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `cli` `coding-agents` `directory` `awesome-list`
   </details>
 
-- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 789` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
+- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 798` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
 
   It provides a centralized directory for the emerging 'vibe coding' workflow, gathering high-level builders and IDEs focused on prompt-driven development.
 
@@ -423,7 +423,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 _These are new or low-traffic entries being watched._
 
-- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 141` `updated ≤180d` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
+- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 142` `updated ≤180d` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
 
   Provides developers with a navigable directory of agent frameworks, tools, and platforms to explore or integrate into their workflows.
 
@@ -504,7 +504,7 @@ _These are new or low-traffic entries being watched._
   `awesome-list` `agentic-ai` `multi-agent` `resources` `directory`
   </details>
 
-- **[awesome-agent-protocols](https://github.com/commune-dev/awesome-agent-protocols)** `⭐ 0` `updated ≤30d` Curated list of protocols for AI agent communication, including email, SMS, MCP, webhooks, inter-agent messaging, message queues, and notification routing. <details><summary>More about</summary>
+- **[awesome-agent-protocols](https://github.com/commune-dev/awesome-agent-protocols)** `⭐ 0` `updated ≤90d` Curated list of protocols for AI agent communication, including email, SMS, MCP, webhooks, inter-agent messaging, message queues, and notification routing. <details><summary>More about</summary>
 
   Developers building multi-agent systems can use this as a starting map for choosing communication standards and tooling.
 

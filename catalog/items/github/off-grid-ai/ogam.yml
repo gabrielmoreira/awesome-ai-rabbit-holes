@@ -1,11 +1,27 @@
 id: github__off-grid-ai__ogam
 kind: github-repo
-name: ogam
+name: off-grid-ai/ogam
 canonical_url: https://github.com/off-grid-ai/ogam
 identity:
   github_repo: off-grid-ai/ogam
 provenance:
   discoveries:
+    - id: discovery__github__alichherawalla__off-grid-mobile-ai__awesome-list__tensorchord__awesome-llmops
+      discovered_at: "2026-05-21T05:27:57.681Z"
+      source:
+        type: awesome-list
+        name: tensorchord/Awesome-LLMOps
+        url: https://github.com/tensorchord/awesome-llmops
+        repository: tensorchord/Awesome-LLMOps
+      extraction:
+        mode: parsed
+        section_path:
+          - Serving
+          - Large Model Serving
+        anchor_text: Off Grid
+        extracted_url: https://github.com/alichherawalla/off-grid-mobile-ai
+        surrounding_text: "| [Off Grid](https://github.com/alichherawalla/off-grid-mobile-ai)                      | Open-source iOS/Android app running LLMs on-device via llama.cpp. Voice (Whisper), vision, image gen, tool calling — fully offline. | ![GitHub Badge](https://img.shields.io/github/stars/alichherawalla/off-grid-mobile-ai.svg?style=flat-square) |"
+        confidence: high
     - id: discovery__github__off-grid-ai__mobile__awesome-list__tensorchord__awesome-llmops
       discovered_at: "2026-06-22T05:53:30.454Z"
       source:
@@ -56,59 +72,74 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2782
-    forks: 266
+    stars: 2815
+    forks: 268
     license: MIT
     archived: false
     full_name: off-grid-ai/OGAM
     html_url: https://github.com/off-grid-ai/OGAM
     created_at: "2026-01-29T11:00:58Z"
-    pushed_at: "2026-07-20T13:30:38Z"
-    description: The Swiss Army Knife of Offline AI. Chat, Speak, and Generate Images - Privacy First, Zero Internet. Download an LLM and use it on your mobile device. No data ever leaves your phone. Supports text-to-text, vision, text-to-image
+    pushed_at: "2026-07-27T04:22:07Z"
+    description: The Swiss Army Knife of Offline AI. Chat, see, speak, and generate images on your phone or Mac — GGUF LLMs, vision, Whisper speech-to-text, Stable Diffusion, tool calling, and local-network servers. Runs on your CPU, GPU, or NPU. No account, no API key, zero data leaves your device.
     homepage: https://getoffgridai.co/pro/
     topics:
+      - android
       - edge-ai
       - gguf
+      - ios
       - llama-cpp
       - local-ai
+      - macos
+      - mcp
       - mobile-ai
       - offline-ai
       - offline-llm
       - ondevice
       - ondevice-ai
       - privacy-first
+      - react-native
       - stable-diffusion-android
       - tool-calling
+      - vision-language-model
       - whisper-android
-    last_checked_at: "2026-07-20T16:42:23.607Z"
+      - whisper-cpp
+    last_checked_at: "2026-07-27T05:21:04.069Z"
     readme:
-      fetched_at: "2026-07-20T16:42:23.607Z"
-      bytes: 10431
+      fetched_at: "2026-07-27T05:21:04.069Z"
+      bytes: 12577
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source mobile and macOS app that runs a complete offline AI suite—text, vision, image generation, voice transcription, and tool calling—entirely on-device using llama.cpp.
+  why_it_matters: It pushes on-device inference to mobile, but remains a consumer end-user application rather than a developer tool or infrastructure component.
+  mental_damage: Another reminder that the AI tooling explosion now includes offline mobile chat apps, so your developer FOMO can finally follow you into airplane mode.
+  tags:
+    - llama-cpp
+    - local-ai
+    - mobile
+    - offline-llm
+    - privacy-first
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The project is a consumer-facing mobile and desktop application distributed on the App Store and Google Play; it is not a developer-facing coding assistant, runtime, SDK, or infra product.
+  evidence:
+    - README pitches end-user features—chat, generate images, use tools, listen—and displays App Store / Google Play download badges as its primary surface.
+    - Repo description frames it as a privacy-first 'Swiss Army Knife of Offline AI' for personal mobile use, with no developer API, extension, or coding-workflow positioning.
+    - Despite using llama.cpp under the hood, its identity matches end-user local apps like PrivateGPT or Anything LLM, which are common false positives for the local-ai category.
 placement:
   primary_category: null
   section: null
 lifecycle:
   status: promotion_candidate
-  reason: Stars (2782) exceeded threshold (150)
+  reason: Stars (2159) exceeded threshold (150)
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-07-21T16:21:35.824Z"
-    cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-21T17:21:35.821Z"
-    attempts: 0
+    status: done
+    updated_at: "2026-05-21T05:31:27.060Z"
+    cause: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-07-16T05:04:46.715Z"
@@ -116,6 +147,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T16:42:23.607Z"
+    updated_at: "2026-07-27T05:21:04.069Z"
     cause: null
     next_retry_at: null

@@ -194,7 +194,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-llm` `python` `inference` `llama-cpp` `quantization`
   </details>
 
-- **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.3k` `updated >1y` A distributed system for running large language models locally via a BitTorrent-style network, enabling inference and fine-tuning on consumer hardware. <details><summary>More about</summary>
+- **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.4k` `updated >1y` A distributed system for running large language models locally via a BitTorrent-style network, enabling inference and fine-tuning on consumer hardware. <details><summary>More about</summary>
 
   Developers can run and fine-tune state-of-the-art models like Llama 3.1 (405B) or Mixtral (8x22B) on their own machines by sharing compute across a decentralized network.
 
@@ -419,7 +419,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `cpp` `cuda` `performance`
   </details>
 
-- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 175` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
+- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 179` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
 
   It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
 

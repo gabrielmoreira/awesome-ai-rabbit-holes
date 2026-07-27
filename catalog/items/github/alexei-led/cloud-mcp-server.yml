@@ -1,11 +1,42 @@
 id: github__alexei-led__cloud-mcp-server
 kind: github-repo
-name: cloud-mcp-server
+name: alexei-led/cloud-mcp-server
 canonical_url: https://github.com/alexei-led/cloud-mcp-server
 identity:
   github_repo: alexei-led/cloud-mcp-server
 provenance:
   discoveries:
+    - id: discovery__github__alexei-led__aws-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: alexei-led/aws-mcp-server
+        extracted_url: https://github.com/alexei-led/aws-mcp-server
+        surrounding_text: "- [alexei-led/aws-mcp-server](https://github.com/alexei-led/aws-mcp-server) 🐍 ☁️ - A lightweight but powerful server that enables AI assistants to execute AWS CLI commands, use Unix pipes, and apply prompt templates for common AWS tasks in a safe Docker environment with multi-architecture support"
+        confidence: high
+    - id: discovery__github__alexei-led__aws-mcp-server__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - ☁️ Cloud Platforms
+        anchor_text: alexei-led/aws-mcp-server
+        extracted_url: https://github.com/alexei-led/aws-mcp-server
+        surrounding_text: "-   **[alexei-led/aws-mcp-server](https://github.com/alexei-led/aws-mcp-server)** [![GitHub stars](https://img.shields.io/github/stars/alexei-led/aws-mcp-server?style=social)](https://github.com/alexei-led/aws-mcp-server): Enables secure execution of AWS CLI commands and prompt templates within Docker."
+        confidence: high
     - id: discovery__github__alexei-led__cloud-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
       discovered_at: "2026-05-28T05:28:09.816Z"
       source:
@@ -43,6 +74,8 @@ metadata:
     forks: 34
     license: MIT
     archived: false
+    full_name: alexei-led/cloud-mcp-server
+    html_url: https://github.com/alexei-led/cloud-mcp-server
     created_at: "2025-03-19T13:42:40Z"
     pushed_at: "2026-02-27T14:42:40Z"
     description: A lightweight service that enables AI assistants to execute AWS CLI commands (in safe containerized environment) through the Model Context Protocol (MCP). Bridges Claude, Cursor, and other MCP-aware AI tools with AWS CLI for enhanced cloud infrastructure management.
@@ -58,9 +91,9 @@ metadata:
       - mcp
       - mcp-server
       - modelcontextprotocol
-    last_checked_at: "2026-07-20T05:16:57.072Z"
+    last_checked_at: "2026-07-27T05:21:03.182Z"
     readme:
-      fetched_at: "2026-07-20T05:16:57.072Z"
+      fetched_at: "2026-07-27T05:21:03.182Z"
       bytes: 7653
 insights:
   summary: An MCP server that enables AI assistants to execute AWS CLI commands within a containerized environment.
@@ -68,15 +101,19 @@ insights:
   mental_damage: One step closer to letting Claude accidentally terminate your production S3 buckets because of a typo in a piped command.
   tags:
     - aws
-    - mcp
-    - devops
-    - cloud-infrastructure
     - cli
+    - cloud-infrastructure
+    - devops
+    - infrastructure
+    - mcp
   confidence: high
 curation:
   status: included
-  reason: The tool's primary identity is a domain-specific MCP server that extends assistant capabilities via the Model Context Protocol.
+  reason: MCP is the product identity here—a server that exposes AWS CLI capabilities via the Model Context Protocol, not merely an adapter or compatibility feature.
   evidence:
+    - Repo description explicitly states it is an MCP server for AWS CLI
+    - README emphasizes MCP as the core integration layer for Claude and other MCP-aware tools
+    - Project provides MCP-specific features like streamable HTTP transport and server metadata
     - Repo description explicitly defines it as an MCP service bridging assistants with the AWS CLI
     - README details its implementation as an MCP server providing specific tools like `aws_cli_pipeline`
 placement:
@@ -86,6 +123,32 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (182) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:21:57.700Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:63f79d2525f49ebb3e96726cbba3bc955ebd0133339a3e6feb3ce5e89b00458d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here—a server that exposes AWS CLI capabilities via the Model Context Protocol, not merely an adapter or compatibility feature.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for AWS CLI
+        - README emphasizes MCP as the core integration layer for Claude and other MCP-aware tools
+        - Project provides MCP-specific features like streamable HTTP transport and server metadata
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product’s primary identity is as an MCP server (not just an extension for another assistant), and MCP is the core protocol being implemented.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-05-28T05:28:09.817Z"
@@ -93,14 +156,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T05:16:57.073Z"
+    updated_at: "2026-07-27T05:21:03.182Z"
     cause: null
-    next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-28T05:34:59.569Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
     next_retry_at: null

@@ -1,6 +1,6 @@
 id: github__base__base-mcp-legacy
 kind: github-repo
-name: base-mcp-legacy
+name: base/base-mcp-legacy
 canonical_url: https://github.com/base/base-mcp-legacy
 identity:
   github_repo: base/base-mcp-legacy
@@ -37,29 +37,65 @@ provenance:
         extracted_url: https://github.com/base/base-mcp
         surrounding_text: "-   **[@base/base-mcp](https://github.com/base/base-mcp)** [![GitHub stars](https://img.shields.io/github/stars/base/base-mcp?style=social)](https://github.com/base/base-mcp): Integrates with Base Network for onchain tools and Coinbase API interactions."
         confidence: high
+    - id: discovery__github__base__base-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💰 <a name="finance--fintech"></a>Finance & Fintech
+        anchor_text: base/base-mcp
+        extracted_url: https://github.com/base/base-mcp
+        surrounding_text: "- [base/base-mcp](https://github.com/base/base-mcp) 🎖️ 📇 ☁️ - Base Network integration for onchain tools, allowing interaction with Base Network and Coinbase API for wallet management, fund transfers, smart contracts, and DeFi operations"
+        confidence: high
+    - id: discovery__github__base__base-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💰 Finance & Fintech
+        anchor_text: "@base/base-mcp"
+        extracted_url: https://github.com/base/base-mcp
+        surrounding_text: "-   **[@base/base-mcp](https://github.com/base/base-mcp)** [![GitHub stars](https://img.shields.io/github/stars/base/base-mcp?style=social)](https://github.com/base/base-mcp): Integrates with Base Network for onchain tools and Coinbase API interactions."
+        confidence: high
 metadata:
   github:
     stars: 353
     forks: 139
     license: MIT
     archived: true
+    full_name: base/base-mcp-legacy
+    html_url: https://github.com/base/base-mcp-legacy
     created_at: "2025-03-06T21:57:34Z"
     pushed_at: "2026-05-13T20:07:50Z"
     description: A Model Context Protocol (MCP) server that provides onchain tools for LLMs, allowing them to interact with the Base network and Coinbase API.
     homepage: https://www.npmjs.com/package/base-mcp
     topics: []
-    last_checked_at: "2026-07-20T05:17:09.579Z"
+    last_checked_at: "2026-07-27T05:21:14.739Z"
     readme:
-      fetched_at: "2026-07-20T05:17:09.579Z"
+      fetched_at: "2026-07-27T05:21:14.739Z"
       bytes: 518
 insights:
   summary: An archived MCP server that provided onchain tools for LLMs to interact with the Base network and Coinbase API.
   why_it_matters: It demonstrates how MCP servers can bridge blockchain data with AI agents for finance-related workflows, though it is no longer maintained.
   mental_damage: Yet another shiny MCP server that got abandoned just as developers started figuring out how to wire blockchain data into their LLM workflows.
   tags:
-    - mcp
-    - blockchain
     - archived
+    - base-network
+    - blockchain
+    - coinbase-api
+    - mcp
+    - smart-contracts
   confidence: high
 curation:
   status: excluded
@@ -67,6 +103,9 @@ curation:
   evidence:
     - "Archived: yes"
     - "README states: 'This repository has been archived and is no longer maintained.' and 'The base-mcp npm package is deprecated.'"
+    - Repo description explicitly identifies it as an MCP server for Base network/Coinbase API interactions
+    - README details extensive onchain tooling (wallet ops, smart contracts, NFTs, etc.) for MCP clients
+    - Archived flag is true
 placement:
   primary_category: null
   section: null
@@ -74,6 +113,30 @@ lifecycle:
   status: needs_review
   reason: Repository is archived
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:25:28.221Z"
+    cause: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:234b0c78a1b7c2067a0741ece8dca17bcc1741fce7725b2ca408eef2a6955e5c
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is archived, which is a strong exclusion signal despite its clear MCP identity and developer relevance.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for Base network/Coinbase API interactions
+        - README details extensive onchain tooling (wallet ops, smart contracts, NFTs, etc.) for MCP clients
+        - Archived flag is true
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-05-14T05:20:10.209Z"
@@ -81,14 +144,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T05:17:09.579Z"
+    updated_at: "2026-07-27T05:21:14.739Z"
     cause: null
-    next_retry_at: null
-  categorize:
-    status: done
-    updated_at: "2026-05-14T05:33:40.270Z"
-    cause: null
-    attempts: 1
-    prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: 6cc474a86022
     next_retry_at: null

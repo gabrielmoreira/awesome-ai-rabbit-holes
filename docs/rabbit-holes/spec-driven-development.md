@@ -23,7 +23,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `ai-coding-assistants` `workflow`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 50.8k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 51.2k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
 
   It provides developers with guided, expert-collaborator workflows for end-to-end project development, from brainstorming to deployment, rather than just generating code.
 
@@ -32,7 +32,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `agent-orchestration` `workflow-automation` `ai-collaboration` `agile`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.1k` `updated ≤180d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.2k` `updated ≤180d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
 
   It attempts to standardize how developers communicate environment tips, testing requirements, and PR guidelines directly to autonomous agents.
 
@@ -104,7 +104,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `codebase-indexing` `prd` `multi-agent`
   </details>
 
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 436` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 446` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
 
   It provides a formal framework to prevent complex multi-agent or human-AI projects from devolving into incoherent, unreviewable conversational loops.
 
@@ -131,22 +131,13 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `code-generation` `proof-of-concept`
   </details>
 
-- **[lean-spec](https://github.com/codervisor/lean-spec)** `⭐ 273` `updated ≤90d` Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support. <details><summary>More about</summary>
+- **[codervisor/lean-spec](https://github.com/codervisor/leanspec)** `⭐ 274` `updated ≤90d` Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support. <details><summary>More about</summary>
 
   Lets developers use their existing issue trackers (GitHub, ADO, Jira, etc.) as spec backends while adding a unified interface, AI-native workflows, and visualization tools for SDD.
 
   _Finally, a way to turn your Jira backlog into something even an AI can pretend to understand._
 
-  `spec-driven-development` `ai-integration` `mcp` `project-management` `workflow`
-  </details>
-
-- **[leanspec](https://github.com/codervisor/leanspec)** `⭐ 273` `updated ≤90d` A lightweight, tool-agnostic spec framework that unifies markdown, issue trackers, and work items into a Spec-Driven Development workflow for AI-assisted coding. <details><summary>More about</summary>
-
-  It turns scattered planning artifacts into structured, AI-readable specs that any assistant can consume via MCP or CLI, letting teams keep existing backends while enforcing a spec-first loop.
-
-  _Because nothing says 'lightweight spec-driven development' like adding a YAML adapter layer between your AI agent and the Jira instance you already hate._
-
-  `spec-driven-development` `sdd` `cli` `mcp` `project-management`
+  `ai-integration` `cli` `mcp` `project-management` `sdd` `spec-driven-development` `workflow`
   </details>
 
 - **[spec-kit-command-cursor](https://github.com/madebyaris/spec-kit-command-cursor)** `⭐ 192` `updated ≤90d` Spec-Driven Development command toolkit for Cursor IDE that provides /specify, /plan, and /tasks commands to turn ideas into structured specifications, plans, and actionable tasks. <details><summary>More about</summary>
@@ -216,7 +207,7 @@ _These are new or low-traffic entries being watched._
   `cli` `autonomous-coding` `spec-driven` `agent` `terminal-ui`
   </details>
 
-- **[janaraj/tnl](https://github.com/janaraj/tnl)** `⭐ 8` `updated ≤90d` Structured English contracts for AI coding agents to propose, approve, and enforce feature specifications across sessions. <details><summary>More about</summary>
+- **[janaraj/tnl](https://github.com/janaraj/tnl)** `⭐ 8` `updated ≤180d` Structured English contracts for AI coding agents to propose, approve, and enforce feature specifications across sessions. <details><summary>More about</summary>
 
   It turns ephemeral agent plans into persistent, machine-checkable contracts that prevent drift and context loss between coding sessions.
 

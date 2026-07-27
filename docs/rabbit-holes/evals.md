@@ -32,7 +32,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `eval` `red-teaming` `cli` `llm-testing` `ci-cd`
   </details>
 
-- **[Opik](https://github.com/comet-ml/opik)** `⭐ 20.7k` `updated ≤30d` Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic workflows. <details><summary>More about</summary>
+- **[Opik](https://github.com/comet-ml/opik)** `⭐ 20.9k` `updated ≤30d` Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic workflows. <details><summary>More about</summary>
 
   It provides comprehensive tracing, automated evaluations, and production-ready dashboards to debug and improve AI applications from prototype to production.
 
@@ -41,7 +41,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `evaluation` `tracing` `llmops` `rag`
   </details>
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 17k` `updated ≤30d` An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots. <details><summary>More about</summary>
+- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 17.2k` `updated ≤30d` An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots. <details><summary>More about</summary>
 
   It lets developers measure and compare model quality, prompt effectiveness, and architecture choices with research-backed metrics like G-Eval and task completion.
 
@@ -77,7 +77,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `function-calling` `benchmarks` `llm-eval` `api-integration` `research`
   </details>
 
-- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 10.6k` `updated ≤30d` Open-source AI observability and evaluation platform for tracing, experimenting, and optimizing AI applications. <details><summary>More about</summary>
+- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 10.8k` `updated ≤30d` Open-source AI observability and evaluation platform for tracing, experimenting, and optimizing AI applications. <details><summary>More about</summary>
 
   Developers can instrument, debug, and compare LLM behavior in production or staging without vendor lock-in.
 
@@ -347,16 +347,16 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `ai-safety` `mlops`
   </details>
 
-- **[deepfabric](https://github.com/always-further/deepfabric)** `⭐ 877` `updated ≤30d` A pipeline for generating high-quality synthetic data, training models, and evaluating agent behavior with topic-graph guided sampling and schema-constrained outputs. <details><summary>More about</summary>
+- **[nolabs-ai/deepfabric](https://github.com/nolabs-ai/deepfabric)** `⭐ 878` `updated ≤30d` A pipeline for generating high-quality synthetic data, training models, and evaluating agent behavior with topic-graph guided sampling and schema-constrained outputs. <details><summary>More about</summary>
 
   It lets developers create domain-specific, tool-aware datasets for training and evaluating agentic systems with strict schema adherence and built-in validation.
 
   _Now you can spend more time curating synthetic data pipelines than writing the code that actually uses them._
 
-  `synthetic-data` `agent-evaluation` `fine-tuning` `dataset-generation` `mcp-compatible`
+  `agent-evaluation` `dataset-generation` `fine-tuning` `mcp-compatible` `synthetic-data`
   </details>
 
-- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 735` `updated ≤30d` OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated graders and rubrics. <details><summary>More about</summary>
+- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 748` `updated ≤30d` OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated graders and rubrics. <details><summary>More about</summary>
 
   It provides a structured way to move from 'vibes-based' testing to reproducible evaluation, allowing developers to turn grading results into reward signals for fine-tuning.
 
@@ -437,7 +437,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `multimodal` `dataset-generation` `sft` `dpo` `rag`
   </details>
 
-- **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 272` `updated ≤30d` An evaluation platform for testing LLM performance on recent mathematical competitions and olympiads. <details><summary>More about</summary>
+- **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 272` `updated ≤90d` An evaluation platform for testing LLM performance on recent mathematical competitions and olympiads. <details><summary>More about</summary>
 
   It provides standardized benchmarks and reasoning traces to measure how well models handle complex, multi-step mathematical reasoning.
 
@@ -594,7 +594,7 @@ _These are new or low-traffic entries being watched._
   `rag` `observability` `vector-db` `embeddings` `llmops`
   </details>
 
-- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 5` `updated ≤180d` A benchmarking framework designed to evaluate AI agent configurations across 40 real-world tasks and 7 domains using rule-based scoring. <details><summary>More about</summary>
+- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 6` `updated ≤180d` A benchmarking framework designed to evaluate AI agent configurations across 40 real-world tasks and 7 domains using rule-based scoring. <details><summary>More about</summary>
 
   It shifts the focus from evaluating raw model intelligence to measuring the effectiveness of specific agentic setups, prompts, and tool configurations.
 
