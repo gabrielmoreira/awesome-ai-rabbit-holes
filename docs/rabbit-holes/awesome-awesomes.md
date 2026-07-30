@@ -149,7 +149,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `video-generation` `diffusion-models` `research` `awesome-list`
   </details>
 
-- **[kelvins/awesome-mlops](https://github.com/kelvins/awesome-mlops)** `⭐ 5.2k` `updated ≤90d` A curated list of MLOps tools and resources for machine learning engineering workflows. <details><summary>More about</summary>
+- **[kelvins/awesome-mlops](https://github.com/kelvins/awesome-mlops)** `⭐ 5.2k` `updated ≤180d` A curated list of MLOps tools and resources for machine learning engineering workflows. <details><summary>More about</summary>
 
   Provides a navigable map of the MLOps ecosystem, helping developers discover tools for CI/CD, data management, model serving, and other ML lifecycle stages.
 
@@ -459,7 +459,7 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `swarms` `directory` `orchestration` `resources`
   </details>
 
-- **[awesome-agents](https://github.com/l-aime/awesome-agents)** `⭐ 10` `updated ≤1y` A curated collection of AI agent projects, frameworks, and research papers focusing on agent-based systems. <details><summary>More about</summary>
+- **[awesome-agents](https://github.com/l-aime/awesome-agents)** `⭐ 11` `updated ≤1y` A curated collection of AI agent projects, frameworks, and research papers focusing on agent-based systems. <details><summary>More about</summary>
 
   It helps developers discover and navigate the rapidly evolving landscape of agent frameworks, implementations, and best practices.
 

@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 56
+    stars: 59
     forks: 6
     license: MIT
     archived: false
     full_name: littlebearapps/untether
     html_url: https://github.com/littlebearapps/untether
     created_at: "2026-02-07T09:17:30Z"
-    pushed_at: "2026-07-20T09:36:44Z"
+    pushed_at: "2026-07-30T03:17:44Z"
     description: Code from anywhere — Telegram bridge for AI coding agents (Claude Code, Codex, OpenCode, Pi, Gemini CLI, Amp). Stream progress, approve actions, and send tasks by voice from your phone.
     homepage: https://untether.cc
     topics:
@@ -51,10 +51,10 @@ metadata:
       - remote-development
       - telegram
       - telegram-bot
-    last_checked_at: "2026-07-20T15:11:52.263Z"
+    last_checked_at: "2026-07-30T05:06:06.708Z"
     readme:
-      fetched_at: "2026-07-20T15:11:52.263Z"
-      bytes: 23490
+      fetched_at: "2026-07-30T05:06:06.708Z"
+      bytes: 23620
 insights:
   summary: A Telegram bridge that lets developers send tasks by voice or text and approve actions for local AI coding agents like Claude Code, Codex, and Gemini CLI from their phone.
   why_it_matters: It untethers agents from the terminal, letting developers kick off repo work, stream progress, and approve changes remotely without SSH or a desk.
@@ -87,16 +87,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:52.263Z"
+    updated_at: "2026-07-30T05:06:06.708Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:16:41.702Z"
+    updated_at: "2026-07-30T05:06:14.292Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__littlebearapps__untether: Invalid AI response format: SyntaxError: Unexpected token 'U', ...\"_reason\": Untether a\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__littlebearapps__untether: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

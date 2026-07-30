@@ -5,7 +5,7 @@ Development environments built around coding assistance.
 
 ## Tools & Resources
 
-- **[Kiro](https://github.com/kirodotdev/kiro)** `⭐ 4k` `updated ≤90d` Kiro is an agentic IDE with desktop and CLI interfaces that uses spec-driven development, agent hooks, and natural language coding assistance. <details><summary>More about</summary>
+- **[Kiro](https://github.com/kirodotdev/kiro)** `⭐ 4.1k` `updated ≤90d` Kiro is an agentic IDE with desktop and CLI interfaces that uses spec-driven development, agent hooks, and natural language coding assistance. <details><summary>More about</summary>
 
   It helps developers plan, build, and automate features using structured specs, hooks, and context-aware AI assistance across the entire codebase.
 

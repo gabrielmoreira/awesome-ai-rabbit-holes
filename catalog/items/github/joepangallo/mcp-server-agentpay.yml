@@ -80,9 +80,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-20T15:11:25.814Z"
-    cause: null
+    status: failed
+    updated_at: "2026-07-30T05:05:51.330Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: joepangallo/mcp-server-agentpay"
     next_retry_at: null
   categorize:
     status: done

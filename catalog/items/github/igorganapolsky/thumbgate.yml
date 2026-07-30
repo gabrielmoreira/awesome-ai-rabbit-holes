@@ -25,14 +25,14 @@ provenance:
 metadata:
   github:
     stars: 24
-    forks: 6
+    forks: 8
     license: MIT
     archived: false
     full_name: IgorGanapolsky/ThumbGate
     html_url: https://github.com/IgorGanapolsky/ThumbGate
     created_at: "2026-03-03T18:13:26Z"
-    pushed_at: "2026-07-20T09:29:52Z"
-    description: ThumbGate Pre-Action Checks derive rules from repeated failures, flag risky tool calls, hard-block detected secret leaks, and block matches in strict mode.
+    pushed_at: "2026-07-29T21:32:43Z"
+    description: ThumbGate Pre-Action Checks self-improve from ranked lessons and repeated failures, hard-block detected secret leaks, and block matches in strict mode.
     homepage: https://thumbgate.ai
     topics:
       - agent-reliability
@@ -50,12 +50,13 @@ metadata:
       - mcp-server
       - opencode
       - pre-action-checks
+      - self-improving-agents
       - thompson-sampling
       - thumbgate
-    last_checked_at: "2026-07-20T15:11:10.385Z"
+    last_checked_at: "2026-07-30T05:05:41.973Z"
     readme:
-      fetched_at: "2026-07-20T15:11:10.385Z"
-      bytes: 49312
+      fetched_at: "2026-07-30T05:05:41.973Z"
+      bytes: 53263
 insights:
   summary: ThumbGate is a tool that derives prevention rules from repeated AI agent failures to block risky tool calls and secret leaks across MCP-compatible agents.
   why_it_matters: It stops developers from paying for the same AI mistakes repeatedly by intercepting and blocking known bad patterns before they reach the model.
@@ -88,7 +89,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:10.385Z"
+    updated_at: "2026-07-30T05:05:41.973Z"
     cause: null
     next_retry_at: null
   categorize:

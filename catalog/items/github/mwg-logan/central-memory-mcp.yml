@@ -68,9 +68,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-20T15:11:58.253Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-07-30T05:06:10.007Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for mwg-logan/central-memory-mcp
     next_retry_at: null
   categorize:
     status: done

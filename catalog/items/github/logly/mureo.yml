@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 14
-    forks: 0
+    stars: 19
+    forks: 3
     license: Apache-2.0
     archived: false
     full_name: logly/mureo
     html_url: https://github.com/logly/mureo
     created_at: "2026-03-30T22:25:22Z"
-    pushed_at: "2026-07-20T10:54:59Z"
+    pushed_at: "2026-07-30T04:50:36Z"
     description: Your local-first AI ad ops crew. Works with Claude Code, Cursor, Codex & Gemini.
     homepage: https://mureo.io
     topics:
@@ -52,10 +52,10 @@ metadata:
       - model-context-protocol
       - python
       - search-console
-    last_checked_at: "2026-07-20T15:11:54.323Z"
+    last_checked_at: "2026-07-30T05:06:07.914Z"
     readme:
-      fetched_at: "2026-07-20T15:11:54.323Z"
-      bytes: 65081
+      fetched_at: "2026-07-30T05:06:07.914Z"
+      bytes: 26684
 insights:
   summary: A local-first CLI control plane that lets AI coding agents like Claude Code and Cursor safely manage ad accounts across Google Ads, Meta Ads, Search Console, and GA4 using strategy files and audit logs.
   why_it_matters: Developers running ad ops can delegate cross-platform account management to their existing coding agents without giving up local control, strategy grounding, or an append-only audit trail.
@@ -88,16 +88,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:54.323Z"
+    updated_at: "2026-07-30T05:06:07.914Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:17:07.997Z"
+    updated_at: "2026-07-30T05:06:16.064Z"
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for github__logly__mureo: Upstream error from Nvidia: ResourceExhausted: Worker local total request limit reached (77/32)"
+      message: "Catalog LLM categorization failed for github__logly__mureo: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

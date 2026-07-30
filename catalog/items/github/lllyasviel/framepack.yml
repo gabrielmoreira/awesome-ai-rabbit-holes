@@ -24,8 +24,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 17119
-    forks: 1726
+    stars: 17157
+    forks: 1732
     license: Apache-2.0
     archived: false
     full_name: lllyasviel/FramePack
@@ -35,9 +35,9 @@ metadata:
     description: Lets make video diffusion practical!
     homepage: ""
     topics: []
-    last_checked_at: "2026-07-20T15:11:52.930Z"
+    last_checked_at: "2026-07-30T05:06:07.125Z"
     readme:
-      fetched_at: "2026-07-20T15:11:52.930Z"
+      fetched_at: "2026-07-30T05:06:07.125Z"
       bytes: 16562
 insights:
   summary: FramePack is a next-frame prediction neural network structure and desktop software for generating videos progressively using diffusion models on local hardware.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:52.930Z"
+    updated_at: "2026-07-30T05:06:07.125Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:16:50.583Z"
+    updated_at: "2026-07-30T05:06:15.060Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__lllyasviel__framepack: Invalid AI response format: SyntaxError: Unexpected token 'r', ...\"ummary\": framepack i\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__lllyasviel__framepack: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

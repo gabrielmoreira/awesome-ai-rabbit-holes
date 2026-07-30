@@ -69,15 +69,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-07-23T05:09:23.474Z"
+    status: deferred
+    updated_at: "2026-07-30T05:06:09.549Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: malamutemayhem/unclick-agent-native-endpoints"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for malamutemayhem/unclick-agent-native-endpoints
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-07-27T05:21:40.924Z"
+    updated_at: "2026-07-30T05:06:13.326Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

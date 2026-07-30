@@ -53,14 +53,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 11742
+    stars: 11746
     forks: 1218
     license: Apache-2.0
     archived: false
     full_name: ludwig-ai/ludwig
     html_url: https://github.com/ludwig-ai/ludwig
     created_at: "2018-12-27T23:58:12Z"
-    pushed_at: "2026-07-13T21:48:18Z"
+    pushed_at: "2026-07-27T21:05:29Z"
     description: Low-code framework for building custom LLMs, neural networks, and other AI models
     homepage: http://ludwig.ai
     topics:
@@ -84,9 +84,9 @@ metadata:
       - natural-language-processing
       - neural-network
       - pytorch
-    last_checked_at: "2026-07-20T15:11:56.009Z"
+    last_checked_at: "2026-07-30T05:06:08.922Z"
     readme:
-      fetched_at: "2026-07-20T15:11:56.009Z"
+      fetched_at: "2026-07-30T05:06:08.922Z"
       bytes: 17972
 insights:
   summary: Ludwig is a declarative, low-code deep learning framework that lets developers train, fine-tune, and deploy AI models—including LLMs and multimodal architectures—using YAML configs and minimal Python boilerplate.
@@ -120,16 +120,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:56.009Z"
+    updated_at: "2026-07-30T05:06:08.922Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:17:30.994Z"
+    updated_at: "2026-07-30T05:06:17.598Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__ludwig-ai__ludwig: Invalid AI response format: SyntaxError: Unexpected token 'L', ...\"_reason\": Ludwig is \"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__ludwig-ai__ludwig: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

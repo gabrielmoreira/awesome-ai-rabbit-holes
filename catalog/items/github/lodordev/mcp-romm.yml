@@ -35,9 +35,9 @@ metadata:
     description: MCP server for RomM — browse and manage your retro game library with AI
     homepage: null
     topics: []
-    last_checked_at: "2026-07-20T15:11:53.762Z"
+    last_checked_at: "2026-07-30T05:06:07.653Z"
     readme:
-      fetched_at: "2026-07-20T15:11:53.762Z"
+      fetched_at: "2026-07-30T05:06:07.653Z"
       bytes: 10053
 insights:
   summary: An MCP server that exposes a self-hosted RomM retro game library to AI assistants, providing 19 read-only tools for browsing platforms, searching ROMs, and checking metadata.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:53.762Z"
+    updated_at: "2026-07-30T05:06:07.653Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:17:08.374Z"
+    updated_at: "2026-07-30T05:06:16.151Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__lodordev__mcp-romm: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__lodordev__mcp-romm: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

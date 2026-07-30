@@ -24,41 +24,36 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 107
+    stars: 111
     forks: 4
     license: MIT
     archived: false
     full_name: luoyuctl/agenttrace
     html_url: https://github.com/luoyuctl/agenttrace
     created_at: "2026-05-01T04:29:32Z"
-    pushed_at: "2026-07-20T11:50:54Z"
-    description: "Local-first TUI for AI coding-agent session history: trace cost, tokens, time, tool failures, latency, health, diffs, reports, and CI gates across local agent logs."
-    homepage: https://luoyuctl.github.io/agenttrace/
+    pushed_at: "2026-07-29T12:56:16Z"
+    description: "Local-first Rust TUI/CLI for auditing AI coding-agent sessions: cost, tokens, latency, failures, and health｜本地优先 Rust TUI/CLI，审计 AI 编程 Agent 会话的成本、Token、延迟、失败与健康度"
+    homepage: https://github.com/luoyuctl/agenttrace
     topics:
-      - agent-session-replay
       - ai-agent-observability
       - ai-agents
-      - ai-coding
       - ai-cost-tracking
-      - aider
       - claude-code
-      - claude-code-logs
-      - cli
-      - cline
       - codex-cli
+      - coding-agent
       - cursor
-      - developer-tools
       - gemini-cli
-      - kimi-cli
       - opencode
       - qwen-code
-      - terminal
+      - rust
+      - rust-cli
+      - session-history
       - token-usage
       - tui
-    last_checked_at: "2026-07-20T15:11:56.616Z"
+    last_checked_at: "2026-07-30T05:06:09.302Z"
     readme:
-      fetched_at: "2026-07-20T15:11:56.616Z"
-      bytes: 9768
+      fetched_at: "2026-07-30T05:06:09.302Z"
+      bytes: 9344
 insights:
   summary: AgentTrace is a local-first terminal TUI and report generator that analyzes session logs from AI coding agents to track cost, tokens, time, tool failures, and performance.
   why_it_matters: It gives developers visibility into AI agent spend and latency so they can optimize usage and diagnose slow or expensive runs without relying on external observability.
@@ -91,7 +86,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:56.616Z"
+    updated_at: "2026-07-30T05:06:09.303Z"
     cause: null
     next_retry_at: null
   categorize:

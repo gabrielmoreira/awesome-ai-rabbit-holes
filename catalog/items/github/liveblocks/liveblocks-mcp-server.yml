@@ -49,9 +49,9 @@ metadata:
       - toolkit
       - websockets
       - yjs
-    last_checked_at: "2026-07-20T15:11:52.801Z"
+    last_checked_at: "2026-07-30T05:06:07.045Z"
     readme:
-      fetched_at: "2026-07-20T15:11:52.801Z"
+      fetched_at: "2026-07-30T05:06:07.045Z"
       bytes: 2603
 insights:
   summary: An MCP server that exposes Liveblocks REST API functions—rooms, threads, comments, notifications, Storage, and Yjs—to AI coding assistants.
@@ -85,16 +85,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:52.801Z"
+    updated_at: "2026-07-30T05:06:07.045Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:17:15.026Z"
+    updated_at: "2026-07-30T05:06:16.846Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__liveblocks__liveblocks-mcp-server: Invalid AI response format: SyntaxError: Expected ',' or '}' after property value in JSON at position 190 (line 3 column 29)"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__liveblocks__liveblocks-mcp-server: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

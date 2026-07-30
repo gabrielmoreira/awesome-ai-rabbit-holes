@@ -35,9 +35,9 @@ metadata:
     description: let AGI print dollars for you
     homepage: ""
     topics: []
-    last_checked_at: "2026-07-20T15:11:55.216Z"
+    last_checked_at: "2026-07-30T05:06:08.476Z"
     readme:
-      fetched_at: "2026-07-20T15:11:55.216Z"
+      fetched_at: "2026-07-30T05:06:08.476Z"
       bytes: 4920
 insights:
   summary: An MCP server that exposes Apollo.io's B2B sales intelligence database to LLMs for searching prospects, enriching contacts, and discovering companies.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:55.216Z"
+    updated_at: "2026-07-30T05:06:08.476Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:17:22.683Z"
+    updated_at: "2026-07-30T05:06:16.932Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__louis030195__apollo-io-mcp: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It is an M\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__louis030195__apollo-io-mcp: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -24,21 +24,21 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 26
+    stars: 25
     forks: 12
     license: Apache-2.0
     archived: false
     full_name: localstack/localstack-mcp-server
     html_url: https://github.com/localstack/localstack-mcp-server
     created_at: "2025-07-10T14:51:15Z"
-    pushed_at: "2026-07-15T01:56:40Z"
+    pushed_at: "2026-07-28T14:36:26Z"
     description: MCP Server for LocalStack
     homepage: https://www.npmjs.com/package/@localstack/localstack-mcp-server
     topics: []
-    last_checked_at: "2026-07-20T15:11:53.672Z"
+    last_checked_at: "2026-07-30T05:06:07.583Z"
     readme:
-      fetched_at: "2026-07-20T15:11:53.672Z"
-      bytes: 24583
+      fetched_at: "2026-07-30T05:06:07.583Z"
+      bytes: 28066
 insights:
   summary: An MCP server that provides tools for managing LocalStack containers, deploying infrastructure with CDK/Terraform/SAM, analyzing logs, and injecting chaos faults directly from MCP-compatible AI assistants.
   why_it_matters: It allows AI coding agents to autonomously manage local cloud environments, validate infrastructure deployments, and debug IAM policies without developers writing custom scripts or leaving their chat interface.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:53.672Z"
+    updated_at: "2026-07-30T05:06:07.583Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:17:10.636Z"
+    updated_at: "2026-07-30T05:06:16.526Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__localstack__localstack-mcp-server: Invalid AI response format: SyntaxError: Expected ':' after property name in JSON at position 483 (line 6 column 24)"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__localstack__localstack-mcp-server: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

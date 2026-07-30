@@ -5,7 +5,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
 
 ## Tools & Resources
 
-- **[Langfuse 🪢](https://github.com/langfuse/langfuse)** `⭐ 31.5k` `updated ≤30d` Langfuse is an open source LLM engineering platform for observability, evaluation, prompt management, and debugging of AI applications. <details><summary>More about</summary>
+- **[Langfuse 🪢](https://github.com/langfuse/langfuse)** `⭐ 32.1k` `updated ≤30d` Langfuse is an open source LLM engineering platform for observability, evaluation, prompt management, and debugging of AI applications. <details><summary>More about</summary>
 
   It gives developers a unified way to monitor, evaluate, and improve LLM-powered applications in production using real usage data.
 
@@ -203,15 +203,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `observability` `llmops`
   </details>
 
-- **[EvalScope (`🔥`)](https://github.com/modelscope/evalscope)** `⭐ 3.1k` `updated ≤30d` EvalScope is a framework for evaluating and benchmarking large models (LLMs, VLMs, AIGC) with built-in benchmarks, multi-backend support, and performance stress testing. <details><summary>More about</summary>
-
-  It provides developers with a one-stop solution to measure model quality and inference performance across multiple backends and modalities.
-
-  _Yet another reason to spend three hours tuning your benchmark suite instead of actually shipping the feature you promised last sprint._
-
-  `eval` `benchmark` `llm` `performance` `modelscope`
-  </details>
-
 - **[lmnr](https://github.com/lmnr-ai/lmnr)** `⭐ 3.1k` `updated ≤30d` Laminar is an open-source observability platform purpose-built for AI agents, offering tracing, evals, monitoring, SQL access, dashboards, and dataset tooling. <details><summary>More about</summary>
 
   It gives developers end-to-end observability and evaluation tooling for AI agents in one self-hostable or managed platform.
@@ -219,6 +210,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Finally, a single pane of glass to watch your agents hallucinate in real time—because distributed tracing wasn’t painful enough._
 
   `observability` `evals` `ai-agents` `monitoring` `tracing`
+  </details>
+
+- **[EvalScope (`🔥`)](https://github.com/modelscope/evalscope)** `⭐ 3.1k` `updated ≤30d` EvalScope is a framework for evaluating and benchmarking large models (LLMs, VLMs, AIGC) with built-in benchmarks, multi-backend support, and performance stress testing. <details><summary>More about</summary>
+
+  It provides developers with a one-stop solution to measure model quality and inference performance across multiple backends and modalities.
+
+  _Yet another reason to spend three hours tuning your benchmark suite instead of actually shipping the feature you promised last sprint._
+
+  `eval` `benchmark` `llm` `performance` `modelscope`
   </details>
 
 - **[prompttools](https://github.com/hegelai/prompttools)** `⭐ 3k` `updated ≤180d` Open-source Python library for testing, experimenting with, and evaluating prompts, LLMs, and vector databases. <details><summary>More about</summary>
@@ -248,7 +248,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `opentelemetry` `evals` `prompt-management` `gpu-monitoring`
   </details>
 
-- **[Lighteval](https://github.com/huggingface/lighteval)** `⭐ 2.5k` `updated ≤30d` Lighteval is an all-in-one toolkit for evaluating LLMs across multiple backends, supporting 1000+ tasks and custom metrics. <details><summary>More about</summary>
+- **[Lighteval](https://github.com/huggingface/lighteval)** `⭐ 2.5k` `updated ≤90d` Lighteval is an all-in-one toolkit for evaluating LLMs across multiple backends, supporting 1000+ tasks and custom metrics. <details><summary>More about</summary>
 
   Developers can rigorously benchmark and debug model performance with detailed, sample-by-sample results across diverse domains and languages.
 
@@ -392,7 +392,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `ebpf` `observability` `tracing` `agent-monitoring` `system-level`
   </details>
 
-- **[YourBench](https://github.com/huggingface/yourbench)** `⭐ 451` `updated ≤180d` A dynamic benchmark generation framework that transforms documents into structured QA datasets for evaluating LLMs. <details><summary>More about</summary>
+- **[YourBench](https://github.com/huggingface/yourbench)** `⭐ 452` `updated ≤180d` A dynamic benchmark generation framework that transforms documents into structured QA datasets for evaluating LLMs. <details><summary>More about</summary>
 
   Developers can generate custom evaluation datasets from their own documents to reliably benchmark model performance on domain-specific tasks.
 
@@ -419,7 +419,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `prompt-management` `evals` `observability` `mdx` `agents`
   </details>
 
-- **[LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator)** `⭐ 324` `updated >1y` A research toolkit for detecting and removing rephrased benchmark samples from LLM training datasets to prevent data contamination. <details><summary>More about</summary>
+- **[LLM Decontaminator](https://github.com/lm-sys/llm-decontaminator)** `⭐ 325` `updated >1y` A research toolkit for detecting and removing rephrased benchmark samples from LLM training datasets to prevent data contamination. <details><summary>More about</summary>
 
   It gives LLM developers and researchers a concrete way to measure and scrub benchmark contamination, helping keep model eval results honest.
 
@@ -446,7 +446,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `mathematical-reasoning` `benchmarking` `reasoning-traces`
   </details>
 
-- **[LangFair](https://github.com/cvs-health/langfair)** `⭐ 260` `updated ≤30d` LangFair is a Python library for conducting use-case level LLM bias and fairness assessments. <details><summary>More about</summary>
+- **[LangFair](https://github.com/cvs-health/langfair)** `⭐ 260` `updated ≤90d` LangFair is a Python library for conducting use-case level LLM bias and fairness assessments. <details><summary>More about</summary>
 
   It enables developers to tailor bias and fairness evaluations to specific LLM use cases with a BYOP (Bring Your Own Prompts) approach, ensuring real-world relevance.
 
@@ -504,7 +504,7 @@ _These are new or low-traffic entries being watched._
   `rag` `benchmarking` `evaluation` `llm` `retrieval`
   </details>
 
-- **[EvalView](https://github.com/hidai25/eval-view)** `⭐ 124` `updated ≤30d` Open-source regression testing tool for AI agents that snapshots behavior, diffs tool calls, and catches regressions in CI. <details><summary>More about</summary>
+- **[EvalView](https://github.com/hidai25/eval-view)** `⭐ 126` `updated ≤30d` Open-source regression testing tool for AI agents that snapshots behavior, diffs tool calls, and catches regressions in CI. <details><summary>More about</summary>
 
   It gives developers a way to detect silent regressions in agent behavior (e.g., tool choice changes, output drift) before they reach users, with deterministic replay and CI integration.
 
@@ -540,7 +540,7 @@ _These are new or low-traffic entries being watched._
   `evals` `cli` `docker` `agent-skills` `openrouter`
   </details>
 
-- **[agent-opt](https://github.com/future-agi/agent-opt)** `⭐ 70` `updated ≤30d` An open-source library for automated prompt optimization using various algorithms and metrics. <details><summary>More about</summary>
+- **[agent-opt](https://github.com/future-agi/agent-opt)** `⭐ 70` `updated ≤90d` An open-source library for automated prompt optimization using various algorithms and metrics. <details><summary>More about</summary>
 
   It automates the tedious process of prompt engineering by iterating on prompts to maximize performance against specific metrics.
 
@@ -549,7 +549,7 @@ _These are new or low-traffic entries being watched._
   `prompt-optimization` `llm-ops` `automation` `ai-agents`
   </details>
 
-- **[simulate-sdk](https://github.com/future-agi/simulate-sdk)** `⭐ 59` `updated ≤30d` A Python SDK for simulating voice and text conversations to test AI agents against persona-driven scenarios. <details><summary>More about</summary>
+- **[simulate-sdk](https://github.com/future-agi/simulate-sdk)** `⭐ 59` `updated ≤90d` A Python SDK for simulating voice and text conversations to test AI agents against persona-driven scenarios. <details><summary>More about</summary>
 
   It allows developers to stress-test agentic behavior and voice interactions in a controlled environment before deploying to real users.
 

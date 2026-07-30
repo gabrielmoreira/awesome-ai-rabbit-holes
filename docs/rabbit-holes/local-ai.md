@@ -68,7 +68,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `rag` `ai-agents` `self-hosted`
   </details>
 
-- **[NanoChat](https://github.com/karpathy/nanochat)** `⭐ 56.5k` `updated ≤30d` A local, lightweight chatbot implementation described as 'The best ChatGPT that $100 can buy.'. <details><summary>More about</summary>
+- **[NanoChat](https://github.com/karpathy/nanochat)** `⭐ 56.8k` `updated ≤30d` A local, lightweight chatbot implementation described as 'The best ChatGPT that $100 can buy.'. <details><summary>More about</summary>
 
   Offers developers a cost-effective, self-contained alternative to cloud-based chat assistants for experimentation or local use.
 
@@ -104,7 +104,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `self-hosted` `desktop-app` `api`
   </details>
 
-- **[Jan](https://github.com/janhq/jan)** `⭐ 43.6k` `updated ≤30d` Jan is an open-source, offline-first desktop application for running and interacting with LLMs locally or via cloud providers. <details><summary>More about</summary>
+- **[Jan](https://github.com/janhq/jan)** `⭐ 43.8k` `updated ≤30d` Jan is an open-source, offline-first desktop application for running and interacting with LLMs locally or via cloud providers. <details><summary>More about</summary>
 
   Developers can run, fine-tune, and deploy LLMs on their own hardware with full privacy control, or integrate with cloud models via a unified interface.
 
@@ -176,7 +176,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `openai-compatible` `self-hosting` `bentoml` `inference`
   </details>
 
-- **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 11.1k` `updated ≤30d` KoboldCpp is a single-file executable for running GGUF models with a KoboldAI-inspired UI and multi-modal capabilities. <details><summary>More about</summary>
+- **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 11.3k` `updated ≤30d` KoboldCpp is a single-file executable for running GGUF models with a KoboldAI-inspired UI and multi-modal capabilities. <details><summary>More about</summary>
 
   It lets developers run local LLMs and multimodal models without setup, enabling private inference for experimentation or integration.
 
@@ -311,7 +311,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `graphrag` `local-llm` `rag` `knowledge-graph` `ollama`
   </details>
 
-- **[LLMFarm](https://github.com/guinmoon/llmfarm)** `⭐ 2k` `updated ≤180d` An iOS and macOS app for running and testing various large language models offline using the GGML library. <details><summary>More about</summary>
+- **[LLMFarm](https://github.com/guinmoon/llmfarm)** `⭐ 2.1k` `updated ≤1y` An iOS and macOS app for running and testing various large language models offline using the GGML library. <details><summary>More about</summary>
 
   Developers can locally test and compare multiple LLMs on Apple devices without relying on cloud APIs.
 
@@ -329,7 +329,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `ocr` `multimodal` `vlm` `local-ai` `tencent`
   </details>
 
-- **[TokenSpeed](https://github.com/lightseekorg/tokenspeed)** `⭐ 1.6k` `updated ≤30d` TokenSpeed is a TensorRT-LLM-level performance LLM inference engine with vLLM-like usability, targeting agentic workloads via a local-SPMD design and static compiler. <details><summary>More about</summary>
+- **[TokenSpeed](https://github.com/lightseekorg/tokenspeed)** `⭐ 1.8k` `updated ≤30d` TokenSpeed is a TensorRT-LLM-level performance LLM inference engine with vLLM-like usability, targeting agentic workloads via a local-SPMD design and static compiler. <details><summary>More about</summary>
 
   It offers high-throughput inference optimized for agentic workloads, reducing latency and cost for developers running LLM agents in production.
 

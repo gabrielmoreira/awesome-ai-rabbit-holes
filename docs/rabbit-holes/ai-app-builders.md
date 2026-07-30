@@ -113,7 +113,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `smart-contracts` `code-generation` `solidity` `mcp` `cli`
   </details>
 
-- **[MindGeniusAI](https://github.com/xianjianlf2/mindgeniusai)** `⭐ 277` `updated ≤30d` MindGenius AI is a desktop tool that uses ChatGPT to generate and edit mind maps from text, PDFs, or notes. <details><summary>More about</summary>
+- **[MindGeniusAI](https://github.com/xianjianlf2/mindgeniusai)** `⭐ 277` `updated ≤90d` MindGenius AI is a desktop tool that uses ChatGPT to generate and edit mind maps from text, PDFs, or notes. <details><summary>More about</summary>
 
   It helps developers brainstorm, structure ideas, or document workflows visually using AI, reducing manual mind-mapping effort.
 
@@ -126,7 +126,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
 
 _These are new or low-traffic entries being watched._
 
-- **[langchain-gradio-template](https://github.com/hwchase17/langchain-gradio-template)** `⭐ 137` `updated >1y` A template repository for deploying LangChain applications as Gradio apps, particularly for Hugging Face Spaces. <details><summary>More about</summary>
+- **[langchain-gradio-template](https://github.com/hwchase17/langchain-gradio-template)** `⭐ 138` `updated >1y` A template repository for deploying LangChain applications as Gradio apps, particularly for Hugging Face Spaces. <details><summary>More about</summary>
 
   It simplifies the process of sharing LangChain-based chatbots or chains as interactive web apps via Hugging Face Spaces.
 

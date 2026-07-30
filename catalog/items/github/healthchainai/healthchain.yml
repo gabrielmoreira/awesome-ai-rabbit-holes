@@ -1,0 +1,86 @@
+id: github__healthchainai__healthchain
+kind: github-repo
+name: healthchainai/healthchain
+canonical_url: https://github.com/healthchainai/healthchain
+identity:
+  github_repo: healthchainai/healthchain
+provenance:
+  discoveries:
+    - id: discovery__github__healthchainai__healthchain__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-07-30T05:05:26.992Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - <a name="bio"></a>Biology, Medicine and Bioinformatics
+        anchor_text: healthchainai/HealthChain
+        extracted_url: https://github.com/healthchainai/healthchain
+        surrounding_text: "- [healthchainai/HealthChain](https://github.com/healthchainai/HealthChain) [![healthchainai/HealthChain MCP server](https://glama.ai/mcp/servers/healthchainai/HealthChain/badges/score.svg)](https://glama.ai/mcp/servers/healthchainai/HealthChain) 🐍 🏠 - Typed, validated FHIR tools for healthcare AI agents — build, read, validate, and code FHIR resources from a patient bundle, with terminology lookup and machine-readable validation reports built for fix-and-retry. `pip install healthchain[mcp]`"
+        confidence: high
+metadata:
+  github:
+    stars: 218
+    forks: 41
+    license: Apache-2.0
+    archived: false
+    full_name: healthchainai/HealthChain
+    html_url: https://github.com/healthchainai/HealthChain
+    created_at: "2024-04-11T10:09:35Z"
+    pushed_at: "2026-07-23T15:57:33Z"
+    description: Python SDK for healthcare AI — typed, validated FHIR tools for agents, real-time EHR connectivity, production deployment ✨ 🏥
+    homepage: https://healthchainai.github.io/HealthChain/
+    topics:
+      - agents
+      - ai
+      - ehr
+      - fhir
+      - fhir-api
+      - fhir-tools
+      - healthcare
+      - healthcare-ai
+      - langchain
+      - llm
+      - machine-learning
+      - mcp
+      - mlops
+      - python
+    last_checked_at: "2026-07-30T05:05:36.095Z"
+    readme:
+      fetched_at: "2026-07-30T05:05:36.095Z"
+      bytes: 14146
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (218) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-07-30T05:05:26.995Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-07-30T05:05:36.095Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

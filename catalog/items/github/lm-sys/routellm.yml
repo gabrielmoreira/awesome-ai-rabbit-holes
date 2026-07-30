@@ -23,8 +23,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5220
-    forks: 406
+    stars: 5276
+    forks: 413
     license: Apache-2.0
     archived: false
     full_name: lm-sys/RouteLLM
@@ -34,9 +34,9 @@ metadata:
     description: A framework for serving and evaluating LLM routers - save LLM costs without compromising quality
     homepage: ""
     topics: []
-    last_checked_at: "2026-07-20T15:11:53.296Z"
+    last_checked_at: "2026-07-30T05:06:07.340Z"
     readme:
-      fetched_at: "2026-07-20T15:11:53.296Z"
+      fetched_at: "2026-07-30T05:06:07.340Z"
       bytes: 14103
 insights:
   summary: A Python framework and OpenAI-compatible server for serving and evaluating LLM routers that route queries between strong and weak models to optimize cost and quality.
@@ -70,16 +70,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:53.296Z"
+    updated_at: "2026-07-30T05:06:07.340Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:16:56.205Z"
+    updated_at: "2026-07-30T05:06:15.601Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__lm-sys__routellm: Invalid AI response format: SyntaxError: Unexpected token 'R', ...\"_reason\": RouteLLM i\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__lm-sys__routellm: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

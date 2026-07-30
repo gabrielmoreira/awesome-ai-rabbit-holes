@@ -48,9 +48,9 @@ metadata:
       - mcp-server
       - model-context-protocol
       - spf-dkim-dmarc
-    last_checked_at: "2026-07-20T15:11:52.726Z"
+    last_checked_at: "2026-07-30T05:06:06.973Z"
     readme:
-      fetched_at: "2026-07-20T15:11:52.726Z"
+      fetched_at: "2026-07-30T05:06:06.973Z"
       bytes: 6280
 insights:
   summary: An MCP server that wraps the Inbox Check REST API to let AI agents programmatically test email deliverability, inbox placement, and authentication records across nine major email providers.
@@ -83,16 +83,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-20T15:11:52.726Z"
+    updated_at: "2026-07-30T05:06:06.973Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:16:46.403Z"
+    updated_at: "2026-07-30T05:06:14.736Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__live-direct-marketing__ldm-inbox-check-mcp: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It is an M\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__live-direct-marketing__ldm-inbox-check-mcp: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

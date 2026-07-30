@@ -50,7 +50,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `awesome-list` `agent-skills` `openclaw`
   </details>
 
-- **[scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills)** `⭐ 31.3k` `updated ≤30d` A library of 148 reusable scientific skills and 100+ databases designed to extend the research capabilities of AI agents. <details><summary>More about</summary>
+- **[scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills)** `⭐ 32.1k` `updated ≤30d` A library of 148 reusable scientific skills and 100+ databases designed to extend the research capabilities of AI agents. <details><summary>More about</summary>
 
   It allows general-purpose coding agents to perform specialized scientific workflows like drug discovery, genomics, and molecular dynamics.
 
