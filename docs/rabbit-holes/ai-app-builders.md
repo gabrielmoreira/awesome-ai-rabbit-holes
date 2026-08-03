@@ -14,7 +14,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `prompt-to-app` `frontend` `react` `tailwind` `prototyping`
   </details>
 
-- **[dyad](https://github.com/dyad-sh/dyad)** `⭐ 21k` `updated ≤30d` Local, open-source AI app builder for creating applications with various AI models on your own machine. <details><summary>More about</summary>
+- **[dyad](https://github.com/dyad-sh/dyad)** `⭐ 21.1k` `updated ≤30d` Local, open-source AI app builder for creating applications with various AI models on your own machine. <details><summary>More about</summary>
 
   Developers can build AI-powered apps locally with their own API keys, avoiding vendor lock-in while maintaining privacy and control.
 

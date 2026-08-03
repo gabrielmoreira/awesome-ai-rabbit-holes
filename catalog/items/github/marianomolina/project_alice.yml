@@ -37,9 +37,9 @@ metadata:
       - agentic-framework
       - agentic-workflow
       - llm
-    last_checked_at: "2026-07-23T05:09:24.684Z"
+    last_checked_at: "2026-08-03T05:16:56.158Z"
     readme:
-      fetched_at: "2026-07-23T05:09:24.684Z"
+      fetched_at: "2026-08-03T05:16:56.158Z"
       bytes: 26495
 insights:
   summary: An agentic workflow framework with a web UI for creating, managing, and deploying AI agents that support RAG, human-in-the-loop, and chain-of-thought capabilities.
@@ -73,16 +73,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-23T05:09:24.684Z"
+    updated_at: "2026-08-03T05:16:56.158Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:18:21.649Z"
+    updated_at: "2026-08-03T05:17:14.568Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__marianomolina__project_alice: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": Alice is p\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__marianomolina__project_alice: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

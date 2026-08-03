@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 12989
+    stars: 13021
     forks: 994
     license: MIT
     archived: false
@@ -37,9 +37,9 @@ metadata:
     topics:
       - markmap
       - mindmap
-    last_checked_at: "2026-07-23T05:09:25.267Z"
+    last_checked_at: "2026-08-03T05:16:56.520Z"
     readme:
-      fetched_at: "2026-07-23T05:09:25.267Z"
+      fetched_at: "2026-08-03T05:16:56.520Z"
       bytes: 1641
 insights:
   summary: A tool that visualizes Markdown documents as interactive mindmaps in the browser, with integrations for VSCode, Vim, and Emacs.
@@ -72,18 +72,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-23T05:09:25.267Z"
+    updated_at: "2026-08-03T05:16:56.520Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:18:26.253Z"
+    updated_at: "2026-08-03T05:17:15.226Z"
     cause:
-      type: invalid_llm_json
-      message: |-
-        Catalog LLM categorization failed for github__markmap__markmap: Invalid AI response format: SyntaxError: Unexpected token 'h', ..."fidence": high
-        }" is not valid JSON
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__markmap__markmap: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

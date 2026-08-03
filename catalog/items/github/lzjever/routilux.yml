@@ -44,9 +44,9 @@ metadata:
       - routines
       - workflow-engine
       - workflow-orchestration
-    last_checked_at: "2026-07-23T05:09:21.205Z"
+    last_checked_at: "2026-08-03T05:16:53.987Z"
     readme:
-      fetched_at: "2026-07-23T05:09:21.205Z"
+      fetched_at: "2026-08-03T05:16:53.987Z"
       bytes: 15521
 insights:
   summary: Routilux is a Python event-driven workflow orchestration library and CLI for composing concurrent, checkpoint-resumable data and AI pipelines with built-in state and error handling.
@@ -80,16 +80,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-23T05:09:21.205Z"
+    updated_at: "2026-08-03T05:16:53.987Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:17:54.451Z"
+    updated_at: "2026-08-03T05:17:13.428Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__lzjever__routilux: Invalid AI response format: SyntaxError: Unexpected token 'R', ...\"_reason\": Routilux i\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__lzjever__routilux: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

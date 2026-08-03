@@ -23,7 +23,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `self-hosted` `local-ai` `webui` `rag` `ollama`
   </details>
 
-- **[llama.cpp](https://github.com/ggml-org/llama.cpp)** `⭐ 121.3k` `updated ≤30d` High-performance LLM inference engine written in C/C++ designed for local execution. <details><summary>More about</summary>
+- **[llama.cpp](https://github.com/ggml-org/llama.cpp)** `⭐ 122.5k` `updated ≤30d` High-performance LLM inference engine written in C/C++ designed for local execution. <details><summary>More about</summary>
 
   It enables developers to run large language models on consumer-grade hardware with high efficiency through quantization.
 
@@ -59,7 +59,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `fine-tuning` `llm` `self-hosted`
   </details>
 
-- **[Anything LLM](https://github.com/mintplex-labs/anything-llm)** `⭐ 63.7k` `updated ≤30d` AnythingLLM is an all-in-one local-first AI application for private document chatting, agent workflows, and multi-user LLM interaction with minimal setup. <details><summary>More about</summary>
+- **[Anything LLM](https://github.com/mintplex-labs/anything-llm)** `⭐ 64.3k` `updated ≤30d` AnythingLLM is an all-in-one local-first AI application for private document chatting, agent workflows, and multi-user LLM interaction with minimal setup. <details><summary>More about</summary>
 
   It lets developers run a self-hosted, privacy-preserving AI stack for document RAG and agent automation without managing infrastructure complexity.
 
@@ -77,7 +77,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `chatbot` `cost-effective` `self-hosted`
   </details>
 
-- **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** `⭐ 52.2k` `updated ≤30d` High-performance C/C++ implementation of OpenAI's Whisper automatic speech recognition model. <details><summary>More about</summary>
+- **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** `⭐ 52.5k` `updated ≤30d` High-performance C/C++ implementation of OpenAI's Whisper automatic speech recognition model. <details><summary>More about</summary>
 
   Enables efficient, low-latency, and offline audio transcription directly on diverse hardware like Apple Silicon, Linux, and mobile devices.
 
@@ -86,7 +86,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `speech-to-text` `inference` `whisper` `c-cpp` `local-ai`
   </details>
 
-- **[LocalAI](https://github.com/mudler/localai)** `⭐ 47.8k` `updated ≤30d` LocalAI is an open-source local inference engine that runs LLMs, vision, voice, and image models on any hardware with drop-in OpenAI and Anthropic API compatibility. <details><summary>More about</summary>
+- **[LocalAI](https://github.com/mudler/localai)** `⭐ 48.2k` `updated ≤30d` LocalAI is an open-source local inference engine that runs LLMs, vision, voice, and image models on any hardware with drop-in OpenAI and Anthropic API compatibility. <details><summary>More about</summary>
 
   It lets developers run a private, local AI stack that behaves like OpenAI or Anthropic APIs, making it easy to test, build, and deploy without sending data to external providers.
 
@@ -131,22 +131,22 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm` `inference` `local-ai` `serving` `multimodal`
   </details>
 
-- **[llamafile](https://github.com/mozilla-ai/llamafile)** `⭐ 25.4k` `updated ≤30d` llamafile packages LLMs and the llama.cpp runtime into a single, dependency-free executable that runs locally on most operating systems and CPU architectures. <details><summary>More about</summary>
-
-  It enables developers to run open-weight models locally with zero setup, making private, offline AI inference trivial to distribute and test against.
-
-  _You now have no excuse not to run a local model, yet somehow still find yourself pasting secrets into a web UI while a 4GB executable sits chmod +x on your desktop._
-
-  `local-ai` `llm` `single-binary` `offline` `inference`
-  </details>
-
-- **[AirLLM](https://github.com/lyogavin/airllm)** `⭐ 23.9k` `updated ≤30d` AirLLM enables running 70B parameter large language models on a single 4GB GPU using memory optimization techniques. <details><summary>More about</summary>
+- **[AirLLM](https://github.com/lyogavin/airllm)** `⭐ 25.9k` `updated ≤30d` AirLLM enables running 70B parameter large language models on a single 4GB GPU using memory optimization techniques. <details><summary>More about</summary>
 
   It lowers hardware barriers for developers to run and experiment with large models locally, enabling accessible LLM inference without expensive infrastructure.
 
   _The quiet realization that your laptop can now host a model larger than your life choices._
 
   `local-ai` `inference` `memory-optimization`
+  </details>
+
+- **[llamafile](https://github.com/mozilla-ai/llamafile)** `⭐ 25.5k` `updated ≤30d` llamafile packages LLMs and the llama.cpp runtime into a single, dependency-free executable that runs locally on most operating systems and CPU architectures. <details><summary>More about</summary>
+
+  It enables developers to run open-weight models locally with zero setup, making private, offline AI inference trivial to distribute and test against.
+
+  _You now have no excuse not to run a local model, yet somehow still find yourself pasting secrets into a web UI while a 4GB executable sits chmod +x on your desktop._
+
+  `local-ai` `llm` `single-binary` `offline` `inference`
   </details>
 
 - **[Local GPT](https://github.com/promtengineer/localgpt)** `⭐ 22.2k` `updated ≤30d` A local, privacy-focused document intelligence platform that lets you chat with your files using on-device LLMs and a modular RAG pipeline with hybrid search. <details><summary>More about</summary>

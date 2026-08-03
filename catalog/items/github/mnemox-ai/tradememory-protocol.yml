@@ -24,19 +24,22 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1400
+    stars: 1402
     forks: 164
     license: MIT
     archived: false
     full_name: mnemox-ai/tradememory-protocol
     html_url: https://github.com/mnemox-ai/tradememory-protocol
     created_at: "2026-02-23T10:35:46Z"
-    pushed_at: "2026-07-14T10:40:47Z"
-    description: Decision audit trail + persistent memory for AI trading agents. Outcome-weighted recall, SHA-256 tamper detection, 17 MCP tools.
+    pushed_at: "2026-07-30T16:51:47Z"
+    description: Decision audit trail + persistent memory for AI trading agents. Outcome-weighted recall, tamper-evident SHA-256 chain with RFC 3161 anchoring, 20 MCP tools.
     homepage: https://mnemox.ai/tradememory/
     topics:
+      - agentic-trading
       - ai-agents
+      - audit-trail
       - claude
+      - compliance
       - crypto
       - evolution-engine
       - forex
@@ -46,10 +49,10 @@ metadata:
       - mt5
       - outcome-weighted-memory
       - trading
-    last_checked_at: "2026-07-23T05:09:39.573Z"
+    last_checked_at: "2026-08-03T05:17:05.537Z"
     readme:
-      fetched_at: "2026-07-23T05:09:39.573Z"
-      bytes: 11832
+      fetched_at: "2026-08-03T05:17:05.537Z"
+      bytes: 12175
 insights:
   summary: A persistent memory layer and MCP server that records trading decisions, outcomes, and audit trails for AI agents with SHA-256 tamper detection and outcome-weighted recall.
   why_it_matters: It gives trading agents a memory system that survives context windows and produces regulator-ready audit trails across any market, broker, or AI platform.
@@ -82,7 +85,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-23T05:09:39.573Z"
+    updated_at: "2026-08-03T05:17:05.537Z"
     cause: null
     next_retry_at: null
   categorize:

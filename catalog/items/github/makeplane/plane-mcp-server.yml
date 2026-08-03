@@ -23,22 +23,22 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 269
-    forks: 134
+    stars: 278
+    forks: 149
     license: MIT
     archived: false
     full_name: makeplane/plane-mcp-server
     html_url: https://github.com/makeplane/plane-mcp-server
     created_at: "2025-04-08T00:13:08Z"
-    pushed_at: "2026-07-23T04:46:18Z"
+    pushed_at: "2026-07-24T13:41:39Z"
     description: Plane's Official Model Context Protocol Server 🔌 ⌨️ 🔥
     homepage: https://plane.so
     topics:
       - mcp-server
       - model-context-protocol
-    last_checked_at: "2026-07-23T05:09:22.910Z"
+    last_checked_at: "2026-08-03T05:16:54.989Z"
     readme:
-      fetched_at: "2026-07-23T05:09:22.910Z"
+      fetched_at: "2026-08-03T05:16:54.989Z"
       bytes: 14964
 insights:
   summary: Plane's official MCP server that exposes Plane project management APIs as tools and resources for AI agents via stdio, SSE, and streamable HTTP transports.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-23T05:09:22.910Z"
+    updated_at: "2026-08-03T05:16:54.989Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:18:01.722Z"
+    updated_at: "2026-08-03T05:17:13.807Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__makeplane__plane-mcp-server: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__makeplane__plane-mcp-server: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

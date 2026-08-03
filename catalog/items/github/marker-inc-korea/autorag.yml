@@ -38,14 +38,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4936
-    forks: 417
+    stars: 4964
+    forks: 420
     license: NOASSERTION
     archived: false
     full_name: Marker-Inc-Korea/AutoRAG
     html_url: https://github.com/Marker-Inc-Korea/AutoRAG
     created_at: "2024-01-10T12:25:00Z"
-    pushed_at: "2026-07-23T03:50:11Z"
+    pushed_at: "2026-08-01T03:36:07Z"
     description: "AutoRAG: Now your agent can find anything in your computer. It gets smarter if you are using it frequently."
     homepage: https://marker-inc-korea.github.io/AutoRAG/
     topics:
@@ -67,9 +67,9 @@ metadata:
       - rag
       - rag-evaluation
       - retrieval-augmented-generation
-    last_checked_at: "2026-07-23T05:09:25.098Z"
+    last_checked_at: "2026-08-03T05:16:56.431Z"
     readme:
-      fetched_at: "2026-07-23T05:09:25.098Z"
+      fetched_at: "2026-08-03T05:16:56.431Z"
       bytes: 20430
 insights:
   summary: An open-source RAG AutoML framework that automatically evaluates, benchmarks, and optimizes retrieval-augmented generation pipelines for your specific datasets.
@@ -103,16 +103,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-23T05:09:25.098Z"
+    updated_at: "2026-08-03T05:16:56.431Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:19:01.557Z"
+    updated_at: "2026-08-03T05:17:16.894Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__marker-inc-korea__autorag: Invalid AI response format: SyntaxError: Expected ',' or ']' after array element in JSON at position 618 (line 6 column 9)"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__marker-inc-korea__autorag: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

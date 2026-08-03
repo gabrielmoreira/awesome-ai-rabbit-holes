@@ -60,15 +60,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-07-30T05:06:09.581Z"
+    status: failed
+    updated_at: "2026-08-03T05:17:00.064Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for merabylabs/promptarchitect-mcp
+      type: github_repo_missing
+      message: "GitHub repository not found: merabylabs/promptarchitect-mcp"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-07-30T05:06:13.326Z"
+    updated_at: "2026-08-03T05:17:12.716Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

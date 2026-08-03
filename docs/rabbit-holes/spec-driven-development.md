@@ -5,7 +5,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
 
 ## Tools & Resources
 
-- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 123.3k` `updated ≤30d` Open source toolkit for Spec-Driven Development that turns product specifications into executable implementations. <details><summary>More about</summary>
+- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 125.1k` `updated ≤30d` Open source toolkit for Spec-Driven Development that turns product specifications into executable implementations. <details><summary>More about</summary>
 
   It shifts development workflows from vibe-coding to structured, spec-first execution, enabling predictable outcomes and reducing ad-hoc implementation decisions.
 
@@ -14,7 +14,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `sdd` `cli` `github` `ai-assisted-development`
   </details>
 
-- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 62.2k` `updated ≤30d` Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation. <details><summary>More about</summary>
+- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 63.5k` `updated ≤30d` Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation. <details><summary>More about</summary>
 
   Provides a predictable workflow for aligning humans and AI on requirements before writing code, reducing vague prompts and rework.
 
@@ -77,7 +77,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `mcp` `governance`
   </details>
 
-- **[MoAI-ADK](https://github.com/modu-ai/moai-adk)** `⭐ 1.1k` `updated ≤30d` A Go-based CLI development kit for Claude Code that provides 24 specialized AI agents and 52 skills to enforce TDD/DDD quality gates and spec-driven workflows. <details><summary>More about</summary>
+- **[MoAI-ADK](https://github.com/modu-ai/moai-adk)** `⭐ 1.2k` `updated ≤30d` A Go-based CLI development kit for Claude Code that provides 24 specialized AI agents and 52 skills to enforce TDD/DDD quality gates and spec-driven workflows. <details><summary>More about</summary>
 
   It shifts the developer role from writing code to designing the 'harness'—specs, quality gates, and feedback loops—while a team of agents handles implementation and self-verification.
 
@@ -189,7 +189,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven-development` `ai-dev-extensions` `agent-skills`
   </details>
 
-- **[pi-sdd-kit](https://github.com/felipefontoura/pi-sdd-kit)** `⭐ 16` `updated ≤30d` A skill pack for the Pi coding agent that implements a spec-driven development workflow with explicit artifacts, human gates, and a .status file as the single source of truth. <details><summary>More about</summary>
+- **[pi-sdd-kit](https://github.com/felipefontoura/pi-sdd-kit)** `⭐ 17` `updated ≤90d` A skill pack for the Pi coding agent that implements a spec-driven development workflow with explicit artifacts, human gates, and a .status file as the single source of truth. <details><summary>More about</summary>
 
   It reduces rework and scope creep by enforcing a disciplined spec-first loop where code only follows approved specifications.
 
@@ -243,7 +243,7 @@ _These are new or low-traffic entries being watched._
   `claude-code` `spec-driven` `planning` `agent-skills`
   </details>
 
-- **[colign](https://github.com/colign/colign)** `⭐ 5` `updated ≤90d` An open-source platform for collaborative spec writing and team alignment before handing implementation to AI coding agents. <details><summary>More about</summary>
+- **[colign](https://github.com/colign/colign)** `⭐ 5` `updated ≤180d` An open-source platform for collaborative spec writing and team alignment before handing implementation to AI coding agents. <details><summary>More about</summary>
 
   It targets the upstream bottleneck where teams fail to agree on what to build before AI generates code, making structured specs the controlling artifact.
 
@@ -252,7 +252,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven-development` `ai-collaboration` `team-alignment` `mcp` `spec-writing`
   </details>
 
-- **[jiezeng2004-design/PatchWarden](https://github.com/jiezeng2004-design/patchwarden)** `⭐ 2` `updated ≤30d` A local-first MCP bridge that provides a safety and verification layer for AI coding agents through workspace confinement and command allowlisting. <details><summary>More about</summary>
+- **[jiezeng2004-design/PatchWarden](https://github.com/jiezeng2004-design/patchwarden)** `⭐ 3` `updated ≤30d` A local-first MCP bridge that provides a safety and verification layer for AI coding agents through workspace confinement and command allowlisting. <details><summary>More about</summary>
 
   It prevents AI agents from executing arbitrary shell commands or accessing sensitive files by enforcing a strict plan-verify-execute loop within a sandboxed workspace.
 

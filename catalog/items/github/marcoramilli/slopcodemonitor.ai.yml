@@ -30,7 +30,7 @@ metadata:
     full_name: marcoramilli/slopcodemonitor.ai
     html_url: https://github.com/marcoramilli/slopcodemonitor.ai
     created_at: "2026-04-17T22:18:44Z"
-    pushed_at: "2026-07-16T19:41:00Z"
+    pushed_at: "2026-08-02T20:44:03Z"
     description: Monitors Slop Codes in Public famous repositories
     homepage: https://slopcodemonitor.ai
     topics:
@@ -41,9 +41,9 @@ metadata:
       - code-analysis-tool
       - code-analyzer
       - code-review
-    last_checked_at: "2026-07-23T05:09:24.372Z"
+    last_checked_at: "2026-08-03T05:16:55.880Z"
     readme:
-      fetched_at: "2026-07-23T05:09:24.372Z"
+      fetched_at: "2026-08-03T05:16:55.880Z"
       bytes: 6052
 insights:
   summary: A daily-updated dashboard that scans trending GitHub repositories using the SynthScan fingerprint engine to detect and score AI-generated 'slop' code patterns.
@@ -76,16 +76,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-23T05:09:24.372Z"
+    updated_at: "2026-08-03T05:16:55.880Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:18:37.592Z"
+    updated_at: "2026-08-03T05:17:15.977Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__marcoramilli__slopcodemonitor.ai: Invalid AI response format: SyntaxError: Expected ',' or '}' after property value in JSON at position 308 (line 3 column 151)"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__marcoramilli__slopcodemonitor.ai: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -45,9 +45,9 @@ metadata:
       - seo-audit
       - seo-tools
       - technical-seo
-    last_checked_at: "2026-07-23T05:09:26.236Z"
+    last_checked_at: "2026-08-03T05:16:57.100Z"
     readme:
-      fetched_at: "2026-07-23T05:09:26.236Z"
+      fetched_at: "2026-08-03T05:16:57.100Z"
       bytes: 3965
 insights:
   summary: An MCP server that lets Claude run Screaming Frog SEO Spider headless crawls, export data, and manage crawl storage from chat, with fixes for cross-platform support and previous stability bugs.
@@ -81,16 +81,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-23T05:09:26.236Z"
+    updated_at: "2026-08-03T05:16:57.100Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:18:48.684Z"
+    updated_at: "2026-08-03T05:17:16.700Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__marykovziridze__screaming-frog-mcp: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It is an M\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__marykovziridze__screaming-frog-mcp: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

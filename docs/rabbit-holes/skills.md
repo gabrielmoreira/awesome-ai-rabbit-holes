@@ -5,7 +5,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 ## Tools & Resources
 
-- **[skills](https://github.com/mattpocock/skills)** `⭐ 182.9k` `updated ≤30d` A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in coding assistants. <details><summary>More about</summary>
+- **[skills](https://github.com/mattpocock/skills)** `⭐ 200.2k` `updated ≤30d` A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in coding assistants. <details><summary>More about</summary>
 
   It provides structured workflows, such as 'grilling sessions' and shared domain language, to reduce agent misalignment and verbosity.
 
@@ -23,7 +23,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `reusable-skills` `workflow-automation`
   </details>
 
-- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 79.9k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 81.4k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
 
   It provides a standardized set of professional engineering guardrails (spec-first, test-driven, incremental builds) that prevent AI agents from hallucinating their way through a codebase without a plan.
 
@@ -135,7 +135,7 @@ _These are new or low-traffic entries being watched._
   `legal-tech` `agent-skills` `mcp-server` `cli-tool` `docx`
   </details>
 
-- **[nex-as-a-skill](https://github.com/nex-crm/nex-as-a-skill)** `⭐ 41` `updated ≤90d` Nex is a knowledge graph and memory layer that unifies AI agent conversations across tools like Claude Code, Cursor, and Slack, distributed as a CLI and a set of slash commands, rules, and plugins for supported platforms. <details><summary>More about</summary>
+- **[nex-as-a-skill](https://github.com/nex-crm/nex-as-a-skill)** `⭐ 41` `updated ≤180d` Nex is a knowledge graph and memory layer that unifies AI agent conversations across tools like Claude Code, Cursor, and Slack, distributed as a CLI and a set of slash commands, rules, and plugins for supported platforms. <details><summary>More about</summary>
 
   It lets teams persist and recall context across different AI coding assistants and workplace tools so agents get smarter the more the team works.
 

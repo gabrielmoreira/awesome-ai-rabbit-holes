@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 24983
-    forks: 2059
+    stars: 25509
+    forks: 2136
     license: NOASSERTION
     archived: false
     full_name: manaflow-ai/cmux
     html_url: https://github.com/manaflow-ai/cmux
     created_at: "2026-01-28T10:03:24Z"
-    pushed_at: "2026-07-23T05:08:55Z"
+    pushed_at: "2026-08-03T05:12:30Z"
     description: Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability.
     homepage: https://cmux.com
     topics:
@@ -53,10 +53,10 @@ metadata:
       - terminal-multiplexer
       - tmux
       - workspace-manager
-    last_checked_at: "2026-07-23T05:09:23.578Z"
+    last_checked_at: "2026-08-03T05:16:55.464Z"
     readme:
-      fetched_at: "2026-07-23T05:09:23.578Z"
-      bytes: 22566
+      fetched_at: "2026-08-03T05:16:55.464Z"
+      bytes: 22786
 insights:
   summary: A Ghostty-based macOS terminal application that provides vertical tabs, notification rings, and an in-app browser designed specifically for running and monitoring multiple AI coding agents like Claude Code and Gemini CLI.
   why_it_matters: It solves the UI fragmentation of running parallel CLI agents by providing a unified desktop surface with visual alerts, session metadata, and integrated browser access.
@@ -89,16 +89,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-23T05:09:23.578Z"
+    updated_at: "2026-08-03T05:16:55.464Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:18:06.262Z"
+    updated_at: "2026-08-03T05:17:14.237Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__manaflow-ai__cmux: Invalid AI response format: SyntaxError: Unexpected token 'c', ...\"_reason\": cmux funct\"... is not valid JSON"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__manaflow-ai__cmux: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

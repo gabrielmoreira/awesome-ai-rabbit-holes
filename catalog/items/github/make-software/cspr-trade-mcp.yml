@@ -35,9 +35,9 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-07-23T05:09:22.656Z"
+    last_checked_at: "2026-08-03T05:16:54.797Z"
     readme:
-      fetched_at: "2026-07-23T05:09:22.656Z"
+      fetched_at: "2026-08-03T05:16:54.797Z"
       bytes: 3861
 insights:
   summary: An MCP server that exposes 24 tools for market data, swaps, liquidity management, and portfolio tracking on the Casper Network DEX, CSPR.trade.
@@ -71,16 +71,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-23T05:09:22.656Z"
+    updated_at: "2026-08-03T05:16:54.797Z"
     cause: null
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:18:05.924Z"
+    updated_at: "2026-08-03T05:17:14.156Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__make-software__cspr-trade-mcp: Invalid AI response format: SyntaxError: Bad control character in string literal in JSON at position 568 (line 5 column 46)"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__make-software__cspr-trade-mcp: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

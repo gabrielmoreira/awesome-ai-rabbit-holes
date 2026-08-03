@@ -32,7 +32,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `cursor` `cursorrules` `config` `awesome-list` `ide`
   </details>
 
-- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 36.9k` `updated ≤30d` A community-curated collection of agents, instructions, skills, and plugins for extending GitHub Copilot. <details><summary>More about</summary>
+- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 37.4k` `updated ≤30d` A community-curated collection of agents, instructions, skills, and plugins for extending GitHub Copilot. <details><summary>More about</summary>
 
   It aggregates reusable Copilot customizations in one discoverable place, reducing the friction of finding and installing enhancements.
 
@@ -41,7 +41,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `github-copilot` `agent-skills`
   </details>
 
-- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 29k` `updated ≤30d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 29.2k` `updated ≤30d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
 
   It provides developers with a structured, discoverable map of the AI agent ecosystem, saving time in finding relevant tools for building or integrating agents.
 
@@ -50,7 +50,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `directory` `ai-agents` `curated-list` `discovery` `awesome`
   </details>
 
-- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 27.2k` `updated ≤1y` A curated list of Large Language Model papers, frameworks, tools, and resources. <details><summary>More about</summary>
+- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 27.2k` `updated >1y` A curated list of Large Language Model papers, frameworks, tools, and resources. <details><summary>More about</summary>
 
   Provides developers with a centralized directory to discover LLM research, deployment tools, and training frameworks.
 
@@ -131,7 +131,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llmops` `awesome-list` `mlops` `directory`
   </details>
 
-- **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)** `⭐ 5.7k` `updated ≤1y` awesome-ai-tools is a curated GitHub list of various artificial intelligence tools and resources. <details><summary>More about</summary>
+- **[Awesome AI Tools](https://github.com/mahseema/awesome-ai-tools)** `⭐ 5.8k` `updated ≤1y` awesome-ai-tools is a curated GitHub list of various artificial intelligence tools and resources. <details><summary>More about</summary>
 
   It helps developers discover AI tools across categories like coding, image, video, audio, and marketing in one browsable list.
 
@@ -185,7 +185,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `agent-reliability` `harness-engineering`
   </details>
 
-- **[Awesome-AI4Med](https://github.com/freedomintelligence/awesome-ai4med)** `⭐ 2.8k` `updated ≤30d` A curated collection of medical LLMs, multimodal systems, datasets, and benchmarks. <details><summary>More about</summary>
+- **[Awesome-AI4Med](https://github.com/freedomintelligence/awesome-ai4med)** `⭐ 2.9k` `updated ≤30d` A curated collection of medical LLMs, multimodal systems, datasets, and benchmarks. <details><summary>More about</summary>
 
   Provides a structured map of specialized medical models and datasets for developers building domain-specific AI applications.
 
@@ -401,7 +401,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `x402` `micropayments` `ai-agents` `crypto` `awesome-list`
   </details>
 
-- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 213` `updated ≤30d` A curated list of tools and resources for spec-driven development (SDD). <details><summary>More about</summary>
+- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 226` `updated ≤30d` A curated list of tools and resources for spec-driven development (SDD). <details><summary>More about</summary>
 
   Helps developers discover frameworks, standards, and workflows for writing specifications first to improve alignment, testing, and documentation in AI-assisted development.
 
@@ -423,7 +423,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 _These are new or low-traffic entries being watched._
 
-- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 142` `updated ≤180d` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
+- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 142` `updated ≤1y` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
 
   Provides developers with a navigable directory of agent frameworks, tools, and platforms to explore or integrate into their workflows.
 
