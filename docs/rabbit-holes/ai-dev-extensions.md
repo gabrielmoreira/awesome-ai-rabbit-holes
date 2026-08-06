@@ -68,7 +68,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `messaging-bridge` `agent-connector` `chatops` `remote-work` `host-integration`
   </details>
 
-- **[scalene](https://github.com/plasma-umass/scalene)** `⭐ 13.5k` `updated ≤30d` Scalene is a high-performance Python profiler for CPU, GPU, and memory that integrates AI providers to generate code optimization suggestions directly in the terminal and VS Code. <details><summary>More about</summary>
+- **[scalene](https://github.com/plasma-umass/scalene)** `⭐ 13.5k` `updated ≤90d` Scalene is a high-performance Python profiler for CPU, GPU, and memory that integrates AI providers to generate code optimization suggestions directly in the terminal and VS Code. <details><summary>More about</summary>
 
   It allows developers to pinpoint performance bottlenecks with high precision and receive actionable, AI-generated refactoring proposals without leaving their profiling workflow.
 
@@ -140,6 +140,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `session-management` `ai-coding-agents` `local-first` `macos` `developer-tools`
   </details>
 
+- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 662` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
+
+  It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
+
+  _Finally, a tool to manage the anxiety of having too many AI assistants running at once — because one wasn't enough._
+
+  `terminal` `tui` `session-manager` `ai-agents` `cli`
+  </details>
+
 - **[joaoh82/rustunnel](https://github.com/joaoh82/rustunnel)** `⭐ 643` `updated ≤30d` A self-hosted, Rust-based tunneling service that includes an MCP server to expose local network services to AI agents. <details><summary>More about</summary>
 
   It allows AI agents to interact with, test, and trigger local webhooks and APIs through secure, encrypted tunnels.
@@ -147,15 +156,6 @@ Add-ons and host integrations that extend another coding tool rather than being 
   _Because your agent definitely needs a TLS-encrypted tunnel to realize your localhost:3000 is throwing a 500 error._
 
   `rust` `tunneling` `mcp` `self-hosted` `networking`
-  </details>
-
-- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 605` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
-
-  It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
-
-  _Finally, a tool to manage the anxiety of having too many AI assistants running at once — because one wasn't enough._
-
-  `terminal` `tui` `session-manager` `ai-agents` `cli`
   </details>
 
 - **[dannote/figma-use](https://github.com/dannote/figma-use)** `⭐ 586` `updated ≤90d` A CLI tool that provides full read/write access to Figma for AI agents, enabling programmatic creation and manipulation of design elements via commands or JSX. <details><summary>More about</summary>
@@ -230,7 +230,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `llm-proxy` `token-management` `claude-code` `api-gateway` `ai-infrastructure`
   </details>
 
-- **[agenticmail/agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 180` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
+- **[agenticmail/agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 186` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
 
   It enables agents to move beyond the terminal by interacting with the world through standard communication channels like phone and email.
 
@@ -315,6 +315,15 @@ _These are new or low-traffic entries being watched._
   `ebpf` `agent-security` `sandboxing` `runtime-enforcement` `linux`
   </details>
 
+- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 76` `updated ≤30d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
+
+  It prevents credential sprawl by centralizing secret management and ensuring agents never see long-lived tokens, reducing the risk of exfiltration during autonomous runs.
+
+  _Finally, a tool to ensure your autonomous agent doesn't leak your entire GitHub organization's API keys to a hallucinating prompt in a single request._
+
+  `security` `secrets-management` `oauth2` `headless` `agent-infra`
+  </details>
+
 - **[codex-profiles](https://github.com/ducksss/codex-profiles)** `⭐ 73` `updated ≤30d` A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts. <details><summary>More about</summary>
 
   Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
@@ -322,15 +331,6 @@ _These are new or low-traffic entries being watched._
   _The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities._
 
   `cli` `bash` `account-switching` `codex` `macos`
-  </details>
-
-- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 71` `updated ≤30d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
-
-  It prevents credential sprawl by centralizing secret management and ensuring agents never see long-lived tokens, reducing the risk of exfiltration during autonomous runs.
-
-  _Finally, a tool to ensure your autonomous agent doesn't leak your entire GitHub organization's API keys to a hallucinating prompt in a single request._
-
-  `security` `secrets-management` `oauth2` `headless` `agent-infra`
   </details>
 
 - **[Untether](https://github.com/littlebearapps/untether)** `⭐ 59` `updated ≤30d` A Telegram bridge that lets developers send tasks by voice or text and approve actions for local AI coding agents like Claude Code, Codex, and Gemini CLI from their phone. <details><summary>More about</summary>
@@ -378,7 +378,7 @@ _These are new or low-traffic entries being watched._
   `local-first` `task-management` `ai-agent` `browser-based` `mcp`
   </details>
 
-- **[apireno/DOMShell](https://github.com/apireno/domshell)** `⭐ 50` `updated ≤30d` A Chrome Extension that exposes the browser's Accessibility Tree as a virtual filesystem, allowing AI agents and humans to navigate and interact with web pages using standard Linux commands. <details><summary>More about</summary>
+- **[apireno/DOMShell](https://github.com/apireno/domshell)** `⭐ 51` `updated ≤30d` A Chrome Extension that exposes the browser's Accessibility Tree as a virtual filesystem, allowing AI agents and humans to navigate and interact with web pages using standard Linux commands. <details><summary>More about</summary>
 
   It replaces brittle CSS selectors and pixel-based automation with a deterministic, semantic filesystem metaphor for browser interaction, making web automation more reliable for AI agents.
 
@@ -414,7 +414,7 @@ _These are new or low-traffic entries being watched._
   `macos` `cli-agents` `session-management` `claude-code`
   </details>
 
-- **[Armorer Guard](https://github.com/armorerlabs/armorer-guard)** `⭐ 41` `updated ≤90d` Armorer Guard is a Rust-based local scanner that inspects MCP tool calls for prompt injection, credential leaks, and risky actions before execution. <details><summary>More about</summary>
+- **[Armorer Guard](https://github.com/armorerlabs/armorer-guard)** `⭐ 40` `updated ≤90d` Armorer Guard is a Rust-based local scanner that inspects MCP tool calls for prompt injection, credential leaks, and risky actions before execution. <details><summary>More about</summary>
 
   It gives developers a zero-latency, network-free way to enforce safety policies on AI agent tool usage in local MCP workflows.
 
@@ -612,6 +612,15 @@ _These are new or low-traffic entries being watched._
   `claude-code` `local-memory` `mcp-server` `sqlite`
   </details>
 
+- **[cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge)** `⭐ 11` `updated ≤30d` A bridge that connects Claude Cowork (cloud-based) to Claude Code (local terminal) to allow web-based chats to execute commands on a local machine. <details><summary>More about</summary>
+
+  It allows developers to leverage the planning capabilities of web-based Claude chats while granting them the ability to actually execute code and manage files in a local environment.
+
+  _Nothing says 'odern developer workflow' like installing a bridge just so your browser can safely execute shell commands on your laptop._
+
+  `claude-code` `bridge` `automation` `cli` `remote-execution`
+  </details>
+
 - **[Mingye-Lu/AgenticCrawler](https://github.com/mingye-lu/agenticcrawler)** `⭐ 11` `updated ≤30d` acrawl is a single Rust binary LLM-powered web crawler that lets users describe goals in plain English to extract structured data using built-in MCP server and client capabilities. <details><summary>More about</summary>
 
   It enables developers to automate complex browser tasks with full DevTools observability without needing Python, Node, or writing code.
@@ -637,15 +646,6 @@ _These are new or low-traffic entries being watched._
   _Now you have to worry about your virtual pet's feelings while already juggling context windows and rate limits._
 
   `claude-code` `statusline` `productivity` `tamagotchi` `cli`
-  </details>
-
-- **[cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge)** `⭐ 10` `updated ≤30d` A bridge that connects Claude Cowork (cloud-based) to Claude Code (local terminal) to allow web-based chats to execute commands on a local machine. <details><summary>More about</summary>
-
-  It allows developers to leverage the planning capabilities of web-based Claude chats while granting them the ability to actually execute code and manage files in a local environment.
-
-  _Nothing says 'odern developer workflow' like installing a bridge just so your browser can safely execute shell commands on your laptop._
-
-  `claude-code` `bridge` `automation` `cli` `remote-execution`
   </details>
 
 - **[windborne/zulipmcp](https://github.com/windborne/zulipmcp)** `⭐ 10` `updated ≤90d` Run AI agents in Zulip as @mentionable bots or wire into any MCP client. <details><summary>More about</summary>

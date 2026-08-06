@@ -14,7 +14,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `slash-commands` `workflows` `prompt-engineering`
   </details>
 
-- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 164.4k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
+- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 166.5k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
 
   It enables developers to create reusable, portable skill packs that teach Claude (and other compatible agents) how to handle specific workflows, from document editing to technical automation.
 
@@ -189,7 +189,7 @@ _These are new or low-traffic entries being watched._
   `crypto` `web3` `mcp` `agent-skills` `blockchain`
   </details>
 
-- **[qovery-skills](https://github.com/qovery/qovery-skills)** `⭐ 7` `updated ≤30d` A reusable skill pack that teaches AI coding agents how to deploy, troubleshoot, optimize, and manage preview environments for applications on Qovery and Kubernetes. <details><summary>More about</summary>
+- **[qovery-skills](https://github.com/qovery/qovery-skills)** `⭐ 7` `updated ≤90d` A reusable skill pack that teaches AI coding agents how to deploy, troubleshoot, optimize, and manage preview environments for applications on Qovery and Kubernetes. <details><summary>More about</summary>
 
   It packages DevOps expertise into portable SKILL.md files so agents can handle cloud onboarding, deployments, and cost optimization without the developer manually orchestrating Qovery.
 

@@ -90,9 +90,12 @@ lifecycle:
   reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-frameworks'"
 processing:
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-08-06T05:07:23.697Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-05-12T15:06:19.301Z"

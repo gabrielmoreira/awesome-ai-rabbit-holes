@@ -75,24 +75,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-23T05:16:47.891Z"
+    status: skipped
+    updated_at: "2026-08-06T05:07:23.697Z"
     cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__codebuffai__codebuff: ```json
-        {
-          "summary": "Open-source AI coding assistant that runs in the terminal and coordinates specialized agents to plan, edit, and review codebases via natural language.",
-          "why_it_matters": "It offers developers an open-source, terminal-native alternative to Claude Code that uses a multi-agent pipeline for planning, editing, and reviewing changes, with an ad-supported free tier requiring no subscription or configuration.",
-          "mental_damage": "Your bash prompt is now the world’s smallest middle-management layer, delegating file picks and code edits to four internal agents instead of one model.",
-          "tags": ["cli", "coding-agent", "multi-agent", "open-source", "terminal"],
-          "should_include": true,
-          "primary_category": "coding-agents",
-          "section": "Terminal & CLI Agents",
-          "decision_reason": "It is a standalone terminal-native coding assistant that developers invoke as their primary agent to read, plan, edit, and test code, fitting squarely in Terminal & CLI Agents.",
-          "decision_evidence": [
-            "Repo description: 'Generate code from the terminal!'",
-            "README frames it as a standalone open-source competitor to Claude Code, invoked via `codebuff` or `freebuff` CLI in project directories.",
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template

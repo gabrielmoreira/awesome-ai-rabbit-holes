@@ -86,7 +86,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agent-framework` `multi-agent` `orchestration` `llm` `python`
   </details>
 
-- **[LLMApp](https://github.com/pathwaycom/llm-app)** `⭐ 59k` `updated ≤30d` A repository of ready-to-deploy Docker templates for building RAG pipelines, enterprise search, and AI applications that sync live with data sources like SharePoint, Google Drive, S3, and Kafka. <details><summary>More about</summary>
+- **[LLMApp](https://github.com/pathwaycom/llm-app)** `⭐ 59k` `updated ≤90d` A repository of ready-to-deploy Docker templates for building RAG pipelines, enterprise search, and AI applications that sync live with data sources like SharePoint, Google Drive, S3, and Kafka. <details><summary>More about</summary>
 
   It gives developers pre-built, scalable pipelines for real-time data ingestion and retrieval, reducing the boilerplate needed to stand up production RAG systems.
 
@@ -212,6 +212,15 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `vector-db` `search` `rag` `embeddings` `infrastructure`
   </details>
 
+- **[AgentScope](https://github.com/agentscope-ai/agentscope)** `⭐ 28.6k` `updated ≤30d` AgentScope is a production-ready multi-agent framework with built-in support for event systems, permission management, and sandboxed workspaces. <details><summary>More about</summary>
+
+  It provides the essential infrastructure—like multi-tenancy and isolated execution environments—needed to move agentic workflows from experimental scripts to stable services.
+
+  _Nothing says 'production-ready' like adding a whole new orchestration layer to your stack just to manage the chaos of autonomous agents._
+
+  `multi-agent` `orchestration` `sandbox` `infrastructure` `multi-tenancy`
+  </details>
+
 - **[Smolagents](https://github.com/huggingface/smolagents)** `⭐ 28.6k` `updated ≤30d` A barebones Python library for building agents that think in code, with first-class support for code agents and sandboxed execution. <details><summary>More about</summary>
 
   Developers can quickly spin up agents that write and execute code securely, integrating with various models, tools, and environments like MCP servers or Hub Spaces.
@@ -237,15 +246,6 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   _Another enterprise SDK promising 'agent orchestration' while quietly adding to the stack of frameworks you’ll need to learn before shipping a single LLM feature._
 
   `semantic-kernel` `ai-framework` `multi-agent`
-  </details>
-
-- **[AgentScope](https://github.com/agentscope-ai/agentscope)** `⭐ 28.3k` `updated ≤30d` AgentScope is a production-ready multi-agent framework with built-in support for event systems, permission management, and sandboxed workspaces. <details><summary>More about</summary>
-
-  It provides the essential infrastructure—like multi-tenancy and isolated execution environments—needed to move agentic workflows from experimental scripts to stable services.
-
-  _Nothing says 'production-ready' like adding a whole new orchestration layer to your stack just to manage the chaos of autonomous agents._
-
-  `multi-agent` `orchestration` `sandbox` `infrastructure` `multi-tenancy`
   </details>
 
 - **[OpenAI Agents Python](https://github.com/openai/openai-agents-python)** `⭐ 28k` `updated ≤30d` A lightweight Python SDK from OpenAI for building and orchestrating multi-agent workflows with support for over 100 LLM providers. <details><summary>More about</summary>
@@ -437,7 +437,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `inference` `nvidia` `llm-serving` `cuda` `optimization`
   </details>
 
-- **[TVM](https://github.com/apache/tvm)** `⭐ 13.6k` `updated ≤30d` Open Machine Learning Compiler Framework for optimizing and deploying ML models across hardware backends. <details><summary>More about</summary>
+- **[TVM](https://github.com/apache/tvm)** `⭐ 13.7k` `updated ≤30d` Open Machine Learning Compiler Framework for optimizing and deploying ML models across hardware backends. <details><summary>More about</summary>
 
   Enables developers to compile and optimize machine learning models for diverse hardware targets, from GPUs to mobile devices, with Python-first customization.
 
@@ -833,6 +833,15 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `kubernetes` `model-serving` `inference` `mlops` `genai`
   </details>
 
+- **[SandBox](https://github.com/agent-infra/sandbox)** `⭐ 5.6k` `updated ≤90d` An all-in-one sandbox environment for AI agents that provides a single Docker container with a browser, shell, filesystem, VSCode server, and MCP support. <details><summary>More about</summary>
+
+  It solves the complex orchestration problem of giving AI agents a unified, secure workspace where file sharing and tool usage across browser and terminal are seamless.
+
+  _Another layer of abstraction to debug when your agent starts hallucinating terminal commands that it thinks it's running in a real browser._
+
+  `sandboxing` `agent-infrastructure` `docker` `mcp` `execution-environments`
+  </details>
+
 - **[ZenML](https://github.com/zenml-io/zenml)** `⭐ 5.5k` `updated ≤30d` ZenML is an AI/ML platform for building, tracking, and deploying pipelines and workflows across any infrastructure, supporting traditional ML, LLMs, and agentic loops. <details><summary>More about</summary>
 
   It lets ML and AI engineers operationalize end-to-end AI workflows with versioning, observability, and infrastructure abstraction, reducing the glue work between training, evaluation, and deployment.
@@ -840,15 +849,6 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   _Finally, a platform that treats your agentic loop like a production ML pipeline—because nothing says 'scale' like versioning your prompt tweaks alongside your model weights._
 
   `mlops` `pipelines` `agent-workflows` `observability`
-  </details>
-
-- **[SandBox](https://github.com/agent-infra/sandbox)** `⭐ 5.5k` `updated ≤90d` An all-in-one sandbox environment for AI agents that provides a single Docker container with a browser, shell, filesystem, VSCode server, and MCP support. <details><summary>More about</summary>
-
-  It solves the complex orchestration problem of giving AI agents a unified, secure workspace where file sharing and tool usage across browser and terminal are seamless.
-
-  _Another layer of abstraction to debug when your agent starts hallucinating terminal commands that it thinks it's running in a real browser._
-
-  `sandboxing` `agent-infrastructure` `docker` `mcp` `execution-environments`
   </details>
 
 - **[RouteLLM](https://github.com/lm-sys/routellm)** `⭐ 5.3k` `updated >1y` A Python framework and OpenAI-compatible server for serving and evaluating LLM routers that route queries between strong and weak models to optimize cost and quality. <details><summary>More about</summary>
@@ -1049,7 +1049,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `python` `chatbot` `openai-wrapper`
   </details>
 
-- **[Distilabel](https://github.com/argilla-io/distilabel)** `⭐ 3.3k` `updated ≤30d` Distilabel is a Python framework for generating synthetic data and AI feedback pipelines based on verified research papers. <details><summary>More about</summary>
+- **[Distilabel](https://github.com/argilla-io/distilabel)** `⭐ 3.4k` `updated ≤30d` Distilabel is a Python framework for generating synthetic data and AI feedback pipelines based on verified research papers. <details><summary>More about</summary>
 
   It helps developers create high-quality, scalable datasets for fine-tuning LLMs by synthesizing and judging data with AI feedback.
 
@@ -1436,7 +1436,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agent-protocol` `api-spec` `interoperability` `agent-sdk` `openapi`
   </details>
 
-- **[modelcontextprotocol/swift-sdk](https://github.com/modelcontextprotocol/swift-sdk)** `⭐ 1.5k` `updated ≤90d` The official Swift SDK for building Model Context Protocol (MCP) clients and servers in Swift environments. <details><summary>More about</summary>
+- **[modelcontextprotocol/swift-sdk](https://github.com/modelcontextprotocol/swift-sdk)** `⭐ 1.5k` `updated ≤180d` The official Swift SDK for building Model Context Protocol (MCP) clients and servers in Swift environments. <details><summary>More about</summary>
 
   Swift developers can now integrate MCP-native tooling into Apple-platform apps without bridging through other languages.
 
@@ -1571,7 +1571,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agents` `langchain` `llm` `python` `framework`
   </details>
 
-- **[GPTSwarm](https://github.com/metauto-ai/gptswarm)** `⭐ 1k` `updated ≤180d` GPTSwarm is a graph-based Python framework for building LLM-based agents using nodes and edges, with built-in optimizers for self-improving multi-agent swarms. <details><summary>More about</summary>
+- **[GPTSwarm](https://github.com/metauto-ai/gptswarm)** `⭐ 1k` `updated ≤1y` GPTSwarm is a graph-based Python framework for building LLM-based agents using nodes and edges, with built-in optimizers for self-improving multi-agent swarms. <details><summary>More about</summary>
 
   It gives developers a structured, code-first way to model, optimize, and run multi-agent systems where agent behaviors and inter-agent connections are explicit graph elements.
 
@@ -1670,7 +1670,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `vector-database` `rag` `embeddings` `search` `infrastructure`
   </details>
 
-- **[entaoai](https://github.com/akshata29/entaoai)** `⭐ 866` `updated >1y` A reference implementation for building RAG-based chat applications using Azure OpenAI and vector stores like Pinecone or Redis. <details><summary>More about</summary>
+- **[entaoai](https://github.com/akshata29/entaoai)** `⭐ 865` `updated >1y` A reference implementation for building RAG-based chat applications using Azure OpenAI and vector stores like Pinecone or Redis. <details><summary>More about</summary>
 
   It provides a working template for implementing enterprise-grade retrieval-augmented generation patterns and evaluation metrics.
 
@@ -1697,7 +1697,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agent-framework` `multi-agent` `low-code` `python` `llm-agnostic`
   </details>
 
-- **[microagents](https://github.com/aymenfurter/microagents)** `⭐ 825` `updated >1y` An experimental Python framework for dynamically creating self-improving agents that can self-edit their prompts and code. <details><summary>More about</summary>
+- **[microagents](https://github.com/aymenfurter/microagents)** `⭐ 826` `updated >1y` An experimental Python framework for dynamically creating self-improving agents that can self-edit their prompts and code. <details><summary>More about</summary>
 
   Enables developers to build agents that adapt and reuse learned task-solving methods across sessions, reducing repetitive prompt engineering.
 
@@ -1742,7 +1742,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `multi-agent` `knowledge-graph` `agent-framework` `sdk` `orchestration`
   </details>
 
-- **[Fructose](https://github.com/bananaml/fructose)** `⭐ 748` `updated >1y` Fructose is a Python package that turns type-annotated functions into strongly-typed LLM calls via an `@ai` decorator. <details><summary>More about</summary>
+- **[Fructose](https://github.com/bananaml/fructose)** `⭐ 747` `updated >1y` Fructose is a Python package that turns type-annotated functions into strongly-typed LLM calls via an `@ai` decorator. <details><summary>More about</summary>
 
   It lets developers invoke LLMs as if they were native Python functions, with support for complex types, local function calling, and custom clients.
 
@@ -1796,7 +1796,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `dart` `flutter` `langchain` `llm-sdk` `framework`
   </details>
 
-- **[Rankify](https://github.com/datascienceuibk/rankify)** `⭐ 680` `updated ≤90d` A Python toolkit for retrieval, re-ranking, and retrieval-augmented generation with 40+ benchmark datasets, 7+ retrieval techniques, 24+ reranking models, and multiple RAG methods. <details><summary>More about</summary>
+- **[Rankify](https://github.com/datascienceuibk/rankify)** `⭐ 680` `updated ≤180d` A Python toolkit for retrieval, re-ranking, and retrieval-augmented generation with 40+ benchmark datasets, 7+ retrieval techniques, 24+ reranking models, and multiple RAG methods. <details><summary>More about</summary>
 
   Developers building RAG pipelines or evaluating retrieval models can use this to benchmark, compare, and integrate state-of-the-art techniques without reinventing infrastructure.
 
@@ -2048,7 +2048,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `llm` `openai-compatible` `python` `provider-abstraction`
   </details>
 
-- **[rs-graph-llm](https://github.com/a-agmon/rs-graph-llm)** `⭐ 354` `updated ≤30d` A high-performance, type-safe Rust framework for building stateful, interactive agentic workflows and multi-agent systems. <details><summary>More about</summary>
+- **[rs-graph-llm](https://github.com/a-agmon/rs-graph-llm)** `⭐ 358` `updated ≤30d` A high-performance, type-safe Rust framework for building stateful, interactive agentic workflows and multi-agent systems. <details><summary>More about</summary>
 
   It brings the structured, graph-based orchestration patterns of LangGraph to the Rust ecosystem, enabling performant and type-safe agent workflows.
 
@@ -2259,7 +2259,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
 
 _These are new or low-traffic entries being watched._
 
-- **[weibaohui/kom](https://github.com/weibaohui/kom)** `⭐ 150` `updated ≤180d` kom is a Go SDK wrapper for Kubernetes operations that provides kubectl-like functionality with CRD support, SQL querying, and MCP server capabilities. <details><summary>More about</summary>
+- **[weibaohui/kom](https://github.com/weibaohui/kom)** `⭐ 150` `updated ≤1y` kom is a Go SDK wrapper for Kubernetes operations that provides kubectl-like functionality with CRD support, SQL querying, and MCP server capabilities. <details><summary>More about</summary>
 
   It simplifies Kubernetes resource management for developers by offering a programmatic interface with advanced features like SQL queries and multi-cluster MCP support.
 
@@ -2637,7 +2637,7 @@ _These are new or low-traffic entries being watched._
   `ruby` `multi-agent` `orchestration` `framework` `openai-swarm`
   </details>
 
-- **[spfunctions/simplefunctions-cli](https://github.com/spfunctions/simplefunctions-cli)** `⭐ 10` `updated ≤90d` A CLI tool for interacting with prediction-market infrastructure on Kalshi and Polymarket, exporting structured JSON for coding agents. <details><summary>More about</summary>
+- **[spfunctions/simplefunctions-cli](https://github.com/spfunctions/simplefunctions-cli)** `⭐ 10` `updated ≤180d` A CLI tool for interacting with prediction-market infrastructure on Kalshi and Polymarket, exporting structured JSON for coding agents. <details><summary>More about</summary>
 
   It provides a standardized, agent-ready interface for querying live market state and running thesis workflows, bridging prediction markets and AI automation.
 

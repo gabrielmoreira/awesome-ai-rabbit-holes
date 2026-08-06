@@ -85,9 +85,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-27T05:21:15.641Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-06T05:07:21.007Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for berlinbra/alpha-vantage-mcp
     next_retry_at: null
   categorize:
     status: done

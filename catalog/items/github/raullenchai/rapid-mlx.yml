@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/raullenchai/rapid-mlx
         surrounding_text: "| [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX)                                 | OpenAI-compatible LLM inference server for Apple Silicon using MLX. 2-4x faster than Ollama with tool calling and prompt caching. | ![GitHub Badge](https://img.shields.io/github/stars/raullenchai/Rapid-MLX.svg?style=flat-square)                  |"
         confidence: high
+    - id: discovery__github__raullenchai__rapid-mlx__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-08-06T05:06:55.627Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 推理 Inference
+        anchor_text: Rapid-MLX
+        extracted_url: https://github.com/raullenchai/rapid-mlx
+        surrounding_text: "54. [Rapid-MLX](https://github.com/raullenchai/Rapid-MLX): OpenAI-compatible local LLM inference server for Apple Silicon, 2-4x faster than Ollama."
+        confidence: high
 metadata:
   github:
     stars: 3293
@@ -85,7 +100,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.644Z"
+    updated_at: "2026-08-06T05:06:55.628Z"
     cause: null
     next_retry_at: null
   stars:
@@ -95,7 +110,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-03T05:17:12.716Z"
+    updated_at: "2026-08-06T05:07:23.698Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

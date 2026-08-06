@@ -91,11 +91,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-30T05:06:14.292Z"
+    status: skipped
+    updated_at: "2026-08-06T05:07:23.697Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__littlebearapps__untether: 403 status code (no body)"
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template

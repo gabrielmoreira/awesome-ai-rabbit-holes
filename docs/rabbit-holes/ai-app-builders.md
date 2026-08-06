@@ -5,7 +5,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
 
 ## Tools & Resources
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 73.5k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 73.9k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
 
   It accelerates the prototyping phase by turning visual designs directly into structured HTML, Tailwind, React, or Vue code.
 
@@ -50,7 +50,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `visual-development` `design-to-code` `cms` `figma-integration`
   </details>
 
-- **[Baserow](https://github.com/baserow/baserow)** `⭐ 5.4k` `updated ≤30d` Open-source no-code platform for building databases, automations, apps, and AI agents with self-hosting options. <details><summary>More about</summary>
+- **[Baserow](https://github.com/baserow/baserow)** `⭐ 5.5k` `updated ≤30d` Open-source no-code platform for building databases, automations, apps, and AI agents with self-hosting options. <details><summary>More about</summary>
 
   Developers can use it to rapidly create internal tools, dashboards, and workflows without writing code, while retaining full data control via self-hosting.
 
@@ -77,7 +77,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `cli` `microservices` `ai-agents` `deployment` `gpt-4`
   </details>
 
-- **[MemFree](https://github.com/memfreeme/memfree)** `⭐ 1.5k` `updated ≤30d` MemFree is a hybrid AI search engine and AI page generator that enables searching knowledge bases and the web while generating React-based UI pages from prompts. <details><summary>More about</summary>
+- **[MemFree](https://github.com/memfreeme/memfree)** `⭐ 1.5k` `updated ≤90d` MemFree is a hybrid AI search engine and AI page generator that enables searching knowledge bases and the web while generating React-based UI pages from prompts. <details><summary>More about</summary>
 
   It consolidates AI search and UI generation into one workflow, reducing context-switching for developers building internal tools or prototypes.
 

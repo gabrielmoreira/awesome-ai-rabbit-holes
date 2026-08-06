@@ -239,7 +239,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `local-ai` `curated-list` `inference-engines` `self-hosted`
   </details>
 
-- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 1.9k` `updated ≤180d` A curated directory of AI-powered coding tools including editors, agents, and productivity utilities. <details><summary>More about</summary>
+- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 2k` `updated ≤180d` A curated directory of AI-powered coding tools including editors, agents, and productivity utilities. <details><summary>More about</summary>
 
   It provides a central navigation point to discover the rapidly evolving ecosystem of AI-native development tools.
 
@@ -257,7 +257,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `ecosystem` `langgraph`
   </details>
 
-- **[awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers)** `⭐ 1.6k` `updated ≤30d` A curated list of research papers on multi-agent systems and swarm intelligence for AI agents. <details><summary>More about</summary>
+- **[awesome-multi-agent-papers](https://github.com/kyegomez/awesome-multi-agent-papers)** `⭐ 1.6k` `updated ≤90d` A curated list of research papers on multi-agent systems and swarm intelligence for AI agents. <details><summary>More about</summary>
 
   Provides developers with a centralized resource to explore cutting-edge research in multi-agent collaboration, system design, and orchestration.
 
@@ -266,7 +266,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `multi-agent` `research-papers` `awesome-list` `swarms` `agent-orchestration`
   </details>
 
-- **[currentslab/awesome-vector-search](https://github.com/currentslab/awesome-vector-search)** `⭐ 1.6k` `updated ≤30d` A curated list of vector search frameworks, engines, libraries, cloud services, and research papers. <details><summary>More about</summary>
+- **[currentslab/awesome-vector-search](https://github.com/currentslab/awesome-vector-search)** `⭐ 1.6k` `updated ≤90d` A curated list of vector search frameworks, engines, libraries, cloud services, and research papers. <details><summary>More about</summary>
 
   Helps developers navigate the fragmented landscape of vector search and similarity search tools for AI applications.
 
@@ -320,7 +320,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `automl` `awesome-list` `research`
   </details>
 
-- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 883` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
+- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 886` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
 
   Provides a centralized starting point for developers to navigate the rapidly shifting landscape of LLM architectures and agentic patterns.
 
@@ -347,7 +347,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `cli` `coding-agents` `directory` `awesome-list`
   </details>
 
-- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 798` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
+- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 809` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
 
   It provides a centralized directory for the emerging 'vibe coding' workflow, gathering high-level builders and IDEs focused on prompt-driven development.
 
@@ -423,7 +423,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 _These are new or low-traffic entries being watched._
 
-- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 142` `updated ≤1y` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
+- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 143` `updated ≤1y` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
 
   Provides developers with a navigable directory of agent frameworks, tools, and platforms to explore or integrate into their workflows.
 

@@ -118,7 +118,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-27T05:21:15.526Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-06T05:07:20.947Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for benswel/qr-for-agent-api
     next_retry_at: null

@@ -68,7 +68,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `rag` `ai-agents` `self-hosted`
   </details>
 
-- **[NanoChat](https://github.com/karpathy/nanochat)** `⭐ 56.8k` `updated ≤30d` A local, lightweight chatbot implementation described as 'The best ChatGPT that $100 can buy.'. <details><summary>More about</summary>
+- **[NanoChat](https://github.com/karpathy/nanochat)** `⭐ 56.8k` `updated ≤90d` A local, lightweight chatbot implementation described as 'The best ChatGPT that $100 can buy.'. <details><summary>More about</summary>
 
   Offers developers a cost-effective, self-contained alternative to cloud-based chat assistants for experimentation or local use.
 

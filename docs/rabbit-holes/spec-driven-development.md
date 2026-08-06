@@ -32,7 +32,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `agent-orchestration` `workflow-automation` `ai-collaboration` `agile`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.2k` `updated ≤180d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.4k` `updated ≤180d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
 
   It attempts to standardize how developers communicate environment tips, testing requirements, and PR guidelines directly to autonomous agents.
 
@@ -104,7 +104,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `codebase-indexing` `prd` `multi-agent`
   </details>
 
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 446` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 453` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
 
   It provides a formal framework to prevent complex multi-agent or human-AI projects from devolving into incoherent, unreviewable conversational loops.
 
@@ -180,7 +180,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven-development` `cli` `claude-code` `agentic-workflows` `documentation`
   </details>
 
-- **[Cosmosmith](https://github.com/devnomad-byte/cosmosmith)** `⭐ 20` `updated ≤30d` Cosmosmith initializes project rules, spec templates, task ledgers, and editor adapters for AI coding agents in one command. <details><summary>More about</summary>
+- **[Cosmosmith](https://github.com/devnomad-byte/cosmosmith)** `⭐ 20` `updated ≤90d` Cosmosmith initializes project rules, spec templates, task ledgers, and editor adapters for AI coding agents in one command. <details><summary>More about</summary>
 
   It gives AI agents a structured workflow with role-based responsibilities and evidence gates to reduce drifting and rework.
 

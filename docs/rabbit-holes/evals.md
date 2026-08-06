@@ -77,7 +77,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `function-calling` `benchmarks` `llm-eval` `api-integration` `research`
   </details>
 
-- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 10.8k` `updated ≤30d` Open-source AI observability and evaluation platform for tracing, experimenting, and optimizing AI applications. <details><summary>More about</summary>
+- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 10.9k` `updated ≤30d` Open-source AI observability and evaluation platform for tracing, experimenting, and optimizing AI applications. <details><summary>More about</summary>
 
   Developers can instrument, debug, and compare LLM behavior in production or staging without vendor lock-in.
 
@@ -356,7 +356,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `agent-evaluation` `dataset-generation` `fine-tuning` `mcp-compatible` `synthetic-data`
   </details>
 
-- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 748` `updated ≤30d` OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated graders and rubrics. <details><summary>More about</summary>
+- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 770` `updated ≤30d` OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated graders and rubrics. <details><summary>More about</summary>
 
   It provides a structured way to move from 'vibes-based' testing to reproducible evaluation, allowing developers to turn grading results into reward signals for fine-tuning.
 
@@ -401,7 +401,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `benchmarking` `evaluation` `llm-testing` `dataset-generation` `huggingface`
   </details>
 
-- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 379` `updated ≤1y` A CLI tool for benchmarking the throughput and tokens-per-second performance of local LLMs running via Ollama. <details><summary>More about</summary>
+- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 381` `updated ≤1y` A CLI tool for benchmarking the throughput and tokens-per-second performance of local LLMs running via Ollama. <details><summary>More about</summary>
 
   It allows developers to quantitatively measure the hardware performance and inference speed of local models across different RAM configurations.
 
@@ -428,7 +428,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `benchmark` `contamination` `training-data` `eval` `research`
   </details>
 
-- **[datasetloom](https://github.com/599yongyang/datasetloom)** `⭐ 291` `updated ≤1y` An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and RAG-enhanced data generation. <details><summary>More about</summary>
+- **[datasetloom](https://github.com/599yongyang/datasetloom)** `⭐ 292` `updated ≤1y` An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and RAG-enhanced data generation. <details><summary>More about</summary>
 
   It automates the complex pipeline of transforming unstructured documents and images into high-quality, structured datasets for fine-tuning multimodal models.
 
@@ -491,7 +491,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `rag` `benchmarking` `evaluation` `llm` `retrieval`
   </details>
 
-- **[Plexiglass](https://github.com/w4-advisory/plexiglass)** `⭐ 153` `updated ≤180d` A CLI toolkit for detecting and protecting against LLM vulnerabilities by testing models against adversarial attacks like prompt injection and jailbreaking. <details><summary>More about</summary>
+- **[Plexiglass](https://github.com/w4-advisory/plexiglass)** `⭐ 153` `updated ≤1y` A CLI toolkit for detecting and protecting against LLM vulnerabilities by testing models against adversarial attacks like prompt injection and jailbreaking. <details><summary>More about</summary>
 
   It lets developers benchmark and harden their LLM integrations against security, bias, and toxicity risks using real-world adversarial datasets.
 
