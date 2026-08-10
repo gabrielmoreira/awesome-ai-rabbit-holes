@@ -23,7 +23,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `app-builder` `local-ai` `open-source` `prompt-to-app` `typescript`
   </details>
 
-- **[chatbot](https://github.com/vercel/chatbot)** `⭐ 20.7k` `updated ≤30d` A full-featured, hackable Next.js AI chatbot template built with Vercel's AI SDK for creating chat applications. <details><summary>More about</summary>
+- **[chatbot](https://github.com/vercel/chatbot)** `⭐ 20.7k` `updated ≤90d` A full-featured, hackable Next.js AI chatbot template built with Vercel's AI SDK for creating chat applications. <details><summary>More about</summary>
 
   Provides developers with a production-ready foundation for building AI-powered chat applications with authentication, persistence, and multi-provider support.
 
@@ -32,7 +32,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `chatbot` `nextjs` `ai-sdk` `vercel` `open-source`
   </details>
 
-- **[Bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** `⭐ 19.6k` `updated ≤180d` An open-source, browser-based development environment that lets you prompt, run, edit, and deploy full-stack web applications using your choice of 19+ LLM providers. <details><summary>More about</summary>
+- **[Bolt.diy](https://github.com/stackblitz-labs/bolt.diy)** `⭐ 19.6k` `updated ≤1y` An open-source, browser-based development environment that lets you prompt, run, edit, and deploy full-stack web applications using your choice of 19+ LLM providers. <details><summary>More about</summary>
 
   It decouples the AI coding experience from proprietary backends, letting developers self-host and swap models while generating and deploying NodeJS apps directly from the browser.
 
@@ -153,7 +153,7 @@ _These are new or low-traffic entries being watched._
   `prompt-to-app` `nodejs` `gpt-4` `scaffolding`
   </details>
 
-- **[xmpuspus/cloudwright](https://github.com/xmpuspus/cloudwright)** `⭐ 32` `updated ≤30d` Cloudwright is a CLI tool that generates Terraform, cost estimates, and compliance reports from natural-language cloud architecture descriptions. <details><summary>More about</summary>
+- **[xmpuspus/cloudwright](https://github.com/xmpuspus/cloudwright)** `⭐ 32` `updated ≤90d` Cloudwright is a CLI tool that generates Terraform, cost estimates, and compliance reports from natural-language cloud architecture descriptions. <details><summary>More about</summary>
 
   It lets developers design and validate cloud infrastructure with a single prompt, reducing manual effort in IaC creation and compliance checks.
 

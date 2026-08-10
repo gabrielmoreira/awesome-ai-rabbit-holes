@@ -68,9 +68,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-30T05:05:30.680Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-10T04:36:20.558Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for discava/mcp-server
     next_retry_at: null
   categorize:
     status: done

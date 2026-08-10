@@ -75,23 +75,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:21:35.819Z"
+    updated_at: "2026-08-10T04:36:27.779Z"
     cause:
       type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__mintmcp__servers: {
-          "summary": "MintMCP Servers is a collection of MCP-compatible servers that connect AI agents to Google Calendar, Gmail, Outlook Calendar, and Outlook email via remote execution.",
-          "why_it_matters": "It lets developers extend AI agents with real-world productivity tools like email and calendar without building custom integrations.",
-          "mental_damage": "Another MCP server to add to the growing list of things you’ll forget you configured until your AI starts sending meeting invites at 3 a.m.",
-          "tags": ["mcp", "email", "calendar", "ai-integrations"],
-          "should_include": true,
-          "primary_category": "mcp",
-          "section": "Domain Servers",
-          "decision_reason": "The product’s core identity is providing MCP servers for email and calendar access, making it a clear fit for MCP Servers & Tooling as domain-specific infrastructure.",
-          "decision_evidence": [
-            "Repo description: 'MintMCP Servers'",
-            "README provides MCP server URLs and tool definitions for Gmail, Google Calendar, Gmail, and
+      message: "Catalog LLM categorization failed for github__mintmcp__servers: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

@@ -167,7 +167,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm` `coding-model` `local-ai` `qwen` `open-weight`
   </details>
 
-- **[OpenLLM](https://github.com/bentoml/openllm)** `⭐ 12.4k` `updated ≤30d` A tool to run any open-source LLM as an OpenAI-compatible API endpoint, with support for cloud deployment. <details><summary>More about</summary>
+- **[OpenLLM](https://github.com/bentoml/openllm)** `⭐ 12.5k` `updated ≤30d` A tool to run any open-source LLM as an OpenAI-compatible API endpoint, with support for cloud deployment. <details><summary>More about</summary>
 
   Developers can self-host and serve state-of-the-art open models (Llama, Mistral, Qwen, etc.) with a single command, enabling local or cloud-based inference without vendor lock-in.
 
@@ -194,7 +194,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-llm` `python` `inference` `llama-cpp` `quantization`
   </details>
 
-- **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.4k` `updated >1y` A distributed system for running large language models locally via a BitTorrent-style network, enabling inference and fine-tuning on consumer hardware. <details><summary>More about</summary>
+- **[petals](https://github.com/bigscience-workshop/petals)** `⭐ 10.5k` `updated >1y` A distributed system for running large language models locally via a BitTorrent-style network, enabling inference and fine-tuning on consumer hardware. <details><summary>More about</summary>
 
   Developers can run and fine-tune state-of-the-art models like Llama 3.1 (405B) or Mixtral (8x22B) on their own machines by sharing compute across a decentralized network.
 
@@ -212,7 +212,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `model-serving` `llm-inference` `open-source` `api` `deployment`
   </details>
 
-- **[enchanted](https://github.com/gluonfield/enchanted)** `⭐ 6k` `updated ≤30d` Enchanted is an open-source iOS/macOS/visionOS app for chatting with private, self-hosted language models via Ollama. <details><summary>More about</summary>
+- **[enchanted](https://github.com/gluonfield/enchanted)** `⭐ 6k` `updated ≤90d` Enchanted is an open-source iOS/macOS/visionOS app for chatting with private, self-hosted language models via Ollama. <details><summary>More about</summary>
 
   It provides a native, privacy-first chat interface for developers running local LLMs, bridging the gap between on-device inference and a polished user experience.
 
@@ -410,7 +410,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `inference` `openai-compatible` `self-hosted` `llm-serving`
   </details>
 
-- **[DashInfer](https://github.com/modelscope/dash-infer)** `⭐ 273` `updated ≤1y` DashInfer is a high-performance, C++-based LLM inference engine with C++ and Python APIs, optimized for CUDA, x86, and ARMv9 hardware architectures. <details><summary>More about</summary>
+- **[DashInfer](https://github.com/modelscope/dash-infer)** `⭐ 273` `updated >1y` DashInfer is a high-performance, C++-based LLM inference engine with C++ and Python APIs, optimized for CUDA, x86, and ARMv9 hardware architectures. <details><summary>More about</summary>
 
   It allows developers to deploy optimized local LLM inference with features like continuous batching and quantized caching across diverse hardware without heavy dependencies.
 
@@ -419,7 +419,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `cpp` `cuda` `performance`
   </details>
 
-- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 179` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
+- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 186` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
 
   It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
 

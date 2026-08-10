@@ -95,7 +95,7 @@ Tools and platforms for coordinating multiple agents.
   `agent-orchestration` `rag` `workflow` `mcp` `self-hosted`
   </details>
 
-- **[vibe-kanban](https://github.com/bloopai/vibe-kanban)** `⭐ 27.5k` `updated ≤180d` A kanban-based task manager and workspace orchestrator for coordinating multiple coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
+- **[vibe-kanban](https://github.com/bloopai/vibe-kanban)** `⭐ 27.7k` `updated ≤180d` A kanban-based task manager and workspace orchestrator for coordinating multiple coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
 
   It streamlines planning, execution, and review workflows for developers using AI coding agents by providing a unified interface for task management and agent coordination.
 
@@ -140,7 +140,7 @@ Tools and platforms for coordinating multiple agents.
   `openclaw` `nvidia` `openshell` `agent-infrastructure` `sandbox`
   </details>
 
-- **[coze-studio](https://github.com/coze-dev/coze-studio)** `⭐ 21.3k` `updated ≤180d` An open-source AI agent development platform with visual tools for building, debugging, and deploying agents, workflows, and apps. <details><summary>More about</summary>
+- **[coze-studio](https://github.com/coze-dev/coze-studio)** `⭐ 21.4k` `updated ≤30d` An open-source AI agent development platform with visual tools for building, debugging, and deploying agents, workflows, and apps. <details><summary>More about</summary>
 
   It lowers the barrier to creating production-grade AI agents by providing a no-code/low-code environment with built-in workflows, knowledge bases, and plugin systems.
 
@@ -185,7 +185,7 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `orchestration` `git-backed` `workspace-manager`
   </details>
 
-- **[Botpress](https://github.com/botpress/botpress)** `⭐ 14.8k` `updated ≤30d` An open-source platform for building and deploying GPT/LLM-powered chatbots and assistants. <details><summary>More about</summary>
+- **[Botpress](https://github.com/botpress/botpress)** `⭐ 14.9k` `updated ≤30d` An open-source platform for building and deploying GPT/LLM-powered chatbots and assistants. <details><summary>More about</summary>
 
   It provides developers with a full-stack environment to create, deploy, and manage AI agents for chatbots and assistants, accelerating the development of conversational AI applications.
 
@@ -230,7 +230,7 @@ Tools and platforms for coordinating multiple agents.
   `agent-orchestration` `enterprise` `low-code` `multi-agent` `workflow-engine`
   </details>
 
-- **[UFO](https://github.com/microsoft/ufo)** `⭐ 9.4k` `updated ≤30d` UFO³ is a Microsoft research project that provides a multi-device agent orchestration platform (Galaxy) and a Windows desktop agent (UFO²) for automating GUI and API tasks across heterogeneous platforms. <details><summary>More about</summary>
+- **[UFO](https://github.com/microsoft/ufo)** `⭐ 9.4k` `updated ≤90d` UFO³ is a Microsoft research project that provides a multi-device agent orchestration platform (Galaxy) and a Windows desktop agent (UFO²) for automating GUI and API tasks across heterogeneous platforms. <details><summary>More about</summary>
 
   It offers developers a structured way to decompose complex workflows into DAG-based tasks that run across multiple devices, bridging desktop automation with modern LLM orchestration.
 
@@ -410,7 +410,7 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `orchestration` `production`
   </details>
 
-- **[mux](https://github.com/coder/mux)** `⭐ 1.9k` `updated ≤30d` A desktop app for isolated, parallel agentic development with multi-model support and workspace management. <details><summary>More about</summary>
+- **[mux](https://github.com/coder/mux)** `⭐ 2k` `updated ≤30d` A desktop app for isolated, parallel agentic development with multi-model support and workspace management. <details><summary>More about</summary>
 
   Enables developers to coordinate multiple AI agents across local or remote workspaces, streamlining complex coding tasks with parallel execution and git-aware isolation.
 
@@ -464,7 +464,7 @@ Tools and platforms for coordinating multiple agents.
   `agent-orchestration` `agent-os` `context-engineering` `context-management` `local-ai` `mcp` `meta-agent` `multi-agent` `orchestration`
   </details>
 
-- **[Flock](https://github.com/onelevenvy/flock)** `⭐ 1.1k` `updated ≤30d` Flock is a low-code, workflow-based platform for building chatbots, RAG pipelines, and multi-agent systems using LangGraph, LangChain, FastAPI, and NextJS. <details><summary>More about</summary>
+- **[Flock](https://github.com/onelevenvy/flock)** `⭐ 1.1k` `updated ≤90d` Flock is a low-code, workflow-based platform for building chatbots, RAG pipelines, and multi-agent systems using LangGraph, LangChain, FastAPI, and NextJS. <details><summary>More about</summary>
 
   It provides a visual workbench for developers to orchestrate complex LangChain and LangGraph agents without writing extensive boilerplate code.
 
@@ -608,6 +608,15 @@ Tools and platforms for coordinating multiple agents.
   `local-ai` `multi-agent` `mcp` `no-code` `crypto-agents`
   </details>
 
+- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 421` `updated ≤180d` Localhost service isolation and orchestration for git worktrees, enabling multiple isolated development environments on a single machine. <details><summary>More about</summary>
+
+  It lets developers run parallel instances of their full dev stack (Docker Compose or otherwise) with isolated networking/volumes, then bind canonical ports to the host one at a time—useful for testing changes across multiple branches or worktrees without manual teardown.
+
+  _Finally, a way to spin up 17 identical copies of your microservice hellscape so you can debug them all at once._
+
+  `dev-environments` `git-worktrees` `docker-compose` `parallel-testing` `local-orchestration`
+  </details>
+
 - **[hcom](https://github.com/aannoo/hcom)** `⭐ 420` `updated ≤30d` A CLI tool that enables AI agents to communicate, observe, and spawn one another across different terminal sessions. <details><summary>More about</summary>
 
   It allows developers to build multi-agent pipelines by letting disparate CLI agents like Claude Code and Cursor exchange messages and file edits directly.
@@ -615,15 +624,6 @@ Tools and platforms for coordinating multiple agents.
   _Nothing says 'future of software engineering' quite like watching a recursive loop of terminal-native agents arguing over a single SQLite database._
 
   `multi-agent` `cli` `orchestration` `terminal` `agent-communication`
-  </details>
-
-- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 419` `updated ≤180d` Localhost service isolation and orchestration for git worktrees, enabling multiple isolated development environments on a single machine. <details><summary>More about</summary>
-
-  It lets developers run parallel instances of their full dev stack (Docker Compose or otherwise) with isolated networking/volumes, then bind canonical ports to the host one at a time—useful for testing changes across multiple branches or worktrees without manual teardown.
-
-  _Finally, a way to spin up 17 identical copies of your microservice hellscape so you can debug them all at once._
-
-  `dev-environments` `git-worktrees` `docker-compose` `parallel-testing` `local-orchestration`
   </details>
 
 - **[ntm](https://github.com/dicklesworthstone/ntm)** `⭐ 408` `updated ≤30d` NTM is a Go-based TUI tool that orchestrates multiple AI coding agents across tmux panes with session labeling, work triage, safety approvals, and robot surfaces. <details><summary>More about</summary>
@@ -720,7 +720,7 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `orchestration` `autonomous-coding` `claude-code` `verification`
   </details>
 
-- **[Flock](https://github.com/whiteducksoftware/flock)** `⭐ 114` `updated ≤30d` Flock is a declarative blackboard-based framework for orchestrating multiple AI agents using type contracts and event-driven architecture. <details><summary>More about</summary>
+- **[Flock](https://github.com/whiteducksoftware/flock)** `⭐ 114` `updated ≤90d` Flock is a declarative blackboard-based framework for orchestrating multiple AI agents using type contracts and event-driven architecture. <details><summary>More about</summary>
 
   It replaces fragile prompt engineering and tight coupling with reliable, testable multi-agent coordination grounded in distributed systems patterns.
 

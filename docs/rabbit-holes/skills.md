@@ -32,7 +32,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `workflow-automation` `prompt-engineering` `cursor-rules` `claude-code`
   </details>
 
-- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 71k` `updated ≤30d` A curated list of 1000+ production-ready Claude Skills and plugins for enhancing AI agent workflows across coding assistants like Claude Code, Cursor, and others. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 72.2k` `updated ≤30d` A curated list of 1000+ production-ready Claude Skills and plugins for enhancing AI agent workflows across coding assistants like Claude Code, Cursor, and others. <details><summary>More about</summary>
 
   Developers can discover reusable skill packs to extend their AI coding assistants with domain-specific workflows, integrations, and guardrails without reinventing the wheel.
 
@@ -59,7 +59,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `scientific-computing` `agent-skills` `bioinformatics` `research-tools` `ai-agents`
   </details>
 
-- **[awesome-agent-skills](https://github.com/voltagent/awesome-agent-skills)** `⭐ 28.6k` `updated ≤30d` A curated collection of 1100+ reusable agent skills for coding assistants like Claude Code, Cursor, and Gemini CLI. <details><summary>More about</summary>
+- **[awesome-agent-skills](https://github.com/voltagent/awesome-agent-skills)** `⭐ 28.6k` `updated ≤90d` A curated collection of 1100+ reusable agent skills for coding assistants like Claude Code, Cursor, and Gemini CLI. <details><summary>More about</summary>
 
   Saves developers time by providing vetted, production-grade skill packs from real engineering teams instead of AI-generated noise.
 
@@ -162,7 +162,7 @@ _These are new or low-traffic entries being watched._
   `git-analysis` `agent-skills` `codebase-health`
   </details>
 
-- **[Citedy/citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 17` `updated ≤90d` An AI-powered SEO content automation agent skill for trend scouting, competitor analysis, multilingual article generation, and social media adaptations. <details><summary>More about</summary>
+- **[Citedy/citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 18` `updated ≤90d` An AI-powered SEO content automation agent skill for trend scouting, competitor analysis, multilingual article generation, and social media adaptations. <details><summary>More about</summary>
 
   Developers and marketers can integrate this skill into AI agents to automate end-to-end SEO content workflows, from research to multi-platform publishing.
 

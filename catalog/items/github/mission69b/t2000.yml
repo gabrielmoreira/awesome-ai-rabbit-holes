@@ -88,11 +88,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:21:33.904Z"
+    updated_at: "2026-08-10T04:36:27.545Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__mission69b__t2000: Invalid AI response format: SyntaxError: Unexpected number in JSON at position 696 (line 9 column 23)"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__mission69b__t2000: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

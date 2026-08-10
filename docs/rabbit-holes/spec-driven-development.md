@@ -23,7 +23,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `ai-coding-assistants` `workflow`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 51.2k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 51.7k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
 
   It provides developers with guided, expert-collaborator workflows for end-to-end project development, from brainstorming to deployment, rather than just generating code.
 
@@ -113,7 +113,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `system-engineering` `multi-agent` `governance` `reasoning`
   </details>
 
-- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 374` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, including technical documentation, architecture diagrams, and AI coding prompts. <details><summary>More about</summary>
+- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 376` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, including technical documentation, architecture diagrams, and AI coding prompts. <details><summary>More about</summary>
 
   It accelerates the planning phase for developers, product managers, and entrepreneurs by generating structured development plans and ready-to-use AI coding prompts in minutes.
 
@@ -131,7 +131,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `code-generation` `proof-of-concept`
   </details>
 
-- **[codervisor/lean-spec](https://github.com/codervisor/leanspec)** `⭐ 274` `updated ≤90d` Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support. <details><summary>More about</summary>
+- **[codervisor/lean-spec](https://github.com/codervisor/leanspec)** `⭐ 277` `updated ≤90d` Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support. <details><summary>More about</summary>
 
   Lets developers use their existing issue trackers (GitHub, ADO, Jira, etc.) as spec backends while adding a unified interface, AI-native workflows, and visualization tools for SDD.
 
@@ -216,6 +216,15 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `ai-contracts` `coding-agents` `mcp` `workflow`
   </details>
 
+- **[colign](https://github.com/colign/colign)** `⭐ 7` `updated ≤180d` An open-source platform for collaborative spec writing and team alignment before handing implementation to AI coding agents. <details><summary>More about</summary>
+
+  It targets the upstream bottleneck where teams fail to agree on what to build before AI generates code, making structured specs the controlling artifact.
+
+  _We automated code generation only to discover the real bottleneck was getting humans to agree on acceptance criteria, so now there is a kanban board for that._
+
+  `spec-driven-development` `ai-collaboration` `team-alignment` `mcp` `spec-writing`
+  </details>
+
 - **[mmorris35/devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 6` `updated ≤90d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code. <details><summary>More about</summary>
 
   It enforces a structured spec-first workflow by turning vague project ideas into validated, copy-pasteable implementation plans with built-in progress tracking.
@@ -241,15 +250,6 @@ _These are new or low-traffic entries being watched._
   _We have officially reached the point where your coding agent needs its own project manager, onboarding questionnaire, and middleware to avoid recursively inventing agile ceremonies._
 
   `claude-code` `spec-driven` `planning` `agent-skills`
-  </details>
-
-- **[colign](https://github.com/colign/colign)** `⭐ 5` `updated ≤180d` An open-source platform for collaborative spec writing and team alignment before handing implementation to AI coding agents. <details><summary>More about</summary>
-
-  It targets the upstream bottleneck where teams fail to agree on what to build before AI generates code, making structured specs the controlling artifact.
-
-  _We automated code generation only to discover the real bottleneck was getting humans to agree on acceptance criteria, so now there is a kanban board for that._
-
-  `spec-driven-development` `ai-collaboration` `team-alignment` `mcp` `spec-writing`
   </details>
 
 - **[jiezeng2004-design/PatchWarden](https://github.com/jiezeng2004-design/patchwarden)** `⭐ 3` `updated ≤30d` A local-first MCP bridge that provides a safety and verification layer for AI coding agents through workspace confinement and command allowlisting. <details><summary>More about</summary>

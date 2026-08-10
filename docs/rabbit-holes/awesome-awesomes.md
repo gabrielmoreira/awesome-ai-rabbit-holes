@@ -41,7 +41,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `github-copilot` `agent-skills`
   </details>
 
-- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 29.2k` `updated ≤30d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 29.2k` `updated ≤90d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
 
   It provides developers with a structured, discoverable map of the AI agent ecosystem, saving time in finding relevant tools for building or integrating agents.
 
@@ -248,7 +248,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `curated-list` `directory` `ai-coding` `developer-tools`
   </details>
 
-- **[awesome-LangGraph](https://github.com/vonzosten/awesome-langgraph)** `⭐ 1.9k` `updated ≤30d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps. <details><summary>More about</summary>
+- **[awesome-LangGraph](https://github.com/vonzosten/awesome-langgraph)** `⭐ 1.9k` `updated ≤90d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps. <details><summary>More about</summary>
 
   Helps developers navigate the rapidly expanding LangGraph and LangChain ecosystem by providing a curated map of frameworks, integrations, and learning resources.
 
@@ -302,13 +302,22 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `language-agents` `research`
   </details>
 
-- **[awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks)** `⭐ 1.2k` `updated ≤30d` A curated database of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging, and deploying autonomous AI agents. <details><summary>More about</summary>
+- **[awesome-ai-sdks](https://github.com/e2b-dev/awesome-ai-sdks)** `⭐ 1.2k` `updated ≤90d` A curated database of SDKs, frameworks, libraries, and tools for creating, monitoring, debugging, and deploying autonomous AI agents. <details><summary>More about</summary>
 
   Developers can discover and compare foundational building blocks for agent development without reinventing infrastructure.
 
   _Another list to bookmark because you’ll forget which of the 17 agent frameworks you tried last week actually worked._
 
   `awesome-list` `ai-agents` `sdk` `framework` `directory`
+  </details>
+
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 971` `updated ≤30d` Curated directory of terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
+
+  Developers can discover and compare CLI-based coding agents and their orchestration tools in one place.
+
+  _Because nothing says 'productivity' like 80+ ways to let an AI rewrite your repo while you watch._
+
+  `cli` `coding-agents` `directory` `awesome-list`
   </details>
 
 - **[Awesome AutoML](https://github.com/windmaple/awesome-automl)** `⭐ 940` `updated ≤180d` A curated GitHub repository listing AutoML research papers, tools, and resources for developers interested in automated machine learning. <details><summary>More about</summary>
@@ -336,15 +345,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _We have now reached the stage of AI tooling where we need a dedicated list just to keep track of the lists that index the servers for the protocol that helps our assistants talk to the tools._
 
   `mcp` `directory` `ecosystem` `developer-tools`
-  </details>
-
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 875` `updated ≤30d` Curated directory of terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
-
-  Developers can discover and compare CLI-based coding agents and their orchestration tools in one place.
-
-  _Because nothing says 'productivity' like 80+ ways to let an AI rewrite your repo while you watch._
-
-  `cli` `coding-agents` `directory` `awesome-list`
   </details>
 
 - **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 809` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>

@@ -1,9 +1,9 @@
-id: github__codelogicincengineering__codelogic-mcp-server
+id: github__lineai-intelligence__lineai-mcp-server
 kind: github-repo
-name: codelogic-mcp-server
-canonical_url: https://github.com/codelogicincengineering/codelogic-mcp-server
+name: lineai-intelligence/lineai-mcp-server
+canonical_url: https://github.com/lineai-intelligence/lineai-mcp-server
 identity:
-  github_repo: codelogicincengineering/codelogic-mcp-server
+  github_repo: lineai-intelligence/lineai-mcp-server
 provenance:
   discoveries:
     - id: discovery__github__codelogicincengineering__codelogic-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
@@ -22,17 +22,33 @@ provenance:
         extracted_url: https://github.com/codelogicincengineering/codelogic-mcp-server
         surrounding_text: "- [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - Official MCP server for CodeLogic, providing access to code dependency analytics, architectural risk analysis, and impact assessment tools."
         confidence: high
+    - id: discovery__github__lineai-intelligence__lineai-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-08-10T04:35:51.194Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: CodeLogicIncEngineering/codelogic-mcp-server
+        extracted_url: https://github.com/codelogicincengineering/codelogic-mcp-server
+        surrounding_text: "- [CodeLogicIncEngineering/codelogic-mcp-server](https://github.com/CodeLogicIncEngineering/codelogic-mcp-server) 🎖️ 🐍 ☁️ 🍎 🪟 🐧 - Official MCP server for CodeLogic, providing access to code dependency analytics, architectural risk analysis, and impact assessment tools."
+        confidence: high
 metadata:
   github:
     stars: 38
-    forks: 16
+    forks: 15
     license: MPL-2.0
     archived: false
-    full_name: CodeLogicIncEngineering/codelogic-mcp-server
-    html_url: https://github.com/CodeLogicIncEngineering/codelogic-mcp-server
+    full_name: lineai-intelligence/lineai-mcp-server
+    html_url: https://github.com/lineai-intelligence/lineai-mcp-server
     created_at: "2025-04-02T13:11:29Z"
-    pushed_at: "2026-07-15T13:46:39Z"
-    description: An MCP Server to utilize Codelogic's rich software dependency data in your AI programming assistant.
+    pushed_at: "2026-08-07T12:15:51Z"
+    description: An MCP Server to utilize Lineai's rich software dependency data in your AI programming assistant.
     homepage: https://codelogic.com/
     topics:
       - ai
@@ -40,20 +56,20 @@ metadata:
       - coding
       - developer-tools
       - mcp-server
-    last_checked_at: "2026-07-27T05:21:26.985Z"
+    last_checked_at: "2026-08-10T04:36:08.246Z"
     readme:
-      fetched_at: "2026-07-27T05:21:26.985Z"
-      bytes: 20845
+      fetched_at: "2026-08-10T04:36:08.246Z"
+      bytes: 17237
 insights:
   summary: An MCP server that exposes CodeLogic's software dependency graph and impact analysis to AI programming assistants.
   why_it_matters: It lets AI assistants query detailed code-to-database dependencies and impact paths before editing, reducing the risk of breaking changes in complex systems.
   mental_damage: Your AI assistant can now calculate the exact blast radius of a refactor across your monolith, provided you maintain a separate enterprise dependency graph just to keep it informed.
   tags:
-    - mcp
+    - ai-assistants
+    - code-graph
     - dependency-analysis
     - impact-analysis
-    - code-graph
-    - ai-assistants
+    - mcp
   confidence: high
 curation:
   status: included
@@ -69,16 +85,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-06T22:12:15.608Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-07-27T05:21:26.985Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-07-21T15:45:04.355Z"
@@ -105,3 +111,13 @@ processing:
       contrastive_reason: Choose mcp over ai-dev-extensions because the artifact itself is an MCP server implementation with MCP as its product identity, not merely an augmentation layer for a specific host editor.
       review_reason: null
       review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-08-10T04:35:51.195Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-08-10T04:36:08.246Z"
+    cause: null
+    next_retry_at: null

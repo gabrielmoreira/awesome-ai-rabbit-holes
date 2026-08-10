@@ -32,7 +32,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `eval` `red-teaming` `cli` `llm-testing` `ci-cd`
   </details>
 
-- **[Opik](https://github.com/comet-ml/opik)** `⭐ 20.9k` `updated ≤30d` Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic workflows. <details><summary>More about</summary>
+- **[Opik](https://github.com/comet-ml/opik)** `⭐ 21.3k` `updated ≤30d` Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic workflows. <details><summary>More about</summary>
 
   It provides comprehensive tracing, automated evaluations, and production-ready dashboards to debug and improve AI applications from prototype to production.
 
@@ -41,7 +41,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `evaluation` `tracing` `llmops` `rag`
   </details>
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 17.2k` `updated ≤30d` An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots. <details><summary>More about</summary>
+- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 17.5k` `updated ≤30d` An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots. <details><summary>More about</summary>
 
   It lets developers measure and compare model quality, prompt effectiveness, and architecture choices with research-backed metrics like G-Eval and task completion.
 
@@ -221,7 +221,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `observability` `evals` `ai-agents` `monitoring` `tracing`
   </details>
 
-- **[prompttools](https://github.com/hegelai/prompttools)** `⭐ 3k` `updated ≤180d` Open-source Python library for testing, experimenting with, and evaluating prompts, LLMs, and vector databases. <details><summary>More about</summary>
+- **[prompttools](https://github.com/hegelai/prompttools)** `⭐ 3k` `updated ≤1y` Open-source Python library for testing, experimenting with, and evaluating prompts, LLMs, and vector databases. <details><summary>More about</summary>
 
   Developers can programmatically compare model outputs, parameters, and retrieval accuracy across providers like OpenAI, Anthropic, and LLaMA via a unified code interface.
 
@@ -266,7 +266,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evaluation` `llm` `guidebook` `benchmarks` `huggingface`
   </details>
 
-- **[alpaca_eval](https://github.com/tatsu-lab/alpaca_eval)** `⭐ 2k` `updated ≤1y` An automatic evaluator for instruction-following language models that uses a powerful LLM to score outputs against a reference model, validated against 20K human annotations. <details><summary>More about</summary>
+- **[alpaca_eval](https://github.com/tatsu-lab/alpaca_eval)** `⭐ 2k` `updated >1y` An automatic evaluator for instruction-following language models that uses a powerful LLM to score outputs against a reference model, validated against 20K human annotations. <details><summary>More about</summary>
 
   It enables developers to quickly benchmark model quality during development for under $10 and in under 3 minutes, replacing slow and expensive human evaluation loops.
 
@@ -446,7 +446,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `mathematical-reasoning` `benchmarking` `reasoning-traces`
   </details>
 
-- **[LangFair](https://github.com/cvs-health/langfair)** `⭐ 260` `updated ≤90d` LangFair is a Python library for conducting use-case level LLM bias and fairness assessments. <details><summary>More about</summary>
+- **[LangFair](https://github.com/cvs-health/langfair)** `⭐ 261` `updated ≤90d` LangFair is a Python library for conducting use-case level LLM bias and fairness assessments. <details><summary>More about</summary>
 
   It enables developers to tailor bias and fairness evaluations to specific LLM use cases with a BYOP (Bring Your Own Prompts) approach, ensuring real-world relevance.
 
@@ -558,7 +558,7 @@ _These are new or low-traffic entries being watched._
   `agent-testing` `voice-ai` `simulation` `python-sdk` `evals`
   </details>
 
-- **[futureagi-sdk](https://github.com/future-agi/futureagi-sdk)** `⭐ 49` `updated ≤30d` An open-source SDK for AI evaluation, prompt management, and observability, supporting Python and TypeScript. <details><summary>More about</summary>
+- **[futureagi-sdk](https://github.com/future-agi/futureagi-sdk)** `⭐ 49` `updated ≤90d` An open-source SDK for AI evaluation, prompt management, and observability, supporting Python and TypeScript. <details><summary>More about</summary>
 
   It provides the necessary infrastructure to measure model performance, manage prompt versioning, and implement real-time guardrails in production agent workflows.
 

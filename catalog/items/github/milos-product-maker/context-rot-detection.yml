@@ -75,11 +75,11 @@ processing:
     next_retry_at: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:21:11.838Z"
+    updated_at: "2026-08-10T04:36:26.670Z"
     cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__milos-product-maker__context-rot-detection: Invalid AI response format: SyntaxError: Bad control character in string literal in JSON at position 1145 (line 12 column 197)"
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__milos-product-maker__context-rot-detection: 403 status code (no body)"
     next_retry_at: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

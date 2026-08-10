@@ -90,9 +90,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-30T05:05:30.559Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-10T04:36:20.562Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for dimitrigeelen/agentic-engineering-framework
     next_retry_at: null
   categorize:
     status: done

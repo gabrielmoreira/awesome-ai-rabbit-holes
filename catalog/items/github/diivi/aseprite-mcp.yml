@@ -69,9 +69,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-27T05:21:36.431Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-10T04:36:20.229Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for diivi/aseprite-mcp
     next_retry_at: null
   categorize:
     status: done

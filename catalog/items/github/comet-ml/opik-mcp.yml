@@ -54,25 +54,29 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 215
-    forks: 34
+    stars: 216
+    forks: 35
     license: Apache-2.0
     archived: false
     full_name: comet-ml/opik-mcp
     html_url: https://github.com/comet-ml/opik-mcp
     created_at: "2025-03-11T16:31:03Z"
-    pushed_at: "2026-07-24T09:52:19Z"
-    description: "Model Context Protocol (MCP) implementation for Opik enabling seamless IDE integration and unified access to prompts, projects, traces, and metrics. "
-    homepage: https://www.comet.com/opik/
+    pushed_at: "2026-08-07T19:07:41Z"
+    description: Model Context Protocol (MCP) server for Opik, the open-source LLM observability and evaluation platform, built by Comet. Read traces, log scores, and manage prompts from Claude Code, Cursor, or VS Code.
+    homepage: https://www.comet.com/site/products/opik/
     topics:
+      - claude-code
       - generative-ai
+      - llm-observability
+      - mcp
       - mcp-server
-      - modelcontextprotocol
-      - typescript
-    last_checked_at: "2026-07-27T05:21:28.048Z"
+      - model-context-protocol
+      - opik
+      - python
+    last_checked_at: "2026-08-10T04:36:09.382Z"
     readme:
-      fetched_at: "2026-07-27T05:21:28.048Z"
-      bytes: 18427
+      fetched_at: "2026-08-10T04:36:09.382Z"
+      bytes: 18595
 insights:
   summary: Model Context Protocol (MCP) server implementation for Opik, enabling IDE integration and unified access to prompts, projects, traces, and metrics.
   why_it_matters: Developers can integrate Opik's prompt lifecycle, workspace exploration, and metrics capabilities directly into MCP-compatible clients like Cursor or VS Code.
@@ -105,7 +109,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-27T05:21:28.048Z"
+    updated_at: "2026-08-10T04:36:09.382Z"
     cause: null
     next_retry_at: null
   categorize:

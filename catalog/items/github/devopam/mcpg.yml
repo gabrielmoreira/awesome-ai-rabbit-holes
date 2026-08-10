@@ -70,9 +70,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-27T05:21:35.939Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-10T04:36:19.313Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for devopam/mcpg
     next_retry_at: null
   categorize:
     status: done
