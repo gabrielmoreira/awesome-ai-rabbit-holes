@@ -69,9 +69,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-03T05:16:46.567Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-13T04:39:52.199Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for getcacheoverflow/cacheoverflow
     next_retry_at: null
   categorize:
     status: done

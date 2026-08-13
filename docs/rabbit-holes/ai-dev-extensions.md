@@ -23,7 +23,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `cli` `model-routing` `claude-code` `multi-provider` `terminal`
   </details>
 
-- **[eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master)** `⭐ 27.9k` `updated ≤180d` An AI-driven task management system designed to integrate with AI-native editors like Cursor, Windsurf, and Roo Code. <details><summary>More about</summary>
+- **[eyaltoledano/claude-task-master](https://github.com/eyaltoledano/claude-task-master)** `⭐ 28k` `updated ≤180d` An AI-driven task management system designed to integrate with AI-native editors like Cursor, Windsurf, and Roo Code. <details><summary>More about</summary>
 
   It provides a structured workflow for managing complex AI-driven development tasks across different IDEs using MCP.
 
@@ -41,7 +41,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `terminal` `macos` `ghostty` `cli-harness` `session-manager`
   </details>
 
-- **[happy](https://github.com/slopus/happy)** `⭐ 22.7k` `updated ≤30d` A mobile and web client for Claude Code and Codex that wraps the CLI to enable remote, encrypted, cross-device control of coding sessions. <details><summary>More about</summary>
+- **[happy](https://github.com/slopus/happy)** `⭐ 22.7k` `updated ≤90d` A mobile and web client for Claude Code and Codex that wraps the CLI to enable remote, encrypted, cross-device control of coding sessions. <details><summary>More about</summary>
 
   It lets developers monitor and steer long-running coding agents from their phone with push notifications and end-to-end encryption, removing the desk-tether from agentic workflows.
 
@@ -185,7 +185,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `claude-code` `mobile` `devcontainer` `worktrees` `session-management`
   </details>
 
-- **[awdr74100/figwright](https://github.com/awdr74100/figwright)** `⭐ 348` `updated ≤30d` Figwright is a bidirectional MCP server and Figma plugin that enables AI agents to read and write Figma designs while generating framework-aware code. <details><summary>More about</summary>
+- **[awdr74100/figwright](https://github.com/awdr74100/figwright)** `⭐ 487` `updated ≤30d` Figwright is a bidirectional MCP server and Figma plugin that enables AI agents to read and write Figma designs while generating framework-aware code. <details><summary>More about</summary>
 
   It lets developers use Claude Code, Cursor, or any MCP client to directly implement and edit designs in Figma without requiring a paid Dev Mode seat.
 
@@ -221,7 +221,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `comfyui` `mcp` `claude-code` `image-generation` `workflow-automation`
   </details>
 
-- **[cc-router](https://github.com/finch-xu/cc-router)** `⭐ 214` `updated ≤30d` A local proxy and router that aggregates multiple LLM subscription plans and API quotas into a single virtual endpoint for various AI coding tools. <details><summary>More about</summary>
+- **[cc-router](https://github.com/finch-xu/cc-router)** `⭐ 219` `updated ≤30d` A local proxy and router that aggregates multiple LLM subscription plans and API quotas into a single virtual endpoint for various AI coding tools. <details><summary>More about</summary>
 
   It allows developers to maximize the utility of multiple AI subscriptions by transparently routing requests from tools like Claude Code or Cursor to available token plans.
 
@@ -243,7 +243,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
 
 _These are new or low-traffic entries being watched._
 
-- **[alex-on-ai/WebReaper](https://github.com/alex-on-ai/webreaper)** `⭐ 142` `updated ≤30d` An AI-native web scraper and crawler that provides markdown output and includes a bundled Claude Code skill. <details><summary>More about</summary>
+- **[alex-on-ai/WebReaper](https://github.com/alex-on-ai/webreaper)** `⭐ 144` `updated ≤90d` An AI-native web scraper and crawler that provides markdown output and includes a bundled Claude Code skill. <details><summary>More about</summary>
 
   It enables developers to feed structured web content directly into coding agents or applications via a single binary or.NET library.
 
@@ -306,7 +306,16 @@ _These are new or low-traffic entries being watched._
   `mcp` `memory` `claude-code` `search`
   </details>
 
-- **[ActPlane](https://github.com/eunomia-bpf/actplane)** `⭐ 82` `updated ≤30d` An eBPF-based information flow enforcement engine that provides deterministic safety and security policies for AI agent harnesses. <details><summary>More about</summary>
+- **[codex-profiles](https://github.com/ducksss/codex-profiles)** `⭐ 88` `updated ≤30d` A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts. <details><summary>More about</summary>
+
+  Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
+
+  _The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities._
+
+  `cli` `bash` `account-switching` `codex` `macos`
+  </details>
+
+- **[ActPlane](https://github.com/eunomia-bpf/actplane)** `⭐ 85` `updated ≤30d` An eBPF-based information flow enforcement engine that provides deterministic safety and security policies for AI agent harnesses. <details><summary>More about</summary>
 
   It replaces probabilistic prompt-based guardrails with kernel-level enforcement, preventing agents from bypassing restrictions via subprocesses, shell scripts, or SDK calls.
 
@@ -322,15 +331,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a tool to ensure your autonomous agent doesn't leak your entire GitHub organization's API keys to a hallucinating prompt in a single request._
 
   `security` `secrets-management` `oauth2` `headless` `agent-infra`
-  </details>
-
-- **[codex-profiles](https://github.com/ducksss/codex-profiles)** `⭐ 73` `updated ≤30d` A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts. <details><summary>More about</summary>
-
-  Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
-
-  _The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities._
-
-  `cli` `bash` `account-switching` `codex` `macos`
   </details>
 
 - **[Untether](https://github.com/littlebearapps/untether)** `⭐ 59` `updated ≤30d` A Telegram bridge that lets developers send tasks by voice or text and approve actions for local AI coding agents like Claude Code, Codex, and Gemini CLI from their phone. <details><summary>More about</summary>
@@ -432,7 +432,7 @@ _These are new or low-traffic entries being watched._
   `security` `mcp` `scanner` `rust` `local-first`
   </details>
 
-- **[showagent](https://github.com/aytzey/showagent)** `⭐ 38` `updated ≤30d` A terminal UI for browsing, searching, and converting conversation sessions between different AI coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
+- **[showagent](https://github.com/aytzey/showagent)** `⭐ 40` `updated ≤30d` A terminal UI for browsing, searching, and converting conversation sessions between different AI coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
 
   It solves the fragmentation of AI agent history by allowing developers to switch between different agents without losing the conversational context of a session.
 
@@ -540,13 +540,22 @@ _These are new or low-traffic entries being watched._
   `ui` `coding-agents` `workflow` `prototyping` `cli`
   </details>
 
-- **[git-parsec](https://github.com/erishforg/git-parsec)** `⭐ 15` `updated ≤90d` Git worktree lifecycle manager that automates ticket-to-PR workflows with Jira, GitHub, and GitLab integration, including stacked PRs and AI agent support. <details><summary>More about</summary>
+- **[git-parsec](https://github.com/erishforg/git-parsec)** `⭐ 15` `updated ≤30d` Git worktree lifecycle manager that automates ticket-to-PR workflows with Jira, GitHub, and GitLab integration, including stacked PRs and AI agent support. <details><summary>More about</summary>
 
   It eliminates manual Git worktree management and PR creation by automating the full development loop from ticket to merged PR, with features tailored for parallel development and AI agent workflows.
 
   _Finally, a tool that lets you pretend Git worktrees are just tickets you can ship without remembering which branch is on fire._
 
   `git-worktree` `ticket-to-pr` `ai-agent-friendly` `stacked-prs` `cli`
+  </details>
+
+- **[Agentic Engineering Framework](https://github.com/dimitrigeelen/agentic-engineering-framework)** `⭐ 13` `updated ≤30d` Governance framework for AI coding agents that enforces task traceability, structural gates, session continuity, and audit trails for tools like Claude Code, Cursor, and Copilot. <details><summary>More about</summary>
+
+  It prevents AI agents from making destructive or untraceable changes by enforcing mandatory task gates, blocking risky commands, and maintaining audit trails.
+
+  _Finally, a way to stop your AI from force-pushing to main while you’re in the bathroom._
+
+  `governance` `ai-agents` `audit-trails` `task-management` `claude-code`
   </details>
 
 - **[LionClaw](https://github.com/moshthepitt/lionclaw)** `⭐ 13` `updated ≤30d` A local Rust-based CLI that wraps existing coding agents like Codex and OpenCode with a secure sandbox, durable sessions, scheduled jobs, and credential management. <details><summary>More about</summary>
@@ -574,15 +583,6 @@ _These are new or low-traffic entries being watched._
   _Now your AI agent can finally pretend to be a 10x developer by typing `vim` commands at 1000 WPM._
 
   `terminal-automation` `mcp-server` `cli-integration` `headless` `node-pty`
-  </details>
-
-- **[Agentic Engineering Framework](https://github.com/dimitrigeelen/agentic-engineering-framework)** `⭐ 12` `updated ≤30d` Governance framework for AI coding agents that enforces task traceability, structural gates, session continuity, and audit trails for tools like Claude Code, Cursor, and Copilot. <details><summary>More about</summary>
-
-  It prevents AI agents from making destructive or untraceable changes by enforcing mandatory task gates, blocking risky commands, and maintaining audit trails.
-
-  _Finally, a way to stop your AI from force-pushing to main while you’re in the bathroom._
-
-  `governance` `ai-agents` `audit-trails` `task-management` `claude-code`
   </details>
 
 - **[machine](https://github.com/katspaugh/machine)** `⭐ 12` `updated ≤30d` A tool that boots an isolated Lima VM for each GitHub project to provide a sandboxed environment for AI agents like Claude Code. <details><summary>More about</summary>

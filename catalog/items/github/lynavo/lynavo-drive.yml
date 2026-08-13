@@ -119,9 +119,12 @@ lifecycle:
   reason: Stars (499) exceeded threshold (150)
 processing:
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: skipped
+    updated_at: "2026-08-13T04:39:55.625Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null
   discover:
     status: done
     updated_at: "2026-07-16T05:04:46.715Z"

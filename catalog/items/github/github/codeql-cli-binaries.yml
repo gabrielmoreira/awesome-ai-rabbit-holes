@@ -67,9 +67,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-03T05:16:47.750Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-13T04:39:53.245Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for github/codeql-cli-binaries
     next_retry_at: null
   categorize:
     status: done

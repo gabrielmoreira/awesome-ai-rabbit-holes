@@ -76,9 +76,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-03T05:16:47.310Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-13T04:39:52.727Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for ggml-org/whisper.cpp
     next_retry_at: null
   categorize:
     status: done

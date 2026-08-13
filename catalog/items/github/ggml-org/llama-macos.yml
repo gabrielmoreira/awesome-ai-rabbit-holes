@@ -120,7 +120,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-03T05:16:47.153Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-13T04:39:52.642Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for ggml-org/llama-macos
     next_retry_at: null

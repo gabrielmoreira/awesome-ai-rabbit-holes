@@ -14,7 +14,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `agents` `rag` `templates` `cookbook`
   </details>
 
-- **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** `⭐ 91k` `updated ≤30d` A curated, community-maintained directory of Model Context Protocol (MCP) server implementations spanning databases, APIs, browsers, and developer tools. <details><summary>More about</summary>
+- **[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)** `⭐ 91k` `updated ≤90d` A curated, community-maintained directory of Model Context Protocol (MCP) server implementations spanning databases, APIs, browsers, and developer tools. <details><summary>More about</summary>
 
   It serves as the primary discovery layer for developers looking to extend AI assistants with new capabilities via standardized MCP servers.
 
@@ -41,7 +41,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `github-copilot` `agent-skills`
   </details>
 
-- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 29.2k` `updated ≤90d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 29.4k` `updated ≤90d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
 
   It provides developers with a structured, discoverable map of the AI agent ecosystem, saving time in finding relevant tools for building or integrating agents.
 
@@ -158,7 +158,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mlops` `curated-list` `machine-learning` `directory` `awesome`
   </details>
 
-- **[awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers)** `⭐ 4.2k` `updated ≤30d` A curated list of Model Context Protocol (MCP) servers for discovering MCP-compatible tools and integrations. <details><summary>More about</summary>
+- **[awesome-mcp-servers](https://github.com/wong2/awesome-mcp-servers)** `⭐ 4.2k` `updated ≤90d` A curated list of Model Context Protocol (MCP) servers for discovering MCP-compatible tools and integrations. <details><summary>More about</summary>
 
   Helps developers find pre-built MCP servers to extend AI agents with capabilities like web search, file access, or financial data without building from scratch.
 
@@ -374,7 +374,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `federated-learning` `awesome-list` `research`
   </details>
 
-- **[Awesome Open MLOps](https://github.com/fuzzylabs/awesome-open-mlops)** `⭐ 482` `updated >1y` A curated guide and comprehensive directory of open-source MLOps tools. <details><summary>More about</summary>
+- **[Awesome Open MLOps](https://github.com/fuzzylabs/awesome-open-mlops)** `⭐ 483` `updated >1y` A curated guide and comprehensive directory of open-source MLOps tools. <details><summary>More about</summary>
 
   It helps developers navigate the fragmented landscape of open-source infrastructure for data annotation, validation, and model deployment.
 
@@ -401,7 +401,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `x402` `micropayments` `ai-agents` `crypto` `awesome-list`
   </details>
 
-- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 226` `updated ≤30d` A curated list of tools and resources for spec-driven development (SDD). <details><summary>More about</summary>
+- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 239` `updated ≤30d` A curated list of tools and resources for spec-driven development (SDD). <details><summary>More about</summary>
 
   Helps developers discover frameworks, standards, and workflows for writing specifications first to improve alignment, testing, and documentation in AI-assisted development.
 

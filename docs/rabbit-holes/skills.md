@@ -23,7 +23,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `reusable-skills` `workflow-automation`
   </details>
 
-- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 81.4k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 86.7k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
 
   It provides a standardized set of professional engineering guardrails (spec-first, test-driven, incremental builds) that prevent AI agents from hallucinating their way through a codebase without a plan.
 
@@ -86,7 +86,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `skills` `registry` `cli` `openclaw` `agents`
   </details>
 
-- **[llm-wiki-agent](https://github.com/samuraigpt/llm-wiki-agent)** `⭐ 3.2k` `updated ≤30d` A reusable skill pack that turns Claude Code, Codex, Gemini CLI, or OpenCode into a self-building personal wiki by ingesting documents and maintaining interlinked markdown pages with knowledge graphs. <details><summary>More about</summary>
+- **[llm-wiki-agent](https://github.com/samuraigpt/llm-wiki-agent)** `⭐ 3.2k` `updated ≤90d` A reusable skill pack that turns Claude Code, Codex, Gemini CLI, or OpenCode into a self-building personal wiki by ingesting documents and maintaining interlinked markdown pages with knowledge graphs. <details><summary>More about</summary>
 
   It packages a complete RAG-style knowledge management workflow as portable slash commands and agent configs, letting developers reuse a structured memory system across multiple coding agents without building it themselves.
 

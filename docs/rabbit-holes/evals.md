@@ -59,7 +59,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `llm` `testing` `python` `framework`
   </details>
 
-- **[lm-evaluation-harness](https://github.com/eleutherai/lm-evaluation-harness)** `⭐ 13.5k` `updated ≤30d` A framework for few-shot evaluation of language models with support for 60+ benchmarks and multiple model backends. <details><summary>More about</summary>
+- **[lm-evaluation-harness](https://github.com/eleutherai/lm-evaluation-harness)** `⭐ 13.6k` `updated ≤30d` A framework for few-shot evaluation of language models with support for 60+ benchmarks and multiple model backends. <details><summary>More about</summary>
 
   It provides a standardized, reproducible way to test and compare LLM performance across academic benchmarks and custom tasks, powering leaderboards like Hugging Face's Open LLM Leaderboard.
 
@@ -95,7 +95,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `prompt-engineering` `evals` `notebooks` `llm-optimization`
   </details>
 
-- **[Evidently](https://github.com/evidentlyai/evidently)** `⭐ 7.8k` `updated ≤180d` An open-source observability framework for evaluating, testing, and monitoring machine learning and LLM-powered systems. <details><summary>More about</summary>
+- **[Evidently](https://github.com/evidentlyai/evidently)** `⭐ 7.8k` `updated ≤30d` An open-source observability framework for evaluating, testing, and monitoring machine learning and LLM-powered systems. <details><summary>More about</summary>
 
   It provides developers with the metrics and visualization needed to track model drift, data quality, and LLM performance from experimentation through production.
 
@@ -104,7 +104,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `mlops` `llmops` `observability` `evaluation` `monitoring`
   </details>
 
-- **[Traceloop OpenLLMetry](https://github.com/traceloop/openllmetry)** `⭐ 7.3k` `updated ≤30d` OpenLLMetry is a set of OpenTelemetry-based instrumentations and an SDK for adding observability, tracing, and metrics to LLM applications and vector databases. <details><summary>More about</summary>
+- **[Traceloop OpenLLMetry](https://github.com/traceloop/openllmetry)** `⭐ 7.3k` `updated ≤90d` OpenLLMetry is a set of OpenTelemetry-based instrumentations and an SDK for adding observability, tracing, and metrics to LLM applications and vector databases. <details><summary>More about</summary>
 
   It allows developers to monitor token usage, latency, and prompt flow in their GenAI stacks using standard OTel pipelines connected to existing tools like Datadog or Honeycomb.
 
@@ -275,7 +275,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `benchmarking` `llm` `leaderboard`
   </details>
 
-- **[future-agi](https://github.com/future-agi/future-agi)** `⭐ 1.6k` `updated ≤30d` An open-source platform for evaluating, tracing, and optimizing AI agents to reduce hallucinations. <details><summary>More about</summary>
+- **[future-agi](https://github.com/future-agi/future-agi)** `⭐ 1.7k` `updated ≤30d` An open-source platform for evaluating, tracing, and optimizing AI agents to reduce hallucinations. <details><summary>More about</summary>
 
   It provides a unified loop for simulating edge cases and monitoring production traces to turn agent failures into actual improvement signal.
 
@@ -383,7 +383,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `llm` `benchmarking` `cli` `reasoning`
   </details>
 
-- **[AgentSight](https://github.com/eunomia-bpf/agentsight)** `⭐ 555` `updated ≤30d` A system-level profiling and tracing tool for AI agents using eBPF to monitor system calls and network traffic. <details><summary>More about</summary>
+- **[AgentSight](https://github.com/eunomia-bpf/agentsight)** `⭐ 580` `updated ≤30d` A system-level profiling and tracing tool for AI agents using eBPF to monitor system calls and network traffic. <details><summary>More about</summary>
 
   It allows developers to observe exactly what a closed-source or autonomous agent is doing to their local machine without needing an SDK or proxy integration.
 
@@ -437,7 +437,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `multimodal` `dataset-generation` `sft` `dpo` `rag`
   </details>
 
-- **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 276` `updated ≤90d` An evaluation platform for testing LLM performance on recent mathematical competitions and olympiads. <details><summary>More about</summary>
+- **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 277` `updated ≤90d` An evaluation platform for testing LLM performance on recent mathematical competitions and olympiads. <details><summary>More about</summary>
 
   It provides standardized benchmarks and reasoning traces to measure how well models handle complex, multi-step mathematical reasoning.
 
@@ -464,7 +464,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `benchmark` `dynamic-data` `neurips-2024`
   </details>
 
-- **[traceAI](https://github.com/future-agi/traceai)** `⭐ 210` `updated ≤30d` An open-source observability framework built on OpenTelemetry for tracing LLM calls, prompts, and agentic workflows. <details><summary>More about</summary>
+- **[traceAI](https://github.com/future-agi/traceai)** `⭐ 212` `updated ≤30d` An open-source observability framework built on OpenTelemetry for tracing LLM calls, prompts, and agentic workflows. <details><summary>More about</summary>
 
   It allows developers to debug complex AI failures by tracing every step of an agent's decision-making process across any OTel-compatible backend.
 
@@ -473,22 +473,22 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `observability` `tracing` `opentelemetry` `llmops` `agents`
   </details>
 
-- **[fiddler-auditor](https://github.com/fiddler-labs/fiddler-auditor)** `⭐ 194` `updated >1y` Fiddler Auditor is a tool designed to evaluate and audit the performance and safety of large language models. <details><summary>More about</summary>
-
-  It helps developers identify hallucinations, adversarial vulnerabilities, and private data leaks before deploying models into production.
-
-  _Nothing prepares you for the existential dread of running a red-teaming script against your own production-ready agent._
-
-  `evaluation` `llm-observability` `red-teaming` `nlp-auditing`
-  </details>
-
-- **[XRAG](https://github.com/docailab/xrag)** `⭐ 176` `updated ≤90d` XRAG is a benchmarking framework for evaluating foundational components of advanced Retrieval-Augmented Generation (RAG) systems. <details><summary>More about</summary>
+- **[XRAG](https://github.com/docailab/xrag)** `⭐ 210` `updated ≤90d` XRAG is a benchmarking framework for evaluating foundational components of advanced Retrieval-Augmented Generation (RAG) systems. <details><summary>More about</summary>
 
   It helps developers and researchers measure and compare the performance of different RAG configurations, components, and workflows.
 
   _Finally, a way to quantify whether your RAG pipeline is just hallucinating with confidence._
 
   `rag` `benchmarking` `evaluation` `llm` `retrieval`
+  </details>
+
+- **[fiddler-auditor](https://github.com/fiddler-labs/fiddler-auditor)** `⭐ 195` `updated >1y` Fiddler Auditor is a tool designed to evaluate and audit the performance and safety of large language models. <details><summary>More about</summary>
+
+  It helps developers identify hallucinations, adversarial vulnerabilities, and private data leaks before deploying models into production.
+
+  _Nothing prepares you for the existential dread of running a red-teaming script against your own production-ready agent._
+
+  `evaluation` `llm-observability` `red-teaming` `nlp-auditing`
   </details>
 
 - **[Plexiglass](https://github.com/w4-advisory/plexiglass)** `⭐ 153` `updated ≤1y` A CLI toolkit for detecting and protecting against LLM vulnerabilities by testing models against adversarial attacks like prompt injection and jailbreaking. <details><summary>More about</summary>
@@ -513,13 +513,31 @@ _These are new or low-traffic entries being watched._
   `agent-testing` `regression-detection` `ci-integration` `evals` `python`
   </details>
 
-- **[future-agi/agent-learning-kit](https://github.com/future-agi/agent-learning-kit)** `⭐ 118` `updated ≤30d` An evaluation framework and SDK for scoring AI workflows using a mix of 72 local metrics and LLM-as-judge refinement. <details><summary>More about</summary>
+- **[future-agi/agent-learning-kit](https://github.com/future-agi/agent-learning-kit)** `⭐ 117` `updated ≤30d` An evaluation framework and SDK for scoring AI workflows using a mix of 72 local metrics and LLM-as-judge refinement. <details><summary>More about</summary>
 
   It provides a unified `evaluate()` API to catch hallucinations and safety violations before they hit production, with support for RAG, function calling, and agent trajectories.
 
   _The peace of mind knowing your LLM passed 72 local metrics right before it manages to hallucinate a new way to delete your production database._
 
   `ai-observability` `benchmarking` `evals` `guardrails` `llm-evaluation` `llmops` `rag` `sdks` `testing`
+  </details>
+
+- **[skill-optimizer](https://github.com/fastxyz/skill-optimizer)** `⭐ 75` `updated ≤90d` skill-optimizer is a Docker-based CLI and agent skill for running deterministic evaluations of agent skills against LLM models via OpenRouter. <details><summary>More about</summary>
+
+  It lets developers benchmark and refine agent behavior with reproducible, file-graded evals in isolated environments.
+
+  _Another eval framework that turns skill validation into a Dockerized ritual, because trusting your agent’s word just isn’t enough anymore._
+
+  `evals` `cli` `docker` `agent-skills` `openrouter`
+  </details>
+
+- **[agent-opt](https://github.com/future-agi/agent-opt)** `⭐ 73` `updated ≤90d` An open-source library for automated prompt optimization using various algorithms and metrics. <details><summary>More about</summary>
+
+  It automates the tedious process of prompt engineering by iterating on prompts to maximize performance against specific metrics.
+
+  _Now you can outsource the frustration of prompt tuning to a Bayesian search instead of doing it yourself._
+
+  `prompt-optimization` `llm-ops` `automation` `ai-agents`
   </details>
 
 - **[Azure OpenAI Logger](https://github.com/aavetis/azure-openai-logger)** `⭐ 73` `updated >1y` A Bicep-driven Azure deployment that adds API Management as a proxy in front of an Azure OpenAI instance to funnel requests, responses, and custom headers into Application Insights for observability. <details><summary>More about</summary>
@@ -531,25 +549,7 @@ _These are new or low-traffic entries being watched._
   `azure` `observability` `llm-logging` `openai`
   </details>
 
-- **[agent-opt](https://github.com/future-agi/agent-opt)** `⭐ 71` `updated ≤90d` An open-source library for automated prompt optimization using various algorithms and metrics. <details><summary>More about</summary>
-
-  It automates the tedious process of prompt engineering by iterating on prompts to maximize performance against specific metrics.
-
-  _Now you can outsource the frustration of prompt tuning to a Bayesian search instead of doing it yourself._
-
-  `prompt-optimization` `llm-ops` `automation` `ai-agents`
-  </details>
-
-- **[skill-optimizer](https://github.com/fastxyz/skill-optimizer)** `⭐ 71` `updated ≤90d` skill-optimizer is a Docker-based CLI and agent skill for running deterministic evaluations of agent skills against LLM models via OpenRouter. <details><summary>More about</summary>
-
-  It lets developers benchmark and refine agent behavior with reproducible, file-graded evals in isolated environments.
-
-  _Another eval framework that turns skill validation into a Dockerized ritual, because trusting your agent’s word just isn’t enough anymore._
-
-  `evals` `cli` `docker` `agent-skills` `openrouter`
-  </details>
-
-- **[simulate-sdk](https://github.com/future-agi/simulate-sdk)** `⭐ 59` `updated ≤90d` A Python SDK for simulating voice and text conversations to test AI agents against persona-driven scenarios. <details><summary>More about</summary>
+- **[simulate-sdk](https://github.com/future-agi/simulate-sdk)** `⭐ 60` `updated ≤90d` A Python SDK for simulating voice and text conversations to test AI agents against persona-driven scenarios. <details><summary>More about</summary>
 
   It allows developers to stress-test agentic behavior and voice interactions in a controlled environment before deploying to real users.
 
@@ -612,7 +612,7 @@ _These are new or low-traffic entries being watched._
   `evals` `benchmarks` `multi-agent` `swarms`
   </details>
 
-- **[agent-trace](https://github.com/ertygiq/agent-trace)** `⭐ 1` `updated ≤90d` A CLI tool for filtering and printing text transcripts from agentic sessions such as Claude Code, Codex, and Pi. <details><summary>More about</summary>
+- **[agent-trace](https://github.com/ertygiq/agent-trace)** `⭐ 1` `updated ≤30d` A CLI tool for filtering and printing text transcripts from agentic sessions such as Claude Code, Codex, and Pi. <details><summary>More about</summary>
 
   It allows developers to parse through dense agent logs to debug agent reasoning, command execution, and human-assistant interactions.
 

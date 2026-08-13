@@ -1,9 +1,9 @@
-id: github__antigmalabs__ante-preview
+id: github__antigmalabs__ante
 kind: github-repo
-name: ante-preview
-canonical_url: https://github.com/antigmalabs/ante-preview
+name: Ante
+canonical_url: https://github.com/antigmalabs/ante
 identity:
-  github_repo: antigmalabs/ante-preview
+  github_repo: antigmalabs/ante
 provenance:
   discoveries:
     - id: discovery__github__antigmalabs__ante-preview__awesome-list__bradagi__awesome-cli-coding-agents
@@ -22,16 +22,32 @@ provenance:
         extracted_url: https://github.com/antigmalabs/ante-preview
         surrounding_text: "- **[Ante](https://github.com/AntigmaLabs/ante-preview)** `⭐ 562` `[Antigma Labs]` — Single ~15 MB Rust binary terminal coding agent (research preview) with client–daemon architecture, interactive TUI + headless CLI, offline GGUF inference via embedded llama.cpp, and 12+ providers; strong verified Terminal-Bench 2.1 results. Core agent ships as a prebuilt binary."
         confidence: high
+    - id: discovery__github__antigmalabs__ante__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-08-13T04:39:28.746Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Closed Source
+        anchor_text: Ante
+        extracted_url: https://github.com/antigmalabs/ante-preview
+        surrounding_text: "- **[Ante](https://github.com/AntigmaLabs/ante-preview)** `⭐ 704` `[Antigma Labs]` — Single ~15 MB Rust binary terminal coding agent (research preview) with client–daemon architecture, interactive TUI + headless CLI, offline GGUF inference via embedded llama.cpp, and 12+ providers; strong verified Terminal-Bench 2.1 results. Core agent ships as a prebuilt binary."
+        confidence: high
 metadata:
   github:
-    stars: 584
-    forks: 8
+    stars: 1409
+    forks: 32
     license: Apache-2.0
     archived: false
-    full_name: AntigmaLabs/ante-preview
-    html_url: https://github.com/AntigmaLabs/ante-preview
+    full_name: AntigmaLabs/ante
+    html_url: https://github.com/AntigmaLabs/ante
     created_at: "2025-12-23T23:42:44Z"
-    pushed_at: "2026-08-01T05:19:53Z"
+    pushed_at: "2026-08-12T21:11:16Z"
     description: "Ghost in your shell. Ante is a self-contained agent harness with a highly optimized core. It works like Claude Code or Codex, with none of their dependencies or model constraints. "
     homepage: https://antigma.ai
     topics:
@@ -41,20 +57,20 @@ metadata:
       - artifical-life
       - rust
       - terminal
-    last_checked_at: "2026-08-03T05:16:26.891Z"
+    last_checked_at: "2026-08-13T04:39:31.259Z"
     readme:
-      fetched_at: "2026-08-03T05:16:26.891Z"
-      bytes: 15790
+      fetched_at: "2026-08-13T04:39:31.259Z"
+      bytes: 20345
 insights:
   summary: Ante is a self-contained terminal-native coding agent written in Rust that operates like Claude Code or Codex without vendor dependencies or model constraints, shipping as a single ~15MB binary.
   why_it_matters: It gives developers a lightweight, offline-capable terminal agent with low resource overhead and zero vendor lock-in, benchmarked publicly against closed-source alternatives.
   mental_damage: It is pitched as substrate for 'self-organizing intelligence' that you can run by the thousands locally, implying the solution to bloated AI agents is simply outnumbering them in your terminal.
   tags:
-    - terminal-agent
     - cli
-    - rust
-    - offline
     - multi-agent
+    - offline
+    - rust
+    - terminal-agent
   confidence: high
 curation:
   status: included
@@ -70,16 +86,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (563) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-08-03T05:16:26.891Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-07-16T05:11:30.610Z"
@@ -87,4 +93,14 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-08-13T04:39:28.748Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-08-13T04:39:31.259Z"
+    cause: null
     next_retry_at: null

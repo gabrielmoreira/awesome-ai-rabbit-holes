@@ -86,12 +86,12 @@ lifecycle:
 processing:
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:21:35.823Z"
+    updated_at: "2026-08-13T04:39:56.558Z"
     cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-21T17:21:35.821Z"
-    attempts: 0
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for bugsnag__com: 403 status code (no body)"
+    next_retry_at: null
+    attempts: 1
   discover:
     status: done
     updated_at: "2026-06-01T05:40:05.294Z"

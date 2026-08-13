@@ -68,16 +68,18 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-03T05:16:47.734Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-13T04:39:53.199Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for githejie/mcp-server-calculator
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-23T05:16:15.943Z"
+    status: skipped
+    updated_at: "2026-08-13T04:39:55.625Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__githejie__mcp-server-calculator: Mistral API error (401): {\"detail\":\"Unauthorized\"}"
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template

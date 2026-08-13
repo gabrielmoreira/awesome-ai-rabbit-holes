@@ -311,7 +311,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `terminal` `shell` `llm` `productivity`
   </details>
 
-- **[Agent-S](https://github.com/simular-ai/agent-s)** `⭐ 12k` `updated ≤90d` Agent S is an open-source computer-use agent framework that autonomously interacts with desktop GUIs across Windows, macOS, and Linux to perform complex tasks. <details><summary>More about</summary>
+- **[Agent-S](https://github.com/simular-ai/agent-s)** `⭐ 12k` `updated ≤180d` Agent S is an open-source computer-use agent framework that autonomously interacts with desktop GUIs across Windows, macOS, and Linux to perform complex tasks. <details><summary>More about</summary>
 
   It provides a state-of-the-art, reproducible baseline for building agents that can control applications via GUI rather than APIs, complete with benchmarks showing human-level performance on desktop tasks.
 
@@ -455,7 +455,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `self-hosted` `rag` `multi-agent` `mcp` `go`
   </details>
 
-- **[Emdash](https://github.com/generalaction/emdash)** `⭐ 5.3k` `updated ≤30d` Emdash is an open-source terminal-native harness that runs multiple coding agents in parallel using any provider. <details><summary>More about</summary>
+- **[Emdash](https://github.com/generalaction/emdash)** `⭐ 5.4k` `updated ≤30d` Emdash is an open-source terminal-native harness that runs multiple coding agents in parallel using any provider. <details><summary>More about</summary>
 
   It lets developers delegate coding work to several agents simultaneously, increasing throughput for repo-wide tasks.
 
@@ -680,6 +680,15 @@ Assistants that directly plan, write, review, test, or debug code.
   `autonomous-agent` `local-ai` `llm` `open-source` `multi-agent`
   </details>
 
+- **[Ante](https://github.com/antigmalabs/ante)** `⭐ 1.4k` `updated ≤30d` Ante is a self-contained terminal-native coding agent written in Rust that operates like Claude Code or Codex without vendor dependencies or model constraints, shipping as a single ~15MB binary. <details><summary>More about</summary>
+
+  It gives developers a lightweight, offline-capable terminal agent with low resource overhead and zero vendor lock-in, benchmarked publicly against closed-source alternatives.
+
+  _It is pitched as substrate for 'self-organizing intelligence' that you can run by the thousands locally, implying the solution to bloated AI agents is simply outnumbering them in your terminal._
+
+  `cli` `multi-agent` `offline` `rust` `terminal-agent`
+  </details>
+
 - **[RestGPT](https://github.com/yifan-song793/restgpt)** `⭐ 1.4k` `updated >1y` RestGPT is an LLM-based autonomous agent that plans and executes actions by calling real-world RESTful APIs. <details><summary>More about</summary>
 
   It enables developers to build agents that interact with external services through standardized APIs, expanding the scope of LLM-driven automation beyond code.
@@ -725,7 +734,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `cli` `agent-harness` `mcp` `orchestration`
   </details>
 
-- **[gitagent](https://github.com/open-gitagent/gitagent)** `⭐ 612` `updated ≤30d` Gitclaw is a CLI-based coding agent that treats the agent's identity, rules, memory, tools, and skills as version-controlled files inside a git repository. <details><summary>More about</summary>
+- **[gitagent](https://github.com/open-gitagent/gitagent)** `⭐ 612` `updated ≤90d` Gitclaw is a CLI-based coding agent that treats the agent's identity, rules, memory, tools, and skills as version-controlled files inside a git repository. <details><summary>More about</summary>
 
   Developers can fork, branch, diff, and audit their agent's behavior and memory using standard git workflows, bringing version control to AI agent configuration.
 
@@ -741,15 +750,6 @@ Assistants that directly plan, write, review, test, or debug code.
   _The 'configure once, forget forever' promise is a bold gamble on whether your repo survives the agent's unattended decision-making._
 
   `agent-framework` `automation` `autonomous-agent` `autonomous-agents` `cli-agent` `github-actions` `mcp`
-  </details>
-
-- **[ante-preview](https://github.com/antigmalabs/ante-preview)** `⭐ 584` `updated ≤30d` Ante is a self-contained terminal-native coding agent written in Rust that operates like Claude Code or Codex without vendor dependencies or model constraints, shipping as a single ~15MB binary. <details><summary>More about</summary>
-
-  It gives developers a lightweight, offline-capable terminal agent with low resource overhead and zero vendor lock-in, benchmarked publicly against closed-source alternatives.
-
-  _It is pitched as substrate for 'self-organizing intelligence' that you can run by the thousands locally, implying the solution to bloated AI agents is simply outnumbering them in your terminal._
-
-  `terminal-agent` `cli` `rust` `offline` `multi-agent`
   </details>
 
 - **[Butterfish](https://github.com/bakks/butterfish)** `⭐ 539` `updated ≤90d` A shell with AI superpowers that integrates OpenAI to provide contextual command-line assistance. <details><summary>More about</summary>
@@ -779,7 +779,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `agent` `self-evolving` `tool-use` `skill-based`
   </details>
 
-- **[g3](https://github.com/dhanji/g3)** `⭐ 516` `updated ≤180d` g3 is a Rust-based AI coding agent that plans, writes, and executes code tasks with modular architecture and multi-provider LLM support. <details><summary>More about</summary>
+- **[g3](https://github.com/dhanji/g3)** `⭐ 516` `updated ≤30d` g3 is a Rust-based AI coding agent that plans, writes, and executes code tasks with modular architecture and multi-provider LLM support. <details><summary>More about</summary>
 
   It offers developers a terminal-native assistant with built-in tooling for file operations, shell commands, and computer control, plus intelligent context management and error handling.
 
@@ -815,7 +815,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `devops` `slack` `kubernetes` `finops` `open-source`
   </details>
 
-- **[cloi](https://github.com/gabrielchasukjin/cloi)** `⭐ 396` `updated >1y` A terminal-based debugging agent that uses local or cloud models to analyze errors and apply fixes to your codebase. <details><summary>More about</summary>
+- **[cloi](https://github.com/gabrielchasukjin/cloi)** `⭐ 408` `updated ≤30d` A terminal-based debugging agent that uses local or cloud models to analyze errors and apply fixes to your codebase. <details><summary>More about</summary>
 
   It automates the tedious loop of error reproduction and patch application while keeping data private via local model support.
 
@@ -932,7 +932,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `multi-agent` `codebase-generation` `context-window` `cli` `framework`
   </details>
 
-- **[factory](https://github.com/factory-ai/factory)** `⭐ 0` `updated ≤30d` An agent-native development platform that provides a terminal-based AI coding agent named Droid. <details><summary>More about</summary>
+- **[factory](https://github.com/factory-ai/factory)** `⭐ 1` `updated ≤30d` An agent-native development platform that provides a terminal-based AI coding agent named Droid. <details><summary>More about</summary>
 
   It moves beyond simple autocomplete by providing a multi-interface agent (CLI, Web, Slack) capable of executing repo-wide tasks like code reviews and security scans.
 
@@ -1017,7 +1017,7 @@ _These are new or low-traffic entries being watched._
   `debugging` `vscode-extension` `llm-agent` `backend`
   </details>
 
-- **[Codex Infinity](https://github.com/lee101/codex-infinity)** `⭐ 90` `updated ≤30d` Codex Infinity is a terminal-based autonomous coding agent that extends OpenAI Codex CLI with self-looping flags for continuous code generation, testing, and idea implementation. <details><summary>More about</summary>
+- **[Codex Infinity](https://github.com/lee101/codex-infinity)** `⭐ 90` `updated ≤90d` Codex Infinity is a terminal-based autonomous coding agent that extends OpenAI Codex CLI with self-looping flags for continuous code generation, testing, and idea implementation. <details><summary>More about</summary>
 
   It lets developers delegate open-ended coding tasks to an agent that can run indefinitely without manual intervention, reducing repetitive prompting.
 
@@ -1053,7 +1053,7 @@ _These are new or low-traffic entries being watched._
   `cli` `rust` `coding-agent` `open-source` `llm-agnostic`
   </details>
 
-- **[San](https://github.com/genai-io/san)** `⭐ 72` `updated ≤30d` A lightweight, model-agnostic agent harness delivered as a single Go binary with near-zero cold start times. <details><summary>More about</summary>
+- **[San](https://github.com/genai-io/san)** `⭐ 73` `updated ≤30d` A lightweight, model-agnostic agent harness delivered as a single Go binary with near-zero cold start times. <details><summary>More about</summary>
 
   It provides a portable, high-performance runtime that can run specialized agents and MCP servers anywhere from a laptop to a scratch container without needing Python or Node.js.
 

@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/langchain-ai/deepagents
         surrounding_text: "- **[Deep Agents Code](https://github.com/langchain-ai/deepagents)** `⭐ 26.2k` `[LangChain]` — LangChain's official terminal coding agent built on the Deep Agents SDK; interactive TUI, file ops, shell access, subagents, headless mode, and human-in-the-loop approvals with any tool-calling LLM. PyPI `deepagents-code`."
         confidence: high
+    - id: discovery__github__langchain-ai__deepagents__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-08-13T04:39:28.746Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Tools
+          - Agents
+        anchor_text: deepagents
+        extracted_url: https://github.com/langchain-ai/deepagents
+        surrounding_text: "- [deepagents](https://github.com/langchain-ai/deepagents): LangChain's framework for building deep agents that plan, delegate to sub-agents, and work against a virtual file system over long-horizon tasks. Includes dcode, a model-agnostic open-source coding agent. ![GitHub Repo stars](https://img.shields.io/github/stars/langchain-ai/deepagents?style=social)"
+        confidence: high
 metadata:
   github:
     stars: 27241
@@ -72,7 +88,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: "2026-08-13T04:39:28.747Z"
     cause: null
     next_retry_at: null
   stars:

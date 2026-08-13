@@ -71,9 +71,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-03T05:16:47.719Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-13T04:39:53.099Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for git-ai-project/git-ai
     next_retry_at: null
   categorize:
     status: done

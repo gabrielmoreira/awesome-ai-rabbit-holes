@@ -14,7 +14,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `sdd` `cli` `github` `ai-assisted-development`
   </details>
 
-- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 63.5k` `updated ≤30d` Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation. <details><summary>More about</summary>
+- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 64.7k` `updated ≤30d` Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation. <details><summary>More about</summary>
 
   Provides a predictable workflow for aligning humans and AI on requirements before writing code, reducing vague prompts and rework.
 
@@ -189,7 +189,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven-development` `ai-dev-extensions` `agent-skills`
   </details>
 
-- **[pi-sdd-kit](https://github.com/felipefontoura/pi-sdd-kit)** `⭐ 17` `updated ≤90d` A skill pack for the Pi coding agent that implements a spec-driven development workflow with explicit artifacts, human gates, and a .status file as the single source of truth. <details><summary>More about</summary>
+- **[pi-sdd-kit](https://github.com/felipefontoura/pi-sdd-kit)** `⭐ 20` `updated ≤90d` A skill pack for the Pi coding agent that implements a spec-driven development workflow with explicit artifacts, human gates, and a .status file as the single source of truth. <details><summary>More about</summary>
 
   It reduces rework and scope creep by enforcing a disciplined spec-first loop where code only follows approved specifications.
 

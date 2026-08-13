@@ -32,7 +32,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `context-engineering` `mcp` `ai-dev-extensions`
   </details>
 
-- **[DeusData/codebase-memory-mcp](https://github.com/deusdata/codebase-memory-mcp)** `⭐ 35.7k` `updated ≤30d` A high-performance code intelligence engine that indexes repositories into persistent knowledge graphs using Tree-Sitter AST analysis. <details><summary>More about</summary>
+- **[DeusData/codebase-memory-mcp](https://github.com/deusdata/codebase-memory-mcp)** `⭐ 38.7k` `updated ≤30d` A high-performance code intelligence engine that indexes repositories into persistent knowledge graphs using Tree-Sitter AST analysis. <details><summary>More about</summary>
 
   It drastically reduces token consumption and latency for AI agents by replacing linear file-by-file searches with millisecond-level structural queries.
 
@@ -239,7 +239,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `graph-database` `agentic-memory` `context-retrieval` `lakehouse` `multi-agent`
   </details>
 
-- **[Contexto](https://github.com/ekailabs/contexto)** `⭐ 627` `updated ≤90d` A context engine that stores full episodic memory for long-running AI agents and retrieves forgotten constraints instead of letting them be compacted away. <details><summary>More about</summary>
+- **[Contexto](https://github.com/ekailabs/contexto)** `⭐ 624` `updated ≤90d` A context engine that stores full episodic memory for long-running AI agents and retrieves forgotten constraints instead of letting them be compacted away. <details><summary>More about</summary>
 
   It lets developers keep agents reliable across long sessions without prompt hacks, by recovering original instructions and decisions that default context-window compaction would otherwise summarize into oblivion.
 
@@ -275,7 +275,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `context-compression` `llm-proxy` `hallucination-detection` `token-optimization` `rust`
   </details>
 
-- **[onecompression](https://github.com/fujitsuresearch/onecompression)** `⭐ 398` `updated ≤30d` A Python package for the automated compression and quantization of Large Language Models. <details><summary>More about</summary>
+- **[onecompression](https://github.com/fujitsuresearch/onecompression)** `⭐ 415` `updated ≤30d` A Python package for the automated compression and quantization of Large Language Models. <details><summary>More about</summary>
 
   It simplifies the complex process of shrinking LLMs to fit on available VRAM by automating bit-width selection and error correction.
 
@@ -293,7 +293,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `prompt-presets` `vscode-extension` `cli` `context-management`
   </details>
 
-- **[second-brain-agent](https://github.com/flepied/second-brain-agent)** `⭐ 311` `updated ≤180d` An AI agent designed for personal knowledge management that indexes markdown files, PDFs, and web content to enable interactive retrieval. <details><summary>More about</summary>
+- **[second-brain-agent](https://github.com/flepied/second-brain-agent)** `⭐ 312` `updated ≤180d` An AI agent designed for personal knowledge management that indexes markdown files, PDFs, and web content to enable interactive retrieval. <details><summary>More about</summary>
 
   It automates the indexing of fragmented personal data and provides an MCP server to inject that context directly into other AI workflows.
 
@@ -378,6 +378,15 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
 
 _These are new or low-traffic entries being watched._
 
+- **[dnotitia/akb](https://github.com/dnotitia/akb)** `⭐ 145` `updated ≤30d` A Git-backed knowledge base that provides agents with structured documents, tables, and hybrid search via the Model Context Protocol. <details><summary>More about</summary>
+
+  It offers a version-controlled, searchable 'organizational memory' that allows agents to access long-term context instead of relying on ephemeral chat history.
+
+  _Because we have officially reached the stage where we need version-controlled repositories just to manage the documentation our agents are generating for themselves._
+
+  `mcp` `rag` `knowledge-graph` `memory`
+  </details>
+
 - **[Harness Starter Kit](https://github.com/harnessworks/harness-starter-kit)** `⭐ 106` `updated ≤90d` A prompt-first starter kit for turning repeated AI coding agent mistakes into durable repository instructions and evaluation checks. <details><summary>More about</summary>
 
   It shifts the effort from endless prompt tweaking to 'harnessing' the repository itself to provide better operational boundaries and feedback loops for agents.
@@ -412,15 +421,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to make your AI remember why you did that thing you can’t remember doing._
 
   `mcp` `memory` `semantic-search` `developer-tools` `context-engineering`
-  </details>
-
-- **[dnotitia/akb](https://github.com/dnotitia/akb)** `⭐ 75` `updated ≤30d` A Git-backed knowledge base that provides agents with structured documents, tables, and hybrid search via the Model Context Protocol. <details><summary>More about</summary>
-
-  It offers a version-controlled, searchable 'organizational memory' that allows agents to access long-term context instead of relying on ephemeral chat history.
-
-  _Because we have officially reached the stage where we need version-controlled repositories just to manage the documentation our agents are generating for themselves._
-
-  `mcp` `rag` `knowledge-graph` `memory`
   </details>
 
 - **[teolex2020/AuraSDK](https://github.com/teolex2020/aura-memory)** `⭐ 73` `updated ≤30d` AuraSDK is a local, pure-Rust cognitive memory runtime that adds durable, sub-millisecond recall, governed correction, and self-adaptation to frozen AI models without cloud training or fine-tuning. <details><summary>More about</summary>
@@ -531,7 +531,7 @@ _These are new or low-traffic entries being watched._
   `prompt-management` `llm-workflows` `version-control` `python`
   </details>
 
-- **[roampal-ai/roampal-core](https://github.com/roampal-ai/roampal-core)** `⭐ 46` `updated ≤90d` An outcome-based persistent memory MCP server for Claude Code and OpenCode that scores and promotes useful advice while demoting bad advice. <details><summary>More about</summary>
+- **[roampal-ai/roampal-core](https://github.com/roampal-ai/roampal-core)** `⭐ 46` `updated ≤180d` An outcome-based persistent memory MCP server for Claude Code and OpenCode that scores and promotes useful advice while demoting bad advice. <details><summary>More about</summary>
 
   It gives coding assistants a memory system that learns from outcomes rather than just ingesting context, aiming to improve relevance over time.
 
@@ -774,7 +774,7 @@ _These are new or low-traffic entries being watched._
   `memory-layer` `hybrid-retrieval` `claude-code` `local-first` `knowledge-graph`
   </details>
 
-- **[graphpilot-oss/graphpilot](https://github.com/graphpilot-oss/graphpilot)** `⭐ 15` `updated ≤30d` A local CLI and MCP server that indexes TypeScript/JavaScript repositories into a structural graph for coding agents to query symbols, callers, and call-edges. <details><summary>More about</summary>
+- **[graphpilot-oss/graphpilot](https://github.com/graphpilot-oss/graphpilot)** `⭐ 15` `updated ≤90d` A local CLI and MCP server that indexes TypeScript/JavaScript repositories into a structural graph for coding agents to query symbols, callers, and call-edges. <details><summary>More about</summary>
 
   It reduces token spend and hallucinations by providing agents with persistent, structural memory of a codebase's architecture instead of relying on repetitive grep-like file reads.
 
@@ -792,6 +792,15 @@ _These are new or low-traffic entries being watched._
   `memory` `mcp` `self-hosted` `rag` `sdk`
   </details>
 
+- **[ejentum/ejentum-mcp](https://github.com/ejentum/ejentum-mcp)** `⭐ 14` `updated ≤90d` An MCP server that exposes Ejentum's reasoning, code, anti-deception, and memory 'cognitive harnesses' to agentic clients. <details><summary>More about</summary>
+
+  It provides structured reasoning topologies and memory tools to act as a persistent attention anchor, preventing agent reasoning decay in long-context workflows.
+
+  _Because your agent's reasoning was so prone to decay that it required an external cognitive scaffold just to stay on task._
+
+  `mcp` `reasoning` `context-engineering` `agentic-ai` `memory`
+  </details>
+
 - **[engine](https://github.com/mindsdb/engine)** `⭐ 14` `updated ≤90d` A semantic query engine that enables hybrid vector and keyword search across 200+ data sources using standard SQL. <details><summary>More about</summary>
 
   It allows developers to build RAG pipelines and provide context to agents by querying live data sources via SQL without needing complex ETL processes.
@@ -799,15 +808,6 @@ _These are new or low-traffic entries being watched._
   _Because managing RAG complexity is apparently best solved by pretending your entire enterprise data stack is just one giant, federated SQL table._
 
   `sql` `semantic-search` `rag` `knowledge-bases` `data-integration`
-  </details>
-
-- **[ejentum/ejentum-mcp](https://github.com/ejentum/ejentum-mcp)** `⭐ 13` `updated ≤90d` An MCP server that exposes Ejentum's reasoning, code, anti-deception, and memory 'cognitive harnesses' to agentic clients. <details><summary>More about</summary>
-
-  It provides structured reasoning topologies and memory tools to act as a persistent attention anchor, preventing agent reasoning decay in long-context workflows.
-
-  _Because your agent's reasoning was so prone to decay that it required an external cognitive scaffold just to stay on task._
-
-  `mcp` `reasoning` `context-engineering` `agentic-ai` `memory`
   </details>
 
 - **[preflight-dev/preflight](https://github.com/preflight-dev/preflight)** `⭐ 11` `updated ≤180d` A 24-tool MCP server for Claude Code that intercepts prompts to catch ambiguity, scores prompt quality, searches session history with vector search, and estimates token costs. <details><summary>More about</summary>
@@ -837,7 +837,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `context-engineering` `claude-code` `semantic-search` `token-optimization`
   </details>
 
-- **[s60yucca/mnemos](https://github.com/s60yucca/mnemos)** `⭐ 10` `updated ≤30d` A local, single-binary MCP server that automatically builds and maintains a structured knowledge base for coding agents via background quality gates, deduplication, and context packing. <details><summary>More about</summary>
+- **[s60yucca/mnemos](https://github.com/s60yucca/mnemos)** `⭐ 10` `updated ≤90d` A local, single-binary MCP server that automatically builds and maintains a structured knowledge base for coding agents via background quality gates, deduplication, and context packing. <details><summary>More about</summary>
 
   It removes the manual overhead of memory management for agents like Claude Code and Cursor by handling storage, retrieval, and context assembly automatically within a token budget.
 
@@ -918,7 +918,7 @@ _These are new or low-traffic entries being watched._
   `claude-code` `memory` `context` `sqlite` `plugin`
   </details>
 
-- **[kiro0x/five-mcp](https://github.com/kiro0x/five-mcp)** `⭐ 5` `updated ≤30d` An MCP server that provides structured JSON persona constraints to prevent LLM persona drift. <details><summary>More about</summary>
+- **[kiro0x/five-mcp](https://github.com/kiro0x/five-mcp)** `⭐ 5` `updated ≤90d` An MCP server that provides structured JSON persona constraints to prevent LLM persona drift. <details><summary>More about</summary>
 
   It replaces imprecise natural language character descriptions with deterministic, recipe-based behavioral parameters for more reliable agents.
 

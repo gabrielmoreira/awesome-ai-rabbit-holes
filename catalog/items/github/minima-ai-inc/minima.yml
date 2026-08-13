@@ -1,9 +1,9 @@
-id: github__dmayboroda__minima
+id: github__minima-ai-inc__minima
 kind: github-repo
-name: minima
-canonical_url: https://github.com/dmayboroda/minima
+name: Minima
+canonical_url: https://github.com/minima-ai-inc/minima
 identity:
-  github_repo: dmayboroda/minima
+  github_repo: minima-ai-inc/minima
 provenance:
   discoveries:
     - id: discovery__github__dmayboroda__minima__awesome-list__wong2__awesome-mcp-servers
@@ -37,14 +37,45 @@ provenance:
         extracted_url: https://github.com/dmayboroda/minima
         surrounding_text: "- [Minima](https://github.com/dmayboroda/minima): Chat with local documents, connect local environment to ChatGPT or Claude ![GitHub Repo stars](https://img.shields.io/github/stars/dmayboroda/minima?style=social)"
         confidence: high
+    - id: discovery__github__minima-ai-inc__minima__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-08-13T04:39:28.746Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: Minima
+        extracted_url: https://github.com/dmayboroda/minima
+        surrounding_text: "- **[Minima](https://github.com/dmayboroda/minima)** - Local RAG (on-premises) with MCP server."
+        confidence: high
+    - id: discovery__github__minima-ai-inc__minima__awesome-list__kyrolabs__awesome-langchain
+      discovered_at: "2026-08-13T04:39:28.746Z"
+      source:
+        type: awesome-list
+        name: kyrolabs/awesome-langchain
+        url: https://github.com/kyrolabs/awesome-langchain
+        repository: kyrolabs/awesome-langchain
+      extraction:
+        mode: parsed
+        section_path:
+          - Open Source Projects
+          - Knowledge Management
+        anchor_text: Minima
+        extracted_url: https://github.com/dmayboroda/minima
+        surrounding_text: "- [Minima](https://github.com/dmayboroda/minima): Chat with local documents, connect local environment to ChatGPT or Claude ![GitHub Repo stars](https://img.shields.io/github/stars/dmayboroda/minima?style=social)"
+        confidence: high
 metadata:
   github:
-    stars: 1046
-    forks: 105
+    stars: 1047
+    forks: 107
     license: MPL-2.0
     archived: false
-    full_name: dmayboroda/minima
-    html_url: https://github.com/dmayboroda/minima
+    full_name: Minima-AI-Inc/minima
+    html_url: https://github.com/Minima-AI-Inc/minima
     created_at: "2024-11-02T22:44:56Z"
     pushed_at: "2026-01-22T09:22:09Z"
     description: On-premises conversational RAG with configurable containers
@@ -62,20 +93,20 @@ metadata:
       - ollama
       - qdrant
       - sentence-transformers
-    last_checked_at: "2026-08-03T05:16:30.521Z"
+    last_checked_at: "2026-08-13T04:39:35.478Z"
     readme:
-      fetched_at: "2026-08-03T05:16:30.521Z"
+      fetched_at: "2026-08-13T04:39:35.478Z"
       bytes: 9319
 insights:
   summary: On-premises conversational RAG system with configurable containers, supporting local LLMs, custom APIs, ChatGPT, and MCP integration.
   why_it_matters: Developers can self-host a full RAG pipeline with their own data and models, avoiding cloud dependencies while integrating with popular AI assistants.
   mental_damage: Finally, a way to make your local documents searchable without handing them to every SaaS with a free tier.
   tags:
+    - docker
+    - local-ai
+    - mcp
     - rag
     - self-hosted
-    - mcp
-    - local-ai
-    - docker
   confidence: high
 curation:
   status: included
@@ -91,16 +122,6 @@ lifecycle:
   status: needs_review
   reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'context-engineering'"
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-06T22:12:15.585Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-08-03T05:16:30.521Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-07-21T15:51:20.242Z"
@@ -127,3 +148,13 @@ processing:
       contrastive_reason: Choose context-engineering over mcp because the primary identity is a RAG/retrieval system, with MCP as an integration option rather than the core product.
       review_reason: "Categorization review required: placement disagreement: retained 'local-ai', proposed 'context-engineering'"
       review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-08-13T04:39:28.748Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-08-13T04:39:35.478Z"
+    cause: null
+    next_retry_at: null
