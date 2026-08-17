@@ -70,9 +70,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-06T05:07:19.974Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-17T04:19:32.379Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for bakyang2/kr-crypto-intelligence
     next_retry_at: null
   categorize:
     status: done

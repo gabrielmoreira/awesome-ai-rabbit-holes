@@ -86,11 +86,11 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:21:35.826Z"
+    updated_at: "2026-08-17T04:19:39.801Z"
     cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    attempts: 2
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for bolt__new: 403 status code (no body)"
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
-    next_retry_at: "2026-07-21T17:21:35.821Z"
+    next_retry_at: null

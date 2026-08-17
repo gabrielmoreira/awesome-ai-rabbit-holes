@@ -37,6 +37,21 @@ provenance:
         extracted_url: https://github.com/omega-memory/core
         surrounding_text: "-   **[omega-memory/core](https://github.com/omega-memory/core)** [![GitHub stars](https://img.shields.io/github/stars/omega-memory/core?style=social)](https://github.com/omega-memory/core): Persistent memory for AI coding agents with semantic search, auto-capture, intelligent forgetting, and cross-session learning. #1 on LongMemEval (95.4%). Local-first with zero cloud dependency."
         confidence: high
+    - id: discovery__github__omega-memory__omega-memory__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-08-17T04:19:08.737Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Memory & Context
+        anchor_text: OMEGA
+        extracted_url: https://github.com/omega-memory/omega-memory
+        surrounding_text: "| [OMEGA](https://github.com/omega-memory/omega-memory) | 203 | Python | Apache-2.0 | 2026-08 | Persistent memory for coding agents over MCP |"
+        confidence: high
 metadata:
   github:
     stars: 189
@@ -98,7 +113,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.591Z"
+    updated_at: "2026-08-17T04:19:08.742Z"
     cause: null
     next_retry_at: null
   stars:
@@ -108,7 +123,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-13T04:39:55.626Z"
+    updated_at: "2026-08-17T04:19:35.943Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

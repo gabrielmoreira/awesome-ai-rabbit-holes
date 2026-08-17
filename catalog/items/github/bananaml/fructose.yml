@@ -68,9 +68,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-06T05:07:20.052Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-17T04:19:32.556Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for bananaml/fructose
     next_retry_at: null
   categorize:
     status: done

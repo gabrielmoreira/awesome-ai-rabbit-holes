@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/h5i-dev/h5i
         surrounding_text: "- **[h5i](https://github.com/h5i-dev/h5i)** `⭐ 434` — Runs several coding agents (Claude Code, Codex) on the same task in isolated sandboxes, has them peer-review each other, then a neutral verifier replays and tests each candidate and merges the one that passes. Run metadata is versioned in the repo under `refs/h5i/*`. Apache-2.0."
         confidence: high
+    - id: discovery__github__h5i-dev__h5i__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-08-17T04:19:08.737Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - CLI Agent Harnesses
+        anchor_text: h5i
+        extracted_url: https://github.com/h5i-dev/h5i
+        surrounding_text: "| [h5i](https://github.com/h5i-dev/h5i) | 530 | Rust | Apache-2.0 | 2026-08 | Runs agents in sandboxes, merges the verified result |"
+        confidence: high
 metadata:
   github:
     stars: 494
@@ -84,7 +99,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-02T05:22:20.471Z"
+    updated_at: "2026-08-17T04:19:08.741Z"
     cause: null
     next_retry_at: null
   stars:

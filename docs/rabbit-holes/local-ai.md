@@ -5,7 +5,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
 
 ## Tools & Resources
 
-- **[Ollama](https://github.com/ollama/ollama)** `⭐ 176.5k` `updated ≤30d` Ollama is a local runtime and serving stack for downloading, running, and managing open-weight LLMs via a simple CLI and REST API on macOS, Windows, Linux, and Docker. <details><summary>More about</summary>
+- **[Ollama](https://github.com/ollama/ollama)** `⭐ 176.5k` `updated ≤90d` Ollama is a local runtime and serving stack for downloading, running, and managing open-weight LLMs via a simple CLI and REST API on macOS, Windows, Linux, and Docker. <details><summary>More about</summary>
 
   It gives developers a one-command way to run private, local models and wire them into coding agents like Claude Code, Codex, and Copilot CLI without sending code to external APIs.
 
@@ -185,7 +185,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `inference` `gguf`
   </details>
 
-- **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)** `⭐ 10.5k` `updated ≤30d` Python bindings for the llama.cpp library providing high-level and low-level access to local LLM inference. <details><summary>More about</summary>
+- **[llama-cpp-python](https://github.com/abetlen/llama-cpp-python)** `⭐ 10.6k` `updated ≤30d` Python bindings for the llama.cpp library providing high-level and low-level access to local LLM inference. <details><summary>More about</summary>
 
   It allows developers to integrate high-performance, quantized local LLM inference directly into Python applications and workflows.
 
@@ -441,7 +441,7 @@ _These are new or low-traffic entries being watched._
   `vram-calculator` `local-ai` `hardware-planning` `llm-inference`
   </details>
 
-- **[LoLLMS](https://github.com/parisneo/lollms)** `⭐ 87` `updated ≤30d` A self-hosted, multi-user chat platform with a Vue frontend and FastAPI backend that integrates with various LLM backends and includes built-in RAG, personality management, and user collaboration features. <details><summary>More about</summary>
+- **[LoLLMS](https://github.com/parisneo/lollms)** `⭐ 87` `updated ≤90d` A self-hosted, multi-user chat platform with a Vue frontend and FastAPI backend that integrates with various LLM backends and includes built-in RAG, personality management, and user collaboration features. <details><summary>More about</summary>
 
   It provides a local-first, privacy-preserving alternative to hosted chat platforms with deep integration into multiple LLM services and extensible document retrieval.
 

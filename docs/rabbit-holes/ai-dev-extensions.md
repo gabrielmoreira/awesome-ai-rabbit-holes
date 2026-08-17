@@ -140,7 +140,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `session-management` `ai-coding-agents` `local-first` `macos` `developer-tools`
   </details>
 
-- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 662` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
+- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 734` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
 
   It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
 
@@ -212,7 +212,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mysql` `mcp` `database` `ai-dev-extensions`
   </details>
 
-- **[ConstantineB6/comfy-pilot](https://github.com/constantineb6/comfy-pilot)** `⭐ 228` `updated ≤180d` An MCP server and embedded terminal that gives Claude Code the ability to view, edit, and run ComfyUI image-generation workflows directly from the ComfyUI interface. <details><summary>More about</summary>
+- **[ConstantineB6/comfy-pilot](https://github.com/constantineb6/comfy-pilot)** `⭐ 228` `updated ≤1y` An MCP server and embedded terminal that gives Claude Code the ability to view, edit, and run ComfyUI image-generation workflows directly from the ComfyUI interface. <details><summary>More about</summary>
 
   It removes the manual drag-and-drop friction of building Stable Diffusion and FLUX workflows by letting developers describe node graphs in natural language and letting Claude Code manipulate them programmatically.
 
@@ -230,7 +230,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `llm-proxy` `token-management` `claude-code` `api-gateway` `ai-infrastructure`
   </details>
 
-- **[agenticmail/agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 186` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
+- **[agenticmail/agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 194` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
 
   It enables agents to move beyond the terminal by interacting with the world through standard communication channels like phone and email.
 
@@ -324,7 +324,7 @@ _These are new or low-traffic entries being watched._
   `ebpf` `agent-security` `sandboxing` `runtime-enforcement` `linux`
   </details>
 
-- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 76` `updated ≤30d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
+- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 80` `updated ≤30d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
 
   It prevents credential sprawl by centralizing secret management and ensuring agents never see long-lived tokens, reducing the risk of exfiltration during autonomous runs.
 
@@ -414,6 +414,15 @@ _These are new or low-traffic entries being watched._
   `ambient-monitoring` `claude-code` `codex` `electron` `audio-dashboard`
   </details>
 
+- **[Armorer Guard](https://github.com/armorerlabs/armorer-guard)** `⭐ 42` `updated ≤30d` Armorer Guard is a Rust-based local scanner that inspects MCP tool calls for prompt injection, credential leaks, and risky actions before execution. <details><summary>More about</summary>
+
+  It gives developers a zero-latency, network-free way to enforce safety policies on AI agent tool usage in local MCP workflows.
+
+  _Another security layer to add to the growing stack of agent guardrails that hope to stop the model from doing exactly what you told it not to._
+
+  `security` `mcp` `scanner` `rust` `local-first`
+  </details>
+
 - **[AgentDiff](https://github.com/codeprakhar25/agentdiff)** `⭐ 41` `updated ≤90d` A git-native tool for AI code provenance that records and cryptographically signs which AI agent wrote specific lines of code. <details><summary>More about</summary>
 
   It provides a durable, signed audit trail for AI-generated code, moving from probabilistic detection to verifiable authorship for governance and security.
@@ -421,15 +430,6 @@ _These are new or low-traffic entries being watched._
   _We have finally reached the era where we need cryptographic proof to determine which LLM is actually responsible for the bug in production._
 
   `provenance` `git` `governance` `sbom` `security`
-  </details>
-
-- **[Armorer Guard](https://github.com/armorerlabs/armorer-guard)** `⭐ 40` `updated ≤90d` Armorer Guard is a Rust-based local scanner that inspects MCP tool calls for prompt injection, credential leaks, and risky actions before execution. <details><summary>More about</summary>
-
-  It gives developers a zero-latency, network-free way to enforce safety policies on AI agent tool usage in local MCP workflows.
-
-  _Another security layer to add to the growing stack of agent guardrails that hope to stop the model from doing exactly what you told it not to._
-
-  `security` `mcp` `scanner` `rust` `local-first`
   </details>
 
 - **[showagent](https://github.com/aytzey/showagent)** `⭐ 40` `updated ≤30d` A terminal UI for browsing, searching, and converting conversation sessions between different AI coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
@@ -513,7 +513,7 @@ _These are new or low-traffic entries being watched._
   `agent-safety` `mcp` `pre-action-checks` `cost-control` `guardrails`
   </details>
 
-- **[colapsis/transfa](https://github.com/colapsis/transfa)** `⭐ 19` `updated ≤90d` A CLI and API-driven file-sharing service designed for seamless file transfers between developers, CI/CD pipelines, and AI agents. <details><summary>More about</summary>
+- **[colapsis/transfa](https://github.com/colapsis/transfa)** `⭐ 19` `updated ≤180d` A CLI and API-driven file-sharing service designed for seamless file transfers between developers, CI/CD pipelines, and AI agents. <details><summary>More about</summary>
 
   It provides a low-friction way for agents to upload and share large files, like ML models or datasets, without requiring manual UI interaction.
 
@@ -585,6 +585,15 @@ _These are new or low-traffic entries being watched._
   `terminal-automation` `mcp-server` `cli-integration` `headless` `node-pty`
   </details>
 
+- **[cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge)** `⭐ 12` `updated ≤30d` A bridge that connects Claude Cowork (cloud-based) to Claude Code (local terminal) to allow web-based chats to execute commands on a local machine. <details><summary>More about</summary>
+
+  It allows developers to leverage the planning capabilities of web-based Claude chats while granting them the ability to actually execute code and manage files in a local environment.
+
+  _Nothing says 'odern developer workflow' like installing a bridge just so your browser can safely execute shell commands on your laptop._
+
+  `claude-code` `bridge` `automation` `cli` `remote-execution`
+  </details>
+
 - **[machine](https://github.com/katspaugh/machine)** `⭐ 12` `updated ≤30d` A tool that boots an isolated Lima VM for each GitHub project to provide a sandboxed environment for AI agents like Claude Code. <details><summary>More about</summary>
 
   It solves the security and environment configuration problem by providing a pre-provisioned, disposable sandbox that prevents agents from accessing your host filesystem or keys.
@@ -594,22 +603,13 @@ _These are new or low-traffic entries being watched._
   `sandboxing` `lima` `claude-code` `vm` `security`
   </details>
 
-- **[Wynelson94/longhand](https://github.com/wynelson94/longhand)** `⭐ 12` `updated ≤30d` Lossless local memory for Claude Code that stores every tool call, file edit, and thinking block verbatim in SQLite for searchable recall. <details><summary>More about</summary>
+- **[Wynelson94/longhand](https://github.com/wynelson94/longhand)** `⭐ 12` `updated ≤90d` Lossless local memory for Claude Code that stores every tool call, file edit, and thinking block verbatim in SQLite for searchable recall. <details><summary>More about</summary>
 
   It prevents Claude Code's automatic session rotation from erasing developer history, enabling instant retrieval of past decisions and code changes without API calls.
 
   _Another tool to install just to remember what your AI assistant forgot, because apparently persistence is now a premium feature._
 
   `claude-code` `local-memory` `mcp-server` `sqlite`
-  </details>
-
-- **[cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge)** `⭐ 11` `updated ≤30d` A bridge that connects Claude Cowork (cloud-based) to Claude Code (local terminal) to allow web-based chats to execute commands on a local machine. <details><summary>More about</summary>
-
-  It allows developers to leverage the planning capabilities of web-based Claude chats while granting them the ability to actually execute code and manage files in a local environment.
-
-  _Nothing says 'odern developer workflow' like installing a bridge just so your browser can safely execute shell commands on your laptop._
-
-  `claude-code` `bridge` `automation` `cli` `remote-execution`
   </details>
 
 - **[Mingye-Lu/AgenticCrawler](https://github.com/mingye-lu/agenticcrawler)** `⭐ 11` `updated ≤30d` acrawl is a single Rust binary LLM-powered web crawler that lets users describe goals in plain English to extract structured data using built-in MCP server and client capabilities. <details><summary>More about</summary>
@@ -657,7 +657,7 @@ _These are new or low-traffic entries being watched._
   `command-execution` `ai-agents` `security` `mcp` `rust`
   </details>
 
-- **[tmuxlet](https://github.com/codefilabs/tmuxlet)** `⭐ 7` `updated ≤30d` A Rust-based wrapper that runs interactive coding CLIs inside tmux to provide a programmatic, print-mode interface. <details><summary>More about</summary>
+- **[tmuxlet](https://github.com/codefilabs/tmuxlet)** `⭐ 7` `updated ≤90d` A Rust-based wrapper that runs interactive coding CLIs inside tmux to provide a programmatic, print-mode interface. <details><summary>More about</summary>
 
   It allows developers to automate coding agents like Claude Code while bypassing the separate, more restrictive 'Agent SDK' billing pools by simulating a human interactive session.
 
@@ -783,7 +783,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `macos` `file-management` `claude` `cursor`
   </details>
 
-- **[musepy/genable](https://github.com/musepy/genable)** `⭐ 1` `updated ≤30d` A prompt-to-UI generator that creates editable Figma layers, components, and variables via a plugin or MCP server. <details><summary>More about</summary>
+- **[musepy/genable](https://github.com/musepy/genable)** `⭐ 1` `updated ≤90d` A prompt-to-UI generator that creates editable Figma layers, components, and variables via a plugin or MCP server. <details><summary>More about</summary>
 
   It allows developers to use coding agents to generate structured, production-ready design assets directly in Figma.
 

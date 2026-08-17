@@ -38,6 +38,21 @@ provenance:
         extracted_url: https://github.com/tcconnally/perseus
         surrounding_text: "- [tcconnally/perseus](https://github.com/tcconnally/perseus) [![tcconnally/perseus MCP server](https://glama.ai/mcp/servers/tcconnally/perseus/badges/score.svg)](https://glama.ai/mcp/servers/tcconnally/perseus) 🐍 - Compile-before-context MCP server with 13 tools. Pre-resolves workspace state (git, services, file ops, memory federation, multi-agent coordination) into markdown briefings. Single-file Python, MIT. Published as io.github.tcconnally/perseus."
         confidence: high
+    - id: discovery__github__perseus-computing-llc__perseus__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-08-17T04:19:08.737Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Memory & Context
+        anchor_text: Perseus
+        extracted_url: https://github.com/perseus-computing-llc/perseus
+        surrounding_text: "| [Perseus](https://github.com/Perseus-Computing-LLC/perseus) | 36 | Python | MIT | 2026-08 | Resolves verified workspace state before a call |"
+        confidence: high
 metadata:
   github:
     stars: 22
@@ -90,7 +105,7 @@ lifecycle:
 processing:
   categorize:
     status: skipped
-    updated_at: "2026-08-13T04:39:55.626Z"
+    updated_at: "2026-08-17T04:19:35.943Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization
@@ -98,7 +113,7 @@ processing:
     attempts: 0
   discover:
     status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
+    updated_at: "2026-08-17T04:19:08.742Z"
     cause: null
     next_retry_at: null
   stars:

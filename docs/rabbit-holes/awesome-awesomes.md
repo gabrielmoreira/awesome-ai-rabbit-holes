@@ -230,15 +230,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `federated-learning` `research` `awesome-list` `machine-learning`
   </details>
 
-- **[awesome-local-ai](https://github.com/janhq/awesome-local-ai)** `⭐ 2k` `updated >1y` A curated collection of open-source local AI tools and solutions. <details><summary>More about</summary>
-
-  Developers can discover and compare local inference engines, runtimes, and desktop interfaces for running LLMs on their own hardware.
-
-  _Because nothing says 'productivity' like spending a weekend benchmarking 20 different ways to run a model locally._
-
-  `local-ai` `curated-list` `inference-engines` `self-hosted`
-  </details>
-
 - **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 2k` `updated ≤180d` A curated directory of AI-powered coding tools including editors, agents, and productivity utilities. <details><summary>More about</summary>
 
   It provides a central navigation point to discover the rapidly evolving ecosystem of AI-native development tools.
@@ -246,6 +237,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _It's a map of a territory that changes shape faster than you can finish reading the legend._
 
   `curated-list` `directory` `ai-coding` `developer-tools`
+  </details>
+
+- **[awesome-local-ai](https://github.com/janhq/awesome-local-ai)** `⭐ 2k` `updated >1y` A curated collection of open-source local AI tools and solutions. <details><summary>More about</summary>
+
+  Developers can discover and compare local inference engines, runtimes, and desktop interfaces for running LLMs on their own hardware.
+
+  _Because nothing says 'productivity' like spending a weekend benchmarking 20 different ways to run a model locally._
+
+  `local-ai` `curated-list` `inference-engines` `self-hosted`
   </details>
 
 - **[awesome-LangGraph](https://github.com/vonzosten/awesome-langgraph)** `⭐ 1.9k` `updated ≤90d` An index of the LangChain + LangGraph ecosystem with concepts, projects, tools, templates, and guides for LLM & multi-agent apps. <details><summary>More about</summary>
@@ -329,7 +329,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `automl` `awesome-list` `research`
   </details>
 
-- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 886` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
+- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 887` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
 
   Provides a centralized starting point for developers to navigate the rapidly shifting landscape of LLM architectures and agentic patterns.
 
@@ -347,13 +347,13 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `developer-tools`
   </details>
 
-- **[Awesome Vibe Coding](https://github.com/ai-for-developers/awesome-vibe-coding)** `⭐ 809` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
+- **[Awesome Vibe Coding](https://github.com/awesome-vibe-coding/awesome-vibe-coding)** `⭐ 814` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
 
   It provides a centralized directory for the emerging 'vibe coding' workflow, gathering high-level builders and IDEs focused on prompt-driven development.
 
   _It formalizes the existential dread of wondering if you're actually a software engineer or just a professional prompt stylist._
 
-  `vibe-coding` `curated-list` `ai-builders` `ai-editors`
+  `ai-builders` `ai-editors` `curated-list` `vibe-coding`
   </details>
 
 - **[awesome-local-llms](https://github.com/vince-lam/awesome-local-llms)** `⭐ 783` `updated ≤30d` awesome-local-llms is a curated comparison table of open-source local LLM inference projects ranked by GitHub metrics like stars and recent activity. <details><summary>More about</summary>
@@ -392,7 +392,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `models` `training` `benchmarks` `directory`
   </details>
 
-- **[xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)** `⭐ 265` `updated ≤30d` A curated list of resources for the HTTP 402 Payment Required protocol, focused on crypto micropayments and AI agent integration. <details><summary>More about</summary>
+- **[xpaysh/awesome-x402](https://github.com/xpaysh/awesome-x402)** `⭐ 265` `updated ≤90d` A curated list of resources for the HTTP 402 Payment Required protocol, focused on crypto micropayments and AI agent integration. <details><summary>More about</summary>
 
   Helps developers implement blockchain-based micropayments for AI agents and APIs with minimal code using USDC on Base.
 
@@ -423,7 +423,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 _These are new or low-traffic entries being watched._
 
-- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 143` `updated ≤1y` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
+- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 148` `updated ≤1y` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
 
   Provides developers with a navigable directory of agent frameworks, tools, and platforms to explore or integrate into their workflows.
 
@@ -459,7 +459,7 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `swarms` `directory` `orchestration` `resources`
   </details>
 
-- **[awesome-agents](https://github.com/l-aime/awesome-agents)** `⭐ 11` `updated ≤1y` A curated collection of AI agent projects, frameworks, and research papers focusing on agent-based systems. <details><summary>More about</summary>
+- **[awesome-agents](https://github.com/l-aime/awesome-agents)** `⭐ 11` `updated >1y` A curated collection of AI agent projects, frameworks, and research papers focusing on agent-based systems. <details><summary>More about</summary>
 
   It helps developers discover and navigate the rapidly evolving landscape of agent frameworks, implementations, and best practices.
 

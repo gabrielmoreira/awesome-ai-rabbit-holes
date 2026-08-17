@@ -32,7 +32,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `multi-agent` `finance` `trading` `langgraph` `framework`
   </details>
 
-- **[PaddleOCR](https://github.com/paddlepaddle/paddleocr)** `⭐ 85.9k` `updated ≤30d` A lightweight, multilingual OCR toolkit that converts images and PDFs into structured data formats like JSON and Markdown for use in LLM pipelines. <details><summary>More about</summary>
+- **[PaddleOCR](https://github.com/paddlepaddle/paddleocr)** `⭐ 85.9k` `updated ≤90d` A lightweight, multilingual OCR toolkit that converts images and PDFs into structured data formats like JSON and Markdown for use in LLM pipelines. <details><summary>More about</summary>
 
   It provides the document ingestion layer necessary to feed clean, structured context into RAG systems and AI agents without relying on brittle, closed-source parsers.
 
@@ -41,7 +41,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `ocr` `document-ai` `rag` `pdf-parsing` `paddlepaddle`
   </details>
 
-- **[MinerU (`🔥`)](https://github.com/opendatalab/mineru)** `⭐ 75.2k` `updated ≤30d` MinerU is a Python toolkit that parses PDFs, Office documents, and other complex files into markdown or JSON structured for LLM and agent pipelines. <details><summary>More about</summary>
+- **[MinerU (`🔥`)](https://github.com/opendatalab/mineru)** `⭐ 75.2k` `updated ≤90d` MinerU is a Python toolkit that parses PDFs, Office documents, and other complex files into markdown or JSON structured for LLM and agent pipelines. <details><summary>More about</summary>
 
   It removes the boilerplate of layout analysis, OCR, and table extraction so developers can feed clean, structured documents directly into RAG systems and coding agents.
 
@@ -212,7 +212,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `vector-db` `search` `rag` `embeddings` `infrastructure`
   </details>
 
-- **[AgentScope](https://github.com/agentscope-ai/agentscope)** `⭐ 28.6k` `updated ≤30d` AgentScope is a production-ready multi-agent framework with built-in support for event systems, permission management, and sandboxed workspaces. <details><summary>More about</summary>
+- **[AgentScope](https://github.com/agentscope-ai/agentscope)** `⭐ 29k` `updated ≤30d` AgentScope is a production-ready multi-agent framework with built-in support for event systems, permission management, and sandboxed workspaces. <details><summary>More about</summary>
 
   It provides the essential infrastructure—like multi-tenancy and isolated execution environments—needed to move agentic workflows from experimental scripts to stable services.
 
@@ -419,7 +419,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `structured-generation` `llm-outputs` `pydantic` `type-hints` `python`
   </details>
 
-- **[Llmware](https://github.com/llmware-ai/llmware)** `⭐ 14.9k` `updated ≤90d` llmware is a Python framework for building enterprise RAG pipelines with local, quantized small language models and integrated document parsing, embedding, and query tooling. <details><summary>More about</summary>
+- **[Llmware](https://github.com/llmware-ai/llmware)** `⭐ 14.9k` `updated ≤180d` llmware is a Python framework for building enterprise RAG pipelines with local, quantized small language models and integrated document parsing, embedding, and query tooling. <details><summary>More about</summary>
 
   Developers can rapidly build private, cost-effective, on-device LLM applications without relying on cloud APIs, using a unified stack for models, document ingestion, and retrieval.
 
@@ -482,7 +482,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `embeddings` `clip` `multimodal` `serving` `search`
   </details>
 
-- **[txtai](https://github.com/neuml/txtai)** `⭐ 12.7k` `updated ≤30d` txtai is an all-in-one Python framework for semantic search, LLM orchestration, and language model workflows, featuring an embeddings database and multi-model pipeline support. <details><summary>More about</summary>
+- **[txtai](https://github.com/neuml/txtai)** `⭐ 12.7k` `updated ≤90d` txtai is an all-in-one Python framework for semantic search, LLM orchestration, and language model workflows, featuring an embeddings database and multi-model pipeline support. <details><summary>More about</summary>
 
   Developers can use it to build autonomous agents, RAG processes, and vector search applications locally or at scale using a batteries-included SDK with API bindings for multiple languages.
 
@@ -536,7 +536,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `python` `llm-ui` `framework` `conversational-ai` `langchain`
   </details>
 
-- **[axolotl](https://github.com/axolotl-ai-cloud/axolotl)** `⭐ 12.3k` `updated ≤30d` An open-source framework designed for fine-tuning large language models. <details><summary>More about</summary>
+- **[axolotl](https://github.com/axolotl-ai-cloud/axolotl)** `⭐ 12.4k` `updated ≤30d` An open-source framework designed for fine-tuning large language models. <details><summary>More about</summary>
 
   It provides a standardized, highly configurable way for developers to train custom model weights using various optimization techniques like LoRA and DPO.
 
@@ -599,7 +599,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `tokenization` `nlp` `rust` `huggingface` `performance`
   </details>
 
-- **[ART](https://github.com/openpipe/art)** `⭐ 10.5k` `updated ≤30d` Agent Reinforcement Trainer (ART) is an open-source framework and managed service for training multi-step LLM agents using GRPO reinforcement learning on models like Qwen, Llama, and GPT-OSS. <details><summary>More about</summary>
+- **[ART](https://github.com/openpipe/art)** `⭐ 10.5k` `updated ≤90d` Agent Reinforcement Trainer (ART) is an open-source framework and managed service for training multi-step LLM agents using GRPO reinforcement learning on models like Qwen, Llama, and GPT-OSS. <details><summary>More about</summary>
 
   It provides developers with the infrastructure to move agents beyond static prompting by teaching them new behaviors through reward functions and experience.
 
@@ -833,7 +833,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `kubernetes` `model-serving` `inference` `mlops` `genai`
   </details>
 
-- **[SandBox](https://github.com/agent-infra/sandbox)** `⭐ 5.6k` `updated ≤90d` An all-in-one sandbox environment for AI agents that provides a single Docker container with a browser, shell, filesystem, VSCode server, and MCP support. <details><summary>More about</summary>
+- **[SandBox](https://github.com/agent-infra/sandbox)** `⭐ 5.7k` `updated ≤90d` An all-in-one sandbox environment for AI agents that provides a single Docker container with a browser, shell, filesystem, VSCode server, and MCP support. <details><summary>More about</summary>
 
   It solves the complex orchestration problem of giving AI agents a unified, secure workspace where file sharing and tool usage across browser and terminal are seamless.
 
@@ -1229,7 +1229,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `multi-modal` `model-training` `distributed-training` `pytorch` `framework`
   </details>
 
-- **[Agentset](https://github.com/agentset-ai/agentset)** `⭐ 2k` `updated ≤30d` An open-source platform for building, evaluating, and shipping production-ready RAG and agentic applications with built-in ingestion, vector indexing, evaluation benchmarks, and a chat playground. <details><summary>More about</summary>
+- **[Agentset](https://github.com/agentset-ai/agentset)** `⭐ 2.1k` `updated ≤90d` An open-source platform for building, evaluating, and shipping production-ready RAG and agentic applications with built-in ingestion, vector indexing, evaluation benchmarks, and a chat playground. <details><summary>More about</summary>
 
   It gives developers a turnkey, model-agnostic stack to stand up retrieval-augmented AI apps with citations, multi-tenancy, and SDKs without stitching together raw vector DBs and parsers.
 
@@ -1274,7 +1274,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `rag` `small-language-models` `graph-indexing` `retrieval` `python`
   </details>
 
-- **[Notte](https://github.com/nottelabs/notte)** `⭐ 2k` `updated ≤30d` Notte is a Python framework and hosted API for building and deploying AI web automation agents that combine Playwright scripting with LLM-driven browser control. <details><summary>More about</summary>
+- **[Notte](https://github.com/nottelabs/notte)** `⭐ 2k` `updated ≤90d` Notte is a Python framework and hosted API for building and deploying AI web automation agents that combine Playwright scripting with LLM-driven browser control. <details><summary>More about</summary>
 
   It lets developers mix deterministic scripting with AI agents to automate complex web tasks while claiming significant cost and reliability improvements over pure LLM approaches.
 
@@ -1670,7 +1670,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `vector-database` `rag` `embeddings` `search` `infrastructure`
   </details>
 
-- **[entaoai](https://github.com/akshata29/entaoai)** `⭐ 865` `updated >1y` A reference implementation for building RAG-based chat applications using Azure OpenAI and vector stores like Pinecone or Redis. <details><summary>More about</summary>
+- **[entaoai](https://github.com/akshata29/entaoai)** `⭐ 866` `updated >1y` A reference implementation for building RAG-based chat applications using Azure OpenAI and vector stores like Pinecone or Redis. <details><summary>More about</summary>
 
   It provides a working template for implementing enterprise-grade retrieval-augmented generation patterns and evaluation metrics.
 
@@ -1679,7 +1679,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `rag` `azure` `langchain` `openai` `vector-search`
   </details>
 
-- **[foundry](https://github.com/promptise-com/foundry)** `⭐ 858` `updated ≤30d` A Python framework for building full-stack agentic systems with native MCP support, memory, guardrails, and semantic caching. <details><summary>More about</summary>
+- **[foundry](https://github.com/promptise-com/foundry)** `⭐ 858` `updated ≤90d` A Python framework for building full-stack agentic systems with native MCP support, memory, guardrails, and semantic caching. <details><summary>More about</summary>
 
   It provides a batteries-included, production-oriented SDK for developers who want to ship agentic workflows without gluing together disparate libraries.
 
@@ -1697,7 +1697,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agent-framework` `multi-agent` `low-code` `python` `llm-agnostic`
   </details>
 
-- **[microagents](https://github.com/aymenfurter/microagents)** `⭐ 826` `updated >1y` An experimental Python framework for dynamically creating self-improving agents that can self-edit their prompts and code. <details><summary>More about</summary>
+- **[microagents](https://github.com/aymenfurter/microagents)** `⭐ 825` `updated >1y` An experimental Python framework for dynamically creating self-improving agents that can self-edit their prompts and code. <details><summary>More about</summary>
 
   Enables developers to build agents that adapt and reuse learned task-solving methods across sessions, reducing repetitive prompt engineering.
 
@@ -2048,7 +2048,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `llm` `openai-compatible` `python` `provider-abstraction`
   </details>
 
-- **[rs-graph-llm](https://github.com/a-agmon/rs-graph-llm)** `⭐ 358` `updated ≤30d` A high-performance, type-safe Rust framework for building stateful, interactive agentic workflows and multi-agent systems. <details><summary>More about</summary>
+- **[rs-graph-llm](https://github.com/a-agmon/rs-graph-llm)** `⭐ 361` `updated ≤30d` A high-performance, type-safe Rust framework for building stateful, interactive agentic workflows and multi-agent systems. <details><summary>More about</summary>
 
   It brings the structured, graph-based orchestration patterns of LangGraph to the Rust ecosystem, enabling performant and type-safe agent workflows.
 
@@ -2610,7 +2610,7 @@ _These are new or low-traffic entries being watched._
   `nestjs` `a2a` `agent-communication` `typescript`
   </details>
 
-- **[SecurityRonin/alaya](https://github.com/securityronin/alaya)** `⭐ 14` `updated ≤30d` Alaya is an embeddable Rust memory engine for conversational AI agents that applies neuroscience-grounded memory dynamics—such as dual-strength forgetting, retrieval-induced suppression, and Hebbian co-activation—to store, retrieve, and decay agent memories using a single SQLite file. <details><summary>More about</summary>
+- **[SecurityRonin/alaya](https://github.com/securityronin/alaya)** `⭐ 14` `updated ≤90d` Alaya is an embeddable Rust memory engine for conversational AI agents that applies neuroscience-grounded memory dynamics—such as dual-strength forgetting, retrieval-induced suppression, and Hebbian co-activation—to store, retrieve, and decay agent memories using a single SQLite file. <details><summary>More about</summary>
 
   It replaces flat-file agent memory with typed stores and ranked retrieval, directly addressing the token waste and structural drift that plague agents relying on MEMORY.md-style context dumping.
 
@@ -2700,7 +2700,7 @@ _These are new or low-traffic entries being watched._
   `data-engineering` `agentic-ai` `data-quality` `sql` `mlops`
   </details>
 
-- **[Aganium/agenium](https://github.com/aganium/agenium)** `⭐ 4` `updated ≤180d` An agent-to-agent communication protocol providing identity, discovery, and secure messaging via the `agent://` URI scheme. <details><summary>More about</summary>
+- **[Aganium/agenium](https://github.com/aganium/agenium)** `⭐ 4` `updated ≤1y` An agent-to-agent communication protocol providing identity, discovery, and secure messaging via the `agent://` URI scheme. <details><summary>More about</summary>
 
   It provides a standardized way for autonomous agents to find each other and exchange messages securely using mTLS and a DNS-like resolution system.
 

@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/multica-ai/multica
         surrounding_text: 25. [Multica](https://github.com/multica-ai/multica)
         confidence: high
+    - id: discovery__github__multica-ai__multica__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-08-17T04:19:08.737Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: Multica
+        extracted_url: https://github.com/multica-ai/multica
+        surrounding_text: "- **[Multica](https://github.com/multica-ai/multica)** `⭐ 45.7k` — Self-hostable workspace where you assign issues to coding agents like teammates: they pick up work, report progress, raise blockers, and hand back for review. Drives 20 agent CLIs (Claude Code, Codex, Cursor, Copilot, Kimi, OpenCode) with no bundled model; every surface is scriptable through the same CLI and API the agents use. Go."
+        confidence: high
 metadata:
   github:
     stars: 43320
@@ -65,7 +81,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: "2026-08-17T04:19:08.741Z"
     cause: null
     next_retry_at: null
   stars:
@@ -75,7 +91,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-13T04:39:55.626Z"
+    updated_at: "2026-08-17T04:19:35.943Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

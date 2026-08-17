@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/5dive-ai/5dive
         surrounding_text: "- **[5dive](https://github.com/5dive-ai/5dive)** `⭐ 15` — Run a company of AI coding agents on a server you own: one-command spin-up of named agents (Claude Code, Codex, Grok, and more), cron + heartbeat scheduling, multi-agent orchestration, Telegram control, and a babysit + needs-you triage dashboard. Self-hosted. MIT."
         confidence: high
+    - id: discovery__github__5dive-ai__5dive__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-08-17T04:19:08.737Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - CLI Agent Harnesses
+        anchor_text: 5dive
+        extracted_url: https://github.com/5dive-ai/5dive
+        surrounding_text: "| [5dive](https://github.com/5dive-ai/5dive) | 50 | Shell | MIT | 2026-08 | Run a company of named agents on your own server |"
+        confidence: high
 metadata:
   github:
     stars: 45
@@ -86,7 +101,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-06T05:29:57.557Z"
+    updated_at: "2026-08-17T04:19:08.740Z"
     cause: null
     next_retry_at: null
   stars:

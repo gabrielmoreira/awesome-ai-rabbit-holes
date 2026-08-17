@@ -14,7 +14,7 @@ Development environments built around coding assistance.
   `agentic-ide` `spec-driven-development` `ai-coding-assistant` `mcp-support`
   </details>
 
-- **[Cate](https://github.com/0-ai-ug/cate)** `⭐ 2k` `updated ≤30d` An infinite zoomable canvas IDE that spatially organizes editors, terminals, browsers, and AI agents in a single workspace. <details><summary>More about</summary>
+- **[Cate](https://github.com/0-ai-ug/cate)** `⭐ 2.1k` `updated ≤30d` An infinite zoomable canvas IDE that spatially organizes editors, terminals, browsers, and AI agents in a single workspace. <details><summary>More about</summary>
 
   It replaces traditional tab-and-window management with a freeform spatial layout, allowing developers to map out complex multi-tool workflows visually.
 

@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/opensquilla/opensquilla
         surrounding_text: "- **[OpenSquilla](https://github.com/opensquilla/opensquilla)** `⭐ 5.9k` — Self-hostable microkernel agent runtime with a full CLI (`opensquilla chat` REPL, one-shot agent mode, gateway); autonomous file edits, shell and background processes, git tools, ML-based tier routing, sandboxing (Bubblewrap/Seatbelt), persistent memory, and 20+ providers. Apache-2.0."
         confidence: high
+    - id: discovery__github__opensquilla__opensquilla__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-08-17T04:19:08.737Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+          - Harness
+        anchor_text: OpenSquilla
+        extracted_url: https://github.com/opensquilla/opensquilla
+        surrounding_text: "3. [OpenSquilla](https://github.com/opensquilla/opensquilla): a token-efficient, microkernel AI agent."
+        confidence: high
 metadata:
   github:
     stars: 6211
@@ -69,7 +85,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: "2026-08-17T04:19:08.742Z"
     cause: null
     next_retry_at: null
   stars:
@@ -79,7 +95,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-13T04:39:55.626Z"
+    updated_at: "2026-08-17T04:19:35.943Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

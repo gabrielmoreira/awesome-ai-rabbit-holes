@@ -53,6 +53,21 @@ provenance:
         extracted_url: https://github.com/sipyourdrink-ltd/bernstein
         surrounding_text: "| [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | Deterministic Python orchestrator for 37 CLI coding agents (Claude Code, Codex CLI, Gemini CLI, GitHub Copilot CLI, Cursor, Aider, OpenHands, OpenCode, Goose, Qwen, Ollama, ...) running in parallel git worktrees. First-class MCP server, quality gates, cost tracking with budgets. | ![GitHub Badge](https://img.shields.io/github/stars/sipyourdrink-ltd/bernstein.svg?style=flat-square) |"
         confidence: high
+    - id: discovery__github__sipyourdrink-ltd__bernstein__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-08-17T04:19:08.737Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - CLI Agent Harnesses
+        anchor_text: Bernstein
+        extracted_url: https://github.com/sipyourdrink-ltd/bernstein
+        surrounding_text: "| [Bernstein](https://github.com/sipyourdrink-ltd/bernstein) | 899 | Python | Apache-2.0 | 2026-08 | Deterministic orchestrator for 40+ CLI agents |"
+        confidence: high
 metadata:
   github:
     stars: 709
@@ -117,7 +132,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-25T05:35:31.721Z"
+    updated_at: "2026-08-17T04:19:08.739Z"
     cause: null
     next_retry_at: null
   stars:
@@ -127,7 +142,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-13T04:39:55.627Z"
+    updated_at: "2026-08-17T04:19:35.944Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

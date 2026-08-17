@@ -68,7 +68,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `knowledge-graph` `local-first` `memory` `multi-agent` `productivity`
   </details>
 
-- **[memvid](https://github.com/memvid/memvid)** `⭐ 16.1k` `updated ≤30d` Memvid is a portable, single-file memory layer for AI agents that stores embeddings and metadata in an append-only, video-inspired format for fast retrieval. <details><summary>More about</summary>
+- **[memvid](https://github.com/memvid/memvid)** `⭐ 16.1k` `updated ≤90d` Memvid is a portable, single-file memory layer for AI agents that stores embeddings and metadata in an append-only, video-inspired format for fast retrieval. <details><summary>More about</summary>
 
   It gives developers a simple, serverless way to equip AI agents with long-term memory and instant recall without managing RAG pipelines.
 
@@ -113,7 +113,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `rag` `local-ai` `knowledge-base` `document-qa`
   </details>
 
-- **[Airweave](https://github.com/airweave-ai/airweave)** `⭐ 6.5k` `updated ≤90d` Open-source context retrieval layer that syncs data from 50+ sources into a unified, LLM-friendly search interface for AI agents and RAG systems. <details><summary>More about</summary>
+- **[Airweave](https://github.com/airweave-ai/airweave)** `⭐ 6.6k` `updated ≤90d` Open-source context retrieval layer that syncs data from 50+ sources into a unified, LLM-friendly search interface for AI agents and RAG systems. <details><summary>More about</summary>
 
   It spares developers from rebuilding fragile data-ingestion, indexing, and auth pipelines for every agent by offering shared retrieval infrastructure with native SDK and MCP access.
 
@@ -311,13 +311,22 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `memory-infrastructure` `consensus` `multi-agent` `bft` `context-engineering`
   </details>
 
-- **[varun29ankuS/shodh-memory](https://github.com/varun29ankus/shodh-memory)** `⭐ 239` `updated ≤30d` Shodh-Memory is a persistent cognitive memory system for AI agents that learns from usage and forgets irrelevant data via algorithmic intelligence, running fully offline as a single binary. <details><summary>More about</summary>
+- **[varun29ankuS/shodh-memory](https://github.com/varun29ankus/shodh-memory)** `⭐ 239` `updated ≤90d` Shodh-Memory is a persistent cognitive memory system for AI agents that learns from usage and forgets irrelevant data via algorithmic intelligence, running fully offline as a single binary. <details><summary>More about</summary>
 
   It gives developers a lightweight, private memory layer for AI agents that improves with use without API calls or external dependencies.
 
   _Finally, a memory system that doesn’t require you to trade latency, cost, or offline access for the illusion of intelligence._
 
   `memory` `mcp` `offline` `agentic-ai` `context-engineering`
+  </details>
+
+- **[Mengram](https://github.com/alibaizhanov/mengram)** `⭐ 189` `updated ≤30d` A memory system for AI agents offering semantic, episodic, and procedural memory with Python/JS SDKs and integrations for LangChain, CrewAI, and MCP. <details><summary>More about</summary>
+
+  Developers can give their agents persistent, evolving memory (including workflows that learn from failures) without building retrieval or context systems from scratch.
+
+  _Finally, an AI that remembers your tech stack but still forgets why you chose it._
+
+  `agent-memory` `context-engineering` `mcp-compatible` `langchain-integration` `procedural-learning`
   </details>
 
 - **[omega-memory/omega-memory](https://github.com/omega-memory/omega-memory)** `⭐ 189` `updated ≤90d` A local-first persistent memory system that provides cross-model semantic memory, knowledge graphs, and MCP server integration for AI coding agents like Claude, Cursor, and Windsurf. <details><summary>More about</summary>
@@ -327,15 +336,6 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   _We have finally solved the problem of AI forgetting what we did five minutes ago, provided we install a local-first brain that promises to remember everything except why we started this project in the first place._
 
   `memory` `mcp` `local-first` `context-engineering` `multi-agent`
-  </details>
-
-- **[Mengram](https://github.com/alibaizhanov/mengram)** `⭐ 185` `updated ≤30d` A memory system for AI agents offering semantic, episodic, and procedural memory with Python/JS SDKs and integrations for LangChain, CrewAI, and MCP. <details><summary>More about</summary>
-
-  Developers can give their agents persistent, evolving memory (including workflows that learn from failures) without building retrieval or context systems from scratch.
-
-  _Finally, an AI that remembers your tech stack but still forgets why you chose it._
-
-  `agent-memory` `context-engineering` `mcp-compatible` `langchain-integration` `procedural-learning`
   </details>
 
 - **[Jean Memory](https://github.com/jean-technologies/jean-memory)** `⭐ 170` `updated ≤1y` AI memory infrastructure providing a persistent, intelligent context layer for applications via SDKs and APIs. <details><summary>More about</summary>
@@ -405,7 +405,7 @@ _These are new or low-traffic entries being watched._
   `claude-code` `memory` `mcp` `local-ai` `context-engineering`
   </details>
 
-- **[ax](https://github.com/necmttn/ax)** `⭐ 83` `updated ≤30d` A local-first observability and memory layer that uses a typed graph to record and learn from agent sessions. <details><summary>More about</summary>
+- **[ax](https://github.com/necmttn/ax)** `⭐ 83` `updated ≤90d` A local-first observability and memory layer that uses a typed graph to record and learn from agent sessions. <details><summary>More about</summary>
 
   It prevents AI coding agents from repeating the same mistakes by turning session transcripts into structured, reviewable learning loops.
 
@@ -441,7 +441,7 @@ _These are new or low-traffic entries being watched._
   `claude-code` `memory-system` `mcp-server` `context-engineering` `local-first`
   </details>
 
-- **[ukkit/memcord](https://github.com/ukkit/memcord)** `⭐ 71` `updated ≤30d` Privacy-first, self-hosted MCP server that persists AI chat history into searchable, summarized memory slots for Claude and other MCP-compatible assistants. <details><summary>More about</summary>
+- **[ukkit/memcord](https://github.com/ukkit/memcord)** `⭐ 71` `updated ≤90d` Privacy-first, self-hosted MCP server that persists AI chat history into searchable, summarized memory slots for Claude and other MCP-compatible assistants. <details><summary>More about</summary>
 
   Lets developers maintain long-term context across AI conversations without shipping chat history to cloud providers, using local storage and intelligent summarization.
 
@@ -594,7 +594,7 @@ _These are new or low-traffic entries being watched._
   `static-analysis` `mcp` `ast` `knowledge-graph` `code-navigation`
   </details>
 
-- **[Abhigyan-Shekhar/Waggle-mcp](https://github.com/abhigyan-shekhar/waggle-mcp)** `⭐ 34` `updated ≤30d` Local-first MCP server that adds persistent graph-backed memory to coding agents, storing decisions, contradictions, and reasoning chains across sessions. <details><summary>More about</summary>
+- **[Abhigyan-Shekhar/Waggle-mcp](https://github.com/abhigyan-shekhar/waggle-mcp)** `⭐ 35` `updated ≤30d` Local-first MCP server that adds persistent graph-backed memory to coding agents, storing decisions, contradictions, and reasoning chains across sessions. <details><summary>More about</summary>
 
   Eliminates context-window amnesia by retaining not just facts but the relationships between them (decisions, reasons, contradictions) in a queryable knowledge graph that survives session restarts.
 
@@ -783,7 +783,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `code-analysis` `typescript` `local-ai` `context-window`
   </details>
 
-- **[remembra-ai/remembra](https://github.com/remembra-ai/remembra)** `⭐ 15` `updated ≤30d` A self-hosted memory layer for AI applications that provides persistent storage, entity resolution, and graph-aware recall via Python and TypeScript SDKs and an MCP server. <details><summary>More about</summary>
+- **[remembra-ai/remembra](https://github.com/remembra-ai/remembra)** `⭐ 15` `updated ≤90d` A self-hosted memory layer for AI applications that provides persistent storage, entity resolution, and graph-aware recall via Python and TypeScript SDKs and an MCP server. <details><summary>More about</summary>
 
   It gives developers a way to add durable, cross-session memory to any AI agent or coding assistant without relying on vendor-locked or expensive hosted graph memory services.
 
@@ -909,7 +909,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `memory` `context` `knowledge-graph` `persistent-memory`
   </details>
 
-- **[ErebusEnigma/context-memory](https://github.com/erebusenigma/context-memory)** `⭐ 5` `updated ≤180d` Persistent, searchable context storage plugin for Claude Code that uses SQLite + FTS5 to maintain memory across sessions. <details><summary>More about</summary>
+- **[ErebusEnigma/context-memory](https://github.com/erebusenigma/context-memory)** `⭐ 5` `updated ≤1y` Persistent, searchable context storage plugin for Claude Code that uses SQLite + FTS5 to maintain memory across sessions. <details><summary>More about</summary>
 
   Eliminates the need to re-explain context in every new Claude Code session by providing recallable, structured summaries of past work, decisions, and code patterns.
 
@@ -972,7 +972,7 @@ _These are new or low-traffic entries being watched._
   `static-analysis` `mcp` `software-architecture` `code-graph`
   </details>
 
-- **[Auctalis/nocturnusai](https://github.com/auctalis/nocturnusai)** `⭐ 3` `updated ≤180d` A context engineering engine for AI agents that compresses context, extracts facts, and provides deterministic answers with proof via logical inference. <details><summary>More about</summary>
+- **[Auctalis/nocturnusai](https://github.com/auctalis/nocturnusai)** `⭐ 3` `updated ≤30d` A context engineering engine for AI agents that compresses context, extracts facts, and provides deterministic answers with proof via logical inference. <details><summary>More about</summary>
 
   It reduces token usage and cost by up to 10x while preserving truth and determinism in agent workflows, addressing the pain of replaying entire conversation histories.
 

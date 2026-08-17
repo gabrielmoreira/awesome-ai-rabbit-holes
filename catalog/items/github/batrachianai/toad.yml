@@ -79,9 +79,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-06T05:07:20.535Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-17T04:19:33.073Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for batrachianai/toad
     next_retry_at: null
   categorize:
     status: done

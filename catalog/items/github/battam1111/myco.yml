@@ -90,9 +90,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-06T05:07:20.674Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-17T04:19:33.192Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for battam1111/myco
     next_retry_at: null
   categorize:
     status: done

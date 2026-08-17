@@ -32,7 +32,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `agent-orchestration` `workflow-automation` `ai-collaboration` `agile`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.4k` `updated ≤180d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.7k` `updated ≤180d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
 
   It attempts to standardize how developers communicate environment tips, testing requirements, and PR guidelines directly to autonomous agents.
 
@@ -104,7 +104,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `codebase-indexing` `prd` `multi-agent`
   </details>
 
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 453` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 461` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
 
   It provides a formal framework to prevent complex multi-agent or human-AI projects from devolving into incoherent, unreviewable conversational loops.
 
@@ -261,7 +261,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `ai-security` `coding-agents` `local-first` `verification`
   </details>
 
-- **[mithun4elp/briefkit-mcp-server](https://github.com/mithun4elp/briefkit-mcp-server)** `⭐ 1` `updated ≤90d` An MCP server that generates structured SaaS specifications like database schemas and design systems to guide AI coding assistants. <details><summary>More about</summary>
+- **[mithun4elp/briefkit-mcp-server](https://github.com/mithun4elp/briefkit-mcp-server)** `⭐ 1` `updated ≤180d` An MCP server that generates structured SaaS specifications like database schemas and design systems to guide AI coding assistants. <details><summary>More about</summary>
 
   It improves implementation reliability and slashes token costs by providing engineer-grade specs instead of letting AI reason through architecture from scratch.
 

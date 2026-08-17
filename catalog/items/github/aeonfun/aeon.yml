@@ -38,16 +38,31 @@ provenance:
         extracted_url: https://github.com/aaronjmars/aeon
         surrounding_text: "- **[Aeon](https://github.com/aaronjmars/aeon)** `⭐ 574` — Autonomous agent framework that runs unattended on GitHub Actions; orchestrates Claude Code across 90+ skills (research, dev, crypto, productivity) on cron or reactive triggers, with quality scoring (1–5 via Haiku), persistent memory, and a self-healing loop. MCP + A2A integrations. MIT."
         confidence: high
+    - id: discovery__github__aeonfun__aeon__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-08-17T04:19:08.737Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+        anchor_text: Aeon
+        extracted_url: https://github.com/aeonfun/aeon
+        surrounding_text: "| [Aeon](https://github.com/aeonfun/aeon) | 664 | TypeScript | MIT | 2026-08 | Runs unattended on GitHub Actions, self-healing |"
+        confidence: high
 metadata:
   github:
-    stars: 594
-    forks: 216
+    stars: 666
+    forks: 237
     license: MIT
     archived: false
     full_name: aeonfun/aeon
     html_url: https://github.com/aeonfun/aeon
     created_at: "2026-03-04T19:44:49Z"
-    pushed_at: "2026-08-05T22:59:17Z"
+    pushed_at: "2026-08-16T00:33:03Z"
     description: The most autonomous agent framework. No approval loops. No babysitting. Configure once, forget forever.
     homepage: https://www.aeon.fun/
     topics:
@@ -60,9 +75,9 @@ metadata:
       - claude-code
       - harness
       - llm
-    last_checked_at: "2026-08-06T05:07:01.487Z"
+    last_checked_at: "2026-08-17T04:19:14.342Z"
     readme:
-      fetched_at: "2026-08-06T05:07:01.487Z"
+      fetched_at: "2026-08-17T04:19:14.342Z"
       bytes: 13473
 insights:
   summary: An autonomous agent framework designed to execute tasks, ship features, and manage workflows without human intervention.
@@ -122,11 +137,11 @@ processing:
       review_resume_lifecycle: null
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.714Z"
+    updated_at: "2026-08-17T04:19:08.740Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-06T05:07:01.487Z"
+    updated_at: "2026-08-17T04:19:14.342Z"
     cause: null
     next_retry_at: null

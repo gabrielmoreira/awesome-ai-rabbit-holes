@@ -14,7 +14,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `slash-commands` `workflows` `prompt-engineering`
   </details>
 
-- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 166.5k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
+- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 169.8k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
 
   It enables developers to create reusable, portable skill packs that teach Claude (and other compatible agents) how to handle specific workflows, from document editing to technical automation.
 
@@ -41,7 +41,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `claude-skills` `agent-skills` `workflow-automation` `skill-registry` `developer-tools`
   </details>
 
-- **[awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills)** `⭐ 51.4k` `updated ≤30d` awesome-openclaw-skills is a curated directory of 5,200+ OpenClaw skills, organized from the official OpenClaw Skills Registry. <details><summary>More about</summary>
+- **[awesome-openclaw-skills](https://github.com/voltagent/awesome-openclaw-skills)** `⭐ 51.4k` `updated ≤90d` awesome-openclaw-skills is a curated directory of 5,200+ OpenClaw skills, organized from the official OpenClaw Skills Registry. <details><summary>More about</summary>
 
   It helps developers discover reusable automation skills for the OpenClaw local AI assistant, reducing time spent searching for functional extensions.
 
@@ -68,7 +68,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `skill-packs` `coding-assistants`
   </details>
 
-- **[skills](https://github.com/vercel-labs/skills)** `⭐ 26.8k` `updated ≤30d` skills is a CLI for discovering and installing reusable skill packs for AI agents like Claude Code and OpenCode. <details><summary>More about</summary>
+- **[skills](https://github.com/vercel-labs/skills)** `⭐ 26.8k` `updated ≤90d` skills is a CLI for discovering and installing reusable skill packs for AI agents like Claude Code and OpenCode. <details><summary>More about</summary>
 
   It lets developers standardize and share agent behaviors across projects and teams via installable skill modules.
 
@@ -180,7 +180,7 @@ _These are new or low-traffic entries being watched._
   `skills` `cli` `prompt-engineering` `ai-assistants` `slash-commands`
   </details>
 
-- **[EmblemCompany/Agent-skills](https://github.com/emblemcompany/agent-skills)** `⭐ 12` `updated ≤90d` A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking. <details><summary>More about</summary>
+- **[EmblemCompany/Agent-skills](https://github.com/emblemcompany/agent-skills)** `⭐ 12` `updated ≤180d` A collection of reusable crypto and blockchain skill packs designed to equip AI agents with web3 capabilities like swaps, DeFi management, and portfolio tracking. <details><summary>More about</summary>
 
   It provides a standardized way to give agents complex, multi-chain execution capabilities without developers having to write custom integration logic for every blockchain.
 

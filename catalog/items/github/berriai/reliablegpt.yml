@@ -59,15 +59,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-08-13T04:39:31.745Z"
+    status: deferred
+    updated_at: "2026-08-17T04:19:33.542Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: berriai/reliablegpt"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for berriai/reliablegpt
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-13T04:39:55.625Z"
+    updated_at: "2026-08-17T04:19:35.942Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -21,16 +21,31 @@ provenance:
         extracted_url: https://github.com/aden-hive/hive
         surrounding_text: "| [Hive](https://github.com/aden-hive/hive)                          | Open-source AI agent framework for building goal-driven, self-improving autonomous agents with auto-generated graphs, evolution loops, and MCP integration.                                                                                                                                                                                                                                             | ![GitHub Badge](https://img.shields.io/github/stars/aden-hive/hive.svg?style=flat-square)                 |"
         confidence: high
+    - id: discovery__github__aden-hive__hive__awesome-list__kaushikb11__awesome-llm-agents
+      discovered_at: "2026-08-17T04:19:08.737Z"
+      source:
+        type: awesome-list
+        name: kaushikb11/awesome-llm-agents
+        url: https://github.com/kaushikb11/awesome-llm-agents
+        repository: kaushikb11/awesome-llm-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Core Frameworks
+        anchor_text: Hive
+        extracted_url: https://github.com/aden-hive/hive
+        surrounding_text: "| [Hive](https://github.com/aden-hive/hive) | 10,914 | Python | Apache-2.0 | 2026-08 | Multi-agent harness aimed at production |"
+        confidence: high
 metadata:
   github:
-    stars: 10867
-    forks: 5671
+    stars: 10917
+    forks: 5670
     license: Apache-2.0
     archived: false
     full_name: aden-hive/hive
     html_url: https://github.com/aden-hive/hive
     created_at: "2026-01-12T00:04:22Z"
-    pushed_at: "2026-05-29T21:55:22Z"
+    pushed_at: "2026-08-13T01:52:10Z"
     description: Multi-Agent Harness for Production AI
     homepage: ""
     topics:
@@ -48,10 +63,10 @@ metadata:
       - python
       - self-hosted
       - self-improving
-    last_checked_at: "2026-08-06T05:07:00.766Z"
+    last_checked_at: "2026-08-17T04:19:13.792Z"
     readme:
-      fetched_at: "2026-08-06T05:07:00.766Z"
-      bytes: 17060
+      fetched_at: "2026-08-17T04:19:13.792Z"
+      bytes: 19019
 insights:
   summary: A model-agnostic execution harness that compiles objectives into strict, graph-based DAGs to coordinate specialized multi-agent workflows in production environments.
   why_it_matters: It gives developers runtime-level state persistence, crash recovery, observability, and human-in-the-loop controls for multi-agent workloads without writing orchestration boilerplate.
@@ -79,12 +94,12 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.683Z"
+    updated_at: "2026-08-17T04:19:08.740Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-06T05:07:00.766Z"
+    updated_at: "2026-08-17T04:19:13.792Z"
     cause: null
     next_retry_at: null
   categorize:
