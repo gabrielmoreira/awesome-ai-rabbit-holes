@@ -5,7 +5,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 ## Tools & Resources
 
-- **[awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps)** `⭐ 125k` `updated ≤30d` A curated collection of 100+ runnable LLM application templates covering AI agents, RAG pipelines, voice agents, and MCP integrations. <details><summary>More about</summary>
+- **[awesome-llm-apps](https://github.com/shubhamsaboo/awesome-llm-apps)** `⭐ 125k` `updated ≤90d` A curated collection of 100+ runnable LLM application templates covering AI agents, RAG pipelines, voice agents, and MCP integrations. <details><summary>More about</summary>
 
   Developers can clone and customize ready-to-run starter code for modern LLM patterns instead of rebuilding RAG pipelines and agent loops from scratch.
 
@@ -104,7 +104,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `langchain` `awesome-list` `ecosystem` `directory` `curated`
   </details>
 
-- **[awesome-llm-resources](https://github.com/wangrongsheng/awesome-llm-resources)** `⭐ 8.7k` `updated ≤30d` awesome-llm-resources is a curated GitHub repository listing LLM-related papers, courses, books, and tools across topics like agents, MCP, and fine-tuning. <details><summary>More about</summary>
+- **[awesome-llm-resources](https://github.com/wangrongsheng/awesome-llm-resources)** `⭐ 8.7k` `updated ≤90d` awesome-llm-resources is a curated GitHub repository listing LLM-related papers, courses, books, and tools across topics like agents, MCP, and fine-tuning. <details><summary>More about</summary>
 
   It helps developers discover and navigate the rapidly expanding LLM ecosystem through organized, community-maintained resource links.
 
@@ -122,7 +122,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `clients` `navigation`
   </details>
 
-- **[awesome-llmops](https://github.com/tensorchord/awesome-llmops)** `⭐ 5.9k` `updated ≤90d` A curated, community-maintained awesome list indexing LLMOps tools spanning model training, serving, security, data management, and developer-facing code AI. <details><summary>More about</summary>
+- **[awesome-llmops](https://github.com/tensorchord/awesome-llmops)** `⭐ 5.9k` `updated ≤180d` A curated, community-maintained awesome list indexing LLMOps tools spanning model training, serving, security, data management, and developer-facing code AI. <details><summary>More about</summary>
 
   It acts as a map for developers trying to navigate the fragmented LLMOps ecosystem, from foundational models to the specific Code AI tooling used in daily workflows.
 
@@ -311,7 +311,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `ai-agents` `sdk` `framework` `directory`
   </details>
 
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 971` `updated ≤30d` Curated directory of terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 1k` `updated ≤30d` Curated directory of terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
 
   Developers can discover and compare CLI-based coding agents and their orchestration tools in one place.
 
@@ -356,7 +356,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `ai-builders` `ai-editors` `curated-list` `vibe-coding`
   </details>
 
-- **[awesome-local-llms](https://github.com/vince-lam/awesome-local-llms)** `⭐ 783` `updated ≤30d` awesome-local-llms is a curated comparison table of open-source local LLM inference projects ranked by GitHub metrics like stars and recent activity. <details><summary>More about</summary>
+- **[awesome-local-llms](https://github.com/vince-lam/awesome-local-llms)** `⭐ 783` `updated ≤90d` awesome-local-llms is a curated comparison table of open-source local LLM inference projects ranked by GitHub metrics like stars and recent activity. <details><summary>More about</summary>
 
   Helps developers quickly identify actively maintained, popular local LLM tools for inference without manual discovery.
 

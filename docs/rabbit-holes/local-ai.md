@@ -14,7 +14,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `cli` `self-hosted` `inference`
   </details>
 
-- **[Open WebUI](https://github.com/open-webui/open-webui)** `⭐ 146.1k` `updated ≤30d` Open WebUI is a self-hosted, extensible web interface for interacting with local LLMs via Ollama or OpenAI-compatible APIs, featuring built-in RAG, Python function calling, and multi-model chat. <details><summary>More about</summary>
+- **[Open WebUI](https://github.com/open-webui/open-webui)** `⭐ 146.1k` `updated ≤90d` Open WebUI is a self-hosted, extensible web interface for interacting with local LLMs via Ollama or OpenAI-compatible APIs, featuring built-in RAG, Python function calling, and multi-model chat. <details><summary>More about</summary>
 
   It provides developers with a private, full-featured local chat UI and tooling surface that supports custom model creation, document ingestion, and extensible Python functions without relying on external cloud services.
 
@@ -122,7 +122,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `open-source`
   </details>
 
-- **[SGLang (`🔥`)](https://github.com/sgl-project/sglang)** `⭐ 30.5k` `updated ≤30d` SGLang is a high-performance serving framework for running and scaling large language models and multimodal models locally or in infrastructure. <details><summary>More about</summary>
+- **[SGLang (`🔥`)](https://github.com/sgl-project/sglang)** `⭐ 30.5k` `updated ≤90d` SGLang is a high-performance serving framework for running and scaling large language models and multimodal models locally or in infrastructure. <details><summary>More about</summary>
 
   It lets developers self-host and serve modern LLMs and VLMs with optimized inference performance across CUDA, TPU, and Blackwell hardware.
 
@@ -149,7 +149,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `single-binary` `offline` `inference`
   </details>
 
-- **[Local GPT](https://github.com/promtengineer/localgpt)** `⭐ 22.2k` `updated ≤30d` A local, privacy-focused document intelligence platform that lets you chat with your files using on-device LLMs and a modular RAG pipeline with hybrid search. <details><summary>More about</summary>
+- **[Local GPT](https://github.com/promtengineer/localgpt)** `⭐ 22.2k` `updated ≤90d` A local, privacy-focused document intelligence platform that lets you chat with your files using on-device LLMs and a modular RAG pipeline with hybrid search. <details><summary>More about</summary>
 
   It gives developers a self-contained way to index, retrieve, and query private documents via API or UI without sending data to external inference providers.
 
@@ -275,7 +275,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `gradio` `discord-bot` `local-ai`
   </details>
 
-- **[Rapid-MLX](https://github.com/raullenchai/rapid-mlx)** `⭐ 3.3k` `updated ≤30d` A local inference engine for Apple Silicon that serves models via an OpenAI-compatible API, optimized for speed and tool calling to work with coding assistants like Claude Code and Cursor. <details><summary>More about</summary>
+- **[Rapid-MLX](https://github.com/raullenchai/rapid-mlx)** `⭐ 3.3k` `updated ≤90d` A local inference engine for Apple Silicon that serves models via an OpenAI-compatible API, optimized for speed and tool calling to work with coding assistants like Claude Code and Cursor. <details><summary>More about</summary>
 
   It allows developers on Mac to run frontier-sized models locally with minimal latency, enabling private, cost-free usage of tool-calling workflows inside their existing editors.
 

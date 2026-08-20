@@ -1,9 +1,9 @@
-id: github__cryptobriefing__gloria-mcp
+id: github__cryptobriefing-labs__gloria-mcp
 kind: github-repo
 name: gloria-mcp
-canonical_url: https://github.com/cryptobriefing/gloria-mcp
+canonical_url: https://github.com/cryptobriefing-labs/gloria-mcp
 identity:
-  github_repo: cryptobriefing/gloria-mcp
+  github_repo: cryptobriefing-labs/gloria-mcp
 provenance:
   discoveries:
     - id: discovery__github__cryptobriefing__gloria-mcp__awesome-list__punkpeye__awesome-mcp-servers
@@ -28,10 +28,10 @@ metadata:
     forks: 0
     license: MIT
     archived: false
-    full_name: cryptobriefing/gloria-mcp
-    html_url: https://github.com/cryptobriefing/gloria-mcp
+    full_name: cryptobriefing-labs/gloria-mcp
+    html_url: https://github.com/cryptobriefing-labs/gloria-mcp
     created_at: "2026-02-17T21:22:49Z"
-    pushed_at: "2026-08-07T16:47:25Z"
+    pushed_at: "2026-08-15T00:05:24Z"
     description: MCP server for Gloria AI — real-time curated crypto news with sentiment, recaps, and search for AI agents
     homepage: https://itsgloria.ai
     topics:
@@ -42,19 +42,19 @@ metadata:
       - model-context-protocol
       - news
       - x402
-    last_checked_at: "2026-08-10T04:36:12.527Z"
+    last_checked_at: "2026-08-20T04:18:19.602Z"
     readme:
-      fetched_at: "2026-08-10T04:36:12.527Z"
+      fetched_at: "2026-08-20T04:18:19.602Z"
       bytes: 1726
 insights:
   summary: MCP server providing real-time curated crypto news with sentiment, recaps, and search for AI agents.
   why_it_matters: Developers can integrate live crypto news and sentiment analysis into their AI agents via MCP, enabling richer context for financial or market-aware workflows.
   mental_damage: Now your AI agent can panic about Bitcoin dips in real-time, just like you do.
   tags:
-    - mcp-server
-    - crypto-news
-    - sentiment-analysis
     - ai-agents
+    - crypto-news
+    - mcp-server
+    - sentiment-analysis
     - x402
   confidence: high
 curation:
@@ -71,16 +71,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-06T22:12:15.609Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-08-10T04:36:12.527Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-07-21T15:49:03.220Z"
@@ -107,3 +97,13 @@ processing:
       contrastive_reason: Choose mcp over ai-dev-extensions because the primary identity is an MCP server exposing domain-specific tools, not an extension augmenting another assistant.
       review_reason: null
       review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.609Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-08-20T04:18:19.602Z"
+    cause: null
+    next_retry_at: null

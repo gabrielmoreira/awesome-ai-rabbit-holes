@@ -59,15 +59,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-08-17T04:19:33.615Z"
+    status: failed
+    updated_at: "2026-08-20T04:18:04.463Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for bhavnicksm/chonkie
+      type: github_repo_missing
+      message: "GitHub repository not found: bhavnicksm/chonkie"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-17T04:19:35.942Z"
+    updated_at: "2026-08-20T04:18:25.578Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

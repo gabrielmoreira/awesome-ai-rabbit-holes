@@ -23,7 +23,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `ai-coding-assistants` `workflow`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 51.7k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 52.1k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
 
   It provides developers with guided, expert-collaborator workflows for end-to-end project development, from brainstorming to deployment, rather than just generating code.
 
@@ -41,7 +41,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `coding-agents` `spec-driven` `context-engineering` `standards`
   </details>
 
-- **[cc-sdd](https://github.com/gotalab/cc-sdd)** `⭐ 3.6k` `updated ≤90d` A minimal, adaptable spec-driven development harness that turns approved specs into long-running autonomous implementation via Agent Skills for multiple AI coding agents. <details><summary>More about</summary>
+- **[cc-sdd](https://github.com/gotalab/cc-sdd)** `⭐ 3.6k` `updated ≤180d` A minimal, adaptable spec-driven development harness that turns approved specs into long-running autonomous implementation via Agent Skills for multiple AI coding agents. <details><summary>More about</summary>
 
   It enables developers to delegate spec-to-code workflows across 8 coding agents with structured phase gates, boundary-first design, and autonomous task execution with review and debugging.
 
@@ -59,7 +59,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `claude-code` `tdd` `context-engineering` `shell`
   </details>
 
-- **[Spec Kitty](https://github.com/priivacy-ai/spec-kitty)** `⭐ 1.4k` `updated ≤30d` An open-source CLI that wraps AI coding agents in a spec-driven workflow with git worktrees, task lifecycle management, and a local kanban dashboard. <details><summary>More about</summary>
+- **[Spec Kitty](https://github.com/priivacy-ai/spec-kitty)** `⭐ 1.4k` `updated ≤90d` An open-source CLI that wraps AI coding agents in a spec-driven workflow with git worktrees, task lifecycle management, and a local kanban dashboard. <details><summary>More about</summary>
 
   It imposes structure on AI-generated code by keeping specs, plans, and tasks in the repo, preventing requirements from vanishing into the void during long agent sessions.
 
@@ -131,7 +131,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `code-generation` `proof-of-concept`
   </details>
 
-- **[codervisor/lean-spec](https://github.com/codervisor/leanspec)** `⭐ 277` `updated ≤90d` Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support. <details><summary>More about</summary>
+- **[codervisor/lean-spec](https://github.com/codervisor/leanspec)** `⭐ 281` `updated ≤180d` Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support. <details><summary>More about</summary>
 
   Lets developers use their existing issue trackers (GitHub, ADO, Jira, etc.) as spec backends while adding a unified interface, AI-native workflows, and visualization tools for SDD.
 
@@ -153,7 +153,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
 
 _These are new or low-traffic entries being watched._
 
-- **[fspec](https://github.com/sengac/fspec)** `⭐ 79` `updated ≤30d` fspec is a CLI and interactive kanban system that enforces spec-driven development, Gherkin scenarios, and TDD guardrails for AI coding agents. <details><summary>More about</summary>
+- **[fspec](https://github.com/sengac/fspec)** `⭐ 79` `updated ≤90d` fspec is a CLI and interactive kanban system that enforces spec-driven development, Gherkin scenarios, and TDD guardrails for AI coding agents. <details><summary>More about</summary>
 
   It shifts AI coding from reactive babysitting to a structured loop where specifications, tests, and checkpoints control the implementation lifecycle.
 

@@ -70,9 +70,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-10T04:36:17.002Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-20T04:18:23.351Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for debridge-finance/debridge-mcp
     next_retry_at: null
   categorize:
     status: done

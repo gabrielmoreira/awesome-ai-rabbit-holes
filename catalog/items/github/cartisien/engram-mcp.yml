@@ -78,9 +78,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-10T04:36:02.097Z"
-    cause: null
+    status: failed
+    updated_at: "2026-08-20T04:18:10.896Z"
+    cause:
+      type: github_repo_missing
+      message: "GitHub repository not found: cartisien/engram-mcp"
     next_retry_at: null
   categorize:
     status: done

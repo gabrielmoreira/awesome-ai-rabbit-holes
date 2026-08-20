@@ -59,15 +59,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-08-13T04:39:33.694Z"
+    status: deferred
+    updated_at: "2026-08-20T04:18:23.267Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: dean/hal"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for dean/hal
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-17T04:19:35.942Z"
+    updated_at: "2026-08-20T04:18:25.578Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

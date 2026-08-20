@@ -68,9 +68,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-10T04:36:16.665Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-20T04:18:23.129Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for ddsky/gamebrain-api-clients
     next_retry_at: null
   categorize:
     status: done

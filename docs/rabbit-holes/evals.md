@@ -23,7 +23,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llmops` `observability` `evaluation` `prompt-management` `mlops`
   </details>
 
-- **[Promptfoo](https://github.com/promptfoo/promptfoo)** `⭐ 23.4k` `updated ≤30d` A CLI and library for evaluating, red-teaming, and vulnerability scanning LLM applications, supporting side-by-side model comparison and CI/CD integration. <details><summary>More about</summary>
+- **[Promptfoo](https://github.com/promptfoo/promptfoo)** `⭐ 23.4k` `updated ≤90d` A CLI and library for evaluating, red-teaming, and vulnerability scanning LLM applications, supporting side-by-side model comparison and CI/CD integration. <details><summary>More about</summary>
 
   It moves prompt and agent testing from vibes-based trial-and-error to measurable, automated regression checks that can gate real deployments.
 
@@ -32,7 +32,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `eval` `red-teaming` `cli` `llm-testing` `ci-cd`
   </details>
 
-- **[Opik](https://github.com/comet-ml/opik)** `⭐ 21.3k` `updated ≤30d` Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic workflows. <details><summary>More about</summary>
+- **[Opik](https://github.com/comet-ml/opik)** `⭐ 21.5k` `updated ≤30d` Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic workflows. <details><summary>More about</summary>
 
   It provides comprehensive tracing, automated evaluations, and production-ready dashboards to debug and improve AI applications from prototype to production.
 
@@ -41,7 +41,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `evaluation` `tracing` `llmops` `rag`
   </details>
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 17.5k` `updated ≤30d` An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots. <details><summary>More about</summary>
+- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 17.7k` `updated ≤30d` An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots. <details><summary>More about</summary>
 
   It lets developers measure and compare model quality, prompt effectiveness, and architecture choices with research-backed metrics like G-Eval and task completion.
 
@@ -113,7 +113,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `observability` `llmops` `opentelemetry` `python` `tracing`
   </details>
 
-- **[opencompass (`🔥`)](https://github.com/open-compass/opencompass)** `⭐ 7.2k` `updated ≤30d` OpenCompass is an LLM evaluation platform supporting over 100+ datasets and a wide range of models to benchmark and compare model performance. <details><summary>More about</summary>
+- **[opencompass (`🔥`)](https://github.com/open-compass/opencompass)** `⭐ 7.2k` `updated ≤90d` OpenCompass is an LLM evaluation platform supporting over 100+ datasets and a wide range of models to benchmark and compare model performance. <details><summary>More about</summary>
 
   It provides developers and researchers with a standardized CLI and configuration framework to objectively measure and compare LLM capabilities across custom or standard benchmarks.
 
@@ -167,7 +167,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `rag` `eval` `benchmarking` `automl` `pipeline-optimization`
   </details>
 
-- **[Logfire](https://github.com/pydantic/logfire)** `⭐ 4.4k` `updated ≤30d` An observability platform and SDK built on OpenTelemetry for tracing, logging, and measuring production LLM and agent systems. <details><summary>More about</summary>
+- **[Logfire](https://github.com/pydantic/logfire)** `⭐ 4.4k` `updated ≤90d` An observability platform and SDK built on OpenTelemetry for tracing, logging, and measuring production LLM and agent systems. <details><summary>More about</summary>
 
   It gives developers deep visibility into Python and LLM workflows with SQL querying, Pydantic integration, and standard OTel signals so they can actually debug agent behavior in production.
 
@@ -239,7 +239,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `data-quality` `mlops` `observability`
   </details>
 
-- **[OpenLIT](https://github.com/openlit/openlit)** `⭐ 2.6k` `updated ≤30d` Open-source LLM observability platform providing OpenTelemetry-native tracing, evaluations, prompt management, guardrails, and GPU monitoring for AI applications. <details><summary>More about</summary>
+- **[OpenLIT](https://github.com/openlit/openlit)** `⭐ 2.6k` `updated ≤90d` Open-source LLM observability platform providing OpenTelemetry-native tracing, evaluations, prompt management, guardrails, and GPU monitoring for AI applications. <details><summary>More about</summary>
 
   It gives developers a single drop-in SDK to trace, evaluate, and govern LLM calls across 50+ providers without wiring together half a dozen observability tools.
 
@@ -347,7 +347,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `ai-safety` `mlops`
   </details>
 
-- **[nolabs-ai/deepfabric](https://github.com/nolabs-ai/deepfabric)** `⭐ 878` `updated ≤30d` A pipeline for generating high-quality synthetic data, training models, and evaluating agent behavior with topic-graph guided sampling and schema-constrained outputs. <details><summary>More about</summary>
+- **[nolabs-ai/deepfabric](https://github.com/nolabs-ai/deepfabric)** `⭐ 878` `updated ≤90d` A pipeline for generating high-quality synthetic data, training models, and evaluating agent behavior with topic-graph guided sampling and schema-constrained outputs. <details><summary>More about</summary>
 
   It lets developers create domain-specific, tool-aware datasets for training and evaluating agentic systems with strict schema adherence and built-in validation.
 
@@ -446,7 +446,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `mathematical-reasoning` `benchmarking` `reasoning-traces`
   </details>
 
-- **[LangFair](https://github.com/cvs-health/langfair)** `⭐ 261` `updated ≤90d` LangFair is a Python library for conducting use-case level LLM bias and fairness assessments. <details><summary>More about</summary>
+- **[LangFair](https://github.com/cvs-health/langfair)** `⭐ 261` `updated ≤30d` LangFair is a Python library for conducting use-case level LLM bias and fairness assessments. <details><summary>More about</summary>
 
   It enables developers to tailor bias and fairness evaluations to specific LLM use cases with a BYOP (Bring Your Own Prompts) approach, ensuring real-world relevance.
 
@@ -630,7 +630,7 @@ _These are new or low-traffic entries being watched._
   `code-review` `ai-detection` `quality-analysis` `dashboard`
   </details>
 
-- **[SynthScan](https://github.com/marcoramilli/synthscan)** `⭐ 1` `updated ≤30d` A GitHub Action and CLI tool that scans repositories for over 120 patterns indicative of AI-generated code and reports a normalized 'Synthetic Code Score' per 1,000 lines of code. <details><summary>More about</summary>
+- **[SynthScan](https://github.com/marcoramilli/synthscan)** `⭐ 1` `updated ≤90d` A GitHub Action and CLI tool that scans repositories for over 120 patterns indicative of AI-generated code and reports a normalized 'Synthetic Code Score' per 1,000 lines of code. <details><summary>More about</summary>
 
   It provides engineering teams with a quantitative metric to assess the presence of low-quality or 'slop' AI code in their codebase and enforce thresholds via CI.
 

@@ -1,0 +1,90 @@
+id: github__alexgreensh__repo-forensics
+kind: github-repo
+name: alexgreensh/repo-forensics
+canonical_url: https://github.com/alexgreensh/repo-forensics
+identity:
+  github_repo: alexgreensh/repo-forensics
+provenance:
+  discoveries:
+    - id: discovery__github__alexgreensh__repo-forensics__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-08-20T04:18:00.401Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: repo-forensics
+        extracted_url: https://github.com/alexgreensh/repo-forensics
+        surrounding_text: "- **[repo-forensics](https://github.com/alexgreensh/repo-forensics)** `⭐ 155` — Offline security scanner for AI-agent repos, skills, plugins, and MCP servers; flags prompt injection, credential theft, and manifest drift before you install. Python + YARA, ships as a CLI and a GitHub Action. Source-available (PolyForm Noncommercial)."
+        confidence: high
+metadata:
+  github:
+    stars: 157
+    forks: 23
+    license: NOASSERTION
+    archived: false
+    full_name: alexgreensh/repo-forensics
+    html_url: https://github.com/alexgreensh/repo-forensics
+    created_at: "2026-02-27T19:49:15Z"
+    pushed_at: "2026-08-17T20:59:33Z"
+    description: Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.
+    homepage: ""
+    topics:
+      - agent-security
+      - agent-skill
+      - agent-skills
+      - ai-agent-security
+      - claude-code
+      - claude-skills
+      - codex
+      - developer-tools
+      - forensics
+      - mcp-security
+      - openclaw-skills
+      - plugins
+      - security
+      - security-audit
+      - security-scanner
+      - security-tools
+      - static-analysis
+      - supply-chain-security
+    last_checked_at: "2026-08-20T04:18:01.906Z"
+    readme:
+      fetched_at: "2026-08-20T04:18:01.906Z"
+      bytes: 44711
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (157) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-08-20T04:18:00.403Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-08-20T04:18:01.906Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

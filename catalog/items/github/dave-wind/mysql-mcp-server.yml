@@ -70,9 +70,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-10T04:36:15.694Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-20T04:18:22.369Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for dave-wind/mysql-mcp-server
     next_retry_at: null
   categorize:
     status: done

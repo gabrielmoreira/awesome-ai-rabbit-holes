@@ -63,9 +63,9 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-07-21T16:21:35.827Z"
+    updated_at: "2026-08-20T04:18:27.376Z"
     cause:
-      type: budget_exhausted
-      message: Categorization budget expired before this item was claimed
-    next_retry_at: "2026-07-21T17:21:35.821Z"
-    attempts: 0
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for datature__io: 403 status code (no body)"
+    next_retry_at: null
+    attempts: 1

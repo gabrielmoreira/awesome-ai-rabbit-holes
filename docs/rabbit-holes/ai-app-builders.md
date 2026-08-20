@@ -50,7 +50,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `visual-development` `design-to-code` `cms` `figma-integration`
   </details>
 
-- **[Baserow](https://github.com/baserow/baserow)** `⭐ 5.5k` `updated ≤30d` Open-source no-code platform for building databases, automations, apps, and AI agents with self-hosting options. <details><summary>More about</summary>
+- **[Baserow](https://github.com/baserow/baserow)** `⭐ 5.6k` `updated ≤30d` Open-source no-code platform for building databases, automations, apps, and AI agents with self-hosting options. <details><summary>More about</summary>
 
   Developers can use it to rapidly create internal tools, dashboards, and workflows without writing code, while retaining full data control via self-hosting.
 
@@ -104,7 +104,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `streamlit` `langgraph` `template` `deployment` `chatbot`
   </details>
 
-- **[OpenZeppelin/contracts-wizard](https://github.com/openzeppelin/contracts-wizard)** `⭐ 293` `updated ≤30d` An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents. <details><summary>More about</summary>
+- **[OpenZeppelin/contracts-wizard](https://github.com/openzeppelin/contracts-wizard)** `⭐ 293` `updated ≤90d` An interactive web tool and CLI for generating smart contract code based on OpenZeppelin templates, with optional MCP integration for AI agents. <details><summary>More about</summary>
 
   It lets developers scaffold secure, standards-based smart contracts in Solidity, Cairo, and Stellar without memorizing OpenZeppelin APIs or copy-pasting boilerplate.
 

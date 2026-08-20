@@ -5,7 +5,7 @@ Tools and platforms for coordinating multiple agents.
 
 ## Tools & Resources
 
-- **[AutoGPT](https://github.com/significant-gravitas/autogpt)** `⭐ 185.6k` `updated ≤30d` AutoGPT is a platform for creating, deploying, and managing continuous AI agents that automate complex workflows via a low-code builder and self-hosted server. <details><summary>More about</summary>
+- **[AutoGPT](https://github.com/significant-gravitas/autogpt)** `⭐ 185.6k` `updated ≤90d` AutoGPT is a platform for creating, deploying, and managing continuous AI agents that automate complex workflows via a low-code builder and self-hosted server. <details><summary>More about</summary>
 
   It provides a low-code workbench and marketplace for developers to build, deploy, and monitor autonomous agents without starting from scratch.
 
@@ -41,7 +41,7 @@ Tools and platforms for coordinating multiple agents.
   `agent-orchestration` `multi-agent` `ai-team`
   </details>
 
-- **[Ruflo](https://github.com/ruvnet/ruflo)** `⭐ 65.3k` `updated ≤30d` Ruflo is an agent orchestration platform that adds multi-agent swarm coordination, self-learning memory, and enterprise workflow management on top of Claude Code. <details><summary>More about</summary>
+- **[Ruflo](https://github.com/ruvnet/ruflo)** `⭐ 65.3k` `updated ≤90d` Ruflo is an agent orchestration platform that adds multi-agent swarm coordination, self-learning memory, and enterprise workflow management on top of Claude Code. <details><summary>More about</summary>
 
   It lets teams run 100+ specialized agents across machines and trust boundaries while keeping Claude Code as the primary coding surface.
 
@@ -95,7 +95,7 @@ Tools and platforms for coordinating multiple agents.
   `agent-orchestration` `rag` `workflow` `mcp` `self-hosted`
   </details>
 
-- **[vibe-kanban](https://github.com/bloopai/vibe-kanban)** `⭐ 27.7k` `updated ≤180d` A kanban-based task manager and workspace orchestrator for coordinating multiple coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
+- **[vibe-kanban](https://github.com/bloopai/vibe-kanban)** `⭐ 27.9k` `updated ≤180d` A kanban-based task manager and workspace orchestrator for coordinating multiple coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
 
   It streamlines planning, execution, and review workflows for developers using AI coding agents by providing a unified interface for task management and agent coordination.
 
@@ -131,7 +131,7 @@ Tools and platforms for coordinating multiple agents.
   `rag` `agent-orchestration` `open-source` `workflow-engine` `enterprise-ai`
   </details>
 
-- **[NemoClaw](https://github.com/nvidia/nemoclaw)** `⭐ 21.9k` `updated ≤30d` NemoClaw is an open-source reference stack from NVIDIA that provides a hardened, sandboxed runtime for running OpenClaw always-on coding assistants inside NVIDIA OpenShell with managed inference and security policies. <details><summary>More about</summary>
+- **[NemoClaw](https://github.com/nvidia/nemoclaw)** `⭐ 21.9k` `updated ≤90d` NemoClaw is an open-source reference stack from NVIDIA that provides a hardened, sandboxed runtime for running OpenClaw always-on coding assistants inside NVIDIA OpenShell with managed inference and security policies. <details><summary>More about</summary>
 
   It gives developers a guided, hardened blueprint for safely running autonomous coding agents with state management, routed inference, and layered protection instead of raw, unsecured execution.
 
@@ -140,7 +140,7 @@ Tools and platforms for coordinating multiple agents.
   `openclaw` `nvidia` `openshell` `agent-infrastructure` `sandbox`
   </details>
 
-- **[coze-studio](https://github.com/coze-dev/coze-studio)** `⭐ 21.4k` `updated ≤30d` An open-source AI agent development platform with visual tools for building, debugging, and deploying agents, workflows, and apps. <details><summary>More about</summary>
+- **[coze-studio](https://github.com/coze-dev/coze-studio)** `⭐ 21.5k` `updated ≤30d` An open-source AI agent development platform with visual tools for building, debugging, and deploying agents, workflows, and apps. <details><summary>More about</summary>
 
   It lowers the barrier to creating production-grade AI agents by providing a no-code/low-code environment with built-in workflows, knowledge bases, and plugin systems.
 
@@ -518,7 +518,7 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `orchestration` `framework` `distributed` `llm`
   </details>
 
-- **[Bernstein](https://github.com/sipyourdrink-ltd/bernstein)** `⭐ 709` `updated ≤30d` A deterministic CLI orchestrator that splits development goals across 30+ AI coding agents in parallel, using git worktree isolation and an HMAC audit trail. <details><summary>More about</summary>
+- **[Bernstein](https://github.com/sipyourdrink-ltd/bernstein)** `⭐ 709` `updated ≤90d` A deterministic CLI orchestrator that splits development goals across 30+ AI coding agents in parallel, using git worktree isolation and an HMAC audit trail. <details><summary>More about</summary>
 
   Developers can delegate full features to a swarm of isolated agents and return only when tested, merged code is ready, without wiring multiple CLIs by hand.
 
@@ -599,7 +599,7 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `cli` `orchestration` `terminal` `agent-communication`
   </details>
 
-- **[OpenAgents](https://github.com/openagentsinc/openagents)** `⭐ 441` `updated ≤30d` OpenAgents is a desktop personal agent (Autopilot) and marketplace platform that allows agents to buy compute, sell labor, trade data, and settle payments over a Bitcoin Lightning network. <details><summary>More about</summary>
+- **[OpenAgents](https://github.com/openagentsinc/openagents)** `⭐ 441` `updated ≤90d` OpenAgents is a desktop personal agent (Autopilot) and marketplace platform that allows agents to buy compute, sell labor, trade data, and settle payments over a Bitcoin Lightning network. <details><summary>More about</summary>
 
   It provides a decentralized economic substrate and desktop shell for running local agents that can monetize spare compute and perform machine work within a coordinated market.
 
@@ -626,7 +626,7 @@ Tools and platforms for coordinating multiple agents.
   `tmux` `ai-agents` `orchestration` `cli` `developer-tools`
   </details>
 
-- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 421` `updated ≤180d` Localhost service isolation and orchestration for git worktrees, enabling multiple isolated development environments on a single machine. <details><summary>More about</summary>
+- **[Coasts](https://github.com/coast-guard/coasts)** `⭐ 422` `updated ≤180d` Localhost service isolation and orchestration for git worktrees, enabling multiple isolated development environments on a single machine. <details><summary>More about</summary>
 
   It lets developers run parallel instances of their full dev stack (Docker Compose or otherwise) with isolated networking/volumes, then bind canonical ports to the host one at a time—useful for testing changes across multiple branches or worktrees without manual teardown.
 
@@ -702,7 +702,7 @@ _These are new or low-traffic entries being watched._
   `cli` `multi-agent` `terminal` `dashboard` `local`
   </details>
 
-- **[sheawinkler/ContextLattice](https://github.com/sheawinkler/contextlattice)** `⭐ 136` `updated ≤30d` ContextLattice is a local-first control plane for long-horizon agent memory and coordination, providing durable memory writes, multi-sink fanout, and retrieval learning loops for AI systems. <details><summary>More about</summary>
+- **[sheawinkler/ContextLattice](https://github.com/sheawinkler/contextlattice)** `⭐ 136` `updated ≤90d` ContextLattice is a local-first control plane for long-horizon agent memory and coordination, providing durable memory writes, multi-sink fanout, and retrieval learning loops for AI systems. <details><summary>More about</summary>
 
   It gives developers a self-hosted infrastructure layer to manage high-volume agent memory and coordination without bloating prompts or relying on cloud-only memory services.
 
@@ -711,7 +711,7 @@ _These are new or low-traffic entries being watched._
   `memory` `agent-orchestration` `local-first` `mcp` `context-engineering`
   </details>
 
-- **[kodo](https://github.com/ikamensh/kodo)** `⭐ 126` `updated ≤30d` An orchestrator for autonomous multi-agent coding that directs Claude Code, Cursor, and other coding agents through work cycles with independent verification. <details><summary>More about</summary>
+- **[kodo](https://github.com/ikamensh/kodo)** `⭐ 126` `updated ≤90d` An orchestrator for autonomous multi-agent coding that directs Claude Code, Cursor, and other coding agents through work cycles with independent verification. <details><summary>More about</summary>
 
   It enables developers to set a goal and wake up to tested, reviewed code by coordinating multiple agents (orchestrator, workers, verifiers) to handle complex tasks overnight.
 

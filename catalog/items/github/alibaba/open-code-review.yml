@@ -1,0 +1,78 @@
+id: github__alibaba__open-code-review
+kind: github-repo
+name: alibaba/open-code-review
+canonical_url: https://github.com/alibaba/open-code-review
+identity:
+  github_repo: alibaba/open-code-review
+provenance:
+  discoveries:
+    - id: discovery__github__alibaba__open-code-review__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-08-20T04:18:00.401Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: OpenCodeReview
+        extracted_url: https://github.com/alibaba/open-code-review
+        surrounding_text: "- **[OpenCodeReview](https://github.com/alibaba/open-code-review)** `⭐ 20.6k` `[Alibaba]` — AI code review CLI (`ocr`) that runs on your local repo: reviews working-tree, branch, or commit diffs or scans whole files, with a tool-using agent that reads files and searches the codebase. Delegation mode hands the review to Claude Code, Codex, Cursor, or OpenCode instead of its own LLM. Go, Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: 20896
+    forks: 1500
+    license: Apache-2.0
+    archived: false
+    full_name: alibaba/open-code-review
+    html_url: https://github.com/alibaba/open-code-review
+    created_at: "2026-05-18T02:16:36Z"
+    pushed_at: "2026-08-20T03:04:23Z"
+    description: "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
+    homepage: https://open-codereview.ai
+    topics:
+      - agent
+      - agent-skills
+      - code-review
+      - code-review-assistant
+      - harness
+      - repository-level-context
+    last_checked_at: "2026-08-20T04:18:01.922Z"
+    readme:
+      fetched_at: "2026-08-20T04:18:01.922Z"
+      bytes: 12639
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (20896) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-08-20T04:18:00.403Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-08-20T04:18:01.922Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: pending
+    updated_at: null
+    cause: null

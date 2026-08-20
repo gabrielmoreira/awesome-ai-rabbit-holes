@@ -32,7 +32,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `workflow-automation` `prompt-engineering` `cursor-rules` `claude-code`
   </details>
 
-- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 72.2k` `updated ≤30d` A curated list of 1000+ production-ready Claude Skills and plugins for enhancing AI agent workflows across coding assistants like Claude Code, Cursor, and others. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 72.8k` `updated ≤30d` A curated list of 1000+ production-ready Claude Skills and plugins for enhancing AI agent workflows across coding assistants like Claude Code, Cursor, and others. <details><summary>More about</summary>
 
   Developers can discover reusable skill packs to extend their AI coding assistants with domain-specific workflows, integrations, and guardrails without reinventing the wheel.
 
@@ -77,7 +77,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `cli` `extensions`
   </details>
 
-- **[ClawHub](https://github.com/openclaw/clawhub)** `⭐ 9.2k` `updated ≤30d` ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills (SKILL.md) and OpenClaw plugins. <details><summary>More about</summary>
+- **[ClawHub](https://github.com/openclaw/clawhub)** `⭐ 9.2k` `updated ≤90d` ClawHub is a public registry and CLI for publishing, versioning, searching, and installing text-based agent skills (SKILL.md) and OpenClaw plugins. <details><summary>More about</summary>
 
   It gives developers a centralized, versioned, and vector-searchable way to share and reuse agent skills and plugins for the OpenClaw ecosystem.
 
@@ -95,7 +95,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `knowledge-base` `claude-code` `skills` `wiki` `rag`
   </details>
 
-- **[notfair](https://github.com/nowork-studio/notfair)** `⭐ 3.2k` `updated ≤30d` A Claude Code plugin that provides slash-command skills for analyzing and fixing SEO issues, Google Ads, and Meta Ads directly from the terminal. <details><summary>More about</summary>
+- **[notfair](https://github.com/nowork-studio/notfair)** `⭐ 3.2k` `updated ≤90d` A Claude Code plugin that provides slash-command skills for analyzing and fixing SEO issues, Google Ads, and Meta Ads directly from the terminal. <details><summary>More about</summary>
 
   It lets developers delegate ad-spend diagnostics and technical SEO fixes to their coding agent without leaving the repo workflow.
 
@@ -126,7 +126,7 @@ _These are new or low-traffic entries being watched._
   `manus-ai` `cost-optimization` `mcp` `credit-optimizer` `prompt-routing`
   </details>
 
-- **[open-agreements/open-agreements](https://github.com/open-agreements/open-agreements)** `⭐ 44` `updated ≤30d` A reusable agent skill and MCP server that fills 40+ standard legal agreement templates and produces signable DOCX files for tools like Claude Code, Gemini CLI, and Cursor. <details><summary>More about</summary>
+- **[open-agreements/open-agreements](https://github.com/open-agreements/open-agreements)** `⭐ 44` `updated ≤90d` A reusable agent skill and MCP server that fills 40+ standard legal agreement templates and produces signable DOCX files for tools like Claude Code, Gemini CLI, and Cursor. <details><summary>More about</summary>
 
   Developers can generate NDAs, SAFEs, and contractor agreements directly from the terminal or chat without leaving their coding environment or manually formatting legal docs.
 
@@ -207,7 +207,7 @@ _These are new or low-traffic entries being watched._
   `session-logging` `multi-agent` `osop` `workflow-audit` `coding-agents`
   </details>
 
-- **[Relay](https://github.com/momobits/relay)** `⭐ 2` `updated ≤90d` Relay is a structured workflow system that adds persistent memory, issue tracking, and phased planning as reusable skills for Claude Code, OpenAI Codex CLI, and Google Gemini CLI. <details><summary>More about</summary>
+- **[Relay](https://github.com/momobits/relay)** `⭐ 2` `updated ≤180d` Relay is a structured workflow system that adds persistent memory, issue tracking, and phased planning as reusable skills for Claude Code, OpenAI Codex CLI, and Google Gemini CLI. <details><summary>More about</summary>
 
   It captures decisions, context, and progress in a `.relay/` directory so multi-session AI-assisted development doesn't reset every time you switch models or open a new terminal.
 
