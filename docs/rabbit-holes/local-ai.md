@@ -32,7 +32,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `inference` `local-ai` `cpp` `quantization` `gguf`
   </details>
 
-- **[vLLM](https://github.com/vllm-project/vllm)** `⭐ 86.8k` `updated ≤30d` vLLM is a high-throughput, memory-efficient inference and serving engine for large language models with PagedAttention and CUDA/HIP graph optimizations. <details><summary>More about</summary>
+- **[vLLM](https://github.com/vllm-project/vllm)** `⭐ 86.8k` `updated ≤90d` vLLM is a high-throughput, memory-efficient inference and serving engine for large language models with PagedAttention and CUDA/HIP graph optimizations. <details><summary>More about</summary>
 
   It enables fast, scalable, and cost-effective deployment of LLMs for developers building AI-powered applications and services.
 
@@ -50,7 +50,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm-inference` `offline` `desktop`
   </details>
 
-- **[unsloth (`🔥`)](https://github.com/unslothai/unsloth)** `⭐ 68.7k` `updated ≤30d` Unsloth Studio is a self-hosted web UI for running and fine-tuning open LLMs locally with optimized training performance. <details><summary>More about</summary>
+- **[unsloth (`🔥`)](https://github.com/unslothai/unsloth)** `⭐ 68.7k` `updated ≤90d` Unsloth Studio is a self-hosted web UI for running and fine-tuning open LLMs locally with optimized training performance. <details><summary>More about</summary>
 
   It lets developers train and deploy models on their own hardware with significantly reduced VRAM usage and faster iteration cycles.
 
@@ -203,7 +203,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `distributed-inference` `fine-tuning` `pytorch` `llm-serving`
   </details>
 
-- **[inference](https://github.com/xorbitsai/inference)** `⭐ 9.4k` `updated ≤30d` Xorbits Inference (Xinference) is a unified model serving library that enables deploying and serving open-source LLMs, speech, and multimodal models via a single API across cloud, on-prem, or local environments. <details><summary>More about</summary>
+- **[inference](https://github.com/xorbitsai/inference)** `⭐ 9.4k` `updated ≤90d` Xorbits Inference (Xinference) is a unified model serving library that enables deploying and serving open-source LLMs, speech, and multimodal models via a single API across cloud, on-prem, or local environments. <details><summary>More about</summary>
 
   It simplifies model deployment by abstracting infrastructure complexity, letting developers swap LLMs with a single line of code while supporting advanced serving features like auto-batching and distributed inference.
 
@@ -320,7 +320,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `ios` `macos` `ggml` `offline-inference`
   </details>
 
-- **[HunyuanOCR](https://github.com/tencent-hunyuan/hunyuanocr)** `⭐ 1.9k` `updated ≤30d` HunyuanOCR is a 1B parameter vision-language model from Tencent for end-to-end OCR, supporting document parsing, multilingual text extraction, and image-to-text translation. <details><summary>More about</summary>
+- **[HunyuanOCR](https://github.com/tencent-hunyuan/hunyuanocr)** `⭐ 1.9k` `updated ≤90d` HunyuanOCR is a 1B parameter vision-language model from Tencent for end-to-end OCR, supporting document parsing, multilingual text extraction, and image-to-text translation. <details><summary>More about</summary>
 
   Developers can self-host a lightweight, state-of-the-art OCR model that handles complex documents and over 100 languages with a single inference call via vLLM.
 
@@ -383,7 +383,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `performance` `cuda` `optimization`
   </details>
 
-- **[QA-Pilot](https://github.com/reid41/qa-pilot)** `⭐ 326` `updated ≤1y` QA-Pilot is a self-hosted, interactive chat interface that lets developers converse with and navigate local or remote GitHub code repositories using a variety of online and local LLMs. <details><summary>More about</summary>
+- **[QA-Pilot](https://github.com/reid41/qa-pilot)** `⭐ 326` `updated >1y` QA-Pilot is a self-hosted, interactive chat interface that lets developers converse with and navigate local or remote GitHub code repositories using a variety of online and local LLMs. <details><summary>More about</summary>
 
   It offers a local-first workflow for rapidly understanding unfamiliar codebases via conversation, supporting a wide range of LLM providers without sending proprietary code to hosted services.
 

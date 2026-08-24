@@ -81,13 +81,13 @@ lifecycle:
   reason: Stars (4624) exceeded threshold (150)
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-08-06T05:07:23.697Z"
+    status: deferred
+    updated_at: "2026-08-24T04:21:28.177Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__codebuffai__freebuff: 403 status code (no body)"
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
   discover:

@@ -5,7 +5,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
 
 ## Tools & Resources
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 74.1k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 74.4k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
 
   It accelerates the prototyping phase by turning visual designs directly into structured HTML, Tailwind, React, or Vue code.
 

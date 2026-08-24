@@ -5,7 +5,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
 
 ## Tools & Resources
 
-- **[agent-browser](https://github.com/vercel-labs/agent-browser)** `⭐ 38.9k` `updated ≤30d` Browser automation CLI for AI agents. <details><summary>More about</summary>
+- **[agent-browser](https://github.com/vercel-labs/agent-browser)** `⭐ 38.9k` `updated ≤90d` Browser automation CLI for AI agents. <details><summary>More about</summary>
 
   Enables AI agents to programmatically control browsers using native Rust performance without Node.js or Playwright dependencies.
 
@@ -131,22 +131,22 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `figma` `mcp` `design-to-code` `ai-dev-extensions`
   </details>
 
-- **[Agent Sessions](https://github.com/jazzyalex/agent-sessions)** `⭐ 741` `updated ≤30d` Agent Sessions is a local-first macOS app for browsing, searching, and resuming AI coding-agent session history across multiple tools like Codex, Claude Code, and Cursor Agent. <details><summary>More about</summary>
-
-  It lets developers recover and reuse prior agent work without re-prompting, reducing repetitive effort in AI-assisted coding workflows.
-
-  _Finally, a tool to organize the sprawling, forgotten transcripts of your AI pair programmers—because even agents need a filing cabinet._
-
-  `session-management` `ai-coding-agents` `local-first` `macos` `developer-tools`
-  </details>
-
-- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 734` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
+- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 783` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
 
   It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
 
   _Finally, a tool to manage the anxiety of having too many AI assistants running at once — because one wasn't enough._
 
   `terminal` `tui` `session-manager` `ai-agents` `cli`
+  </details>
+
+- **[Agent Sessions](https://github.com/jazzyalex/agent-sessions)** `⭐ 741` `updated ≤90d` Agent Sessions is a local-first macOS app for browsing, searching, and resuming AI coding-agent session history across multiple tools like Codex, Claude Code, and Cursor Agent. <details><summary>More about</summary>
+
+  It lets developers recover and reuse prior agent work without re-prompting, reducing repetitive effort in AI-assisted coding workflows.
+
+  _Finally, a tool to organize the sprawling, forgotten transcripts of your AI pair programmers—because even agents need a filing cabinet._
+
+  `session-management` `ai-coding-agents` `local-first` `macos` `developer-tools`
   </details>
 
 - **[joaoh82/rustunnel](https://github.com/joaoh82/rustunnel)** `⭐ 643` `updated ≤30d` A self-hosted, Rust-based tunneling service that includes an MCP server to expose local network services to AI agents. <details><summary>More about</summary>
@@ -176,7 +176,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `debugging` `mcp` `vscode-extension` `llm-integration`
   </details>
 
-- **[Catnip](https://github.com/wandb/catnip)** `⭐ 491` `updated ≤30d` A containerized harness for Claude Code that manages git worktrees, enables parallel agent sessions, and provides web and mobile interfaces for remote operation. <details><summary>More about</summary>
+- **[Catnip](https://github.com/wandb/catnip)** `⭐ 491` `updated ≤90d` A containerized harness for Claude Code that manages git worktrees, enables parallel agent sessions, and provides web and mobile interfaces for remote operation. <details><summary>More about</summary>
 
   It untethers developers from their desks by sandboxing Claude Code in devcontainers with automated worktree management and a native iOS interface for reviewing changes on the go.
 
@@ -230,7 +230,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `llm-proxy` `token-management` `claude-code` `api-gateway` `ai-infrastructure`
   </details>
 
-- **[agenticmail/agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 194` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
+- **[agenticmail/agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 205` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
 
   It enables agents to move beyond the terminal by interacting with the world through standard communication channels like phone and email.
 
@@ -243,7 +243,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
 
 _These are new or low-traffic entries being watched._
 
-- **[alex-on-ai/WebReaper](https://github.com/alex-on-ai/webreaper)** `⭐ 144` `updated ≤90d` An AI-native web scraper and crawler that provides markdown output and includes a bundled Claude Code skill. <details><summary>More about</summary>
+- **[alex-on-ai/WebReaper](https://github.com/alex-on-ai/webreaper)** `⭐ 145` `updated ≤90d` An AI-native web scraper and crawler that provides markdown output and includes a bundled Claude Code skill. <details><summary>More about</summary>
 
   It enables developers to feed structured web content directly into coding agents or applications via a single binary or.NET library.
 
@@ -324,7 +324,7 @@ _These are new or low-traffic entries being watched._
   `ebpf` `agent-security` `sandboxing` `runtime-enforcement` `linux`
   </details>
 
-- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 80` `updated ≤30d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
+- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 82` `updated ≤90d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
 
   It prevents credential sprawl by centralizing secret management and ensuring agents never see long-lived tokens, reducing the risk of exfiltration during autonomous runs.
 
@@ -450,7 +450,7 @@ _These are new or low-traffic entries being watched._
   `claude-code` `plugin` `workflow` `orchestration` `validation`
   </details>
 
-- **[UseJunior/safe-docx](https://github.com/usejunior/safe-docx)** `⭐ 37` `updated ≤30d` Safe DOCX suite provides deterministic TypeScript tools and an MCP server for surgically editing existing .docx files with formatting preservation. <details><summary>More about</summary>
+- **[UseJunior/safe-docx](https://github.com/usejunior/safe-docx)** `⭐ 37` `updated ≤90d` Safe DOCX suite provides deterministic TypeScript tools and an MCP server for surgically editing existing .docx files with formatting preservation. <details><summary>More about</summary>
 
   Enables coding agents to reliably edit Word documents in legal and business workflows where formatting must survive automation.
 
@@ -702,7 +702,7 @@ _These are new or low-traffic entries being watched._
   `cli` `api-testing` `yaml` `mcp` `rust`
   </details>
 
-- **[megazord](https://github.com/sh3rd3n/megazord)** `⭐ 3` `updated ≤180d` A Claude Code plugin that adds project management, code quality workflows, and native multi-agent coordination via Agent Teams. <details><summary>More about</summary>
+- **[megazord](https://github.com/sh3rd3n/megazord)** `⭐ 3` `updated ≤1y` A Claude Code plugin that adds project management, code quality workflows, and native multi-agent coordination via Agent Teams. <details><summary>More about</summary>
 
   Developers using Claude Code can get structured planning, TDD discipline, and real-time multi-agent coordination without stitching together separate workflow and project-management tools.
 

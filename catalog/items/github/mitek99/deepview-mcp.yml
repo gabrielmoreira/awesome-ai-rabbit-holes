@@ -1,13 +1,28 @@
-id: github__ai-1st__deepview-mcp
+id: github__mitek99__deepview-mcp
 kind: github-repo
-name: deepview-mcp
-canonical_url: https://github.com/ai-1st/deepview-mcp
+name: DeepView MCP
+canonical_url: https://github.com/mitek99/deepview-mcp
 identity:
-  github_repo: ai-1st/deepview-mcp
+  github_repo: mitek99/deepview-mcp
 provenance:
   discoveries:
     - id: discovery__github__ai-1st__deepview-mcp__awesome-list__wong2__awesome-mcp-servers
       discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Community Servers
+        anchor_text: DeepView MCP
+        extracted_url: https://github.com/ai-1st/deepview-mcp
+        surrounding_text: "- **[DeepView MCP](https://github.com/ai-1st/deepview-mcp)** - Enables IDEs like Cursor and Windsurf to analyze large codebases using Gemini's 1M context window."
+        confidence: high
+    - id: discovery__github__mitek99__deepview-mcp__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-08-24T04:20:54.275Z"
       source:
         type: awesome-list
         name: wong2/awesome-mcp-servers
@@ -27,27 +42,27 @@ metadata:
     forks: 14
     license: MIT
     archived: false
-    full_name: ai-1st/deepview-mcp
-    html_url: https://github.com/ai-1st/deepview-mcp
+    full_name: Mitek99/deepview-mcp
+    html_url: https://github.com/Mitek99/deepview-mcp
     created_at: "2025-03-26T09:19:05Z"
     pushed_at: "2025-08-07T09:49:24Z"
     description: DeepView MCP is a Model Context Protocol server that enables IDEs like Cursor and Windsurf to analyze large codebases using Gemini 2.5 Pro's extensive context window.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-17T04:19:17.596Z"
+    last_checked_at: "2026-08-24T04:21:06.021Z"
     readme:
-      fetched_at: "2026-08-17T04:19:17.596Z"
+      fetched_at: "2026-08-24T04:21:06.021Z"
       bytes: 4733
 insights:
   summary: An MCP server that enables IDEs like Cursor and Windsurf to analyze entire codebases by leveraging the Gemini model's large context window.
   why_it_matters: It solves the 'context window struggle' by allowing LLMs to ingest massive, pre-packaged codebase files through the Model Context Protocol.
   mental_damage: Finally, an excuse to dump 10,000 lines of messy code into a single file and hope the model doesn't hallucinate a new architecture.
   tags:
-    - mcp
-    - gemini
-    - cursor
-    - windsurf
     - context-window
+    - cursor
+    - gemini
+    - mcp
+    - windsurf
   confidence: high
 curation:
   status: included
@@ -63,16 +78,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-08-17T04:19:17.596Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-07-20T16:07:38.722Z"
@@ -99,3 +104,13 @@ processing:
       contrastive_reason: Choose mcp over context-engineering because the product's primary identity is the server implementation that enables the host to use the context, rather than the underlying compression or retrieval logic itself.
       review_reason: null
       review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-08-24T04:20:54.277Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-08-24T04:21:06.021Z"
+    cause: null
+    next_retry_at: null

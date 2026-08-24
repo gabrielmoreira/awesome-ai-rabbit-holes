@@ -81,9 +81,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-06T05:07:23.697Z"
+    status: deferred
+    updated_at: "2026-08-24T04:21:27.844Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+      type: categorization_failed
+      message: "Catalog LLM categorization failed for github__bobaba99__motionlint: 403 status code (no body)"
     next_retry_at: null
+    attempts: 1

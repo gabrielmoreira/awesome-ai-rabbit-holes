@@ -84,16 +84,18 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-17T04:19:31.023Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-24T04:21:24.299Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for aws/amazon-q-developer-cli
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:59.645Z"
+    status: skipped
+    updated_at: "2026-08-24T04:21:26.853Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__aws__amazon-q-developer-cli: 403 status code (no body)"
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template

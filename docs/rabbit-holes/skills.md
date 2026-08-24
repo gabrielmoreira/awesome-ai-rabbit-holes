@@ -14,7 +14,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `slash-commands` `workflows` `prompt-engineering`
   </details>
 
-- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 169.8k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
+- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 171.2k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
 
   It enables developers to create reusable, portable skill packs that teach Claude (and other compatible agents) how to handle specific workflows, from document editing to technical automation.
 
@@ -23,7 +23,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `reusable-skills` `workflow-automation`
   </details>
 
-- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 86.7k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 89.3k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
 
   It provides a standardized set of professional engineering guardrails (spec-first, test-driven, incremental builds) that prevent AI agents from hallucinating their way through a codebase without a plan.
 
@@ -117,7 +117,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 _These are new or low-traffic entries being watched._
 
-- **[rafsilva85/credit-optimizer-v5](https://github.com/rafsilva85/credit-optimizer-v5)** `⭐ 47` `updated ≤90d` A Manus AI cost-optimization toolkit that routes prompts to cheaper models, uses faster web scraping, and compresses context to reduce credit usage. <details><summary>More about</summary>
+- **[rafsilva85/credit-optimizer-v5](https://github.com/rafsilva85/credit-optimizer-v5)** `⭐ 47` `updated ≤180d` A Manus AI cost-optimization toolkit that routes prompts to cheaper models, uses faster web scraping, and compresses context to reduce credit usage. <details><summary>More about</summary>
 
   It claims to automate model routing, chat-mode detection, and context hygiene to save roughly 47% on Manus credits without degrading output quality.
 

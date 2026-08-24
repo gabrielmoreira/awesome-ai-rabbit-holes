@@ -78,16 +78,18 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-17T04:19:30.704Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-24T04:21:23.559Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for avisangle/calculator-server
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:59.327Z"
+    status: skipped
+    updated_at: "2026-08-24T04:21:26.853Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__avisangle__calculator-server: 403 status code (no body)"
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template

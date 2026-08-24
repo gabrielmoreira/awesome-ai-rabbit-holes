@@ -176,7 +176,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `automl` `research` `curated-list` `machine-learning`
   </details>
 
-- **[Awesome Harness Engineering](https://github.com/walkinglabs/awesome-harness-engineering)** `⭐ 3.7k` `updated ≤90d` A curated list of articles, playbooks, benchmarks, and open-source projects for harness engineering, focusing on making AI agents more reliable in real workflows. <details><summary>More about</summary>
+- **[Awesome Harness Engineering](https://github.com/walkinglabs/awesome-harness-engineering)** `⭐ 3.7k` `updated ≤180d` A curated list of articles, playbooks, benchmarks, and open-source projects for harness engineering, focusing on making AI agents more reliable in real workflows. <details><summary>More about</summary>
 
   Helps developers improve agent reliability by collecting resources on context, evaluation, orchestration, and runtime control for long-running coding and research tasks.
 
@@ -221,15 +221,6 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `autodl` `automl` `awesome-list` `neural-architecture-search` `hyperparameter-optimization`
   </details>
 
-- **[Awesome Federated Learning](https://github.com/chaoyanghe/awesome-federated-learning)** `⭐ 2k` `updated >1y` A curated list of federated learning research publications and resources, primarily organized from arXiv. <details><summary>More about</summary>
-
-  It provides developers with a centralized reference for federated learning research, which is relevant for privacy-preserving distributed AI workflows.
-
-  _Because nothing says 'practical developer tooling' like a 2000-line markdown table of ICML papers._
-
-  `federated-learning` `research` `awesome-list` `machine-learning`
-  </details>
-
 - **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 2k` `updated ≤180d` A curated directory of AI-powered coding tools including editors, agents, and productivity utilities. <details><summary>More about</summary>
 
   It provides a central navigation point to discover the rapidly evolving ecosystem of AI-native development tools.
@@ -237,6 +228,15 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   _It's a map of a territory that changes shape faster than you can finish reading the legend._
 
   `curated-list` `directory` `ai-coding` `developer-tools`
+  </details>
+
+- **[Awesome Federated Learning](https://github.com/chaoyanghe/awesome-federated-learning)** `⭐ 2k` `updated >1y` A curated list of federated learning research publications and resources, primarily organized from arXiv. <details><summary>More about</summary>
+
+  It provides developers with a centralized reference for federated learning research, which is relevant for privacy-preserving distributed AI workflows.
+
+  _Because nothing says 'practical developer tooling' like a 2000-line markdown table of ICML papers._
+
+  `federated-learning` `research` `awesome-list` `machine-learning`
   </details>
 
 - **[awesome-local-ai](https://github.com/janhq/awesome-local-ai)** `⭐ 2k` `updated >1y` A curated collection of open-source local AI tools and solutions. <details><summary>More about</summary>
@@ -329,7 +329,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `automl` `awesome-list` `research`
   </details>
 
-- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 887` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
+- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 885` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
 
   Provides a centralized starting point for developers to navigate the rapidly shifting landscape of LLM architectures and agentic patterns.
 
@@ -423,7 +423,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 _These are new or low-traffic entries being watched._
 
-- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 148` `updated ≤1y` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
+- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 149` `updated ≤1y` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
 
   Provides developers with a navigable directory of agent frameworks, tools, and platforms to explore or integrate into their workflows.
 

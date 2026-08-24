@@ -1,0 +1,72 @@
+id: github__google__ax
+kind: github-repo
+name: google/ax
+canonical_url: https://github.com/google/ax
+identity:
+  github_repo: google/ax
+provenance:
+  discoveries:
+    - id: discovery__github__google__ax__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-08-24T04:20:54.275Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: Agent Executor (AX)
+        extracted_url: https://github.com/google/ax
+        surrounding_text: "- **[Agent Executor (AX)](https://github.com/google/ax)** `⭐ 2k` `[Google]` — Distributed harness runtime that provisions isolated, suspendable and resumable environments to execute coding agents; the `ax` Go CLI runs the built-in Antigravity harness locally against a workspace or against a remote gRPC controller, with a durable event log for recovery. Kubernetes-native via Agent Substrate; supports MCP tools and Agent Skills. Apache-2.0."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-08-24T04:20:54.276Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-08-24T04:21:26.853Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

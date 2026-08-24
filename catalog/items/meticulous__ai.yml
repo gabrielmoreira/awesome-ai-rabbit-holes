@@ -77,11 +77,11 @@ lifecycle:
 processing:
   categorize:
     status: deferred
-    updated_at: "2026-07-23T05:14:03.579Z"
+    updated_at: "2026-08-24T04:21:27.699Z"
     cause:
       type: categorization_failed
-      message: "Catalog LLM categorization failed for meticulous__ai: Mistral API error (401): {\"detail\":\"Unauthorized\"}"
-    attempts: 3
+      message: "Catalog LLM categorization failed for meticulous__ai: 403 status code (no body)"
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"
     next_retry_at: null

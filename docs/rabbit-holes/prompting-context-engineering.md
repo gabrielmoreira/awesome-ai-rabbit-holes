@@ -23,7 +23,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `memory` `agents` `context`
   </details>
 
-- **[Context 7](https://github.com/upstash/context7)** `⭐ 59.5k` `updated ≤30d` Context7 Platform provides up-to-date code documentation and examples for LLMs and AI code editors via CLI skills or MCP server integration. <details><summary>More about</summary>
+- **[Context 7](https://github.com/upstash/context7)** `⭐ 59.5k` `updated ≤90d` Context7 Platform provides up-to-date code documentation and examples for LLMs and AI code editors via CLI skills or MCP server integration. <details><summary>More about</summary>
 
   It reduces hallucinated or outdated code generation by fetching real-time, version-specific documentation directly into the developer's AI coding workflow.
 
@@ -41,7 +41,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `mcp` `tree-sitter` `knowledge-graph` `code-analysis` `local-ai`
   </details>
 
-- **[topoteretes/cognee](https://github.com/topoteretes/cognee)** `⭐ 29k` `updated ≤30d` Cognee is an open-source memory control plane that combines embeddings, knowledge graphs, and cognitive science approaches to give AI agents persistent, searchable memory of data, decisions, and workflows. <details><summary>More about</summary>
+- **[topoteretes/cognee](https://github.com/topoteretes/cognee)** `⭐ 29k` `updated ≤90d` Cognee is an open-source memory control plane that combines embeddings, knowledge graphs, and cognitive science approaches to give AI agents persistent, searchable memory of data, decisions, and workflows. <details><summary>More about</summary>
 
   It provides developers with unified ingestion and retrieval infrastructure so agents can maintain context, learn from feedback, and share knowledge across sessions instead of resetting every run.
 
@@ -50,7 +50,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `memory` `rag` `knowledge-graph` `context-engineering` `agent-infra`
   </details>
 
-- **[Hindsight](https://github.com/vectorize-io/hindsight)** `⭐ 18.6k` `updated ≤30d` Hindsight is an agent memory system that enables AI agents to learn over time rather than just recall conversation history. <details><summary>More about</summary>
+- **[Hindsight](https://github.com/vectorize-io/hindsight)** `⭐ 18.6k` `updated ≤90d` Hindsight is an agent memory system that enables AI agents to learn over time rather than just recall conversation history. <details><summary>More about</summary>
 
   It provides developers with a production-tested memory system that improves agent performance on long-term memory tasks through learning, not just retrieval.
 
@@ -167,7 +167,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `code-search` `ast` `context-engineering` `token-optimization` `mcp`
   </details>
 
-- **[Vearch](https://github.com/vearch/vearch)** `⭐ 2.3k` `updated ≤30d` Distributed vector database for efficient similarity search and retrieval in AI-native applications, serving as a scalable memory backend for RAG systems. <details><summary>More about</summary>
+- **[Vearch](https://github.com/vearch/vearch)** `⭐ 2.3k` `updated ≤90d` Distributed vector database for efficient similarity search and retrieval in AI-native applications, serving as a scalable memory backend for RAG systems. <details><summary>More about</summary>
 
   Developers building retrieval-augmented generation need low-latency hybrid search over millions of embeddings without manually orchestrating storage, replication, and metadata filtering.
 
@@ -176,7 +176,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `vector-database` `rag` `embeddings` `memory-backend` `cloud-native`
   </details>
 
-- **[doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)** `⭐ 1.9k` `updated ≤90d` An open-source, self-hosted memory backend for AI agents that provides persistent storage via a REST API, knowledge graph, and MCP server with sub-5ms retrieval. <details><summary>More about</summary>
+- **[doobidoo/mcp-memory-service](https://github.com/doobidoo/mcp-memory-service)** `⭐ 1.9k` `updated ≤180d` An open-source, self-hosted memory backend for AI agents that provides persistent storage via a REST API, knowledge graph, and MCP server with sub-5ms retrieval. <details><summary>More about</summary>
 
   It allows agents built with LangGraph, CrewAI, AutoGen, or Claude to share causal knowledge graphs and long-term memory without relying on cloud-hosted vector databases.
 
@@ -194,7 +194,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `semantic-search` `vscode-extension` `notion-integration` `codebase-indexing` `langchain`
   </details>
 
-- **[Vald](https://github.com/vdaas/vald)** `⭐ 1.7k` `updated ≤30d` A highly scalable distributed vector search engine for approximate nearest neighbor (ANN) search on high-dimensional dense vectors. <details><summary>More about</summary>
+- **[Vald](https://github.com/vdaas/vald)** `⭐ 1.7k` `updated ≤90d` A highly scalable distributed vector search engine for approximate nearest neighbor (ANN) search on high-dimensional dense vectors. <details><summary>More about</summary>
 
   Provides the retrieval backbone for RAG systems and similarity search at billion-scale, deployed as cloud-native Kubernetes infrastructure.
 
@@ -356,7 +356,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `mcp` `persistent-memory` `context` `codebase-intelligence`
   </details>
 
-- **[ai-distiller](https://github.com/janreges/ai-distiller)** `⭐ 165` `updated ≤90d` AI Distiller is an open-source CLI tool that compresses large codebases into AI-friendly context by extracting only essential public APIs, types, and structure, reducing volume by 90–98%. <details><summary>More about</summary>
+- **[ai-distiller](https://github.com/janreges/ai-distiller)** `⭐ 165` `updated ≤180d` AI Distiller is an open-source CLI tool that compresses large codebases into AI-friendly context by extracting only essential public APIs, types, and structure, reducing volume by 90–98%. <details><summary>More about</summary>
 
   It solves the problem of AI assistants hallucinating or guessing interfaces in large codebases by providing distilled, dependency-aware context that fits within model limits.
 
@@ -450,7 +450,7 @@ _These are new or low-traffic entries being watched._
   `memory` `mcp` `local-ai` `privacy` `context-retrieval`
   </details>
 
-- **[pi-mem](https://github.com/jo-inc/pi-mem)** `⭐ 70` `updated ≤30d` A Markdown-based persistent memory system that provides long-term facts, daily logs, and semantic search for AI coding agents. <details><summary>More about</summary>
+- **[pi-mem](https://github.com/jo-inc/pi-mem)** `⭐ 70` `updated ≤90d` A Markdown-based persistent memory system that provides long-term facts, daily logs, and semantic search for AI coding agents. <details><summary>More about</summary>
 
   It gives agents a durable, searchable memory layer to prevent context loss and maintain continuity across different coding sessions.
 
@@ -459,7 +459,7 @@ _These are new or low-traffic entries being watched._
   `memory` `context-management` `markdown` `coding-agents`
   </details>
 
-- **[aitytech/agentkits-memory](https://github.com/aitytech/agentkits-memory)** `⭐ 63` `updated ≤180d` A persistent, local memory system for AI coding assistants implemented as an MCP server. <details><summary>More about</summary>
+- **[aitytech/agentkits-memory](https://github.com/aitytech/agentkits-memory)** `⭐ 64` `updated ≤180d` A persistent, local memory system for AI coding assistants implemented as an MCP server. <details><summary>More about</summary>
 
   It allows coding assistants like Claude Code and Cursor to retain context, decisions, and patterns across different coding sessions.
 
@@ -558,13 +558,22 @@ _These are new or low-traffic entries being watched._
   `mcp` `code-search` `context-engineering`
   </details>
 
-- **[pi-reflect](https://github.com/jo-inc/pi-reflect)** `⭐ 38` `updated ≤30d` A tool for AI agents to iteratively improve their behavioral rules, memory, and personality files by analyzing session transcripts. <details><summary>More about</summary>
+- **[pi-reflect](https://github.com/jo-inc/pi-reflect)** `⭐ 38` `updated ≤90d` A tool for AI agents to iteratively improve their behavioral rules, memory, and personality files by analyzing session transcripts. <details><summary>More about</summary>
 
   It automates the tedious task of manually updating agent instructions and long-term memory as developer workflows and requirements evolve.
 
   _There is a specific brand of existential dread in watching an agent's SOUL.md file undergo surgical edits to correct its personality._
 
   `agent-reflection` `context-engineering` `memory-management` `self-improvement`
+  </details>
+
+- **[Abhigyan-Shekhar/Waggle-mcp](https://github.com/abhigyan-shekhar/waggle-mcp)** `⭐ 37` `updated ≤30d` Local-first MCP server that adds persistent graph-backed memory to coding agents, storing decisions, contradictions, and reasoning chains across sessions. <details><summary>More about</summary>
+
+  Eliminates context-window amnesia by retaining not just facts but the relationships between them (decisions, reasons, contradictions) in a queryable knowledge graph that survives session restarts.
+
+  _Now you can have the awkward 'but you said three weeks ago' argument with your AI assistant, complete with timestamped receipts and contradiction graphs._
+
+  `mcp-server` `memory` `knowledge-graph` `local-first` `context-retrieval`
   </details>
 
 - **[nicholasbester/clickup-cli](https://github.com/nicholasbester/clickup-cli)** `⭐ 37` `updated ≤90d` A CLI for the ClickUp API that compresses API responses into token-efficient output optimized for AI agents and human users. <details><summary>More about</summary>
@@ -592,15 +601,6 @@ _These are new or low-traffic entries being watched._
   _We have finally reached the stage where we are building complex graph databases just so our AI minions don't have to read the actual source code._
 
   `static-analysis` `mcp` `ast` `knowledge-graph` `code-navigation`
-  </details>
-
-- **[Abhigyan-Shekhar/Waggle-mcp](https://github.com/abhigyan-shekhar/waggle-mcp)** `⭐ 35` `updated ≤30d` Local-first MCP server that adds persistent graph-backed memory to coding agents, storing decisions, contradictions, and reasoning chains across sessions. <details><summary>More about</summary>
-
-  Eliminates context-window amnesia by retaining not just facts but the relationships between them (decisions, reasons, contradictions) in a queryable knowledge graph that survives session restarts.
-
-  _Now you can have the awkward 'but you said three weeks ago' argument with your AI assistant, complete with timestamped receipts and contradiction graphs._
-
-  `mcp-server` `memory` `knowledge-graph` `local-first` `context-retrieval`
   </details>
 
 - **[memem](https://github.com/tt-wang/memem)** `⭐ 33` `updated ≤90d` A Claude Code plugin that gives Claude persistent memory across sessions by mining lessons from completed transcripts, storing them as markdown in an Obsidian vault, and retrieving relevant context via SQLite FTS5. <details><summary>More about</summary>
@@ -720,7 +720,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `memory` `context` `knowledge-base` `typescript`
   </details>
 
-- **[gzoonet/cortex](https://github.com/gzoonet/cortex)** `⭐ 18` `updated ≤30d` Local-first knowledge graph for developers that watches project files, builds a knowledge graph with LLMs, and allows natural language queries across projects. <details><summary>More about</summary>
+- **[gzoonet/cortex](https://github.com/gzoonet/cortex)** `⭐ 18` `updated ≤90d` Local-first knowledge graph for developers that watches project files, builds a knowledge graph with LLMs, and allows natural language queries across projects. <details><summary>More about</summary>
 
   It helps developers retrieve scattered decisions, patterns, and context across multiple projects without manually searching through files.
 
@@ -927,7 +927,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `persona-drift` `prompt-engineering` `agentic-ai` `llm-safety`
   </details>
 
-- **[dl4rce/flaiwheel](https://github.com/dl4rce/flaiwheel)** `⭐ 4` `updated ≤90d` Self-hosted memory and governance layer for AI coding agents that indexes documentation, enforces structured knowledge capture, and provides an MCP server for agent integration. <details><summary>More about</summary>
+- **[dl4rce/flaiwheel](https://github.com/dl4rce/flaiwheel)** `⭐ 4` `updated ≤180d` Self-hosted memory and governance layer for AI coding agents that indexes documentation, enforces structured knowledge capture, and provides an MCP server for agent integration. <details><summary>More about</summary>
 
   It turns every bug fix and architectural decision into persistent, searchable knowledge that compounds over time, reducing repeated mistakes in team codebases.
 
@@ -972,6 +972,15 @@ _These are new or low-traffic entries being watched._
   `static-analysis` `mcp` `software-architecture` `code-graph`
   </details>
 
+- **[AlekseiMarchenko/central-intelligence](https://github.com/alekseimarchenko/central-intelligence)** `⭐ 3` `updated ≤180d` Persistent memory system for AI agents that integrates with MCP-compatible tools like Claude Code and Cursor. <details><summary>More about</summary>
+
+  Eliminates the need to re-teach agents about your codebase, preferences, or architecture across sessions by providing long-term, searchable memory.
+
+  _Finally, an answer to the existential dread of your AI forgetting your entire project context every time you close the terminal._
+
+  `mcp` `memory` `context-engineering` `ai-agents` `persistent-context`
+  </details>
+
 - **[Auctalis/nocturnusai](https://github.com/auctalis/nocturnusai)** `⭐ 3` `updated ≤30d` A context engineering engine for AI agents that compresses context, extracts facts, and provides deterministic answers with proof via logical inference. <details><summary>More about</summary>
 
   It reduces token usage and cost by up to 10x while preserving truth and determinism in agent workflows, addressing the pain of replaying entire conversation histories.
@@ -1006,15 +1015,6 @@ _These are new or low-traffic entries being watched._
   _Because the next logical step in the AI revolution is clearly perfectly documenting the exact moment your agent loses the plot._
 
   `mcp` `context-management` `agent-handoff` `memory`
-  </details>
-
-- **[AlekseiMarchenko/central-intelligence](https://github.com/alekseimarchenko/central-intelligence)** `⭐ 2` `updated ≤180d` Persistent memory system for AI agents that integrates with MCP-compatible tools like Claude Code and Cursor. <details><summary>More about</summary>
-
-  Eliminates the need to re-teach agents about your codebase, preferences, or architecture across sessions by providing long-term, searchable memory.
-
-  _Finally, an answer to the existential dread of your AI forgetting your entire project context every time you close the terminal._
-
-  `mcp` `memory` `context-engineering` `ai-agents` `persistent-context`
   </details>
 
 - **[cachly-dev/cachly-mcp](https://github.com/cachly-dev/cachly-mcp)** `⭐ 2` `updated ≤30d` An MCP server that provides persistent memory and semantic search for AI coding assistants by indexing git history and session lessons. <details><summary>More about</summary>
@@ -1062,7 +1062,7 @@ _These are new or low-traffic entries being watched._
   `ai-agents` `mcp` `ci-cd` `developer-tools` `policy-enforcement`
   </details>
 
-- **[pfillion42/memviz](https://github.com/pfillion42/memviz)** `⭐ 1` `updated ≤180d` A local web UI for browsing, searching, visualizing, and managing the SQLite-vec memory databases created by the MCP Memory Service. <details><summary>More about</summary>
+- **[pfillion42/memviz](https://github.com/pfillion42/memviz)** `⭐ 1` `updated ≤1y` A local web UI for browsing, searching, visualizing, and managing the SQLite-vec memory databases created by the MCP Memory Service. <details><summary>More about</summary>
 
   It gives developers a visual interface to inspect, clean, and understand the vector memories that Claude Code and other MCP clients accumulate over time.
 

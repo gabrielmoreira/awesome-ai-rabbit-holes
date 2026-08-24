@@ -32,7 +32,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `agent-orchestration` `workflow-automation` `ai-collaboration` `agile`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.7k` `updated ≤180d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.8k` `updated ≤180d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
 
   It attempts to standardize how developers communicate environment tips, testing requirements, and PR guidelines directly to autonomous agents.
 
@@ -104,7 +104,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `codebase-indexing` `prd` `multi-agent`
   </details>
 
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 461` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 466` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
 
   It provides a formal framework to prevent complex multi-agent or human-AI projects from devolving into incoherent, unreviewable conversational loops.
 
@@ -162,7 +162,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `tdd` `gherkin` `cli` `multi-agent`
   </details>
 
-- **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 50` `updated ≤1y` A meta-specification framework designed to automatically generate spec-driven toolkits (speckits) for AI agents. <details><summary>More about</summary>
+- **[MetaSpec](https://github.com/acnlabs/metaspec)** `⭐ 51` `updated ≤1y` A meta-specification framework designed to automatically generate spec-driven toolkits (speckits) for AI agents. <details><summary>More about</summary>
 
   It automates the creation of structured, specification-heavy development environments that use precision-guided navigation to drastically reduce LLM token consumption.
 

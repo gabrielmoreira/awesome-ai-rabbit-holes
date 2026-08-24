@@ -95,11 +95,11 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-07-23T05:16:14.904Z"
+    status: skipped
+    updated_at: "2026-08-24T04:21:26.853Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__frihet-io__frihet-mcp: Mistral API error (401): {\"detail\":\"Unauthorized\"}"
+      type: missing_metadata
+      message: Item is not ready for categorization
     next_retry_at: null
     attempts: 3
     prompt_version: catalog-categorize-v5-single-template

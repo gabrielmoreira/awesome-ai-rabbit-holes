@@ -75,9 +75,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-17T04:19:30.787Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-24T04:21:23.770Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for avisangle/method-crm-mcp
     next_retry_at: null
   categorize:
     status: done

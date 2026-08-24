@@ -50,7 +50,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evaluation` `llm-testing` `benchmarking` `python` `metrics`
   </details>
 
-- **[RAGAS](https://github.com/vibrantlabsai/ragas)** `⭐ 14.9k` `updated ≤180d` Ragas is a Python library for evaluating LLM applications with objective metrics and test data generation. <details><summary>More about</summary>
+- **[RAGAS](https://github.com/vibrantlabsai/ragas)** `⭐ 14.9k` `updated ≤1y` Ragas is a Python library for evaluating LLM applications with objective metrics and test data generation. <details><summary>More about</summary>
 
   It gives developers a programmatic, data-driven way to measure and improve LLM app quality without relying on subjective assessments.
 
@@ -77,7 +77,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `function-calling` `benchmarks` `llm-eval` `api-integration` `research`
   </details>
 
-- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 11.1k` `updated ≤30d` Open-source AI observability and evaluation platform for tracing, experimenting, and optimizing AI applications. <details><summary>More about</summary>
+- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 11.2k` `updated ≤30d` Open-source AI observability and evaluation platform for tracing, experimenting, and optimizing AI applications. <details><summary>More about</summary>
 
   Developers can instrument, debug, and compare LLM behavior in production or staging without vendor lock-in.
 
@@ -131,7 +131,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `experiment-tracking` `mlops` `visualization` `open-source` `metadata`
   </details>
 
-- **[Helicone](https://github.com/helicone/helicone)** `⭐ 6k` `updated ≤30d` Open source LLM observability platform for monitoring, evaluating, and experimenting with AI models via a single API gateway. <details><summary>More about</summary>
+- **[Helicone](https://github.com/helicone/helicone)** `⭐ 6k` `updated ≤90d` Open source LLM observability platform for monitoring, evaluating, and experimenting with AI models via a single API gateway. <details><summary>More about</summary>
 
   Developers can track costs, latency, and quality across 100+ models, debug agent traces, and manage prompts without vendor lock-in.
 
@@ -284,7 +284,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evals` `observability` `agent-ops` `tracing` `open-source`
   </details>
 
-- **[GuideLLM](https://github.com/vllm-project/guidellm)** `⭐ 1.4k` `updated ≤30d` GuideLLM is a benchmarking platform that evaluates LLM inference performance under real-world workloads using OpenAI-compatible and vLLM-native servers. <details><summary>More about</summary>
+- **[GuideLLM](https://github.com/vllm-project/guidellm)** `⭐ 1.4k` `updated ≤90d` GuideLLM is a benchmarking platform that evaluates LLM inference performance under real-world workloads using OpenAI-compatible and vLLM-native servers. <details><summary>More about</summary>
 
   It gives engineering teams SLO-aware, reproducible metrics to optimize deployments and avoid guesswork in production LLM serving.
 
@@ -356,7 +356,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `agent-evaluation` `dataset-generation` `fine-tuning` `mcp-compatible` `synthetic-data`
   </details>
 
-- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 791` `updated ≤30d` OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated graders and rubrics. <details><summary>More about</summary>
+- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 797` `updated ≤30d` OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated graders and rubrics. <details><summary>More about</summary>
 
   It provides a structured way to move from 'vibes-based' testing to reproducible evaluation, allowing developers to turn grading results into reward signals for fine-tuning.
 
@@ -374,7 +374,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `data-quality` `llm-as-judge` `hallucination-detection` `rag-evaluation` `model-validation`
   </details>
 
-- **[Evalchemy](https://github.com/mlfoundations/evalchemy)** `⭐ 602` `updated ≤180d` A unified CLI toolkit for evaluating post-trained language models across multiple benchmarks with support for local, vLLM, and API-based models. <details><summary>More about</summary>
+- **[Evalchemy](https://github.com/mlfoundations/evalchemy)** `⭐ 602` `updated ≤1y` A unified CLI toolkit for evaluating post-trained language models across multiple benchmarks with support for local, vLLM, and API-based models. <details><summary>More about</summary>
 
   It gives developers a single command-line interface to run standardized reasoning, coding, and chat benchmarks across different model backends without dependency conflicts.
 
@@ -401,7 +401,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `benchmarking` `evaluation` `llm-testing` `dataset-generation` `huggingface`
   </details>
 
-- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 384` `updated ≤1y` A CLI tool for benchmarking the throughput and tokens-per-second performance of local LLMs running via Ollama. <details><summary>More about</summary>
+- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 386` `updated ≤1y` A CLI tool for benchmarking the throughput and tokens-per-second performance of local LLMs running via Ollama. <details><summary>More about</summary>
 
   It allows developers to quantitatively measure the hardware performance and inference speed of local models across different RAM configurations.
 
@@ -428,7 +428,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `benchmark` `contamination` `training-data` `eval` `research`
   </details>
 
-- **[datasetloom](https://github.com/599yongyang/datasetloom)** `⭐ 293` `updated ≤1y` An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and RAG-enhanced data generation. <details><summary>More about</summary>
+- **[datasetloom](https://github.com/599yongyang/datasetloom)** `⭐ 294` `updated ≤1y` An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and RAG-enhanced data generation. <details><summary>More about</summary>
 
   It automates the complex pipeline of transforming unstructured documents and images into high-quality, structured datasets for fine-tuning multimodal models.
 
@@ -594,7 +594,7 @@ _These are new or low-traffic entries being watched._
   `rag` `observability` `vector-db` `embeddings` `llmops`
   </details>
 
-- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 6` `updated ≤180d` A benchmarking framework designed to evaluate AI agent configurations across 40 real-world tasks and 7 domains using rule-based scoring. <details><summary>More about</summary>
+- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 7` `updated ≤180d` A benchmarking framework designed to evaluate AI agent configurations across 40 real-world tasks and 7 domains using rule-based scoring. <details><summary>More about</summary>
 
   It shifts the focus from evaluating raw model intelligence to measuring the effectiveness of specific agentic setups, prompts, and tool configurations.
 

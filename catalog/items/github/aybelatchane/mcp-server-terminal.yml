@@ -70,9 +70,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-17T04:19:31.502Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-24T04:21:25.307Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for aybelatchane/mcp-server-terminal
     next_retry_at: null
   categorize:
     status: done

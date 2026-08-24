@@ -81,9 +81,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-17T04:19:31.546Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-24T04:21:25.476Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for ayhammouda/python-docs-mcp-server
     next_retry_at: null
   categorize:
     status: done
