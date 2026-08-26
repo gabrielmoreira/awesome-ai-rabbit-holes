@@ -3,10 +3,13 @@ import {
   resolvePiAiModelSpec,
   runPiFreeTextPrompt,
   resetPiFreeRecentFailures,
+  type RunPiFreeTextPromptDeps,
 } from "../scripts/pi/ai.js";
+import { resetPiFreeBalanceSeed } from "../scripts/pi/pool.js";
 
 afterEach(() => {
   resetPiFreeRecentFailures();
+  resetPiFreeBalanceSeed();
 });
 
 
@@ -118,5 +121,55 @@ describe("pi-ai fallback loop", () => {
         }
       )
     ).rejects.toThrow("429 provider returned error");
+  });
+});
+
+describe("pi-ai replica load balancing", () => {
+  const BALANCING_ENV = {
+    OPENROUTER_API_KEY: "or-key",
+    CLOUDFLARE_API_TOKEN: "cf-token",
+    CLOUDFLARE_ACCOUNT_ID: "cf-account",
+    MISTRAL_API_KEY: "mi-key",
+  };
+
+  const RATE_LIMITED_IDS = new Set(["@cf/moonshotai/kimi-k2.6", "mistral-medium-2604", "google/gemma-4-31b-it:free"]);
+
+  type FauxModel = { provider: string; id: string };
+  type FauxMessage = {
+    role: "assistant";
+    content: Array<{ type: "text"; text: string }>;
+    stopReason: "stop" | "error";
+    errorMessage?: string;
+  };
+
+  function makeBalancingDeps(): RunPiFreeTextPromptDeps {
+    // pi-ai Model/AssistantMessage are opaque here; ai.ts only consumes model.id/.provider and message content/stop fields.
+    const faux = {
+      getModel: (provider: string, modelId: string): FauxModel => ({ provider, id: modelId }),
+      complete: async (model: FauxModel): Promise<FauxMessage> => {
+        if (RATE_LIMITED_IDS.has(model.id)) {
+          return { role: "assistant", content: [], stopReason: "error", errorMessage: "429 rate limited" };
+        }
+        return { role: "assistant", content: [{ type: "text", text: "HI." }], stopReason: "stop" };
+      },
+    };
+    return faux as unknown as RunPiFreeTextPromptDeps;
+  }
+
+  it("rotates provider replicas of the same family across consecutive default-path calls", async () => {
+    resetPiFreeBalanceSeed();
+    const first = await runPiFreeTextPrompt(
+      "Reply with exactly HI.",
+      { env: BALANCING_ENV, rememberFailures: false },
+      makeBalancingDeps()
+    );
+    const second = await runPiFreeTextPrompt(
+      "Reply with exactly HI.",
+      { env: BALANCING_ENV, rememberFailures: false },
+      makeBalancingDeps()
+    );
+
+    expect(first.model).toBe("cloudflare/@cf/google/gemma-4-26b-a4b-it");
+    expect(second.model).toBe("openrouter/google/gemma-4-26b-a4b-it:free");
   });
 });

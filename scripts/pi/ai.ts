@@ -11,6 +11,7 @@ import {
   resolvePiFreeStartupCandidates,
   type PiFreeEnvValues,
 } from "./models.ts";
+import { balancePiFreeCandidates, nextPiFreeBalanceSeed } from "./pool.ts";
 
 export type RunPiFreeTextPromptOptions = {
   model?: string | null;
@@ -81,7 +82,7 @@ function resolvePromptCandidates(options: RunPiFreeTextPromptOptions): string[] 
     );
   }
 
-  return resolvePiFreeStartupCandidates(options.env ?? process.env);
+  return balancePiFreeCandidates(resolvePiFreeStartupCandidates(options.env ?? process.env), nextPiFreeBalanceSeed());
 }
 
 function resolvePiAiApiKey(provider: string, envValues: PiFreeEnvValues = process.env): string | null {
