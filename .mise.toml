@@ -129,3 +129,7 @@ flag "--timeout-ms <timeoutMs>" help="Per-model timeout in milliseconds"
 run = '''
 node scripts/pi/doctor.ts{% if usage.limit %} --limit {{ usage.limit }}{% endif %}{% if usage.prompt %} --prompt {{ usage.prompt | json_encode }}{% endif %}{% if usage.timeout_ms %} --timeout-ms {{ usage.timeout_ms }}{% endif %}
 '''
+
+[tasks."llm:discover"]
+description = "Refresh the free-model candidate cache from provider catalogs"
+run = "node scripts/pi/discover.ts"

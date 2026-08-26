@@ -8,10 +8,10 @@ import {
   parsePiFreeModelSpec,
   recordPiFreeRecentFailure,
   resetPiFreeRecentFailures,
-  resolvePiFreeStartupCandidates,
   type PiFreeEnvValues,
 } from "./models.ts";
 import { balancePiFreeCandidates, nextPiFreeBalanceSeed } from "./pool.ts";
+import { resolvePiFreePoolStartupCandidates } from "./discover.ts";
 
 export type RunPiFreeTextPromptOptions = {
   model?: string | null;
@@ -82,7 +82,7 @@ function resolvePromptCandidates(options: RunPiFreeTextPromptOptions): string[] 
     );
   }
 
-  return balancePiFreeCandidates(resolvePiFreeStartupCandidates(options.env ?? process.env), nextPiFreeBalanceSeed());
+  return balancePiFreeCandidates(resolvePiFreePoolStartupCandidates(options.env ?? process.env), nextPiFreeBalanceSeed());
 }
 
 function resolvePiAiApiKey(provider: string, envValues: PiFreeEnvValues = process.env): string | null {

@@ -47,7 +47,7 @@ const PROVIDER_AUTH_REQUIREMENTS: Record<string, string[]> = {
 };
 
 const PI_FREE_RETRYABLE_ERROR_PATTERN =
-  /timed out|request was aborted|aborted|connection error|network error|fetch failed|socket hang up|econnreset|econnrefused|enotfound|internal server error|overloaded|provider.?returned.?error|rate.?limit|too many requests|429|404|500|502|503|504|service.?unavailable|temporarily unavailable|quota exceeded|throttled|retry shortly|retry later|requires a subscription|upgrade for access|free-models-per-min|unexpected message role|reasoning_effort|reasoning is mandatory|cannot be disabled|no route matched|model not found/i;
+  /timed out|request was aborted|aborted|connection error|network error|fetch failed|socket hang up|econnreset|econnrefused|enotfound|internal server error|overloaded|provider.?returned.?error|rate.?limit|too many requests|403|429|404|500|502|503|504|service.?unavailable|temporarily unavailable|quota exceeded|throttled|retry shortly|retry later|requires a subscription|upgrade for access|free-models-per-min|unexpected message role|reasoning_effort|reasoning is mandatory|cannot be disabled|no route matched|model not found/i;
 
 const recentFailures = new Map<string, PiFreeRecentFailureRecord>();
 

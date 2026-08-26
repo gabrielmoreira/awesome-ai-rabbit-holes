@@ -145,6 +145,7 @@ describe("pi-free model selection", () => {
     expect(isPiFreeRetryableError("429 Provider returned error")).toBe(true);
     expect(isPiFreeRetryableError("Internal Server Error")).toBe(true);
     expect(isPiFreeRetryableError("403 this model requires a subscription, upgrade for access")).toBe(true);
+    expect(isPiFreeRetryableError("403 status code (no body)")).toBe(true);
     expect(isPiFreeRetryableError('Mistral API error (404): {"message":"no Route matched with those values"}')).toBe(true);
     expect(isPiFreeRetryableError("permission denied")).toBe(false);
   });

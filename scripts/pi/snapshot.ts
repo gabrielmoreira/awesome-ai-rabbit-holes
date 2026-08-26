@@ -6,6 +6,7 @@ import { listPiFreeRecentFailureRecords, resolvePiFreeOrderedModels, type PiFree
 
 export const PI_FREE_CACHE_DIR = path.join(CACHE_DIR, "pi-free");
 export const PI_FREE_POOL_SNAPSHOT_PATH = path.join(PI_FREE_CACHE_DIR, "pool.json");
+export const PI_FREE_CANDIDATES_PATH = path.join(PI_FREE_CACHE_DIR, "candidates.json");
 
 export type PiFreeReplicaSnapshot = {
   provider: string;
