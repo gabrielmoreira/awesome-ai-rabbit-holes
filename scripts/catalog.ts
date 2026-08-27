@@ -10,6 +10,7 @@ import type { RunRepairOptions } from "./catalog/repair.ts";
 import { runResync } from "./catalog/resync.ts";
 import { runStars } from "./catalog/stars.ts";
 import { runValidate } from "./catalog/validate.ts";
+import { runPiFreeDiscover } from "./pi/discover.ts";
 export { loadSources, loadCategories, loadCatalogItems, loadGeneratedCatalogItems, saveCatalogItem } from "./catalog/data.ts";
 export {
   makeItemId,
@@ -91,6 +92,7 @@ export {
 export { runGaps } from "./catalog/gaps.ts";
 
 export type SyncCommandDeps = {
+  piFreeRefresh?: () => Promise<void>;
   discover: () => Promise<void>;
   stars: () => Promise<void>;
   repair?: (options?: RunRepairOptions) => Promise<void>;
@@ -118,6 +120,7 @@ export async function runSync(
   deps: Partial<SyncCommandDeps> = {},
 ): Promise<void> {
   const commands = {
+    piFreeRefresh: deps.piFreeRefresh ?? (() => runPiFreeDiscover()),
     discover: deps.discover ?? (() => runDiscover(token)),
     stars: deps.stars ?? (() => runStars(token)),
     categorize: deps.categorize ?? (() => runCategorize(token)),
@@ -129,6 +132,7 @@ export async function runSync(
   );
   const repair = deps.repair ?? (hasCompleteLegacyDeps ? null : (options?: RunRepairOptions) => runRepair(token, {}, options));
 
+  await commands.piFreeRefresh();
   await commands.discover();
   await commands.stars();
   if (repair) await repair({ mode: "automatic-safe" });

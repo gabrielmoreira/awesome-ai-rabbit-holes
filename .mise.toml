@@ -120,7 +120,7 @@ flag "--model <model>" help="Optional explicit model override"
 run = "node scripts/pi/free.ts"
 
 [tasks."llm:doctor"]
-description = "Probe the static shared LLM fallback order without changing runtime cache"
+description = "Probe the resolved pi-free fallback pool without changing runtime cache"
 usage = '''
 flag "--limit <limit>" help="Optional cap on how many configured models to probe (default: 10)"
 flag "--prompt <prompt>" help="Prompt to send to each model (default: Reply with exactly HI.)"

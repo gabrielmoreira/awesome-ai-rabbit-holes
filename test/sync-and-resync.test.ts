@@ -59,6 +59,7 @@ describe("runSync", () => {
     const calls: string[] = [];
 
     await runSync(undefined, {
+      piFreeRefresh: async () => { calls.push("piFreeRefresh"); },
       discover: async () => { calls.push("discover"); },
       stars: async () => { calls.push("stars"); },
       categorize: async () => { calls.push("categorize"); },
@@ -66,7 +67,7 @@ describe("runSync", () => {
       validate: async () => { calls.push("validate"); },
     });
 
-    expect(calls).toEqual(["discover", "stars", "categorize", "render", "validate"]);
+    expect(calls).toEqual(["piFreeRefresh", "discover", "stars", "categorize", "render", "validate"]);
   });
 
   it("stops immediately when a structural command fails", async () => {
@@ -74,6 +75,7 @@ describe("runSync", () => {
 
     await expect(
       runSync(undefined, {
+        piFreeRefresh: async () => { calls.push("piFreeRefresh"); },
         discover: async () => { calls.push("discover"); },
         stars: async () => {
           calls.push("stars");
@@ -85,12 +87,13 @@ describe("runSync", () => {
       })
     ).rejects.toThrow("boom");
 
-    expect(calls).toEqual(["discover", "stars"]);
+    expect(calls).toEqual(["piFreeRefresh", "discover", "stars"]);
   });
   it("continues when a command handles item-level failures without throwing", async () => {
     const calls: string[] = [];
 
     await runSync(undefined, {
+      piFreeRefresh: async () => { calls.push("piFreeRefresh"); },
       discover: async () => { calls.push("discover"); },
       stars: async () => { calls.push("stars"); },
       categorize: async () => {
@@ -100,7 +103,27 @@ describe("runSync", () => {
       validate: async () => { calls.push("validate"); },
     });
 
-    expect(calls).toEqual(["discover", "stars", "categorize", "render", "validate"]);
+    expect(calls).toEqual(["piFreeRefresh", "discover", "stars", "categorize", "render", "validate"]);
+  });
+
+  it("stops immediately when the pi-free pool refresh fails", async () => {
+    const calls: string[] = [];
+
+    await expect(
+      runSync(undefined, {
+        piFreeRefresh: async () => {
+          calls.push("piFreeRefresh");
+          throw new Error("pool refresh failed");
+        },
+        discover: async () => { calls.push("discover"); },
+        stars: async () => { calls.push("stars"); },
+        categorize: async () => { calls.push("categorize"); },
+        render: async () => { calls.push("render"); },
+        validate: async () => { calls.push("validate"); },
+      })
+    ).rejects.toThrow("pool refresh failed");
+
+    expect(calls).toEqual(["piFreeRefresh"]);
   });
 
 });

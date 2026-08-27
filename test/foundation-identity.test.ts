@@ -379,6 +379,7 @@ describe("catalog identity foundation", () => {
   it("runs automatic-safe repair after stars and before categorization during sync", async () => {
     const calls: string[] = [];
     await runSync(undefined, {
+      piFreeRefresh: async () => { calls.push("piFreeRefresh"); },
       discover: async () => { calls.push("discover"); },
       stars: async () => { calls.push("stars"); },
       repair: async (options) => {
@@ -390,6 +391,6 @@ describe("catalog identity foundation", () => {
       validate: async () => { calls.push("validate"); },
     });
 
-    expect(calls).toEqual(["discover", "stars", "repair", "categorize", "render", "validate"]);
+    expect(calls).toEqual(["piFreeRefresh", "discover", "stars", "repair", "categorize", "render", "validate"]);
   });
 });
