@@ -46,23 +46,31 @@ metadata:
       - model-context-protocol
       - pdf
       - pdf-converter
-    last_checked_at: "2026-08-13T04:39:33.181Z"
+    last_checked_at: "2026-08-27T09:23:06.183Z"
     readme:
-      fetched_at: "2026-08-13T04:39:33.181Z"
+      fetched_at: "2026-08-27T09:23:06.183Z"
       bytes: 4159
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server that exposes Convertica's 35+ document and image conversion tools to Claude, Cursor, or any MCP client.
+  why_it_matters: Lets developers trigger file conversions (PDF↔Word/Excel/PPT, HEIC→JPG, etc.) directly from their AI assistant without leaving the workflow.
+  mental_damage: Now your AI assistant can finally convert that HEIC to JPG for you, because of course the one file format that refuses to die is the one your tools won’t touch.
+  tags:
+    - mcp-server
+    - file-conversion
+    - pdf-tools
+    - image-conversion
+    - claude-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: "MCP is the product identity: this is a dedicated MCP server exposing a conversion service to MCP clients."
+  evidence:
+    - Repo description explicitly states it is an MCP server for convertica.net
+    - README details MCP tools (list_converters, convert_file) and setup for Claude/Cursor/Windsurf
+    - Listed in MCP Registry (glama.ai badge)
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -73,16 +81,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-08-27T06:08:52.413Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for convertica-net/convertica-mcp
+    status: done
+    updated_at: "2026-08-27T09:23:06.183Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:23:40.536Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:11961730a0dac3943da0eb060d12d72b74e8976ec7eb955aa3af673db29fd289
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: this is a dedicated MCP server exposing a conversion service to MCP clients."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for convertica.net
+        - README details MCP tools (list_converters, convert_file) and setup for Claude/Cursor/Windsurf
+        - Listed in MCP Registry (glama.ai badge)
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not merely an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

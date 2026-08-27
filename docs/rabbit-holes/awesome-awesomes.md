@@ -41,7 +41,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `github-copilot` `agent-skills`
   </details>
 
-- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 29.4k` `updated ≤90d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 29.7k` `updated ≤30d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
 
   It provides developers with a structured, discoverable map of the AI agent ecosystem, saving time in finding relevant tools for building or integrating agents.
 
@@ -68,7 +68,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `image-generation` `dataset` `gemini` `multimodal` `awesome-list`
   </details>
 
-- **[Awesome Production Machine Learning](https://github.com/ethicalml/awesome-production-machine-learning)** `⭐ 20.8k` `updated ≤30d` A curated list of open source libraries for deploying, monitoring, versioning, and scaling machine learning models. <details><summary>More about</summary>
+- **[Awesome Production Machine Learning](https://github.com/ethicalml/awesome-production-machine-learning)** `⭐ 20.9k` `updated ≤30d` A curated list of open source libraries for deploying, monitoring, versioning, and scaling machine learning models. <details><summary>More about</summary>
 
   It provides a structured map of the MLOps ecosystem, helping developers navigate the complex landscape of production-grade ML infrastructure.
 
@@ -86,7 +86,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `mlops` `curated-directory`
   </details>
 
-- **[Open LLMs](https://github.com/eugeneyan/open-llms)** `⭐ 12.8k` `updated >1y` A curated list of open-source large language models available for commercial use. <details><summary>More about</summary>
+- **[Open LLMs](https://github.com/eugeneyan/open-llms)** `⭐ 12.9k` `updated >1y` A curated list of open-source large language models available for commercial use. <details><summary>More about</summary>
 
   Helps developers identify models with permissive licenses that can be self-hosted or integrated into commercial products without legal risk.
 
@@ -401,7 +401,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `x402` `micropayments` `ai-agents` `crypto` `awesome-list`
   </details>
 
-- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 239` `updated ≤30d` A curated list of tools and resources for spec-driven development (SDD). <details><summary>More about</summary>
+- **[awesome-spec-driven-development](https://github.com/engineering4ai/awesome-spec-driven-development)** `⭐ 251` `updated ≤30d` A curated list of tools and resources for spec-driven development (SDD). <details><summary>More about</summary>
 
   Helps developers discover frameworks, standards, and workflows for writing specifications first to improve alignment, testing, and documentation in AI-assisted development.
 

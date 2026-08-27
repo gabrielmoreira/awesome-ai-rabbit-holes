@@ -40,14 +40,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 130
-    forks: 14
+    stars: 139
+    forks: 13
     license: MIT
     archived: false
     full_name: dmae97/omk
     html_url: https://github.com/dmae97/omk
     created_at: "2026-04-30T01:41:12Z"
-    pushed_at: "2026-08-01T01:26:17Z"
+    pushed_at: "2026-08-24T19:01:44Z"
     description: Evidence-gated runner for Codex, Claude Code, OpenCode, and local coding agents. Routes tasks into scoped DAG lanes with replayable artifacts.
     homepage: ""
     topics:
@@ -71,49 +71,61 @@ metadata:
       - software-engineering
       - typescript
       - workflow-automation
-    last_checked_at: "2026-08-13T04:39:35.286Z"
+    last_checked_at: "2026-08-27T09:23:16.816Z"
     readme:
-      fetched_at: "2026-08-13T04:39:35.286Z"
-      bytes: 18902
+      fetched_at: "2026-08-27T09:23:16.816Z"
+      bytes: 22260
 insights:
-  summary: A provider-neutral control plane and harness for routing, verifying, and managing multiple coding agents.
-  why_it_matters: It provides a centralized TUI and runtime to coordinate different agents like Claude Code or OpenCode through scoped workflows and evidence-gated routing.
-  mental_damage: Because managing one hallucinating agent is hard enough, now you can manage an entire multi-agent workforce from a terminal dashboard styled like a cyberpunk dystopia.
+  summary: OMK is a CLI-based multi-agent control plane that scopes, routes, verifies, and replays coding agent tasks using bounded DAGs and evidence-gated workflows.
+  why_it_matters: It addresses the reliability gap in AI coding agents by enforcing verifiable outcomes through scoped execution lanes and fresh-evidence acceptance predicates.
+  mental_damage: Finally, a tool that treats AI coding agents like interns who need close supervision before they break production.
   tags:
-    - agent-orchestration
-    - cli
-    - coding-agent
-    - coding-agents
-    - control-plane
-    - mcp
     - multi-agent
+    - cli
+    - workflow-automation
+    - evidence-gated
+    - mcp
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: OMK functions as a multi-agent workbench and control plane focused on coordinating agents via scoped DAGs and verifiable outcomes, not as a coding assistant itself.
   evidence:
-    - README describes it as a 'provider-neutral multi-agent control plane for coding workflows'
-    - Features include DAG lanes, provider routing, and task pipelines
-    - Contains an agent runtime (omk-agent-core) and an interactive CLI agent
-    - "included: The project acts as a control plane and runtime for coordinating multiple agents and tasks via a TUI and DAG-based routing."
-    - README identifies it as a 'provider-neutral multi-agent control plane for coding workflows'
-    - Repo description specifies it as a runner for Codex, Claude Code, OpenCode, and local agents
-    - Includes a TUI (OMK//CONTROL) for live DAG lanes, provider routing, and telemetry
-    - "included: The tool is primarily an operated control plane and TUI for coordinating multiple different agents rather than being a single standalone coding assistant."
+    - Routes tasks into scoped DAG lanes with replayable artifacts (repo description)
+    - Provider-neutral coding-agent CLI and multi-agent control plane for Codex, Claude Code, and OpenCode (README)
+    - Control loop involves Scope, Route, Verify, Replay steps with durable goals and session recovery (README)
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:26:37.343Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:273eb3fa0c9255f8752a808d9c5dcdc0bb4bdeb88a8a4a0a115389858dac6613
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: OMK functions as a multi-agent workbench and control plane focused on coordinating agents via scoped DAGs and verifiable outcomes, not as a coding assistant itself.
+      decision_evidence:
+        - Routes tasks into scoped DAG lanes with replayable artifacts (repo description)
+        - Provider-neutral coding-agent CLI and multi-agent control plane for Codex, Claude Code, and OpenCode (README)
+        - Control loop involves Scope, Route, Verify, Replay steps with durable goals and session recovery (README)
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because OMK does not directly write or edit code but instead orchestrates other coding agents through a verifiable control plane.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-07-13T05:12:52.225Z"
@@ -121,6 +133,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:35.286Z"
+    updated_at: "2026-08-27T09:23:16.816Z"
     cause: null
     next_retry_at: null

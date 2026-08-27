@@ -70,13 +70,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-13T04:39:47.736Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-27T09:23:32.704Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for forcedreamai/forcedream-mcp
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
+    updated_at: "2026-08-27T09:23:35.495Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

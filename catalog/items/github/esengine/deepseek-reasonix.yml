@@ -24,35 +24,63 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 35209
+    forks: 2351
+    license: MIT
+    archived: false
+    full_name: esengine/DeepSeek-Reasonix
+    html_url: https://github.com/esengine/DeepSeek-Reasonix
+    created_at: "2026-04-21T08:27:02Z"
+    pushed_at: "2026-08-27T09:10:58Z"
+    description: DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.
+    homepage: http://reasonix.io/
+    topics:
+      - agent
+      - agent-framework
+      - ai-agent
+      - ai-coding
+      - cli
+      - coding-agent
+      - deepseek
+      - developer-tools
+      - dsh
+      - dsh-plugin
+      - ink
+      - llm
+      - prompt-caching
+      - r1
+      - terminal
+      - tool-use
+      - tui
+      - typescript
+    last_checked_at: "2026-08-27T09:23:25.260Z"
+    readme:
+      fetched_at: "2026-08-27T09:23:25.260Z"
+      bytes: 12518
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Reasonix is a terminal-native AI coding agent built around DeepSeek with prefix-cache stability for long-running autonomous coding sessions.
+  why_it_matters: It lets developers delegate sustained coding work to a local agent that maintains context over time without constant re-prompting.
+  mental_damage: The promise of leaving an AI agent running for hours feels less like productivity and more like outsourcing your anxiety to a background process.
+  tags:
+    - coding-agent
+    - terminal
+    - deepseek
+    - cli
+    - autonomous
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Reasonix is a standalone coding assistant that directly edits code, runs commands, and operates autonomously in a terminal, fitting the core definition of a coding agent rather than an extension or framework.
+  evidence:
+    - "Repo description: 'DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.'"
+    - "README: 'One local engine, four ways in — terminal, desktop app, browser, or your editor over ACP. Plan mode, permissions, a workspace sandbox and per-turn checkpoints keep a long autonomous run something you can still read and undo.'"
+    - Features include config-driven agents, multi-model execution, plugin-driven MCP support, and cache-aware context maintenance for long sessions.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (35209) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,13 +88,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T09:23:25.260Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-08-27T09:27:06.009Z"
+    cause: null
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e9edfe9010764662ed8df4fab698f22233aaaaadc816ffccf2414896448d91ff
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Reasonix is a standalone coding assistant that directly edits code, runs commands, and operates autonomously in a terminal, fitting the core definition of a coding agent rather than an extension or framework.
+      decision_evidence:
+        - "Repo description: 'DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.'"
+        - "README: 'One local engine, four ways in — terminal, desktop app, browser, or your editor over ACP. Plan mode, permissions, a workspace sandbox and per-turn checkpoints keep a long autonomous run something you can still read and undo.'"
+        - Features include config-driven agents, multi-model execution, plugin-driven MCP support, and cache-aware context maintenance for long sessions.
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Reasonix is a primary coding assistant that developers delegate repo work to, not a thin layer augmenting another assistant with host integrations.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

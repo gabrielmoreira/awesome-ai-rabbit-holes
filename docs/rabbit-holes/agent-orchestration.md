@@ -320,6 +320,15 @@ Tools and platforms for coordinating multiple agents.
   `multi-agent` `collaboration` `workspace` `cli` `orchestration`
   </details>
 
+- **[Docker Agent](https://github.com/docker/docker-agent)** `⭐ 3.3k` `updated ≤30d` Docker Agent is a CLI plugin that lets developers define and run multi-agent AI systems via declarative YAML configuration, with MCP tool integration and model-agnostic execution. <details><summary>More about</summary>
+
+  It enables developers to package, share, and orchestrate AI agents like Docker containers, reducing friction in agent deployment and reuse across environments.
+
+  _Another layer of YAML to define what your AI should do, because writing prompts directly was apparently too 2023._
+
+  `ai-agents` `docker` `yaml` `mcp` `orchestration`
+  </details>
+
 - **[AGiXT](https://github.com/josh-xt/agixt)** `⭐ 3.2k` `updated ≤90d` AGiXT is an open-source AI agent automation platform that orchestrates tasks across multiple AI providers with a plugin system and adaptive memory. <details><summary>More about</summary>
 
   It lets developers build and run multi-provider, extension-rich AI workflows for automation, from smart home control to enterprise tasks, via natural language.
@@ -599,7 +608,7 @@ Tools and platforms for coordinating multiple agents.
   `ai-agents` `frontend` `analytics` `auth` `sdk`
   </details>
 
-- **[Cordum](https://github.com/cordum-io/cordum)** `⭐ 495` `updated ≤30d` An agent control plane for enforcing policy and human approval before risky tool calls, shell commands, workflows, and production changes with auditable evidence. <details><summary>More about</summary>
+- **[Cordum](https://github.com/cordum-io/cordum)** `⭐ 497` `updated ≤30d` An agent control plane for enforcing policy and human approval before risky tool calls, shell commands, workflows, and production changes with auditable evidence. <details><summary>More about</summary>
 
   It addresses the governance gap for autonomous AI agents by providing visibility, safety rails, human-in-the-loop oversight, and audit trails for agent actions.
 
@@ -644,7 +653,7 @@ Tools and platforms for coordinating multiple agents.
   `local-ai` `multi-agent` `mcp` `no-code` `crypto-agents`
   </details>
 
-- **[ntm](https://github.com/dicklesworthstone/ntm)** `⭐ 424` `updated ≤30d` NTM is a Go-based TUI tool that orchestrates multiple AI coding agents across tmux panes with session labeling, work triage, safety approvals, and robot surfaces. <details><summary>More about</summary>
+- **[ntm](https://github.com/dicklesworthstone/ntm)** `⭐ 431` `updated ≤30d` NTM is a Go-based TUI tool that orchestrates multiple AI coding agents across tmux panes with session labeling, work triage, safety approvals, and robot surfaces. <details><summary>More about</summary>
 
   It turns tmux into a local control plane for running and coordinating parallel AI agents, reducing the friction of managing multi-agent workflows manually.
 
@@ -747,6 +756,15 @@ _These are new or low-traffic entries being watched._
   `cli` `multi-agent` `terminal` `dashboard` `local`
   </details>
 
+- **[OMK](https://github.com/dmae97/omk)** `⭐ 139` `updated ≤30d` OMK is a CLI-based multi-agent control plane that scopes, routes, verifies, and replays coding agent tasks using bounded DAGs and evidence-gated workflows. <details><summary>More about</summary>
+
+  It addresses the reliability gap in AI coding agents by enforcing verifiable outcomes through scoped execution lanes and fresh-evidence acceptance predicates.
+
+  _Finally, a tool that treats AI coding agents like interns who need close supervision before they break production._
+
+  `multi-agent` `cli` `workflow-automation` `evidence-gated` `mcp`
+  </details>
+
 - **[alexgreensh/outsourcerer](https://github.com/alexgreensh/outsourcerer)** `⭐ 138` `updated ≤30d` A CLI tool that orchestrates multiple AI coding agents and models by delegating tasks to specialized or cheaper engines while preserving the user's environment. <details><summary>More about</summary>
 
   It allows developers to maximize their AI subscriptions by routing repetitive or low-complexity tasks to cheaper models without losing their custom tools or MCP configurations.
@@ -774,6 +792,15 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `orchestration` `autonomous-coding` `claude-code` `verification`
   </details>
 
+- **[quorum-cli](https://github.com/detrol/quorum-cli)** `⭐ 115` `updated ≤1y` A CLI tool for running structured multi-agent debates between LLMs (Claude, GPT, Gemini, Grok, Ollama) in the terminal. <details><summary>More about</summary>
+
+  Developers can leverage consensus-building between models to validate ideas, compare trade-offs, or debug complex decisions directly in their workflow.
+
+  _Now you can watch AI models argue about PostgreSQL vs. MongoDB while you question your life choices._
+
+  `multi-agent` `cli` `debate` `llm` `mcp`
+  </details>
+
 - **[Flock](https://github.com/whiteducksoftware/flock)** `⭐ 114` `updated ≤90d` Flock is a declarative blackboard-based framework for orchestrating multiple AI agents using type contracts and event-driven architecture. <details><summary>More about</summary>
 
   It replaces fragile prompt engineering and tight coupling with reliable, testable multi-agent coordination grounded in distributed systems patterns.
@@ -781,15 +808,6 @@ _These are new or low-traffic entries being watched._
   _Another framework promising to solve the 'prompt hell' we created by ignoring decades of software engineering wisdom._
 
   `agent-orchestration` `blackboard` `declarative` `multi-agent`
-  </details>
-
-- **[quorum-cli](https://github.com/detrol/quorum-cli)** `⭐ 114` `updated ≤1y` A CLI tool for running structured multi-agent debates between LLMs (Claude, GPT, Gemini, Grok, Ollama) in the terminal. <details><summary>More about</summary>
-
-  Developers can leverage consensus-building between models to validate ideas, compare trade-offs, or debug complex decisions directly in their workflow.
-
-  _Now you can watch AI models argue about PostgreSQL vs. MongoDB while you question your life choices._
-
-  `multi-agent` `cli` `debate` `llm` `mcp`
   </details>
 
 - **[LoopTroop](https://github.com/looptroop-ai/looptroop)** `⭐ 106` `updated ≤30d` A local GUI orchestrator that automates complex coding tasks by breaking them into planned stages, execution loops, and verification steps. <details><summary>More about</summary>
@@ -817,6 +835,15 @@ _These are new or low-traffic entries being watched._
   _Now you can feel like a CTO without the joy of actually writing code, just approving PRs your robot team already debated for an hour._
 
   `agent-orchestration` `claude-code` `sdlc` `multi-agent`
+  </details>
+
+- **[GNAP](https://github.com/farol-team/gnap)** `⭐ 81` `updated ≤180d` GNAP is a git-native protocol for coordinating AI agents using only git repositories as transport and storage. <details><summary>More about</summary>
+
+  It lets developers orchestrate multiple AI agents (human or AI) without servers, databases, or vendor lock-in by treating git as the coordination layer.
+
+  _Finally, a way to make your agents argue over merge requests instead of just your pull requests._
+
+  `git` `agent-orchestration` `protocol` `multi-agent` `devtools`
   </details>
 
 - **[mindstorm](https://github.com/metauto-ai/mindstorm)** `⭐ 81` `updated >1y` A natural language-based multi-agent system that coordinates communities of agents to solve complex tasks through collaborative 'indstorm' processes. <details><summary>More about</summary>
@@ -972,6 +999,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `multi-agent` `pub-sub` `service-oriented` `context-management`
   </details>
 
+- **[dahrkai/dahrk-node](https://github.com/dahrkai/dahrk-node)** `⭐ 7` `updated ≤30d` Dahrk node is a self-hosted client that runs deterministic multi-stage agent workflows dispatched from a hosted hub per Linear issue. <details><summary>More about</summary>
+
+  It lets developers run reproducible, hub-orchestrated agent pipelines on their own machine without sacrificing control over the execution environment.
+
+  _Finally, a way to feel both in control and utterly dependent on a SaaS hub for your agent workflows to do anything._
+
+  `agent-workflows` `linear` `deterministic`
+  </details>
+
 - **[danieldoderlein/llm-bus](https://github.com/danieldoderlein/llm-bus)** `⭐ 7` `updated ≤90d` Open-source coordination engine for AI agents using MCP to manage handoffs, shared ledgers, claims, leases, and presence without requiring git. <details><summary>More about</summary>
 
   Reduces manual context-copying between agents by providing a shared, attributable backplane for multi-agent workflows.
@@ -1035,7 +1071,7 @@ _These are new or low-traffic entries being watched._
   `agents` `fastapi` `deployment` `cloud` `rest-api`
   </details>
 
-- **[liuboacean/agent-comm-hub](https://github.com/liuboacean/agent-comm-hub)** `⭐ 3` `updated ≤30d` Agent Communication Hub is an MCP-based real-time multi-agent infrastructure for message passing, task scheduling, shared memory, and evolution engine coordination. <details><summary>More about</summary>
+- **[liuboacean/agent-comm-hub](https://github.com/liuboacean/agent-comm-hub)** `⭐ 3` `updated ≤90d` Agent Communication Hub is an MCP-based real-time multi-agent infrastructure for message passing, task scheduling, shared memory, and evolution engine coordination. <details><summary>More about</summary>
 
   It enables AI agents to collaborate beyond isolated prompts by providing shared communication and workflow primitives.
 

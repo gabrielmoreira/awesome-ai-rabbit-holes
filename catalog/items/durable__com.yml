@@ -36,17 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: AI-powered business builder that generates websites, CRM, and marketing tools for small business owners.
-  why_it_matters: ""
-  mental_damage: ""
-  tags: []
+  summary: Durable is an AI-powered business builder that creates websites, CRM, booking tools, and marketing assets from prompts.
+  why_it_matters: It lets non-technical users launch and manage full business operations via AI without coding or multiple SaaS tools.
+  mental_damage: The quiet horror of realizing your side hustle now runs on an AI that upsells SEO while you sleep.
+  tags:
+    - app-builder
+    - ai-business-tools
+    - no-code
   confidence: high
 curation:
   status: excluded
-  reason: The product is a no-code business management platform for non-technical entrepreneurs rather than a tool for software developers.
+  reason: Durable is a general AI business platform for non-developers, not a developer-facing tool for coding, workflow automation, or software creation.
   evidence:
-    - Target audience is explicitly non-technical 'business owners' like handymen and photographers
-    - Core features focus on business operations (CRM, bookings, SEO) rather than code-centric development or technical scaffolding
+    - "Source-list context: categorized under 'App Builders' in awesome-ai-coding-tools but markets to business owners, not developers"
+    - "README/scraped site: positions itself as a complete business builder for coaches, handymen, photographers, etc., with no mention of code, repos, or dev workflows"
+    - "Core features: AI website builder, CRM, bookings, marketing — all aimed at small business operations, not developer tooling"
 placement:
   primary_category: null
   section: null
@@ -65,23 +69,24 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T06:15:06.178Z"
+    updated_at: "2026-08-27T09:27:45.994Z"
     cause: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
     classification:
-      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:18f12179fc5c87fce29d5d8597671fcc3d8b4fd1f6060c5f8b7a517538b52fe3
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The product is a no-code business management platform for non-technical entrepreneurs rather than a tool for software developers.
+      decision_reason: Durable is a general AI business platform for non-developers, not a developer-facing tool for coding, workflow automation, or software creation.
       decision_evidence:
-        - Target audience is explicitly non-technical 'business owners' like handymen and photographers
-        - Core features focus on business operations (CRM, bookings, SEO) rather than code-centric development or technical scaffolding
+        - "Source-list context: categorized under 'App Builders' in awesome-ai-coding-tools but markets to business owners, not developers"
+        - "README/scraped site: positions itself as a complete business builder for coaches, handymen, photographers, etc., with no mention of code, repos, or dev workflows"
+        - "Core features: AI website builder, CRM, bookings, marketing — all aimed at small business operations, not developer tooling"
       category_candidates: []
       contrastive_reason: null
       review_reason: null

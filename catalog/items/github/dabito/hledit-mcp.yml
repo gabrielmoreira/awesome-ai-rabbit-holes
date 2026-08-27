@@ -51,23 +51,31 @@ metadata:
       - model-context-protocol
       - stale-edit
       - stale-write
-    last_checked_at: "2026-08-13T04:39:33.406Z"
+    last_checked_at: "2026-08-27T09:23:09.070Z"
     readme:
-      fetched_at: "2026-08-13T04:39:33.406Z"
+      fetched_at: "2026-08-27T09:23:09.070Z"
       bytes: 9727
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server for hledit that provides hash-anchored file edits to prevent stale writes in MCP-compatible clients.
+  why_it_matters: It lets coding agents safely edit files by rejecting changes if the file has been modified since the last read, avoiding silent corruption.
+  mental_damage: Finally, a way to stop your AI from overwriting the wrong line because it hallucinated the file state.
+  tags:
+    - mcp-server
+    - file-editing
+    - stale-write-prevention
+    - hash-anchored
+    - coding-agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP-first server whose core identity is providing hash-anchored file editing over the MCP protocol, fitting the MCP Servers & Tooling category.
+  evidence:
+    - Repo description explicitly states it is an MCP server for hledit hash-anchored file edits
+    - README emphasizes MCP compatibility and integration with MCP clients like Claude Code and Cursor
+    - Listed in the official MCP Registry
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -79,13 +87,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:33.406Z"
+    updated_at: "2026-08-27T09:23:09.070Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:25:10.609Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0f09b1560c73bea97bf5b2c9b48bc79edcfa3147d04a6c2daa0e0f56d0d50ccf
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server whose core identity is providing hash-anchored file editing over the MCP protocol, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for hledit hash-anchored file edits
+        - README emphasizes MCP compatibility and integration with MCP clients like Claude Code and Cursor
+        - Listed in the official MCP Registry
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

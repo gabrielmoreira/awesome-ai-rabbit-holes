@@ -35,23 +35,29 @@ metadata:
     description: 16 Instagram creator tools as an MCP server — Reels/Story/carousel downloaders, engagement audit, hashtag search, Reels hook generator, best-time-to-post and content calendar.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-13T04:39:44.095Z"
+    last_checked_at: "2026-08-27T09:23:28.316Z"
     readme:
-      fetched_at: "2026-08-13T04:39:44.095Z"
+      fetched_at: "2026-08-27T09:23:28.316Z"
       bytes: 4090
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server exposing 16 Instagram creator tools (downloaders, analytics, content strategy) for use by MCP clients like Claude Desktop or Cursor.
+  why_it_matters: Developers can leverage Instagram data and automation directly within their AI coding workflows without leaving the chat interface.
+  mental_damage: Nothing says 'building the future' like generating Reels hooks while your CI pipeline is stuck waiting for a flaky test.
+  tags:
+    - instagram
+    - mcp
+    - content-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product's core identity is an MCP server providing domain-specific tools, making it a clear fit for the MCP Servers & Tooling category.
+  evidence:
+    - "Repo description: '16 Instagram creator tools as an MCP server'"
+    - "README: 'Wraps the public API and data behind instapdown.com so any MCP client [...] can download Reels, audit engagement...'"
+    - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -63,13 +69,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:44.095Z"
+    updated_at: "2026-08-27T09:23:28.316Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:27:24.114Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:22333074da187cd3ed768f4b015300da10b32f86c5387d50c6ce113eb76ae4e3
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is an MCP server providing domain-specific tools, making it a clear fit for the MCP Servers & Tooling category.
+      decision_evidence:
+        - "Repo description: '16 Instagram creator tools as an MCP server'"
+        - "README: 'Wraps the public API and data behind instapdown.com so any MCP client [...] can download Reels, audit engagement...'"
+        - "Source-list context: Listed in awesome-mcp-servers under Server Implementations > Communication"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments another assistant with host integrations.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

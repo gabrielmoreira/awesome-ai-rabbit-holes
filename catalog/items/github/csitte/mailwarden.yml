@@ -31,7 +31,7 @@ metadata:
     full_name: csitte/mailwarden
     html_url: https://github.com/csitte/mailwarden
     created_at: "2026-06-19T06:51:01Z"
-    pushed_at: "2026-08-19T09:48:54Z"
+    pushed_at: "2026-08-27T08:08:45Z"
     description: A reliable, native Gmail MCP server with full mailbox control — including snooze.
     homepage: https://www.npmjs.com/package/mailwarden
     topics:
@@ -44,10 +44,10 @@ metadata:
       - model-context-protocol
       - snooze
       - typescript
-    last_checked_at: "2026-08-20T04:18:19.774Z"
+    last_checked_at: "2026-08-27T09:23:08.116Z"
     readme:
-      fetched_at: "2026-08-20T04:18:19.774Z"
-      bytes: 40701
+      fetched_at: "2026-08-27T09:23:08.116Z"
+      bytes: 48880
 insights:
   summary: null
   why_it_matters: null
@@ -72,13 +72,34 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:19.774Z"
+    updated_at: "2026-08-27T09:23:08.116Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
+    status: deferred
+    updated_at: "2026-08-27T09:25:06.438Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+      type: categorization_failed
+      message: |-
+        Catalog LLM categorization failed for github__csitte__mailwarden: ```json
+        {
+          "summary": "A native Gmail MCP server providing full mailbox control, including mailbox-side snooze, for AI assistants.",
+          "why_it_matters": "Developers can integrate Gmail capabilities into AI workflows with reliable, live mailbox operations and unique features like snooze that persist across clients.",
+          "mental_damage": "Finally, an MCP server that lets your AI assistant snooze emails like a human who’s given up on inbox zero.",
+          "tags": ["mcp", "gmail", "email", "typescript", "server"],
+          "should_include": true,
+          "primary_category": "mcp",
+          "section": "Domain Servers",
+          "decision_reason": "The product is explicitly an MCP server for Gmail, making MCP its primary identity and fitting the MCP Servers & Tooling category.",
+          "decision_evidence": [
+            "Repo description identifies it as a 'native Gmail MCP server'",
+            "README highlights MCP as core identity with Gmail-specific capabilities",
+            "Listed in awesome-mcp-servers under 'Server Implementations > Communication'"
+          ],
+          "category_candidates": ["mcp", "ai-dev-extensions"],
+          "contrastive_reason": "Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.",
+          "confidence": "high"
+        }
+        ```
     next_retry_at: null
+    attempts: 1

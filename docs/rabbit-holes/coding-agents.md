@@ -59,6 +59,15 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `coding-agent` `openai` `terminal` `ide-integration`
   </details>
 
+- **[Pi](https://github.com/earendil-works/pi)** `⭐ 98.1k` `updated ≤30d` Pi is an AI agent toolkit featuring a unified LLM API, agent runtime, and interactive coding agent CLI for terminal-based development. <details><summary>More about</summary>
+
+  It provides developers with an open-source, self-hostable coding agent that can plan, edit, test, and debug code across repositories using multiple LLM providers.
+
+  _Another terminal-based agent promising to replace your IDE, while you still spend half your time figuring out how to make it stop editing the wrong file._
+
+  `coding-agent` `cli` `llm-toolkit`
+  </details>
+
 - **[OpenHands](https://github.com/openhands/openhands)** `⭐ 81.4k` `updated ≤90d` OpenHands is an AI-driven development platform providing a Python SDK, CLI, and local/cloud GUI to plan, write, and debug code across repositories using various LLMs. <details><summary>More about</summary>
 
   It offers developers a flexible, model-agnostic alternative to proprietary coding agents like Devin and Claude Code, with options ranging from terminal-native CLI usage to enterprise self-hosting.
@@ -140,13 +149,22 @@ Assistants that directly plan, write, review, test, or debug code.
   `multimodal-agents` `gui-automation` `mcp` `computer-use` `browser-automation`
   </details>
 
-- **[Continue](https://github.com/continuedev/continue)** `⭐ 35.5k` `updated ≤30d` Open-source coding agent that runs AI checks as GitHub status checks on pull requests. <details><summary>More about</summary>
+- **[Continue](https://github.com/continuedev/continue)** `⭐ 35.6k` `updated ≤30d` Open-source coding agent that runs AI checks as GitHub status checks on pull requests. <details><summary>More about</summary>
 
   It lets developers enforce AI-driven code reviews (e.g., security checks) directly in CI via markdown-defined agents in `.continue/checks/`.
 
   _Now your PRs can be rejected by both humans and YAML files._
 
   `coding-agent` `ci-checks` `pr-review` `open-source` `cli`
+  </details>
+
+- **[esengine/deepseek-reasonix](https://github.com/esengine/deepseek-reasonix)** `⭐ 35.2k` `updated ≤30d` Reasonix is a terminal-native AI coding agent built around DeepSeek with prefix-cache stability for long-running autonomous coding sessions. <details><summary>More about</summary>
+
+  It lets developers delegate sustained coding work to a local agent that maintains context over time without constant re-prompting.
+
+  _The promise of leaving an AI agent running for hours feels less like productivity and more like outsourcing your anxiety to a background process._
+
+  `coding-agent` `terminal` `deepseek` `cli` `autonomous`
   </details>
 
 - **[Tabby](https://github.com/tabbyml/tabby)** `⭐ 33.8k` `updated ≤90d` Tabby is a self-hosted, open-source AI coding assistant that runs locally or on-premises to provide code completion and chat capabilities similar to GitHub Copilot. <details><summary>More about</summary>
@@ -842,13 +860,22 @@ Assistants that directly plan, write, review, test, or debug code.
   `agent` `self-evolving` `tool-use` `skill-based`
   </details>
 
-- **[g3](https://github.com/dhanji/g3)** `⭐ 516` `updated ≤30d` g3 is a Rust-based AI coding agent that plans, writes, and executes code tasks with modular architecture and multi-provider LLM support. <details><summary>More about</summary>
+- **[g3](https://github.com/dhanji/g3)** `⭐ 519` `updated ≤30d` g3 is a Rust-based AI coding agent that plans, writes, and executes code tasks with modular architecture and multi-provider LLM support. <details><summary>More about</summary>
 
   It offers developers a terminal-native assistant with built-in tooling for file operations, shell commands, and computer control, plus intelligent context management and error handling.
 
   _Finally, an AI agent that can stutter-detect its own tool calls—because nothing says 'production-ready' like preventing your LLM from Ctrl-C/V-ing itself into a loop._
 
   `coding-agent` `rust` `terminal-native` `multi-provider` `task-automation`
+  </details>
+
+- **[echovic/orca-agent](https://github.com/echovic/orca-agent)** `⭐ 492` `updated ≤30d` Orca is a terminal-native coding agent that uses DeepSeek models to read, edit, and verify code until a task is complete. <details><summary>More about</summary>
+
+  It lets developers delegate coding tasks to an autonomous agent that operates directly in the terminal with file editing, command execution, and self-verification loops.
+
+  _Another agent promising to finish your work while you watch it hallucinate a fix for the third time in a row._
+
+  `coding-agent` `terminal` `deepseek` `autonomous`
   </details>
 
 - **[TermGPT](https://github.com/sentdex/termgpt)** `⭐ 412` `updated >1y` A Python CLI tool that uses GPT-4 to plan and execute terminal commands to fulfill natural language programming requests. <details><summary>More about</summary>
@@ -941,6 +968,15 @@ Assistants that directly plan, write, review, test, or debug code.
   `research-agent` `langchain` `playwright` `chainlit` `local-ai`
   </details>
 
+- **[Auggie](https://github.com/augmentcode/auggie)** `⭐ 276` `updated ≤30d` Auggie is a terminal-based AI coding agent that analyzes code, makes edits, and automates tasks via natural language. <details><summary>More about</summary>
+
+  It lets developers delegate coding work to an agent directly in the terminal, reducing context-switching and automating routine edits.
+
+  _Yet another terminal agent promising to 'ship faster' while you still have to babysit its output and pray it doesn’t delete your main branch._
+
+  `terminal-agent` `ai-coding` `cli-tool`
+  </details>
+
 - **[Codeflash](https://github.com/codeflash-ai/codeflash)** `⭐ 247` `updated ≤30d` A Python code optimizer that uses LLMs to generate performance improvements, validates correctness with tests, benchmarks alternatives, and opens merge-ready pull requests via CLI, GitHub Action, or VS Code Extension. <details><summary>More about</summary>
 
   It automates the tedious cycle of profiling, optimizing, and benchmarking Python code by delegating it to an agent that submits PRs, letting teams ship faster code without manual performance tuning.
@@ -995,7 +1031,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `multi-agent` `codebase-generation` `context-window` `cli` `framework`
   </details>
 
-- **[factory](https://github.com/factory-ai/factory)** `⭐ 1` `updated ≤30d` An agent-native development platform that provides a terminal-based AI coding agent named Droid. <details><summary>More about</summary>
+- **[factory](https://github.com/factory-ai/factory)** `⭐ 11` `updated ≤30d` An agent-native development platform that provides a terminal-based AI coding agent named Droid. <details><summary>More about</summary>
 
   It moves beyond simple autocomplete by providing a multi-interface agent (CLI, Web, Slack) capable of executing repo-wide tasks like code reviews and security scans.
 
@@ -1089,6 +1125,15 @@ _These are new or low-traffic entries being watched._
   `coding-agent` `autonomous` `cli` `openai-codex`
   </details>
 
+- **[handoff](https://github.com/dazuiba/handoff)** `⭐ 87` `updated ≤30d` Handoff is a CLI tool that enables task delegation between Claude Code, Codex, and DeepSeek agents within the same session. <details><summary>More about</summary>
+
+  It lets developers offload routine coding tasks to cheaper models while preserving context, reducing API costs without switching tools.
+
+  _Now you can feel guilty about wasting Opus tokens on three-line fixes while juggling three agent personalities in one terminal._
+
+  `agent-handoff` `claude-code` `codex` `deepseek` `cli-tool`
+  </details>
+
 - **[Octomind](https://github.com/muvon/octomind)** `⭐ 87` `updated ≤90d` An open-source Rust runtime for running pre-packaged, specialist AI agents from a registry, featuring adaptive context compression and multi-provider model support. <details><summary>More about</summary>
 
   It attempts to solve the 'config wars' by offering a plug-and-play agent runtime with zero-config setup, SOTA context compaction, and cost controls.
@@ -1096,15 +1141,6 @@ _These are new or low-traffic entries being watched._
   _Yet another runtime promising to end the glue-code era, just in time for you to realize you now need a degree in TOML to stop your 'specialist' agent from hallucinating legal advice._
 
   `agents` `cli` `rust` `mcp` `specialist-agents`
-  </details>
-
-- **[handoff](https://github.com/dazuiba/handoff)** `⭐ 82` `updated ≤30d` Handoff is a CLI tool that enables task delegation between Claude Code, Codex, and DeepSeek agents within the same session. <details><summary>More about</summary>
-
-  It lets developers offload routine coding tasks to cheaper models while preserving context, reducing API costs without switching tools.
-
-  _Now you can feel guilty about wasting Opus tokens on three-line fixes while juggling three agent personalities in one terminal._
-
-  `agent-handoff` `claude-code` `codex` `deepseek` `cli-tool`
   </details>
 
 - **[Crab Code](https://github.com/lingcoder/crab-code)** `⭐ 74` `updated ≤90d` An open-source, Rust-native CLI coding agent that replicates Claude Code's workflows and toolset while supporting any LLM provider. <details><summary>More about</summary>

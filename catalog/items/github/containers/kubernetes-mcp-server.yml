@@ -56,14 +56,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1981
-    forks: 422
+    stars: 2029
+    forks: 426
     license: Apache-2.0
     archived: false
     full_name: containers/kubernetes-mcp-server
     html_url: https://github.com/containers/kubernetes-mcp-server
     created_at: "2025-02-11T02:57:36Z"
-    pushed_at: "2026-08-20T03:56:58Z"
+    pushed_at: "2026-08-27T01:03:46Z"
     description: Model Context Protocol (MCP) server for Kubernetes and OpenShift
     homepage: ""
     topics:
@@ -76,10 +76,10 @@ metadata:
       - modelcontextprotocol
       - openshift
       - protocol
-    last_checked_at: "2026-08-20T04:18:17.947Z"
+    last_checked_at: "2026-08-27T09:23:05.934Z"
     readme:
-      fetched_at: "2026-08-20T04:18:17.947Z"
-      bytes: 70225
+      fetched_at: "2026-08-27T09:23:05.934Z"
+      bytes: 71360
 insights:
   summary: An MCP server that exposes Kubernetes and OpenShift operations to AI assistants via native Go API calls instead of wrapping kubectl.
   why_it_matters: It lets developers delegate pod logs, Helm charts, Tekton pipelines, and cluster CRUD to AI assistants without installing kubectl or other local dependencies.
@@ -111,11 +111,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-08-27T06:08:52.051Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for containers/kubernetes-mcp-server
+    status: done
+    updated_at: "2026-08-27T09:23:05.934Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done

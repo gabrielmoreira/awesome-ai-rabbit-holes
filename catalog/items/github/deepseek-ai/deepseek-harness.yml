@@ -24,35 +24,49 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 199136
+    forks: 22701
+    license: MIT
+    archived: false
+    full_name: deepseek-ai/deepseek-harness
+    html_url: https://github.com/deepseek-ai/deepseek-harness
+    created_at: "2026-08-13T11:56:32Z"
+    pushed_at: "2026-08-21T12:35:08Z"
+    description: "DeepSeek Harness: Everything is a Plugin."
+    homepage: https://deepseek.com/harness
+    topics:
+      - ai-agents
+      - cordis
+      - dsh
+      - dsh-plugin
+    last_checked_at: "2026-08-27T09:23:13.754Z"
+    readme:
+      fetched_at: "2026-08-27T09:23:13.754Z"
+      bytes: 2041
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: DeepSeek Harness is an open-source agent harness where everything is a plugin, built on Cordis for spatiotemporal composability.
+  why_it_matters: It provides a modular framework for developers to compose and extend AI agents via plugins, enabling customizable agent workflows.
+  mental_damage: Another 'everything is a plugin' framework that promises composability while you spend more time wiring plugins than coding.
+  tags:
+    - agent-harness
+    - plugin-architecture
+    - cordis
+    - ai-agents
+    - modular
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: DeepSeek Harness is a code-first framework/SDK for building agents via plugins, fitting Frameworks & SDKs as developers import and script against it rather than operate it as a control plane.
+  evidence:
+    - "Repo description: 'DeepSeek Harness: Everything is a Plugin.'"
+    - "README: 'uses an architecture where everything is a plugin, and is powered by Cordis'"
+    - Installation via npm/pnpm and CLI usage (pnpm dsh web) indicates developer-facing toolkit
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (199136) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,13 +74,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T09:23:13.754Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-08-27T09:26:10.298Z"
+    cause: null
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1e1bb4eb149b8e96ea6035478003762cd18992e1c2e248990594d45a5650824a
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: DeepSeek Harness is a code-first framework/SDK for building agents via plugins, fitting Frameworks & SDKs as developers import and script against it rather than operate it as a control plane.
+      decision_evidence:
+        - "Repo description: 'DeepSeek Harness: Everything is a Plugin.'"
+        - "README: 'uses an architecture where everything is a plugin, and is powered by Cordis'"
+        - Installation via npm/pnpm and CLI usage (pnpm dsh web) indicates developer-facing toolkit
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers primarily import/script against the product as a framework/engine (via plugins and CLI) rather than operate it as an operated workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

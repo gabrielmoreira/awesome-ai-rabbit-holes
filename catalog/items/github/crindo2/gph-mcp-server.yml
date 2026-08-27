@@ -35,23 +35,30 @@ metadata:
     description: GPH Intelligence MCP Server — Healthcare Service Provider Finder. Access 100,000+ verified providers via MCP.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-20T04:18:19.140Z"
+    last_checked_at: "2026-08-27T09:23:07.477Z"
     readme:
-      fetched_at: "2026-08-20T04:18:19.140Z"
+      fetched_at: "2026-08-27T09:23:07.477Z"
       bytes: 4810
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server providing access to a curated database of 76,000+ healthcare service vendors for AI agents.
+  why_it_matters: Developers building healthcare-focused AI tools can integrate structured provider data (billing, EHR, legal, etc.) into their agents without managing the dataset themselves.
+  mental_damage: Now your AI agent can argue with medical billing companies on your behalf, because nothing says 'progress' like automating healthcare bureaucracy.
+  tags:
+    - mcp-server
+    - healthcare-data
+    - vendor-directory
+    - api-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is a domain-specific MCP server whose primary identity is exposing healthcare vendor data via the Model Context Protocol.
+  evidence:
+    - Repo description explicitly identifies it as an MCP server for healthcare provider data
+    - README details MCP tools (`match_practice`, `search_providers`, `get_provider_detail`) and MCP endpoint usage
+    - Listed in `awesome-mcp-servers` under Biology/Medicine section
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -63,13 +70,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:19.140Z"
+    updated_at: "2026-08-27T09:23:07.477Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:23:44.307Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bc3008746619fb89146034c74b5d4d01367c04520a4c9367b9da58508f89e544
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is a domain-specific MCP server whose primary identity is exposing healthcare vendor data via the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for healthcare provider data
+        - README details MCP tools (`match_practice`, `search_providers`, `get_provider_detail`) and MCP endpoint usage
+        - Listed in `awesome-mcp-servers` under Biology/Medicine section
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the product is an MCP server exposing domain data, not a code-first SDK or framework.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

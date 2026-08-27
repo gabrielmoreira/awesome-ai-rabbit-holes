@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1881
+    stars: 1908
     forks: 291
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: doobidoo/mcp-memory-service
+    html_url: https://github.com/doobidoo/mcp-memory-service
     created_at: "2024-12-26T10:15:44Z"
-    pushed_at: "2026-05-25T05:26:49Z"
+    pushed_at: "2026-08-27T06:43:02Z"
     description: Open-source persistent memory for AI agent pipelines (LangGraph, CrewAI, AutoGen) and Claude. REST API + knowledge graph + autonomous consolidation.
     homepage: ""
     topics:
@@ -55,28 +55,27 @@ metadata:
       - sqlite-vec
       - vector-database
       - vector-storage
-    last_checked_at: "2026-05-25T05:35:54.408Z"
+    last_checked_at: "2026-08-27T09:23:18.536Z"
     readme:
-      fetched_at: "2026-05-25T05:35:54.408Z"
-      bytes: 40918
+      fetched_at: "2026-08-27T09:23:18.536Z"
+      bytes: 34774
 insights:
-  summary: An open-source, self-hosted memory backend for AI agents that provides persistent storage via a REST API, knowledge graph, and MCP server with sub-5ms retrieval.
-  why_it_matters: It allows agents built with LangGraph, CrewAI, AutoGen, or Claude to share causal knowledge graphs and long-term memory without relying on cloud-hosted vector databases.
-  mental_damage: Because the only thing better than debugging a multi-agent pipeline is debugging the shared persistent memory service that the agents are now blaming for their amnesia.
+  summary: Open-source persistent memory service with REST API and knowledge graph for AI agent pipelines.
+  why_it_matters: Provides shared, low-latency memory across agent frameworks without cloud lock-in or custom infrastructure glue.
+  mental_damage: Finally, a way to make your agents remember your architecture decisions so you don’t have to re-explain them in every new chat.
   tags:
-    - memory
+    - agent-memory
+    - knowledge-graph
     - mcp
     - self-hosted
-    - knowledge-graph
-    - agent-infra
   confidence: high
 curation:
   status: included
-  reason: The core novelty is the memory and context-shaping system (knowledge graph, vector storage, consolidation) designed to feed agents, fitting Prompt & Context Engineering rather than a host integration or generic framework.
+  reason: The core product is a memory and retrieval system that shapes context for agents, not a coding assistant, extension, or orchestrator.
   evidence:
-    - Repo description explicitly defines it as 'Open-source persistent memory for AI agent pipelines'.
-    - README emphasizes 'retrieve context in 5ms' and 'Autonomous consolidation compresses old memories' as primary features.
-    - Topics include 'agent-memory', 'knowledge-graph', 'vector-database', and 'model-context-protocol'.
+    - README emphasizes persistent shared memory, knowledge graph, and 5ms retrieval for agent pipelines
+    - "Repo description: 'Open-source persistent memory for AI agent pipelines' with REST API and knowledge graph"
+    - Features include embeddings, causal knowledge graphs, autonomous consolidation, and scoped retrieval via headers
 placement:
   primary_category: context-engineering
   section: Memory / Compression / Distillation
@@ -90,19 +89,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-08-13T04:39:36.565Z"
-    cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: doobidoo/mcp-memory-service"
+    status: done
+    updated_at: "2026-08-27T09:23:18.536Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:26:37.241Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:efab4de5480b74ce236647295bbc16409b0c1b1f760e58a2406aea99604702ef
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core product is a memory and retrieval system that shapes context for agents, not a coding assistant, extension, or orchestrator.
+      decision_evidence:
+        - README emphasizes persistent shared memory, knowledge graph, and 5ms retrieval for agent pipelines
+        - "Repo description: 'Open-source persistent memory for AI agent pipelines' with REST API and knowledge graph"
+        - Features include embeddings, causal knowledge graphs, autonomous consolidation, and scoped retrieval via headers
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, and knowledge graph infrastructure rather than augmenting a host assistant with workflow or integration capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

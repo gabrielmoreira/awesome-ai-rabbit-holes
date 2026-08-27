@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 11
+    stars: 12
     forks: 1
     license: Apache-2.0
     archived: false
     full_name: datacharter/datacharter
     html_url: https://github.com/datacharter/datacharter
     created_at: "2026-07-24T05:50:16Z"
-    pushed_at: "2026-08-19T03:55:36Z"
+    pushed_at: "2026-08-26T15:35:40Z"
     description: Your data, explored locally — and your AI agents kept on a leash. A federated data explorer with governed agentic access.
     homepage: https://datacharter.dev
     topics:
@@ -52,23 +52,30 @@ metadata:
       - row-level-security
       - self-hosted
       - sql
-    last_checked_at: "2026-08-20T04:18:21.746Z"
+    last_checked_at: "2026-08-27T09:23:10.969Z"
     readme:
-      fetched_at: "2026-08-20T04:18:21.746Z"
+      fetched_at: "2026-08-27T09:23:10.969Z"
       bytes: 10817
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: DataCharter is a local federated data explorer that lets developers query files and databases with DuckDB and govern AI agent access via charter.yaml contracts.
+  why_it_matters: It enables developers to safely expose only the data they choose to AI agents, enforcing PII masking, access policies, and auditability locally.
+  mental_damage: Finally, a way to stop panicking every time you point an AI at your data warehouse and whisper 'please don’t leak SSNs'.
+  tags:
+    - data-governance
+    - local-first
+    - mcp
+    - ai-safety
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: DataCharter’s core is governed context delivery—masking, policy enforcement, and audit trails that shape what agents see—making it a context engineering tool, not a coding agent or MCP server alone.
+  evidence:
+    - README emphasizes 'governed data plane for AI agents' with PII masking, column-level access, and policies like 'aggregates only' enforced via query analysis
+    - Repo description and MCP server listing highlight federated local DuckDB access governed by charter.yaml contracts
+    - Features like `datacharter eval`, `access diff`, and redteam tooling focus on measuring and verifying what context agents receive, not writing code
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -80,13 +87,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:21.746Z"
+    updated_at: "2026-08-27T09:23:10.969Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:25:43.185Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:39d2aa2b06755984a7e71db1733656d5ce9bccd8e93fd01bf2af2814b032f86a
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: DataCharter’s core is governed context delivery—masking, policy enforcement, and audit trails that shape what agents see—making it a context engineering tool, not a coding agent or MCP server alone.
+      decision_evidence:
+        - README emphasizes 'governed data plane for AI agents' with PII masking, column-level access, and policies like 'aggregates only' enforced via query analysis
+        - Repo description and MCP server listing highlight federated local DuckDB access governed by charter.yaml contracts
+        - Features like `datacharter eval`, `access diff`, and redteam tooling focus on measuring and verifying what context agents receive, not writing code
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because DataCharter’s primary value is shaping and governing the context (data access, masking, policies) presented to agents, not merely exposing an MCP server—MCP is a transport, not the core novelty.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

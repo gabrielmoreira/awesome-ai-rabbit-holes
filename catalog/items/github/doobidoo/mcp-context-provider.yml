@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 31
-    forks: 7
+    stars: 30
+    forks: 8
     license: Apache-2.0
     archived: false
-    full_name: null
-    html_url: null
+    full_name: doobidoo/MCP-Context-Provider
+    html_url: https://github.com/doobidoo/MCP-Context-Provider
     created_at: "2025-08-21T09:04:20Z"
-    pushed_at: "2026-05-21T05:41:25Z"
+    pushed_at: "2026-08-26T10:20:06Z"
     description: A static MCP server that provides AI models with persistent tool context, preventing context loss between chats.
     homepage: ""
     topics:
@@ -47,21 +47,19 @@ metadata:
       - memory
       - productivity
       - workflow
-    last_checked_at: "2026-05-25T05:35:54.395Z"
+    last_checked_at: "2026-08-27T09:23:18.851Z"
     readme:
-      fetched_at: "2026-05-25T05:35:54.395Z"
-      bytes: 8221
+      fetched_at: "2026-08-27T09:23:18.851Z"
+      bytes: 10254
 insights:
-  summary: A TypeScript MCP server that provides Claude Desktop and Claude Code with persistent context rules and learned, confidence-scored instincts that survive across chat sessions.
-  why_it_matters: It solves the friction of re-establishing coding preferences, syntax rules, and workflow patterns every time a new Claude session starts.
-  mental_damage: We have successfully built infrastructure to help our AI assistants remember that we prefer single quotes, while we still forget what we were doing five minutes ago.
+  summary: A static MCP server that provides persistent tool context and learned instincts for Claude Desktop and Claude Code.
+  why_it_matters: It reduces repetitive context setup by preserving static rules and session-learned instincts across Claude sessions.
+  mental_damage: Another layer to manage so your AI doesn’t forget you hate semicolons every time you restart a chat.
   tags:
     - mcp
     - context
-    - memory
     - claude
-    - persistence
-  confidence: medium
+  confidence: high
 curation:
   status: included
   reason: The core novelty is a memory, retrieval, and context-shaping system (static contexts and learned instincts) that injects rules into the model, fitting Prompt & Context Engineering over a host integration label.
@@ -71,10 +69,10 @@ curation:
     - Listed in awesome-mcp-servers under 'Knowledge & Memory', aligning with memory and context infrastructure rather than a host integration.
 placement:
   primary_category: context-engineering
-  section: Memory / Compression / Distillation
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
 processing:
   discover:
     status: done
@@ -82,19 +80,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-08-13T04:39:36.412Z"
-    cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: doobidoo/mcp-context-provider"
+    status: done
+    updated_at: "2026-08-27T09:23:18.851Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:26:34.965Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2f7149ff56bbab563d5d1ad8361d3eed8b9e96ca43e4ebf13256335c3bdbde13
+      proposed_primary_category: mcp
+      disagreement: true
+      decision_reason: The product is an MCP server whose core identity is providing persistent context via the Model Context Protocol, making it MCP infrastructure first.
+      decision_evidence:
+        - "Repo description: 'A static MCP server that provides AI models with persistent tool context'"
+        - "README: 'A TypeScript MCP server that gives Claude persistent Contexts and Instincts'"
+        - "Archived: no, pushed at 2026-08-26 shows recent activity"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments another assistant with MCP compatibility.
+      review_reason: "Categorization review required: placement disagreement: retained 'context-engineering', proposed 'mcp'"
+      review_resume_lifecycle: null

@@ -24,35 +24,44 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 492
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: echoVic/orca-agent
+    html_url: https://github.com/echoVic/orca-agent
+    created_at: "2026-06-05T07:19:56Z"
+    pushed_at: "2026-08-25T02:34:44Z"
+    description: Orca is a DeepSeek-native coding agent.
+    homepage: ""
+    topics: []
+    last_checked_at: "2026-08-27T09:23:21.481Z"
+    readme:
+      fetched_at: "2026-08-27T09:23:21.481Z"
+      bytes: 10893
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Orca is a terminal-native coding agent that uses DeepSeek models to read, edit, and verify code until a task is complete.
+  why_it_matters: It lets developers delegate coding tasks to an autonomous agent that operates directly in the terminal with file editing, command execution, and self-verification loops.
+  mental_damage: Another agent promising to finish your work while you watch it hallucinate a fix for the third time in a row.
+  tags:
+    - coding-agent
+    - terminal
+    - deepseek
+    - autonomous
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Orca is a standalone coding assistant that directly edits files, runs commands, and verifies results in a terminal workflow, matching the core identity of a coding agent rather than an extension or framework.
+  evidence:
+    - "Repo description: 'Orca is a DeepSeek-native coding agent.'"
+    - "README: 'Give Orca a task and it reads code, edits files, runs commands, verifies the result, and keeps working until the task is done'"
+    - Features TUI and headless `orca exec` modes for interactive and scripted use
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (492) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,13 +69,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T09:23:21.481Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-08-27T09:26:56.882Z"
+    cause: null
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fe23615cd7566c306a10afb4288006aca7a53202d6923532ed30dc4a5df139ed
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Orca is a standalone coding assistant that directly edits files, runs commands, and verifies results in a terminal workflow, matching the core identity of a coding agent rather than an extension or framework.
+      decision_evidence:
+        - "Repo description: 'Orca is a DeepSeek-native coding agent.'"
+        - "README: 'Give Orca a task and it reads code, edits files, runs commands, verifies the result, and keeps working until the task is done'"
+        - Features TUI and headless `orca exec` modes for interactive and scripted use
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Orca is the primary coding assistant performing autonomous code edits and task completion, not a layer that augments another agent with host integrations.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

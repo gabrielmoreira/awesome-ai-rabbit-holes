@@ -35,20 +35,19 @@ metadata:
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-13T04:39:43.866Z"
+    last_checked_at: "2026-08-27T09:23:28.089Z"
     readme:
-      fetched_at: "2026-08-13T04:39:43.866Z"
+      fetched_at: "2026-08-27T09:23:28.089Z"
       bytes: 8206
 insights:
-  summary: Callout is an MCP server that provides multi-perspective project reviews, idea scoring, and documentation binding to catch over-engineering and blind spots inside Claude Code, Cursor, VS Code, and Windsurf.
-  why_it_matters: It brings structured, skeptical second opinions into the AI coding loop to catch over-engineering and wrong priorities before they pile up.
-  mental_damage: Now your AI can be told by another AI that the AI-generated code is too clever for its own good, completing the recursion in style.
+  summary: Callout is an MCP server that provides 9 expert perspectives for code review, AI collaboration coaching, idea scoring, and domain knowledge enforcement within coding assistants like Claude Code and Cursor.
+  why_it_matters: It gives developers automated second opinions on over-engineering, blind spots, and idea viability directly inside their AI coding workflows.
+  mental_damage: Finally, an AI that tells you your AI-generated code is solving the wrong problem — adding another layer of AI to fix AI overconfidence.
   tags:
     - mcp
     - code-review
-    - over-engineering
-    - ai-quality
-  confidence: medium
+    - ai-coaching
+  confidence: high
 curation:
   status: included
   reason: The product is explicitly distributed and adopted as an MCP server that plugs into editors and coding agents to provide review and scoring perspectives.
@@ -58,10 +57,10 @@ curation:
     - Source list placement is awesome-mcp-servers under Server Implementations > Developer Tools.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
 processing:
   discover:
     status: done
@@ -70,16 +69,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:43.866Z"
+    updated_at: "2026-08-27T09:23:28.089Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:27:10.499Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:91351617920fa12173b38b28b9e9b947ee4b62cc9fccddaf95803b7991317607
+      proposed_primary_category: ai-dev-extensions
+      disagreement: true
+      decision_reason: Callout is an MCP server that augments existing coding assistants with expert review and coaching capabilities rather than acting as a standalone coding assistant, making it an extension/integration.
+      decision_evidence:
+        - Callout delivers 9 expert perspectives as an MCP server that works inside Claude Code, Cursor, VS Code, and Windsurf
+        - It provides coach, review, idea_score, and domain knowledge guard features that analyze and guide AI collaboration habits
+        - Setup involves adding Callout as an MCP server to editors like Claude Code or Cursor via npx callout-dev
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because Callout mainly augments another coding assistant with review, coaching, and domain knowledge capabilities rather than acting as the primary coding assistant that plans, writes, or edits code directly.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-dev-extensions'"
+      review_resume_lifecycle: null

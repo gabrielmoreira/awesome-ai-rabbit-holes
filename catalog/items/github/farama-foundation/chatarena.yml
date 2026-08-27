@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1553
+    stars: 1558
     forks: 148
     license: Apache-2.0
     archived: false
@@ -44,20 +44,27 @@ metadata:
       - multi-agent-simulation
       - natural-language-processing
       - python
-    last_checked_at: "2026-08-13T04:39:44.081Z"
+    last_checked_at: "2026-08-27T09:23:28.045Z"
     readme:
-      fetched_at: "2026-08-13T04:39:44.081Z"
+      fetched_at: "2026-08-27T09:23:28.045Z"
       bytes: 12293
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ChatArena is a Python library providing multi-agent language game environments for researching LLM communication and collaboration.
+  why_it_matters: It gives researchers a framework to benchmark and train multi-agent LLM interactions in controlled settings.
+  mental_damage: Another academic sandbox where agents play pretend negotiations while real developers wrestle with merge conflicts.
+  tags:
+    - multi-agent
+    - llm-research
+    - game-theory
+    - python-library
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: ChatArena is primarily a research tool for studying multi-agent LLM behavior, not a developer-facing productivity tool for coding, workflow automation, or app building.
+  evidence:
+    - "Repo description: 'ChatArena is a Multi-Agent Language Game Environments for LLMs. The goal is to develop communication and collaboration capabilities of AIs.'"
+    - "README: 'ChatArena is a library that provides multi-agent language game environments and facilitates research about autonomous LLM agents and their social interactions.'"
+    - "Deprecation notice: 'This project has been deprecated due to a lack of wide spread community use, and is no longer planned to receive any additional updates or support.'"
 placement:
   primary_category: null
   section: null
@@ -72,13 +79,30 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:44.081Z"
+    updated_at: "2026-08-27T09:23:28.045Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:27:59.633Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3aeea8f064d64d91096e8dbc275bf5fd4f6444d5588d329b4eee5f2d1c18ab92
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: ChatArena is primarily a research tool for studying multi-agent LLM behavior, not a developer-facing productivity tool for coding, workflow automation, or app building.
+      decision_evidence:
+        - "Repo description: 'ChatArena is a Multi-Agent Language Game Environments for LLMs. The goal is to develop communication and collaboration capabilities of AIs.'"
+        - "README: 'ChatArena is a library that provides multi-agent language game environments and facilitates research about autonomous LLM agents and their social interactions.'"
+        - "Deprecation notice: 'This project has been deprecated due to a lack of wide spread community use, and is no longer planned to receive any additional updates or support.'"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

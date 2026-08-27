@@ -52,20 +52,28 @@ metadata:
       - postgresql
       - python
       - self-hosted
-    last_checked_at: "2026-08-13T04:39:33.580Z"
+    last_checked_at: "2026-08-27T09:23:11.336Z"
     readme:
-      fetched_at: "2026-08-13T04:39:33.580Z"
+      fetched_at: "2026-08-27T09:23:11.336Z"
       bytes: 8037
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Datanika is a self-hosted data pipeline platform that combines dlt for ELT, dbt-core for transformations, and a visual DAG builder with scheduling and monitoring.
+  why_it_matters: It gives developers a unified, open-source alternative to Airbyte + dbt Cloud + Airflow for building and managing data pipelines without Kubernetes.
+  mental_damage: Finally, a way to feel like you're doing modern data engineering while still arguing over dbt model naming conventions at 2 a.m.
+  tags:
+    - data-pipeline
+    - elt
+    - dbt
+    - self-hosted
+    - mcp
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Datanika is a data engineering platform focused on ELT/ETL workflows, not AI-assisted software development, coding agents, or developer tooling for code generation, editing, or debugging.
+  evidence:
+    - "Repo description: 'Your entire data pipeline. One platform'"
+    - "README: Combines dlt (extract + load) with dbt-core (transform) for visual pipeline management, scheduling, and monitoring"
+    - "Features: 36 connectors, dbt transformations, visual DAG builder, scheduling, monitoring — all oriented around data integration, not code development"
 placement:
   primary_category: null
   section: null
@@ -80,13 +88,30 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:33.580Z"
+    updated_at: "2026-08-27T09:23:11.336Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:25:45.786Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0ccd1ef1d270d8180c0daaf45225f15e6d93d20f8228a2befce012454a85d397
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Datanika is a data engineering platform focused on ELT/ETL workflows, not AI-assisted software development, coding agents, or developer tooling for code generation, editing, or debugging.
+      decision_evidence:
+        - "Repo description: 'Your entire data pipeline. One platform'"
+        - "README: Combines dlt (extract + load) with dbt-core (transform) for visual pipeline management, scheduling, and monitoring"
+        - "Features: 36 connectors, dbt transformations, visual DAG builder, scheduling, monitoring — all oriented around data integration, not code development"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

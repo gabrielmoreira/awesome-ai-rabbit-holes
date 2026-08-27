@@ -59,7 +59,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `llm` `testing` `python` `framework`
   </details>
 
-- **[lm-evaluation-harness](https://github.com/eleutherai/lm-evaluation-harness)** `⭐ 13.6k` `updated ≤30d` A framework for few-shot evaluation of language models with support for 60+ benchmarks and multiple model backends. <details><summary>More about</summary>
+- **[lm-evaluation-harness](https://github.com/eleutherai/lm-evaluation-harness)** `⭐ 13.8k` `updated ≤30d` A framework for few-shot evaluation of language models with support for 60+ benchmarks and multiple model backends. <details><summary>More about</summary>
 
   It provides a standardized, reproducible way to test and compare LLM performance across academic benchmarks and custom tasks, powering leaderboards like Hugging Face's Open LLM Leaderboard.
 
@@ -374,6 +374,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `data-quality` `llm-as-judge` `hallucination-detection` `rag-evaluation` `model-validation`
   </details>
 
+- **[AgentSight](https://github.com/eunomia-bpf/agentsight)** `⭐ 606` `updated ≤30d` A system-level profiling and tracing tool for AI agents using eBPF to monitor system calls and network traffic. <details><summary>More about</summary>
+
+  It allows developers to observe exactly what a closed-source or autonomous agent is doing to their local machine without needing an SDK or proxy integration.
+
+  _The peace of mind that comes from knowing exactly which directory your agent is currently recursively deleting in real-time._
+
+  `ebpf` `observability` `tracing` `agent-monitoring` `system-level`
+  </details>
+
 - **[Evalchemy](https://github.com/mlfoundations/evalchemy)** `⭐ 602` `updated ≤1y` A unified CLI toolkit for evaluating post-trained language models across multiple benchmarks with support for local, vLLM, and API-based models. <details><summary>More about</summary>
 
   It gives developers a single command-line interface to run standardized reasoning, coding, and chat benchmarks across different model backends without dependency conflicts.
@@ -381,15 +390,6 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Yet another evaluation harness enters the arena, giving model trainers a fresh way to discover that their clever fine-tune still fails AIME24._
 
   `evals` `llm` `benchmarking` `cli` `reasoning`
-  </details>
-
-- **[AgentSight](https://github.com/eunomia-bpf/agentsight)** `⭐ 580` `updated ≤30d` A system-level profiling and tracing tool for AI agents using eBPF to monitor system calls and network traffic. <details><summary>More about</summary>
-
-  It allows developers to observe exactly what a closed-source or autonomous agent is doing to their local machine without needing an SDK or proxy integration.
-
-  _The peace of mind that comes from knowing exactly which directory your agent is currently recursively deleting in real-time._
-
-  `ebpf` `observability` `tracing` `agent-monitoring` `system-level`
   </details>
 
 - **[YourBench](https://github.com/huggingface/yourbench)** `⭐ 452` `updated ≤180d` A dynamic benchmark generation framework that transforms documents into structured QA datasets for evaluating LLMs. <details><summary>More about</summary>
@@ -437,7 +437,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `multimodal` `dataset-generation` `sft` `dpo` `rag`
   </details>
 
-- **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 277` `updated ≤90d` An evaluation platform for testing LLM performance on recent mathematical competitions and olympiads. <details><summary>More about</summary>
+- **[MathArena](https://github.com/eth-sri/matharena)** `⭐ 278` `updated ≤90d` An evaluation platform for testing LLM performance on recent mathematical competitions and olympiads. <details><summary>More about</summary>
 
   It provides standardized benchmarks and reasoning traces to measure how well models handle complex, multi-step mathematical reasoning.
 
@@ -453,6 +453,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Finally, a way to quantify the bias in your AI that you were too polite to ask about._
 
   `llm-evaluation` `bias-detection` `fairness` `python` `responsible-ai`
+  </details>
+
+- **[XRAG](https://github.com/docailab/xrag)** `⭐ 255` `updated ≤90d` XRAG is a benchmarking framework for evaluating foundational components of advanced Retrieval-Augmented Generation (RAG) systems. <details><summary>More about</summary>
+
+  It helps developers and researchers measure and compare the performance of different RAG configurations, components, and workflows.
+
+  _Finally, a way to quantify whether your RAG pipeline is just hallucinating with confidence._
+
+  `rag` `benchmarking` `evaluation` `llm` `retrieval`
   </details>
 
 - **[MixEval](https://github.com/jinjieni/mixeval)** `⭐ 254` `updated >1y` An evaluation suite and dynamic benchmark for measuring LLM performance with high correlation to Chatbot Arena at low cost. <details><summary>More about</summary>
@@ -473,16 +482,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `observability` `tracing` `opentelemetry` `llmops` `agents`
   </details>
 
-- **[XRAG](https://github.com/docailab/xrag)** `⭐ 210` `updated ≤90d` XRAG is a benchmarking framework for evaluating foundational components of advanced Retrieval-Augmented Generation (RAG) systems. <details><summary>More about</summary>
-
-  It helps developers and researchers measure and compare the performance of different RAG configurations, components, and workflows.
-
-  _Finally, a way to quantify whether your RAG pipeline is just hallucinating with confidence._
-
-  `rag` `benchmarking` `evaluation` `llm` `retrieval`
-  </details>
-
-- **[fiddler-auditor](https://github.com/fiddler-labs/fiddler-auditor)** `⭐ 195` `updated >1y` Fiddler Auditor is a tool designed to evaluate and audit the performance and safety of large language models. <details><summary>More about</summary>
+- **[fiddler-auditor](https://github.com/fiddler-labs/fiddler-auditor)** `⭐ 196` `updated >1y` Fiddler Auditor is a tool designed to evaluate and audit the performance and safety of large language models. <details><summary>More about</summary>
 
   It helps developers identify hallucinations, adversarial vulnerabilities, and private data leaks before deploying models into production.
 
@@ -522,7 +522,7 @@ _These are new or low-traffic entries being watched._
   `ai-observability` `benchmarking` `evals` `guardrails` `llm-evaluation` `llmops` `rag` `sdks` `testing`
   </details>
 
-- **[skill-optimizer](https://github.com/fastxyz/skill-optimizer)** `⭐ 75` `updated ≤180d` skill-optimizer is a Docker-based CLI and agent skill for running deterministic evaluations of agent skills against LLM models via OpenRouter. <details><summary>More about</summary>
+- **[skill-optimizer](https://github.com/fastxyz/skill-optimizer)** `⭐ 77` `updated ≤180d` skill-optimizer is a Docker-based CLI and agent skill for running deterministic evaluations of agent skills against LLM models via OpenRouter. <details><summary>More about</summary>
 
   It lets developers benchmark and refine agent behavior with reproducible, file-graded evals in isolated environments.
 
@@ -612,7 +612,7 @@ _These are new or low-traffic entries being watched._
   `evals` `benchmarks` `multi-agent` `swarms`
   </details>
 
-- **[agent-trace](https://github.com/ertygiq/agent-trace)** `⭐ 1` `updated ≤30d` A CLI tool for filtering and printing text transcripts from agentic sessions such as Claude Code, Codex, and Pi. <details><summary>More about</summary>
+- **[agent-trace](https://github.com/ertygiq/agent-trace)** `⭐ 3` `updated ≤30d` A CLI tool for filtering and printing text transcripts from agentic sessions such as Claude Code, Codex, and Pi. <details><summary>More about</summary>
 
   It allows developers to parse through dense agent logs to debug agent reasoning, command execution, and human-assistant interactions.
 

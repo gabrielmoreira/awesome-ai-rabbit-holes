@@ -23,19 +23,28 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 6204
+    forks: 535
+    license: MIT
+    archived: false
+    full_name: Eigenwise/atomic-agents
+    html_url: https://github.com/Eigenwise/atomic-agents
+    created_at: "2024-06-03T08:24:07Z"
+    pushed_at: "2026-08-24T12:20:08Z"
+    description: Building AI agents, atomically
+    homepage: https://eigenwise.github.io/atomic-agents/
+    topics:
+      - ai
+      - artificial-intelligence
+      - large-language-model
+      - large-language-models
+      - llms
+      - openai
+      - openai-api
+    last_checked_at: "2026-08-27T09:23:22.156Z"
+    readme:
+      fetched_at: "2026-08-27T09:23:22.156Z"
+      bytes: 23113
 insights:
   summary: null
   why_it_matters: null
@@ -50,8 +59,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (6204) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -59,13 +68,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T09:23:22.156Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-08-27T09:26:57.528Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__eigenwise__atomic-agents: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": Atomic Age\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

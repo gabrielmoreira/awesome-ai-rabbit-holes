@@ -90,9 +90,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-13T04:39:47.561Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-27T09:23:32.263Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for flytohub/flyto-core
     next_retry_at: null
   categorize:
     status: done

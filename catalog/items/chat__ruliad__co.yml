@@ -36,15 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Ruliad Chat is a web interface for interacting with AI models, branded as 'Self Sovereign Intelligence'.
+  why_it_matters: It offers developers a private, self-hosted chat interface for AI interaction, emphasizing data ownership and control.
+  mental_damage: Another chat UI promising sovereignty while you still wonder if 'self-hosted' just means debugging Docker logs at 2 a.m.
+  tags:
+    - chat-interface
+    - self-hosted
+    - ai
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Ruliad Chat is a generic AI chat interface with no specific developer-tooling focus, lacking features like code generation, debugging, or workflow integration.
+  evidence:
+    - Scraped site context describes it as 'Ruliad Chat' with 'Self Sovereign Intelligence' as description — a general AI chat portal.
+    - No evidence of coding assistance, agent behavior, or developer workflow enhancement in title, description, or source-list context.
+    - Listed in awesome-ai-agents under 'Naut' section, but the linked page 'Self Sovereign Intelligence' suggests a philosophical or general AI agent directory, not a developer tool.
 placement:
   primary_category: null
   section: null
@@ -62,10 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-27T06:17:18.134Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for chat__ruliad__co: Invalid AI response structure: Missing required field: why_it_matters"
+    status: done
+    updated_at: "2026-08-27T09:27:54.327Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9a136a0615680be0e88b964f668e85fce940288b51cc7dba7df197f03c9624f3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Ruliad Chat is a generic AI chat interface with no specific developer-tooling focus, lacking features like code generation, debugging, or workflow integration.
+      decision_evidence:
+        - Scraped site context describes it as 'Ruliad Chat' with 'Self Sovereign Intelligence' as description — a general AI chat portal.
+        - No evidence of coding assistance, agent behavior, or developer workflow enhancement in title, description, or source-list context.
+        - Listed in awesome-ai-agents under 'Naut' section, but the linked page 'Self Sovereign Intelligence' suggests a philosophical or general AI agent directory, not a developer tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

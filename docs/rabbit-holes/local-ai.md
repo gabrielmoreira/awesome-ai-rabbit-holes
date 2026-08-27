@@ -212,6 +212,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `model-serving` `llm-inference` `open-source` `api` `deployment`
   </details>
 
+- **[FreeToken](https://github.com/flashml-org/freetoken)** `⭐ 8.6k` `updated ≤30d` FreeToken is an edge-native Mixture-of-Experts serving engine for running large frontier models locally on consumer hardware. <details><summary>More about</summary>
+
+  It lets developers run 290B+ MoE models on gaming PCs with bandwidth-adaptive execution and elastic memory management, enabling local experimentation with frontier-scale open-weight models.
+
+  _Finally, a way to pretend your RTX 4090 is a datacenter while your fan sounds like a jet taking off._
+
+  `local-ai` `inference` `moe`
+  </details>
+
 - **[enchanted](https://github.com/gluonfield/enchanted)** `⭐ 6k` `updated ≤90d` Enchanted is an open-source iOS/macOS/visionOS app for chatting with private, self-hosted language models via Ollama. <details><summary>More about</summary>
 
   It provides a native, privacy-first chat interface for developers running local LLMs, bridging the gap between on-device inference and a polished user experience.
@@ -428,7 +437,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `cpp` `cuda` `performance`
   </details>
 
-- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 186` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
+- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 199` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
 
   It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
 

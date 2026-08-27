@@ -23,35 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 164
+    forks: 11
+    license: MIT
+    archived: false
+    full_name: daxaur/openpaw
+    html_url: https://github.com/daxaur/openpaw
+    created_at: "2026-02-28T15:05:56Z"
+    pushed_at: "2026-05-23T21:21:42Z"
+    description: Personal Assistant Wizard for Claude Code — npx pawmode
+    homepage: https://www.npmjs.com/package/pawmode
+    topics:
+      - ai-agent
+      - anthropic
+      - automation
+      - claude
+      - claude-code
+      - cli
+      - macos
+      - open-source
+      - personal-assistant
+      - productivity
+      - smart-home
+      - telegram
+      - typescript
+      - vibecoding
+    last_checked_at: "2026-08-27T09:23:12.251Z"
+    readme:
+      fetched_at: "2026-08-27T09:23:12.251Z"
+      bytes: 11851
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: OpenPaw is a CLI tool that installs 38 skills to turn Claude Code into a personal assistant for email, calendar, smart home, media, and task management.
+  why_it_matters: It lets developers extend Claude Code beyond coding into daily productivity workflows without leaving the terminal.
+  mental_damage: Finally, an AI that can remind you to drink water while also judging your Git commit messages.
+  tags:
+    - claude-code
+    - personal-assistant
+    - cli-tool
+    - skills-pack
+    - local-automation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: OpenPaw augments Claude Code with host capabilities like email, calendar, and smart home controls rather than acting as a standalone coding assistant, making it an extension, not a primary agent.
+  evidence:
+    - "Repo description: 'Personal Assistant Wizard for Claude Code — npx pawmode'"
+    - "README: 'Turn Claude Code into a full personal assistant — one that reads your email, plays your music, controls your lights'"
+    - "Source-list context: listed in awesome-llm-agents under 'CLI Agent Harnesses'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (164) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -59,15 +83,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-08-20T04:18:22.837Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for daxaur/openpaw
-  categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:23:12.251Z"
+    cause: null
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-08-27T09:25:50.265Z"
+    cause: null
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:21d7f50199a810648950d75325ff7dc83f719769030d94efa80d9f9ed15424ce
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: OpenPaw augments Claude Code with host capabilities like email, calendar, and smart home controls rather than acting as a standalone coding assistant, making it an extension, not a primary agent.
+      decision_evidence:
+        - "Repo description: 'Personal Assistant Wizard for Claude Code — npx pawmode'"
+        - "README: 'Turn Claude Code into a full personal assistant — one that reads your email, plays your music, controls your lights'"
+        - "Source-list context: listed in awesome-llm-agents under 'CLI Agent Harnesses'"
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because OpenPaw mainly augments Claude Code with host integrations (email, calendar, smart home) rather than directly planning, writing, or debugging code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

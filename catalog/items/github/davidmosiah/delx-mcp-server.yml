@@ -31,14 +31,18 @@ metadata:
     full_name: davidmosiah/delx-mcp-server
     html_url: https://github.com/davidmosiah/delx-mcp-server
     created_at: "2026-05-19T20:03:20Z"
-    pushed_at: "2026-08-08T17:48:47Z"
-    description: Native MCP stdio bridge for Delx Protocol
+    pushed_at: "2026-08-15T15:45:16Z"
+    description: "Free MCP stdio bridge for agent continuity: resume after compaction, hand off between runtimes, recover from failure. No API key."
     homepage: https://delx.ai/mcp-server
     topics:
+      - agent-continuity
+      - agent-handoff
       - ai-agent-tools
       - ai-agents
       - anthropic
       - claude-desktop
+      - compaction
+      - context-recovery
       - cursor
       - delx
       - gemini
@@ -48,11 +52,10 @@ metadata:
       - model-context-protocol
       - proof-of-agent-work
       - stdio
-      - wearable-data
-    last_checked_at: "2026-08-10T04:36:16.212Z"
+    last_checked_at: "2026-08-27T09:23:12.120Z"
     readme:
-      fetched_at: "2026-08-10T04:36:16.212Z"
-      bytes: 6708
+      fetched_at: "2026-08-27T09:23:12.120Z"
+      bytes: 6894
 insights:
   summary: Zero-star MCP stdio bridge that connects Claude Desktop, Cursor, and similar clients to Delx Protocol’s hosted endpoint, exposing 143 tools for agent therapy, witness transfer, and proof-of-agent-work.
   why_it_matters: It normalizes access to a niche agent-infrastructure protocol inside standard MCP clients, though its tool surface is aimed at agent lifecycle and reputation rather than everyday software development.
@@ -83,11 +86,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-08-20T04:18:22.623Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for davidmosiah/delx-mcp-server
+    status: done
+    updated_at: "2026-08-27T09:23:12.120Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done

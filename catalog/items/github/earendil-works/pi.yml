@@ -56,62 +56,70 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 88809
-    forks: 11034
+    stars: 98068
+    forks: 12123
     license: MIT
     archived: false
     full_name: earendil-works/pi
     html_url: https://github.com/earendil-works/pi
     created_at: "2025-08-09T14:03:50Z"
-    pushed_at: "2026-08-12T22:53:26Z"
+    pushed_at: "2026-08-27T08:54:58Z"
     description: "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI"
     homepage: ""
     topics: []
-    last_checked_at: "2026-08-13T04:39:38.330Z"
+    last_checked_at: "2026-08-27T09:23:21.085Z"
     readme:
-      fetched_at: "2026-08-13T04:39:38.330Z"
+      fetched_at: "2026-08-27T09:23:21.085Z"
       bytes: 6762
 insights:
-  summary: AI agent toolkit providing a unified LLM API, agent runtime, TUI, and a coding agent CLI.
-  why_it_matters: Developers can build and extend AI agents with a consistent interface across providers, including a dedicated CLI for coding tasks.
-  mental_damage: Another monorepo to watch, because apparently we needed more ways to argue about agent loops.
+  summary: Pi is an AI agent toolkit featuring a unified LLM API, agent runtime, and interactive coding agent CLI for terminal-based development.
+  why_it_matters: It provides developers with an open-source, self-hostable coding agent that can plan, edit, test, and debug code across repositories using multiple LLM providers.
+  mental_damage: Another terminal-based agent promising to replace your IDE, while you still spend half your time figuring out how to make it stop editing the wrong file.
   tags:
-    - agent-toolkit
-    - cli
     - coding-agent
-    - llm-api
-    - mono-repo
-    - tui
-    - unified-llm-api
+    - cli
+    - llm-toolkit
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: Pi is a standalone coding agent that directly reads, plans, edits, and tests code via CLI, making it a primary assistant rather than an extension or framework.
   evidence:
-    - Repo description explicitly lists 'coding agent CLI' as the primary component.
-    - README highlights 'pi-coding-agent' as the specific package for installation and usage as the coding agent.
-    - Included in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'.
-    - High traction with 45,515 stars and recent activity (pushed 2026-05-06).
-    - "included: The project identifies its core product as an interactive coding agent CLI (pi-coding-agent) within a toolkit, fitting the profile of a terminal-native assistant developers delegate repo work to."
-    - "Repo description: 'AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI libraries, Slack bot, vLLM pods'"
-    - "README: '@earendil-works/pi-coding-agent' is an 'Interactive coding agent CLI'"
-    - "README: '@earendil-works/pi-agent-core' provides 'Agent runtime with tool calling and state management'"
-    - Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'
-    - "included: Pi is a standalone interactive coding agent CLI that directly reads, edits, and tests code — making it a primary assistant, not an extension or framework."
+    - "Repo description: 'AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI'"
+    - "README: '@earendil-works/pi-coding-agent' is described as 'Interactive coding agent CLI'"
+    - "Source-list: listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'ai-frameworks'"
+  status: promotion_candidate
+  reason: Stars (98068) exceeded threshold (150)
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:26:45.430Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e8e99a2c2185a94444f62b8e0c8dd3a497f81a6ef14ca4aa471e0c6278f3d35a
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Pi is a standalone coding agent that directly reads, plans, edits, and tests code via CLI, making it a primary assistant rather than an extension or framework.
+      decision_evidence:
+        - "Repo description: 'AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI'"
+        - "README: '@earendil-works/pi-coding-agent' is described as 'Interactive coding agent CLI'"
+        - "Source-list: listed in 'awesome-cli-coding-agents' under 'Terminal-native coding agents > Open Source'"
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Pi functions as a primary coding assistant that directly edits code, rather than mainly augmenting another editor or agent with integrations.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-08-17T04:19:08.741Z"
@@ -119,6 +127,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:38.331Z"
+    updated_at: "2026-08-27T09:23:21.085Z"
     cause: null
     next_retry_at: null

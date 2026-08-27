@@ -14,7 +14,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `sdd` `cli` `github` `ai-assisted-development`
   </details>
 
-- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 64.7k` `updated ≤30d` Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation. <details><summary>More about</summary>
+- **[OpenSpec](https://github.com/fission-ai/openspec)** `⭐ 66.4k` `updated ≤30d` Spec-driven development (SDD) tooling for AI coding assistants that generates structured spec artifacts before code implementation. <details><summary>More about</summary>
 
   Provides a predictable workflow for aligning humans and AI on requirements before writing code, reducing vague prompts and rework.
 
@@ -180,6 +180,15 @@ _These are new or low-traffic entries being watched._
   `spec-driven-development` `cli` `claude-code` `agentic-workflows` `documentation`
   </details>
 
+- **[pi-sdd-kit](https://github.com/felipefontoura/pi-sdd-kit)** `⭐ 22` `updated ≤90d` A skill pack for the Pi coding agent that implements a spec-driven development workflow with explicit artifacts, human gates, and a .status file as the single source of truth. <details><summary>More about</summary>
+
+  It reduces rework and scope creep by enforcing a disciplined spec-first loop where code only follows approved specifications.
+
+  _Another workflow that turns 'move fast and break things' into 'move slow and get approved by a .status file'._
+
+  `spec-driven-development` `skill-pack` `pi-agent`
+  </details>
+
 - **[Cosmosmith](https://github.com/devnomad-byte/cosmosmith)** `⭐ 20` `updated ≤90d` Cosmosmith initializes project rules, spec templates, task ledgers, and editor adapters for AI coding agents in one command. <details><summary>More about</summary>
 
   It gives AI agents a structured workflow with role-based responsibilities and evidence gates to reduce drifting and rework.
@@ -187,15 +196,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to make your AI agent feel like it has a job description instead of just ADHD._
 
   `spec-driven-development` `ai-dev-extensions` `agent-skills`
-  </details>
-
-- **[pi-sdd-kit](https://github.com/felipefontoura/pi-sdd-kit)** `⭐ 20` `updated ≤90d` A skill pack for the Pi coding agent that implements a spec-driven development workflow with explicit artifacts, human gates, and a .status file as the single source of truth. <details><summary>More about</summary>
-
-  It reduces rework and scope creep by enforcing a disciplined spec-first loop where code only follows approved specifications.
-
-  _Another workflow that turns 'move fast and break things' into 'move slow and get approved by a .status file'._
-
-  `spec-driven-development` `skill-pack` `pi-agent`
   </details>
 
 - **[Wiggum CLI](https://github.com/federiconeri/wiggum-cli)** `⭐ 13` `updated ≤90d` An AI agent CLI that automates feature development by generating technical specifications and running autonomous implement-test-fix loops using Claude Code or Codex. <details><summary>More about</summary>

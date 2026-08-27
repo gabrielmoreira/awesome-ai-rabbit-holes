@@ -176,7 +176,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mcp` `figma` `design-to-code` `bidirectional` `codegen`
   </details>
 
-- **[dannote/figma-use](https://github.com/dannote/figma-use)** `⭐ 591` `updated ≤90d` A CLI tool that provides full read/write access to Figma for AI agents, enabling programmatic creation and manipulation of design elements via commands or JSX. <details><summary>More about</summary>
+- **[dannote/figma-use](https://github.com/dannote/figma-use)** `⭐ 592` `updated ≤90d` A CLI tool that provides full read/write access to Figma for AI agents, enabling programmatic creation and manipulation of design elements via commands or JSX. <details><summary>More about</summary>
 
   It lets developers and AI agents automate Figma workflows directly from the terminal, bridging the gap between code and design tooling.
 
@@ -230,7 +230,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mcp` `comfyui` `claude-code` `image-generation` `workflow-automation`
   </details>
 
-- **[cc-router](https://github.com/finch-xu/cc-router)** `⭐ 219` `updated ≤30d` A local proxy and router that aggregates multiple LLM subscription plans and API quotas into a single virtual endpoint for various AI coding tools. <details><summary>More about</summary>
+- **[cc-router](https://github.com/finch-xu/cc-router)** `⭐ 229` `updated ≤30d` A local proxy and router that aggregates multiple LLM subscription plans and API quotas into a single virtual endpoint for various AI coding tools. <details><summary>More about</summary>
 
   It allows developers to maximize the utility of multiple AI subscriptions by transparently routing requests from tools like Claude Code or Cursor to available token plans.
 
@@ -257,6 +257,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `security` `ai-agents` `mcp` `audit` `devops`
   </details>
 
+- **[OpenPaw](https://github.com/daxaur/openpaw)** `⭐ 164` `updated ≤180d` OpenPaw is a CLI tool that installs 38 skills to turn Claude Code into a personal assistant for email, calendar, smart home, media, and task management. <details><summary>More about</summary>
+
+  It lets developers extend Claude Code beyond coding into daily productivity workflows without leaving the terminal.
+
+  _Finally, an AI that can remind you to drink water while also judging your Git commit messages._
+
+  `claude-code` `personal-assistant` `cli-tool` `skills-pack` `local-automation`
+  </details>
+
 ## Incubating
 
 _These are new or low-traffic entries being watched._
@@ -270,7 +279,7 @@ _These are new or low-traffic entries being watched._
   `scraping` `claude-code` `web-crawler` `markdown` `dotnet`
   </details>
 
-- **[deusXmachina-dev/memorylane](https://github.com/deusxmachina-dev/memorylane)** `⭐ 124` `updated ≤30d` A desktop app that records screen activity to build work context and surfaces automation opportunities, queryable via MCP in AI chats. <details><summary>More about</summary>
+- **[deusXmachina-dev/memorylane](https://github.com/deusxmachina-dev/memorylane)** `⭐ 123` `updated ≤30d` A desktop app that records screen activity to build work context and surfaces automation opportunities, queryable via MCP in AI chats. <details><summary>More about</summary>
 
   It turns passive observation of developer workflows into structured context that can be fed into AI assistants for smarter automation suggestions.
 
@@ -297,6 +306,15 @@ _These are new or low-traffic entries being watched._
   `observability` `tui` `ai-agents` `cost-tracking` `local-first`
   </details>
 
+- **[codex-profiles](https://github.com/ducksss/codex-profiles)** `⭐ 105` `updated ≤30d` A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts. <details><summary>More about</summary>
+
+  Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
+
+  _The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities._
+
+  `cli` `bash` `account-switching` `codex` `macos`
+  </details>
+
 - **[Maige](https://github.com/rubriclab/maige)** `⭐ 102` `updated ≤180d` Maige is an AI-powered GitHub App that automates repository maintenance tasks, such as managing issue labels and responding to natural language commands within issues and pull requests. <details><summary>More about</summary>
 
   It allows maintainers to offload routine repo management and triage directly to an AI agent that listens to GitHub events via webhooks.
@@ -304,6 +322,15 @@ _These are new or low-traffic entries being watched._
   _Another opportunity to discover that your open-source workflow is now sufficiently complex to require an autonomous agent just to manage the issues you were pretending to fix._
 
   `github` `automation` `issues` `natural-language` `repo-maintenance`
+  </details>
+
+- **[ActPlane](https://github.com/eunomia-bpf/actplane)** `⭐ 93` `updated ≤30d` An eBPF-based information flow enforcement engine that provides deterministic safety and security policies for AI agent harnesses. <details><summary>More about</summary>
+
+  It replaces probabilistic prompt-based guardrails with kernel-level enforcement, preventing agents from bypassing restrictions via subprocesses, shell scripts, or SDK calls.
+
+  _The comforting realization that our only hope for agent safety is moving the guardrails from the prompt window to the Linux kernel._
+
+  `ebpf` `agent-security` `sandboxing` `runtime-enforcement` `linux`
   </details>
 
 - **[hechtcarmel/jetbrains-debugger-mcp-plugin](https://github.com/hechtcarmel/jetbrains-debugger-mcp-plugin)** `⭐ 92` `updated ≤90d` A JetBrains IDE plugin that exposes an MCP server for AI assistants to programmatically control the debugger. <details><summary>More about</summary>
@@ -322,24 +349,6 @@ _These are new or low-traffic entries being watched._
   _Another tool to install just so your AI remembers what you told it five minutes ago—welcome to the era of AI amnesia insurance._
 
   `mcp` `memory` `claude-code` `search`
-  </details>
-
-- **[codex-profiles](https://github.com/ducksss/codex-profiles)** `⭐ 88` `updated ≤30d` A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts. <details><summary>More about</summary>
-
-  Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
-
-  _The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities._
-
-  `cli` `bash` `account-switching` `codex` `macos`
-  </details>
-
-- **[ActPlane](https://github.com/eunomia-bpf/actplane)** `⭐ 85` `updated ≤30d` An eBPF-based information flow enforcement engine that provides deterministic safety and security policies for AI agent harnesses. <details><summary>More about</summary>
-
-  It replaces probabilistic prompt-based guardrails with kernel-level enforcement, preventing agents from bypassing restrictions via subprocesses, shell scripts, or SDK calls.
-
-  _The comforting realization that our only hope for agent safety is moving the guardrails from the prompt window to the Linux kernel._
-
-  `ebpf` `agent-security` `sandboxing` `runtime-enforcement` `linux`
   </details>
 
 - **[authsome](https://github.com/agentrhq/authsome)** `⭐ 82` `updated ≤90d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
@@ -826,6 +835,15 @@ _These are new or low-traffic entries being watched._
   _Now your AI assistant writes tests for its own code, and you still have to debug them._
 
   `mcp-server` `automated-testing` `cline` `code-quality` `adversarial-testing`
+  </details>
+
+- **[degenlegion-com/waxseal-sdk](https://github.com/degenlegion-com/waxseal-sdk)** `⭐ 1` `updated ≤90d` WaxSeal SDK provides Ed25519 cryptographic identity for apps and AI agents, including an MCP server and TypeScript verification SDK. <details><summary>More about</summary>
+
+  It lets developers give AI agents verifiable identities and signing capabilities without managing cryptographic infrastructure directly.
+
+  _Finally, a way to make your AI agent feel important by giving it a cryptographic signature it doesn’t understand but can use to sign off on bad decisions._
+
+  `cryptographic-identity` `mcp-server` `typescript-sdk`
   </details>
 
 - **[juergenkoller-software/distill-mcp](https://github.com/juergenkoller-software/distill-mcp)** `⭐ 1` `updated ≤90d` An MCP server bridge that allows Claude and Cursor to rename files automatically based on their content using the Distill macOS app. <details><summary>More about</summary>

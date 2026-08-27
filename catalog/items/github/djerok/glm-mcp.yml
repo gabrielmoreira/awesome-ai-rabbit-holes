@@ -44,23 +44,29 @@ metadata:
       - model-context-protocol
       - subagent
       - zhipu
-    last_checked_at: "2026-08-13T04:39:35.035Z"
+    last_checked_at: "2026-08-27T09:23:16.576Z"
     readme:
-      fetched_at: "2026-08-13T04:39:35.035Z"
+      fetched_at: "2026-08-27T09:23:16.576Z"
       bytes: 13961
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: GLM-MCP is an MCP server that routes coding tasks from Claude Opus, Copilot, or Codex to GLM as a cheaper subagent for file editing and execution.
+  why_it_matters: It lets developers offload expensive token usage to a 10x cheaper model while keeping their primary agent in charge of review and orchestration.
+  mental_damage: Another layer of indirection to save pennies on AI bills, because we’ve normalized paying someone else to watch the robot work.
+  tags:
+    - mcp
+    - subagent
+    - cost-optimization
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is an MCP server first and foremost, exposing tools over stdio for host agents like Claude Code, with GLM delegation as its function, not its identity.
+  evidence:
+    - "Repo description: 'GLM (Zhipu/Z.ai) as a cheap, full-capability subagent for the Claude Code app' and 'wraps it as an MCP server with four tools'"
+    - "README: 'GLM exposes an Anthropic-compatible /v1/messages endpoint... This repo wraps it as an MCP server'"
+    - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Coding Agents"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Generic Servers & Middleware
 lifecycle:
   status: incubating
   reason: null
@@ -72,13 +78,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:35.035Z"
+    updated_at: "2026-08-27T09:23:16.576Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T09:26:28.311Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0779a66cbc24865fa1e4f6e168f13f854f97cc196c9f63e7b7c232404d4818eb
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: It is an MCP server first and foremost, exposing tools over stdio for host agents like Claude Code, with GLM delegation as its function, not its identity.
+      decision_evidence:
+        - "Repo description: 'GLM (Zhipu/Z.ai) as a cheap, full-capability subagent for the Claude Code app' and 'wraps it as an MCP server with four tools'"
+        - "README: 'GLM exposes an Anthropic-compatible /v1/messages endpoint... This repo wraps it as an MCP server'"
+        - "Source-list context: listed in awesome-mcp-servers under Server Implementations > Coding Agents"
+      category_candidates:
+        - mcp
+        - coding-agents
+      contrastive_reason: Choose mcp over coding-agents because the product’s core identity is an MCP server that enables tool use, not a standalone coding agent that developers delegate repo work to directly.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -23,32 +23,52 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 81
+    forks: 6
+    license: MIT
+    archived: false
+    full_name: farol-team/gnap
+    html_url: https://github.com/farol-team/gnap
+    created_at: "2026-03-12T11:03:39Z"
+    pushed_at: "2026-03-17T21:12:21Z"
+    description: GNAP — Git-Native Agent Protocol. RFC Draft for git-based agent orchestration. Zero servers.
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics:
+      - agent-coordination
+      - agent-orchestration
+      - agentic
+      - ai
+      - ai-agents
+      - devtools
+      - git
+      - llm
+      - multi-agent
+      - protocol
+    last_checked_at: "2026-08-27T09:23:28.254Z"
+    readme:
+      fetched_at: "2026-08-27T09:23:28.254Z"
+      bytes: 12569
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: GNAP is a git-native protocol for coordinating AI agents using only git repositories as transport and storage.
+  why_it_matters: It lets developers orchestrate multiple AI agents (human or AI) without servers, databases, or vendor lock-in by treating git as the coordination layer.
+  mental_damage: Finally, a way to make your agents argue over merge requests instead of just your pull requests.
+  tags:
+    - git
+    - agent-orchestration
+    - protocol
+    - multi-agent
+    - devtools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: GNAP is a protocol for multi-agent coordination where agents use git to share tasks, state, and messages — making it a runtime platform for agent collaboration, not a coding assistant or extension.
+  evidence:
+    - "Repo description: 'GNAP — Git-Native Agent Protocol. RFC Draft for git-based agent orchestration. Zero servers.'"
+    - "README: 'Your AI agents [...] work as a team through a shared git repo. Four JSON files. That's the entire protocol.'"
+    - Architecture diagram shows GNAP Protocol layer sitting above Git transport, with agents reading/writing tasks, runs, messages via git pull/push.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -59,13 +79,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T09:23:28.254Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-08-27T09:27:17.876Z"
+    cause: null
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cb7e0ef19fe9dff86881669c739410884e70c04d2a2abffaf479f1a0ca4b23e5
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: GNAP is a protocol for multi-agent coordination where agents use git to share tasks, state, and messages — making it a runtime platform for agent collaboration, not a coding assistant or extension.
+      decision_evidence:
+        - "Repo description: 'GNAP — Git-Native Agent Protocol. RFC Draft for git-based agent orchestration. Zero servers.'"
+        - "README: 'Your AI agents [...] work as a team through a shared git repo. Four JSON files. That's the entire protocol.'"
+        - Architecture diagram shows GNAP Protocol layer sitting above Git transport, with agents reading/writing tasks, runs, messages via git pull/push.
+      category_candidates:
+        - agent-orchestration
+        - ai-dev-extensions
+      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because GNAP defines a standalone coordination protocol where agents collaborate via git — it does not augment another assistant but enables agent teamwork as its core function.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

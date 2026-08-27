@@ -90,9 +90,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-13T04:39:47.371Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-27T09:23:32.230Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for flyteorg/flyte
     next_retry_at: null
   categorize:
     status: done

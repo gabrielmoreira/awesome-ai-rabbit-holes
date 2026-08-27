@@ -44,9 +44,9 @@ metadata:
       - claude-code
       - mcp
       - vivaldi
-    last_checked_at: "2026-08-13T04:39:33.520Z"
+    last_checked_at: "2026-08-27T09:23:10.494Z"
     readme:
-      fetched_at: "2026-08-13T04:39:33.520Z"
+      fetched_at: "2026-08-27T09:23:10.494Z"
       bytes: 8724
 insights:
   summary: null
@@ -72,13 +72,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:33.520Z"
+    updated_at: "2026-08-27T09:23:10.494Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
+    status: deferred
+    updated_at: "2026-08-27T09:25:29.831Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__dashi96__chromium-bridge: Invalid AI response format: SyntaxError: Unexpected token 'C', ...\"_reason\": Chromium B\"... is not valid JSON"
     next_retry_at: null
+    attempts: 1

@@ -23,35 +23,43 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
+    stars: 8629
+    forks: 754
+    license: Apache-2.0
+    archived: false
+    full_name: FlashML-org/FreeToken
+    html_url: https://github.com/FlashML-org/FreeToken
+    created_at: "2026-07-20T20:44:11Z"
+    pushed_at: "2026-08-26T07:42:10Z"
     description: null
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-08-27T09:23:30.970Z"
+    readme:
+      fetched_at: "2026-08-27T09:23:30.970Z"
+      bytes: 4820
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: FreeToken is an edge-native Mixture-of-Experts serving engine for running large frontier models locally on consumer hardware.
+  why_it_matters: It lets developers run 290B+ MoE models on gaming PCs with bandwidth-adaptive execution and elastic memory management, enabling local experimentation with frontier-scale open-weight models.
+  mental_damage: Finally, a way to pretend your RTX 4090 is a datacenter while your fan sounds like a jet taking off.
+  tags:
+    - local-ai
+    - inference
+    - moe
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: FreeToken is a local runtime and serving stack designed for private, self-hosted execution of large MoE models on consumer hardware, making local inference its core identity.
+  evidence:
+    - README states it is an 'edge-native Mixture-of-Experts (MoE) serving engine designed for running frontier-scale open-weight models on personal and consumer hardware'
+    - Features include 'Elastic Memory Management' for dynamic VRAM re-allocation and 'Diverse Consumer Hardware' scaling across laptops, gaming desktops, and workstation GPUs
+    - Provides a desktop app and CLI for local model running, chatting, and tuning
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Local Runtimes
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (8629) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -59,13 +67,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T09:23:30.970Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-08-27T06:08:56.716Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-08-27T09:27:31.251Z"
+    cause: null
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:97c1dcbda1829b537906b3fce45e5cd8c3b5525c1dbec13ab8379cd8e6ed2072
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: FreeToken is a local runtime and serving stack designed for private, self-hosted execution of large MoE models on consumer hardware, making local inference its core identity.
+      decision_evidence:
+        - README states it is an 'edge-native Mixture-of-Experts (MoE) serving engine designed for running frontier-scale open-weight models on personal and consumer hardware'
+        - Features include 'Elastic Memory Management' for dynamic VRAM re-allocation and 'Diverse Consumer Hardware' scaling across laptops, gaming desktops, and workstation GPUs
+        - Provides a desktop app and CLI for local model running, chatting, and tuning
+      category_candidates:
+        - local-ai
+        - ai-frameworks
+      contrastive_reason: Choose local-ai over ai-frameworks because FreeToken is primarily a local runtime and desktop app for running models, not a code-first SDK or library for embedding AI into software.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
