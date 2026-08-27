@@ -8,6 +8,7 @@ import {
   normalizeDoctorLimit,
   parsePiFreeDoctorArgs,
   selectPiFreeDoctorTargets,
+  summarizePiFreeFamilyStatuses,
   type PiFreeProbeResult,
 } from "../scripts/pi/doctor.js";
 
@@ -151,5 +152,48 @@ describe("pi-free doctor", () => {
     expect(classifyPiFreeProbeError("400 Reasoning is mandatory for this endpoint and cannot be disabled.")).toBe("unsupported_request");
     expect(classifyPiFreeProbeError('Mistral API error (404): {"message":"no Route matched with those values"}')).toBe("not_found");
     expect(classifyPiFreeProbeError("401 unauthorized")).toBe("auth");
+  });
+});
+
+describe("pi-free doctor family status", () => {
+  const pool = [
+    "openrouter/moonshotai/kimi-k2.6:free",
+    "nvidia/moonshotai/kimi-k2.6",
+    "cloudflare/@cf/google/gemma-4-31b-it",
+  ];
+
+  function result(spec: string, status: "ok" | "failed" | "skipped"): PiFreeProbeResult {
+    return {
+      spec,
+      provider: spec.split("/")[0],
+      status,
+      ok: status === "ok",
+      elapsed_ms: status === "skipped" ? 0 : 100,
+      error_type: status === "failed" ? "quota" : null,
+      error_message: status === "failed" ? "429 rate limit" : null,
+      output_excerpt: status === "ok" ? "HI" : null,
+    };
+  }
+
+  it("groups replica results by family with per-status counts", () => {
+    const statuses = summarizePiFreeFamilyStatuses(pool, [
+      result("openrouter/moonshotai/kimi-k2.6:free", "failed"),
+      result("nvidia/moonshotai/kimi-k2.6", "ok"),
+      result("cloudflare/@cf/google/gemma-4-31b-it", "skipped"),
+    ]);
+    expect(statuses).toEqual([
+      { family: "moonshotai/kimi-k2.6", replicas: 2, ok: 1, failed: 1, skipped: 0, first_working_replica: "nvidia/moonshotai/kimi-k2.6" },
+      { family: "google/gemma-4-31b-it", replicas: 1, ok: 0, failed: 0, skipped: 1, first_working_replica: null },
+    ]);
+  });
+
+  it("reports families without probe results as fully unprobed", () => {
+    const statuses = summarizePiFreeFamilyStatuses(pool, []);
+    expect(statuses[0]).toEqual({ family: "moonshotai/kimi-k2.6", replicas: 2, ok: 0, failed: 0, skipped: 0, first_working_replica: null });
+  });
+
+  it("ignores results for specs outside the pool", () => {
+    const statuses = summarizePiFreeFamilyStatuses(pool, [result("openrouter/stray/model-x:free", "ok")]);
+    expect(statuses.every((status) => status.ok === 0)).toBe(true);
   });
 });

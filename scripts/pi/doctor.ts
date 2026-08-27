@@ -2,7 +2,9 @@ import { fileURLToPath } from "node:url";
 import { getModel } from "@mariozechner/pi-ai";
 import { hasPiAiProviderAuth, resolvePiAiModelSpec, runPiFreeTextPrompt } from "./ai.ts";
 import { parsePositivePiCliInteger, requirePiCliValue } from "./cli.ts";
-import { parsePiFreeModelSpec, PI_FREE_MODEL_CYCLE } from "./models.ts";
+import { parsePiFreeModelSpec } from "./models.ts";
+import { groupPiFreeFamilies } from "./pool.ts";
+import { resolvePiFreePoolModels } from "./discover.ts";
 
 const DEFAULT_PROMPT = "Reply with exactly HI.";
 const DEFAULT_TIMEOUT_MS = 60_000;
@@ -135,6 +137,37 @@ export function buildPiFreeDoctorReport(results: PiFreeProbeResult[]): PiFreeDoc
   };
 }
 
+export type PiFreeFamilyStatus = {
+  family: string;
+  replicas: number;
+  ok: number;
+  failed: number;
+  skipped: number;
+  first_working_replica: string | null;
+};
+
+/** Per-family view of probe results, aligned to the resolved pool's replica structure. */
+export function summarizePiFreeFamilyStatuses(poolModels: string[], results: PiFreeProbeResult[]): PiFreeFamilyStatus[] {
+  const bySpec = new Map<string, PiFreeProbeResult>();
+  for (const result of results) bySpec.set(result.spec, result);
+  return groupPiFreeFamilies(poolModels).map((family) => {
+    let ok = 0;
+    let failed = 0;
+    let skipped = 0;
+    let firstWorking: string | null = null;
+    for (const replica of family.replicas) {
+      const result = bySpec.get(replica.spec);
+      if (!result) continue;
+      if (result.ok) {
+        ok += 1;
+        if (!firstWorking) firstWorking = replica.spec;
+      } else if (result.status === "failed") failed += 1;
+      else skipped += 1;
+    }
+    return { family: family.family, replicas: family.replicas.length, ok, failed, skipped, first_working_replica: firstWorking };
+  });
+}
+
 export function getPiFreeDoctorFailure(report: PiFreeDoctorReport): string | null {
   if (report.first_working_model) return null;
   if (report.attempted === 0 && report.skipped > 0) {
@@ -225,9 +258,9 @@ export function getProbeSkipResult(spec: string, deps: ProbeSkipDeps = {}): PiFr
 
 export async function runPiFreeDoctor(argv: string[] = process.argv.slice(2)): Promise<void> {
   const args = parsePiFreeDoctorArgs(argv);
-  const orderedModels = PI_FREE_MODEL_CYCLE;
+  const orderedModels = resolvePiFreePoolModels();
   const safeLimit = normalizeDoctorLimit(args.limit, orderedModels.length);
-  console.log(`Probing up to ${safeLimit} runnable pi-free model(s) from the static fallback order...`);
+  console.log(`Probing up to ${safeLimit} runnable pi-free model(s) from the resolved pool...`);
 
   const results: PiFreeProbeResult[] = [];
   let attempted = 0;
@@ -250,6 +283,12 @@ export async function runPiFreeDoctor(argv: string[] = process.argv.slice(2)): P
   console.log(
     `doctor summary: attempted=${report.attempted} succeeded=${report.succeeded} failed=${report.failed} skipped=${report.skipped} first=${report.first_working_model ?? "(none)"}`,
   );
+
+  for (const family of summarizePiFreeFamilyStatuses(orderedModels, report.results)) {
+    console.log(
+      `family ${family.family}: replicas=${family.replicas} ok=${family.ok} failed=${family.failed} skipped=${family.skipped} first=${family.first_working_replica ?? "(none)"}`,
+    );
+  }
 
   const failure = getPiFreeDoctorFailure(report);
   if (failure) throw new Error(failure);
