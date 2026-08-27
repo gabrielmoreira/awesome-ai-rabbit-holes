@@ -133,3 +133,14 @@ node scripts/pi/doctor.ts{% if usage.limit %} --limit {{ usage.limit }}{% endif 
 [tasks."llm:discover"]
 description = "Refresh the free-model candidate cache from provider catalogs"
 run = "node scripts/pi/discover.ts"
+
+[tasks."llm:rank"]
+description = "Measure pi-free model families on catalog eval cases and persist capability scores"
+usage = '''
+flag "--family <family>" help="Family key or model spec to measure (defaults to all pool families)"
+flag "--limit-cases <n>" help="Cap on eval cases per family for quick runs"
+flag "--timeout-ms <ms>" help="Per-case LLM timeout in milliseconds"
+'''
+run = '''
+node scripts/pi/rank.ts{% if usage.family %} --family {{ usage.family | json_encode }}{% endif %}{% if usage.limit_cases %} --limit-cases {{ usage.limit_cases }}{% endif %}{% if usage.timeout_ms %} --timeout-ms {{ usage.timeout_ms }}{% endif %}
+'''

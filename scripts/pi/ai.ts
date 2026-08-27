@@ -12,6 +12,7 @@ import {
 } from "./models.ts";
 import { balancePiFreeCandidates, nextPiFreeBalanceSeed } from "./pool.ts";
 import { resolvePiFreePoolStartupCandidates } from "./discover.ts";
+import { PI_FREE_SCORES_PATH } from "./scores.ts";
 
 export type RunPiFreeTextPromptOptions = {
   model?: string | null;
@@ -82,7 +83,7 @@ function resolvePromptCandidates(options: RunPiFreeTextPromptOptions): string[] 
     );
   }
 
-  return balancePiFreeCandidates(resolvePiFreePoolStartupCandidates(options.env ?? process.env), nextPiFreeBalanceSeed());
+  return balancePiFreeCandidates(resolvePiFreePoolStartupCandidates(options.env ?? process.env, { scoresPath: PI_FREE_SCORES_PATH }), nextPiFreeBalanceSeed());
 }
 
 function resolvePiAiApiKey(provider: string, envValues: PiFreeEnvValues = process.env): string | null {

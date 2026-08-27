@@ -3,6 +3,7 @@ import * as path from "node:path";
 import { fileURLToPath } from "node:url";
 import { PI_FREE_CANDIDATES_PATH } from "./snapshot.ts";
 import { filterPiFreeRecentFailures, hasPiFreeProviderAuth, listPiFreeRecentFailureRecords, normalizePiFreeEnv, parsePiFreeModelSpec, resolvePiFreeOrderedModels, type PiFreeEnvValues } from "./models.ts";
+import { orderPoolByCapabilityScores } from "./scores.ts";
 
 export const PI_FREE_DISCOVERY_CACHE_VERSION = 1;
 export const PI_FREE_CANDIDATE_TTL_MS = 24 * 60 * 60 * 1000;
@@ -110,14 +111,15 @@ export function resolvePiFreePoolModels(envValues: PiFreeEnvValues = process.env
 
 export function resolvePiFreePoolStartupCandidates(
   envValues: PiFreeEnvValues = process.env,
-  options: { cachePath?: string; now?: number; recentFailures?: Iterable<string> } = {}
+  options: { cachePath?: string; now?: number; recentFailures?: Iterable<string>; scoresPath?: string } = {}
 ): string[] {
   const poolModels = resolvePiFreePoolModels(envValues, options);
   if (poolModels.length === 0) return [];
   const recentFailureModels = new Set(
     options.recentFailures ? [...options.recentFailures] : listPiFreeRecentFailureRecords(options.now ?? Date.now()).map((record) => record.model)
   );
-  return filterPiFreeRecentFailures(poolModels, recentFailureModels);
+  const filtered = filterPiFreeRecentFailures(poolModels, recentFailureModels);
+  return orderPoolByCapabilityScores(filtered, { scoresPath: options.scoresPath });
 }
 export async function runPiFreeDiscover(): Promise<void> {
   const envValues = normalizePiFreeEnv(process.env);

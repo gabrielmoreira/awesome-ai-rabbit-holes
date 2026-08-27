@@ -70,7 +70,7 @@ export type CategoryEvalGradeSummary = {
 
 export type CategoryEvalErrorKind = "infra_error" | "invalid_response" | "execution_error";
 
-type PromptEvalCaseResult = {
+export type PromptEvalCaseResult = {
   caseId: string;
   itemId: string;
   suite: CategoryEvalSuite;
@@ -309,7 +309,7 @@ export function classifyCategoryEvalErrorKind(message: string): CategoryEvalErro
   return "execution_error";
 }
 
-async function runSinglePromptEvalCase(
+export async function runSinglePromptEvalCase(
   testCase: CategoryEvalCase,
   item: CatalogItem,
   model: string,
