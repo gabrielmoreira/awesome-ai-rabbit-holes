@@ -36,15 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An AI-powered personal knowledge management tool designed to capture, connect, and grow ideas through a knowledge graph.
+  why_it_matters: While useful for researchers and writers, it lacks a direct application to software development or engineering workflows.
+  mental_damage: One more application to manage the thoughts you'll eventually forget because you were too busy debugging.
+  tags:
+    - pkm
+    - knowledge-graph
+    - local-ai
+    - writing-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The product is a personal knowledge management (PKM) tool for writers and researchers, lacking a specific focus on software development, coding, or engineering workflows.
+  evidence:
+    - Target audience explicitly includes essayists, researchers, and founders.
+    - Core functionality focuses on note-taking, session-based thinking, and writing rather than code manipulation or dev-ops.
 placement:
   primary_category: null
   section: null
@@ -62,10 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:27.804Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for kompas__ai__en: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:18:21.171Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3cbb5cc6e1225f353c92c0467d8333604d10b6be3476dbae5c57661155b64fe3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a personal knowledge management (PKM) tool for writers and researchers, lacking a specific focus on software development, coding, or engineering workflows.
+      decision_evidence:
+        - Target audience explicitly includes essayists, researchers, and founders.
+        - Core functionality focuses on note-taking, session-based thinking, and writing rather than code manipulation or dev-ops.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

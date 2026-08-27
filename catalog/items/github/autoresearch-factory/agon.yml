@@ -72,18 +72,24 @@ metadata:
       fetched_at: "2026-08-24T04:21:23.202Z"
       bytes: 6748
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Agon is a Claude Code plugin that orchestrates autonomous AI research loops to turn a topic into runnable experiments without human-written experimental code.
+  why_it_matters: It removes the manual effort of prototyping research ideas by automating hypothesis generation, proposal review, and experiment execution within Claude Code.
+  mental_damage: Watch your AI agents spend hours debugging each other's failed experiments while you refresh the terminal, hoping they don't get stuck in a literature-review loop.
+  tags:
+    - claude-code
+    - agent-orchestration
+    - research-automation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Agon is a plugin that augments Claude Code with autonomous research workflows rather than acting as a standalone coding assistant, making it an extension rather than a primary agent.
+  evidence:
+    - "Repo description: 'Claude Code plugin for autonomous AI research'"
+    - "README: 'Agon itself is a Claude Code plugin. Run it from a separate data workspace'"
+    - "Required setup: 'claude --plugin-dir ../Agon' to activate the plugin within Claude Code"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -99,6 +105,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:25:37.573Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b422309d04b74cbd06b38b74d452ca6f4d0247af3059aedbf32fc26c0b1cfde0
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: Agon is a plugin that augments Claude Code with autonomous research workflows rather than acting as a standalone coding assistant, making it an extension rather than a primary agent.
+      decision_evidence:
+        - "Repo description: 'Claude Code plugin for autonomous AI research'"
+        - "README: 'Agon itself is a Claude Code plugin. Run it from a separate data workspace'"
+        - "Required setup: 'claude --plugin-dir ../Agon' to activate the plugin within Claude Code"
+      category_candidates:
+        - ai-dev-extensions
+        - agent-orchestration
+      contrastive_reason: Choose ai-dev-extensions over agent-orchestration because Agon's primary identity is a Claude Code plugin that adds research capabilities to an existing assistant, not a standalone workbench for coordinating multiple agents.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

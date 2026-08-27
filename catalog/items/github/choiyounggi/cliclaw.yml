@@ -31,7 +31,7 @@ metadata:
     full_name: choiyounggi/cliclaw
     html_url: https://github.com/choiyounggi/cliclaw
     created_at: "2026-05-13T08:59:09Z"
-    pushed_at: "2026-08-19T02:35:40Z"
+    pushed_at: "2026-08-23T16:21:10Z"
     description: Control coding agents on your Mac — Claude Code, Codex, Pi, Gemini — from your phone via Telegram. Kick off tasks, stream progress, and approve dangerous commands while away from your desk. Per-chat per-agent sessions, confirm gate, launchd auto-start, corporate-TLS (Zscaler) auto-detection.
     homepage: https://www.npmjs.com/package/@younggichoi/cliclaw
     topics:
@@ -50,23 +50,31 @@ metadata:
       - telegram
       - telegram-bot
       - typescript
-    last_checked_at: "2026-08-20T04:18:12.928Z"
+    last_checked_at: "2026-08-27T06:08:44.789Z"
     readme:
-      fetched_at: "2026-08-20T04:18:12.928Z"
+      fetched_at: "2026-08-27T06:08:44.789Z"
       bytes: 15859
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A macOS daemon that enables remote control of local coding CLI agents via a Telegram interface.
+  why_it_matters: It allows developers to monitor progress, kick off tasks, and approve dangerous commands for autonomous agents from their phones while away from their desks.
+  mental_damage: Because nothing says 'future of work' like approving a risky 'rm -rf' command from a Telegram chat while standing in line for coffee.
+  tags:
+    - macos
+    - telegram
+    - coding-agents
+    - remote-control
+    - cli
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is an extension that augments existing CLI coding agents with a remote session UI and workflow management via Telegram.
+  evidence:
+    - Acts as a daemon that manages local coding CLI agents like Claude Code, Codex, Pi, and Gemini
+    - Provides a remote interface for tasking, progress streaming, and command approval via Telegram
+    - Does not perform coding tasks itself, but rather interfaces with existing authenticated local agents
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -78,14 +86,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:12.928Z"
+    updated_at: "2026-08-27T06:08:44.789Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:28.041Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__choiyounggi__cliclaw: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:21:40.992Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b4890716f97c7d79774b94f9332e54cca7caaea8bb0e7523427db1c338535223
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: It is an extension that augments existing CLI coding agents with a remote session UI and workflow management via Telegram.
+      decision_evidence:
+        - Acts as a daemon that manages local coding CLI agents like Claude Code, Codex, Pi, and Gemini
+        - Provides a remote interface for tasking, progress streaming, and command approval via Telegram
+        - Does not perform coding tasks itself, but rather interfaces with existing authenticated local agents
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because the tool functions as a remote management and workflow layer for existing agents rather than acting as the primary coding assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/gcwing/bitfun
         surrounding_text: "53. [BitFun](https://github.com/GCWing/BitFun): Open-source agentic development environment with a Rust/Tauri desktop app and CLI for coding, research, office work, browser and desktop automation, extensible through MCP, Skills, and custom agents."
         confidence: high
+    - id: discovery__github__gcwing__bitfun__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-08-27T06:08:24.604Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: BitFun
+        extracted_url: https://github.com/gcwing/bitfun
+        surrounding_text: "- **[BitFun](https://github.com/GCWing/BitFun)** `⭐ 1.8k` — Rust coding agent with an interactive TUI and non-interactive `bitfun exec` runs; session fork/undo/redo/compact with a timeline, MCP and ACP, skills, hooks, and daemon-backed background tasks. Ships alongside, but builds independently of, a Tauri desktop app. MIT."
+        confidence: high
 metadata:
   github:
     stars: 1686
@@ -68,7 +84,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-13T04:39:28.748Z"
+    updated_at: "2026-08-27T06:08:24.606Z"
     cause: null
     next_retry_at: null
   stars:
@@ -78,7 +94,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-24T04:21:26.853Z"
+    updated_at: "2026-08-27T06:08:56.716Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

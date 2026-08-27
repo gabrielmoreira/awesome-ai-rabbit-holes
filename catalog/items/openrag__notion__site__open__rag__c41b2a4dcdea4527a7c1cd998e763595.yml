@@ -36,15 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
+  summary: A Notion-hosted educational resource or course focused on Open-RAG.
+  why_it_matters: It provides instructional material for developers looking to learn RAG implementation.
+  mental_damage: Just another Notion page to be bookmarked and never actually opened.
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The resource is categorized as a course in existing directories, and this catalog is strictly for functional software tools, frameworks, and infrastructure rather than educational tutorials.
+  evidence:
+    - Source-list context explicitly classifies the link under '课程 Course' (Course)
+    - The provided input lacks the identity of a standalone software product, framework, or agent
 placement:
   primary_category: null
   section: null
@@ -62,10 +64,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.299Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for openrag__notion__site__open__rag__c41b2a4dcdea4527a7c1cd998e763595: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:20:07.525Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f019325739667eb0b16ccbccf2be4d792a487ae27206f73dff4f0c6bf05e045d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The resource is categorized as a course in existing directories, and this catalog is strictly for functional software tools, frameworks, and infrastructure rather than educational tutorials.
+      decision_evidence:
+        - Source-list context explicitly classifies the link under '课程 Course' (Course)
+        - The provided input lacks the identity of a standalone software product, framework, or agent
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

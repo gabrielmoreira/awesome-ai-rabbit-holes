@@ -36,22 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Jan is a desktop application for running large language models locally on your own hardware.
-  why_it_matters: It provides developers with a privacy-focused, offline-capable interface to run and interact with open-source LLMs without relying on external APIs.
-  mental_damage: Yet another desktop wrapper promising to wrangle local models, ensuring you can max out your GPU fans while wondering if you should have just used Ollama.
+  summary: An open-source desktop application for running local LLMs or connecting to cloud-based models.
+  why_it_matters: It provides a private, local-first interface for interacting with models, reducing reliance on cloud APIs and improving data sovereignty.
+  mental_damage: The inevitable descent into comparing your local token-per-second throughput against the heat output of your laptop.
   tags:
     - local-ai
-    - desktop
-    - llm
-    - offline
+    - open-source
+    - desktop-app
+    - llm-interface
   confidence: high
 curation:
   status: included
-  reason: The product identity is a local desktop application for running AI on your own hardware, making it a canonical fit for the Local AI category.
+  reason: Jan's core identity is a desktop interface and runtime designed for local and cloud-based AI execution.
   evidence:
-    - URL is https://jan.ai, identifying it as a product surface rather than a code library.
-    - Seen in awesome-ai-coding-tools under the 'Local LLM Tools' section.
-    - The name 'Jan' is explicitly listed as a common false positive for the MCP category, confirming its identity as a local LLM tool.
+    - Explicitly describes itself as an open-source alternative to ChatGPT
+    - Supports running open-source models locally
+    - Focuses on 'Personal Intelligence' and local privacy
 placement:
   primary_category: local-ai
   section: Desktop Chat / Interfaces
@@ -69,12 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:40:00.536Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for jan__ai: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:12:17.346Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a43ab55f7f8c4cce9d9291597bb8e6f752f863740669c9600a872e0c36bc027f
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: Jan's core identity is a desktop interface and runtime designed for local and cloud-based AI execution.
+      decision_evidence:
+        - Explicitly describes itself as an open-source alternative to ChatGPT
+        - Supports running open-source models locally
+        - Focuses on 'Personal Intelligence' and local privacy
+      category_candidates:
+        - local-ai
+        - coding-agents
+      contrastive_reason: Choose local-ai over coding-agents because its primary identity is a local model runtime and chat interface rather than a tool that actively plans and edits code within a repository.
+      review_reason: null
+      review_resume_lifecycle: null

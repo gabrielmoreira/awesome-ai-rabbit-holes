@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 435
-    forks: 51
+    stars: 461
+    forks: 57
     license: Apache-2.0
     archived: false
     full_name: caura-ai/caura
     html_url: https://github.com/caura-ai/caura
     created_at: "2026-04-27T15:02:58Z"
-    pushed_at: "2026-08-19T23:08:23Z"
+    pushed_at: "2026-08-27T03:49:26Z"
     description: Caura (formerly MemClaw) — governed shared memory for AI agent fleets. Multi-agent, multi-tenant, MCP-native. Trust tiers, keystone policies, audit trails, knowledge graph, self-improving retrieval. Apache 2.0.
     homepage: https://caura.ai
     topics:
@@ -49,23 +49,31 @@ metadata:
       - openai
       - pgvector
       - rag
-    last_checked_at: "2026-08-20T04:18:11.115Z"
+    last_checked_at: "2026-08-27T06:08:42.062Z"
     readme:
-      fetched_at: "2026-08-20T04:18:11.115Z"
-      bytes: 66552
+      fetched_at: "2026-08-27T06:08:42.062Z"
+      bytes: 69958
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Caura is a governed shared memory layer for AI agent fleets that enables multi-agent knowledge sharing, retrieval, and self-improving recall under trust tiers and audit trails.
+  why_it_matters: It solves the fragmentation of agent learning by turning individual interactions into compounding fleet intelligence, reducing redundant mistakes and token waste.
+  mental_damage: Finally, a way to make your agents stop relearning the same thing while you pretend governance isn’t just another layer of YAML to debug.
+  tags:
+    - agent-memory
+    - multi-agent
+    - mcp
+    - knowledge-graph
+    - rag
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Caura’s core is a governed, self-improving memory system for agent fleets, making it a context/shaping infrastructure rather than a coding assistant, extension, or orchestrator.
+  evidence:
+    - "Repo description: 'governed shared memory for AI agent fleets' with 'self-improving retrieval' and 'knowledge graph'"
+    - "README: 'Agents write plain text. Caura turns it into searchable, governed, self-improving memory' and 'One loop, three pillars: write, recall, compound'"
+    - "Source-list context: listed in awesome-llm-agents under 'Memory & Context' section"
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: promotion_candidate
   reason: Stars (435) exceeded threshold (150)
@@ -77,10 +85,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:11.115Z"
+    updated_at: "2026-08-27T06:08:42.062Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:25:46.580Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3c8ec9862b8c372a339c1a5f03e365ffdd08da1434124054cb20fdd29ba0288c
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: Caura’s core is a governed, self-improving memory system for agent fleets, making it a context/shaping infrastructure rather than a coding assistant, extension, or orchestrator.
+      decision_evidence:
+        - "Repo description: 'governed shared memory for AI agent fleets' with 'self-improving retrieval' and 'knowledge graph'"
+        - "README: 'Agents write plain text. Caura turns it into searchable, governed, self-improving memory' and 'One loop, three pillars: write, recall, compound'"
+        - "Source-list context: listed in awesome-llm-agents under 'Memory & Context' section"
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because Caura’s core novelty is memory, retrieval, and prompt-shaping infrastructure for agent fleets, not host integration or workflow augmentation.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

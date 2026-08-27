@@ -53,30 +53,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An error and performance monitoring platform that provides observability via crash reporting, distributed tracing, and an MCP server for AI-powered fix suggestions.
-  why_it_matters: It integrates production crash data directly into the IDE via MCP, allowing AI assistants to suggest fixes based on actual runtime failures rather than guesswork.
-  mental_damage: The dream of a closed-loop system where the AI sees the crash and fixes the bug before you've even finished reading the Jira ticket.
+  summary: Error monitoring and performance observability platform for mobile and web applications.
+  why_it_matters: It helps developers identify and resolve application crashes and performance bottlenecks in real time.
+  mental_damage: Because why manually trace a stack trace when you can let an LLM confidently hallucinate the fix instead?
   tags:
-    - crash-reporting
-    - debugging
     - error-monitoring
-    - mcp
     - observability
-    - production
-    - tracing
+    - performance
+    - mcp
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: excluded
+  reason: Bugsnag is a broad, standalone SaaS observability platform; its MCP server is a feature used to augment other tools rather than being its primary product identity.
   evidence:
-    - Explicitly cited in 'awesome-mcp-servers' as an MCP server implementation
-    - Scraped content mentions 'SmartBear's MCP server brings error data into your IDE and provides AI-powered fix suggestions'
-    - Core product is an observability suite with an MCP adapter for AI assistants
-    - "included: While BugSnag is a broad SaaS observability platform, the specific value add for this catalog is its identity as an MCP server that brings production error data into the AI coding loop."
-    - URL resolves to www.bugsnag.com, a known commercial error monitoring platform, not an AI-native developer tool.
-    - Seen in awesome-mcp-servers only as a server implementation, indicating MCP is merely an adapter, not the product identity.
-    - No repo description, README, or scraped context provided to suggest AI-specific coding agent, framework, or prompt engineering capabilities.
-    - "excluded: Bugsnag is a general-purpose error monitoring SaaS for web and mobile apps, lacking a developer-facing AI tooling angle beyond a potential MCP server adapter listed elsewhere."
+    - Scraped site context identifies the core product as 'Error Monitoring' and 'Performance Monitoring'.
+    - The MCP server is described as an integration to bring error data into an IDE, which is secondary to the primary platform identity.
+    - The product identity as a broad SaaS platform is an explicit exclusion signal for the Extensions & Integrations category.
 placement:
   primary_category: null
   section: null
@@ -85,13 +77,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:56.558Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for bugsnag__com: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:10:30.616Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4527dde49086f269a4a5bd3796dd622c773323709df83d181815fdfbddad196f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Bugsnag is a broad, standalone SaaS observability platform; its MCP server is a feature used to augment other tools rather than being its primary product identity.
+      decision_evidence:
+        - Scraped site context identifies the core product as 'Error Monitoring' and 'Performance Monitoring'.
+        - The MCP server is described as an integration to bring error data into an IDE, which is secondary to the primary platform identity.
+        - The product identity as a broad SaaS platform is an explicit exclusion signal for the Extensions & Integrations category.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-06-01T05:40:05.294Z"

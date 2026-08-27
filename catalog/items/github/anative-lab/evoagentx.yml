@@ -92,6 +92,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-08-27T06:24:56.338Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__anative-lab__evoagentx: Invalid AI response format: SyntaxError: Unexpected token 'E', ...\"_reason\": EvoAgentX \"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

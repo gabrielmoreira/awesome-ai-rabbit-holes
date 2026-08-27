@@ -41,28 +41,27 @@ metadata:
       - mcp-server
       - model-context-protocol
       - model-context-protocol-server
-    last_checked_at: "2026-08-20T04:18:17.048Z"
+    last_checked_at: "2026-08-27T06:08:50.882Z"
     readme:
-      fetched_at: "2026-08-20T04:18:17.048Z"
+      fetched_at: "2026-08-27T06:08:50.882Z"
       bytes: 17949
 insights:
-  summary: An MCP server that exposes CompetLab's competitive intelligence and AI visibility data to MCP-compatible coding assistants and agents.
-  why_it_matters: It lets developers ask their coding agents to track how LLMs rank their brand and monitor competitors without leaving the editor or CLI.
-  mental_damage: Finally, your coding agent can obsess over ChatGPT brand rankings while your actual codebase waits in the background.
+  summary: MCP server providing competitive intelligence data (including AI visibility rankings) to AI agents via Model Context Protocol.
+  why_it_matters: Lets developers integrate brand/competitor tracking data from CompetLab into their AI agent workflows through MCP-compatible clients.
+  mental_damage: Now your AI agent can obsess over your brand's search rankings while you pretend to write code.
   tags:
-    - mcp
+    - mcp-server
     - competitive-intelligence
     - ai-visibility
-    - marketing
-    - typescript
+    - model-context-protocol
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: a standalone MCP server providing domain-specific tools to MCP-compatible clients, not a generic platform or thin integration."
+  reason: MCP is the product identity here - this is explicitly an MCP server exposing CompetLab's competitive intelligence data through the protocol.
   evidence:
-    - "Repo description: 'Competitive intelligence MCP server — monitor competitors and track how AI ranks your brand'"
-    - "README: 'This MCP server gives your AI agent access to all of it: dashboards, historical data, alerts, and action plans'"
-    - Topics include mcp, mcp-server, model-context-protocol-server and lists 24 tools
+    - Repo description explicitly identifies it as a 'Competitive intelligence MCP server'
+    - README shows it implements MCP protocol with both HTTP and stdio transports
+    - Product is listed in Glama MCP registry
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -77,16 +76,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:17.048Z"
+    updated_at: "2026-08-27T06:08:50.882Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-06T05:07:23.697Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T06:09:01.300Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2a732d5a26598c83c97f1f657c63d5be463c4aff1964f399d46ce8e6e44a9f38
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: MCP is the product identity here - this is explicitly an MCP server exposing CompetLab's competitive intelligence data through the protocol.
+      decision_evidence:
+        - Repo description explicitly identifies it as a 'Competitive intelligence MCP server'
+        - README shows it implements MCP protocol with both HTTP and stdio transports
+        - Product is listed in Glama MCP registry
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server exposing domain-specific data, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

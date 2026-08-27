@@ -1,0 +1,110 @@
+id: github__apodexai__frontieragent
+kind: github-repo
+name: apodexai/frontieragent
+canonical_url: https://github.com/apodexai/frontieragent
+identity:
+  github_repo: apodexai/frontieragent
+provenance:
+  discoveries:
+    - id: discovery__github__apodexai__frontieragent__awesome-list__wangrongsheng__awesome-llm-resources
+      discovered_at: "2026-08-27T06:08:24.604Z"
+      source:
+        type: awesome-list
+        name: WangRongsheng/awesome-LLM-resources
+        url: https://github.com/wangrongsheng/awesome-llm-resources
+        repository: WangRongsheng/awesome-LLM-resources
+      extraction:
+        mode: parsed
+        section_path:
+          - 智能体 Agents
+          - Harness
+        anchor_text: FrontierAgent
+        extracted_url: https://github.com/apodexai/frontieragent
+        surrounding_text: "5. [FrontierAgent](https://github.com/ApodexAI/FrontierAgent): an open-source agent runtime, terminal product, and evaluation suite for long-horizon research and file-based work."
+        confidence: high
+metadata:
+  github:
+    stars: 1026
+    forks: 86
+    license: Apache-2.0
+    archived: false
+    full_name: ApodexAI/FrontierAgent
+    html_url: https://github.com/ApodexAI/FrontierAgent
+    created_at: "2026-08-22T05:07:35Z"
+    pushed_at: "2026-08-27T03:45:26Z"
+    description: 🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.
+    homepage: https://www.apodex.ai
+    topics:
+      - agent-orchestration
+      - agentic-ai
+      - agentic-framework
+      - ai-agents
+      - harness
+      - multi-agent
+      - terminal-agent
+      - tui
+    last_checked_at: "2026-08-27T06:08:26.574Z"
+    readme:
+      fetched_at: "2026-08-27T06:08:26.574Z"
+      bytes: 16914
+insights:
+  summary: FrontierAgent is an open-source agent runtime with a terminal TUI that provides ReAct and Agent Team workflows for file-based research and task automation.
+  why_it_matters: It gives developers a self-contained, sandboxed agent system for long-horizon file and research tasks without requiring Docker or complex setup.
+  mental_damage: Finally, an agent that won’t trash your repo but will happily coordinate a team of interns to write your literature review while you pretend to supervise.
+  tags:
+    - agent-framework
+    - terminal-agent
+    - multi-agent
+    - tui
+    - sandbox
+  confidence: high
+curation:
+  status: included
+  reason: FrontierAgent’s core identity is a workbench for coordinating multiple agents via a task board and sandboxed workflows, making it an agent orchestration platform rather than a standalone coding assistant.
+  evidence:
+    - README describes Agent Team mode where a coordinator delegates work to parallel sub-agents and synthesizes results
+    - Repo description calls it an 'agent framework' with native command-line TUI and Agent Team modes
+    - Architecture shows clear separation between coordinator, task board, sub-agents, and shared sandbox
+placement:
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (1026) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-08-27T06:08:24.606Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-08-27T06:08:26.574Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-08-27T06:25:05.584Z"
+    cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f987661e222a636f2516460de356526e5c1b74982c3da91738a4b3b012918c2b
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: FrontierAgent’s core identity is a workbench for coordinating multiple agents via a task board and sandboxed workflows, making it an agent orchestration platform rather than a standalone coding assistant.
+      decision_evidence:
+        - README describes Agent Team mode where a coordinator delegates work to parallel sub-agents and synthesizes results
+        - Repo description calls it an 'agent framework' with native command-line TUI and Agent Team modes
+        - Architecture shows clear separation between coordinator, task board, sub-agents, and shared sandbox
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because the product’s main value is multi-agent coordination via a task board and workflow engine, not direct code editing or repo-level coding assistance.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

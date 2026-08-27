@@ -48,23 +48,23 @@ metadata:
       fetched_at: "2026-08-24T04:21:05.953Z"
       bytes: 4004
 insights:
-  summary: SolidGPT is a developer-facing AI search assistant that indexes local codebases and Notion workspace documents for semantic querying within a VSCode extension.
-  why_it_matters: It lets developers query their existing code and project documentation in natural language, reducing context-switching between the editor and external wikis.
-  mental_damage: Another valiant attempt to solve the modern developer's dilemma of having 500 files onboarded but still spending three hours finding where the actual logic lives.
+  summary: An AI searching assistant that provides semantic search and context retrieval across local codebases and Notion workspaces.
+  why_it_matters: It reduces context switching by allowing developers to query their codebase and project documentation through a single semantic interface.
+  mental_damage: Because nothing says 'I've lost my grip on the architecture' like needing an LLM to tell you where you wrote that one specific function three months ago.
   tags:
     - semantic-search
+    - rag
     - vscode-extension
-    - notion-integration
-    - codebase-indexing
-    - langchain
+    - context-retrieval
+    - knowledge-management
   confidence: high
 curation:
   status: included
-  reason: The core novelty is indexing and retrieving context from a codebase and Notion to feed into a model, aligning with context retrieval and fresh-doc lookup rather than being a primary coding agent.
+  reason: The tool's primary value is the indexing and semantic retrieval of information from code and external documentation to provide developer context.
   evidence:
-    - Repo description identifies it as a 'Developer AI Persona Search Agent' focused on semantic search.
-    - README explicitly states it helps 'Talk to your codebase' and performs 'Semantic search and summary in Notion'.
-    - Appears in awesome-langchain under 'Knowledge Management', reinforcing its retrieval identity.
+    - README explicitly states the tool helps with 'code and workspace semantic search'.
+    - Core functionality involves onboarding codebases and Notion pages for retrieval.
+    - The product acts as a context layer that can be used via a VSCode extension.
 placement:
   primary_category: context-engineering
   section: Context Retrieval & Fresh Docs
@@ -83,12 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:26.852Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__ai-citizen__solidgpt: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:16:43.088Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:78cc146f00ae4800af84c231ef91d1c63df06bce70d5fb76adef76644ab863e0
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The tool's primary value is the indexing and semantic retrieval of information from code and external documentation to provide developer context.
+      decision_evidence:
+        - README explicitly states the tool helps with 'code and workspace semantic search'.
+        - Core functionality involves onboarding codebases and Notion pages for retrieval.
+        - The product acts as a context layer that can be used via a VSCode extension.
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is the retrieval and semantic indexing of code and documents rather than just providing a UI layer for an existing assistant.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,15 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A documentation cookbook for developing GraphRAG applications using the DB-GPT framework.
+  why_it_matters: It provides a structured implementation guide for moving from vanilla RAG to more complex graph-based retrieval workflows.
+  mental_damage: Because standard RAG wasn't quite high-maintenance enough without adding graph topology to the stack.
+  tags:
+    - rag
+    - graph-rag
+    - db-gpt
+    - documentation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a documentation guide/cookbook rather than a standalone software product or tool.
+  evidence:
+    - The URL points specifically to a documentation cookbook path
+    - The content is a tutorial/guide for implementing a specific pattern (GraphRAG) rather than the tool itself
 placement:
   primary_category: null
   section: null
@@ -62,10 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:27.528Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for docs__dbgpt__cn__docs__cookbook__rag__graph__rag__app__develop: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:17:46.131Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e1dc9f6c5a231c851c3bb93ba8c05482ab9e31e9e318422a6749f54c76823c30
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a documentation guide/cookbook rather than a standalone software product or tool.
+      decision_evidence:
+        - The URL points specifically to a documentation cookbook path
+        - The content is a tutorial/guide for implementing a specific pattern (GraphRAG) rather than the tool itself
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

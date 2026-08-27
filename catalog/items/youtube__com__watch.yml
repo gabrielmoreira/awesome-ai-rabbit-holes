@@ -36,15 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
+  summary: YouTube is a video-sharing platform for watching, uploading, and sharing videos.
+  why_it_matters: ""
+  mental_damage: ""
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a general video-sharing platform with no developer-tooling angle, AI or otherwise.
+  evidence:
+    - Scraped site context identifies it as a video-sharing platform
+    - No repo description, README, or developer-focused claims are present
 placement:
   primary_category: null
   section: null
@@ -62,10 +64,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.544Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for youtube__com__watch: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:20:24.247Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:460175a3ad40125b1b91caacb2016aa697088a998f630be62483e9b3f7e7398a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a general video-sharing platform with no developer-tooling angle, AI or otherwise.
+      decision_evidence:
+        - Scraped site context identifies it as a video-sharing platform
+        - No repo description, README, or developer-focused claims are present
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

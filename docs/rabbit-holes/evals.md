@@ -32,7 +32,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `eval` `red-teaming` `cli` `llm-testing` `ci-cd`
   </details>
 
-- **[Opik](https://github.com/comet-ml/opik)** `⭐ 21.5k` `updated ≤30d` Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic workflows. <details><summary>More about</summary>
+- **[Opik](https://github.com/comet-ml/opik)** `⭐ 21.6k` `updated ≤30d` Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic workflows. <details><summary>More about</summary>
 
   It provides comprehensive tracing, automated evaluations, and production-ready dashboards to debug and improve AI applications from prototype to production.
 
@@ -41,7 +41,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `evaluation` `tracing` `llmops` `rag`
   </details>
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 17.7k` `updated ≤30d` An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots. <details><summary>More about</summary>
+- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 17.9k` `updated ≤30d` An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots. <details><summary>More about</summary>
 
   It lets developers measure and compare model quality, prompt effectiveness, and architecture choices with research-backed metrics like G-Eval and task completion.
 
@@ -504,7 +504,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
 
 _These are new or low-traffic entries being watched._
 
-- **[EvalView](https://github.com/hidai25/eval-view)** `⭐ 126` `updated ≤30d` Open-source regression testing tool for AI agents that snapshots behavior, diffs tool calls, and catches regressions in CI. <details><summary>More about</summary>
+- **[EvalView](https://github.com/hidai25/eval-view)** `⭐ 126` `updated ≤90d` Open-source regression testing tool for AI agents that snapshots behavior, diffs tool calls, and catches regressions in CI. <details><summary>More about</summary>
 
   It gives developers a way to detect silent regressions in agent behavior (e.g., tool choice changes, output drift) before they reach users, with deterministic replay and CI integration.
 
@@ -522,7 +522,7 @@ _These are new or low-traffic entries being watched._
   `ai-observability` `benchmarking` `evals` `guardrails` `llm-evaluation` `llmops` `rag` `sdks` `testing`
   </details>
 
-- **[skill-optimizer](https://github.com/fastxyz/skill-optimizer)** `⭐ 75` `updated ≤90d` skill-optimizer is a Docker-based CLI and agent skill for running deterministic evaluations of agent skills against LLM models via OpenRouter. <details><summary>More about</summary>
+- **[skill-optimizer](https://github.com/fastxyz/skill-optimizer)** `⭐ 75` `updated ≤180d` skill-optimizer is a Docker-based CLI and agent skill for running deterministic evaluations of agent skills against LLM models via OpenRouter. <details><summary>More about</summary>
 
   It lets developers benchmark and refine agent behavior with reproducible, file-graded evals in isolated environments.
 
@@ -540,13 +540,13 @@ _These are new or low-traffic entries being watched._
   `prompt-optimization` `llm-ops` `automation` `ai-agents`
   </details>
 
-- **[Azure OpenAI Logger](https://github.com/aavetis/azure-openai-logger)** `⭐ 73` `updated >1y` A Bicep-driven Azure deployment that adds API Management as a proxy in front of an Azure OpenAI instance to funnel requests, responses, and custom headers into Application Insights for observability. <details><summary>More about</summary>
+- **[Azure OpenAI Logger](https://github.com/aavetis/azure-openai-logger)** `⭐ 73` `updated >1y` A deployment solution that uses Azure API Management to proxy and log Azure OpenAI requests to Application Insights. <details><summary>More about</summary>
 
-  It gives developers a batteries-included way to capture, query, and visualize every LLM call and token metric inside their own Azure subscription without building custom logging plumbing.
+  It allows developers to maintain full control over LLM observability, traces, and usage metrics within their own Azure subscription.
 
-  _Yet another reminder that we now need a full observability stack just to understand how many tokens our 'simple' AI wrapper actually burned._
+  _Because nothing says 'production ready' like adding another layer of Azure infrastructure just to see why your prompts are failing._
 
-  `azure` `observability` `llm-logging` `openai`
+  `azure` `observability` `llmops` `logging` `tracing`
   </details>
 
 - **[simulate-sdk](https://github.com/future-agi/simulate-sdk)** `⭐ 60` `updated ≤90d` A Python SDK for simulating voice and text conversations to test AI agents against persona-driven scenarios. <details><summary>More about</summary>
@@ -594,7 +594,7 @@ _These are new or low-traffic entries being watched._
   `rag` `observability` `vector-db` `embeddings` `llmops`
   </details>
 
-- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 7` `updated ≤180d` A benchmarking framework designed to evaluate AI agent configurations across 40 real-world tasks and 7 domains using rule-based scoring. <details><summary>More about</summary>
+- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 7` `updated ≤1y` A benchmarking framework designed to evaluate AI agent configurations across 40 real-world tasks and 7 domains using rule-based scoring. <details><summary>More about</summary>
 
   It shifts the focus from evaluating raw model intelligence to measuring the effectiveness of specific agentic setups, prompts, and tool configurations.
 
@@ -727,15 +727,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to prove your agent isn’t hallucinating—until the evals start hallucinating too._
 
   `evals` `observability` `agent-testing` `llmops` `prompt-engineering`
-  </details>
-
-- **[New Relic](https://newrelic.com)** New Relic is an AI-powered observability platform that correlates telemetry across the entire stack and monitors AI agent interactions, token usage, and model behavior. <details><summary>More about</summary>
-
-  It provides developers with specialized tooling to monitor, trace, and control the cost and accuracy of the AI agents and LLMs running in their production environments.
-
-  _You can now watch your AI agents hallucinate in real-time with enterprise-grade dashboards, reducing MTTR (Mean Time To Realize the Model Drifted)._
-
-  `observability` `ai-monitoring` `devops` `telemetry`
   </details>
 
 - **[Open LLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard)** A Hugging Face Space that tracks, ranks, and evaluates open LLMs and chatbots. <details><summary>More about</summary>

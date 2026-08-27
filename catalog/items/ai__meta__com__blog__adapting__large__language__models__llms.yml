@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Meta AI blog post explaining the spectrum of approaches for adapting large language models to domain data, including pre-training, fine-tuning, RAG, and in-context learning.
-  why_it_matters: It provides small AI product teams with a decision flowchart and practical guidance for choosing cost-effective LLM adaptation strategies without defaulting to expensive retraining.
-  mental_damage: Another foundational explainer to bookmark and feel smart about, right before copy-pasting a prompt and calling it fine-tuning anyway.
+  summary: An educational blog post from Meta AI explaining different methodologies for adapting large language models to domain-specific data.
+  why_it_matters: It provides a conceptual framework for developers to decide between fine-tuning, RAG, and in-context learning based on resource constraints.
+  mental_damage: It offers the soothing illusion that choosing an LLM adaptation strategy can be solved with a simple flowchart rather than an expensive infrastructure headache.
   tags:
-    - llm-adaptation
-    - meta-ai
-    - rag
+    - llm
     - fine-tuning
-    - prompt-engineering
+    - rag
+    - meta-ai
   confidence: high
 curation:
   status: excluded
-  reason: This is a static educational blog post from Meta, not a developer tool, framework, agent, or reusable resource, and therefore falls outside the catalog's product-and-tooling scope.
+  reason: This is a single educational blog post providing theoretical guidance, not a standalone tool, framework, or curated directory.
   evidence:
-    - URL points to a Meta AI blog post, not a GitHub repo or product page.
-    - The excerpt is entirely educational content covering LLM adaptation methods and decision flowcharts.
-    - Seen in awesome-LLM-resources under 'Tips', reinforcing its identity as a learning resource rather than tooling.
+    - Source is a Meta AI blog post titled 'Methods for adapting large language models'
+    - Content is an instructional guide on pre-training, fine-tuning, RAG, and ICL
 placement:
   primary_category: null
   section: null
@@ -70,12 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:38.909Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for ai__meta__com__blog__adapting__large__language__models__llms: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:13:54.937Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:367cbeaee9b135151147bbc63aec3f36f9c2faa87ae3162dda7bc73b4284e0a3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a single educational blog post providing theoretical guidance, not a standalone tool, framework, or curated directory.
+      decision_evidence:
+        - Source is a Meta AI blog post titled 'Methods for adapting large language models'
+        - Content is an instructional guide on pre-training, fine-tuning, RAG, and ICL
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

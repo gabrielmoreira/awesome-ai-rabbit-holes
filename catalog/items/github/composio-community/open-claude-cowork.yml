@@ -40,7 +40,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 4328
+    stars: 4334
     forks: 738
     license: MIT
     archived: false
@@ -59,49 +59,61 @@ metadata:
       - eclectron-app
       - opencode
       - workflow-automation
-    last_checked_at: "2026-08-20T04:18:17.208Z"
+    last_checked_at: "2026-08-27T06:08:50.991Z"
     readme:
-      fetched_at: "2026-08-20T04:18:17.208Z"
+      fetched_at: "2026-08-27T06:08:50.991Z"
       bytes: 6684
 insights:
-  summary: Open Claude Cowork is an open-source desktop chat application powered by the Claude Agent SDK and Composio Tool Router, featuring 500+ SaaS integrations and a messaging bot variant.
-  why_it_matters: It lets developers automate work across desktop and messaging apps using a unified AI interface with broad tool access.
-  mental_damage: Another Electron app promising to replace your entire workflow while you juggle five different AI assistants just to send a Slack message.
+  summary: Open-source desktop chat application powered by Claude Agent SDK and Composio Tool Router, offering 500+ SaaS app integrations for work automation.
+  why_it_matters: It provides developers with a unified interface to automate workflows across desktop and SaaS apps using Claude's agent capabilities and Composio's tool ecosystem.
+  mental_damage: Because nothing says 'productivity' like juggling 500 integrations while your desktop app tries to remember which Slack channel you meant to post that GitHub issue to.
   tags:
     - claude-agent-sdk
-    - claude-sdk
-    - composio
-    - desktop-app
-    - electron
-    - integrations
-    - saas-integrations
     - workflow-automation
+    - desktop-app
+    - saas-integrations
+    - electron
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: The product is a standalone desktop assistant that directly automates work across apps, fitting the coding-agents category as a primary assistant rather than an extension or framework.
   evidence:
     - "Repo description: 'Open Source version of Claude Cowork with 500+ SaaS app integrations'"
-    - "README: 'Full-featured desktop chat interface' for 'Work automation, multi-chat sessions'"
-    - "Features: 'Persistent Sessions', 'Tool Visualization', 'Skills Support', and direct code-related tooling via Composio"
-    - "included: It functions as a standalone coding assistant with file editing, tool use, and persistent sessions, not merely an extension to another agent."
     - "README: 'An open-source desktop chat application powered by Claude Agent SDK and Composio Tool Router. Automate your work end-to-end across desktop and all your work apps in one place.'"
-    - Features include persistent sessions, tool visualization, and multi-provider support (Claude Agent SDK/Opencode)
-    - "included: The primary product is a standalone desktop assistant that directly automates work across apps and maintains context, fitting the coding-agent identity despite its desktop UI."
+    - "Includes two tools: Open Claude Cowork (desktop chat) and Secure Clawdbot (messaging bot), both with 500+ integrations"
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (4142) exceeded threshold (150)
 processing:
   categorize:
-    status: skipped
-    updated_at: "2026-08-06T05:07:23.697Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T06:09:05.740Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3577f11a07a8fe0504310e20f79d3e56cc2490bc3362ff9400d6190d7d19e314
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The product is a standalone desktop assistant that directly automates work across apps, fitting the coding-agents category as a primary assistant rather than an extension or framework.
+      decision_evidence:
+        - "Repo description: 'Open Source version of Claude Cowork with 500+ SaaS app integrations'"
+        - "README: 'An open-source desktop chat application powered by Claude Agent SDK and Composio Tool Router. Automate your work end-to-end across desktop and all your work apps in one place.'"
+        - "Includes two tools: Open Claude Cowork (desktop chat) and Secure Clawdbot (messaging bot), both with 500+ integrations"
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the product is a primary desktop assistant (not merely augmenting another assistant) that directly automates workflows across apps.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-05-12T15:06:19.301Z"
@@ -109,6 +121,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:17.208Z"
+    updated_at: "2026-08-27T06:08:50.991Z"
     cause: null
     next_retry_at: null

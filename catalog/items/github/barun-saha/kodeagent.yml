@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 39
+    stars: 40
     forks: 4
     license: Apache-2.0
     archived: false
@@ -50,9 +50,9 @@ metadata:
       - planning
       - python
       - react-agent
-    last_checked_at: "2026-08-20T04:18:02.956Z"
+    last_checked_at: "2026-08-27T06:08:30.279Z"
     readme:
-      fetched_at: "2026-08-20T04:18:02.956Z"
+      fetched_at: "2026-08-27T06:08:30.279Z"
       bytes: 19129
 insights:
   summary: null
@@ -78,10 +78,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:02.956Z"
+    updated_at: "2026-08-27T06:08:30.279Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-08-27T06:25:43.204Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__barun-saha__kodeagent: Invalid AI response format: SyntaxError: Unexpected token 'K', ...\"_reason\": KodeAgent \"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

@@ -37,15 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Git-native, self-hostable feature flag management platform.
+  why_it_matters: It allows developers to manage feature rollouts through Git-synced workflows and an intuitive UI to reduce deployment risk.
+  mental_damage: It provides the illusion of safety, right up until you toggle the wrong flag in production.
+  tags:
+    - feature-flags
+    - devops
+    - git-native
+    - self-hosted
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Flipt is a standard feature flag management utility and does not fall within the scope of AI-centric developer tooling or AI workflows.
+  evidence:
+    - Scraped site context and README focus exclusively on feature flag management and Git-native workflows
+    - Product identity is infrastructure for safe deployments, not an AI tool, agent, or model-centric framework
 placement:
   primary_category: null
   section: null
@@ -63,10 +69,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:27.683Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for flipt__io: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:18:00.398Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:024ce4dc9ab1ee0b604ec99c7e8b31b1a34893076339b0a0ebd92f929ead84fb
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Flipt is a standard feature flag management utility and does not fall within the scope of AI-centric developer tooling or AI workflows.
+      decision_evidence:
+        - Scraped site context and README focus exclusively on feature flag management and Git-native workflows
+        - Product identity is infrastructure for safe deployments, not an AI tool, agent, or model-centric framework
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

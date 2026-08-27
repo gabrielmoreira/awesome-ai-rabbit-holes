@@ -49,23 +49,31 @@ metadata:
       - typescript
       - ui
       - web-animation
-    last_checked_at: "2026-08-20T04:18:06.569Z"
+    last_checked_at: "2026-08-27T06:08:35.732Z"
     readme:
-      fetched_at: "2026-08-20T04:18:06.569Z"
+      fetched_at: "2026-08-27T06:08:35.732Z"
       bytes: 40250
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI and MCP server that performs deterministic motion audits and vision-LLM design reviews for web animations.
+  why_it_matters: It bridges the 'vision gap' for AI coding agents, allowing them to validate the actual visual motion and UX of a running app rather than just reading the CSS.
+  mental_damage: Because nothing says 'modern development' like having an LLM audit your easing curves to ensure your loading spinners aren't accidentally causing existential dread.
+  tags:
+    - motion-design
+    - mcp
+    - qa-automation
+    - ui-testing
+    - claude-code
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool functions as a capability provider that augments coding assistants like Claude Code and Cursor with specialized visual/motion QA workflows.
+  evidence:
+    - Acts as an MCP server to feed visual design findings back into the coding agent loop
+    - Provides deterministic animation measurement via Playwright
+    - Solves the problem of AI agents being 'blind' to what the user actually sees
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Testing & QA Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -77,14 +85,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:06.569Z"
+    updated_at: "2026-08-27T06:08:35.732Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.844Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__bobaba99__motionlint: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:21:07.671Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4e19349c18dfd1943e02cdedb81ba27fc8c4881eb3fea4f7ed7efd8835c3ffc7
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool functions as a capability provider that augments coding assistants like Claude Code and Cursor with specialized visual/motion QA workflows.
+      decision_evidence:
+        - Acts as an MCP server to feed visual design findings back into the coding agent loop
+        - Provides deterministic animation measurement via Playwright
+        - Solves the problem of AI agents being 'blind' to what the user actually sees
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the primary product identity is a motion-auditing tool that uses MCP as an integration layer to augment agent capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

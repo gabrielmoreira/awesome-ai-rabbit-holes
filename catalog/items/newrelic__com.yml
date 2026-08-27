@@ -36,25 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: New Relic is an AI-powered observability platform that correlates telemetry across the entire stack and monitors AI agent interactions, token usage, and model behavior.
-  why_it_matters: It provides developers with specialized tooling to monitor, trace, and control the cost and accuracy of the AI agents and LLMs running in their production environments.
-  mental_damage: You can now watch your AI agents hallucinate in real-time with enterprise-grade dashboards, reducing MTTR (Mean Time To Realize the Model Drifted).
+  summary: Enterprise observability platform with specialized monitoring and tracing for AI agents and LLM telemetry.
+  why_it_matters: Provides developers with visibility into agent reasoning, token usage, and hallucinations within production environments.
+  mental_damage: Because if you can't debug a non-deterministic agent, you can at least pay an enterprise vendor to tell you exactly when it fails.
   tags:
     - observability
-    - ai-monitoring
-    - devops
+    - aiops
+    - monitoring
     - telemetry
-  confidence: medium
+  confidence: high
 curation:
-  status: included
-  reason: The platform's explicit 'AI and Agentic Monitoring' focuses on measuring, tracing, and controlling model/agent behavior in production, which aligns with Evals & Benchmarks, though it is a broad SaaS product.
+  status: excluded
+  reason: New Relic is a broad enterprise observability platform; its AI-specific features are modules within a larger DevOps suite rather than a dedicated AI-native developer tool.
   evidence:
-    - Scraped site context highlights 'AI and agentic monitoring' to 'Monitor every model and agent interaction in real time.'
-    - Included in awesome-ai-coding-tools under the 'DevOps and Infrastructure' section.
-    - Product features include tracing agent reasoning to code execution to identify logic drift.
+    - Primary product identity is full-stack observability (APM, Logs, Infrastructure)
+    - AI monitoring is presented as a feature set within a wider platform rather than a standalone tool
 placement:
-  primary_category: evals
-  section: Observability / Tracing / EvalOps
+  primary_category: null
+  section: null
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:37.291Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for newrelic__com: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:13:01.802Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:944b753e24ea512e9563e001109c4c3f88722ea59c9c97e4a416df1f3e92af4f
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: New Relic is a broad enterprise observability platform; its AI-specific features are modules within a larger DevOps suite rather than a dedicated AI-native developer tool.
+      decision_evidence:
+        - Primary product identity is full-stack observability (APM, Logs, Infrastructure)
+        - AI monitoring is presented as a feature set within a wider platform rather than a standalone tool
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

@@ -39,18 +39,26 @@ metadata:
       fetched_at: "2026-08-24T04:21:01.014Z"
       bytes: 7782
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A deterministic control plane for coordinating multi-agent software development via isolated Git worktrees and mechanical validation gates.
+  why_it_matters: It replaces an agent's self-certified 'I am done' with verifiable execution facts and mechanical proof of completion before integration.
+  mental_damage: Because we have officially reached the era where an LLM's verbal confirmation of success must be treated as a suspicious legal claim.
+  tags:
+    - multi-agent
+    - control-plane
+    - git-worktrees
+    - verification
+    - orchestration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It functions as an operated control plane and runtime that manages the execution, state, and integration of multiple agents.
+  evidence:
+    - Explicitly defines itself as a 'deterministic execution and integration control plane'.
+    - Coordinates multiple agents across isolated Git worktrees with mechanical validation and review gates.
+    - Provides a durable execution ledger and state management independent of agent chat history.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -66,6 +74,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:22:56.600Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d82f226d9a428f53f3cd52518554fb6c893864d7b519b91a0e1a8c08381a0fe2
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: It functions as an operated control plane and runtime that manages the execution, state, and integration of multiple agents.
+      decision_evidence:
+        - Explicitly defines itself as a 'deterministic execution and integration control plane'.
+        - Coordinates multiple agents across isolated Git worktrees with mechanical validation and review gates.
+        - Provides a durable execution ledger and state management independent of agent chat history.
+      category_candidates:
+        - agent-orchestration
+        - spec-driven-development
+      contrastive_reason: Choose agent-orchestration over spec-driven-development because while it utilizes specifications, its core product identity is the runtime orchestration and integration mechanics for agents.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

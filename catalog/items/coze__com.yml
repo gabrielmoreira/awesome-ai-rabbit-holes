@@ -51,22 +51,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Coze is an AI agent-based intelligent office platform offering an integrated suite of productivity tools including AI writing, PPT generation, web development, and AI design for enterprise and individual users.
-  why_it_matters: It provides developers with a platform to build and deploy AI agents that automate office workflows, bridging the gap between LLM capabilities and business productivity tasks.
-  mental_damage: Yet another all-in-one 'AI office' platform promising to revolutionize productivity, ensuring you can now obsess over your PPT generation pipeline instead of just writing code.
+  summary: An AI agent platform providing productivity tools for writing, PPT generation, and design.
+  why_it_matters: It provides a no-code environment for creating and deploying agents for common office workflows.
+  mental_damage: The creeping realization that the 'intelligent office' might eventually render the 'developer' an unnecessary middleman for building simple tools.
   tags:
     - agents
-    - office-automation
-    - platform
-    - web-development
+    - no-code
+    - productivity
   confidence: high
 curation:
   status: excluded
-  reason: The platform is positioned as a general 'intelligent office' productivity suite for end-users and enterprises, lacking a primary developer-tooling or coding-assistant identity required for this catalog.
+  reason: The product is primarily an 'intelligent office platform' for general productivity tasks like PPT and design rather than a developer-centric tool.
   evidence:
-    - Scraped description defines it as an 'intelligent office platform' with tools for 'AI writing, PPT generation, web development, and AI design'.
-    - Source-list context places it in an 'Agents' section of a general LLM resource list, not a developer-tooling-specific directory.
-    - No evidence of a developer-first CLI, IDE integration, or code-editing workflow; the 'web development' mention is part of a broader office suite.
+    - Scraped title and description identify it as an 'intelligent office platform'
+    - Core features focus on office tasks like PPT generation and AI writing
 placement:
   primary_category: null
   section: null
@@ -75,15 +73,28 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:56.415Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for coze__com: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:10:07.283Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8406d1c76b18ee2952ed1d3f24d9e5cc2a4870dd919096b12092e72c8ed45d65
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is primarily an 'intelligent office platform' for general productivity tasks like PPT and design rather than a developer-centric tool.
+      decision_evidence:
+        - Scraped title and description identify it as an 'intelligent office platform'
+        - Core features focus on office tasks like PPT generation and AI writing
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-21T15:20:21.964Z"

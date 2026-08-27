@@ -36,18 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An AI-powered platform that generates applications, websites, and tools from natural language descriptions.
+  why_it_matters: It enables rapid prototyping and the creation of functional digital products through prompt-based generation.
+  mental_damage: The barrier to starting a new project has been reduced so low that your backlog of abandoned ideas is about to become unmanageable.
+  tags:
+    - app-builders
+    - prompt-to-app
+    - rapid-prototyping
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a prompt-to-app surface focused on generating new products rather than assisting in the manual editing of existing codebases.
+  evidence:
+    - Scraped site context identifies the tool as an 'AI app builder' that turns words into apps and sites.
+    - Existing inclusion in 'awesome-ai-coding-tools' under the App Builders section.
+    - The product focus is on creating new tools and products from descriptions.
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
@@ -62,10 +68,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:27.455Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for create__xyz: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:17:36.931Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7e19348ec2d73583437c1404bed71a01d6a2d68338bdc52057c5b770b4fbe5e8
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The product is a prompt-to-app surface focused on generating new products rather than assisting in the manual editing of existing codebases.
+      decision_evidence:
+        - Scraped site context identifies the tool as an 'AI app builder' that turns words into apps and sites.
+        - Existing inclusion in 'awesome-ai-coding-tools' under the App Builders section.
+        - The product focus is on creating new tools and products from descriptions.
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the primary user experience centers on generating new applications from prompts rather than helping a developer edit an existing repository.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

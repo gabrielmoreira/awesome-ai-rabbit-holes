@@ -75,18 +75,26 @@ metadata:
       fetched_at: "2026-08-24T04:20:56.848Z"
       bytes: 40121
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A desktop application for managing multi-agent teams through a visual Kanban-based control plane that coordinates various LLM providers and coding assistants.
+  why_it_matters: It allows developers to move from managing single-prompt interactions to overseeing complex, multi-agent workflows with built-in task delegation and peer review.
+  mental_damage: It effectively transitions the developer role from 'individual contributor' to 'middle manager of digital interns' with zero HR oversight.
+  tags:
+    - multi-agent
+    - orchestration
+    - kanban
+    - desktop-app
+    - agent-teams
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool acts as an operated workbench and control plane to coordinate multiple agents and tasks through a visual interface.
+  evidence:
+    - README describes a Kanban board and organization hierarchy for managing agent teams
+    - Supports connecting existing assistants like Claude Code, Cursor, and GitHub Copilot to work as a coordinated team
+    - Provides a desktop-based UI for task oversight, execution logs, and role-based team management
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: promotion_candidate
   reason: Stars (1786) exceeded threshold (150)
@@ -102,6 +110,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:22:42.622Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c48442d3804657ecc175117dad060ea3caae1a7330593e0ce0a92aab16c02d6f
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: The tool acts as an operated workbench and control plane to coordinate multiple agents and tasks through a visual interface.
+      decision_evidence:
+        - README describes a Kanban board and organization hierarchy for managing agent teams
+        - Supports connecting existing assistants like Claude Code, Cursor, and GitHub Copilot to work as a coordinated team
+        - Provides a desktop-based UI for task oversight, execution logs, and role-based team management
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because the tool's primary identity is the coordination and management of multiple agents rather than being the engine that performs the code editing itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

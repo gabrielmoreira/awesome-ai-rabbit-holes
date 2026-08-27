@@ -61,6 +61,15 @@ _These are new or low-traffic entries being watched._
   `blog` `langchain` `agent-engineering` `tutorials` `case-studies`
   </details>
 
+- **[Large Language Models (LLMs) with Colab notebooks](https://mlabonne.github.io/blog)** A technical blog providing tutorials and deep dives into LLMs, agents, and AI engineering. <details><summary>More about</summary>
+
+  Provides educational content and practical guides for developers navigating the rapidly evolving LLM landscape.
+
+  _Just one more technical publication to add to the infinite pile of 'must-read' content you'll never actually finish._
+
+  `llm` `tutorials` `agents` `education`
+  </details>
+
 - **[Step-by-step tutorials on Unwind AI](https://theunwindai.com)** A newsletter and tutorial hub for AI developers, covering daily updates, agent workflows, and open-source AI tooling. <details><summary>More about</summary>
 
   Provides curated, up-to-date insights and practical tutorials for developers building or integrating AI agents and LLM applications.

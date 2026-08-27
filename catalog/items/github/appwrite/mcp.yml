@@ -40,18 +40,24 @@ metadata:
       fetched_at: "2026-08-24T04:21:17.525Z"
       bytes: 8233
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Appwrite’s MCP server exposing its backend APIs—databases, users, functions, storage—as Model Context Protocol tools.
+  why_it_matters: Lets developers connect Appwrite to any MCP client without managing auth tokens or spinning up custom adapters.
+  mental_damage: Another backend hoping to become the next MCP dependency you’ll forget to update when the spec changes again.
+  tags:
+    - mcp
+    - backend
+    - api
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project’s core identity is an MCP server that exposes Appwrite’s API as tools, matching the MCP category’s focus on servers as primary product identity.
+  evidence:
+    - "Repo description: 'Appwrite’s MCP server. Operating your backend has never been easier.'"
+    - "README: 'A Model Context Protocol server for Appwrite. It exposes Appwrite's API — databases, users, functions, teams, storage, and more — as tools your MCP client can call.'"
+    - Listed in awesome-mcp-servers under Server Implementations > Databases
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -67,6 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:25:14.436Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ef783b75e5f5ece7d5044f0c33019e8e7f19750ee0dfda927636841eb3385271
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project’s core identity is an MCP server that exposes Appwrite’s API as tools, matching the MCP category’s focus on servers as primary product identity.
+      decision_evidence:
+        - "Repo description: 'Appwrite’s MCP server. Operating your backend has never been easier.'"
+        - "README: 'A Model Context Protocol server for Appwrite. It exposes Appwrite's API — databases, users, functions, teams, storage, and more — as tools your MCP client can call.'"
+        - Listed in awesome-mcp-servers under Server Implementations > Databases
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server itself, not an extension that augments another assistant with host integrations.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

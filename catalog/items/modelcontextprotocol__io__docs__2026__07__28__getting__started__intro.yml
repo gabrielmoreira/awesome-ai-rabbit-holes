@@ -52,15 +52,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: The Model Context Protocol (MCP) is an open-source standard for connecting AI applications to external data sources, tools, and workflows.
+  why_it_matters: It reduces development complexity by providing a standardized way for AI agents to access files, databases, and services without custom integrations.
+  mental_damage: Yet another protocol promising seamless AI-tool harmony, destined to be implemented once and forgotten.
+  tags:
+    - protocol
+    - ai-integration
+    - mcp
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a protocol specification document, not a standalone developer tool or product; it describes MCP but does not provide usable tooling, SDKs, servers, or clients.
+  evidence:
+    - The content is a documentation page from modelcontextprotocol.io explaining what MCP is, with no indication of a downloadable tool, library, or executable.
+    - The source-list context shows it appears only in 'awesome-mcp-servers' and 'awesome-agent-orchestration' as a linked reference page under sections like 'What is MCP?' and 'SEO Keywords', confirming its role as informational content, not tooling.
+    - There is no repo description, stars, creation date, or push activity, indicating this is not a code repository but a static informational page.
 placement:
   primary_category: null
   section: null
@@ -78,6 +84,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:26:07.133Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:767331f9f8f6d923ea0233c9e57962027ca3243ac769df30f3dfdac81b78c1e5
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a protocol specification document, not a standalone developer tool or product; it describes MCP but does not provide usable tooling, SDKs, servers, or clients.
+      decision_evidence:
+        - The content is a documentation page from modelcontextprotocol.io explaining what MCP is, with no indication of a downloadable tool, library, or executable.
+        - The source-list context shows it appears only in 'awesome-mcp-servers' and 'awesome-agent-orchestration' as a linked reference page under sections like 'What is MCP?' and 'SEO Keywords', confirming its role as informational content, not tooling.
+        - There is no repo description, stars, creation date, or push activity, indicating this is not a code repository but a static informational page.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

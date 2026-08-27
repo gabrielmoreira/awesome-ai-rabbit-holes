@@ -49,15 +49,23 @@ metadata:
       fetched_at: "2026-08-24T04:21:15.642Z"
       bytes: 15055
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: AnyCrawl is a Node.js/TypeScript web crawler that extracts LLM-ready data from websites and SERPs using multi-threading and batch processing.
+  why_it_matters: It lets developers turn web content into structured, AI-friendly inputs for RAG, agents, or automation without building scraping pipelines from scratch.
+  mental_damage: Finally, a way to outsource the soul-crushing tedium of parsing HTML to a tool that still needs proxies to avoid getting banned.
+  tags:
+    - web-scraping
+    - data-extraction
+    - llm-ready
+    - serp
+    - nodejs
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: AnyCrawl is a general-purpose web scraping tool focused on data extraction and SERP crawling, not a developer-facing AI coding agent, workflow tool, or infrastructure with a clear AI-tooling purpose beyond feeding data to models.
+  evidence:
+    - "Repo description: 'A Node.js/TypeScript crawler that turns websites into LLM-ready data and extracts structured SERP results'"
+    - "README: 'LLM‑friendly. Easy to integrate and use.' with features like SERP crawling, web scraping, site crawling, and AI extraction"
+    - "Source-list context: Listed in awesome-mcp-servers as a tool that 'Transform[s] any website into structured, clean data optimized for AI and large language models'"
 placement:
   primary_category: null
   section: null
@@ -76,6 +84,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:25:02.825Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5a794cc5f244b794e7c9b8275481379d58be04df502748cca095cf72c3344046
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: AnyCrawl is a general-purpose web scraping tool focused on data extraction and SERP crawling, not a developer-facing AI coding agent, workflow tool, or infrastructure with a clear AI-tooling purpose beyond feeding data to models.
+      decision_evidence:
+        - "Repo description: 'A Node.js/TypeScript crawler that turns websites into LLM-ready data and extracts structured SERP results'"
+        - "README: 'LLM‑friendly. Easy to integrate and use.' with features like SERP crawling, web scraping, site crawling, and AI extraction"
+        - "Source-list context: Listed in awesome-mcp-servers as a tool that 'Transform[s] any website into structured, clean data optimized for AI and large language models'"
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

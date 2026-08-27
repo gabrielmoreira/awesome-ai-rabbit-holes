@@ -51,45 +51,56 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A website and implementation focused on defining and serving Model Context Protocol (MCP) servers for structured data and schema handling.
-  why_it_matters: It provides developers with a dedicated resource and server implementation for managing structured schemas within the growing MCP ecosystem.
-  mental_damage: Yet another essential protocol adapter that proves the modern developer's job is now 10% coding and 90% gluing together context layers.
+  summary: A system design canvas that uses an MCP server to automatically map codebase architecture into visual diagrams.
+  why_it_matters: It allows developers to use coding agents to instantly generate and edit real-time, collaborative architecture diagrams directly from their repositories.
+  mental_damage: Now your technical debt can be visualized in high-fidelity, real-time collaboration, leaving you with no excuses for that monolithic mess.
   tags:
+    - system-design
+    - mcp
+    - visualization
     - architecture
     - diagramming
-    - mcp
-    - protocol
-    - schema
-    - servers
-    - system-design
-    - visual-coding
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: The tool augments coding assistants like Claude Code by providing a bridge to visualize and document codebase architecture on a canvas.
   evidence:
-    - Listed in the 'awesome-mcp-servers' directory under the section 'Community Servers'.
-    - The URL 'schemaflow.dev' and name imply a focus on schema-related MCP server tooling.
-    - "included: The project is listed in awesome-mcp-servers and the domain name indicates a focus on MCP server infrastructure for schema handling."
-    - Connects to Claude Code or Codex via an MCP server
-    - Primary product is an infinite canvas for system design
-    - Claims to turn codebases into diagrams automatically
-    - "included: It functions as a capability extension for coding assistants via MCP, providing the ability to translate code into visual architecture."
+    - Provides an MCP connection to Claude Code and Codex to map repositories
+    - Core value is mapping codebases to system design diagrams
+    - The primary product identity is a design canvas that uses MCP to augment agent capabilities
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:37.654Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for schemaflow__dev: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:13:10.388Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f5c5070f72d278e1ab2c454a2c818e3392e12af49550af0a6a8e9e6711a780dd
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool augments coding assistants like Claude Code by providing a bridge to visualize and document codebase architecture on a canvas.
+      decision_evidence:
+        - Provides an MCP connection to Claude Code and Codex to map repositories
+        - Core value is mapping codebases to system design diagrams
+        - The primary product identity is a design canvas that uses MCP to augment agent capabilities
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the primary product is a design canvas that uses MCP to augment agent capabilities rather than being a dedicated MCP infrastructure utility.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-06-22T05:53:30.456Z"

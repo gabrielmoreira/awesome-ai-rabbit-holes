@@ -39,22 +39,22 @@ metadata:
       fetched_at: "2026-08-24T04:21:04.958Z"
       bytes: 3267
 insights:
-  summary: OpenAGI is a Python package and SDK for creating, uploading, and downloading modular AI agents designed to run on the AIOS kernel.
-  why_it_matters: It provides the structural scaffolding for developers to build and share domain-specific autonomous agents within the AIOS ecosystem.
-  mental_damage: Just when you thought you had enough agent frameworks to choose from, here is another one that politely asks you to migrate to its newer sibling, Cerebrum, leaving you to wonder if your code will outlive the week.
+  summary: A package and SDK designed for creating and structuring agents to work within the AIOS ecosystem.
+  why_it_matters: It provides a standardized developer workflow and directory structure for packaging agent logic, configurations, and tool dependencies.
+  mental_damage: Another layer of abstraction to manage between your prompt and the actual execution of the task.
   tags:
-    - agents
+    - agent-frameworks
     - sdk
-    - framework
     - aios
-  confidence: medium
+    - agent-creation
+  confidence: high
 curation:
   status: included
-  reason: The project is primarily a code-first SDK (pyopenagi) used to script and build modular agents, fitting the 'Frameworks & SDKs' definition over an operated platform or standalone coding assistant.
+  reason: The project is primarily a code-first SDK and library used by developers to build and package agents.
   evidence:
-    - "README states: 'OpenAGI is used as the agent creation package to build agents for AIOS' and directs users to install via pip (pyopenagi)."
-    - The project provides a specific folder structure and a Python CLI (interact.py) for developers to add, upload, and download agent code.
-    - The README explicitly advises migrating to 'Cerebrum' for building agents in AIOS, signaling OpenAGI is the underlying code library.
+    - README explicitly describes it as a 'Package for AI Agent Creation'
+    - Distributed as a Python package via pip (pyopenagi)
+    - Provides a specific structured implementation pattern for agent and tool development
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -73,12 +73,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:58.400Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__agiresearch__openagi: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:11:25.223Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:10ac51e37a3136319f786149febec531cad6de120b33c500253d6c8079d073cd
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The project is primarily a code-first SDK and library used by developers to build and package agents.
+      decision_evidence:
+        - README explicitly describes it as a 'Package for AI Agent Creation'
+        - Distributed as a Python package via pip (pyopenagi)
+        - Provides a specific structured implementation pattern for agent and tool development
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is primarily a code-first SDK meant to be imported and scripted against rather than an operated control plane or workbench.
+      review_reason: null
+      review_resume_lifecycle: null

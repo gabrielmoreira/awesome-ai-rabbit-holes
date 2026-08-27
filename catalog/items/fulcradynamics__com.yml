@@ -51,45 +51,56 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A unified, human-owned memory layer that allows AI agents to read and contribute persistent context across different platforms and sessions.
-  why_it_matters: It solves the fragmented context problem by providing a single source of truth for personal data and state that can be shared across multiple agents via a Life API and MCP server.
-  mental_damage: The dream of a 'Personal Data OS' is just a fancy way of saying we're now managing a database of our own existence so our agents don't forget we're allergic to peanuts every time we start a new chat.
+  summary: A unified, user-owned context backend that provides a persistent 'context lake' for AI agents to share data, memory, and knowledge.
+  why_it_matters: It solves the fragmentation problem where different AI agents or models have no shared awareness of a user's history, files, or previous agent interactions.
+  mental_damage: Because now your agents can finally build a coherent, shared personality based on the digital wreckage of your life.
   tags:
-    - agents
     - context
-    - context-layer
-    - life-api
-    - mcp
     - memory
-    - personal-data
+    - mcp
+    - sdk
+    - agent-infrastructure
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: The product's core value is providing the memory and retrieval infrastructure necessary to maintain context across disparate AI agents.
   evidence:
-    - Claims to be a 'memory layer you own' and 'one unified memory' for agents.
-    - Focuses on 'Readable and controllable' memory stores and 'dynamic memory features'.
-    - Provides a 'Life API' and 'MCP Server' to deliver this context to other LLMs.
-    - "included: The core product identity is a memory and retrieval system for shaping context, rather than being an agent or a simple integration."
-    - "Scraped site explicitly states: 'Fulcra’s personal data MCP server is AVAILABLE NOW.'"
-    - Site includes dedicated 'Personal MCP Server', 'MCP Documentation', 'Fulcra + Claude', and 'For Agents' sections.
-    - Included in awesome-mcp-servers under Official Servers, reinforcing its MCP domain identity.
-    - "included: The product’s primary technical identity includes a personal MCP server that exposes user context to agents, making it a domain-specific MCP server rather than a generic wellness app."
+    - Explicitly describes itself as a 'unified, user-owned context backend for AI agents'.
+    - Offers a 'context lake' of structured and unstructured data to prevent agents from being 'brilliant strangers'.
+    - Provides a Python SDK and MCP server to integrate this memory into existing workflows.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:57.937Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for fulcradynamics__com: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:11:14.267Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:530a951d0e9e03c2125e9c1366e6db07697c3ca94369fa1216d79facc0280453
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The product's core value is providing the memory and retrieval infrastructure necessary to maintain context across disparate AI agents.
+      decision_evidence:
+        - Explicitly describes itself as a 'unified, user-owned context backend for AI agents'.
+        - Offers a 'context lake' of structured and unstructured data to prevent agents from being 'brilliant strangers'.
+        - Provides a Python SDK and MCP server to integrate this memory into existing workflows.
+      category_candidates:
+        - context-engineering
+        - ai-frameworks
+      contrastive_reason: Choose context-engineering over ai-frameworks because the core product identity is the management of agent memory and context rather than being a general-purpose developer library.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-06-11T05:37:56.131Z"

@@ -23,7 +23,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 166
+    stars: 170
     forks: 14
     license: MIT
     archived: false
@@ -51,23 +51,30 @@ metadata:
       - slack-bot
       - telegram-bot
       - webui
-    last_checked_at: "2026-08-20T04:18:14.293Z"
+    last_checked_at: "2026-08-27T06:08:46.908Z"
     readme:
-      fetched_at: "2026-08-20T04:18:14.293Z"
+      fetched_at: "2026-08-27T06:08:46.908Z"
       bytes: 13928
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: ClawFleet is a self-hosted Docker-based fleet manager for running isolated instances of AI agents like OpenClaw and Hermes with a browser dashboard.
+  why_it_matters: It lets developers run and manage multiple local AI agents without cloud costs, using their own API keys and hardware.
+  mental_damage: Finally, a way to feel like a Silicon Valley CEO by orchestrating a fleet of AI interns from your laptop’s terminal.
+  tags:
+    - self-hosted
+    - docker
+    - ai-agents
+    - fleet-management
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: ClawFleet is primarily a control plane for managing multiple isolated AI agent instances via a dashboard, making it an orchestration platform rather than a coding agent itself.
+  evidence:
+    - "Repo description: 'Deploy a fleet of AI agents [...] Open-source fleet manager with browser dashboard'"
+    - "README: 'Run a fleet of AI agents on your laptop in 5 minutes — OpenClaw and Hermes in isolated containers, managed from one browser dashboard'"
+    - Features include sandboxed Docker instances, skill management, Soul Archive, and multi-runtime support — all orchestrated via CLI and UI
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (166) exceeded threshold (150)
@@ -79,10 +86,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:14.293Z"
+    updated_at: "2026-08-27T06:08:46.908Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:26:07.891Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b61ca5da7158ec282cabf1ea04c12d9b00b52a09089bbacedae3c6185ba783b9
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: ClawFleet is primarily a control plane for managing multiple isolated AI agent instances via a dashboard, making it an orchestration platform rather than a coding agent itself.
+      decision_evidence:
+        - "Repo description: 'Deploy a fleet of AI agents [...] Open-source fleet manager with browser dashboard'"
+        - "README: 'Run a fleet of AI agents on your laptop in 5 minutes — OpenClaw and Hermes in isolated containers, managed from one browser dashboard'"
+        - Features include sandboxed Docker instances, skill management, Soul Archive, and multi-runtime support — all orchestrated via CLI and UI
+      category_candidates:
+        - agent-orchestration
+        - local-ai
+      contrastive_reason: Choose agent-orchestration over local-ai because while it enables local AI execution, its core value is coordinating multiple agents via a dashboard and CLI, not just running models locally.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

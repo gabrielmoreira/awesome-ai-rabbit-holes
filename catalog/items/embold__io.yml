@@ -36,26 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Embold is a static code analysis platform that detects structural design issues, security vulnerabilities, and code smells, with integrations for CI/CD pipelines and IDE plugins.
-  why_it_matters: It integrates directly into developer workflows via IDE extensions and pull request scanning to catch architectural debt and anti-patterns before they reach production.
-  mental_damage: Yet another platform promising to automate code quality, just in case your AI agent didn't already introduce enough hidden design debt to keep a team of architects busy until 2028.
+  summary: A static code analysis platform that automates the detection of technical debt, security vulnerabilities, and structural anti-patterns.
+  why_it_matters: It helps teams maintain code quality and security by surfacing structural issues and smells during the development and pull request process.
+  mental_damage: It provides a centralized dashboard to quantify exactly how much technical debt you are currently accruing.
   tags:
-    - code-quality
     - static-analysis
-    - ci-cd
+    - code-quality
+    - technical-debt
+    - code-review
     - security
-    - refactoring
   confidence: high
 curation:
-  status: excluded
-  reason: Embold is a traditional static analysis and code quality platform rather than an AI-native tool, agent, or developer workflow product fitting the catalog's scope.
+  status: included
+  reason: It functions as an automated code reviewer that identifies anti-patterns and vulnerabilities across the development lifecycle.
   evidence:
-    - Product description and page excerpt focus on static code analysis, anti-pattern detection, and technical debt measurement with no mention of AI-assisted coding or agentic workflows.
-    - Listed in awesome-ai-coding-tools under 'Code Review and Refactoring', but the tool itself is a conventional SaaS analysis platform rather than an AI coding assistant.
-    - No signals of AI-native features such as prompt-driven development, coding agents, or LLM-powered refactoring in the provided site context.
+    - Product claims to identify vulnerabilities, anti-patterns, and code smells.
+    - Features automated pull request reviews for GitHub, GitLab, Bitbucket, and Azure DevOps.
+    - Provides refactoring support and IDE plugins for VS Code, IntelliJ, and Visual Studio.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: incubating
   reason: null
@@ -70,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:57.475Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for embold__io: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:11:04.391Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:fe1d33194ca63bf210b7da5df67c881810c7fda1d2b8ee5f3ca48a723aa87047
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It functions as an automated code reviewer that identifies anti-patterns and vulnerabilities across the development lifecycle.
+      decision_evidence:
+        - Product claims to identify vulnerabilities, anti-patterns, and code smells.
+        - Features automated pull request reviews for GitHub, GitLab, Bitbucket, and Azure DevOps.
+        - Provides refactoring support and IDE plugins for VS Code, IntelliJ, and Visual Studio.
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because it is a standalone analysis platform with its own workflow and UI, rather than just a plugin for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null

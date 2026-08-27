@@ -55,15 +55,19 @@ metadata:
       fetched_at: "2026-08-24T04:20:59.472Z"
       bytes: 49
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An abandoned AI agent project that is explicitly marked as no longer supported.
+  why_it_matters: It provides no functional utility or documentation for current developer workflows.
+  mental_damage: A stark reminder of how quickly the AI tooling landscape can turn into a digital graveyard.
+  tags:
+    - unsupported
+    - legacy
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The project is explicitly marked as no longer supported in the README and provides no description of its original functionality.
+  evidence:
+    - "README states: 'This project is no longer supported.'"
+    - No repository description provided to determine original purpose.
 placement:
   primary_category: null
   section: null
@@ -82,6 +86,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:22:54.254Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bb032cc6c4bd6e4cb8246976ad60abf4d7c018533e05abe5cc11bb9268f4b67d
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is explicitly marked as no longer supported in the README and provides no description of its original functionality.
+      decision_evidence:
+        - "README states: 'This project is no longer supported.'"
+        - No repository description provided to determine original purpose.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

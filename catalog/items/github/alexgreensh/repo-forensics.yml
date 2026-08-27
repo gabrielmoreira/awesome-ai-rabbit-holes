@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 157
-    forks: 23
+    stars: 165
+    forks: 26
     license: NOASSERTION
     archived: false
     full_name: alexgreensh/repo-forensics
     html_url: https://github.com/alexgreensh/repo-forensics
     created_at: "2026-02-27T19:49:15Z"
-    pushed_at: "2026-08-17T20:59:33Z"
+    pushed_at: "2026-08-26T11:38:13Z"
     description: Offline security scanner for AI-agent repos, skills, plugins, and MCP servers.
     homepage: ""
     topics:
@@ -53,23 +53,30 @@ metadata:
       - security-tools
       - static-analysis
       - supply-chain-security
-    last_checked_at: "2026-08-20T04:18:01.906Z"
+    last_checked_at: "2026-08-27T06:08:26.459Z"
     readme:
-      fetched_at: "2026-08-20T04:18:01.906Z"
-      bytes: 44711
+      fetched_at: "2026-08-27T06:08:26.459Z"
+      bytes: 47254
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Offline security scanner for auditing AI-agent skills, plugins, and MCP servers.
+  why_it_matters: It provides a local vetting step to prevent malicious third-party agent components from accessing sensitive files or credentials.
+  mental_damage: It adds a necessary, highly uncomfortable layer of paranoia to the 'install and forget' agent workflow.
+  tags:
+    - security
+    - ai-agents
+    - mcp
+    - audit
+    - devops
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It functions as a security and testing add-on for the agent ecosystem, providing a vetting workflow for third-party skills and MCP servers.
+  evidence:
+    - Offline security scanner for AI-agent repos, skills, and MCP servers
+    - Supports vetting for Claude Code, OpenClaw, and Cursor environments
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Testing & QA Add-ons
 lifecycle:
   status: promotion_candidate
   reason: Stars (157) exceeded threshold (150)
@@ -81,10 +88,31 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:01.906Z"
+    updated_at: "2026-08-27T06:08:26.459Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:24:58.445Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0816b087f5ae3da9b46ddf0fb278811d863879ced45fb189429b000f16f497eb
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: It functions as a security and testing add-on for the agent ecosystem, providing a vetting workflow for third-party skills and MCP servers.
+      decision_evidence:
+        - Offline security scanner for AI-agent repos, skills, and MCP servers
+        - Supports vetting for Claude Code, OpenClaw, and Cursor environments
+      category_candidates:
+        - ai-dev-extensions
+        - evals
+      contrastive_reason: Choose ai-dev-extensions over evals because the tool provides security auditing and component vetting rather than measuring model or prompt performance.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -51,47 +51,54 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A real-time search and extraction engine designed specifically to ground AI agents and RAG workflows with fresh web data.
-  why_it_matters: It solves the 'stale knowledge' problem by providing developers with a high-speed, API-driven way to feed current web context into LLMs without building a custom crawler.
-  mental_damage: The comforting realization that your agent's 'reasoning' is actually just a very fast Google search filtered through a prompt.
+  summary: A real-time search and content extraction API designed to provide fresh web context for AI agents and RAG workflows.
+  why_it_matters: It allows developers to ground agentic reasoning in live web data, significantly reducing hallucinations caused by model training cutoffs.
+  mental_damage: At least now your agent can search the live web to confirm its own hallucinations in real-time.
   tags:
-    - agent-infra
-    - agents
-    - context-window
-    - mcp
+    - search
     - rag
-    - real-time-data
-    - search-api
-    - web-scraping
-    - web-search
+    - retrieval
+    - api
+    - context
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: The tool's core novelty is providing retrieval and fresh-doc lookup to improve the context fed into LLMs.
   evidence:
-    - Site context describes it as a 'real-time search engine for AI agents' and 'fresh-doc lookup'.
-    - Claims to 'ground' models and provide 'context retrieval' to prevent hallucinations.
-    - Included in 'awesome-mcp-servers' but provides a broader API service beyond just an MCP server.
-    - "included: The product's core identity is the infrastructure for retrieval and fresh-doc lookup to prevent hallucinations, which fits the context-engineering definition perfectly."
-    - Listed in awesome-mcp-servers under 'Official Servers' with the purpose 'real-time search engine for AI agents'.
-    - Scraped site describes it as 'the web access layer for agents' with search, extract, crawl, and research endpoints.
-    - Site states 'Drop-in integration with leading LLM providers (OpenAI, Anthropic, Groq)' and highlights MCP Marketplace partnerships.
-    - "included: Tavily is included as an MCP server because it is listed under 'Official Servers' in awesome-mcp-servers and its core value to developers is providing web access via the Model Context Protocol."
+    - Scraped description identifies it as a real-time search engine for AI agents and RAG workflows
+    - Primary page excerpt states its purpose is to ground models with fresh web context to prevent hallucination
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:38.057Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for tavily__com: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:13:24.361Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7f90aedf1b8e6680ae5e88e6e606a0363c3ea2a218ae22e293ce1755adb55ba3
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The tool's core novelty is providing retrieval and fresh-doc lookup to improve the context fed into LLMs.
+      decision_evidence:
+        - Scraped description identifies it as a real-time search engine for AI agents and RAG workflows
+        - Primary page excerpt states its purpose is to ground models with fresh web context to prevent hallucination
+      category_candidates:
+        - context-engineering
+        - ai-frameworks
+      contrastive_reason: Choose context-engineering over ai-frameworks because its primary functional identity is retrieval and context-shaping infrastructure rather than a general-purpose developer library.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-06-04T05:40:27.161Z"

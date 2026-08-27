@@ -49,15 +49,23 @@ metadata:
       fetched_at: "2026-08-24T04:21:14.491Z"
       bytes: 4328
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Notula is a WYSIWYG Markdown editor for docs as code that enables non-technical team members to edit documentation in a Git repository using a visual interface.
+  why_it_matters: It bridges the gap between technical and non-technical contributors by allowing documentation edits without requiring Git or Markdown knowledge, keeping changes as clean diffs in version control.
+  mental_damage: Finally, a tool that lets your product manager 'fix' the docs while pretending they’re not creating merge conflicts you’ll have to resolve later.
+  tags:
+    - documentation
+    - wysiwyg
+    - docs-as-code
+    - git
+    - markdown-editor
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Notula is a documentation editor focused on WYSIWYG Markdown editing for non-technical users, not a developer-facing AI tool, agent, workflow, or infrastructure product.
+  evidence:
+    - "Repo description: 'Notula - a WYSIWYG Markdown editor for docs as code. The whole team works on the Markdown in your repo, including the people who do not use git.'"
+    - README emphasizes WYSIWYG editing, comment threads in repos, and UI for non-technical contributors — no AI, automation, coding assistance, or agent behavior is mentioned.
+    - No claims of AI integration, LLM use, prompt engineering, agent orchestration, or any developer-tooling AI functionality appear in the inputs.
 placement:
   primary_category: null
   section: null
@@ -76,6 +84,26 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:24:58.631Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:67ac8ea3e74b57689f32b04ca42e538a4fc25b9c9f22dc438231ed79f52cc23a
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Notula is a documentation editor focused on WYSIWYG Markdown editing for non-technical users, not a developer-facing AI tool, agent, workflow, or infrastructure product.
+      decision_evidence:
+        - "Repo description: 'Notula - a WYSIWYG Markdown editor for docs as code. The whole team works on the Markdown in your repo, including the people who do not use git.'"
+        - README emphasizes WYSIWYG editing, comment threads in repos, and UI for non-technical contributors — no AI, automation, coding assistance, or agent behavior is mentioned.
+        - No claims of AI integration, LLM use, prompt engineering, agent orchestration, or any developer-tooling AI functionality appear in the inputs.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -6,6 +6,22 @@ identity:
   github_repo: coder/xum
 provenance:
   discoveries:
+    - id: discovery__github__coder__mux__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-05-06T22:12:15.572Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Session managers & parallel runners
+        anchor_text: mux
+        extracted_url: https://github.com/coder/mux
+        surrounding_text: "- **[mux](https://github.com/coder/mux)** `⭐ 1.7k` — Desktop application for isolated, parallel agentic development."
+        confidence: high
     - id: discovery__github__coder__xum__awesome-list__bradagi__awesome-cli-coding-agents
       discovered_at: "2026-08-24T04:20:54.275Z"
       source:
@@ -24,49 +40,81 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1985
+    forks: 135
+    license: AGPL-3.0
+    archived: false
+    full_name: coder/xum
+    html_url: https://github.com/coder/xum
+    created_at: "2025-09-17T15:45:53Z"
+    pushed_at: "2026-08-27T06:08:22Z"
+    description: A desktop app for isolated, parallel agentic development
+    homepage: https://xum.coder.com
+    topics:
+      - agent
+      - ide
+    last_checked_at: "2026-08-27T06:08:49.344Z"
+    readme:
+      fetched_at: "2026-08-27T06:08:49.344Z"
+      bytes: 4678
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A desktop app for isolated, parallel agentic development with multi-model support and workspace management.
+  why_it_matters: Enables developers to coordinate multiple AI agents across local or remote workspaces, streamlining complex coding tasks with parallel execution and git-aware isolation.
+  mental_damage: Finally, a way to watch multiple agents argue over your codebase in parallel—because one agent’s hallucinations weren’t enough.
+  tags:
+    - desktop-app
+    - git-integration
+    - multi-agent
+    - parallel-development
+    - workspace-management
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Mux is a workbench for coordinating multiple agents in parallel workspaces, which aligns with Agent Orchestration's focus on multi-agent coordination as the primary value proposition.
+  evidence:
+    - "Repo description: 'A desktop app for isolated, parallel agentic development'"
+    - "README: 'Mux is a desktop & browser application for parallel agentic development. It enables developers to plan and execute tasks with multiple AI agents on local or remote compute.'"
+    - "Source-list context: Listed under 'Harnesses & orchestration > Session managers & parallel runners' in awesome-cli-coding-agents"
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1709) exceeded threshold (150)
 processing:
+  categorize:
+    status: done
+    updated_at: "2026-07-21T15:45:18.058Z"
+    cause: null
+    next_retry_at: null
+    attempts: 2
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b32a33be2c8d2dd20cd0344b25a0d7d64c55804c819967c22bba9226551267ca
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: Mux is a workbench for coordinating multiple agents in parallel workspaces, which aligns with Agent Orchestration's focus on multi-agent coordination as the primary value proposition.
+      decision_evidence:
+        - "Repo description: 'A desktop app for isolated, parallel agentic development'"
+        - "README: 'Mux is a desktop & browser application for parallel agentic development. It enables developers to plan and execute tasks with multiple AI agents on local or remote compute.'"
+        - "Source-list context: Listed under 'Harnesses & orchestration > Session managers & parallel runners' in awesome-cli-coding-agents"
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because Mux's core identity is coordinating multiple agents in parallel workspaces rather than acting as a primary coding assistant.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-08-24T04:20:54.276Z"
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:08:49.344Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-08-24T04:21:26.853Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null

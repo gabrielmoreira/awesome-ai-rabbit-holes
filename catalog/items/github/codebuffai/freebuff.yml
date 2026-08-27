@@ -40,39 +40,39 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 10127
-    forks: 1123
+    stars: 10895
+    forks: 1182
     license: Apache-2.0
     archived: false
     full_name: CodebuffAI/freebuff
     html_url: https://github.com/CodebuffAI/freebuff
     created_at: "2024-07-09T21:21:56Z"
-    pushed_at: "2026-08-20T03:35:47Z"
+    pushed_at: "2026-08-27T05:54:50Z"
     description: The free coding agent
     homepage: https://freebuff.com
     topics: []
-    last_checked_at: "2026-08-20T04:18:15.358Z"
+    last_checked_at: "2026-08-27T06:08:48.321Z"
     readme:
-      fetched_at: "2026-08-20T04:18:15.358Z"
-      bytes: 6703
+      fetched_at: "2026-08-27T06:08:48.321Z"
+      bytes: 6676
 insights:
-  summary: An open-source, terminal-native AI coding assistant that coordinates specialized agents to understand, edit, and validate changes across a codebase via natural language instructions.
-  why_it_matters: It offers a multi-agent CLI workflow that supports any OpenRouter model and includes an SDK for embedding custom coding agents directly into applications or CI/CD pipelines.
-  mental_damage: We have reached the stage where your terminal needs a planner, an editor, a reviewer, and a SQL-injection-fixer just to avoid writing the code ourselves.
+  summary: A suite of free, ad-supported AI coding agents accessible via CLI, desktop, web, and cloud interfaces.
+  why_it_matters: It provides developers with low-barrier access to high-end models and autonomous agentic workflows without the need for personal API keys or subscriptions.
+  mental_damage: The cognitive dissonance of being a professional software engineer while being served text ads in your terminal is a new kind of technical debt.
   tags:
+    - coding-agents
     - cli
-    - multi-agent
-    - openrouter
-    - sdk
-    - typescript
+    - desktop-app
+    - free-tier
+    - multi-model
   confidence: high
 curation:
   status: included
-  reason: The product is a standalone coding assistant that developers delegate repo work to via the terminal, fitting the primary identity of a coding agent rather than a framework or extension.
+  reason: The tool acts as a primary coding assistant that plans, edits, and runs code across multiple developer-facing interfaces.
   evidence:
-    - Repo description states 'Generate code from the terminal!' and README identifies it as 'an open-source AI coding assistant that edits your codebase'.
-    - Source list 'awesome-cli-coding-agents' explicitly categorizes it under 'Terminal-native coding agents > Open Source'.
-    - Actively maintained with a recent push date of 2026-05-06 and over 4,600 stars.
+    - Repo description explicitly calls it 'The free coding agent'
+    - README details specialized agents for codebase context, implementation, and research
+    - Offers multiple modes including a CLI and a Desktop application for local agent execution
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -81,15 +81,31 @@ lifecycle:
   reason: Stars (4624) exceeded threshold (150)
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:28.177Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__codebuffai__freebuff: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:22:07.306Z"
+    cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:23a3ea9011f0745804f1889393393899399d2b231cb9fab135d6088e8e14ead3
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The tool acts as a primary coding assistant that plans, edits, and runs code across multiple developer-facing interfaces.
+      decision_evidence:
+        - Repo description explicitly calls it 'The free coding agent'
+        - README details specialized agents for codebase context, implementation, and research
+        - Offers multiple modes including a CLI and a Desktop application for local agent execution
+      category_candidates:
+        - coding-agents
+        - app-builders
+      contrastive_reason: Choose coding-agents over app-builders because its core identity is an assistant for editing existing repositories, despite having a web-based 'prompt-to-app' component.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-08-06T05:06:55.629Z"
@@ -97,6 +113,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:15.358Z"
+    updated_at: "2026-08-27T06:08:48.321Z"
     cause: null
     next_retry_at: null

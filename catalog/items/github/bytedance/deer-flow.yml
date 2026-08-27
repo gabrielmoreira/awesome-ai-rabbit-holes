@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 80357
-    forks: 11018
+    stars: 80973
+    forks: 11145
     license: MIT
     archived: false
     full_name: bytedance/deer-flow
     html_url: https://github.com/bytedance/deer-flow
     created_at: "2025-05-07T02:50:19Z"
-    pushed_at: "2026-08-20T00:57:10Z"
+    pushed_at: "2026-08-27T02:42:42Z"
     description: An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.
     homepage: https://deerflow.tech
     topics:
@@ -53,23 +53,31 @@ metadata:
       - python
       - superagent
       - typescript
-    last_checked_at: "2026-08-20T04:18:08.982Z"
+    last_checked_at: "2026-08-27T06:08:38.927Z"
     readme:
-      fetched_at: "2026-08-20T04:18:08.982Z"
-      bytes: 117311
+      fetched_at: "2026-08-27T06:08:38.927Z"
+      bytes: 125733
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: DeerFlow is an open-source super agent harness that orchestrates sub-agents, memory, sandboxes, and skills to perform long-horizon tasks like research and coding.
+  why_it_matters: It lets developers delegate complex, multi-step workflows to a coordinated agent system instead of manually stitching together prompts and tools.
+  mental_damage: Another week, another harness promising to replace your job while you spend more time configuring its sandbox than it does coding.
+  tags:
+    - agent-harness
+    - multi-agent
+    - orchestration
+    - python
+    - nodejs
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: DeerFlow is a workbench for coordinating multiple agents with shared memory, sandboxing, and skill routing, making agent orchestration its core identity rather than a coding assistant or extension.
+  evidence:
+    - "Repo description: 'open-source long-horizon SuperAgent harness that researches, codes, and creates... orchestrates sub-agents, memory, and sandboxes'"
+    - "README: 'DeerFlow is an open-source super agent harness that orchestrates sub-agents, memory, and sandboxes to do almost anything'"
+    - Features include Sub-Agents, Sandbox & File System, Context Engineering, Long-Term Memory, and MCP Server
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: promotion_candidate
   reason: Stars (80357) exceeded threshold (150)
@@ -81,10 +89,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:08.982Z"
+    updated_at: "2026-08-27T06:08:38.927Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:25:43.449Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1acb04ce096e654e8635ce1c628858b4f2410ad2e3c366a2858de6d33b86e33b
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: DeerFlow is a workbench for coordinating multiple agents with shared memory, sandboxing, and skill routing, making agent orchestration its core identity rather than a coding assistant or extension.
+      decision_evidence:
+        - "Repo description: 'open-source long-horizon SuperAgent harness that researches, codes, and creates... orchestrates sub-agents, memory, and sandboxes'"
+        - "README: 'DeerFlow is an open-source super agent harness that orchestrates sub-agents, memory, and sandboxes to do almost anything'"
+        - Features include Sub-Agents, Sandbox & File System, Context Engineering, Long-Term Memory, and MCP Server
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because DeerFlow’s primary value is coordinating multiple agents and workflows via a harness, not acting as a standalone coding assistant that edits code directly.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -56,42 +56,55 @@ metadata:
       fetched_at: "2026-08-24T04:21:20.510Z"
       bytes: 935
 insights:
-  summary: ClaudeCodeNavi MCP Server provides a knowledge platform and marketplace for Claude Code via the Model Context Protocol.
-  why_it_matters: It lets Claude Code users search and publish community articles, snippets, and prompts directly from their development workflow.
-  mental_damage: Another MCP server promising to be your 'knowledge platform' while you juggle yet another API token and CLI command just to copy-paste Stack Overflow.
+  summary: An MCP server that integrates the ClaudeCodeNavi knowledge platform and marketplace with Claude Code.
+  why_it_matters: It allows developers to pull community-curated articles, snippets, and prompts directly into their Claude Code CLI workflow.
+  mental_damage: Because your coding agent's context window wasn't already a chaotic junk drawer of community snippets.
   tags:
-    - claude-code
-    - community
-    - knowledge-base
     - mcp
+    - claude-code
+    - knowledge-base
+    - cli
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: The project's primary identity is an MCP server providing specialized domain knowledge to a host agent.
   evidence:
-    - "Repo description: 'ClaudeCodeNavi MCP Server - Claude Code knowledge platform & marketplace'"
-    - "README: Provides MCP server functionality for Claude Code via npx -y @claudecodenavi/mcp"
-    - "Source-list context: Listed in awesome-mcp-servers under Developer Tools > Server Implementations"
-    - "included: The product is an MCP server first and foremost, offering knowledge base features as its MCP service, making MCP the core identity rather than a compatibility layer."
-    - "Repo description states: 'ClaudeCodeNavi MCP Server - Claude Code knowledge platform & marketplace'"
-    - README confirms it is an MCP server for Claude Code with features to post articles and search community knowledge
-    - Listed in awesome-mcp-servers under Server Implementations > Developer Tools
-    - "included: The product is explicitly an MCP server that extends Claude Code with access to a specific community platform, making MCP its core identity."
+    - Repo name and description explicitly identify it as an MCP server.
+    - README describes functionality for searching community articles and snippets via the Model Context Protocol.
+    - Setup instructions focus on adding the tool to Claude Code as an MCP server.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:27.091Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__asicojp__claudecodenavi-mcp: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:17:08.126Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6bc056c4e39a718e7b4af7e0030aa95d51597dae7573cf8148cc87cc078971ca
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server providing specialized domain knowledge to a host agent.
+      decision_evidence:
+        - Repo name and description explicitly identify it as an MCP server.
+        - README describes functionality for searching community articles and snippets via the Model Context Protocol.
+        - Setup instructions focus on adding the tool to Claude Code as an MCP server.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is explicitly built and identified as an MCP server rather than a general integration layer.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-05-12T15:06:19.301Z"

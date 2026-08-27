@@ -67,11 +67,11 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-08-24T04:21:27.796Z"
+    updated_at: "2026-08-27T06:20:54.090Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for x__com__badphilosopher: 403 status code (no body)"
-    attempts: 4
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for x__com__badphilosopher: Invalid AI response structure: Missing required field: why_it_matters"
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

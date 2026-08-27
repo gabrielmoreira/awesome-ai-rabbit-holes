@@ -40,22 +40,23 @@ metadata:
       fetched_at: "2026-08-24T04:20:58.451Z"
       bytes: 5698
 insights:
-  summary: A Bicep-driven Azure deployment that adds API Management as a proxy in front of an Azure OpenAI instance to funnel requests, responses, and custom headers into Application Insights for observability.
-  why_it_matters: It gives developers a batteries-included way to capture, query, and visualize every LLM call and token metric inside their own Azure subscription without building custom logging plumbing.
-  mental_damage: Yet another reminder that we now need a full observability stack just to understand how many tokens our 'simple' AI wrapper actually burned.
+  summary: A deployment solution that uses Azure API Management to proxy and log Azure OpenAI requests to Application Insights.
+  why_it_matters: It allows developers to maintain full control over LLM observability, traces, and usage metrics within their own Azure subscription.
+  mental_damage: Because nothing says 'production ready' like adding another layer of Azure infrastructure just to see why your prompts are failing.
   tags:
     - azure
     - observability
-    - llm-logging
-    - openai
+    - llmops
+    - logging
+    - tracing
   confidence: high
 curation:
   status: included
-  reason: The core job is capturing, storing, and visualizing LLM request/response data for observability and measurement, which fits the evals & observability surface rather than a coding agent or framework.
+  reason: The tool's primary purpose is the observability and tracing of model behavior, which aligns with the explicit focus of the evals category.
   evidence:
-    - "Repo description: '\"Batteries included\" logging solution for your Azure OpenAI instance.'"
-    - "README explicitly states: 'add observability to your Azure OpenAI instance' and funnels logs to Application Insights with prebuilt workbooks."
-    - Included in Awesome-LLMOps under Security > Observability, aligning with eval/observability tooling scope.
+    - Uses APIM as a proxy to funnel logs, requests, and responses to Application Insights
+    - Provides prebuilt queries and workbooks for visualizing metrics and traces
+    - Supports custom header tracking for user, plan, and application analytics
 placement:
   primary_category: evals
   section: Observability / Tracing / EvalOps
@@ -74,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:26.434Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__aavetis__azure-openai-logger: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:16:05.582Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9311e106f79c121a96707f8ff8af19db662fc0529cb69a17af32679c8b970147
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's primary purpose is the observability and tracing of model behavior, which aligns with the explicit focus of the evals category.
+      decision_evidence:
+        - Uses APIM as a proxy to funnel logs, requests, and responses to Application Insights
+        - Provides prebuilt queries and workbooks for visualizing metrics and traces
+        - Supports custom header tracking for user, plan, and application analytics
+      category_candidates:
+        - evals
+        - ai-frameworks
+      contrastive_reason: Choose evals over ai-frameworks because the tool's core identity is observability and tracing rather than a code-first provider abstraction or SDK.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An MCP server implementation hosted on GitLab that exposes tldv capabilities to Model Context Protocol-compatible AI assistants.
-  why_it_matters: It lets coding agents tap into tldv's functionality through the growing MCP ecosystem instead of requiring custom integrations.
-  mental_damage: Yet another MCP server appears in the registry, because apparently we're building a protocol to route around the fact that no single assistant can quite do it all.
+  summary: An MCP server that integrates tldv meeting recordings and transcripts into AI assistant workflows.
+  why_it_matters: It allows developers to provide AI assistants with the context of verbal discussions and meeting decisions directly through the Model Context Protocol.
+  mental_damage: Because nothing clarifies a technical requirement quite like re-reading the transcript of the 45-minute meeting where it was vaguely discussed.
   tags:
     - mcp
-    - gitlab
-    - server
-    - protocol
-  confidence: medium
+    - tldv
+    - meeting-context
+    - integrations
+  confidence: high
 curation:
   status: included
-  reason: The project is explicitly an MCP server implementation, which makes it a textbook fit for the MCP Servers & Tooling category as infrastructure that extends assistant capabilities via the Model Context Protocol.
+  reason: The project is specifically an MCP server designed to serve a particular domain (tldv meeting data) to MCP-compatible clients.
   evidence:
-    - Project name is 'tldv-mcp-server', clearly identifying it as an MCP server
-    - Listed in awesome-mcp-servers under the 'Official Servers' section
-    - Hosted on GitLab with a README indicating it is an MCP server project created April 9, 2025
+    - Project name explicitly identifies it as an mcp-server
+    - Included in the awesome-mcp-servers directory under Official Servers
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -69,12 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:40:00.100Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for gitlab__com__tldv__tldv__mcp__server: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:12:05.364Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cc162638e45fffbccacad3598db3beee8f039b7c192c1c13a189900484d86d2b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is specifically an MCP server designed to serve a particular domain (tldv meeting data) to MCP-compatible clients.
+      decision_evidence:
+        - Project name explicitly identifies it as an mcp-server
+        - Included in the awesome-mcp-servers directory under Official Servers
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a protocol-native server rather than a general IDE plugin or extension.
+      review_reason: null
+      review_resume_lifecycle: null

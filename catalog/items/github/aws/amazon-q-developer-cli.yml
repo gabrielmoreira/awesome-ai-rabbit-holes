@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1983
-    forks: 434
+    stars: 1985
+    forks: 435
     license: Apache-2.0
     archived: false
     full_name: aws/amazon-q-developer-cli
     html_url: https://github.com/aws/amazon-q-developer-cli
     created_at: "2024-09-23T18:41:22Z"
-    pushed_at: "2026-08-14T17:26:57Z"
+    pushed_at: "2026-08-24T22:13:43Z"
     description: ✨ Agentic chat experience in your terminal. Build applications using natural language.
     homepage: https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html
     topics:
@@ -49,28 +49,28 @@ metadata:
       - shell
       - terminal
       - typescript
-    last_checked_at: "2026-08-17T04:19:31.023Z"
+    last_checked_at: "2026-08-27T06:08:27.933Z"
     readme:
-      fetched_at: "2026-08-17T04:19:31.023Z"
+      fetched_at: "2026-08-27T06:08:27.933Z"
       bytes: 2849
 insights:
-  summary: AWS's open-source terminal-native AI coding agent that lets developers build applications and interact with Amazon Q Developer using natural language in the command line.
-  why_it_matters: It provides a Rust-based, locally installable CLI for developers who want agentic coding assistance directly in their terminal without leaving the shell environment.
-  mental_damage: AWS built an open-source coding agent, realized running it cost real money, and promptly pivoted it into the closed-source Kiro CLI, leaving 1,947 stargazers with a security-only maintenance ghost town.
+  summary: An agentic terminal interface for building applications using natural language.
+  why_it_matters: It brings AI-driven task execution and code generation directly into the developer's command line workflow.
+  mental_damage: The bittersweet experience of relying on a tool that is effectively a ghost of its former open-source self.
   tags:
     - cli
-    - aws
-    - agent
     - terminal
+    - coding-agent
+    - aws
     - rust
   confidence: high
 curation:
   status: included
-  reason: It is a standalone terminal-native coding agent that reads code, plans changes, and executes tasks via natural language, fitting the primary assistant definition for the coding-agents category.
+  reason: It functions as a standalone terminal-based coding assistant.
   evidence:
-    - Repo description explicitly states 'Agentic chat experience in your terminal. Build applications using natural language.'
-    - Source list 'awesome-cli-coding-agents' includes it under 'Terminal-native coding agents > Open Source'.
-    - README notes the repo is no longer actively maintained and directs users to the closed-source Kiro CLI successor.
+    - The tool provides an agentic chat experience directly in the terminal.
+    - It has significant ecosystem traction with nearly 2,000 stars.
+    - The README explicitly notes the project is no longer actively maintained and has moved to a closed-source successor (Kiro CLI).
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -84,19 +84,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-08-24T04:21:24.299Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for aws/amazon-q-developer-cli
+    status: done
+    updated_at: "2026-08-27T06:08:27.933Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-24T04:21:26.853Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T06:18:37.837Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b2ad28753ddeaf29d61f058d1a91ec9864959766406c9a618d2b363c0fb2ae93
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It functions as a standalone terminal-based coding assistant.
+      decision_evidence:
+        - The tool provides an agentic chat experience directly in the terminal.
+        - It has significant ecosystem traction with nearly 2,000 stars.
+        - The README explicitly notes the project is no longer actively maintained and has moved to a closed-source successor (Kiro CLI).
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because it acts as a primary assistant in the shell rather than augmenting an existing editor or agent.
+      review_reason: null
+      review_resume_lifecycle: null

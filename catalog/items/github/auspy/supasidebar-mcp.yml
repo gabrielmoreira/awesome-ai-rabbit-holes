@@ -67,6 +67,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-08-27T06:25:33.008Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__auspy__supasidebar-mcp: Invalid AI response format: SyntaxError: Unexpected token 'I', ...\"_reason\": It is an M\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

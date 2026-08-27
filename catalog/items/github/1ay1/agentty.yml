@@ -60,18 +60,26 @@ metadata:
       fetched_at: "2026-08-24T04:20:55.551Z"
       bytes: 18853
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A terminal-native coding agent distributed as a single C++ static binary with low-latency startup.
+  why_it_matters: Provides a lightweight, model-agnostic alternative to heavy Node- or Python-based agents, featuring built-in local RAG and sandboxed execution.
+  mental_damage: Because our terminal environments weren't already cluttered enough with competing, single-binary AI abstractions.
+  tags:
+    - terminal
+    - coding-agent
+    - cpp
+    - rag
+    - cli
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool is a standalone coding assistant designed to plan and execute repository work directly in the terminal.
+  evidence:
+    - Marketed explicitly as a 'Claude Code alternative'
+    - Primary identity is a single static binary for terminal-based pair programming
+    - Includes full autonomous tool suites for reading, writing, and executing shell commands
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (190) exceeded threshold (150)
@@ -87,6 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:22:15.488Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a698f744e5dd5cc2e0c03ac006436d8858794e1f53ddedb5f1102234d2c2c3fa
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The tool is a standalone coding assistant designed to plan and execute repository work directly in the terminal.
+      decision_evidence:
+        - Marketed explicitly as a 'Claude Code alternative'
+        - Primary identity is a single static binary for terminal-based pair programming
+        - Includes full autonomous tool suites for reading, writing, and executing shell commands
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool's primary identity is a standalone terminal agent rather than a plugin meant to augment an existing editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

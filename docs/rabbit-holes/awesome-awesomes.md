@@ -275,7 +275,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `vector-search` `awesome-list` `similarity-search` `curated-directory`
   </details>
 
-- **[awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents)** `⭐ 1.5k` `updated ≤30d` A curated list of LLM agent frameworks and development tools. <details><summary>More about</summary>
+- **[awesome-llm-agents](https://github.com/kaushikb11/awesome-llm-agents)** `⭐ 1.5k` `updated ≤90d` A curated list of LLM agent frameworks and development tools. <details><summary>More about</summary>
 
   Provides developers with a navigable map of agent frameworks, saving time in discovering and comparing options for building AI agents.
 
@@ -311,7 +311,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `ai-agents` `sdk` `framework` `directory`
   </details>
 
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 1k` `updated ≤30d` Curated directory of terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 1.1k` `updated ≤30d` Curated directory of terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
 
   Developers can discover and compare CLI-based coding agents and their orchestration tools in one place.
 
@@ -347,7 +347,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `developer-tools`
   </details>
 
-- **[Awesome Vibe Coding](https://github.com/awesome-vibe-coding/awesome-vibe-coding)** `⭐ 814` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
+- **[Awesome Vibe Coding](https://github.com/awesome-vibe-coding/awesome-vibe-coding)** `⭐ 823` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
 
   It provides a centralized directory for the emerging 'vibe coding' workflow, gathering high-level builders and IDEs focused on prompt-driven development.
 
@@ -495,6 +495,15 @@ _These are new or low-traffic entries being watched._
   `awesome-list` `ai-agents` `curated` `discovery`
   </details>
 
+- **[awesome-agent-protocols](https://github.com/commune-dev/awesome-agent-protocols)** `⭐ 1` `updated ≤90d` Curated list of protocols for AI agent communication, including email, SMS, MCP, webhooks, inter-agent messaging, message queues, and notification routing. <details><summary>More about</summary>
+
+  Developers building multi-agent systems can use this as a starting map for choosing communication standards and tooling.
+
+  _Because nothing says 'production-ready' like a list that includes both SMTP and the A2A Protocol in the same breath._
+
+  `awesome-list` `agent-protocols` `mcp` `inter-agent` `developer-tools`
+  </details>
+
 - **[awesome-agentic-ai](https://github.com/mlnjsh/awesome-agentic-ai)** `⭐ 1` `updated ≤180d` A curated awesome list collecting frameworks, papers, tools, and resources for building autonomous AI agents and multi-agent systems. <details><summary>More about</summary>
 
   Developers can use it as a navigation map to discover established agent frameworks, architectures, and evaluation benchmarks without wading through the broader ecosystem noise.
@@ -502,15 +511,6 @@ _These are new or low-traffic entries being watched._
   _Yet another taxonomy of agentic ambition, carefully organized so you can feel productive while postponing the realization that your own agent still can't reliably run a linter._
 
   `awesome-list` `agentic-ai` `multi-agent` `resources` `directory`
-  </details>
-
-- **[awesome-agent-protocols](https://github.com/commune-dev/awesome-agent-protocols)** `⭐ 0` `updated ≤90d` Curated list of protocols for AI agent communication, including email, SMS, MCP, webhooks, inter-agent messaging, message queues, and notification routing. <details><summary>More about</summary>
-
-  Developers building multi-agent systems can use this as a starting map for choosing communication standards and tooling.
-
-  _Because nothing says 'production-ready' like a list that includes both SMTP and the A2A Protocol in the same breath._
-
-  `awesome-list` `agent-protocols` `mcp` `inter-agent` `developer-tools`
   </details>
 
 - **[![Forkers repo roster for @WangRongsheng/awesome-LLM-resourses](https://reporoster.com/forks/WangRongsheng/awesome-LLM-resourses)** A curated list of LLM resources covering multimodal generation, agents, coding assistance, AI review, data processing, model training, inference, o1 models, MCP, small language models, and vision-language models. <details><summary>More about</summary>
@@ -603,11 +603,11 @@ _These are new or low-traffic entries being watched._
   `comparison` `pricing` `productivity` `ide` `ai-tools`
   </details>
 
-- **[Cursor MCP Directory](https://cursor.directory/mcp)** A Cursor-hosted directory page listing Model Context Protocol (MCP) servers and tools for extending AI coding assistants. <details><summary>More about</summary>
+- **[Cursor MCP Directory](https://cursor.directory/mcp)** A curated directory of MCP (Model Context Protocol) servers and resources. <details><summary>More about</summary>
 
-  It serves as a centralized discovery surface for developers looking to extend their coding agents with new MCP-compatible capabilities.
+  It helps developers discover specific tools and connections to extend their AI assistants' capabilities via the Model Context Protocol.
 
-  _Just when you thought keeping up with the AI tooling ecosystem was hard, we now have directories of directories built to index the adapters that help your adapters talk to other adapters._
+  _Another specialized directory to add to your growing collection of 'must-check' tabs._
 
   `mcp` `directory` `cursor` `discovery`
   </details>

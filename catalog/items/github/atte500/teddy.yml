@@ -40,18 +40,26 @@ metadata:
       fetched_at: "2026-08-24T04:21:21.802Z"
       bytes: 10336
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: TeDDy is a terminal-based coding harness that uses Markdown files as the interface to enforce test-driven development and hexagonal architecture via specialized AI agents.
+  why_it_matters: It aims to reduce AI-generated code defects by enforcing proven software engineering practices directly in the agent workflow.
+  mental_damage: Another opinionated framework that replaces one black box (the LLM) with another (XML-driven agent roles and Markdown phase gates).
+  tags:
+    - coding-harness
+    - test-driven-development
+    - markdown-interface
+    - hexagonal-architecture
+    - local-first
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: TeDDy functions as a standalone terminal-native coding agent that plans, writes, tests, and iterates on code using Markdown-specified workflows, fitting the coding-agents category despite its opinionated harness design.
+  evidence:
+    - "Repo description: 'xCogito on YouTube' (indicating video-driven project, but README clarifies it's a coding harness)"
+    - "README: Uses 'Markdown as Interface', enforces TDD (Red-Green-Refactor), Git-based incremental commits, and hexagonal architecture via specialized agents"
+    - "README: Agents write tests first, run pre-commit hooks, and deliver vertical slices via Gherkin scenarios to prevent defect compounding"
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
@@ -67,6 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:25:28.693Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f50f9e9c7aa8b69893da72e8541eded48b9090184f11460c7a2c3acf47120ee8
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: TeDDy functions as a standalone terminal-native coding agent that plans, writes, tests, and iterates on code using Markdown-specified workflows, fitting the coding-agents category despite its opinionated harness design.
+      decision_evidence:
+        - "Repo description: 'xCogito on YouTube' (indicating video-driven project, but README clarifies it's a coding harness)"
+        - "README: Uses 'Markdown as Interface', enforces TDD (Red-Green-Refactor), Git-based incremental commits, and hexagonal architecture via specialized agents"
+        - "README: Agents write tests first, run pre-commit hooks, and deliver vertical slices via Gherkin scenarios to prevent defect compounding"
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because TeDDy is a standalone harness where the agent directly plans and edits code via prescribed workflows, not an add-on that augments another assistant with host integrations.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -60,15 +60,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-08-24T04:21:23.161Z"
+    status: failed
+    updated_at: "2026-08-27T06:08:27.022Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for autoreason/swarm
+      type: github_repo_missing
+      message: "GitHub repository not found: autoreason/swarm"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-24T04:21:26.853Z"
+    updated_at: "2026-08-27T06:08:56.716Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -24,20 +24,20 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 272
-    forks: 33
+    stars: 276
+    forks: 35
     license: NOASSERTION
     archived: false
     full_name: augmentcode/auggie
     html_url: https://github.com/augmentcode/auggie
     created_at: "2025-09-08T20:43:39Z"
-    pushed_at: "2026-08-20T00:14:18Z"
+    pushed_at: "2026-08-26T23:09:37Z"
     description: An AI agent that brings Augment Code's power to the terminal.
     homepage: https://www.augmentcode.com/
     topics: []
-    last_checked_at: "2026-08-20T04:18:02.297Z"
+    last_checked_at: "2026-08-27T06:08:26.991Z"
     readme:
-      fetched_at: "2026-08-20T04:18:02.297Z"
+      fetched_at: "2026-08-27T06:08:26.991Z"
       bytes: 2872
 insights:
   summary: null
@@ -63,10 +63,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:02.297Z"
+    updated_at: "2026-08-27T06:08:26.991Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-08-27T06:25:30.289Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__augmentcode__auggie: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": Auggie is \"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

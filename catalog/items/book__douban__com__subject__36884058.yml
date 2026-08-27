@@ -36,23 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Chinese-language introductory book teaching developers how to build AI agents using OpenAI API, LangChain, LlamaIndex, AutoGen, and MetaGPT through seven hands-on projects.
-  why_it_matters: It provides a structured, code-heavy curriculum for developers looking to move from basic LLM usage to building functional, multi-step agent systems with popular frameworks.
-  mental_damage: Another curated resource promising to tame the Agent chaos, ensuring you can build seven different agents while the frameworks they use rewrite their APIs for the eighth time.
+  summary: "A technical book titled 'Large Model Application Development: Hands-on AI Agents' covering Agent design, frameworks, and implementation patterns."
+  why_it_matters: It provides a structured, practical guide for developers to move from basic LLM prompting to building complex, multi-agent workflows using tools like LangChain and LlamaIndex.
+  mental_damage: Spending dozens of hours mastering the specific implementation details of a framework only to find the entire ecosystem has shifted to a new paradigm by the time you finish the last chapter.
   tags:
-    - agents
+    - ai-agents
+    - learning-resource
     - langchain
-    - llm-book
-    - tutorial
-    - openai
+    - llm-development
   confidence: high
 curation:
   status: excluded
-  reason: This is a published book and educational media resource, not a developer tool, framework, or product; it belongs in a reading list, not a tooling catalog.
+  reason: This is an educational book (media resource) rather than a standalone software tool, framework, or agent.
   evidence:
-    - The source URL is a Douban book page (book.douban.com), identifying it as a commercial publication.
-    - The content is described as a book with 288 pages covering theory and 'hands-on' projects, not a software toolkit.
-    - It appears in the source list under the section '书籍 Book' (Books), confirming its identity as literature rather than tooling.
+    - The URL is a Douban book subject page.
+    - The content is an instructional guide for learning, not a functional software product.
 placement:
   primary_category: null
   section: null
@@ -70,12 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:40.218Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for book__douban__com__subject__36884058: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:14:32.315Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f332e424bbb44d2f2b8b42d173668797c9a6e94da7d9474ca44c4e49ceea0ed8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational book (media resource) rather than a standalone software tool, framework, or agent.
+      decision_evidence:
+        - The URL is a Douban book subject page.
+        - The content is an instructional guide for learning, not a functional software product.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

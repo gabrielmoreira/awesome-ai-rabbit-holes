@@ -36,18 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An enterprise platform for building, deploying, and governing AI agents for regulated knowledge work.
+  why_it_matters: It provides the identity, governance, and secure deployment infrastructure (VPC/air-gapped) required to move agents from simple chatbots to reliable enterprise coworkers.
+  mental_damage: Because the next step in your onboarding checklist is 'assigning identity credentials and permission attenuation to your artificial employees'.
+  tags:
+    - agent-orchestration
+    - enterprise-ai
+    - governance
+    - infrastructure
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is an operated control plane (Olympus) designed for the orchestration, identity management, and governance of multiple agents in enterprise environments.
+  evidence:
+    - Platform (Olympus) provides identity, governance, permissions, and review infrastructure
+    - Supports deployment in VPC, on-prem, and air-gapped environments
+    - Focuses on automating complex, regulated workflows in finance, legal, and audit
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Vertical Orchestration Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -62,10 +69,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:27.174Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for athenaintelligence__ai: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:17:25.899Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0fe2c72f663f934719e3d1cca4d9df67ba9544c8a528551a13872d53fc813ce0
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: It is an operated control plane (Olympus) designed for the orchestration, identity management, and governance of multiple agents in enterprise environments.
+      decision_evidence:
+        - Platform (Olympus) provides identity, governance, permissions, and review infrastructure
+        - Supports deployment in VPC, on-prem, and air-gapped environments
+        - Focuses on automating complex, regulated workflows in finance, legal, and audit
+      category_candidates:
+        - agent-orchestration
+        - app-builders
+      contrastive_reason: Choose agent-orchestration over app-builders because the core product identity is the governance and management of an agentic workforce rather than just a tool for generating standalone applications.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

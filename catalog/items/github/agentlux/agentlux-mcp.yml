@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-08-24T04:21:03.436Z"
       bytes: 5387
 insights:
-  summary: An MCP server and embeddable toolkit that exposes 33 AgentLux marketplace, identity, creator, and social tools for AI agents via stdio, library import, or a hosted HTTP endpoint.
-  why_it_matters: Developers building agents on the AgentLux ecosystem can wire marketplace browsing, avatar management, and social graph actions directly into MCP-compatible clients without hand-rolling API wrappers.
-  mental_damage: "We have finally achieved the platonic ideal of modern AI infrastructure: a toolkit so specialized it needs a blockchain wallet and a JWT just to help an agent buy a hat."
+  summary: An MCP server and toolkit that allows AI agents to interact with the AgentLux marketplace, identity, and social features.
+  why_it_matters: It provides a standardized way for agents to perform commerce, identity, and social tasks within a specific ecosystem.
+  mental_damage: Because what an autonomous agent really needs is a curated marketplace and a social profile to maintain.
   tags:
     - mcp
-    - agentlux
+    - agent-tools
     - marketplace
-    - node
-    - embedded
-  confidence: medium
+    - social
+    - sdk
+  confidence: high
 curation:
   status: included
-  reason: This is an MCP-first toolkit that exists specifically to expose AgentLux domain APIs as MCP tools, matching the MCP Servers & Tooling category's focus on protocol-native servers.
+  reason: The project is explicitly built as an MCP server and toolkit to expose AgentLux ecosystem capabilities to AI agents.
   evidence:
-    - Repo description explicitly calls it an 'Embedded MCP toolkit for AgentLux'.
-    - README states the package exposes '33 tools' via stdio, library import, and a hosted MCP JSON-RPC endpoint.
-    - Listed in awesome-mcp-servers under Server Implementations > E-Commerce, confirming its protocol-native identity.
+    - Provides 33 tools via MCP for marketplace, identity, and social flows
+    - Supports both a local stdio server and an embeddable library/toolkit
+    - Exposes specific tool groups like marketplace browsing and social graph actions
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:26.598Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__agentlux__agentlux-mcp: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:16:18.527Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:712048841f4ca8773bd87e6c5f3860ebd743e6ce35a15a9ff12a5cafc40dce33
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly built as an MCP server and toolkit to expose AgentLux ecosystem capabilities to AI agents.
+      decision_evidence:
+        - Provides 33 tools via MCP for marketplace, identity, and social flows
+        - Supports both a local stdio server and an embeddable library/toolkit
+        - Exposes specific tool groups like marketplace browsing and social graph actions
+      category_candidates:
+        - mcp
+        - ai-frameworks
+      contrastive_reason: Choose mcp over ai-frameworks because the primary identity and distribution method is an MCP server designed for agent tool consumption.
+      review_reason: null
+      review_resume_lifecycle: null

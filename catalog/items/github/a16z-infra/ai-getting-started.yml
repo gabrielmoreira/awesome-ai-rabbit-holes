@@ -40,26 +40,25 @@ metadata:
       fetched_at: "2026-08-24T04:20:57.380Z"
       bytes: 6664
 insights:
-  summary: A JavaScript starter stack for building weekend AI projects, pre-configured with Next.js, LangChain.js, vector stores, auth, and deployment configs.
-  why_it_matters: It gives developers a ready-to-run scaffold that wires together common AI building blocks so they can skip boilerplate and ship a demo in an afternoon.
-  mental_damage: Yet another 'clone, add keys, npm install' ritual that lets us feel productive while deferring the hard part of actually picking a production-grade architecture.
+  summary: A JavaScript reference stack and starter kit for building AI-powered applications using Next.js, LangChain, and various vector databases.
+  why_it_matters: It provides a pre-integrated architecture for common AI patterns like RAG and text streaming, reducing initial setup friction for new projects.
+  mental_damage: It’s just one more way to spend your entire weekend configuring auth and vector store secrets instead of actually building your product.
   tags:
-    - scaffolding
-    - langchain
+    - boilerplate
     - nextjs
-    - vectordb
-    - weekend-projects
+    - langchain
+    - starter-kit
+    - javascript
   confidence: high
 curation:
-  status: included
-  reason: The repo is a prompt-ready, clone-and-run scaffold that generates a new AI app project rather than editing an existing repo or acting as an assistant.
+  status: excluded
+  reason: The project is a reference implementation and boilerplate template rather than a standalone product, framework, or agent.
   evidence:
-    - Repo description explicitly calls it a 'Javascript AI getting started stack for weekend projects' with models, vector stores, auth, and deployment configs.
-    - README walks through cloning, adding secrets, generating embeddings, and deploying a new app, which is classic scaffold behavior.
-    - Seen in awesome-langchain under Tools > Templates, reinforcing its identity as a starter template rather than a standalone product or assistant.
+    - README describes the project as a 'getting started stack' for weekend projects.
+    - The project is a collection of existing tools (Clerk, Pinecone, LangChain) rather than a single tool or library itself.
 placement:
-  primary_category: app-builders
-  section: Local / Code-Scaffolding Builders
+  primary_category: null
+  section: null
 lifecycle:
   status: promotion_candidate
   reason: Stars (4143) exceeded threshold (150)
@@ -75,12 +74,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:26.362Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__a16z-infra__ai-getting-started: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:16:00.021Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:683a79818011d33aff848a2167eaf302456b5eb735b5b3100228ae5cb4fcb3ad
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The project is a reference implementation and boilerplate template rather than a standalone product, framework, or agent.
+      decision_evidence:
+        - README describes the project as a 'getting started stack' for weekend projects.
+        - The project is a collection of existing tools (Clerk, Pinecone, LangChain) rather than a single tool or library itself.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

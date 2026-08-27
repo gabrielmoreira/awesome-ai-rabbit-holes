@@ -36,15 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An end-to-end computer vision platform for data labeling, model training, and deployment.
+  why_it_matters: It provides a unified workflow to transition from manual visual data annotation to production-ready vision APIs.
+  mental_damage: The 'end-to-end' promise usually just means a whole new set of credentials to manage in your enterprise stack.
+  tags:
+    - computer-vision
+    - mlops
+    - data-labeling
+    - model-training
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: Datature is a specialized computer vision lifecycle platform rather than a tool for coding assistance, LLM orchestration, or agentic software development.
+  evidence:
+    - Platform focuses on vision-specific tasks like object detection, segmentation, and classification
+    - Core value proposition is the labeling-to-deployment pipeline for vision models
+    - Does not align with the catalog's primary categories of coding agents, IDEs, or prompt engineering
 placement:
   primary_category: null
   section: null
@@ -62,10 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:27.376Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for datature__io: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:17:34.161Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:454ade51c054181d1a5b6579279e5cde452b88b9d263f2d483b817be87ddbcb8
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: Datature is a specialized computer vision lifecycle platform rather than a tool for coding assistance, LLM orchestration, or agentic software development.
+      decision_evidence:
+        - Platform focuses on vision-specific tasks like object detection, segmentation, and classification
+        - Core value proposition is the labeling-to-deployment pipeline for vision models
+        - Does not align with the catalog's primary categories of coding agents, IDEs, or prompt engineering
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

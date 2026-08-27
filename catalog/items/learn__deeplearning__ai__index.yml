@@ -36,15 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An educational platform offering professional courses on machine learning and artificial intelligence.
+  why_it_matters: Provides structured learning paths and industry-standard curriculum for developers entering the AI space.
+  mental_damage: The perpetual anxiety of starting a foundational course only to realize the state-of-the-art has moved three generations ahead mid-lesson.
+  tags:
+    - education
+    - machine-learning
+    - courses
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is an educational platform for learning AI/ML rather than a developer-facing tool, agent, or infrastructure.
+  evidence:
+    - The URL learn.deeplearning.ai indicates a learning/course-based domain
+    - The platform's primary purpose is instruction rather than providing a functional tool for a coding workflow
 placement:
   primary_category: null
   section: null
@@ -62,10 +67,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.203Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for learn__deeplearning__ai__index: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:19:41.664Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b1c80a81a7f19040401f42c5609a6feb3efd94b57b0b613e9aa5ad9669e88f42
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an educational platform for learning AI/ML rather than a developer-facing tool, agent, or infrastructure.
+      decision_evidence:
+        - The URL learn.deeplearning.ai indicates a learning/course-based domain
+        - The platform's primary purpose is instruction rather than providing a functional tool for a coding workflow
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

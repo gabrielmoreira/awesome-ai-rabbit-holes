@@ -53,18 +53,25 @@ metadata:
       fetched_at: "2026-08-24T04:21:08.729Z"
       bytes: 25604
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides real-time cloud pricing data and FinOps analysis primitives for AWS, Azure, GCP, and OCI.
+  why_it_matters: It enables AI coding assistants to perform complex multi-cloud cost comparisons and TCO analyses without the developer needing to manually switch between pricing calculators and spreadsheets.
+  mental_damage: Because your IDE definitely needed the added complexity of calculating multi-cloud egress arbitrage while you're still trying to debug a syntax error.
+  tags:
+    - mcp
+    - finops
+    - cloud-cost
+    - devops
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool's primary identity is an MCP server that delivers a specific domain of data (cloud pricing) to AI assistants.
+  evidence:
+    - Repo description explicitly defines it as an MCP server
+    - README details 25 tools for compute, storage, egress, and GPU pricing analysis
+    - Provides structured data specifically for AI clients like Claude and Cursor via the Model Context Protocol
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -80,6 +87,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:23:59.486Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:989216e31488a805175b420442bb6e56bfc8f042ae49b92378574c8fe661a56f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is an MCP server that delivers a specific domain of data (cloud pricing) to AI assistants.
+      decision_evidence:
+        - Repo description explicitly defines it as an MCP server
+        - README details 25 tools for compute, storage, egress, and GPU pricing analysis
+        - Provides structured data specifically for AI clients like Claude and Cursor via the Model Context Protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is the implementation of an MCP server providing a specialized domain dataset rather than just a generic host integration.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

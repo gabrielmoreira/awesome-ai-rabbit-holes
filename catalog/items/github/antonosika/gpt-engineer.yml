@@ -80,22 +80,20 @@ metadata:
       fetched_at: "2026-08-24T04:21:15.384Z"
       bytes: 7857
 insights:
-  summary: A CLI tool that generates and improves codebases from natural language prompts, serving as an early open-source experiment in AI code generation.
-  why_it_matters: It pioneered the 'prompt-to-codebase' workflow for developers wanting to delegate entire project scaffolding and iteration cycles to an LLM via the terminal.
-  mental_damage: The OG prompt-to-app dream is now archived, leaving us to wonder if we should migrate to the managed service, the suggested fork, or just stare at the terminal until the code writes itself.
+  summary: A CLI-based platform for generating entire codebases from natural language specifications.
+  why_it_matters: It pioneered the prompt-to-project workflow that has since evolved into the modern AI app-building era.
+  mental_damage: The crushing realization that your 'must-have' tool is actually a historical artifact directing you to a paid subscription.
   tags:
+    - codegen
     - cli
-    - code-generation
-    - python
-    - benchmarking
+    - legacy
   confidence: high
 curation:
   status: excluded
-  reason: The repository is explicitly marked as archived on GitHub, signaling that it is no longer actively maintained in favor of the commercial gptengineer.app or the recommended alternative, aider.
+  reason: The repository is archived and the README explicitly directs users to its commercial successor or more actively maintained alternatives like aider.
   evidence:
-    - "Repo description notes it is a 'CLI platform to experiment with codegen' and a 'Precursor to: https://lovable.dev'."
-    - README explicitly directs users to 'gptengineer.app' for managed services or 'aider' for a maintained CLI.
-    - GitHub metadata confirms the repository is archived.
+    - "archived: yes"
+    - README explicitly recommends gptengineer.app or aider for active development
 placement:
   primary_category: null
   section: null
@@ -114,12 +112,25 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:59.199Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__antonosika__gpt-engineer: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:11:55.261Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:633291ce6a6dc1e5ba94e1594a0f8b7a548c4b7c3b8c780f9076ccc52a3c50fc
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is archived and the README explicitly directs users to its commercial successor or more actively maintained alternatives like aider.
+      decision_evidence:
+        - "archived: yes"
+        - README explicitly recommends gptengineer.app or aider for active development
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

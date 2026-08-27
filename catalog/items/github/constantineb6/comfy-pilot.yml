@@ -46,28 +46,28 @@ metadata:
       - model-context-protocol
       - stable-diffusion
       - workflow-automation
-    last_checked_at: "2026-08-20T04:18:17.847Z"
+    last_checked_at: "2026-08-27T06:08:51.865Z"
     readme:
-      fetched_at: "2026-08-20T04:18:17.847Z"
+      fetched_at: "2026-08-27T06:08:51.865Z"
       bytes: 7780
 insights:
-  summary: An MCP server and embedded terminal that gives Claude Code the ability to view, edit, and run ComfyUI image-generation workflows directly from the ComfyUI interface.
-  why_it_matters: It removes the manual drag-and-drop friction of building Stable Diffusion and FLUX workflows by letting developers describe node graphs in natural language and letting Claude Code manipulate them programmatically.
-  mental_damage: You can now stall your GPU rendering pipeline and your LLM context window in a single unified terminal, proving that no creative workflow is safe from having a chatbot awkwardly fused into it.
+  summary: MCP server and embedded terminal that enables Claude Code to view, edit, and run ComfyUI workflows.
+  why_it_matters: Lets developers control ComfyUI’s node-based image generation workflows via natural language instead of manual graph editing.
+  mental_damage: Now you can ask an AI to tweak your Stable Diffusion pipeline while you pretend to understand what a KSampler is.
   tags:
-    - comfyui
     - mcp
+    - comfyui
     - claude-code
     - image-generation
     - workflow-automation
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an integration layer that gives Claude Code (the primary assistant) direct access to ComfyUI's host capabilities via an MCP server and embedded terminal, fitting the extension profile rather than a standalone coding agent.
+  reason: The tool is an MCP-based integration layer that augments Claude Code with ComfyUI-specific capabilities, not a standalone coding assistant.
   evidence:
-    - Repo description explicitly states it is an 'MCP server + embedded terminal that lets Claude Code see and edit your ComfyUI workflows'.
-    - README architecture diagram shows the product as a plugin backend and MCP server that wraps the Claude Code CLI (PTY process) rather than being the assistant itself.
-    - Listed in awesome-mcp-servers under 'Art & Culture', confirming its identity as an MCP-based host integration.
+    - Repo description explicitly states it is an MCP server + terminal for Claude Code to interact with ComfyUI workflows
+    - README emphasizes integration with Claude Code as the primary host assistant
+    - Source-list context places it under MCP Servers > Art & Culture
 placement:
   primary_category: ai-dev-extensions
   section: Host Integrations & Automation
@@ -82,16 +82,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:17.847Z"
+    updated_at: "2026-08-27T06:08:51.865Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-06T05:07:23.697Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T06:09:09.339Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:37e188875b92cec58b9762b9dc4e32bfcd019d7f93b46bde747e062cf835a14f
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool is an MCP-based integration layer that augments Claude Code with ComfyUI-specific capabilities, not a standalone coding assistant.
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server + terminal for Claude Code to interact with ComfyUI workflows
+        - README emphasizes integration with Claude Code as the primary host assistant
+        - Source-list context places it under MCP Servers > Art & Culture
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the core identity is a host integration for Claude Code rather than MCP infrastructure itself.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -36,15 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A sign-in page for Zhihu, a Chinese Q&A and knowledge-sharing platform.
+  why_it_matters: It is a general-purpose social and knowledge platform rather than a specialized AI developer tool or a curated directory of tools.
+  mental_damage: The hollow realization that your deep dive into AI technicals has successfully led you directly to a login wall.
+  tags:
+    - zhihu
+    - q&a
+    - community
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The input is a login page for a general-purpose social Q&A platform, which does not meet the catalog's requirement for practical AI tools, agents, or specialized developer infrastructure.
+  evidence:
+    - The URL is a sign-in page for Zhihu.
+    - The scraped context describes Zhihu as a general-purpose knowledge-sharing and social community.
+    - While included in a third-party 'awesome' list, the site itself is a platform rather than a curated directory or a developer tool.
 placement:
   primary_category: null
   section: null
@@ -62,10 +68,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.599Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for zhihu__com__signin: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:20:31.750Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:44904e731b0caeb6f51906bd92a27d7ec38442425285d0df16d8044939844a30
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The input is a login page for a general-purpose social Q&A platform, which does not meet the catalog's requirement for practical AI tools, agents, or specialized developer infrastructure.
+      decision_evidence:
+        - The URL is a sign-in page for Zhihu.
+        - The scraped context describes Zhihu as a general-purpose knowledge-sharing and social community.
+        - While included in a third-party 'awesome' list, the site itself is a platform rather than a curated directory or a developer tool.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

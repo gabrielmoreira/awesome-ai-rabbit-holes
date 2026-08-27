@@ -37,15 +37,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Pipedrive is a CRM platform with a Dutch-language landing page.
+  why_it_matters: It does not provide developer-facing AI tooling or workflows.
+  mental_damage: Another SaaS landing page masquerading as a developer tool in the wrong catalog.
+  tags:
+    - crm
+    - saas
+    - non-developer
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a CRM platform, not a developer-facing AI tool, framework, or workflow.
+  evidence:
+    - URL points to pipedrive.com/nl (a CRM SaaS)
+    - No repo description, topics, or developer-tooling signals
+    - No evidence of AI, coding, or developer workflow integration
 placement:
   primary_category: null
   section: null
@@ -63,10 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.347Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for pipedrive__com__nl: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:20:10.614Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b224c6941a780419bbd9c4b98f5f9663d7424efd174cf0b54fe7833c64110245
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a CRM platform, not a developer-facing AI tool, framework, or workflow.
+      decision_evidence:
+        - URL points to pipedrive.com/nl (a CRM SaaS)
+        - No repo description, topics, or developer-tooling signals
+        - No evidence of AI, coding, or developer workflow integration
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

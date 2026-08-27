@@ -44,18 +44,25 @@ metadata:
       fetched_at: "2026-08-24T04:20:56.670Z"
       bytes: 2935
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes the 5dive agent-fleet CLI as tools for MCP-compatible clients like Claude Desktop and Cursor.
+  why_it_matters: It allows developers to manage autonomous agent fleets and task queues directly from within their existing AI-native IDEs or chat interfaces.
+  mental_damage: Because managing a fleet of autonomous agents wasn't already a high-stakes game of whack-a-mole from inside a chat prompt.
+  tags:
+    - mcp
+    - agent-orchestration
+    - cli
+    - workflow
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It serves as a workflow extension that brings 5dive's agent management capabilities into MCP-compatible hosts.
+  evidence:
+    - Exposes 5dive CLI tools (tasks, agents, digest) via stdio MCP
+    - Acts as a thin adapter for the existing 5dive binary
+    - Enables tasking and fleet inspection within Claude Desktop, Cursor, and Cline
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -71,6 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:22:38.198Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e9f0e2c60da0404ebc867760092262e1179e1240a55681daeedbe43e74303e6c
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: It serves as a workflow extension that brings 5dive's agent management capabilities into MCP-compatible hosts.
+      decision_evidence:
+        - Exposes 5dive CLI tools (tasks, agents, digest) via stdio MCP
+        - Acts as a thin adapter for the existing 5dive binary
+        - Enables tasking and fleet inspection within Claude Desktop, Cursor, and Cline
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the server is a thin adapter for the 5dive CLI rather than a standalone MCP infrastructure product.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

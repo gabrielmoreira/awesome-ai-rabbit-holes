@@ -23,7 +23,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `ai-coding-assistants` `workflow`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 52.1k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 52.4k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
 
   It provides developers with guided, expert-collaborator workflows for end-to-end project development, from brainstorming to deployment, rather than just generating code.
 
@@ -113,7 +113,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `system-engineering` `multi-agent` `governance` `reasoning`
   </details>
 
-- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 376` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, including technical documentation, architecture diagrams, and AI coding prompts. <details><summary>More about</summary>
+- **[VibeDoc](https://github.com/calderbuild/vibedoc)** `⭐ 375` `updated ≤1y` VibeDoc is an AI tool that transforms product ideas into complete development plans, including technical documentation, architecture diagrams, and AI coding prompts. <details><summary>More about</summary>
 
   It accelerates the planning phase for developers, product managers, and entrepreneurs by generating structured development plans and ready-to-use AI coding prompts in minutes.
 
@@ -131,7 +131,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `code-generation` `proof-of-concept`
   </details>
 
-- **[codervisor/lean-spec](https://github.com/codervisor/leanspec)** `⭐ 281` `updated ≤180d` Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support. <details><summary>More about</summary>
+- **[codervisor/lean-spec](https://github.com/codervisor/leanspec)** `⭐ 284` `updated ≤180d` Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support. <details><summary>More about</summary>
 
   Lets developers use their existing issue trackers (GitHub, ADO, Jira, etc.) as spec backends while adding a unified interface, AI-native workflows, and visualization tools for SDD.
 

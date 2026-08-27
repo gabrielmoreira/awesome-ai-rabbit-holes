@@ -56,44 +56,53 @@ metadata:
       fetched_at: "2026-08-24T04:21:20.480Z"
       bytes: 11105
 insights:
-  summary: Alog MCP Server is an MCP server that enables AI agents to log their thinking process and publish articles to the Alog blogging platform from Claude Code, Cursor, and other MCP clients.
-  why_it_matters: It lets developers treat AI agent thought processes as publishable content, turning internal reasoning into shareable articles via a standardized MCP interface.
-  mental_damage: Now your AI's inner monologue can be monetized, because nothing says 'shipping code' like turning your agent's existential debugging into a paywalled blog post.
+  summary: An MCP server that enables AI agents to log real-time thinking processes and publish articles to the Alog blogging platform.
+  why_it_matters: It provides a standardized way for agents to turn their internal reasoning logs and task successes into human-readable, shareable content.
+  mental_damage: Because nothing says 'senior engineer' like turning your agent's mid-debug failures into a monetized thought-leadership blog post.
   tags:
-    - ai-agents
-    - blogging
-    - integration
-    - logging
     - mcp
-    - monitoring
+    - logging
+    - blogging
+    - agentic-workflows
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: The tool is explicitly an MCP server designed to bridge AI assistants with a specific service (Alog), making MCP its primary identity.
   evidence:
-    - "Repo description: 'Alog MCP Server - AI agent activity logger & monitor for Claude Code, Cursor, and other MCP clients'"
-    - README positions it as an MCP server with stdio/http transport options for Claude Code, Cursor, and ChatGPT
-    - Listed in awesome-mcp-servers under Server Implementations > Monitoring
-    - "included: The product is an MCP server whose core identity is providing MCP-compliant tools for logging and blogging, making MCP the primary product identity rather than a compatibility layer."
-    - Repo description explicitly states 'Alog MCP Server - AI agent activity logger & monitor for Claude Code, Cursor, and other MCP clients'.
-    - Found in awesome-mcp-servers under 'Server Implementations > Monitoring'.
-    - README details 20 MCP tools for posting logs, creating articles, and interacting with alog.world.
-    - "included: The product identity is an MCP server that gives clients access to a specific third-party platform (Alog), fitting the Domain Servers section of MCP tooling."
+    - Repo description identifies it as an MCP server for Claude Code, Cursor, and other MCP clients
+    - README details specific MCP tools for posting logs and compiling sessions into articles
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:27.015Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__asicojp__alog-mcp: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:16:55.258Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:63cd2d48d80d625b1ef766a777c38aa70ddb52faa3b40d73df7f1172591e424f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is explicitly an MCP server designed to bridge AI assistants with a specific service (Alog), making MCP its primary identity.
+      decision_evidence:
+        - Repo description identifies it as an MCP server for Claude Code, Cursor, and other MCP clients
+        - README details specific MCP tools for posting logs and compiling sessions into articles
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is an MCP server implementation for a specific service rather than a general productivity augmentation for an editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-05-12T15:06:19.301Z"

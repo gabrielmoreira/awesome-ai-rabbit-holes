@@ -35,23 +35,29 @@ metadata:
     description: MCP server for klanex — reliable async execution for agent tool calls
     homepage: null
     topics: []
-    last_checked_at: "2026-08-13T04:39:32.581Z"
+    last_checked_at: "2026-08-27T06:08:44.667Z"
     readme:
-      fetched_at: "2026-08-13T04:39:32.581Z"
+      fetched_at: "2026-08-27T06:08:44.667Z"
       bytes: 3707
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server providing a reliable, asynchronous execution layer for agent tool calls with built-in error handling and schema validation.
+  why_it_matters: It protects agent workflows from transient API failures, rate limits, and hallucinated payloads through automated retries and structured error hints.
+  mental_damage: It replaces the panic of a broken production API with the calm, automated assurance of a circuit breaker and an exponential backoff.
+  tags:
+    - mcp
+    - agent-tooling
+    - reliability
+    - async-execution
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server implementation that provides specialized execution capabilities for agents.
+  evidence:
+    - Repo description explicitly identifies it as an 'MCP server for klanex'
+    - README details specific MCP tools for async execution, retries, and schema-gating
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -63,13 +69,31 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:32.581Z"
+    updated_at: "2026-08-27T06:08:44.667Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-24T04:21:26.853Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T06:19:00.036Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5bfdefa5b218084bac8946164c0c6e1622037014c825c1c7370e3992cc8a5204
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server implementation that provides specialized execution capabilities for agents.
+      decision_evidence:
+        - Repo description explicitly identifies it as an 'MCP server for klanex'
+        - README details specific MCP tools for async execution, retries, and schema-gating
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP-first server implementation rather than a general host integration.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

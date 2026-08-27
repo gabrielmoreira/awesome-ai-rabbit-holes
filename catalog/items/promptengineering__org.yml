@@ -36,22 +36,21 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A blog and training site publishing prompt engineering tutorials, agentic workflow guides, and AI industry analysis.
-  why_it_matters: Developers looking to understand prompt patterns and agent design can find structured articles and free courses on production-grade workflows.
-  mental_damage: Yet another pristine temple of theory where 'ACE frameworks' are debated while your actual CI pipeline is still failing because someone pasted a 4,000-token blob into a single prompt.
+  summary: An educational platform providing articles, lessons, and training on prompt engineering, LLM fundamentals, and AI workflows.
+  why_it_matters: It offers foundational knowledge and practical guides for developers seeking to understand the mechanics of prompting and agentic systems.
+  mental_damage: It offers the promise of mastering a craft that effectively changes every time a new model weight is released.
   tags:
-    - prompt-engineering
     - education
-    - agentic-workflows
-    - blog
+    - prompt-engineering
+    - llm
+    - tutorials
   confidence: high
 curation:
   status: excluded
-  reason: This is an educational publication and media site, not a developer tool, framework, or infrastructure product.
+  reason: The site is primarily an educational publication and tutorial hub, which falls outside the catalog's scope of practical tools, frameworks, and infrastructure.
   evidence:
-    - Scraped site title and description identify it as the 'Prompt Engineering Institute' offering tutorials, resources, and courses.
-    - Primary page excerpt shows blog posts, free courses, and thought-leadership essays rather than tooling or SDKs.
-    - Source-list context places it under '课程 Course' (Courses) in an LLM resource list, not under tooling or infrastructure.
+    - Scraped site content identifies it as an 'Institute' providing 'articles, free lessons, and professional AI training'.
+    - The site is explicitly listed as a common false positive for the Publications & Feeds category.
 placement:
   primary_category: null
   section: null
@@ -69,12 +68,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:36.775Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for promptengineering__org: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:12:50.736Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2c58dfcdb07b82a56ec940c10fb20e1f038b268b03fc5f701c0890220442a767
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The site is primarily an educational publication and tutorial hub, which falls outside the catalog's scope of practical tools, frameworks, and infrastructure.
+      decision_evidence:
+        - Scraped site content identifies it as an 'Institute' providing 'articles, free lessons, and professional AI training'.
+        - The site is explicitly listed as a common false positive for the Publications & Feeds category.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

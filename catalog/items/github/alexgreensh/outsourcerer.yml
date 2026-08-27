@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 135
+    stars: 138
     forks: 9
     license: NOASSERTION
     archived: false
     full_name: alexgreensh/outsourcerer
     html_url: https://github.com/alexgreensh/outsourcerer
     created_at: "2026-07-10T19:49:49Z"
-    pushed_at: "2026-08-20T01:18:55Z"
+    pushed_at: "2026-08-26T10:16:10Z"
     description: "Make the most out of your subscriptions. Delegate work to other harnesses and models, while keeping your main session the orchestrator. Nothing new to learn. Keep working like you do, but better. "
     homepage: ""
     topics:
@@ -44,23 +44,30 @@ metadata:
       - orchestration
       - orchestrator
       - token-optimization
-    last_checked_at: "2026-08-20T04:18:01.799Z"
+    last_checked_at: "2026-08-27T06:08:26.129Z"
     readme:
-      fetched_at: "2026-08-20T04:18:01.799Z"
+      fetched_at: "2026-08-27T06:08:26.129Z"
       bytes: 30454
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A CLI tool that orchestrates multiple AI coding agents and models by delegating tasks to specialized or cheaper engines while preserving the user's environment.
+  why_it_matters: It allows developers to maximize their AI subscriptions by routing repetitive or low-complexity tasks to cheaper models without losing their custom tools or MCP configurations.
+  mental_damage: You can now quantitatively track exactly how much money you're wasting by asking frontier models to perform simple grep operations.
+  tags:
+    - orchestration
+    - multi-agent
+    - cli
+    - token-optimization
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It functions as a coordination layer that manages and routes tasks to various existing coding agents and models rather than being a single standalone assistant.
+  evidence:
+    - README explicitly describes it as an orchestrator that makes multiple models 'work as one team'
+    - It features delegation logic to move 'grunt work' to cheaper engines while maintaining MCP and skill connectivity
+    - Includes specific modes (Auto-pilot, You-drive, Hybrid) for managing multi-agent workflows
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -72,10 +79,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:01.800Z"
+    updated_at: "2026-08-27T06:08:26.129Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:24:20.358Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:93013cc6d005d5bdd41871e683d35065ecb531866509bcf9da89ecf5896c8958
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: It functions as a coordination layer that manages and routes tasks to various existing coding agents and models rather than being a single standalone assistant.
+      decision_evidence:
+        - README explicitly describes it as an orchestrator that makes multiple models 'work as one team'
+        - It features delegation logic to move 'grunt work' to cheaper engines while maintaining MCP and skill connectivity
+        - Includes specific modes (Auto-pilot, You-drive, Hybrid) for managing multi-agent workflows
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because its primary identity is the control plane that coordinates a fleet of assistants rather than acting as the developer's primary coding assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

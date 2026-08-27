@@ -50,18 +50,26 @@ metadata:
       fetched_at: "2026-08-24T04:21:06.538Z"
       bytes: 7350
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides AI data center sizing, validation, and layout capabilities through a remote design engine.
+  why_it_matters: It allows developers and infrastructure engineers to use AI assistants to perform specialized, deterministic planning for high-density, liquid-cooled AI data centers.
+  mental_damage: Because architecting a multi-megawatt liquid-cooled data center is now just another slash command away from your chat window.
+  tags:
+    - mcp
+    - infrastructure
+    - data-center
+    - ai-ops
+    - automation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is an MCP server implementation that exposes a specialized domain-specific design engine to AI assistants.
+  evidence:
+    - Repo is explicitly described as an 'MCP connector' for the AIDC-AI.IO Design Engine.
+    - "Provides specific MCP tools: design, validate, and layout."
+    - Listed in awesome-mcp-servers under Architecture & Design.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -77,6 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:23:17.359Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:55bf0cd4fa44b6ee913bb763357a0d6be9a2c9b06a83d773fe03050a28628561
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server implementation that exposes a specialized domain-specific design engine to AI assistants.
+      decision_evidence:
+        - Repo is explicitly described as an 'MCP connector' for the AIDC-AI.IO Design Engine.
+        - "Provides specific MCP tools: design, validate, and layout."
+        - Listed in awesome-mcp-servers under Architecture & Design.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a dedicated MCP server implementation rather than a general-purpose editor extension.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -53,40 +53,54 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Firefly is an enterprise cloud platform that uses AI agents to automate Infrastructure-as-Code orchestration, drift remediation, and disaster recovery for cloud environments.
-  why_it_matters: It allows platform engineering and DevOps teams to convert ungoverned resources into reusable IaC and automate recovery from outages without relying on manual runbooks.
-  mental_damage: Instead of learning Terraform, you can now hire an AI agent to learn Terraform for you, so you can spend your day watching a dashboard confirm that your infrastructure is successfully rebuilding itself from a cyberattack.
+  summary: An AI-driven platform that automates cloud infrastructure-as-code (IaC), drift management, and disaster recovery through agentic workflows.
+  why_it_matters: It provides a way to manage complex cloud operations and achieve near-instant environment recovery using autonomous agents.
+  mental_damage: Now your primary defense against a rogue AI agent is simply a different, potentially more aggressive AI agent.
   tags:
-    - ai-agents
     - cloud-ops
+    - iac
+    - ai-agents
+    - sre
     - devops
-    - disaster-recovery
-    - infrastructure-as-code
   confidence: high
 curation:
-  status: excluded
-  reason: The product is an enterprise SaaS platform for cloud infrastructure and DevOps operations, which falls outside the catalog's scope of developer-facing coding tools, agents, and IDE integrations.
+  status: included
+  reason: It operates as a control plane for coordinating AI agents to manage and recover cloud infrastructure via agentic workflows.
   evidence:
-    - Product description focuses on cloud resilience, IaC orchestration, and disaster recovery for enterprise cloud teams.
-    - Target audience is explicitly CIOs, Platform Engineering, FinOps, and SecOps rather than software developers writing application code.
-    - Appears in awesome-mcp-servers lists, but the core product is a cloud platform, not an MCP server or developer tooling.
+    - The product describes using 'Agentic Workflows' to turn static automation into dynamic cloud operations.
+    - It positions itself as an operated platform for managing cloud assets, drift, and disaster recovery.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Vertical Orchestration Platforms
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:57.749Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for firefly__ai: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:11:05.348Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3bc7e0dbdc8bb84279fcd8d5fc01467eb496a6fa94a5a6bfb001b4627fa32c12
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: It operates as a control plane for coordinating AI agents to manage and recover cloud infrastructure via agentic workflows.
+      decision_evidence:
+        - The product describes using 'Agentic Workflows' to turn static automation into dynamic cloud operations.
+        - It positions itself as an operated platform for managing cloud assets, drift, and disaster recovery.
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because its core identity is a control plane for cloud-wide operational workflows rather than a tool for editing application source code.
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-21T15:20:21.965Z"

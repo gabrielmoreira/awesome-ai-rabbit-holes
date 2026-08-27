@@ -30,7 +30,7 @@ metadata:
     full_name: aporthq/aport-agent-guardrails
     html_url: https://github.com/aporthq/aport-agent-guardrails
     created_at: "2026-02-14T21:40:02Z"
-    pushed_at: "2026-08-19T13:17:49Z"
+    pushed_at: "2026-08-23T02:35:49Z"
     description: Pre-action authorization guardrails for AI agents - Works with OpenClaw, Claude Code, LandChain, CrewAI and others
     homepage: https://aport.io
     topics:
@@ -39,23 +39,30 @@ metadata:
       - ai-agents
       - ai-agents-framework
       - guardrails
-    last_checked_at: "2026-08-20T04:18:02.140Z"
+    last_checked_at: "2026-08-27T06:08:26.738Z"
     readme:
-      fetched_at: "2026-08-20T04:18:02.140Z"
-      bytes: 30950
+      fetched_at: "2026-08-27T06:08:26.738Z"
+      bytes: 32452
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Pre-action authorization guardrails that intercept and validate AI agent tool calls against policy before execution.
+  why_it_matters: Blocks prompt injection and unsafe agent actions by enforcing deterministic policy checks at runtime, not via instructions.
+  mental_damage: Finally, a way to stop trusting agents to follow rules they can't even read.
+  tags:
+    - ai-agent-safety
+    - guardrails
+    - policy-enforcement
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: APort Agent Guardrails is an integration layer that adds policy enforcement to existing agents like Claude Code and OpenClaw, acting as a pre-execution hook rather than a standalone coding assistant.
+  evidence:
+    - "Repo description: 'Pre-action authorization guardrails for AI agents - Works with OpenClaw, Claude Code, LandChain, CrewAI and others'"
+    - "README: 'Deterministic pre-action authorization for AI agents. Guardrails run before tool execution'"
+    - "Installation: Framework-specific setup commands for claude-code, openclaw, langchain, etc."
+    - "Source-list context: Listed in awesome-llm-agents under 'Safety, Security & Evaluation'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -67,10 +74,33 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:02.140Z"
+    updated_at: "2026-08-27T06:08:26.738Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:25:13.143Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7334b9e85697cceec5b4b5cf57b01a4b281a5f7147543247b9271fcf5a393870
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: APort Agent Guardrails is an integration layer that adds policy enforcement to existing agents like Claude Code and OpenClaw, acting as a pre-execution hook rather than a standalone coding assistant.
+      decision_evidence:
+        - "Repo description: 'Pre-action authorization guardrails for AI agents - Works with OpenClaw, Claude Code, LandChain, CrewAI and others'"
+        - "README: 'Deterministic pre-action authorization for AI agents. Guardrails run before tool execution'"
+        - "Installation: Framework-specific setup commands for claude-code, openclaw, langchain, etc."
+        - "Source-list context: Listed in awesome-llm-agents under 'Safety, Security & Evaluation'"
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because APort Agent Guardrails primarily augments existing agents with policy checks rather than acting as a primary coding assistant that plans, writes, or edits code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

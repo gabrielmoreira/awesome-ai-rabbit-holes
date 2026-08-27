@@ -36,18 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: GitHub's suite of agentic features for Copilot, integrating chat, CLI, and automated pull request workflows.
+  why_it_matters: It shifts the developer experience from simple code completion to proactive assistance capable of planning, debugging, and managing repo-wide tasks.
+  mental_damage: You will eventually find yourself spending more time reviewing the agent's pull requests than actually writing your own code.
+  tags:
+    - github
+    - copilot
+    - coding-agent
+    - cli
+    - workflow
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It functions as a primary coding assistant that provides agentic capabilities across the IDE, CLI, and PR workflows.
+  evidence:
+    - Includes multi-surface tools like Chat and CLI
+    - Enables repo-wide planning, debugging, and workflow automation
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: IDE-Native Assistants
 lifecycle:
   status: incubating
   reason: null
@@ -62,10 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:27.765Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__com__features__preview__copilot__x: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:18:15.436Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bc81e99c65f8de259c9cfd10a8753c19ddccff24b7f1d7aea03b1c51e7187ec1
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It functions as a primary coding assistant that provides agentic capabilities across the IDE, CLI, and PR workflows.
+      decision_evidence:
+        - Includes multi-surface tools like Chat and CLI
+        - Enables repo-wide planning, debugging, and workflow automation
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Copilot X represents the core evolution of the assistant's agency rather than a third-party extension augmenting a separate assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

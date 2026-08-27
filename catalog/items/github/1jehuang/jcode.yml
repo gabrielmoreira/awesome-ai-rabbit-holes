@@ -52,18 +52,26 @@ metadata:
       fetched_at: "2026-08-24T04:20:55.611Z"
       bytes: 41161
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A terminal-native AI coding agent harness optimized for extreme RAM efficiency and high-performance multi-session workflows.
+  why_it_matters: It provides a lightweight, high-speed alternative for running agentic coding workflows in terminal environments without the massive memory overhead of current industry leaders.
+  mental_damage: Because we've reached a point where the limiting factor for autonomous software engineering is how many gigabytes of RAM we can throw at a single terminal session.
+  tags:
+    - cli
+    - coding-agent
+    - rust
+    - terminal
+    - mcp
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a standalone, terminal-native coding agent/harness that acts as the primary interface for delegating repository tasks to an LLM.
+  evidence:
+    - Repo description and README explicitly position it as a coding agent harness
+    - Directly compared to Claude Code and Cursor Agent in RAM benchmarks
+    - Categorized in 'awesome-cli-coding-agents' under terminal-native agents
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (15328) exceeded threshold (150)
@@ -79,6 +87,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:22:24.818Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6deb7c69889c1c85256260fc6a6b5b7055091c60c68a32d7813b610e2de3d4e4
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a standalone, terminal-native coding agent/harness that acts as the primary interface for delegating repository tasks to an LLM.
+      decision_evidence:
+        - Repo description and README explicitly position it as a coding agent harness
+        - Directly compared to Claude Code and Cursor Agent in RAM benchmarks
+        - Categorized in 'awesome-cli-coding-agents' under terminal-native agents
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because its primary identity is a terminal-native coding assistant/harness rather than a control plane for coordinating multiple disparate agent types.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

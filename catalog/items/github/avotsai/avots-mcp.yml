@@ -49,23 +49,31 @@ metadata:
       - seedance
       - text-to-speech
       - video-generation
-    last_checked_at: "2026-08-13T04:39:31.575Z"
+    last_checked_at: "2026-08-27T06:08:27.536Z"
     readme:
-      fetched_at: "2026-08-13T04:39:31.575Z"
+      fetched_at: "2026-08-27T06:08:27.536Z"
       bytes: 7281
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides AI assistants with access to Avots.ai's multi-modal suite, including image, video, audio, and chat models.
+  why_it_matters: It allows developers to trigger complex creative workflows—like video generation or face-swapping—directly from within their IDE or coding assistant via the Model Context Protocol.
+  mental_damage: Now your coding assistant can not only hallucinate logic but also generate a high-fidelity video of you apologizing for the production outage.
+  tags:
+    - mcp
+    - multimodal
+    - image-gen
+    - video-gen
+    - creative-ai
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is explicitly an MCP server designed to serve a specific domain of creative AI tools to protocol-compatible clients.
+  evidence:
+    - Repo description explicitly identifies it as an MCP server for avots.ai.
+    - README lists 19 specialized tools for image, video, audio, and avatar generation.
+    - Explicitly supports major MCP clients including Claude Desktop, Cursor, and Cline.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -76,16 +84,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-08-24T04:21:23.905Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for avotsai/avots-mcp
+    status: done
+    updated_at: "2026-08-27T06:08:27.536Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-24T04:21:26.853Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T06:18:40.386Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:723d74640f3330e1475177025eae5ab130b2f72d3f44df65393d4c36b069a39e
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server designed to serve a specific domain of creative AI tools to protocol-compatible clients.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for avots.ai.
+        - README lists 19 specialized tools for image, video, audio, and avatar generation.
+        - Explicitly supports major MCP clients including Claude Desktop, Cursor, and Cline.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is a protocol-specific server implementation rather than a generic host integration.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

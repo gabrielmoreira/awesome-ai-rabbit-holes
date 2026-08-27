@@ -63,9 +63,9 @@ processing:
     cause: null
   categorize:
     status: deferred
-    updated_at: "2026-08-20T04:18:27.255Z"
+    updated_at: "2026-08-27T06:17:18.134Z"
     cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for chat__ruliad__co: 403 status code (no body)"
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for chat__ruliad__co: Invalid AI response structure: Missing required field: why_it_matters"
     next_retry_at: null
-    attempts: 1
+    attempts: 2

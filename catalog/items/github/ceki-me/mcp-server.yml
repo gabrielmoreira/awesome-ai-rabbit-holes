@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 2
+    stars: 1
     forks: 1
     license: MIT
     archived: false
@@ -45,23 +45,30 @@ metadata:
       - mcp-server
       - model-context-protocol
       - streamable-http
-    last_checked_at: "2026-08-20T04:18:11.486Z"
+    last_checked_at: "2026-08-27T06:08:42.435Z"
     readme:
-      fetched_at: "2026-08-20T04:18:11.486Z"
+      fetched_at: "2026-08-27T06:08:42.435Z"
       bytes: 11745
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server providing agents with access to a marketplace for renting real residential Chrome browsers and hiring human specialists.
+  why_it_matters: It enables agents to bypass sophisticated anti-bot protections by utilizing real residential IPs and human-hosted browser sessions.
+  mental_damage: The final evolutionary step for web scraping is apparently paying a stranger in crypto to let an LLM hijack their residential IP.
+  tags:
+    - mcp
+    - browser-automation
+    - crypto
+    - ai-agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is a domain-specific server that uses the Model Context Protocol to expose marketplace services to AI agents.
+  evidence:
+    - README describes it as the agent-side interface to the Ceki marketplace
+    - Provides tools for renting residential Chrome browsers and hiring human specialists
+    - Supports Claude Desktop, Claude Code, and Cursor via MCP
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -73,14 +80,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:11.486Z"
+    updated_at: "2026-08-27T06:08:42.435Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.939Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__ceki-me__mcp-server: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:21:36.826Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ca40c9b3a4f0d35ed8165479b59e57481bb5e509eb2a4dfa0171e9ef2225cca2
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is a domain-specific server that uses the Model Context Protocol to expose marketplace services to AI agents.
+      decision_evidence:
+        - README describes it as the agent-side interface to the Ceki marketplace
+        - Provides tools for renting residential Chrome browsers and hiring human specialists
+        - Supports Claude Desktop, Claude Code, and Cursor via MCP
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because it is a domain-specific server implementing the protocol, much like the canonical playwright-mcp.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

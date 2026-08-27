@@ -36,24 +36,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A personal blog and resource hub featuring tutorials and curated summaries of LLM-related technologies, including model training, inference, and agent development.
-  why_it_matters: It aggregates high-quality tutorials and resources across the LLM ecosystem, helping developers quickly navigate topics from fine-tuning to MCP.
-  mental_damage: Yet another beautifully organized rabbit hole that will make you feel uniquely behind on three new model architectures before you finish your morning coffee.
+  summary: A technical blog providing tutorials and deep dives into LLMs, agents, and AI engineering.
+  why_it_matters: Provides educational content and practical guides for developers navigating the rapidly evolving LLM landscape.
+  mental_damage: Just one more technical publication to add to the infinite pile of 'must-read' content you'll never actually finish.
   tags:
     - llm
     - tutorials
-    - resources
-    - blog
+    - agents
+    - education
   confidence: high
 curation:
-  status: excluded
-  reason: This is a personal publication and tutorial hub rather than a standalone developer tool, library, or directory, falling outside the catalog's scope of practical AI tooling.
+  status: included
+  reason: The site functions as a technical blog/publication providing ongoing educational media rather than a standalone tool or directory.
   evidence:
-    - URL is a personal blog (mlabonne.github.io/blog) rather than a tool or directory.
-    - Listed in awesome-LLM-resources as a 'Tutorial' section item, indicating educational content rather than software.
-    - No repo description, code, or product identity provided—only a curated list of learning resources.
+    - The URL identifies the site as a personal GitHub Pages blog
+    - Source-list context in awesome-LLM-resources categorizes it as a tutorial (教程) resource
 placement:
-  primary_category: null
+  primary_category: newsletters-and-feeds
   section: null
 lifecycle:
   status: incubating
@@ -69,12 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:40:00.983Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for mlabonne__github__io__blog: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:12:33.669Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c6fdd287500c2975b3656e018622f47b7d68cf9f03937d45bf64dd57c39a8448
+      proposed_primary_category: newsletters-and-feeds
+      disagreement: false
+      decision_reason: The site functions as a technical blog/publication providing ongoing educational media rather than a standalone tool or directory.
+      decision_evidence:
+        - The URL identifies the site as a personal GitHub Pages blog
+        - Source-list context in awesome-LLM-resources categorizes it as a tutorial (教程) resource
+      category_candidates:
+        - newsletters-and-feeds
+        - awesome-awesomes
+      contrastive_reason: Choose newsletters-and-feeds over awesome-awesomes because the primary identity is a publication/media surface rather than a curated index of other tools.
+      review_reason: null
+      review_resume_lifecycle: null

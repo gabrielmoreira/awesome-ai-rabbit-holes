@@ -23,14 +23,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 850
-    forks: 143
+    stars: 875
+    forks: 150
     license: GPL-3.0
     archived: false
     full_name: ASCIT31/Dark-Moon
     html_url: https://github.com/ASCIT31/Dark-Moon
     created_at: "2024-11-26T10:54:02Z"
-    pushed_at: "2026-08-06T15:05:32Z"
+    pushed_at: "2026-08-25T10:02:54Z"
     description: "Autonomous AI pentesting engine, continuous offensive security across web, cloud, identity, CI/CD, IaC, databases, Active Directory, Kubernetes and IoT firmware. Agentic reasoning plus real exploit execution deliver proof-based vulnerabilities. Privacy gateway: the LLM never sees your real IPs, hosts or creds, nothing leaves your perimeter."
     homepage: https://dark-moon.org/
     topics:
@@ -54,23 +54,31 @@ metadata:
       - security-automation
       - security-tools
       - self-hosted
-    last_checked_at: "2026-08-20T04:18:02.359Z"
+    last_checked_at: "2026-08-27T06:08:27.010Z"
     readme:
-      fetched_at: "2026-08-20T04:18:02.359Z"
-      bytes: 15197
+      fetched_at: "2026-08-27T06:08:27.010Z"
+      bytes: 15344
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: DarkMoon is an open-source autonomous AI penetration testing platform that uses 50 specialist agents to run end-to-end offensive security tests while keeping data private via local tokenization.
+  why_it_matters: It automates repetitive pentesting tasks with real exploit proof, freeing security teams to focus on judgment rather than tooling.
+  mental_damage: Finally, an AI agent that doesn’t write bad code but instead finds real vulnerabilities in your infra—now you can anxiety-sweat over actual exploits instead of hallucinated ones.
+  tags:
+    - security
+    - pentesting
+    - ai-agents
+    - red-team
+    - mcp
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: DarkMoon functions as an autonomous AI agent that plans, executes, and validates security tests via real tool chains, fitting the coding agent pattern of delegating complex workflows to an AI, even though the domain is security rather than code editing.
+  evidence:
+    - "Repo description: 'Autonomous AI pentesting engine... Agentic reasoning plus real exploit execution deliver proof-based vulnerabilities.'"
+    - "README: 'Point it at a target... it runs the whole assessment on its own: it reasons, plans, and dispatches 50 specialist agents that execute real offensive operations through a controlled MCP layer'."
+    - Runs via CLI, orchestrates real tools (Nuclei, sqlmap, etc.) via MCP, and outputs proof-of-exploitation—behavior matches agentic task execution.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (850) exceeded threshold (150)
@@ -82,10 +90,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:02.359Z"
+    updated_at: "2026-08-27T06:08:27.010Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:25:24.431Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ef346601a80e906a899f079c8363ee271f787bf91cb1df0289d40383a9a3c9dd
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: DarkMoon functions as an autonomous AI agent that plans, executes, and validates security tests via real tool chains, fitting the coding agent pattern of delegating complex workflows to an AI, even though the domain is security rather than code editing.
+      decision_evidence:
+        - "Repo description: 'Autonomous AI pentesting engine... Agentic reasoning plus real exploit execution deliver proof-based vulnerabilities.'"
+        - "README: 'Point it at a target... it runs the whole assessment on its own: it reasons, plans, and dispatches 50 specialist agents that execute real offensive operations through a controlled MCP layer'."
+        - Runs via CLI, orchestrates real tools (Nuclei, sqlmap, etc.) via MCP, and outputs proof-of-exploitation—behavior matches agentic task execution.
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because DarkMoon is primarily a single autonomous agent system that executes tasks via subordinate tools, not a platform for coordinating multiple independent agents or workflows as a runtime workbench.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

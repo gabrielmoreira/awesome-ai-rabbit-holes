@@ -36,21 +36,19 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Google Sheets spreadsheet that lists commercial LLM input/output pricing, context windows, and relative model costs.
-  why_it_matters: It lets developers quickly compare per-token costs across OpenAI, Anthropic, Google, AWS, and open-weight models when choosing or budgeting an LLM integration.
-  mental_damage: A living spreadsheet is the most reliable pricing API we have in an ecosystem where model costs can change faster than the provider’s own docs.
+  summary: A Google Sheet comparing LLM token pricing, context windows, and relative costs across various providers.
+  why_it_matters: Provides a quick reference for developers to estimate the operational costs of different model providers.
+  mental_damage: The ability to calculate the exact price of a hallucination in real-time.
   tags:
     - llm-pricing
-    - cost-comparison
     - reference
   confidence: high
 curation:
   status: excluded
-  reason: This is a static spreadsheet reference page, not a developer tool, framework, agent, extension, or product, and it lacks the product identity required for any category in this catalog.
+  reason: This is an auxiliary reference spreadsheet rather than a standalone developer tool, framework, or curated directory.
   evidence:
-    - The URL resolves to a Google Sheets document, not a repo or product.
-    - Content is a pricing table for LLM tokens, context windows, and relative costs.
-    - Appears in awesome-LLM-resources as a tip/reference link, not as tooling.
+    - The URL and scraped content point to a single Google Sheet containing a pricing table.
+    - It lacks the identity of a software product, agent, or organized ecosystem map.
 placement:
   primary_category: null
   section: null
@@ -68,12 +66,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:56.844Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for docs__google__com__spreadsheets__d__18ghpebjzdbicmmstpvknwa__hqhiwmlcqudeja1b4mjm__edit: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:10:24.452Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cb35749e9e696e4adb83736702ef8dcb5a9769f6a36ebeead4f98d4d1fcc2381
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is an auxiliary reference spreadsheet rather than a standalone developer tool, framework, or curated directory.
+      decision_evidence:
+        - The URL and scraped content point to a single Google Sheet containing a pricing table.
+        - It lacks the identity of a software product, agent, or organized ecosystem map.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

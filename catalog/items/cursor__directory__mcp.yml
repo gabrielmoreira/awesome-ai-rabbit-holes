@@ -36,9 +36,9 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A Cursor-hosted directory page listing Model Context Protocol (MCP) servers and tools for extending AI coding assistants.
-  why_it_matters: It serves as a centralized discovery surface for developers looking to extend their coding agents with new MCP-compatible capabilities.
-  mental_damage: Just when you thought keeping up with the AI tooling ecosystem was hard, we now have directories of directories built to index the adapters that help your adapters talk to other adapters.
+  summary: A curated directory of MCP (Model Context Protocol) servers and resources.
+  why_it_matters: It helps developers discover specific tools and connections to extend their AI assistants' capabilities via the Model Context Protocol.
+  mental_damage: Another specialized directory to add to your growing collection of 'must-check' tabs.
   tags:
     - mcp
     - directory
@@ -47,11 +47,10 @@ insights:
   confidence: high
 curation:
   status: included
-  reason: This is a directory page hosted on cursor.directory listing MCP servers, making it a navigation and discovery aid rather than a standalone product or server itself.
+  reason: The project functions as a curated index for discovering MCP-compatible tools rather than being a functional MCP server or client itself.
   evidence:
-    - URL is https://cursor.directory/mcp, indicating a directory or listing page rather than a standalone tool.
-    - Seen in awesome-ai-coding-tools under the section 'MCP Servers and Directories'.
-    - No repo description, README, or standalone product signals provided; the identity is a listing/catalog.
+    - Included in the awesome-ai-coding-tools list under the MCP section
+    - URL structure indicates a directory-style collection of resources within cursor.directory
 placement:
   primary_category: awesome-awesomes
   section: Directories & Maps
@@ -69,12 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:41.025Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for cursor__directory__mcp: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:14:58.459Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b075a093163d3fbda40b503bb2af17e65995b4663b51c8be91c86e2948fbabf6
+      proposed_primary_category: awesome-awesomes
+      disagreement: false
+      decision_reason: The project functions as a curated index for discovering MCP-compatible tools rather than being a functional MCP server or client itself.
+      decision_evidence:
+        - Included in the awesome-ai-coding-tools list under the MCP section
+        - URL structure indicates a directory-style collection of resources within cursor.directory
+      category_candidates:
+        - awesome-awesomes
+        - mcp
+      contrastive_reason: Choose awesome-awesomes over mcp because the primary value is navigation and discovery through a curated list rather than providing operational MCP infrastructure.
+      review_reason: null
+      review_resume_lifecycle: null

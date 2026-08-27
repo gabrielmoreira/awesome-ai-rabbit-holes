@@ -70,46 +70,56 @@ metadata:
       fetched_at: "2026-08-24T04:20:56.427Z"
       bytes: 18161
 insights:
-  summary: A privacy-first developer intelligence tool that filters internet content and releases against a developer's local codebase and tech stack.
-  why_it_matters: It eliminates the noise of generic AI newsletters and feeds by scoring content based on your actual dependencies, git history, and local filesystem.
-  mental_damage: Now we can finally automate the process of discovering exactly which breaking change in a niche Rust crate is about to ruin our Friday afternoon.
+  summary: A privacy-first tool that filters internet technical news and advisories based on a local codebase.
+  why_it_matters: It surfaces only the security alerts, dependency updates, and technical news that are directly relevant to your specific project stack.
+  mental_damage: You'll eventually spend more time fine-tuning the relevance scoring than actually reading the signal it surfaces.
   tags:
-    - context-filtering
-    - developer-experience
-    - developer-intelligence
-    - filtering
-    - local-ai
-    - local-first
-    - mcp
     - privacy
+    - mcp
+    - developer-intelligence
+    - local-ai
+    - context-retrieval
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: It acts as a specialized retrieval and context-shaping layer that filters technical noise into stack-specific signal.
   evidence:
-    - Provides an MCP server via `npx @4da/mcp-server` for Claude Code, Cursor, and Windsurf
-    - Listed in awesome-mcp-servers under Developer Tools
-    - Core value is providing 'live vulnerability scanning, dependency health, and ecosystem intelligence' as a tool for an AI assistant
-    - "included: While it has a desktop app, its primary identity in the ecosystem and the 'fastest way to try it' is as an MCP server that brings ecosystem intelligence into other assistants."
-    - Repo description defines it as 'Privacy-first developer intelligence' built as a local desktop app (Tauri, Rust, SQLite).
-    - README emphasizes 'local-first and direct-to-provider' execution with Ollama support and zero remote telemetry.
-    - The MCP server is presented as a secondary integration ('Works standalone — no desktop app required') rather than the core product.
-    - "included: While it provides an MCP server for integration with assistants like Cursor and Claude Code, the primary product identity is a Rust/React/Tauri desktop application focused on local-first, private content filtering."
+    - Scans local files like Cargo.toml and package.json to score content relevance
+    - Uses an LLM layer to verify technical relevance against the user's specific dependency graph
+    - Provides an MCP server to inject filtered ecosystem intelligence into assistants like Cursor or Claude Code
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:26.282Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__4da-systems__4da: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:15:40.603Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b6e7aaf85455cf19399ae04f3d8bcb6ba447deb72cc9b08a037353eb6abeb071
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: It acts as a specialized retrieval and context-shaping layer that filters technical noise into stack-specific signal.
+      decision_evidence:
+        - Scans local files like Cargo.toml and package.json to score content relevance
+        - Uses an LLM layer to verify technical relevance against the user's specific dependency graph
+        - Provides an MCP server to inject filtered ecosystem intelligence into assistants like Cursor or Claude Code
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the primary innovation is the scoring engine used for contextual retrieval rather than the MCP protocol itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-06-22T05:53:30.455Z"

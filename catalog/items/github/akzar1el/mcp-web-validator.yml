@@ -49,18 +49,26 @@ metadata:
       fetched_at: "2026-08-24T04:21:08.521Z"
       bytes: 8472
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides HTML/CSS validation, technical SEO audits, accessibility checks, and screenshot capabilities to MCP-compliant clients.
+  why_it_matters: It enables developers to run automated web standards and SEO audits directly through their AI coding assistants like Claude Desktop or Cursor.
+  mental_damage: Because verifying your own CSS syntax and meta tags is apparently too much manual labor for a modern developer.
+  tags:
+    - mcp
+    - seo
+    - web-standards
+    - html-validator
+    - css-validator
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to provide domain-specific tools to AI assistants via the Model Context Protocol.
+  evidence:
+    - Repo description identifies it as a W3C HTML/CSS Validator and SEO Audit MCP Server.
+    - README details specific MCP tools for html.local, css.local, seo.metadata, and screenshot.capture.
+    - Supports both stdio transport for local clients and Streamable HTTP for remote clients.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -76,6 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:23:45.378Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4a5d4ce4fcef07dadeb14f6ce95bcd2800725f2691646fd02817e0719ee8ffda
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server implementation designed to provide domain-specific tools to AI assistants via the Model Context Protocol.
+      decision_evidence:
+        - Repo description identifies it as a W3C HTML/CSS Validator and SEO Audit MCP Server.
+        - README details specific MCP tools for html.local, css.local, seo.metadata, and screenshot.capture.
+        - Supports both stdio transport for local clients and Streamable HTTP for remote clients.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is an MCP server implementation rather than a general host integration.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

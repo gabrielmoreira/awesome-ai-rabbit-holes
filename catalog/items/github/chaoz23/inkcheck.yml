@@ -31,7 +31,7 @@ metadata:
     full_name: chaoz23/inkcheck
     html_url: https://github.com/chaoz23/inkcheck
     created_at: "2026-07-06T04:50:52Z"
-    pushed_at: "2026-08-09T16:51:27Z"
+    pushed_at: "2026-08-25T23:21:46Z"
     description: CI for ink stories — compile checks, exhaustive branch playtesting, dead-content detection. MCP server + CLI.
     homepage: null
     topics:
@@ -45,23 +45,31 @@ metadata:
       - narrative
       - narrative-games
       - testing
-    last_checked_at: "2026-08-13T04:39:32.502Z"
+    last_checked_at: "2026-08-27T06:08:43.749Z"
     readme:
-      fetched_at: "2026-08-13T04:39:32.502Z"
-      bytes: 63560
+      fetched_at: "2026-08-27T06:08:43.749Z"
+      bytes: 65028
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A mechanical QA tool for ink stories providing compile checks, branch exploration, and dead-content detection via CLI and MCP.
+  why_it_matters: It allows developers and AI agents to perform deterministic regression testing on complex, branching interactive narratives to catch runtime errors and broken paths.
+  mental_damage: Because nothing says 'optimized workflow' like delegating the exhaustive, deterministic verification of branching story logic to a headless agent.
+  tags:
+    - ink
+    - qa
+    - mcp
+    - interactive-fiction
+    - testing
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a specialized testing utility that augments the capabilities of AI agents and CI pipelines through an MCP server and CLI.
+  evidence:
+    - Repo description specifies it as a QA tool with MCP server and CLI capabilities
+    - README identifies it as a tool for humans and AI agents to perform mechanical story QA
+    - Explicitly states it is a deterministic QA tool rather than a generative AI tool
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Testing & QA Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -73,13 +81,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:32.502Z"
+    updated_at: "2026-08-27T06:08:43.749Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-08-24T04:21:26.853Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-08-27T06:18:58.484Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0ee12522fe950a9c848705fd058e14d6f02735302090b18d454ab5ac7607e58f
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: It is a specialized testing utility that augments the capabilities of AI agents and CI pipelines through an MCP server and CLI.
+      decision_evidence:
+        - Repo description specifies it as a QA tool with MCP server and CLI capabilities
+        - README identifies it as a tool for humans and AI agents to perform mechanical story QA
+        - Explicitly states it is a deterministic QA tool rather than a generative AI tool
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the primary product is a domain-specific QA tool that uses MCP as an integration layer to extend agent capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

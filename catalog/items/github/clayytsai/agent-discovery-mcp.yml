@@ -59,50 +59,61 @@ metadata:
       - mcp
       - model-context-protocol
       - x402
-    last_checked_at: "2026-08-20T04:18:14.267Z"
+    last_checked_at: "2026-08-27T06:08:46.924Z"
     readme:
-      fetched_at: "2026-08-20T04:18:14.267Z"
+      fetched_at: "2026-08-27T06:08:46.924Z"
       bytes: 9563
 insights:
-  summary: An MCP server that enables AI coding agents to discover ERC-8004 agents and execute payments via the Coinbase x402 protocol.
-  why_it_matters: It provides a standardized bridge for developers to let their coding assistants autonomously find and pay for on-chain agent services using existing EOAs.
-  mental_damage: Finally, you can let your IDE spend your crypto on random agents while you sleep.
+  summary: An MCP server that allows AI coding agents to discover on-chain agents via the ERC-8004 standard and pay them using the x402 protocol.
+  why_it_matters: It enables developers to integrate autonomous on-chain agents into existing AI coding workflows with automated discovery and payment.
+  mental_damage: Because your coding assistant just gained the ability to hire other agents and spend your crypto without asking.
   tags:
-    - agents
-    - ai-agents
-    - coinbase
-    - crypto
-    - erc-8004
     - mcp
+    - web3
+    - ai-agents
+    - erc-8004
     - x402
   confidence: high
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: The project is a domain-specific MCP server providing specialized capabilities for agent discovery and payment.
   evidence:
-    - Repo description and README explicitly define it as an MCP server.
-    - Provides specialized tools for discovery and payment (find_agents_by_skill, call_agent_with_payment) via the Model Context Protocol.
-    - Serves as infrastructure to connect existing coding assistants to the ERC-8004 agent ecosystem.
-    - "included: The tool's primary identity is a functional MCP server that provides domain-specific tools for interacting with on-chain agent registries."
-    - Explicitly defines itself as an 'MCP server' in the README
-    - Provides specific tools (find_agents_by_skill, get_agent_card) for MCP-compatible clients
-    - Identity is centered on being the middleware between agents and the x402 payment protocol
-    - "included: The project is explicitly an MCP server designed for agent discovery and payment orchestration within the Model Context Protocol ecosystem."
+    - Explicitly identifies as an MCP server in the README and repo description
+    - "Provides specific domain tools: find_agents_by_skill, get_agent_card, and call_agent_with_payment"
+    - Integrates specific protocols like ERC-8004 and x402 directly into the MCP toolset
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:28.136Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__clayytsai__agent-discovery-mcp: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:21:55.130Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0c06f1cc6a64026eede7fcbcb2c160aae9538f6c9d64421f82f491465296ebc0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is a domain-specific MCP server providing specialized capabilities for agent discovery and payment.
+      decision_evidence:
+        - Explicitly identifies as an MCP server in the README and repo description
+        - "Provides specific domain tools: find_agents_by_skill, get_agent_card, and call_agent_with_payment"
+        - Integrates specific protocols like ERC-8004 and x402 directly into the MCP toolset
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity is a Model Context Protocol server providing specialized domain logic rather than a general integration layer for an editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-07-06T05:29:57.557Z"
@@ -110,6 +121,6 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:14.267Z"
+    updated_at: "2026-08-27T06:08:46.924Z"
     cause: null
     next_retry_at: null

@@ -36,25 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A platform for building and operating AI agent workforces that automate sales, marketing, and GTM workflows.
-  why_it_matters: Developers building GTM automation can use it as a control plane for multi-agent systems with enterprise integors and monitoring.
-  mental_damage: Yet another 'autopilot' layer promising to replace your sales team, now with version control for agents so you can roll back the moment your AI workforce insults a Tier 1 prospect.
+  summary: An enterprise platform for building, deploying, and orchestrating specialized AI agents with integrated LLM routing, tracing, and evaluation.
+  why_it_matters: It provides a unified infrastructure stack for moving from simple LLM prompts to managed, autonomous agentic workflows.
+  mental_damage: Because why debug a single function when you can manage an entire autonomous workforce of specialist agents instead?
   tags:
-    - gtm
-    - multi-agent
-    - sales-automation
-    - enterprise
+    - agent-orchestration
+    - llmops
+    - enterprise-ai
+    - agentic-workflows
+    - mcp
   confidence: high
 curation:
-  status: excluded
-  reason: The product is an end-user SaaS platform for sales and GTM teams, not a developer-facing coding tool, framework, or infrastructure component.
+  status: included
+  reason: Relevance AI acts as an operated control plane and runtime platform that integrates routing, job queues, observability, and evals for multi-agent systems.
   evidence:
-    - Homepage positions the product as 'AI Agents for Sales & GTM Teams' with BDR, outreach, and customer-success use cases.
-    - "Primary pitch centers on non-technical workflows: CRM updates, email drafting, meeting prep, and pipeline signals."
-    - Appears in awesome-ai-agents under a GTM-playbook section, but source-list placement does not override the non-developer-tooling identity.
+    - Claims to ship an all-in-one system for routing, queues, evals, and tracing to replace custom-built stacks.
+    - Features an 'MCP Gateway' for agent tool access and integrated tracing/observability.
+    - Positions itself as a platform for managing 'specialist agents' across entire enterprise workforces.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:37.170Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for relevanceai__com: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:12:49.075Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:075c87f2c7d2b83342ebe67413654ab427302fb000908982a62b9d167a6fba77
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: Relevance AI acts as an operated control plane and runtime platform that integrates routing, job queues, observability, and evals for multi-agent systems.
+      decision_evidence:
+        - Claims to ship an all-in-one system for routing, queues, evals, and tracing to replace custom-built stacks.
+        - Features an 'MCP Gateway' for agent tool access and integrated tracing/observability.
+        - Positions itself as a platform for managing 'specialist agents' across entire enterprise workforces.
+      category_candidates:
+        - agent-orchestration
+        - evals
+      contrastive_reason: Choose agent-orchestration over evals because its primary identity is a platform for coordinating entire agentic workforces, with evals serving as a core integrated capability rather than the sole product.
+      review_reason: null
+      review_resume_lifecycle: null

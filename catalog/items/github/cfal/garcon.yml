@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 58
-    forks: 11
+    stars: 62
+    forks: 12
     license: NOASSERTION
     archived: false
     full_name: cfal/garcon
     html_url: https://github.com/cfal/garcon
     created_at: "2026-02-23T13:42:57Z"
-    pushed_at: "2026-08-19T23:49:10Z"
+    pushed_at: "2026-08-27T01:17:16Z"
     description: Self-hosted browser workspace to run coding agents in parallel, steer work as it runs, review diffs, and ship.
     homepage: ""
     topics:
@@ -55,23 +55,31 @@ metadata:
       - pi-agent
       - self-hosted
       - web-ui
-    last_checked_at: "2026-08-20T04:18:11.855Z"
+    last_checked_at: "2026-08-27T06:08:42.952Z"
     readme:
-      fetched_at: "2026-08-20T04:18:11.855Z"
-      bytes: 16806
+      fetched_at: "2026-08-27T06:08:42.952Z"
+      bytes: 26276
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A self-hosted browser workspace for hosting, steering, and managing parallel sessions of multiple AI coding agents.
+  why_it_matters: It provides a unified control plane to manage multiple agent sessions at once, allowing developers to steer work, review diffs, and manage Git operations in a single interface.
+  mental_damage: Now you can watch four different agents hallucinate in parallel split-panes instead of just one.
+  tags:
+    - agent-orchestration
+    - coding-agents
+    - self-hosted
+    - multi-agent
+    - workflow
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Garcon acts as a workbench and control plane for coordinating multiple agents and their parallel execution sessions.
+  evidence:
+    - README describes it as a workspace to 'Run the agents. Steer the work. Ship the change.'
+    - Supports parallel sessions for multiple agents like Claude Code, Codex, and Cursor Agent
+    - Provides a centralized UI for steering, diff review, and Git management across different model endpoints
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Workbenches & Collaboration Surfaces
 lifecycle:
   status: incubating
   reason: null
@@ -83,14 +91,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:11.855Z"
+    updated_at: "2026-08-27T06:08:42.952Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.988Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__cfal__garcon: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:21:20.703Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:19ee49c334e94c9b908cd9e9a2105265f7bedbd236e05b21b6c24ffc58feeda6
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: Garcon acts as a workbench and control plane for coordinating multiple agents and their parallel execution sessions.
+      decision_evidence:
+        - README describes it as a workspace to 'Run the agents. Steer the work. Ship the change.'
+        - Supports parallel sessions for multiple agents like Claude Code, Codex, and Cursor Agent
+        - Provides a centralized UI for steering, diff review, and Git management across different model endpoints
+      category_candidates:
+        - agent-orchestration
+        - ai-dev-extensions
+      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because Garcon functions as a centralized workbench and control plane for coordinating multiple agent sessions rather than just adding a single utility to a specific host.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

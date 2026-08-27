@@ -36,25 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A developer-first AI search engine providing vector, semantic, and LLM-powered search capabilities via a multi-tenant, API-first platform.
-  why_it_matters: It offers an API-ready search infrastructure designed to be integrated into applications requiring contextual or semantic retrieval.
-  mental_damage: Yet another API-first search platform promising to solve retrieval, ensuring developers can add 'vector search' to their stack before figuring out what they actually need to find.
+  summary: A developer-first search platform providing vector, semantic, and LLM-powered retrieval services.
+  why_it_matters: It provides the infrastructure for high-quality retrieval, allowing developers to easily feed relevant semantic data into AI workflows and agents.
+  mental_damage: Because managing your own vector embeddings is now considered a niche hobbyist pursuit.
   tags:
+    - search
     - vector-search
-    - semantic-search
-    - api-first
-    - llm
+    - retrieval
+    - mcp
+    - api
   confidence: high
 curation:
-  status: excluded
-  reason: The product is a general-purpose search API platform rather than a tool that directly assists developers in writing, debugging, or managing code.
+  status: included
+  reason: The core identity of the product is a search engine for vector and semantic retrieval, which is the fundamental task of context engineering.
   evidence:
-    - Scraped site description defines it as a 'Developer-first AI search engine for vector, semantic, and LLM-powered search', not a coding assistant.
-    - Listed in awesome-mcp-servers, but the core identity is a search platform, not MCP infrastructure itself.
-    - No evidence of repo editing, IDE integration, or developer workflow automation; it is a backend SaaS capability.
+    - Described as an API-first search engine for vector, semantic, and LLM-powered search.
+    - Identified in source lists as an official MCP server for providing search capabilities.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
@@ -69,12 +69,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-10T04:36:28.204Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for aisearch__vpuna__com: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:09:34.116Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9f82881c51fa1d3656f9896dc2f4d3e772b2832c365d740df53d421daa4d5cad
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core identity of the product is a search engine for vector and semantic retrieval, which is the fundamental task of context engineering.
+      decision_evidence:
+        - Described as an API-first search engine for vector, semantic, and LLM-powered search.
+        - Identified in source lists as an official MCP server for providing search capabilities.
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the primary product is a search and retrieval engine, while MCP is the protocol used to expose that engine to agents.
+      review_reason: null
+      review_resume_lifecycle: null

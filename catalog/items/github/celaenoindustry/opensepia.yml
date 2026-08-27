@@ -24,7 +24,7 @@ provenance:
 metadata:
   github:
     stars: 34
-    forks: 6
+    forks: 7
     license: MIT
     archived: false
     full_name: CelaenoIndustry/OpenSepia
@@ -43,23 +43,31 @@ metadata:
       - llm
       - multi-agent
       - open-source
-    last_checked_at: "2026-08-20T04:18:11.454Z"
+    last_checked_at: "2026-08-27T06:08:42.430Z"
     readme:
-      fetched_at: "2026-08-20T04:18:11.454Z"
+      fetched_at: "2026-08-27T06:08:42.430Z"
       bytes: 26836
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Autonomous AI dev team of 9 Claude agents that runs continuously via cron to plan, code, review, test, and deploy software.
+  why_it_matters: It demonstrates end-to-end autonomous software development by simulating an agile team that operates without human intervention per cycle.
+  mental_damage: Watching a cron job pretend to be a whole engineering org highlights how far we’ll go to avoid writing a single ticket.
+  tags:
+    - autonomous
+    - multi-agent
+    - claude-code
+    - devops
+    - agile
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product itself functions as a developer-facing coding assistant that plans, writes, reviews, tests, and deploys code across a repo via CLI orchestration, making it a coding agent rather than an extension or framework.
+  evidence:
+    - "Repo description: 'Autonomous AI dev team — 9 Claude agents run as an agile team: plan sprints, write code, review, test, deploy. Runs 24/7 via cron.'"
+    - "README: Agents implement features, write tests, review code, handle DevOps, QA, security, and sync with GitLab/GitHub issues and MRs."
+    - Uses Claude Code CLI directly via `claude --print --allowedTools` to perform coding tasks without requiring API keys.
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: incubating
   reason: null
@@ -71,10 +79,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:11.454Z"
+    updated_at: "2026-08-27T06:08:42.430Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:25:53.468Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7a3da58dac83790a580113168d2a24d24d7fe14c3c7e1462f5eb0bbdbe6a5807
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The product itself functions as a developer-facing coding assistant that plans, writes, reviews, tests, and deploys code across a repo via CLI orchestration, making it a coding agent rather than an extension or framework.
+      decision_evidence:
+        - "Repo description: 'Autonomous AI dev team — 9 Claude agents run as an agile team: plan sprints, write code, review, test, deploy. Runs 24/7 via cron.'"
+        - "README: Agents implement features, write tests, review code, handle DevOps, QA, security, and sync with GitLab/GitHub issues and MRs."
+        - Uses Claude Code CLI directly via `claude --print --allowedTools` to perform coding tasks without requiring API keys.
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the product is primarily a developer-facing coding assistant that performs repo-level software development tasks, not a general-purpose workbench or control plane for coordinating arbitrary agents.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -75,6 +75,10 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
-    cause: null
+    status: deferred
+    updated_at: "2026-08-27T06:25:20.277Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__aradar46__reuse-before-generate: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

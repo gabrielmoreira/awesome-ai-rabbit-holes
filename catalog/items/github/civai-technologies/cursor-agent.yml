@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 133
+    stars: 134
     forks: 34
     license: MIT
     archived: false
@@ -43,28 +43,28 @@ metadata:
       - cursor-agent-tools
       - framework
       - python
-    last_checked_at: "2026-08-20T04:18:13.725Z"
+    last_checked_at: "2026-08-27T06:08:45.886Z"
     readme:
-      fetched_at: "2026-08-20T04:18:13.725Z"
+      fetched_at: "2026-08-27T06:08:45.886Z"
       bytes: 29144
 insights:
-  summary: A Python-based CLI agent that replicates Cursor's coding assistant capabilities, supporting function calling, code generation, and file operations with Claude, OpenAI, and local Ollama models.
-  why_it_matters: It offers developers a model-agnostic, local-first coding agent they can script against and extend with custom tools without vendor lock-in.
-  mental_damage: We have now reached the point where we are building open-source clones of the AI assistants that were supposed to save us from writing boilerplate in the first place.
+  summary: A Python-based AI agent that implements coding assistant capabilities like code editing, codebase search, and terminal execution.
+  why_it_matters: It allows developers to integrate Cursor-like agentic workflows into their own Python environments or custom CLI tools.
+  mental_damage: Because apparently, the only way to truly enjoy Cursor's features is to rebuild them from scratch in a Python script.
   tags:
-    - cli
-    - coding-agent
+    - coding-agents
     - python
-    - local-models
-    - function-calling
+    - cursor
+    - ollama
+    - claude
   confidence: high
 curation:
   status: included
-  reason: The tool is a standalone CLI coding assistant that reads code, edits files, and runs commands using multiple LLM backends, fitting the primary coding agent definition.
+  reason: The tool's primary identity is a functional coding assistant designed to perform autonomous repo tasks like editing and searching, rather than a general-purpose AI library.
   evidence:
-    - Repo description states it is 'a Python-based AI agent that replicates Cursor's coding assistant capabilities' with code generation and editing.
-    - README lists core abilities including code generation, code editing, code analysis, and terminal command execution via run_terminal_cmd.
-    - Source list placement in 'Terminal-native coding agents > Open Source' aligns with its CLI-first, agent-centric design.
+    - Repo description explicitly states it replicates Cursor's coding assistant capabilities.
+    - README defines core agentic abilities including code generation, editing, and terminal command execution.
+    - Included in curated lists specifically for terminal-native coding agents.
 placement:
   primary_category: coding-agents
   section: Terminal & CLI Agents
@@ -79,16 +79,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:13.725Z"
+    updated_at: "2026-08-27T06:08:45.886Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:28.087Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__civai-technologies__cursor-agent: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:22:01.328Z"
+    cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:296a25a8d30f9815360c781dd9bad478260a5c4f089850c5314a5b36e2f52027
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: The tool's primary identity is a functional coding assistant designed to perform autonomous repo tasks like editing and searching, rather than a general-purpose AI library.
+      decision_evidence:
+        - Repo description explicitly states it replicates Cursor's coding assistant capabilities.
+        - README defines core agentic abilities including code generation, editing, and terminal command execution.
+        - Included in curated lists specifically for terminal-native coding agents.
+      category_candidates:
+        - coding-agents
+        - ai-frameworks
+      contrastive_reason: Choose coding-agents over ai-frameworks because the product is defined by its specific ability to perform coding tasks as an assistant, even though it is distributed as a Python package.
+      review_reason: null
+      review_resume_lifecycle: null

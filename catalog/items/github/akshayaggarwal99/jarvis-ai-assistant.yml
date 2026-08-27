@@ -50,18 +50,26 @@ metadata:
       fetched_at: "2026-08-24T04:21:08.176Z"
       bytes: 7236
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A voice-powered macOS assistant that enables local-first dictation and text manipulation using Whisper and Ollama.
+  why_it_matters: It provides a privacy-focused, subscription-free alternative to commercial dictation tools by allowing developers to run transcription and LLM processing entirely on their own hardware.
+  mental_damage: Because typing is now apparently a legacy workflow that needs to be replaced by the friction of speaking to your machine.
+  tags:
+    - macos
+    - voice-ai
+    - local-llm
+    - dictation
+    - open-source
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a standalone desktop application whose primary identity is built around local-first execution via Whisper and Ollama.
+  evidence:
+    - README claims '100% local-capable' and 'Fully offline with local Whisper'
+    - Supports local LLMs via Ollama
+    - Standalone macOS desktop application
 placement:
-  primary_category: null
-  section: null
+  primary_category: local-ai
+  section: Desktop Chat / Interfaces
 lifecycle:
   status: promotion_candidate
   reason: Stars (592) exceeded threshold (150)
@@ -77,6 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:23:34.975Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8795df32750bc4b9caf94447a6508400b46f6bbe71b7ab58f31c9c4149e8c679
+      proposed_primary_category: local-ai
+      disagreement: false
+      decision_reason: It is a standalone desktop application whose primary identity is built around local-first execution via Whisper and Ollama.
+      decision_evidence:
+        - README claims '100% local-capable' and 'Fully offline with local Whisper'
+        - Supports local LLMs via Ollama
+        - Standalone macOS desktop application
+      category_candidates:
+        - local-ai
+        - ai-dev-extensions
+      contrastive_reason: Choose local-ai over ai-dev-extensions because it is a standalone desktop application with a primary identity of local-first execution rather than a plugin for a specific coding editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

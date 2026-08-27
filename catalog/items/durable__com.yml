@@ -36,21 +36,17 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Durable is an AI-powered business builder that generates websites, handles customer management, invoicing, and marketing automation for small business owners.
-  why_it_matters: It bundles site generation, CRM, and marketing tools into one platform so non-technical users can launch a business presence without writing code.
-  mental_damage: Another platform claiming to replace an entire engineering team, this time by building brochure sites for handyman businesses instead of your actual codebase.
-  tags:
-    - ai-website-builder
-    - business-tools
-    - no-code
+  summary: AI-powered business builder that generates websites, CRM, and marketing tools for small business owners.
+  why_it_matters: ""
+  mental_damage: ""
+  tags: []
   confidence: high
 curation:
   status: excluded
-  reason: Durable is a consumer-facing small-business SaaS platform with no meaningful developer-tooling, coding-agent, or app-builder workflow for software developers.
+  reason: The product is a no-code business management platform for non-technical entrepreneurs rather than a tool for software developers.
   evidence:
-    - Scraped site describes it as an 'AI business builder' for coaching, landscaping, and photography businesses, not developers.
-    - Primary features are invoicing, CRM, SEO, and AI-generated logos/blogs, with no repo editing, IDE integration, or developer SDK.
-    - Listed under 'App Builders' in awesome-ai-coding-tools, but the product builds brochure sites for small businesses rather than developer apps or tools.
+    - Target audience is explicitly non-technical 'business owners' like handymen and photographers
+    - Core features focus on business operations (CRM, bookings, SEO) rather than code-centric development or technical scaffolding
 placement:
   primary_category: null
   section: null
@@ -68,12 +64,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:41.201Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for durable__com: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:15:06.178Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:18f12179fc5c87fce29d5d8597671fcc3d8b4fd1f6060c5f8b7a517538b52fe3
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a no-code business management platform for non-technical entrepreneurs rather than a tool for software developers.
+      decision_evidence:
+        - Target audience is explicitly non-technical 'business owners' like handymen and photographers
+        - Core features focus on business operations (CRM, bookings, SEO) rather than code-centric development or technical scaffolding
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

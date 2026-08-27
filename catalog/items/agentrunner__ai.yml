@@ -36,15 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
+  summary: ""
+  why_it_matters: ""
+  mental_damage: ""
   tags: []
-  confidence: null
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The lack of a repo description, README, or scraped context makes it impossible to determine the tool's primary identity or developer utility.
+  evidence:
+    - No repo description provided
+    - No README excerpt provided
+    - No scraped site context provided
 placement:
   primary_category: null
   section: null
@@ -62,10 +65,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:38.827Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for agentrunner__ai: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:13:50.553Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:682f978feb7869896b998b87347329316235a4b9ff894523e11402a6a30ab134
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The lack of a repo description, README, or scraped context makes it impossible to determine the tool's primary identity or developer utility.
+      decision_evidence:
+        - No repo description provided
+        - No README excerpt provided
+        - No scraped site context provided
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

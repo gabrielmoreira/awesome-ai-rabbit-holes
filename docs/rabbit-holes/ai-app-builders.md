@@ -50,22 +50,13 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `visual-development` `design-to-code` `cms` `figma-integration`
   </details>
 
-- **[Baserow](https://github.com/baserow/baserow)** `⭐ 5.6k` `updated ≤30d` Open-source no-code platform for building databases, automations, apps, and AI agents with self-hosting options. <details><summary>More about</summary>
+- **[Baserow](https://github.com/baserow/baserow)** `⭐ 5.7k` `updated ≤30d` Open-source no-code platform for building databases, automations, apps, and AI agents with self-hosting options. <details><summary>More about</summary>
 
   Developers can use it to rapidly create internal tools, dashboards, and workflows without writing code, while retaining full data control via self-hosting.
 
   _The one tool that promises to replace Airtable, Jira, and your entire backend team—until you realize you still need to debug the automations._
 
   `no-code` `database` `self-hosted` `ai-agents` `automation`
-  </details>
-
-- **[AI Getting Started](https://github.com/a16z-infra/ai-getting-started)** `⭐ 4.1k` `updated >1y` A JavaScript starter stack for building weekend AI projects, pre-configured with Next.js, LangChain.js, vector stores, auth, and deployment configs. <details><summary>More about</summary>
-
-  It gives developers a ready-to-run scaffold that wires together common AI building blocks so they can skip boilerplate and ship a demo in an afternoon.
-
-  _Yet another 'clone, add keys, npm install' ritual that lets us feel productive while deferring the hard part of actually picking a production-grade architecture._
-
-  `scaffolding` `langchain` `nextjs` `vectordb` `weekend-projects`
   </details>
 
 - **[DevGPT](https://github.com/jina-ai/dev-gpt)** `⭐ 1.9k` `updated >1y` A CLI tool that uses a virtual team of AI agents (Product Manager, Developer, DevOps) to generate, test, and deploy microservices from natural language descriptions. <details><summary>More about</summary>
@@ -198,13 +189,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `scaffolding` `task-management` `saas-generation`
   </details>
 
-- **[Bolt.new](https://bolt.new)** A browser-based prompt-to-app builder that generates full-stack websites and applications from natural language, integrating design systems, hosting, and databases into a single visual interface. <details><summary>More about</summary>
+- **[Bolt.new](https://bolt.new)** An AI-powered platform for generating, managing, and deploying full-stack web applications and websites from text prompts. <details><summary>More about</summary>
 
-  It collapses the path from product idea to deployed application by handling frontend code, backend infrastructure, and design system integration within one chat-driven loop.
+  It collapses the distance between a prompt and a live, hosted application by handling scaffolding, backend infrastructure, and deployment automatically.
 
-  _Yet another platform promising you can finally fire your engineering team, provided you are okay with debugging React errors by politely arguing with a chatbot._
+  _The existential realization that your specialized knowledge of boilerplate and deployment pipelines is becoming a legacy skill._
 
-  `vibe-coding` `prompt-to-app` `full-stack` `hosting` `design-systems`
+  `app-builder` `full-stack` `deployment` `prototyping` `web-dev`
   </details>
 
 - **[Builder.ai](https://builder.ai)** Builder.ai is a platform for generating and deploying apps from prompts. <details><summary>More about</summary>
@@ -259,6 +250,15 @@ _These are new or low-traffic entries being watched._
   _Another CLI agent to argue with your existing CLI agent about which one should edit the file._
 
   `cli` `coding-agent` `snowflake` `terminal` `closed-source`
+  </details>
+
+- **[Create.xyz](https://create.xyz)** An AI-powered platform that generates applications, websites, and tools from natural language descriptions. <details><summary>More about</summary>
+
+  It enables rapid prototyping and the creation of functional digital products through prompt-based generation.
+
+  _The barrier to starting a new project has been reduced so low that your backlog of abandoned ideas is about to become unmanageable._
+
+  `app-builders` `prompt-to-app` `rapid-prototyping`
   </details>
 
 - **[Deepsite](https://deepsite.hf.co)** An AI-powered web development platform that generates and deploys multi-page websites from text prompts. <details><summary>More about</summary>

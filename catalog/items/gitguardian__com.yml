@@ -51,23 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: GitGuardian is a secrets detection and non-human identity governance platform designed to scan code, repositories, and CI/CD pipelines for hardcoded credentials and API keys.
-  why_it_matters: It provides a CLI (ggshield) and IDE integrations that allow developers to catch secret sprawl and secure the software supply chain before deployment.
-  mental_damage: Just when you thought the AI agents were going to write all the code, you now need an enterprise platform to manage the thousand non-human identities those agents created to do it.
+  summary: A security platform for detecting leaked secrets and managing non-human identities (NHIs) throughout the development lifecycle.
+  why_it_matters: It mitigates the risk of credential leaks in codebases and during the use of autonomous AI agents.
+  mental_damage: The constant, low-grade anxiety that your autonomous coding agent just hardcoded its own master API key into a public repo.
   tags:
-    - cli
+    - security
+    - secrets-detection
     - nhis
     - sdlc
-    - secrets-detection
-    - security
   confidence: high
 curation:
   status: excluded
-  reason: While it offers a CLI and developer integrations, GitGuardian is fundamentally a security and governance SaaS platform for secrets/NHI management, not a direct AI coding tool, agent, or developer infrastructure product.
+  reason: GitGuardian is a security and governance platform rather than an AI-native development tool, agent, or framework.
   evidence:
-    - Scraped site context describes it as a 'Secrets Security and NHI Governance' platform, not an AI coding assistant.
-    - Listed in awesome-ai-coding-tools under the 'Security' section specifically for detecting secrets, not for code generation or editing.
-    - The core workflow is governance, compliance, and incident remediation rather than AI-driven development.
+    - Primary identity is secrets detection and NHI governance
+    - Mentions AI agentic security as a solution area but remains a security product
+    - Does not align with the specific functional identities of the provided categories
 placement:
   primary_category: null
   section: null
@@ -76,15 +75,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:58.167Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for gitguardian__com: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:11:35.001Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0aae4e11557316b8007e4d74013a82c242ce386da3bd29345529f321f9986259
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: GitGuardian is a security and governance platform rather than an AI-native development tool, agent, or framework.
+      decision_evidence:
+        - Primary identity is secrets detection and NHI governance
+        - Mentions AI agentic security as a solution area but remains a security product
+        - Does not align with the specific functional identities of the provided categories
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-21T15:20:21.965Z"

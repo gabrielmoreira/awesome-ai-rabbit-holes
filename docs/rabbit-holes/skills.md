@@ -32,7 +32,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `workflow-automation` `prompt-engineering` `cursor-rules` `claude-code`
   </details>
 
-- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 72.8k` `updated ≤30d` A curated list of 1000+ production-ready Claude Skills and plugins for enhancing AI agent workflows across coding assistants like Claude Code, Cursor, and others. <details><summary>More about</summary>
+- **[awesome-claude-skills](https://github.com/composiohq/awesome-claude-skills)** `⭐ 73.4k` `updated ≤30d` A curated list of 1000+ production-ready Claude Skills and plugins for enhancing AI agent workflows across coding assistants like Claude Code, Cursor, and others. <details><summary>More about</summary>
 
   Developers can discover reusable skill packs to extend their AI coding assistants with domain-specific workflows, integrations, and guardrails without reinventing the wheel.
 

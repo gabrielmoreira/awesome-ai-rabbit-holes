@@ -79,9 +79,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-20T04:18:18.163Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-08-27T06:08:52.440Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for coobiw/mpp-llava
     next_retry_at: null
   categorize:
     status: done

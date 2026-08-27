@@ -36,15 +36,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A service that connects brokerage accounts to AI assistants and chat platforms for trading stocks, options, and crypto.
+  why_it_matters: Enables developers to integrate trading capabilities into AI workflows or embed them in their own products via MCP, SDKs, or chat interfaces.
+  mental_damage: Now your AI can day-trade your life savings while you debug a segfault.
+  tags:
+    - trading
+    - mcp
+    - brokerage-integration
+    - ai-agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: This is a financial trading integration tool, not a developer-tooling product for coding, building, or orchestrating AI workflows.
+  evidence:
+    - Primary product is brokerage connectivity and trading execution in chat platforms (Claude, ChatGPT, Discord)
+    - MCP support is a secondary integration feature, not the core identity
+    - Target users are traders, not developers building or extending AI systems
 placement:
   primary_category: null
   section: null
@@ -62,10 +69,26 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.493Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for thetradeagent__ai: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:20:20.872Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3dd8f7271f1158196244588cea05e7325754c410478063e1e0b400672f304d21
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: This is a financial trading integration tool, not a developer-tooling product for coding, building, or orchestrating AI workflows.
+      decision_evidence:
+        - Primary product is brokerage connectivity and trading execution in chat platforms (Claude, ChatGPT, Discord)
+        - MCP support is a secondary integration feature, not the core identity
+        - Target users are traders, not developers building or extending AI systems
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

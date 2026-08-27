@@ -51,23 +51,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A browser-based prompt-to-app builder that generates full-stack websites and applications from natural language, integrating design systems, hosting, and databases into a single visual interface.
-  why_it_matters: It collapses the path from product idea to deployed application by handling frontend code, backend infrastructure, and design system integration within one chat-driven loop.
-  mental_damage: Yet another platform promising you can finally fire your engineering team, provided you are okay with debugging React errors by politely arguing with a chatbot.
+  summary: An AI-powered platform for generating, managing, and deploying full-stack web applications and websites from text prompts.
+  why_it_matters: It collapses the distance between a prompt and a live, hosted application by handling scaffolding, backend infrastructure, and deployment automatically.
+  mental_damage: The existential realization that your specialized knowledge of boilerplate and deployment pipelines is becoming a legacy skill.
   tags:
-    - vibe-coding
-    - prompt-to-app
+    - app-builder
     - full-stack
-    - hosting
-    - design-systems
+    - deployment
+    - prototyping
+    - web-dev
   confidence: high
 curation:
   status: included
-  reason: The core product identity is turning prompts into deployed apps and sites with integrated infrastructure, which aligns precisely with the App Builders category rather than a repo-editing coding agent.
+  reason: It is a prompt-to-app platform that provides a complete lifecycle from generation to hosting, rather than a tool primarily for editing existing codebases.
   evidence:
-    - "Scraped site title and description: 'Bolt AI builder: Websites, apps & prototypes' and 'Build and scale high-performing websites & apps using your words.'"
-    - Primary page excerpt emphasizes 'Create stunning apps & websites by chatting with AI' and integrates hosting, databases, and design systems.
-    - Listed under 'App Builders' in the awesome-ai-coding-tools directory.
+    - Identifies as an 'AI App Builder' and 'AI Website Builder'
+    - Provides integrated infrastructure including hosting, databases, and authentication via Bolt Cloud
+    - UX is centered on turning prompts/ideas into live products
 placement:
   primary_category: app-builders
   section: Prompt-to-App Builders
@@ -85,12 +85,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:39.801Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for bolt__new: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:14:20.904Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8de95113ece901335f454f46bff9d9a59a8f2843a50026560169241209c9cb59
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: It is a prompt-to-app platform that provides a complete lifecycle from generation to hosting, rather than a tool primarily for editing existing codebases.
+      decision_evidence:
+        - Identifies as an 'AI App Builder' and 'AI Website Builder'
+        - Provides integrated infrastructure including hosting, databases, and authentication via Bolt Cloud
+        - UX is centered on turning prompts/ideas into live products
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the product's core identity is generating and deploying complete, hosted applications from prompts rather than serving as a general-purpose coding assistant for existing repos.
+      review_reason: null
+      review_resume_lifecycle: null

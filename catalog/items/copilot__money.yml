@@ -37,24 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Insufficient information to determine the functionality of copilot.money.
-  why_it_matters: Developers cannot evaluate utility without knowing if this is a tool, a service, or just another parked domain.
-  mental_damage: Just another URL to bookmark for 'later' while your actual codebase sits unrefactored.
-  tags: []
-  confidence: low
+  summary: A personal finance and budgeting application.
+  why_it_matters: It is a consumer-facing fintech product and does not serve a purpose within a software development workflow.
+  mental_damage: It tracks your actual bank balance rather than your simulated technical debt.
+  tags:
+    - fintech
+    - personal-finance
+  confidence: high
 curation:
   status: excluded
-  reason: The project lacks a description, README, or any context to determine its utility or identity.
+  reason: The product is a consumer finance tool and falls entirely outside the scope of developer-centric AI infrastructure and tooling.
   evidence:
-    - No repo description provided
-    - No README content available
-    - No star or traction signals
+    - The URL copilot.money is associated with a consumer personal finance service.
+    - No repo description or README was provided to indicate any developer-tooling functionality.
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -66,28 +67,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:40.772Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for copilot__money: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:14:46.624Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:56cb216807a8d2c34a163ed99766465ecc7a97ec31fda8bf74223ba2f2f84762
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks a description, README, or any context to determine its utility or identity.
+      decision_reason: The product is a consumer finance tool and falls entirely outside the scope of developer-centric AI infrastructure and tooling.
       decision_evidence:
-        - No repo description provided
-        - No README content available
-        - No star or traction signals
+        - The URL copilot.money is associated with a consumer personal finance service.
+        - No repo description or README was provided to indicate any developer-tooling functionality.
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+      review_reason: null
       review_resume_lifecycle: null

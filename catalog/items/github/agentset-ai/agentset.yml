@@ -51,15 +51,15 @@ metadata:
       fetched_at: "2026-08-24T04:21:04.182Z"
       bytes: 3960
 insights:
-  summary: An open-source platform for building, evaluating, and shipping production-ready RAG and agentic applications with built-in ingestion, vector indexing, evaluation benchmarks, and a chat playground.
-  why_it_matters: It gives developers a turnkey, model-agnostic stack to stand up retrieval-augmented AI apps with citations, multi-tenancy, and SDKs without stitching together raw vector DBs and parsers.
-  mental_damage: Yet another roll-your-own RAG stack to debate at 2 a.m. while your chatbot still hallucinates the same two facts.
+  summary: An open-source RAG platform providing end-to-end tools for data ingestion, vector indexing, and retrieval.
+  why_it_matters: It abstracts the complexity of building production-ready RAG pipelines by handling everything from multi-format file parsing to hosted retrieval APIs.
+  mental_damage: Just one more specialized infrastructure layer to manage between your raw data and your LLM.
   tags:
     - rag
-    - retrieval
+    - indexing
+    - sdk
+    - mcp
     - agents
-    - platform
-    - evaluation
   confidence: high
 curation:
   status: included
@@ -70,10 +70,10 @@ curation:
     - "Active development: created 2025-03-10, last pushed 2026-04-21, 1981 stars, not archived."
 placement:
   primary_category: ai-frameworks
-  section: Memory / Retrieval Infrastructure
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (1981) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'context-engineering'"
 processing:
   discover:
     status: done
@@ -86,12 +86,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:26.673Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__agentset-ai__agentset: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:16:32.538Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0f96063da439116b3b17a6600d52f1e37f11cf841df6beae1c1f3dd04739b266
+      proposed_primary_category: context-engineering
+      disagreement: true
+      decision_reason: The product's core identity is the retrieval and indexing infrastructure necessary to provide context to models.
+      decision_evidence:
+        - Claims to provide turnkey RAG including ingestion, chunking, embeddings, and retrieval.
+        - Offers a developer-friendly API and typed SDKs for building agentic applications.
+        - Features support for 22+ file formats and vector indexing.
+      category_candidates:
+        - context-engineering
+        - ai-frameworks
+      contrastive_reason: Choose context-engineering over ai-frameworks because its core novelty is the retrieval and context-shaping pipeline rather than general-purpose agent orchestration.
+      review_reason: "Categorization review required: placement disagreement: retained 'ai-frameworks', proposed 'context-engineering'"
+      review_resume_lifecycle: null

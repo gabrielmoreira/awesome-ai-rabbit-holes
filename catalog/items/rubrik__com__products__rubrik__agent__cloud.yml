@@ -36,15 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Rubrik Agent Cloud is a data security and recovery platform for cloud environments.
+  why_it_matters: It provides backup, recovery, and data protection capabilities for cloud-native applications and infrastructure.
+  mental_damage: Because nothing says 'AI rabbit hole' like realizing your cloud backups are the real agent of change.
+  tags:
+    - data-security
+    - cloud-backup
+    - enterprise
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: excluded
+  reason: The product is a cloud data security and recovery platform, not a developer-facing AI tool, framework, or workflow.
+  evidence:
+    - URL and product name indicate it is a Rubrik cloud data protection product
+    - No GitHub repo or developer-tooling signals in the inputs
 placement:
   primary_category: null
   section: null
@@ -62,10 +67,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.396Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for rubrik__com__products__rubrik__agent__cloud: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:20:14.162Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d10f61493d1c1a3df7f6ccb087301a1ea6f88bc5270eeb371480c709298b6d88
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product is a cloud data security and recovery platform, not a developer-facing AI tool, framework, or workflow.
+      decision_evidence:
+        - URL and product name indicate it is a Rubrik cloud data protection product
+        - No GitHub repo or developer-tooling signals in the inputs
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

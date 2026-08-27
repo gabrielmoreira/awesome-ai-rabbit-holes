@@ -176,7 +176,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `openai-compatible` `self-hosting` `bentoml` `inference`
   </details>
 
-- **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 11.3k` `updated ≤30d` KoboldCpp is a single-file executable for running GGUF models with a KoboldAI-inspired UI and multi-modal capabilities. <details><summary>More about</summary>
+- **[koboldcpp](https://github.com/lostruins/koboldcpp)** `⭐ 11.3k` `updated ≤90d` KoboldCpp is a single-file executable for running GGUF models with a KoboldAI-inspired UI and multi-modal capabilities. <details><summary>More about</summary>
 
   It lets developers run local LLMs and multimodal models without setup, enabling private inference for experimentation or integration.
 
@@ -239,7 +239,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-serving` `gpu-orchestration` `inference`
   </details>
 
-- **[LoRAX](https://github.com/predibase/lorax)** `⭐ 3.8k` `updated ≤90d` A multi-LoRA inference server that dynamically serves thousands of fine-tuned LLMs on a single GPU using dynamic adapter loading and continuous batching. <details><summary>More about</summary>
+- **[LoRAX](https://github.com/predibase/lorax)** `⭐ 3.8k` `updated ≤180d` A multi-LoRA inference server that dynamically serves thousands of fine-tuned LLMs on a single GPU using dynamic adapter loading and continuous batching. <details><summary>More about</summary>
 
   It allows developers to run a massive fleet of specialized fine-tuned models in production with drastically lower infrastructure costs by sharing a single base model.
 
@@ -257,7 +257,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `chinese-llm` `open-source-model` `local-ai`
   </details>
 
-- **[Chat-ollama](https://github.com/sugarforever/chat-ollama)** `⭐ 3.5k` `updated ≤90d` ChatOllama is a self-hosted, Nuxt 3-based AI chatbot platform that supports local models via Ollama as well as major providers, featuring RAG knowledge bases, realtime voice chat, and MCP integration for agent tooling. <details><summary>More about</summary>
+- **[Chat-ollama](https://github.com/sugarforever/chat-ollama)** `⭐ 3.5k` `updated ≤180d` ChatOllama is a self-hosted, Nuxt 3-based AI chatbot platform that supports local models via Ollama as well as major providers, featuring RAG knowledge bases, realtime voice chat, and MCP integration for agent tooling. <details><summary>More about</summary>
 
   It gives developers a private, Docker-deployable chat surface to run local and cloud models with RAG, voice, and agent workflows without sending data to hosted SaaS.
 
@@ -383,6 +383,15 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `performance` `cuda` `optimization`
   </details>
 
+- **[akshayaggarwal99/jarvis-ai-assistant](https://github.com/akshayaggarwal99/jarvis-ai-assistant)** `⭐ 619` `updated ≤30d` A voice-powered macOS assistant that enables local-first dictation and text manipulation using Whisper and Ollama. <details><summary>More about</summary>
+
+  It provides a privacy-focused, subscription-free alternative to commercial dictation tools by allowing developers to run transcription and LLM processing entirely on their own hardware.
+
+  _Because typing is now apparently a legacy workflow that needs to be replaced by the friction of speaking to your machine._
+
+  `macos` `voice-ai` `local-llm` `dictation` `open-source`
+  </details>
+
 - **[QA-Pilot](https://github.com/reid41/qa-pilot)** `⭐ 326` `updated >1y` QA-Pilot is a self-hosted, interactive chat interface that lets developers converse with and navigate local or remote GitHub code repositories using a variety of online and local LLMs. <details><summary>More about</summary>
 
   It offers a local-first workflow for rapidly understanding unfamiliar codebases via conversation, supporting a wide range of LLM providers without sending proprietary code to hosted services.
@@ -486,13 +495,13 @@ _These are new or low-traffic entries being watched._
   `local-ai` `desktop` `ollama` `offline` `chat`
   </details>
 
-- **[Jan](https://jan.ai)** Jan is a desktop application for running large language models locally on your own hardware. <details><summary>More about</summary>
+- **[Jan](https://jan.ai)** An open-source desktop application for running local LLMs or connecting to cloud-based models. <details><summary>More about</summary>
 
-  It provides developers with a privacy-focused, offline-capable interface to run and interact with open-source LLMs without relying on external APIs.
+  It provides a private, local-first interface for interacting with models, reducing reliance on cloud APIs and improving data sovereignty.
 
-  _Yet another desktop wrapper promising to wrangle local models, ensuring you can max out your GPU fans while wondering if you should have just used Ollama._
+  _The inevitable descent into comparing your local token-per-second throughput against the heat output of your laptop._
 
-  `local-ai` `desktop` `llm` `offline`
+  `local-ai` `open-source` `desktop-app` `llm-interface`
   </details>
 
 - **[LibreChat](https://www.librechat.ai)** LibreChat is a customizable open-source chat UI supporting multiple AI providers and features like file upload, image generation, and agent support. <details><summary>More about</summary>

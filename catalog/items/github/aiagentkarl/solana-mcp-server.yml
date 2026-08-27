@@ -49,23 +49,23 @@ metadata:
       fetched_at: "2026-08-24T04:21:06.376Z"
       bytes: 2935
 insights:
-  summary: An MCP server that exposes Solana blockchain data—including wallet balances, token prices, DeFi yields, and safety checks—to AI agents via tools built on the FastMCP framework.
-  why_it_matters: It lets AI coding assistants query live Solana on-chain data directly, enabling agents to build, audit, or analyze Web3 workflows without leaving the MCP client.
-  mental_damage: Your AI agent can now independently verify degen yield farms and rug-check tokens, accelerating both your dApp development and your eventual portfolio collapse.
+  summary: An MCP server that provides real-time Solana blockchain data, including wallet balances, token prices, and DeFi yields, to AI agents.
+  why_it_matters: It allows developers to equip AI agents with on-chain intelligence and security tools for direct blockchain interaction and analysis.
+  mental_damage: Because now your AI agent can rug-pull you with even higher efficiency.
   tags:
-    - mcp
     - solana
-    - web3
-    - defi
+    - mcp
     - blockchain
+    - defi
+    - agents
   confidence: high
 curation:
   status: included
-  reason: The product's core identity is an MCP server purpose-built to expose Solana blockchain data to AI agents, which aligns exactly with the MCP Servers & Tooling category.
+  reason: The project is specifically a purpose-built MCP server designed to provide domain-specific (Solana) tools to an MCP host.
   evidence:
-    - Repo description explicitly states 'MCP-Server für Solana-Blockchain-Daten' with MCP server topics.
-    - README shows 11 defined MCP tools (get_wallet_balance, get_defi_yields, check_token_safety, etc.) using FastMCP.
-    - Listed in awesome-mcp-servers under 'Finance & Fintech' server implementations.
+    - README identifies it as an 'MCP-Server für Solana-Blockchain-Daten'
+    - Provides 11 specific tools (e.g., get_wallet_balance, check_token_safety) via the Model Context Protocol
+    - Includes direct configuration instructions for MCP clients
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -84,12 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:26.936Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__aiagentkarl__solana-mcp-server: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:16:52.525Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6fb00d0a4d2fe861d126977eeca0f7e10bc0fe83e40f60511e818d267929399c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is specifically a purpose-built MCP server designed to provide domain-specific (Solana) tools to an MCP host.
+      decision_evidence:
+        - README identifies it as an 'MCP-Server für Solana-Blockchain-Daten'
+        - Provides 11 specific tools (e.g., get_wallet_balance, check_token_safety) via the Model Context Protocol
+        - Includes direct configuration instructions for MCP clients
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is a protocol-specific server for the Model Context Protocol rather than a general-purpose host integration.
+      review_reason: null
+      review_resume_lifecycle: null

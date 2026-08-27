@@ -37,18 +37,23 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A database-specific implementation of the Model Context Protocol (MCP).
+  why_it_matters: It allows AI coding assistants to interact with and query database schemas and data using the standardized MCP interface.
+  mental_damage: Because giving an LLM direct access to your production database is exactly the kind of high-stakes chaos the industry craves.
+  tags:
+    - mcp
+    - database
+    - infrastructure
+  confidence: medium
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool is identified as an MCP server for databases, making it a direct piece of MCP infrastructure.
+  evidence:
+    - Listed in awesome-mcp-servers
+    - Categorized under Database server implementations
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -63,10 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:27.607Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for flamerobin__org: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:17:49.224Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:47352c82e1f87553a0e6d696ae386cf3ba9904cbf12d75d9d19c7c24ce32c793
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is identified as an MCP server for databases, making it a direct piece of MCP infrastructure.
+      decision_evidence:
+        - Listed in awesome-mcp-servers
+        - Categorized under Database server implementations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is an MCP server implementation.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

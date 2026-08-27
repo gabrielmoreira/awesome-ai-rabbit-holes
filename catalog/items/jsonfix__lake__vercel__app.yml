@@ -36,22 +36,20 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A free online utility that formats, validates, and uses Claude to repair broken JSON with common syntax errors.
-  why_it_matters: It provides a quick, no-signup fallback for developers dealing with malformed JSON that standard parsers reject.
-  mental_damage: We have reached the point where we build dedicated web tools to paper over the fact that our AI-generated configs and payloads are consistently unparseable.
+  summary: An AI-powered web utility for formatting, validating, and repairing broken JSON strings using Claude.
+  why_it_matters: It automates the correction of common JSON syntax errors, such as missing commas or unquoted keys, through a simple web interface.
+  mental_damage: Because we have officially reached the point where a single missing comma is a cognitive hurdle too high to clear without LLM intervention.
   tags:
     - json
-    - formatter
-    - ai-fix
     - utility
+    - ai-fixer
   confidence: high
 curation:
   status: excluded
-  reason: This is a general-purpose web utility for fixing JSON rather than a developer-facing AI coding tool, agent, or workflow component.
+  reason: The tool is a single-purpose web utility for a micro-task, which does not meet the criteria for the highly specialized categories like Coding Agents or Extensions.
   evidence:
-    - The primary page excerpt describes a 'Free Online JSON Formatter & Fixer' for pasting JSON, not a coding workflow tool.
-    - Its inclusion in awesome-ai-coding-tools under 'Developer Productivity Tools' is too broad for this catalog's focus on AI-native dev tooling.
-    - The AI feature is simply using Claude to repair JSON syntax, lacking the repo editing, agent orchestration, or IDE integration required for inclusion.
+    - Standalone web-based JSON formatting and repair tool
+    - Lacks the repo-wide, IDE-integrated, or orchestration-focused scope required by the catalog categories
 placement:
   primary_category: null
   section: null
@@ -69,12 +67,25 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:40:00.676Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for jsonfix__lake__vercel__app: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:12:34.724Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:df281a6b13047531538d8d1cf0e2feaf0b0c43449947c3f4db1160c554622691
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The tool is a single-purpose web utility for a micro-task, which does not meet the criteria for the highly specialized categories like Coding Agents or Extensions.
+      decision_evidence:
+        - Standalone web-based JSON formatting and repair tool
+        - Lacks the repo-wide, IDE-integrated, or orchestration-focused scope required by the catalog categories
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null

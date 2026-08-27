@@ -51,22 +51,22 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: EduBase is a SaaS learning management system and exam platform that includes an AI assistant for generating quizzes and translating questions.
-  why_it_matters: It offers an API and webhooks for developers to integrate learning content and user management into existing enterprise systems.
-  mental_damage: We have officially reached the point where even the platform hosting your compliance training quizzes needs an MCP server and a spot in the awesome-mcp-servers list.
+  summary: An online learning and assessment platform featuring AI-driven question generation and MCP integration.
+  why_it_matters: It allows developers to bridge educational and compliance data with AI assistants via the Model Context Protocol.
+  mental_damage: Automating the very training meant to prevent you from making mistakes in the first place.
   tags:
-    - education
     - lms
     - mcp
-    - saas
+    - edtech
+    - ai-assistant
   confidence: high
 curation:
   status: excluded
-  reason: EduBase is a general-purpose online learning and exam platform (LMS) for businesses and schools, not a developer tool; its inclusion in awesome-mcp-servers appears to be for an integration endpoint rather than an MCP infrastructure product, and it lacks the developer-facing tooling identity required for this catalog.
+  reason: The product's primary identity is a vertical SaaS learning management system (LMS) for education and compliance, making its AI and MCP capabilities secondary integration features rather than core developer tools.
   evidence:
-    - The scraped site context describes a 'Customizable Online Learning & Exam Platform' for customers, employees, and students, not developers.
-    - Primary features highlighted are quizzing, cheating detection, SCORM support, and branding, which are LMS features rather than coding tools.
-    - Mentioned in awesome-mcp-servers, but the product itself is a SaaS platform with an 'EduBase MCP server' as a compatibility feature, not an MCP-first toolkit.
+    - The platform's core utility is managing quizzes, exams, and SCORM learning materials for companies and schools.
+    - The AI Assistant is a feature for content creators to generate or translate educational questions.
+    - The MCP server is an integration layer designed to allow existing assistants to interact with the platform's data.
 placement:
   primary_category: null
   section: null
@@ -75,15 +75,29 @@ lifecycle:
   reason: null
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:57.025Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for edubase__net: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:10:40.685Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f931f8fed7812ca2d742d2a7ccb39175cede67d131a1ed144230548d58254d84
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The product's primary identity is a vertical SaaS learning management system (LMS) for education and compliance, making its AI and MCP capabilities secondary integration features rather than core developer tools.
+      decision_evidence:
+        - The platform's core utility is managing quizzes, exams, and SCORM learning materials for companies and schools.
+        - The AI Assistant is a feature for content creators to generate or translate educational questions.
+        - The MCP server is an integration layer designed to allow existing assistants to interact with the platform's data.
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
   discover:
     status: done
     updated_at: "2026-07-21T15:20:21.965Z"

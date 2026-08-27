@@ -37,18 +37,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A framework for building stateful, multi-agent workflows using graph-based logic.
+  why_it_matters: It allows developers to move beyond linear prompt chains to implement complex, looping agentic behaviors with managed state.
+  mental_damage: It provides a formal way to graph exactly where your agent's reasoning will inevitably loop into infinity.
+  tags:
+    - langgraph
+    - langchain
+    - agents
+    - workflows
+    - orchestration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a code-first library for defining agentic workflows via graphs rather than an operated control plane or workbench.
+  evidence:
+    - Listed in awesome-agent-orchestration as a framework for agentic AI
+    - Part of the LangChain ecosystem for building stateful agent workflows
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Workflow / Graph Engines
 lifecycle:
   status: incubating
   reason: null
@@ -63,10 +70,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.249Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for langchain__ai__github__io__langgraph: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:20:08.177Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:92ef5d65b29b8fb9c667ab9b8a2a39b40958a247067e9aceb482b341bfcef17a
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first library for defining agentic workflows via graphs rather than an operated control plane or workbench.
+      decision_evidence:
+        - Listed in awesome-agent-orchestration as a framework for agentic AI
+        - Part of the LangChain ecosystem for building stateful agent workflows
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because LangGraph is primarily a code-first SDK/library for building workflows rather than an operated workbench or runtime platform.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

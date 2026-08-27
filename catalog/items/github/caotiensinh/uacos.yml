@@ -1,0 +1,100 @@
+id: github__caotiensinh__uacos
+kind: github-repo
+name: caotiensinh/uacos
+canonical_url: https://github.com/caotiensinh/uacos
+identity:
+  github_repo: caotiensinh/uacos
+provenance:
+  discoveries:
+    - id: discovery__github__caotiensinh__uacos__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-08-27T06:08:24.604Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: UACOS
+        extracted_url: https://github.com/caotiensinh/uacos
+        surrounding_text: "- **[UACOS](https://github.com/caotiensinh/uacos)** `⭐ 1` — Local-first code intelligence and orchestration toolkit: dependency-graph impact analysis, context compression, patch-scope safety gates, transaction rollback, and a job-based runtime for coding agents. No cloud dependency. Python, MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: caotiensinh/uacos
+    html_url: https://github.com/caotiensinh/uacos
+    created_at: "2026-07-01T13:27:39Z"
+    pushed_at: "2026-08-26T14:52:42Z"
+    description: null
+    homepage: null
+    topics: []
+    last_checked_at: "2026-08-27T06:08:40.872Z"
+    readme:
+      fetched_at: "2026-08-27T06:08:40.872Z"
+      bytes: 5279
+insights:
+  summary: UACOS is a local-first context compression, orchestration planner, and safety gate for AI coding workflows.
+  why_it_matters: It helps developers reduce token waste and prevent unsafe AI-generated changes by bounding context and validating patches before apply.
+  mental_damage: Another layer of YAML and JSON to make sure your AI doesn’t hallucinate a root rm -rf while you sip cold brew and pretend you’re in control.
+  tags:
+    - context-compression
+    - ai-safety
+    - orchestration
+  confidence: medium
+curation:
+  status: included
+  reason: UACOS’s core novelty is its local-first context compression and bounded task scoping for AI agents, making it a prompt/context engineering tool rather than a coding agent or extension.
+  evidence:
+    - README describes UACOS as a 'local-first repo brain, context-compression layer, orchestration planner, and patch safety/evidence gate'
+    - It prepares bounded context, validates patch scope/risk, and prevents unsupported product claims — core context-shaping infrastructure
+    - Listed in awesome-cli-coding-agents under 'Agent infrastructure' but its function is context preparation, not agent orchestration
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-08-27T06:08:24.606Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-08-27T06:08:40.872Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-08-27T06:25:59.550Z"
+    cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:09551335d93b6a9b1809659e42d94662a0d28391ed8cf93b1243fdaeaba9a3c5
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: UACOS’s core novelty is its local-first context compression and bounded task scoping for AI agents, making it a prompt/context engineering tool rather than a coding agent or extension.
+      decision_evidence:
+        - README describes UACOS as a 'local-first repo brain, context-compression layer, orchestration planner, and patch safety/evidence gate'
+        - It prepares bounded context, validates patch scope/risk, and prevents unsupported product claims — core context-shaping infrastructure
+        - Listed in awesome-cli-coding-agents under 'Agent infrastructure' but its function is context preparation, not agent orchestration
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the core novelty is memory, retrieval, compression, and prompt/shaping infrastructure rather than host integration capabilities like debugger or browser access.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

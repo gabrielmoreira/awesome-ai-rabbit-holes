@@ -56,22 +56,22 @@ metadata:
       fetched_at: "2026-08-24T04:21:13.719Z"
       bytes: 522
 insights:
-  summary: A Model Context Protocol server that uses yt-dlp to download YouTube subtitles and exposes them to MCP-compatible AI assistants like Claude.
-  why_it_matters: It lets developers summarize, query, or analyze YouTube video content directly from their coding assistant without leaving the chat or manually copying transcripts.
-  mental_damage: "We have finally achieved the platonic ideal of procrastination: an MCP server that lets your coding agent summarize YouTube videos while you pretend to debug a broken build."
+  summary: An MCP server that uses yt-dlp to fetch YouTube subtitles for use in Model Context Protocol-compatible assistants.
+  why_it_matters: It enables LLMs to ingest and reason over YouTube video content by providing subtitles as structured context.
+  mental_damage: Because nothing says 'cutting-edge developer workflow' like piping subtitle streams into a chat box to avoid actually watching a video.
   tags:
     - mcp
     - youtube
-    - context
-    - transcripts
+    - context-retrieval
+    - subtitles
   confidence: high
 curation:
   status: included
-  reason: The product is an MCP server that gives YouTube transcript access to MCP-compatible assistants, making it a clear fit for MCP Servers & Tooling under Domain Servers.
+  reason: The project is explicitly an MCP server whose primary identity is providing a specific domain (YouTube) to the Model Context Protocol.
   evidence:
-    - "Repo description explicitly states: 'A Model-Context Protocol Server for YouTube'."
-    - README confirms it connects yt-dlp subtitles to Claude via the Model Context Protocol.
-    - Included in awesome-mcp-servers under 'Community Servers' and awesome-agent-orchestration under MCP Specialized Servers.
+    - Repo description explicitly identifies it as a 'Model-Context Protocol Server for YouTube'
+    - README describes the workflow of connecting YouTube subtitles to Claude.ai via MCP
+    - It functions as a specialized server for a specific data domain
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -90,12 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-13T04:39:58.851Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__anaisbetts__mcp-youtube: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:11:43.666Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:dccfeb7d5a5925d4583ae602439bbb7fea0bde78dbaf1ea4626dd43f27ca29a2
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server whose primary identity is providing a specific domain (YouTube) to the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly identifies it as a 'Model-Context Protocol Server for YouTube'
+        - README describes the workflow of connecting YouTube subtitles to Claude.ai via MCP
+        - It functions as a specialized server for a specific data domain
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's core identity is an MCP server implementation rather than a general-purpose extension for an IDE.
+      review_reason: null
+      review_resume_lifecycle: null

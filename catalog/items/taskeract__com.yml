@@ -36,18 +36,26 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Desktop AI coding tool where agents run in real terminals, enabling code generation, PR reviews, and merges with built-in git workflows.
+  why_it_matters: Developers can delegate repo work to AI agents in isolated, terminal-native environments with full git integration and multi-agent support.
+  mental_damage: Finally, a way to let AI agents fight over your merge conflicts in parallel terminals while you sip coffee and question your life choices.
+  tags:
+    - ai-coding
+    - multi-agent
+    - git-integration
+    - desktop-app
+    - terminal-native
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Taskeract is a primary coding assistant that directly plans, writes, reviews, and merges code in real terminals, fitting the core definition of a coding agent.
+  evidence:
+    - Product description explicitly states it is a 'desktop AI coding tool where agents run in real terminals'
+    - Features include code generation, PR review, git workflows, and multi-agent support
+    - Source-list context places it in MCP servers list but the product identity is clearly a coding agent
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Browser/Desktop/Computer-Use Agents
 lifecycle:
   status: incubating
   reason: null
@@ -62,10 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.447Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for taskeract__com: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:20:15.164Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:bd67b23d43efba1251acfbd69fa134eb0824a8a5f3a41d697546b0642b97dbd9
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Taskeract is a primary coding assistant that directly plans, writes, reviews, and merges code in real terminals, fitting the core definition of a coding agent.
+      decision_evidence:
+        - Product description explicitly states it is a 'desktop AI coding tool where agents run in real terminals'
+        - Features include code generation, PR review, git workflows, and multi-agent support
+        - Source-list context places it in MCP servers list but the product identity is clearly a coding agent
+      category_candidates:
+        - coding-agents
+        - agent-orchestration
+      contrastive_reason: Choose coding-agents over agent-orchestration because the primary value is direct coding assistance in terminals rather than coordinating multiple agents as a platform.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

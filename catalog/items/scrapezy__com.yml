@@ -36,15 +36,15 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Scrapezy is a web scraping API and MCP server that extracts structured data from websites using natural language prompts instead of CSS selectors or XPath.
-  why_it_matters: It offers developers a way to feed clean, markdown-formatted web data directly into AI pipelines, RAG systems, and coding agents like Claude and Cursor via API or MCP integration.
-  mental_damage: Another token-based SaaS layer to ponder while you explain to a bot that you want the third table row, not the entire economic history of the NCAA.
+  summary: An AI-powered web scraping service that converts websites into structured JSON, CSV, or Markdown for AI pipelines.
+  why_it_matters: It allows developers to ingest web data into RAG systems and LLM workflows using natural language descriptions instead of brittle CSS selectors.
+  mental_damage: Because nothing says productivity like replacing a robust Playwright script with a single natural language prompt and a token-based bill.
   tags:
     - web-scraping
-    - mcp
-    - data-extraction
-    - api
     - rag
+    - data-extraction
+    - mcp
+    - api
   confidence: high
 curation:
   status: included
@@ -55,10 +55,10 @@ curation:
     - The product is an API-first tool for extracting structured data via natural language, explicitly targeting AI pipelines and developers.
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
 processing:
   discover:
     status: done
@@ -70,12 +70,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:37.753Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for scrapezy__com: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:13:23.740Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5c6a570fb45ddcf095e23b9b0069d4c36502da56593eb8fa629731d84921e016
+      proposed_primary_category: context-engineering
+      disagreement: true
+      decision_reason: The core novelty is providing fresh, structured web data for LLM context, which fits the retrieval and context-shaping definition.
+      decision_evidence:
+        - Outputs markdown-formatted documents optimized for RAG systems
+        - API-first design specifically for AI pipelines
+        - Includes MCP integration for assistant tools like Claude
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the product is a scraping service with MCP compatibility rather than an MCP-first infrastructure tool.
+      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'context-engineering'"
+      review_resume_lifecycle: null

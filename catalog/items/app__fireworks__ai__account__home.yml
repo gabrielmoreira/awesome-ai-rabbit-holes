@@ -36,18 +36,24 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Fireworks AI is a high-speed inference platform for open-source LLMs and image models.
+  why_it_matters: It provides developers with low-latency, scalable API access to state-of-the-art models, reducing the overhead of managing model deployment and hardware.
+  mental_damage: The exhausting cycle of benchmarking inference providers to shave a few milliseconds off every token response.
+  tags:
+    - inference
+    - llm
+    - api-provider
+    - generative-ai
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It serves as a core infrastructure provider that developers integrate into their code via APIs and SDKs.
+  evidence:
+    - Scraped context describes it as a high-speed inference service for LLMs and image models
+    - Claims to support training and deploying custom models
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Provider / Model Abstractions
 lifecycle:
   status: incubating
   reason: null
@@ -62,10 +68,27 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:39.412Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for app__fireworks__ai__account__home: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:14:09.992Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0df9da4347d83a260a1b6209f75bad8cc0fcc52964e26ca3bc9aa44b64aaf5ac
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It serves as a core infrastructure provider that developers integrate into their code via APIs and SDKs.
+      decision_evidence:
+        - Scraped context describes it as a high-speed inference service for LLMs and image models
+        - Claims to support training and deploying custom models
+      category_candidates:
+        - ai-frameworks
+        - local-ai
+      contrastive_reason: Choose ai-frameworks over local-ai because it is primarily a hosted, high-speed inference SaaS rather than a tool for local on-device execution.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

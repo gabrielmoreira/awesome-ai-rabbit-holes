@@ -31,9 +31,9 @@ metadata:
     full_name: CDVolvik/practice-fusion-mcp
     html_url: https://github.com/CDVolvik/practice-fusion-mcp
     created_at: "2026-07-21T23:14:26Z"
-    pushed_at: "2026-08-13T21:48:35Z"
+    pushed_at: "2026-08-25T23:51:56Z"
     description: FHIR-first, read-only MCP server for the Practice Fusion EHR — audit-logged, HIPAA-conscious.
-    homepage: null
+    homepage: https://www.npmjs.com/package/practice-fusion-mcp
     topics:
       - ai-agents
       - claude
@@ -45,23 +45,31 @@ metadata:
       - model-context-protocol
       - practice-fusion
       - typescript
-    last_checked_at: "2026-08-20T04:18:11.335Z"
+    last_checked_at: "2026-08-27T06:08:42.280Z"
     readme:
-      fetched_at: "2026-08-20T04:18:11.335Z"
+      fetched_at: "2026-08-27T06:08:42.280Z"
       bytes: 22744
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A read-only Model Context Protocol (MCP) server for accessing Practice Fusion EHR data via FHIR R4.
+  why_it_matters: It allows developers to integrate clinical data—like patient records and medications—directly into AI coding assistants and agents via a HIPAA-conscious interface.
+  mental_damage: Because nothing says 'cutting-edge developer workflow' like explaining HIPAA compliance to a LLM.
+  tags:
+    - mcp
+    - fhir
+    - healthcare
+    - ehr
+    - practice-fusion
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is a specialized MCP server providing domain-specific tools for healthcare data.
+  evidence:
+    - Repo description identifies it as a 'read-only MCP server for the Practice Fusion EHR'
+    - README outlines 18 specific read tools for clinical data access
+    - Architecture is built specifically around the Model Context Protocol
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -73,14 +81,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:11.335Z"
+    updated_at: "2026-08-27T06:08:42.280Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-24T04:21:27.893Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__cdvolvik__practice-fusion-mcp: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:21:06.983Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7b6bc7db2e3f3f3a6c696abe48f5d2482b70a380de0b10d25326d49fbc766abb
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is a specialized MCP server providing domain-specific tools for healthcare data.
+      decision_evidence:
+        - Repo description identifies it as a 'read-only MCP server for the Practice Fusion EHR'
+        - README outlines 18 specific read tools for clinical data access
+        - Architecture is built specifically around the Model Context Protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity and architecture are defined by its role as a protocol server rather than just a generic host integration.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

@@ -40,23 +40,23 @@ metadata:
       fetched_at: "2026-08-24T04:21:05.159Z"
       bytes: 16954
 insights:
-  summary: Phidata is a Python framework for building multi-modal AI agents with memory, knowledge, tools, and reasoning, recently renamed and moved to the Agno project.
-  why_it_matters: Developers can use this SDK to build and coordinate teams of specialized agents that handle text, images, audio, and video with built-in tools and RAG capabilities.
-  mental_damage: Another fresh framework in the agent orchestration gold rush, just in time for the original repo to sunset and teleport to a new GitHub home while you were still reading the docs.
+  summary: A Python framework for building multi-modal agents with integrated memory, tools, and multi-agent orchestration.
+  why_it_matters: It provides a code-first SDK to simplify the construction of complex agentic workflows, RAG systems, and multi-agent teams.
+  mental_damage: Another framework to add to the growing stack of libraries you'll promise to master before the next 'revolutionary' agentic engine arrives.
   tags:
     - agents
     - framework
+    - multi-agent
+    - rag
     - python
-    - multi-modal
-    - sdk
-  confidence: medium
+  confidence: high
 curation:
   status: included
-  reason: This is a code-first Python SDK used to build AI agents programmatically, fitting the Frameworks & SDKs category rather than an orchestration control plane.
+  reason: It is a code-first Python SDK for building and orchestrating agents, making it a framework rather than a managed orchestration platform.
   evidence:
-    - README states 'Phidata is a framework for building multi-modal agents' and shows Python code imports like 'from phi.agent import Agent'.
-    - Source list places it under 'Core Frameworks > Multi-Agent Orchestration Frameworks'.
-    - Repo is very new (created 2025-01-27) and recently renamed to Agno, indicating a living SDK rather than a hosted platform.
+    - README explicitly describes it as a framework for building multi-modal agents
+    - Code examples show a library-based developer experience (pip install, imports, scripting)
+    - The archive status is a migration/rebrand to Agno AGI rather than a project shutdown
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -75,12 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-20T04:18:26.754Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for github__agno-agi__phidata: 403 status code (no body)"
-    attempts: 3
+    status: done
+    updated_at: "2026-08-27T06:16:35.587Z"
+    cause: null
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7c28eab4f7970c07694fb8716db0fe08e76a9634fcde4445cb8f1ed16304bde5
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first Python SDK for building and orchestrating agents, making it a framework rather than a managed orchestration platform.
+      decision_evidence:
+        - README explicitly describes it as a framework for building multi-modal agents
+        - Code examples show a library-based developer experience (pip install, imports, scripting)
+        - The archive status is a migration/rebrand to Agno AGI rather than a project shutdown
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because developers primarily script against the product as a library or SDK rather than operating it as a managed control plane or workbench.
+      review_reason: null
+      review_resume_lifecycle: null

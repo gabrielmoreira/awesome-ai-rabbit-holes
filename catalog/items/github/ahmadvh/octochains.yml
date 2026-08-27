@@ -46,18 +46,26 @@ metadata:
       fetched_at: "2026-08-24T04:21:05.149Z"
       bytes: 18894
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A lightweight Python framework for parallel, isolated, and collaborative multi-agent reasoning and consensus.
+  why_it_matters: It provides an architectural pattern to prevent 'groupthink' in multi-agent systems by running specialist agents in isolated threads before synthesizing a final verdict.
+  mental_damage: Because apparently, we can't even trust AI agents to avoid peer pressure without a structured consensus layer.
+  tags:
+    - python
+    - multi-agent
+    - reasoning
+    - consensus
+    - framework
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a code-first Python framework designed for developers to build multi-agent reasoning workflows rather than an operated control plane.
+  evidence:
+    - Repo description identifies it as a lightweight Python framework.
+    - The README focuses on implementation patterns like parallel isolated threads and centralized consensus.
+    - It is designed to be imported and scripted by developers to avoid the 'cognitive tunnel vision' of sequential agent chains.
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (367) exceeded threshold (150)
@@ -73,6 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:23:04.565Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f7f88dc391793dedeadf129ed69c333d2f537d620bec21c7d98623f56c7c8a0b
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first Python framework designed for developers to build multi-agent reasoning workflows rather than an operated control plane.
+      decision_evidence:
+        - Repo description identifies it as a lightweight Python framework.
+        - The README focuses on implementation patterns like parallel isolated threads and centralized consensus.
+        - It is designed to be imported and scripted by developers to avoid the 'cognitive tunnel vision' of sequential agent chains.
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because it is primarily a code-first library that developers import and program against rather than an operated workbench or runtime platform.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

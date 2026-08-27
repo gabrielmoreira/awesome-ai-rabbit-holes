@@ -54,18 +54,26 @@ metadata:
       fetched_at: "2026-08-24T04:21:08.913Z"
       bytes: 17580
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that enables AI coding agents to deploy files via FTP, FTPS, or SFTP.
+  why_it_matters: It bridges the gap between modern AI coding agents and legacy web hosting environments that rely on traditional file transfer protocols rather than Git-based workflows.
+  mental_damage: Because the ultimate endgame for agentic software engineering is still teaching an LLM how to navigate a 2005-era FTP directory.
+  tags:
+    - mcp
+    - ftp
+    - sftp
+    - deployment
+    - automation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's primary identity is a Model Context Protocol server designed to expose deployment tools to any compatible agent.
+  evidence:
+    - README explicitly defines the project as an MCP server exposing 10 tools
+    - It provides a standardized interface for multiple clients including Claude Code, Cursor, and Windsurf
+    - The core functionality is a protocol-based server for FTP/SFTP operations
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -81,6 +89,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:24:01.431Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c0c539973a911353f3fd78106b46c3aa2019f24be319f41068976e005ed22d22
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is a Model Context Protocol server designed to expose deployment tools to any compatible agent.
+      decision_evidence:
+        - README explicitly defines the project as an MCP server exposing 10 tools
+        - It provides a standardized interface for multiple clients including Claude Code, Cursor, and Windsurf
+        - The core functionality is a protocol-based server for FTP/SFTP operations
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's identity is a standardized protocol server rather than a host-specific plugin or integration.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

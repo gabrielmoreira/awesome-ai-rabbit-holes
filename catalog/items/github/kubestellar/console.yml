@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/kubestellar/console
         surrounding_text: "| [KubeStellar Console](https://github.com/kubestellar/console) | AI-powered multi-cluster Kubernetes dashboard for hybrid edge and cloud. GPU monitoring, LLM inference cluster management, benchmark streaming, and 20+ CNCF integrations. CNCF Sandbox (Apache 2.0). | ![GitHub Badge](https://img.shields.io/github/stars/kubestellar/console.svg?style=flat-square) |"
         confidence: high
+    - id: discovery__github__kubestellar__console__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-08-27T06:08:24.604Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: KubeStellar kc-agent
+        extracted_url: https://github.com/kubestellar/console
+        surrounding_text: "- **[KubeStellar kc-agent](https://github.com/kubestellar/console/tree/main/cmd/kc-agent)** `⭐ 127` — Local Go daemon from the KubeStellar Console that auto-detects installed coding agents (Claude CLI, Codex, Copilot CLI, Gemini CLI, goose) and gives them cluster-aware execution against your kubeconfig contexts — kubectl, Helm, and multi-cluster fan-out. Star count is the parent console repo. Apache-2.0."
+        confidence: high
 metadata:
   github:
     stars: 125
@@ -66,7 +82,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-21T05:27:57.683Z"
+    updated_at: "2026-08-27T06:08:24.606Z"
     cause: null
     next_retry_at: null
   stars:

@@ -52,18 +52,24 @@ metadata:
       fetched_at: "2026-08-24T04:21:20.213Z"
       bytes: 7499
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that connects AI agents to Archive of Our Own to search, scrape, and have a secondary model read and rank fanfiction.
+  why_it_matters: Lets developers use AI to get substantive fanfic recommendations based on actual text, not blurbs, for inspiration or leisure reading within coding workflows.
+  mental_damage: Hope you enjoy explaining to your AI why it needs to read 150k-word werewolf romances to improve your variable naming.
+  tags:
+    - mcp
+    - fanfiction
+    - ai-reading
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP server whose core identity is providing Archive of Our Own access via the Model Context Protocol, making it MCP infrastructure first and foremost.
+  evidence:
+    - "Repo description: 'MCP server for Archive of Our Own: search fanfiction and have an AI read and rank fics for you'"
+    - "README: 'An [MCP] (Model Context Protocol) server that connects AI agents [...] to the [Archive of Our Own]'"
+    - "Source-list: listed in awesome-mcp-servers under Server Implementations > Art & Culture"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -79,6 +85,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:25:21.664Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1fe5d4dcfcf7f19b171935cfe518dc8c488906ec98c90a317681aae0f8722c11
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP server whose core identity is providing Archive of Our Own access via the Model Context Protocol, making it MCP infrastructure first and foremost.
+      decision_evidence:
+        - "Repo description: 'MCP server for Archive of Our Own: search fanfiction and have an AI read and rank fics for you'"
+        - "README: 'An [MCP] (Model Context Protocol) server that connects AI agents [...] to the [Archive of Our Own]'"
+        - "Source-list: listed in awesome-mcp-servers under Server Implementations > Art & Culture"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is an MCP server providing domain-specific data access, not an extension augmenting another assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -55,18 +55,26 @@ metadata:
       fetched_at: "2026-08-24T04:21:01.450Z"
       bytes: 20288
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open-source programming framework for building and coordinating multi-agent AI systems.
+  why_it_matters: It provides the core primitives for developers to design complex, autonomous multi-agent workflows and conversational patterns.
+  mental_damage: The abstraction layer for the inevitable multi-agent arms race.
+  tags:
+    - agent-framework
+    - multi-agent
+    - python
+    - llm
+    - open-source
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a code-first SDK used to build and script agentic behaviors rather than an operated workbench or control plane.
+  evidence:
+    - README explicitly defines it as an 'open-source programming framework'
+    - Primary interaction model is via 'pip install ag2'
+    - Focuses on programmatic multi-agent conversation patterns and tool use
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (4867) exceeded threshold (150)
@@ -82,6 +90,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:23:06.343Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ee3a6b2fb2497b683fa57330dcee296fb2ea5d7a65bdbb9d1d867a88a9fea37b
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first SDK used to build and script agentic behaviors rather than an operated workbench or control plane.
+      decision_evidence:
+        - README explicitly defines it as an 'open-source programming framework'
+        - Primary interaction model is via 'pip install ag2'
+        - Focuses on programmatic multi-agent conversation patterns and tool use
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because it is primarily a library developers import and script against rather than an operated workbench or runtime platform.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

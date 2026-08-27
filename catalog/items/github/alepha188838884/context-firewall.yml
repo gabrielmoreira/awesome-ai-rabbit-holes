@@ -49,18 +49,25 @@ metadata:
       fetched_at: "2026-08-24T04:21:09.144Z"
       bytes: 13672
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP proxy that reduces token usage by collapsing tool schemas and compressing large tool outputs.
+  why_it_matters: It helps developers prevent context window bloat and high token costs when using agents with many MCP tools or massive data payloads.
+  mental_damage: Because paying for 200,000 tokens of raw HTML is a lifestyle choice nobody actually wants to make.
+  tags:
+    - mcp
+    - context-compression
+    - token-optimization
+    - proxy
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: While it is an MCP middleware layer, its core novelty is the compression and distillation of context to optimize token usage.
+  evidence:
+    - Collapses 50+ tool definitions into 4 meta-tools to save schema tokens.
+    - Compresses real-world HTML and JSON tool outputs by 60–95%.
+    - Sits as a local proxy between MCP clients (like Cursor or Claude Code) and downstream servers.
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: incubating
   reason: null
@@ -76,6 +83,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:24:16.747Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:145a2842d398fc7e17232fea946d64ca2030a3b6b6d921c96eb3ae18500ec050
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: While it is an MCP middleware layer, its core novelty is the compression and distillation of context to optimize token usage.
+      decision_evidence:
+        - Collapses 50+ tool definitions into 4 meta-tools to save schema tokens.
+        - Compresses real-world HTML and JSON tool outputs by 60–95%.
+        - Sits as a local proxy between MCP clients (like Cursor or Claude Code) and downstream servers.
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because the primary value is context compression and token management rather than the MCP protocol implementation itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

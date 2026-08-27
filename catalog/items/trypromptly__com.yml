@@ -66,47 +66,55 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: Trypromptly.com is a no-code platform for building and deploying AI-powered applications and chatbots using a visual workflow builder.
-  why_it_matters: It allows developers and non-developers to rapidly prototype and ship AI tools via a drag-and-drop interface, abstracting away the underlying model integration boilerplate.
-  mental_damage: Because what the world definitely needed was another visual wrapper to ensure we never have to look at a requirements.txt file again.
+  summary: A tool for managing and optimizing prompts within AI agent workflows.
+  why_it_matters: It helps developers move away from manual prompt hacking toward a more systematic approach to prompt management and iteration.
+  mental_damage: The Sisyphean task of fine-tuning a single adjective to stop an agent from hallucinating its own technical debt.
   tags:
-    - ai-builder
-    - chatbot
-    - chatbots
-    - enterprise
-    - llm-apps
-    - no-code
-    - nocode-builder
-    - rag
-    - visual-workflow
-  confidence: high
+    - prompt-engineering
+    - prompt-management
+    - agent-workflows
+    - dev-tools
+  confidence: low
 curation:
-  status: pending
-  reason: Conflicting duplicate curation or placement requires review.
+  status: included
+  reason: Included because its presence in both major AI agent and local AI directories indicates it is a recognized utility for managing prompt-related developer workflows.
   evidence:
-    - Listed in awesome-local-ai under the 'Developer tools' section, suggesting a developer utility context.
-    - The URL (trypromptly.com) and 'no-code' identity indicate a product that builds apps/chatbots rather than running models locally.
+    - Listed in awesome-ai-agents
+    - Listed in awesome-local-ai as a developer tool
     - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
-    - "included: The platform is a no-code environment that turns prompts and visual flows into deployed AI apps and chatbots, fitting the prompt-to-app builder profile rather than a local runtime or coding agent."
-    - Scraped site describes it as 'no-code platform' with templates, drag-and-drop builders, and no coding experience required.
-    - Primary use cases are marketing content, AI SDR, HR, and Slack/Discord bots, not repo editing or developer workflow automation.
-    - Listed in awesome-ai-agents under a section for 'autonomous agents', but the product itself is a no-code app builder, not a coding agent or developer SDK.
-    - "excluded: The product is a no-code SaaS platform aimed at non-developers and enterprise users building chatbots and simple AI apps, not a developer-facing coding tool, framework, or agent."
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: PromptOps / Prompt Management
 lifecycle:
-  status: incubating
-  reason: null
+  status: needs_review
+  reason: "Categorization review required: low confidence"
 processing:
   categorize:
-    status: deferred
-    updated_at: "2026-08-17T04:19:38.383Z"
-    cause:
-      type: categorization_failed
-      message: "Catalog LLM categorization failed for trypromptly__com: 403 status code (no body)"
+    status: done
+    updated_at: "2026-08-27T06:13:45.401Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:8644e725a72aeb7622704e698910546d67788b180e383846278758ebde0401dc
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: Included because its presence in both major AI agent and local AI directories indicates it is a recognized utility for managing prompt-related developer workflows.
+      decision_evidence:
+        - Listed in awesome-ai-agents
+        - Listed in awesome-local-ai as a developer tool
+        - Source-list context and product framing match hosted app-building / prompt-to-app tooling rather than direct code collaboration.
+      category_candidates:
+        - context-engineering
+        - evals
+      contrastive_reason: Choose context-engineering over evals because the product's name and placement suggest a focus on prompt management and assets rather than dedicated performance benchmarking.
+      review_reason: "Categorization review required: low confidence"
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
   discover:
     status: done
     updated_at: "2026-07-20T15:10:47.687Z"

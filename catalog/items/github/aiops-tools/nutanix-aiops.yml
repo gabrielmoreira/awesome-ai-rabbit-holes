@@ -46,18 +46,26 @@ metadata:
       fetched_at: "2026-08-24T04:21:07.329Z"
       bytes: 8970
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server providing 51 governed tools for managing Nutanix Prism Central infrastructure.
+  why_it_matters: It enables AI agents to perform Nutanix operations with built-in ETag safety, audit logging, and risk-tier labeling to prevent accidental infrastructure destruction.
+  mental_damage: Finally, an audit log to help you figure out which specific LLM hallucination decided to 'optimize' your production storage cluster by deleting it.
+  tags:
+    - mcp
+    - nutanix
+    - aiops
+    - infrastructure
+    - governance
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is explicitly an MCP server providing domain-specific infrastructure tools, making the protocol its primary identity.
+  evidence:
+    - README claims 51 MCP tools for Nutanix Prism Central v4
+    - Provides governance features like ETag safety, audit logs, and undo-token recording
+    - Listed in awesome-mcp-servers under Cloud Platforms
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -73,6 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:23:18.429Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:60f59e610ff51b07c620bf68720d3c6357f2f31ec2304d1942b4eb6dada4dbf5
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server providing domain-specific infrastructure tools, making the protocol its primary identity.
+      decision_evidence:
+        - README claims 51 MCP tools for Nutanix Prism Central v4
+        - Provides governance features like ETag safety, audit logs, and undo-token recording
+        - Listed in awesome-mcp-servers under Cloud Platforms
+      category_candidates:
+        - mcp
+        - skills
+      contrastive_reason: Choose mcp over skills because the product is an implementation of the Model Context Protocol server for a specific infrastructure domain rather than just a collection of portable rules or prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

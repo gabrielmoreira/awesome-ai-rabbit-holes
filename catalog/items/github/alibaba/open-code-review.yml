@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 20896
-    forks: 1500
+    stars: 21481
+    forks: 1579
     license: Apache-2.0
     archived: false
     full_name: alibaba/open-code-review
     html_url: https://github.com/alibaba/open-code-review
     created_at: "2026-05-18T02:16:36Z"
-    pushed_at: "2026-08-20T03:04:23Z"
+    pushed_at: "2026-08-27T05:35:58Z"
     description: "Fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible."
     homepage: https://open-codereview.ai
     topics:
@@ -41,23 +41,31 @@ metadata:
       - code-review-assistant
       - harness
       - repository-level-context
-    last_checked_at: "2026-08-20T04:18:01.922Z"
+    last_checked_at: "2026-08-27T06:08:26.369Z"
     readme:
-      fetched_at: "2026-08-20T04:18:01.922Z"
-      bytes: 12639
+      fetched_at: "2026-08-27T06:08:26.369Z"
+      bytes: 12744
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An AI-powered CLI tool that performs code reviews using a hybrid architecture of deterministic pipelines and LLM agents.
+  why_it_matters: It provides high-precision, line-level feedback and security vulnerability detection with significantly lower token consumption than general-purpose coding agents.
+  mental_damage: There is nothing quite like the feeling of a highly precise AI agent catching your thread-safety issues before your human colleagues can even finish their coffee.
+  tags:
+    - code-review
+    - cli
+    - agent
+    - security
+    - alibaba
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a standalone CLI agent specialized for the code review workflow, performing automated analysis, security scanning, and line-level commenting.
+  evidence:
+    - CLI tool that reads Git diffs and performs agentic reviews
+    - Uses a hybrid architecture of deterministic rules and LLM agents
+    - Claims higher precision and lower token usage than general-purpose agents like Claude Code
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Review, Testing & Repair Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (20896) exceeded threshold (150)
@@ -69,10 +77,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-20T04:18:01.922Z"
+    updated_at: "2026-08-27T06:08:26.370Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:24:48.252Z"
     cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:591bebaf29931bb7581a2a110a3722927d079166984163eb64f10bc37483e64f
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: It is a standalone CLI agent specialized for the code review workflow, performing automated analysis, security scanning, and line-level commenting.
+      decision_evidence:
+        - CLI tool that reads Git diffs and performs agentic reviews
+        - Uses a hybrid architecture of deterministic rules and LLM agents
+        - Claims higher precision and lower token usage than general-purpose agents like Claude Code
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because the tool acts as a primary specialized agent for the review task rather than just an integration layer for another editor or assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

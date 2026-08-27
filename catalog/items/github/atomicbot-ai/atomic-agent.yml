@@ -36,6 +36,22 @@ provenance:
         extracted_url: https://github.com/atomicbot-ai/atomic-agent
         surrounding_text: 26. [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent)
         confidence: high
+    - id: discovery__github__atomicbot-ai__atomic-agent__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-08-27T06:08:24.604Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Terminal-native coding agents
+          - Open Source
+        anchor_text: Atomic Agent
+        extracted_url: https://github.com/atomicbot-ai/atomic-agent
+        surrounding_text: "- **[Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent)** `⭐ 2.4k` — Local-first agent that runs the control loop on your machine: edits files, runs approved shell commands, drives your browser, and carries context across sessions, on local llama.cpp or cloud models. Interactive TUI, non-interactive `run`, and an OpenAI-compatible `serve` mode. Node.js, MIT."
+        confidence: high
 metadata:
   github:
     stars: 2509
@@ -70,25 +86,31 @@ metadata:
       fetched_at: "2026-08-24T04:21:21.422Z"
       bytes: 39393
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Atomic Agent is a terminal-native AI coding agent that runs locally on a developer's machine to edit files, drive browsers, run commands, and retain context across sessions.
+  why_it_matters: It lets developers delegate real coding work to a private, local-first agent without per-token fees or cloud lock-in, keeping sensitive code on-device.
+  mental_damage: Finally, an agent that won’t leak your secrets—but will still hallucinate the fix for that race condition you’ve been ignoring for three weeks.
+  tags:
+    - local-ai
+    - terminal-agent
+    - coding-assistant
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Atomic Agent is a standalone terminal-based coding assistant that directly edits files, runs commands, and drives browsers, matching the core behavior of coding agents rather than acting as an extension or framework.
+  evidence:
+    - "Repo description: 'Local First Ai Agent. Optimized for Local Ai models. Long context window. Proper tools callings. Runs privately on your device.'"
+    - "README: 'Drives your browser, edits files, runs approved commands, and remembers context across sessions.'"
+    - "Source-list: Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: coding-agents
+  section: Terminal & CLI Agents
 lifecycle:
   status: promotion_candidate
   reason: Stars (2272) exceeded threshold (150)
 processing:
   discover:
     status: done
-    updated_at: "2026-08-17T04:19:08.741Z"
+    updated_at: "2026-08-27T06:08:24.605Z"
     cause: null
     next_retry_at: null
   stars:
@@ -97,6 +119,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-08-27T06:25:27.045Z"
     cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:1557834ffc52f8f02994fe058ff096d3bc3ef125205c34a783f9f2211de4fe8f
+      proposed_primary_category: coding-agents
+      disagreement: false
+      decision_reason: Atomic Agent is a standalone terminal-based coding assistant that directly edits files, runs commands, and drives browsers, matching the core behavior of coding agents rather than acting as an extension or framework.
+      decision_evidence:
+        - "Repo description: 'Local First Ai Agent. Optimized for Local Ai models. Long context window. Proper tools callings. Runs privately on your device.'"
+        - "README: 'Drives your browser, edits files, runs approved commands, and remembers context across sessions.'"
+        - "Source-list: Listed in awesome-cli-coding-agents under 'Terminal-native coding agents > Open Source'"
+      category_candidates:
+        - coding-agents
+        - ai-dev-extensions
+      contrastive_reason: Choose coding-agents over ai-dev-extensions because Atomic Agent is the primary assistant performing coding tasks, not an add-on that augments another agent with host capabilities like debugger or Figma access.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
