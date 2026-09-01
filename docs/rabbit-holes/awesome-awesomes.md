@@ -23,7 +23,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `discovery`
   </details>
 
-- **[awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules)** `⭐ 40.4k` `updated ≤90d` A curated collection of `.cursorrules` configuration files that enhance the Cursor AI editor with project-specific coding rules and behaviors. <details><summary>More about</summary>
+- **[awesome-cursorrules](https://github.com/patrickjs/awesome-cursorrules)** `⭐ 40.4k` `updated ≤180d` A curated collection of `.cursorrules` configuration files that enhance the Cursor AI editor with project-specific coding rules and behaviors. <details><summary>More about</summary>
 
   Developers can quickly adopt community-vetted rule sets to align Cursor's AI code generation with specific frameworks, languages, and team standards.
 
@@ -32,7 +32,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `cursor` `cursorrules` `config` `awesome-list` `ide`
   </details>
 
-- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 37.4k` `updated ≤30d` A community-curated collection of agents, instructions, skills, and plugins for extending GitHub Copilot. <details><summary>More about</summary>
+- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 37.4k` `updated ≤90d` A community-curated collection of agents, instructions, skills, and plugins for extending GitHub Copilot. <details><summary>More about</summary>
 
   It aggregates reusable Copilot customizations in one discoverable place, reducing the friction of finding and installing enhancements.
 
@@ -329,7 +329,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `automl` `awesome-list` `research`
   </details>
 
-- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 885` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
+- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 884` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
 
   Provides a centralized starting point for developers to navigate the rapidly shifting landscape of LLM architectures and agentic patterns.
 
@@ -423,7 +423,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 _These are new or low-traffic entries being watched._
 
-- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 149` `updated ≤1y` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
+- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 148` `updated ≤1y` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
 
   Provides developers with a navigable directory of agent frameworks, tools, and platforms to explore or integrate into their workflows.
 
@@ -432,7 +432,7 @@ _These are new or low-traffic entries being watched._
   `directory` `ai-agents` `curated-list` `awesome-list`
   </details>
 
-- **[awesome-agent-orchestration](https://github.com/vivy-yi/awesome-agent-orchestration)** `⭐ 27` `updated ≤180d` An awesome list curating AI agent orchestration frameworks, multi-agent systems, swarm intelligence, and communication protocols like A2A and MCP. <details><summary>More about</summary>
+- **[awesome-agent-orchestration](https://github.com/vivy-yi/awesome-agent-orchestration)** `⭐ 27` `updated ≤1y` An awesome list curating AI agent orchestration frameworks, multi-agent systems, swarm intelligence, and communication protocols like A2A and MCP. <details><summary>More about</summary>
 
   Helps developers discover and compare agent coordination tools for building complex multi-agent AI systems.
 

@@ -37,16 +37,31 @@ provenance:
         extracted_url: https://github.com/8ensmith/mcp-open-library
         surrounding_text: "- **[MCP Open Library](https://github.com/8enSmith/mcp-open-library)** - A Model Context Protocol (MCP) server for the Open Library API that enables AI assistants to search for book and author information."
         confidence: high
+    - id: discovery__github__8ensmith__mcp-open-library__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-01T14:31:13.862Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🎨 Art & Culture
+        anchor_text: 8enSmith/mcp-open-library
+        extracted_url: https://github.com/8ensmith/mcp-open-library
+        surrounding_text: "-   **[8enSmith/mcp-open-library](https://github.com/8enSmith/mcp-open-library)** [![GitHub stars](https://img.shields.io/github/stars/8enSmith/mcp-open-library?style=social)](https://github.com/8enSmith/mcp-open-library): Connects to the Internet Archive's Open Library API to search book and author information."
+        confidence: high
 metadata:
   github:
-    stars: 90
-    forks: 22
+    stars: 91
+    forks: 21
     license: MIT
     archived: false
     full_name: 8enSmith/mcp-open-library
     html_url: https://github.com/8enSmith/mcp-open-library
     created_at: "2025-04-17T23:31:17Z"
-    pushed_at: "2026-08-14T23:33:37Z"
+    pushed_at: "2026-08-29T23:38:03Z"
     description: A Model Context Protocol (MCP) server for the Internet Archive's Open Library API that enables AI assistants to search for book and author information.
     homepage: ""
     topics:
@@ -61,10 +76,10 @@ metadata:
       - open-library
       - open-library-api
       - openlibrary
-    last_checked_at: "2026-08-24T04:20:56.947Z"
+    last_checked_at: "2026-09-01T14:31:17.694Z"
     readme:
-      fetched_at: "2026-08-24T04:20:56.947Z"
-      bytes: 19565
+      fetched_at: "2026-09-01T14:31:17.694Z"
+      bytes: 19318
 insights:
   summary: An MCP server that provides an interface to the Open Library API for searching books and author information.
   why_it_matters: It gives AI assistants a standardized way to access structured bibliographic data, author biographies, and book cover metadata via the Model Context Protocol.
@@ -91,12 +106,12 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.581Z"
+    updated_at: "2026-09-01T14:31:13.863Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-24T04:20:56.947Z"
+    updated_at: "2026-09-01T14:31:17.694Z"
     cause: null
     next_retry_at: null
   categorize:

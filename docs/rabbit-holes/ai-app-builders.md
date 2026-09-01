@@ -5,7 +5,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
 
 ## Tools & Resources
 
-- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 74.4k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
+- **[Screenshot-to-Code](https://github.com/abi/screenshot-to-code)** `⭐ 76.9k` `updated ≤30d` An AI-powered tool that converts screenshots, mockups, and screen recordings into functional code in various web stacks. <details><summary>More about</summary>
 
   It accelerates the prototyping phase by turning visual designs directly into structured HTML, Tailwind, React, or Vue code.
 
@@ -135,7 +135,7 @@ _These are new or low-traffic entries being watched._
   `langchain` `codespaces` `template` `jupyter` `llm`
   </details>
 
-- **[Friday](https://github.com/amirrezasalimi/friday)** `⭐ 65` `updated >1y` Friday is a developer assistant that generates whole Node.js projects from prompts using GPT-4. <details><summary>More about</summary>
+- **[Friday](https://github.com/amirrezasalimi/friday)** `⭐ 66` `updated >1y` Friday is a developer assistant that generates whole Node.js projects from prompts using GPT-4. <details><summary>More about</summary>
 
   It lets developers scaffold and generate entire applications by describing app sections as prompts, reducing manual setup time.
 
@@ -493,6 +493,15 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to turn your carefully crafted prompts into APIs—so you can stop pretending you’ll ever maintain them._
 
   `no-code` `llm-apis` `prompt-chaining` `api-builder`
+  </details>
+
+- **[v0](https://v0.app)** An AI assistant for generating, iterating, and deploying full-stack web applications from natural language prompts. <details><summary>More about</summary>
+
+  It accelerates the prototyping-to-production pipeline by automating UI generation, task planning, and deployment to Vercel.
+
+  _It turns the architectural planning phase into a single text box, effectively deleting the middleman between your imagination and a live URL._
+
+  `vercel` `full-stack` `prompt-to-app` `web-dev`
   </details>
 
 - **[v0](https://v0.dev)** A prompt-to-app builder by Vercel that generates and deploys web applications from natural language descriptions. <details><summary>More about</summary>

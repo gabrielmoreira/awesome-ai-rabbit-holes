@@ -1,0 +1,122 @@
+id: github__aistoryhub__etincel
+kind: github-repo
+name: aistoryhub/etincel
+canonical_url: https://github.com/aistoryhub/etincel
+identity:
+  github_repo: aistoryhub/etincel
+provenance:
+  discoveries:
+    - id: discovery__github__aistoryhub__etincel__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-01T14:31:13.862Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: AIStoryHub/etincel
+        extracted_url: https://github.com/aistoryhub/etincel
+        surrounding_text: "- [AIStoryHub/etincel](https://github.com/AIStoryHub/etincel) [![AIStoryHub/etincel MCP server](https://glama.ai/mcp/servers/AIStoryHub/etincel/badges/score.svg)](https://glama.ai/mcp/servers/AIStoryHub/etincel) 🎖️ 📇 🏠 ☁️ 🍎 🪟 🐧 - Deterministic, local audit for AI writing tells (uniform paragraphs, hedged authority, stock transitions), paired with a trainable voice layer so Claude, Cursor, or any MCP client drafts closer to a real voice before you read it. No model call in the audit path. Also ships as a CLI and GitHub Action. `npx etincel serve`"
+        confidence: high
+metadata:
+  github:
+    stars: 8
+    forks: 2
+    license: MIT
+    archived: false
+    full_name: AIStoryHub/etincel
+    html_url: https://github.com/AIStoryHub/etincel
+    created_at: "2026-08-08T10:52:17Z"
+    pushed_at: "2026-08-15T15:30:10Z"
+    description: Find the AI tells in your prose. Deterministic, local, runs in CI. MCP server + CLI + Action.
+    homepage: https://etincel.ai
+    topics:
+      - ai
+      - ai-tells
+      - ai-tools
+      - ai-writing
+      - ai-writing-detection
+      - ai-writing-tool
+      - claude
+      - claude-code
+      - cli
+      - github-actions
+      - linter
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - prose
+      - technical-writing
+      - writing
+      - writing-style
+      - writing-tool
+      - writing-tools
+    last_checked_at: "2026-09-01T14:31:29.796Z"
+    readme:
+      fetched_at: "2026-09-01T14:31:29.796Z"
+      bytes: 19807
+insights:
+  summary: A deterministic linter and MCP server for detecting AI-generated prose patterns and enforcing specific writing styles.
+  why_it_matters: It allows developers to automate the detection of 'AI slop' in technical documentation and maintain a consistent human-like voice through CI and editor integrations.
+  mental_damage: Because nothing says 'professionalism' like a deterministic linter telling you your paragraph length is too uniform.
+  tags:
+    - ai-tells
+    - mcp
+    - linter
+    - prose
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: It functions as an augmentation tool that extends developer workflows via CLI, GitHub Actions, and MCP to audit and shape prose.
+  evidence:
+    - Provides an MCP server, CLI, and GitHub Action for prose auditing
+    - Uses deterministic rules to detect AI-typical patterns in rhythm and vocabulary without model calls
+    - Offers a 'voice layer' to shape the context for assistants like Claude and Cursor
+placement:
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-01T14:31:13.864Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-01T14:31:29.796Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-01T14:34:37.286Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f150730825b62d97a16a05e9a1c05df8b24bf718add0e5eae8aee5ac16259ff4
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: It functions as an augmentation tool that extends developer workflows via CLI, GitHub Actions, and MCP to audit and shape prose.
+      decision_evidence:
+        - Provides an MCP server, CLI, and GitHub Action for prose auditing
+        - Uses deterministic rules to detect AI-typical patterns in rhythm and vocabulary without model calls
+        - Offers a 'voice layer' to shape the context for assistants like Claude and Cursor
+      category_candidates:
+        - ai-dev-extensions
+        - context-engineering
+      contrastive_reason: Choose ai-dev-extensions over context-engineering because its primary value is delivered through multiple workflow integrations (CLI, Action, MCP) that augment existing assistants rather than acting solely as a context management system.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

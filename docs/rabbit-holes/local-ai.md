@@ -59,7 +59,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `fine-tuning` `llm` `self-hosted`
   </details>
 
-- **[Anything LLM](https://github.com/mintplex-labs/anything-llm)** `⭐ 64.3k` `updated ≤30d` AnythingLLM is an all-in-one local-first AI application for private document chatting, agent workflows, and multi-user LLM interaction with minimal setup. <details><summary>More about</summary>
+- **[Anything LLM](https://github.com/mintplex-labs/anything-llm)** `⭐ 64.3k` `updated ≤90d` AnythingLLM is an all-in-one local-first AI application for private document chatting, agent workflows, and multi-user LLM interaction with minimal setup. <details><summary>More about</summary>
 
   It lets developers run a self-hosted, privacy-preserving AI stack for document RAG and agent automation without managing infrastructure complexity.
 
@@ -77,7 +77,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `chatbot` `cost-effective` `self-hosted`
   </details>
 
-- **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** `⭐ 52.5k` `updated ≤30d` High-performance C/C++ implementation of OpenAI's Whisper automatic speech recognition model. <details><summary>More about</summary>
+- **[whisper.cpp](https://github.com/ggml-org/whisper.cpp)** `⭐ 52.5k` `updated ≤90d` High-performance C/C++ implementation of OpenAI's Whisper automatic speech recognition model. <details><summary>More about</summary>
 
   Enables efficient, low-latency, and offline audio transcription directly on diverse hardware like Apple Silicon, Linux, and mobile devices.
 
@@ -95,7 +95,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `inference` `self-hosted` `api-compatible` `open-source`
   </details>
 
-- **[textgen](https://github.com/oobabooga/textgen)** `⭐ 47.5k` `updated ≤90d` An open-source desktop application for running local LLMs with support for text, vision, tool-calling, and OpenAI/Anthropic-compatible APIs. <details><summary>More about</summary>
+- **[textgen](https://github.com/oobabooga/textgen)** `⭐ 47.5k` `updated ≤180d` An open-source desktop application for running local LLMs with support for text, vision, tool-calling, and OpenAI/Anthropic-compatible APIs. <details><summary>More about</summary>
 
   It provides developers with a private, drop-in API server and UI to run and test models locally without telemetry or cloud dependencies.
 
@@ -104,7 +104,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `llm` `self-hosted` `desktop-app` `api`
   </details>
 
-- **[Jan](https://github.com/janhq/jan)** `⭐ 43.8k` `updated ≤30d` Jan is an open-source, offline-first desktop application for running and interacting with LLMs locally or via cloud providers. <details><summary>More about</summary>
+- **[Jan](https://github.com/janhq/jan)** `⭐ 43.8k` `updated ≤90d` Jan is an open-source, offline-first desktop application for running and interacting with LLMs locally or via cloud providers. <details><summary>More about</summary>
 
   Developers can run, fine-tune, and deploy LLMs on their own hardware with full privacy control, or integrate with cloud models via a unified interface.
 
@@ -131,7 +131,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm` `inference` `local-ai` `serving` `multimodal`
   </details>
 
-- **[AirLLM](https://github.com/lyogavin/airllm)** `⭐ 25.9k` `updated ≤30d` AirLLM enables running 70B parameter large language models on a single 4GB GPU using memory optimization techniques. <details><summary>More about</summary>
+- **[AirLLM](https://github.com/lyogavin/airllm)** `⭐ 25.9k` `updated ≤90d` AirLLM enables running 70B parameter large language models on a single 4GB GPU using memory optimization techniques. <details><summary>More about</summary>
 
   It lowers hardware barriers for developers to run and experiment with large models locally, enabling accessible LLM inference without expensive infrastructure.
 
@@ -140,7 +140,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `inference` `memory-optimization`
   </details>
 
-- **[llamafile](https://github.com/mozilla-ai/llamafile)** `⭐ 25.5k` `updated ≤30d` llamafile packages LLMs and the llama.cpp runtime into a single, dependency-free executable that runs locally on most operating systems and CPU architectures. <details><summary>More about</summary>
+- **[llamafile](https://github.com/mozilla-ai/llamafile)** `⭐ 25.5k` `updated ≤90d` llamafile packages LLMs and the llama.cpp runtime into a single, dependency-free executable that runs locally on most operating systems and CPU architectures. <details><summary>More about</summary>
 
   It enables developers to run open-weight models locally with zero setup, making private, offline AI inference trivial to distribute and test against.
 
@@ -230,7 +230,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `ios` `macos` `ollama` `chat-interface`
   </details>
 
-- **[Shimmy](https://github.com/michael-a-kuykendall/shimmy)** `⭐ 5.7k` `updated ≤30d` Shimmy is a single-binary OpenAI-compatible inference server for GGUF models running on WebGPU with no Python or llama.cpp dependencies. <details><summary>More about</summary>
+- **[Shimmy](https://github.com/michael-a-kuykendall/shimmy)** `⭐ 5.7k` `updated ≤90d` Shimmy is a single-binary OpenAI-compatible inference server for GGUF models running on WebGPU with no Python or llama.cpp dependencies. <details><summary>More about</summary>
 
   It lets developers run local LLMs with zero configuration using existing OpenAI SDKs and tools, preserving privacy and avoiding API costs.
 
@@ -338,7 +338,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `ocr` `multimodal` `vlm` `local-ai` `tencent`
   </details>
 
-- **[TokenSpeed](https://github.com/lightseekorg/tokenspeed)** `⭐ 1.8k` `updated ≤30d` TokenSpeed is a TensorRT-LLM-level performance LLM inference engine with vLLM-like usability, targeting agentic workloads via a local-SPMD design and static compiler. <details><summary>More about</summary>
+- **[TokenSpeed](https://github.com/lightseekorg/tokenspeed)** `⭐ 1.8k` `updated ≤90d` TokenSpeed is a TensorRT-LLM-level performance LLM inference engine with vLLM-like usability, targeting agentic workloads via a local-SPMD design and static compiler. <details><summary>More about</summary>
 
   It offers high-throughput inference optimized for agentic workloads, reducing latency and cost for developers running LLM agents in production.
 
@@ -365,7 +365,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `macos` `local-ai` `llama` `desktop-chat` `llama-cpp`
   </details>
 
-- **[ggml-org/llama-macos](https://github.com/ggml-org/llama-macos)** `⭐ 1.4k` `updated ≤30d` A macOS menu bar application for running local LLMs via a background server. <details><summary>More about</summary>
+- **[ggml-org/llama-macos](https://github.com/ggml-org/llama-macos)** `⭐ 1.4k` `updated ≤90d` A macOS menu bar application for running local LLMs via a background server. <details><summary>More about</summary>
 
   It provides a zero-config way to host an OpenAI-compatible API locally, enabling developers to plug local models into VS Code, Zed, and CLI agents without managing manual server setups.
 
@@ -392,7 +392,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `performance` `cuda` `optimization`
   </details>
 
-- **[akshayaggarwal99/jarvis-ai-assistant](https://github.com/akshayaggarwal99/jarvis-ai-assistant)** `⭐ 619` `updated ≤30d` A voice-powered macOS assistant that enables local-first dictation and text manipulation using Whisper and Ollama. <details><summary>More about</summary>
+- **[akshayaggarwal99/jarvis-ai-assistant](https://github.com/akshayaggarwal99/jarvis-ai-assistant)** `⭐ 622` `updated ≤30d` A voice-powered macOS assistant that enables local-first dictation and text manipulation using Whisper and Ollama. <details><summary>More about</summary>
 
   It provides a privacy-focused, subscription-free alternative to commercial dictation tools by allowing developers to run transcription and LLM processing entirely on their own hardware.
 

@@ -5,7 +5,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
 
 ## Tools & Resources
 
-- **[skills](https://github.com/mattpocock/skills)** `⭐ 200.2k` `updated ≤30d` A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in coding assistants. <details><summary>More about</summary>
+- **[skills](https://github.com/mattpocock/skills)** `⭐ 200.2k` `updated ≤90d` A collection of reusable agent skills and slash commands designed to improve alignment and engineering rigor in coding assistants. <details><summary>More about</summary>
 
   It provides structured workflows, such as 'grilling sessions' and shared domain language, to reduce agent misalignment and verbosity.
 
@@ -14,7 +14,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `slash-commands` `workflows` `prompt-engineering`
   </details>
 
-- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 171.2k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
+- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 172.9k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
 
   It enables developers to create reusable, portable skill packs that teach Claude (and other compatible agents) how to handle specific workflows, from document editing to technical automation.
 
@@ -23,7 +23,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `reusable-skills` `workflow-automation`
   </details>
 
-- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 89.3k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 91.4k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
 
   It provides a standardized set of professional engineering guardrails (spec-first, test-driven, incremental builds) that prevent AI agents from hallucinating their way through a codebase without a plan.
 
@@ -50,7 +50,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `awesome-list` `agent-skills` `openclaw`
   </details>
 
-- **[scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills)** `⭐ 32.1k` `updated ≤30d` A library of 148 reusable scientific skills and 100+ databases designed to extend the research capabilities of AI agents. <details><summary>More about</summary>
+- **[scientific-agent-skills](https://github.com/k-dense-ai/scientific-agent-skills)** `⭐ 32.1k` `updated ≤90d` A library of 148 reusable scientific skills and 100+ databases designed to extend the research capabilities of AI agents. <details><summary>More about</summary>
 
   It allows general-purpose coding agents to perform specialized scientific workflows like drug discovery, genomics, and molecular dynamics.
 
@@ -216,7 +216,7 @@ _These are new or low-traffic entries being watched._
   `memory` `cli` `workflow` `multi-model` `skills`
   </details>
 
-- **[public-google-drive](https://github.com/zagmoai/public-google-drive)** `⭐ 1` `updated ≤180d` Public Google Drive is a skill pack that lets LLM coding agents create and edit Google Docs and Sheets on Memyard without Google sign-in. <details><summary>More about</summary>
+- **[public-google-drive](https://github.com/zagmoai/public-google-drive)** `⭐ 1` `updated ≤1y` Public Google Drive is a skill pack that lets LLM coding agents create and edit Google Docs and Sheets on Memyard without Google sign-in. <details><summary>More about</summary>
 
   It enables coding agents to persistently generate and edit shareable documents as part of automated workflows.
 

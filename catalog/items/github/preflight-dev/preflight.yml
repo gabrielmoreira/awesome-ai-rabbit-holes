@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/preflight-dev/preflight
         surrounding_text: "- [preflight-dev/preflight](https://github.com/preflight-dev/preflight) 📇 🏠 🍎 🪟 🐧 - 24-tool MCP server for Claude Code that catches vague prompts before they waste tokens. Includes 12-category prompt scorecards, session history search with LanceDB vectors, cross-service contract awareness, correction pattern learning, and cost estimation."
         confidence: high
+    - id: discovery__github__preflight-dev__preflight__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-01T14:31:13.862Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💻 Developer Tools
+        anchor_text: preflight-dev/preflight
+        extracted_url: https://github.com/preflight-dev/preflight
+        surrounding_text: "-   **[preflight-dev/preflight](https://github.com/preflight-dev/preflight)** [![GitHub stars](https://img.shields.io/github/stars/preflight-dev/preflight?style=social)](https://github.com/preflight-dev/preflight): MCP server for prompt preflight checks, prompt scoring, contract awareness, and session history search via LanceDB."
+        confidence: high
 metadata:
   github:
     stars: 11
@@ -86,7 +101,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: "2026-09-01T14:31:13.864Z"
     cause: null
     next_retry_at: null
   stars:
@@ -96,7 +111,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-27T09:23:35.497Z"
+    updated_at: "2026-09-01T14:31:48.833Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -96,9 +96,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-24T04:21:20.792Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-01T14:31:45.062Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for assafelovic/gpt-researcher
     next_retry_at: null
   categorize:
     status: done

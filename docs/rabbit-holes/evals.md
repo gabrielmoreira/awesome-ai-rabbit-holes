@@ -5,7 +5,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
 
 ## Tools & Resources
 
-- **[Langfuse 🪢](https://github.com/langfuse/langfuse)** `⭐ 32.1k` `updated ≤30d` Langfuse is an open source LLM engineering platform for observability, evaluation, prompt management, and debugging of AI applications. <details><summary>More about</summary>
+- **[Langfuse 🪢](https://github.com/langfuse/langfuse)** `⭐ 32.1k` `updated ≤90d` Langfuse is an open source LLM engineering platform for observability, evaluation, prompt management, and debugging of AI applications. <details><summary>More about</summary>
 
   It gives developers a unified way to monitor, evaluate, and improve LLM-powered applications in production using real usage data.
 
@@ -77,7 +77,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `function-calling` `benchmarks` `llm-eval` `api-integration` `research`
   </details>
 
-- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 11.2k` `updated ≤30d` Open-source AI observability and evaluation platform for tracing, experimenting, and optimizing AI applications. <details><summary>More about</summary>
+- **[Phoenix](https://github.com/arize-ai/phoenix)** `⭐ 11.3k` `updated ≤30d` Open-source AI observability and evaluation platform for tracing, experimenting, and optimizing AI applications. <details><summary>More about</summary>
 
   Developers can instrument, debug, and compare LLM behavior in production or staging without vendor lock-in.
 
@@ -149,7 +149,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `agent-testing` `red-teaming` `rag-eval` `llmops`
   </details>
 
-- **[Kiln](https://github.com/kiln-ai/kiln)** `⭐ 5k` `updated ≤30d` Kiln is a desktop app and open-source library for building, evaluating, and optimizing AI systems with features like evals, RAG, agents, fine-tuning, synthetic data generation, and MCP support. <details><summary>More about</summary>
+- **[Kiln](https://github.com/kiln-ai/kiln)** `⭐ 5k` `updated ≤90d` Kiln is a desktop app and open-source library for building, evaluating, and optimizing AI systems with features like evals, RAG, agents, fine-tuning, synthetic data generation, and MCP support. <details><summary>More about</summary>
 
   It provides an end-to-end workflow for developers to iterate on AI systems with measurable improvements, from prompt optimization to fine-tuning and evaluation.
 
@@ -158,7 +158,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `fine-tuning` `rag` `ai-agents` `mcp`
   </details>
 
-- **[AutoRAG](https://github.com/marker-inc-korea/autorag)** `⭐ 5k` `updated ≤30d` An open-source RAG AutoML framework that automatically evaluates, benchmarks, and optimizes retrieval-augmented generation pipelines for your specific datasets. <details><summary>More about</summary>
+- **[AutoRAG](https://github.com/marker-inc-korea/autorag)** `⭐ 5k` `updated ≤90d` An open-source RAG AutoML framework that automatically evaluates, benchmarks, and optimizes retrieval-augmented generation pipelines for your specific datasets. <details><summary>More about</summary>
 
   Developers building RAG applications can stop manually guessing which combination of parsers, chunkers, embeddings, and retrievers works best by letting AutoRAG run systematic experiments against their own data.
 
@@ -194,7 +194,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `ml-validation` `model-testing` `data-drift` `mlops` `ci-cd`
   </details>
 
-- **[LangWatch](https://github.com/langwatch/langwatch)** `⭐ 3.4k` `updated ≤30d` LangWatch is a platform for LLM evaluations, AI agent testing, and observability with simulation, tracing, prompt optimization, and an AI gateway for governance. <details><summary>More about</summary>
+- **[LangWatch](https://github.com/langwatch/langwatch)** `⭐ 3.4k` `updated ≤90d` LangWatch is a platform for LLM evaluations, AI agent testing, and observability with simulation, tracing, prompt optimization, and an AI gateway for governance. <details><summary>More about</summary>
 
   It gives developers end-to-end visibility and control over agent behavior, enabling regression testing and production monitoring without custom tooling.
 
@@ -212,7 +212,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `eval` `benchmark` `llm` `performance` `modelscope`
   </details>
 
-- **[lmnr](https://github.com/lmnr-ai/lmnr)** `⭐ 3.1k` `updated ≤30d` Laminar is an open-source observability platform purpose-built for AI agents, offering tracing, evals, monitoring, SQL access, dashboards, and dataset tooling. <details><summary>More about</summary>
+- **[lmnr](https://github.com/lmnr-ai/lmnr)** `⭐ 3.1k` `updated ≤90d` Laminar is an open-source observability platform purpose-built for AI agents, offering tracing, evals, monitoring, SQL access, dashboards, and dataset tooling. <details><summary>More about</summary>
 
   It gives developers end-to-end observability and evaluation tooling for AI agents in one self-hostable or managed platform.
 
@@ -356,7 +356,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `agent-evaluation` `dataset-generation` `fine-tuning` `mcp-compatible` `synthetic-data`
   </details>
 
-- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 797` `updated ≤30d` OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated graders and rubrics. <details><summary>More about</summary>
+- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 809` `updated ≤30d` OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated graders and rubrics. <details><summary>More about</summary>
 
   It provides a structured way to move from 'vibes-based' testing to reproducible evaluation, allowing developers to turn grading results into reward signals for fine-tuning.
 
@@ -365,7 +365,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evaluation` `benchmarking` `agent-evaluation` `reward-modeling`
   </details>
 
-- **[dingo](https://github.com/migoxlab/dingo)** `⭐ 731` `updated ≤30d` Dingo is an open-source Python tool for evaluating AI data quality, model performance, and application reliability using LLM-as-a-judge and rule-based validation. <details><summary>More about</summary>
+- **[dingo](https://github.com/migoxlab/dingo)** `⭐ 731` `updated ≤90d` Dingo is an open-source Python tool for evaluating AI data quality, model performance, and application reliability using LLM-as-a-judge and rule-based validation. <details><summary>More about</summary>
 
   It helps developers systematically detect hallucinations, validate training data, and assess RAG system quality before deployment.
 
@@ -401,7 +401,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `benchmarking` `evaluation` `llm-testing` `dataset-generation` `huggingface`
   </details>
 
-- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 386` `updated ≤1y` A CLI tool for benchmarking the throughput and tokens-per-second performance of local LLMs running via Ollama. <details><summary>More about</summary>
+- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 388` `updated ≤1y` A CLI tool for benchmarking the throughput and tokens-per-second performance of local LLMs running via Ollama. <details><summary>More about</summary>
 
   It allows developers to quantitatively measure the hardware performance and inference speed of local models across different RAM configurations.
 
@@ -428,7 +428,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `benchmark` `contamination` `training-data` `eval` `research`
   </details>
 
-- **[datasetloom](https://github.com/599yongyang/datasetloom)** `⭐ 294` `updated ≤1y` An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and RAG-enhanced data generation. <details><summary>More about</summary>
+- **[datasetloom](https://github.com/599yongyang/datasetloom)** `⭐ 295` `updated ≤1y` An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and RAG-enhanced data generation. <details><summary>More about</summary>
 
   It automates the complex pipeline of transforming unstructured documents and images into high-quality, structured datasets for fine-tuning multimodal models.
 
@@ -455,7 +455,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `bias-detection` `fairness` `python` `responsible-ai`
   </details>
 
-- **[XRAG](https://github.com/docailab/xrag)** `⭐ 255` `updated ≤90d` XRAG is a benchmarking framework for evaluating foundational components of advanced Retrieval-Augmented Generation (RAG) systems. <details><summary>More about</summary>
+- **[XRAG](https://github.com/docailab/xrag)** `⭐ 255` `updated ≤180d` XRAG is a benchmarking framework for evaluating foundational components of advanced Retrieval-Augmented Generation (RAG) systems. <details><summary>More about</summary>
 
   It helps developers and researchers measure and compare the performance of different RAG configurations, components, and workflows.
 
@@ -594,7 +594,7 @@ _These are new or low-traffic entries being watched._
   `rag` `observability` `vector-db` `embeddings` `llmops`
   </details>
 
-- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 7` `updated ≤1y` A benchmarking framework designed to evaluate AI agent configurations across 40 real-world tasks and 7 domains using rule-based scoring. <details><summary>More about</summary>
+- **[AgentBench](https://github.com/agentbench/agentbench)** `⭐ 10` `updated ≤1y` A benchmarking framework designed to evaluate AI agent configurations across 40 real-world tasks and 7 domains using rule-based scoring. <details><summary>More about</summary>
 
   It shifts the focus from evaluating raw model intelligence to measuring the effectiveness of specific agentic setups, prompts, and tool configurations.
 

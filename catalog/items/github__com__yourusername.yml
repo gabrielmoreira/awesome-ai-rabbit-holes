@@ -36,17 +36,18 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A GitHub user profile with no public repositories or identifiable tooling.
-  why_it_matters: It does not offer any developer-facing AI tool, agent, or infrastructure.
-  mental_damage: The quiet horror of clicking a profile hoping for innovation and finding only the void of an empty contribution graph.
-  tags: []
+  summary: A GitHub user profile page.
+  why_it_matters: This is a personal user profile rather than a functional AI tool, agent, or developer resource.
+  mental_damage: Clicking a link in a curated list only to arrive at an empty repository list is the ultimate developer productivity sinkhole.
+  tags:
+    - github-profile
   confidence: high
 curation:
   status: excluded
-  reason: The profile shows no repositories, tooling, or product identity; it is a placeholder account with no developer tooling to evaluate.
+  reason: The input is a GitHub user profile rather than a standalone AI tool, agent, or framework.
   evidence:
-    - "Repo description: (none)"
-    - Yourusername doesn't have any public repositories yet.
+    - 0 public repositories listed on the profile
+    - Scraped content consists of standard GitHub platform UI and navigation
 placement:
   primary_category: null
   section: null
@@ -67,23 +68,23 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-08-27T09:27:34.798Z"
+    updated_at: "2026-09-01T14:32:47.113Z"
     cause: null
-    attempts: 5
+    attempts: 6
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
     classification:
-      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
-      input_hash: sha256:1769d928ebde3af026f9be2f9354b902cfbfb222a97dfca02aa94b451190efd3
+      input_hash: sha256:e6fb54764ee2c3ad2dbb01d4fe1f0de627068b4ddeb1c2085841eb58340d0df5
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The profile shows no repositories, tooling, or product identity; it is a placeholder account with no developer tooling to evaluate.
+      decision_reason: The input is a GitHub user profile rather than a standalone AI tool, agent, or framework.
       decision_evidence:
-        - "Repo description: (none)"
-        - Yourusername doesn't have any public repositories yet.
+        - 0 public repositories listed on the profile
+        - Scraped content consists of standard GitHub platform UI and navigation
       category_candidates: []
       contrastive_reason: null
       review_reason: null

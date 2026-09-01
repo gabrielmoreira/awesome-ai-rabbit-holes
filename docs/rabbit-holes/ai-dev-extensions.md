@@ -212,7 +212,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `claude-code` `cli` `mcp` `command-management` `configuration`
   </details>
 
-- **[mysql_mcp_server_pro](https://github.com/wenb1n-dev/mysql_mcp_server_pro)** `⭐ 246` `updated ≤1y` An MCP server for MySQL that enables secure database interactions, anomaly analysis, and custom tool extensions via the Model Context Protocol. <details><summary>More about</summary>
+- **[mysql_mcp_server_pro](https://github.com/wenb1n-dev/mysql_mcp_server_pro)** `⭐ 246` `updated >1y` An MCP server for MySQL that enables secure database interactions, anomaly analysis, and custom tool extensions via the Model Context Protocol. <details><summary>More about</summary>
 
   Lets developers securely query, analyze, and extend MySQL databases through standardized MCP tooling, reducing integration friction for AI-assisted database workflows.
 
@@ -239,7 +239,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `llm-proxy` `token-management` `claude-code` `api-gateway` `ai-infrastructure`
   </details>
 
-- **[agenticmail/agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 205` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
+- **[agenticmail/agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 212` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
 
   It enables agents to move beyond the terminal by interacting with the world through standard communication channels like phone and email.
 
@@ -270,7 +270,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
 
 _These are new or low-traffic entries being watched._
 
-- **[alex-on-ai/WebReaper](https://github.com/alex-on-ai/webreaper)** `⭐ 145` `updated ≤90d` An AI-native web scraper and crawler that provides markdown output and includes a bundled Claude Code skill. <details><summary>More about</summary>
+- **[alex-on-ai/WebReaper](https://github.com/alex-on-ai/webreaper)** `⭐ 146` `updated ≤90d` An AI-native web scraper and crawler that provides markdown output and includes a bundled Claude Code skill. <details><summary>More about</summary>
 
   It enables developers to feed structured web content directly into coding agents or applications via a single binary or.NET library.
 
@@ -297,7 +297,7 @@ _These are new or low-traffic entries being watched._
   `rust` `cli` `skills` `mcp` `config-management`
   </details>
 
-- **[agenttrace](https://github.com/luoyuctl/agenttrace)** `⭐ 111` `updated ≤30d` AgentTrace is a local-first terminal TUI and report generator that analyzes session logs from AI coding agents to track cost, tokens, time, tool failures, and performance. <details><summary>More about</summary>
+- **[agenttrace](https://github.com/luoyuctl/agenttrace)** `⭐ 111` `updated ≤90d` AgentTrace is a local-first terminal TUI and report generator that analyzes session logs from AI coding agents to track cost, tokens, time, tool failures, and performance. <details><summary>More about</summary>
 
   It gives developers visibility into AI agent spend and latency so they can optimize usage and diagnose slow or expensive runs without relying on external observability.
 
@@ -351,7 +351,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `memory` `claude-code` `search`
   </details>
 
-- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 82` `updated ≤90d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
+- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 86` `updated ≤90d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
 
   It prevents credential sprawl by centralizing secret management and ensuring agents never see long-lived tokens, reducing the risk of exfiltration during autonomous runs.
 
@@ -360,7 +360,7 @@ _These are new or low-traffic entries being watched._
   `security` `secrets-management` `oauth2` `headless` `agent-infra`
   </details>
 
-- **[Untether](https://github.com/littlebearapps/untether)** `⭐ 59` `updated ≤30d` A Telegram bridge that lets developers send tasks by voice or text and approve actions for local AI coding agents like Claude Code, Codex, and Gemini CLI from their phone. <details><summary>More about</summary>
+- **[Untether](https://github.com/littlebearapps/untether)** `⭐ 59` `updated ≤90d` A Telegram bridge that lets developers send tasks by voice or text and approve actions for local AI coding agents like Claude Code, Codex, and Gemini CLI from their phone. <details><summary>More about</summary>
 
   It untethers agents from the terminal, letting developers kick off repo work, stream progress, and approve changes remotely without SSH or a desk.
 
@@ -376,6 +376,15 @@ _These are new or low-traffic entries being watched._
   _Watching your routing logic get more complex than the code you're trying to write._
 
   `llm-routing` `cost-optimization` `mcp`
+  </details>
+
+- **[apireno/DOMShell](https://github.com/apireno/domshell)** `⭐ 52` `updated ≤30d` A Chrome Extension that exposes the browser's Accessibility Tree as a virtual filesystem, allowing AI agents and humans to navigate and interact with web pages using standard Linux commands. <details><summary>More about</summary>
+
+  It replaces brittle CSS selectors and pixel-based automation with a deterministic, semantic filesystem metaphor for browser interaction, making web automation more reliable for AI agents.
+
+  _Now your AI can `cd ~/tabs/123` and `cat submit_btn` instead of guessing which tab is active or where the button moved this week._
+
+  `browser-automation` `filesystem-abstraction` `chrome-extension` `ai-agent-tools`
   </details>
 
 - **[brood-box](https://github.com/stacklok/brood-box)** `⭐ 52` `updated ≤90d` A CLI tool that runs coding agents like Claude Code and Codex inside hardware-isolated microVMs, requiring explicit user review of file changes before they reach the workspace. <details><summary>More about</summary>
@@ -403,15 +412,6 @@ _These are new or low-traffic entries being watched._
   _Finally, an AI tool that promises to replace apps with task trees—because we definitely needed another way to over-engineer our to-do lists._
 
   `local-first` `task-management` `ai-agent` `browser-based` `mcp`
-  </details>
-
-- **[apireno/DOMShell](https://github.com/apireno/domshell)** `⭐ 51` `updated ≤30d` A Chrome Extension that exposes the browser's Accessibility Tree as a virtual filesystem, allowing AI agents and humans to navigate and interact with web pages using standard Linux commands. <details><summary>More about</summary>
-
-  It replaces brittle CSS selectors and pixel-based automation with a deterministic, semantic filesystem metaphor for browser interaction, making web automation more reliable for AI agents.
-
-  _Now your AI can `cd ~/tabs/123` and `cat submit_btn` instead of guessing which tab is active or where the button moved this week._
-
-  `browser-automation` `filesystem-abstraction` `chrome-extension` `ai-agent-tools`
   </details>
 
 - **[Clave](https://github.com/codika-io/clave)** `⭐ 47` `updated ≤30d` A macOS desktop application for managing and orchestrating multiple CLI coding-agent sessions in parallel. <details><summary>More about</summary>
@@ -549,7 +549,7 @@ _These are new or low-traffic entries being watched._
   `ai-agent-safety` `guardrails` `policy-enforcement`
   </details>
 
-- **[IgorGanapolsky/ThumbGate](https://github.com/igorganapolsky/thumbgate)** `⭐ 24` `updated ≤30d` ThumbGate is a tool that derives prevention rules from repeated AI agent failures to block risky tool calls and secret leaks across MCP-compatible agents. <details><summary>More about</summary>
+- **[IgorGanapolsky/ThumbGate](https://github.com/igorganapolsky/thumbgate)** `⭐ 24` `updated ≤90d` ThumbGate is a tool that derives prevention rules from repeated AI agent failures to block risky tool calls and secret leaks across MCP-compatible agents. <details><summary>More about</summary>
 
   It stops developers from paying for the same AI mistakes repeatedly by intercepting and blocking known bad patterns before they reach the model.
 
@@ -567,7 +567,7 @@ _These are new or low-traffic entries being watched._
   `cli` `mcp` `file-sharing` `agents` `devops`
   </details>
 
-- **[logly/mureo](https://github.com/logly/mureo)** `⭐ 19` `updated ≤30d` A local-first CLI control plane that lets AI coding agents like Claude Code and Cursor safely manage ad accounts across Google Ads, Meta Ads, Search Console, and GA4 using strategy files and audit logs. <details><summary>More about</summary>
+- **[logly/mureo](https://github.com/logly/mureo)** `⭐ 19` `updated ≤90d` A local-first CLI control plane that lets AI coding agents like Claude Code and Cursor safely manage ad accounts across Google Ads, Meta Ads, Search Console, and GA4 using strategy files and audit logs. <details><summary>More about</summary>
 
   Developers running ad ops can delegate cross-platform account management to their existing coding agents without giving up local control, strategy grounding, or an append-only audit trail.
 
@@ -603,7 +603,7 @@ _These are new or low-traffic entries being watched._
   `governance` `ai-agents` `audit-trails` `task-management` `claude-code`
   </details>
 
-- **[LionClaw](https://github.com/moshthepitt/lionclaw)** `⭐ 13` `updated ≤30d` A local Rust-based CLI that wraps existing coding agents like Codex and OpenCode with a secure sandbox, durable sessions, scheduled jobs, and credential management. <details><summary>More about</summary>
+- **[LionClaw](https://github.com/moshthepitt/lionclaw)** `⭐ 13` `updated ≤90d` A local Rust-based CLI that wraps existing coding agents like Codex and OpenCode with a secure sandbox, durable sessions, scheduled jobs, and credential management. <details><summary>More about</summary>
 
   It lets developers reuse their preferred terminal agents while adding a hardened security boundary, persistent context, and long-running workflows without modifying the agents themselves.
 
@@ -612,7 +612,7 @@ _These are new or low-traffic entries being watched._
   `local-ai` `cli` `security` `sessions` `agents`
   </details>
 
-- **[spyrae/claude-concilium](https://github.com/spyrae/claude-concilium)** `⭐ 13` `updated ≤180d` A multi-agent MCP framework that enables Claude Code to run parallel code consultations with OpenAI, Gemini, Qwen, and DeepSeek for cross-model review and consensus. <details><summary>More about</summary>
+- **[spyrae/claude-concilium](https://github.com/spyrae/claude-concilium)** `⭐ 13` `updated ≤1y` A multi-agent MCP framework that enables Claude Code to run parallel code consultations with OpenAI, Gemini, Qwen, and DeepSeek for cross-model review and consensus. <details><summary>More about</summary>
 
   Developers can get second and third opinions from different LLMs directly inside Claude Code, reducing blind spots and local-optimum bugs without leaving the assistant.
 
@@ -657,7 +657,7 @@ _These are new or low-traffic entries being watched._
   `claude-code` `local-memory` `mcp-server` `sqlite`
   </details>
 
-- **[Mingye-Lu/AgenticCrawler](https://github.com/mingye-lu/agenticcrawler)** `⭐ 11` `updated ≤30d` acrawl is a single Rust binary LLM-powered web crawler that lets users describe goals in plain English to extract structured data using built-in MCP server and client capabilities. <details><summary>More about</summary>
+- **[Mingye-Lu/AgenticCrawler](https://github.com/mingye-lu/agenticcrawler)** `⭐ 11` `updated ≤90d` acrawl is a single Rust binary LLM-powered web crawler that lets users describe goals in plain English to extract structured data using built-in MCP server and client capabilities. <details><summary>More about</summary>
 
   It enables developers to automate complex browser tasks with full DevTools observability without needing Python, Node, or writing code.
 
@@ -666,7 +666,7 @@ _These are new or low-traffic entries being watched._
   `web-crawler` `mcp` `browser-automation` `llm` `single-binary`
   </details>
 
-- **[playwright-praman](https://github.com/mrkanitkar/playwright-praman)** `⭐ 11` `updated ≤30d` A Playwright plugin that adds deep SAP UI5 runtime awareness and AI agents to generate, run, and self-heal production-ready E2E tests for S/4HANA and Fiori applications. <details><summary>More about</summary>
+- **[playwright-praman](https://github.com/mrkanitkar/playwright-praman)** `⭐ 11` `updated ≤90d` A Playwright plugin that adds deep SAP UI5 runtime awareness and AI agents to generate, run, and self-heal production-ready E2E tests for S/4HANA and Fiori applications. <details><summary>More about</summary>
 
   SAP UI5 test automation usually collapses into fragile DOM selectors; this replaces that with UI5 control registry queries and an AI plan → generate → heal loop so QA teams can describe business processes instead of hunting selectors.
 
@@ -691,6 +691,15 @@ _These are new or low-traffic entries being watched._
   _Another way to get paged by an AI that misreads your Zulip thread as a coding emergency._
 
   `zulip` `mcp` `agent` `chatbot`
+  </details>
+
+- **[AIStoryHub/etincel](https://github.com/aistoryhub/etincel)** `⭐ 8` `updated ≤30d` A deterministic linter and MCP server for detecting AI-generated prose patterns and enforcing specific writing styles. <details><summary>More about</summary>
+
+  It allows developers to automate the detection of 'AI slop' in technical documentation and maintain a consistent human-like voice through CI and editor integrations.
+
+  _Because nothing says 'professionalism' like a deterministic linter telling you your paragraph length is too uniform._
+
+  `ai-tells` `mcp` `linter` `prose` `cli`
   </details>
 
 - **[blinkingbit-oss/execkit](https://github.com/blinkingbit-oss/execkit)** `⭐ 7` `updated ≤90d` Stateful, structured, safe command execution for AI agents over local shells, SSH, and Docker. <details><summary>More about</summary>
@@ -729,6 +738,15 @@ _These are new or low-traffic entries being watched._
   `terminal` `shell-wrapper` `mcp` `cli-agent` `productivity`
   </details>
 
+- **[dashi96/chromium-bridge](https://github.com/dashi96/chromium-bridge)** `⭐ 5` `updated ≤90d` An MCP bridge enabling Claude Code to automate Chromium-based browsers (Arc, Vivaldi, etc.) where the official extension fails, with a built-in chat panel. <details><summary>More about</summary>
+
+  It extends Claude Code's browser automation to unsupported Chromium variants, giving developers consistent cross-browser control for testing or workflows.
+
+  _Now you can watch Claude click through Wikipedia in Arc while you question your life choices._
+
+  `mcp` `browser-automation` `claude-code` `chromium` `extension`
+  </details>
+
 - **[iris-tui](https://github.com/itzenata/iris-tui)** `⭐ 5` `updated ≤90d` A terminal-based dashboard for monitoring and managing multiple active Claude Code sessions. <details><summary>More about</summary>
 
   It provides a single pane of glass to track model usage, costs, and active tasks across multiple concurrent autonomous agent sessions.
@@ -738,7 +756,7 @@ _These are new or low-traffic entries being watched._
   `terminal` `tui` `claude-code` `observability` `agent-management`
   </details>
 
-- **[KyaniteLabs/checkyourself](https://github.com/kyanitelabs/checkyourself)** `⭐ 5` `updated ≤30d` CheckYourself is a local-first Python CLI and MCP server that audits AI-built apps with a deterministic 0-100 production readiness score and guided fixes. <details><summary>More about</summary>
+- **[KyaniteLabs/checkyourself](https://github.com/kyanitelabs/checkyourself)** `⭐ 5` `updated ≤90d` CheckYourself is a local-first Python CLI and MCP server that audits AI-built apps with a deterministic 0-100 production readiness score and guided fixes. <details><summary>More about</summary>
 
   It gives developers a repeatable, evidence-based way to find real production risks in AI-generated code before launch.
 
@@ -828,7 +846,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `sdk` `screenshot-api` `agent-integrations`
   </details>
 
-- **[avansaber/tailtest-cline](https://github.com/avansaber/tailtest-cline)** `⭐ 1` `updated ≤90d` An MCP server and .clinerules pack for Cline that automatically generates and runs tests after agent edits, with adversarial test mode. <details><summary>More about</summary>
+- **[avansaber/tailtest-cline](https://github.com/avansaber/tailtest-cline)** `⭐ 1` `updated ≤180d` An MCP server and .clinerules pack for Cline that automatically generates and runs tests after agent edits, with adversarial test mode. <details><summary>More about</summary>
 
   It brings automated, rule-driven test generation to Cline across 8+ editors, ensuring code changes are validated without manual intervention.
 

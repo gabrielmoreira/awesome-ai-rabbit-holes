@@ -40,18 +40,26 @@ metadata:
       fetched_at: "2026-08-27T09:23:08.978Z"
       bytes: 26071
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: MCP server for SSH remote server management with 46 specialized tools for AI agents.
+  why_it_matters: Enables AI assistants like Claude or OpenCode to directly manage Linux, macOS, and Windows servers via SSH with purpose-built tools for real-world sysadmin tasks.
+  mental_damage: Finally, a way to let your AI assistant SSH into production without immediately regretting it.
+  tags:
+    - mcp
+    - ssh
+    - server-management
+    - ai-agents
+    - sysadmin
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is explicitly an MCP server with SSH management as its core identity, fitting the MCP Servers & Tooling category.
+  evidence:
+    - "Repo description: 'MCP server for SSH remote server management'"
+    - "README: 'cygnus-ssh-mcp is an MCP server... exposing 46 purpose-built tools'"
+    - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Command Line'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -67,30 +75,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-27T09:26:24.623Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__cygnussystems__cygnus-ssh-mcp: ```json
-        {
-          "summary": "MCP server for SSH remote server management with 46 purpose-built tools for AI agents.",
-          "why_it_matters": "Enables AI assistants like Claude or OpenCode to directly manage Linux, macOS, and Windows servers over SSH with specialized tools for system administration tasks.",
-          "mental_damage": "Finally, a way to let your AI assistant SSH into servers without it immediately breaking everything.",
-          "tags": ["mcp", "ssh", "server-management", "ai-agents", "remote-tools"],
-          "should_include": true,
-          "primary_category": "mcp",
-          "section": "Domain Servers",
-          "decision_reason": "This is an MCP-first server implementation whose primary identity is providing SSH-based server management tools to AI agents via the Model Context Protocol.",
-          "decision_evidence": [
-            "Repo description explicitly states it is an 'MCP server for SSH remote server management'",
-            "README emphasizes it is an MCP server with 46 tools for AI agents to manage servers",
-            "Already listed in awesome-mcp-servers under 'Server Implementations > Command Line'"
-          ],
-          "category_candidates": ["mcp", "ai-dev-extensions"],
-          "contrastive_reason": "Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server (not just an extension for another assistant), and MCP is the primary adopted protocol rather than a compatibility feature.",
-          "confidence": "high"
-        }
-        ```
+    status: done
+    updated_at: "2026-09-01T14:32:25.140Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:45b6bd6331dbbb56db4273e588ae15e4b5bbc0103d847659a9dfafd7b89c3f98
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is explicitly an MCP server with SSH management as its core identity, fitting the MCP Servers & Tooling category.
+      decision_evidence:
+        - "Repo description: 'MCP server for SSH remote server management'"
+        - "README: 'cygnus-ssh-mcp is an MCP server... exposing 46 purpose-built tools'"
+        - "Source-list context: Listed in awesome-mcp-servers under 'Server Implementations > Command Line'"
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is an MCP server, not an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

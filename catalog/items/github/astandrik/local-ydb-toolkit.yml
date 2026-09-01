@@ -79,9 +79,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-24T04:21:21.292Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-01T14:31:45.456Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for astandrik/local-ydb-toolkit
     next_retry_at: null
   categorize:
     status: done

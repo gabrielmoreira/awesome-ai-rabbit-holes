@@ -127,7 +127,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-24T04:21:21.539Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-01T14:31:46.393Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for atomno-mcp/mcp-egrul
     next_retry_at: null

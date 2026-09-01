@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/portel-dev/ncp
         surrounding_text: "- [portel-dev/ncp](https://github.com/portel-dev/ncp) 📇 ☁️ 🏠 🍎 🪟 🐧 - NCP orchestrates your entire MCP ecosystem through intelligent discovery, eliminating token overhead while maintaining 98.2% accuracy."
         confidence: high
+    - id: discovery__github__portel-dev__ncp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-01T14:31:13.862Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 🛠️ Utilities
+        anchor_text: portel-dev/ncp
+        extracted_url: https://github.com/portel-dev/ncp
+        surrounding_text: "-   **[portel-dev/ncp](https://github.com/portel-dev/ncp)** [![GitHub stars](https://img.shields.io/github/stars/portel-dev/ncp?style=social)](https://github.com/portel-dev/ncp): Orchestrates MCP server ecosystems through dynamic tool discovery to reduce context overhead."
+        confidence: high
 metadata:
   github:
     stars: 96
@@ -75,7 +90,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.643Z"
+    updated_at: "2026-09-01T14:31:13.864Z"
     cause: null
     next_retry_at: null
   stars:
@@ -85,7 +100,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-08-27T09:23:35.496Z"
+    updated_at: "2026-09-01T14:31:48.833Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

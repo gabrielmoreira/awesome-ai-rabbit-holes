@@ -49,18 +49,26 @@ metadata:
       fetched_at: "2026-08-27T09:23:10.494Z"
       bytes: 8724
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP bridge enabling Claude Code to automate Chromium-based browsers (Arc, Vivaldi, etc.) where the official extension fails, with a built-in chat panel.
+  why_it_matters: It extends Claude Code's browser automation to unsupported Chromium variants, giving developers consistent cross-browser control for testing or workflows.
+  mental_damage: Now you can watch Claude click through Wikipedia in Arc while you question your life choices.
+  tags:
+    - mcp
+    - browser-automation
+    - claude-code
+    - chromium
+    - extension
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool is an integration layer that augments Claude Code with browser automation capabilities, not a standalone coding assistant.
+  evidence:
+    - Repo description explicitly calls it an MCP bridge for Claude Code and Chromium browsers
+    - README details architecture as a proxy between Claude Code (stdio MCP) and a browser extension
+    - Source-list context places it under MCP servers for browser automation
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
   status: incubating
   reason: null
@@ -76,10 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-27T09:25:29.831Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__dashi96__chromium-bridge: Invalid AI response format: SyntaxError: Unexpected token 'C', ...\"_reason\": Chromium B\"... is not valid JSON"
+    status: done
+    updated_at: "2026-09-01T14:32:22.453Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4bac127718ac83cdd11d4512e05c44c004821ff9cc7704713724688b93f9b641
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool is an integration layer that augments Claude Code with browser automation capabilities, not a standalone coding assistant.
+      decision_evidence:
+        - Repo description explicitly calls it an MCP bridge for Claude Code and Chromium browsers
+        - README details architecture as a proxy between Claude Code (stdio MCP) and a browser extension
+        - Source-list context places it under MCP servers for browser automation
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the primary identity is a host integration for Claude Code, not MCP infrastructure itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

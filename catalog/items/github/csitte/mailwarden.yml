@@ -49,18 +49,26 @@ metadata:
       fetched_at: "2026-08-27T09:23:08.116Z"
       bytes: 48880
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A native Gmail MCP server providing full mailbox control, including mailbox-side snooze, for AI assistants.
+  why_it_matters: Developers can integrate Gmail capabilities directly into AI workflows with reliable, live mailbox access and unique features like snooze.
+  mental_damage: Finally, an MCP server that lets your AI assistant snooze emails like a human who’s given up on inbox zero.
+  tags:
+    - mcp
+    - gmail
+    - email
+    - typescript
+    - ai-integration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: This is an MCP-first server providing Gmail integration, with MCP as the core product identity.
+  evidence:
+    - Repo description explicitly identifies it as a Gmail MCP server
+    - README highlights MCP as the primary protocol and details server-specific features
+    - Listed in awesome-mcp-servers under Server Implementations > Communication
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -76,30 +84,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-27T09:25:06.438Z"
-    cause:
-      type: categorization_failed
-      message: |-
-        Catalog LLM categorization failed for github__csitte__mailwarden: ```json
-        {
-          "summary": "A native Gmail MCP server providing full mailbox control, including mailbox-side snooze, for AI assistants.",
-          "why_it_matters": "Developers can integrate Gmail capabilities into AI workflows with reliable, live mailbox operations and unique features like snooze that persist across clients.",
-          "mental_damage": "Finally, an MCP server that lets your AI assistant snooze emails like a human who’s given up on inbox zero.",
-          "tags": ["mcp", "gmail", "email", "typescript", "server"],
-          "should_include": true,
-          "primary_category": "mcp",
-          "section": "Domain Servers",
-          "decision_reason": "The product is explicitly an MCP server for Gmail, making MCP its primary identity and fitting the MCP Servers & Tooling category.",
-          "decision_evidence": [
-            "Repo description identifies it as a 'native Gmail MCP server'",
-            "README highlights MCP as core identity with Gmail-specific capabilities",
-            "Listed in awesome-mcp-servers under 'Server Implementations > Communication'"
-          ],
-          "category_candidates": ["mcp", "ai-dev-extensions"],
-          "contrastive_reason": "Choose mcp over ai-dev-extensions because the product's core identity is as an MCP server, not merely an extension for another assistant.",
-          "confidence": "high"
-        }
-        ```
+    status: done
+    updated_at: "2026-09-01T14:32:17.387Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:78496d623115a4ebfce573b679deca687282e3439b55fd90c550d2735abc554b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This is an MCP-first server providing Gmail integration, with MCP as the core product identity.
+      decision_evidence:
+        - Repo description explicitly identifies it as a Gmail MCP server
+        - README highlights MCP as the primary protocol and details server-specific features
+        - Listed in awesome-mcp-servers under Server Implementations > Communication
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is as an MCP server, not an extension for another assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

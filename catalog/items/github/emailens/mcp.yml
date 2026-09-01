@@ -48,18 +48,25 @@ metadata:
       fetched_at: "2026-08-27T09:23:23.612Z"
       bytes: 11782
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that enables AI assistants to analyze, preview, and audit email HTML compatibility across 21 different email clients.
+  why_it_matters: It allows developers to use AI assistants to catch complex CSS and HTML rendering issues in email templates before they are sent.
+  mental_damage: Because manually checking if a div works in Outlook 2016 was apparently too much for a human to handle alone.
+  tags:
+    - mcp
+    - email
+    - testing
+    - dev-tools
+    - html
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool is explicitly an MCP server whose primary identity is providing specialized email testing capabilities to AI assistants via the Model Context Protocol.
+  evidence:
+    - Repo description and README explicitly define it as an MCP server.
+    - It provides specific domain tools like `preview_email` and `analyze_email` for use within MCP-compatible assistants.
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -75,10 +82,27 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-27T09:27:04.225Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__emailens__mcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The produc\"... is not valid JSON"
+    status: done
+    updated_at: "2026-09-01T14:32:53.466Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f6c227ddc3cf5799023693c99b63831d0eed3ce5fc25370efb84c873289aed0f
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is explicitly an MCP server whose primary identity is providing specialized email testing capabilities to AI assistants via the Model Context Protocol.
+      decision_evidence:
+        - Repo description and README explicitly define it as an MCP server.
+        - It provides specific domain tools like `preview_email` and `analyze_email` for use within MCP-compatible assistants.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is defined by its implementation of the Model Context Protocol rather than being a general-purpose host extension.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

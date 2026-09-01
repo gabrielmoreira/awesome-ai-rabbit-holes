@@ -66,18 +66,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An AI assistant for generating, iterating, and deploying full-stack web applications from natural language prompts.
+  why_it_matters: It accelerates the prototyping-to-production pipeline by automating UI generation, task planning, and deployment to Vercel.
+  mental_damage: It turns the architectural planning phase into a single text box, effectively deleting the middleman between your imagination and a live URL.
+  tags:
+    - vercel
+    - full-stack
+    - prompt-to-app
+    - web-dev
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool's core identity is a prompt-to-app platform that generates and deploys complete web projects.
+  evidence:
+    - Generates working applications and live websites from prompts
+    - Integrates with GitHub and Vercel for automated deployment
+    - Uses agentic workflows to plan tasks and connect to databases
 placement:
-  primary_category: null
-  section: null
+  primary_category: app-builders
+  section: Prompt-to-App Builders
 lifecycle:
   status: incubating
   reason: null
@@ -92,10 +99,28 @@ processing:
     updated_at: null
     cause: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-27T09:28:15.954Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for v0__app: Invalid AI response format: SyntaxError: Unexpected token 'v', ...\"_reason\": v0.app is \"... is not valid JSON"
+    status: done
+    updated_at: "2026-09-01T14:33:27.708Z"
+    cause: null
     next_retry_at: null
-    attempts: 2
+    attempts: 3
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ca92dc17dc5c62e31b23771f3051962a4af53edd72194a60a9cdeeaa2113b95f
+      proposed_primary_category: app-builders
+      disagreement: false
+      decision_reason: The tool's core identity is a prompt-to-app platform that generates and deploys complete web projects.
+      decision_evidence:
+        - Generates working applications and live websites from prompts
+        - Integrates with GitHub and Vercel for automated deployment
+        - Uses agentic workflows to plan tasks and connect to databases
+      category_candidates:
+        - app-builders
+        - coding-agents
+      contrastive_reason: Choose app-builders over coding-agents because the primary workflow is the creation of entire applications from prompts rather than the incremental editing of an existing codebase.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

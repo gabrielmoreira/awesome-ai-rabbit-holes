@@ -1,0 +1,122 @@
+id: github__andresolbach__nodriver-mcp-server
+kind: github-repo
+name: andresolbach/nodriver-mcp-server
+canonical_url: https://github.com/andresolbach/nodriver-mcp-server
+identity:
+  github_repo: andresolbach/nodriver-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__andresolbach__nodriver-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-01T14:31:13.862Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: andresolbach/nodriver-mcp-server
+        extracted_url: https://github.com/andresolbach/nodriver-mcp-server
+        surrounding_text: "- [andresolbach/nodriver-mcp-server](https://github.com/andresolbach/nodriver-mcp-server) [![andresolbach/nodriver-mcp-server MCP server](https://glama.ai/mcp/servers/andresolbach/nodriver-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/andresolbach/nodriver-mcp-server) 🐍 🏠 🍎 🪟 🐧 - Undetected Chrome automation via nodriver, for sites behind Cloudflare, DataDome and similar anti-bot systems. Direct CDP with no ChromeDriver binary, so `navigator.webdriver` stays undefined. 57 tools whose names match chrome-devtools-mcp, so switching is a config change: accessibility-tree snapshots, input automation, network/console inspection, device emulation, persistent profiles and session save/restore."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: andresolbach/nodriver-mcp-server
+    html_url: https://github.com/andresolbach/nodriver-mcp-server
+    created_at: "2026-07-11T22:26:27Z"
+    pushed_at: "2026-08-25T10:17:25Z"
+    description: Undetected browser automation MCP server - a stealth, anti-bot-resistant alternative to chrome-devtools-mcp for Claude, Cursor and AI agents. Powered by nodriver (bypasses Cloudflare/WebDriver detection). 65 tools, plus several isolated browsers at once so parallel agents never share a session.
+    homepage: https://pypi.org/project/nodriver-mcp/
+    topics:
+      - ai-agent
+      - anti-bot
+      - browser-automation
+      - chrome-automation
+      - chrome-devtools-mcp
+      - claude
+      - claude-code
+      - cloudflare-bypass
+      - cursor
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - multi-agent
+      - nodriver
+      - playwright-alternative
+      - puppeteer-alternative
+      - stealth
+      - undetected
+      - web-scraping
+    last_checked_at: "2026-09-01T14:31:37.395Z"
+    readme:
+      fetched_at: "2026-09-01T14:31:37.395Z"
+      bytes: 27867
+insights:
+  summary: An MCP server that provides undetected browser automation by leveraging nodriver to bypass anti-bot protections like Cloudflare and hCaptcha.
+  why_it_matters: It enables AI agents to scrape and interact with modern, bot-protected websites that typically block standard automation tools like Playwright or Selenium.
+  mental_damage: It allows your agent to successfully bypass Cloudflare's detection, only to stare helplessly at a hCaptcha it cannot solve.
+  tags:
+    - mcp
+    - browser-automation
+    - anti-bot
+    - web-scraping
+    - ai-agents
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server implementation designed to provide specialized browser automation capabilities to any MCP-compliant client.
+  evidence:
+    - Repo description identifies it as an 'Undetected browser automation MCP server'
+    - README specifies it provides 65 tools for agents via the Model Context Protocol
+    - Listed in 'awesome-mcp-servers' under Browser Automation
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-01T14:31:13.864Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-01T14:31:37.395Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-01T14:34:30.561Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ffa43950e39edaa9ab34ecc00273b8fa5156a72315806f58565ccbffc0a3d809
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server implementation designed to provide specialized browser automation capabilities to any MCP-compliant client.
+      decision_evidence:
+        - Repo description identifies it as an 'Undetected browser automation MCP server'
+        - README specifies it provides 65 tools for agents via the Model Context Protocol
+        - Listed in 'awesome-mcp-servers' under Browser Automation
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is a standalone Model Context Protocol server rather than a plugin for a specific editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

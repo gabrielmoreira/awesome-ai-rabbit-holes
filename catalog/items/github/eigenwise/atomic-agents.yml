@@ -46,18 +46,26 @@ metadata:
       fetched_at: "2026-08-27T09:23:22.156Z"
       bytes: 23113
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Atomic Agents is a lightweight, modular Python framework for building AI agent pipelines and applications with reusable, composable components.
+  why_it_matters: It lets developers apply familiar software engineering principles to AI workflows, making agent systems more maintainable and predictable.
+  mental_damage: Finally, a framework that treats your agents like LEGO blocks—because nothing says 'production-ready' like a tower of plastic bricks.
+  tags:
+    - agent-framework
+    - python
+    - modular-agents
+    - pydantic
+    - instructor
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The product is a code-first framework for building agent pipelines, not a primary assistant, IDE, or orchestration platform.
+  evidence:
+    - "Repo description: 'Building AI agents, atomically'"
+    - "README: 'lightweight and modular framework for building Agentic AI pipelines and applications'"
+    - Built on Instructor and Pydantic, used as a library
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (6204) exceeded threshold (150)
@@ -73,10 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-08-27T09:26:57.528Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__eigenwise__atomic-agents: Invalid AI response format: SyntaxError: Unexpected token 'A', ...\"_reason\": Atomic Age\"... is not valid JSON"
+    status: done
+    updated_at: "2026-09-01T14:32:26.537Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:55f254cc3ec08d2da4cc9650ff02b61cafa1a83c19726c0c69e12e203c993a44
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The product is a code-first framework for building agent pipelines, not a primary assistant, IDE, or orchestration platform.
+      decision_evidence:
+        - "Repo description: 'Building AI agents, atomically'"
+        - "README: 'lightweight and modular framework for building Agentic AI pipelines and applications'"
+        - Built on Instructor and Pydantic, used as a library
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the product is a code-first library for building agents, not an operated workbench or runtime platform.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

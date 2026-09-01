@@ -5,7 +5,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
 
 ## Tools & Resources
 
-- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 125.1k` `updated ≤30d` Open source toolkit for Spec-Driven Development that turns product specifications into executable implementations. <details><summary>More about</summary>
+- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 125.1k` `updated ≤90d` Open source toolkit for Spec-Driven Development that turns product specifications into executable implementations. <details><summary>More about</summary>
 
   It shifts development workflows from vibe-coding to structured, spec-first execution, enabling predictable outcomes and reducing ad-hoc implementation decisions.
 
@@ -32,7 +32,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `agent-orchestration` `workflow-automation` `ai-collaboration` `agile`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 23.8k` `updated ≤180d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 24k` `updated ≤30d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
 
   It attempts to standardize how developers communicate environment tips, testing requirements, and PR guidelines directly to autonomous agents.
 
@@ -50,7 +50,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `agent-skills` `autonomous-implementation` `multi-agent` `sdd`
   </details>
 
-- **[pilot-shell](https://github.com/maxritter/pilot-shell)** `⭐ 1.8k` `updated ≤30d` Pilot Shell is a spec-driven development shell that wraps Claude Code with enforced TDD, persistent memory, and quality gates to make agents production-ready. <details><summary>More about</summary>
+- **[pilot-shell](https://github.com/maxritter/pilot-shell)** `⭐ 1.8k` `updated ≤90d` Pilot Shell is a spec-driven development shell that wraps Claude Code with enforced TDD, persistent memory, and quality gates to make agents production-ready. <details><summary>More about</summary>
 
   It transforms Claude Code from a fast-but-unreliable coder into a structured assistant that plans, tests, and verifies code end-to-end, reducing rework and inconsistency.
 
@@ -68,7 +68,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `multi-agent` `git-worktrees` `kanban`
   </details>
 
-- **[haft](https://github.com/m0n0x41d/haft)** `⭐ 1.4k` `updated ≤30d` Haft is an engineering decisions engine that enforces spec-driven development with evidence decay and parity enforcement for AI-assisted coding. <details><summary>More about</summary>
+- **[haft](https://github.com/m0n0x41d/haft)** `⭐ 1.4k` `updated ≤90d` Haft is an engineering decisions engine that enforces spec-driven development with evidence decay and parity enforcement for AI-assisted coding. <details><summary>More about</summary>
 
   It bridges the gap between fast AI-generated code and governed engineering by turning intentions into falsifiable contracts before execution.
 
@@ -95,7 +95,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `autonomous-agents` `sdlc` `spec-driven` `ci-cd` `multi-agent`
   </details>
 
-- **[Shotgun](https://github.com/shotgun-sh/shotgun)** `⭐ 686` `updated ≤90d` A CLI tool that indexes codebases and generates staged, file-by-file specifications to guide AI coding agents through large feature implementations without losing context. <details><summary>More about</summary>
+- **[Shotgun](https://github.com/shotgun-sh/shotgun)** `⭐ 686` `updated ≤180d` A CLI tool that indexes codebases and generates staged, file-by-file specifications to guide AI coding agents through large feature implementations without losing context. <details><summary>More about</summary>
 
   It breaks down complex features into manageable, staged PRs with precise instructions, preventing AI agents from derailing or generating unmanageable monolithic changes.
 
@@ -104,7 +104,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `codebase-indexing` `prd` `multi-agent`
   </details>
 
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 466` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 473` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
 
   It provides a formal framework to prevent complex multi-agent or human-AI projects from devolving into incoherent, unreviewable conversational loops.
 
@@ -171,7 +171,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven` `agent-toolkits` `token-optimization` `meta-programming`
   </details>
 
-- **[spec-driver](https://github.com/davidlee/spec-driver)** `⭐ 26` `updated ≤90d` A CLI toolkit for spec-driven development that integrates with coding agents like Claude Code to manage evergreen specifications, workflows, and project documentation. <details><summary>More about</summary>
+- **[spec-driver](https://github.com/davidlee/spec-driver)** `⭐ 26` `updated ≤180d` A CLI toolkit for spec-driven development that integrates with coding agents like Claude Code to manage evergreen specifications, workflows, and project documentation. <details><summary>More about</summary>
 
   It shifts development workflows from disposable research to verifiable, maintainable specs, making agentic coding more deterministic and scalable.
 

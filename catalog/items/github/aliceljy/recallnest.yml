@@ -25,15 +25,15 @@ provenance:
 metadata:
   github:
     stars: 15
-    forks: 3
+    forks: 2
     license: MIT
     archived: false
     full_name: AliceLJY/recallnest
     html_url: https://github.com/AliceLJY/recallnest
     created_at: "2026-03-03T04:20:56Z"
-    pushed_at: "2026-08-23T19:37:13Z"
-    description: One memory, every terminal. Shared memory layer for any MCP client — Claude Code, Codex, Kimi, Antigravity (agy). Hybrid retrieval, session continuity, 43 MCP tools. Local-first, LanceDB-backed.
-    homepage: ""
+    pushed_at: "2026-08-30T07:11:02Z"
+    description: One memory, every terminal — a shared memory layer for any MCP client.
+    homepage: https://www.npmjs.com/package/recallnest
     topics:
       - ai-agent
       - ai-memory
@@ -48,15 +48,17 @@ metadata:
       - local-first
       - long-term-memory
       - mcp
+      - mcp-server
       - memory
       - rag
+      - semantic-search
       - session-continuity
       - transcript-search
       - vector-search
-    last_checked_at: "2026-08-24T04:21:11.043Z"
+    last_checked_at: "2026-09-01T14:31:34.202Z"
     readme:
-      fetched_at: "2026-08-24T04:21:11.043Z"
-      bytes: 39126
+      fetched_at: "2026-09-01T14:31:34.202Z"
+      bytes: 31721
 insights:
   summary: Local-first shared memory layer for Claude Code, Codex, and Gemini CLI that uses hybrid retrieval (vector + BM25 + knowledge graph) and session continuity to preserve context across terminals.
   why_it_matters: It ends the context amnesia of switching between terminal agents by giving Claude Code, Codex, and Gemini CLI a single, self-hosted LanceDB memory store with automatic recall, decay, and cross-session continuity.
@@ -89,7 +91,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-24T04:21:11.043Z"
+    updated_at: "2026-09-01T14:31:34.202Z"
     cause: null
     next_retry_at: null
   categorize:

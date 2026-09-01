@@ -36,6 +36,21 @@ provenance:
         extracted_url: https://github.com/kiln-ai/kiln
         surrounding_text: "40. [Kiln](https://github.com/Kiln-AI/Kiln): The easiest tool for fine-tuning LLM models, synthetic data generation, and collaborating on datasets."
         confidence: high
+    - id: discovery__github__kiln-ai__kiln__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-01T14:31:13.862Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💻 Developer Tools
+        anchor_text: Kiln-AI/Kiln
+        extracted_url: https://github.com/kiln-ai/kiln
+        surrounding_text: "-   **[Kiln-AI/Kiln](https://github.com/Kiln-AI/Kiln)** [![GitHub stars](https://img.shields.io/github/stars/Kiln-AI/Kiln?style=social)](https://github.com/Kiln-AI/Kiln): Tool for building production-ready AI systems with RAG pipelines, evaluations, synthetic data generation, and MCP tool-calling."
+        confidence: high
 metadata:
   github:
     stars: 4983
@@ -100,7 +115,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.589Z"
+    updated_at: "2026-09-01T14:31:13.863Z"
     cause: null
     next_retry_at: null
   stars:

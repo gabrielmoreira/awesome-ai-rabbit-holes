@@ -1,0 +1,109 @@
+id: github__2ools__mcp-server
+kind: github-repo
+name: 2ools/mcp-server
+canonical_url: https://github.com/2ools/mcp-server
+identity:
+  github_repo: 2ools/mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__2ools__mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-01T14:31:13.862Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: 2ools/mcp-server
+        extracted_url: https://github.com/2ools/mcp-server
+        surrounding_text: "- [2ools/mcp-server](https://github.com/2ools/mcp-server) [![2ools/mcp-server MCP server](https://glama.ai/mcp/servers/2ools/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/2ools/mcp-server) 🎖️ 📇 ☁️ 🍎 🪟 🐧 - Turn what your assistant just built into a durable, versioned project. One free authless tool (`create_public_preview`) renders a standalone HTML document as a real shareable URL; 42 more cover projects, refinement, version comparison, separately-delegated approvals, artifacts, work assignments and source export. Build authority and review authority are deliberately separate scopes. Remote Streamable HTTP, OAuth 2.1 + PKCE. `https://2ools.app/mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: 2ools/mcp-server
+    html_url: https://github.com/2ools/mcp-server
+    created_at: "2026-08-07T21:13:55Z"
+    pushed_at: "2026-08-16T19:02:47Z"
+    description: Remote MCP server for 2ools — build, version, review and export websites, web apps and games from the AI chat you already use. 43 tools, one free and authless.
+    homepage: https://2ools.app/connect-ai
+    topics:
+      - ai
+      - anthropic
+      - claude
+      - claude-desktop
+      - cursor
+      - llm
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - website-builder
+    last_checked_at: "2026-09-01T14:31:16.544Z"
+    readme:
+      fetched_at: "2026-09-01T14:31:16.544Z"
+      bytes: 13472
+insights:
+  summary: Remote MCP server that enables AI assistants to build, version, preview, and export web applications and games via the 2ools platform.
+  why_it_matters: It allows developers to move from writing isolated code snippets to managing a structured, versioned, and deployed web development workflow directly from an AI chat.
+  mental_damage: It bridges the gap between a simple HTML snippet and a versioned deployment, allowing you to manage a full-scale web project from within your chat window.
+  tags:
+    - mcp
+    - web-apps
+    - app-builders
+    - remote-server
+  confidence: high
+curation:
+  status: included
+  reason: The repository's primary identity is a specialized MCP server implementation that exposes the 2ools web-building service to AI hosts.
+  evidence:
+    - Repo description explicitly defines it as a 'Remote MCP server for 2ools'
+    - README details 43 specific tools for site building, versioning, and exporting via the Model Context Protocol
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-01T14:31:13.864Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-01T14:31:16.544Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-01T14:34:08.101Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ef7afb77f99b8c5069da73e3236717e43c02f7f1d5832984300c1bd0dc6acdd8
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The repository's primary identity is a specialized MCP server implementation that exposes the 2ools web-building service to AI hosts.
+      decision_evidence:
+        - Repo description explicitly defines it as a 'Remote MCP server for 2ools'
+        - README details 43 specific tools for site building, versioning, and exporting via the Model Context Protocol
+      category_candidates:
+        - mcp
+        - app-builders
+      contrastive_reason: Choose mcp over app-builders because this repository is the server implementation providing the protocol interface, rather than the app-building platform itself.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null
