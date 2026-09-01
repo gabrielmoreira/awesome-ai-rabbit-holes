@@ -1188,6 +1188,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `knowledge-base` `agent-infrastructure` `documentation` `context-management`
   </details>
 
+- **[Exa](https://exa.ai)** A web search API designed to provide real-time, structured data and token-efficient context to AI agents. <details><summary>More about</summary>
+
+  It enables agents to bypass training data cutoffs with high-accuracy retrieval and structured information that reduces context window bloat.
+
+  _Your agent can now hallucinate about events that happened five minutes ago with unprecedented, high-fidelity precision._
+
+  `search-api` `retrieval` `agentic-search` `context-engineering` `structured-data`
+  </details>
+
 - **[Firecrawl](https://firecrawl.dev)** Firecrawl is a web scraping and crawler engine designed to turn entire websites into clean, LLM-ready markdown or structured data. <details><summary>More about</summary>
 
   It solves the tedious problem of preprocessing messy HTML into high-quality context for RAG pipelines and agentic workflows.

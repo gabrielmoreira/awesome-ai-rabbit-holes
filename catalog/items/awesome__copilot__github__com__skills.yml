@@ -36,28 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A community-contributed collection of instructions, agents, and configurations designed to optimize GitHub Copilot usage.
-  why_it_matters: It provides ready-to-use prompts and custom skill sets to help developers extract better code generation and reasoning from GitHub Copilot.
-  mental_damage: Because you definitely didn't have enough time spent copy-pasting prompt templates into your IDE.
+  summary: A curated collection of community-contributed instructions, agents, skills, and configurations for GitHub Copilot.
+  why_it_matters: Developers can extend GitHub Copilot's capabilities with reusable, shareable skill packs tailored to specific workflows or domains.
+  mental_damage: Now you can spend more time curating Copilot's skills than actually writing code with it.
   tags:
     - github-copilot
-    - prompt-engineering
     - skills
-    - developer-productivity
+    - agent-extensions
+    - curated-list
   confidence: high
 curation:
   status: included
-  reason: This is a curated directory of Copilot skills and configurations, making it a navigation aid for developers rather than a standalone tool or skill pack itself.
+  reason: The primary artifact is a registry/directory of reusable skill packs for GitHub Copilot, matching the 'Agent Skills' category's focus on portable skill content.
   evidence:
-    - URL is https://awesome-copilot.github.com/skills, indicating a directory site.
-    - Source-list context identifies it as 'awesome-copilot', a community-contributed repository of instructions and skills.
-    - The primary artifact is the directory/listing of skills, not a specific coding agent or IDE extension.
+    - Source-list context describes it as 'Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot'
+    - The URL and naming ('skills') indicate a collection/registry rather than a standalone tool
 placement:
-  primary_category: awesome-awesomes
-  section: null
+  primary_category: skills
+  section: Skill Registries & Directories
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'skills'"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -70,26 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:24:31.138Z"
+    updated_at: "2026-08-31T13:29:43.418Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: mistral/mistral-medium-2604
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:b1f0f01f13d73923156a8d69e2a2c9dc77a2ef183fa7125c7f292fe3b1a87d02
       proposed_primary_category: skills
-      disagreement: true
-      decision_reason: The project is a collection of reusable skill packs and instructions specifically for a coding tool, fitting the definition of a skills registry.
+      disagreement: false
+      decision_reason: The primary artifact is a registry/directory of reusable skill packs for GitHub Copilot, matching the 'Agent Skills' category's focus on portable skill content.
       decision_evidence:
-        - Source-list context identifies it as community-contributed instructions, agents, and skills for GitHub Copilot
-        - The URL and context confirm the focus is on skill/instruction distribution for a specific assistant
+        - Source-list context describes it as 'Community-contributed instructions, agents, skills, and configurations to help you make the most of GitHub Copilot'
+        - The URL and naming ('skills') indicate a collection/registry rather than a standalone tool
       category_candidates:
         - skills
-        - ai-dev-extensions
-      contrastive_reason: Choose skills over ai-dev-extensions because the primary artifact is portable skill content and instructions rather than a software integration or host capability.
-      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'skills'"
+        - awesome-awesomes
+      contrastive_reason: Choose skills over awesome-awesomes because the core value is the reusable skill content itself rather than just navigation/discovery of the ecosystem.
+      review_reason: null
       review_resume_lifecycle: null

@@ -1,0 +1,21 @@
+id: currents__dev
+
+override:
+  reason: Exclude the general Currents SaaS website because its MCP adapter is already represented by the dedicated currents-mcp repository.
+  updated_by: catalog-maintainer
+  updated_at: 2026-08-31
+
+patch:
+  curation:
+    status: excluded
+    reason: Currents is primarily a Playwright test observability SaaS; MCP is an adapter, and the dedicated currents-dev/currents-mcp repository is already cataloged separately.
+    evidence:
+      - The site describes Currents as a Playwright reporter, dashboard, and test orchestrator.
+      - Catalog item github__currents-dev__currents-mcp already represents the MCP-first server.
+  placement:
+    primary_category: null
+    secondary_categories: []
+    section: null
+  lifecycle:
+    status: incubating
+    reason: null

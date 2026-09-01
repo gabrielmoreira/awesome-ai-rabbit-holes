@@ -1,0 +1,32 @@
+id: dropbin__org__mcp
+
+override:
+  reason: Restore DropBin as the documented remote MCP server described by its high-confidence discovery evidence.
+  updated_by: catalog-maintainer
+  updated_at: 2026-08-31
+
+patch:
+  name: DropBin
+  insights:
+    summary: A remote SSE MCP server for hosting HTML pages and sharing content through temporary URLs without authentication.
+    why_it_matters: Lets agents publish and share generated HTML content through short-lived public URLs without provisioning hosting.
+    mental_damage: Temporary anonymous hosting, because permanent infrastructure would make this too emotionally stable.
+    tags:
+      - mcp
+      - html-hosting
+      - temporary-urls
+      - content-sharing
+    confidence: high
+  curation:
+    status: included
+    reason: The persisted source evidence explicitly identifies DropBin as a remote SSE MCP server for HTML hosting and temporary sharing.
+    evidence:
+      - Listed in awesome-mcp-servers under Community Servers.
+      - The source description explicitly names a remote SSE MCP server and its hosting workflow.
+  placement:
+    primary_category: mcp
+    secondary_categories: []
+    section: Domain Servers
+  lifecycle:
+    status: incubating
+    reason: null

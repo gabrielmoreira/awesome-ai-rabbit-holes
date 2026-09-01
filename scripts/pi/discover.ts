@@ -119,7 +119,7 @@ export function resolvePiFreePoolStartupCandidates(
     options.recentFailures ? [...options.recentFailures] : listPiFreeRecentFailureRecords(options.now ?? Date.now()).map((record) => record.model)
   );
   const filtered = filterPiFreeRecentFailures(poolModels, recentFailureModels);
-  return orderPoolByCapabilityScores(filtered, { scoresPath: options.scoresPath });
+  return orderPoolByCapabilityScores(filtered, { scoresPath: options.scoresPath, now: options.now });
 }
 export async function runPiFreeDiscover(): Promise<void> {
   const envValues = normalizePiFreeEnv(process.env);

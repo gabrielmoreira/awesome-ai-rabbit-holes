@@ -234,6 +234,15 @@ _These are new or low-traffic entries being watched._
   `agent-skills` `marketplace` `productivity` `agentic-workflows`
   </details>
 
+- **[All skills →](https://awesome-copilot.github.com/skills)** A curated collection of community-contributed instructions, agents, skills, and configurations for GitHub Copilot. <details><summary>More about</summary>
+
+  Developers can extend GitHub Copilot's capabilities with reusable, shareable skill packs tailored to specific workflows or domains.
+
+  _Now you can spend more time curating Copilot's skills than actually writing code with it._
+
+  `github-copilot` `skills` `agent-extensions` `curated-list`
+  </details>
+
 - **[cocoloop hub](https://hub.cocoloop.cn)** hub.cocoloop.cn is a Chinese-language skills marketplace offering downloadable AI agent skills packs for automation workflows. <details><summary>More about</summary>
 
   It provides a centralized, safety-checked repository of reusable agent skills that developers can integrate into their AI workflows without building from scratch.
@@ -241,6 +250,24 @@ _These are new or low-traffic entries being watched._
   _Another skills store promising 'safe' AI agent components, while developers spend more time vetting skills than writing actual code._
 
   `ai-agent-skills` `skills-marketplace` `workflow-automation`
+  </details>
+
+- **[CursorDirectory](https://cursor.directory)** A curated directory of custom rules and configuration files for the Cursor AI editor. <details><summary>More about</summary>
+
+  It enables developers to quickly optimize Cursor's performance for specific frameworks and workflows using community-driven prompt rules.
+
+  _Because we have officially entered the era where we need a directory just to tell our editor how to behave._
+
+  `cursor` `rules` `prompt-engineering` `editor-configs`
+  </details>
+
+- **[CursorList](https://cursorlist.com)** A directory of .cursorrule files and SOPs for customizing the behavior of the Cursor AI editor. <details><summary>More about</summary>
+
+  It provides developers with pre-configured, stack-specific prompt rules to improve the accuracy and code style of their AI coding assistant.
+
+  _It confirms we have entered the era of needing a curated library of instructions on how to properly instruct our instructions._
+
+  `cursor` `cursorrules` `prompt-engineering` `directory`
   </details>
 
 - **[llmbase](https://llmbase.ai/openclaw)** OpenClaw is a skill or capability layer referenced in a curated LLM resource list under the 'Skills' section. <details><summary>More about</summary>

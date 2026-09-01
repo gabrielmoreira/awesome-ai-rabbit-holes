@@ -1170,6 +1170,15 @@ _These are new or low-traffic entries being watched._
   `agent-orchestration` `enterprise-ai` `governance` `infrastructure`
   </details>
 
+- **[AutoGPT](https://agpt.co)** A hosted and self-hostable platform for building, deploying, and running AI agents that automate digital workflows without writing code. <details><summary>More about</summary>
+
+  Developers can offload repeatable tasks like research, monitoring, or content generation to autonomous agents that operate across apps and schedules.
+
+  _Finally, a way to replace your interns with agents that won’t ask for a raise or complain about the coffee._
+
+  `agent-platform` `no-code-automation` `workflow-agents` `self-hostable` `multi-agent`
+  </details>
+
 - **[BabyCatAGI](https://replit.com/@YoheiNakajima/BabyCatAGI)** BabyCatAGI is a lightweight, 300-line Replit-hosted iteration of BabyAGI with task creation, execution loops, and integrated search/scraping tools. <details><summary>More about</summary>
 
   It offers developers a minimal, self-contained agent loop for autonomous task execution with web search and text completion capabilities.

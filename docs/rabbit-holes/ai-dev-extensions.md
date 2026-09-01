@@ -900,6 +900,15 @@ _These are new or low-traffic entries being watched._
   `claude-code` `macos-gui` `session-manager` `ui-builder` `agent-wrapper`
   </details>
 
+- **[ClevAgent](https://clevagent.io)** A supervised terminal workspace that intercepts AI agent commands to prevent security risks and wasted token spend. <details><summary>More about</summary>
+
+  It adds a necessary safety and cost-control layer between autonomous agents and your local system/terminal.
+
+  _Now you can finally watch your agent's budget and security profile in real-time while it accidentally tries to delete your home directory._
+
+  `agent-safety` `terminal-automation` `observability` `ai-security` `cost-optimization`
+  </details>
+
 - **[Codacy](https://codacy.com)** Codacy is a code quality and security platform that enforces coding standards, including AI-specific policies, across development workflows. <details><summary>More about</summary>
 
   It helps engineering teams maintain code quality, security, and compliance while integrating AI coding agents into their SDLC.

@@ -1,0 +1,32 @@
+id: aidevboard__com__mcp
+
+override:
+  reason: Correct AI Dev Jobs MCP from a generic registry description to its documented job-search server identity.
+  updated_by: catalog-maintainer
+  updated_at: 2026-08-31
+
+patch:
+  name: AI Dev Jobs MCP
+  insights:
+    summary: An MCP server for searching more than 5,400 AI developer jobs with salary data, with a REST API also available.
+    why_it_matters: Gives agents structured access to AI job listings and compensation data for search and career workflows.
+    mental_damage: Your agent can now browse job listings before you finish debugging the current one.
+    tags:
+      - mcp
+      - jobs
+      - developer-careers
+      - salary-data
+    confidence: high
+  curation:
+    status: included
+    reason: MCP is the product identity of this job-search server, not a directory of MCP servers.
+    evidence:
+      - The source description says it searches more than 5,400 AI developer jobs with salary data via MCP.
+      - The same source identifies a REST API as an additional interface.
+  placement:
+    primary_category: mcp
+    secondary_categories: []
+    section: Domain Servers
+  lifecycle:
+    status: incubating
+    reason: null

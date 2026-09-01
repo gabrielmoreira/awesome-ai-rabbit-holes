@@ -36,29 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A web search API designed specifically to provide high-quality, token-efficient search results and structured data for AI agents.
-  why_it_matters: It reduces token consumption and hallucination by providing agents with highly relevant, compressed web excerpts instead of raw HTML.
-  mental_damage: It turns the infinite chaos of the internet into a structured, predictable JSON object for your agent to confidently misinterpret.
+  summary: A web search API designed to provide real-time, structured data and token-efficient context to AI agents.
+  why_it_matters: It enables agents to bypass training data cutoffs with high-accuracy retrieval and structured information that reduces context window bloat.
+  mental_damage: Your agent can now hallucinate about events that happened five minutes ago with unprecedented, high-fidelity precision.
   tags:
     - search-api
-    - agentic-workflows
     - retrieval
+    - agentic-search
+    - context-engineering
     - structured-data
-    - developer-tools
   confidence: high
 curation:
   status: included
-  reason: Exa is a product identity that exposes a web search API with an official MCP Server implementation, making it a domain-specific tool for the Model Context Protocol.
+  reason: Exa's primary identity is a specialized retrieval engine focused on providing high-quality, real-time context to AI agents.
   evidence:
-    - Scraped site context explicitly lists 'MCP Server' under Developer resources.
-    - "Seen in awesome-mcp-servers under 'Official Servers' with the purpose: 'A curated list of Model Context Protocol (MCP) servers'."
-    - Core product is a search API for AI, specifically highlighting 'Powers their coding agents with Exa's low-latency web search'.
+    - Offers a Search API built specifically for agentic workflows
+    - Uses 'highlights' to provide token-efficient context excerpts
+    - Provides structured data extraction from web content
 placement:
-  primary_category: mcp
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -71,27 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:44:02.429Z"
+    updated_at: "2026-08-31T13:31:10.009Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
-      input_hash: sha256:cb8eb8a18a8506ab17c977ed35e1996663e026c1790bfecdbd91c426e61e3aca
-      proposed_primary_category: ai-frameworks
-      disagreement: true
-      decision_reason: Exa is a provider-style API used by developers to build agents, acting as core retrieval infrastructure.
+      input_hash: sha256:bca2985948cc72ea5c92e796fcca0d960463427c840d6f51936c2822adf2a502
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: Exa's primary identity is a specialized retrieval engine focused on providing high-quality, real-time context to AI agents.
       decision_evidence:
-        - Claims to provide 'One API for search, crawling, and research agents'
-        - Features specialized models to extract relevant excerpts for token efficiency
-        - Used by teams like Cognition (Devin) to power agentic workflows
+        - Offers a Search API built specifically for agentic workflows
+        - Uses 'highlights' to provide token-efficient context excerpts
+        - Provides structured data extraction from web content
       category_candidates:
-        - ai-frameworks
         - context-engineering
-      contrastive_reason: Choose ai-frameworks over context-engineering because it is primarily consumed as a service/API to be integrated into existing codebases rather than a standalone management system for prompts.
-      review_reason: "Categorization review required: placement disagreement: retained 'mcp', proposed 'ai-frameworks'"
+        - ai-frameworks
+      contrastive_reason: Choose context-engineering over ai-frameworks because the product's core novelty is its specialized retrieval and context-shaping infrastructure rather than being a general-purpose programming library.
+      review_reason: null
       review_resume_lifecycle: null

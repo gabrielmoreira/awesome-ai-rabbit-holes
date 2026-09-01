@@ -36,28 +36,29 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: An AI agent platform that enables users to build, deploy, and manage automated digital workflows through a chat interface and visual builder.
-  why_it_matters: It shifts the developer workflow from writing bespoke automation scripts to overseeing high-level agentic processes that execute end-to-end tasks.
-  mental_damage: Finally, a way to outsource your entire existence to a fleet of agents that might or might not be running in the background while you sleep.
+  summary: A hosted and self-hostable platform for building, deploying, and running AI agents that automate digital workflows without writing code.
+  why_it_matters: Developers can offload repeatable tasks like research, monitoring, or content generation to autonomous agents that operate across apps and schedules.
+  mental_damage: Finally, a way to replace your interns with agents that won’t ask for a raise or complain about the coffee.
   tags:
-    - ai-agents
-    - automation
-    - no-code
-    - orchestration
-    - workflow
+    - agent-platform
+    - no-code-automation
+    - workflow-agents
+    - self-hostable
+    - multi-agent
   confidence: high
 curation:
   status: included
-  reason: The site functions as a directory and hub for AI autonomous agents (specifically AutoGPT), fitting the 'Lists & Directories' category for ecosystem navigation.
+  reason: The product is a workbench/control plane for coordinating and running multiple AI agents end-to-end, not a code-first framework or a single coding assistant.
   evidence:
-    - Seen in the 'awesome-ai-agents' list under the section 'AutoGPT', indicating its role as a directory.
-    - The URL agpt.co and context suggest a hub for the AutoGPT ecosystem rather than a standalone coding tool.
+    - Primary pitch is 'build, deploy, and run AI agents that automate workflows' with a visual builder and dashboard
+    - Explicitly positions itself as an agent platform (not a coding assistant or IDE)
+    - Offers hosted cloud and self-hosting options with marketplace and multi-agent management
 placement:
-  primary_category: awesome-awesomes
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'agent-orchestration'"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -70,27 +71,27 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:18:35.079Z"
+    updated_at: "2026-08-31T13:29:41.032Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: mistral/mistral-medium-2604
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
-      input_hash: sha256:3c52be921b4c71b186b75517e3d1d9c53a316e5f74ce85399f4636a1cc7bcb1e
+      input_hash: sha256:f273fc73dabe1469da6320bea9bfced6b8e63299e105c75f455a8649d7339ce7
       proposed_primary_category: agent-orchestration
-      disagreement: true
-      decision_reason: It is an operated platform for coordinating multiple agents and complex workflows rather than a code-first library or a single coding assistant.
+      disagreement: false
+      decision_reason: The product is a workbench/control plane for coordinating and running multiple AI agents end-to-end, not a code-first framework or a single coding assistant.
       decision_evidence:
-        - Provides a visual canvas for composing complex flows with branching and looping
-        - Offers a central dashboard for managing, monitoring, and inspecting agent runs
-        - Includes a marketplace of pre-built agents for various job functions
+        - Primary pitch is 'build, deploy, and run AI agents that automate workflows' with a visual builder and dashboard
+        - Explicitly positions itself as an agent platform (not a coding assistant or IDE)
+        - Offers hosted cloud and self-hosting options with marketplace and multi-agent management
       category_candidates:
         - agent-orchestration
         - app-builders
-      contrastive_reason: Choose agent-orchestration over app-builders because the platform focuses on long-running, autonomous agent workflows and mission control rather than just scaffolding new applications.
-      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'agent-orchestration'"
+      contrastive_reason: Choose agent-orchestration over app-builders because the core value is coordinating autonomous agents across workflows, not generating standalone apps from prompts.
+      review_reason: null
       review_resume_lifecycle: null

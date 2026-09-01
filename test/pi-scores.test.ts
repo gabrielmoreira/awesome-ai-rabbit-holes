@@ -156,7 +156,7 @@ describe("startup candidate score ordering", () => {
     const rest = families.filter((family) => family.family !== top && family.family !== bottom).map((family) => family.family);
     const scoresPath = writeScoresFixture(makeScoresCache({ [bottom]: 0.95, [top]: 0.1 }));
 
-    const candidates = resolvePiFreePoolStartupCandidates(ENV, { cachePath, scoresPath });
+    const candidates = resolvePiFreePoolStartupCandidates(ENV, { cachePath, scoresPath, now: NOW });
 
     expect(candidates).toHaveLength(base.length);
     expect(groupPiFreeFamilies(candidates).map((family) => family.family)).toEqual([bottom, top, ...rest]);
@@ -166,8 +166,8 @@ describe("startup candidate score ordering", () => {
     const cachePath = path.join(tmpDir, "candidates.json");
     const base = resolvePiFreePoolModels(ENV, { cachePath });
     const families = groupPiFreeFamilies(base);
-    const scoresPath = writeScoresFixture(makeScoresCache({ [families[0].family]: 0.9 }, NOW - PI_FREE_SCORE_TTL_MS - 1));
+    const scoresPath = writeScoresFixture(makeScoresCache({ [families[families.length - 1].family]: 0.9 }, NOW - PI_FREE_SCORE_TTL_MS - 1));
 
-    expect(resolvePiFreePoolStartupCandidates(ENV, { cachePath, scoresPath })).toEqual(base);
+    expect(resolvePiFreePoolStartupCandidates(ENV, { cachePath, scoresPath, now: NOW })).toEqual(base);
   });
 });

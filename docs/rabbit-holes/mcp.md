@@ -15966,6 +15966,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `web-fetch` `token-budgeting` `agent-tool` `browser-automation`
   </details>
 
+- **[AI Dev Jobs MCP](https://aidevboard.com/mcp)** An MCP server for searching more than 5,400 AI developer jobs with salary data, with a REST API also available. <details><summary>More about</summary>
+
+  Gives agents structured access to AI job listings and compensation data for search and career workflows.
+
+  _Your agent can now browse job listings before you finish debugging the current one._
+
+  `mcp` `jobs` `developer-careers` `salary-data`
+  </details>
+
 - **[Allyson](https://allyson.ai)** An MCP server for allyson.ai. <details><summary>More about</summary>
 
   It provides a standardized way to integrate allyson.ai's capabilities into MCP-compatible AI assistants.
@@ -16135,6 +16144,15 @@ _These are new or low-traffic entries being watched._
   _Another layer of abstraction to debug when the LLM suddenly starts hallucinating your database schema._
 
   `mcp` `protocol` `connectivity` `llm-tools`
+  </details>
+
+- **[DropBin](https://dropbin.org/mcp)** A remote SSE MCP server for hosting HTML pages and sharing content through temporary URLs without authentication. <details><summary>More about</summary>
+
+  Lets agents publish and share generated HTML content through short-lived public URLs without provisioning hosting.
+
+  _Temporary anonymous hosting, because permanent infrastructure would make this too emotionally stable._
+
+  `mcp` `html-hosting` `temporary-urls` `content-sharing`
   </details>
 
 - **[ELEMENT.FM](https://gitlab.com/elementfm/mcp)** An MCP server implementation hosted on GitLab under the elementfm organization. <details><summary>More about</summary>

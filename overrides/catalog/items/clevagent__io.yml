@@ -1,0 +1,21 @@
+id: clevagent__io
+
+override:
+  reason: Classify ClevAgent by its documented runtime-monitoring add-on behavior rather than unsupported multi-agent orchestration.
+  updated_by: catalog-maintainer
+  updated_at: 2026-08-31
+
+patch:
+  curation:
+    status: included
+    reason: ClevAgent augments existing agents with monitoring, safety, cost tracking, loop detection, and recovery rather than coordinating multiple agents or shared workflows.
+    evidence:
+      - The source describes runtime monitoring with heartbeat watchdog, loop detection, cost tracking, and auto-restart.
+      - Access is provided through a Python SDK or HTTP API as an integration layer for existing agents.
+  placement:
+    primary_category: ai-dev-extensions
+    secondary_categories: []
+    section: Host Integrations & Automation
+  lifecycle:
+    status: incubating
+    reason: null

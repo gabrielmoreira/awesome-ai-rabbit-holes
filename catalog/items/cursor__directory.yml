@@ -36,27 +36,27 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: A curated directory of custom rules and configuration files designed to enhance the Cursor AI editor experience.
-  why_it_matters: It provides ready-made instruction sets to tune Cursor's behavior and coding style to specific frameworks or project requirements.
-  mental_damage: Another layer of configuration to manage in an attempt to make your AI assistant behave like a competent senior engineer.
+  summary: A curated directory of custom rules and configuration files for the Cursor AI editor.
+  why_it_matters: It enables developers to quickly optimize Cursor's performance for specific frameworks and workflows using community-driven prompt rules.
+  mental_damage: Because we have officially entered the era where we need a directory just to tell our editor how to behave.
   tags:
     - cursor
     - rules
-    - configuration
-    - ai-editor
-  confidence: high
+    - prompt-engineering
+    - editor-configs
+  confidence: medium
 curation:
   status: included
-  reason: This is a curated directory of rules and configurations for Cursor, fitting the definition of a navigation and discovery map for AI tooling.
+  reason: It functions as a registry of reusable rule packs meant to augment a coding assistant's behavior.
   evidence:
-    - Seen in source lists under 'awesome-cursorrules' with the purpose of collecting configuration files.
-    - The URL 'cursor.directory' and context indicate a directory-style product for editor rules.
+    - Name and URL indicate a directory for Cursor-specific configurations
+    - Source-list context links it to the curation of Cursor enhancement rules
 placement:
-  primary_category: awesome-awesomes
-  section: null
+  primary_category: skills
+  section: Skill Registries & Directories
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'skills'"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -69,26 +69,26 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-07-20T15:35:50.810Z"
+    updated_at: "2026-08-31T13:30:14.716Z"
     cause: null
-    attempts: 2
+    attempts: 3
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
     classification:
-      answering_model: openrouter/google/gemma-4-26b-a4b-it:free
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
       prompt_version: catalog-categorize-v5-single-template
       category_rules_version: 6cc474a86022
       input_hash: sha256:50a98d7702e1775b0d37586cc0957db8622ad9c241e9f93520e8cab34f2cd620
       proposed_primary_category: skills
-      disagreement: true
-      decision_reason: The project is a collection of reusable rules/instructions intended to augment an existing editor's intelligence.
+      disagreement: false
+      decision_reason: It functions as a registry of reusable rule packs meant to augment a coding assistant's behavior.
       decision_evidence:
-        - "Source-list context: identified as 'Configuration files that enhance Cursor AI editor experience with custom rules and behaviors'"
-        - Primary artifact is a directory of configuration packs rather than a standalone tool
+        - Name and URL indicate a directory for Cursor-specific configurations
+        - Source-list context links it to the curation of Cursor enhancement rules
       category_candidates:
         - skills
         - awesome-awesomes
-      contrastive_reason: Choose skills over awesome-awesomes because the primary value is the distribution of specific, portable rules and instruction packs rather than a general ecosystem map.
-      review_reason: "Categorization review required: placement disagreement: retained 'awesome-awesomes', proposed 'skills'"
+      contrastive_reason: Choose skills over awesome-awesomes because the primary artifact is a registry of specific reusable rules rather than a broad map of the AI ecosystem.
+      review_reason: null
       review_resume_lifecycle: null
