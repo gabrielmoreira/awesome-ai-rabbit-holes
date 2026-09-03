@@ -36,24 +36,25 @@ metadata:
     last_checked_at: null
     readme: null
 insights:
-  summary: N/A
-  why_it_matters: N/A
-  mental_damage: N/A
-  tags: []
-  confidence: low
+  summary: BondAI is an AI agent project listed in an autonomous agents directory.
+  why_it_matters: Information is insufficient to determine if this tool serves a developer workflow or falls within the catalog scope.
+  mental_damage: Vetting an agent that provides no description is a special kind of modern discovery hell.
+  tags:
+    - agent
+  confidence: high
 curation:
   status: excluded
-  reason: The project lacks any descriptive text or README content to confirm it is a developer-facing tool or to identify its specific utility.
+  reason: The project lacks any descriptive text, README, or site context to confirm its relevance to software developers.
   evidence:
-    - No repository description provided
-    - No README excerpt provided
-    - Scraped site context contains no description
+    - No repository description or README provided
+    - Scraped site context is empty
+    - Source list context confirms it is an agent but does not specify developer-tooling relevance
 placement:
   primary_category: null
   section: null
 lifecycle:
-  status: needs_review
-  reason: "Categorization review required: low confidence"
+  status: incubating
+  reason: null
 processing:
   discover:
     status: done
@@ -66,9 +67,9 @@ processing:
     cause: null
   categorize:
     status: done
-    updated_at: "2026-09-01T14:33:08.474Z"
+    updated_at: "2026-09-03T05:25:36.123Z"
     cause: null
-    attempts: 6
+    attempts: 7
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null
@@ -79,12 +80,12 @@ processing:
       input_hash: sha256:a7eb1cf841222901d69b24b3f4b116cd908614ee7fe88b064683a97120ea8f0d
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The project lacks any descriptive text or README content to confirm it is a developer-facing tool or to identify its specific utility.
+      decision_reason: The project lacks any descriptive text, README, or site context to confirm its relevance to software developers.
       decision_evidence:
-        - No repository description provided
-        - No README excerpt provided
-        - Scraped site context contains no description
+        - No repository description or README provided
+        - Scraped site context is empty
+        - Source list context confirms it is an agent but does not specify developer-tooling relevance
       category_candidates: []
       contrastive_reason: null
-      review_reason: "Categorization review required: low confidence"
+      review_reason: null
       review_resume_lifecycle: null

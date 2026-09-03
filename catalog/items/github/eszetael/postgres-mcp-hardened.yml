@@ -1,0 +1,115 @@
+id: github__eszetael__postgres-mcp-hardened
+kind: github-repo
+name: eszetael/postgres-mcp-hardened
+canonical_url: https://github.com/eszetael/postgres-mcp-hardened
+identity:
+  github_repo: eszetael/postgres-mcp-hardened
+provenance:
+  discoveries:
+    - id: discovery__github__eszetael__postgres-mcp-hardened__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-03T05:16:34.319Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗄️ <a name="databases"></a>Databases
+        anchor_text: Eszetael/postgres-mcp-hardened
+        extracted_url: https://github.com/eszetael/postgres-mcp-hardened
+        surrounding_text: "- [Eszetael/postgres-mcp-hardened](https://github.com/Eszetael/postgres-mcp-hardened) [![Eszetael/postgres-mcp-hardened MCP server](https://glama.ai/mcp/servers/Eszetael/postgres-mcp-hardened/badges/score.svg)](https://glama.ai/mcp/servers/Eszetael/postgres-mcp-hardened) 🦀 🏠 ☁️ 🍎 🪟 🐧 - Maintained Rust replacement for the archived `@modelcontextprotocol/server-postgres`. Writes are refused twice: sqlparser AST validation rejects mutating statements before execution, and the session runs `default_transaction_read_only` with a per-session `statement_timeout` — so the read-only transaction is the fallback, not the only defence. Single self-contained binary, stdio and Streamable HTTP, schema inspection, column redaction that survives renames and casts, an EXPLAIN cost guard, a hash-chained audit log with `--verify-audit`, optional OAuth 2.1 RS256, distroless image, signed releases for five platforms. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: Eszetael/postgres-mcp-hardened
+    html_url: https://github.com/Eszetael/postgres-mcp-hardened
+    created_at: "2026-07-24T13:42:41Z"
+    pushed_at: "2026-08-30T00:07:22Z"
+    description: Secure read-only PostgreSQL MCP server in Rust — a hardened alternative to the deprecated @modelcontextprotocol/server-postgres.
+    homepage: null
+    topics:
+      - ai-agents
+      - audit-log
+      - claude
+      - cursor
+      - database
+      - database-security
+      - llm-tools
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - postgres
+      - postgresql
+      - read-only
+      - rust
+      - sql
+    last_checked_at: "2026-09-03T05:16:40.993Z"
+    readme:
+      fetched_at: "2026-09-03T05:16:40.993Z"
+      bytes: 64749
+insights:
+  summary: A secure, read-only PostgreSQL MCP server implemented in Rust that features defense-in-depth SQL validation and audit logging.
+  why_it_matters: It provides a hardened way to expose database capabilities to AI agents without the risk of prompt-injected writes or unauthorized schema access.
+  mental_damage: Because 'read-only' is just a suggestion until a sufficiently clever LLM finds a way to bypass your transaction isolation.
+  tags:
+    - mcp
+    - postgresql
+    - rust
+    - security
+    - database
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is a protocol-specific server designed for the Model Context Protocol.
+  evidence:
+    - Repo description explicitly identifies it as a PostgreSQL MCP server
+    - README focuses on security hardening and bypass mitigation for the Model Context Protocol
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-03T05:16:34.320Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-03T05:16:40.993Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-03T05:26:06.387Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:84a5e2e4c8847dbc21d993ec916bbe87c78cd6ae4d1ced64b35129cae3d44764
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is a protocol-specific server designed for the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly identifies it as a PostgreSQL MCP server
+        - README focuses on security hardening and bypass mitigation for the Model Context Protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is a standalone protocol server rather than a plugin or integration for a specific IDE/assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

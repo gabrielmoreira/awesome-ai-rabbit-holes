@@ -32,7 +32,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `cursor` `cursorrules` `config` `awesome-list` `ide`
   </details>
 
-- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 37.4k` `updated ≤90d` A community-curated collection of agents, instructions, skills, and plugins for extending GitHub Copilot. <details><summary>More about</summary>
+- **[awesome-copilot](https://github.com/github/awesome-copilot)** `⭐ 38.6k` `updated ≤30d` A community-curated collection of agents, instructions, skills, and plugins for extending GitHub Copilot. <details><summary>More about</summary>
 
   It aggregates reusable Copilot customizations in one discoverable place, reducing the friction of finding and installing enhancements.
 
@@ -50,7 +50,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `directory` `ai-agents` `curated-list` `discovery` `awesome`
   </details>
 
-- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 27.2k` `updated >1y` A curated list of Large Language Model papers, frameworks, tools, and resources. <details><summary>More about</summary>
+- **[Awesome LLM](https://github.com/hannibal046/awesome-llm)** `⭐ 27.3k` `updated >1y` A curated list of Large Language Model papers, frameworks, tools, and resources. <details><summary>More about</summary>
 
   Provides developers with a centralized directory to discover LLM research, deployment tools, and training frameworks.
 
@@ -374,7 +374,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `federated-learning` `awesome-list` `research`
   </details>
 
-- **[Awesome Open MLOps](https://github.com/fuzzylabs/awesome-open-mlops)** `⭐ 483` `updated >1y` A curated guide and comprehensive directory of open-source MLOps tools. <details><summary>More about</summary>
+- **[Awesome Open MLOps](https://github.com/fuzzylabs/awesome-open-mlops)** `⭐ 482` `updated >1y` A curated guide and comprehensive directory of open-source MLOps tools. <details><summary>More about</summary>
 
   It helps developers navigate the fragmented landscape of open-source infrastructure for data annotation, validation, and model deployment.
 
@@ -468,6 +468,15 @@ _These are new or low-traffic entries being watched._
   `directory` `agent-frameworks` `curated-list` `awesome-list`
   </details>
 
+- **[grahamrowe82/pt-edge](https://github.com/grahamrowe82/pt-edge)** `⭐ 7` `updated ≤180d` Precomputed reasoning cache and directory site tracking 220K+ AI repos with quality scores and structured data for AI agents and humans. <details><summary>More about</summary>
+
+  Developers and AI agents can quickly find and evaluate high-quality open-source AI tools with machine-readable, citable recommendations.
+
+  _Now your AI agent can spend less time crawling GitHub and more time second-guessing your stack choices._
+
+  `ai-directory` `mcp-server` `developer-tools` `ecosystem-intelligence`
+  </details>
+
 - **[toadlyBroodle/satring](https://github.com/toadlybroodle/satring)** `⭐ 7` `updated ≤90d` A curated, health-monitored web directory for discovering and rating paid APIs that accept Bitcoin Lightning (L402), USDC on Base (x402), or Stripe/Tempo (MPP) payments for the agent economy. <details><summary>More about</summary>
 
   It provides the missing discovery layer for developers building autonomous agents that need to find and pay for external API services programmatically.
@@ -475,15 +484,6 @@ _These are new or low-traffic entries being watched._
   _We have successfully built a Yelp for APIs that require a Bitcoin Lightning wallet, ensuring that the agent economy will be the first economy to crash while running on testnet nostalgia._
 
   `api-directory` `agent-economy` `l402` `lightning-network` `payments`
-  </details>
-
-- **[grahamrowe82/pt-edge](https://github.com/grahamrowe82/pt-edge)** `⭐ 6` `updated ≤180d` Precomputed reasoning cache and directory site tracking 220K+ AI repos with quality scores and structured data for AI agents and humans. <details><summary>More about</summary>
-
-  Developers and AI agents can quickly find and evaluate high-quality open-source AI tools with machine-readable, citable recommendations.
-
-  _Now your AI agent can spend less time crawling GitHub and more time second-guessing your stack choices._
-
-  `ai-directory` `mcp-server` `developer-tools` `ecosystem-intelligence`
   </details>
 
 - **[awesome-ai-agents](https://github.com/heurema/awesome-ai-agents)** `⭐ 2` `updated ≤1y` Curated collection of tools, frameworks, research papers, and tutorials for building AI agents, multi-agent systems, LLM-based orchestration, memory, planning, tool use, and evaluation. <details><summary>More about</summary>

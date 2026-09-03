@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 61
-    forks: 10
+    stars: 73
+    forks: 11
     license: MIT
     archived: false
     full_name: FROWNINGdev/django-orm-lens
     html_url: https://github.com/FROWNINGdev/django-orm-lens
     created_at: "2026-07-12T19:37:45Z"
-    pushed_at: "2026-08-12T10:50:57Z"
+    pushed_at: "2026-09-03T03:45:00Z"
     description: Free, MIT alternative to paid Django schema review. Blast radius on every PR, schema drift, N+1 across functions, ER diagrams, MCP server. No DB, no Django boot, no Pro tier.
     homepage: https://frowningdev.github.io/django-orm-lens/
     topics:
@@ -55,10 +55,10 @@ metadata:
       - schema-visualization
       - static-analysis
       - vscode-extension
-    last_checked_at: "2026-08-13T04:39:48.944Z"
+    last_checked_at: "2026-09-03T05:16:44.319Z"
     readme:
-      fetched_at: "2026-08-13T04:39:48.944Z"
-      bytes: 45294
+      fetched_at: "2026-09-03T05:16:44.319Z"
+      bytes: 52073
 insights:
   summary: null
   why_it_matters: null
@@ -83,13 +83,14 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:48.944Z"
+    updated_at: "2026-09-03T05:16:44.319Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
+    status: deferred
+    updated_at: "2026-09-03T05:20:36.570Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__frowningdev__django-orm-lens: Invalid AI response format: SyntaxError: Expected ',' or '}' after property value in JSON at position 691 (line 7 column 41)"
     next_retry_at: null
+    attempts: 1

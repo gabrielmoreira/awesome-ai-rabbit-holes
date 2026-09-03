@@ -1,0 +1,111 @@
+id: github__frndchagas__coolify-mcp
+kind: github-repo
+name: frndchagas/coolify-mcp
+canonical_url: https://github.com/frndchagas/coolify-mcp
+identity:
+  github_repo: frndchagas/coolify-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__frndchagas__coolify-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-03T05:16:34.319Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: frndchagas/coolify-mcp
+        extracted_url: https://github.com/frndchagas/coolify-mcp
+        surrounding_text: "- [frndchagas/coolify-mcp](https://github.com/frndchagas/coolify-mcp) [![frndchagas/coolify-mcp MCP server](https://glama.ai/mcp/servers/frndchagas/coolify-mcp/badges/score.svg)](https://glama.ai/mcp/servers/frndchagas/coolify-mcp) 📇 🏠 - Manage Coolify (self-hosted PaaS): deploy with verified builds, diagnose apps by name or domain, databases with backup schedules (8 engines), offline docs search, and human-confirmed destructive operations. 65 tools generated from the official OpenAPI spec."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: frndchagas/coolify-mcp
+    html_url: https://github.com/frndchagas/coolify-mcp
+    created_at: "2026-01-06T21:57:04Z"
+    pushed_at: "2026-08-24T02:41:58Z"
+    description: MCP server for Coolify — 64 tools to deploy, diagnose, and manage apps, databases, and services on your self-hosted PaaS. OpenAPI-generated schemas, docs search, secrets masked by default.
+    homepage: null
+    topics:
+      - ai
+      - coolify
+      - deployment
+      - devops
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - paas
+      - self-hosted
+    last_checked_at: "2026-09-03T05:16:44.230Z"
+    readme:
+      fetched_at: "2026-09-03T05:16:44.230Z"
+      bytes: 15168
+insights:
+  summary: An MCP server that exposes the Coolify API to AI assistants, enabling deployment, management, and diagnostics for self-hosted applications.
+  why_it_matters: It allows AI coding assistants to move beyond writing code and take direct action on the infrastructure where that code is deployed.
+  mental_damage: Because now your AI assistant can not only hallucinate your logic but also accidentally wipe your production database.
+  tags:
+    - mcp
+    - coolify
+    - devops
+    - paas
+    - deployment
+  confidence: high
+curation:
+  status: included
+  reason: This project is specifically a Model Context Protocol server designed to provide a domain-specific toolset for Coolify.
+  evidence:
+    - Provides 64 tools for deployment, diagnostics, and management via Coolify's API
+    - Designed as an MCP server for Claude Desktop and Claude Code CLI
+    - Targets Coolify v4.3.10 with OpenAPI-generated schemas
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-03T05:16:34.320Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-03T05:16:44.230Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-03T05:26:53.585Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e1877de6e54a9aa66071a89e2f836bc5fd5d6efe3871ce993a12419d1e2aecd2
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: This project is specifically a Model Context Protocol server designed to provide a domain-specific toolset for Coolify.
+      decision_evidence:
+        - Provides 64 tools for deployment, diagnostics, and management via Coolify's API
+        - Designed as an MCP server for Claude Desktop and Claude Code CLI
+        - Targets Coolify v4.3.10 with OpenAPI-generated schemas
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary product identity is a protocol-specific server for a particular domain.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

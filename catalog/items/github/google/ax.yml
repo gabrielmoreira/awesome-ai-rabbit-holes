@@ -24,35 +24,44 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 1983
+    forks: 117
+    license: Apache-2.0
+    archived: false
+    full_name: google/ax
+    html_url: https://github.com/google/ax
+    created_at: "2026-03-30T17:55:01Z"
+    pushed_at: "2026-09-02T08:00:17Z"
+    description: An open source distributed agent runtime
+    homepage: https://agentexecutor.io
+    topics: []
+    last_checked_at: "2026-09-03T05:16:51.904Z"
+    readme:
+      fetched_at: "2026-09-03T05:16:51.904Z"
+      bytes: 11281
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An open source distributed runtime designed to execute, manage, and resume isolated agentic workloads and harnesses.
+  why_it_matters: It provides the reliability and state management necessary to transition from simple chat scripts to long-running, distributed, and resumable autonomous agents.
+  mental_damage: Because we have officially graduated from 'prompting a chatbot' to 'managing distributed stateful resumption protocols for autonomous actors'.
+  tags:
+    - agent-runtime
+    - distributed-systems
+    - kubernetes
+    - orchestration
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Included in Agent Orchestration because AX acts as a distributed runtime platform for managing the execution and state of isolated agentic actors.
+  evidence:
+    - README defines AX as a 'distributed harness runtime' for isolated agents.
+    - Features include native support for recovery, execution resumption, and distributed setups.
+    - Designed for deployment on Kubernetes via Agent Substrate.
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Multi-Agent Runtime Platforms
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (1983) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,13 +69,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-09-03T05:16:51.904Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-03T05:23:30.591Z"
+    cause: null
+    next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:18da1327457207d16d03bf21447268acc42139b353e2baa8989c48bc13539d18
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: Included in Agent Orchestration because AX acts as a distributed runtime platform for managing the execution and state of isolated agentic actors.
+      decision_evidence:
+        - README defines AX as a 'distributed harness runtime' for isolated agents.
+        - Features include native support for recovery, execution resumption, and distributed setups.
+        - Designed for deployment on Kubernetes via Agent Substrate.
+      category_candidates:
+        - agent-orchestration
+        - ai-frameworks
+      contrastive_reason: Choose agent-orchestration over ai-frameworks because AX is presented as an operated distributed runtime and infrastructure layer rather than just a code-first library or SDK.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

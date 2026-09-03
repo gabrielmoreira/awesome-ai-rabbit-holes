@@ -1,0 +1,102 @@
+id: github__guillaumehussong__standard-vocal-mcp
+kind: github-repo
+name: guillaumehussong/standard-vocal-mcp
+canonical_url: https://github.com/guillaumehussong/standard-vocal-mcp
+identity:
+  github_repo: guillaumehussong/standard-vocal-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__guillaumehussong__standard-vocal-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-03T05:16:34.319Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🗣️ <a name="conversational-ai"></a>Conversational AI
+        anchor_text: guillaumehussong/standard-vocal-mcp
+        extracted_url: https://github.com/guillaumehussong/standard-vocal-mcp
+        surrounding_text: "- [guillaumehussong/standard-vocal-mcp](https://github.com/guillaumehussong/standard-vocal-mcp) [![guillaumehussong/standard-vocal-mcp MCP server](https://glama.ai/mcp/servers/guillaumehussong/standard-vocal-mcp/badges/score.svg)](https://glama.ai/mcp/servers/guillaumehussong/standard-vocal-mcp) 📇 🏠 - Voice Agent Factory for Vapi phone agents: vertical templates, self-testing agents, audio forensics, prompt versioning, and CI regression gates. `npx -y standard-vocal-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: guillaumehussong/standard-vocal-mcp
+    html_url: https://github.com/guillaumehussong/standard-vocal-mcp
+    created_at: "2026-08-11T07:38:31Z"
+    pushed_at: "2026-08-12T04:58:49Z"
+    description: Voice Agent Factory MCP — deploy, eval, and audit phone agents built on Vapi. Vertical templates, self-testing agents, audio forensics, prompt versioning, CI regression gates.
+    homepage: null
+    topics: []
+    last_checked_at: "2026-09-03T05:16:55.862Z"
+    readme:
+      fetched_at: "2026-09-03T05:16:55.862Z"
+      bytes: 5498
+insights:
+  summary: An MCP server that provides a toolset for deploying, evaluating, and auditing Vapi-based voice agents.
+  why_it_matters: It moves voice agent development from manual API calls to a structured workflow including CI-style prompt regression testing and audio forensics.
+  mental_damage: Because now you can automate the process of investigating exactly why your AI receptionist sounds like it's underwater.
+  tags:
+    - mcp
+    - vapi
+    - voice-agents
+    - evals
+    - telephony
+  confidence: high
+curation:
+  status: included
+  reason: The project is a domain-specific MCP server that provides specialized tools for the voice agent lifecycle via an assistant host.
+  evidence:
+    - Explicitly described as a 'Voice Agent Factory exposed over the Model Context Protocol'
+    - Provides specialized tools for deployment, audio forensics, and prompt versioning
+    - Functions as a bridge between MCP clients (like Claude Code) and the Vapi API
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-03T05:16:34.320Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-03T05:16:55.862Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-03T05:27:16.478Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:49473c0ef622a41435c3ee994562658ed9e7a5ca56288a1dee462662a8cc2d9b
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is a domain-specific MCP server that provides specialized tools for the voice agent lifecycle via an assistant host.
+      decision_evidence:
+        - Explicitly described as a 'Voice Agent Factory exposed over the Model Context Protocol'
+        - Provides specialized tools for deployment, audio forensics, and prompt versioning
+        - Functions as a bridge between MCP clients (like Claude Code) and the Vapi API
+      category_candidates:
+        - mcp
+        - evals
+      contrastive_reason: Choose mcp over evals because the product's primary identity is a specialized MCP server that manages the full agent lifecycle, rather than being a standalone evaluation framework.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

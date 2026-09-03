@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 8
+    stars: 10
     forks: 0
     license: Apache-2.0
     archived: false
     full_name: gavelcode/gavel
     html_url: https://github.com/gavelcode/gavel
     created_at: "2026-06-25T19:45:58Z"
-    pushed_at: "2026-08-10T20:12:26Z"
+    pushed_at: "2026-08-31T20:13:44Z"
     description: Code quality platform for Bazel monorepos — static analyzers as aspects, SARIF, quality gates
     homepage: null
     topics:
@@ -49,23 +49,31 @@ metadata:
       - sarif
       - software-architecture
       - static-analysis
-    last_checked_at: "2026-08-13T04:39:50.398Z"
+    last_checked_at: "2026-09-03T05:16:46.385Z"
     readme:
-      fetched_at: "2026-08-13T04:39:50.398Z"
+      fetched_at: "2026-09-03T05:16:46.385Z"
       bytes: 7227
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A code quality gate for Bazel monorepos that uses Bazel aspects to perform build-graph-aware linting, coverage, and architecture analysis.
+  why_it_matters: It allows developers to enforce strict quality standards on only the affected parts of a monorepo and exposes those checks directly to coding agents via MCP.
+  mental_damage: Because the ultimate developer experience is having your AI agent act as a highly pedantic, build-graph-aware code reviewer.
+  tags:
+    - bazel
+    - monorepo
+    - mcp
+    - code-quality
+    - linting
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It functions as an augmentation tool that provides specialized quality-gate capabilities (linting, coverage, and architecture) to coding agents through an MCP server.
+  evidence:
+    - Exposes tools like `judge`, `lint_file`, and `coverage` via an MCP server to augment agents like Claude Code or Cursor
+    - Uses Bazel aspects to ensure analysis is build-graph-aware and only targets changed files
+    - Enforces quality gates via a versioned `gavel.yaml` configuration
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Testing & QA Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -77,13 +85,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:50.398Z"
+    updated_at: "2026-09-03T05:16:46.385Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:21:24.583Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:d8c78401d3d3a521e875e37a652a7f61d0e6e85dbb75c24cbcd61f05f5ac3610
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: It functions as an augmentation tool that provides specialized quality-gate capabilities (linting, coverage, and architecture) to coding agents through an MCP server.
+      decision_evidence:
+        - Exposes tools like `judge`, `lint_file`, and `coverage` via an MCP server to augment agents like Claude Code or Cursor
+        - Uses Bazel aspects to ensure analysis is build-graph-aware and only targets changed files
+        - Enforces quality gates via a versioned `gavel.yaml` configuration
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the primary product is a Bazel-native quality tool that uses MCP as a delivery mechanism to augment agents, rather than being a general-purpose MCP infrastructure tool.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

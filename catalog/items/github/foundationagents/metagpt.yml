@@ -84,8 +84,8 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 69799
-    forks: 8881
+    stars: 70182
+    forks: 8920
     license: MIT
     archived: false
     full_name: FoundationAgents/MetaGPT
@@ -100,28 +100,28 @@ metadata:
       - llm
       - metagpt
       - multi-agent
-    last_checked_at: "2026-08-13T04:39:48.214Z"
+    last_checked_at: "2026-09-03T05:16:43.183Z"
     readme:
-      fetched_at: "2026-08-13T04:39:48.214Z"
+      fetched_at: "2026-09-03T05:16:43.183Z"
       bytes: 8215
 insights:
-  summary: MetaGPT is an open-source multi-agent framework that assigns SOP-driven roles—such as product manager, architect, and engineer—to LLMs to turn a one-line requirement into structured software deliverables and repositories.
-  why_it_matters: It lets developers define and run multi-role agent teams that mimic a full software company workflow, making it a foundational building block for complex, automated development pipelines.
-  mental_damage: We’ve successfully automated the entire software company, meaning we can now generate user stories, compete with ourselves, and ship 2048 clones at a scale that would make a real PM cry.
+  summary: A multi-agent framework that simulates a software company by assigning specialized LLM roles—such as product managers, architects, and engineers—to automate the development lifecycle.
+  why_it_matters: It allows developers to transform a single requirement into a structured codebase, including documentation, APIs, and project architecture, using orchestrated Standard Operating Procedures (SOPs).
+  mental_damage: You might start by automating your boilerplate and end up being managed by an AI project manager that never sleeps.
   tags:
     - multi-agent
     - framework
-    - sdk
-    - llm
     - automation
+    - software-engineering
+    - llm-agents
   confidence: high
 curation:
   status: included
-  reason: MetaGPT is primarily a code-first SDK and framework used to build and script multi-agent systems, which aligns with the Frameworks & SDKs category rather than a developer-operated control plane.
+  reason: MetaGPT is primarily a code-first framework and library used to build agentic workflows, rather than a visual control plane or workbench.
   evidence:
-    - Repo description identifies it as 'The Multi-Agent Framework' for natural language programming.
-    - README usage shows both CLI and library imports (from metagpt.software_company import generate_repo).
-    - Listed as a core framework in awesome-agent-orchestration and awesome-llm-agents source lists.
+    - README provides explicit examples of usage as a Python library
+    - Repo description defines it as a 'Multi-Agent Framework'
+    - Explicitly listed as a canonical positive for the ai-frameworks category in the instructions
 placement:
   primary_category: ai-frameworks
   section: Agent Frameworks
@@ -136,16 +136,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:48.214Z"
+    updated_at: "2026-09-03T05:16:43.183Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:18:31.897Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:5b0c2eaffe4eafe407b16a2139794d34169e0d171d0d24eaca19008817adb405
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: MetaGPT is primarily a code-first framework and library used to build agentic workflows, rather than a visual control plane or workbench.
+      decision_evidence:
+        - README provides explicit examples of usage as a Python library
+        - Repo description defines it as a 'Multi-Agent Framework'
+        - Explicitly listed as a canonical positive for the ai-frameworks category in the instructions
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because it is primarily used as a code-first library and CLI for building agentic workflows rather than an operated visual workbench or control plane.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -24,19 +24,24 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 26825
+    forks: 1809
+    license: MIT
+    archived: false
+    full_name: gastownhall/beads
+    html_url: https://github.com/gastownhall/beads
+    created_at: "2025-10-12T03:09:46Z"
+    pushed_at: "2026-09-03T04:55:53Z"
+    description: Beads - A memory upgrade for your coding agent
+    homepage: https://beads.gascity.com
+    topics:
+      - agents
+      - claude-code
+      - coding
+    last_checked_at: "2026-09-03T05:16:46.254Z"
+    readme:
+      fetched_at: "2026-09-03T05:16:46.254Z"
+      bytes: 11057
 insights:
   summary: null
   why_it_matters: null
@@ -51,8 +56,8 @@ placement:
   primary_category: null
   section: null
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (26825) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,13 +65,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-09-03T05:16:46.254Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: deferred
+    updated_at: "2026-09-03T05:20:59.286Z"
+    cause:
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__gastownhall__beads: Invalid AI response format: SyntaxError: Unexpected token 'B', ...\"_reason\": Beads prim\"... is not valid JSON"
+    next_retry_at: null
+    attempts: 1

@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
-    forks: 0
+    stars: 4
+    forks: 1
     license: MIT
     archived: false
     full_name: HalidSaglam/saglitzdesign-mcp
     html_url: https://github.com/HalidSaglam/saglitzdesign-mcp
     created_at: "2026-07-23T17:44:33Z"
-    pushed_at: "2026-07-27T09:39:03Z"
+    pushed_at: "2026-09-01T17:56:16Z"
     description: "Expert design & marketing knowledge for AI agents — an MCP server for web, iOS, Android & macOS design: UI, UX, SEO, GEO, copywriting, roadmaps & real-world patterns."
     homepage: https://saglitz.com/apps/saglitzdesign
     topics:
@@ -44,23 +44,31 @@ metadata:
       - seo
       - ui
       - ux
-    last_checked_at: "2026-07-30T05:05:34.397Z"
+    last_checked_at: "2026-09-03T05:16:57.176Z"
     readme:
-      fetched_at: "2026-07-30T05:05:34.397Z"
-      bytes: 19408
+      fetched_at: "2026-09-03T05:16:57.176Z"
+      bytes: 36932
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides expert design, UX, SEO, and marketing knowledge to AI coding assistants.
+  why_it_matters: It helps prevent AI agents from providing generic or outdated design advice by giving them access to prescriptive, real-world rules and patterns.
+  mental_damage: Finally, an AI that can actually explain why your 'clean and modern' UI is a complete accessibility nightmare.
+  tags:
+    - mcp
+    - design
+    - ux
+    - seo
+    - ai-agents
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project is explicitly an MCP server designed to serve as a domain-specific knowledge layer for AI agents.
+  evidence:
+    - README explicitly defines it as a Model Context Protocol server
+    - Provides 96 knowledge documents and 36 tools via the MCP protocol
+    - Designed to be used by MCP clients like Claude and Cursor
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -72,13 +80,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:34.397Z"
+    updated_at: "2026-09-03T05:16:57.176Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:25:11.351Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:6ff446ece9a25ad15226ab5aacc9a62125c9d8748d0494d2ef5828cb330eb3a3
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server designed to serve as a domain-specific knowledge layer for AI agents.
+      decision_evidence:
+        - README explicitly defines it as a Model Context Protocol server
+        - Provides 96 knowledge documents and 36 tools via the MCP protocol
+        - Designed to be used by MCP clients like Claude and Cursor
+      category_candidates:
+        - mcp
+        - skills
+      contrastive_reason: Choose mcp over skills because the tool is architected as a formal MCP server implementation rather than just a collection of portable rules or prompt files.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

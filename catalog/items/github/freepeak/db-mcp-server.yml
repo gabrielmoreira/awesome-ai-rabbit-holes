@@ -39,41 +39,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 411
-    forks: 67
+    stars: 418
+    forks: 65
     license: MIT
     archived: false
     full_name: FreePeak/db-mcp-server
     html_url: https://github.com/FreePeak/db-mcp-server
     created_at: "2025-03-17T20:40:28Z"
-    pushed_at: "2026-07-28T16:50:11Z"
+    pushed_at: "2026-08-24T20:59:06Z"
     description: A powerful multi-database server implementing the Model Context Protocol (MCP) to provide AI assistants with structured access to databases.
     homepage: ""
     topics:
       - database-mcp-server
       - mcp-server
-    last_checked_at: "2026-08-13T04:39:48.782Z"
+    last_checked_at: "2026-09-03T05:16:43.897Z"
     readme:
-      fetched_at: "2026-08-13T04:39:48.782Z"
-      bytes: 22702
+      fetched_at: "2026-09-03T05:16:43.897Z"
+      bytes: 30522
 insights:
-  summary: A multi-database server implementing the Model Context Protocol (MCP) to provide AI assistants with structured access to MySQL, PostgreSQL, SQLite, Oracle, and TimescaleDB.
-  why_it_matters: It allows coding agents and AI assistants to execute queries, manage transactions, and explore schemas across multiple databases simultaneously through a unified, standardized interface.
-  mental_damage: Finally, your AI assistant can hallucinate SQL syntax errors across five different database engines at the same time, with enterprise-grade architectural purity.
+  summary: A multi-database server implementing the Model Context Protocol to provide AI assistants with structured access to various database systems.
+  why_it_matters: It enables AI agents to interact with multiple database types like MySQL, Postgres, and Oracle through a unified, standardized interface.
+  mental_damage: Because why manage a schema manually when you can let an LLM attempt a cross-dialect transaction in a single prompt?
   tags:
     - mcp
     - database
-    - multi-database
-    - ai-assistant
-    - go
+    - sql
+    - multi-db
   confidence: high
 curation:
   status: included
-  reason: The product's primary identity is an MCP server specifically built to expose database capabilities to AI assistants, placing it firmly in MCP Servers & Tooling.
+  reason: The project's primary identity is an MCP server implementation providing specialized domain capabilities (databases).
   evidence:
-    - Repo description explicitly states it is 'implementing the Model Context Protocol (MCP) to provide AI assistants with structured access to databases'.
-    - README confirms it is 'A powerful multi-database server implementing the Model Context Protocol (MCP)' with dynamic tool generation for each connection.
-    - Listed in awesome-mcp-list and awesome-mcp-servers under Databases sections, confirming its identity as an MCP server.
+    - Repo description explicitly identifies it as a multi-database server implementing the Model Context Protocol.
+    - README details dynamic tool generation for MySQL, Postgres, and Oracle via MCP.
+    - Active development confirmed by recent push date.
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -88,16 +87,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:48.782Z"
+    updated_at: "2026-09-03T05:16:43.897Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:19:00.653Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c7d3fd4a0d1b60cf7b7d57fb54ecad1026e06e56f96c8c5ccba05449db9f1d64
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server implementation providing specialized domain capabilities (databases).
+      decision_evidence:
+        - Repo description explicitly identifies it as a multi-database server implementing the Model Context Protocol.
+        - README details dynamic tool generation for MySQL, Postgres, and Oracle via MCP.
+        - Active development confirmed by recent push date.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product identity is the implementation of the Model Context Protocol server itself rather than a general-purpose assistant extension.
+      review_reason: null
+      review_resume_lifecycle: null

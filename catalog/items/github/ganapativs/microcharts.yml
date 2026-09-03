@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 137
-    forks: 4
+    stars: 156
+    forks: 5
     license: MIT
     archived: false
     full_name: ganapativs/microcharts
     html_url: https://github.com/ganapativs/microcharts
     created_at: "2026-07-06T12:44:33Z"
-    pushed_at: "2026-08-11T14:35:24Z"
+    pushed_at: "2026-09-02T21:03:51Z"
     description: Word-sized charts for React, made for LLMs and humans — 106 chart types, zero runtime dependencies, accessible by default, RSC-safe.
     homepage: https://microcharts.dev
     topics:
@@ -55,26 +55,34 @@ metadata:
       - svg
       - tiny-charts
       - visualization
-    last_checked_at: "2026-08-13T04:39:50.008Z"
+    last_checked_at: "2026-09-03T05:16:45.870Z"
     readme:
-      fetched_at: "2026-08-13T04:39:50.008Z"
+      fetched_at: "2026-09-03T05:16:45.870Z"
       bytes: 10615
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Microcharts is a React library providing 106 tiny, zero-dependency SVG chart components optimized for LLM-generated text and inline use.
+  why_it_matters: It enables developers to embed accessible, self-describing charts directly in AI-generated replies, UIs, or documents without runtime bloat.
+  mental_damage: Another SVG chart lib that makes you question whether your KPI cards need a 200-line Sparkline just to feel AI-native.
+  tags:
+    - react
+    - charts
+    - svg
+    - llm
+    - accessible
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Microcharts is a code-first React SDK for embedding domain-specific chart components, making it a framework/SDK rather than an assistant, extension, or app builder.
+  evidence:
+    - "Repo description: 'Word-sized charts for React, made for LLMs and humans — 106 chart types, zero runtime dependencies'"
+    - "README: 'Every chart imports from its own subpath... you only ship what you use' and 'Import the stylesheet once at the root of your app'"
+    - Primary use is importing and scripting against the library as reusable UI components in React code
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Workflow / Graph Engines
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (156) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -83,13 +91,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:50.008Z"
+    updated_at: "2026-09-03T05:16:45.870Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:20:49.472Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:b065b46ff5400a0a5d3a5107a015d45bb61c5cb7bfc6d7fc1d186c00c19c5140
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: Microcharts is a code-first React SDK for embedding domain-specific chart components, making it a framework/SDK rather than an assistant, extension, or app builder.
+      decision_evidence:
+        - "Repo description: 'Word-sized charts for React, made for LLMs and humans — 106 chart types, zero runtime dependencies'"
+        - "README: 'Every chart imports from its own subpath... you only ship what you use' and 'Import the stylesheet once at the root of your app'"
+        - Primary use is importing and scripting against the library as reusable UI components in React code
+      category_candidates:
+        - ai-frameworks
+        - ai-dev-extensions
+      contrastive_reason: Choose ai-frameworks over ai-dev-extensions because developers import and script against Microcharts as a reusable UI library rather than using it to augment another coding assistant or editor with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

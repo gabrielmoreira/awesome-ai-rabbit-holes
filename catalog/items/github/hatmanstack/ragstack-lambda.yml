@@ -70,9 +70,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-30T05:05:35.869Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-03T05:16:59.388Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for hatmanstack/ragstack-lambda
     next_retry_at: null
   categorize:
     status: done

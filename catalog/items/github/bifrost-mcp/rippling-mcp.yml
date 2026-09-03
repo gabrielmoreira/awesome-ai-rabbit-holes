@@ -23,32 +23,41 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
+    stars: 4
+    forks: 2
+    license: MIT
+    archived: false
+    full_name: bifrost-mcp/rippling-mcp
+    html_url: https://github.com/bifrost-mcp/rippling-mcp
+    created_at: "2026-02-07T00:10:05Z"
+    pushed_at: "2026-02-07T23:37:19Z"
+    description: MCP server for Rippling HR/IT/Finance platform — 18 tools for employees, departments, leave, groups, and company data
     homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    topics: []
+    last_checked_at: "2026-09-03T05:16:39.000Z"
+    readme:
+      fetched_at: "2026-09-03T05:16:39.000Z"
+      bytes: 4671
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that exposes Rippling's HR/IT/Finance platform APIs to AI agents via 18 tools for employee, department, leave, and company data.
+  why_it_matters: Lets developers integrate Rippling's workforce data into AI workflows without building custom API wrappers.
+  mental_damage: Now your AI can approve PTO requests before you’ve even finished your coffee.
+  tags:
+    - mcp-server
+    - rippling
+    - hr-integration
+    - enterprise-data
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: "MCP is the product identity: a dedicated server exposing Rippling's APIs through the Model Context Protocol."
+  evidence:
+    - Repo description explicitly states it is an MCP server for Rippling
+    - README details 18 tools for Rippling data domains with MCP SDK usage
+    - Source-list context places it in an MCP server directory
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -59,13 +68,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-09-03T05:16:39.000Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-03T05:17:04.929Z"
+    cause: null
+    next_retry_at: null
+    classification:
+      answering_model: mistral/mistral-medium-2604
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4241f353ad12599ba51e26e2552aacc3ad456dc0c325a33ab6d16aab089c33b9
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: "MCP is the product identity: a dedicated server exposing Rippling's APIs through the Model Context Protocol."
+      decision_evidence:
+        - Repo description explicitly states it is an MCP server for Rippling
+        - README details 18 tools for Rippling data domains with MCP SDK usage
+        - Source-list context places it in an MCP server directory
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server, not an extension augmenting another assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

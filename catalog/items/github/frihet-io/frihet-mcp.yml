@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://github.com/frihet-io/frihet-mcp
         surrounding_text: "- [@frihet/mcp-server](https://github.com/Frihet-io/frihet-mcp) [![frihet-mcp MCP server](https://glama.ai/mcp/servers/Frihet-io/frihet-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Frihet-io/frihet-mcp) 📇 ☁️ - AI-native business management — invoices, expenses, clients, products, and quotes. 31 tools for Claude, Cursor, Windsurf, and Cline."
         confidence: high
+    - id: discovery__github__frihet-io__frihet-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-03T05:16:34.319Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - 💰 Finance & Fintech
+        anchor_text: Frihet-io/frihet-mcp
+        extracted_url: https://github.com/frihet-io/frihet-mcp
+        surrounding_text: "-   **[Frihet-io/frihet-mcp](https://github.com/Frihet-io/frihet-mcp)** [![GitHub stars](https://img.shields.io/github/stars/Frihet-io/frihet-mcp?style=social)](https://github.com/Frihet-io/frihet-mcp): AI-powered ERP and business management for invoicing, tax compliance, expenses, banking, and CRM."
+        confidence: high
 metadata:
   github:
     stars: 9
@@ -31,7 +46,7 @@ metadata:
     full_name: Frihet-io/frihet-mcp
     html_url: https://github.com/Frihet-io/frihet-mcp
     created_at: "2026-02-12T02:45:11Z"
-    pushed_at: "2026-08-10T00:38:29Z"
+    pushed_at: "2026-09-03T03:01:31Z"
     description: Official MCP server for Frihet ERP — 157 tools for AI-powered invoicing, tax & e-invoicing compliance (VeriFactu, TicketBAI, Facturae), banking, CRM, HR/payroll & POS. Works with Claude, ChatGPT, Cursor, Windsurf, Cline, Antigravity, Codex, Copilot, Gemini CLI — and any MCP-compatible client.
     homepage: https://frihet.io
     topics:
@@ -55,28 +70,28 @@ metadata:
       - saas
       - tax-compliance
       - typescript
-    last_checked_at: "2026-08-13T04:39:48.884Z"
+    last_checked_at: "2026-09-03T05:16:43.973Z"
     readme:
-      fetched_at: "2026-08-13T04:39:48.884Z"
-      bytes: 35162
+      fetched_at: "2026-09-03T05:16:43.973Z"
+      bytes: 40934
 insights:
-  summary: An MCP server that connects AI assistants to the Frihet ERP, exposing 66 tools for invoicing, expenses, clients, and tax compliance directly inside the IDE.
-  why_it_matters: It lets developers manage their entire business backend via natural language without leaving their coding environment, treating ERP operations as just another code-adjacent task.
-  mental_damage: We have finally achieved the singularity where your AI assistant can invoice a client for the 40 hours it spent hallucinating a fix for a bug you introduced while procrastinating on your expense reports.
+  summary: An MCP server that enables AI assistants to interact with Frihet ERP for managing invoicing, tax compliance, banking, and business operations.
+  why_it_matters: It allows developers to manage complex business workflows and financial data directly through their AI-powered IDEs or terminal agents.
+  mental_damage: Because nothing says 'deep work' like being able to file a VAT return in the middle of a debugging session.
   tags:
     - mcp
     - erp
     - fintech
-    - ide-integration
-    - typescript
+    - automation
+    - business-management
   confidence: high
 curation:
   status: included
-  reason: The product is specifically an MCP server built to expose a domain-specific ERP API to AI assistants, fitting perfectly into the MCP Servers & Tooling category.
+  reason: The project is explicitly an MCP server whose primary identity is providing domain-specific tools for an ERP system.
   evidence:
-    - Repo description explicitly states 'Official MCP server for Frihet ERP'.
-    - README highlights '66 tools' specifically for MCP clients like Claude, Cursor, and Windsurf.
-    - Listed in 'awesome-mcp-servers' under the Finance & Fintech section.
+    - Repo description identifies it as the 'Official MCP server for Frihet ERP'
+    - Provides 157 tools for invoicing, tax, and banking through the Model Context Protocol
+    - Designed to work with any MCP-compatible client like Claude, Cursor, or Windsurf
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -86,21 +101,37 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.615Z"
+    updated_at: "2026-09-03T05:16:34.320Z"
     cause: null
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:48.884Z"
+    updated_at: "2026-09-03T05:16:43.973Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:19:15.247Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:184c22e4263127ee7004d853124a4911df38db2afa2671fcb63feeb77b60f422
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server whose primary identity is providing domain-specific tools for an ERP system.
+      decision_evidence:
+        - Repo description identifies it as the 'Official MCP server for Frihet ERP'
+        - Provides 157 tools for invoicing, tax, and banking through the Model Context Protocol
+        - Designed to work with any MCP-compatible client like Claude, Cursor, or Windsurf
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is defined by the MCP server implementation itself rather than just being a general integration plugin.
+      review_reason: null
+      review_resume_lifecycle: null

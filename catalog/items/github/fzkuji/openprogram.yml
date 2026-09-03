@@ -23,35 +23,56 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 364
+    forks: 45
+    license: AGPL-3.0
+    archived: false
+    full_name: Fzkuji/OpenProgram
+    html_url: https://github.com/Fzkuji/OpenProgram
+    created_at: "2026-03-31T15:23:11Z"
+    pushed_at: "2026-09-03T00:34:17Z"
+    description: Self-Programming AI Assistant. Capture, automate, and refine all your workflows.
+    homepage: https://openprogram.io/
+    topics:
+      - agent
+      - agent-orchestration
+      - agent-runtime
+      - agentic
+      - ai-agent
+      - ai-agent-framework
+      - autonomous-agents
+      - llm
+      - llm-agent
+      - multi-agent
+      - python
+      - self-programming
+      - workflow-automation
+    last_checked_at: "2026-09-03T05:16:45.437Z"
+    readme:
+      fetched_at: "2026-09-03T05:16:45.437Z"
+      bytes: 12117
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Self-Programming AI Assistant that captures, automates, and refines workflows using agentic programming with Python-LLM interleaving.
+  why_it_matters: Offers a deterministic harness for LLM-agent workflows, enabling reproducible, trustworthy automation of developer tasks beyond simple code generation.
+  mental_damage: Another framework promising to tame LLM chaos with yet another YAML-adjacent DAG and agent spawning ritual.
+  tags:
+    - agentic-programming
+    - workflow-automation
+    - multi-agent
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: OpenProgram is a multi-agent runtime platform centered on DAG context, agent spawning, and event infrastructure for coordinating self-evolving agents, making it a control plane rather than a coding assistant or extension.
+  evidence:
+    - README describes 'Agentic Workflow — for trustworthy & self-evolving agents' and 'Event Infrastructure — for proactive agents'
+    - Features include multi-agent spawning, message passing across sessions, and file-touching branches in git worktrees
+    - Source-list placement in awesome-llm-agents under 'Core Frameworks' aligns with orchestration/runtime platforms
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (364) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -59,13 +80,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-09-03T05:16:45.437Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-03T05:20:44.121Z"
+    cause: null
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:a29bd2d6772a6e19719e5e2dfdd7004f308b5100244d9cad39edef901a232f9a
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: OpenProgram is a multi-agent runtime platform centered on DAG context, agent spawning, and event infrastructure for coordinating self-evolving agents, making it a control plane rather than a coding assistant or extension.
+      decision_evidence:
+        - README describes 'Agentic Workflow — for trustworthy & self-evolving agents' and 'Event Infrastructure — for proactive agents'
+        - Features include multi-agent spawning, message passing across sessions, and file-touching branches in git worktrees
+        - Source-list placement in awesome-llm-agents under 'Core Frameworks' aligns with orchestration/runtime platforms
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because OpenProgram's core value is coordinating multiple agents via DAG context and event infrastructure, not directly planning, writing, or debugging code in a repo.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

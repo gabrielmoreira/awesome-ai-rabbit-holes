@@ -69,15 +69,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-08-27T09:23:32.741Z"
+    status: failed
+    updated_at: "2026-09-03T05:16:42.749Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for forevertools/kiprio-mcp
+      type: github_repo_missing
+      message: "GitHub repository not found: forevertools/kiprio-mcp"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
+    updated_at: "2026-09-03T05:17:01.021Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

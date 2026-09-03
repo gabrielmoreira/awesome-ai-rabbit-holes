@@ -85,14 +85,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 55363
-    forks: 24887
+    stars: 55404
+    forks: 24970
     license: NOASSERTION
-    archived: false
+    archived: true
     full_name: FlowiseAI/Flowise
     html_url: https://github.com/FlowiseAI/Flowise
     created_at: "2023-03-31T12:23:09Z"
-    pushed_at: "2026-08-10T14:56:00Z"
+    pushed_at: "2026-08-13T12:38:19Z"
     description: Build AI Agents, Visually
     homepage: https://flowiseai.com
     topics:
@@ -113,10 +113,10 @@ metadata:
       - react
       - typescript
       - workflow-automation
-    last_checked_at: "2026-08-13T04:39:46.859Z"
+    last_checked_at: "2026-09-03T05:16:41.576Z"
     readme:
-      fetched_at: "2026-08-13T04:39:46.859Z"
-      bytes: 7729
+      fetched_at: "2026-09-03T05:16:41.576Z"
+      bytes: 7850
 insights:
   summary: An open-source low-code platform for visually building AI agents and LLM orchestration workflows.
   why_it_matters: It allows developers to rapidly prototype complex multi-agent systems and RAG pipelines using a drag-and-drop interface instead of writing manual boilerplate code.
@@ -139,8 +139,8 @@ placement:
   primary_category: agent-orchestration
   section: Multi-Agent Runtime Platforms
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (52606) exceeded threshold (150)
+  status: needs_review
+  reason: Repository is archived
 processing:
   discover:
     status: done
@@ -148,11 +148,9 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-08-27T09:23:31.544Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for flowiseai/flowise
+    status: done
+    updated_at: "2026-09-03T05:16:41.576Z"
+    cause: null
     next_retry_at: null
   categorize:
     status: done

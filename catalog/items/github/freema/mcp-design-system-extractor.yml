@@ -38,27 +38,28 @@ metadata:
       - design-system
       - mcp
       - mcp-server
-    last_checked_at: "2026-08-13T04:39:48.702Z"
+    last_checked_at: "2026-09-03T05:16:43.660Z"
     readme:
-      fetched_at: "2026-08-13T04:39:48.702Z"
+      fetched_at: "2026-09-03T05:16:43.660Z"
       bytes: 9295
 insights:
-  summary: An MCP server that lets AI assistants extract rendered HTML, styles, and metadata from Storybook instances to support design system adoption and refactoring.
-  why_it_matters: It gives coding agents direct access to live design system components, bridging the gap between Figma tokens and actual UI implementation work.
-  mental_damage: We have finally reached the point where AI assistants need their own tool just to figure out what the button looks like in Storybook before they can break it.
+  summary: An MCP server that enables AI assistants to inspect Storybook design systems and extract component metadata, HTML, and CSS styles.
+  why_it_matters: It gives AI coding agents direct visibility into a project's design system, allowing them to implement components accurately and perform UI refactors with context.
+  mental_damage: Because nothing says 'modern developer workflow' like letting an LLM drive a headless browser just to check your design tokens.
   tags:
     - mcp
-    - design-system
     - storybook
-    - component-extraction
+    - design-systems
+    - frontend
+    - puppeteer
   confidence: high
 curation:
   status: included
-  reason: This is an MCP server purpose-built to expose Storybook design system data to MCP-compatible assistants, making it a clear fit for MCP Servers & Tooling.
+  reason: The tool's primary identity is an MCP server providing specific domain-driven tools for Storybook, making it a perfect fit for the MCP category.
   evidence:
-    - "Repo description explicitly states: 'MCP (Model Context Protocol) server that enables AI assistants to interact with Storybook design systems.'"
-    - Topics include 'mcp' and 'mcp-server'; README shows MCP tool definitions (list_components, get_component_html, etc.).
-    - Listed in awesome-mcp-servers under 'Server Implementations > Developer Tools', reinforcing its identity as an MCP server.
+    - Repo description explicitly defines it as an 'MCP (Model Context Protocol) server'.
+    - README details a suite of 9 specialized MCP tools for component and theme extraction.
+    - Included in the 'awesome-mcp-servers' directory.
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -73,16 +74,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:48.702Z"
+    updated_at: "2026-09-03T05:16:43.660Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:18:38.412Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c9bd815d7d7cc6715686fd6ff8cbd2f2903a5b55a6d9ce42f5bc23796aed71a7
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is an MCP server providing specific domain-driven tools for Storybook, making it a perfect fit for the MCP category.
+      decision_evidence:
+        - Repo description explicitly defines it as an 'MCP (Model Context Protocol) server'.
+        - README details a suite of 9 specialized MCP tools for component and theme extraction.
+        - Included in the 'awesome-mcp-servers' directory.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity is an MCP server implementation rather than a general host integration or plugin.
+      review_reason: null
+      review_resume_lifecycle: null

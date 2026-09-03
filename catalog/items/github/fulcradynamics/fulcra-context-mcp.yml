@@ -39,38 +39,38 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 5
-    forks: 4
+    stars: 6
+    forks: 5
     license: Apache-2.0
     archived: false
     full_name: fulcradynamics/fulcra-context-mcp
     html_url: https://github.com/fulcradynamics/fulcra-context-mcp
     created_at: "2025-06-04T08:16:47Z"
-    pushed_at: "2026-08-12T22:15:53Z"
+    pushed_at: "2026-09-01T16:36:26Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-13T04:39:49.070Z"
+    last_checked_at: "2026-09-03T05:16:44.470Z"
     readme:
-      fetched_at: "2026-08-13T04:39:49.070Z"
-      bytes: 2571
+      fetched_at: "2026-09-03T05:16:44.470Z"
+      bytes: 2517
 insights:
-  summary: An MCP server that exposes your Fulcra Context data to MCP-compatible AI clients via the Fulcra API.
-  why_it_matters: Developers using Fulcra Context can wire their stored context directly into Claude for Desktop and other MCP hosts without building custom integrations.
-  mental_damage: You now have three layers of indirection—context store, MCP server, and client adapter—to remind yourself that your AI still can't remember what you did yesterday.
+  summary: An MCP server that provides tools and resources to access Fulcra Context data via the Fulcra API.
+  why_it_matters: It allows AI assistants to bridge the gap between their current context and specialized data hosted within the Fulcra ecosystem.
+  mental_damage: Just one more specialized protocol to paste into your claude_desktop_config.json so your agent can finally see the data it's been hallucinating about.
   tags:
     - mcp
-    - context
     - fulcra
-    - api
-  confidence: medium
+    - api-bridge
+    - context-retrieval
+  confidence: high
 curation:
   status: included
-  reason: This is an MCP server for a specific domain (Fulcra Context data), making it a clear fit for MCP Servers & Tooling rather than a generic extension or framework.
+  reason: The project's primary identity is a Model Context Protocol server designed to expose a specific API to AI assistants.
   evidence:
-    - "README states: 'This is an MCP server that provides tools and resources to call the Fulcra API'"
-    - Listed in awesome-mcp-servers under 'Server Implementations' and 'Official Servers'
-    - Supports stdio and Streamable HTTP transports with OAuth2 handling between MCP clients
+    - README explicitly defines the project as an MCP server to access Fulcra Context data.
+    - Provides standard MCP transport methods including stdio and remote HTTP.
+    - Listed in 'awesome-mcp-servers' as a functional implementation.
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -85,16 +85,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:49.070Z"
+    updated_at: "2026-09-03T05:16:44.470Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:19:52.588Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:70cef6d4acf15d4da69c2ab363fe1b4f01389a9afd4b2c80d93344057d46b711
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is a Model Context Protocol server designed to expose a specific API to AI assistants.
+      decision_evidence:
+        - README explicitly defines the project as an MCP server to access Fulcra Context data.
+        - Provides standard MCP transport methods including stdio and remote HTTP.
+        - Listed in 'awesome-mcp-servers' as a functional implementation.
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the tool's primary identity and distribution mechanism is as a Model Context Protocol server rather than a standalone context management system.
+      review_reason: null
+      review_resume_lifecycle: null

@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 1
+    stars: 2
     forks: 0
     license: MIT
     archived: false
     full_name: haiiibin/data-profiler-mcp
     html_url: https://github.com/haiiibin/data-profiler-mcp
     created_at: "2026-07-11T04:55:54Z"
-    pushed_at: "2026-07-30T04:52:53Z"
+    pushed_at: "2026-08-22T05:29:52Z"
     description: MCP server that profiles tabular data files (CSV, Parquet, Excel, JSON) for LLM agents like Claude.
     homepage: https://pypi.org/project/data-profiler-mcp/
     topics:
@@ -45,23 +45,30 @@ metadata:
       - model-context-protocol
       - pandas
       - parquet
-    last_checked_at: "2026-07-30T05:05:34.241Z"
+    last_checked_at: "2026-09-03T05:16:57.030Z"
     readme:
-      fetched_at: "2026-07-30T05:05:34.241Z"
-      bytes: 6242
+      fetched_at: "2026-09-03T05:16:57.030Z"
+      bytes: 7081
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides schema, statistics, and data quality profiling for tabular files such as CSV, Parquet, Excel, and JSON.
+  why_it_matters: It allows LLM agents to automatically inspect and understand datasets without requiring developers to manually paste dataframe summaries into the chat.
+  mental_damage: Because we've reached a point where we need an agent to tell us if a CSV has null values.
+  tags:
+    - mcp
+    - data-profiling
+    - tabular-data
+    - llm-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool is explicitly designed and distributed as a Model Context Protocol server to provide domain-specific capabilities to LLM clients.
+  evidence:
+    - Explicitly identifies as an MCP server in the repo description and README
+    - Provides specialized tools for data profiling via the MCP protocol
+    - Designed for integration with Claude Desktop, Claude Code, and Cursor via MCP
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -73,13 +80,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:34.241Z"
+    updated_at: "2026-09-03T05:16:57.030Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:24:43.621Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:20be68dbdf9aa2bfa124e8f6ef033e39b7a2b2157cd49049de28111c0a90b0c4
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is explicitly designed and distributed as a Model Context Protocol server to provide domain-specific capabilities to LLM clients.
+      decision_evidence:
+        - Explicitly identifies as an MCP server in the repo description and README
+        - Provides specialized tools for data profiling via the MCP protocol
+        - Designed for integration with Claude Desktop, Claude Code, and Cursor via MCP
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity and distribution mechanism is as an MCP server rather than a generic host integration.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

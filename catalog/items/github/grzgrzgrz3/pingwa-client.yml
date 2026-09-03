@@ -24,7 +24,7 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 0
+    stars: 1
     forks: 0
     license: MIT
     archived: false
@@ -44,23 +44,31 @@ metadata:
       - notifications
       - python
       - whatsapp
-    last_checked_at: "2026-07-30T05:05:33.327Z"
+    last_checked_at: "2026-09-03T05:16:55.465Z"
     readme:
-      fetched_at: "2026-07-30T05:05:33.327Z"
+      fetched_at: "2026-09-03T05:16:55.465Z"
       bytes: 4208
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python CLI and MCP server that enables two-way WhatsApp notifications for AI agents and scripts to facilitate human-in-the-loop workflows.
+  why_it_matters: It provides a zero-setup way for autonomous agents to request human intervention or report status via a familiar messaging interface.
+  mental_damage: Because nothing says 'cutting-edge developer workflow' like getting a WhatsApp notification from a script to ask if it should deploy to production.
+  tags:
+    - whatsapp
+    - mcp
+    - human-in-the-loop
+    - cli
+    - python
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool's primary purpose is to augment AI agents with human-in-the-loop workflow capabilities via a messaging interface.
+  evidence:
+    - Enables two-way communication where agents can 'ask' and humans can 'tap to reply' via WhatsApp
+    - Provides an MCP server implementation specifically for integration with tools like Claude Desktop and Claude Code
+    - Functions as a CLI and Python client to extend the capabilities of existing scripts and agents
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: incubating
   reason: null
@@ -72,13 +80,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-07-30T05:05:33.328Z"
+    updated_at: "2026-09-03T05:16:55.465Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:24:24.097Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:aef8dc70fbfc2d2287d7d1c66c02ac64e821f4771df7f5d05cdc7582c5ebb24c
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool's primary purpose is to augment AI agents with human-in-the-loop workflow capabilities via a messaging interface.
+      decision_evidence:
+        - Enables two-way communication where agents can 'ask' and humans can 'tap to reply' via WhatsApp
+        - Provides an MCP server implementation specifically for integration with tools like Claude Desktop and Claude Code
+        - Functions as a CLI and Python client to extend the capabilities of existing scripts and agents
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the tool's core identity is a workflow augmentation for agents, with MCP serving as the integration layer.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

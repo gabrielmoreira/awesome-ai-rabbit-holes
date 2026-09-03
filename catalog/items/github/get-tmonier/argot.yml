@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 163
-    forks: 1
+    stars: 48
+    forks: 3
     license: MIT
     archived: false
     full_name: get-tmonier/argot
     html_url: https://github.com/get-tmonier/argot
     created_at: "2026-04-17T20:50:28Z"
-    pushed_at: "2026-08-03T14:42:17Z"
+    pushed_at: "2026-09-02T07:55:29Z"
     description: A statistical code analyzer built from your repository's history.
     homepage: https://argot.tmonier.com
     topics:
@@ -53,23 +53,31 @@ metadata:
       - pre-commit
       - rust
       - static-analysis
-    last_checked_at: "2026-08-13T04:39:51.834Z"
+    last_checked_at: "2026-09-03T05:16:48.452Z"
     readme:
-      fetched_at: "2026-08-13T04:39:51.834Z"
+      fetched_at: "2026-09-03T05:16:48.452Z"
       bytes: 15335
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A statistical code analyzer that uses repository history to detect and lint deviations from established coding patterns.
+  why_it_matters: It provides a local, non-LLM-based guardrail to ensure AI-generated code remains consistent with your project's historical style and structure.
+  mental_damage: Because nothing says 'I don't trust my LLM' like running a Rust-based statistical audit every time you want to commit code.
+  tags:
+    - linter
+    - code-review
+    - cli
+    - git
+    - statistical-analysis
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It functions as a workflow augmentation that provides statistical guardrails to ensure AI-generated code aligns with repository history.
+  evidence:
+    - README claims to 'harness' AI code using repo history as a non-hallucinatory linter
+    - Provides a CLI tool (`argot audit`) to evaluate diffs against a learned baseline
+    - Included in awesome-mcp-servers as a developer tool
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: IDE / UI / Workflow Add-ons
 lifecycle:
   status: promotion_candidate
   reason: Stars (163) exceeded threshold (150)
@@ -81,13 +89,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:51.834Z"
+    updated_at: "2026-09-03T05:16:48.452Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:22:59.393Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:26789b8d33ae9d32734f328fa9aa196a2ec1d45544a53a0efc48bc519da0bc02
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: It functions as a workflow augmentation that provides statistical guardrails to ensure AI-generated code aligns with repository history.
+      decision_evidence:
+        - README claims to 'harness' AI code using repo history as a non-hallucinatory linter
+        - Provides a CLI tool (`argot audit`) to evaluate diffs against a learned baseline
+        - Included in awesome-mcp-servers as a developer tool
+      category_candidates:
+        - ai-dev-extensions
+        - coding-agents
+      contrastive_reason: Choose ai-dev-extensions over coding-agents because it functions as a specialized workflow augmentation that audits AI output rather than acting as the primary assistant that writes the code.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

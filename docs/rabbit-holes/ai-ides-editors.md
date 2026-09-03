@@ -27,7 +27,7 @@ Development environments built around coding assistance.
 
 _These are new or low-traffic entries being watched._
 
-- **[GitWit](https://github.com/gitwitorg/gitwit)** `⭐ 62` `updated ≤180d` An open-source, AI-native cloud-based coding platform for building apps with integrated code generation, live preview, and AI chat. <details><summary>More about</summary>
+- **[GitWit](https://github.com/gitwitorg/gitwit)** `⭐ 64` `updated ≤180d` An open-source, AI-native cloud-based coding platform for building apps with integrated code generation, live preview, and AI chat. <details><summary>More about</summary>
 
   It provides a hosted development environment where developers can rapidly prototype and build applications using AI-assisted code generation and real-time collaboration features.
 

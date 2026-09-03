@@ -24,35 +24,60 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 15858
+    forks: 1741
+    license: NOASSERTION
+    archived: false
+    full_name: getpaseo/paseo
+    html_url: https://github.com/getpaseo/paseo
+    created_at: "2025-10-13T12:27:02Z"
+    pushed_at: "2026-09-02T22:08:34Z"
+    description: Orchestrate multiple coding agents from desktop and mobile
+    homepage: https://paseo.sh
+    topics:
+      - ade
+      - agents
+      - android
+      - claude-code
+      - codex
+      - copilot
+      - developer-tools
+      - hermes
+      - ios
+      - linux
+      - mobile
+      - opencode
+      - orchestration
+      - pi
+      - windows
+    last_checked_at: "2026-09-03T05:16:49.043Z"
+    readme:
+      fetched_at: "2026-09-03T05:16:49.043Z"
+      bytes: 6800
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: Paseo is a self-hosted desktop and mobile application that orchestrates multiple coding agents (Claude Code, Codex, Copilot, OpenCode, Pi) via a unified interface and local daemon.
+  why_it_matters: It lets developers run and switch between different AI coding agents on their own machines without vendor lock-in or forced telemetry, using voice or cross-device control.
+  mental_damage: Now you can anxiously monitor five different AI agents arguing over your code from your couch, phone, and terminal all at once.
+  tags:
+    - agent-orchestration
+    - multi-agent
+    - self-hosted
+    - cli
+    - mobile
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: Paseo’s core function is coordinating multiple coding agents as a unified workbench, making it an agent orchestration platform rather than a coding agent itself or a mere extension.
+  evidence:
+    - "Repo description: 'Orchestrate multiple coding agents from desktop and mobile'"
+    - "README: 'Run agents in parallel on your own machines. Ship from your phone or your desk.' and 'One interface for Claude Code, Codex, Copilot, OpenCode, and Pi agents.'"
+    - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Session managers & parallel runners'"
 placement:
-  primary_category: null
-  section: null
+  primary_category: agent-orchestration
+  section: Control Planes & Workforce Platforms
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (15858) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -60,13 +85,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-09-03T05:16:49.043Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-03T05:22:44.280Z"
+    cause: null
+    next_retry_at: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:4634a7498e5f25540a8fc9bcb7d27e6c165824d035c2282c702082279ab13cd4
+      proposed_primary_category: agent-orchestration
+      disagreement: false
+      decision_reason: Paseo’s core function is coordinating multiple coding agents as a unified workbench, making it an agent orchestration platform rather than a coding agent itself or a mere extension.
+      decision_evidence:
+        - "Repo description: 'Orchestrate multiple coding agents from desktop and mobile'"
+        - "README: 'Run agents in parallel on your own machines. Ship from your phone or your desk.' and 'One interface for Claude Code, Codex, Copilot, OpenCode, and Pi agents.'"
+        - "Source-list context: Listed in 'awesome-cli-coding-agents' under 'Harnesses & orchestration > Session managers & parallel runners'"
+      category_candidates:
+        - agent-orchestration
+        - ai-dev-extensions
+      contrastive_reason: Choose agent-orchestration over ai-dev-extensions because Paseo is a standalone control plane for managing multiple agents, not an add-on that augments a single assistant with host integrations like debugger or browser access.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

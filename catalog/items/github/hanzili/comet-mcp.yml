@@ -74,9 +74,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-07-30T05:05:35.036Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-03T05:16:57.993Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for hanzili/comet-mcp
     next_retry_at: null
   categorize:
     status: done

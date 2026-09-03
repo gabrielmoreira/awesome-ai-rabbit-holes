@@ -25,7 +25,7 @@ provenance:
 metadata:
   github:
     stars: 2
-    forks: 0
+    forks: 1
     license: GPL-2.0
     archived: false
     full_name: gerard-kanters/mcp-linux-tools
@@ -39,23 +39,31 @@ metadata:
       - ai
       - linux-app
       - mcp
-    last_checked_at: "2026-08-13T04:39:51.687Z"
+    last_checked_at: "2026-09-03T05:16:48.129Z"
     readme:
-      fetched_at: "2026-08-13T04:39:51.686Z"
+      fetched_at: "2026-09-03T05:16:48.129Z"
       bytes: 15274
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: An MCP server that provides AI assistants with a secure, whitelisted set of Linux system administration and management tools.
+  why_it_matters: It allows LLMs to move beyond code editing and perform actual system operations like managing services, cron jobs, and WordPress sites through a controlled interface.
+  mental_damage: There is no greater adrenaline rush than giving an LLM root-adjacent capabilities and a prayer.
+  tags:
+    - mcp
+    - linux
+    - system-admin
+    - automation
+    - wordpress
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The project's core identity is a Model Context Protocol (MCP) server designed to provide specific domain tools to an assistant host.
+  evidence:
+    - Explicitly describes itself as an MCP server in the README and repo description
+    - Provides domain-specific toolsets for Linux, WordPress, and MySQL
+    - Includes security features like whitelisting and sandboxed Python execution
 placement:
-  primary_category: null
-  section: null
+  primary_category: mcp
+  section: Domain Servers
 lifecycle:
   status: incubating
   reason: null
@@ -67,13 +75,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:51.687Z"
+    updated_at: "2026-09-03T05:16:48.129Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:21:53.203Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:73cdd48d3286d3c1823b57d3b974d6aed1f4cefbf34059dce593c64b52a61277
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's core identity is a Model Context Protocol (MCP) server designed to provide specific domain tools to an assistant host.
+      decision_evidence:
+        - Explicitly describes itself as an MCP server in the README and repo description
+        - Provides domain-specific toolsets for Linux, WordPress, and MySQL
+        - Includes security features like whitelisting and sandboxed Python execution
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the primary product identity is a functional MCP server implementation rather than a generic host integration.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

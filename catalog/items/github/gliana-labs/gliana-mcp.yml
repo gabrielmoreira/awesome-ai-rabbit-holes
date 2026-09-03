@@ -1,0 +1,108 @@
+id: github__gliana-labs__gliana-mcp
+kind: github-repo
+name: gliana-labs/gliana-mcp
+canonical_url: https://github.com/gliana-labs/gliana-mcp
+identity:
+  github_repo: gliana-labs/gliana-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__gliana-labs__gliana-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-03T05:16:34.319Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: Gliana-Labs/gliana-mcp
+        extracted_url: https://github.com/gliana-labs/gliana-mcp
+        surrounding_text: "- [Gliana-Labs/gliana-mcp](https://github.com/Gliana-Labs/gliana-mcp) [![Gliana-Labs/gliana-mcp MCP server](https://glama.ai/mcp/servers/Gliana-Labs/gliana-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Gliana-Labs/gliana-mcp) 📇 ☁️ 🏠 🍎 🪟 🐧 - Pay-per-call access to 90+ AI models (LLM chat, image, video, music, speech) plus utility and data tools — web scraping, screenshots, OCR, face matching, crypto and FX rates. No signup and no API key: HTTP 402 settles each call from your own wallet in USDC on Base, Solana, BNB Chain or Algorand. The tool list is read live from the gateway, so it is never stale. `npx -y gliana-ai-mcp` or remote `https://mcp.glianalabs.com`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: null
+    archived: false
+    full_name: Gliana-Labs/gliana-mcp
+    html_url: https://github.com/Gliana-Labs/gliana-mcp
+    created_at: "2026-06-14T23:19:16Z"
+    pushed_at: "2026-08-23T07:36:26Z"
+    description: null
+    homepage: https://ai.glianalabs.com
+    topics:
+      - ai
+      - image-generation
+      - mcp
+      - model-context-protocol
+      - pay-per-call
+      - video-generation
+      - x402
+    last_checked_at: "2026-09-03T05:16:51.046Z"
+    readme:
+      fetched_at: "2026-09-03T05:16:51.046Z"
+      bytes: 5226
+insights:
+  summary: A pay-per-call MCP server providing access to over 90 generative AI models, including image, video, music, and speech models.
+  why_it_matters: It enables developers to use specialized multimodal models directly within MCP-compatible assistants like Claude Desktop or Cursor without managing multiple API keys or subscriptions.
+  mental_damage: You can now accidentally burn through a USDC wallet while asking your coding assistant to 'generate a video of a red fox' during a debugging session.
+  tags:
+    - mcp
+    - multimodal
+    - pay-per-call
+    - generative-ai
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is an MCP server that exposes a diverse set of generative tools to existing MCP clients.
+  evidence:
+    - README defines it explicitly as the 'GlianaAI MCP server'
+    - Provides specific MCP tools like 'generate', 'list_models', and 'recipe'
+    - Designed for installation via MCP client configurations for Claude and Cursor
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-03T05:16:34.320Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-03T05:16:51.046Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-03T05:26:57.876Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c7f7335fcaa8c0fd1be974eb63b0584e553e031c1326396ecabaa478be6c4167
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server that exposes a diverse set of generative tools to existing MCP clients.
+      decision_evidence:
+        - README defines it explicitly as the 'GlianaAI MCP server'
+        - Provides specific MCP tools like 'generate', 'list_models', and 'recipe'
+        - Designed for installation via MCP client configurations for Claude and Cursor
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product is primarily a specialized server implementing the Model Context Protocol rather than a general workflow augmentation.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

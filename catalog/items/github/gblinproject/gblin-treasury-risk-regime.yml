@@ -1,9 +1,9 @@
-id: github__gblinproject__gblin-mcp
+id: github__gblinproject__gblin-treasury-risk-regime
 kind: github-repo
-name: gblin-mcp
-canonical_url: https://github.com/gblinproject/gblin-mcp
+name: gblinproject/GBLIN-MCP
+canonical_url: https://github.com/gblinproject/gblin-treasury-risk-regime
 identity:
-  github_repo: gblinproject/gblin-mcp
+  github_repo: gblinproject/gblin-treasury-risk-regime
 provenance:
   discoveries:
     - id: discovery__github__gblinproject__gblin-mcp__awesome-list__punkpeye__awesome-mcp-servers
@@ -28,36 +28,41 @@ metadata:
     forks: 0
     license: MIT
     archived: false
-    full_name: gblinproject/GBLIN-MCP
-    html_url: https://github.com/gblinproject/GBLIN-MCP
+    full_name: gblinproject/gblin-treasury-risk-regime
+    html_url: https://github.com/gblinproject/gblin-treasury-risk-regime
     created_at: "2026-05-17T20:57:18Z"
-    pushed_at: "2026-08-12T19:30:54Z"
-    description: Treasury standard for AI agents on Base. MCP server for GBLIN — park idle USDC in cbBTC/WETH index, JIT-swap for x402 payments.
+    pushed_at: "2026-09-02T17:27:53Z"
+    description: Market risk regime (calm/elevated/crash) for AI agents on Base — free to read via MCP. Signed EIP-712 risk attestations as portable proof-of-diligence, plus a collateral-backed treasury index for idle USDC with JIT swap to USDC for x402 invoices.
     homepage: https://gblin.digital
     topics:
+      - agent-payments
       - ai-agent
+      - attestation
       - base-mainnet
       - defi
+      - eas
       - elizaos
       - gblin
       - mcp
       - mcp-server
       - model-context-protocol
+      - risk-management
+      - risk-regime
       - treasury
       - x402
-    last_checked_at: "2026-08-13T04:39:50.682Z"
+    last_checked_at: "2026-09-03T05:16:46.859Z"
     readme:
-      fetched_at: "2026-08-13T04:39:50.682Z"
-      bytes: 22022
+      fetched_at: "2026-09-03T05:16:46.859Z"
+      bytes: 27700
 insights:
   summary: An MCP server that allows AI agents on the Base mainnet to manage capital in a diversified index and perform JIT swaps for x402 payments.
   why_it_matters: It gives autonomous agents a treasury standard to earn yield on idle funds while maintaining the liquidity needed to pay for API services or compute via x402 invoices.
   mental_damage: We have finally reached the era where your coding assistant needs its own diversified portfolio and a crash-shielded treasury to avoid going bankrupt while paying for its own tokens.
   tags:
-    - mcp
+    - ai-agents
     - base
     - defi
-    - ai-agents
+    - mcp
     - treasury
   confidence: high
 curation:
@@ -74,16 +79,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-28T05:28:09.819Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-08-13T04:39:50.682Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-06-08T05:41:10.023Z"
@@ -92,3 +87,13 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
+  discover:
+    status: done
+    updated_at: "2026-05-28T05:28:09.819Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-03T05:16:46.859Z"
+    cause: null
+    next_retry_at: null

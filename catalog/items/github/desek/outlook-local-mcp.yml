@@ -1,0 +1,100 @@
+id: github__desek__outlook-local-mcp
+kind: github-repo
+name: desek/outlook-local-mcp
+canonical_url: https://github.com/desek/outlook-local-mcp
+identity:
+  github_repo: desek/outlook-local-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__desek__outlook-local-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-03T05:16:34.319Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: desek/outlook-local-mcp
+        extracted_url: https://github.com/desek/outlook-local-mcp
+        surrounding_text: "- [desek/outlook-local-mcp](https://github.com/desek/outlook-local-mcp) [![desek/outlook-local-mcp MCP server](https://glama.ai/mcp/servers/desek/outlook-local-mcp/badges/score.svg)](https://glama.ai/mcp/servers/desek/outlook-local-mcp) 🏎️ 🏠 🍎 🪟 🐧 - Local-first Microsoft Outlook MCP server (calendar + mail via Microsoft Graph). Single Go binary, stdio transport, OS-keychain token storage, multi-account. 4 aggregate domain tools (`calendar`, `mail`, `account`, `system`) with progressive disclosure via a `help` verb to keep cold-start schema small."
+        confidence: high
+metadata:
+  github:
+    stars: 41
+    forks: 8
+    license: MIT
+    archived: false
+    full_name: desek/outlook-local-mcp
+    html_url: https://github.com/desek/outlook-local-mcp
+    created_at: "2026-03-22T19:41:18Z"
+    pushed_at: "2026-09-02T08:41:31Z"
+    description: Local MCP server for Microsoft Outlook — calendars, events, and email via Microsoft Graph API
+    homepage: https://outlook-local-mcp.com
+    topics: []
+    last_checked_at: "2026-09-03T05:16:40.514Z"
+    readme:
+      fetched_at: "2026-09-03T05:16:40.514Z"
+      bytes: 2227
+insights:
+  summary: Local MCP server that connects Claude Desktop and Claude Code to Microsoft Outlook via the Microsoft Graph API for calendar, email, and account management.
+  why_it_matters: Lets developers interact with Outlook directly from their AI assistant without switching contexts or writing custom API glue.
+  mental_damage: Another MCP server promising seamless AI-integrated workflow, while secretly adding yet another auth dance and Graph API rate limit to your morning routine.
+  tags:
+    - mcp
+    - outlook
+    - graph-api
+  confidence: high
+curation:
+  status: included
+  reason: The product is an MCP server implementing domain-specific tools for Outlook, making MCP its core identity rather than a compatibility layer.
+  evidence:
+    - "Repo description: 'Local MCP server for Microsoft Outlook — calendars, events, and email via Microsoft Graph API'"
+    - README states it is 'A single-binary MCP server that connects Claude Desktop and Claude Code to Microsoft Outlook via the Microsoft Graph API'
+    - Listed in awesome-mcp-servers under Server Implementations > Communication
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-03T05:16:34.320Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-03T05:16:40.514Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-03T05:25:41.079Z"
+    cause: null
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:92faf710e1ba519ffad87501aaa8f39f050a734c31975be1f151734744809376
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product is an MCP server implementing domain-specific tools for Outlook, making MCP its core identity rather than a compatibility layer.
+      decision_evidence:
+        - "Repo description: 'Local MCP server for Microsoft Outlook — calendars, events, and email via Microsoft Graph API'"
+        - README states it is 'A single-binary MCP server that connects Claude Desktop and Claude Code to Microsoft Outlook via the Microsoft Graph API'
+        - Listed in awesome-mcp-servers under Server Implementations > Communication
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is an MCP server providing Outlook access, not an extension augmenting another assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -5,7 +5,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
 
 ## Tools & Resources
 
-- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 125.1k` `updated ≤90d` Open source toolkit for Spec-Driven Development that turns product specifications into executable implementations. <details><summary>More about</summary>
+- **[spec-kit](https://github.com/github/spec-kit)** `⭐ 133.1k` `updated ≤30d` Open source toolkit for Spec-Driven Development that turns product specifications into executable implementations. <details><summary>More about</summary>
 
   It shifts development workflows from vibe-coding to structured, spec-first execution, enabling predictable outcomes and reducing ad-hoc implementation decisions.
 
@@ -77,7 +77,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `mcp` `governance`
   </details>
 
-- **[MoAI-ADK](https://github.com/modu-ai/moai-adk)** `⭐ 1.2k` `updated ≤30d` A Go-based CLI development kit for Claude Code that provides 24 specialized AI agents and 52 skills to enforce TDD/DDD quality gates and spec-driven workflows. <details><summary>More about</summary>
+- **[MoAI-ADK](https://github.com/modu-ai/moai-adk)** `⭐ 1.2k` `updated ≤90d` A Go-based CLI development kit for Claude Code that provides 24 specialized AI agents and 52 skills to enforce TDD/DDD quality gates and spec-driven workflows. <details><summary>More about</summary>
 
   It shifts the developer role from writing code to designing the 'harness'—specs, quality gates, and feedback loops—while a team of agents handles implementation and self-verification.
 
@@ -86,7 +86,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `claude-code` `spec-driven` `multi-agent` `tdd` `cli`
   </details>
 
-- **[Loki Mode](https://github.com/asklokesh/loki-mode)** `⭐ 1k` `updated ≤30d` A multi-agent autonomous SDLC framework that transforms PRDs, GitHub issues, or OpenAPI specs into deployed applications using a verified completion loop. <details><summary>More about</summary>
+- **[Loki Mode](https://github.com/asklokesh/loki-mode)** `⭐ 1.1k` `updated ≤30d` A multi-agent autonomous SDLC framework that transforms PRDs, GitHub issues, or OpenAPI specs into deployed applications using a verified completion loop. <details><summary>More about</summary>
 
   It replaces the 'hope-and-pray' prompt loop with deterministic quality gates and a 'Reason-Act-Reflect-Verify' cycle that refuses to claim a task is finished until tests pass and diffs exist.
 
@@ -252,7 +252,7 @@ _These are new or low-traffic entries being watched._
   `claude-code` `spec-driven` `planning` `agent-skills`
   </details>
 
-- **[jiezeng2004-design/PatchWarden](https://github.com/jiezeng2004-design/patchwarden)** `⭐ 3` `updated ≤30d` A local-first MCP bridge that provides a safety and verification layer for AI coding agents through workspace confinement and command allowlisting. <details><summary>More about</summary>
+- **[jiezeng2004-design/PatchWarden](https://github.com/jiezeng2004-design/patchwarden)** `⭐ 3` `updated ≤90d` A local-first MCP bridge that provides a safety and verification layer for AI coding agents through workspace confinement and command allowlisting. <details><summary>More about</summary>
 
   It prevents AI agents from executing arbitrary shell commands or accessing sensitive files by enforcing a strict plan-verify-execute loop within a sandboxed workspace.
 

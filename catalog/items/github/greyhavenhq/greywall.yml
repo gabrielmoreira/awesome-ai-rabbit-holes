@@ -23,35 +23,59 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: null
-    forks: null
-    license: null
-    archived: null
-    full_name: null
-    html_url: null
-    created_at: null
-    pushed_at: null
-    description: null
-    homepage: null
-    topics: null
-    last_checked_at: null
-    readme: null
+    stars: 290
+    forks: 34
+    license: Apache-2.0
+    archived: false
+    full_name: GreyhavenHQ/greywall
+    html_url: https://github.com/GreyhavenHQ/greywall
+    created_at: "2026-03-04T20:58:26Z"
+    pushed_at: "2026-08-13T19:57:51Z"
+    description: Container-free, deny-by-default sandbox for AI coding agents. Kernel-enforced filesystem, network, and syscall isolation for Linux and macOS
+    homepage: https://greywall.io
+    topics:
+      - agents
+      - ai-security
+      - claude-code
+      - developer-tools
+      - greyproxy
+      - landlock
+      - linux
+      - llm
+      - macos
+      - opencode
+      - sandbox
+      - sandbox-ai
+      - seccomp
+      - security
+    last_checked_at: "2026-09-03T05:16:55.088Z"
+    readme:
+      fetched_at: "2026-09-03T05:16:55.088Z"
+      bytes: 11975
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A container-free sandbox that provides kernel-enforced filesystem, network, and syscall isolation for AI coding agents on Linux and macOS.
+  why_it_matters: It allows developers to run autonomous agents like Claude Code or Cursor with the confidence that they won't accidentally leak secrets or compromise the host system.
+  mental_damage: It adds a whole new layer of kernel-level infrastructure to manage just so you can finally trust a chatbot with your SSH keys.
+  tags:
+    - security
+    - sandboxing
+    - ai-agents
+    - linux
+    - macos
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool acts as a security wrapper and host integration that augments the safety of existing coding agents rather than acting as an agent itself.
+  evidence:
+    - Provides kernel-enforced isolation for agents like Claude Code, Cursor, and Aider
+    - Offers a 'greywatch' observability mode to trace agent behavior
+    - Uses Landlock and Seccomp for container-free sandboxing
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (290) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -59,13 +83,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: pending
-    updated_at: null
+    status: done
+    updated_at: "2026-09-03T05:16:55.088Z"
     cause: null
-  categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
     next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-03T05:23:53.201Z"
+    cause: null
+    next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2e6a9b68e7daf5f2a3f9fe03922c0f1eb36157dad2a34cdc79ae0fa601bf68da
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: The tool acts as a security wrapper and host integration that augments the safety of existing coding agents rather than acting as an agent itself.
+      decision_evidence:
+        - Provides kernel-enforced isolation for agents like Claude Code, Cursor, and Aider
+        - Offers a 'greywatch' observability mode to trace agent behavior
+        - Uses Landlock and Seccomp for container-free sandboxing
+      category_candidates:
+        - ai-dev-extensions
+        - evals
+      contrastive_reason: Choose ai-dev-extensions over evals because its primary purpose is providing a secure runtime environment for agents rather than measuring or benchmarking their model performance.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

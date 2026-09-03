@@ -1,0 +1,72 @@
+id: github__ni-c__hetzner-dns-mcp
+kind: github-repo
+name: ni-c/hetzner-dns-mcp
+canonical_url: https://github.com/ni-c/hetzner-dns-mcp
+identity:
+  github_repo: ni-c/hetzner-dns-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ni-c__hetzner-dns-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-03T05:16:34.319Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: ni-c/hetzner-dns-mcp
+        extracted_url: https://github.com/ni-c/hetzner-dns-mcp
+        surrounding_text: "- [ni-c/hetzner-dns-mcp](https://github.com/ni-c/hetzner-dns-mcp) [![ni-c/hetzner-dns-mcp MCP server](https://glama.ai/mcp/servers/ni-c/hetzner-dns-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ni-c/hetzner-dns-mcp) 📇 ☁️ 🍎 🪟 🐧 - Manage Hetzner DNS zones and records through the current Hetzner Cloud API (the legacy `dns.hetzner.com` API was shut down in May 2026). 22 tools: zone and RRSet CRUD, zonefile import/export, TTL and protection changes, primary nameservers, and async action tracking. Every destructive tool requires an explicit `confirm`. `npx -y hetzner-dns-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-03T05:16:34.321Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-09-03T05:17:01.022Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

@@ -47,9 +47,9 @@ metadata:
       - llm
       - openai
       - python
-    last_checked_at: "2026-08-13T04:39:51.238Z"
+    last_checked_at: "2026-09-03T05:16:47.601Z"
     readme:
-      fetched_at: "2026-08-13T04:39:51.238Z"
+      fetched_at: "2026-09-03T05:16:47.601Z"
       bytes: 6184
 insights:
   summary: An open-source AI team member that integrates with Slack to execute DevOps, FinOps, SecOps, and SRE tasks like deploying Kubernetes services and analyzing cloud costs.
@@ -83,16 +83,16 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:51.238Z"
+    updated_at: "2026-09-03T05:16:47.601Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
+    status: deferred
+    updated_at: "2026-09-03T05:22:38.737Z"
     cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+      type: invalid_llm_json
+      message: "Catalog LLM categorization failed for github__genia-dev__genia: Invalid AI response format: SyntaxError: Unexpected token 'G', ...\"_reason\": GeniA func\"... is not valid JSON"
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: "77e831995030"

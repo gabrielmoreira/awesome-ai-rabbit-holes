@@ -32,7 +32,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `task-management` `mcp` `cursor` `workflow` `ai-development`
   </details>
 
-- **[cmux](https://github.com/manaflow-ai/cmux)** `⭐ 25.5k` `updated ≤30d` A Ghostty-based macOS terminal application that provides vertical tabs, notification rings, and an in-app browser designed specifically for running and monitoring multiple AI coding agents like Claude Code and Gemini CLI. <details><summary>More about</summary>
+- **[cmux](https://github.com/manaflow-ai/cmux)** `⭐ 25.5k` `updated ≤90d` A Ghostty-based macOS terminal application that provides vertical tabs, notification rings, and an in-app browser designed specifically for running and monitoring multiple AI coding agents like Claude Code and Gemini CLI. <details><summary>More about</summary>
 
   It solves the UI fragmentation of running parallel CLI agents by providing a unified desktop surface with visual alerts, session metadata, and integrated browser access.
 
@@ -95,7 +95,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mobile-automation` `computer-use` `mcp` `e2e-testing` `android-ios`
   </details>
 
-- **[Git AI](https://github.com/git-ai-project/git-ai)** `⭐ 2.4k` `updated ≤30d` An open-source Git extension that tracks and attributes AI-generated code to specific agents, models, and sessions. <details><summary>More about</summary>
+- **[Git AI](https://github.com/git-ai-project/git-ai)** `⭐ 2.5k` `updated ≤30d` An open-source Git extension that tracks and attributes AI-generated code to specific agents, models, and sessions. <details><summary>More about</summary>
 
   It provides a way to audit AI contributions by linking specific lines of code back to the original model and the session transcript that produced them.
 
@@ -140,7 +140,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `figma` `mcp` `design-to-code` `ai-dev-extensions`
   </details>
 
-- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 783` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
+- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 827` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
 
   It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
 
@@ -212,6 +212,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `claude-code` `cli` `mcp` `command-management` `configuration`
   </details>
 
+- **[Greywall](https://github.com/greyhavenhq/greywall)** `⭐ 290` `updated ≤30d` A container-free sandbox that provides kernel-enforced filesystem, network, and syscall isolation for AI coding agents on Linux and macOS. <details><summary>More about</summary>
+
+  It allows developers to run autonomous agents like Claude Code or Cursor with the confidence that they won't accidentally leak secrets or compromise the host system.
+
+  _It adds a whole new layer of kernel-level infrastructure to manage just so you can finally trust a chatbot with your SSH keys._
+
+  `security` `sandboxing` `ai-agents` `linux` `macos`
+  </details>
+
 - **[mysql_mcp_server_pro](https://github.com/wenb1n-dev/mysql_mcp_server_pro)** `⭐ 246` `updated >1y` An MCP server for MySQL that enables secure database interactions, anomaly analysis, and custom tool extensions via the Model Context Protocol. <details><summary>More about</summary>
 
   Lets developers securely query, analyze, and extend MySQL databases through standardized MCP tooling, reducing integration friction for AI-assisted database workflows.
@@ -264,6 +273,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   _Finally, an AI that can remind you to drink water while also judging your Git commit messages._
 
   `claude-code` `personal-assistant` `cli-tool` `skills-pack` `local-automation`
+  </details>
+
+- **[get-tmonier/argot](https://github.com/get-tmonier/argot)** `⭐ 48` `updated ≤30d` A statistical code analyzer that uses repository history to detect and lint deviations from established coding patterns. <details><summary>More about</summary>
+
+  It provides a local, non-LLM-based guardrail to ensure AI-generated code remains consistent with your project's historical style and structure.
+
+  _Because nothing says 'I don't trust my LLM' like running a Rust-based statistical audit every time you want to commit code._
+
+  `linter` `code-review` `cli` `git` `statistical-analysis`
   </details>
 
 ## Incubating
@@ -432,6 +450,24 @@ _These are new or low-traffic entries being watched._
   `tui` `cli` `session-manager` `ai-agents` `developer-tools`
   </details>
 
+- **[FireConnect](https://github.com/fw-ai/fireconnect)** `⭐ 46` `updated ≤30d` A CLI tool for reconfiguring existing AI coding assistants to use Fireworks AI models. <details><summary>More about</summary>
+
+  It allows developers to seamlessly switch the underlying model provider for tools like Claude Code and Cursor without manual configuration changes.
+
+  _Because managing your model provider's configuration is now a CLI-driven workflow rather than a simple JSON edit._
+
+  `cli` `fireworks-ai` `integration` `model-switching`
+  </details>
+
+- **[Agon](https://github.com/autoresearch-factory/agon)** `⭐ 45` `updated ≤30d` Agon is a Claude Code plugin that orchestrates autonomous AI research loops to turn a topic into runnable experiments without human-written experimental code. <details><summary>More about</summary>
+
+  It removes the manual effort of prototyping research ideas by automating hypothesis generation, proposal review, and experiment execution within Claude Code.
+
+  _Watch your AI agents spend hours debugging each other's failed experiments while you refresh the terminal, hoping they don't get stuck in a literature-review loop._
+
+  `claude-code` `agent-orchestration` `research-automation`
+  </details>
+
 - **[AgentDiff](https://github.com/codeprakhar25/agentdiff)** `⭐ 43` `updated ≤90d` A git-native tool for AI code provenance that records and cryptographically signs which AI agent wrote specific lines of code. <details><summary>More about</summary>
 
   It provides a durable, signed audit trail for AI-generated code, moving from probabilistic detection to verifiable authorship for governance and security.
@@ -457,15 +493,6 @@ _These are new or low-traffic entries being watched._
   _We have built an ambient audio layer to monitor the tools we built to automate the work we no longer want to read about._
 
   `ambient-monitoring` `claude-code` `codex` `electron` `audio-dashboard`
-  </details>
-
-- **[Agon](https://github.com/autoresearch-factory/agon)** `⭐ 42` `updated ≤30d` Agon is a Claude Code plugin that orchestrates autonomous AI research loops to turn a topic into runnable experiments without human-written experimental code. <details><summary>More about</summary>
-
-  It removes the manual effort of prototyping research ideas by automating hypothesis generation, proposal review, and experiment execution within Claude Code.
-
-  _Watch your AI agents spend hours debugging each other's failed experiments while you refresh the terminal, hoping they don't get stuck in a literature-review loop._
-
-  `claude-code` `agent-orchestration` `research-automation`
   </details>
 
 - **[Armorer Guard](https://github.com/armorerlabs/armorer-guard)** `⭐ 42` `updated ≤30d` Armorer Guard is a Rust-based local scanner that inspects MCP tool calls for prompt injection, credential leaks, and risky actions before execution. <details><summary>More about</summary>
@@ -513,7 +540,7 @@ _These are new or low-traffic entries being watched._
   `agent-skills` `ai-agents` `cli` `design-ci` `design-system` `mcp` `shadcn` `tailwind`
   </details>
 
-- **[vscode-awesome-copilot](https://github.com/timheuer/vscode-awesome-copilot)** `⭐ 30` `updated ≤180d` A VS Code extension that provides a tree-view browser for discovering, previewing, and downloading customizations from the awesome-copilot repository into your workspace. <details><summary>More about</summary>
+- **[vscode-awesome-copilot](https://github.com/timheuer/vscode-awesome-copilot)** `⭐ 30` `updated ≤1y` A VS Code extension that provides a tree-view browser for discovering, previewing, and downloading customizations from the awesome-copilot repository into your workspace. <details><summary>More about</summary>
 
   It streamlines the adoption of community-contributed Copilot instructions, prompts, agents, and skills by removing the friction of manually fetching files from GitHub.
 
@@ -684,6 +711,15 @@ _These are new or low-traffic entries being watched._
   `claude-code` `statusline` `productivity` `tamagotchi` `cli`
   </details>
 
+- **[gavelcode/gavel](https://github.com/gavelcode/gavel)** `⭐ 10` `updated ≤30d` A code quality gate for Bazel monorepos that uses Bazel aspects to perform build-graph-aware linting, coverage, and architecture analysis. <details><summary>More about</summary>
+
+  It allows developers to enforce strict quality standards on only the affected parts of a monorepo and exposes those checks directly to coding agents via MCP.
+
+  _Because the ultimate developer experience is having your AI agent act as a highly pedantic, build-graph-aware code reviewer._
+
+  `bazel` `monorepo` `mcp` `code-quality` `linting`
+  </details>
+
 - **[windborne/zulipmcp](https://github.com/windborne/zulipmcp)** `⭐ 10` `updated ≤90d` Run AI agents in Zulip as @mentionable bots or wire into any MCP client. <details><summary>More about</summary>
 
   Lets developers interact with coding agents directly inside Zulip chat without switching contexts.
@@ -765,7 +801,7 @@ _These are new or low-traffic entries being watched._
   `code-audit` `cli` `mcp` `local-first`
   </details>
 
-- **[NazarKalytiuk/tarn](https://github.com/nazarkalytiuk/tarn)** `⭐ 5` `updated ≤90d` A CLI-first API testing tool that uses YAML-defined tests and structured JSON output for AI-assisted debugging workflows. <details><summary>More about</summary>
+- **[NazarKalytiuk/tarn](https://github.com/nazarkalytiuk/tarn)** `⭐ 5` `updated ≤180d` A CLI-first API testing tool that uses YAML-defined tests and structured JSON output for AI-assisted debugging workflows. <details><summary>More about</summary>
 
   It provides machine-readable, categorized error taxonomies that allow LLM agents to parse failures and suggest fixes without brittle log scraping.
 
@@ -801,7 +837,7 @@ _These are new or low-traffic entries being watched._
   `ink` `qa` `mcp` `interactive-fiction` `testing`
   </details>
 
-- **[Ivy-Innovation/cubelife](https://github.com/ivy-innovation/cubelife)** `⭐ 2` `updated ≤90d` CubeLife provides Node.js, Python SDKs and a CLI/MCP server that gives AI agents a persistent pixel-art character reflecting their state in real time. <details><summary>More about</summary>
+- **[Ivy-Innovation/cubelife](https://github.com/ivy-innovation/cubelife)** `⭐ 2` `updated ≤180d` CubeLife provides Node.js, Python SDKs and a CLI/MCP server that gives AI agents a persistent pixel-art character reflecting their state in real time. <details><summary>More about</summary>
 
   It adds visual, state-aware character feedback to AI coding sessions, making agent activity more tangible and engaging for developers monitoring autonomous workflows.
 
@@ -862,6 +898,15 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to make your AI agent feel important by giving it a cryptographic signature it doesn’t understand but can use to sign off on bad decisions._
 
   `cryptographic-identity` `mcp-server` `typescript-sdk`
+  </details>
+
+- **[grzgrzgrz3/pingwa-client](https://github.com/grzgrzgrz3/pingwa-client)** `⭐ 1` `updated ≤90d` A Python CLI and MCP server that enables two-way WhatsApp notifications for AI agents and scripts to facilitate human-in-the-loop workflows. <details><summary>More about</summary>
+
+  It provides a zero-setup way for autonomous agents to request human intervention or report status via a familiar messaging interface.
+
+  _Because nothing says 'cutting-edge developer workflow' like getting a WhatsApp notification from a script to ask if it should deploy to production._
+
+  `whatsapp` `mcp` `human-in-the-loop` `cli` `python`
   </details>
 
 - **[juergenkoller-software/distill-mcp](https://github.com/juergenkoller-software/distill-mcp)** `⭐ 1` `updated ≤90d` An MCP server bridge that allows Claude and Cursor to rename files automatically based on their content using the Distill macOS app. <details><summary>More about</summary>

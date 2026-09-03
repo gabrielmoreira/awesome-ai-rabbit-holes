@@ -47,12 +47,13 @@ metadata:
     full_name: atomno-mcp/mcp-fns-check
     html_url: https://github.com/atomno-mcp/mcp-fns-check
     created_at: "2026-04-24T20:04:02Z"
-    pushed_at: "2026-07-14T19:07:29Z"
-    description: MCP server for checking RU counterparties via FNS open data (EGRUL/EGRIP, EFRSB, KAD, FSSP)
+    pushed_at: "2026-09-02T10:35:25Z"
+    description: "MCP-сервер проверки контрагентов РФ: ЕГРЮЛ, банкротство, налоговые долги, приставы и арбитражные дела. Для разведки компаний. Russian counterparty check MCP."
     homepage: null
     topics:
       - claude
       - compliance
+      - counterparty
       - cursor
       - due-diligence
       - egrul
@@ -61,10 +62,10 @@ metadata:
       - mcp
       - model-context-protocol
       - russia
-    last_checked_at: "2026-08-24T04:21:21.540Z"
+    last_checked_at: "2026-09-03T05:16:37.165Z"
     readme:
-      fetched_at: "2026-08-24T04:21:21.540Z"
-      bytes: 14867
+      fetched_at: "2026-09-03T05:16:37.165Z"
+      bytes: 16548
 insights:
   summary: MCP server for checking Russian counterparties via FNS open data (EGRUL/EGRIP, EFRSB, KAD, FSSP).
   why_it_matters: It gives AI agents direct access to Russian compliance data, enabling due diligence checks within developer workflows via MCP.
@@ -126,9 +127,7 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-09-01T14:31:46.200Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for atomno-mcp/mcp-fns-check
+    status: done
+    updated_at: "2026-09-03T05:16:37.165Z"
+    cause: null
     next_retry_at: null

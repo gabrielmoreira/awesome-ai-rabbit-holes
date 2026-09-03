@@ -23,41 +23,40 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 153
+    stars: 157
     forks: 27
     license: MIT
     archived: false
     full_name: githejie/mcp-server-calculator
     html_url: https://github.com/githejie/mcp-server-calculator
     created_at: "2025-03-19T11:36:59Z"
-    pushed_at: "2025-05-10T02:23:00Z"
+    pushed_at: "2026-08-08T03:40:19Z"
     description: A Model Context Protocol server for calculating.
     homepage: null
     topics: []
-    last_checked_at: "2026-08-03T05:16:47.734Z"
+    last_checked_at: "2026-09-03T05:16:49.957Z"
     readme:
-      fetched_at: "2026-08-03T05:16:47.734Z"
+      fetched_at: "2026-09-03T05:16:49.957Z"
       bytes: 1472
 insights:
-  summary: A minimal Model Context Protocol server that exposes a calculator tool for LLMs to perform precise numerical evaluations.
-  why_it_matters: It allows MCP-compatible coding assistants and agents to offload math to a deterministic tool instead of hallucinating arithmetic.
-  mental_damage: We have entered an era where we need a dedicated server, protocol handshake, and tool definition just to safely add two numbers.
+  summary: A Model Context Protocol server that enables LLMs to perform precise numerical calculations via a calculate tool.
+  why_it_matters: Gives AI agents reliable math capabilities without hallucination, improving accuracy in code generation and data analysis workflows.
+  mental_damage: Yet another MCP server for basic arithmetic, highlighting how we've outsourced even simple computation to LLMs that need help not to lie.
   tags:
     - mcp
     - calculator
-    - tool-server
-    - llm-tools
+    - tool
   confidence: high
 curation:
   status: included
-  reason: The product's identity is an MCP server that provides a specific tool (calculation) to LLMs, fitting cleanly into the MCP Servers & Tooling category.
+  reason: The tool is a dedicated MCP server providing calculator functionality, making MCP its core identity rather than a compatibility feature.
   evidence:
-    - "Repo description states: 'A Model Context Protocol server for calculating.'"
-    - "README confirms: 'A Model Context Protocol server for calculating. This server enables LLMs to use calculator for precise numerical calculations.'"
-    - Listed in 'awesome-mcp-servers' under the section 'Community Servers'.
+    - "Repo description: 'A Model Context Protocol server for calculating'"
+    - "README: Explicitly positions itself as enabling LLMs to use calculator for precise numerical calculations via MCP"
+    - Listed in awesome-mcp-servers under Community Servers section
 placement:
   primary_category: mcp
-  section: Domain Servers
+  section: Generic Servers & Middleware
 lifecycle:
   status: promotion_candidate
   reason: Stars (152) exceeded threshold (150)
@@ -68,19 +67,33 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-08-13T04:39:53.199Z"
-    cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for githejie/mcp-server-calculator
+    status: done
+    updated_at: "2026-09-03T05:16:49.957Z"
+    cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:22:52.757Z"
+    cause: null
     next_retry_at: null
-    attempts: 3
+    attempts: 4
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: openrouter/nvidia/nemotron-3-super-120b-a12b:free
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:2b75d2fe1cc1a142f2d096dc0a5e6fdc74c7ddf633e2590f6f6da526a9073e05
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is a dedicated MCP server providing calculator functionality, making MCP its core identity rather than a compatibility feature.
+      decision_evidence:
+        - "Repo description: 'A Model Context Protocol server for calculating'"
+        - "README: Explicitly positions itself as enabling LLMs to use calculator for precise numerical calculations via MCP"
+        - Listed in awesome-mcp-servers under Community Servers section
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is an MCP server, not an extension augmenting another assistant with host capabilities.
+      review_reason: null
+      review_resume_lifecycle: null

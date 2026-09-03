@@ -230,7 +230,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `mcp` `token-optimization` `context-management` `coding-agents` `bash-compaction`
   </details>
 
-- **[Omnigraph](https://github.com/modernrelay/omnigraph)** `⭐ 1k` `updated ≤30d` A lakehouse-native graph engine designed for agentic memory and multimodal context assembly. <details><summary>More about</summary>
+- **[Omnigraph](https://github.com/modernrelay/omnigraph)** `⭐ 1k` `updated ≤90d` A lakehouse-native graph engine designed for agentic memory and multimodal context assembly. <details><summary>More about</summary>
 
   It provides a versioned, branchable data layer that allows fleets of agents to maintain durable, multimodal memory and shared knowledge graphs.
 
@@ -284,7 +284,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `context-compression` `llm-proxy` `hallucination-detection` `token-optimization` `rust`
   </details>
 
-- **[onecompression](https://github.com/fujitsuresearch/onecompression)** `⭐ 415` `updated ≤30d` A Python package for the automated compression and quantization of Large Language Models. <details><summary>More about</summary>
+- **[onecompression](https://github.com/fujitsuresearch/onecompression)** `⭐ 426` `updated ≤30d` A Python package for the automated compression and quantization of Large Language Models. <details><summary>More about</summary>
 
   It simplifies the complex process of shrinking LLMs to fit on available VRAM by automating bit-width selection and error correction.
 
@@ -684,7 +684,16 @@ _These are new or low-traffic entries being watched._
   `cli` `context-management` `token-optimization` `codebase-analysis` `golang`
   </details>
 
-- **[m1nd](https://github.com/maxkle1nz/m1nd)** `⭐ 21` `updated ≤30d` A neuro-symbolic code graph and shell that provides memory, trust, and reasoning capabilities to coding agents via MCP. <details><summary>More about</summary>
+- **[gzoonet/cortex](https://github.com/gzoonet/cortex)** `⭐ 21` `updated ≤30d` Local-first knowledge graph for developers that watches project files, builds a knowledge graph with LLMs, and allows natural language queries across projects. <details><summary>More about</summary>
+
+  It helps developers retrieve scattered decisions, patterns, and context across multiple projects without manually searching through files.
+
+  _Now you can finally remember why you chose that caching strategy six months ago—assuming the LLM doesn’t hallucinate the answer._
+
+  `knowledge-graph` `local-first` `mcp` `context-retrieval` `developer-tools`
+  </details>
+
+- **[m1nd](https://github.com/maxkle1nz/m1nd)** `⭐ 21` `updated ≤90d` A neuro-symbolic code graph and shell that provides memory, trust, and reasoning capabilities to coding agents via MCP. <details><summary>More about</summary>
 
   It attempts to solve the 'blind agent' problem by providing a persistent, graph-based memory layer that helps AI assistants understand code relationships and changes over time.
 
@@ -718,15 +727,6 @@ _These are new or low-traffic entries being watched._
   _Your AI now has a circadian rhythm and emotions to process your spaghetti code, but it still won't remember to delete that console.log you asked it to remove three sessions ago._
 
   `mcp` `memory` `context` `knowledge-base` `typescript`
-  </details>
-
-- **[gzoonet/cortex](https://github.com/gzoonet/cortex)** `⭐ 18` `updated ≤90d` Local-first knowledge graph for developers that watches project files, builds a knowledge graph with LLMs, and allows natural language queries across projects. <details><summary>More about</summary>
-
-  It helps developers retrieve scattered decisions, patterns, and context across multiple projects without manually searching through files.
-
-  _Now you can finally remember why you chose that caching strategy six months ago—assuming the LLM doesn’t hallucinate the answer._
-
-  `knowledge-graph` `local-first` `mcp` `context-retrieval` `developer-tools`
   </details>
 
 - **[masondelan/selvedge](https://github.com/masondelan/selvedge)** `⭐ 17` `updated ≤90d` A local MCP server that captures an AI agent's reasoning live as code changes are made, storing structured change events with justifications in a local SQLite database for later audit. <details><summary>More about</summary>
@@ -945,6 +945,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `persona-drift` `prompt-engineering` `agentic-ai` `llm-safety`
   </details>
 
+- **[foldwork-dev/mcp-injector](https://github.com/foldwork-dev/mcp-injector)** `⭐ 4` `updated ≤90d` A local MCP daemon that compresses codebase context using AST folding to reduce token usage. <details><summary>More about</summary>
+
+  It significantly lowers API costs and improves context relevance by stripping non-essential code structures while preserving essential signatures.
+
+  _Finally, a way to feel like a responsible engineer while watching your Claude API bill plummet._
+
+  `mcp` `context-compression` `token-optimization` `ast` `local-ai`
+  </details>
+
 - **[LuizEduPP/rememb](https://github.com/luizedupp/rememb)** `⭐ 4` `updated ≤90d` rememb is a local, zero-config persistent memory system for AI agents that stores project context in a .rememb/ directory and works via MCP with Cursor, Windsurf, and Claude. <details><summary>More about</summary>
 
   It solves the repetitive context reloading problem in AI-assisted development by giving agents project-scoped memory that survives sessions without requiring cloud services or API keys.
@@ -997,15 +1006,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to stop your AI from re-reading the entire conversation like a goldfish who forgot where it parked._
 
   `context-engineering` `deterministic-inference` `token-optimization` `mcp` `knowledge-graph`
-  </details>
-
-- **[foldwork-dev/mcp-injector](https://github.com/foldwork-dev/mcp-injector)** `⭐ 3` `updated ≤90d` A local MCP daemon that compresses codebase context using AST folding to reduce token usage. <details><summary>More about</summary>
-
-  It significantly lowers API costs and improves context relevance by stripping non-essential code structures while preserving essential signatures.
-
-  _Finally, a way to feel like a responsible engineer while watching your Claude API bill plummet._
-
-  `mcp` `context-compression` `token-optimization` `ast` `local-ai`
   </details>
 
 - **[Thezenmonster/agentmem](https://github.com/thezenmonster/agentmem)** `⭐ 3` `updated ≤180d` A local-first memory system for coding agents like Claude Code and Cursor that adds governance, conflict detection, and trust ranking to stored memories. <details><summary>More about</summary>

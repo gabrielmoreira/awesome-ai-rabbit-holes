@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 9020
-    forks: 906
+    stars: 9145
+    forks: 914
     license: Apache-2.0
     archived: false
     full_name: Future-House/paper-qa
     html_url: https://github.com/Future-House/paper-qa
     created_at: "2023-02-05T01:07:25Z"
-    pushed_at: "2026-08-12T15:33:57Z"
+    pushed_at: "2026-08-26T11:53:52Z"
     description: High accuracy RAG for answering questions from scientific documents with citations
     homepage: https://futurehouse.gitbook.io/futurehouse-cookbook
     topics:
@@ -39,23 +39,31 @@ metadata:
       - rag
       - science
       - search
-    last_checked_at: "2026-08-13T04:39:49.514Z"
+    last_checked_at: "2026-09-03T05:16:45.227Z"
     readme:
-      fetched_at: "2026-08-13T04:39:49.514Z"
+      fetched_at: "2026-09-03T05:16:45.227Z"
       bytes: 60463
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A high-accuracy RAG package designed for answering questions from scientific documents with integrated citations.
+  why_it_matters: It provides a specialized, citation-aware retrieval layer for developers building AI tools that must reason over complex scientific literature.
+  mental_damage: Because every developer's RAG implementation is currently just a prayer and a basic vector search away from hallucinating a new scientific law.
+  tags:
+    - rag
+    - python
+    - scientific-computing
+    - retrieval
+    - documentation
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: It is a code-first library and SDK that developers import to build specialized RAG workflows.
+  evidence:
+    - Described as a 'package' and 'library' for high-accuracy RAG
+    - Available via pip install for programmatic usage
+    - Focuses on providing retrieval and citation infrastructure
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Memory / Retrieval Infrastructure
 lifecycle:
   status: promotion_candidate
   reason: Stars (9020) exceeded threshold (150)
@@ -67,13 +75,32 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-08-13T04:39:49.514Z"
+    updated_at: "2026-09-03T05:16:45.227Z"
     cause: null
     next_retry_at: null
   categorize:
-    status: skipped
-    updated_at: "2026-09-01T14:31:48.831Z"
-    cause:
-      type: missing_metadata
-      message: Item is not ready for categorization
+    status: done
+    updated_at: "2026-09-03T05:20:14.613Z"
+    cause: null
     next_retry_at: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c4fe39a53a028e064a443dbfcf57f467cfbd01e6076d57065e70279575a63461
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: It is a code-first library and SDK that developers import to build specialized RAG workflows.
+      decision_evidence:
+        - Described as a 'package' and 'library' for high-accuracy RAG
+        - Available via pip install for programmatic usage
+        - Focuses on providing retrieval and citation infrastructure
+      category_candidates:
+        - ai-frameworks
+        - context-engineering
+      contrastive_reason: Choose ai-frameworks over context-engineering because the product is primarily consumed as a code-first SDK and library for building RAG pipelines rather than just a standalone context-shaping utility.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
