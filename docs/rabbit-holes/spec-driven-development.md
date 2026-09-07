@@ -23,7 +23,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `ai-coding-assistants` `workflow`
   </details>
 
-- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 52.4k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
+- **[BMAD-METHOD](https://github.com/bmad-code-org/bmad-method)** `⭐ 52.7k` `updated ≤30d` An open-source AI-driven agile development framework with structured workflows, specialized agents, and scale-adaptive planning for software projects. <details><summary>More about</summary>
 
   It provides developers with guided, expert-collaborator workflows for end-to-end project development, from brainstorming to deployment, rather than just generating code.
 
@@ -131,7 +131,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `code-generation` `proof-of-concept`
   </details>
 
-- **[codervisor/lean-spec](https://github.com/codervisor/leanspec)** `⭐ 284` `updated ≤180d` Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support. <details><summary>More about</summary>
+- **[codervisor/lean-spec](https://github.com/codervisor/leanspec)** `⭐ 287` `updated ≤180d` Lightweight, tool-agnostic framework for Spec-Driven Development (SDD) with AI integration and MCP support. <details><summary>More about</summary>
 
   Lets developers use their existing issue trackers (GitHub, ADO, Jira, etc.) as spec backends while adding a unified interface, AI-native workflows, and visualization tools for SDD.
 
@@ -234,7 +234,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `claude-code` `planning` `spec-driven` `task-management`
   </details>
 
-- **[pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli)** `⭐ 6` `updated ≤180d` A CLI tool that guides developers through five questions to generate structured AI prompts, then tracks, versions, and publishes the resulting product development journey. <details><summary>More about</summary>
+- **[pmptwiki/pmpt-cli](https://github.com/pmptwiki/pmpt-cli)** `⭐ 6` `updated ≤1y` A CLI tool that guides developers through five questions to generate structured AI prompts, then tracks, versions, and publishes the resulting product development journey. <details><summary>More about</summary>
 
   It standardizes the fragile transition from vague idea to actionable prompt and adds version control for the AI-driven build process itself.
 

@@ -32,7 +32,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `eval` `red-teaming` `cli` `llm-testing` `ci-cd`
   </details>
 
-- **[Opik](https://github.com/comet-ml/opik)** `⭐ 21.6k` `updated ≤30d` Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic workflows. <details><summary>More about</summary>
+- **[Opik](https://github.com/comet-ml/opik)** `⭐ 21.8k` `updated ≤30d` Open-source observability, evaluation, and optimization platform for LLM applications, RAG systems, and agentic workflows. <details><summary>More about</summary>
 
   It provides comprehensive tracing, automated evaluations, and production-ready dashboards to debug and improve AI applications from prototype to production.
 
@@ -95,7 +95,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `prompt-engineering` `evals` `notebooks` `llm-optimization`
   </details>
 
-- **[Evidently](https://github.com/evidentlyai/evidently)** `⭐ 7.8k` `updated ≤30d` An open-source observability framework for evaluating, testing, and monitoring machine learning and LLM-powered systems. <details><summary>More about</summary>
+- **[Evidently](https://github.com/evidentlyai/evidently)** `⭐ 7.8k` `updated ≤90d` An open-source observability framework for evaluating, testing, and monitoring machine learning and LLM-powered systems. <details><summary>More about</summary>
 
   It provides developers with the metrics and visualization needed to track model drift, data quality, and LLM performance from experimentation through production.
 

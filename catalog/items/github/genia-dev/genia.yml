@@ -52,16 +52,16 @@ metadata:
       fetched_at: "2026-09-03T05:16:47.601Z"
       bytes: 6184
 insights:
-  summary: An open-source AI team member that integrates with Slack to execute DevOps, FinOps, SecOps, and SRE tasks like deploying Kubernetes services and analyzing cloud costs.
-  why_it_matters: It shifts operational responsibilities—deployment, troubleshooting, and cloud spend analysis—directly into chat, reducing cross-team dependencies for engineering teams.
-  mental_damage: Now you can invite a bot to your Slack channel that can request temporary production permissions, turning your incident response process into a role-playing game with an LLM.
+  summary: An AI platform engineering agent designed to automate DevOps, SRE, and SecOps tasks via Slack or a web interface.
+  why_it_matters: It automates the operational side of the software lifecycle, including k8s deployments, log summarization, and cloud cost optimization.
+  mental_damage: Because nothing says 'modern engineering' quite like having your production outages summarized by an autonomous agent in your Slack DMs.
   tags:
     - devops
-    - slack
-    - kubernetes
-    - finops
-    - open-source
-  confidence: medium
+    - sre
+    - platform-engineering
+    - agents
+    - slack-bot
+  confidence: high
 curation:
   status: included
   reason: GeniA functions as a standalone autonomous agent that executes operational tasks and infrastructure changes via CLI tools and Slack, fitting the coding/ops agent profile.
@@ -71,10 +71,10 @@ curation:
     - Packaged as a Python package installable via pip (`pip3 install ... genia`) acting as the primary interface.
 placement:
   primary_category: coding-agents
-  section: Terminal & CLI Agents
+  section: null
 lifecycle:
-  status: promotion_candidate
-  reason: Stars (405) exceeded threshold (150)
+  status: needs_review
+  reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
 processing:
   discover:
     status: done
@@ -87,12 +87,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-03T05:22:38.737Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__genia-dev__genia: Invalid AI response format: SyntaxError: Unexpected token 'G', ...\"_reason\": GeniA func\"... is not valid JSON"
+    status: done
+    updated_at: "2026-09-07T04:15:36.918Z"
+    cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e98d88f67f177491778895c6092a2f84375fbd34991b26ea0bedbbfb571544a6
+      proposed_primary_category: agent-orchestration
+      disagreement: true
+      decision_reason: It functions as a domain-specific agent platform specializing in infrastructure and platform engineering workflows rather than a general-purpose tool for writing application code.
+      decision_evidence:
+        - Identifies as an 'AI platform engineering team member' rather than a coding assistant
+        - Automates specific SRE, DevOps, and FinOps workflows like Argo deployments and EKS upgrades
+        - Designed to operate within team communication channels like Slack to execute tasks
+      category_candidates:
+        - agent-orchestration
+        - coding-agents
+      contrastive_reason: Choose agent-orchestration over coding-agents because its primary identity is a vertical platform for operational workflows and task execution rather than a tool for editing or generating application code.
+      review_reason: "Categorization review required: placement disagreement: retained 'coding-agents', proposed 'agent-orchestration'"
+      review_resume_lifecycle: null

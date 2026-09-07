@@ -162,7 +162,7 @@ _These are new or low-traffic entries being watched._
   `git-analysis` `agent-skills` `codebase-health`
   </details>
 
-- **[Citedy/citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 18` `updated ≤90d` An AI-powered SEO content automation agent skill for trend scouting, competitor analysis, multilingual article generation, and social media adaptations. <details><summary>More about</summary>
+- **[Citedy/citedy-seo-agent](https://github.com/citedy/citedy-seo-agent)** `⭐ 19` `updated ≤90d` An AI-powered SEO content automation agent skill for trend scouting, competitor analysis, multilingual article generation, and social media adaptations. <details><summary>More about</summary>
 
   Developers and marketers can integrate this skill into AI agents to automate end-to-end SEO content workflows, from research to multi-platform publishing.
 

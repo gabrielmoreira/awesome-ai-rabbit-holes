@@ -60,18 +60,26 @@ metadata:
       fetched_at: "2026-09-03T05:16:44.319Z"
       bytes: 52073
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A static analysis tool for Django that provides schema intelligence through VS Code extensions, a CLI, and an MCP server.
+  why_it_matters: It allows developers and AI agents to perform deep schema analysis, N+1 detection, and migration impact studies using static parsing without requiring a running database or environment.
+  mental_damage: Because understanding your own database schema is much easier when you just outsource the archaeology to an MCP server.
+  tags:
+    - django
+    - mcp
+    - static-analysis
+    - orm
+    - python
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool's primary AI value is providing structured, ground-truth schema context to agents through MCP and static analysis, effectively serving as a specialized context retrieval layer for Django.
+  evidence:
+    - Provides 13 read-only MCP tools for answering schema questions from ground truth
+    - Uses static parsing to provide schema intelligence without a database or Django boot
+    - Offers a multi-surface distribution including a VS Code extension, CLI, and MCP server
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
 lifecycle:
   status: incubating
   reason: null
@@ -87,10 +95,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-03T05:20:36.570Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__frowningdev__django-orm-lens: Invalid AI response format: SyntaxError: Expected ',' or '}' after property value in JSON at position 691 (line 7 column 41)"
+    status: done
+    updated_at: "2026-09-07T04:14:40.010Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f38b1de8a5b696aa02f5741e67a4753e4f5f5bac6b4f34ec3a93d2fd2845591d
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The tool's primary AI value is providing structured, ground-truth schema context to agents through MCP and static analysis, effectively serving as a specialized context retrieval layer for Django.
+      decision_evidence:
+        - Provides 13 read-only MCP tools for answering schema questions from ground truth
+        - Uses static parsing to provide schema intelligence without a database or Django boot
+        - Offers a multi-surface distribution including a VS Code extension, CLI, and MCP server
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because the tool's core novelty for AI workflows is delivering schema-based ground truth and context to agents via MCP rather than just serving as a host integration layer.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

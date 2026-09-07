@@ -1,0 +1,102 @@
+id: github__alexbypa__github-projectpulse-mcp
+kind: github-repo
+name: alexbypa/github-projectpulse-mcp
+canonical_url: https://github.com/alexbypa/github-projectpulse-mcp
+identity:
+  github_repo: alexbypa/github-projectpulse-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__alexbypa__github-projectpulse-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-07T04:13:26.010Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: alexbypa/github-projectpulse-mcp
+        extracted_url: https://github.com/alexbypa/github-projectpulse-mcp
+        surrounding_text: "- [alexbypa/github-projectpulse-mcp](https://github.com/alexbypa/github-projectpulse-mcp) [![alexbypa/github-projectpulse-mcp MCP server](https://glama.ai/mcp/servers/alexbypa/github-projectpulse-mcp/badges/score.svg)](https://glama.ai/mcp/servers/alexbypa/github-projectpulse-mcp) 📇 ☁️ - GitHub repository health monitoring for AI assistants. Analyze health scores (A-F grades), OpenSSF security checks, DORA metrics, code scanning alerts, and CI/CD status of any repo."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: alexbypa/github-projectpulse-mcp
+    html_url: https://github.com/alexbypa/github-projectpulse-mcp
+    created_at: "2026-08-30T11:04:09Z"
+    pushed_at: "2026-09-06T11:05:34Z"
+    description: projectpulse-mcp.private
+    homepage: null
+    topics: []
+    last_checked_at: "2026-09-07T04:13:27.723Z"
+    readme:
+      fetched_at: "2026-09-07T04:13:27.723Z"
+      bytes: 10111
+insights:
+  summary: An MCP server that enables AI assistants to analyze GitHub repository health, security, and DORA metrics.
+  why_it_matters: It allows developers to audit repository security, CI/CD health, and maintenance metrics directly through their AI chat interface.
+  mental_damage: Because nothing improves developer morale like having an LLM objectively grade your repository's security and DORA metrics.
+  tags:
+    - mcp
+    - github
+    - devops
+    - security
+    - metrics
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server whose primary identity is providing a specialized domain-specific data interface for AI assistants.
+  evidence:
+    - README identifies the project as a Model Context Protocol (MCP) server
+    - Provides specialized tools for health scores, security audits, and DORA metrics
+    - Specifically designed for use with MCP clients like Claude Desktop and Claude Code
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-07T04:13:26.011Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-07T04:13:27.723Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-07T04:16:38.206Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:62997131458475bd0d0a5b26169537c6b059ff5d6bf47457351d3459d7c2aba6
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server whose primary identity is providing a specialized domain-specific data interface for AI assistants.
+      decision_evidence:
+        - README identifies the project as a Model Context Protocol (MCP) server
+        - Provides specialized tools for health scores, security audits, and DORA metrics
+        - Specifically designed for use with MCP clients like Claude Desktop and Claude Code
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's core identity and distribution method is an MCP server rather than a standard IDE plugin.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

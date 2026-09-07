@@ -1,0 +1,72 @@
+id: github__dwgx__smartcli
+kind: github-repo
+name: dwgx/smartcli
+canonical_url: https://github.com/dwgx/smartcli
+identity:
+  github_repo: dwgx/smartcli
+provenance:
+  discoveries:
+    - id: discovery__github__dwgx__smartcli__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-07T04:13:26.010Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🖥️ <a name="command-line"></a>Command Line
+        anchor_text: dwgx/SmartCLI
+        extracted_url: https://github.com/dwgx/smartcli
+        surrounding_text: "- [dwgx/SmartCLI](https://github.com/dwgx/SmartCLI) [![dwgx/SmartCLI MCP server](https://glama.ai/mcp/servers/dwgx/SmartCLI/badges/score.svg)](https://glama.ai/mcp/servers/dwgx/SmartCLI) 🐍 🏠 🍎 🪟 🐧 - Drive full-screen terminal programs (vim, htop, lazygit) by reading the screen, not the byte stream: a live cell grid exposes which row is reverse-video selected, cursor position and alt-screen state, so waits are screen-state predicates instead of sleeps. The emulation is differentially tested against real tmux and GNU screen (cell-by-cell grid diffs plus a generative VT fuzz), which caught 12 emulation bugs including missing alternate-screen support. pip install smartcli-toolkit then smartcli-mcp, or uvx --from smartcli-toolkit smartcli-mcp."
+        confidence: high
+metadata:
+  github:
+    stars: null
+    forks: null
+    license: null
+    archived: null
+    full_name: null
+    html_url: null
+    created_at: null
+    pushed_at: null
+    description: null
+    homepage: null
+    topics: null
+    last_checked_at: null
+    readme: null
+insights:
+  summary: null
+  why_it_matters: null
+  mental_damage: null
+  tags: []
+  confidence: null
+curation:
+  status: pending
+  reason: null
+  evidence: []
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-07T04:13:26.012Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: pending
+    updated_at: null
+    cause: null
+  categorize:
+    status: skipped
+    updated_at: "2026-09-07T04:13:54.595Z"
+    cause:
+      type: missing_metadata
+      message: Item is not ready for categorization
+    next_retry_at: null

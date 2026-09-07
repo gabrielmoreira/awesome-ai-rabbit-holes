@@ -1,0 +1,117 @@
+id: github__btsouth__toolport
+kind: github-repo
+name: btsouth/toolport
+canonical_url: https://github.com/btsouth/toolport
+identity:
+  github_repo: btsouth/toolport
+provenance:
+  discoveries:
+    - id: discovery__github__btsouth__toolport__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-07T04:13:26.010Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: tsouth89/toolport
+        extracted_url: https://github.com/tsouth89/toolport
+        surrounding_text: "- [tsouth89/toolport](https://github.com/tsouth89/toolport) [![tsouth89/toolport MCP server](https://glama.ai/mcp/servers/tsouth89/toolport/badges/score.svg)](https://glama.ai/mcp/servers/tsouth89/toolport) 🦀 🏠 🍎 🪟 🐧 - One local gateway and manager for all your MCP servers, shared across every AI coding tool (Claude, Cursor, VS Code, Codex, and more). Set up and authenticate each server once; lazy discovery keeps each agent's context small, and keys stay in your OS keychain. No Docker, no cloud."
+        confidence: high
+metadata:
+  github:
+    stars: 205
+    forks: 53
+    license: MIT
+    archived: false
+    full_name: btsouth/toolport
+    html_url: https://github.com/btsouth/toolport
+    created_at: "2026-06-19T19:42:40Z"
+    pushed_at: "2026-09-05T08:20:29Z"
+    description: "Local-first MCP gateway. One port for every tool and every AI client: lazy discovery (~90% token savings), tool integrity + quarantine, secrets in the OS keychain."
+    homepage: https://toolport.app
+    topics:
+      - ai
+      - ai-agents
+      - anthropic
+      - claude
+      - cursor
+      - developer-tools
+      - gateway
+      - llm
+      - local-first
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - react
+      - rust
+      - tauri
+      - vscode
+    last_checked_at: "2026-09-07T04:13:38.511Z"
+    readme:
+      fetched_at: "2026-09-07T04:13:38.511Z"
+      bytes: 3250
+insights:
+  summary: A local-first gateway for managing and sharing Model Context Protocol (MCP) servers across multiple AI clients.
+  why_it_matters: It provides a centralized hub to configure MCP tools once and use them across different environments like Claude, Cursor, and VS Code, while reducing token overhead.
+  mental_damage: Because manually syncing JSON config files across four different AI desktop apps is a descent into madness no developer should endure.
+  tags:
+    - mcp
+    - gateway
+    - local-first
+    - developer-tools
+  confidence: high
+curation:
+  status: included
+  reason: The product's core identity is a middleware layer and gateway specifically for the Model Context Protocol.
+  evidence:
+    - Repo description explicitly calls it a 'Local-first MCP gateway'
+    - Provides a single setup for multiple clients including Claude, Cursor, and VS Code
+    - Claims ~90% token savings through lazy tool discovery
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (205) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-07T04:13:26.012Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-07T04:13:38.511Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-07T04:16:53.750Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:739f43a185a70c3940204c74a19d7d15b47a0bb6ad9f183181060575c5c43b46
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's core identity is a middleware layer and gateway specifically for the Model Context Protocol.
+      decision_evidence:
+        - Repo description explicitly calls it a 'Local-first MCP gateway'
+        - Provides a single setup for multiple clients including Claude, Cursor, and VS Code
+        - Claims ~90% token savings through lazy tool discovery
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is a dedicated protocol gateway and middleware layer rather than a simple integration designed to augment a single specific editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

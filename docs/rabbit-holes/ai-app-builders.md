@@ -50,7 +50,7 @@ Products that generate, assemble, or deploy apps, sites, internal tools, or proj
   `visual-development` `design-to-code` `cms` `figma-integration`
   </details>
 
-- **[Baserow](https://github.com/baserow/baserow)** `⭐ 5.7k` `updated ≤30d` Open-source no-code platform for building databases, automations, apps, and AI agents with self-hosting options. <details><summary>More about</summary>
+- **[Baserow](https://github.com/baserow/baserow)** `⭐ 5.8k` `updated ≤30d` Open-source no-code platform for building databases, automations, apps, and AI agents with self-hosting options. <details><summary>More about</summary>
 
   Developers can use it to rapidly create internal tools, dashboards, and workflows without writing code, while retaining full data control via self-hosting.
 

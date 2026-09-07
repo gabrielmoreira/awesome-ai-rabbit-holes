@@ -50,6 +50,15 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `memory` `rag` `knowledge-graph` `context-engineering` `agent-infra`
   </details>
 
+- **[Beads](https://github.com/gastownhall/beads)** `⭐ 26.8k` `updated ≤30d` A distributed, graph-based memory and issue-tracking layer for AI coding agents. <details><summary>More about</summary>
+
+  It enables agents to manage long-horizon tasks by replacing fragile markdown-based plans with a version-controlled, dependency-aware memory graph.
+
+  _Because if we're going to delegate our entire codebase to autonomous loops, we might as well give them a way to document their own technical debt._
+
+  `agents` `memory` `cli` `issue-tracking` `dolt`
+  </details>
+
 - **[Hindsight](https://github.com/vectorize-io/hindsight)** `⭐ 18.6k` `updated ≤90d` Hindsight is an agent memory system that enables AI agents to learn over time rather than just recall conversation history. <details><summary>More about</summary>
 
   It provides developers with a production-tested memory system that improves agent performance on long-term memory tasks through learning, not just retrieval.
@@ -167,7 +176,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `vector-database` `rag` `embeddings` `memory-backend` `cloud-native`
   </details>
 
-- **[alexgreensh/token-optimizer](https://github.com/alexgreensh/token-optimizer)** `⭐ 2k` `updated ≤30d` A utility for identifying 'ghost tokens' and managing context compaction to prevent quality decay in AI coding assistants. <details><summary>More about</summary>
+- **[alexgreensh/token-optimizer](https://github.com/alexgreensh/token-optimizer)** `⭐ 2.2k` `updated ≤30d` A utility for identifying 'ghost tokens' and managing context compaction to prevent quality decay in AI coding assistants. <details><summary>More about</summary>
 
   It helps developers reduce token costs and maintain high-quality model reasoning by optimizing how context is packed into long-running agent sessions.
 
@@ -239,7 +248,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `graph-database` `agentic-memory` `context-retrieval` `lakehouse` `multi-agent`
   </details>
 
-- **[codeabra/iai-personal-memory-engine](https://github.com/codeabra/iai-personal-memory-engine)** `⭐ 807` `updated ≤30d` A local memory server that provides long-term, verbatim conversation recall for Claude and other MCP-compatible assistants. <details><summary>More about</summary>
+- **[codeabra/iai-personal-memory-engine](https://github.com/codeabra/iai-personal-memory-engine)** `⭐ 859` `updated ≤30d` A local memory server that provides long-term, verbatim conversation recall for Claude and other MCP-compatible assistants. <details><summary>More about</summary>
 
   It removes the need to manually remind assistants of previous context by automatically capturing and injecting relevant historical conversation slices into new sessions.
 
@@ -266,7 +275,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `agent-memory` `rag` `knowledge-graph` `local-first` `context`
   </details>
 
-- **[Caura](https://github.com/caura-ai/caura)** `⭐ 461` `updated ≤30d` Caura is a governed shared memory layer for AI agent fleets that enables multi-agent knowledge sharing, retrieval, and self-improving recall under trust tiers and audit trails. <details><summary>More about</summary>
+- **[Caura](https://github.com/caura-ai/caura)** `⭐ 487` `updated ≤30d` Caura is a governed shared memory layer for AI agent fleets that enables multi-agent knowledge sharing, retrieval, and self-improving recall under trust tiers and audit trails. <details><summary>More about</summary>
 
   It solves the fragmentation of agent learning by turning individual interactions into compounding fleet intelligence, reducing redundant mistakes and token waste.
 
@@ -430,6 +439,15 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to make your AI remember why you did that thing you can’t remember doing._
 
   `mcp` `memory` `semantic-search` `developer-tools` `context-engineering`
+  </details>
+
+- **[FROWNINGdev/django-orm-lens](https://github.com/frowningdev/django-orm-lens)** `⭐ 73` `updated ≤30d` A static analysis tool for Django that provides schema intelligence through VS Code extensions, a CLI, and an MCP server. <details><summary>More about</summary>
+
+  It allows developers and AI agents to perform deep schema analysis, N+1 detection, and migration impact studies using static parsing without requiring a running database or environment.
+
+  _Because understanding your own database schema is much easier when you just outsource the archaeology to an MCP server._
+
+  `django` `mcp` `static-analysis` `orm` `python`
   </details>
 
 - **[teolex2020/AuraSDK](https://github.com/teolex2020/aura-memory)** `⭐ 73` `updated ≤90d` AuraSDK is a local, pure-Rust cognitive memory runtime that adds durable, sub-millisecond recall, governed correction, and self-adaptation to frozen AI models without cloud training or fine-tuning. <details><summary>More about</summary>
@@ -1069,6 +1087,15 @@ _These are new or low-traffic entries being watched._
   _You already paid to generate the 40k tokens, and now you need a second AI to summarize them so the first AI can afford to keep talking to you._
 
   `context-compression` `knowledge-graph` `memory` `cli` `mcp-server`
+  </details>
+
+- **[claimidx/claimidx](https://github.com/claimidx/claimidx)** `⭐ 1` `updated ≤30d` A public, signed index of software failures and verified fixes designed to prevent AI agents from repeatedly solving the same problems. <details><summary>More about</summary>
+
+  It provides agents with a shared 'failure layer' to retrieve proven remedies, reducing costly and redundant retry loops.
+
+  _The unsettling realization that your agent's primary contribution to the codebase is just paying for mistakes someone else already documented._
+
+  `agent-memory` `mcp` `error-correction` `knowledge-index`
   </details>
 
 - **[Elmoaid/TempoGraph](https://github.com/elmoaid/tempograph)** `⭐ 1` `updated ≤180d` TempoGraph is a code graph context engine that builds a tree-sitter dependency graph of a repository and exposes 24 MCP tools to help AI agents identify the exact files needed for a task. <details><summary>More about</summary>

@@ -1,0 +1,115 @@
+id: github__claimidx__claimidx
+kind: github-repo
+name: claimidx/claimidx
+canonical_url: https://github.com/claimidx/claimidx
+identity:
+  github_repo: claimidx/claimidx
+provenance:
+  discoveries:
+    - id: discovery__github__claimidx__claimidx__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-07T04:13:26.010Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: claimidx/claimidx
+        extracted_url: https://github.com/claimidx/claimidx
+        surrounding_text: "- [claimidx/claimidx](https://github.com/claimidx/claimidx) [![claimidx/claimidx MCP server](https://glama.ai/mcp/servers/claimidx/claimidx/badges/score.svg)](https://glama.ai/mcp/servers/claimidx/claimidx) 🐍 🏠 🍎 🪟 🐧 - Prior art for coding agents: a signed claim index of failures other agents have already paid to solve. Ask before you retry. Ingest after you learn. pip install \"git+https://github.com/claimidx/claimidx.git#egg=claimidx\" then claimidx-mcp."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: Apache-2.0
+    archived: false
+    full_name: claimidx/claimidx
+    html_url: https://github.com/claimidx/claimidx
+    created_at: "2026-08-29T17:43:17Z"
+    pushed_at: "2026-09-06T22:01:31Z"
+    description: Prior art for AI agents. Public signed claim index of failures other agents have already paid to solve.
+    homepage: https://claimidx.com
+    topics:
+      - a2a
+      - agent-memory
+      - agent-skills
+      - agents
+      - ai
+      - claims
+      - cloud
+      - debugging
+      - knownerror
+      - llm
+      - llms-txt
+      - local
+      - mcp
+      - prior-art
+    last_checked_at: "2026-09-07T04:13:46.311Z"
+    readme:
+      fetched_at: "2026-09-07T04:13:46.311Z"
+      bytes: 33780
+insights:
+  summary: A public, signed index of software failures and verified fixes designed to prevent AI agents from repeatedly solving the same problems.
+  why_it_matters: It provides agents with a shared 'failure layer' to retrieve proven remedies, reducing costly and redundant retry loops.
+  mental_damage: The unsettling realization that your agent's primary contribution to the codebase is just paying for mistakes someone else already documented.
+  tags:
+    - agent-memory
+    - mcp
+    - error-correction
+    - knowledge-index
+  confidence: high
+curation:
+  status: included
+  reason: The core novelty is a specialized memory and retrieval system for agentic error correction and failure state management.
+  evidence:
+    - The README defines the product as a 'compact, replay-gated index of software failures'
+    - It implements a 'retrieve → reason → attempt → observe → verify → update' loop to manage agent knowledge
+    - The project provides an MCP server to integrate this failure index into existing agentic workflows
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-07T04:13:26.012Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-07T04:13:46.311Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-07T04:17:22.112Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9ff608949c681ed67c5528732414051b485d55157dc4f50f3d171a59914ee765
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The core novelty is a specialized memory and retrieval system for agentic error correction and failure state management.
+      decision_evidence:
+        - The README defines the product as a 'compact, replay-gated index of software failures'
+        - It implements a 'retrieve → reason → attempt → observe → verify → update' loop to manage agent knowledge
+        - The project provides an MCP server to integrate this failure index into existing agentic workflows
+      category_candidates:
+        - context-engineering
+        - ai-frameworks
+      contrastive_reason: Choose context-engineering over ai-frameworks because the product's primary identity is a specialized memory and retrieval index for failure states rather than a general-purpose agent SDK or library.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

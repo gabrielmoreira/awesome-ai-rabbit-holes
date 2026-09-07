@@ -43,18 +43,26 @@ metadata:
       fetched_at: "2026-09-03T05:16:46.254Z"
       bytes: 11057
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A distributed, graph-based memory and issue-tracking layer for AI coding agents.
+  why_it_matters: It enables agents to manage long-horizon tasks by replacing fragile markdown-based plans with a version-controlled, dependency-aware memory graph.
+  mental_damage: Because if we're going to delegate our entire codebase to autonomous loops, we might as well give them a way to document their own technical debt.
+  tags:
+    - agents
+    - memory
+    - cli
+    - issue-tracking
+    - dolt
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The tool's core novelty is the structured, persistent memory and dependency graph used to provide context to coding agents.
+  evidence:
+    - Provides a dependency-aware graph to replace unreliable markdown-based task planning
+    - Uses Dolt to enable version-controlled, distributed memory across agents and machines
+    - Designed specifically to solve the long-horizon context problem for agents
 placement:
-  primary_category: null
-  section: null
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
 lifecycle:
   status: promotion_candidate
   reason: Stars (26825) exceeded threshold (150)
@@ -70,10 +78,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-03T05:20:59.286Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__gastownhall__beads: Invalid AI response format: SyntaxError: Unexpected token 'B', ...\"_reason\": Beads prim\"... is not valid JSON"
+    status: done
+    updated_at: "2026-09-07T04:15:09.426Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:7bdc5a6147e3f1a61e7cf1d30d53e3c4a5d99d5d387502dd0c643b1c505830c5
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: The tool's core novelty is the structured, persistent memory and dependency graph used to provide context to coding agents.
+      decision_evidence:
+        - Provides a dependency-aware graph to replace unreliable markdown-based task planning
+        - Uses Dolt to enable version-controlled, distributed memory across agents and machines
+        - Designed specifically to solve the long-horizon context problem for agents
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because its fundamental value is the structured memory and dependency graph used to shape the agent's context, rather than just providing a simple integration layer.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

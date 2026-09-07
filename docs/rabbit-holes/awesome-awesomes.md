@@ -113,7 +113,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `llm` `resources` `curated` `directory`
   </details>
 
-- **[awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)** `⭐ 6.5k` `updated ≤90d` A curated directory of Model Context Protocol (MCP) clients, cataloging production-ready and experimental tools that connect AI models to local and remote resources. <details><summary>More about</summary>
+- **[awesome-mcp-clients](https://github.com/punkpeye/awesome-mcp-clients)** `⭐ 6.5k` `updated ≤180d` A curated directory of Model Context Protocol (MCP) clients, cataloging production-ready and experimental tools that connect AI models to local and remote resources. <details><summary>More about</summary>
 
   It serves as a central navigation map for developers looking to equip their AI workflows with compatible client interfaces beyond the standard defaults.
 
@@ -185,7 +185,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `agent-reliability` `harness-engineering`
   </details>
 
-- **[Awesome-AI4Med](https://github.com/freedomintelligence/awesome-ai4med)** `⭐ 2.9k` `updated ≤30d` A curated collection of medical LLMs, multimodal systems, datasets, and benchmarks. <details><summary>More about</summary>
+- **[Awesome-AI4Med](https://github.com/freedomintelligence/awesome-ai4med)** `⭐ 2.9k` `updated ≤90d` A curated collection of medical LLMs, multimodal systems, datasets, and benchmarks. <details><summary>More about</summary>
 
   Provides a structured map of specialized medical models and datasets for developers building domain-specific AI applications.
 
@@ -203,7 +203,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `compilers` `deep-learning` `tensor` `machine-learning` `research`
   </details>
 
-- **[Awesome Argo](https://github.com/akuity/awesome-argo)** `⭐ 2.5k` `updated ≤30d` A curated list of projects and resources related to Argo, a CNCF graduated project for Kubernetes-native workflows, CD, rollouts, and event management. <details><summary>More about</summary>
+- **[Awesome Argo](https://github.com/akuity/awesome-argo)** `⭐ 2.5k` `updated ≤90d` A curated list of projects and resources related to Argo, a CNCF graduated project for Kubernetes-native workflows, CD, rollouts, and event management. <details><summary>More about</summary>
 
   Developers working with Kubernetes and GitOps can use this as a starting point to discover Argo ecosystem tools for workflow orchestration, continuous delivery, and deployment strategies.
 
@@ -311,7 +311,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `ai-agents` `sdk` `framework` `directory`
   </details>
 
-- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 1.1k` `updated ≤30d` Curated directory of terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
+- **[awesome-cli-coding-agents](https://github.com/bradagi/awesome-cli-coding-agents)** `⭐ 1.2k` `updated ≤30d` Curated directory of terminal-native AI coding agents and their orchestration harnesses. <details><summary>More about</summary>
 
   Developers can discover and compare CLI-based coding agents and their orchestration tools in one place.
 
@@ -347,7 +347,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `developer-tools`
   </details>
 
-- **[Awesome Vibe Coding](https://github.com/awesome-vibe-coding/awesome-vibe-coding)** `⭐ 823` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
+- **[Awesome Vibe Coding](https://github.com/awesome-vibe-coding/awesome-vibe-coding)** `⭐ 833` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
 
   It provides a centralized directory for the emerging 'vibe coding' workflow, gathering high-level builders and IDEs focused on prompt-driven development.
 

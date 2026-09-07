@@ -1,0 +1,115 @@
+id: github__20000419__fauxnix
+kind: github-repo
+name: 20000419/fauxnix
+canonical_url: https://github.com/20000419/fauxnix
+identity:
+  github_repo: 20000419/fauxnix
+provenance:
+  discoveries:
+    - id: discovery__github__20000419__fauxnix__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-07T04:13:26.010Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🖥️ <a name="command-line"></a>Command Line
+        anchor_text: 20000419/fauxnix
+        extracted_url: https://github.com/20000419/fauxnix
+        surrounding_text: "- [20000419/fauxnix](https://github.com/20000419/fauxnix) [![20000419/fauxnix MCP server](https://glama.ai/mcp/servers/20000419/fauxnix/badges/score.svg)](https://glama.ai/mcp/servers/20000419/fauxnix) 📇 🏠 🪟 - bash for AI agents on Windows via deterministic bash→PowerShell translation — no WSL, VM, or bash toolchain. MCP `bash` tool with GNU-style output, bash-style errors, coreutils exit codes, session-persisted cwd/env across calls, and per-file UTF-8/GBK sniffing (GBK files grep correctly, unlike Git Bash). Unsupported bash constructs fail loudly with the construct named; native commands (git/node/npm) pass through with argv quoting. `npm install -g fauxnix-cli`; verified with Claude Code, Codex, OpenCode, Kimi Code and Qwen Code."
+        confidence: high
+metadata:
+  github:
+    stars: 79
+    forks: 3
+    license: MIT
+    archived: false
+    full_name: 20000419/fauxnix
+    html_url: https://github.com/20000419/fauxnix
+    created_at: "2026-08-16T02:03:17Z"
+    pushed_at: "2026-09-07T02:59:00Z"
+    description: Run Linux-style commands on Windows via deterministic bash→PowerShell translation. No VM, no WSL. MCP server + CLI built for AI agents (Claude Code, Codex, OpenCode...). GNU-style output, bash-style errors, UTF-8/GBK handled.
+    homepage: null
+    topics:
+      - ai-agents
+      - bash
+      - claude-code
+      - cli
+      - codex
+      - coreutils
+      - mcp
+      - mcp-server
+      - opencode
+      - powershell
+      - shell
+      - translator
+      - windows
+    last_checked_at: "2026-09-07T04:13:27.189Z"
+    readme:
+      fetched_at: "2026-09-07T04:13:27.189Z"
+      bytes: 15438
+insights:
+  summary: A bash-to-PowerShell translation layer and MCP server that allows AI agents to execute Linux-style commands on Windows without a VM or WSL.
+  why_it_matters: It bridges the gap between an LLM's training (dominated by bash) and the Windows environment, significantly reducing tool-call errors and execution latency.
+  mental_damage: Because why spend time configuring a proper subsystem when you can just gaslight an LLM into thinking it's on Linux?
+  tags:
+    - windows
+    - mcp
+    - bash
+    - powershell
+    - cli
+  confidence: high
+curation:
+  status: included
+  reason: The tool's primary identity is an MCP server designed to provide a specific domain capability (bash-style command execution) to agentic hosts.
+  evidence:
+    - Repo description explicitly identifies it as an 'MCP server + CLI built for AI agents'.
+    - README benchmarks show a significant reduction in errors when agents use this translation layer instead of native PowerShell.
+    - The project is included in the 'awesome-mcp-servers' directory.
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-07T04:13:26.011Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-07T04:13:27.189Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-07T04:16:56.337Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:c9f69e1dc33bff59428385558297ef027d7dfa89c2282b3b52415bfa81ceafc4
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is an MCP server designed to provide a specific domain capability (bash-style command execution) to agentic hosts.
+      decision_evidence:
+        - Repo description explicitly identifies it as an 'MCP server + CLI built for AI agents'.
+        - README benchmarks show a significant reduction in errors when agents use this translation layer instead of native PowerShell.
+        - The project is included in the 'awesome-mcp-servers' directory.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because its core product identity is a specialized MCP server meant to be plugged into any compatible agent harness.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -73,9 +73,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-27T06:08:51.311Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-07T04:13:51.432Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for conda/conda
     next_retry_at: null
   categorize:
     status: done

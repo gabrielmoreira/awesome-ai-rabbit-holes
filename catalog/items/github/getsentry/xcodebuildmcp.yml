@@ -46,23 +46,23 @@ metadata:
       fetched_at: "2026-09-03T05:16:49.261Z"
       bytes: 5895
 insights:
-  summary: An MCP server and CLI that lets AI coding agents build, run, and manage iOS and macOS projects via Xcode.
-  why_it_matters: It gives agents reliable, programmatic access to the Xcode toolchain so they can build, install to simulators, and debug Apple platform apps without manual Xcode interaction.
-  mental_damage: You finally automated the one part of iOS development that was still keeping you sane by forcing you to occasionally look at a real device.
+  summary: An MCP server and CLI that enables AI agents to build, test, and manage iOS and macOS projects using xcodebuild.
+  why_it_matters: It allows coding agents to bridge the gap between general code generation and the highly specific, local requirements of the Apple development toolchain.
+  mental_damage: Because your LLM was only one specialized MCP server away from actually being able to manage your entire Xcode build pipeline.
   tags:
     - mcp
     - xcode
-    - ios
-    - macos
+    - ios-dev
+    - macos-dev
     - agent-tools
   confidence: high
 curation:
   status: included
-  reason: "MCP is the core product identity: the repo is literally an MCP server for Xcode, not a general framework or a standalone coding assistant."
+  reason: The tool is explicitly an MCP server designed to provide domain-specific capabilities (Xcode/macOS) to AI agents.
   evidence:
-    - "Repo description: 'A Model Context Protocol (MCP) server and CLI that provides tools for agent use when working on iOS and macOS projects.'"
-    - Topics include mcp, mcp-server, and model-context-protocol-servers.
-    - Listed in awesome-mcp-servers under Community Servers.
+    - Repo description explicitly identifies it as an MCP server and CLI
+    - README details specific tools for building for simulators and running tests via xcodebuild
+    - Provides specialized instructions (skills) for agents to navigate the CLI and MCP server
 placement:
   primary_category: mcp
   section: Domain Servers
@@ -81,12 +81,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-03T05:22:49.422Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__getsentry__xcodebuildmcp: Invalid AI response format: SyntaxError: Unexpected token 'T', ...\"_reason\": The projec\"... is not valid JSON"
+    status: done
+    updated_at: "2026-09-07T04:15:34.442Z"
+    cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3d3d8a8bcd1032cc97419e54a17a69998ebd4e5cab2d2b551f50c0e48f040db0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is explicitly an MCP server designed to provide domain-specific capabilities (Xcode/macOS) to AI agents.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server and CLI
+        - README details specific tools for building for simulators and running tests via xcodebuild
+        - Provides specialized instructions (skills) for agents to navigate the CLI and MCP server
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool's primary identity is a domain-specific MCP server rather than a generic integration layer for an editor.
+      review_reason: null
+      review_resume_lifecycle: null

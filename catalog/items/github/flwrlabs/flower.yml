@@ -59,26 +59,25 @@ metadata:
       fetched_at: "2026-09-03T05:16:42.020Z"
       bytes: 11686
 insights:
-  summary: Flower is an open-source framework for building federated learning systems that allows developers to train models across decentralized devices using various ML libraries like PyTorch and TensorFlow.
-  why_it_matters: It abstracts away the networking and aggregation logic, letting developers focus on model code while deploying training across edge devices, mobile, and heterogeneous fleets.
-  mental_damage: Now you can add 'federated learning infrastructure' to the list of things you are expected to productionize while trying to figure out if your AI assistant is actually writing useful code.
+  summary: A framework for building federated AI systems that enables decentralized machine learning training.
+  why_it_matters: It allows developers to train models on distributed, private data without the need to move the data to a central server.
+  mental_damage: Now you can debug distributed training failures across a thousand fragmented edge devices.
   tags:
     - federated-learning
-    - ml-framework
-    - pytorch
-    - tensorflow
-    - distributed
+    - framework
+    - machine-learning
+    - distributed-systems
   confidence: high
 curation:
-  status: excluded
-  reason: While it is a strong developer tool, Flower is a federated machine learning research and training framework, which falls outside the catalog's scope of AI coding assistants, developer workflows, and prompt/agent infrastructure.
+  status: included
+  reason: Flower is a code-first framework used to programmatically build and extend federated learning workflows, rather than an operated workbench.
   evidence:
-    - "Repo description explicitly states 'Flower: A Friendly Federated AI Framework', focusing on ML training rather than code assistance."
-    - README details integration with PyTorch, TensorFlow, and mobile devices for decentralized model training, not repo editing or coding agents.
-    - Listed in Awesome-LLMOps under 'Federated ML', confirming its identity as an ML infrastructure tool rather than a developer productivity tool.
+    - Repo description identifies it as a federated AI framework
+    - README confirms it is framework-agnostic, supporting PyTorch, TensorFlow, and JAX
+    - 7,103 stars and recent activity indicate significant ecosystem traction
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: promotion_candidate
   reason: Stars (6880) exceeded threshold (150)
@@ -94,12 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-03T05:17:43.300Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__flwrlabs__flower: Invalid AI response structure: Included responses must use 'Choose X over Y because...' with X and Y matching ranked category_candidates"
+    status: done
+    updated_at: "2026-09-07T04:14:37.955Z"
+    cause: null
     next_retry_at: null
-    attempts: 4
+    attempts: 5
     prompt_version: catalog-categorize-v5-single-template
-    category_rules_version: "77e831995030"
+    category_rules_version: 6cc474a86022
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:23616caddaac5062704d072e03be9d5ee8dbd787f5734a3020be5791afd58f44
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: Flower is a code-first framework used to programmatically build and extend federated learning workflows, rather than an operated workbench.
+      decision_evidence:
+        - Repo description identifies it as a federated AI framework
+        - README confirms it is framework-agnostic, supporting PyTorch, TensorFlow, and JAX
+        - 7,103 stars and recent activity indicate significant ecosystem traction
+      category_candidates:
+        - ai-frameworks
+        - agent-orchestration
+      contrastive_reason: Choose ai-frameworks over agent-orchestration because the primary interaction is through a code-first SDK/library rather than an operated control plane or workbench.
+      review_reason: null
+      review_resume_lifecycle: null

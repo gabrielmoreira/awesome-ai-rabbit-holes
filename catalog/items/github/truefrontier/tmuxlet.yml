@@ -1,9 +1,9 @@
-id: github__codefilabs__tmuxlet
+id: github__truefrontier__tmuxlet
 kind: github-repo
 name: tmuxlet
-canonical_url: https://github.com/codefilabs/tmuxlet
+canonical_url: https://github.com/truefrontier/tmuxlet
 identity:
-  github_repo: codefilabs/tmuxlet
+  github_repo: truefrontier/tmuxlet
 provenance:
   discoveries:
     - id: discovery__github__codefilabs__tmuxlet__awesome-list__bradagi__awesome-cli-coding-agents
@@ -28,27 +28,27 @@ metadata:
     forks: 0
     license: MIT
     archived: false
-    full_name: CodefiLabs/tmuxlet
-    html_url: https://github.com/CodefiLabs/tmuxlet
+    full_name: truefrontier/tmuxlet
+    html_url: https://github.com/truefrontier/tmuxlet
     created_at: "2026-05-14T17:56:34Z"
     pushed_at: "2026-08-10T16:25:25Z"
     description: null
     homepage: null
     topics: []
-    last_checked_at: "2026-08-27T06:08:48.479Z"
+    last_checked_at: "2026-09-07T04:13:48.437Z"
     readme:
-      fetched_at: "2026-08-27T06:08:48.479Z"
+      fetched_at: "2026-09-07T04:13:48.437Z"
       bytes: 26237
 insights:
   summary: A Rust-based wrapper that runs interactive coding CLIs inside tmux to provide a programmatic, print-mode interface.
   why_it_matters: It allows developers to automate coding agents like Claude Code while bypassing the separate, more restrictive 'Agent SDK' billing pools by simulating a human interactive session.
   mental_damage: The peak of AI engineering is now using a terminal multiplexer to trick your provider's billing system into thinking you're a human who types really fast.
   tags:
-    - cli
     - automation
-    - tmux
     - billing-hack
+    - cli
     - coding-agents
+    - tmux
   confidence: high
 curation:
   status: included
@@ -64,16 +64,6 @@ lifecycle:
   status: incubating
   reason: null
 processing:
-  discover:
-    status: done
-    updated_at: "2026-06-18T05:40:04.066Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-08-27T06:08:48.479Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-06-18T05:42:51.808Z"
@@ -81,4 +71,14 @@ processing:
     attempts: 1
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
+    next_retry_at: null
+  discover:
+    status: done
+    updated_at: "2026-06-18T05:40:04.066Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-07T04:13:48.437Z"
+    cause: null
     next_retry_at: null
