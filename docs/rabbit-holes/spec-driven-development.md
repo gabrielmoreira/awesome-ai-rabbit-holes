@@ -32,7 +32,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `agent-orchestration` `workflow-automation` `ai-collaboration` `agile`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 24k` `updated ≤30d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 24.3k` `updated ≤30d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
 
   It attempts to standardize how developers communicate environment tips, testing requirements, and PR guidelines directly to autonomous agents.
 
@@ -104,7 +104,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `codebase-indexing` `prd` `multi-agent`
   </details>
 
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 473` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 488` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
 
   It provides a formal framework to prevent complex multi-agent or human-AI projects from devolving into incoherent, unreviewable conversational loops.
 
@@ -152,6 +152,15 @@ Tooling where specifications are the primary artifact for planning, validation, 
 ## Incubating
 
 _These are new or low-traffic entries being watched._
+
+- **[alfredoperez/speckit-companion](https://github.com/alfredoperez/speckit-companion)** `⭐ 89` `updated ≤30d` VS Code extension for managing and reviewing the specifications used to steer AI coding agents. <details><summary>More about</summary>
+
+  It provides a dedicated workspace to oversee the spec lifecycle, ensuring AI agents follow precise plans instead of drifting into incorrect implementations.
+
+  _Because managing the specs that guide your AI is quickly becoming a full-time job in itself._
+
+  `vscode-extension` `spec-driven` `ai-agents` `workflow-tools`
+  </details>
 
 - **[fspec](https://github.com/sengac/fspec)** `⭐ 79` `updated ≤90d` fspec is a CLI and interactive kanban system that enforces spec-driven development, Gherkin scenarios, and TDD guardrails for AI coding agents. <details><summary>More about</summary>
 

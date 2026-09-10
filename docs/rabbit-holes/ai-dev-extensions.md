@@ -122,7 +122,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `ml-visualization` `model-inspection` `debugging`
   </details>
 
-- **[anypost/emailmd](https://github.com/anypost/emailmd)** `⭐ 1.3k` `updated ≤30d` emailmd converts markdown into responsive, email-safe HTML for cross-client email rendering. <details><summary>More about</summary>
+- **[anypost/emailmd](https://github.com/anypost/emailmd)** `⭐ 1.4k` `updated ≤30d` emailmd converts markdown into responsive, email-safe HTML for cross-client email rendering. <details><summary>More about</summary>
 
   It eliminates the pain of writing raw HTML for emails by letting developers use familiar markdown syntax while ensuring deliverability across email clients.
 
@@ -203,7 +203,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `claude-code` `mobile` `devcontainer` `worktrees` `session-management`
   </details>
 
-- **[claude-cmd](https://github.com/kiliczsh/claude-cmd)** `⭐ 313` `updated ≤180d` A CLI tool for managing Claude Code commands, configurations, and MCP servers. <details><summary>More about</summary>
+- **[claude-cmd](https://github.com/kiliczsh/claude-cmd)** `⭐ 313` `updated ≤1y` A CLI tool for managing Claude Code commands, configurations, and MCP servers. <details><summary>More about</summary>
 
   It centralizes command discovery, project-specific CLAUDE.md setup, and MCP server management for developers using Claude AI.
 
@@ -248,7 +248,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `llm-proxy` `token-management` `claude-code` `api-gateway` `ai-infrastructure`
   </details>
 
-- **[agenticmail/agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 212` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
+- **[agenticmail/agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 219` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
 
   It enables agents to move beyond the terminal by interacting with the world through standard communication channels like phone and email.
 
@@ -288,7 +288,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
 
 _These are new or low-traffic entries being watched._
 
-- **[alex-on-ai/WebReaper](https://github.com/alex-on-ai/webreaper)** `⭐ 146` `updated ≤90d` An AI-native web scraper and crawler that provides markdown output and includes a bundled Claude Code skill. <details><summary>More about</summary>
+- **[alex-on-ai/WebReaper](https://github.com/alex-on-ai/webreaper)** `⭐ 147` `updated ≤90d` An AI-native web scraper and crawler that provides markdown output and includes a bundled Claude Code skill. <details><summary>More about</summary>
 
   It enables developers to feed structured web content directly into coding agents or applications via a single binary or.NET library.
 
@@ -351,7 +351,7 @@ _These are new or low-traffic entries being watched._
   `ebpf` `agent-security` `sandboxing` `runtime-enforcement` `linux`
   </details>
 
-- **[hechtcarmel/jetbrains-debugger-mcp-plugin](https://github.com/hechtcarmel/jetbrains-debugger-mcp-plugin)** `⭐ 92` `updated ≤90d` A JetBrains IDE plugin that exposes an MCP server for AI assistants to programmatically control the debugger. <details><summary>More about</summary>
+- **[hechtcarmel/jetbrains-debugger-mcp-plugin](https://github.com/hechtcarmel/jetbrains-debugger-mcp-plugin)** `⭐ 92` `updated ≤180d` A JetBrains IDE plugin that exposes an MCP server for AI assistants to programmatically control the debugger. <details><summary>More about</summary>
 
   Enables AI coding assistants to autonomously debug code by setting breakpoints, stepping through execution, inspecting variables, and evaluating expressions.
 
@@ -369,7 +369,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `memory` `claude-code` `search`
   </details>
 
-- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 86` `updated ≤90d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
+- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 88` `updated ≤90d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
 
   It prevents credential sprawl by centralizing secret management and ensuring agents never see long-lived tokens, reducing the risk of exfiltration during autonomous runs.
 
@@ -504,6 +504,15 @@ _These are new or low-traffic entries being watched._
   `security` `mcp` `scanner` `rust` `local-first`
   </details>
 
+- **[acunningham-ship-it/veilbrowser](https://github.com/acunningham-ship-it/veilbrowser)** `⭐ 41` `updated ≤30d` A TypeScript-native stealth browser driver that uses raw CDP to bypass bot detection for AI agents. <details><summary>More about</summary>
+
+  It enables AI agents to interact with high-security websites like Google or Cloudflare-protected pages that typically block standard automation tools like Playwright.
+
+  _We have officially reached the stage of the AI revolution where the primary development task is outrunning Cloudflare's bot detection._
+
+  `browser-automation` `mcp` `typescript` `stealth-browser` `ai-agents`
+  </details>
+
 - **[TT-Wang/forge](https://github.com/tt-wang/forge)** `⭐ 37` `updated ≤90d` A Claude Code plugin that wraps the assistant in a plan-execute-validate loop with parallel worktrees, intelligent retry, and cross-session memory. <details><summary>More about</summary>
 
   It turns open-ended prompting into a structured, resumable delivery workflow for multi-file features, with built-in validation and parallel execution so developers spend less time manually coordinating Claude Code.
@@ -630,6 +639,15 @@ _These are new or low-traffic entries being watched._
   `governance` `ai-agents` `audit-trails` `task-management` `claude-code`
   </details>
 
+- **[cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge)** `⭐ 13` `updated ≤30d` A bridge that connects Claude Cowork (cloud-based) to Claude Code (local terminal) to allow web-based chats to execute commands on a local machine. <details><summary>More about</summary>
+
+  It allows developers to leverage the planning capabilities of web-based Claude chats while granting them the ability to actually execute code and manage files in a local environment.
+
+  _Nothing says 'odern developer workflow' like installing a bridge just so your browser can safely execute shell commands on your laptop._
+
+  `claude-code` `bridge` `automation` `cli` `remote-execution`
+  </details>
+
 - **[LionClaw](https://github.com/moshthepitt/lionclaw)** `⭐ 13` `updated ≤90d` A local Rust-based CLI that wraps existing coding agents like Codex and OpenCode with a secure sandbox, durable sessions, scheduled jobs, and credential management. <details><summary>More about</summary>
 
   It lets developers reuse their preferred terminal agents while adding a hardened security boundary, persistent context, and long-running workflows without modifying the agents themselves.
@@ -655,15 +673,6 @@ _These are new or low-traffic entries being watched._
   _Now your AI agent can finally pretend to be a 10x developer by typing `vim` commands at 1000 WPM._
 
   `terminal-automation` `mcp-server` `cli-integration` `headless` `node-pty`
-  </details>
-
-- **[cowork-to-code-bridge](https://github.com/abhinaykrupa/cowork-to-code-bridge)** `⭐ 12` `updated ≤90d` A bridge that connects Claude Cowork (cloud-based) to Claude Code (local terminal) to allow web-based chats to execute commands on a local machine. <details><summary>More about</summary>
-
-  It allows developers to leverage the planning capabilities of web-based Claude chats while granting them the ability to actually execute code and manage files in a local environment.
-
-  _Nothing says 'odern developer workflow' like installing a bridge just so your browser can safely execute shell commands on your laptop._
-
-  `claude-code` `bridge` `automation` `cli` `remote-execution`
   </details>
 
 - **[machine](https://github.com/katspaugh/machine)** `⭐ 12` `updated ≤90d` A tool that boots an isolated Lima VM for each GitHub project to provide a sandboxed environment for AI agents like Claude Code. <details><summary>More about</summary>
@@ -756,7 +765,7 @@ _These are new or low-traffic entries being watched._
   `command-execution` `ai-agents` `security` `mcp` `rust`
   </details>
 
-- **[tmuxlet](https://github.com/truefrontier/tmuxlet)** `⭐ 7` `updated ≤30d` A Rust-based wrapper that runs interactive coding CLIs inside tmux to provide a programmatic, print-mode interface. <details><summary>More about</summary>
+- **[tmuxlet](https://github.com/truefrontier/tmuxlet)** `⭐ 7` `updated ≤90d` A Rust-based wrapper that runs interactive coding CLIs inside tmux to provide a programmatic, print-mode interface. <details><summary>More about</summary>
 
   It allows developers to automate coding agents like Claude Code while bypassing the separate, more restrictive 'Agent SDK' billing pools by simulating a human interactive session.
 
@@ -808,6 +817,15 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to give your coding agent a structured roadmap for exactly how it is failing to fix your API._
 
   `cli` `api-testing` `yaml` `mcp` `rust`
+  </details>
+
+- **[andreilungeanu/cursor-delegate-mcp](https://github.com/andreilungeanu/cursor-delegate-mcp)** `⭐ 4` `updated ≤30d` An MCP server that allows coding assistants like Claude Code or GitHub Copilot to delegate multi-file implementation tasks to Cursor's Composer engine. <details><summary>More about</summary>
+
+  It enables developers to use high-reasoning frontier models for planning and review while offloading token-heavy boilerplate implementation to Cursor's specialized environment.
+
+  _Because why use one model efficiently when you can orchestrate a high-stakes handoff between two different AI ecosystems?_
+
+  `mcp` `cursor` `claude-code` `automation` `workflow`
   </details>
 
 - **[megazord](https://github.com/sh3rd3n/megazord)** `⭐ 3` `updated ≤1y` A Claude Code plugin that adds project management, code quality workflows, and native multi-agent coordination via Agent Teams. <details><summary>More about</summary>
@@ -873,7 +891,7 @@ _These are new or low-traffic entries being watched._
   `claude-code` `mcp` `plugin` `wellness` `break-reminder`
   </details>
 
-- **[snaprender-integrations](https://github.com/user0856/snaprender-integrations)** `⭐ 2` `updated ≤90d` SnapRender Integrations provides MCP servers, SDKs, and agent framework plugins for the SnapRender Screenshot API. <details><summary>More about</summary>
+- **[snaprender-integrations](https://github.com/user0856/snaprender-integrations)** `⭐ 2` `updated ≤180d` SnapRender Integrations provides MCP servers, SDKs, and agent framework plugins for the SnapRender Screenshot API. <details><summary>More about</summary>
 
   Developers can programmatically capture and cache website screenshots from AI agents and workflows using standard MCP and SDK interfaces.
 

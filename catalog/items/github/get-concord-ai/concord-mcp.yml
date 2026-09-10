@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/get-concord-ai/concord-mcp
         surrounding_text: "- **[Concord MCP](https://github.com/Get-Concord-AI/concord-mcp)** `⭐ 238` — Local-first MCP server plus a `concord` CLI and TUI giving coding agents shared work state: cross-harness messaging, file-claim overlap detection before edits, task handoff with evidence, and a live dashboard. Works with Claude Code, Codex, Cursor, Gemini CLI, and Grok Build. MIT."
         confidence: high
+    - id: discovery__github__get-concord-ai__concord-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: Get-Concord-AI/concord-mcp
+        extracted_url: https://github.com/get-concord-ai/concord-mcp
+        surrounding_text: "- [Get-Concord-AI/concord-mcp](https://github.com/Get-Concord-AI/concord-mcp) [![Get-Concord-AI/concord-mcp MCP server](https://glama.ai/mcp/servers/Get-Concord-AI/concord-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Get-Concord-AI/concord-mcp) 📇 🏠 🍎 🪟 🐧 - Cross-harness communication and shared work-state for Claude Code, Codex, Cursor, Gemini CLI, and Grok Build. Agents exchange live messages, claim scope before editing, preserve decisions, and hand off evidence through five MCP workflow tools."
+        confidence: high
 metadata:
   github:
     stars: 306
@@ -76,7 +92,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T06:08:24.607Z"
+    updated_at: "2026-09-10T04:12:32.935Z"
     cause: null
     next_retry_at: null
   stars:

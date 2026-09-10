@@ -1,0 +1,112 @@
+id: github__acunningham-ship-it__veilbrowser
+kind: github-repo
+name: acunningham-ship-it/veilbrowser
+canonical_url: https://github.com/acunningham-ship-it/veilbrowser
+identity:
+  github_repo: acunningham-ship-it/veilbrowser
+provenance:
+  discoveries:
+    - id: discovery__github__acunningham-ship-it__veilbrowser__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: acunningham-ship-it/veilbrowser
+        extracted_url: https://github.com/acunningham-ship-it/veilbrowser
+        surrounding_text: "- [acunningham-ship-it/veilbrowser](https://github.com/acunningham-ship-it/veilbrowser) [![acunningham-ship-it/veilbrowser MCP server](https://glama.ai/mcp/servers/acunningham-ship-it/veilbrowser/badges/score.svg)](https://glama.ai/mcp/servers/acunningham-ship-it/veilbrowser) 📇 🐍 🏠 - Stealth browser automation over raw CDP, driving real unmodified Chrome with no Playwright or Puppeteer in the stack. Returns numbered element refs from the accessibility tree instead of CSS selectors, and can attach to an already-running Chrome to reuse logged-in sessions."
+        confidence: high
+metadata:
+  github:
+    stars: 41
+    forks: 7
+    license: MIT
+    archived: false
+    full_name: acunningham-ship-it/veilbrowser
+    html_url: https://github.com/acunningham-ship-it/veilbrowser
+    created_at: "2026-06-09T12:33:44Z"
+    pushed_at: "2026-08-31T21:47:51Z"
+    description: Stealth browser for AI agents — real Chrome over raw CDP, no Playwright/Puppeteer. TypeScript + MCP-native. Passes sannysoft 57/57, bypasses Cloudflare.
+    homepage: null
+    topics:
+      - ai-agents
+      - anti-detection
+      - automation
+      - browser-automation
+      - cdp
+      - chrome-devtools-protocol
+      - mcp
+      - stealth-browser
+      - typescript
+      - web-scraping
+    last_checked_at: "2026-09-10T04:12:39.220Z"
+    readme:
+      fetched_at: "2026-09-10T04:12:39.220Z"
+      bytes: 33764
+insights:
+  summary: A TypeScript-native stealth browser driver that uses raw CDP to bypass bot detection for AI agents.
+  why_it_matters: It enables AI agents to interact with high-security websites like Google or Cloudflare-protected pages that typically block standard automation tools like Playwright.
+  mental_damage: We have officially reached the stage of the AI revolution where the primary development task is outrunning Cloudflare's bot detection.
+  tags:
+    - browser-automation
+    - mcp
+    - typescript
+    - stealth-browser
+    - ai-agents
+  confidence: high
+curation:
+  status: included
+  reason: It functions as an augmentation layer that provides browser automation capabilities to existing agents and editors, primarily via its MCP server implementation.
+  evidence:
+    - TypeScript-native library and MCP-native server
+    - Uses raw CDP to bypass Cloudflare and sannysoft detection
+    - Designed to give agents access to real Chrome sessions and FedCM (Google SSO)
+placement:
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:12:39.220Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:14:01.470Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:526f6006196f84026b1184ac5574b73e30298df319e31cc4e4973a4ef5f54909
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: It functions as an augmentation layer that provides browser automation capabilities to existing agents and editors, primarily via its MCP server implementation.
+      decision_evidence:
+        - TypeScript-native library and MCP-native server
+        - Uses raw CDP to bypass Cloudflare and sannysoft detection
+        - Designed to give agents access to real Chrome sessions and FedCM (Google SSO)
+      category_candidates:
+        - ai-dev-extensions
+        - ai-frameworks
+      contrastive_reason: Choose ai-dev-extensions over ai-frameworks because the tool's core identity is providing a browser capability to existing agents/hosts rather than acting as a structural orchestration framework.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

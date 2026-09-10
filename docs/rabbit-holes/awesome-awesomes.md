@@ -203,7 +203,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `compilers` `deep-learning` `tensor` `machine-learning` `research`
   </details>
 
-- **[Awesome Argo](https://github.com/akuity/awesome-argo)** `⭐ 2.5k` `updated ≤90d` A curated list of projects and resources related to Argo, a CNCF graduated project for Kubernetes-native workflows, CD, rollouts, and event management. <details><summary>More about</summary>
+- **[Awesome Argo](https://github.com/akuity/awesome-argo)** `⭐ 2.5k` `updated ≤30d` A curated list of projects and resources related to Argo, a CNCF graduated project for Kubernetes-native workflows, CD, rollouts, and event management. <details><summary>More about</summary>
 
   Developers working with Kubernetes and GitOps can use this as a starting point to discover Argo ecosystem tools for workflow orchestration, continuous delivery, and deployment strategies.
 
@@ -221,7 +221,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `autodl` `automl` `awesome-list` `neural-architecture-search` `hyperparameter-optimization`
   </details>
 
-- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 2k` `updated ≤180d` A curated directory of AI-powered coding tools including editors, agents, and productivity utilities. <details><summary>More about</summary>
+- **[awesome-ai-coding-tools](https://github.com/ai-for-developers/awesome-ai-coding-tools)** `⭐ 2.1k` `updated ≤180d` A curated directory of AI-powered coding tools including editors, agents, and productivity utilities. <details><summary>More about</summary>
 
   It provides a central navigation point to discover the rapidly evolving ecosystem of AI-native development tools.
 
@@ -329,7 +329,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `automl` `awesome-list` `research`
   </details>
 
-- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 884` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
+- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 886` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
 
   Provides a centralized starting point for developers to navigate the rapidly shifting landscape of LLM architectures and agentic patterns.
 
@@ -338,7 +338,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `llm` `learning-resources` `agents` `multimodal`
   </details>
 
-- **[awesome-mcp-list](https://github.com/mobinx/awesome-mcp-list)** `⭐ 880` `updated ≤180d` A curated directory of Model Context Protocol (MCP) servers organized by domain, including browser control, art, cloud platforms, and other integrations. <details><summary>More about</summary>
+- **[awesome-mcp-list](https://github.com/mobinx/awesome-mcp-list)** `⭐ 880` `updated ≤1y` A curated directory of Model Context Protocol (MCP) servers organized by domain, including browser control, art, cloud platforms, and other integrations. <details><summary>More about</summary>
 
   It serves as a centralized map for developers navigating the rapidly expanding ecosystem of MCP-compatible tools and servers.
 
@@ -423,7 +423,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
 
 _These are new or low-traffic entries being watched._
 
-- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 148` `updated ≤1y` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
+- **[Awesome AI Agents](https://github.com/alternbits/awesome-ai-agents)** `⭐ 149` `updated ≤1y` A curated list of AI agents, categorized into open-source and closed-source projects. <details><summary>More about</summary>
 
   Provides developers with a navigable directory of agent frameworks, tools, and platforms to explore or integrate into their workflows.
 
@@ -486,7 +486,7 @@ _These are new or low-traffic entries being watched._
   `api-directory` `agent-economy` `l402` `lightning-network` `payments`
   </details>
 
-- **[awesome-ai-agents](https://github.com/heurema/awesome-ai-agents)** `⭐ 2` `updated ≤1y` Curated collection of tools, frameworks, research papers, and tutorials for building AI agents, multi-agent systems, LLM-based orchestration, memory, planning, tool use, and evaluation. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/heurema/awesome-ai-agents)** `⭐ 2` `updated >1y` Curated collection of tools, frameworks, research papers, and tutorials for building AI agents, multi-agent systems, LLM-based orchestration, memory, planning, tool use, and evaluation. <details><summary>More about</summary>
 
   Provides a centralized starting point for developers to discover and navigate the fragmented landscape of AI agent frameworks and tooling.
 

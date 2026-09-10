@@ -1,0 +1,110 @@
+id: github__adecubed__gigamail
+kind: github-repo
+name: adecubed/gigamail
+canonical_url: https://github.com/adecubed/gigamail
+identity:
+  github_repo: adecubed/gigamail
+provenance:
+  discoveries:
+    - id: discovery__github__adecubed__gigamail__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💬 <a name="communication"></a>Communication
+        anchor_text: adecubed/gigamail
+        extracted_url: https://github.com/adecubed/gigamail
+        surrounding_text: "- [adecubed/gigamail](https://github.com/adecubed/gigamail) [![adecubed/gigamail MCP server](https://glama.ai/mcp/servers/adecubed/gigamail/badges/score.svg)](https://glama.ai/mcp/servers/adecubed/gigamail) 🐍 ☁️ 🏠 🍎 🪟 🐧 - Your real mailbox and calendar for your agent (Microsoft 365 via Graph, or any IMAP): 24 tools for reading, search, attachment text, sender history, drafting from identity and knowledge files, and free-slot computation — with out-of-band human approval on every send, reply, delete and calendar write, so the agent cannot approve its own actions. `pip install \"gigamail[all]\"`."
+        confidence: high
+metadata:
+  github:
+    stars: 5
+    forks: 0
+    license: AGPL-3.0
+    archived: false
+    full_name: adecubed/gigamail
+    html_url: https://github.com/adecubed/gigamail
+    created_at: "2026-08-12T20:35:12Z"
+    pushed_at: "2026-09-09T16:46:04Z"
+    description: "Mail for AI agents ( and humans). MCP server giving Claude (or any agent) safe, permission-controlled access to email (Microsoft Graph + IMAP), calendar and your knowledge files. Two-phase confirmation for sends, audit log, local index. No built-in LLM: your agent brings the intelligence."
+    homepage: https://gigamail.ai
+    topics:
+      - calendar
+      - human-in-the-loop
+      - imap
+      - llm-tools
+      - mail
+      - mcp
+      - mcp-tools
+      - model-context-protocol
+    last_checked_at: "2026-09-10T04:12:39.485Z"
+    readme:
+      fetched_at: "2026-09-10T04:12:39.485Z"
+      bytes: 28525
+insights:
+  summary: An MCP server that provides AI agents with secure, permission-controlled access to email, calendars, and local knowledge files.
+  why_it_matters: It allows agents to participate in communication workflows through a human-in-the-loop permission model and local data indexing.
+  mental_damage: Because nothing says 'seamless automation' like having to manually approve every single email your agent drafts to ensure it doesn't accidentally commit professional suicide.
+  tags:
+    - mcp
+    - email
+    - agents
+    - human-in-the-loop
+    - productivity
+  confidence: high
+curation:
+  status: included
+  reason: The tool's primary identity is a domain-specific MCP server that provides a protocol-based interface for agents to interact with communication tools.
+  evidence:
+    - Explicitly identifies as an MCP server for Claude and other clients
+    - Includes features like sender memory, hybrid search, and agent-aware permissions
+    - Provides a specific protocol implementation for email and calendar access
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:12:39.485Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:13:40.879Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:675c2dc75202aa4f0da60fae4a51591eaf337c69f98f3d4bc2acf2f09149c4c1
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is a domain-specific MCP server that provides a protocol-based interface for agents to interact with communication tools.
+      decision_evidence:
+        - Explicitly identifies as an MCP server for Claude and other clients
+        - Includes features like sender memory, hybrid search, and agent-aware permissions
+        - Provides a specific protocol implementation for email and calendar access
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because its primary product identity is a specialized MCP server providing domain-specific capabilities rather than a general host integration.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -1,0 +1,110 @@
+id: github__awarselabs__awarse-mcp
+kind: github-repo
+name: awarselabs/awarse-mcp
+canonical_url: https://github.com/awarselabs/awarse-mcp
+identity:
+  github_repo: awarselabs/awarse-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__awarselabs__awarse-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: awarselabs/awarse-mcp
+        extracted_url: https://github.com/awarselabs/awarse-mcp
+        surrounding_text: "- [awarselabs/awarse-mcp](https://github.com/awarselabs/awarse-mcp) [![awarselabs/awarse-mcp MCP server](https://glama.ai/mcp/servers/awarselabs/awarse-mcp/badges/score.svg)](https://glama.ai/mcp/servers/awarselabs/awarse-mcp) 📇 🏠 - Self-healing browser automation MCP server integrating Playwright with LLM-assisted locator repair."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: awarselabs/awarse-mcp
+    html_url: https://github.com/awarselabs/awarse-mcp
+    created_at: "2026-06-14T13:31:33Z"
+    pushed_at: "2026-09-09T12:17:21Z"
+    description: Model Context Protocol (MCP) server for automated test heal, Playwright orchestration, and AI-assisted QA workflows.
+    homepage: https://awarselabs.com
+    topics:
+      - ai-agents
+      - glama
+      - mcp
+      - model-context-protocol
+      - playwright
+      - qa-automation
+      - test-automation
+      - typescript
+    last_checked_at: "2026-09-10T04:13:00.131Z"
+    readme:
+      fetched_at: "2026-09-10T04:13:00.131Z"
+      bytes: 7836
+insights:
+  summary: A suite of MCP servers providing Playwright test self-healing and GitHub license management capabilities.
+  why_it_matters: It enables LLMs to autonomously repair broken end-to-end test locators and manage SaaS seat sprawl via the Model Context Protocol.
+  mental_damage: Because we've reached the point where the only way to keep a CI pipeline green is to let an LLM hot-fix your test code in real-time.
+  tags:
+    - mcp
+    - playwright
+    - qa-automation
+    - finops
+    - self-healing
+  confidence: high
+curation:
+  status: included
+  reason: The project is a collection of specialized MCP servers designed to extend LLM capabilities into QA automation and engineering FinOps.
+  evidence:
+    - Repo description explicitly identifies it as an MCP server for Playwright orchestration and AI-assisted QA.
+    - "README details two distinct MCP server implementations: Healwright for test healing and SeatPrune for license reclamation."
+    - The product identity is built entirely around the Model Context Protocol (MCP) as a delivery mechanism.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:13:00.131Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:16:56.969Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e4f63c67fb846ff2434c9076621338546f3229b3c28625fd4c7c93331f2f0077
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is a collection of specialized MCP servers designed to extend LLM capabilities into QA automation and engineering FinOps.
+      decision_evidence:
+        - Repo description explicitly identifies it as an MCP server for Playwright orchestration and AI-assisted QA.
+        - "README details two distinct MCP server implementations: Healwright for test healing and SeatPrune for license reclamation."
+        - The product identity is built entirely around the Model Context Protocol (MCP) as a delivery mechanism.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the project's primary identity is the implementation of protocol-specific server logic rather than a general host integration plugin.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -1,0 +1,120 @@
+id: github__andreilungeanu__cursor-delegate-mcp
+kind: github-repo
+name: andreilungeanu/cursor-delegate-mcp
+canonical_url: https://github.com/andreilungeanu/cursor-delegate-mcp
+identity:
+  github_repo: andreilungeanu/cursor-delegate-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__andreilungeanu__cursor-delegate-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: andreilungeanu/cursor-delegate-mcp
+        extracted_url: https://github.com/andreilungeanu/cursor-delegate-mcp
+        surrounding_text: "- [andreilungeanu/cursor-delegate-mcp](https://github.com/andreilungeanu/cursor-delegate-mcp) [![cursor-delegate-mcp MCP server](https://glama.ai/mcp/servers/andreilungeanu/cursor-delegate-mcp/badges/score.svg)](https://glama.ai/mcp/servers/andreilungeanu/cursor-delegate-mcp) 📇 🏠 🍎 🪟 🐧 - Delegate multi-file implementation from Claude Code, Codex, or Copilot CLI to Cursor's CLI agent (Composer 2.5) over ACP. Returns a typed result — final message, agent-reported changed files, session id, and plan — instead of scraped terminal output. Plan mode drafts first, then resumes the same session to implement; clarifying questions come back as normal results rather than stalling. Ships plugin manifests for Claude Code, Codex, and Copilot. MIT."
+        confidence: high
+metadata:
+  github:
+    stars: 4
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: andreilungeanu/cursor-delegate-mcp
+    html_url: https://github.com/andreilungeanu/cursor-delegate-mcp
+    created_at: "2026-06-28T15:09:44Z"
+    pushed_at: "2026-09-10T00:56:43Z"
+    description: " Stop burning your Claude or Codex limits on boilerplate. Delegate multi-file implementation to Cursor's Composer 2.5 over MCP — your frontier model writes the brief and reviews the diff; Composer does the typing, fast, on a separate quota."
+    homepage: ""
+    topics:
+      - acp
+      - agent-client-protocol
+      - agents
+      - ai-agents
+      - ai-agents-cli
+      - claude-code
+      - claude-plugin
+      - claude-plugins
+      - codex
+      - codex-plugin
+      - copilot-cli
+      - cursor
+      - cursor-cli
+      - developer-tools
+      - github-copilot
+      - mcp
+      - mcp-client
+      - mcp-server
+    last_checked_at: "2026-09-10T04:12:53.182Z"
+    readme:
+      fetched_at: "2026-09-10T04:12:53.182Z"
+      bytes: 9345
+insights:
+  summary: An MCP server that allows coding assistants like Claude Code or GitHub Copilot to delegate multi-file implementation tasks to Cursor's Composer engine.
+  why_it_matters: It enables developers to use high-reasoning frontier models for planning and review while offloading token-heavy boilerplate implementation to Cursor's specialized environment.
+  mental_damage: Because why use one model efficiently when you can orchestrate a high-stakes handoff between two different AI ecosystems?
+  tags:
+    - mcp
+    - cursor
+    - claude-code
+    - automation
+    - workflow
+  confidence: high
+curation:
+  status: included
+  reason: It functions as an integration layer that augments existing assistants with the specific capability to use Cursor, rather than acting as a standalone assistant.
+  evidence:
+    - README defines it as an 'MCP bridge' for Claude Code, ChatGPT, and Copilot
+    - Core value proposition is delegating implementation to Cursor to save frontier model limits
+    - Provides a 'skill' to existing assistants to enable multi-file edits via Cursor's CLI
+placement:
+  primary_category: ai-dev-extensions
+  section: Host Integrations & Automation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:12:53.182Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:15:18.881Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3e722256bdaaa644cd1038a439410e418d6fb1d0f371cbc273161efc32bfc438
+      proposed_primary_category: ai-dev-extensions
+      disagreement: false
+      decision_reason: It functions as an integration layer that augments existing assistants with the specific capability to use Cursor, rather than acting as a standalone assistant.
+      decision_evidence:
+        - README defines it as an 'MCP bridge' for Claude Code, ChatGPT, and Copilot
+        - Core value proposition is delegating implementation to Cursor to save frontier model limits
+        - Provides a 'skill' to existing assistants to enable multi-file edits via Cursor's CLI
+      category_candidates:
+        - ai-dev-extensions
+        - mcp
+      contrastive_reason: Choose ai-dev-extensions over mcp because the tool's primary identity is an adapter that augments existing assistants with new capabilities rather than being a general-purpose MCP infrastructure tool.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

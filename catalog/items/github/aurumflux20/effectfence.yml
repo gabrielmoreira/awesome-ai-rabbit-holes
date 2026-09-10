@@ -1,0 +1,108 @@
+id: github__aurumflux20__effectfence
+kind: github-repo
+name: aurumflux20/effectfence
+canonical_url: https://github.com/aurumflux20/effectfence
+identity:
+  github_repo: aurumflux20/effectfence
+provenance:
+  discoveries:
+    - id: discovery__github__aurumflux20__effectfence__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: aurumflux20/effectfence
+        extracted_url: https://github.com/aurumflux20/effectfence
+        surrounding_text: "- [aurumflux20/effectfence](https://github.com/aurumflux20/effectfence) [![aurumflux20/effectfence MCP server](https://glama.ai/mcp/servers/aurumflux20/effectfence/badges/score.svg)](https://glama.ai/mcp/servers/aurumflux20/effectfence) 🦀 🏠 🍎 🪟 🐧 - Causal effect fence for agent tool calls: stops double-charges and duplicate side effects. Same-instant races elect exactly one winner; late duplicates replay a sealed, content-addressed receipt (fence_prepare / fence_commit / fence_abort). Ships a 1,000-attempt storm demo enforced in CI. `npx -y effectfence` (prebuilt binaries for macOS, Windows and Linux — no Rust toolchain) or `cargo install effectfence`."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: aurumflux20/effectfence
+    html_url: https://github.com/aurumflux20/effectfence
+    created_at: "2026-08-04T08:59:48Z"
+    pushed_at: "2026-09-08T07:02:37Z"
+    description: Causal concurrency fence for multi-agent tool calls — stop double-charges and duplicate side effects. Rust library + MCP server.
+    homepage: https://docs.rs/effectfence
+    topics:
+      - agent-safety
+      - exactly-once
+      - idempotency
+      - mcp
+      - retry
+      - rust
+    last_checked_at: "2026-09-10T04:12:59.837Z"
+    readme:
+      fetched_at: "2026-09-10T04:12:59.837Z"
+      bytes: 23618
+insights:
+  summary: A Rust library and MCP server that provides a causal concurrency fence to prevent duplicate side effects in multi-agent tool calls.
+  why_it_matters: It prevents agents from accidentally double-charging customers or corrupting infrastructure during concurrent executions, retries, or race conditions.
+  mental_damage: Because apparently, managing agentic race conditions is the new 'distributed systems is hard.'
+  tags:
+    - rust
+    - mcp
+    - idempotency
+    - agents
+    - concurrency
+  confidence: high
+curation:
+  status: included
+  reason: The product is primarily a code-first Rust library and SDK designed to be imported into agentic workflows to handle exactly-once execution.
+  evidence:
+    - Repo description identifies it as a 'Rust library + MCP server'.
+    - README emphasizes the core utility is the 'effectfence::fence' Rust crate API.
+    - Functionality focuses on providing developer-facing building blocks for idempotency and causal consistency.
+placement:
+  primary_category: ai-frameworks
+  section: Agent Frameworks
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:12:59.837Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:16:25.142Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:659a49d30251ff35ade893585fe771ede120437e05d430e83daad5738ab1689f
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The product is primarily a code-first Rust library and SDK designed to be imported into agentic workflows to handle exactly-once execution.
+      decision_evidence:
+        - Repo description identifies it as a 'Rust library + MCP server'.
+        - README emphasizes the core utility is the 'effectfence::fence' Rust crate API.
+        - Functionality focuses on providing developer-facing building blocks for idempotency and causal consistency.
+      category_candidates:
+        - ai-frameworks
+        - mcp
+      contrastive_reason: Choose ai-frameworks over mcp because the core novelty is a Rust library/SDK, with the MCP server acting as a way to expose those capabilities to host agents.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

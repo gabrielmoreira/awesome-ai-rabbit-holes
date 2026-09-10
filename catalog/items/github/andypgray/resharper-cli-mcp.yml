@@ -1,0 +1,115 @@
+id: github__andypgray__resharper-cli-mcp
+kind: github-repo
+name: andypgray/resharper-cli-mcp
+canonical_url: https://github.com/andypgray/resharper-cli-mcp
+identity:
+  github_repo: andypgray/resharper-cli-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__andypgray__resharper-cli-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: andypgray/resharper-cli-mcp
+        extracted_url: https://github.com/andypgray/resharper-cli-mcp
+        surrounding_text: "- [andypgray/resharper-cli-mcp](https://github.com/andypgray/resharper-cli-mcp) [![andypgray/resharper-cli-mcp MCP server](https://glama.ai/mcp/servers/andypgray/resharper-cli-mcp/badges/score.svg)](https://glama.ai/mcp/servers/andypgray/resharper-cli-mcp) #️⃣ 🏠 🍎 🪟 🐧 - ReSharper's solution-wide inspections and code cleanup for C# solutions, via JetBrains' free command-line tools. No IDE required. Unofficial, not affiliated with JetBrains."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: andypgray/resharper-cli-mcp
+    html_url: https://github.com/andypgray/resharper-cli-mcp
+    created_at: "2026-07-10T08:30:50Z"
+    pushed_at: "2026-09-09T10:08:03Z"
+    description: MCP server wrapping JetBrains' ReSharper CLI for headless C# inspection and code cleanup for coding agents. Unofficial, not affiliated with JetBrains.
+    homepage: https://www.nuget.org/packages/Zphil.ReSharperCli/
+    topics:
+      - ai-agents
+      - claude-code
+      - csharp
+      - dotnet
+      - dotnet-tool
+      - gemini-cli-extension
+      - linter
+      - mcp
+      - mcp-server
+      - mcp-tools
+      - model-context-protocol
+      - resharper
+      - static-analysis
+    last_checked_at: "2026-09-10T04:12:53.714Z"
+    readme:
+      fetched_at: "2026-09-10T04:12:53.714Z"
+      bytes: 18677
+insights:
+  summary: MCP server wrapping JetBrains' ReSharper CLI for headless C# inspection and code cleanup for coding agents.
+  why_it_matters: It allows coding agents to use professional-grade C# static analysis and automated refactoring tools directly within their existing workflows.
+  mental_damage: Another specialized server to add to your .mcp.json just so your agent can finally respect your .NET linting rules.
+  tags:
+    - mcp
+    - csharp
+    - dotnet
+    - jetbrains
+    - static-analysis
+  confidence: high
+curation:
+  status: included
+  reason: The tool is built specifically as an MCP server to expose ReSharper's C# analysis capabilities to AI agents.
+  evidence:
+    - Wraps JetBrains' 'jb' command-line tool to expose inspections and cleanup via the Model Context Protocol
+    - Manages solution-wide caches to minimize the cost of repeated agentic inspection calls
+    - Includes SARIF-to-Markdown conversion to make analysis results compatible with LLM context windows
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:12:53.714Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:15:53.530Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:43dd404a50aae2fdf10b1c964a0d83c5fe3427c2494d362152f7723441074bb4
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool is built specifically as an MCP server to expose ReSharper's C# analysis capabilities to AI agents.
+      decision_evidence:
+        - Wraps JetBrains' 'jb' command-line tool to expose inspections and cleanup via the Model Context Protocol
+        - Manages solution-wide caches to minimize the cost of repeated agentic inspection calls
+        - Includes SARIF-to-Markdown conversion to make analysis results compatible with LLM context windows
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because its primary identity is a domain-specific MCP server implementing the protocol to bridge an external tool to an agent.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -60,15 +60,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-09-07T04:13:46.670Z"
+    status: deferred
+    updated_at: "2026-09-10T04:13:01.432Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: clawdbotworker/imagegen-mcp"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for clawdbotworker/imagegen-mcp
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-07T04:13:54.595Z"
+    updated_at: "2026-09-10T04:13:05.783Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

@@ -1,0 +1,116 @@
+id: github__builditwithgk__repo-cartographer
+kind: github-repo
+name: builditwithgk/repo-cartographer
+canonical_url: https://github.com/builditwithgk/repo-cartographer
+identity:
+  github_repo: builditwithgk/repo-cartographer
+provenance:
+  discoveries:
+    - id: discovery__github__builditwithgk__repo-cartographer__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📐 <a name="architecture-and-design"></a>Architecture & Design
+        anchor_text: builditwithgk/repo-cartographer
+        extracted_url: https://github.com/builditwithgk/repo-cartographer
+        surrounding_text: "- [builditwithgk/repo-cartographer](https://github.com/builditwithgk/repo-cartographer) [![builditwithgk/repo-cartographer MCP server](https://glama.ai/mcp/servers/builditwithgk/repo-cartographer/badges/score.svg)](https://glama.ai/mcp/servers/builditwithgk/repo-cartographer) 📇 🏠 🍎 🪟 🐧 - Turn any repo into an architecture diagram: deterministic extraction (file tree, JS/TS + Python import graph, frameworks, entry points) that the connected model refines into Mermaid or Graphviz DOT. Doubles as a CLI + GitHub Action enforcing architecture rules (forbidden imports, dependency cycles) with baselines in CI. Install via NPM: `npx -y repo-cartographer`"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: builditwithgk/repo-cartographer
+    html_url: https://github.com/builditwithgk/repo-cartographer
+    created_at: "2026-07-31T14:15:30Z"
+    pushed_at: "2026-08-05T15:32:46Z"
+    description: Understand any codebase in 60 seconds - an MCP server, CLI and GitHub Action that turns any repo into an architecture diagram (Mermaid/Graphviz) and enforces architecture rules in CI. Works with Claude, Cursor, ChatGPT and any MCP client.
+    homepage: ""
+    topics:
+      - architecture
+      - architecture-diagram
+      - cli
+      - codebase-analysis
+      - dependency-graph
+      - developer-tools
+      - github-actions
+      - graphviz
+      - mcp
+      - mcp-server
+      - mermaid
+      - model-context-protocol
+      - software-architecture
+      - typescript
+    last_checked_at: "2026-09-10T04:13:01.263Z"
+    readme:
+      fetched_at: "2026-09-10T04:13:01.263Z"
+      bytes: 9297
+insights:
+  summary: An MCP server, CLI, and GitHub Action that generates architecture diagrams and dependency maps to provide structured context to LLMs.
+  why_it_matters: It provides deterministic structural facts to coding assistants, preventing them from hallucinating incorrect dependency graphs or file relationships.
+  mental_damage: Because we have officially reached the stage of needing to provide AI assistants with a map just so they don't get lost in their own hallucinations.
+  tags:
+    - mcp
+    - architecture
+    - cli
+    - context
+    - diagrams
+  confidence: high
+curation:
+  status: included
+  reason: It functions as context-shaping infrastructure by converting complex codebase structures into deterministic, machine-readable facts for LLMs.
+  evidence:
+    - The README explicitly states 'The server extracts hard facts. The model does the reasoning.'
+    - It provides structured JSON and Mermaid/Graphviz diagrams to ground model reasoning
+    - It is explicitly compatible with various AI clients via the Model Context Protocol
+placement:
+  primary_category: context-engineering
+  section: Context Retrieval & Fresh Docs
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:13:01.263Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:18:16.108Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0d3f49aa784d7f1dd0c49c87992df6e43a68a97138d71d474fa0aad64113c5dd
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: It functions as context-shaping infrastructure by converting complex codebase structures into deterministic, machine-readable facts for LLMs.
+      decision_evidence:
+        - The README explicitly states 'The server extracts hard facts. The model does the reasoning.'
+        - It provides structured JSON and Mermaid/Graphviz diagrams to ground model reasoning
+        - It is explicitly compatible with various AI clients via the Model Context Protocol
+      category_candidates:
+        - context-engineering
+        - mcp
+      contrastive_reason: Choose context-engineering over mcp because its primary value is providing structured context to ground LLM reasoning rather than serving as a generic protocol utility.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

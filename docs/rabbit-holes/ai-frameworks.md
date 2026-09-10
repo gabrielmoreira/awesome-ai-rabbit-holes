@@ -212,7 +212,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `pytorch` `deep-learning` `training-framework` `ai-infrastructure`
   </details>
 
-- **[AgentScope](https://github.com/agentscope-ai/agentscope)** `⭐ 30.3k` `updated ≤30d` AgentScope is a production-ready multi-agent framework with built-in support for event systems, permission management, and sandboxed workspaces. <details><summary>More about</summary>
+- **[AgentScope](https://github.com/agentscope-ai/agentscope)** `⭐ 31.2k` `updated ≤30d` AgentScope is a production-ready multi-agent framework with built-in support for event systems, permission management, and sandboxed workspaces. <details><summary>More about</summary>
 
   It provides the essential infrastructure—like multi-tenancy and isolated execution environments—needed to move agentic workflows from experimental scripts to stable services.
 
@@ -473,7 +473,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `voice-ai` `multimodal` `real-time` `python` `framework`
   </details>
 
-- **[e2b](https://github.com/e2b-dev/e2b)** `⭐ 13.6k` `updated ≤30d` Open-source infrastructure for running AI-generated code in secure isolated cloud sandboxes via SDKs. <details><summary>More about</summary>
+- **[E2B](https://github.com/e2b-dev/e2b)** `⭐ 13.6k` `updated ≤30d` Open-source infrastructure for running AI-generated code in secure isolated cloud sandboxes via SDKs. <details><summary>More about</summary>
 
   Developers can safely execute untrusted or AI-generated code in isolated environments without risking their local or production systems.
 
@@ -851,7 +851,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `autonomous-agents` `symbolic-learning` `agent-framework` `self-evolving` `llm`
   </details>
 
-- **[SandBox](https://github.com/agent-infra/sandbox)** `⭐ 5.8k` `updated ≤30d` An all-in-one sandbox environment for AI agents that provides a single Docker container with a browser, shell, filesystem, VSCode server, and MCP support. <details><summary>More about</summary>
+- **[SandBox](https://github.com/agent-infra/sandbox)** `⭐ 5.9k` `updated ≤30d` An all-in-one sandbox environment for AI agents that provides a single Docker container with a browser, shell, filesystem, VSCode server, and MCP support. <details><summary>More about</summary>
 
   It solves the complex orchestration problem of giving AI agents a unified, secure workspace where file sharing and tool usage across browser and terminal are seamless.
 
@@ -1202,13 +1202,22 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `chatbot` `rasa` `langchain` `fastapi` `headless`
   </details>
 
-- **[Magentic](https://github.com/jackmpcollins/magentic)** `⭐ 2.4k` `updated ≤180d` A Python library that integrates LLMs as functions using decorators for structured outputs, function calling, and agentic workflows. <details><summary>More about</summary>
+- **[Magentic](https://github.com/jackmpcollins/magentic)** `⭐ 2.4k` `updated ≤1y` A Python library that integrates LLMs as functions using decorators for structured outputs, function calling, and agentic workflows. <details><summary>More about</summary>
 
   Developers can embed LLM-powered functions directly into Python code with type safety, streaming, and tool-use patterns, simplifying agentic system construction.
 
   _Now you can write Python functions that don’t exist, and the LLM will pretend they do—until it doesn’t._
 
   `python` `llm-integration` `agent-framework` `pydantic` `decorators`
+  </details>
+
+- **[agentUniverse](https://github.com/agentuniverse-ai/agentuniverse)** `⭐ 2.4k` `updated ≤90d` A multi-agent framework designed for building complex, domain-expert applications through collaborative patterns. <details><summary>More about</summary>
+
+  It provides structured collaborative patterns like PEER and DOE to help developers move beyond simple single-prompt LLM interactions to complex, reasoning-heavy multi-agent workflows.
+
+  _Now you have to decide if your problem requires a simple script or a whole committee of specialized digital workers that might just argue with each other indefinitely._
+
+  `multi-agent` `framework` `python` `llm` `automation`
   </details>
 
 - **[nextpy](https://github.com/dot-agent/nextpy)** `⭐ 2.3k` `updated >1y` Nextpy is a Python framework for building self-modifying AI agents with a focus on prompt engineering, session state management, and optimized code generation. <details><summary>More about</summary>
@@ -1218,15 +1227,6 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   _Finally, a framework that lets you argue with your AI about its own code while pretending it's from the future._
 
   `agent-framework` `prompt-engineering` `self-modifying-ai` `python` `llm-optimization`
-  </details>
-
-- **[agentUniverse](https://github.com/agentuniverse-ai/agentuniverse)** `⭐ 2.3k` `updated ≤90d` A multi-agent framework designed for building complex, domain-expert applications through collaborative patterns. <details><summary>More about</summary>
-
-  It provides structured collaborative patterns like PEER and DOE to help developers move beyond simple single-prompt LLM interactions to complex, reasoning-heavy multi-agent workflows.
-
-  _Now you have to decide if your problem requires a simple script or a whole committee of specialized digital workers that might just argue with each other indefinitely._
-
-  `multi-agent` `framework` `python` `llm` `automation`
   </details>
 
 - **[mimo](https://github.com/xiaomimimo/mimo)** `⭐ 2.3k` `updated >1y` MiMo is a 7-billion-parameter language model trained from scratch with enhanced pre-training and post-training techniques to improve reasoning in math and code tasks. <details><summary>More about</summary>
@@ -1724,7 +1724,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agent-framework` `python` `mcp` `context-engineering`
   </details>
 
-- **[AgentForge](https://github.com/databassgit/agentforge)** `⭐ 843` `updated ≤30d` AgentForge is a low-code Python framework for building, testing, and orchestrating AI-powered autonomous agents and multi-agent systems. <details><summary>More about</summary>
+- **[AgentForge](https://github.com/databassgit/agentforge)** `⭐ 843` `updated ≤90d` AgentForge is a low-code Python framework for building, testing, and orchestrating AI-powered autonomous agents and multi-agent systems. <details><summary>More about</summary>
 
   It lets developers rapidly prototype and iterate on agent workflows with declarative YAML configurations, supporting multiple LLM providers and local models.
 
@@ -1796,7 +1796,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `agent-framework` `openapi` `typescript` `autonomous-agents`
   </details>
 
-- **[FEDOT](https://github.com/aimclub/fedot)** `⭐ 710` `updated ≤30d` An open-source AutoML framework for the automated design and optimization of machine learning pipelines. <details><summary>More about</summary>
+- **[FEDOT](https://github.com/aimclub/fedot)** `⭐ 711` `updated ≤30d` An open-source AutoML framework for the automated design and optimization of machine learning pipelines. <details><summary>More about</summary>
 
   It automates the complex process of building, tuning, and managing predictive models for classification, regression, and time-series tasks.
 
@@ -2075,13 +2075,22 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `code-execution` `sandbox` `docker` `llm-infrastructure` `safety`
   </details>
 
-- **[Octochains](https://github.com/ahmadvh/octochains)** `⭐ 370` `updated ≤30d` A lightweight Python framework for parallel, isolated, and collaborative multi-agent reasoning and consensus. <details><summary>More about</summary>
+- **[Octochains](https://github.com/ahmadvh/octochains)** `⭐ 372` `updated ≤30d` A lightweight Python framework for parallel, isolated, and collaborative multi-agent reasoning and consensus. <details><summary>More about</summary>
 
   It provides an architectural pattern to prevent 'groupthink' in multi-agent systems by running specialist agents in isolated threads before synthesizing a final verdict.
 
   _Because apparently, we can't even trust AI agents to avoid peer pressure without a structured consensus layer._
 
   `python` `multi-agent` `reasoning` `consensus` `framework`
+  </details>
+
+- **[rs-graph-llm](https://github.com/a-agmon/rs-graph-llm)** `⭐ 370` `updated ≤30d` A high-performance, type-safe Rust framework for building stateful, interactive agentic workflows and multi-agent systems. <details><summary>More about</summary>
+
+  It brings the structured, graph-based orchestration patterns of LangGraph to the Rust ecosystem, enabling performant and type-safe agent workflows.
+
+  _Because clearly, Python's runtime errors weren't enough; now we need to manage our agentic state complexity with strict ownership and lifetimes._
+
+  `rust` `agents` `workflows` `graph` `orchestration`
   </details>
 
 - **[OpenLM](https://github.com/r2d4/openlm)** `⭐ 369` `updated >1y` An OpenAI-compatible Python client that lets developers call models from Hugging Face, Cohere, and other providers using the standard OpenAI API interface. <details><summary>More about</summary>
@@ -2091,15 +2100,6 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   _Yet another abstraction layer promising vendor independence, ensuring you can now debug compatibility issues across five providers instead of one._
 
   `llm` `openai-compatible` `python` `provider-abstraction`
-  </details>
-
-- **[rs-graph-llm](https://github.com/a-agmon/rs-graph-llm)** `⭐ 365` `updated ≤90d` A high-performance, type-safe Rust framework for building stateful, interactive agentic workflows and multi-agent systems. <details><summary>More about</summary>
-
-  It brings the structured, graph-based orchestration patterns of LangGraph to the Rust ecosystem, enabling performant and type-safe agent workflows.
-
-  _Because clearly, Python's runtime errors weren't enough; now we need to manage our agentic state complexity with strict ownership and lifetimes._
-
-  `rust` `agents` `workflows` `graph` `orchestration`
   </details>
 
 - **[Funcchain](https://github.com/shroominic/funcchain)** `⭐ 341` `updated >1y` funcchain is a Python library that uses Pydantic models and LangChain runnables to let developers define structured LLM outputs using native Python function syntax. <details><summary>More about</summary>
@@ -2329,6 +2329,15 @@ _These are new or low-traffic entries being watched._
   _Another Swarm clone popping up just as everyone realizes the original was a fragile research prototype, not a production foundation._
 
   `multi-agent` `orchestration` `nodejs` `openai` `swarm`
+  </details>
+
+- **[api7/aisix](https://github.com/api7/aisix)** `⭐ 145` `updated ≤30d` An open-source, Rust-native AI gateway that unifies multiple LLM providers under a single OpenAI-compatible API. <details><summary>More about</summary>
+
+  It provides a single control point for managing routing, guardrails, caching, and observability across various model providers.
+
+  _Because your architecture isn't truly production-ready until you've added a high-performance Rust proxy between your code and your LLM._
+
+  `rust` `ai-gateway` `llmops` `proxy` `observability`
   </details>
 
 - **[GenoMAS](https://github.com/liu-hy/genomas)** `⭐ 135` `updated ≤180d` A minimalist multi-agent framework for robust automation of scientific analysis workflows, such as gene expression analysis. <details><summary>More about</summary>
@@ -2673,7 +2682,7 @@ _These are new or low-traffic entries being watched._
   `nestjs` `a2a` `agent-communication` `typescript`
   </details>
 
-- **[Flux0](https://github.com/flux0-ai/flux0)** `⭐ 14` `updated ≤1y` Flux0 is a framework for deploying and orchestrating AI agents with real-time streaming, session management, and LLM-agnostic integration. <details><summary>More about</summary>
+- **[Flux0](https://github.com/flux0-ai/flux0)** `⭐ 14` `updated >1y` Flux0 is a framework for deploying and orchestrating AI agents with real-time streaming, session management, and LLM-agnostic integration. <details><summary>More about</summary>
 
   It reduces boilerplate for developers building real-time, multi-agent AI applications by unifying agent deployment, streaming, and UI tooling.
 
@@ -2826,7 +2835,7 @@ _These are new or low-traffic entries being watched._
   `quant-trading` `mcp-server` `backtesting` `llm-agents` `python`
   </details>
 
-- **[ertad-family/liquid](https://github.com/ertad-family/liquid)** `⭐ 2` `updated ≤90d` An AI-driven integration layer that automatically discovers API shapes and maps them to typed records without requiring hand-written connectors. <details><summary>More about</summary>
+- **[ertad-family/liquid](https://github.com/ertad-family/liquid)** `⭐ 2` `updated ≤180d` An AI-driven integration layer that automatically discovers API shapes and maps them to typed records without requiring hand-written connectors. <details><summary>More about</summary>
 
   It eliminates the manual toil of writing and maintaining adapters for diverse data sources, from REST and GraphQL to industrial protocols like Modbus and OPC UA.
 
@@ -2914,6 +2923,15 @@ _These are new or low-traffic entries being watched._
   _We now need a dedicated guardrail library to protect our budgets from the very agents we built to save us money._
 
   `cost-management` `guardrails` `python` `agent-frameworks` `middleware`
+  </details>
+
+- **[aurumflux20/effectfence](https://github.com/aurumflux20/effectfence)** `⭐ 0` `updated ≤30d` A Rust library and MCP server that provides a causal concurrency fence to prevent duplicate side effects in multi-agent tool calls. <details><summary>More about</summary>
+
+  It prevents agents from accidentally double-charging customers or corrupting infrastructure during concurrent executions, retries, or race conditions.
+
+  _Because apparently, managing agentic race conditions is the new 'distributed systems is hard.'._
+
+  `rust` `mcp` `idempotency` `agents` `concurrency`
   </details>
 
 - **[ntriq-gh/ntriq-agentshop](https://github.com/ntriq-gh/ntriq-agentshop)** `⭐ 0` `updated ≤180d` A pay-per-use API marketplace exposing local AI inference endpoints (document intelligence, code review, PII detection, etc.) via x402 micropayments in USDC on Base. <details><summary>More about</summary>

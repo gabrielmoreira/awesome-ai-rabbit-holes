@@ -1,0 +1,106 @@
+id: github__alfredoperez__speckit-companion
+kind: github-repo
+name: alfredoperez/speckit-companion
+canonical_url: https://github.com/alfredoperez/speckit-companion
+identity:
+  github_repo: alfredoperez/speckit-companion
+provenance:
+  discoveries:
+    - id: discovery__github__alfredoperez__speckit-companion__awesome-list__engineering4ai__awesome-spec-driven-development
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: Engineering4AI/awesome-spec-driven-development
+        url: https://github.com/engineering4ai/awesome-spec-driven-development
+        repository: Engineering4AI/awesome-spec-driven-development
+      extraction:
+        mode: parsed
+        section_path:
+          - Development Frameworks
+        anchor_text: SpecKit Companion pipeline
+        extracted_url: https://github.com/alfredoperez/speckit-companion
+        surrounding_text: "- [SpecKit Companion pipeline](https://github.com/alfredoperez/speckit-companion/tree/main/speckit-extension) ![](https://img.shields.io/github/stars/alfredoperez/speckit-companion.svg?cacheSeconds=86400) - Configurable layer on top of [Spec Kit](https://github.com/github/spec-kit) rather than a replacement for it. Its commands are assembled from composable nodes, so one config file attaches your own steps at any point, swaps document templates and re-routes the size decision, and a build writes the pipeline you configured. Records each run to plain JSON for live progress and resume, folds small changes onto a shorter path, and keeps optional capability-scoped specs that outlive the feature that created them."
+        confidence: high
+metadata:
+  github:
+    stars: 89
+    forks: 22
+    license: MIT
+    archived: false
+    full_name: alfredoperez/speckit-companion
+    html_url: https://github.com/alfredoperez/speckit-companion
+    created_at: "2025-12-02T14:57:37Z"
+    pushed_at: "2026-09-09T17:20:15Z"
+    description: VS Code extension for spec-driven development — manage specs, workflows, and steering docs for AI CLI tools (Claude Code, Gemini CLI, Copilot CLI)
+    homepage: https://speckit-companion.dev
+    topics:
+      - ai-tools
+      - claude-code
+      - developer-tools
+      - spec-driven-development
+      - typescript
+      - vscode-extension
+    last_checked_at: "2026-09-10T04:12:49.959Z"
+    readme:
+      fetched_at: "2026-09-10T04:12:49.959Z"
+      bytes: 19369
+insights:
+  summary: VS Code extension for managing and reviewing the specifications used to steer AI coding agents.
+  why_it_matters: It provides a dedicated workspace to oversee the spec lifecycle, ensuring AI agents follow precise plans instead of drifting into incorrect implementations.
+  mental_damage: Because managing the specs that guide your AI is quickly becoming a full-time job in itself.
+  tags:
+    - vscode-extension
+    - spec-driven
+    - ai-agents
+    - workflow-tools
+  confidence: high
+curation:
+  status: included
+  reason: The tool's core identity is providing a workspace for the specification lifecycle, making it a spec-first environment rather than a generic extension.
+  evidence:
+    - Explicitly described as a VS Code extension for spec-driven development
+    - Provides a specialized workspace to manage specs, workflows, and steering docs
+    - Targets AI CLI tools like Claude Code to act as a governance layer
+placement:
+  primary_category: spec-driven-development
+  section: Spec-First Environments
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:12:49.959Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:15:30.449Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:63616970ce10ca2c1d5f8b31194555554260c9f675229360aa36667fc35dabfa
+      proposed_primary_category: spec-driven-development
+      disagreement: false
+      decision_reason: The tool's core identity is providing a workspace for the specification lifecycle, making it a spec-first environment rather than a generic extension.
+      decision_evidence:
+        - Explicitly described as a VS Code extension for spec-driven development
+        - Provides a specialized workspace to manage specs, workflows, and steering docs
+        - Targets AI CLI tools like Claude Code to act as a governance layer
+      category_candidates:
+        - spec-driven-development
+        - ai-dev-extensions
+      contrastive_reason: Choose spec-driven-development over ai-dev-extensions because the product's primary purpose is the management of the specification lifecycle as a core development paradigm.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

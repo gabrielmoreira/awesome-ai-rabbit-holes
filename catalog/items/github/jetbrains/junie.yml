@@ -22,6 +22,21 @@ provenance:
         extracted_url: https://junie.jetbrains.com
         surrounding_text: "- **[Junie CLI](https://junie.jetbrains.com)** `[JetBrains]` — JetBrains' LLM-agnostic CLI coding agent (EAP); supports GPT-5, Claude, Gemini, Grok with plan mode and CI/CD headless usage."
         confidence: high
+    - id: discovery__github__jetbrains__junie__awesome-list__ai-for-developers__awesome-ai-coding-tools
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: ai-for-developers/awesome-ai-coding-tools
+        url: https://github.com/ai-for-developers/awesome-ai-coding-tools
+        repository: ai-for-developers/awesome-ai-coding-tools
+      extraction:
+        mode: scraped
+        section_path:
+          - Coding Agents
+        anchor_text: JunieAI (JetBrains)
+        extracted_url: https://jetbrains.com/junieai
+        surrounding_text: "- **[JunieAI (JetBrains)](https://www.jetbrains.com/junieai/)** – AI coding agent that plans, writes, tests, and refactors within JetBrains IDEs."
+        confidence: high
 metadata:
   github:
     stars: 346
@@ -66,7 +81,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.622Z"
+    updated_at: "2026-09-10T04:12:32.935Z"
     cause: null
     next_retry_at: null
   stars:

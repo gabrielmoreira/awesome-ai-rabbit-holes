@@ -1,0 +1,107 @@
+id: github__bouncewatch__mcp
+kind: github-repo
+name: bouncewatch/mcp
+canonical_url: https://github.com/bouncewatch/mcp
+identity:
+  github_repo: bouncewatch/mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bouncewatch__mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: bouncewatch/mcp
+        extracted_url: https://github.com/bouncewatch/mcp
+        surrounding_text: "- [bouncewatch/mcp](https://github.com/bouncewatch/mcp) [![bouncewatch/mcp MCP server](https://glama.ai/mcp/servers/bouncewatch/mcp/badges/score.svg)](https://glama.ai/mcp/servers/bouncewatch/mcp) 🎖️ ☁️ - Find out what changed at a company and when — funding, senior hires, partnerships, expansion, office openings, customer wins. 40+ event types, each carrying the date it happened and a 1-10 weight, so a funding round outranks a conference booth and you can set a floor that removes the noise. Ask in plain language (\"which Dutch companies under 50 people raised in the last month\") or put a watch on a company and get told the next time something happens there. 10 tools, 8 of them read-only. Hosted; connect via OAuth or an API key at https://api.bouncewatch.com/api/v1/mcp"
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: bouncewatch/mcp
+    html_url: https://github.com/bouncewatch/mcp
+    created_at: "2026-08-18T12:35:39Z"
+    pushed_at: "2026-08-21T10:19:05Z"
+    description: Connection details, client configs and a stdio launcher for the hosted Bounce Watch MCP server — company signals with the date each one happened
+    homepage: https://docs.bouncewatch.com/mcp/overview
+    topics:
+      - buying-signals
+      - company-data
+      - mcp
+      - model-context-protocol
+      - prospecting
+      - sales-intelligence
+    last_checked_at: "2026-09-10T04:13:00.914Z"
+    readme:
+      fetched_at: "2026-09-10T04:13:00.914Z"
+      bytes: 6155
+insights:
+  summary: A hosted Model Context Protocol (MCP) server that provides real-time company signals such as funding rounds, hiring changes, and partnership announcements.
+  why_it_matters: It enables AI assistants and agents to access live business intelligence and momentum signals directly within their context window.
+  mental_damage: Because now your coding assistant can tell you exactly why the company you're building for just announced a hiring freeze.
+  tags:
+    - mcp
+    - company-intelligence
+    - agent-tools
+    - business-data
+  confidence: high
+curation:
+  status: included
+  reason: The project is explicitly an MCP server designed to expose specialized company data to LLM clients via the Model Context Protocol.
+  evidence:
+    - Repo description identifies it as a hosted Bounce Watch MCP server
+    - README provides specific connection configurations for Claude Code, Cursor, and Claude Desktop
+    - The toolset focuses on domain-specific data like 'search_signals' and 'get_company_signals'
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:13:00.914Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:17:16.764Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:0bf018d5e12243eb3fcc6fca822e66556a1cfa9d9b30fe37c9347e84a31d440d
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is explicitly an MCP server designed to expose specialized company data to LLM clients via the Model Context Protocol.
+      decision_evidence:
+        - Repo description identifies it as a hosted Bounce Watch MCP server
+        - README provides specific connection configurations for Claude Code, Cursor, and Claude Desktop
+        - The toolset focuses on domain-specific data like 'search_signals' and 'get_company_signals'
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's identity is a Model Context Protocol server rather than a general IDE integration layer.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

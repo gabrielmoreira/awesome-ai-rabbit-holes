@@ -1,0 +1,119 @@
+id: github__agent360dk__browser-mcp
+kind: github-repo
+name: agent360dk/browser-mcp
+canonical_url: https://github.com/agent360dk/browser-mcp
+identity:
+  github_repo: agent360dk/browser-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__agent360dk__browser-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 📂 <a name="browser-automation"></a>Browser Automation
+        anchor_text: Agent360dk/browser-mcp
+        extracted_url: https://github.com/agent360dk/browser-mcp
+        surrounding_text: "- [Agent360dk/browser-mcp](https://github.com/Agent360dk/browser-mcp) [![Agent360dk/browser-mcp MCP server](https://glama.ai/mcp/servers/Agent360dk/browser-mcp/badges/score.svg)](https://glama.ai/mcp/servers/Agent360dk/browser-mcp) 📇 🏠 - Chrome extension + MCP server that gives AI agents control of your real, logged-in Chrome browser (not headless). 34 tools, up to 10 concurrent color-coded sessions. Works with Claude Code, Cursor, VS Code, Codex CLI, and ZCode."
+        confidence: high
+metadata:
+  github:
+    stars: 40
+    forks: 10
+    license: MIT
+    archived: false
+    full_name: Agent360dk/browser-mcp
+    html_url: https://github.com/Agent360dk/browser-mcp
+    created_at: "2026-03-29T17:28:33Z"
+    pushed_at: "2026-09-10T01:43:16Z"
+    description: Drive your real, logged-in Chrome from any AI agent (Claude Code, Codex, Cursor, VS Code) — works where headless dies. Reads emailed login codes from your Gmail, 40 tools, up to 20 concurrent sessions. MIT, local-only.
+    homepage: https://browsermcp.dev
+    topics:
+      - 2fa
+      - ai-agent
+      - ai-agents
+      - anthropic
+      - browser-automation
+      - captcha
+      - chrome-extension
+      - claude
+      - claude-code
+      - cursor
+      - local-first
+      - mcp
+      - mcp-server
+      - model-context-protocol
+      - playwright-alternative
+      - vscode
+      - web-automation
+    last_checked_at: "2026-09-10T04:12:41.368Z"
+    readme:
+      fetched_at: "2026-09-10T04:12:41.368Z"
+      bytes: 24795
+insights:
+  summary: An MCP server that enables AI agents to control a real, logged-in Chrome instance to bypass headless browser limitations like 2FA and CAPTCHAs.
+  why_it_matters: It allows agents to interact with web services using existing authenticated sessions, solving the common failure point of automation at login walls.
+  mental_damage: Because nothing says 'seamless agentic workflow' like an AI that has to read your Gmail to bypass a 2FA prompt.
+  tags:
+    - mcp
+    - browser-automation
+    - chrome
+    - local-ai
+    - agent-tools
+  confidence: high
+curation:
+  status: included
+  reason: The product's primary identity is a specialized MCP server that provides browser automation capabilities via the Model Context Protocol.
+  evidence:
+    - Functions as an MCP server that can be added to Claude Code, Cursor, or VS Code
+    - Explicitly designed to use existing user sessions to bypass 2FA and CAPTCHA
+    - Provides 40 specific tools for browser interaction through the MCP protocol
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:12:41.368Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:14:19.792Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:37de6ec775f1cc370a5e1e3e7c62822b385be7c924d0556aee37d913c5529a62
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The product's primary identity is a specialized MCP server that provides browser automation capabilities via the Model Context Protocol.
+      decision_evidence:
+        - Functions as an MCP server that can be added to Claude Code, Cursor, or VS Code
+        - Explicitly designed to use existing user sessions to bypass 2FA and CAPTCHA
+        - Provides 40 specific tools for browser interaction through the MCP protocol
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the tool is fundamentally a domain-specific MCP server implementation rather than a general-purpose IDE plugin.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

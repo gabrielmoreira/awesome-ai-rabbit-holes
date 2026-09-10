@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/keesan12/martin-loop
         surrounding_text: "- **[MartinLoop](https://github.com/Keesan12/martin-loop)** `⭐ 45` — Execution-control layer around Claude Code, Codex, and other coding agents: token and cost budgets, iteration caps, stop conditions, independent verifier passes, and signed run receipts, driven from a `martin` CLI. Apache-2.0."
         confidence: high
+    - id: discovery__github__keesan12__martin-loop__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: Keesan12/martin-loop
+        extracted_url: https://github.com/keesan12/martin-loop
+        surrounding_text: "- [Keesan12/martin-loop](https://github.com/Keesan12/martin-loop) [![Keesan12/martin-loop MCP server](https://glama.ai/mcp/servers/Keesan12/martin-loop/badges/score.svg)](https://glama.ai/mcp/servers/Keesan12/martin-loop) 📇 🏠 - Governed MCP runtime for AI coding agents with budget caps, verifier gates, runaway-loop prevention, rollback evidence, and inspectable run receipts. Install: `npx -y @martinloop/mcp`."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -56,7 +72,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T06:08:24.607Z"
+    updated_at: "2026-09-10T04:12:32.935Z"
     cause: null
     next_retry_at: null
   stars:
@@ -65,7 +81,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-07T04:13:54.595Z"
+    updated_at: "2026-09-10T04:13:05.783Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

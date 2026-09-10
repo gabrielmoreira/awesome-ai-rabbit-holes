@@ -36,6 +36,21 @@ provenance:
         extracted_url: https://github.com/e2b-dev/e2b
         surrounding_text: "- [e2b](https://github.com/e2b-dev/e2b): Open-source platform for building & deploying virtual developers’ agents"
         confidence: high
+    - id: discovery__github__e2b-dev__e2b__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: E2B
+        extracted_url: https://e2b.dev
+        surrounding_text: "- **[E2B](https://github.com/e2b-dev/mcp-server)** - Run code in secure sandboxes hosted by [E2B](https://e2b.dev)"
+        confidence: high
 metadata:
   github:
     stars: 13562
@@ -98,7 +113,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.585Z"
+    updated_at: "2026-09-10T04:12:32.935Z"
     cause: null
     next_retry_at: null
   stars:

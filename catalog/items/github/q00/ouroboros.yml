@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/q00/ouroboros
         surrounding_text: "- [ouroboros](https://github.com/Q00/ouroboros) ![](https://img.shields.io/github/stars/Q00/ouroboros.svg?cacheSeconds=86400) - Local-first Agent OS that wraps Claude Code, Codex CLI, and other coding agents in a replayable Seed → Ledger → Runtime contract, driven by an interview → seed → execute → evaluate → evolve workflow loop."
         confidence: high
+    - id: discovery__github__q00__ouroboros__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: Q00/ouroboros
+        extracted_url: https://github.com/q00/ouroboros
+        surrounding_text: "- [Q00/ouroboros](https://github.com/Q00/ouroboros) [![Q00/ouroboros MCP server](https://glama.ai/mcp/servers/Q00/ouroboros/badges/score.svg)](https://glama.ai/mcp/servers/Q00/ouroboros) 🐍 🏠 🍎 🪟 🐧 - Local-first Agent OS for spec-first AI coding: interview → seed → execute → evaluate → evolve as a replayable, ledger-recorded workflow. MCP server exposes the full loop (interview, seed generation, seed execution, evaluation, evolve-step) so any MCP client can drive it across Claude Code, Codex, Gemini, and other CLI runtimes."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -55,7 +71,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-10T04:35:51.195Z"
+    updated_at: "2026-09-10T04:12:32.936Z"
     cause: null
     next_retry_at: null
   stars:
@@ -64,7 +80,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-07T04:13:54.596Z"
+    updated_at: "2026-09-10T04:13:05.784Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

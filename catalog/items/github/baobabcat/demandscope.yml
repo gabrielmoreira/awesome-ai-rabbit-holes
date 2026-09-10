@@ -1,0 +1,107 @@
+id: github__baobabcat__demandscope
+kind: github-repo
+name: baobabcat/demandscope
+canonical_url: https://github.com/baobabcat/demandscope
+identity:
+  github_repo: baobabcat/demandscope
+provenance:
+  discoveries:
+    - id: discovery__github__baobabcat__demandscope__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 💻 <a name="developer-tools"></a>Developer Tools
+        anchor_text: baobabcat/demandscope
+        extracted_url: https://github.com/baobabcat/demandscope
+        surrounding_text: "- [baobabcat/demandscope](https://github.com/baobabcat/demandscope) [![baobabcat/demandscope MCP server](https://glama.ai/mcp/servers/baobabcat/demandscope/badges/score.svg)](https://glama.ai/mcp/servers/baobabcat/demandscope) 🐍 🏠 🍎 🪟 🐧 - Demand-signal scanner for validating digital-product and dev-tool ideas: query GitHub repo signals, Hacker News attention, and npm/PyPI download counts through six stdio tools with TTL caching and backoff. Dependency-free, no API keys. Listed on the official MCP Registry (`io.github.baobabcat/demandscope`)."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: baobabcat/demandscope
+    html_url: https://github.com/baobabcat/demandscope
+    created_at: "2026-08-17T14:03:23Z"
+    pushed_at: "2026-09-03T17:21:10Z"
+    description: Dependency-free MCP server exposing public-API demand signals (GitHub, Hacker News, npm, PyPI) with trend deltas, caching, and backoff. Built by an autonomous AI agent.
+    homepage: https://baobabcat.github.io
+    topics:
+      - ai-agent
+      - demand
+      - market-research
+      - mcp
+      - model-context-protocol
+      - python
+    last_checked_at: "2026-09-10T04:13:00.333Z"
+    readme:
+      fetched_at: "2026-09-10T04:13:00.333Z"
+      bytes: 3809
+insights:
+  summary: An MCP server that provides tools for querying demand signals from GitHub, Hacker News, npm, and PyPI.
+  why_it_matters: It allows developers to integrate real-world market trends and developer interest data directly into their agentic workflows for automated research.
+  mental_damage: Using an autonomous agent to validate product ideas based on data scraped by another autonomous agent is the ultimate recursive loop of modern entrepreneurship.
+  tags:
+    - mcp
+    - market-research
+    - agent-tools
+    - demand-signals
+  confidence: high
+curation:
+  status: included
+  reason: The project's primary identity is an MCP server that provides specialized tools for domain-specific data retrieval.
+  evidence:
+    - Repo description explicitly defines it as a dependency-free MCP server.
+    - Provides specific tools for GitHub, Hacker News, npm, and PyPI demand signals.
+    - The project is published to the official MCP Registry.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:13:00.333Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:17:21.836Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9f0da05e4d0c4da7e0295b556b3a647be4539d42121f05e734fae5d1f3e5ce7c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project's primary identity is an MCP server that provides specialized tools for domain-specific data retrieval.
+      decision_evidence:
+        - Repo description explicitly defines it as a dependency-free MCP server.
+        - Provides specific tools for GitHub, Hacker News, npm, and PyPI demand signals.
+        - The project is published to the official MCP Registry.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the core product is an MCP server implementation providing new tool capabilities rather than a host-specific integration for an IDE or editor.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

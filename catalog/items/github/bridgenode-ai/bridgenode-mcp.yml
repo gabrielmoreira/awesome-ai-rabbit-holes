@@ -1,0 +1,122 @@
+id: github__bridgenode-ai__bridgenode-mcp
+kind: github-repo
+name: bridgenode-ai/bridgenode-mcp
+canonical_url: https://github.com/bridgenode-ai/bridgenode-mcp
+identity:
+  github_repo: bridgenode-ai/bridgenode-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__bridgenode-ai__bridgenode-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🔗 <a name="aggregators"></a>Aggregators
+        anchor_text: bridgenode-ai/bridgenode-mcp
+        extracted_url: https://github.com/bridgenode-ai/bridgenode-mcp
+        surrounding_text: "- [bridgenode-ai/bridgenode-mcp](https://github.com/bridgenode-ai/bridgenode-mcp) [![bridgenode-ai/bridgenode-mcp MCP server](https://glama.ai/mcp/servers/bridgenode-ai/bridgenode-mcp/badges/score.svg)](https://glama.ai/mcp/servers/bridgenode-ai/bridgenode-mcp) 📇 ☁️ - Pay-per-request AI inference for agents: chat completions across any supported model via x402 with automatic Solana USDC payments. No API keys, no registration, fail-closed spending caps. `npx -y @bridgenode/mcp` or remote `https://bridgenode.cc/mcp`."
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT-0
+    archived: false
+    full_name: bridgenode-ai/bridgenode-mcp
+    html_url: https://github.com/bridgenode-ai/bridgenode-mcp
+    created_at: "2026-08-15T16:02:46Z"
+    pushed_at: "2026-09-09T06:19:03Z"
+    description: BridgeNode — x402 pay-per-request AI inference. MCP server for AI agents.
+    homepage: https://bridgenode.cc
+    topics:
+      - agentic-commerce
+      - ai-agents
+      - autonomous-agents
+      - gasless
+      - gpt-oss
+      - http-402
+      - inference
+      - llm
+      - mcp
+      - micropayments
+      - minimax
+      - moonshot
+      - no-api-key
+      - openai-compatible
+      - pay-per-request
+      - solana
+      - stablecoin
+      - usdc
+      - vision
+      - x402
+    last_checked_at: "2026-09-10T04:13:00.889Z"
+    readme:
+      fetched_at: "2026-09-10T04:13:00.889Z"
+      bytes: 3003
+insights:
+  summary: An MCP server that provides pay-per-request AI inference using the x402 protocol and Solana USDC.
+  why_it_matters: It allows AI agents to access models via micro-payments, bypassing the need for traditional API keys or fixed monthly subscriptions.
+  mental_damage: Nothing signals the 'agentic future' quite like giving your coding assistant a Solana wallet and a spending policy for its own tokens.
+  tags:
+    - mcp
+    - ai-agents
+    - inference
+    - solana
+    - micropayments
+  confidence: medium
+curation:
+  status: included
+  reason: The project is an MCP server implementation that acts as a middleware proxy for inference requests.
+  evidence:
+    - README identifies it as a 'stdio MCP server that proxies requests'
+    - Uses x402/Solana USDC for automatic pay-per-request inference
+    - Designed for direct installation into MCP clients like Claude Code and Cursor
+placement:
+  primary_category: mcp
+  section: Generic Servers & Middleware
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:13:00.889Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:17:39.532Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:87621be384c2f2e0fbfb1c74b619ef24ece80c19d82fac424e532136b0fa091c
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is an MCP server implementation that acts as a middleware proxy for inference requests.
+      decision_evidence:
+        - README identifies it as a 'stdio MCP server that proxies requests'
+        - Uses x402/Solana USDC for automatic pay-per-request inference
+        - Designed for direct installation into MCP clients like Claude Code and Cursor
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product's primary identity is a protocol-specific server implementation rather than a general feature augmentation.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

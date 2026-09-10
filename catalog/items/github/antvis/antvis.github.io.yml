@@ -1,0 +1,113 @@
+id: github__antvis__antvis.github.io
+kind: github-repo
+name: antvis/antvis.github.io
+canonical_url: https://github.com/antvis/antvis.github.io
+identity:
+  github_repo: antvis/antvis.github.io
+provenance:
+  discoveries:
+    - id: discovery__github__antvis__antvis.github.io__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Server Implementations
+          - 👤 <a name="customer-data-platforms"></a>Customer Data Platforms
+        anchor_text: AntV
+        extracted_url: https://github.com/antvis
+        surrounding_text: "- [antv/mcp-server-chart](https://github.com/antvis/mcp-server-chart) 🎖️ 📇 ☁️ - A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
+        confidence: high
+    - id: discovery__github__antvis__antvis.github.io__awesome-list__wong2__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: wong2/awesome-mcp-servers
+        url: https://github.com/wong2/awesome-mcp-servers
+        repository: wong2/awesome-mcp-servers
+      extraction:
+        mode: scraped
+        section_path:
+          - Official Servers
+        anchor_text: AntV
+        extracted_url: https://github.com/antvis
+        surrounding_text: "- **[Chart](https://github.com/antvis/mcp-server-chart)** - 🤖 A Model Context Protocol server for generating visual charts using [AntV](https://github.com/antvis)."
+        confidence: high
+metadata:
+  github:
+    stars: 500
+    forks: 52
+    license: NOASSERTION
+    archived: false
+    full_name: antvis/antvis.github.io
+    html_url: https://github.com/antvis/antvis.github.io
+    created_at: "2016-05-16T08:19:48Z"
+    pushed_at: "2026-09-10T03:52:26Z"
+    description: 🔜 AntV 新站点！
+    homepage: https://antv.vision
+    topics:
+      - antv
+      - gatsby
+      - gatsby-site
+    last_checked_at: "2026-09-10T04:12:55.075Z"
+    readme:
+      fetched_at: "2026-09-10T04:12:55.075Z"
+      bytes: 398
+insights:
+  summary: The documentation website for the AntV visualization ecosystem.
+  why_it_matters: This repository hosts the documentation site for AntV's visualization tools rather than being a functional AI product or tool itself.
+  mental_damage: The specialized form of exhaustion that comes from trying to determine if a repository is an AI agent or just the website describing it.
+  tags: []
+  confidence: high
+curation:
+  status: excluded
+  reason: The repository is a documentation website (built with Gatsby and Dumi) rather than a standalone developer tool, agent, or framework.
+  evidence:
+    - README identifies the project as the 'New AntV site'
+    - GitHub topics include 'gatsby-site'
+    - The repository lacks any agentic, framework, or SDK logic, functioning instead as a hosting site for documentation
+placement:
+  primary_category: null
+  section: null
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (500) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.935Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:12:55.075Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:15:54.044Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:e0ecad5add26a83e35cd820fdafe44e2ce816863ef84c7628899aa9cabde5b44
+      proposed_primary_category: null
+      disagreement: false
+      decision_reason: The repository is a documentation website (built with Gatsby and Dumi) rather than a standalone developer tool, agent, or framework.
+      decision_evidence:
+        - README identifies the project as the 'New AntV site'
+        - GitHub topics include 'gatsby-site'
+        - The repository lacks any agentic, framework, or SDK logic, functioning instead as a hosting site for documentation
+      category_candidates: []
+      contrastive_reason: null
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

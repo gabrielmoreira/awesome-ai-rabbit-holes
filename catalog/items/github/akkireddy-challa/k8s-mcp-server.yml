@@ -1,0 +1,109 @@
+id: github__akkireddy-challa__k8s-mcp-server
+kind: github-repo
+name: akkireddy-challa/k8s-mcp-server
+canonical_url: https://github.com/akkireddy-challa/k8s-mcp-server
+identity:
+  github_repo: akkireddy-challa/k8s-mcp-server
+provenance:
+  discoveries:
+    - id: discovery__github__akkireddy-challa__k8s-mcp-server__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: akkireddy-challa/k8s-mcp-server
+        extracted_url: https://github.com/akkireddy-challa/k8s-mcp-server
+        surrounding_text: "- [akkireddy-challa/k8s-mcp-server](https://github.com/akkireddy-challa/k8s-mcp-server) [![akkireddy-challa/k8s-mcp-server MCP server](https://glama.ai/mcp/servers/akkireddy-challa/k8s-mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/akkireddy-challa/k8s-mcp-server) 🐍 ☁️ 🏠 - MCP server for Kubernetes cluster operations — inspect pods, deployments, services, and logs via AI agents."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: akkireddy-challa/k8s-mcp-server
+    html_url: https://github.com/akkireddy-challa/k8s-mcp-server
+    created_at: "2026-07-15T15:00:29Z"
+    pushed_at: "2026-09-08T04:58:49Z"
+    description: Model Context Protocol (MCP) server for debugging, analyzing, and diagnosing Kubernetes clusters directly from AI agents.
+    homepage: ""
+    topics:
+      - ai-agents
+      - devops
+      - kubernetes
+      - mcp
+      - model-context-protocol
+      - observability
+      - platform-engineering
+      - python
+    last_checked_at: "2026-09-10T04:12:47.309Z"
+    readme:
+      fetched_at: "2026-09-10T04:12:47.309Z"
+      bytes: 2686
+insights:
+  summary: An MCP server that provides read-only Kubernetes diagnostic and observability tools for AI agents.
+  why_it_matters: It enables AI agents to troubleshoot pod crashes, inspect ingress, and analyze cluster events directly via the Model Context Protocol.
+  mental_damage: Because nothing says 'modern DevOps' like letting an LLM decide if your pod is actually in a CrashLoopBackOff.
+  tags:
+    - kubernetes
+    - mcp
+    - devops
+    - observability
+  confidence: high
+curation:
+  status: included
+  reason: The tool's primary identity is a domain-specific MCP server designed to expand the capabilities of AI assistants in a Kubernetes environment.
+  evidence:
+    - Repo description explicitly defines it as an MCP server for Kubernetes diagnostics.
+    - Provides specific domain tools such as get_pod_diagnostics and list_warning_events.
+    - Included in the 'awesome-mcp-servers' directory.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:12:47.310Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:14:39.371Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:9f6d92ddfa2c8db068b215d974a45d3435decdd18494fb838686e25e97c471a0
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool's primary identity is a domain-specific MCP server designed to expand the capabilities of AI assistants in a Kubernetes environment.
+      decision_evidence:
+        - Repo description explicitly defines it as an MCP server for Kubernetes diagnostics.
+        - Provides specific domain tools such as get_pod_diagnostics and list_warning_events.
+        - Included in the 'awesome-mcp-servers' directory.
+      category_candidates:
+        - mcp
+        - ai-dev-extensions
+      contrastive_reason: Choose mcp over ai-dev-extensions because the product identity is a standalone MCP server implementation for a specific domain rather than a generic integration layer.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

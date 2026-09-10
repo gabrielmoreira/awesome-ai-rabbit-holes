@@ -1,0 +1,109 @@
+id: github__ajibadedapo__flowproof-mcp
+kind: github-repo
+name: ajibadedapo/flowproof-mcp
+canonical_url: https://github.com/ajibadedapo/flowproof-mcp
+identity:
+  github_repo: ajibadedapo/flowproof-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__ajibadedapo__flowproof-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-10T04:12:32.934Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - <a name="bio"></a>Biology, Medicine and Bioinformatics
+        anchor_text: ajibadedapo/flowproof-mcp
+        extracted_url: https://github.com/ajibadedapo/flowproof-mcp
+        surrounding_text: "- [ajibadedapo/flowproof-mcp](https://github.com/ajibadedapo/flowproof-mcp) [![ajibadedapo/flowproof-mcp MCP server](https://glama.ai/mcp/servers/ajibadedapo/flowproof-mcp/badges/score.svg)](https://glama.ai/mcp/servers/ajibadedapo/flowproof-mcp) 🐍 🏠 ☁️ - Run reproducible bioinformatics pipelines (Nextflow) from an AI assistant, with verifiable Workflow Run RO-Crate provenance (container digests, tool versions, input/output checksums). `pip install flowproof-mcp`"
+        confidence: high
+metadata:
+  github:
+    stars: 1
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: ajibadedapo/flowproof-mcp
+    html_url: https://github.com/ajibadedapo/flowproof-mcp
+    created_at: "2026-08-09T19:12:23Z"
+    pushed_at: "2026-08-18T19:51:57Z"
+    description: Run reproducible bioinformatics pipelines from an AI assistant over MCP, with verifiable provenance
+    homepage: null
+    topics:
+      - ai
+      - bioinformatics
+      - genomics
+      - mcp
+      - model-context-protocol
+      - nextflow
+      - provenance
+      - reproducibility
+    last_checked_at: "2026-09-10T04:12:47.133Z"
+    readme:
+      fetched_at: "2026-09-10T04:12:47.133Z"
+      bytes: 5706
+insights:
+  summary: An MCP server that enables AI assistants to execute reproducible bioinformatics pipelines with verifiable provenance.
+  why_it_matters: It allows developers to bridge the gap between AI-driven analysis planning and the high-integrity, verifiable execution required for scientific workloads.
+  mental_damage: Because trusting an AI to interpret your genome wasn't enough, now you have to verify the SHA-256 checksums of its entire execution environment.
+  tags:
+    - bioinformatics
+    - mcp
+    - nextflow
+    - provenance
+  confidence: high
+curation:
+  status: included
+  reason: The project is primarily an MCP server designed to provide domain-specific (bioinformatics) tools to existing AI assistants.
+  evidence:
+    - Exposes six MCP tools including run_pipeline and get_provenance
+    - Provides a Nextflow backend for real-world pipeline execution
+    - Emits verifiable RO-Crate provenance records for all runs
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-10T04:12:32.936Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-10T04:12:47.133Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-10T04:14:34.703Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:52745e396b01d0bb8263af5509abdfb6fc625da512ec39ac6b2a2d9e8b92fd98
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is primarily an MCP server designed to provide domain-specific (bioinformatics) tools to existing AI assistants.
+      decision_evidence:
+        - Exposes six MCP tools including run_pipeline and get_provenance
+        - Provides a Nextflow backend for real-world pipeline execution
+        - Emits verifiable RO-Crate provenance records for all runs
+      category_candidates:
+        - mcp
+        - agent-orchestration
+      contrastive_reason: Choose mcp over agent-orchestration because the product identity is a protocol-compliant server providing tools to a host assistant rather than a standalone multi-agent control plane.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

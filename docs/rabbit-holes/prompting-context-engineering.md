@@ -257,7 +257,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `claude-code` `context-engineering` `local-ai` `long-term-memory` `mcp` `memory` `retrieval`
   </details>
 
-- **[Contexto](https://github.com/ekailabs/contexto)** `⭐ 622` `updated ≤90d` A context engine that stores full episodic memory for long-running AI agents and retrieves forgotten constraints instead of letting them be compacted away. <details><summary>More about</summary>
+- **[Contexto](https://github.com/ekailabs/contexto)** `⭐ 622` `updated ≤180d` A context engine that stores full episodic memory for long-running AI agents and retrieves forgotten constraints instead of letting them be compacted away. <details><summary>More about</summary>
 
   It lets developers keep agents reliable across long sessions without prompt hacks, by recovering original instructions and decisions that default context-window compaction would otherwise summarize into oblivion.
 
@@ -338,7 +338,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `memory` `mcp` `offline` `agentic-ai` `context-engineering`
   </details>
 
-- **[Mengram](https://github.com/alibaizhanov/mengram)** `⭐ 191` `updated ≤30d` A memory system for AI agents offering semantic, episodic, and procedural memory with Python/JS SDKs and integrations for LangChain, CrewAI, and MCP. <details><summary>More about</summary>
+- **[Mengram](https://github.com/alibaizhanov/mengram)** `⭐ 194` `updated ≤30d` A memory system for AI agents offering semantic, episodic, and procedural memory with Python/JS SDKs and integrations for LangChain, CrewAI, and MCP. <details><summary>More about</summary>
 
   Developers can give their agents persistent, evolving memory (including workflows that learn from failures) without building retrieval or context systems from scratch.
 
@@ -738,6 +738,15 @@ _These are new or low-traffic entries being watched._
   `local-first` `memory` `multi-agent` `context` `mcp`
   </details>
 
+- **[bshea-1/Routed](https://github.com/bshea-1/routed)** `⭐ 20` `updated ≤30d` A local hybrid search engine that routes coding prompts to specific agent skills to minimize context pollution and token costs. <details><summary>More about</summary>
+
+  It enables developers to use large, specialized skill sets in their AI assistants without overwhelming the model's context window or increasing latency.
+
+  _Another layer of middleware to debug when your agent suddenly forgets how to write Python because of a BM25 weighting error._
+
+  `mcp` `prompt-routing` `local-ai` `context-management` `agent-skills`
+  </details>
+
 - **[celiums-memory](https://github.com/terrizoaguimor/celiums-memory)** `⭐ 18` `updated ≤180d` An open-source MCP server that provides AI coding assistants like Claude Code and Cursor with persistent memory, circadian rhythm simulation, and access to 5,100 expert knowledge modules. <details><summary>More about</summary>
 
   It allows developers to equip their AI assistants with long-term memory and specialized technical knowledge, reducing the friction of re-explaining context across sessions.
@@ -774,7 +783,7 @@ _These are new or low-traffic entries being watched._
   `memory` `mcp` `local-first` `encryption` `context-engineering`
   </details>
 
-- **[ejentum/ejentum-mcp](https://github.com/ejentum/ejentum-mcp)** `⭐ 16` `updated ≤90d` An MCP server that exposes Ejentum's reasoning, code, anti-deception, and memory 'cognitive harnesses' to agentic clients. <details><summary>More about</summary>
+- **[ejentum/ejentum-mcp](https://github.com/ejentum/ejentum-mcp)** `⭐ 16` `updated ≤180d` An MCP server that exposes Ejentum's reasoning, code, anti-deception, and memory 'cognitive harnesses' to agentic clients. <details><summary>More about</summary>
 
   It provides structured reasoning topologies and memory tools to act as a persistent attention anchor, preventing agent reasoning decay in long-context workflows.
 
@@ -837,7 +846,7 @@ _These are new or low-traffic entries being watched._
   `data-governance` `local-first` `mcp` `ai-safety`
   </details>
 
-- **[Cavinooo/claude-find](https://github.com/cavinooo/claude-find)** `⭐ 11` `updated ≤90d` A semantic search tool that indexes Claude Code session transcripts to provide long-term memory via MCP. <details><summary>More about</summary>
+- **[Cavinooo/claude-find](https://github.com/cavinooo/claude-find)** `⭐ 11` `updated ≤180d` A semantic search tool that indexes Claude Code session transcripts to provide long-term memory via MCP. <details><summary>More about</summary>
 
   It allows developers to retrieve specific reasoning, constraints, and past decisions from previous Claude Code sessions to provide richer context for current tasks.
 
@@ -909,7 +918,7 @@ _These are new or low-traffic entries being watched._
   `local-ai` `agent-memory` `sqlite` `embeddings` `mcp`
   </details>
 
-- **[hifriendbot/cogmemai-mcp](https://github.com/hifriendbot/cogmemai-mcp)** `⭐ 7` `updated ≤90d` CogmemAi is a portable memory layer that provides persistent recall across sessions for AI systems, including coding assistants, with benchmark-topping accuracy. <details><summary>More about</summary>
+- **[hifriendbot/cogmemai-mcp](https://github.com/hifriendbot/cogmemai-mcp)** `⭐ 7` `updated ≤180d` CogmemAi is a portable memory layer that provides persistent recall across sessions for AI systems, including coding assistants, with benchmark-topping accuracy. <details><summary>More about</summary>
 
   It solves the critical developer pain of AI assistants forgetting context between sessions, automatically capturing and surfacing relevant memories without manual intervention.
 
@@ -1087,6 +1096,15 @@ _These are new or low-traffic entries being watched._
   _You already paid to generate the 40k tokens, and now you need a second AI to summarize them so the first AI can afford to keep talking to you._
 
   `context-compression` `knowledge-graph` `memory` `cli` `mcp-server`
+  </details>
+
+- **[builditwithgk/repo-cartographer](https://github.com/builditwithgk/repo-cartographer)** `⭐ 1` `updated ≤90d` An MCP server, CLI, and GitHub Action that generates architecture diagrams and dependency maps to provide structured context to LLMs. <details><summary>More about</summary>
+
+  It provides deterministic structural facts to coding assistants, preventing them from hallucinating incorrect dependency graphs or file relationships.
+
+  _Because we have officially reached the stage of needing to provide AI assistants with a map just so they don't get lost in their own hallucinations._
+
+  `mcp` `architecture` `cli` `context` `diagrams`
   </details>
 
 - **[claimidx/claimidx](https://github.com/claimidx/claimidx)** `⭐ 1` `updated ≤30d` A public, signed index of software failures and verified fixes designed to prevent AI agents from repeatedly solving the same problems. <details><summary>More about</summary>
