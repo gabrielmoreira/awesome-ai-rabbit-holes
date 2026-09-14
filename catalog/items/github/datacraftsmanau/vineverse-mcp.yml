@@ -1,0 +1,102 @@
+id: github__datacraftsmanau__vineverse-mcp
+kind: github-repo
+name: datacraftsmanau/vineverse-mcp
+canonical_url: https://github.com/datacraftsmanau/vineverse-mcp
+identity:
+  github_repo: datacraftsmanau/vineverse-mcp
+provenance:
+  discoveries:
+    - id: discovery__github__datacraftsmanau__vineverse-mcp__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-14T04:13:20.171Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🎨 <a name="art-and-culture"></a>Art & Culture
+        anchor_text: DataCraftsmanAU/vineverse-mcp
+        extracted_url: https://github.com/datacraftsmanau/vineverse-mcp
+        surrounding_text: "- [DataCraftsmanAU/vineverse-mcp](https://github.com/DataCraftsmanAU/vineverse-mcp) [![DataCraftsmanAU/vineverse-mcp MCP server](https://glama.ai/mcp/servers/DataCraftsmanAU/vineverse-mcp/badges/score.svg)](https://glama.ai/mcp/servers/DataCraftsmanAU/vineverse-mcp) 📇 ☁️ 🍎 🪟 🐧 - The Bible as a knowledge graph: 31,102 verses of the Berean Standard Bible, ~3,000 people, ~1,300 places with coordinates, ~3,000 Nave's topical themes, ~2,900 Strong's Hebrew lexemes, the 613 commandments, and 90,564 connections between them. 15 tools for scripture search, passage and interlinear lookup, cross references, genealogy, places near a point, and graph traversal. Public-domain sources, no API key. Hosted at `https://vineverse.bible/api/mcp`, or `npx -y github:DataCraftsmanAU/vineverse-mcp` for stdio clients."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: DataCraftsmanAU/vineverse-mcp
+    html_url: https://github.com/DataCraftsmanAU/vineverse-mcp
+    created_at: "2026-08-23T05:37:54Z"
+    pushed_at: "2026-09-05T14:49:41Z"
+    description: stdio bridge to the hosted VineVerse MCP server - the Bible as a knowledge graph
+    homepage: https://vineverse.bible/mcp
+    topics: []
+    last_checked_at: "2026-09-14T04:13:34.695Z"
+    readme:
+      fetched_at: "2026-09-14T04:13:34.695Z"
+      bytes: 5804
+insights:
+  summary: A stdio bridge for connecting Model Context Protocol (MCP) clients to a hosted knowledge graph of the Bible.
+  why_it_matters: It allows AI assistants to perform structured, graph-based queries on scripture, biblical figures, and historical geography via MCP.
+  mental_damage: One step closer to having a theologian-in-the-loop to audit your prompt engineering.
+  tags:
+    - mcp
+    - knowledge-graph
+    - bible
+    - stdio
+    - retrieval
+  confidence: high
+curation:
+  status: included
+  reason: The project is an MCP implementation providing specialized domain knowledge via a stdio bridge.
+  evidence:
+    - Repo description explicitly defines it as a 'stdio bridge to the hosted VineVerse MCP server'.
+    - Provides 17 specialized MCP tools for scripture, entity, and relationship retrieval.
+    - Designed specifically to enable local-process MCP clients to access a remote knowledge graph.
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-14T04:13:20.173Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-14T04:13:34.695Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-14T04:19:15.697Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:ad065c606030d766a9c4a9b31c2ba968db44e6904baf6f18a8cbe5995ae9c757
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The project is an MCP implementation providing specialized domain knowledge via a stdio bridge.
+      decision_evidence:
+        - Repo description explicitly defines it as a 'stdio bridge to the hosted VineVerse MCP server'.
+        - Provides 17 specialized MCP tools for scripture, entity, and relationship retrieval.
+        - Designed specifically to enable local-process MCP clients to access a remote knowledge graph.
+      category_candidates:
+        - mcp
+        - context-engineering
+      contrastive_reason: Choose mcp over context-engineering because the product's primary identity is an MCP server bridge rather than a standalone retrieval or prompt management system.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

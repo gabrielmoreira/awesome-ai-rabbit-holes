@@ -82,15 +82,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: failed
-    updated_at: "2026-09-03T05:16:40.865Z"
+    status: deferred
+    updated_at: "2026-09-14T04:13:48.543Z"
     cause:
-      type: github_repo_missing
-      message: "GitHub repository not found: elmoaid/tempograph"
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for elmoaid/tempograph
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-10T04:13:05.783Z"
+    updated_at: "2026-09-14T04:13:52.184Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

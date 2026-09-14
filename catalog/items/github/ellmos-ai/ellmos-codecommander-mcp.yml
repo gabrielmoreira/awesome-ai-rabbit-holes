@@ -90,9 +90,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-27T09:23:23.257Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-14T04:13:48.577Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for ellmos-ai/ellmos-codecommander-mcp
     next_retry_at: null
   categorize:
     status: done

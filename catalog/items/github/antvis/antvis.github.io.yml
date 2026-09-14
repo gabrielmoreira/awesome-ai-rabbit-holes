@@ -58,18 +58,21 @@ metadata:
       fetched_at: "2026-09-10T04:12:55.075Z"
       bytes: 398
 insights:
-  summary: The documentation website for the AntV visualization ecosystem.
-  why_it_matters: This repository hosts the documentation site for AntV's visualization tools rather than being a functional AI product or tool itself.
-  mental_damage: The specialized form of exhaustion that comes from trying to determine if a repository is an AI agent or just the website describing it.
-  tags: []
+  summary: The documentation and landing site for the AntV data visualization library ecosystem.
+  why_it_matters: Serves as the primary informational hub for developers seeking documentation and guides for AntV's visualization tools.
+  mental_damage: Even your data visualization libraries need a dedicated Gatsby repository just to host their new marketing site.
+  tags:
+    - documentation
+    - visualization
+    - gatsby
   confidence: high
 curation:
   status: excluded
-  reason: The repository is a documentation website (built with Gatsby and Dumi) rather than a standalone developer tool, agent, or framework.
+  reason: This repository is a documentation and marketing site for a visualization library, not a standalone AI developer tool or infrastructure product.
   evidence:
-    - README identifies the project as the 'New AntV site'
-    - GitHub topics include 'gatsby-site'
-    - The repository lacks any agentic, framework, or SDK logic, functioning instead as a hosting site for documentation
+    - README identifies the repo as the 'New AntV site'
+    - Topics and description indicate it is a Gatsby-based website repository
+    - The repository does not contain AI logic, agents, or developer-facing AI tooling
 placement:
   primary_category: null
   section: null
@@ -89,7 +92,7 @@ processing:
     next_retry_at: null
   categorize:
     status: done
-    updated_at: "2026-09-10T04:15:54.044Z"
+    updated_at: "2026-09-14T04:14:25.701Z"
     cause: null
     classification:
       answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
@@ -98,16 +101,16 @@ processing:
       input_hash: sha256:e0ecad5add26a83e35cd820fdafe44e2ce816863ef84c7628899aa9cabde5b44
       proposed_primary_category: null
       disagreement: false
-      decision_reason: The repository is a documentation website (built with Gatsby and Dumi) rather than a standalone developer tool, agent, or framework.
+      decision_reason: This repository is a documentation and marketing site for a visualization library, not a standalone AI developer tool or infrastructure product.
       decision_evidence:
-        - README identifies the project as the 'New AntV site'
-        - GitHub topics include 'gatsby-site'
-        - The repository lacks any agentic, framework, or SDK logic, functioning instead as a hosting site for documentation
+        - README identifies the repo as the 'New AntV site'
+        - Topics and description indicate it is a Gatsby-based website repository
+        - The repository does not contain AI logic, agents, or developer-facing AI tooling
       category_candidates: []
       contrastive_reason: null
       review_reason: null
       review_resume_lifecycle: null
-    attempts: 1
+    attempts: 2
     prompt_version: catalog-categorize-v5-single-template
     category_rules_version: 6cc474a86022
     next_retry_at: null

@@ -1,0 +1,108 @@
+id: github__aiops-tools__k8s-aiops
+kind: github-repo
+name: aiops-tools/k8s-aiops
+canonical_url: https://github.com/aiops-tools/k8s-aiops
+identity:
+  github_repo: aiops-tools/k8s-aiops
+provenance:
+  discoveries:
+    - id: discovery__github__aiops-tools__k8s-aiops__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-14T04:13:20.171Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - ☁️ <a name="cloud-platforms"></a>Cloud Platforms
+        anchor_text: AIops-tools/K8s-AIops
+        extracted_url: https://github.com/aiops-tools/k8s-aiops
+        surrounding_text: "- [AIops-tools/K8s-AIops](https://github.com/AIops-tools/K8s-AIops) [![AIops-tools/K8s-AIops MCP server](https://glama.ai/mcp/servers/AIops-tools/K8s-AIops/badges/score.svg)](https://glama.ai/mcp/servers/AIops-tools/K8s-AIops) 🐍 🏠 - Governed Kubernetes operations (k3s/EKS/GKE/AKS) — workloads, batch jobs, config, storage, networking, and rollout management (55 tools) with unbypassable audit logging (MCP + CLI), budget/runaway guards, dry-run, and undo/rollback."
+        confidence: high
+metadata:
+  github:
+    stars: 0
+    forks: 0
+    license: MIT
+    archived: false
+    full_name: AIops-tools/K8s-AIops
+    html_url: https://github.com/AIops-tools/K8s-AIops
+    created_at: "2026-06-22T06:49:53Z"
+    pushed_at: "2026-09-12T13:54:20Z"
+    description: Standalone governed Kubernetes ops — 15 MCP tools with built-in audit/budget/undo/risk-tier harness
+    homepage: null
+    topics:
+      - agent-skills
+      - ai-ops
+      - containers
+      - k3s
+      - kubernetes
+      - mcp
+    last_checked_at: "2026-09-14T04:13:21.989Z"
+    readme:
+      fetched_at: "2026-09-14T04:13:21.989Z"
+      bytes: 7661
+insights:
+  summary: A suite of MCP tools for governed Kubernetes operations, featuring built-in auditing, risk-tiering, and runaway budget protections.
+  why_it_matters: It allows AI agents to manage Kubernetes clusters with a safety layer of auditing and 'undo' capabilities to mitigate the risks of autonomous infrastructure changes.
+  mental_damage: Because nothing says 'stable production environment' like giving an LLM a direct line to your kubeconfig and a 'hope I can undo that' button.
+  tags:
+    - kubernetes
+    - mcp
+    - ai-ops
+    - k8s
+    - agent-skills
+  confidence: high
+curation:
+  status: included
+  reason: The tool acts as a domain-specific MCP server that provides agents with functional, governed capabilities for Kubernetes cluster management.
+  evidence:
+    - Provides a suite of MCP tools wrapped in a '@governed_tool' harness for auditing and risk management
+    - Designed to be used as a standalone MCP server with clients like Claude Code or OpenClaw
+    - Includes safety features like runaway budget guards and undo-token recording for cluster operations
+placement:
+  primary_category: mcp
+  section: Domain Servers
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-14T04:13:20.172Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-14T04:13:21.989Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-14T04:15:50.792Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:85b25670dcd705b769190ad903330739b2c6dfcd82d67c89944f6d2b7f8f30cb
+      proposed_primary_category: mcp
+      disagreement: false
+      decision_reason: The tool acts as a domain-specific MCP server that provides agents with functional, governed capabilities for Kubernetes cluster management.
+      decision_evidence:
+        - Provides a suite of MCP tools wrapped in a '@governed_tool' harness for auditing and risk management
+        - Designed to be used as a standalone MCP server with clients like Claude Code or OpenClaw
+        - Includes safety features like runaway budget guards and undo-token recording for cluster operations
+      category_candidates:
+        - mcp
+        - skills
+      contrastive_reason: Choose mcp over skills because the project's primary identity is a specialized MCP server providing functional infrastructure capabilities rather than just a pack of text-based rules or prompts.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

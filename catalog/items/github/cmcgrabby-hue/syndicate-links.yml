@@ -69,15 +69,15 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-09-10T04:13:01.530Z"
+    status: failed
+    updated_at: "2026-09-14T04:13:27.598Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for cmcgrabby-hue/syndicate-links
+      type: github_repo_missing
+      message: "GitHub repository not found: cmcgrabby-hue/syndicate-links"
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-10T04:13:05.783Z"
+    updated_at: "2026-09-14T04:13:52.184Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

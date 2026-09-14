@@ -383,7 +383,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `rust` `local-inference` `cpu` `llama2` `quantized`
   </details>
 
-- **[ZhiLight](https://github.com/zhihu/zhilight)** `⭐ 905` `updated ≤180d` ZhiLight is a highly optimized LLM inference acceleration engine for Llama and its variants, focused on performance improvements for PCIe-based GPUs. <details><summary>More about</summary>
+- **[ZhiLight](https://github.com/zhihu/zhilight)** `⭐ 905` `updated ≤1y` ZhiLight is a highly optimized LLM inference acceleration engine for Llama and its variants, focused on performance improvements for PCIe-based GPUs. <details><summary>More about</summary>
 
   It provides measurable QPS and latency gains over vLLM and SGLang on consumer and data-center GPUs, serving as a high-performance local inference runtime.
 
@@ -437,7 +437,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `cpp` `cuda` `performance`
   </details>
 
-- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 199` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
+- **[LLMKube](https://github.com/defilantech/llmkube)** `⭐ 209` `updated ≤30d` Kubernetes operator for self-hosted LLM inference that manages llama.cpp, vLLM, TGI, and mlx-server runtimes across NVIDIA and Apple Silicon hardware with autoscaling and an OpenAI-compatible API. <details><summary>More about</summary>
 
   It lets developers run private, air-gapped inference on existing Kubernetes clusters without building a custom model-serving platform, using standard YAML to handle GPU scheduling, caching, and routing to external providers when needed.
 

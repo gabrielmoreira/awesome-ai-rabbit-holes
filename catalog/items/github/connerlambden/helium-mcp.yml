@@ -105,11 +105,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: deferred
-    updated_at: "2026-09-10T04:13:02.894Z"
+    status: failed
+    updated_at: "2026-09-14T04:13:28.753Z"
     cause:
-      type: github_unavailable
-      message: Could not fetch GitHub metadata for connerlambden/helium-mcp
+      type: github_repo_missing
+      message: "GitHub repository not found: connerlambden/helium-mcp"
     next_retry_at: null
   categorize:
     status: done

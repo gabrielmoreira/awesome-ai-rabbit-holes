@@ -1,0 +1,117 @@
+id: github__continuum-ai-corp__orcareplay
+kind: github-repo
+name: continuum-ai-corp/orcareplay
+canonical_url: https://github.com/continuum-ai-corp/orcareplay
+identity:
+  github_repo: continuum-ai-corp/orcareplay
+provenance:
+  discoveries:
+    - id: discovery__github__continuum-ai-corp__orcareplay__awesome-list__bradagi__awesome-cli-coding-agents
+      discovered_at: "2026-09-14T04:13:20.171Z"
+      source:
+        type: awesome-list
+        name: bradAGI/awesome-cli-coding-agents
+        url: https://github.com/bradagi/awesome-cli-coding-agents
+        repository: bradAGI/awesome-cli-coding-agents
+      extraction:
+        mode: parsed
+        section_path:
+          - Harnesses & orchestration
+          - Agent infrastructure
+        anchor_text: OrcaReplay
+        extracted_url: https://github.com/continuum-ai-corp/orcareplay
+        surrounding_text: "- **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** `⭐ 236` — Records a coding-agent run and replays it offline with the network off, or forks it from any checkpoint onto a different model. Capture sits below the harness — shell exit codes, per-turn file changes and MCP calls land on the same timeline as the model traffic — so it also records agents with no base URL to change, via TLS interception on a host allowlist."
+        confidence: high
+metadata:
+  github:
+    stars: 243
+    forks: 67
+    license: Apache-2.0
+    archived: false
+    full_name: Continuum-AI-Corp/OrcaReplay
+    html_url: https://github.com/Continuum-AI-Corp/OrcaReplay
+    created_at: "2026-08-29T08:41:53Z"
+    pushed_at: "2026-09-14T04:02:06Z"
+    description: OrcaReplay — Time travel for AI agents. Record, replay, fork, and debug any agent run with any model. Built by the OrcaRouter.ai team.
+    homepage: http://www.orcarouter.ai
+    topics:
+      - agent-debugging
+      - agent-tracing
+      - ai-agent
+      - ai-agents
+      - ai-debugger
+      - ai-debugging
+      - anthropic
+      - llm
+      - llm-agents
+      - llm-evaluation
+      - llm-observability
+      - mcp
+      - observability
+      - openai
+      - orcarouter
+    last_checked_at: "2026-09-14T04:13:29.224Z"
+    readme:
+      fetched_at: "2026-09-14T04:13:29.224Z"
+      bytes: 49439
+insights:
+  summary: A debugging tool that records, replays, and forks AI agent runs to facilitate model comparison and failure reproduction.
+  why_it_matters: It allows developers to reproduce agentic failures byte-for-byte and test different models at specific execution checkpoints without re-running the entire process.
+  mental_damage: It transforms the frantic 'why did the agent delete my database?' panic into a calm, offline, repeatable science experiment.
+  tags:
+    - agent-debugging
+    - observability
+    - tracing
+    - llm-ops
+    - replay
+  confidence: high
+curation:
+  status: included
+  reason: The tool's core identity is providing the infrastructure to trace, replay, and compare agentic behavior, which is the primary function of the evals category.
+  evidence:
+    - README claims the tool allows for 'byte-for-byte' reproduction of runs and forking at any step onto a different model.
+    - The product explicitly positions itself as an upgrade to existing observability tools by adding replay and debugging capabilities.
+    - The core utility is centered on tracing and measuring model performance within an agentic loop.
+placement:
+  primary_category: evals
+  section: Observability / Tracing / EvalOps
+lifecycle:
+  status: promotion_candidate
+  reason: Stars (243) exceeded threshold (150)
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-14T04:13:20.173Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-14T04:13:29.224Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-14T04:18:57.876Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:3ed836d4ba6c7f591827bbf58a1657d38f868e08dc90f75effacbb25f0feff5a
+      proposed_primary_category: evals
+      disagreement: false
+      decision_reason: The tool's core identity is providing the infrastructure to trace, replay, and compare agentic behavior, which is the primary function of the evals category.
+      decision_evidence:
+        - README claims the tool allows for 'byte-for-byte' reproduction of runs and forking at any step onto a different model.
+        - The product explicitly positions itself as an upgrade to existing observability tools by adding replay and debugging capabilities.
+        - The core utility is centered on tracing and measuring model performance within an agentic loop.
+      category_candidates:
+        - evals
+        - ai-dev-extensions
+      contrastive_reason: Choose evals over ai-dev-extensions because the core novelty is the ability to trace, compare, and replay execution loops rather than simply augmenting a host interface with new features.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

@@ -72,9 +72,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-08-27T09:23:23.792Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-14T04:13:49.368Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for engineering4ai/awesome-spec-driven-development
     next_retry_at: null
   categorize:
     status: done

@@ -1,0 +1,101 @@
+id: github__abnegate__magents
+kind: github-repo
+name: abnegate/magents
+canonical_url: https://github.com/abnegate/magents
+identity:
+  github_repo: abnegate/magents
+provenance:
+  discoveries:
+    - id: discovery__github__abnegate__magents__awesome-list__punkpeye__awesome-mcp-servers
+      discovered_at: "2026-09-14T04:13:20.171Z"
+      source:
+        type: awesome-list
+        name: punkpeye/awesome-mcp-servers
+        url: https://github.com/punkpeye/awesome-mcp-servers
+        repository: punkpeye/awesome-mcp-servers
+      extraction:
+        mode: parsed
+        section_path:
+          - Server Implementations
+          - 🤖 <a name="coding-agents"></a>Coding Agents
+        anchor_text: abnegate/magents
+        extracted_url: https://github.com/abnegate/magents
+        surrounding_text: "- [abnegate/magents](https://github.com/abnegate/magents) [![abnegate/magents MCP server](https://glama.ai/mcp/servers/abnegate/magents/badges/score.svg)](https://glama.ai/mcp/servers/abnegate/magents) 🦀 🏠 🍎 🐧 - Shared session bus for Claude Code, Codex, Cursor, Grok, and friends: MCP + CLI to list/read/handoff/send/spawn across live agent sessions. Install: `brew install abnegate/tap/magents`."
+        confidence: high
+metadata:
+  github:
+    stars: 3
+    forks: 1
+    license: MIT
+    archived: false
+    full_name: abnegate/magents
+    html_url: https://github.com/abnegate/magents
+    created_at: "2026-08-29T02:36:32Z"
+    pushed_at: "2026-09-12T06:14:02Z"
+    description: Shared session bus for Claude Code, Codex, and Cursor
+    homepage: https://abnegate.github.io/magents/
+    topics: []
+    last_checked_at: "2026-09-14T04:13:21.392Z"
+    readme:
+      fetched_at: "2026-09-14T04:13:21.392Z"
+      bytes: 10192
+insights:
+  summary: A shared session bus and MCP server that enables context and session handoffs between different coding assistants.
+  why_it_matters: It allows developers to move tasks between agents like Claude Code and Cursor without the need for manual context re-entry or repetitive explanations.
+  mental_damage: Because why manually copy-paste context when you can let a middleware layer handle your multi-agent identity crisis?
+  tags:
+    - mcp
+    - context-management
+    - session-handoff
+    - coding-agents
+  confidence: high
+curation:
+  status: included
+  reason: It provides the core novelty of a shared session and memory layer that allows context to flow between disparate coding agents.
+  evidence:
+    - Functions as a shared API and MCP server over existing agent sessions
+    - Solves the 'context trapped in another window' problem by reading live sessions
+    - Enables handoffs and independent headless sessions across different hosts
+placement:
+  primary_category: context-engineering
+  section: Memory / Compression / Distillation
+lifecycle:
+  status: incubating
+  reason: null
+processing:
+  discover:
+    status: done
+    updated_at: "2026-09-14T04:13:20.172Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-14T04:13:21.392Z"
+    cause: null
+    next_retry_at: null
+  categorize:
+    status: done
+    updated_at: "2026-09-14T04:15:02.259Z"
+    cause: null
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:f305be313d271c33f29ea1d31b5b48fe2bd6b573a088631679c845d7504c3371
+      proposed_primary_category: context-engineering
+      disagreement: false
+      decision_reason: It provides the core novelty of a shared session and memory layer that allows context to flow between disparate coding agents.
+      decision_evidence:
+        - Functions as a shared API and MCP server over existing agent sessions
+        - Solves the 'context trapped in another window' problem by reading live sessions
+        - Enables handoffs and independent headless sessions across different hosts
+      category_candidates:
+        - context-engineering
+        - ai-dev-extensions
+      contrastive_reason: Choose context-engineering over ai-dev-extensions because its core novelty is the shared session memory and context-shaping infrastructure rather than just the host integration layer.
+      review_reason: null
+      review_resume_lifecycle: null
+    attempts: 1
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022
+    next_retry_at: null

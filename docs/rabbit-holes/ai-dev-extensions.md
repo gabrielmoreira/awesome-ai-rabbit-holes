@@ -131,6 +131,15 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `markdown` `email` `html` `cli` `mcp`
   </details>
 
+- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 882` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
+
+  It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
+
+  _Finally, a tool to manage the anxiety of having too many AI assistants running at once — because one wasn't enough._
+
+  `terminal` `tui` `session-manager` `ai-agents` `cli`
+  </details>
+
 - **[vkhanhqui/figma-mcp-go](https://github.com/vkhanhqui/figma-mcp-go)** `⭐ 838` `updated ≤180d` figma-mcp-go is an open-source MCP server that provides full read/write access to live Figma data via a plugin bridge, enabling text-to-design and design-to-code workflows without using the Figma REST API or encountering rate limits. <details><summary>More about</summary>
 
   It lets developers use AI assistants like Claude Code or Cursor to directly read and manipulate Figma files and generate code from designs, bypassing API limitations that hinder experimentation.
@@ -138,15 +147,6 @@ Add-ons and host integrations that extend another coding tool rather than being 
   _Finally, a way to make your AI pair programmer feel useful while it redesigns your entire UI system in the time it takes to explain what a 'variant' is._
 
   `figma` `mcp` `design-to-code` `ai-dev-extensions`
-  </details>
-
-- **[agent-deck](https://github.com/asheshgoplani/agent-deck)** `⭐ 827` `updated ≤30d` Agent Deck is a terminal TUI session manager for multiple AI coding agents like Claude Code, Gemini CLI, and OpenCode. <details><summary>More about</summary>
-
-  It solves the chaos of juggling many AI agent sessions by providing a single terminal interface to monitor, switch, and organize them.
-
-  _Finally, a tool to manage the anxiety of having too many AI assistants running at once — because one wasn't enough._
-
-  `terminal` `tui` `session-manager` `ai-agents` `cli`
   </details>
 
 - **[Agent Sessions](https://github.com/jazzyalex/agent-sessions)** `⭐ 741` `updated ≤90d` Agent Sessions is a local-first macOS app for browsing, searching, and resuming AI coding-agent session history across multiple tools like Codex, Claude Code, and Cursor Agent. <details><summary>More about</summary>
@@ -176,7 +176,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `rust` `tunneling` `mcp` `self-hosted` `networking`
   </details>
 
-- **[dannote/figma-use](https://github.com/dannote/figma-use)** `⭐ 592` `updated ≤90d` A CLI tool that provides full read/write access to Figma for AI agents, enabling programmatic creation and manipulation of design elements via commands or JSX. <details><summary>More about</summary>
+- **[dannote/figma-use](https://github.com/dannote/figma-use)** `⭐ 600` `updated ≤90d` A CLI tool that provides full read/write access to Figma for AI agents, enabling programmatic creation and manipulation of design elements via commands or JSX. <details><summary>More about</summary>
 
   It lets developers and AI agents automate Figma workflows directly from the terminal, bridging the gap between code and design tooling.
 
@@ -212,7 +212,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `claude-code` `cli` `mcp` `command-management` `configuration`
   </details>
 
-- **[Greywall](https://github.com/greyhavenhq/greywall)** `⭐ 290` `updated ≤30d` A container-free sandbox that provides kernel-enforced filesystem, network, and syscall isolation for AI coding agents on Linux and macOS. <details><summary>More about</summary>
+- **[Greywall](https://github.com/greyhavenhq/greywall)** `⭐ 290` `updated ≤90d` A container-free sandbox that provides kernel-enforced filesystem, network, and syscall isolation for AI coding agents on Linux and macOS. <details><summary>More about</summary>
 
   It allows developers to run autonomous agents like Claude Code or Cursor with the confidence that they won't accidentally leak secrets or compromise the host system.
 
@@ -230,7 +230,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mysql` `mcp` `database` `ai-dev-extensions`
   </details>
 
-- **[ConstantineB6/comfy-pilot](https://github.com/constantineb6/comfy-pilot)** `⭐ 231` `updated ≤1y` MCP server and embedded terminal that enables Claude Code to view, edit, and run ComfyUI workflows. <details><summary>More about</summary>
+- **[ConstantineB6/comfy-pilot](https://github.com/constantineb6/comfy-pilot)** `⭐ 230` `updated ≤1y` MCP server and embedded terminal that enables Claude Code to view, edit, and run ComfyUI workflows. <details><summary>More about</summary>
 
   Lets developers control ComfyUI’s node-based image generation workflows via natural language instead of manual graph editing.
 
@@ -266,7 +266,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `security` `ai-agents` `mcp` `audit` `devops`
   </details>
 
-- **[OpenPaw](https://github.com/daxaur/openpaw)** `⭐ 164` `updated ≤180d` OpenPaw is a CLI tool that installs 38 skills to turn Claude Code into a personal assistant for email, calendar, smart home, media, and task management. <details><summary>More about</summary>
+- **[OpenPaw](https://github.com/daxaur/openpaw)** `⭐ 168` `updated ≤180d` OpenPaw is a CLI tool that installs 38 skills to turn Claude Code into a personal assistant for email, calendar, smart home, media, and task management. <details><summary>More about</summary>
 
   It lets developers extend Claude Code beyond coding into daily productivity workflows without leaving the terminal.
 
@@ -297,6 +297,15 @@ _These are new or low-traffic entries being watched._
   `scraping` `claude-code` `web-crawler` `markdown` `dotnet`
   </details>
 
+- **[codex-profiles](https://github.com/ducksss/codex-profiles)** `⭐ 146` `updated ≤30d` A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts. <details><summary>More about</summary>
+
+  Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
+
+  _The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities._
+
+  `cli` `bash` `account-switching` `codex` `macos`
+  </details>
+
 - **[deusXmachina-dev/memorylane](https://github.com/deusxmachina-dev/memorylane)** `⭐ 123` `updated ≤30d` A desktop app that records screen activity to build work context and surfaces automation opportunities, queryable via MCP in AI chats. <details><summary>More about</summary>
 
   It turns passive observation of developer workflows into structured context that can be fed into AI assistants for smarter automation suggestions.
@@ -322,15 +331,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a tool to quantify the guilt of letting your AI coding agent loop on a typo for 47 minutes while burning through your token budget._
 
   `observability` `tui` `ai-agents` `cost-tracking` `local-first`
-  </details>
-
-- **[codex-profiles](https://github.com/ducksss/codex-profiles)** `⭐ 105` `updated ≤30d` A Bash wrapper that manages isolated CODEX_HOME profiles to separate auth tokens, settings, and state for multiple Codex accounts. <details><summary>More about</summary>
-
-  Prevents identity leakage and config collisions when switching between work, personal, and client accounts without manually copying auth.json files.
-
-  _The inevitable realization that we've reached the 'managing multiple AI personas' phase of our career, essentially treating LLM accounts like separate browser profiles for our professional identities._
-
-  `cli` `bash` `account-switching` `codex` `macos`
   </details>
 
 - **[Maige](https://github.com/rubriclab/maige)** `⭐ 102` `updated ≤180d` Maige is an AI-powered GitHub App that automates repository maintenance tasks, such as managing issue labels and responding to natural language commands within issues and pull requests. <details><summary>More about</summary>
@@ -396,7 +396,7 @@ _These are new or low-traffic entries being watched._
   `llm-routing` `cost-optimization` `mcp`
   </details>
 
-- **[apireno/DOMShell](https://github.com/apireno/domshell)** `⭐ 52` `updated ≤30d` A Chrome Extension that exposes the browser's Accessibility Tree as a virtual filesystem, allowing AI agents and humans to navigate and interact with web pages using standard Linux commands. <details><summary>More about</summary>
+- **[apireno/DOMShell](https://github.com/apireno/domshell)** `⭐ 52` `updated ≤90d` A Chrome Extension that exposes the browser's Accessibility Tree as a virtual filesystem, allowing AI agents and humans to navigate and interact with web pages using standard Linux commands. <details><summary>More about</summary>
 
   It replaces brittle CSS selectors and pixel-based automation with a deterministic, semantic filesystem metaphor for browser interaction, making web automation more reliable for AI agents.
 
@@ -432,6 +432,15 @@ _These are new or low-traffic entries being watched._
   `local-first` `task-management` `ai-agent` `browser-based` `mcp`
   </details>
 
+- **[Agon](https://github.com/autoresearch-factory/agon)** `⭐ 48` `updated ≤30d` Agon is a Claude Code plugin that orchestrates autonomous AI research loops to turn a topic into runnable experiments without human-written experimental code. <details><summary>More about</summary>
+
+  It removes the manual effort of prototyping research ideas by automating hypothesis generation, proposal review, and experiment execution within Claude Code.
+
+  _Watch your AI agents spend hours debugging each other's failed experiments while you refresh the terminal, hoping they don't get stuck in a literature-review loop._
+
+  `claude-code` `agent-orchestration` `research-automation`
+  </details>
+
 - **[showagent](https://github.com/aytzey/showagent)** `⭐ 48` `updated ≤30d` A terminal UI for browsing, searching, and converting conversation sessions between different AI coding agents like Claude Code, Codex, and Gemini CLI. <details><summary>More about</summary>
 
   It solves the fragmentation of AI agent history by allowing developers to switch between different agents without losing the conversational context of a session.
@@ -459,15 +468,6 @@ _These are new or low-traffic entries being watched._
   `cli` `fireworks-ai` `integration` `model-switching`
   </details>
 
-- **[Agon](https://github.com/autoresearch-factory/agon)** `⭐ 45` `updated ≤30d` Agon is a Claude Code plugin that orchestrates autonomous AI research loops to turn a topic into runnable experiments without human-written experimental code. <details><summary>More about</summary>
-
-  It removes the manual effort of prototyping research ideas by automating hypothesis generation, proposal review, and experiment execution within Claude Code.
-
-  _Watch your AI agents spend hours debugging each other's failed experiments while you refresh the terminal, hoping they don't get stuck in a literature-review loop._
-
-  `claude-code` `agent-orchestration` `research-automation`
-  </details>
-
 - **[AgentDiff](https://github.com/codeprakhar25/agentdiff)** `⭐ 43` `updated ≤180d` A git-native tool for AI code provenance that records and cryptographically signs which AI agent wrote specific lines of code. <details><summary>More about</summary>
 
   It provides a durable, signed audit trail for AI-generated code, moving from probabilistic detection to verifiable authorship for governance and security.
@@ -486,7 +486,7 @@ _These are new or low-traffic entries being watched._
   `vs-code-extension` `code-explanation` `move-language` `gpt-integration`
   </details>
 
-- **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 42` `updated ≤90d` macOS Electron app that turns Claude Code and Codex sessions into ambient audio radio stations, surfacing progress, blockers, and attention requests in real time. <details><summary>More about</summary>
+- **[Agent FM](https://github.com/agentfm-ai/agent-fm)** `⭐ 42` `updated ≤180d` macOS Electron app that turns Claude Code and Codex sessions into ambient audio radio stations, surfacing progress, blockers, and attention requests in real time. <details><summary>More about</summary>
 
   It lets developers monitor multiple active terminal agents via audio narration and a dashboard instead of jumping between transcript windows.
 
@@ -630,7 +630,7 @@ _These are new or low-traffic entries being watched._
   `git-worktree` `ticket-to-pr` `ai-agent-friendly` `stacked-prs` `cli`
   </details>
 
-- **[Agentic Engineering Framework](https://github.com/dimitrigeelen/agentic-engineering-framework)** `⭐ 13` `updated ≤30d` Governance framework for AI coding agents that enforces task traceability, structural gates, session continuity, and audit trails for tools like Claude Code, Cursor, and Copilot. <details><summary>More about</summary>
+- **[Agentic Engineering Framework](https://github.com/dimitrigeelen/agentic-engineering-framework)** `⭐ 14` `updated ≤30d` Governance framework for AI coding agents that enforces task traceability, structural gates, session continuity, and audit trails for tools like Claude Code, Cursor, and Copilot. <details><summary>More about</summary>
 
   It prevents AI agents from making destructive or untraceable changes by enforcing mandatory task gates, blocking risky commands, and maintaining audit trails.
 
@@ -774,7 +774,7 @@ _These are new or low-traffic entries being watched._
   `automation` `billing-hack` `cli` `coding-agents` `tmux`
   </details>
 
-- **[Terminai](https://github.com/emosenkis/terminai)** `⭐ 6` `updated ≤30d` A transparent terminal wrapper that provides an AI assistant overlay within your existing shell environment. <details><summary>More about</summary>
+- **[Terminai](https://github.com/emosenkis/terminai)** `⭐ 6` `updated ≤90d` A transparent terminal wrapper that provides an AI assistant overlay within your existing shell environment. <details><summary>More about</summary>
 
   It provides a seamless way to access CLI agents like Claude Code through a secure, context-aware UI without leaving your terminal.
 
@@ -945,13 +945,22 @@ _These are new or low-traffic entries being watched._
   `figma` `mcp` `ui-generation` `design-systems`
   </details>
 
-- **[5dive-ai/5dive-mcp](https://github.com/5dive-ai/5dive-mcp)** `⭐ 0` `updated ≤30d` An MCP server that exposes the 5dive agent-fleet CLI as tools for MCP-compatible clients like Claude Desktop and Cursor. <details><summary>More about</summary>
+- **[5dive-ai/5dive-mcp](https://github.com/5dive-ai/5dive-mcp)** `⭐ 0` `updated ≤90d` An MCP server that exposes the 5dive agent-fleet CLI as tools for MCP-compatible clients like Claude Desktop and Cursor. <details><summary>More about</summary>
 
   It allows developers to manage autonomous agent fleets and task queues directly from within their existing AI-native IDEs or chat interfaces.
 
   _Because managing a fleet of autonomous agents wasn't already a high-stakes game of whack-a-mole from inside a chat prompt._
 
   `mcp` `agent-orchestration` `cli` `workflow`
+  </details>
+
+- **[bertshim/termlink-relay](https://github.com/bertshim/termlink-relay)** `⭐ 0` `updated ≤30d` An open-source relay protocol and binary for remotely accessing terminal-based coding agents via a browser or phone. <details><summary>More about</summary>
+
+  It allows developers to maintain a persistent, mobile-accessible connection to their local AI coding sessions without the security overhead of SSH or VPNs.
+
+  _Because your terminal-based coding agent still hasn't quite achieved its dream of being a mobile-first social media app._
+
+  `claude-code` `remote-access` `terminal` `session-management` `self-hosted`
   </details>
 
 - **[bobaba99/motionlint](https://github.com/bobaba99/motionlint)** `⭐ 0` `updated ≤90d` A CLI and MCP server that performs deterministic motion audits and vision-LLM design reviews for web animations. <details><summary>More about</summary>

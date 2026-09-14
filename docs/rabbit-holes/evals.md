@@ -41,7 +41,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-observability` `evaluation` `tracing` `llmops` `rag`
   </details>
 
-- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 17.9k` `updated ≤30d` An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots. <details><summary>More about</summary>
+- **[DeepEval](https://github.com/confident-ai/deepeval)** `⭐ 18.3k` `updated ≤30d` An open-source LLM evaluation framework for testing and benchmarking AI agents, RAG pipelines, and chatbots. <details><summary>More about</summary>
 
   It lets developers measure and compare model quality, prompt effectiveness, and architecture choices with research-backed metrics like G-Eval and task completion.
 
@@ -59,7 +59,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `llm` `testing` `python` `framework`
   </details>
 
-- **[lm-evaluation-harness](https://github.com/eleutherai/lm-evaluation-harness)** `⭐ 13.8k` `updated ≤30d` A framework for few-shot evaluation of language models with support for 60+ benchmarks and multiple model backends. <details><summary>More about</summary>
+- **[lm-evaluation-harness](https://github.com/eleutherai/lm-evaluation-harness)** `⭐ 14k` `updated ≤30d` A framework for few-shot evaluation of language models with support for 60+ benchmarks and multiple model backends. <details><summary>More about</summary>
 
   It provides a standardized, reproducible way to test and compare LLM performance across academic benchmarks and custom tasks, powering leaderboards like Hugging Face's Open LLM Leaderboard.
 
@@ -185,7 +185,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evaluation` `vision-language` `benchmarking` `multimodal` `llm`
   </details>
 
-- **[Deepchecks](https://github.com/deepchecks/deepchecks)** `⭐ 4k` `updated ≤1y` Deepchecks is an open-source solution for continuous validation of ML models and data, covering testing, CI, and monitoring. <details><summary>More about</summary>
+- **[Deepchecks](https://github.com/deepchecks/deepchecks)** `⭐ 4.1k` `updated ≤1y` Deepchecks is an open-source solution for continuous validation of ML models and data, covering testing, CI, and monitoring. <details><summary>More about</summary>
 
   It helps developers validate AI/ML models and data pipelines from research to production, ensuring reliability and performance.
 
@@ -428,6 +428,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `benchmark` `contamination` `training-data` `eval` `research`
   </details>
 
+- **[XRAG](https://github.com/docailab/xrag)** `⭐ 319` `updated ≤30d` XRAG is a benchmarking framework for evaluating foundational components of advanced Retrieval-Augmented Generation (RAG) systems. <details><summary>More about</summary>
+
+  It helps developers and researchers measure and compare the performance of different RAG configurations, components, and workflows.
+
+  _Finally, a way to quantify whether your RAG pipeline is just hallucinating with confidence._
+
+  `rag` `benchmarking` `evaluation` `llm` `retrieval`
+  </details>
+
 - **[datasetloom](https://github.com/599yongyang/datasetloom)** `⭐ 297` `updated ≤1y` An intelligent platform for constructing and evaluating multimodal training datasets, supporting SFT, DPO, and RAG-enhanced data generation. <details><summary>More about</summary>
 
   It automates the complex pipeline of transforming unstructured documents and images into high-quality, structured datasets for fine-tuning multimodal models.
@@ -446,22 +455,13 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `llm-evaluation` `mathematical-reasoning` `benchmarking` `reasoning-traces`
   </details>
 
-- **[LangFair](https://github.com/cvs-health/langfair)** `⭐ 261` `updated ≤30d` LangFair is a Python library for conducting use-case level LLM bias and fairness assessments. <details><summary>More about</summary>
+- **[LangFair](https://github.com/cvs-health/langfair)** `⭐ 262` `updated ≤30d` LangFair is a Python library for conducting use-case level LLM bias and fairness assessments. <details><summary>More about</summary>
 
   It enables developers to tailor bias and fairness evaluations to specific LLM use cases with a BYOP (Bring Your Own Prompts) approach, ensuring real-world relevance.
 
   _Finally, a way to quantify the bias in your AI that you were too polite to ask about._
 
   `llm-evaluation` `bias-detection` `fairness` `python` `responsible-ai`
-  </details>
-
-- **[XRAG](https://github.com/docailab/xrag)** `⭐ 255` `updated ≤180d` XRAG is a benchmarking framework for evaluating foundational components of advanced Retrieval-Augmented Generation (RAG) systems. <details><summary>More about</summary>
-
-  It helps developers and researchers measure and compare the performance of different RAG configurations, components, and workflows.
-
-  _Finally, a way to quantify whether your RAG pipeline is just hallucinating with confidence._
-
-  `rag` `benchmarking` `evaluation` `llm` `retrieval`
   </details>
 
 - **[MixEval](https://github.com/jinjieni/mixeval)** `⭐ 254` `updated >1y` An evaluation suite and dynamic benchmark for measuring LLM performance with high correlation to Chatbot Arena at low cost. <details><summary>More about</summary>
@@ -471,6 +471,15 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   _Now you can spend less time arguing about model quality and more time arguing about benchmark design._
 
   `llm-evaluation` `benchmark` `dynamic-data` `neurips-2024`
+  </details>
+
+- **[OrcaReplay](https://github.com/continuum-ai-corp/orcareplay)** `⭐ 243` `updated ≤30d` A debugging tool that records, replays, and forks AI agent runs to facilitate model comparison and failure reproduction. <details><summary>More about</summary>
+
+  It allows developers to reproduce agentic failures byte-for-byte and test different models at specific execution checkpoints without re-running the entire process.
+
+  _It transforms the frantic 'why did the agent delete my database?' panic into a calm, offline, repeatable science experiment._
+
+  `agent-debugging` `observability` `tracing` `llm-ops` `replay`
   </details>
 
 - **[traceAI](https://github.com/future-agi/traceai)** `⭐ 221` `updated ≤30d` An open-source observability framework built on OpenTelemetry for tracing LLM calls, prompts, and agentic workflows. <details><summary>More about</summary>

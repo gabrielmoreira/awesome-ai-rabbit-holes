@@ -153,6 +153,15 @@ Tooling where specifications are the primary artifact for planning, validation, 
 
 _These are new or low-traffic entries being watched._
 
+- **[BrightbeamAI/chap](https://github.com/brightbeamai/chap)** `⭐ 97` `updated ≤30d` An open protocol and runtime for creating auditable, hash-linked logs of human-agent interactions such as approvals, overrides, and handoffs. <details><summary>More about</summary>
+
+  It allows developers to implement structured, non-repudiable human-in-the-loop governance and audit trails within agentic workflows.
+
+  _Because nothing provides more peace of mind than a cryptographically signed audit trail to explain exactly why your agent just performed a catastrophic action._
+
+  `mcp` `human-in-the-loop` `audit-trail` `governance` `protocol`
+  </details>
+
 - **[alfredoperez/speckit-companion](https://github.com/alfredoperez/speckit-companion)** `⭐ 89` `updated ≤30d` VS Code extension for managing and reviewing the specifications used to steer AI coding agents. <details><summary>More about</summary>
 
   It provides a dedicated workspace to oversee the spec lifecycle, ensuring AI agents follow precise plans instead of drifting into incorrect implementations.
@@ -214,6 +223,15 @@ _These are new or low-traffic entries being watched._
   _You'll spend more time interviewing your codebase than actually writing the code you're trying to automate._
 
   `cli` `autonomous-coding` `spec-driven` `agent` `terminal-ui`
+  </details>
+
+- **[deed-lang/deed](https://github.com/deed-lang/deed)** `⭐ 8` `updated ≤90d` A contract-first programming language designed to facilitate code written by agents and reviewed by humans. <details><summary>More about</summary>
+
+  It uses formal contracts and capability-based security to create a verifiable bridge between agentic code generation and human oversight.
+
+  _Preparing you for a future where your primary engineering task is just performing code reviews on a compiler-verified hallucination._
+
+  `programming-language` `contract-first` `agentic-workflow` `capability-security`
   </details>
 
 - **[janaraj/tnl](https://github.com/janaraj/tnl)** `⭐ 8` `updated ≤180d` Structured English contracts for AI coding agents to propose, approve, and enforce feature specifications across sessions. <details><summary>More about</summary>

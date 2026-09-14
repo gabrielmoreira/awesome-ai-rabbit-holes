@@ -50,6 +50,15 @@ Assistants that directly plan, write, review, test, or debug code.
   `cli` `coding-agent` `gemini` `mcp` `terminal`
   </details>
 
+- **[Pi](https://github.com/earendil-works/pi)** `⭐ 104.8k` `updated ≤30d` Pi is an AI agent toolkit featuring a unified LLM API, agent runtime, and interactive coding agent CLI for terminal-based development. <details><summary>More about</summary>
+
+  It provides developers with an open-source, self-hostable coding agent that can plan, edit, test, and debug code across repositories using multiple LLM providers.
+
+  _Another terminal-based agent promising to replace your IDE, while you still spend half your time figuring out how to make it stop editing the wrong file._
+
+  `coding-agent` `cli` `llm-toolkit`
+  </details>
+
 - **[CodeX (`🔥`)](https://github.com/openai/codex)** `⭐ 100k` `updated ≤90d` Codex is a lightweight, local coding agent from OpenAI that runs in your terminal and can also be integrated into IDEs like VS Code, Cursor, and Windsurf. <details><summary>More about</summary>
 
   It provides developers with a first-party, CLI-native agentic workflow directly from OpenAI that leverages ChatGPT subscriptions for code generation and editing.
@@ -57,15 +66,6 @@ Assistants that directly plan, write, review, test, or debug code.
   _Just when you had your terminal workflow perfectly configured with Claude Code, OpenAI drops a competing 80k-star CLI agent to ensure you never settle on a single prompt-to-code pipeline._
 
   `cli` `coding-agent` `openai` `terminal` `ide-integration`
-  </details>
-
-- **[Pi](https://github.com/earendil-works/pi)** `⭐ 98.1k` `updated ≤30d` Pi is an AI agent toolkit featuring a unified LLM API, agent runtime, and interactive coding agent CLI for terminal-based development. <details><summary>More about</summary>
-
-  It provides developers with an open-source, self-hostable coding agent that can plan, edit, test, and debug code across repositories using multiple LLM providers.
-
-  _Another terminal-based agent promising to replace your IDE, while you still spend half your time figuring out how to make it stop editing the wrong file._
-
-  `coding-agent` `cli` `llm-toolkit`
   </details>
 
 - **[OpenHands](https://github.com/openhands/openhands)** `⭐ 81.4k` `updated ≤90d` OpenHands is an AI-driven development platform providing a Python SDK, CLI, and local/cloud GUI to plan, write, and debug code across repositories using various LLMs. <details><summary>More about</summary>
@@ -149,7 +149,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `multimodal-agents` `gui-automation` `mcp` `computer-use` `browser-automation`
   </details>
 
-- **[Continue](https://github.com/continuedev/continue)** `⭐ 35.6k` `updated ≤30d` Open-source coding agent that runs AI checks as GitHub status checks on pull requests. <details><summary>More about</summary>
+- **[Continue](https://github.com/continuedev/continue)** `⭐ 35.9k` `updated ≤30d` Open-source coding agent that runs AI checks as GitHub status checks on pull requests. <details><summary>More about</summary>
 
   It lets developers enforce AI-driven code reviews (e.g., security checks) directly in CI via markdown-defined agents in `.continue/checks/`.
 
@@ -545,7 +545,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `data-science` `autonomous-agents` `llm` `fine-tuned` `jupyter`
   </details>
 
-- **[composio-community/open-claude-cowork](https://github.com/composio-community/open-claude-cowork)** `⭐ 4.3k` `updated ≤180d` Open-source desktop chat application powered by Claude Agent SDK and Composio Tool Router, offering 500+ SaaS app integrations for work automation. <details><summary>More about</summary>
+- **[composio-community/open-claude-cowork](https://github.com/composio-community/open-claude-cowork)** `⭐ 4.4k` `updated ≤180d` Open-source desktop chat application powered by Claude Agent SDK and Composio Tool Router, offering 500+ SaaS app integrations for work automation. <details><summary>More about</summary>
 
   It provides developers with a unified interface to automate workflows across desktop and SaaS apps using Claude's agent capabilities and Composio's tool ecosystem.
 
@@ -626,15 +626,6 @@ Assistants that directly plan, write, review, test, or debug code.
   `rust` `self-hosted` `personal-agent` `mcp` `sandbox`
   </details>
 
-- **[Codel](https://github.com/semanser/codel)** `⭐ 2.5k` `updated >1y` A self-hosted, Docker-based autonomous AI agent that performs software development tasks using a built-in terminal, browser, and text editor. <details><summary>More about</summary>
-
-  It offers developers a sandboxed, local-first environment to delegate complex coding projects to an autonomous loop without relying on managed cloud platforms.
-
-  _Yet another autonomous 'Devin competitor' that promises to run an entire engineering department in a Docker container, provided you don't mind the 4-week gap since its last commit._
-
-  `autonomous-agents` `self-hosted` `docker` `terminal-agent` `local-ai`
-  </details>
-
 - **[Atomic Agent](https://github.com/atomicbot-ai/atomic-agent)** `⭐ 2.5k` `updated ≤30d` Atomic Agent is a terminal-native AI coding agent that runs locally on a developer's machine to edit files, drive browsers, run commands, and retain context across sessions. <details><summary>More about</summary>
 
   It lets developers delegate real coding work to a private, local-first agent without per-token fees or cloud lock-in, keeping sensitive code on-device.
@@ -642,6 +633,15 @@ Assistants that directly plan, write, review, test, or debug code.
   _Finally, an agent that won’t leak your secrets—but will still hallucinate the fix for that race condition you’ve been ignoring for three weeks._
 
   `local-ai` `terminal-agent` `coding-assistant`
+  </details>
+
+- **[Codel](https://github.com/semanser/codel)** `⭐ 2.5k` `updated >1y` A self-hosted, Docker-based autonomous AI agent that performs software development tasks using a built-in terminal, browser, and text editor. <details><summary>More about</summary>
+
+  It offers developers a sandboxed, local-first environment to delegate complex coding projects to an autonomous loop without relying on managed cloud platforms.
+
+  _Yet another autonomous 'Devin competitor' that promises to run an entire engineering department in a Docker container, provided you don't mind the 4-week gap since its last commit._
+
+  `autonomous-agents` `self-hosted` `docker` `terminal-agent` `local-ai`
   </details>
 
 - **[open-codex](https://github.com/ymichael/open-codex)** `⭐ 2.3k` `updated >1y` Lightweight coding agent that runs in your terminal. <details><summary>More about</summary>
@@ -869,7 +869,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `agent` `self-evolving` `tool-use` `skill-based`
   </details>
 
-- **[g3](https://github.com/dhanji/g3)** `⭐ 519` `updated ≤30d` g3 is a Rust-based AI coding agent that plans, writes, and executes code tasks with modular architecture and multi-provider LLM support. <details><summary>More about</summary>
+- **[g3](https://github.com/dhanji/g3)** `⭐ 518` `updated ≤30d` g3 is a Rust-based AI coding agent that plans, writes, and executes code tasks with modular architecture and multi-provider LLM support. <details><summary>More about</summary>
 
   It offers developers a terminal-native assistant with built-in tooling for file operations, shell commands, and computer control, plus intelligent context management and error handling.
 
@@ -878,7 +878,7 @@ Assistants that directly plan, write, review, test, or debug code.
   `coding-agent` `rust` `terminal-native` `multi-provider` `task-automation`
   </details>
 
-- **[echovic/orca-agent](https://github.com/echovic/orca-agent)** `⭐ 492` `updated ≤30d` Orca is a terminal-native coding agent that uses DeepSeek models to read, edit, and verify code until a task is complete. <details><summary>More about</summary>
+- **[echovic/orca-agent](https://github.com/echovic/orca-agent)** `⭐ 506` `updated ≤30d` Orca is a terminal-native coding agent that uses DeepSeek models to read, edit, and verify code until a task is complete. <details><summary>More about</summary>
 
   It lets developers delegate coding tasks to an autonomous agent that operates directly in the terminal with file editing, command execution, and self-verification loops.
 
@@ -1125,7 +1125,7 @@ _These are new or low-traffic entries being watched._
   `coding-agent` `autonomous` `cli` `openai-codex`
   </details>
 
-- **[handoff](https://github.com/dazuiba/handoff)** `⭐ 87` `updated ≤90d` Handoff is a CLI tool that enables task delegation between Claude Code, Codex, and DeepSeek agents within the same session. <details><summary>More about</summary>
+- **[handoff](https://github.com/dazuiba/handoff)** `⭐ 88` `updated ≤90d` Handoff is a CLI tool that enables task delegation between Claude Code, Codex, and DeepSeek agents within the same session. <details><summary>More about</summary>
 
   It lets developers offload routine coding tasks to cheaper models while preserving context, reducing API costs without switching tools.
 
@@ -1159,6 +1159,15 @@ _These are new or low-traffic entries being watched._
   _We have reached the point where building a 149k-line Rust clone of a proprietary CLI is considered the efficient path to coding autonomy._
 
   `cli` `rust` `coding-agent` `open-source` `llm-agnostic`
+  </details>
+
+- **[capocasa/3code](https://github.com/capocasa/3code)** `⭐ 70` `updated ≤30d` A terminal-native coding agent designed to minimize token consumption through context compaction and aggressive caching. <details><summary>More about</summary>
+
+  It enables developers to run autonomous coding workflows using low-cost or free-tier models without rapidly exhausting their token budgets.
+
+  _Finally, an agent that respects your bank account as much as your codebase._
+
+  `coding-agent` `cli` `token-optimization` `terminal-native` `nim`
   </details>
 
 - **[remote-factory](https://github.com/akashgit/remote-factory)** `⭐ 68` `updated ≤30d` A terminal-native, multi-agent harness for autonomous software design, building, and iterative evolution. <details><summary>More about</summary>
@@ -1242,7 +1251,7 @@ _These are new or low-traffic entries being watched._
   `github-actions` `code-review` `glm` `ci-cd` `pull-request`
   </details>
 
-- **[auto-co-meta](https://github.com/nikitadmitrieff/auto-co-meta)** `⭐ 36` `updated ≤90d` A bash loop that invokes Claude Code every two minutes to coordinate 14 persona-based AI agents that autonomously plan, build, and deploy software projects. <details><summary>More about</summary>
+- **[auto-co-meta](https://github.com/nikitadmitrieff/auto-co-meta)** `⭐ 36` `updated ≤180d` A bash loop that invokes Claude Code every two minutes to coordinate 14 persona-based AI agents that autonomously plan, build, and deploy software projects. <details><summary>More about</summary>
 
   It packages a multi-agent company-in-a-terminal pattern so developers can run self-managing project loops instead of manually driving coding assistants.
 

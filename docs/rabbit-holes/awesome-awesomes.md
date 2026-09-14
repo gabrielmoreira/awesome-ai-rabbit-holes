@@ -41,7 +41,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `github-copilot` `agent-skills`
   </details>
 
-- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 29.7k` `updated ≤30d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
+- **[awesome-ai-agents](https://github.com/e2b-dev/awesome-ai-agents)** `⭐ 30k` `updated ≤30d` A curated list of AI autonomous agents, both open-source and closed-source, with a web UI for filtering by categories and use-cases. <details><summary>More about</summary>
 
   It provides developers with a structured, discoverable map of the AI agent ecosystem, saving time in finding relevant tools for building or integrating agents.
 
@@ -347,7 +347,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `mcp` `directory` `ecosystem` `developer-tools`
   </details>
 
-- **[Awesome Vibe Coding](https://github.com/awesome-vibe-coding/awesome-vibe-coding)** `⭐ 833` `updated ≤30d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
+- **[Awesome Vibe Coding](https://github.com/awesome-vibe-coding/awesome-vibe-coding)** `⭐ 833` `updated ≤90d` A curated collection of tools and resources for 'vibe coding'—building software through natural language prompts and rapid iteration. <details><summary>More about</summary>
 
   It provides a centralized directory for the emerging 'vibe coding' workflow, gathering high-level builders and IDEs focused on prompt-driven development.
 
@@ -477,7 +477,7 @@ _These are new or low-traffic entries being watched._
   `ai-directory` `mcp-server` `developer-tools` `ecosystem-intelligence`
   </details>
 
-- **[toadlyBroodle/satring](https://github.com/toadlybroodle/satring)** `⭐ 7` `updated ≤90d` A curated, health-monitored web directory for discovering and rating paid APIs that accept Bitcoin Lightning (L402), USDC on Base (x402), or Stripe/Tempo (MPP) payments for the agent economy. <details><summary>More about</summary>
+- **[toadlyBroodle/satring](https://github.com/toadlybroodle/satring)** `⭐ 7` `updated ≤180d` A curated, health-monitored web directory for discovering and rating paid APIs that accept Bitcoin Lightning (L402), USDC on Base (x402), or Stripe/Tempo (MPP) payments for the agent economy. <details><summary>More about</summary>
 
   It provides the missing discovery layer for developers building autonomous agents that need to find and pay for external API services programmatically.
 

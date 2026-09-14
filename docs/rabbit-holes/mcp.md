@@ -356,7 +356,7 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp` `grafana` `monitoring` `observability` `server`
   </details>
 
-- **[crystaldba/postgres-mcp](https://github.com/crystaldba/postgres-mcp)** `⭐ 3.2k` `updated ≤30d` An MCP server providing configurable read/write access, performance analysis, and schema-aware SQL generation for Postgres databases. <details><summary>More about</summary>
+- **[crystaldba/postgres-mcp](https://github.com/crystaldba/postgres-mcp)** `⭐ 3.3k` `updated ≤30d` An MCP server providing configurable read/write access, performance analysis, and schema-aware SQL generation for Postgres databases. <details><summary>More about</summary>
 
   It lets AI agents and developers safely interact with Postgres databases, offering index tuning, query plan analysis, and health checks directly through the MCP protocol.
 
@@ -401,7 +401,7 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `database` `integration` `mcp` `supabase`
   </details>
 
-- **[brightdata-mcp](https://github.com/brightdata/brightdata-mcp)** `⭐ 2.6k` `updated ≤30d` An MCP server that provides real-time web access, package metadata lookup, and AI brand visibility tools for AI agents. <details><summary>More about</summary>
+- **[brightdata-mcp](https://github.com/brightdata/brightdata-mcp)** `⭐ 2.6k` `updated ≤90d` An MCP server that provides real-time web access, package metadata lookup, and AI brand visibility tools for AI agents. <details><summary>More about</summary>
 
   Developers can integrate live web data, npm/PyPI package info, and LLM brand insights directly into their AI workflows without scraping or blocking issues.
 
@@ -473,7 +473,7 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp` `mysql` `database` `server` `read-only`
   </details>
 
-- **[kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** `⭐ 2k` `updated ≤30d` An MCP server that exposes Kubernetes and OpenShift operations to AI assistants via native Go API calls instead of wrapping kubectl. <details><summary>More about</summary>
+- **[kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server)** `⭐ 2.1k` `updated ≤30d` An MCP server that exposes Kubernetes and OpenShift operations to AI assistants via native Go API calls instead of wrapping kubectl. <details><summary>More about</summary>
 
   It lets developers delegate pod logs, Helm charts, Tekton pipelines, and cluster CRUD to AI assistants without installing kubectl or other local dependencies.
 
@@ -644,15 +644,6 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp` `vector-search` `semantic-memory` `qdrant` `context`
   </details>
 
-- **[freecad-mcp](https://github.com/neka-nat/freecad-mcp)** `⭐ 1.4k` `updated ≤90d` An MCP server that lets Claude Desktop control FreeCAD to create, edit, and visualize 3D CAD models through natural language. <details><summary>More about</summary>
-
-  It bridges the gap between LLM reasoning and parametric CAD, allowing developers to script and iterate on 3D designs conversationally instead of manually writing Python or clicking through workbenches.
-
-  _You can now burn tokens debugging a flange with Claude instead of just learning how to use the Part Design workbench like a normal engineer._
-
-  `mcp` `cad` `freecad` `claude` `automation`
-  </details>
-
 - **[mysql_mcp_server](https://github.com/designcomputer/mysql_mcp_server)** `⭐ 1.4k` `updated ≤90d` An MCP server that enables secure interaction with MySQL databases for AI applications. <details><summary>More about</summary>
 
   It lets AI assistants like Claude Desktop safely query and explore MySQL databases through a controlled, protocol-based interface.
@@ -660,6 +651,15 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   _Now your AI can finally stop pretending it understands your schema from context alone._
 
   `mcp` `mysql` `database` `server` `protocol`
+  </details>
+
+- **[freecad-mcp](https://github.com/neka-nat/freecad-mcp)** `⭐ 1.4k` `updated ≤90d` An MCP server that lets Claude Desktop control FreeCAD to create, edit, and visualize 3D CAD models through natural language. <details><summary>More about</summary>
+
+  It bridges the gap between LLM reasoning and parametric CAD, allowing developers to script and iterate on 3D designs conversationally instead of manually writing Python or clicking through workbenches.
+
+  _You can now burn tokens debugging a flange with Claude instead of just learning how to use the Part Design workbench like a normal engineer._
+
+  `mcp` `cad` `freecad` `claude` `automation`
   </details>
 
 - **[drawio-mcp-server](https://github.com/lgazo/drawio-mcp-server)** `⭐ 1.4k` `updated ≤90d` An MCP server that lets AI agents create, read, update, and delete Draw.io diagrams programmatically via tools like Mermaid import and multi-page management. <details><summary>More about</summary>
@@ -761,7 +761,7 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp-server` `chat-history` `context-retrieval` `summarization`
   </details>
 
-- **[mcpm.sh](https://github.com/pathintegral-institute/mcpm.sh)** `⭐ 982` `updated ≤90d` A CLI package manager and registry for discovering, configuring, and routing MCP servers across multiple AI coding clients like Claude Desktop, Cursor, and Windsurf. <details><summary>More about</summary>
+- **[mcpm.sh](https://github.com/pathintegral-institute/mcpm.sh)** `⭐ 982` `updated ≤180d` A CLI package manager and registry for discovering, configuring, and routing MCP servers across multiple AI coding clients like Claude Desktop, Cursor, and Windsurf. <details><summary>More about</summary>
 
   It centralizes the fragmented MCP ecosystem into a single global configuration, letting developers manage server profiles and client integrations without editing JSON files by hand.
 
@@ -986,7 +986,7 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp` `cloud-run` `deployment` `google-cloud` `ai-agents`
   </details>
 
-- **[automation-ai-labs/mcp-link](https://github.com/automation-ai-labs/mcp-link)** `⭐ 623` `updated >1y` Converts any OpenAPI V3 API into an MCP server for AI agent compatibility. <details><summary>More about</summary>
+- **[automation-ai-labs/mcp-link](https://github.com/automation-ai-labs/mcp-link)** `⭐ 624` `updated >1y` Converts any OpenAPI V3 API into an MCP server for AI agent compatibility. <details><summary>More about</summary>
 
   Eliminates manual MCP server creation by automatically generating standardized interfaces for existing REST APIs, enabling seamless AI agent integration.
 
@@ -1022,6 +1022,15 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp` `mermaid` `diagrams` `visualization` `server`
   </details>
 
+- **[dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp)** `⭐ 603` `updated ≤30d` An MCP server that exposes dbt project context, SQL execution, semantic layer, discovery, CLI, and admin APIs to AI agents. <details><summary>More about</summary>
+
+  Lets AI assistants query, generate, and act on dbt projects (models, metrics, lineage, jobs) without leaving the agent workflow.
+
+  _Now your AI can run `dbt test` while you’re still deciding whether your YAML is indented with spaces or tabs._
+
+  `mcp-server` `dbt` `data-engineering` `sql` `model-context-protocol`
+  </details>
+
 - **[sonarqube-mcp-server](https://github.com/sonarsource/sonarqube-mcp-server)** `⭐ 600` `updated ≤90d` An official MCP server from SonarSource that exposes SonarQube code quality and security analysis capabilities to AI agents and coding assistants. <details><summary>More about</summary>
 
   It allows coding agents to natively trigger static analysis and surface SonarQube issues directly within the agent workflow, bridging quality gates with AI-generated code.
@@ -1029,15 +1038,6 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   _We have successfully packaged the decades-old ritual of shouting at developers for unused imports into a protocol that lets an AI shout at itself instead._
 
   `mcp` `sonarqube` `static-analysis` `code-quality` `ai-integration`
-  </details>
-
-- **[dbt-labs/dbt-mcp](https://github.com/dbt-labs/dbt-mcp)** `⭐ 599` `updated ≤30d` An MCP server that exposes dbt project context, SQL execution, semantic layer, discovery, CLI, and admin APIs to AI agents. <details><summary>More about</summary>
-
-  Lets AI assistants query, generate, and act on dbt projects (models, metrics, lineage, jobs) without leaving the agent workflow.
-
-  _Now your AI can run `dbt test` while you’re still deciding whether your YAML is indented with spaces or tabs._
-
-  `mcp-server` `dbt` `data-engineering` `sql` `model-context-protocol`
   </details>
 
 - **[etsd-tech/mcp-pointer](https://github.com/etsd-tech/mcp-pointer)** `⭐ 596` `updated ≤1y` An MCP server and Chrome extension that allows users to select DOM elements in a browser and pass them as rich textual context to agentic coding tools. <details><summary>More about</summary>
@@ -1130,6 +1130,15 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp` `data-science` `claude` `csv` `local-tools`
   </details>
 
+- **[diivi/aseprite-mcp](https://github.com/diivi/aseprite-mcp)** `⭐ 542` `updated ≤90d` An MCP server that enables interaction with the Aseprite API. <details><summary>More about</summary>
+
+  It allows AI coding assistants like Cursor to directly manipulate pixel art within Aseprite via the Model Context Protocol.
+
+  _Because clearly, your primary bottleneck in development was the manual labor of pixel-pushing that an LLM could now do for you._
+
+  `mcp` `aseprite` `pixel-art` `automation` `python`
+  </details>
+
 - **[subnetmarco/pgmcp](https://github.com/subnetmarco/pgmcp)** `⭐ 540` `updated ≤180d` An MCP server that connects AI assistants to any PostgreSQL database, translating natural language questions into read-only SQL queries. <details><summary>More about</summary>
 
   It allows developers to query live production schemas through Cursor, Claude Desktop, and other MCP clients without writing SQL or modifying the database.
@@ -1175,7 +1184,7 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp` `prometheus` `observability` `devops`
   </details>
 
-- **[vibe-check-mcp-server](https://github.com/pv-bhat/vibe-check-mcp-server)** `⭐ 501` `updated ≤90d` An MCP server that acts as a mentor layer for AI agents, interrupting long-horizon workflows to prevent over-engineering and reasoning lock-in. <details><summary>More about</summary>
+- **[vibe-check-mcp-server](https://github.com/pv-bhat/vibe-check-mcp-server)** `⭐ 501` `updated ≤180d` An MCP server that acts as a mentor layer for AI agents, interrupting long-horizon workflows to prevent over-engineering and reasoning lock-in. <details><summary>More about</summary>
 
   It provides a research-backed method to keep autonomous coding agents aligned with the minimal viable path, improving success rates by 27% in their study.
 
@@ -1227,15 +1236,6 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   _Google scraping as a core protocol feature is the kind of brittle cleverness that will inevitably be rate-limited into oblivion the moment it becomes useful._
 
   `mcp` `web-search` `google` `scraping`
-  </details>
-
-- **[diivi/aseprite-mcp](https://github.com/diivi/aseprite-mcp)** `⭐ 458` `updated ≤90d` An MCP server that enables interaction with the Aseprite API. <details><summary>More about</summary>
-
-  It allows AI coding assistants like Cursor to directly manipulate pixel art within Aseprite via the Model Context Protocol.
-
-  _Because clearly, your primary bottleneck in development was the manual labor of pixel-pushing that an LLM could now do for you._
-
-  `mcp` `aseprite` `pixel-art` `automation` `python`
   </details>
 
 - **[kagimcp](https://github.com/kagisearch/kagimcp)** `⭐ 458` `updated ≤90d` The official Model Context Protocol (MCP) server for Kagi Search and other Kagi tools. <details><summary>More about</summary>
@@ -1661,6 +1661,15 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp` `ios-simulator` `automation` `testing` `mobile-dev`
   </details>
 
+- **[cr7258/elasticsearch-mcp-server](https://github.com/cr7258/elasticsearch-mcp-server)** `⭐ 307` `updated ≤30d` An MCP server that enables Elasticsearch and OpenSearch interaction through a set of tools for searching, analyzing, and managing clusters. <details><summary>More about</summary>
+
+  Developers can integrate Elasticsearch/OpenSearch capabilities directly into MCP-compatible assistants, enabling document search, index management, and cluster operations without custom API glue.
+
+  _Now your AI assistant can delete your Elasticsearch indices as easily as it can delete your code._
+
+  `mcp` `elasticsearch` `opensearch` `database` `server`
+  </details>
+
 - **[SDGLBL/mcp-claude-code](https://github.com/sdglbl/mcp-claude-code)** `⭐ 304` `updated >1y` An MCP server that reimplements Claude Code-like capabilities, allowing MCP clients to read, edit, and execute commands across a codebase using LiteLLM-compatible models. <details><summary>More about</summary>
 
   It lets developers bring Claude Code-style agentic workflows into any MCP-compatible client, decoupling the coding agent behavior from a specific vendor's CLI.
@@ -1668,15 +1677,6 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   _We have successfully abstracted the abstraction, meaning you can now run a simulation of an assistant inside the protocol designed to assist the assistant._
 
   `mcp` `coding-agent` `claude-code` `litellm` `developer-tools`
-  </details>
-
-- **[cr7258/elasticsearch-mcp-server](https://github.com/cr7258/elasticsearch-mcp-server)** `⭐ 303` `updated ≤30d` An MCP server that enables Elasticsearch and OpenSearch interaction through a set of tools for searching, analyzing, and managing clusters. <details><summary>More about</summary>
-
-  Developers can integrate Elasticsearch/OpenSearch capabilities directly into MCP-compatible assistants, enabling document search, index management, and cluster operations without custom API glue.
-
-  _Now your AI assistant can delete your Elasticsearch indices as easily as it can delete your code._
-
-  `mcp` `elasticsearch` `opensearch` `database` `server`
   </details>
 
 - **[admica/FileScopeMCP](https://github.com/admica/filescopemcp)** `⭐ 302` `updated ≤180d` An MCP server that analyzes codebase dependencies and importance scores to provide context to AI assistants. <details><summary>More about</summary>
@@ -2057,7 +2057,7 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp` `observability` `debugging` `telemetry`
   </details>
 
-- **[tumf/mcp-text-editor](https://github.com/tumf/mcp-text-editor)** `⭐ 197` `updated ≤180d` An MCP server providing line-oriented text file editing with partial file access for LLM tool integration. <details><summary>More about</summary>
+- **[tumf/mcp-text-editor](https://github.com/tumf/mcp-text-editor)** `⭐ 197` `updated ≤1y` An MCP server providing line-oriented text file editing with partial file access for LLM tool integration. <details><summary>More about</summary>
 
   Enables efficient, token-conscious file editing for LLM-based developer tools by loading only relevant file portions.
 
@@ -2084,7 +2084,7 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp` `search` `meilisearch`
   </details>
 
-- **[quarkus-mcp-servers](https://github.com/quarkiverse/quarkus-mcp-servers)** `⭐ 194` `updated ≤90d` A collection of Model Context Protocol servers implemented in Java using the Quarkus framework, providing capabilities like JDBC database access, filesystem operations, Kubernetes interaction, and container management. <details><summary>More about</summary>
+- **[quarkus-mcp-servers](https://github.com/quarkiverse/quarkus-mcp-servers)** `⭐ 194` `updated ≤180d` A collection of Model Context Protocol servers implemented in Java using the Quarkus framework, providing capabilities like JDBC database access, filesystem operations, Kubernetes interaction, and container management. <details><summary>More about</summary>
 
   It allows developers in the Java/Quarkus ecosystem to extend MCP-enabled AI applications with standard enterprise capabilities without switching language stacks.
 
@@ -2507,6 +2507,15 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp` `automation` `integration` `make-com` `ai-tools`
   </details>
 
+- **[docker/hub-mcp](https://github.com/docker/hub-mcp)** `⭐ 163` `updated ≤30d` An MCP server that exposes Docker Hub APIs to LLMs for container image discovery and repository management. <details><summary>More about</summary>
+
+  Lets AI assistants query Docker Hub in real time to recommend images, find content, and manage repositories via natural language.
+
+  _Now your LLM can argue with you about which Alpine version is actually the right one._
+
+  `mcp` `docker` `container-registry` `llm-integration`
+  </details>
+
 - **[aaronjmars/web3-research-mcp](https://github.com/aaronjmars/web3-research-mcp)** `⭐ 162` `updated ≤30d` An MCP server providing deep research capabilities for cryptocurrency tokens using data from CoinGecko, DeFiLlama, and web searches. <details><summary>More about</summary>
 
   It allows AI assistants like Claude Desktop or Cursor to perform complex, multi-source crypto market analysis and technical research directly via the Model Context Protocol.
@@ -2514,15 +2523,6 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   _Because nothing says 'productive afternoon' like watching an LLM aggregate real-time DeFi liquidity metrics while you try to explain why you're staring at a terminal instead of working._
 
   `mcp` `crypto` `research` `web3` `data-retrieval`
-  </details>
-
-- **[docker/hub-mcp](https://github.com/docker/hub-mcp)** `⭐ 162` `updated ≤30d` An MCP server that exposes Docker Hub APIs to LLMs for container image discovery and repository management. <details><summary>More about</summary>
-
-  Lets AI assistants query Docker Hub in real time to recommend images, find content, and manage repositories via natural language.
-
-  _Now your LLM can argue with you about which Alpine version is actually the right one._
-
-  `mcp` `docker` `container-registry` `llm-integration`
   </details>
 
 - **[entanglr/zettelkasten-mcp](https://github.com/entanglr/zettelkasten-mcp)** `⭐ 162` `updated >1y` An MCP server implementing the Zettelkasten knowledge management methodology for creating, linking, and synthesizing atomic notes via Claude and other MCP-compatible clients. <details><summary>More about</summary>
@@ -2561,7 +2561,7 @@ Servers, clients, registries, and tooling for the Model Context Protocol.
   `mcp` `svelte` `documentation` `context-provider`
   </details>
 
-- **[delano/postman-mcp-server](https://github.com/delano/postman-mcp-server)** `⭐ 159` `updated ≤1y` An MCP server that provides programmatic access to the Postman API for managing collections, environments, and APIs. <details><summary>More about</summary>
+- **[delano/postman-mcp-server](https://github.com/delano/postman-mcp-server)** `⭐ 160` `updated ≤1y` An MCP server that provides programmatic access to the Postman API for managing collections, environments, and APIs. <details><summary>More about</summary>
 
   Developers can integrate Postman's API management capabilities directly into MCP-compatible workflows, enabling AI agents to interact with Postman resources.
 
@@ -2763,6 +2763,15 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `document-management` `paperless-ngx` `ai-integration`
   </details>
 
+- **[mcp-hetzner](https://github.com/dkruyt/mcp-hetzner)** `⭐ 138` `updated >1y` A Model Context Protocol (MCP) server for interacting with the Hetzner Cloud API, enabling language models to manage cloud resources through structured functions. <details><summary>More about</summary>
+
+  Developers can now delegate Hetzner Cloud infrastructure tasks (servers, volumes, firewalls, SSH keys) directly to AI assistants via MCP, reducing manual CLI or dashboard work.
+
+  _Finally, your AI can spin up servers you’ll forget to delete until the bill arrives._
+
+  `mcp` `hetzner-cloud` `infrastructure` `server-management`
+  </details>
+
 - **[jinzcdev/leetcode-mcp-server](https://github.com/jinzcdev/leetcode-mcp-server)** `⭐ 135` `updated ≤90d` An MCP server that provides automated access to LeetCode's problems, solutions, and public data, with optional authentication for user-specific features. <details><summary>More about</summary>
 
   Developers can integrate LeetCode problem data and user progress directly into their AI workflows, enabling automated problem retrieval, solution analysis, and contest tracking.
@@ -2788,15 +2797,6 @@ _These are new or low-traffic entries being watched._
   _Because nothing says 'odern developer workflow' like asking a chat window to fly to the Eiffel Tower instead of writing the boilerplate camera math yourself._
 
   `mcp` `cesiumjs` `gis` `3d-visualization` `geospatial`
-  </details>
-
-- **[mcp-hetzner](https://github.com/dkruyt/mcp-hetzner)** `⭐ 133` `updated >1y` A Model Context Protocol (MCP) server for interacting with the Hetzner Cloud API, enabling language models to manage cloud resources through structured functions. <details><summary>More about</summary>
-
-  Developers can now delegate Hetzner Cloud infrastructure tasks (servers, volumes, firewalls, SSH keys) directly to AI assistants via MCP, reducing manual CLI or dashboard work.
-
-  _Finally, your AI can spin up servers you’ll forget to delete until the bill arrives._
-
-  `mcp` `hetzner-cloud` `infrastructure` `server-management`
   </details>
 
 - **[mcp-server](https://github.com/webflow/mcp-server)** `⭐ 133` `updated ≤180d` Model Context Protocol (MCP) server for the Webflow Data API. <details><summary>More about</summary>
@@ -2826,7 +2826,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `jupyter` `data-science` `claude-integration`
   </details>
 
-- **[aliyun/alibaba-cloud-ops-mcp-server](https://github.com/aliyun/alibaba-cloud-ops-mcp-server)** `⭐ 129` `updated ≤180d` An MCP server that integrates Alibaba Cloud APIs to enable AI assistants to manage cloud resources like ECS, VPC, RDS, and OSS. <details><summary>More about</summary>
+- **[aliyun/alibaba-cloud-ops-mcp-server](https://github.com/aliyun/alibaba-cloud-ops-mcp-server)** `⭐ 129` `updated ≤1y` An MCP server that integrates Alibaba Cloud APIs to enable AI assistants to manage cloud resources like ECS, VPC, RDS, and OSS. <details><summary>More about</summary>
 
   Developers can now delegate Alibaba Cloud infrastructure tasks (e.g., instance management, deployments) directly to AI assistants via MCP.
 
@@ -2925,6 +2925,15 @@ _These are new or low-traffic entries being watched._
   `notebooklm` `mcp` `rest-api` `automation` `citations`
   </details>
 
+- **[cswkim/discogs-mcp-server](https://github.com/cswkim/discogs-mcp-server)** `⭐ 124` `updated ≤90d` MCP Server for the Discogs API, enabling music catalog operations and search functionality. <details><summary>More about</summary>
+
+  Developers can integrate Discogs music catalog data into their MCP-enabled workflows or assistants.
+
+  _Now your coding agent can argue with you about vinyl pressings while you debug._
+
+  `mcp-server` `discogs` `music-catalog` `api-integration`
+  </details>
+
 - **[jparkerweb/mcp-sqlite](https://github.com/jparkerweb/mcp-sqlite)** `⭐ 123` `updated ≤180d` An MCP server that provides comprehensive SQLite database interaction capabilities for AI assistants. <details><summary>More about</summary>
 
   Enables AI coding assistants to directly query and manipulate SQLite databases through the Model Context Protocol.
@@ -2950,15 +2959,6 @@ _These are new or low-traffic entries being watched._
   _Finally, an MCP server that doesn’t just pretend to understand your codebase._
 
   `mcp` `lsp` `code-intelligence` `agent-workflows` `token-optimization`
-  </details>
-
-- **[cswkim/discogs-mcp-server](https://github.com/cswkim/discogs-mcp-server)** `⭐ 120` `updated ≤90d` MCP Server for the Discogs API, enabling music catalog operations and search functionality. <details><summary>More about</summary>
-
-  Developers can integrate Discogs music catalog data into their MCP-enabled workflows or assistants.
-
-  _Now your coding agent can argue with you about vinyl pressings while you debug._
-
-  `mcp-server` `discogs` `music-catalog` `api-integration`
   </details>
 
 - **[st3v3nmw/sourcerer-mcp](https://github.com/st3v3nmw/sourcerer-mcp)** `⭐ 119` `updated ≤1y` An MCP server that builds a semantic search index of a Git repository using Tree-sitter and OpenAI embeddings to let AI agents find and retrieve specific code chunks without reading entire files. <details><summary>More about</summary>
@@ -3177,6 +3177,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `basecamp` `project-management` `automation`
   </details>
 
+- **[CalDAV MCP](https://github.com/dominik1001/caldav-mcp)** `⭐ 99` `updated ≤30d` A CalDAV Model Context Protocol (MCP) server that exposes calendar operations as tools for AI assistants. <details><summary>More about</summary>
+
+  It lets AI assistants read, create, update, and delete calendar events via CalDAV, enabling calendar-aware workflows in agent environments.
+
+  _Now your AI can schedule meetings for you, because apparently we’ve decided that’s a good idea._
+
+  `mcp` `caldav` `calendar` `agent-tools` `typescript`
+  </details>
+
 - **[ChristianHinge/dicom-mcp](https://github.com/christianhinge/dicom-mcp)** `⭐ 99` `updated ≤30d` An MCP server that enables AI assistants to query, read, and move data on DICOM servers (PACS, VNA, etc.). <details><summary>More about</summary>
 
   It allows developers to integrate medical imaging data workflows into AI assistant environments via MCP.
@@ -3195,22 +3204,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `rag` `semantic-search` `claude` `cursor`
   </details>
 
-- **[thingsboard-mcp](https://github.com/thingsboard/thingsboard-mcp)** `⭐ 98` `updated ≤180d` An official MCP server that connects AI agents to the ThingsBoard IoT platform, exposing over 120 tools for querying devices, managing entities, and analyzing telemetry via natural language. <details><summary>More about</summary>
+- **[thingsboard-mcp](https://github.com/thingsboard/thingsboard-mcp)** `⭐ 98` `updated ≤1y` An official MCP server that connects AI agents to the ThingsBoard IoT platform, exposing over 120 tools for querying devices, managing entities, and analyzing telemetry via natural language. <details><summary>More about</summary>
 
   Developers working with IoT deployments can now delegate device management and telemetry analysis to MCP-compatible assistants like Claude and Cursor instead of writing custom API scripts.
 
   _You can now troubleshoot your fleet of smart toasters through a Claude Code session, turning a simple firmware bug into a high-context conversation about entity relationships._
 
   `mcp` `iot` `thingsboard` `server`
-  </details>
-
-- **[CalDAV MCP](https://github.com/dominik1001/caldav-mcp)** `⭐ 97` `updated ≤30d` A CalDAV Model Context Protocol (MCP) server that exposes calendar operations as tools for AI assistants. <details><summary>More about</summary>
-
-  It lets AI assistants read, create, update, and delete calendar events via CalDAV, enabling calendar-aware workflows in agent environments.
-
-  _Now your AI can schedule meetings for you, because apparently we’ve decided that’s a good idea._
-
-  `mcp` `caldav` `calendar` `agent-tools` `typescript`
   </details>
 
 - **[freema/mcp-gsheets](https://github.com/freema/mcp-gsheets)** `⭐ 97` `updated ≤30d` An MCP server that provides Google Sheets API integration for Model Context Protocol clients. <details><summary>More about</summary>
@@ -3276,7 +3276,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `context-engineering` `token-optimization` `code-intelligence` `graph-indexing`
   </details>
 
-- **[sonirico/mcp-shell](https://github.com/sonirico/mcp-shell)** `⭐ 94` `updated ≤90d` An MCP server written in Go that lets AI assistants run shell commands locally with configurable allowlists, blocklists, and audit logging. <details><summary>More about</summary>
+- **[sonirico/mcp-shell](https://github.com/sonirico/mcp-shell)** `⭐ 94` `updated ≤180d` An MCP server written in Go that lets AI assistants run shell commands locally with configurable allowlists, blocklists, and audit logging. <details><summary>More about</summary>
 
   It gives coding agents a controlled way to execute terminal commands without handing them unrestricted access to your machine.
 
@@ -3456,7 +3456,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `jvm` `diagnostics` `java` `monitoring`
   </details>
 
-- **[GenWaveLLC/svgmaker-mcp](https://github.com/genwavellc/svgmaker-mcp)** `⭐ 87` `updated ≤30d` An MCP server that enables AI assistants to generate, edit, and convert SVG images via the SVGMaker API. <details><summary>More about</summary>
+- **[GenWaveLLC/svgmaker-mcp](https://github.com/genwavellc/svgmaker-mcp)** `⭐ 87` `updated ≤90d` An MCP server that enables AI assistants to generate, edit, and convert SVG images via the SVGMaker API. <details><summary>More about</summary>
 
   It provides LLMs with a direct capability to handle vector graphics, allowing for seamless visual asset generation within conversational workflows like Claude Desktop or Cursor.
 
@@ -3472,6 +3472,15 @@ _These are new or low-traffic entries being watched._
   _Your AI assistant can now refactor your database schema and deploy a webhook before you've finished explaining why you opened Airtable in the first place._
 
   `mcp` `airtable` `integrations` `claude` `database`
+  </details>
+
+- **[automateyournetwork/pyATS_MCP](https://github.com/automateyournetwork/pyats_mcp)** `⭐ 86` `updated ≤30d` An MCP server that wraps Cisco pyATS and Genie to let AI agents run network commands and manage device configurations. <details><summary>More about</summary>
+
+  It enables AI agents to interact with network devices programmatically, turning natural language requests into validated show commands, configuration changes, and health checks.
+
+  _Now your AI can SSH into your routers and argue with your firewall rules._
+
+  `mcp-server` `network-automation` `pyats` `cisco` `infrastructure-as-code`
   </details>
 
 - **[mcp-server](https://github.com/harness/mcp-server)** `⭐ 86` `updated ≤90d` An MCP server that provides AI agents with consolidated access to the Harness.io platform via 11 tools and 168 resource types. <details><summary>More about</summary>
@@ -3510,7 +3519,7 @@ _These are new or low-traffic entries being watched._
   `php` `static-analysis` `mcp` `architecture` `maintainability`
   </details>
 
-- **[ckanthony/gin-mcp](https://github.com/ckanthony/gin-mcp)** `⭐ 84` `updated ≤30d` A zero-config Go library that exposes existing Gin API endpoints as MCP tools for use with MCP-compatible clients. <details><summary>More about</summary>
+- **[ckanthony/gin-mcp](https://github.com/ckanthony/gin-mcp)** `⭐ 84` `updated ≤90d` A zero-config Go library that exposes existing Gin API endpoints as MCP tools for use with MCP-compatible clients. <details><summary>More about</summary>
 
   Developers can instantly make their Gin APIs discoverable and callable by AI assistants like Cursor or Claude Desktop without writing MCP boilerplate.
 
@@ -3546,16 +3555,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `ios` `xcode` `developer-tools` `build-automation`
   </details>
 
-- **[automateyournetwork/pyATS_MCP](https://github.com/automateyournetwork/pyats_mcp)** `⭐ 83` `updated ≤30d` An MCP server that wraps Cisco pyATS and Genie to let AI agents run network commands and manage device configurations. <details><summary>More about</summary>
-
-  It enables AI agents to interact with network devices programmatically, turning natural language requests into validated show commands, configuration changes, and health checks.
-
-  _Now your AI can SSH into your routers and argue with your firewall rules._
-
-  `mcp-server` `network-automation` `pyats` `cisco` `infrastructure-as-code`
-  </details>
-
-- **[ferdousbhai/tasty-agent](https://github.com/ferdousbhai/tasty-agent)** `⭐ 83` `updated ≤30d` An MCP server that enables LLMs to interact with TastyTrade brokerage accounts for portfolio monitoring and trading. <details><summary>More about</summary>
+- **[ferdousbhai/tasty-agent](https://github.com/ferdousbhai/tasty-agent)** `⭐ 83` `updated ≤90d` An MCP server that enables LLMs to interact with TastyTrade brokerage accounts for portfolio monitoring and trading. <details><summary>More about</summary>
 
   It allows developers to build or use AI agents that can perform real-world financial actions like analyzing Greeks, monitoring positions, and executing trades via the Model Context Protocol.
 
@@ -3681,6 +3681,24 @@ _These are new or low-traffic entries being watched._
   `mcp` `quantconnect` `finance` `algorithmic-trading` `docker`
   </details>
 
+- **[dodopayments/contextmcp](https://github.com/dodopayments/context-mcp)** `⭐ 76` `updated ≤30d` Self-hosted MCP server that indexes documentation from multiple sources and serves it via MCP and REST API. <details><summary>More about</summary>
+
+  Lets developers expose their docs, APIs, and READMEs to AI assistants through a standardized protocol, reducing context-switching and improving retrieval quality.
+
+  _Now you can finally make your AI assistant read the docs you wrote but nobody else did._
+
+  `mcp-server` `documentation` `retrieval` `self-hosted` `pinecone`
+  </details>
+
+- **[edwinbernadus/nocodb-mcp-server](https://github.com/edwinbernadus/nocodb-mcp-server)** `⭐ 76` `updated ≤180d` An MCP server that enables natural language CRUD operations on NocoDB databases. <details><summary>More about</summary>
+
+  Developers can interact with NocoDB tables using plain language commands through MCP-compatible clients like Claude Desktop.
+
+  _Now you can manage your airtable-like database with the same chat interface you use to argue with your linter._
+
+  `mcp` `database` `nocodb` `crud` `typescript`
+  </details>
+
 - **[kadykov/mcp-openapi-schema-explorer](https://github.com/kadykov/mcp-openapi-schema-explorer)** `⭐ 76` `updated ≤90d` An MCP server that exposes OpenAPI/Swagger specs via MCP Resource Templates for token-efficient client-side exploration. <details><summary>More about</summary>
 
   Lets MCP clients like Claude Desktop or Cline explore large API specs without loading entire files into context, using parameterized resource templates for on-demand access.
@@ -3690,22 +3708,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `openapi` `api-specs` `resource-templates` `developer-tools`
   </details>
 
-- **[dodopayments/contextmcp](https://github.com/dodopayments/context-mcp)** `⭐ 75` `updated ≤30d` Self-hosted MCP server that indexes documentation from multiple sources and serves it via MCP and REST API. <details><summary>More about</summary>
+- **[discourse/discourse-mcp](https://github.com/discourse/discourse-mcp)** `⭐ 75` `updated ≤30d` An MCP stdio server that exposes Discourse forum capabilities as tools and resources for AI agents. <details><summary>More about</summary>
 
-  Lets developers expose their docs, APIs, and READMEs to AI assistants through a standardized protocol, reducing context-switching and improving retrieval quality.
+  Lets AI agents read, search, and optionally write to Discourse forums as first-class tools, turning community discussions into actionable context.
 
-  _Now you can finally make your AI assistant read the docs you wrote but nobody else did._
+  _Now your AI can argue with users in your Discourse forum at 1 request per second._
 
-  `mcp-server` `documentation` `retrieval` `self-hosted` `pinecone`
-  </details>
-
-- **[edwinbernadus/nocodb-mcp-server](https://github.com/edwinbernadus/nocodb-mcp-server)** `⭐ 75` `updated ≤180d` An MCP server that enables natural language CRUD operations on NocoDB databases. <details><summary>More about</summary>
-
-  Developers can interact with NocoDB tables using plain language commands through MCP-compatible clients like Claude Desktop.
-
-  _Now you can manage your airtable-like database with the same chat interface you use to argue with your linter._
-
-  `mcp` `database` `nocodb` `crud` `typescript`
+  `mcp` `discourse` `forum-integration` `stdio-server`
   </details>
 
 - **[kdqed/zaturn](https://github.com/kdqed/zaturn)** `⭐ 75` `updated ≤1y` A data analysis tool that lets AI models run SQL and generate visualizations, usable as an MCP server or web interface. <details><summary>More about</summary>
@@ -3760,15 +3769,6 @@ _These are new or low-traffic entries being watched._
   _Another backend hoping to become the next MCP dependency you’ll forget to update when the spec changes again._
 
   `mcp` `backend` `api`
-  </details>
-
-- **[discourse/discourse-mcp](https://github.com/discourse/discourse-mcp)** `⭐ 72` `updated ≤30d` An MCP stdio server that exposes Discourse forum capabilities as tools and resources for AI agents. <details><summary>More about</summary>
-
-  Lets AI agents read, search, and optionally write to Discourse forums as first-class tools, turning community discussions into actionable context.
-
-  _Now your AI can argue with users in your Discourse forum at 1 request per second._
-
-  `mcp` `discourse` `forum-integration` `stdio-server`
   </details>
 
 - **[djalal/quran-mcp-server](https://github.com/djalal/quran-mcp-server)** `⭐ 72` `updated >1y` An MCP server that integrates the Quran.com API for verse search, translation, and tafsir access. <details><summary>More about</summary>
@@ -4032,6 +4032,15 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `contentful` `content-management` `api-integration`
   </details>
 
+- **[danmartuszewski/hop](https://github.com/danmartuszewski/hop)** `⭐ 62` `updated ≤90d` Fast SSH connection manager with a TUI dashboard and MCP server capabilities. <details><summary>More about</summary>
+
+  Simplifies SSH workflows for developers by replacing long commands with fuzzy matching and a visual interface, while also exposing server management to AI assistants via MCP.
+
+  _Now you can let your AI assistant SSH into production for you, because what could possibly go wrong._
+
+  `ssh` `tui` `mcp-server` `devops` `cli`
+  </details>
+
 - **[getrupt/ashra-mcp](https://github.com/getrupt/ashra-mcp)** `⭐ 62` `updated >1y` A Model Context Protocol server that exposes Ashra's browser automation capabilities to MCP-compatible clients like Claude Desktop. <details><summary>More about</summary>
 
   It allows developers to grant their local AI assistants the ability to automate web browsers via the Ashra API.
@@ -4095,13 +4104,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `atlassian` `confluence` `mcp-server` `knowledge-base`
   </details>
 
-- **[danmartuszewski/hop](https://github.com/danmartuszewski/hop)** `⭐ 61` `updated ≤90d` Fast SSH connection manager with a TUI dashboard and MCP server capabilities. <details><summary>More about</summary>
+- **[efforthye/fast-filesystem-mcp](https://github.com/efforthye/fast-filesystem-mcp)** `⭐ 61` `updated ≤180d` A high-performance Model Context Protocol (MCP) server that provides secure filesystem access for Claude and other AI assistants. <details><summary>More about</summary>
 
-  Simplifies SSH workflows for developers by replacing long commands with fuzzy matching and a visual interface, while also exposing server management to AI assistants via MCP.
+  It enables AI assistants to perform advanced filesystem operations like chunked reading, streaming writes, and directory synchronization with performance optimizations tailored for large files and Claude Desktop.
 
-  _Now you can let your AI assistant SSH into production for you, because what could possibly go wrong._
+  _Because nothing says 'modern development' like teaching your AI assistant to manage backups of files it might break._
 
-  `ssh` `tui` `mcp-server` `devops` `cli`
+  `mcp` `filesystem` `claude` `developer-tools` `streaming`
   </details>
 
 - **[mcp-difyworkflow-server](https://github.com/gotoolkits/mcp-difyworkflow-server)** `⭐ 61` `updated >1y` An MCP server that enables querying and invoking Dify workflows, supporting on-demand operation of multiple custom workflows. <details><summary>More about</summary>
@@ -4185,15 +4194,6 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `awesome-lists` `context-engineering` `cli` `agent-tools`
   </details>
 
-- **[efforthye/fast-filesystem-mcp](https://github.com/efforthye/fast-filesystem-mcp)** `⭐ 59` `updated ≤180d` A high-performance Model Context Protocol (MCP) server that provides secure filesystem access for Claude and other AI assistants. <details><summary>More about</summary>
-
-  It enables AI assistants to perform advanced filesystem operations like chunked reading, streaming writes, and directory synchronization with performance optimizations tailored for large files and Claude Desktop.
-
-  _Because nothing says 'modern development' like teaching your AI assistant to manage backups of files it might break._
-
-  `mcp` `filesystem` `claude` `developer-tools` `streaming`
-  </details>
-
 - **[last9-mcp-server](https://github.com/last9/last9-mcp-server)** `⭐ 59` `updated ≤90d` Last9 MCP Server is an HTTP/stdio MCP server that exposes Last9 observability data (logs, metrics, traces) to MCP-capable AI assistants. <details><summary>More about</summary>
 
   It lets AI coding agents read actual production signals instead of guessing, reducing hallucinations during debugging and incident response.
@@ -4248,6 +4248,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `blockchain` `crypto` `whale-tracking` `api-integration`
   </details>
 
+- **[Crawlbase MCP](https://github.com/crawlbase/crawlbase-mcp)** `⭐ 57` `updated ≤180d` An MCP server that enables AI agents and LLMs to fetch real-time web data via Crawlbase's scraping infrastructure. <details><summary>More about</summary>
+
+  Developers can integrate live, structured web data (HTML, Markdown, screenshots) directly into their AI workflows in tools like Claude, Cursor, or Windsurf.
+
+  _Now your AI agent can crawl the web in real-time, because apparently static documentation was too 2023._
+
+  `mcp` `web-scraping` `real-time-data` `ai-integration` `crawlbase`
+  </details>
+
 - **[mailgun-mcp-server](https://github.com/mailgun/mailgun-mcp-server)** `⭐ 57` `updated ≤90d` An MCP server that exposes Mailgun email API capabilities to AI agents via the Model Context Protocol. <details><summary>More about</summary>
 
   Lets AI agents send emails, check deliverability, and manage Mailgun resources through natural language prompts in MCP-compatible clients.
@@ -4266,7 +4275,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `netbird` `networking` `automation`
   </details>
 
-- **[WayStation-ai/mcp](https://github.com/waystation-ai/mcp)** `⭐ 57` `updated ≤1y` WayStation is a remote MCP server that connects MCP hosts like Claude to productivity apps via no-code integrations. <details><summary>More about</summary>
+- **[WayStation-ai/mcp](https://github.com/waystation-ai/mcp)** `⭐ 57` `updated >1y` WayStation is a remote MCP server that connects MCP hosts like Claude to productivity apps via no-code integrations. <details><summary>More about</summary>
 
   It lets developers link AI assistants to daily tools without writing glue code, streamlining automation.
 
@@ -4291,15 +4300,6 @@ _These are new or low-traffic entries being watched._
   _Your AI assistant can now run arbitrary KQL queries against production telemetry, so you no longer have to pretend you know how to write them yourself._
 
   `mcp` `azure-data-explorer` `kql` `database-integration`
-  </details>
-
-- **[Crawlbase MCP](https://github.com/crawlbase/crawlbase-mcp)** `⭐ 55` `updated ≤180d` An MCP server that enables AI agents and LLMs to fetch real-time web data via Crawlbase's scraping infrastructure. <details><summary>More about</summary>
-
-  Developers can integrate live, structured web data (HTML, Markdown, screenshots) directly into their AI workflows in tools like Claude, Cursor, or Windsurf.
-
-  _Now your AI agent can crawl the web in real-time, because apparently static documentation was too 2023._
-
-  `mcp` `web-scraping` `real-time-data` `ai-integration` `crawlbase`
   </details>
 
 - **[mcp_weather_server](https://github.com/isdaniel/mcp_weather_server)** `⭐ 55` `updated ≤90d` A Model Context Protocol (MCP) server that provides weather and air quality data via the Open-Meteo API. <details><summary>More about</summary>
@@ -4327,6 +4327,15 @@ _These are new or low-traffic entries being watched._
   _Now your AI can nag you with system notifications instead of just silently judging your code._
 
   `mcp` `notifications` `agent-workflow` `desktop-integration`
+  </details>
+
+- **[davidmosiah/google-health-mcp](https://github.com/davidmosiah/google-health-mcp)** `⭐ 54` `updated ≤30d` A local-first MCP server that provides AI agents with access to Google Health API v4 data, including Fitbit and Pixel Watch metrics. <details><summary>More about</summary>
+
+  It allows developers to build agents that can ingest and reason over personal health telemetry through the Model Context Protocol.
+
+  _Because nothing says 'privacy-first developer' quite like feeding your sleep cycles into a context window to see if an LLM thinks you're tired._
+
+  `mcp` `google-health` `health-data` `local-first` `ai-agents`
   </details>
 
 - **[mcp-searxng-enhanced](https://github.com/overtlids/mcp-searxng-enhanced)** `⭐ 54` `updated ≤180d` An MCP server that exposes category-aware SearXNG web search, website scraping with citations, and date/time tools to MCP-compatible AI clients. <details><summary>More about</summary>
@@ -4743,7 +4752,7 @@ _These are new or low-traffic entries being watched._
   `emacs` `elisp` `mcp` `agent-integration`
   </details>
 
-- **[gr-mcp](https://github.com/yoelbassin/gr-mcp)** `⭐ 46` `updated ≤90d` gr-mcp is an MCP server that exposes GNU Radio flowgraph operations as tools for AI assistants. <details><summary>More about</summary>
+- **[gr-mcp](https://github.com/yoelbassin/gr-mcp)** `⭐ 46` `updated ≤180d` gr-mcp is an MCP server that exposes GNU Radio flowgraph operations as tools for AI assistants. <details><summary>More about</summary>
 
   It lets AI assistants programmatically create, edit, and validate SDR workflows in GNU Radio via a standardized tool interface.
 
@@ -4770,7 +4779,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `database` `prisma` `agent-tools` `migrations`
   </details>
 
-- **[yepcode/mcp-server-js](https://github.com/yepcode/mcp-server-js)** `⭐ 46` `updated ≤180d` MCP server that exposes YepCode processes as callable tools for AI platforms. <details><summary>More about</summary>
+- **[yepcode/mcp-server-js](https://github.com/yepcode/mcp-server-js)** `⭐ 46` `updated ≤1y` MCP server that exposes YepCode processes as callable tools for AI platforms. <details><summary>More about</summary>
 
   Lets developers turn existing YepCode workflows into secure, language-agnostic tools usable by any MCP-compatible AI assistant.
 
@@ -5013,7 +5022,7 @@ _These are new or low-traffic entries being watched._
   `browser-automation` `rust` `mcp` `chrome-devtools` `ai-integration`
   </details>
 
-- **[bitrise-io/bitrise-mcp](https://github.com/bitrise-io/bitrise-mcp)** `⭐ 41` `updated ≤30d` MCP Server for the Bitrise API, enabling app management, build operations, and artifact management. <details><summary>More about</summary>
+- **[bitrise-io/bitrise-mcp](https://github.com/bitrise-io/bitrise-mcp)** `⭐ 41` `updated ≤90d` MCP Server for the Bitrise API, enabling app management, build operations, and artifact management. <details><summary>More about</summary>
 
   Developers can integrate Bitrise CI/CD capabilities directly into MCP-compatible assistants for streamlined build and deployment workflows.
 
@@ -5274,6 +5283,15 @@ _These are new or low-traffic entries being watched._
   `cli` `mcp-server` `home-automation` `smart-tv` `natural-language`
   </details>
 
+- **[mcp-server](https://github.com/decodo/mcp-server)** `⭐ 37` `updated ≤30d` An MCP server that connects AI clients to Decodo's web scraping and proxy services. <details><summary>More about</summary>
+
+  It lets developers integrate Decodo's scraping, search, and ecommerce tools directly into MCP-compatible coding assistants like Cursor or Claude Desktop.
+
+  _Now your AI can scrape TikTok Shop while you pretend to write unit tests._
+
+  `mcp` `web-scraping` `proxy` `integration` `cursor`
+  </details>
+
 - **[SaintDoresh/YFinance-Trader-MCP-ClaudeDesktop](https://github.com/saintdoresh/yfinance-trader-mcp-claudedesktop)** `⭐ 37` `updated >1y` An MCP server that exposes yfinance stock market data, company metrics, and insider transactions as tools specifically adapted for Claude Desktop. <details><summary>More about</summary>
 
   It lets developers query financial data, analyst recommendations, and historical prices directly inside Claude Desktop without wiring up external APIs or switching contexts.
@@ -5355,13 +5373,13 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `database-integration` `hologres` `alibaba-cloud` `sql`
   </details>
 
-- **[mcp-server](https://github.com/decodo/mcp-server)** `⭐ 35` `updated ≤30d` An MCP server that connects AI clients to Decodo's web scraping and proxy services. <details><summary>More about</summary>
+- **[attalla1/photopea-mcp-server](https://github.com/attalla1/photopea-mcp-server)** `⭐ 35` `updated ≤180d` An MCP server that enables AI agents to perform image editing operations via Photopea. <details><summary>More about</summary>
 
-  It lets developers integrate Decodo's scraping, search, and ecommerce tools directly into MCP-compatible coding assistants like Cursor or Claude Desktop.
+  Developers can integrate browser-based image editing into their AI workflows without leaving their terminal or coding environment.
 
-  _Now your AI can scrape TikTok Shop while you pretend to write unit tests._
+  _Now your AI agent can design album covers while you pretend to review its code changes._
 
-  `mcp` `web-scraping` `proxy` `integration` `cursor`
+  `mcp` `image-editing` `photopea` `ai-integration` `browser-automation`
   </details>
 
 - **[OctoEverywhere/mcp](https://github.com/octoeverywhere/mcp)** `⭐ 35` `updated >1y` A free, cloud-hosted MCP server that gives AI agents live access to 3D printer status, webcam snapshots, and print controls via the Model Context Protocol. <details><summary>More about</summary>
@@ -5472,7 +5490,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `openapi` `api-integration` `server`
   </details>
 
-- **[pzalutski-pixel/javalens-mcp](https://github.com/pzalutski-pixel/javalens-mcp)** `⭐ 34` `updated ≤90d` An MCP server that provides 63 compiler-accurate Java code analysis tools built on Eclipse JDT for AI agents. <details><summary>More about</summary>
+- **[pzalutski-pixel/javalens-mcp](https://github.com/pzalutski-pixel/javalens-mcp)** `⭐ 34` `updated ≤180d` An MCP server that provides 63 compiler-accurate Java code analysis tools built on Eclipse JDT for AI agents. <details><summary>More about</summary>
 
   It gives coding agents semantic understanding of Java codebases—resolving inheritance, overloading, and usages accurately—rather than forcing them to rely on error-prone text search.
 
@@ -5499,13 +5517,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `weather` `accuweather` `npm` `context-protocol`
   </details>
 
-- **[attalla1/photopea-mcp-server](https://github.com/attalla1/photopea-mcp-server)** `⭐ 33` `updated ≤180d` An MCP server that enables AI agents to perform image editing operations via Photopea. <details><summary>More about</summary>
+- **[Connectry-io/connectrylab-architect-cert-mcp](https://github.com/connectry-io/connectrylab-architect-cert-mcp)** `⭐ 33` `updated ≤180d` An MCP server providing free, interactive certification prep for the Claude Certified Architect exam with 390 questions, spaced repetition, and a progress dashboard. <details><summary>More about</summary>
 
-  Developers can integrate browser-based image editing into their AI workflows without leaving their terminal or coding environment.
+  Developers preparing for the Claude Certified Architect exam can use this to study with structured, interactive content directly within their MCP-enabled workflow.
 
-  _Now your AI agent can design album covers while you pretend to review its code changes._
+  _Now you can cram for a certification exam while pretending you're just debugging a server._
 
-  `mcp` `image-editing` `photopea` `ai-integration` `browser-automation`
+  `mcp-server` `certification-prep` `claude` `education` `spaced-repetition`
   </details>
 
 - **[gabrielmaialva33/winx-code-agent](https://github.com/gabrielmaialva33/winx-code-agent)** `⭐ 33` `updated ≤30d` A high-performance Rust implementation of the WCGW code agent tools, delivered as an MCP server. <details><summary>More about</summary>
@@ -5607,15 +5625,6 @@ _These are new or low-traffic entries being watched._
   `mcp` `bluesky` `social-media`
   </details>
 
-- **[Connectry-io/connectrylab-architect-cert-mcp](https://github.com/connectry-io/connectrylab-architect-cert-mcp)** `⭐ 32` `updated ≤180d` An MCP server providing free, interactive certification prep for the Claude Certified Architect exam with 390 questions, spaced repetition, and a progress dashboard. <details><summary>More about</summary>
-
-  Developers preparing for the Claude Certified Architect exam can use this to study with structured, interactive content directly within their MCP-enabled workflow.
-
-  _Now you can cram for a certification exam while pretending you're just debugging a server._
-
-  `mcp-server` `certification-prep` `claude` `education` `spaced-repetition`
-  </details>
-
 - **[debridge-finance/debridge-mcp](https://github.com/debridge-finance/debridge-mcp)** `⭐ 32` `updated ≤30d` MCP server enabling AI agents to execute cross-chain cryptocurrency swaps and transfers via the deBridge protocol. <details><summary>More about</summary>
 
   Developers building blockchain-integrated agents can now programmatically access deBridge's cross-chain functionality through a standardized MCP interface.
@@ -5652,7 +5661,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `sql` `static-analysis` `dialect-conversion`
   </details>
 
-- **[mcp-server-singlestore](https://github.com/singlestore-labs/mcp-server-singlestore)** `⭐ 32` `updated ≤90d` An MCP server that exposes the SingleStore Management API to LLM clients like Claude and Cursor, enabling natural language database operations. <details><summary>More about</summary>
+- **[mcp-server-singlestore](https://github.com/singlestore-labs/mcp-server-singlestore)** `⭐ 32` `updated ≤180d` An MCP server that exposes the SingleStore Management API to LLM clients like Claude and Cursor, enabling natural language database operations. <details><summary>More about</summary>
 
   Developers can manage and query SingleStore instances directly from their AI coding assistants without leaving the chat interface or writing raw SQL manually.
 
@@ -5715,7 +5724,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `art` `museum` `integration`
   </details>
 
-- **[pallaprolus/mendeley-mcp](https://github.com/pallaprolus/mendeley-mcp)** `⭐ 31` `updated ≤90d` An MCP server that connects a Mendeley reference library to LLM clients like Claude Desktop and Cursor for searching, retrieving, and managing academic papers. <details><summary>More about</summary>
+- **[pallaprolus/mendeley-mcp](https://github.com/pallaprolus/mendeley-mcp)** `⭐ 31` `updated ≤180d` An MCP server that connects a Mendeley reference library to LLM clients like Claude Desktop and Cursor for searching, retrieving, and managing academic papers. <details><summary>More about</summary>
 
   It allows developers and researchers to query their academic library and the global Mendeley catalog directly from their coding assistant, streamlining literature review during technical research.
 
@@ -5841,6 +5850,15 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `adaptive-cards` `microsoft-teams` `outlook` `bot-framework`
   </details>
 
+- **[Daghis/teamcity-mcp](https://github.com/daghis/teamcity-mcp)** `⭐ 29` `updated ≤30d` An MCP server that exposes JetBrains TeamCity CI/CD operations as tools for AI coding assistants. <details><summary>More about</summary>
+
+  Lets developers control TeamCity builds, tests, agents, and configs directly from AI assistants like Claude Code or Cursor without leaving their workflow.
+
+  _Now your AI can queue builds while you’re still arguing with it about tabs vs. spaces._
+
+  `mcp` `teamcity` `ci-cd` `devops` `ai-integration`
+  </details>
+
 - **[fibery-mcp-server](https://github.com/fibery-inc/fibery-mcp-server)** `⭐ 29` `updated ≤180d` An MCP server that enables LLMs to interact with Fibery workspaces via natural language. <details><summary>More about</summary>
 
   It allows developers to query, create, and update complex workspace data and database schemas using conversational interfaces within MCP-compliant clients.
@@ -5940,7 +5958,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `csharp` `roslyn` `semantic-analysis` `dotnet`
   </details>
 
-- **[rsdouglas/janee](https://github.com/rsdouglas/janee)** `⭐ 29` `updated ≤180d` Janee is a local-first MCP server that lets AI agents call external APIs using injected credentials, without ever exposing raw API keys to the agent itself. <details><summary>More about</summary>
+- **[rsdouglas/janee](https://github.com/rsdouglas/janee)** `⭐ 29` `updated ≤1y` Janee is a local-first MCP server that lets AI agents call external APIs using injected credentials, without ever exposing raw API keys to the agent itself. <details><summary>More about</summary>
 
   It gives developers a way to grant agents API access with request-level policies, session TTLs, and audit logs instead of copying long-lived keys into agent configs.
 
@@ -5985,13 +6003,13 @@ _These are new or low-traffic entries being watched._
   `mcp` `backblaze` `b2` `cloud-storage` `s3`
   </details>
 
-- **[Daghis/teamcity-mcp](https://github.com/daghis/teamcity-mcp)** `⭐ 28` `updated ≤90d` An MCP server that exposes JetBrains TeamCity CI/CD operations as tools for AI coding assistants. <details><summary>More about</summary>
+- **[EduBase](https://github.com/edubase/mcp)** `⭐ 28` `updated ≤30d` An MCP server that enables Claude and other LLMs to interact with EduBase's e-learning platform via the Model Context Protocol. <details><summary>More about</summary>
 
-  Lets developers control TeamCity builds, tests, agents, and configs directly from AI assistants like Claude Code or Cursor without leaving their workflow.
+  Developers can integrate EduBase's educational tools (quizzes, exams, content management) into AI workflows, enabling automated or AI-assisted educational content creation and analysis.
 
-  _Now your AI can queue builds while you’re still arguing with it about tabs vs. spaces._
+  _Now your AI can schedule exams for you, because apparently even education needs a copilot._
 
-  `mcp` `teamcity` `ci-cd` `devops` `ai-integration`
+  `mcp` `education` `api-integration` `llm-tools`
   </details>
 
 - **[hijaz/postmancer](https://github.com/hijaz/postmancer)** `⭐ 28` `updated >1y` An MCP server that enables AI assistants to interact with RESTful APIs, offering Postman/Insomnia-like functionality for API testing and management. <details><summary>More about</summary>
@@ -6046,15 +6064,6 @@ _These are new or low-traffic entries being watched._
   _Now your AI agent can finally stop pretending it knows what 'God Class' means and just ask Aibolit._
 
   `mcp-server` `java` `static-analysis` `refactoring` `aibolit`
-  </details>
-
-- **[EduBase](https://github.com/edubase/mcp)** `⭐ 27` `updated ≤30d` An MCP server that enables Claude and other LLMs to interact with EduBase's e-learning platform via the Model Context Protocol. <details><summary>More about</summary>
-
-  Developers can integrate EduBase's educational tools (quizzes, exams, content management) into AI workflows, enabling automated or AI-assisted educational content creation and analysis.
-
-  _Now your AI can schedule exams for you, because apparently even education needs a copilot._
-
-  `mcp` `education` `api-integration` `llm-tools`
   </details>
 
 - **[endorhq/cli](https://github.com/endorhq/cli)** `⭐ 27` `updated >1y` A CLI tool that provides instant, private, sandboxed environments for services like MariaDB and PostgreSQL, with MCP support for AI agent integration. <details><summary>More about</summary>
@@ -6480,7 +6489,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `mobile` `app-store` `automation` `developer-tools`
   </details>
 
-- **[Nexus](https://github.com/adawalli/nexus)** `⭐ 23` `updated ≤30d` An MCP server that integrates OpenRouter to provide AI-powered search capabilities via models like Perplexity Sonar and Grok. <details><summary>More about</summary>
+- **[Nexus](https://github.com/adawalli/nexus)** `⭐ 23` `updated ≤90d` An MCP server that integrates OpenRouter to provide AI-powered search capabilities via models like Perplexity Sonar and Grok. <details><summary>More about</summary>
 
   It allows developers to equip MCP-compatible agents like Claude Desktop or Cursor with real-time web search and training-data knowledge directly through a single API.
 
@@ -6552,6 +6561,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `video-generation` `automation` `agents`
   </details>
 
+- **[eirikb/any-cli-mcp-server](https://github.com/eirikb/any-cli-mcp-server)** `⭐ 22` `updated >1y` A tool that converts any CLI with --help output into an MCP server with auto-mapped tools. <details><summary>More about</summary>
+
+  Lets developers expose arbitrary command-line tools to MCP-compatible assistants without writing custom server code.
+
+  _Now every CLI you’ve ever installed can haunt your agent’s context menu._
+
+  `mcp` `cli` `server` `automation`
+  </details>
+
 - **[Pratyay/mac-monitor-mcp](https://github.com/pratyay/mac-monitor-mcp)** `⭐ 22` `updated ≤180d` A Model Context Protocol server that exposes macOS system resource metrics—CPU, memory, and network usage—as structured tools for LLM clients. <details><summary>More about</summary>
 
   Developers can give coding agents and local AI workflows the ability to inspect and react to system performance without leaving the prompt or writing custom monitoring glue code.
@@ -6570,7 +6588,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `ipfs` `storage` `decentralized` `w3-cli`
   </details>
 
-- **[arthurpanhku/DragonMCP](https://github.com/arthurpanhku/dragonmcp)** `⭐ 21` `updated ≤30d` DragonMCP is an MCP server that enables AI agents to interact with local life services (e.g., transit, payments, food delivery) in Greater China and Asia. <details><summary>More about</summary>
+- **[arthurpanhku/DragonMCP](https://github.com/arthurpanhku/dragonmcp)** `⭐ 21` `updated ≤90d` DragonMCP is an MCP server that enables AI agents to interact with local life services (e.g., transit, payments, food delivery) in Greater China and Asia. <details><summary>More about</summary>
 
   It bridges AI agents with real-world regional APIs, letting developers integrate local services like MTR schedules or Amap navigation into agent workflows.
 
@@ -6595,15 +6613,6 @@ _These are new or low-traffic entries being watched._
   _Because nothing says 'stable ecosystem' like a project that rebrands itself before its first birthday._
 
   `mcp` `deployment` `cli` `docker` `kubernetes`
-  </details>
-
-- **[eirikb/any-cli-mcp-server](https://github.com/eirikb/any-cli-mcp-server)** `⭐ 21` `updated >1y` A tool that converts any CLI with --help output into an MCP server with auto-mapped tools. <details><summary>More about</summary>
-
-  Lets developers expose arbitrary command-line tools to MCP-compatible assistants without writing custom server code.
-
-  _Now every CLI you’ve ever installed can haunt your agent’s context menu._
-
-  `mcp` `cli` `server` `automation`
   </details>
 
 - **[fewsats-mcp](https://github.com/fewsats/fewsats-mcp)** `⭐ 21` `updated >1y` An MCP server that integrates Fewsats to allow AI agents to securely perform financial transactions and check wallet balances. <details><summary>More about</summary>
@@ -6748,6 +6757,15 @@ _These are new or low-traffic entries being watched._
   _Finally, an MCP server that speaks the one language Godot C# devs actually need: 'here’s the crash, now fix it'._
 
   `mcp-server` `godot` `csharp` `debugging` `roslyn`
+  </details>
+
+- **[cq27-dev/rag-rat](https://github.com/cq27-dev/rag-rat)** `⭐ 20` `updated ≤30d` A local repository intelligence index and MCP server that provides semantic search, graph navigation, and source-anchored memory for coding agents. <details><summary>More about</summary>
+
+  It provides coding agents with high-fidelity context—including git history and codebase invariants—to prevent hallucinated implementations and duplicate code.
+
+  _Because apparently, we can't trust our agents to know what they just wrote, so now we need a dedicated database to remind them._
+
+  `mcp` `rag` `code-graph` `local-ai` `intelligence`
   </details>
 
 - **[currents-dev/currents-mcp](https://github.com/currents-dev/currents-mcp)** `⭐ 20` `updated ≤30d` An MCP server that connects AI agents to Currents for retrieving test results and CI insights. <details><summary>More about</summary>
@@ -7092,7 +7110,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `dexscreener` `crypto` `api` `agents`
   </details>
 
-- **[marlinjai/email-mcp](https://github.com/marlinjai/email-mcp)** `⭐ 18` `updated ≤90d` Unified MCP server for email access across Gmail, Outlook, iCloud, and IMAP providers. <details><summary>More about</summary>
+- **[marlinjai/email-mcp](https://github.com/marlinjai/email-mcp)** `⭐ 18` `updated ≤180d` Unified MCP server for email access across Gmail, Outlook, iCloud, and IMAP providers. <details><summary>More about</summary>
 
   Lets developers interact with email accounts from AI agents via standardized MCP tools without managing provider-specific APIs.
 
@@ -7146,7 +7164,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `prompt-templates` `go`
   </details>
 
-- **[willianpinho/large-file-mcp](https://github.com/willianpinho/large-file-mcp)** `⭐ 18` `updated ≤90d` An MCP server for efficient large file operations with smart chunking, search, and navigation in AI development workflows. <details><summary>More about</summary>
+- **[willianpinho/large-file-mcp](https://github.com/willianpinho/large-file-mcp)** `⭐ 18` `updated ≤180d` An MCP server for efficient large file operations with smart chunking, search, and navigation in AI development workflows. <details><summary>More about</summary>
 
   Enables AI assistants to handle large codebases and logs efficiently without memory overload or degraded performance.
 
@@ -7189,15 +7207,6 @@ _These are new or low-traffic entries being watched._
   _Now your editor can create feature flags while you’re still deciding if you believe in feature flags._
 
   `mcp-server` `feature-flags` `configcat` `developer-tools`
-  </details>
-
-- **[cq27-dev/rag-rat](https://github.com/cq27-dev/rag-rat)** `⭐ 17` `updated ≤30d` A local repository intelligence index and MCP server that provides semantic search, graph navigation, and source-anchored memory for coding agents. <details><summary>More about</summary>
-
-  It provides coding agents with high-fidelity context—including git history and codebase invariants—to prevent hallucinated implementations and duplicate code.
-
-  _Because apparently, we can't trust our agents to know what they just wrote, so now we need a dedicated database to remind them._
-
-  `mcp` `rag` `code-graph` `local-ai` `intelligence`
   </details>
 
 - **[espressif/esp-rainmaker-mcp](https://github.com/espressif/esp-rainmaker-mcp)** `⭐ 17` `updated >1y` An MCP server that provides a wrapper around the esp-rainmaker-cli to allow LLM clients to interact with ESP RainMaker IoT devices. <details><summary>More about</summary>
@@ -7308,6 +7317,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `proxmox` `virtualization` `homelab` `infrastructure`
   </details>
 
+- **[demwick/polymarket-agent-mcp](https://github.com/demwick/polymarket-agent-mcp)** `⭐ 16` `updated ≤30d` An MCP server providing 48 tools for interacting with Polymarket, including trading, market discovery, smart money tracking, copy trading, backtesting, risk management, and portfolio optimization. <details><summary>More about</summary>
+
+  Developers can integrate Polymarket's prediction market capabilities directly into their AI workflows via MCP-compatible clients like Claude Code or Cursor.
+
+  _Now your AI can gamble on election outcomes while you pretend to work._
+
+  `mcp-server` `polymarket` `trading` `prediction-markets` `finance`
+  </details>
+
 - **[Druid MCP Server](https://github.com/iunera/druid-mcp-server)** `⭐ 16` `updated ≤90d` An MCP server for Apache Druid that exposes tools, resources, and AI-assisted prompts for managing and analyzing Druid clusters via the Model Context Protocol. <details><summary>More about</summary>
 
   It lets developers integrate AI assistants with Druid clusters for data management, ingestion, and analysis using natural language.
@@ -7315,6 +7333,15 @@ _These are new or low-traffic entries being watched._
   _Now your Druid cluster can have a conversation with your AI assistant, because why should databases be left out of the chat._
 
   `mcp-server` `apache-druid` `data-analytics` `spring-ai` `model-context-protocol`
+  </details>
+
+- **[Dudude-bit/yandex-lavka-mcp](https://github.com/dudude-bit/yandex-lavka-mcp)** `⭐ 16` `updated ≤30d` An unofficial MCP server that enables AI assistants to browse, cart, and confirm grocery orders from Yandex Lavka using the user's own session cookies. <details><summary>More about</summary>
+
+  Lets developers extend AI assistants with real-world e-commerce capabilities for personal use, demonstrating how MCP servers can bridge AI with private, session-based web services.
+
+  _Because nothing says 'cutting-edge AI workflow' like authorizing your language model to spend real money on oat milk via reverse-engineered grocery APIs._
+
+  `mcp` `groceries` `unofficial-api` `session-auth` `ecommerce`
   </details>
 
 - **[gofireflyio/firefly-mcp](https://github.com/gofireflyio/firefly-mcp)** `⭐ 16` `updated ≤180d` A TypeScript-based MCP server that integrates with the Firefly platform to discover, manage, and codify cloud and SaaS resources. <details><summary>More about</summary>
@@ -7425,15 +7452,6 @@ _These are new or low-traffic entries being watched._
   `mcp` `claude-code` `skills` `typescript` `agent-integration`
   </details>
 
-- **[demwick/polymarket-agent-mcp](https://github.com/demwick/polymarket-agent-mcp)** `⭐ 15` `updated ≤30d` An MCP server providing 48 tools for interacting with Polymarket, including trading, market discovery, smart money tracking, copy trading, backtesting, risk management, and portfolio optimization. <details><summary>More about</summary>
-
-  Developers can integrate Polymarket's prediction market capabilities directly into their AI workflows via MCP-compatible clients like Claude Code or Cursor.
-
-  _Now your AI can gamble on election outcomes while you pretend to work._
-
-  `mcp-server` `polymarket` `trading` `prediction-markets` `finance`
-  </details>
-
 - **[drisplabs/browser-mcp](https://github.com/drisplabs/browser-mcp)** `⭐ 15` `updated ≤30d` An MCP server that provides AI agents with semantic page snapshots and stable element IDs for reliable browser automation. <details><summary>More about</summary>
 
   It reduces token consumption and breakage by replacing brittle DOM/CSS selectors with a compact, semantic representation of the web for agents.
@@ -7533,7 +7551,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `android` `mobile-testing` `automation`
   </details>
 
-- **[alpadalar/netops-mcp](https://github.com/alpadalar/netops-mcp)** `⭐ 14` `updated ≤30d` An MCP server that exposes DevOps and networking tools (ping, traceroute, nmap, curl, etc.) through a standardized interface. <details><summary>More about</summary>
+- **[alpadalar/netops-mcp](https://github.com/alpadalar/netops-mcp)** `⭐ 14` `updated ≤90d` An MCP server that exposes DevOps and networking tools (ping, traceroute, nmap, curl, etc.) through a standardized interface. <details><summary>More about</summary>
 
   Lets AI assistants or agents interact with network operations tools in a consistent way, enabling programmatic infrastructure checks and debugging.
 
@@ -7596,15 +7614,6 @@ _These are new or low-traffic entries being watched._
   `knowledge-base` `local-first` `markdown` `mcp` `obsidian`
   </details>
 
-- **[Dudude-bit/yandex-lavka-mcp](https://github.com/dudude-bit/yandex-lavka-mcp)** `⭐ 14` `updated ≤90d` An unofficial MCP server that enables AI assistants to browse, cart, and confirm grocery orders from Yandex Lavka using the user's own session cookies. <details><summary>More about</summary>
-
-  Lets developers extend AI assistants with real-world e-commerce capabilities for personal use, demonstrating how MCP servers can bridge AI with private, session-based web services.
-
-  _Because nothing says 'cutting-edge AI workflow' like authorizing your language model to spend real money on oat milk via reverse-engineered grocery APIs._
-
-  `mcp` `groceries` `unofficial-api` `session-auth` `ecommerce`
-  </details>
-
 - **[IMAP MCP](https://github.com/dominik1001/imap-mcp)** `⭐ 14` `updated >1y` An IMAP Model Context Protocol (MCP) server that exposes IMAP operations as tools for AI assistants. <details><summary>More about</summary>
 
   Lets AI assistants interact with email servers via IMAP, enabling draft creation and other email operations directly from assistant workflows.
@@ -7650,7 +7659,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `json` `tooling`
   </details>
 
-- **[kambriso/fritzbox-mcp-server](https://github.com/kambriso/fritzbox-mcp-server)** `⭐ 14` `updated ≤90d` An MCP server that enables AI assistants to interact with FRITZ!Box routers for home automation and network management. <details><summary>More about</summary>
+- **[kambriso/fritzbox-mcp-server](https://github.com/kambriso/fritzbox-mcp-server)** `⭐ 14` `updated ≤180d` An MCP server that enables AI assistants to interact with FRITZ!Box routers for home automation and network management. <details><summary>More about</summary>
 
   Developers can integrate their AI assistants with local network infrastructure to query and control router settings via natural language.
 
@@ -7740,7 +7749,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `bilibili` `data-fetching`
   </details>
 
-- **[austenstone/myinstants-mcp](https://github.com/austenstone/myinstants-mcp)** `⭐ 13` `updated ≤180d` An MCP server that enables AI agents to search, browse, and play sounds from myinstants.com. <details><summary>More about</summary>
+- **[austenstone/myinstants-mcp](https://github.com/austenstone/myinstants-mcp)** `⭐ 13` `updated ≤1y` An MCP server that enables AI agents to search, browse, and play sounds from myinstants.com. <details><summary>More about</summary>
 
   Lets developers integrate a soundboard into their AI agent workflows for notifications, testing, or just vibes.
 
@@ -7767,6 +7776,15 @@ _These are new or low-traffic entries being watched._
   `ios` `mcp` `swift` `debugging` `performance`
   </details>
 
+- **[Continuum-AI-Corp/orcarouter-mcp-server](https://github.com/continuum-ai-corp/orcarouter-mcp-server)** `⭐ 13` `updated ≤180d` An MCP server that enables Model Context Protocol clients to browse the OrcaRouter model catalog and execute chat completions. <details><summary>More about</summary>
+
+  It allows developers to swap models, compare pricing, and implement fallback chains directly from within their AI-native editor or CLI without leaving the workflow.
+
+  _The joy of having a single config file that lets you oscillate between five different LLMs until you find the one that doesn't hallucinate your API keys._
+
+  `mcp` `llm-gateway` `model-routing` `fallback-chains` `multi-model`
+  </details>
+
 - **[hashgraph-online/hashnet-mcp-js](https://github.com/hashgraph-online/hashnet-mcp-js)** `⭐ 13` `updated ≤180d` Universal MCP server for discovering, connecting, and interacting with agents via the HOL Registry Broker ecosystem. <details><summary>More about</summary>
 
   Developers can use this to integrate agent discovery, chat, registration, and workflow automation into MCP-compatible clients.
@@ -7776,7 +7794,7 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `agent-discovery` `registry-broker` `hedera` `workflow-automation`
   </details>
 
-- **[henilcalagiya/google-sheets-mcp](https://github.com/henilcalagiya/google-sheets-mcp)** `⭐ 13` `updated ≤1y` A Python MCP server that enables Google Sheets automation through MCP-compatible clients. <details><summary>More about</summary>
+- **[henilcalagiya/google-sheets-mcp](https://github.com/henilcalagiya/google-sheets-mcp)** `⭐ 13` `updated >1y` A Python MCP server that enables Google Sheets automation through MCP-compatible clients. <details><summary>More about</summary>
 
   Developers can integrate Google Sheets CRUD operations directly into their MCP-based workflows, enabling spreadsheet automation within AI assistant environments.
 
@@ -8253,15 +8271,6 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `project-management` `ai-integration` `buildable` `task-automation`
   </details>
 
-- **[Continuum-AI-Corp/orcarouter-mcp-server](https://github.com/continuum-ai-corp/orcarouter-mcp-server)** `⭐ 11` `updated ≤180d` An MCP server that enables Model Context Protocol clients to browse the OrcaRouter model catalog and execute chat completions. <details><summary>More about</summary>
-
-  It allows developers to swap models, compare pricing, and implement fallback chains directly from within their AI-native editor or CLI without leaving the workflow.
-
-  _The joy of having a single config file that lets you oscillate between five different LLMs until you find the one that doesn't hallucinate your API keys._
-
-  `mcp` `llm-gateway` `model-routing` `fallback-chains` `multi-model`
-  </details>
-
 - **[corebasehq/coremcp](https://github.com/corebasehq/coremcp)** `⭐ 11` `updated ≤90d` CoreMCP is an open-source Model Context Protocol (MCP) server that bridges AI assistants with legacy databases like MSSQL. <details><summary>More about</summary>
 
   It lets developers securely expose database schemas and queries to AI agents via MCP, enabling read-only or controlled access to legacy systems without direct code changes.
@@ -8550,6 +8559,15 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `reasoning` `cognitive-engine` `typescript` `metacognition`
   </details>
 
+- **[devopam/MCPg](https://github.com/devopam/mcpg)** `⭐ 10` `updated ≤30d` A production-grade Model Context Protocol (MCP) server for PostgreSQL that enables AI agents to inspect, query, and manage databases. <details><summary>More about</summary>
+
+  It provides agents with secure, high-granularity access to database internals, including schema introspection and DBA-grade operations like index tuning and migration management.
+
+  _Finally, an AI that can drop your tables with the same confidence it uses to hallucinate a Python function._
+
+  `mcp` `postgresql` `database` `ai-agents` `sql`
+  </details>
+
 - **[drolosoft/go-docs-mcp](https://github.com/drolosoft/go-docs-mcp)** `⭐ 10` `updated ≤30d` A Go-based MCP server that enables AI assistants to read, search, and extract data from multiple document formats, including PDFs, DOCX, and images via OCR. <details><summary>More about</summary>
 
   It provides a unified, zero-config way for coding agents to ingest and query diverse documentation and data files that aren't in plain text.
@@ -8721,7 +8739,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `fintech` `a-shares` `python`
   </details>
 
-- **[3KniGHtcZ/codebeamer-mcp](https://github.com/3knightcz/codebeamer-mcp)** `⭐ 9` `updated ≤90d` An MCP server that enables AI assistants to read and write data within Codebeamer ALM via natural language. <details><summary>More about</summary>
+- **[3KniGHtcZ/codebeamer-mcp](https://github.com/3knightcz/codebeamer-mcp)** `⭐ 9` `updated ≤180d` An MCP server that enables AI assistants to read and write data within Codebeamer ALM via natural language. <details><summary>More about</summary>
 
   It allows developers to manage project requirements, trackers, and traceability directly through MCP-compatible AI clients like Claude or Cursor.
 
@@ -8757,6 +8775,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `database-security` `knowledge-graph` `pii-protection` `audit-log`
   </details>
 
+- **[davidmosiah/wellness-nourish](https://github.com/davidmosiah/wellness-nourish)** `⭐ 9` `updated ≤30d` A local-first MCP server that enables AI agents to perform food searches, barcode lookups, and nutritional intake logging. <details><summary>More about</summary>
+
+  It allows developers to integrate personal wellness and nutrition data directly into their AI-augmented workflows via the Model Context Protocol.
+
+  _Finally, a way to ensure your coding assistant can provide real-time feedback on your third energy drink of the afternoon._
+
+  `mcp` `nutrition` `local-first` `ai-agents` `wellness`
+  </details>
+
 - **[deploy-mcp](https://github.com/alexpota/deploy-mcp)** `⭐ 9` `updated ≤180d` Universal deployment tracker for AI assistants that checks deployment status across platforms like Vercel, Netlify, and Cloudflare Pages without leaving the AI chat. <details><summary>More about</summary>
 
   Developers can monitor deployments in real-time directly within their AI assistant workflow, eliminating context-switching to external dashboards.
@@ -8773,15 +8800,6 @@ _These are new or low-traffic entries being watched._
   _Now your AI can argue with your CMS about opening hours while you watch._
 
   `mcp` `cms` `devhub` `content-management` `llm-integration`
-  </details>
-
-- **[devopam/MCPg](https://github.com/devopam/mcpg)** `⭐ 9` `updated ≤30d` A production-grade Model Context Protocol (MCP) server for PostgreSQL that enables AI agents to inspect, query, and manage databases. <details><summary>More about</summary>
-
-  It provides agents with secure, high-granularity access to database internals, including schema introspection and DBA-grade operations like index tuning and migration management.
-
-  _Finally, an AI that can drop your tables with the same confidence it uses to hallucinate a Python function._
-
-  `mcp` `postgresql` `database` `ai-agents` `sql`
   </details>
 
 - **[Frihet-io/frihet-mcp](https://github.com/frihet-io/frihet-mcp)** `⭐ 9` `updated ≤30d` An MCP server that enables AI assistants to interact with Frihet ERP for managing invoicing, tax compliance, banking, and business operations. <details><summary>More about</summary>
@@ -8829,7 +8847,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `customer-data` `api-integration` `claude` `iaptic`
   </details>
 
-- **[inoyu-mcp-unomi-server](https://github.com/inoyu-dev/inoyu-mcp-unomi-server)** `⭐ 9` `updated ≤1y` An MCP server implementation for integrating Apache Unomi CDP with Anthropic's Model Context Protocol. <details><summary>More about</summary>
+- **[inoyu-mcp-unomi-server](https://github.com/inoyu-dev/inoyu-mcp-unomi-server)** `⭐ 9` `updated >1y` An MCP server implementation for integrating Apache Unomi CDP with Anthropic's Model Context Protocol. <details><summary>More about</summary>
 
   Enables AI assistants like Claude to manage and retrieve user profiles, consents, and sessions from Apache Unomi, bridging CDP capabilities into AI workflows.
 
@@ -9000,13 +9018,22 @@ _These are new or low-traffic entries being watched._
   `mcp` `finance` `claude` `sec-filings` `integration`
   </details>
 
-- **[tipdotmd/tip-md-x402-mcp-server](https://github.com/tipdotmd/tip-md-x402-mcp-server)** `⭐ 9` `updated ≤1y` An MCP server that enables AI agents to send cryptocurrency tips via the x402 payment protocol and Coinbase Developer Platform automatic disbursement. <details><summary>More about</summary>
+- **[tipdotmd/tip-md-x402-mcp-server](https://github.com/tipdotmd/tip-md-x402-mcp-server)** `⭐ 9` `updated >1y` An MCP server that enables AI agents to send cryptocurrency tips via the x402 payment protocol and Coinbase Developer Platform automatic disbursement. <details><summary>More about</summary>
 
   It lets developers monetize agent interactions by giving any MCP-compatible assistant the ability to collect and route USDC tips across Base, Solana, and Ethereum.
 
   _Your coding agent can now nag you for a tip after fixing a null pointer, completing the circle of replacing your junior developer and then asking for a Venmo._
 
   `mcp` `crypto` `payments` `agent-tooling` `x402`
+  </details>
+
+- **[twitterapi-io-mcp](https://github.com/dorukardahan/twitterapi-io-mcp)** `⭐ 9` `updated ≤30d` An MCP server providing offline TwitterAPI.io documentation for AI assistants like Claude. <details><summary>More about</summary>
+
+  Developers integrating Twitter/X APIs can query complete, up-to-date endpoint docs, guides, and blog posts directly from their AI assistant without needing an API key.
+
+  _Now your AI assistant can argue with you about Twitter API rate limits using the same docs you’re too lazy to read._
+
+  `mcp-server` `twitter-api` `offline-docs` `ai-assistant-integration`
   </details>
 
 - **[whiteknightonhorse/APIbase](https://github.com/whiteknightonhorse/apibase)** `⭐ 9` `updated ≤90d` APIbase is a universal MCP gateway that provides AI agents access to 576 real-world API tools via a single endpoint with x402 USDC micropayments. <details><summary>More about</summary>
@@ -9097,15 +9124,6 @@ _These are new or low-traffic entries being watched._
   _Another layer of abstraction to ensure our agents can fail our API tests even faster._
 
   `mcp` `api-testing` `openapi` `automation` `testing`
-  </details>
-
-- **[davidmosiah/wellness-nourish](https://github.com/davidmosiah/wellness-nourish)** `⭐ 8` `updated ≤30d` A local-first MCP server that enables AI agents to perform food searches, barcode lookups, and nutritional intake logging. <details><summary>More about</summary>
-
-  It allows developers to integrate personal wellness and nutrition data directly into their AI-augmented workflows via the Model Context Protocol.
-
-  _Finally, a way to ensure your coding assistant can provide real-time feedback on your third energy drink of the afternoon._
-
-  `mcp` `nutrition` `local-first` `ai-agents` `wellness`
   </details>
 
 - **[endiagram/mcp](https://github.com/dushyant30suthar/endiagram-mcp)** `⭐ 8` `updated ≤180d` MCP server for EN Diagram that provides deterministic structural analysis of systems using graph theory. <details><summary>More about</summary>
@@ -9225,7 +9243,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `pdf` `markdown`
   </details>
 
-- **[mattjegan/swarmia-mcp](https://github.com/mattjegan/swarmia-mcp)** `⭐ 8` `updated ≤1y` A read-only local MCP server that exposes Swarmia's Export API to MCP clients for querying pull request metrics, DORA metrics, investment balance, and effort reporting. <details><summary>More about</summary>
+- **[mattjegan/swarmia-mcp](https://github.com/mattjegan/swarmia-mcp)** `⭐ 8` `updated >1y` A read-only local MCP server that exposes Swarmia's Export API to MCP clients for querying pull request metrics, DORA metrics, investment balance, and effort reporting. <details><summary>More about</summary>
 
   It lets developers and AI assistants query team engineering metrics like DORA and cycle time directly from tools such as Claude or Cursor instead of switching to the Swarmia dashboard.
 
@@ -9243,7 +9261,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `recruiting` `api` `people-search` `b2b`
   </details>
 
-- **[MintMCP](https://github.com/mintmcp/servers)** `⭐ 8` `updated ≤1y` A suite of hosted MCP servers from MintMCP that connect AI agents to Google and Microsoft email and calendar services. <details><summary>More about</summary>
+- **[MintMCP](https://github.com/mintmcp/servers)** `⭐ 8` `updated >1y` A suite of hosted MCP servers from MintMCP that connect AI agents to Google and Microsoft email and calendar services. <details><summary>More about</summary>
 
   It gives developers a quick, hosted way to grant Claude, Cursor, Windsurf, or ChatGPT access to Gmail, Google Calendar, Outlook, and Outlook Calendar via a standard protocol.
 
@@ -9376,15 +9394,6 @@ _These are new or low-traffic entries being watched._
   _We have finally achieved the future where your coding assistant can validate a lead list, provided you can keep the hierarchy of MCP servers, API keys, and Node.js versions from gently collapsing._
 
   `mcp` `email` `marketing` `api-integration`
-  </details>
-
-- **[twitterapi-io-mcp](https://github.com/dorukardahan/twitterapi-io-mcp)** `⭐ 8` `updated ≤90d` An MCP server providing offline TwitterAPI.io documentation for AI assistants like Claude. <details><summary>More about</summary>
-
-  Developers integrating Twitter/X APIs can query complete, up-to-date endpoint docs, guides, and blog posts directly from their AI assistant without needing an API key.
-
-  _Now your AI assistant can argue with you about Twitter API rate limits using the same docs you’re too lazy to read._
-
-  `mcp-server` `twitter-api` `offline-docs` `ai-assistant-integration`
   </details>
 
 - **[valado/pantheon-mcp](https://github.com/valado/pantheon-mcp)** `⭐ 8` `updated ≤1y` An MCP server that provides on-demand access to a collection of specialized AI agent definitions via list, get, and search tools. <details><summary>More about</summary>
@@ -9531,7 +9540,7 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `creative-ai` `image-generation` `provenance` `pay-per-call`
   </details>
 
-- **[copperline-labs/rendex-mcp](https://github.com/copperline-labs/rendex-mcp)** `⭐ 7` `updated ≤30d` MCP server for Rendex that enables AI agents to capture screenshots, generate PDFs, and render HTML to images of any webpage. <details><summary>More about</summary>
+- **[copperline-labs/rendex-mcp](https://github.com/copperline-labs/rendex-mcp)** `⭐ 7` `updated ≤90d` MCP server for Rendex that enables AI agents to capture screenshots, generate PDFs, and render HTML to images of any webpage. <details><summary>More about</summary>
 
   Developers can integrate webpage capture and rendering capabilities directly into their AI agent workflows via MCP, enabling automated visual documentation or testing.
 
@@ -9756,7 +9765,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `healthcare` `research` `domain-server` `pharma`
   </details>
 
-- **[nk3750/jitapi](https://github.com/nk3750/jitapi)** `⭐ 7` `updated ≤90d` An MCP server that enables Claude to interact with any API by parsing OpenAPI specs, indexing endpoints with local embeddings, and executing multi-step API call chains. <details><summary>More about</summary>
+- **[nk3750/jitapi](https://github.com/nk3750/jitapi)** `⭐ 7` `updated ≤180d` An MCP server that enables Claude to interact with any API by parsing OpenAPI specs, indexing endpoints with local embeddings, and executing multi-step API call chains. <details><summary>More about</summary>
 
   It lets developers point a coding assistant at arbitrary APIs without writing custom integrations or burning tokens on massive spec dumps.
 
@@ -10188,7 +10197,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `strategic-reasoning` `counsel` `multi-perspective`
   </details>
 
-- **[mikan-atomoki/text-to-model](https://github.com/mikan-atomoki/text-to-model)** `⭐ 6` `updated ≤180d` An MCP server add-in that connects Claude Desktop or Claude Code to Autodesk Fusion 360, exposing 64 CAD tools for natural language control of 3D modeling. <details><summary>More about</summary>
+- **[mikan-atomoki/text-to-model](https://github.com/mikan-atomoki/text-to-model)** `⭐ 6` `updated ≤1y` An MCP server add-in that connects Claude Desktop or Claude Code to Autodesk Fusion 360, exposing 64 CAD tools for natural language control of 3D modeling. <details><summary>More about</summary>
 
   It lets developers and engineers bootstrap mechanical CAD work—sketches, extrusions, JIS fasteners, and parametric edits—directly from Claude instead of manually clicking through Fusion 360 menus.
 
@@ -10467,7 +10476,7 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `mathematics` `data-visualization` `workspace` `fastmcp`
   </details>
 
-- **[corralimited/snapdiff-mcp](https://github.com/corralimited/snapdiff-mcp)** `⭐ 5` `updated ≤90d` A standalone MCP server for SnapDiff that provides tools for visual regression testing and screenshot capture. <details><summary>More about</summary>
+- **[corralimited/snapdiff-mcp](https://github.com/corralimited/snapdiff-mcp)** `⭐ 5` `updated ≤30d` A standalone MCP server for SnapDiff that provides tools for visual regression testing and screenshot capture. <details><summary>More about</summary>
 
   It allows coding agents to visually verify UI changes and detect regressions by providing them with a way to 'see' and compare web pages.
 
@@ -10510,6 +10519,15 @@ _These are new or low-traffic entries being watched._
   _We have finally reached the point where we are building protocol-compliant middleware just to stop our robot assistants from leaving trailing whitespace._
 
   `mcp` `formatting` `editorconfig` `ai-agents`
+  </details>
+
+- **[ejwhite7/brandkit-mcp](https://github.com/ejwhite7/brandkit-mcp)** `⭐ 5` `updated ≤30d` An open-source MCP server that provides AI tools with structured access to a company's verbal and visual brand identity systems. <details><summary>More about</summary>
+
+  It automates brand compliance by giving LLMs direct, structured access to design tokens, voice guidelines, and visual assets via the Model Context Protocol.
+
+  _Now your AI can fail to be 'on-brand' with the same professional nuance as a mid-level creative director._
+
+  `mcp` `design-systems` `branding` `ai-workflows`
   </details>
 
 - **[entire-vc/evc-spark-mcp](https://github.com/entire-vc/evc-spark-mcp)** `⭐ 5` `updated ≤30d` MCP server that exposes the Spark workflow catalog (agents, skills, prompts, bundles, MCP connectors) to MCP-compatible clients like Claude, ChatGPT, and Cursor. <details><summary>More about</summary>
@@ -10944,6 +10962,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `browser-automation` `anti-bot` `web-scraping` `ai-agents`
   </details>
 
+- **[asif-nvc/e2b-sandbox-mcp](https://github.com/asif-nvc/e2b-sandbox-mcp)** `⭐ 4` `updated ≤180d` An MCP server that connects Claude Code with E2B cloud sandboxes for isolated GitHub repo work. <details><summary>More about</summary>
+
+  Lets developers offload repo operations to disposable cloud VMs, saving tokens and avoiding local setup.
+
+  _Now you can break production in a sandbox instead of your local machine—progress._
+
+  `mcp` `sandbox` `cloud-dev` `claude-code` `git-integration`
+  </details>
+
 - **[astandrik/local-ydb-toolkit](https://github.com/astandrik/local-ydb-toolkit)** `⭐ 4` `updated ≤30d` A toolkit providing an MCP server and Codex skill for managing Docker-based local YDB deployments. <details><summary>More about</summary>
 
   It enables AI agents to perform complex operational tasks like DDL application, tenant bootstrapping, and lifecycle management on local YDB environments.
@@ -10980,7 +11007,7 @@ _These are new or low-traffic entries being watched._
   `python` `rust` `mcp` `pdf` `rag`
   </details>
 
-- **[c5huracan/meyhem](https://github.com/c5huracan/meyhem)** `⭐ 4` `updated ≤180d` Agent-native search service with feedback-driven ranking for MCP server discovery and web search. <details><summary>More about</summary>
+- **[c5huracan/meyhem](https://github.com/c5huracan/meyhem)** `⭐ 4` `updated ≤1y` Agent-native search service with feedback-driven ranking for MCP server discovery and web search. <details><summary>More about</summary>
 
   Developers can discover and rank MCP servers by community trust and perform outcome-ranked web searches directly from their agents.
 
@@ -11052,6 +11079,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `kyc` `czech-republic` `due-diligence`
   </details>
 
+- **[dan1d/mercadolibre-mcp](https://github.com/dan1d/mercadolibre-mcp)** `⭐ 4` `updated ≤1y` MCP server that connects AI agents to MercadoLibre's e-commerce platform for searching products, browsing categories, and tracking trends across Latin America. <details><summary>More about</summary>
+
+  Developers can integrate MercadoLibre's marketplace data into AI agent workflows without managing the API directly.
+
+  _Now your AI agent can obsess over Latin American e-commerce trends while you pretend to write tests._
+
+  `mcp` `e-commerce` `api-integration` `latam` `marketplace`
+  </details>
+
 - **[davidan90/time-node-mcp](https://github.com/davidan90/time-node-mcp)** `⭐ 4` `updated >1y` An MCP server that provides timezone-aware date and time operations for AI assistants. <details><summary>More about</summary>
 
   Solves the common problem of AI assistants returning incorrect date/time information due to timezone confusion.
@@ -11095,15 +11131,6 @@ _These are new or low-traffic entries being watched._
   _Now your AI can argue about whether Dune Part Two was better than the first one, directly in your terminal._
 
   `mcp-server` `tmdb` `javascript` `model-context-protocol`
-  </details>
-
-- **[ejwhite7/brandkit-mcp](https://github.com/ejwhite7/brandkit-mcp)** `⭐ 4` `updated ≤90d` An open-source MCP server that provides AI tools with structured access to a company's verbal and visual brand identity systems. <details><summary>More about</summary>
-
-  It automates brand compliance by giving LLMs direct, structured access to design tokens, voice guidelines, and visual assets via the Model Context Protocol.
-
-  _Now your AI can fail to be 'on-brand' with the same professional nuance as a mid-level creative director._
-
-  `mcp` `design-systems` `branding` `ai-workflows`
   </details>
 
 - **[elevy99927/devops-mcp-webui](https://github.com/elevy99927/devops-mcp-webui)** `⭐ 4` `updated ≤1y` An MCP server that bridges OpenWebUI to Kubernetes clusters, enabling natural language cluster management. <details><summary>More about</summary>
@@ -11376,7 +11403,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `geospatial` `gis` `location-tools`
   </details>
 
-- **[mcp-broker](https://github.com/doricstack/mcp-broker)** `⭐ 4` `updated ≤90d` A local Model Context Protocol (MCP) broker that aggregates multiple upstream servers into a single, compact endpoint for clients. <details><summary>More about</summary>
+- **[mcp-broker](https://github.com/doricstack/mcp-broker)** `⭐ 4` `updated ≤30d` A local Model Context Protocol (MCP) broker that aggregates multiple upstream servers into a single, compact endpoint for clients. <details><summary>More about</summary>
 
   It prevents context window bloat and process duplication by routing tool requests on demand rather than loading every available tool definition into every session.
 
@@ -11502,7 +11529,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `memory` `code-graph`
   </details>
 
-- **[SegfaultSorcerer/heap-seance](https://github.com/segfaultsorcerer/heap-seance)** `⭐ 4` `updated ≤180d` An MCP server and CLI toolkit that channels JVM forensics tools to produce structured memory-leak verdicts inside Claude Code. <details><summary>More about</summary>
+- **[SegfaultSorcerer/heap-seance](https://github.com/segfaultsorcerer/heap-seance)** `⭐ 4` `updated ≤1y` An MCP server and CLI toolkit that channels JVM forensics tools to produce structured memory-leak verdicts inside Claude Code. <details><summary>More about</summary>
 
   It lets developers delegate tedious heap-dump investigation and JFR analysis to Claude Code with a two-stage escalation workflow and unified verdict schemas.
 
@@ -11700,7 +11727,7 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `tabletop-games` `api-integration` `game-design`
   </details>
 
-- **[aliafsahnoudeh/shahnameh-mcp-server](https://github.com/aliafsahnoudeh/shahnameh-mcp-server)** `⭐ 3` `updated ≤1y` An MCP server that provides access to the Shahnameh (Persian epic) API and dataset. <details><summary>More about</summary>
+- **[aliafsahnoudeh/shahnameh-mcp-server](https://github.com/aliafsahnoudeh/shahnameh-mcp-server)** `⭐ 3` `updated >1y` An MCP server that provides access to the Shahnameh (Persian epic) API and dataset. <details><summary>More about</summary>
 
   It exposes a cultural text corpus as a queryable MCP server, enabling AI agents to retrieve and use Shahnameh content in workflows.
 
@@ -11860,6 +11887,15 @@ _These are new or low-traffic entries being watched._
   _Now your AI can lurk in team chat just like the rest of us._
 
   `mcp` `mattermost` `messaging` `integration` `claude`
+  </details>
+
+- **[davidlandais/ovh-api-mcp](https://github.com/davidlandais/ovh-api-mcp)** `⭐ 3` `updated ≤180d` MCP server that provides access to the OVH API for LLM clients like Claude and Cursor. <details><summary>More about</summary>
+
+  Allows developers to interact with OVH cloud infrastructure directly from their AI coding assistant.
+
+  _Now your LLM can spin up OVH servers while you're still trying to remember your API keys._
+
+  `mcp` `ovh-api` `cloud-infrastructure` `rust` `sandboxed`
   </details>
 
 - **[decksaga/market-pulse-mcp](https://github.com/decksaga/market-pulse-mcp)** `⭐ 3` `updated ≤180d` An MCP server that provides Claude with real-time market data for cryptocurrencies, stocks, forex, and market indices. <details><summary>More about</summary>
@@ -12042,7 +12078,7 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `lego` `data-lookup` `ide-integration`
   </details>
 
-- **[gregario/lorcana-oracle](https://github.com/gregario/lorcana-oracle)** `⭐ 3` `updated ≤90d` An MCP server for Disney Lorcana TCG that provides card search, deck analysis, and franchise browsing capabilities. <details><summary>More about</summary>
+- **[gregario/lorcana-oracle](https://github.com/gregario/lorcana-oracle)** `⭐ 3` `updated ≤180d` An MCP server for Disney Lorcana TCG that provides card search, deck analysis, and franchise browsing capabilities. <details><summary>More about</summary>
 
   Developers integrating MCP-based workflows can now query Disney Lorcana card data and deck analytics directly within their AI assistant environments.
 
@@ -12402,7 +12438,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `wordpress` `wp-cli` `devops`
   </details>
 
-- **[naveenayalla1-CS50/mcp-server-toolkit](https://github.com/naveenayalla1-cs50/mcp-server-toolkit)** `⭐ 3` `updated ≤90d` A toolkit of MCP servers that allow AI agents to perform semantic code search, database queries, and API introspection. <details><summary>More about</summary>
+- **[naveenayalla1-CS50/mcp-server-toolkit](https://github.com/naveenayalla1-cs50/mcp-server-toolkit)** `⭐ 3` `updated ≤180d` A toolkit of MCP servers that allow AI agents to perform semantic code search, database queries, and API introspection. <details><summary>More about</summary>
 
   It solves the context window problem by letting agents query specific data via MCP instead of brute-force reading entire repos.
 
@@ -12645,7 +12681,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `cli` `developer-tools` `claude-code` `toolkit`
   </details>
 
-- **[wooxogh/adr-mcp-setup](https://github.com/wooxogh/adr-mcp-setup)** `⭐ 3` `updated ≤180d` adr-mcp-setup is an MCP server that automatically captures Claude Code conversations and uses Claude Opus to generate Architecture Decision Records. <details><summary>More about</summary>
+- **[wooxogh/adr-mcp-setup](https://github.com/wooxogh/adr-mcp-setup)** `⭐ 3` `updated ≤1y` adr-mcp-setup is an MCP server that automatically captures Claude Code conversations and uses Claude Opus to generate Architecture Decision Records. <details><summary>More about</summary>
 
   It eliminates manual ADR writing by turning development conversations into structured, reviewable documentation.
 
@@ -12780,16 +12816,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `escrow` `agent-commerce` `on-chain-arbitration` `base`
   </details>
 
-- **[asif-nvc/e2b-sandbox-mcp](https://github.com/asif-nvc/e2b-sandbox-mcp)** `⭐ 2` `updated ≤180d` An MCP server that connects Claude Code with E2B cloud sandboxes for isolated GitHub repo work. <details><summary>More about</summary>
-
-  Lets developers offload repo operations to disposable cloud VMs, saving tokens and avoiding local setup.
-
-  _Now you can break production in a sandbox instead of your local machine—progress._
-
-  `mcp` `sandbox` `cloud-dev` `claude-code` `git-integration`
-  </details>
-
-- **[atomno-mcp/mcp-cbr-rates](https://github.com/atomno-mcp/mcp-cbr-rates)** `⭐ 2` `updated ≤90d` MCP server for Central Bank of Russia rates, key rate, inflation and macro stats. <details><summary>More about</summary>
+- **[atomno-mcp/mcp-cbr-rates](https://github.com/atomno-mcp/mcp-cbr-rates)** `⭐ 2` `updated ≤30d` MCP server for Central Bank of Russia rates, key rate, inflation and macro stats. <details><summary>More about</summary>
 
   Provides AI agents with direct access to official Russian financial data via standardized MCP tools for use in fintech workflows.
 
@@ -12915,7 +12942,7 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `analytics` `clamp` `context-protocol` `developer-tools`
   </details>
 
-- **[clanker-records/crompton-network](https://github.com/clanker-records/crompton-network)** `⭐ 2` `updated ≤90d` An MCP server that allows AI agents to access and analyze the 'Straight Outta Crompton' album through structured data, including waveforms, lyrics, and groove metrics. <details><summary>More about</summary>
+- **[clanker-records/crompton-network](https://github.com/clanker-records/crompton-network)** `⭐ 2` `updated ≤180d` An MCP server that allows AI agents to access and analyze the 'Straight Outta Crompton' album through structured data, including waveforms, lyrics, and groove metrics. <details><summary>More about</summary>
 
   It demonstrates a highly specialized implementation of MCP for non-textual domain data, allowing agents to 'listen' to music via structured audio analysis rather than raw audio files.
 
@@ -13005,24 +13032,6 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `model-comparison` `benchmarks` `pricing` `context-enrichment`
   </details>
 
-- **[dan1d/mercadolibre-mcp](https://github.com/dan1d/mercadolibre-mcp)** `⭐ 2` `updated ≤1y` MCP server that connects AI agents to MercadoLibre's e-commerce platform for searching products, browsing categories, and tracking trends across Latin America. <details><summary>More about</summary>
-
-  Developers can integrate MercadoLibre's marketplace data into AI agent workflows without managing the API directly.
-
-  _Now your AI agent can obsess over Latin American e-commerce trends while you pretend to write tests._
-
-  `mcp` `e-commerce` `api-integration` `latam` `marketplace`
-  </details>
-
-- **[davidlandais/ovh-api-mcp](https://github.com/davidlandais/ovh-api-mcp)** `⭐ 2` `updated ≤90d` MCP server that provides access to the OVH API for LLM clients like Claude and Cursor. <details><summary>More about</summary>
-
-  Allows developers to interact with OVH cloud infrastructure directly from their AI coding assistant.
-
-  _Now your LLM can spin up OVH servers while you're still trying to remember your API keys._
-
-  `mcp` `ovh-api` `cloud-infrastructure` `rust` `sandboxed`
-  </details>
-
 - **[davidlin2k/pox-mcp-server](https://github.com/davidlin2k/pox-mcp-server)** `⭐ 2` `updated >1y` An MCP server that exposes POX SDN controller capabilities for network control, topology management, and OpenFlow device operations. <details><summary>More about</summary>
 
   It lets developers integrate SDN network programming and analysis into MCP-enabled workflows, bridging network infrastructure with AI agent tooling.
@@ -13068,15 +13077,6 @@ _These are new or low-traffic entries being watched._
   `mcp` `workflow-automation` `feedback-loop` `pull-requests`
   </details>
 
-- **[DigiCatalyst-Systems/dep-diff-mcp](https://github.com/digicatalyst-systems/dep-diff-mcp)** `⭐ 2` `updated ≤30d` MCP server that reads dependency changelogs and tells you what's risky in an upgrade. <details><summary>More about</summary>
-
-  Helps developers quickly assess upgrade risks by surfacing breaking changes, CVEs, and migration guides from lockfile diffs.
-
-  _Another MCP server to add to your growing list of single-purpose tools that make dependency hell slightly more legible._
-
-  `mcp` `dependency-management` `security`
-  </details>
-
 - **[djerok/glm-mcp](https://github.com/djerok/glm-mcp)** `⭐ 2` `updated ≤90d` GLM-MCP is an MCP server that routes coding tasks from Claude Opus, Copilot, or Codex to GLM as a cheaper subagent for file editing and execution. <details><summary>More about</summary>
 
   It lets developers offload expensive token usage to a 10x cheaper model while keeping their primary agent in charge of review and orchestration.
@@ -13095,7 +13095,7 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `bioinformatics` `genomics` `dataset-access` `biology`
   </details>
 
-- **[doctorm333/promptpilot-mcp-server](https://github.com/doctorm333/promptpilot-mcp-server)** `⭐ 2` `updated ≤1y` MCP server for PromptPilot.club that enables image, video, and audio generation via Pollinations API in MCP-compatible AI agents. <details><summary>More about</summary>
+- **[doctorm333/promptpilot-mcp-server](https://github.com/doctorm333/promptpilot-mcp-server)** `⭐ 2` `updated ≤30d` MCP server for PromptPilot.club that enables image, video, and audio generation via Pollinations API in MCP-compatible AI agents. <details><summary>More about</summary>
 
   Lets developers generate media directly from their coding assistants (Claude Code, Cursor, Windsurf) without leaving their workflow.
 
@@ -13212,7 +13212,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `signal` `local-ai` `sqlite` `privacy`
   </details>
 
-- **[gpu-bridge/mcp-server](https://github.com/gpu-bridge/mcp-server)** `⭐ 2` `updated ≤180d` GPU-Bridge MCP Server provides 30 AI services as Model Context Protocol tools for autonomous agents. <details><summary>More about</summary>
+- **[gpu-bridge/mcp-server](https://github.com/gpu-bridge/mcp-server)** `⭐ 2` `updated ≤1y` GPU-Bridge MCP Server provides 30 AI services as Model Context Protocol tools for autonomous agents. <details><summary>More about</summary>
 
   It lets developers plug common AI models and media processors into MCP-compatible agents without writing glue code.
 
@@ -13311,7 +13311,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `cloudflare` `infrastructure`
   </details>
 
-- **[helbertparanhos/easypanel-mcp-server](https://github.com/helbertparanhos/easypanel-mcp-server)** `⭐ 2` `updated ≤90d` An MCP server that allows AI assistants to manage Easypanel deployments, services, logs, and databases via natural language. <details><summary>More about</summary>
+- **[helbertparanhos/easypanel-mcp-server](https://github.com/helbertparanhos/easypanel-mcp-server)** `⭐ 2` `updated ≤180d` An MCP server that allows AI assistants to manage Easypanel deployments, services, logs, and databases via natural language. <details><summary>More about</summary>
 
   It enables developers to manage their Docker-based hosting infrastructure directly through AI-native interfaces like Claude Code and Cursor without switching to a dashboard.
 
@@ -13491,7 +13491,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `bitcoin` `on-chain-data` `ai-agents`
   </details>
 
-- **[kukapay/bridge-metrics-mcp](https://github.com/kukapay/bridge-metrics-mcp)** `⭐ 2` `updated ≤1y` An MCP server that provides real-time cross-chain bridge metrics for AI agents to analyze blockchain liquidity and transaction flows. <details><summary>More about</summary>
+- **[kukapay/bridge-metrics-mcp](https://github.com/kukapay/bridge-metrics-mcp)** `⭐ 2` `updated >1y` An MCP server that provides real-time cross-chain bridge metrics for AI agents to analyze blockchain liquidity and transaction flows. <details><summary>More about</summary>
 
   Developers building blockchain-aware AI agents can now query live bridge/chain data (TVL, volumes, transactions) directly through MCP, avoiding custom API integrations.
 
@@ -13851,7 +13851,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `crypto` `analytics` `api` `pulsechain`
   </details>
 
-- **[Py2755/aiogram-mcp](https://github.com/py2755/aiogram-mcp)** `⭐ 2` `updated ≤180d` A Python middleware library that exposes existing aiogram Telegram bots as MCP servers, allowing AI agents like Claude to send messages, read history, and manage interactive menus via the Model Context Protocol. <details><summary>More about</summary>
+- **[Py2755/aiogram-mcp](https://github.com/py2755/aiogram-mcp)** `⭐ 2` `updated ≤1y` A Python middleware library that exposes existing aiogram Telegram bots as MCP servers, allowing AI agents like Claude to send messages, read history, and manage interactive menus via the Model Context Protocol. <details><summary>More about</summary>
 
   Developers can grant AI agents real-time access to their Telegram bots with five lines of code, eliminating the need to rewrite handlers or build custom API bridges.
 
@@ -13860,7 +13860,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `telegram` `python` `middleware` `aiogram`
   </details>
 
-- **[realwigu/mcp-doctor](https://github.com/realwigu/mcp-doctor)** `⭐ 2` `updated ≤180d` A zero-config CLI that auto-discovers MCP server configurations across Claude Code, Cursor, VS Code, and Windsurf to diagnose connections, audit security issues, and benchmark latency. <details><summary>More about</summary>
+- **[realwigu/mcp-doctor](https://github.com/realwigu/mcp-doctor)** `⭐ 2` `updated ≤1y` A zero-config CLI that auto-discovers MCP server configurations across Claude Code, Cursor, VS Code, and Windsurf to diagnose connections, audit security issues, and benchmark latency. <details><summary>More about</summary>
 
   As developers wire up more MCP servers across multiple AI tools, this provides a single command to catch silent failures, leaked secrets, and performance regressions before they break your workflow.
 
@@ -13968,7 +13968,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `memory` `blockchain` `claude-code` `context`
   </details>
 
-- **[unixlamadev-spec/lightningprox-mcp](https://github.com/unixlamadev-spec/lightningprox-mcp)** `⭐ 2` `updated ≤180d` MCP server for LightningProx, a Bitcoin Lightning-based pay-per-request AI gateway supporting multimodal models. <details><summary>More about</summary>
+- **[unixlamadev-spec/lightningprox-mcp](https://github.com/unixlamadev-spec/lightningprox-mcp)** `⭐ 2` `updated ≤1y` MCP server for LightningProx, a Bitcoin Lightning-based pay-per-request AI gateway supporting multimodal models. <details><summary>More about</summary>
 
   Lets developers access multiple AI models via Lightning Network micropayments without API keys or accounts.
 
@@ -13986,7 +13986,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `defi` `ledger` `security` `hardware-wallet`
   </details>
 
-- **[wazionapps/mcp-server](https://github.com/wazionapps/mcp-server)** `⭐ 2` `updated ≤180d` WAzion MCP Server is an MCP-compatible server that exposes 240+ tools for managing WhatsApp Business operations via the WAzion API. <details><summary>More about</summary>
+- **[wazionapps/mcp-server](https://github.com/wazionapps/mcp-server)** `⭐ 2` `updated ≤1y` WAzion MCP Server is an MCP-compatible server that exposes 240+ tools for managing WhatsApp Business operations via the WAzion API. <details><summary>More about</summary>
 
   It lets developers connect AI assistants to WhatsApp Business for automating messaging, CRM, and marketing workflows through natural language.
 
@@ -14058,7 +14058,16 @@ _These are new or low-traffic entries being watched._
   `mcp` `shipping` `domain-server` `claude` `integration`
   </details>
 
-- **[AgentBase1/mcp-server](https://github.com/agentbase1/mcp-server)** `⭐ 1` `updated ≤180d` An MCP server that provides AI agents with tools to search and retrieve instruction files from the AgentBase registry. <details><summary>More about</summary>
+- **[adiosdotdev/mcp](https://github.com/adiosdotdev/mcp)** `⭐ 1` `updated ≤30d` A package that connects AI assistants to the Adios deployment and operations platform via the Model Context Protocol. <details><summary>More about</summary>
+
+  It allows developers to manage builds, deployments, and debugging directly through their preferred AI coding agents.
+
+  _Because now your coding assistant can not only write your buggy code but also deploy it to production and watch the logs fail in real-time._
+
+  `mcp` `deployment` `devops` `workflow`
+  </details>
+
+- **[AgentBase1/mcp-server](https://github.com/agentbase1/mcp-server)** `⭐ 1` `updated ≤1y` An MCP server that provides AI agents with tools to search and retrieve instruction files from the AgentBase registry. <details><summary>More about</summary>
 
   It allows AI agents to dynamically load domain-specific system prompts, skills, and workflows via the Model Context Protocol.
 
@@ -14130,7 +14139,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `github` `devops` `security` `metrics`
   </details>
 
-- **[alexpota/cloudscope-mcp](https://github.com/alexpota/cloudscope-mcp)** `⭐ 1` `updated ≤30d` An MCP server that provides read-only access to Azure and GCP cloud cost data for AI assistants. <details><summary>More about</summary>
+- **[alexpota/cloudscope-mcp](https://github.com/alexpota/cloudscope-mcp)** `⭐ 1` `updated ≤90d` An MCP server that provides read-only access to Azure and GCP cloud cost data for AI assistants. <details><summary>More about</summary>
 
   Developers can query cloud spending, anomalies, forecasts, and budgets in natural language through their AI coding assistant.
 
@@ -14173,6 +14182,15 @@ _These are new or low-traffic entries being watched._
   _Now your IDE assistant can analyze crypto liquidity pools and hunt for the cheapest online shopping deal in the same session, because the 'full-stack' title clearly needed more verticals._
 
   `mcp` `defi` `solana` `cursor` `agent-tools`
+  </details>
+
+- **[apatureai/bastion](https://github.com/apatureai/bastion)** `⭐ 1` `updated ≤30d` An MCP server that enables coding agents to perform in-loop design reviews by analyzing rendered UIs. <details><summary>More about</summary>
+
+  It closes the feedback loop for agents by allowing them to visually verify their code changes against a live preview.
+
+  _Because your agent doesn't just write code anymore; it now critiques your CSS with the unearned confidence of a senior designer._
+
+  `mcp` `design-review` `ui-testing` `agent-tools`
   </details>
 
 - **[apiarya/wemo-mcp-server](https://github.com/apiarya/wemo-mcp-server)** `⭐ 1` `updated ≤90d` An MCP server that enables AI assistants to control Wemo smart home devices via natural language. <details><summary>More about</summary>
@@ -14256,7 +14274,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `playwright` `qa-automation` `finops` `self-healing`
   </details>
 
-- **[bgaze/snapstack-server](https://github.com/bgaze/snapstack-server)** `⭐ 1` `updated ≤90d` A local server that captures browser tab screenshots via a companion extension and serves them to MCP-capable LLM clients. <details><summary>More about</summary>
+- **[bgaze/snapstack-server](https://github.com/bgaze/snapstack-server)** `⭐ 1` `updated ≤180d` A local server that captures browser tab screenshots via a companion extension and serves them to MCP-capable LLM clients. <details><summary>More about</summary>
 
   It provides a privacy-preserving, local bridge for AI agents to 'see' the developer's current browser state without routing sensitive data through a third-party proxy.
 
@@ -14274,7 +14292,7 @@ _These are new or low-traffic entries being watched._
   `zero-knowledge` `mcp-server` `encryption` `agent-storage` `gdpr`
   </details>
 
-- **[bitcompare/mcp-server](https://github.com/bitcompare/mcp-server)** `⭐ 1` `updated ≤90d` An MCP server providing Claude and other compatible agents with live and historical crypto yield, pricing, and market metadata. <details><summary>More about</summary>
+- **[bitcompare/mcp-server](https://github.com/bitcompare/mcp-server)** `⭐ 1` `updated ≤180d` An MCP server providing Claude and other compatible agents with live and historical crypto yield, pricing, and market metadata. <details><summary>More about</summary>
 
   Allows developers to build financial agents or integrate real-time DeFi and CeFi yield data directly into their AI coding environments without writing custom API wrappers.
 
@@ -14409,7 +14427,16 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `finance` `vietnam` `data-api` `ai-analysis`
   </details>
 
-- **[Cyberweasel777/botindex-mcp-server](https://github.com/cyberweasel777/botindex-mcp-server)** `⭐ 1` `updated ≤180d` An MCP server providing signal intelligence tools (sports odds, crypto data, token launches) with pay-per-request pricing via x402 and cryptographically signed receipts. <details><summary>More about</summary>
+- **[cvelasquez/mcp-sqlserver](https://github.com/cvelasquez/mcp-sqlserver)** `⭐ 1` `updated ≤30d` An MCP server that enables AI agents to manage and query multiple SQL Server instances through a centralized connection configuration. <details><summary>More about</summary>
+
+  It allows DBAs and developers to delegate complex tasks like execution plan analysis and index auditing to AI agents across many different environments via a single configuration.
+
+  _Because consolidating thirty database connections into one JSON file is definitely a productive use of your time._
+
+  `mcp` `sql-server` `dba` `database` `tssql`
+  </details>
+
+- **[Cyberweasel777/botindex-mcp-server](https://github.com/cyberweasel777/botindex-mcp-server)** `⭐ 1` `updated ≤1y` An MCP server providing signal intelligence tools (sports odds, crypto data, token launches) with pay-per-request pricing via x402 and cryptographically signed receipts. <details><summary>More about</summary>
 
   Developers can integrate real-time financial and sports data into AI agents without API keys, using a wallet-based payment model with verifiable receipts.
 
@@ -14427,7 +14454,7 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `file-editing` `stale-write-prevention` `hash-anchored` `coding-agents`
   </details>
 
-- **[darktw/chatpipe-mcp](https://github.com/darktw/chatpipe-mcp)** `⭐ 1` `updated ≤180d` An MCP server that publishes HTML content as live, shareable web pages from AI coding agents. <details><summary>More about</summary>
+- **[darktw/chatpipe-mcp](https://github.com/darktw/chatpipe-mcp)** `⭐ 1` `updated ≤1y` An MCP server that publishes HTML content as live, shareable web pages from AI coding agents. <details><summary>More about</summary>
 
   Developers can instantly turn generated HTML into public URLs without deployment pipelines or hosting setup.
 
@@ -14481,6 +14508,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `crypto` `news` `sentiment` `finance`
   </details>
 
+- **[DigiCatalyst-Systems/dep-diff-mcp](https://github.com/digicatalyst-systems/dep-diff-mcp)** `⭐ 1` `updated ≤30d` MCP server that reads dependency changelogs and tells you what's risky in an upgrade. <details><summary>More about</summary>
+
+  Helps developers quickly assess upgrade risks by surfacing breaking changes, CVEs, and migration guides from lockfile diffs.
+
+  _Another MCP server to add to your growing list of single-purpose tools that make dependency hell slightly more legible._
+
+  `mcp` `dependency-management` `security`
+  </details>
+
 - **[discava/mcp-server](https://github.com/discava/mcp-server)** `⭐ 1` `updated ≤180d` An MCP server that enables AI agents to search local businesses worldwide via the Discava API. <details><summary>More about</summary>
 
   Developers can integrate business directory search capabilities into their AI agents or workflows through a standardized MCP interface.
@@ -14490,7 +14526,25 @@ _These are new or low-traffic entries being watched._
   `mcp` `business-directory` `api-integration`
   </details>
 
-- **[douglasborthwick-crypto/mcp-server-insumer](https://github.com/douglasborthwick-crypto/mcp-server-insumer)** `⭐ 1` `updated ≤90d` MCP server for InsumerAPI that provides condition-based access infrastructure with ECDSA-signed attestations across 37 blockchains. <details><summary>More about</summary>
+- **[dockndevai/mcp-azure](https://github.com/dockndevai/mcp-azure)** `⭐ 1` `updated ≤30d` An MCP server that enables AI agents to inventory and manage Azure resources via the Azure Resource Manager API. <details><summary>More about</summary>
+
+  It provides a governed, secure bridge for AI assistants to perform cloud infrastructure tasks like managing VMs and resource groups without manual portal intervention.
+
+  _Finally, a way to let an LLM deallocate your production environment through a strictly typed confirmation prompt._
+
+  `mcp` `azure` `cloud-governance` `infrastructure`
+  </details>
+
+- **[dockndevai/mcp-clickhouse](https://github.com/dockndevai/mcp-clickhouse)** `⭐ 1` `updated ≤30d` An MCP server for ClickHouse that enables AI clients to explore schemas, run analytical queries, and manage databases through a gated security model. <details><summary>More about</summary>
+
+  It provides a secure, statement-aware way to give LLMs direct access to OLAP databases for schema exploration and data analysis.
+
+  _Another layer of permissions to configure before you can trust an LLM to run a query without nuking your entire analytics cluster._
+
+  `mcp` `clickhouse` `sql` `database` `olap`
+  </details>
+
+- **[douglasborthwick-crypto/mcp-server-insumer](https://github.com/douglasborthwick-crypto/mcp-server-insumer)** `⭐ 1` `updated ≤30d` MCP server for InsumerAPI that provides condition-based access infrastructure with ECDSA-signed attestations across 37 blockchains. <details><summary>More about</summary>
 
   Enables AI agents to verify on-chain conditions (e.g., token balances, compliance) without exposing balances or requiring trust in the API provider.
 
@@ -14580,7 +14634,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `pwa` `assets` `automation` `app-icons`
   </details>
 
-- **[FalsifyLab/falsifylab-alpha-mcp](https://github.com/falsifylab/falsifylab-alpha-mcp)** `⭐ 1` `updated ≤90d` A collection of 13 MCP servers that provide real-time financial data, such as SEC filings, DeFi yields, and macro signals, to AI agents. <details><summary>More about</summary>
+- **[FalsifyLab/falsifylab-alpha-mcp](https://github.com/falsifylab/falsifylab-alpha-mcp)** `⭐ 1` `updated ≤180d` A collection of 13 MCP servers that provide real-time financial data, such as SEC filings, DeFi yields, and macro signals, to AI agents. <details><summary>More about</summary>
 
   It allows AI agents to ground market research and financial analysis in live data rather than relying on potentially outdated training knowledge.
 
@@ -14742,7 +14796,7 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `agent-payments` `ecosystem-intelligence` `x402` `opportunity-scanning`
   </details>
 
-- **[gpartin/CryptoGuardClient](https://github.com/gpartin/cryptoguardclient)** `⭐ 1` `updated ≤180d` A Python client and MCP server for CryptoGuard, a crypto risk scanner API that flags tokens for risk levels. <details><summary>More about</summary>
+- **[gpartin/CryptoGuardClient](https://github.com/gpartin/cryptoguardclient)** `⭐ 1` `updated ≤1y` A Python client and MCP server for CryptoGuard, a crypto risk scanner API that flags tokens for risk levels. <details><summary>More about</summary>
 
   Developers building crypto trading bots or risk assessment tools can integrate deterministic PROCEED/CAUTION/BLOCK signals for tokens.
 
@@ -14877,7 +14931,7 @@ _These are new or low-traffic entries being watched._
   `finance` `mcp` `day-count` `typescript`
   </details>
 
-- **[jcdickinson/simplemem](https://github.com/jcdickinson/simplemem)** `⭐ 1` `updated ≤1y` A simple semantic MCP memory store with RAG capabilities for Claude and other MCP clients. <details><summary>More about</summary>
+- **[jcdickinson/simplemem](https://github.com/jcdickinson/simplemem)** `⭐ 1` `updated >1y` A simple semantic MCP memory store with RAG capabilities for Claude and other MCP clients. <details><summary>More about</summary>
 
   It provides persistent, semantically searchable memory storage for AI assistants, enabling better context retention and retrieval across sessions.
 
@@ -14967,7 +15021,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `circle` `usdc` `fintech` `agents`
   </details>
 
-- **[KK6BZB/signallord-mcp-server](https://github.com/kk6bzb/signallord-mcp-server)** `⭐ 1` `updated ≤90d` An MCP server that provides Bitcoin market regime detection and financial intelligence to AI agents. <details><summary>More about</summary>
+- **[KK6BZB/signallord-mcp-server](https://github.com/kk6bzb/signallord-mcp-server)** `⭐ 1` `updated ≤180d` An MCP server that provides Bitcoin market regime detection and financial intelligence to AI agents. <details><summary>More about</summary>
 
   It allows AI agents to access specialized Bitcoin cycle data and market probabilities through the Model Context Protocol.
 
@@ -15102,7 +15156,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `ai-detection` `cli-tool`
   </details>
 
-- **[Lyosis/claudeForSafari](https://github.com/lyosis/claudeforsafari)** `⭐ 1` `updated ≤90d` An MCP server that lets Claude Desktop control Safari through a native macOS Safari extension and a local Node.js bridge. <details><summary>More about</summary>
+- **[Lyosis/claudeForSafari](https://github.com/lyosis/claudeforsafari)** `⭐ 1` `updated ≤180d` An MCP server that lets Claude Desktop control Safari through a native macOS Safari extension and a local Node.js bridge. <details><summary>More about</summary>
 
   It fills a gap for Mac developers who rely on Safari by giving Claude Desktop the same browser-automation superpowers that Chromium-based workflows already enjoy.
 
@@ -15372,7 +15426,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `npm` `developer-tools` `package-management`
   </details>
 
-- **[omni-fun-mcp-server](https://github.com/0xzcov/omni-fun-mcp-server)** `⭐ 1` `updated ≤180d` An MCP server that provides AI agents with tools to query token data, trading info, and bonding curves for the omni.fun launchpad. <details><summary>More about</summary>
+- **[omni-fun-mcp-server](https://github.com/0xzcov/omni-fun-mcp-server)** `⭐ 1` `updated ≤1y` An MCP server that provides AI agents with tools to query token data, trading info, and bonding curves for the omni.fun launchpad. <details><summary>More about</summary>
 
   It enables LLM-powered agents to interact with specific memecoin market data and trading simulations across multiple chains.
 
@@ -15552,7 +15606,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `crypto` `security`
   </details>
 
-- **[sapph1re/findata-mcp](https://github.com/sapph1re/findata-mcp)** `⭐ 1` `updated ≤90d` A Model Context Protocol server that provides AI agents with real-time financial data, including stock quotes, SEC filings, economic indicators, and crypto prices, billed via x402 micropayments on Base. <details><summary>More about</summary>
+- **[sapph1re/findata-mcp](https://github.com/sapph1re/findata-mcp)** `⭐ 1` `updated ≤180d` A Model Context Protocol server that provides AI agents with real-time financial data, including stock quotes, SEC filings, economic indicators, and crypto prices, billed via x402 micropayments on Base. <details><summary>More about</summary>
 
   Developers building financial AI agents can integrate live market data without managing API keys or subscriptions, using a simple pay-per-call model.
 
@@ -15696,7 +15750,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `geospatial` `location-services` `agent-tools`
   </details>
 
-- **[thoughtproof/thoughtproof-mcp](https://github.com/thoughtproof/thoughtproof-mcp)** `⭐ 1` `updated ≤90d` An MCP server that provides adversarial multi-model reasoning verification for AI agents by challenging claims across Claude, Grok, DeepSeek, and Gemini with signed attestations. <details><summary>More about</summary>
+- **[thoughtproof/thoughtproof-mcp](https://github.com/thoughtproof/thoughtproof-mcp)** `⭐ 1` `updated ≤180d` An MCP server that provides adversarial multi-model reasoning verification for AI agents by challenging claims across Claude, Grok, DeepSeek, and Gemini with signed attestations. <details><summary>More about</summary>
 
   It lets developers add a verification layer to agent workflows so that high-stakes claims can be challenged and attested before the agent acts.
 
@@ -15894,6 +15948,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `registry` `discovery` `cli` `stdio-bridge`
   </details>
 
+- **[AIops-tools/K8s-AIops](https://github.com/aiops-tools/k8s-aiops)** `⭐ 0` `updated ≤30d` A suite of MCP tools for governed Kubernetes operations, featuring built-in auditing, risk-tiering, and runaway budget protections. <details><summary>More about</summary>
+
+  It allows AI agents to manage Kubernetes clusters with a safety layer of auditing and 'undo' capabilities to mitigate the risks of autonomous infrastructure changes.
+
+  _Because nothing says 'stable production environment' like giving an LLM a direct line to your kubeconfig and a 'hope I can undo that' button._
+
+  `kubernetes` `mcp` `ai-ops` `k8s` `agent-skills`
+  </details>
+
 - **[AIops-tools/Nutanix-AIops](https://github.com/aiops-tools/nutanix-aiops)** `⭐ 0` `updated ≤30d` An MCP server providing 51 governed tools for managing Nutanix Prism Central infrastructure. <details><summary>More about</summary>
 
   It enables AI agents to perform Nutanix operations with built-in ETag safety, audit logging, and risk-tier labeling to prevent accidental infrastructure destruction.
@@ -15939,6 +16002,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `csharp` `dotnet` `jetbrains` `static-analysis`
   </details>
 
+- **[ant-dev-lab/nightmarquee-mcp](https://github.com/ant-dev-lab/nightmarquee-mcp)** `⭐ 0` `updated ≤30d` An MCP server providing art-directed website design prompts and live previews for coding assistants. <details><summary>More about</summary>
+
+  It enables AI assistants to fetch professional-grade UI/UX templates instead of relying on generic, uninspired code generation.
+
+  _It is one step closer to an AI that can design a beautiful landing page that you will still spend three hours trying to make responsive._
+
+  `mcp` `web-design` `prompts` `claude-code` `cursor`
+  </details>
+
 - **[aos-standard/mcp-agent-health](https://github.com/aos-standard/mcp-agent-health)** `⭐ 0` `updated ≤90d` MCP server for AOS-compliant agent health reporting. <details><summary>More about</summary>
 
   Helps developers validate agent health before deployment using standardized health checks.
@@ -15957,7 +16029,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `security` `static-analysis` `ci-cd` `audit`
   </details>
 
-- **[avotsai/avots-mcp](https://github.com/avotsai/avots-mcp)** `⭐ 0` `updated ≤30d` An MCP server that provides AI assistants with access to Avots.ai's multi-modal suite, including image, video, audio, and chat models. <details><summary>More about</summary>
+- **[avotsai/avots-mcp](https://github.com/avotsai/avots-mcp)** `⭐ 0` `updated ≤90d` An MCP server that provides AI assistants with access to Avots.ai's multi-modal suite, including image, video, audio, and chat models. <details><summary>More about</summary>
 
   It allows developers to trigger complex creative workflows—like video generation or face-swapping—directly from within their IDE or coding assistant via the Model Context Protocol.
 
@@ -15975,7 +16047,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `market-research` `agent-tools` `demand-signals`
   </details>
 
-- **[Bishop81/imagedimensions-mcp](https://github.com/bishop81/imagedimensions-mcp)** `⭐ 0` `updated ≤30d` An MCP server that audits images on public web pages, comparing natural versus rendered dimensions, detecting oversized images, and breaking down formats. <details><summary>More about</summary>
+- **[Bishop81/imagedimensions-mcp](https://github.com/bishop81/imagedimensions-mcp)** `⭐ 0` `updated ≤90d` An MCP server that audits images on public web pages, comparing natural versus rendered dimensions, detecting oversized images, and breaking down formats. <details><summary>More about</summary>
 
   Gives AI agents like Claude, Cursor, and Windsurf a zero-install way to diagnose image bloat and web-performance issues during development.
 
@@ -16002,6 +16074,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `company-intelligence` `agent-tools` `business-data`
   </details>
 
+- **[Choppaaahh/sendgrid-mcp-secure](https://github.com/choppaaahh/sendgrid-mcp-secure)** `⭐ 0` `updated ≤30d` A security-hardened MCP server for the SendGrid API that implements two-phase sending, recipient allowlisting, and audit logging. <details><summary>More about</summary>
+
+  It provides a way to give AI agents transactional email capabilities while structurally preventing common exploits like silent BCC exfiltration or prompt-injected recipient manipulation.
+
+  _Because we have reached the stage of the AI era where we need specialized security protocols just to ensure our LLM doesn't BCC a hacker on every email._
+
+  `mcp` `sendgrid` `security` `email` `automation`
+  </details>
+
 - **[chrassy/klanex-mcp](https://github.com/chrassy/klanex-mcp)** `⭐ 0` `updated ≤90d` An MCP server providing a reliable, asynchronous execution layer for agent tool calls with built-in error handling and schema validation. <details><summary>More about</summary>
 
   It protects agent workflows from transient API failures, rate limits, and hallucinated payloads through automated retries and structured error hints.
@@ -16020,6 +16101,15 @@ _These are new or low-traffic entries being watched._
   `mcp` `affiliate` `monetization` `agent-tooling`
   </details>
 
+- **[cogdepot/mcp-server](https://github.com/cogdepot/mcp-server)** `⭐ 0` `updated ≤30d` An MCP server that connects AI agents to the cogDepot broker for anonymous capability discovery and peer-to-peer negotiation. <details><summary>More about</summary>
+
+  It enables agents to autonomously find and transact with other specialized agents without manual human configuration or hardcoded integrations.
+
+  _It is one step closer to a world where agents trade API credits in a dark pool while you're trying to debug a syntax error._
+
+  `mcp` `agent-to-agent` `broker` `automation`
+  </details>
+
 - **[convertica-net/convertica-mcp](https://github.com/convertica-net/convertica-mcp)** `⭐ 0` `updated ≤90d` MCP server that exposes Convertica's 35+ document and image conversion tools to Claude, Cursor, or any MCP client. <details><summary>More about</summary>
 
   Lets developers trigger file conversions (PDF↔Word/Excel/PPT, HEIC→JPG, etc.) directly from their AI assistant without leaving the workflow.
@@ -16029,7 +16119,7 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `file-conversion` `pdf-tools` `image-conversion` `claude-integration`
   </details>
 
-- **[Crindo2/gph-mcp-server](https://github.com/crindo2/gph-mcp-server)** `⭐ 0` `updated ≤90d` An MCP server providing access to a curated database of 76,000+ healthcare service vendors for AI agents. <details><summary>More about</summary>
+- **[Crindo2/gph-mcp-server](https://github.com/crindo2/gph-mcp-server)** `⭐ 0` `updated ≤30d` An MCP server providing access to a curated database of 76,000+ healthcare service vendors for AI agents. <details><summary>More about</summary>
 
   Developers building healthcare-focused AI tools can integrate structured provider data (billing, EHR, legal, etc.) into their agents without managing the dataset themselves.
 
@@ -16056,6 +16146,15 @@ _These are new or low-traffic entries being watched._
   `mcp-server` `agent-payments` `x402` `openai-compatible` `crypto-payments`
   </details>
 
+- **[DataCraftsmanAU/vineverse-mcp](https://github.com/datacraftsmanau/vineverse-mcp)** `⭐ 0` `updated ≤30d` A stdio bridge for connecting Model Context Protocol (MCP) clients to a hosted knowledge graph of the Bible. <details><summary>More about</summary>
+
+  It allows AI assistants to perform structured, graph-based queries on scripture, biblical figures, and historical geography via MCP.
+
+  _One step closer to having a theologian-in-the-loop to audit your prompt engineering._
+
+  `mcp` `knowledge-graph` `bible` `stdio` `retrieval`
+  </details>
+
 - **[dearlordylord/voila-sdk](https://github.com/dearlordylord/voila-sdk)** `⭐ 0` `updated ≤30d` An MCP server and TypeScript SDK for interacting with the Voila grocery platform's internal endpoints. <details><summary>More about</summary>
 
   It allows coding agents to perform shopping tasks like product searching, cart management, and order history retrieval via the Model Context Protocol.
@@ -16072,6 +16171,15 @@ _These are new or low-traffic entries being watched._
   _Another thin MCP wrapper that makes you feel like you’re building infra just to call someone else’s API, adding yet another layer to the agent tooling stack._
 
   `mcp` `adapter` `accountability`
+  </details>
+
+- **[dialgoodian/clawdcall-mcp](https://github.com/dialgoodian/clawdcall-mcp)** `⭐ 0` `updated ≤30d` An MCP server that exposes ClawdCall's telephony API, enabling AI agents to perform tasks like sending OTPs and making outbound calls. <details><summary>More about</summary>
+
+  It provides a standardized protocol for AI agents to bridge the gap between digital reasoning and real-world voice communication.
+
+  _Because nothing says 'production-ready' like having to explain to a human recipient that your LLM is intentionally calling them for a bounded task._
+
+  `mcp` `telephony` `agents` `automation`
   </details>
 
 - **[dmytrome/groundhog](https://github.com/dmytrome/groundhog)** `⭐ 0` `updated ≤30d` A self-hosted MCP server that provides AI agents with stealth-patched Chrome capabilities for web search and research. <details><summary>More about</summary>
@@ -16110,7 +16218,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `fintech` `ai-agents` `automation` `spending-controls`
   </details>
 
-- **[FoundryNet/forge-mcp](https://github.com/foundrynet/forge-mcp)** `⭐ 0` `updated ≤30d` A cross-manufacturer industrial MCP server that normalizes telemetry from 16 OEM families for machine identity, automation, and on-chain work attestation. <details><summary>More about</summary>
+- **[FoundryNet/forge-mcp](https://github.com/foundrynet/forge-mcp)** `⭐ 0` `updated ≤90d` A cross-manufacturer industrial MCP server that normalizes telemetry from 16 OEM families for machine identity, automation, and on-chain work attestation. <details><summary>More about</summary>
 
   It allows developers to interact with heterogeneous industrial hardware (CNC, robotics) via a single canonical schema and natural language tools instead of writing custom drivers for every manufacturer.
 
@@ -16146,7 +16254,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `p2p` `e2ee` `ai-agents` `collaboration`
   </details>
 
-- **[guillaumehussong/standard-vocal-mcp](https://github.com/guillaumehussong/standard-vocal-mcp)** `⭐ 0` `updated ≤30d` An MCP server that provides a toolset for deploying, evaluating, and auditing Vapi-based voice agents. <details><summary>More about</summary>
+- **[guillaumehussong/standard-vocal-mcp](https://github.com/guillaumehussong/standard-vocal-mcp)** `⭐ 0` `updated ≤90d` An MCP server that provides a toolset for deploying, evaluating, and auditing Vapi-based voice agents. <details><summary>More about</summary>
 
   It moves voice agent development from manual API calls to a structured workflow including CI-style prompt regression testing and audio forensics.
 
