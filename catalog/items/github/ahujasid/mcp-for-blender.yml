@@ -1,9 +1,9 @@
-id: github__ahujasid__blender-mcp
+id: github__ahujasid__mcp-for-blender
 kind: github-repo
-name: blender-mcp
-canonical_url: https://github.com/ahujasid/blender-mcp
+name: ahujasid/blender-mcp
+canonical_url: https://github.com/ahujasid/mcp-for-blender
 identity:
-  github_repo: ahujasid/blender-mcp
+  github_repo: ahujasid/mcp-for-blender
 provenance:
   discoveries:
     - id: discovery__github__ahujasid__blender-mcp__awesome-list__punkpeye__awesome-mcp-servers
@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 27972
-    forks: 2587
+    stars: 28807
+    forks: 2655
     license: MIT
     archived: false
-    full_name: ahujasid/blender-mcp
-    html_url: https://github.com/ahujasid/blender-mcp
+    full_name: ahujasid/mcp-for-blender
+    html_url: https://github.com/ahujasid/mcp-for-blender
     created_at: "2025-03-07T09:58:58Z"
-    pushed_at: "2026-09-07T15:51:01Z"
+    pushed_at: "2026-09-16T10:37:26Z"
     description: Community plugin to control Blender 3D with any LLM of your choice
     homepage: https://mcp-for-blender.com/
     topics:
@@ -39,25 +39,26 @@ metadata:
       - ai
       - blender
       - blender-addon
+      - blender-mcp
       - claude
       - generative-ai
       - llm
       - mcp
       - model-context-protocol
       - python
-    last_checked_at: "2026-09-10T04:12:44.820Z"
+    last_checked_at: "2026-09-17T04:13:35.140Z"
     readme:
-      fetched_at: "2026-09-10T04:12:44.820Z"
-      bytes: 25365
+      fetched_at: "2026-09-17T04:13:35.140Z"
+      bytes: 28085
 insights:
   summary: An open-source Model Context Protocol (MCP) implementation that allows LLMs to interact with and control Blender via Python.
   why_it_matters: It enables prompt-driven 3D modeling, scene manipulation, and asset management by bridging LLM reasoning with Blender's Python API.
   mental_damage: Because apparently, typing commands in a console wasn't enough, now we're negotiating with 3D meshes through a socket-based LLM interface.
   tags:
-    - mcp
-    - blender
     - 3d-modeling
     - automation
+    - blender
+    - mcp
     - python
   confidence: high
 curation:
@@ -74,16 +75,6 @@ lifecycle:
   status: promotion_candidate
   reason: Stars (21338) exceeded threshold (150)
 processing:
-  discover:
-    status: done
-    updated_at: "2026-05-06T22:12:15.600Z"
-    cause: null
-    next_retry_at: null
-  stars:
-    status: done
-    updated_at: "2026-09-10T04:12:44.820Z"
-    cause: null
-    next_retry_at: null
   categorize:
     status: done
     updated_at: "2026-07-20T16:07:25.907Z"
@@ -110,3 +101,13 @@ processing:
       contrastive_reason: Choose mcp over ai-dev-extensions because the project's identity is defined by its implementation of the Model Context Protocol rather than being a general-purpose plugin for an editor.
       review_reason: null
       review_resume_lifecycle: null
+  discover:
+    status: done
+    updated_at: "2026-05-06T22:12:15.600Z"
+    cause: null
+    next_retry_at: null
+  stars:
+    status: done
+    updated_at: "2026-09-17T04:13:35.140Z"
+    cause: null
+    next_retry_at: null

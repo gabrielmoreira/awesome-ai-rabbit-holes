@@ -70,9 +70,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-09-10T04:12:55.643Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-17T04:13:46.234Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for aos-standard/mcp-blast-radius
     next_retry_at: null
   categorize:
     status: done

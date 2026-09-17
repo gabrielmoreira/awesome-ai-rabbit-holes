@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/necmttn/ax
         surrounding_text: "- **[ax](https://github.com/Necmttn/ax)** `⭐ 70` — Local-first agent telemetry and observability for Claude Code and Codex sessions."
         confidence: high
+    - id: discovery__github__necmttn__ax__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-17T04:13:23.413Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 💻 Developer Tools
+        anchor_text: Necmttn/ax
+        extracted_url: https://github.com/necmttn/ax
+        surrounding_text: "-   **[Necmttn/ax](https://github.com/Necmttn/ax)** [![GitHub stars](https://img.shields.io/github/stars/Necmttn/ax?style=social)](https://github.com/Necmttn/ax): Local telemetry and recall graph for AI coding agents, exposing sessions, tool calls, skills, costs, and OTLP events through MCP."
+        confidence: high
 metadata:
   github:
     stars: 83
@@ -78,7 +94,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-02T05:22:20.472Z"
+    updated_at: "2026-09-17T04:13:23.415Z"
     cause: null
     next_retry_at: null
   stars:

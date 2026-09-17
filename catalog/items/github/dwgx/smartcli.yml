@@ -58,18 +58,26 @@ metadata:
       fetched_at: "2026-09-14T04:13:45.435Z"
       bytes: 15701
 insights:
-  summary: null
-  why_it_matters: null
-  mental_damage: null
-  tags: []
-  confidence: null
+  summary: A Python toolkit for enabling AI agents to drive, perceive, and render interactive terminal applications using a PTY and cell model.
+  why_it_matters: It allows agents to move beyond simple shell commands to interacting with complex TUIs like lazygit or vim by 'seeing' the actual screen state.
+  mental_damage: We are one step closer to an AI that can confidently navigate your terminal and accidentally `rm -rf /` because it misread a TUI menu.
+  tags:
+    - python
+    - mcp
+    - tui
+    - terminal-automation
+    - agent-tools
+  confidence: high
 curation:
-  status: pending
-  reason: null
-  evidence: []
+  status: included
+  reason: The core product is a code-first Python library and engine designed for terminal automation, which can be exposed to assistants via MCP.
+  evidence:
+    - Primary distribution is a Python library via `pip install smartcli-toolkit`
+    - Core identity is a PTY + pyte engine for terminal perception and rendering
+    - Provides an MCP server as an interface to the underlying toolkit
 placement:
-  primary_category: null
-  section: null
+  primary_category: ai-frameworks
+  section: Agent Frameworks
 lifecycle:
   status: incubating
   reason: null
@@ -85,10 +93,28 @@ processing:
     cause: null
     next_retry_at: null
   categorize:
-    status: deferred
-    updated_at: "2026-09-14T04:15:02.357Z"
-    cause:
-      type: invalid_llm_json
-      message: "Catalog LLM categorization failed for github__dwgx__smartcli: Invalid AI response format: SyntaxError: Unexpected token 'S', ...\"_reason\": SmartCLI p\"... is not valid JSON"
+    status: done
+    updated_at: "2026-09-17T04:14:18.655Z"
+    cause: null
     next_retry_at: null
-    attempts: 1
+    attempts: 2
+    classification:
+      answering_model: cloudflare/@cf/google/gemma-4-26b-a4b-it
+      prompt_version: catalog-categorize-v5-single-template
+      category_rules_version: 6cc474a86022
+      input_hash: sha256:cd6b033a61acf5b4841b025dbff9c5073bc16095600e810c4f61343f39e20fa5
+      proposed_primary_category: ai-frameworks
+      disagreement: false
+      decision_reason: The core product is a code-first Python library and engine designed for terminal automation, which can be exposed to assistants via MCP.
+      decision_evidence:
+        - Primary distribution is a Python library via `pip install smartcli-toolkit`
+        - Core identity is a PTY + pyte engine for terminal perception and rendering
+        - Provides an MCP server as an interface to the underlying toolkit
+      category_candidates:
+        - ai-frameworks
+        - ai-dev-extensions
+      contrastive_reason: Choose ai-frameworks over ai-dev-extensions because the primary identity is a code-first library for developers to build with rather than just a set of tools for a host assistant.
+      review_reason: null
+      review_resume_lifecycle: null
+    prompt_version: catalog-categorize-v5-single-template
+    category_rules_version: 6cc474a86022

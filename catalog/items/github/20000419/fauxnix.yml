@@ -24,14 +24,14 @@ provenance:
         confidence: high
 metadata:
   github:
-    stars: 79
+    stars: 285
     forks: 3
     license: MIT
     archived: false
     full_name: 20000419/fauxnix
     html_url: https://github.com/20000419/fauxnix
     created_at: "2026-08-16T02:03:17Z"
-    pushed_at: "2026-09-07T02:59:00Z"
+    pushed_at: "2026-09-17T02:01:48Z"
     description: Run Linux-style commands on Windows via deterministic bash→PowerShell translation. No VM, no WSL. MCP server + CLI built for AI agents (Claude Code, Codex, OpenCode...). GNU-style output, bash-style errors, UTF-8/GBK handled.
     homepage: null
     topics:
@@ -48,10 +48,10 @@ metadata:
       - shell
       - translator
       - windows
-    last_checked_at: "2026-09-07T04:13:27.189Z"
+    last_checked_at: "2026-09-17T04:13:25.729Z"
     readme:
-      fetched_at: "2026-09-07T04:13:27.189Z"
-      bytes: 15438
+      fetched_at: "2026-09-17T04:13:25.729Z"
+      bytes: 14928
 insights:
   summary: A bash-to-PowerShell translation layer and MCP server that allows AI agents to execute Linux-style commands on Windows without a VM or WSL.
   why_it_matters: It bridges the gap between an LLM's training (dominated by bash) and the Windows environment, significantly reducing tool-call errors and execution latency.
@@ -74,8 +74,8 @@ placement:
   primary_category: mcp
   section: Generic Servers & Middleware
 lifecycle:
-  status: incubating
-  reason: null
+  status: promotion_candidate
+  reason: Stars (285) exceeded threshold (150)
 processing:
   discover:
     status: done
@@ -84,7 +84,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-07T04:13:27.189Z"
+    updated_at: "2026-09-17T04:13:25.729Z"
     cause: null
     next_retry_at: null
   categorize:

@@ -131,7 +131,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `mcp` `context-engineering` `token-efficiency` `codebase-intelligence` `git-analytics`
   </details>
 
-- **[reme](https://github.com/agentscope-ai/reme)** `⭐ 3.4k` `updated ≤30d` A local-first memory management layer that transforms agent conversations and resources into searchable, editable Markdown files. <details><summary>More about</summary>
+- **[reme](https://github.com/agentscope-ai/reme)** `⭐ 3.5k` `updated ≤30d` A local-first memory management layer that transforms agent conversations and resources into searchable, editable Markdown files. <details><summary>More about</summary>
 
   It provides a persistent, human-readable knowledge base that allows AI agents to retain context, project decisions, and workflow experience across sessions.
 
@@ -176,7 +176,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `vector-database` `rag` `embeddings` `memory-backend` `cloud-native`
   </details>
 
-- **[alexgreensh/token-optimizer](https://github.com/alexgreensh/token-optimizer)** `⭐ 2.2k` `updated ≤30d` A utility for identifying 'ghost tokens' and managing context compaction to prevent quality decay in AI coding assistants. <details><summary>More about</summary>
+- **[alexgreensh/token-optimizer](https://github.com/alexgreensh/token-optimizer)** `⭐ 2.3k` `updated ≤30d` A utility for identifying 'ghost tokens' and managing context compaction to prevent quality decay in AI coding assistants. <details><summary>More about</summary>
 
   It helps developers reduce token costs and maintain high-quality model reasoning by optimizing how context is packed into long-running agent sessions.
 
@@ -338,7 +338,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
   `memory` `mcp` `offline` `agentic-ai` `context-engineering`
   </details>
 
-- **[Mengram](https://github.com/alibaizhanov/mengram)** `⭐ 194` `updated ≤30d` A memory system for AI agents offering semantic, episodic, and procedural memory with Python/JS SDKs and integrations for LangChain, CrewAI, and MCP. <details><summary>More about</summary>
+- **[Mengram](https://github.com/alibaizhanov/mengram)** `⭐ 195` `updated ≤30d` A memory system for AI agents offering semantic, episodic, and procedural memory with Python/JS SDKs and integrations for LangChain, CrewAI, and MCP. <details><summary>More about</summary>
 
   Developers can give their agents persistent, evolving memory (including workflows that learn from failures) without building retrieval or context systems from scratch.
 
@@ -405,7 +405,7 @@ Memory, retrieval, compression, and prompt-shaping systems for getting the right
 
 _These are new or low-traffic entries being watched._
 
-- **[Harness Starter Kit](https://github.com/harnessworks/harness-starter-kit)** `⭐ 106` `updated ≤90d` A prompt-first starter kit for turning repeated AI coding agent mistakes into durable repository instructions and evaluation checks. <details><summary>More about</summary>
+- **[Harness Starter Kit](https://github.com/harnessworks/harness-starter-kit)** `⭐ 106` `updated ≤180d` A prompt-first starter kit for turning repeated AI coding agent mistakes into durable repository instructions and evaluation checks. <details><summary>More about</summary>
 
   It shifts the effort from endless prompt tweaking to 'harnessing' the repository itself to provide better operational boundaries and feedback loops for agents.
 
@@ -423,15 +423,6 @@ _These are new or low-traffic entries being watched._
   `claude-code` `memory` `mcp` `local-ai` `context-engineering`
   </details>
 
-- **[ax](https://github.com/necmttn/ax)** `⭐ 83` `updated ≤90d` A local-first observability and memory layer that uses a typed graph to record and learn from agent sessions. <details><summary>More about</summary>
-
-  It prevents AI coding agents from repeating the same mistakes by turning session transcripts into structured, reviewable learning loops.
-
-  _Now you can finally quantify exactly how many tokens you've wasted on an agent that forgets it failed the same command five minutes ago._
-
-  `agent-memory` `observability` `claude-code` `local-first` `typescript`
-  </details>
-
 - **[decisionnode/DecisionNode](https://github.com/decisionnode/decisionnode)** `⭐ 83` `updated ≤180d` A CLI and local MCP server providing a shared, semantically queryable structured memory store for AI coding assistants like Claude Code, Cursor, and Windsurf. <details><summary>More about</summary>
 
   It lets developers and their AI assistants persist, retrieve, and reason over architectural decisions and constraints across projects without stuffing everything into the context window.
@@ -439,6 +430,15 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to make your AI remember why you did that thing you can’t remember doing._
 
   `mcp` `memory` `semantic-search` `developer-tools` `context-engineering`
+  </details>
+
+- **[Necmttn/ax](https://github.com/necmttn/ax)** `⭐ 83` `updated ≤90d` A local-first observability and memory layer that uses a typed graph to record and learn from agent sessions. <details><summary>More about</summary>
+
+  It prevents AI coding agents from repeating the same mistakes by turning session transcripts into structured, reviewable learning loops.
+
+  _Now you can finally quantify exactly how many tokens you've wasted on an agent that forgets it failed the same command five minutes ago._
+
+  `agent-memory` `observability` `claude-code` `local-first` `typescript`
   </details>
 
 - **[FROWNINGdev/django-orm-lens](https://github.com/frowningdev/django-orm-lens)** `⭐ 73` `updated ≤30d` A static analysis tool for Django that provides schema intelligence through VS Code extensions, a CLI, and an MCP server. <details><summary>More about</summary>
@@ -576,6 +576,15 @@ _These are new or low-traffic entries being watched._
   `memory` `knowledge-graph` `mcp` `consolidation` `sqlite`
   </details>
 
+- **[Abhigyan-Shekhar/Waggle-mcp](https://github.com/abhigyan-shekhar/waggle-mcp)** `⭐ 42` `updated ≤30d` Local-first MCP server that adds persistent graph-backed memory to coding agents, storing decisions, contradictions, and reasoning chains across sessions. <details><summary>More about</summary>
+
+  Eliminates context-window amnesia by retaining not just facts but the relationships between them (decisions, reasons, contradictions) in a queryable knowledge graph that survives session restarts.
+
+  _Now you can have the awkward 'but you said three weeks ago' argument with your AI assistant, complete with timestamped receipts and contradiction graphs._
+
+  `mcp-server` `memory` `knowledge-graph` `local-first` `context-retrieval`
+  </details>
+
 - **[wende/cicada](https://github.com/wende/cicada)** `⭐ 40` `updated ≤1y` CICADA is an MCP server that provides context-compacted code intelligence for AI coding assistants via AST-level indexing and semantic search. <details><summary>More about</summary>
 
   It reduces token waste and improves assistant accuracy by delivering structured code context instead of raw file dumps.
@@ -583,15 +592,6 @@ _These are new or low-traffic entries being watched._
   _Finally, a tool that admits your AI assistant is context-starved and sells you a diet plan for its meals._
 
   `mcp` `code-search` `context-engineering`
-  </details>
-
-- **[Abhigyan-Shekhar/Waggle-mcp](https://github.com/abhigyan-shekhar/waggle-mcp)** `⭐ 39` `updated ≤30d` Local-first MCP server that adds persistent graph-backed memory to coding agents, storing decisions, contradictions, and reasoning chains across sessions. <details><summary>More about</summary>
-
-  Eliminates context-window amnesia by retaining not just facts but the relationships between them (decisions, reasons, contradictions) in a queryable knowledge graph that survives session restarts.
-
-  _Now you can have the awkward 'but you said three weeks ago' argument with your AI assistant, complete with timestamped receipts and contradiction graphs._
-
-  `mcp-server` `memory` `knowledge-graph` `local-first` `context-retrieval`
   </details>
 
 - **[pi-reflect](https://github.com/jo-inc/pi-reflect)** `⭐ 38` `updated ≤90d` A tool for AI agents to iteratively improve their behavioral rules, memory, and personality files by analyzing session transcripts. <details><summary>More about</summary>
@@ -855,7 +855,7 @@ _These are new or low-traffic entries being watched._
   `claude-code` `mcp` `semantic-search` `ollama` `memory`
   </details>
 
-- **[preflight-dev/preflight](https://github.com/preflight-dev/preflight)** `⭐ 11` `updated ≤180d` A 24-tool MCP server for Claude Code that intercepts prompts to catch ambiguity, scores prompt quality, searches session history with vector search, and estimates token costs. <details><summary>More about</summary>
+- **[preflight-dev/preflight](https://github.com/preflight-dev/preflight)** `⭐ 11` `updated ≤1y` A 24-tool MCP server for Claude Code that intercepts prompts to catch ambiguity, scores prompt quality, searches session history with vector search, and estimates token costs. <details><summary>More about</summary>
 
   It directly attacks the 30-40% token waste caused by vague prompts, wrong-direction corrections, and unbounded session context in Claude Code workflows.
 

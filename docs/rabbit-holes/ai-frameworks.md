@@ -203,6 +203,15 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `vector-database` `embeddings` `retrieval` `rust` `mlops`
   </details>
 
+- **[AgentScope](https://github.com/agentscope-ai/agentscope)** `⭐ 31.8k` `updated ≤30d` AgentScope is a production-ready multi-agent framework with built-in support for event systems, permission management, and sandboxed workspaces. <details><summary>More about</summary>
+
+  It provides the essential infrastructure—like multi-tenancy and isolated execution environments—needed to move agentic workflows from experimental scripts to stable services.
+
+  _Nothing says 'production-ready' like adding a whole new orchestration layer to your stack just to manage the chaos of autonomous agents._
+
+  `multi-agent` `orchestration` `sandbox` `infrastructure` `multi-tenancy`
+  </details>
+
 - **[PyTorch Lightning](https://github.com/lightning-ai/pytorch-lightning)** `⭐ 31.3k` `updated ≤90d` PyTorch Lightning is a framework that automates PyTorch training engineering like backpropagation, mixed precision, and multi-GPU scaling while preserving full model control. <details><summary>More about</summary>
 
   It lets developers focus on model science instead of repetitive training infrastructure code, scaling from CPU to thousands of GPUs without changing core logic.
@@ -210,15 +219,6 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   _You’ll spend less time debugging distributed training loops and more time wondering why your model still won’t converge._
 
   `pytorch` `deep-learning` `training-framework` `ai-infrastructure`
-  </details>
-
-- **[AgentScope](https://github.com/agentscope-ai/agentscope)** `⭐ 31.2k` `updated ≤30d` AgentScope is a production-ready multi-agent framework with built-in support for event systems, permission management, and sandboxed workspaces. <details><summary>More about</summary>
-
-  It provides the essential infrastructure—like multi-tenancy and isolated execution environments—needed to move agentic workflows from experimental scripts to stable services.
-
-  _Nothing says 'production-ready' like adding a whole new orchestration layer to your stack just to manage the chaos of autonomous agents._
-
-  `multi-agent` `orchestration` `sandbox` `infrastructure` `multi-tenancy`
   </details>
 
 - **[Chroma](https://github.com/chroma-core/chroma)** `⭐ 29.2k` `updated ≤30d` Open-source vector database and search infrastructure for AI applications. <details><summary>More about</summary>
@@ -743,7 +743,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `rag` `retrieval` `sdk` `self-hosted` `api`
   </details>
 
-- **[Upsonic](https://github.com/upsonic/upsonic)** `⭐ 7.9k` `updated ≤90d` Python framework for building autonomous AI agents with task management, tool integration, and sandboxed execution. <details><summary>More about</summary>
+- **[Upsonic](https://github.com/upsonic/upsonic)** `⭐ 7.9k` `updated ≤180d` Python framework for building autonomous AI agents with task management, tool integration, and sandboxed execution. <details><summary>More about</summary>
 
   Provides a structured SDK for creating both autonomous and traditional agents with built-in safety constraints (workspace isolation) and MCP tool support, allowing developers to program agent behavior in Python rather than调酒 through GUIs.
 
@@ -1211,7 +1211,7 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `python` `llm-integration` `agent-framework` `pydantic` `decorators`
   </details>
 
-- **[agentUniverse](https://github.com/agentuniverse-ai/agentuniverse)** `⭐ 2.4k` `updated ≤90d` A multi-agent framework designed for building complex, domain-expert applications through collaborative patterns. <details><summary>More about</summary>
+- **[agentUniverse](https://github.com/agentuniverse-ai/agentuniverse)** `⭐ 2.4k` `updated ≤30d` A multi-agent framework designed for building complex, domain-expert applications through collaborative patterns. <details><summary>More about</summary>
 
   It provides structured collaborative patterns like PEER and DOE to help developers move beyond simple single-prompt LLM interactions to complex, reasoning-heavy multi-agent workflows.
 
@@ -2066,6 +2066,15 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `vector-database` `neural-search` `knn` `retrieval` `embeddings`
   </details>
 
+- **[rs-graph-llm](https://github.com/a-agmon/rs-graph-llm)** `⭐ 374` `updated ≤30d` A high-performance, type-safe Rust framework for building stateful, interactive agentic workflows and multi-agent systems. <details><summary>More about</summary>
+
+  It brings the structured, graph-based orchestration patterns of LangGraph to the Rust ecosystem, enabling performant and type-safe agent workflows.
+
+  _Because clearly, Python's runtime errors weren't enough; now we need to manage our agentic state complexity with strict ownership and lifetimes._
+
+  `rust` `agents` `workflows` `graph` `orchestration`
+  </details>
+
 - **[AgentRun](https://github.com/tjmlabs/agentrun)** `⭐ 373` `updated ≤90d` A Python library and REST API that safely executes LLM-generated Python code inside isolated Docker containers with resource limits, dependency management, and safety checks. <details><summary>More about</summary>
 
   It gives developers a drop-in way to let any LLM run generated code without risking the host system, filling a critical safety gap in agent and tool-using workflows.
@@ -2075,22 +2084,13 @@ Code-first building blocks for embedding models, agents, or AI workflows into so
   `code-execution` `sandbox` `docker` `llm-infrastructure` `safety`
   </details>
 
-- **[Octochains](https://github.com/ahmadvh/octochains)** `⭐ 372` `updated ≤30d` A lightweight Python framework for parallel, isolated, and collaborative multi-agent reasoning and consensus. <details><summary>More about</summary>
+- **[Octochains](https://github.com/ahmadvh/octochains)** `⭐ 373` `updated ≤30d` A lightweight Python framework for parallel, isolated, and collaborative multi-agent reasoning and consensus. <details><summary>More about</summary>
 
   It provides an architectural pattern to prevent 'groupthink' in multi-agent systems by running specialist agents in isolated threads before synthesizing a final verdict.
 
   _Because apparently, we can't even trust AI agents to avoid peer pressure without a structured consensus layer._
 
   `python` `multi-agent` `reasoning` `consensus` `framework`
-  </details>
-
-- **[rs-graph-llm](https://github.com/a-agmon/rs-graph-llm)** `⭐ 370` `updated ≤30d` A high-performance, type-safe Rust framework for building stateful, interactive agentic workflows and multi-agent systems. <details><summary>More about</summary>
-
-  It brings the structured, graph-based orchestration patterns of LangGraph to the Rust ecosystem, enabling performant and type-safe agent workflows.
-
-  _Because clearly, Python's runtime errors weren't enough; now we need to manage our agentic state complexity with strict ownership and lifetimes._
-
-  `rust` `agents` `workflows` `graph` `orchestration`
   </details>
 
 - **[OpenLM](https://github.com/r2d4/openlm)** `⭐ 369` `updated >1y` An OpenAI-compatible Python client that lets developers call models from Hugging Face, Cohere, and other providers using the standard OpenAI API interface. <details><summary>More about</summary>
@@ -2833,6 +2833,15 @@ _These are new or low-traffic entries being watched._
   _Now your AI agent can finally ask 'should I Venmo this guy?' with the gravitas of a compliance officer._
 
   `risk-scoring` `api-client` `agent-commerce` `x402` `finance`
+  </details>
+
+- **[dwgx/SmartCLI](https://github.com/dwgx/smartcli)** `⭐ 3` `updated ≤30d` A Python toolkit for enabling AI agents to drive, perceive, and render interactive terminal applications using a PTY and cell model. <details><summary>More about</summary>
+
+  It allows agents to move beyond simple shell commands to interacting with complex TUIs like lazygit or vim by 'seeing' the actual screen state.
+
+  _We are one step closer to an AI that can confidently navigate your terminal and accidentally `rm -rf /` because it misread a TUI menu._
+
+  `python` `mcp` `tui` `terminal-automation` `agent-tools`
   </details>
 
 - **[dolphinquant/echolon](https://github.com/dolphinquant/echolon)** `⭐ 2` `updated ≤90d` An LLM-agent-native backtest framework designed for conducting quantitative futures research. <details><summary>More about</summary>

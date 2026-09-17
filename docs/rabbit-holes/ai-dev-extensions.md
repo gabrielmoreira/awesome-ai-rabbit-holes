@@ -239,7 +239,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `mcp` `comfyui` `claude-code` `image-generation` `workflow-automation`
   </details>
 
-- **[cc-router](https://github.com/finch-xu/cc-router)** `⭐ 229` `updated ≤30d` A local proxy and router that aggregates multiple LLM subscription plans and API quotas into a single virtual endpoint for various AI coding tools. <details><summary>More about</summary>
+- **[cc-router](https://github.com/finch-xu/cc-router)** `⭐ 229` `updated ≤90d` A local proxy and router that aggregates multiple LLM subscription plans and API quotas into a single virtual endpoint for various AI coding tools. <details><summary>More about</summary>
 
   It allows developers to maximize the utility of multiple AI subscriptions by transparently routing requests from tools like Claude Code or Cursor to available token plans.
 
@@ -248,7 +248,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `llm-proxy` `token-management` `claude-code` `api-gateway` `ai-infrastructure`
   </details>
 
-- **[agenticmail/agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 219` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
+- **[agenticmail/agenticmail](https://github.com/agenticmail/agenticmail)** `⭐ 222` `updated ≤30d` Infrastructure providing AI agents with programmatic access to real-world email, SMS, and outbound voice calls. <details><summary>More about</summary>
 
   It enables agents to move beyond the terminal by interacting with the world through standard communication channels like phone and email.
 
@@ -257,7 +257,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
   `agents` `mcp` `communication` `sms` `email`
   </details>
 
-- **[alexgreensh/repo-forensics](https://github.com/alexgreensh/repo-forensics)** `⭐ 170` `updated ≤30d` Offline security scanner for auditing AI-agent skills, plugins, and MCP servers. <details><summary>More about</summary>
+- **[alexgreensh/repo-forensics](https://github.com/alexgreensh/repo-forensics)** `⭐ 176` `updated ≤30d` Offline security scanner for auditing AI-agent skills, plugins, and MCP servers. <details><summary>More about</summary>
 
   It provides a local vetting step to prevent malicious third-party agent components from accessing sensitive files or credentials.
 
@@ -288,7 +288,7 @@ Add-ons and host integrations that extend another coding tool rather than being 
 
 _These are new or low-traffic entries being watched._
 
-- **[alex-on-ai/WebReaper](https://github.com/alex-on-ai/webreaper)** `⭐ 147` `updated ≤90d` An AI-native web scraper and crawler that provides markdown output and includes a bundled Claude Code skill. <details><summary>More about</summary>
+- **[alex-on-ai/WebReaper](https://github.com/alex-on-ai/webreaper)** `⭐ 148` `updated ≤90d` An AI-native web scraper and crawler that provides markdown output and includes a bundled Claude Code skill. <details><summary>More about</summary>
 
   It enables developers to feed structured web content directly into coding agents or applications via a single binary or.NET library.
 
@@ -369,7 +369,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `memory` `claude-code` `search`
   </details>
 
-- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 88` `updated ≤90d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
+- **[authsome](https://github.com/agentrhq/authsome)** `⭐ 91` `updated ≤90d` An open-source credential gateway that allows AI agents to authenticate via OAuth2 or API keys through a headless HTTP proxy. <details><summary>More about</summary>
 
   It prevents credential sprawl by centralizing secret management and ensuring agents never see long-lived tokens, reducing the risk of exfiltration during autonomous runs.
 
@@ -738,7 +738,7 @@ _These are new or low-traffic entries being watched._
   `zulip` `mcp` `agent` `chatbot`
   </details>
 
-- **[AIStoryHub/etincel](https://github.com/aistoryhub/etincel)** `⭐ 8` `updated ≤30d` A deterministic linter and MCP server for detecting AI-generated prose patterns and enforcing specific writing styles. <details><summary>More about</summary>
+- **[AIStoryHub/etincel](https://github.com/aistoryhub/etincel)** `⭐ 8` `updated ≤90d` A deterministic linter and MCP server for detecting AI-generated prose patterns and enforcing specific writing styles. <details><summary>More about</summary>
 
   It allows developers to automate the detection of 'AI slop' in technical documentation and maintain a consistent human-like voice through CI and editor integrations.
 
@@ -970,6 +970,15 @@ _These are new or low-traffic entries being watched._
   _Because nothing says 'modern development' like having an LLM audit your easing curves to ensure your loading spinners aren't accidentally causing existential dread._
 
   `motion-design` `mcp` `qa-automation` `ui-testing` `claude-code`
+  </details>
+
+- **[dbhq-uk/heliograph](https://github.com/dbhq-uk/heliograph)** `⭐ 0` `updated ≤30d` A tool for executing auditable, remote commands on machines without direct SSH access via specialized transport protocols. <details><summary>More about</summary>
+
+  It enables AI agents and developers to perform investigations and tasks in air-gapped or highly restricted environments where traditional login access is prohibited.
+
+  _Because even your AI agent shouldn't be blocked by the same security policies that keep you out of production._
+
+  `remote-execution` `mcp` `ai-agents` `devops` `air-gapped`
   </details>
 
 - **[Applitools](https://applitools.com)** Applitools is an intelligent testing platform that uses visual AI to automate visual, functional, and accessibility testing across web and mobile applications. <details><summary>More about</summary>

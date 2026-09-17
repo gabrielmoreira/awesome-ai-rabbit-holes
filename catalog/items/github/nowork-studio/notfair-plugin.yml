@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/nowork-studio/toprank
         surrounding_text: "- **[toprank](https://github.com/nowork-studio/toprank)** – Open-source (MIT) Claude Code plugin with 9 SEO and Google Ads skills. Connects Google Search Console, PageSpeed Insights, and the Google Ads API to audit traffic, ship meta tag and schema markup fixes, and manage ad campaigns directly from Claude Code."
         confidence: high
+    - id: discovery__github__nowork-studio__notfair-plugin__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-17T04:13:23.413Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 💻 Developer Tools
+        anchor_text: nowork-studio/NotFair
+        extracted_url: https://github.com/nowork-studio/notfair
+        surrounding_text: "-   **[nowork-studio/NotFair](https://github.com/nowork-studio/NotFair)** [![GitHub stars](https://img.shields.io/github/stars/nowork-studio/NotFair?style=social)](https://github.com/nowork-studio/NotFair): Open-source Claude Code agent skills for SEO, GEO, Google Ads, and Meta Ads — connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP."
+        confidence: high
 metadata:
   github:
     stars: null
@@ -71,7 +87,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-13T04:39:28.748Z"
+    updated_at: "2026-09-17T04:13:23.414Z"
     cause: null
     next_retry_at: null
   stars:
@@ -80,7 +96,7 @@ processing:
     cause: null
   categorize:
     status: skipped
-    updated_at: "2026-09-14T04:13:52.185Z"
+    updated_at: "2026-09-17T04:13:49.719Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

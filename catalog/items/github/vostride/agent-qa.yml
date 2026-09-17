@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/vostride/agent-qa
         surrounding_text: "- **[agent-qa](https://github.com/vostride/agent-qa)** `⭐ 159` — Self-improving QA harness for web and mobile workflows, with a CLI, dashboard, MCP and skills for coding agents, memory-backed self-healing, and sandboxed hooks for setup/teardown. FSL-1.1-ALv2."
         confidence: high
+    - id: discovery__github__vostride__agent-qa__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-17T04:13:23.413Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 📂 Browser Control
+        anchor_text: vostride/agent-qa
+        extracted_url: https://github.com/vostride/agent-qa
+        surrounding_text: "-   **[vostride/agent-qa](https://github.com/vostride/agent-qa)** [![GitHub stars](https://img.shields.io/github/stars/vostride/agent-qa?style=social)](https://github.com/vostride/agent-qa): Provides a local MCP server for authoring, running, and triaging natural-language web and mobile QA tests with execution memory."
+        confidence: high
 metadata:
   github:
     stars: 162
@@ -78,7 +94,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-07-16T05:04:46.715Z"
+    updated_at: "2026-09-17T04:13:23.416Z"
     cause: null
     next_retry_at: null
   stars:
@@ -88,7 +104,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-14T04:13:52.187Z"
+    updated_at: "2026-09-17T04:13:49.721Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

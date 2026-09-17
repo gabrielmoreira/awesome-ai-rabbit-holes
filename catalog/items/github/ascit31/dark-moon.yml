@@ -21,6 +21,22 @@ provenance:
         extracted_url: https://github.com/ascit31/dark-moon
         surrounding_text: "| [Darkmoon](https://github.com/ASCIT31/Dark-Moon) | 841 | Python | GPL-3.0 | 2026-08 | Autonomous pentesting across web, cloud and AD |"
         confidence: high
+    - id: discovery__github__ascit31__dark-moon__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-17T04:13:23.413Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 💻 Developer Tools
+        anchor_text: ASCIT31/Dark-Moon
+        extracted_url: https://github.com/ascit31/dark-moon
+        surrounding_text: "-   **[ASCIT31/Dark-Moon](https://github.com/ASCIT31/Dark-Moon)** [![GitHub stars](https://img.shields.io/github/stars/ASCIT31/Dark-Moon?style=social)](https://github.com/ASCIT31/Dark-Moon): Open-source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes, available as an MCP server."
+        confidence: high
 metadata:
   github:
     stars: 890
@@ -85,7 +101,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-20T04:18:00.403Z"
+    updated_at: "2026-09-17T04:13:23.414Z"
     cause: null
     next_retry_at: null
   stars:

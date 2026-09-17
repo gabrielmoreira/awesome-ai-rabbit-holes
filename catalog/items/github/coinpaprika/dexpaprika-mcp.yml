@@ -37,6 +37,22 @@ provenance:
         extracted_url: https://github.com/coinpaprika/dexpaprika-mcp
         surrounding_text: "- **[DexPaprika](https://github.com/coinpaprika/dexpaprika-mcp)** - Access real-time DEX analytics across 20+ blockchains with [DexPaprika API](https://docs.dexpaprika.com), tracking 5M+ tokens, pools, volumes, and historical market data. Built by CoinPaprika."
         confidence: high
+    - id: discovery__github__coinpaprika__dexpaprika-mcp__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-17T04:13:23.413Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 💰 Finance & Fintech
+        anchor_text: coinpaprika/dexpaprika-mcp
+        extracted_url: https://github.com/coinpaprika/dexpaprika-mcp
+        surrounding_text: "-   **[coinpaprika/dexpaprika-mcp](https://github.com/coinpaprika/dexpaprika-mcp)** [![GitHub stars](https://img.shields.io/github/stars/coinpaprika/dexpaprika-mcp?style=social)](https://github.com/coinpaprika/dexpaprika-mcp): DEX data across 36 blockchains. Pools, token prices, OHLCV, trades and SSE streaming. Free tier, no API key required."
+        confidence: high
 metadata:
   github:
     stars: 42
@@ -92,7 +108,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.584Z"
+    updated_at: "2026-09-17T04:13:23.414Z"
     cause: null
     next_retry_at: null
   stars:

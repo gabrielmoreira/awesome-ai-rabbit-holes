@@ -122,7 +122,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `evals` `benchmarking` `llm` `testing` `cli`
   </details>
 
-- **[Aim](https://github.com/aimhubio/aim)** `⭐ 6.2k` `updated ≤30d` An open-source experiment tracker for logging training runs and AI metadata with a visual UI and programmatic API. <details><summary>More about</summary>
+- **[Aim](https://github.com/aimhubio/aim)** `⭐ 6.3k` `updated ≤30d` An open-source experiment tracker for logging training runs and AI metadata with a visual UI and programmatic API. <details><summary>More about</summary>
 
   It provides a structured way to observe, compare, and query machine learning experiments and metadata to improve model development workflows.
 
@@ -356,7 +356,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `agent-evaluation` `dataset-generation` `fine-tuning` `mcp-compatible` `synthetic-data`
   </details>
 
-- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 824` `updated ≤30d` OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated graders and rubrics. <details><summary>More about</summary>
+- **[openjudge](https://github.com/agentscope-ai/openjudge)** `⭐ 837` `updated ≤30d` OpenJudge is an open-source evaluation framework designed to assess the quality of AI applications through automated graders and rubrics. <details><summary>More about</summary>
 
   It provides a structured way to move from 'vibes-based' testing to reproducible evaluation, allowing developers to turn grading results into reward signals for fine-tuning.
 
@@ -401,7 +401,7 @@ Frameworks and tooling for measuring model, prompt, or agent behavior.
   `benchmarking` `evaluation` `llm-testing` `dataset-generation` `huggingface`
   </details>
 
-- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 388` `updated ≤30d` A CLI tool for benchmarking the throughput and tokens-per-second performance of local LLMs running via Ollama. <details><summary>More about</summary>
+- **[Ollama Benchmark](https://github.com/aidatatools/ollama-benchmark)** `⭐ 389` `updated ≤30d` A CLI tool for benchmarking the throughput and tokens-per-second performance of local LLMs running via Ollama. <details><summary>More about</summary>
 
   It allows developers to quantitatively measure the hardware performance and inference speed of local models across different RAM configurations.
 
@@ -594,7 +594,7 @@ _These are new or low-traffic entries being watched._
   `rag` `evaluation` `cli` `vector-search` `observability`
   </details>
 
-- **[semantic-coverage](https://github.com/aashirpersonal/semantic-coverage)** `⭐ 12` `updated ≤1y` An automated tool for detecting knowledge gaps, hallucination triggers, and representation bias in RAG vector databases. <details><summary>More about</summary>
+- **[semantic-coverage](https://github.com/aashirpersonal/semantic-coverage)** `⭐ 13` `updated ≤1y` An automated tool for detecting knowledge gaps, hallucination triggers, and representation bias in RAG vector databases. <details><summary>More about</summary>
 
   It helps developers identify 'blind spots' in their retrieval pipelines by mapping user intent against existing document embeddings.
 

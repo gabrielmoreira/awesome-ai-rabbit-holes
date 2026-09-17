@@ -14,7 +14,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `slash-commands` `workflows` `prompt-engineering`
   </details>
 
-- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 175.5k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
+- **[Anthropics Skills](https://github.com/anthropics/skills)** `⭐ 176.7k` `updated ≤30d` Public repository for Agent Skills, a system of folders containing instructions, scripts, and resources that Claude loads dynamically to improve performance on specialized tasks. <details><summary>More about</summary>
 
   It enables developers to create reusable, portable skill packs that teach Claude (and other compatible agents) how to handle specific workflows, from document editing to technical automation.
 
@@ -23,7 +23,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `agent-skills` `claude` `reusable-skills` `workflow-automation`
   </details>
 
-- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 93.3k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
+- **[agent-skills](https://github.com/addyosmani/agent-skills)** `⭐ 95.6k` `updated ≤30d` Production-grade engineering skills and workflows for AI coding agents, delivered as reusable rule packs and slash commands. <details><summary>More about</summary>
 
   It provides a standardized set of professional engineering guardrails (spec-first, test-driven, incremental builds) that prevent AI agents from hallucinating their way through a codebase without a plan.
 
@@ -104,7 +104,7 @@ Reusable skill packs, rules, commands, and skill directories for coding tools.
   `ads` `claude-code` `plugins` `seo` `skills`
   </details>
 
-- **[LabClaw](https://github.com/wu-yc/labclaw)** `⭐ 1k` `updated ≤180d` LabClaw is a library of 240 biomedical skill packs for OpenClaw-compatible agents, teaching when and how to use domain-specific tools in scientific workflows. <details><summary>More about</summary>
+- **[LabClaw](https://github.com/wu-yc/labclaw)** `⭐ 1k` `updated ≤1y` LabClaw is a library of 240 biomedical skill packs for OpenClaw-compatible agents, teaching when and how to use domain-specific tools in scientific workflows. <details><summary>More about</summary>
 
   It provides reusable, domain-scoped agent skills that reduce prompt engineering overhead for developers building AI-assisted scientific research tools.
 
@@ -144,7 +144,7 @@ _These are new or low-traffic entries being watched._
   `memory` `context` `mcp` `knowledge-graph` `cli`
   </details>
 
-- **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 31` `updated ≤90d` A biomedical-focused agentic skills repository with MCP servers and AI provider integrations for clinical, genomics, and drug discovery workflows. <details><summary>More about</summary>
+- **[LLMs-Universal-Life-Science-and-Clinical-Skills-](https://github.com/mdbabumiamssm/llms-universal-life-science-and-clinical-skills-)** `⭐ 31` `updated ≤180d` A biomedical-focused agentic skills repository with MCP servers and AI provider integrations for clinical, genomics, and drug discovery workflows. <details><summary>More about</summary>
 
   Provides reusable, domain-specific agent skills and MCP servers that developers can adapt for healthcare AI applications like clinical trial matching or genomics analysis.
 

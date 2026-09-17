@@ -69,9 +69,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-09-10T04:12:55.093Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-17T04:13:45.694Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for any4ai/anycrawl-mcp-server
     next_retry_at: null
   categorize:
     status: done

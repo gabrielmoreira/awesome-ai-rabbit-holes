@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/muvon/octocode
         surrounding_text: "- [muvon/octocode](https://github.com/Muvon/octocode) [![octocode](https://glama.ai/mcp/servers/Muvon/octocode/badges/score.svg)](https://glama.ai/mcp/servers/Muvon/) 🦀 🏠 🍎 🪟 🐧 - Semantic code indexer with GraphRAG knowledge graph. Index your codebase, search in natural language, and expose everything via MCP so AI agents understand architecture — not just files."
         confidence: high
+    - id: discovery__github__muvon__octocode__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-17T04:13:23.413Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 💻 Developer Tools
+        anchor_text: Muvon/octocode
+        extracted_url: https://github.com/muvon/octocode
+        surrounding_text: "-   **[Muvon/octocode](https://github.com/Muvon/octocode)** [![GitHub stars](https://img.shields.io/github/stars/Muvon/octocode?style=social)](https://github.com/Muvon/octocode): Rust semantic code indexer with GraphRAG knowledge graph and MCP server. Tree-sitter parsing, ast-grep structural search, code signatures view. 13+ languages. Local-first."
+        confidence: high
 metadata:
   github:
     stars: 434
@@ -86,7 +102,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-05-06T22:12:15.631Z"
+    updated_at: "2026-09-17T04:13:23.415Z"
     cause: null
     next_retry_at: null
   stars:
@@ -98,7 +114,7 @@ processing:
     next_retry_at: null
   categorize:
     status: skipped
-    updated_at: "2026-09-14T04:13:52.185Z"
+    updated_at: "2026-09-17T04:13:49.719Z"
     cause:
       type: missing_metadata
       message: Item is not ready for categorization

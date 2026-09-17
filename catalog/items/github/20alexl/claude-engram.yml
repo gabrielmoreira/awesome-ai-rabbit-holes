@@ -25,29 +25,33 @@ provenance:
 metadata:
   github:
     stars: 16
-    forks: 4
+    forks: 5
     license: MIT
     archived: false
     full_name: 20alexl/claude-engram
     html_url: https://github.com/20alexl/claude-engram
     created_at: "2026-01-20T03:07:03Z"
     pushed_at: "2026-08-27T21:38:31Z"
-    description: Persistent memory and session intelligence for AI coding assistants. Auto-tracks mistakes, decisions, and context via hooks. Mines your full session history for patterns, predictions, and cross-session search.
+    description: "The flight recorder for Claude Code. Persistent memory across sessions, hook-level capture of every edit, error and decision, and a bracket around /goal so an unattended run cannot poll all night, lose its record, or die silently. Nothing self-reported: the run report is what the hooks saw."
     homepage: https://github.com/20alexl/claude-engram/blob/main/library-book/README.md
     topics:
+      - agent-memory
+      - autonomous-agents
       - claude
       - claude-code
+      - context-management
       - developer-tool
       - hooks
       - mcp-server
-      - model-control-protocol
-      - obsisidan
+      - model-context-protocol
+      - obsidian
       - ollama
       - persistent-memory
       - python
-    last_checked_at: "2026-09-10T04:12:35.049Z"
+      - session-recording
+    last_checked_at: "2026-09-17T04:13:25.683Z"
     readme:
-      fetched_at: "2026-09-10T04:12:35.049Z"
+      fetched_at: "2026-09-17T04:13:25.683Z"
       bytes: 7536
 insights:
   summary: A persistent memory and session intelligence layer that tracks decisions, mistakes, and context via hooks for AI coding assistants like Claude Code.
@@ -81,7 +85,7 @@ processing:
     next_retry_at: null
   stars:
     status: done
-    updated_at: "2026-09-10T04:12:35.049Z"
+    updated_at: "2026-09-17T04:13:25.683Z"
     cause: null
     next_retry_at: null
   categorize:

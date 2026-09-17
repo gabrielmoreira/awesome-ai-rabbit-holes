@@ -89,9 +89,11 @@ processing:
     cause: null
     next_retry_at: null
   stars:
-    status: done
-    updated_at: "2026-09-10T04:12:55.907Z"
-    cause: null
+    status: deferred
+    updated_at: "2026-09-17T04:13:46.781Z"
+    cause:
+      type: github_unavailable
+      message: Could not fetch GitHub metadata for apache/hamilton
     next_retry_at: null
   categorize:
     status: done

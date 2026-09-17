@@ -38,6 +38,22 @@ provenance:
         extracted_url: https://github.com/kubestellar/console
         surrounding_text: "- **[KubeStellar kc-agent](https://github.com/kubestellar/console/tree/main/cmd/kc-agent)** `⭐ 127` — Local Go daemon from the KubeStellar Console that auto-detects installed coding agents (Claude CLI, Codex, Copilot CLI, Gemini CLI, goose) and gives them cluster-aware execution against your kubeconfig contexts — kubectl, Helm, and multi-cluster fan-out. Star count is the parent console repo. Apache-2.0."
         confidence: high
+    - id: discovery__github__kubestellar__console__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-17T04:13:23.413Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - ☁️ Cloud Platforms
+        anchor_text: kubestellar/console
+        extracted_url: https://github.com/kubestellar/console
+        surrounding_text: "-   **[kubestellar/console](https://github.com/kubestellar/console)** [![GitHub stars](https://img.shields.io/github/stars/kubestellar/console?style=social)](https://github.com/kubestellar/console): Multi-cluster Kubernetes MCP server (kc-agent) for AI-assisted operations across edge and cloud clusters. 50+ tools for workload placement, policy enforcement, and observability."
+        confidence: high
 metadata:
   github:
     stars: 125
@@ -82,7 +98,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-27T06:08:24.606Z"
+    updated_at: "2026-09-17T04:13:23.414Z"
     cause: null
     next_retry_at: null
   stars:

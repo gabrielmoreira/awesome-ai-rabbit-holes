@@ -68,7 +68,7 @@ Tools and platforms for coordinating multiple agents.
   `agents` `orchestration` `control-plane` `multi-agent` `self-hosted`
   </details>
 
-- **[Agno](https://github.com/agno-agi/agno)** `⭐ 42.1k` `updated ≤30d` A framework and runtime for building, running, and managing scalable agent platforms with built-in memory, observability, and security. <details><summary>More about</summary>
+- **[Agno](https://github.com/agno-agi/agno)** `⭐ 42.2k` `updated ≤30d` A framework and runtime for building, running, and managing scalable agent platforms with built-in memory, observability, and security. <details><summary>More about</summary>
 
   It provides the heavy-lifting infrastructure—like storage, task scheduling, and multi-tenant isolation—needed to turn a simple LLM script into a production-ready agent service.
 
@@ -221,7 +221,7 @@ Tools and platforms for coordinating multiple agents.
   `ai-agent` `open-source` `automation` `workflow`
   </details>
 
-- **[Hive](https://github.com/aden-hive/hive)** `⭐ 11k` `updated ≤30d` A model-agnostic execution harness that compiles objectives into strict, graph-based DAGs to coordinate specialized multi-agent workflows in production environments. <details><summary>More about</summary>
+- **[Hive](https://github.com/aden-hive/hive)** `⭐ 11.1k` `updated ≤30d` A model-agnostic execution harness that compiles objectives into strict, graph-based DAGs to coordinate specialized multi-agent workflows in production environments. <details><summary>More about</summary>
 
   It gives developers runtime-level state persistence, crash recovery, observability, and human-in-the-loop controls for multi-agent workloads without writing orchestration boilerplate.
 
@@ -248,7 +248,7 @@ Tools and platforms for coordinating multiple agents.
   `agent-orchestration` `gui-automation` `multi-device` `microsoft` `dag`
   </details>
 
-- **[Claude Squad](https://github.com/smtg-ai/claude-squad)** `⭐ 8.1k` `updated ≤90d` A terminal TUI that manages multiple AI coding agents (Claude Code, Codex, Gemini CLI, Aider) in isolated tmux sessions and git worktrees so developers can run several background tasks in parallel. <details><summary>More about</summary>
+- **[Claude Squad](https://github.com/smtg-ai/claude-squad)** `⭐ 8.1k` `updated ≤180d` A terminal TUI that manages multiple AI coding agents (Claude Code, Codex, Gemini CLI, Aider) in isolated tmux sessions and git worktrees so developers can run several background tasks in parallel. <details><summary>More about</summary>
 
   It lets you scale beyond one assistant at a time by coordinating parallel agent sessions with isolated branches, review workflows, and a single navigation surface.
 
@@ -338,7 +338,7 @@ Tools and platforms for coordinating multiple agents.
   `ai-agents` `docker` `yaml` `mcp` `orchestration`
   </details>
 
-- **[agent-of-empires](https://github.com/agent-of-empires/agent-of-empires)** `⭐ 3.2k` `updated ≤30d` A TUI and web-based session manager for running and monitoring multiple AI coding agents in parallel. <details><summary>More about</summary>
+- **[agent-of-empires](https://github.com/agent-of-empires/agent-of-empires)** `⭐ 3.3k` `updated ≤30d` A TUI and web-based session manager for running and monitoring multiple AI coding agents in parallel. <details><summary>More about</summary>
 
   It enables developers to scale agentic workflows by managing multiple isolated sessions across different branches or repositories from a single dashboard.
 
@@ -410,7 +410,7 @@ Tools and platforms for coordinating multiple agents.
   `terminal-ui` `task-orchestration` `autonomous-loop` `cli-agents`
   </details>
 
-- **[AgentsMesh](https://github.com/agentsmesh/agentsmesh)** `⭐ 2.3k` `updated ≤90d` An AI agent workforce platform that allows users to schedule, isolate, and manage large fleets of AI coding agents across multiple machines from a central console. <details><summary>More about</summary>
+- **[AgentsMesh](https://github.com/agentsmesh/agentsmesh)** `⭐ 2.4k` `updated ≤90d` An AI agent workforce platform that allows users to schedule, isolate, and manage large fleets of AI coding agents across multiple machines from a central console. <details><summary>More about</summary>
 
   It enables developers to scale their productivity by running many autonomous agents in parallel across self-hosted runners without overwhelming local hardware.
 
@@ -626,7 +626,7 @@ Tools and platforms for coordinating multiple agents.
   `workflow-automation` `multi-agent` `desktop-app` `scheduling` `gui`
   </details>
 
-- **[Agentlabs](https://github.com/agentlabs-dev/agentlabs)** `⭐ 556` `updated >1y` An open-source frontend and SDK for managing AI agent authentication, chat interfaces, and analytics. <details><summary>More about</summary>
+- **[Agentlabs](https://github.com/agentlabs-dev/agentlabs)** `⭐ 557` `updated >1y` An open-source frontend and SDK for managing AI agent authentication, chat interfaces, and analytics. <details><summary>More about</summary>
 
   It offloads the heavy lifting of user management, real-time streaming, and billing so developers can focus purely on agent logic.
 
@@ -644,7 +644,7 @@ Tools and platforms for coordinating multiple agents.
   `agent-governance` `safety-kernel` `control-plane` `human-in-the-loop` `audit-trail`
   </details>
 
-- **[hcom](https://github.com/aannoo/hcom)** `⭐ 486` `updated ≤90d` A CLI tool that enables AI agents to communicate, observe, and spawn one another across different terminal sessions. <details><summary>More about</summary>
+- **[hcom](https://github.com/aannoo/hcom)** `⭐ 503` `updated ≤30d` A CLI tool that enables AI agents to communicate, observe, and spawn one another across different terminal sessions. <details><summary>More about</summary>
 
   It allows developers to build multi-agent pipelines by letting disparate CLI agents like Claude Code and Cursor exchange messages and file edits directly.
 
@@ -761,7 +761,7 @@ Tools and platforms for coordinating multiple agents.
   `self-hosted` `docker` `ai-agents` `fleet-management`
   </details>
 
-- **[amux](https://github.com/andyrewlee/amux)** `⭐ 158` `updated ≤30d` A terminal UI for running multiple coding agents in parallel using a workspace-first model with git worktrees. <details><summary>More about</summary>
+- **[amux](https://github.com/andyrewlee/amux)** `⭐ 160` `updated ≤30d` A terminal UI for running multiple coding agents in parallel using a workspace-first model with git worktrees. <details><summary>More about</summary>
 
   It allows developers to run multiple specialized agents simultaneously in isolated environments without manual terminal management.
 
@@ -774,7 +774,7 @@ Tools and platforms for coordinating multiple agents.
 
 _These are new or low-traffic entries being watched._
 
-- **[alexgreensh/outsourcerer](https://github.com/alexgreensh/outsourcerer)** `⭐ 145` `updated ≤30d` A CLI tool that orchestrates multiple AI coding agents and models by delegating tasks to specialized or cheaper engines while preserving the user's environment. <details><summary>More about</summary>
+- **[alexgreensh/outsourcerer](https://github.com/alexgreensh/outsourcerer)** `⭐ 149` `updated ≤30d` A CLI tool that orchestrates multiple AI coding agents and models by delegating tasks to specialized or cheaper engines while preserving the user's environment. <details><summary>More about</summary>
 
   It allows developers to maximize their AI subscriptions by routing repetitive or low-complexity tasks to cheaper models without losing their custom tools or MCP configurations.
 
@@ -936,7 +936,7 @@ _These are new or low-traffic entries being watched._
   `multi-agent` `orchestration` `cli` `ide-integration` `convoy`
   </details>
 
-- **[5dive](https://github.com/5dive-ai/5dive)** `⭐ 57` `updated ≤30d` 5dive is a self-hosted runtime for running multiple AI coding agents on a server, letting them collaborate via a shared task queue and org chart, with human escalation over Telegram. <details><summary>More about</summary>
+- **[5dive](https://github.com/5dive-ai/5dive)** `⭐ 58` `updated ≤30d` 5dive is a self-hosted runtime for running multiple AI coding agents on a server, letting them collaborate via a shared task queue and org chart, with human escalation over Telegram. <details><summary>More about</summary>
 
   It enables developers to run a team of autonomous agents on their own infrastructure, reducing context-switching by letting agents handle routine work and only pinging humans for decisions.
 
@@ -990,7 +990,7 @@ _These are new or low-traffic entries being watched._
   `orchestration` `distributed-systems` `agents` `python-sdk` `dag`
   </details>
 
-- **[repomon](https://github.com/alihamzaazam/repomon)** `⭐ 19` `updated ≤30d` repomon is a Rust-based terminal UI that orchestrates multiple AI coding agents like Claude Code, Codex, Aider) across many repositories and AI coding agents in parallel via tmux-backed worktrees. <details><summary>More about</summary>
+- **[repomon](https://github.com/alihamzaazam/repomon)** `⭐ 21` `updated ≤30d` repomon is a Rust-based terminal UI that orchestrates multiple AI coding agents like Claude Code, Codex, Aider) across many repositories and AI coding agents in parallel via tmux-backed worktrees. <details><summary>More about</summary>
 
   It lets developers manage fleets of AI coding agents across several projects from a single terminal session, reducing context-switching overhead.
 
@@ -1168,6 +1168,15 @@ _These are new or low-traffic entries being watched._
   _Finally, a way to make your AI coworkers double-check each other so you don’t have to — until they start verifying your verification._
 
   `orchestration` `claude-code` `multi-agent` `verification` `tmux`
+  </details>
+
+- **[AgentX](https://github.com/archemind/agentx)** `⭐ 0` `updated ≤30d` A CLI runtime manager for discovering, installing, and resuming sessions across multiple AI coding agent executables. <details><summary>More about</summary>
+
+  It provides a unified command-line interface to manage the fragmented workflows and disparate session stores of different coding agents like Claude Code and Gemini CLI.
+
+  _It solves the specific anxiety of forgetting which terminal tab contains the session where your agent actually finished the task._
+
+  `cli` `agent-orchestration` `workflow` `runtime-manager` `coding-agents`
   </details>
 
 - **[DevPilot](https://github.com/geastham/devpilot)** `⭐ 0` `updated ≤30d` A control plane and spatial planning surface designed to coordinate and monitor fleets of AI coding agents. <details><summary>More about</summary>

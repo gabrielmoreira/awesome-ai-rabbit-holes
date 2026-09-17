@@ -140,7 +140,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `awesome-list` `ai-tools` `developer-resources`
   </details>
 
-- **[Awesome-Video-Diffusion](https://github.com/showlab/awesome-video-diffusion)** `⭐ 5.7k` `updated ≤90d` A curated list of recent diffusion models for video generation, editing, restoration, and related research applications. <details><summary>More about</summary>
+- **[Awesome-Video-Diffusion](https://github.com/showlab/awesome-video-diffusion)** `⭐ 5.7k` `updated ≤180d` A curated list of recent diffusion models for video generation, editing, restoration, and related research applications. <details><summary>More about</summary>
 
   It serves as a centralized map for developers and researchers navigating the rapidly expanding ecosystem of video diffusion models and toolboxes.
 
@@ -329,7 +329,7 @@ Lists, maps, directories, and indexes for navigating AI tooling.
   `automl` `awesome-list` `research`
   </details>
 
-- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 886` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
+- **[andysingal/llm-course](https://github.com/andysingal/llm-course)** `⭐ 887` `updated ≤30d` A curated collection of LLM-related learning resources including agentic workflows, multimodal generation, and model inference. <details><summary>More about</summary>
 
   Provides a centralized starting point for developers to navigate the rapidly shifting landscape of LLM architectures and agentic patterns.
 

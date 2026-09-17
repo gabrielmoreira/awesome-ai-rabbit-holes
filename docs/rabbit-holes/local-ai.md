@@ -356,7 +356,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `local-ai` `apple-silicon` `mlx` `chat-ui` `privacy`
   </details>
 
-- **[LlamaChat](https://github.com/alexrozanski/llamachat)** `⭐ 1.5k` `updated ≤90d` A native macOS app for chatting with LLaMA, Alpaca, and GPT4All models locally on your Mac. <details><summary>More about</summary>
+- **[LlamaChat](https://github.com/alexrozanski/llamachat)** `⭐ 1.5k` `updated ≤180d` A native macOS app for chatting with LLaMA, Alpaca, and GPT4All models locally on your Mac. <details><summary>More about</summary>
 
   Lets developers run and interact with local LLMs without cloud dependencies or browser overhead.
 
@@ -392,7 +392,7 @@ Local runtimes, desktop apps, and tooling for running AI on your own hardware.
   `llm-inference` `local-ai` `performance` `cuda` `optimization`
   </details>
 
-- **[akshayaggarwal99/jarvis-ai-assistant](https://github.com/akshayaggarwal99/jarvis-ai-assistant)** `⭐ 625` `updated ≤30d` A voice-powered macOS assistant that enables local-first dictation and text manipulation using Whisper and Ollama. <details><summary>More about</summary>
+- **[akshayaggarwal99/jarvis-ai-assistant](https://github.com/akshayaggarwal99/jarvis-ai-assistant)** `⭐ 634` `updated ≤30d` A voice-powered macOS assistant that enables local-first dictation and text manipulation using Whisper and Ollama. <details><summary>More about</summary>
 
   It provides a privacy-focused, subscription-free alternative to commercial dictation tools by allowing developers to run transcription and LLM processing entirely on their own hardware.
 

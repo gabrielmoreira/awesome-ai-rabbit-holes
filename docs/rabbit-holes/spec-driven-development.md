@@ -32,7 +32,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven-development` `agent-orchestration` `workflow-automation` `ai-collaboration` `agile`
   </details>
 
-- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 24.3k` `updated ≤30d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
+- **[agents.md](https://github.com/agentsmd/agents.md)** `⭐ 24.4k` `updated ≤30d` AGENTS.md is an open file format designed to provide predictable context and instructions to AI coding agents within a repository. <details><summary>More about</summary>
 
   It attempts to standardize how developers communicate environment tips, testing requirements, and PR guidelines directly to autonomous agents.
 
@@ -104,7 +104,7 @@ Tooling where specifications are the primary artifact for planning, validation, 
   `spec-driven` `cli` `codebase-indexing` `prd` `multi-agent`
   </details>
 
-- **[FPF](https://github.com/ailev/fpf)** `⭐ 488` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
+- **[FPF](https://github.com/ailev/fpf)** `⭐ 494` `updated ≤30d` A pattern language and core specification designed to bring explicit reasoning, auditability, and structure to complex engineering and human-AI collaborative work. <details><summary>More about</summary>
 
   It provides a formal framework to prevent complex multi-agent or human-AI projects from devolving into incoherent, unreviewable conversational loops.
 
@@ -162,7 +162,7 @@ _These are new or low-traffic entries being watched._
   `mcp` `human-in-the-loop` `audit-trail` `governance` `protocol`
   </details>
 
-- **[alfredoperez/speckit-companion](https://github.com/alfredoperez/speckit-companion)** `⭐ 89` `updated ≤30d` VS Code extension for managing and reviewing the specifications used to steer AI coding agents. <details><summary>More about</summary>
+- **[alfredoperez/speckit-companion](https://github.com/alfredoperez/speckit-companion)** `⭐ 90` `updated ≤30d` VS Code extension for managing and reviewing the specifications used to steer AI coding agents. <details><summary>More about</summary>
 
   It provides a dedicated workspace to oversee the spec lifecycle, ensuring AI agents follow precise plans instead of drifting into incorrect implementations.
 
@@ -252,7 +252,7 @@ _These are new or low-traffic entries being watched._
   `spec-driven-development` `ai-collaboration` `team-alignment` `mcp` `spec-writing`
   </details>
 
-- **[mmorris35/devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 6` `updated ≤90d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code. <details><summary>More about</summary>
+- **[mmorris35/devplan-mcp-server](https://github.com/mmorris35/devplan-mcp-server)** `⭐ 6` `updated ≤180d` An MCP server that generates detailed, agent-executable development plans, roadmaps, and task breakdowns specifically for Claude Code. <details><summary>More about</summary>
 
   It enforces a structured spec-first workflow by turning vague project ideas into validated, copy-pasteable implementation plans with built-in progress tracking.
 

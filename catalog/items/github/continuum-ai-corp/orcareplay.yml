@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/continuum-ai-corp/orcareplay
         surrounding_text: "- **[OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** `⭐ 236` — Records a coding-agent run and replays it offline with the network off, or forks it from any checkpoint onto a different model. Capture sits below the harness — shell exit codes, per-turn file changes and MCP calls land on the same timeline as the model traffic — so it also records agents with no base URL to change, via TLS interception on a host allowlist."
         confidence: high
+    - id: discovery__github__continuum-ai-corp__orcareplay__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-17T04:13:23.413Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 💻 Developer Tools
+        anchor_text: Continuum-AI-Corp/OrcaReplay
+        extracted_url: https://github.com/continuum-ai-corp/orcareplay
+        surrounding_text: "-   **[Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)** [![GitHub stars](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay?style=social)](https://github.com/Continuum-AI-Corp/OrcaReplay): Exposes recorded coding-agent runs so an agent can read what an earlier run really sent, ran and changed, replay it offline with the network off, or fork it from a checkpoint onto a different model."
+        confidence: high
 metadata:
   github:
     stars: 243
@@ -81,7 +97,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-09-14T04:13:20.173Z"
+    updated_at: "2026-09-17T04:13:23.414Z"
     cause: null
     next_retry_at: null
   stars:

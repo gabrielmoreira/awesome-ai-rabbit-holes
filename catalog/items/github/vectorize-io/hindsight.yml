@@ -52,6 +52,22 @@ provenance:
         extracted_url: https://github.com/vectorize-io/hindsight
         surrounding_text: "| [Hindsight](https://github.com/vectorize-io/hindsight) | 20,007 | Python | MIT | 2026-08 | Agent memory with retain, recall and reflect |"
         confidence: high
+    - id: discovery__github__vectorize-io__hindsight__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-17T04:13:23.413Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 🧠 Knowledge & Memory
+        anchor_text: vectorize-io/hindsight
+        extracted_url: https://github.com/vectorize-io/hindsight
+        surrounding_text: "-   **[vectorize-io/hindsight](https://github.com/vectorize-io/hindsight)** [![GitHub stars](https://img.shields.io/github/stars/vectorize-io/hindsight?style=social)](https://github.com/vectorize-io/hindsight): State-of-the-art long-term memory for AI agents by Vectorize, with retain/recall/reflect operations, multiple retrieval strategies, and an [MCP server integration](https://hindsight.vectorize.io/integrations). Open source and fully self-hostable."
+        confidence: high
 metadata:
   github:
     stars: 18649
@@ -99,7 +115,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-08-17T04:19:08.742Z"
+    updated_at: "2026-09-17T04:13:23.414Z"
     cause: null
     next_retry_at: null
   stars:

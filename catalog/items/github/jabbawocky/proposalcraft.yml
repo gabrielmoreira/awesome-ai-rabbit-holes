@@ -22,6 +22,22 @@ provenance:
         extracted_url: https://github.com/jabbawocky/proposalcraft
         surrounding_text: "- [jabbawocky/proposalcraft](https://github.com/jabbawocky/proposalcraft) [![jabbawocky/proposalcraft MCP server](https://glama.ai/mcp/servers/jabbawocky/proposalcraft/badges/score.svg)](https://glama.ai/mcp/servers/jabbawocky/proposalcraft) 📇 🏠 🍎 🪟 🐧 - MCP server that drafts client proposals in your own voice. Save 2-3 of your winning proposals, paste a new brief, and Claude generates a ready-to-send draft. No API key, no cloud — local storage only. `npx -y github:jabbawocky/proposalcraft`"
         confidence: high
+    - id: discovery__github__jabbawocky__proposalcraft__awesome-list__mobinx__awesome-mcp-list
+      discovered_at: "2026-09-17T04:13:23.413Z"
+      source:
+        type: awesome-list
+        name: MobinX/awesome-mcp-list
+        url: https://github.com/mobinx/awesome-mcp-list
+        repository: MobinX/awesome-mcp-list
+      extraction:
+        mode: parsed
+        section_path:
+          - Contributing
+          - 🎯 Marketing
+        anchor_text: jabbawocky/proposalcraft
+        extracted_url: https://github.com/jabbawocky/proposalcraft
+        surrounding_text: "-   **[jabbawocky/proposalcraft](https://github.com/jabbawocky/proposalcraft)** [![GitHub stars](https://img.shields.io/github/stars/jabbawocky/proposalcraft?style=social)](https://github.com/jabbawocky/proposalcraft): Drafts client proposals in your voice from a brief — analyze scope risks, draft using your saved examples as style reference, review before sending, generate a formal Scope of Work, and write non-pushy follow-ups. 11 tools, local-only, no API key."
+        confidence: high
 metadata:
   github:
     stars: 2
@@ -83,7 +99,7 @@ lifecycle:
 processing:
   discover:
     status: done
-    updated_at: "2026-06-22T05:53:30.456Z"
+    updated_at: "2026-09-17T04:13:23.415Z"
     cause: null
     next_retry_at: null
   stars:
